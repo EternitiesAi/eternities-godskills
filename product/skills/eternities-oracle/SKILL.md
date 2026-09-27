@@ -22,6 +22,8 @@ Oracle is the multi-source research route. It chooses the smallest evidence path
 4. Seek disconfirming evidence proportional to the stakes. Comparative claims need a named baseline and matched conditions; current claims need current evidence; absence claims need coverage.
 5. Return verified, unverified, rejected, and deferred findings, with conflicts and uninspected surfaces named explicitly.
 
+For a question about who authored, reviewed, approved, or challenged a specific artifact, use the **DRAFT artifact-role evidence method (content v2)** in [methods.md](references/methods.md). Bind every role claim to the exact selected artifact/version. A formal approver claim requires a completed act attributed to that person whose object is that artifact/version; approving access to inspect it, a request to create or change it, or its distribution is a different act and does not establish artifact approval. This is a planning and evidence-review method, not an enterprise connector or permission to inspect private sources, and it grants no source access or copy, retention, or reuse rights.
+
 ## Deliverable and finish
 
 Return the verdict, source ledger, evidence map, uncertainty, conflicts, rejected claims, refresh targets, and exact next decision. Research may produce local notes or implementation-ready evidence; it does not silently perform the operational change those notes describe. The local, authoritative, and hybrid templates are in [methods.md](references/methods.md).

@@ -31,3 +31,9 @@ Return a continuity packet, memory design, audit ledger, budget report, or depen
 A recovered state or dependency graph is a checkpoint when the user also requested the next authorized repository or memory operation. Continue to that operation and verify its receipt without asking for permission already carried by the task. Pause only for identity mismatch, missing authority, or material freshness, privacy, or evidence risk.
 
 Example: recover the current dependency edge and its freshness, update the authorized graph record, and run the changed-edge fixture before returning the compact checkpoint.
+
+## Local evidence-base lifecycle method (DRAFT)
+
+This method content is DRAFT and applies only when a task names a particular repository-local evidence or decision collection and asks to recover, compare, or preserve its records. Ordinary file/path lookup and repository search remain ordinary retrieval work; they do not become lifecycle work because a query mentions a local archive, policy, or evidence. Hosted-vendor research and general product or documentation work remain separate. This content does not modify Mnemosyne's existing discovery metadata or established routes.
+
+The method card in [methods.md](references/methods.md#local-evidence-base-lifecycle-draft) defines source authorization and snapshots, freshness and conflict handling, scoped preservation, and separate adoption.

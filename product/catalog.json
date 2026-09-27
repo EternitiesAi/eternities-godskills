@@ -1154,11 +1154,11 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-logos/SKILL.md",
-      "entrypointSha256": "d328744d143ac0ed336be2c185cf8b4c08863fd2791f334287c66855990f36f7",
+      "entrypointSha256": "a215da7877c4ef33e83796209488dcf5b390bf1f91b38098ba47d1c89a8f11d2",
       "resources": [
         {
           "path": "skills/eternities-logos/references/methods.md",
-          "sha256": "6599f2d5d8f4453e275942de2e25da2f509be69326f58b69c6cc56bb6cacd61c"
+          "sha256": "a79d6f724763afab227f6d9d347b2dad51031eefa1303284466df2eda8492ce3"
         }
       ]
     },
@@ -1195,11 +1195,11 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-mnemosyne/SKILL.md",
-      "entrypointSha256": "79e17d268855dde0077a3a420d3379004d0cd20ade4f02c416b4b5a3c070ff8b",
+      "entrypointSha256": "43f83b2332ca21e65fa6b640a8489fe03c7ee58b8d5e1f1435ae31b027e32988",
       "resources": [
         {
           "path": "skills/eternities-mnemosyne/references/methods.md",
-          "sha256": "f9c99fe447b2e8a2b790c79f1a55ce438c0108efbf285d6a698e878b81b9579e"
+          "sha256": "9b3bff3a805b833a4e3d72495382efab8b99e31a0719178a17f03ed4aca02d86"
         }
       ]
     },
@@ -1321,11 +1321,11 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-oracle/SKILL.md",
-      "entrypointSha256": "f946be1fbacbef621bc1a3ba38e3c42ea5479ce6333d23003a088e06275db450",
+      "entrypointSha256": "796145f66a4f5d9cacadd55319e541234db9b7ac3b4d704f8b7411c949fce4cd",
       "resources": [
         {
           "path": "skills/eternities-oracle/references/methods.md",
-          "sha256": "67c68f78cc00942677e801a4406cc440d738fa9454bad914a5efd94c95c1cf1f"
+          "sha256": "ab1f3e8a23fa5929bcf8d25c119e25a275ffc752a119eb37cc9e9da78d339950"
         }
       ]
     },

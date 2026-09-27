@@ -103,8 +103,12 @@ or application reload. File installation alone does not prove UI discovery.
 
 ## What the evidence means
 
-- **Instruction-reviewed:** methods have been rewritten and reviewed for the
-  documented scope. This is the default maturity of this release.
+- **Instruction-reviewed:** the established skill route has been rewritten and
+  reviewed for its documented scope. This is the default skill-level maturity
+  label of this release. A method explicitly marked DRAFT remains a proposal
+  until separately reviewed and accepted. Bundling a DRAFT reference does not
+  upgrade it; it does not imply automatic selection, source rights, or
+  operational validation.
 - **Package-tested:** executable tests check catalog behavior, portable paths,
   byte identity, installation and rollback. These test software, not expertise.
 - **Agent exercise:** an actual agent uses a fixed skill snapshot on a recorded
