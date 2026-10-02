@@ -1,0 +1,11 @@
+# Reader v3 scoped parent acceptance
+
+The Sol non-author review was sealed READY at 14:56:09 UTC and returned an explicit terminal handoff. Its receipt is `a42bbb7f59dd42f5f92eb3d05ef20c5d7b0e50495bf4b65432aa287a8cb23072`, report `40ec934ea185b43ba3964d162c8cb6df57eb0960166f9095775bc109fd4c2455`. Parent independently rehashed 55 source/output/read-set bindings and the receipt sidecar. The exact candidate reader remains `8c5b5a5d17ff02e42019e1ee75cb66ab962253563424800751c1b794f9ee1597`; the author receipt remains `1674a17dd9f5513685f11dfc163fd79a69087ac2f2f52a32373622f66c5d9f4d`.
+
+Parent replay of the original 12, six duplicate/snapshot regressions, nine independent boundaries and four sparse controls passed 31 executions. Two additional direct probes verified sparse saved state holds before either callback, and a sparse returned page holds after one read and before commit while retaining the prior checkpoint. The six accepted executable/contract/test files were copied exactly to `examples/task-feed-reader`; their relocated test command again passed 31 executions. No method body or portable-pack release was changed.
+
+The older v1/v2 candidates, parent counterexamples and v2 independent REPAIR remain immutable. Independent N1 is preserved: the nine-case suite does not contain dense-undefined controls; those are separately verified in the four-case sparse suite and direct replay. No failed evidence was reformatted, discarded or attributed as a pass.
+
+Acceptance is for the declared synthetic, local, structured-cloneable fixture contract only. It is not live-service/storage/credential qualification, hostile-proxy safety, callback wall-clock boundedness, universal method performance or whole-corpus completion. Compact sealed review evidence is published; complete historical source/test-copy packets remain locally preserved rather than installed or made executable policy.
+
+All 17 initially staged example/review/parent-record files matched their working/index bytes. Git's generic whitespace check flagged only the intentional single-space empty context lines in the two sealed unified patches (`reader-v2-to-v3.patch` and `test-copy-import-only.patch`). Those evidence bytes are preserved; every other staged path passes the scoped whitespace check.

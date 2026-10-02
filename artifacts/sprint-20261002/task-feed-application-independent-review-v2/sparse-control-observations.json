@@ -1,0 +1,141 @@
+{
+  "nodeVersion": "v24.18.0",
+  "observations": [
+    {
+      "revision": "v2",
+      "placement": "saved",
+      "shape": "sparse",
+      "inputOwnIndex0": false,
+      "status": null,
+      "reason": null,
+      "resultState": null,
+      "error": {
+        "name": "TypeError",
+        "message": "Cannot read properties of undefined (reading 'id')"
+      },
+      "reads": 0,
+      "commits": 0,
+      "inputStateUnchanged": true,
+      "inputPageUnchanged": true
+    },
+    {
+      "revision": "v2",
+      "placement": "saved",
+      "shape": "dense-undefined",
+      "inputOwnIndex0": true,
+      "status": "HOLD",
+      "reason": "invalid-state",
+      "resultState": {
+        "cursor": null,
+        "events": []
+      },
+      "error": null,
+      "reads": 0,
+      "commits": 0,
+      "inputStateUnchanged": true,
+      "inputPageUnchanged": true
+    },
+    {
+      "revision": "v2",
+      "placement": "page",
+      "shape": "sparse",
+      "inputOwnIndex0": false,
+      "status": null,
+      "reason": null,
+      "resultState": null,
+      "error": {
+        "name": "TypeError",
+        "message": "Cannot read properties of undefined (reading 'id')"
+      },
+      "reads": 1,
+      "commits": 0,
+      "inputStateUnchanged": true,
+      "inputPageUnchanged": true
+    },
+    {
+      "revision": "v2",
+      "placement": "page",
+      "shape": "dense-undefined",
+      "inputOwnIndex0": true,
+      "status": "HOLD",
+      "reason": "malformed-event",
+      "resultState": {
+        "cursor": "saved",
+        "events": []
+      },
+      "error": null,
+      "reads": 1,
+      "commits": 0,
+      "inputStateUnchanged": true,
+      "inputPageUnchanged": true
+    },
+    {
+      "revision": "v3",
+      "placement": "saved",
+      "shape": "sparse",
+      "inputOwnIndex0": false,
+      "status": "HOLD",
+      "reason": "invalid-state",
+      "resultState": {
+        "cursor": null,
+        "events": []
+      },
+      "error": null,
+      "reads": 0,
+      "commits": 0,
+      "inputStateUnchanged": true,
+      "inputPageUnchanged": true
+    },
+    {
+      "revision": "v3",
+      "placement": "saved",
+      "shape": "dense-undefined",
+      "inputOwnIndex0": true,
+      "status": "HOLD",
+      "reason": "invalid-state",
+      "resultState": {
+        "cursor": null,
+        "events": []
+      },
+      "error": null,
+      "reads": 0,
+      "commits": 0,
+      "inputStateUnchanged": true,
+      "inputPageUnchanged": true
+    },
+    {
+      "revision": "v3",
+      "placement": "page",
+      "shape": "sparse",
+      "inputOwnIndex0": false,
+      "status": "HOLD",
+      "reason": "malformed-event",
+      "resultState": {
+        "cursor": "saved",
+        "events": []
+      },
+      "error": null,
+      "reads": 1,
+      "commits": 0,
+      "inputStateUnchanged": true,
+      "inputPageUnchanged": true
+    },
+    {
+      "revision": "v3",
+      "placement": "page",
+      "shape": "dense-undefined",
+      "inputOwnIndex0": true,
+      "status": "HOLD",
+      "reason": "malformed-event",
+      "resultState": {
+        "cursor": "saved",
+        "events": []
+      },
+      "error": null,
+      "reads": 1,
+      "commits": 0,
+      "inputStateUnchanged": true,
+      "inputPageUnchanged": true
+    }
+  ]
+}

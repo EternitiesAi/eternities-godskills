@@ -1,0 +1,118 @@
+{
+  "schema": "godskills.process-observer-application-independent-observations/v2",
+  "stage": "SEALED_INDEPENDENT_NARROW_REVIEW",
+  "verdict": "READY_NARROW_SYNTHETIC_LOCAL_SCOPE",
+  "candidate": {
+    "root": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/process-observer-application-v2",
+    "receiptSha256": "9bf8ca0446dc09beba4bea723ce706956f94b9d993bdc4c964b8f830f848daba",
+    "observerSha256": "6a9857249134508fccbe64c42b9862dc20dae237b68aae107b2f60b886add1f7",
+    "candidateAuthor": "Copernicus",
+    "reviewerAuthoredCandidate": false
+  },
+  "priorRepair": {
+    "receiptSha256": "9339ce7e1aaa0d3063671a17457293a5d19a3fb2301fc3a08e54e4f4001ef369",
+    "finding": "Non-enumerable own shell option passed Object.keys(options) validation and launched the fixed child, contrary to deadline-only prelaunch refusal. Actual child remained fixed with shell:false."
+  },
+  "environment": {
+    "osFamily": "Windows",
+    "shell": "PowerShell 7.6.5",
+    "node": "v24.18.0",
+    "network": false,
+    "providerCalls": 0,
+    "acquiredCode": 0
+  },
+  "semanticComparison": {
+    "observerChange": "Object.keys(options) -> Reflect.ownKeys(options) for the deadline-only option allowlist",
+    "normalizedV2EqualsV1": true,
+    "replacementOccurrences": 1,
+    "v1FixtureSha256": "dde615da2bc99c9bed197637fb1c963d40f6455b925225684d5c74b68bcbb1e7",
+    "v2FixtureSha256": "dde615da2bc99c9bed197637fb1c963d40f6455b925225684d5c74b68bcbb1e7",
+    "fixtureUnchanged": true,
+    "launchSettingsUnchanged": true,
+    "ownKeyTestDelta": "One appended observer test rejects non-enumerable own shell string and Symbol keys.",
+    "independentTestDelta": "Only import path changed from v1 observer to v2 observer."
+  },
+  "freshTestRun": {
+    "command": "node --test tests\\observer.test.mjs tests\\independent-boundaries.test.mjs",
+    "tests": 14,
+    "passed": 14,
+    "failed": 0,
+    "skipped": 0,
+    "cancelled": 0,
+    "exitCode": 0
+  },
+  "freshCases": [
+    {
+      "id": "C1-concurrent-isolation",
+      "successInvocationId": "dd1fa47c-e9c3-4993-b6a1-f7f3298a26aa",
+      "adversarialInvocationId": "a8933a38-2d35-4606-b7f3-85b675d52822",
+      "uniqueIds": true,
+      "directChildrenSettled": true,
+      "adversarialRejectedEvents": 4,
+      "expectedArtifactBytesMatch": true
+    },
+    {
+      "id": "C2-deadline-snapshot",
+      "invocationId": "fb09cb19-db11-498e-9534-dbf77ff5178d",
+      "initialDeadlineMs": 75,
+      "callerMutationMs": 5000,
+      "observedDeadlineMs": 75,
+      "lifecycle": "timed-out",
+      "terminationRequested": true,
+      "directChildSettled": true,
+      "progress": "unconfirmed",
+      "applicationValidation": "unknown"
+    },
+    {
+      "id": "C3-lower-bound-refusal",
+      "deadlineMs": 49,
+      "errorCode": "ERR_INVALID_OPTIONS"
+    },
+    {
+      "id": "C4-hidden-string-refusal",
+      "ownKey": "shell",
+      "enumerable": false,
+      "errorCode": "ERR_INVALID_OPTIONS",
+      "resultReturned": false
+    }
+  ],
+  "independentPrelaunchProbe": {
+    "hiddenOwnStringShell": {
+      "rejected": true,
+      "errorCode": "ERR_INVALID_OPTIONS",
+      "observedSpawnCalls": 0
+    },
+    "hiddenOwnSymbol": {
+      "rejected": true,
+      "errorCode": "ERR_INVALID_OPTIONS",
+      "observedSpawnCalls": 0
+    },
+    "spawnFunctionRestored": true
+  },
+  "fixedLaunch": {
+    "executable": "process.execPath",
+    "script": "candidate packet fixtures/controlled-child.mjs",
+    "arguments": "[fixturePath, allowlisted mode, invocationId]",
+    "cwd": "fixtureDirectory",
+    "environment": "SystemRoot if present, TEMP/TMP if present; no inherited full environment",
+    "shell": false,
+    "windowsHide": true,
+    "stdio": ["ignore", "pipe", "pipe"],
+    "arbitraryExecutableOrShellOrCwdOrEnvOrArgsOverrides": false
+  },
+  "limits": [
+    "Fixed benign Node fixture only; not a general process supervisor or arbitrary command runner.",
+    "Direct-child settlement only; descendants, external resources, and external-effect cleanup are unobserved.",
+    "No full suite, product integration, production, or cross-platform qualification.",
+    "Proxies/accessors, inherited options, spawn/pipe failures, failed termination, grace expiry, and excessive progress output were not tested."
+  ],
+  "ownership": {
+    "candidateEdits": 0,
+    "historicalEdits": 0,
+    "productEdits": 0,
+    "reviewWritesOnly": "artifacts/sprint-20261002/process-observer-application-independent-review-v2",
+    "childAgentsSpawned": 0,
+    "arbitraryChildProgramsLaunched": 0,
+    "applicationChildrenFromCandidateTests": "Only the candidate's fixed first-party fixture path and allowlisted modes."
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "schema": "independent-review-readset.v1",
+  "candidateRoot": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-v3",
+  "previousReviewRoot": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-independent-review-v1",
+  "files": [
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-acceptance-v1.md",
+      "sha256": "e69bb297ba3f99a2fa6089ea0ae808fbbc1d811ad877809ccd6bc0f58e3b7cc0",
+      "bytes": 3663,
+      "inspection": "full, fresh re-review"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-independent-review-v1/counterexamples.json",
+      "sha256": "ee090942dccdab04f902898cdaee00fdaae1e3d7a4793a1153adc5c062d2d940",
+      "bytes": 3121,
+      "inspection": "prior scoped record or copy identity"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-independent-review-v1/independent-boundaries.test.mjs",
+      "sha256": "30dc4a6c21b725b09e0c5e9695cfdb51ffc0345bf9fb09bc855d043807cbcbe8",
+      "bytes": 6638,
+      "inspection": "full source, exact replay copy"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-independent-review-v1/original12-against-v2.test.mjs",
+      "sha256": "ad53605cbea72a0fd688e1c9e2af63f013d642a4bad7983467e4e691f055f974",
+      "bytes": 13548,
+      "inspection": "prior scoped record or copy identity"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-independent-review-v1/original12-import-only.patch",
+      "sha256": "abeabdaa515c9fa781fedf949c8fc5d0f09d08d3087c5c9f4119161a273b7712",
+      "bytes": 250,
+      "inspection": "immutable v2 review binding check"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-independent-review-v1/readset.json",
+      "sha256": "8ceed428e872db9af120f4d6165a1fc1ca6f68ca2ab50efd46eaf5c394e914e2",
+      "bytes": 4590,
+      "inspection": "immutable v2 review binding check"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-independent-review-v1/receipt.json",
+      "sha256": "f219c94c070b031e6ea0fc1025a3814a606b355a346b62bf3dd0d02874770f7e",
+      "bytes": 12054,
+      "inspection": "full"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-independent-review-v1/receipt.sha256",
+      "sha256": "c4db11149c4b13cf220d4c0049dd29504a26f1b35a2c9d0d91b1be240f56a59a",
+      "bytes": 79,
+      "inspection": "checksum"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-independent-review-v1/review.md",
+      "sha256": "956d384b77842b1f88cc3c5e66cad3944fb75c09ba235d26ce88eef308fd4657",
+      "bytes": 8337,
+      "inspection": "full, fresh re-review"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-independent-review-v1/test-results.md",
+      "sha256": "ec725e7a0a295f2d1bd494c36b2ccf3fc17df95ee9cd05bcf7cf59b7e4aa62fc",
+      "bytes": 3699,
+      "inspection": "prior scoped record or copy identity"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-parent-counterexample-v1.md",
+      "sha256": "9a57bf367642823280c0fa2ccad218b234307495fad862947fe0a23a7f47adbe",
+      "bytes": 2714,
+      "inspection": "full, fresh re-review"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-v1/fixture-contract.md",
+      "sha256": "2355d2036fa2c4da1326c4124c0ac0f4e08a1141f8be40fae3f9a74086492dec",
+      "bytes": 3359,
+      "inspection": "historical identity"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-v1/reader.mjs",
+      "sha256": "53bd42d6787e1d804b62e67d6527110d9938d7fc50e3ea0b2e64a9ec32a4850d",
+      "bytes": 8633,
+      "inspection": "historical identity"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-v1/reader.test.mjs",
+      "sha256": "2c7dfba509abd67f67959534dd760a1eeb9e62a3079ecbafef3d5e43660b24b3",
+      "bytes": 13522,
+      "inspection": "prior scoped record or copy identity"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-v1/receipt.json",
+      "sha256": "529a69806ad2729bf8d0b7de152adc389231b512ce25e3dc28531fbe8ad6de67",
+      "bytes": 3141,
+      "inspection": "historical identity"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-v1/report.md",
+      "sha256": "9a213a3a89bb10152457723061c753395a44c201420d41f68450db6837b6af59",
+      "bytes": 3010,
+      "inspection": "historical identity"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-v1/verification.md",
+      "sha256": "9a8c6906c74f7ab06d70d3bce35be71767e18bd8a8a1bb267f3f961da791f892",
+      "bytes": 2244,
+      "inspection": "historical identity"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-v2/fixture-contract.md",
+      "sha256": "497e5b902a802c24cfbe4a1c85f3e21b3f2857f23171fdb601ccccf7a942723e",
+      "bytes": 2960,
+      "inspection": "prior scoped record or copy identity"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-v2/reader.mjs",
+      "sha256": "7bc7d3e73ae5d32e394f861d41e93cf22ce0885922ca554f1f1c5d3a235772d8",
+      "bytes": 9600,
+      "inspection": "prior scoped record or copy identity"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-v2/reader.test.mjs",
+      "sha256": "c9ec2fb51dc842ca727c71037d216d1426b2d0b183e4f9384647357ecd14d8d5",
+      "bytes": 5626,
+      "inspection": "full source, exact replay copy"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-v2/receipt.json",
+      "sha256": "0d2393f4443182ab948f8cc8b093f9301068ebc3b91b31762424b3ab42c46c0f",
+      "bytes": 4703,
+      "inspection": "historical identity"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-v2/report.md",
+      "sha256": "686b7ab4a250e92dd82644e9f1b9587fe0083a378ce7ede97b44caca4259c99d",
+      "bytes": 2762,
+      "inspection": "historical identity"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-v2/verification.md",
+      "sha256": "ee8bcdbb665ddc570a6eeb06186b308873ddb974b302074dc4b8b87eb05ccbbf",
+      "bytes": 2563,
+      "inspection": "historical identity"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-v3/fixture-contract.md",
+      "sha256": "2360cd70036fc98af92da55dc2b95c94d89460f2b28dda73f51b5093ebaab900",
+      "bytes": 2141,
+      "inspection": "full, fresh re-review"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-v3/independent-boundaries-against-v3.test.mjs",
+      "sha256": "0210922fb74a1793db649e8a320122578ac4626eeb79e050a3b22eaa0a679a92",
+      "bytes": 6612,
+      "inspection": "copy identity"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-v3/original12-against-v3.test.mjs",
+      "sha256": "2c7dfba509abd67f67959534dd760a1eeb9e62a3079ecbafef3d5e43660b24b3",
+      "bytes": 13522,
+      "inspection": "copy identity"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-v3/reader.mjs",
+      "sha256": "8c5b5a5d17ff02e42019e1ee75cb66ab962253563424800751c1b794f9ee1597",
+      "bytes": 9833,
+      "inspection": "full, fresh re-review"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-v3/receipt.json",
+      "sha256": "1674a17dd9f5513685f11dfc163fd79a69087ac2f2f52a32373622f66c5d9f4d",
+      "bytes": 9293,
+      "inspection": "full, fresh re-review"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-v3/receipt.sha256",
+      "sha256": "72feb9191b5b4c8504a9a22490cc77cc5e2f18985aa9e34384211d519c2bfd85",
+      "bytes": 79,
+      "inspection": "checksum"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-v3/report.md",
+      "sha256": "f228e847139dfcc4f09aadd369cd36e788de31adebd492337b63ea03ba0df88c",
+      "bytes": 2130,
+      "inspection": "full, fresh re-review"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-v3/sparse-regressions.test.mjs",
+      "sha256": "87cfd7d23c912a6ea42f67013f5398a066ef143561d5ff80900de2000f4b197b",
+      "bytes": 3779,
+      "inspection": "full, fresh re-review"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-v3/v2-regressions-against-v3.test.mjs",
+      "sha256": "c9ec2fb51dc842ca727c71037d216d1426b2d0b183e4f9384647357ecd14d8d5",
+      "bytes": 5626,
+      "inspection": "copy identity"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-v3/verification.md",
+      "sha256": "7ea3ec121dba30a6611ee22ade698da1ee593e5c2ff3adcf87b7e1f42aa9ac97",
+      "bytes": 4450,
+      "inspection": "full, fresh re-review"
+    },
+    {
+      "path": "C:/Users/Dom/.agents/skills/invariant-guard/SKILL.md",
+      "sha256": "660357745a6d16fb81b5a98d12c3361a5d22a826a29858be0dbc9020b24f593f",
+      "bytes": 3131,
+      "inspection": "full"
+    },
+    {
+      "path": "C:/Users/Dom/.agents/skills/semantic-implementation-diff/SKILL.md",
+      "sha256": "9d790f26786f711482d0b2cb6b460d80d56099492a60e9686092b73f7553ab77",
+      "bytes": 2929,
+      "inspection": "full"
+    }
+  ],
+  "inspectionNote": "Historical identity checks do not claim fresh semantic re-review. The original 12 assertions were read in the sealed prior review and mechanically preserved for this replay."
+}

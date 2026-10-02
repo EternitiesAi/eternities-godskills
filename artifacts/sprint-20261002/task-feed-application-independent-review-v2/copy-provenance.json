@@ -1,0 +1,32 @@
+[
+  {
+    "source": "artifacts/sprint-20261002/task-feed-application-v1/reader.test.mjs",
+    "destination": {
+      "path": "original12-against-v3.test.mjs",
+      "sha256": "1dfc0d46e1b9b7094c80bd9c9b52bf23334eabb845f4954dc12e130f5d35c4e5",
+      "bytes": 13548
+    },
+    "sourceSha256": "2c7dfba509abd67f67959534dd760a1eeb9e62a3079ecbafef3d5e43660b24b3",
+    "difference": "one import location only"
+  },
+  {
+    "source": "artifacts/sprint-20261002/task-feed-application-v2/reader.test.mjs",
+    "destination": {
+      "path": "v2-six-against-v3.test.mjs",
+      "sha256": "c9ec2fb51dc842ca727c71037d216d1426b2d0b183e4f9384647357ecd14d8d5",
+      "bytes": 5626
+    },
+    "sourceSha256": "c9ec2fb51dc842ca727c71037d216d1426b2d0b183e4f9384647357ecd14d8d5",
+    "difference": "byte identical; execution environment selects v3"
+  },
+  {
+    "source": "artifacts/sprint-20261002/task-feed-application-independent-review-v1/independent-boundaries.test.mjs",
+    "destination": {
+      "path": "independent-nine-against-v3.test.mjs",
+      "sha256": "afa465198203e36fa2bfa16b52f6620259ee05a4555f0ed858ae1d08ba32d75e",
+      "bytes": 6638
+    },
+    "sourceSha256": "30dc4a6c21b725b09e0c5e9695cfdb51ffc0345bf9fb09bc855d043807cbcbe8",
+    "difference": "one import location only"
+  }
+]

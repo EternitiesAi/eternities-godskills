@@ -1,0 +1,45 @@
+diff --git a/artifacts/sprint-20261002/task-feed-application-v2/reader.mjs b/artifacts/sprint-20261002/task-feed-application-v3/reader.mjs
+index df74fcc..6f323d0 100644
+--- a/artifacts/sprint-20261002/task-feed-application-v2/reader.mjs
++++ b/artifacts/sprint-20261002/task-feed-application-v3/reader.mjs
+@@ -8,6 +8,13 @@ const validEvent = (event) => event !== null
+   && typeof event.id === 'string'
+   && event.id.length > 0
+   && has(event, 'payload');
++const validEventArray = (events) => {
++  if (!Array.isArray(events)) return false;
++  for (let index = 0; index < events.length; index += 1) {
++    if (!has(events, index) || !validEvent(events[index])) return false;
++  }
++  return true;
++};
+ const copyEvent = (event) => structuredClone(event);
+ const validCursor = (cursor) => cursor === null || typeof cursor === 'string';
+ const copyState = (state) => ({
+@@ -27,7 +34,7 @@ function preflight({ taskId, state, contract, readPage, commit, limits, authorit
+   if (!state || typeof state !== 'object' || Array.isArray(state)
+       || !has(state, 'cursor') || state.cursor === undefined
+       || !validCursor(state.cursor)
+-      || !Array.isArray(state.events) || !state.events.every(validEvent)) {
++      || !Array.isArray(state.events) || !validEventArray(state.events)) {
+     return 'invalid-state';
+   }
+ 
+@@ -99,7 +106,7 @@ export async function readNewTaskMessages({
+   if (invalid) {
+     const safeState = state && typeof state === 'object'
+       && has(state, 'cursor') && Array.isArray(state.events)
+-      && state.events.every(validEvent)
++      && validEventArray(state.events)
+       ? state
+       : { cursor: null, events: [] };
+     return result('HOLD', invalid, safeState, { pagesRead: 0, eventsAcknowledgedByAdapter: 0, duplicatesIgnored: 0 });
+@@ -146,7 +153,7 @@ export async function readNewTaskMessages({
+         duplicatesIgnored
+       });
+     }
+-    if (!page.events.every(validEvent)) {
++    if (!validEventArray(page.events)) {
+       return result('HOLD', 'malformed-event', knownState, {
+         pagesRead,
+         eventsAcknowledgedByAdapter,

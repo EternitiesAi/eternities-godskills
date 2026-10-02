@@ -1,0 +1,46 @@
+{
+  "schema": "godskills.process-observer-application-independent-review-receipt/v2",
+  "stage": "SEALED_INDEPENDENT_NARROW_REVIEW",
+  "verdict": "READY_NARROW_SYNTHETIC_LOCAL_SCOPE",
+  "reviewerAuthoredCandidate": false,
+  "candidate": {
+    "root": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/process-observer-application-v2",
+    "receiptSha256": "9bf8ca0446dc09beba4bea723ce706956f94b9d993bdc4c964b8f830f848daba",
+    "observerSha256": "6a9857249134508fccbe64c42b9862dc20dae237b68aae107b2f60b886add1f7",
+    "v1ObserverSha256": "df219eec8efd25d1eb37f71b49f5190d115ebc4a1b02471a72d253561ccb9cd9",
+    "integrationBase": "84792f9e46b3b6511e7f3c5400dd840a4d658346"
+  },
+  "priorSolRepair": {
+    "receiptSha256": "9339ce7e1aaa0d3063671a17457293a5d19a3fb2301fc3a08e54e4f4001ef369",
+    "reviewSha256": "74e05ce5ad0ca51e911cf589f616463e0856b5f6969a3a72b5adb10c3e740636",
+    "finding": "Object.keys omitted non-enumerable own string keys; caller control was accepted and the fixed child launched."
+  },
+  "environment": { "node": "v24.18.0", "shell": "PowerShell 7.6.5", "platform": "Windows" },
+  "execution": {
+    "command": "node --test tests\\observer.test.mjs tests\\independent-boundaries.test.mjs",
+    "tests": 14,
+    "passed": 14,
+    "failed": 0,
+    "skipped": 0,
+    "cancelled": 0,
+    "exitCode": 0,
+    "syntaxChecks": 4,
+    "hiddenStringAndSymbolPrelaunchProbe": { "eachRejected": true, "spawnCallsForEach": 0 }
+  },
+  "outputs": [
+    { "path": "review.md", "sha256": "a0ae960eb6c0b40c5ed9597e81fbd31faad00834ac8fef03d6a97ecb7e07e4ef" },
+    { "path": "test-results.md", "sha256": "68e27cf934c2a8341e5b054278dc74c75be42e7421b25f7f068d8650959fcdd0" },
+    { "path": "observations.json", "sha256": "913df712a84c0dbe4288dfd2c1ccb1512396c11d1f3f6b4ad834cbebe6664778" },
+    { "path": "readset.json", "sha256": "c4ea338e84c4f26ccbb841d0bf232ca9d44374b9362e3353c56badafc6617a39" }
+  ],
+  "limits": [
+    "Approval is limited to the exact fixed synthetic local Node fixture and reviewed tests.",
+    "No general process-supervisor, descendant cleanup, external-effect, production, product, or cross-platform qualification.",
+    "No full repository suite, product edits, historical edits, providers, network, acquired code, child agents, installation, integration, commit, merge, or push."
+  ],
+  "reviewerSetupCorrections": [
+    "Corrected one duplicated-root path in a read-only repair-binding hash audit.",
+    "Corrected an equality check that had treated the intended v1/v2 observer change as a mismatch; normalized comparison confirmed exactly one validator-expression change."
+  ],
+  "writeRoot": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/process-observer-application-independent-review-v2"
+}

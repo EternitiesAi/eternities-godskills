@@ -1,0 +1,31 @@
+{
+  "schema": "godskills.process-observer-application-independent-readset/v2",
+  "candidateRoot": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/process-observer-application-v2",
+  "candidateReceiptSha256": "9bf8ca0446dc09beba4bea723ce706956f94b9d993bdc4c964b8f830f848daba",
+  "priorSolRepairReceiptSha256": "9339ce7e1aaa0d3063671a17457293a5d19a3fb2301fc3a08e54e4f4001ef369",
+  "files": [
+    { "path": "artifacts/sprint-20261002/process-observer-application-v1/observer.mjs", "sha256": "df219eec8efd25d1eb37f71b49f5190d115ebc4a1b02471a72d253561ccb9cd9", "inspection": "full text; compared against v2" },
+    { "path": "artifacts/sprint-20261002/process-observer-application-v1/tests/observer.test.mjs", "sha256": "ebc0126e878cfa863c9d6698625bca9834ba918b9e16a6519abdb3a9f244f846", "inspection": "full text; test-diff baseline" },
+    { "path": "artifacts/sprint-20261002/process-observer-application-v1/README.md", "sha256": "a38697b6b09ac8c3315f16c30a1fef5bfd7e6ee1ef17e2d71817ac6f8416e830", "inspection": "full text" },
+    { "path": "artifacts/sprint-20261002/process-observer-application-v1/fixtures/controlled-child.mjs", "sha256": "dde615da2bc99c9bed197637fb1c963d40f6455b925225684d5c74b68bcbb1e7", "inspection": "full text; byte identity verified" },
+    { "path": "artifacts/sprint-20261002/process-observer-application-v1/receipt.json", "sha256": "6ea088e2eb5187c7e989f5650d579529362a36dcf79fa93fde766af8c0567603", "inspection": "hash verified; candidate repair binding" },
+    { "path": "artifacts/sprint-20261002/process-observer-application-v1/receipt.sha256", "sha256": "6a47679daf98c41ce89c65a5105ed08e0d2c16367d3aa535d50619c9c5ce80d3", "inspection": "hash only" },
+    { "path": "artifacts/sprint-20261002/process-observer-application-v2/observer.mjs", "sha256": "6a9857249134508fccbe64c42b9862dc20dae237b68aae107b2f60b886add1f7", "inspection": "full text; exact normalized diff" },
+    { "path": "artifacts/sprint-20261002/process-observer-application-v2/tests/observer.test.mjs", "sha256": "53ffa5051c8b925606652bb817430ac9e02f1e3fa31c3944ed8baa8defea9955", "inspection": "full text; replayed" },
+    { "path": "artifacts/sprint-20261002/process-observer-application-v2/tests/independent-boundaries.test.mjs", "sha256": "d2c09c5eb64e8920b452fe7ea6ffb1a1a069351d9d30162c1d7237c9d4cf0fbf", "inspection": "full text; replayed" },
+    { "path": "artifacts/sprint-20261002/process-observer-application-v2/README.md", "sha256": "a5178c335923d279a89adda143cb7e16a643c301887b7294a4fc275254667959", "inspection": "full text" },
+    { "path": "artifacts/sprint-20261002/process-observer-application-v2/report.md", "sha256": "ddf90d85d9af2843a8398f7c23a17d33522c9c82c1546d9cfc1ea699ad69153b", "inspection": "full text" },
+    { "path": "artifacts/sprint-20261002/process-observer-application-v2/fixtures/controlled-child.mjs", "sha256": "dde615da2bc99c9bed197637fb1c963d40f6455b925225684d5c74b68bcbb1e7", "inspection": "full text; byte identity verified" },
+    { "path": "artifacts/sprint-20261002/process-observer-application-v2/receipt.json", "sha256": "9bf8ca0446dc09beba4bea723ce706956f94b9d993bdc4c964b8f830f848daba", "inspection": "full text; hash/output bindings checked" },
+    { "path": "artifacts/sprint-20261002/process-observer-application-v2/receipt.sha256", "sha256": "6851bd9e19918890ac9226dd3d4af26c6d3f3d4b7a7fb9388d80f7e79112e71a", "inspection": "hash and receipt checksum verified" },
+    { "path": "artifacts/sprint-20261002/process-observer-application-v2/evidence.json", "sha256": "c71f72f26f9819164a6f08547f780ce9b72830491a9fab64ea5d6af38f968d66", "inspection": "hash only; candidate receipt output binding" },
+    { "path": "artifacts/sprint-20261002/process-observer-application-independent-review-v1/review.md", "sha256": "74e05ce5ad0ca51e911cf589f616463e0856b5f6969a3a72b5adb10c3e740636", "inspection": "full text" },
+    { "path": "artifacts/sprint-20261002/process-observer-application-independent-review-v1/test-results.md", "sha256": "8dff680e4791c50ead36d870ba8b9f6bf58a420dfb229aaff11f6087a8c71c64", "inspection": "full text" },
+    { "path": "artifacts/sprint-20261002/process-observer-application-independent-review-v1/independent-boundaries.test.mjs", "sha256": "cdf07a89f04b00fc21a6b4fd7d2fe2e87ed6c7da0f8b6a74da6d3de7acb6ee53", "inspection": "diff-compared; v2 copy differs only by import path" },
+    { "path": "artifacts/sprint-20261002/process-observer-application-independent-review-v1/observations.json", "sha256": "5e9e9b0c47addce11e1311600767147360fdafbfd28d5325489ee2f0c9d3a539", "inspection": "hash checked; prior result bound by Sol receipt" },
+    { "path": "artifacts/sprint-20261002/process-observer-application-independent-review-v1/receipt.json", "sha256": "9339ce7e1aaa0d3063671a17457293a5d19a3fb2301fc3a08e54e4f4001ef369", "inspection": "exact sealed receipt verified" },
+    { "path": "artifacts/sprint-20261002/process-observer-application-independent-review-v1/receipt.sha256", "sha256": "e9d653caaacf4d9ed73df7f9795efa36a5ce9a354ae2b80266d82f2e2af28417", "inspection": "hash and receipt checksum verified" },
+    { "path": "artifacts/sprint-20261002/process-observer-application-independent-review-v1/readset.json", "sha256": "b38652b5a5a5361cba3f54ddf9d8534aaecb4a2819b00954b55b812a470ce85c", "inspection": "hash checked" }
+  ],
+  "reviewerOwnedFiles": ["review.md", "test-results.md", "observations.json", "readset.json", "receipt.json", "receipt.sha256"]
+}

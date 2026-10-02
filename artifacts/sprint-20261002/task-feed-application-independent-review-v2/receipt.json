@@ -1,0 +1,210 @@
+{
+  "schema": "independent-application-review.v1",
+  "stage": "SEALED",
+  "sealedAtUtc": "2026-10-02 14:56:09 UTC",
+  "verdict": "READY",
+  "scope": "Exact v3 synthetic local task-feed reader; bounded R1 repair closure and preserved local caller behavior only",
+  "reviewer": {
+    "role": "Sol native independent reviewer",
+    "candidateAuthored": false,
+    "productBytesAuthored": false
+  },
+  "candidateIdentity": {
+    "absoluteRoot": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-v3",
+    "reader": {
+      "path": "reader.mjs",
+      "sha256": "8c5b5a5d17ff02e42019e1ee75cb66ab962253563424800751c1b794f9ee1597"
+    },
+    "authorReceipt": {
+      "path": "receipt.json",
+      "sha256": "1674a17dd9f5513685f11dfc163fd79a69087ac2f2f52a32373622f66c5d9f4d",
+      "status": "DRAFT_FOR_INDEPENDENT_REVIEW",
+      "authorSelfReady": false,
+      "productIntegrated": false
+    },
+    "authorOutputBindings": [
+      {
+        "path": "reader.mjs",
+        "sha256": "8c5b5a5d17ff02e42019e1ee75cb66ab962253563424800751c1b794f9ee1597"
+      },
+      {
+        "path": "sparse-regressions.test.mjs",
+        "sha256": "87cfd7d23c912a6ea42f67013f5398a066ef143561d5ff80900de2000f4b197b"
+      },
+      {
+        "path": "original12-against-v3.test.mjs",
+        "sha256": "2c7dfba509abd67f67959534dd760a1eeb9e62a3079ecbafef3d5e43660b24b3"
+      },
+      {
+        "path": "v2-regressions-against-v3.test.mjs",
+        "sha256": "c9ec2fb51dc842ca727c71037d216d1426b2d0b183e4f9384647357ecd14d8d5"
+      },
+      {
+        "path": "independent-boundaries-against-v3.test.mjs",
+        "sha256": "0210922fb74a1793db649e8a320122578ac4626eeb79e050a3b22eaa0a679a92"
+      },
+      {
+        "path": "fixture-contract.md",
+        "sha256": "2360cd70036fc98af92da55dc2b95c94d89460f2b28dda73f51b5093ebaab900"
+      },
+      {
+        "path": "verification.md",
+        "sha256": "7ea3ec121dba30a6611ee22ade698da1ee593e5c2ff3adcf87b7e1f42aa9ac97"
+      },
+      {
+        "path": "report.md",
+        "sha256": "f228e847139dfcc4f09aadd369cd36e788de31adebd492337b63ea03ba0df88c"
+      }
+    ],
+    "receiptChecksumVerified": true
+  },
+  "previousReview": {
+    "absoluteRoot": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-independent-review-v1",
+    "verdict": "REPAIR",
+    "receiptSha256": "f219c94c070b031e6ea0fc1025a3814a606b355a346b62bf3dd0d02874770f7e",
+    "reportSha256": "956d384b77842b1f88cc3c5e66cad3944fb75c09ba235d26ce88eef308fd4657",
+    "immutableBoundFilesRechecked": 21
+  },
+  "methodBindings": [],
+  "methodBindingsScope": "No accepted method Markdown resource reviewed here. This executable example does not alter or qualify source-method documents.",
+  "inputBindings": {
+    "readsetArtifact": "readset.json",
+    "sha256": "d2516e761690950e7934748a6192b460842429eabcdc1b451003f0d8f89417c8",
+    "fileCount": 35,
+    "finalHashMismatches": 0
+  },
+  "artifactBindings": [
+    {
+      "path": "copy-provenance.json",
+      "sha256": "e0dbccdcfdea247a978fb01ed72bb6c12fd366d0b01b29b0da449a55b924f380",
+      "bytes": 1283
+    },
+    {
+      "path": "independent-nine-against-v3.test.mjs",
+      "sha256": "afa465198203e36fa2bfa16b52f6620259ee05a4555f0ed858ae1d08ba32d75e",
+      "bytes": 6638
+    },
+    {
+      "path": "original12-against-v3.test.mjs",
+      "sha256": "1dfc0d46e1b9b7094c80bd9c9b52bf23334eabb845f4954dc12e130f5d35c4e5",
+      "bytes": 13548
+    },
+    {
+      "path": "reader-v2-to-v3.patch",
+      "sha256": "0344459d07a0426e12c3db6b091c9596919a60f544e1fe03df159bf4e6a0f72d",
+      "bytes": 2091
+    },
+    {
+      "path": "readset.json",
+      "sha256": "d2516e761690950e7934748a6192b460842429eabcdc1b451003f0d8f89417c8",
+      "bytes": 11502
+    },
+    {
+      "path": "review.md",
+      "sha256": "40ec934ea185b43ba3964d162c8cb6df57eb0960166f9095775bc109fd4c2455",
+      "bytes": 5241
+    },
+    {
+      "path": "sparse-control-observations.json",
+      "sha256": "4a07ea0074a38bb1841d6a18c57cf6198b98458df8c214a195cac7ba5ec8a79e",
+      "bytes": 3241
+    },
+    {
+      "path": "sparse-control-replay.mjs",
+      "sha256": "a85c27d12277a7b7c0de6006155dfc52e6d6f9e78bb5f1c2e7bccf6f4a88f676",
+      "bytes": 2531
+    },
+    {
+      "path": "test-copy-import-only.patch",
+      "sha256": "40c19bae7821efc21551b1eae49c88a4a1aaa0b25bc269f538607fff43c2289d",
+      "bytes": 1592
+    },
+    {
+      "path": "test-results.md",
+      "sha256": "46a93387b1a9b03b424fd531a6e8b195969bfb866944777ea54cf758109673ce",
+      "bytes": 4823
+    },
+    {
+      "path": "v2-six-against-v3.test.mjs",
+      "sha256": "c9ec2fb51dc842ca727c71037d216d1426b2d0b183e4f9384647357ecd14d8d5",
+      "bytes": 5626
+    }
+  ],
+  "originalSuiteReplay": {
+    "source": "task-feed-application-v1/reader.test.mjs",
+    "sourceSha256": "2c7dfba509abd67f67959534dd760a1eeb9e62a3079ecbafef3d5e43660b24b3",
+    "copy": "original12-against-v3.test.mjs",
+    "copySha256": "1dfc0d46e1b9b7094c80bd9c9b52bf23334eabb845f4954dc12e130f5d35c4e5",
+    "changes": "Only reader import location; assertions byte-equivalent after exact replacement",
+    "diff": "test-copy-import-only.patch"
+  },
+  "executionResults": {
+    "runtime": "Node v24.18.0 / Windows PowerShell",
+    "inheritedTests": {
+      "command": "node --test original12-against-v3.test.mjs v2-six-against-v3.test.mjs independent-nine-against-v3.test.mjs",
+      "moduleEnvironment": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-v3/reader.mjs",
+      "environmentRestored": true,
+      "exitCode": 0,
+      "original12Passed": 12,
+      "v2SixPassed": 6,
+      "independentNinePassed": 9,
+      "totalPassed": 27,
+      "failed": 0,
+      "skipped": 0,
+      "cancelled": 0
+    },
+    "sparseControls": {
+      "command": "node sparse-control-replay.mjs",
+      "exitCode": 0,
+      "observations": 8,
+      "inputsPerRevision": 4,
+      "revisions": [
+        "v2",
+        "v3"
+      ],
+      "overlapWithExistingTests": true,
+      "expectedV2SparseErrorsReproduced": 2,
+      "v3SparseHolds": 2,
+      "v3DenseInvalidHolds": 2,
+      "allInputPreservationAndCallbackCountsMatch": true
+    },
+    "syntax": {
+      "command": "node --check reader.mjs",
+      "cwd": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-v3",
+      "exitCode": 0
+    },
+    "copyIntegrityVerified": true
+  },
+  "findings": [
+    {
+      "id": "R1",
+      "status": "CLOSED",
+      "scope": "Saved/page sparse event arrays and invalid-state fallback",
+      "evidence": "Actual v2 throws on both sparse shapes; v3 returns HOLD/invalid-state before callbacks and HOLD/malformed-event before commit, respectively; own-index guard used in all three predicates.",
+      "requiredFurtherCodeRepair": false
+    },
+    {
+      "id": "N1",
+      "status": "NON_BLOCKING_RECORD_PRECISION",
+      "scope": "Author report/verification test attribution only",
+      "evidence": "Copied nine-test suite has seven snapshot/policy/commit cases and two sparse cases, not dense-undefined controls. Dense controls are separately verified by this direct replay and present in author four-case sparse suite.",
+      "effectOnVerdict": "None for bounded code repair; this receipt does not endorse the inaccurate attribution.",
+      "preserveSealedAuthorBytes": true
+    }
+  ],
+  "ownership": {
+    "writeRoot": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-independent-review-v2",
+    "historicalAndCandidateEdits": false,
+    "productInstalledOrR10Edits": false,
+    "childAgentsProvidersAcquisitionFullSuiteIntegration": false,
+    "parentRetainsAcceptanceAndIntegration": true
+  },
+  "limitations": [
+    "Synthetic in-memory caller only, using structured-cloneable fixture payloads and declared source/authority facts.",
+    "Adapter acknowledgment is not storage durability, atomicity, credential authentication or live service completeness proof.",
+    "Page/event caps are not wall-clock bounds for uncooperative callbacks.",
+    "No qualification of arbitrary hostile objects/proxies, providers, source bodies, method performance, rights/authenticity or whole-corpus completion.",
+    "Author/parent tests are not counted as independent executions; no product adoption inferred."
+  ],
+  "handoff": "READY only for the exact supplied v3 executable example under this bounded local contract. Separate parent acceptance and any real integration remain."
+}

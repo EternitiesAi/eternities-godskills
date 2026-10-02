@@ -1,0 +1,26 @@
+diff --git a/artifacts/sprint-20261002/task-feed-application-v1/reader.test.mjs b/artifacts/sprint-20261002/task-feed-application-independent-review-v2/original12-against-v3.test.mjs
+index bbcd37d..b7981bf 100644
+--- a/artifacts/sprint-20261002/task-feed-application-v1/reader.test.mjs
++++ b/artifacts/sprint-20261002/task-feed-application-independent-review-v2/original12-against-v3.test.mjs
+@@ -25,7 +25,7 @@ const page = (overrides = {}) => ({
+ async function invoke(args) {
+   let api;
+   try {
+-    api = await import('./reader.mjs');
++    api = await import('../task-feed-application-v3/reader.mjs');
+   } catch (error) {
+     if (error?.code === 'ERR_MODULE_NOT_FOUND' && String(error.message).includes('reader.mjs')) {
+       assert.fail('reader.mjs must implement and export readNewTaskMessages');
+
+diff --git a/artifacts/sprint-20261002/task-feed-application-independent-review-v1/independent-boundaries.test.mjs b/artifacts/sprint-20261002/task-feed-application-independent-review-v2/independent-nine-against-v3.test.mjs
+index 8c35d3c..4507cee 100644
+--- a/artifacts/sprint-20261002/task-feed-application-independent-review-v1/independent-boundaries.test.mjs
++++ b/artifacts/sprint-20261002/task-feed-application-independent-review-v2/independent-nine-against-v3.test.mjs
+@@ -1,6 +1,6 @@
+ import assert from 'node:assert/strict';
+ import test from 'node:test';
+-import { readNewTaskMessages } from '../task-feed-application-v2/reader.mjs';
++import { readNewTaskMessages } from '../task-feed-application-v3/reader.mjs';
+ 
+ const taskId = 'T';
+ const policy = (overrides = {}) => ({
