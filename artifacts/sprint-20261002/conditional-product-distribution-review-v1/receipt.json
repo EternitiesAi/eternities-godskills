@@ -1,0 +1,119 @@
+{
+  "schema": "godskills.conditional-product-distribution-review/v1",
+  "stage": "SEALED_INDEPENDENT_NONAUTHOR_REVIEW",
+  "verdict": "READY",
+  "verdictScope": "Exact local prepublication f6d711 product distribution snapshot and checks recorded in the bound report; not external publication, installation, product adoption, performance, rights, or corpus approval.",
+  "reviewer": {
+    "identity": "Codex",
+    "candidateAuthorship": false,
+    "productOrTestEdits": false,
+    "providerCalls": 0
+  },
+  "report": {
+    "path": "artifacts/sprint-20261002/conditional-product-distribution-review-v1/review.md",
+    "bytes": 6156,
+    "sha256": "7b02d8162170d509146139adfca727e54c07d349b3c4f34463a7628c7f9a8fa1"
+  },
+  "frozenInputs": [
+    {
+      "path": "docs/product-release-20261002-finalization.md",
+      "bytes": 5429,
+      "sha256": "0bf6c4239156fe9da9adaa3d913b3405e58d26efb108c003bb3017ed6718e97e"
+    },
+    {
+      "path": "README.md",
+      "sha256": "d22b327b92da686d2b273f60d8a1edfceed2f1363b8b4afd85ff41a042d7002c"
+    },
+    {
+      "path": "product/release.json",
+      "releaseId": "f6d71194e6897118f7ec7dac9bd2a9287479acb3345f347f291958091fd65cdc",
+      "sha256": "949de38dd46fe7f6e0e618ff3e5e4ddd1f92acc614acd0f7c0a9991a3d376efd",
+      "skills": 68,
+      "payloadFiles": 218
+    },
+    {
+      "path": "artifacts/releases/godskills-product-20261002-f6d71194.zip",
+      "bytes": 1137974,
+      "sha256": "bcd1d43c815f36e0fc62434dcca180f4b6fe1c2c877f49896508d0fce143a30d"
+    },
+    {
+      "path": "artifacts/releases/godskills-product-20261002-f6d71194.zip.sha256",
+      "sha256": "77d7dcdf86301a4c26421a18b987eb1e837c3ecaa3f90123b2b81f0a8244f26a",
+      "declaresArchiveDigestAndExactName": true
+    }
+  ],
+  "distributionChecks": {
+    "zipInspection": {
+      "method": ".NET ZipArchive path and embedded-manifest comparison",
+      "memberCount": 219,
+      "uniqueSafePaths": true,
+      "expectedSet": "godskills/release.json plus 218 embedded-manifest payload paths",
+      "missingOrExtraMembers": 0
+    },
+    "extraction": {
+      "root": "C:\\Users\\Dom\\AppData\\Local\\Temp\\codex-godskills-dist-audit-f6d71194-411dcb9c03d745a688d927884e191772",
+      "extractedFiles": 219,
+      "embeddedManifestSha256": "949de38dd46fe7f6e0e618ff3e5e4ddd1f92acc614acd0f7c0a9991a3d376efd",
+      "cli": {
+        "command": "C:\\Program Files\\nodejs\\node.exe godskills/bin/godskills.mjs validate",
+        "nodeVersion": "v24.18.0",
+        "pathEnvironment": "empty",
+        "exitCode": 0,
+        "result": "verified-content; exact f6d711 release ID; 68 skills"
+      },
+      "retainedForInspection": true
+    },
+    "packagedCoreFilesMatchPinnedMain": {
+      "commit": "84792f9e46b3b6511e7f3c5400dd840a4d658346",
+      "files": [
+        { "path": "bin/godskills.mjs", "sha256": "2bfd79da8efc81a5c4b65556e042bd89bcbd5b06d75d8e1020dbc9a8ebac5685" },
+        { "path": "lib/archive.mjs", "sha256": "62cb7442554233a93aa7a149e3336830ef02cdfaf905d944e8f2241b07ce0ba3" },
+        { "path": "lib/method-directory.mjs", "sha256": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180" },
+        { "path": "lib/product.mjs", "sha256": "1e99a9e68317fa01121f81e363860cd28e17e5b19c7aedc8522d949e7025ad79" }
+      ]
+    }
+  },
+  "testEvidence": {
+    "fullSuite": {
+      "source": "bound finalization record and existing TAP",
+      "rootFilesReported": 248,
+      "tests": 1195,
+      "passed": 1194,
+      "failed": 0,
+      "skipped": 1,
+      "skip": "Windows symbolic-link creation unavailable",
+      "suiteRerun": false,
+      "rootFileEnumerationIndependentlyReconstructed": false
+    },
+    "tapTransport": {
+      "path": "artifacts/sprint-20261002/conditional-method-full-suite-v1.tap",
+      "bytes": 107571,
+      "rawSha256": "28f3ec741ff91962f1046488bb0558090748774ed1e1d21708d94e07352e0487",
+      "indexBlob": "49a52fc08b4a46bb5de5f63ba4d4019442d8a284",
+      "indexBytes": 107571,
+      "indexSha256": "28f3ec741ff91962f1046488bb0558090748774ed1e1d21708d94e07352e0487",
+      "workingAndIndexBytesIdentical": true,
+      "gitattributesPathRule": "artifacts/sprint-20261002/conditional-method-full-suite-v1.tap -text",
+      "gitattributesSha256": "90df801a97c0015a4f090c4d4beefb66d40cc82147677e030f1f6e07e3f5afcb",
+      "gitCheckAttrText": "unset",
+      "transportRecord": {
+        "path": "artifacts/sprint-20261002/conditional-method-git-transport-v1.md",
+        "sha256": "c28f8da9526b34b8ddb2a811683c4498ea80fe53d0ca45ce43949fd19862cfc0"
+      }
+    },
+    "selectedRegressionIndependentReceipt": {
+      "path": "artifacts/sprint-20261002/conditional-method-regression-independent-review-v1/receipt.json",
+      "sha256": "92dfdac2f901ea58f5fd28bdf38afc1e9fba9b94dc0ed4f2d4234a041870bf61",
+      "selectedReleaseId": "f6d71194e6897118f7ec7dac9bd2a9287479acb3345f347f291958091fd65cdc",
+      "cases": 33,
+      "passed": 33,
+      "failed": 0,
+      "rerun": false
+    }
+  },
+  "limitations": [
+    "Prepublication local artifact review only; no remote publication or installation target was queried.",
+    "No export, full-suite rerun, product/test/body edit, provider, acquired-code execution, R10 disposition, merge, or push.",
+    "No performance, fresh-machine, source-rights, semantic-routing, or whole-corpus claim."
+  ]
+}

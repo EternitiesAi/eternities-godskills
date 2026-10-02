@@ -1,0 +1,123 @@
+{
+  "schema": "godskills.conditional-method-public-statement-review/v1",
+  "stage": "SEALED_INDEPENDENT_NONAUTHOR_REVIEW",
+  "verdict": "READY",
+  "verdictScope": "Exact prepublication statement claims, links, counts and evidence-unit precision for candidate f6d711; not publication, installation, runtime, domain, rights, performance or corpus approval.",
+  "reviewer": {
+    "identity": "Codex",
+    "candidateAuthorship": false,
+    "productEdits": false
+  },
+  "statement": {
+    "path": "docs/product-methods-20261002-verification.md",
+    "bytes": 4645,
+    "sha256": "8709d3fffbb035d4c0b04fe6c5a57dc4ae8b7d37bd27ded60508895c70fc7719"
+  },
+  "report": {
+    "path": "artifacts/sprint-20261002/conditional-method-public-statement-review-v1/review.md",
+    "sha256": "218a88d939edf7c5c93d1c73c2efed7276b9e131aa1cf8e40ca29c303b8c118c"
+  },
+  "candidate": {
+    "releaseId": "f6d71194e6897118f7ec7dac9bd2a9287479acb3345f347f291958091fd65cdc",
+    "releaseManifestPath": "product/release.json",
+    "releaseManifestSha256": "949de38dd46fe7f6e0e618ff3e5e4ddd1f92acc614acd0f7c0a9991a3d376efd",
+    "skillCount": 68,
+    "payloadFileCount": 218,
+    "assemblyPath": "artifacts/sprint-20261002/conditional-method-candidate-v2/assembly.json",
+    "assemblySha256": "433b57322c5749c456580acf61762c4482555d8d2e72071a32c5e1202b640640",
+    "assemblyState": "DRAFT_PENDING_SEPARATE_FINAL_METADATA_REVIEW"
+  },
+  "baseline": {
+    "mainCommit": "84792f9e46b3b6511e7f3c5400dd840a4d658346",
+    "releaseId": "2260b471f889f5c25b772fc50d4e83566fe8a4ef28a7748674241c8e80ffc348",
+    "releaseManifestSha256": "4d398fea6353586e1bf29e4376b2ac5cfc47914013286d7d9ecc5a8dc7b33dba"
+  },
+  "reviewedInputs": [
+    {
+      "path": "docs/product-core-20261002-publication-installation.md",
+      "sha256": "26946504e26cfc694c2263ac95cc3c2a8524457fac7cd4c211b30156a7344a72",
+      "role": "Resolved statement link target"
+    },
+    {
+      "path": "product/METHODS.v1.json",
+      "sha256": "412b4272987b119ba3edf1a9df44aeb75d6b372a90f1bdeabe92c5834bd5265d",
+      "role": "Eight-row selected method directory and typed receipt pointers"
+    },
+    {
+      "path": "product/METHODS.v1.md",
+      "sha256": "8f98763a7a706e4ba220654e45db2cbea17f56fd497f6edf1d6b4baaaa02d1cd",
+      "role": "Generated human-readable directory referenced by the statement"
+    },
+    {
+      "path": "product/catalog.json",
+      "sha256": "98bf0b06cbbb51c0e57176c5b503dd8baf0e908d82a0829445e1d78b8d49e1e0",
+      "role": "Candidate catalog comparison against pinned core"
+    },
+    {
+      "path": "product/taxonomy.json",
+      "sha256": "806ea92bb5414ea3bb5b93acbc61ca2a98c5142089d9ff790cc3d29f2bdd3e2c",
+      "role": "Primary-domain count"
+    },
+    {
+      "path": "product/CORPUS-SCOPE.md",
+      "sha256": "f67fd28074a6fbcb90b9d773db67845a37a58eacfabeba694b187f3433425f32",
+      "role": "Open-obligation and conflict counts"
+    },
+    {
+      "path": "artifacts/sprint-20261002/conditional-method-review-v1/review.md",
+      "sha256": "f6662e866e788e8a99c398d4632dd2e8e582fb606908bf57353e49ad5e9c57fd",
+      "role": "Original scoped document review and its evidence-unit limits"
+    },
+    {
+      "path": "artifacts/sprint-20261002/conditional-method-review-v1/receipt.json",
+      "sha256": "4b9860fa7d8020d819a0d522303194e8f8b593fd02794469b16799ba162d630b",
+      "role": "Original independent method review receipt"
+    },
+    {
+      "path": "artifacts/sprint-20261002/conditional-method-final-binding-review-v1/review.md",
+      "sha256": "fff2eb51408d1c25bf0c6e569ea56af466c946fecc8af431cfe967f399274507",
+      "role": "Separate final metadata and method-pointer closure review"
+    },
+    {
+      "path": "artifacts/sprint-20261002/conditional-method-final-binding-review-v1/receipt.json",
+      "sha256": "9dd199d3ae0c46ddb9dd29f54bca61799fae98753e34f2c85da9cbe460f34dbb",
+      "role": "Final metadata review receipt"
+    }
+  ],
+  "checks": {
+    "candidatePayloadEntriesHashVerified": 218,
+    "deltaVsPinnedCore": {
+      "addedPayloads": 13,
+      "addedMethodReferences": 4,
+      "addedEvidenceFiles": 9,
+      "changedPayloads": 9,
+      "removedPayloads": 0
+    },
+    "catalogEntriesCompared": 68,
+    "catalogEntriesEqualExceptResourcesAndEntrypointSha256": 68,
+    "nativeFrontmatterCoreMatches": [
+      "eternities-hermes",
+      "symbolic-mathematics-python"
+    ],
+    "cliAndLibraryFilesByteIdentical": 4,
+    "primaryTaxonomyCategories": 21,
+    "methodDirectoryRows": 8,
+    "reviewedMethodReceiptAndReportPointersResolved": 6,
+    "notAssessedByOverlayRows": 2,
+    "statementRelativeLinks": [
+      {
+        "target": "product-core-20261002-publication-installation.md",
+        "exists": true
+      }
+    ],
+    "readerLikePathsInCandidateManifest": 0,
+    "repeatedManualCallerApplications": false,
+    "candidateTestsRerun": false,
+    "runtimeExecution": false
+  },
+  "limitations": [
+    "The parent-probe evidence for the two task-feed reader findings is not linked inline by the statement; findings remain attributed to parent probes and are not represented as service/runtime validation.",
+    "No new authoring, application tests, source-rights review, runtime/service qualification, domain validation or full-corpus review was performed.",
+    "READY is scoped to this exact statement and candidate snapshot; it is not publication, adoption or deployment authority."
+  ]
+}

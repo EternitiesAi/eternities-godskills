@@ -24,7 +24,9 @@
     "physics-constrained-numerical-validation",
     "invariant-guard"
   ],
-  "resources": [],
+  "resources": [
+    "references/source-grounded-math-specification.md"
+  ],
   "maturity": "instruction-reviewed",
   "provenance": [
     {

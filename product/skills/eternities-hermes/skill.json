@@ -33,7 +33,9 @@
     "structured-output-contracts"
   ],
   "resources": [
-    "references/methods.md"
+    "references/methods.md",
+    "references/cursor-paged-task-messages.md",
+    "references/truthful-cli-progress.md"
   ],
   "maturity": "instruction-reviewed",
   "provenance": [

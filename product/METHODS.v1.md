@@ -6,6 +6,10 @@ Choose by the actual task and exclusions, not by a match score. Discovery grants
 
 | Task | Owner entrypoint | Conditional method | Document status | Outcome status |
 | --- | --- | --- | --- | --- |
+| Keep up with new messages from an authorized still-running task using a saved position instead of reloading the whole history | [eternities-hermes](skills/eternities-hermes/SKILL.md) | [Read new task messages from a saved position](skills/eternities-hermes/references/cursor-paged-task-messages.md) | independently-document-reviewed | not-performance-qualified |
+| Report the state of an already-authorized local command while preserving its output channels and showing progress only from validated signals | [eternities-hermes](skills/eternities-hermes/SKILL.md) | [Observe a local command without invented progress](skills/eternities-hermes/references/truthful-cli-progress.md) | independently-document-reviewed | not-performance-qualified |
+| Turn supplied prose with stated mathematical relations into a source-linked specification draft, leaving unknown units, domains and conflicts for separate review | [symbolic-mathematics-python](skills/symbolic-mathematics-python/SKILL.md) | [Extract a source-linked mathematical specification](skills/symbolic-mathematics-python/references/source-grounded-math-specification.md) | independently-document-reviewed | not-performance-qualified |
+| Keep explicitly optional live-model scenarios separate from mandatory deterministic CI while retaining paid-provider and required-acceptance gates | [eternities-daedalus](skills/eternities-daedalus/SKILL.md) | [Separate optional model scenarios from required CI](skills/eternities-daedalus/references/optional-model-scenarios-ci.md) | independently-document-reviewed | not-performance-qualified |
 | Map gameplay states to sound, silence, cue interruption and muted alternatives | [eternities-arcadia](skills/eternities-arcadia/SKILL.md) | [Game-state to audio-cue design](skills/eternities-arcadia/references/game-state-to-audio-cue.md) | independently-document-reviewed | not-performance-qualified |
 | Explain one feed, recommendation or notification-shortlist decision at its serving time | [eternities-atlas](skills/eternities-atlas/SKILL.md) | [Serving-time ranking decision trace](skills/eternities-atlas/references/serving-time-ranking-decision-trace.md) | independently-document-reviewed | not-performance-qualified |
 | Determine who authored, reviewed, approved or challenged an exact artifact version | [eternities-oracle](skills/eternities-oracle/SKILL.md) | [Artifact-role evidence](skills/eternities-oracle/references/methods.md#artifact-role-evidence-draft) | not-assessed-by-this-overlay | not-performance-qualified |
@@ -16,6 +20,46 @@ Choose by the actual task and exclusions, not by a match score. Discovery grants
 An original method body may still say DRAFT. The exact-hash row below records later independent document review without relabeling that historical body or qualifying runtime outcomes. Parent skill maturity does not transfer to every reference. Changed method bytes make the row stale: build/validate must refuse until its identity and status are reconsidered.
 
 These are publisher evidence statements. Digests bind bytes, not publisher authenticity, reviewer identity, source rights, or truth. Bundled review records are optional historical evidence, not executable policy; workstation paths inside them describe the review environment and are not receiving-machine dependencies.
+
+### Read new task messages from a saved position
+
+- Exclusions: Not warehouse or table ingestion, durable conversation-memory summarization, decoding bytes within one response, or authority to cancel a task.
+- Exact method resource SHA-256: `b3135e20f4ff67b3ac5593536eb4b14b59ff3d96608dc26090a6181862e6e2da`.
+- Document axis: independently-document-reviewed.
+- Execution evidence: Independent non-author document review included a manual task-feed planning application and four adjacent-owner exclusions. No live task-service or storage implementation was qualified.
+- Outcome axis: not-performance-qualified.
+- Reviewed scope: Exact documented DRAFT method and conditional complete-owner fit under selected Markdown discovery; not global automatic routing, runtime, domain correctness or performance.
+- Optional independent [report](evidence/method-reviews/conditional-v1/review.md) and [receipt](evidence/method-reviews/conditional-v1/receipt.json); receipt SHA-256: `4b9860fa7d8020d819a0d522303194e8f8b593fd02794469b16799ba162d630b`.
+
+### Observe a local command without invented progress
+
+- Exclusions: Not visual-only progress UI, accessibility announcements, schema-only producer-event design, or new process launch or cancellation authority.
+- Exact method resource SHA-256: `d9bd1ebfd44178a4d33f0d1150b460aa4d6fa564177ea0ded1577ce4123c936c`.
+- Document axis: independently-document-reviewed.
+- Execution evidence: Independent non-author document review included a manual process-observation planning application. No process wrapper, provider or live command was executed or qualified.
+- Outcome axis: not-performance-qualified.
+- Reviewed scope: Exact documented DRAFT method and conditional complete-owner fit under selected Markdown discovery; not global automatic routing, runtime, domain correctness or performance.
+- Optional independent [report](evidence/method-reviews/conditional-v1/review.md) and [receipt](evidence/method-reviews/conditional-v1/receipt.json); receipt SHA-256: `4b9860fa7d8020d819a0d522303194e8f8b593fd02794469b16799ba162d630b`.
+
+### Extract a source-linked mathematical specification
+
+- Exclusions: Not prose-only outlines, qualitative interview extraction, coordinate or unit-value validation, source-truth appraisal, or solving an already-declared equation.
+- Exact method resource SHA-256: `edbbb063b3550619cfe216db64a96611c14839fcf61e2f24f13ca9d2ecebdb20`.
+- Document axis: independently-document-reviewed.
+- Execution evidence: Independent non-author document review included a source-linked draft from a synthetic three-line fixture and three non-method exclusions. Mathematical domain review remains pending; no solver or real-source validation.
+- Outcome axis: not-performance-qualified.
+- Reviewed scope: Exact documented DRAFT method and conditional complete-owner fit under selected Markdown discovery; not global automatic routing, runtime, domain correctness or performance.
+- Optional independent [report](evidence/method-reviews/conditional-v1/review.md) and [receipt](evidence/method-reviews/conditional-v1/receipt.json); receipt SHA-256: `4b9860fa7d8020d819a0d522303194e8f8b593fd02794469b16799ba162d630b`.
+
+### Separate optional model scenarios from required CI
+
+- Exclusions: A required live or paid acceptance test is not optional; this method does not authorize provider calls or qualify CI or merge configuration.
+- Exact method resource SHA-256: `982db0a3b6811f7b7fde0fa6b31e06e3df0ed86bbf9dc9826209dc52877b61d8`.
+- Document axis: independently-document-reviewed.
+- Execution evidence: Independent document review included three planning applications and bounded copied-product checks; no live CI or provider execution.
+- Outcome axis: not-performance-qualified.
+- Reviewed scope: Exact documented DRAFT optional-scenario selection and conditional owner handoff; not live CI, provider execution or redesign of a required acceptance gate.
+- Optional independent [report](evidence/method-reviews/daedalus-v1/review.md) and [receipt](evidence/method-reviews/daedalus-v1/receipt.json); receipt SHA-256: `a0b2a8ac4611c327a40517cc588079d79cb4402416b14fd8c7f512cab6b373b0`.
 
 ### Game-state to audio-cue design
 

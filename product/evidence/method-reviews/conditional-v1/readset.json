@@ -1,0 +1,501 @@
+{
+  "schema": "godskills.conditional-method-independent-readset/v1",
+  "checkedAtUtc": "2026-10-02T13:03:11.976Z",
+  "candidateRoot": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/conditional-method-candidate-v1/product",
+  "baselineRoot": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/product",
+  "candidateReleaseId": "45c5ce5779546018279b8cd70f67e0138fb772b659e0ae94bf0cc5965d8b6db4",
+  "skillCount": 68,
+  "payloadFiles": 213,
+  "candidateBindings": [
+    {
+      "path": "README.md",
+      "bytes": 10844,
+      "sha256": "2b17c2ed8047c94407038bf815244b88b13b8773dd60f69ca607b8be0ef50d2f"
+    },
+    {
+      "path": "INDEX.md",
+      "bytes": 17441,
+      "sha256": "27d50fbf73154aa5777e51dc3e9ea7c0b0c336cfe4ced1922beef1d976555e49"
+    },
+    {
+      "path": "METHODS.v1.json",
+      "bytes": 9317,
+      "sha256": "7ab9bb0096e7689ff2a7c601b87938948a6bed5e885a359de4fea06dc8f48d2d"
+    },
+    {
+      "path": "METHODS.v1.md",
+      "bytes": 9469,
+      "sha256": "3b004b6914ea51fcf7e040f8f22ebd1ffac318e798c9e3700f1d0ee66c9fe252"
+    },
+    {
+      "path": "catalog.json",
+      "bytes": 100091,
+      "sha256": "98bf0b06cbbb51c0e57176c5b503dd8baf0e908d82a0829445e1d78b8d49e1e0"
+    },
+    {
+      "path": "release.json",
+      "bytes": 26302,
+      "sha256": "d21f7a27261c3eaa9d4f46681032c69c4a36a13549cf5f68147db5672ef4bfd2"
+    },
+    {
+      "path": "bin/godskills.mjs",
+      "bytes": 3097,
+      "sha256": "2bfd79da8efc81a5c4b65556e042bd89bcbd5b06d75d8e1020dbc9a8ebac5685"
+    },
+    {
+      "path": "lib/archive.mjs",
+      "bytes": 4358,
+      "sha256": "62cb7442554233a93aa7a149e3336830ef02cdfaf905d944e8f2241b07ce0ba3"
+    },
+    {
+      "path": "lib/method-directory.mjs",
+      "bytes": 7836,
+      "sha256": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180"
+    },
+    {
+      "path": "lib/product.mjs",
+      "bytes": 21992,
+      "sha256": "1e99a9e68317fa01121f81e363860cd28e17e5b19c7aedc8522d949e7025ad79"
+    },
+    {
+      "path": "skills/eternities-hermes/SKILL.md",
+      "bytes": 4070,
+      "sha256": "f578fba0bc4d10af9221e2fbd980ee4d21b0de71bda26428d282dabdd9152f90"
+    },
+    {
+      "path": "skills/eternities-hermes/skill.json",
+      "bytes": 2762,
+      "sha256": "f36f49d7de25d8639a087c3d7884a9a90421ed2f481bfd3970a22bf9a712e04e"
+    },
+    {
+      "path": "skills/symbolic-mathematics-python/SKILL.md",
+      "bytes": 3817,
+      "sha256": "ad82634d58c4cbd2901b31e2475017f60c8cbfa820c9b929a76a4bc7b9d09a86"
+    },
+    {
+      "path": "skills/symbolic-mathematics-python/skill.json",
+      "bytes": 1904,
+      "sha256": "f1d10d6425f86a0750496530ca184f07386231b4eb52be4d1b2d8262b5abf2ce"
+    },
+    {
+      "path": "skills/eternities-daedalus/SKILL.md",
+      "bytes": 3964,
+      "sha256": "ee2f0326f35e2a4efc952570dcd7956d04d1a4b5abc08e2a16f3a5776a09d347"
+    },
+    {
+      "path": "skills/eternities-daedalus/skill.json",
+      "bytes": 7017,
+      "sha256": "7df7c6256ffb5c2eb0be1ecf2343f16872b5847a04b4179100f4f0158babe49d"
+    },
+    {
+      "path": "skills/eternities-hermes/references/cursor-paged-task-messages.md",
+      "bytes": 4594,
+      "sha256": "b3135e20f4ff67b3ac5593536eb4b14b59ff3d96608dc26090a6181862e6e2da"
+    },
+    {
+      "path": "skills/eternities-hermes/references/truthful-cli-progress.md",
+      "bytes": 3613,
+      "sha256": "d9bd1ebfd44178a4d33f0d1150b460aa4d6fa564177ea0ded1577ce4123c936c"
+    },
+    {
+      "path": "skills/symbolic-mathematics-python/references/source-grounded-math-specification.md",
+      "bytes": 5504,
+      "sha256": "edbbb063b3550619cfe216db64a96611c14839fcf61e2f24f13ca9d2ecebdb20"
+    },
+    {
+      "path": "skills/eternities-hermes/references/methods.md",
+      "bytes": 4437,
+      "sha256": "3f0a33559aba81a728d7aa47ab6f5d5c9686490d8d7e68a83b1ddf3136747aa4"
+    },
+    {
+      "path": "skills/eternities-daedalus/references/optional-model-scenarios-ci.md",
+      "bytes": 3849,
+      "sha256": "982db0a3b6811f7b7fde0fa6b31e06e3df0ed86bbf9dc9826209dc52877b61d8"
+    },
+    {
+      "path": "skills/columnar-ingestion-rollup-and-query-layout-design/SKILL.md",
+      "bytes": 3499,
+      "sha256": "8cba00eced7f2e84de01c0304aab9e59fed548ae1515bbbc164f568f17951626"
+    },
+    {
+      "path": "skills/eternities-muse/SKILL.md",
+      "bytes": 3969,
+      "sha256": "b7097258366a53f645d2d1a52a6492a691f933c2cc535fd32beae452f398f374"
+    },
+    {
+      "path": "skills/eternities-mnemosyne/SKILL.md",
+      "bytes": 3910,
+      "sha256": "43f83b2332ca21e65fa6b640a8489fe03c7ee58b8d5e1f1435ae31b027e32988"
+    },
+    {
+      "path": "skills/structured-output-contracts/SKILL.md",
+      "bytes": 4677,
+      "sha256": "0650ce7e3aaa652071cc53df6bc8d882fdf1f2359c0543a1b9e3e7d8bdafb668"
+    },
+    {
+      "path": "skills/retrieval-grounded-answering/SKILL.md",
+      "bytes": 4825,
+      "sha256": "9699b65853adf21b4e285c2b357295ea401822b0dbda46eb168510cb1d654236"
+    },
+    {
+      "path": "skills/eternities-logos/SKILL.md",
+      "bytes": 4220,
+      "sha256": "a215da7877c4ef33e83796209488dcf5b390bf1f91b38098ba47d1c89a8f11d2"
+    },
+    {
+      "path": "skills/geospatial-coordinate-integrity/SKILL.md",
+      "bytes": 6470,
+      "sha256": "ef14fd4bc877408a1acb6c24efb09557a4a02d65a6688fd22e3dfe893ce65ce0"
+    },
+    {
+      "path": "evidence/method-reviews/daedalus-v1/receipt.json",
+      "bytes": 11797,
+      "sha256": "a0b2a8ac4611c327a40517cc588079d79cb4402416b14fd8c7f512cab6b373b0"
+    },
+    {
+      "path": "evidence/method-reviews/daedalus-v1/review.md",
+      "bytes": 7895,
+      "sha256": "4e945d60805c10be19a8d0a8e8f974e7d75a3968a9dd7dc60e13a820e6ae10ed"
+    },
+    {
+      "path": "evidence/method-reviews/daedalus-v1/task-plans.md",
+      "bytes": 5099,
+      "sha256": "0de3f7294e43179c4d4697a7f97ce01d364c8b0874c5353534f464c932f7ef99"
+    },
+    {
+      "path": "evidence/method-reviews/daedalus-v1/evidence.json",
+      "bytes": 10747,
+      "sha256": "fea9024506eb77b3a86a86113b407f016255f796a92b91b52696e0d13cd35af2"
+    },
+    {
+      "path": "skills/eternities-herald/SKILL.md",
+      "bytes": 3201,
+      "sha256": "3cd991e0e9539c9b40703b8ca39bd7c1a80d51f7cd6c4968e5c8299ed485445e"
+    },
+    {
+      "path": "skills/eternities-daedalus/references/test-design-and-evidence.md",
+      "bytes": 5902,
+      "sha256": "276208dc309c3eb9058e0acf966b29ce2268876df48e36e0fe641d2a07534814"
+    }
+  ],
+  "baselineBindings": [
+    {
+      "path": "release.json",
+      "bytes": 25227,
+      "sha256": "4d398fea6353586e1bf29e4376b2ac5cfc47914013286d7d9ecc5a8dc7b33dba"
+    },
+    {
+      "path": "catalog.json",
+      "bytes": 99289,
+      "sha256": "57d47c0a9692dc21caa0e7909ee6c557cd5ef5cc4e09b968df079cc81f86aecf"
+    },
+    {
+      "path": "METHODS.v1.json",
+      "bytes": 4761,
+      "sha256": "c722fa517eb82757daf2baec7901e487e1cac757487be2559862ee5e71040abb"
+    },
+    {
+      "path": "bin/godskills.mjs",
+      "bytes": 3097,
+      "sha256": "2bfd79da8efc81a5c4b65556e042bd89bcbd5b06d75d8e1020dbc9a8ebac5685"
+    },
+    {
+      "path": "lib/archive.mjs",
+      "bytes": 4358,
+      "sha256": "62cb7442554233a93aa7a149e3336830ef02cdfaf905d944e8f2241b07ce0ba3"
+    },
+    {
+      "path": "lib/method-directory.mjs",
+      "bytes": 7836,
+      "sha256": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180"
+    },
+    {
+      "path": "lib/product.mjs",
+      "bytes": 21992,
+      "sha256": "1e99a9e68317fa01121f81e363860cd28e17e5b19c7aedc8522d949e7025ad79"
+    },
+    {
+      "path": "skills/eternities-hermes/SKILL.md",
+      "bytes": 3488,
+      "sha256": "435d81f1cfaeea64ebb85ad9cd00d1dae22e8bde77edeaa9e009c315e7ce69ba"
+    },
+    {
+      "path": "skills/eternities-hermes/skill.json",
+      "bytes": 2671,
+      "sha256": "ebbe1f0e7c9bdf13e5ca29e382aad182a652a2a665959280edb3450acc94215c"
+    },
+    {
+      "path": "skills/symbolic-mathematics-python/SKILL.md",
+      "bytes": 2808,
+      "sha256": "e3d7645546def7d305480c7cc52c9767c49b4652081b389a30426f14bc0ecff5"
+    },
+    {
+      "path": "skills/symbolic-mathematics-python/skill.json",
+      "bytes": 1846,
+      "sha256": "4563f0189076ea66e4e98ec1aaf30e74a25454d78443c112176bf4a55e3e425f"
+    },
+    {
+      "path": "skills/eternities-daedalus/SKILL.md",
+      "bytes": 3492,
+      "sha256": "89b1e2c543293cb61da0f812d62562997a2b3d16553c30f70ae430a32c02fd3b"
+    },
+    {
+      "path": "skills/eternities-daedalus/skill.json",
+      "bytes": 6968,
+      "sha256": "051a80efb4e3a50134f46a0b86b7d2d203284db21a84d177726e37f074bdc282"
+    }
+  ],
+  "canonicalBindings": [
+    {
+      "path": "product/skills/eternities-hermes/SKILL.md",
+      "revision": "55f960847fa2a06a750a1a6e20c4e7f95ea10449",
+      "bytes": 3488,
+      "sha256": "435d81f1cfaeea64ebb85ad9cd00d1dae22e8bde77edeaa9e009c315e7ce69ba",
+      "inspection": "canonical native frontmatter; ordinary owner body comparison"
+    },
+    {
+      "path": "product/skills/symbolic-mathematics-python/SKILL.md",
+      "revision": "55f960847fa2a06a750a1a6e20c4e7f95ea10449",
+      "bytes": 2808,
+      "sha256": "e3d7645546def7d305480c7cc52c9767c49b4652081b389a30426f14bc0ecff5",
+      "inspection": "canonical native frontmatter; ordinary owner body comparison"
+    }
+  ],
+  "contextBindings": [
+    {
+      "path": "docs/sprint-20261002-discovery-contract.md",
+      "bytes": 3843,
+      "sha256": "556322eecf64c35451ad9b5b606c1a6e343e6142c339035109b0e93a92a31877"
+    },
+    {
+      "path": "artifacts/sprint-20261002/metadata-routing-design-decision-v1/receipt.json",
+      "bytes": 5120,
+      "sha256": "872497e6518e9db9edd500ec387b21522ab1b851f399c931815c29f37fa7985d"
+    },
+    {
+      "path": "../portable-godskill-package-v1/artifacts/wave29-hermes-methods-v3/receipt.json",
+      "bytes": 7042,
+      "sha256": "15f8620cab6865270404b159239d147fc66291b8290280301e309c188cec5f2f"
+    },
+    {
+      "path": "artifacts/sprint-20261002/math-content-only-proposal-v5/staged/receipt.json",
+      "bytes": 7852,
+      "sha256": "b4213ab8235c536eeb7cd054036005343367a6f8dbc39eb2f50487f6c968e783"
+    },
+    {
+      "path": "../../../../Users/Dom/.agents/skills/eternities-architect/SKILL.md",
+      "bytes": 3175,
+      "sha256": "351269b25eb0a26b06e51abe774f0bb6a92d23953592196f48d70651dff2fb11"
+    },
+    {
+      "path": "../../../../Users/Dom/.agents/skills/eternities-omnibus/SKILL.md",
+      "bytes": 3324,
+      "sha256": "10deff5b40dd5c318e287ba7b60c7e10500a103a2a0699d53a9435913d14bc41"
+    }
+  ],
+  "copy": {
+    "path": "copy-hHeUBN/portable pack",
+    "validatePassed": true,
+    "buildReproducesRawManifest": true,
+    "emptyPATHCliValidation": {
+      "command": "node bin/godskills.mjs validate (absolute Node executable, empty PATH)",
+      "exitCode": 0,
+      "releaseId": "45c5ce5779546018279b8cd70f67e0138fb772b659e0ae94bf0cc5965d8b6db4",
+      "skillCount": 68
+    }
+  },
+  "checks": {
+    "scoreProjectionEntries": 68,
+    "scoreProjectionFields": [
+      "id",
+      "category",
+      "summary",
+      "triggers",
+      "antiTriggers",
+      "taskTypes"
+    ],
+    "scoreProjectionSha256": "edd9938902f95ad6a6729195b300b0d61e2ff1dea3c1aa9a3b1cfde251e3df91",
+    "scoreProjectionMatchesCore": true,
+    "relationsSpecializesMaturityMatchCore": true,
+    "allLibBinBytesMatchCore": true,
+    "libBinPaths": [
+      "bin/godskills.mjs",
+      "lib/archive.mjs",
+      "lib/method-directory.mjs",
+      "lib/product.mjs"
+    ],
+    "frontmatters": [
+      {
+        "owner": "eternities-hermes",
+        "sha256": "089683044d9038997e61fe32a9909525de53ac998922d9cc05212d0d8b816170",
+        "exactCanonicalMatch": true
+      },
+      {
+        "owner": "symbolic-mathematics-python",
+        "sha256": "68de23fcf34e63e1c4bbfd1eec0023598a6f49be35924405c6d26312b0a87edd",
+        "exactCanonicalMatch": true
+      }
+    ],
+    "ownerDelta": [
+      {
+        "owner": "eternities-hermes",
+        "onlyConditionalBodyAddition": true,
+        "metadataOnlyDeclaredResourceAdditions": [
+          "references/cursor-paged-task-messages.md",
+          "references/truthful-cli-progress.md"
+        ]
+      },
+      {
+        "owner": "symbolic-mathematics-python",
+        "onlyConditionalBodyAddition": true,
+        "metadataOnlyDeclaredResourceAdditions": [
+          "references/source-grounded-math-specification.md"
+        ]
+      },
+      {
+        "owner": "eternities-daedalus",
+        "onlyConditionalBodyAddition": true,
+        "metadataOnlyDeclaredResourceAdditions": [
+          "references/optional-model-scenarios-ci.md"
+        ]
+      }
+    ],
+    "oldFourMethodRowsUnchanged": true,
+    "threeNewRowsProvisionalWithoutReview": true,
+    "allEightOutcomeAxesUnqualified": true,
+    "DaedalusReceiptAndReportVerbatim": true,
+    "DaedalusTypedMethodBindingPointerExact": true,
+    "generatedDirectoryExact": true,
+    "candidateAndCoreValidationPassed": true,
+    "authorBodiesAndMetadataBindingsMatch": true,
+    "testsRun": 0,
+    "newHarnessFiles": 0,
+    "globalRankingProbesRun": 0
+  },
+  "changedPaths": [
+    "METHODS.v1.json",
+    "METHODS.v1.md",
+    "catalog.json",
+    "skills/eternities-daedalus/SKILL.md",
+    "skills/eternities-daedalus/skill.json",
+    "skills/eternities-hermes/SKILL.md",
+    "skills/eternities-hermes/skill.json",
+    "skills/symbolic-mathematics-python/SKILL.md",
+    "skills/symbolic-mathematics-python/skill.json"
+  ],
+  "addedPaths": [
+    "evidence/method-reviews/daedalus-v1/evidence.json",
+    "evidence/method-reviews/daedalus-v1/receipt.json",
+    "evidence/method-reviews/daedalus-v1/review.md",
+    "evidence/method-reviews/daedalus-v1/task-plans.md",
+    "skills/eternities-daedalus/references/optional-model-scenarios-ci.md",
+    "skills/eternities-hermes/references/cursor-paged-task-messages.md",
+    "skills/eternities-hermes/references/truthful-cli-progress.md",
+    "skills/symbolic-mathematics-python/references/source-grounded-math-specification.md"
+  ],
+  "removedPaths": [],
+  "methodBindings": [
+    {
+      "path": "product/skills/eternities-hermes/references/cursor-paged-task-messages.md",
+      "sha256": "b3135e20f4ff67b3ac5593536eb4b14b59ff3d96608dc26090a6181862e6e2da"
+    },
+    {
+      "path": "product/skills/eternities-hermes/references/truthful-cli-progress.md",
+      "sha256": "d9bd1ebfd44178a4d33f0d1150b460aa4d6fa564177ea0ded1577ce4123c936c"
+    },
+    {
+      "path": "product/skills/symbolic-mathematics-python/references/source-grounded-math-specification.md",
+      "sha256": "edbbb063b3550619cfe216db64a96611c14839fcf61e2f24f13ca9d2ecebdb20"
+    }
+  ],
+  "claimLimits": {
+    "newFinalMetadataApproved": false,
+    "independentDomainReviewPending": true,
+    "providerOrTaskProcessRuntime": false,
+    "blindUsabilityExperiment": false,
+    "rightsOrSourceValidation": false,
+    "legacyGlobalTop1Contract": "abandoned-not-passed"
+  },
+  "manualApplications": {
+    "inputArtifact": "caller-inputs.json",
+    "outputArtifact": "caller-applications.md",
+    "requests": 12,
+    "metDocumentCriteria": 12,
+    "positives": 3,
+    "HermesNegatives": 4,
+    "MathNegatives": 3,
+    "ordinaryControls": 2,
+    "supplementalDaedalusRowInspected": true,
+    "blindExperiment": false,
+    "taskProcessRuntime": false,
+    "MathDomainReviewPending": true,
+    "NM1Handoff": "Initial canonical-shortlist navigation through retrieval-grounded-answering; full body avoids unnecessary indexing and permits direct/Logos source-bound artifact work. Frozen request/negative criterion not changed."
+  },
+  "commands": [
+    {
+      "command": "node artifacts/sprint-20261002/conditional-method-candidate-v1/product/bin/godskills.mjs validate",
+      "cwd": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002",
+      "exitCode": 0,
+      "result": {
+        "status": "verified-content",
+        "releaseId": "45c5ce5779546018279b8cd70f67e0138fb772b659e0ae94bf0cc5965d8b6db4",
+        "skillCount": 68
+      }
+    },
+    {
+      "operation": "One-shot local Node inspection using existing verifyProduct/buildProduct/inspectMethodDirectory/renderMethodDirectory and Node hash/JSON comparisons; no new executable harness file",
+      "result": "All projection/frontmatter/lib-bin/body/metadata/old-row invariants passed; candidate/core validation passed; copied build reproduced raw release bytes."
+    },
+    {
+      "command": "$reviewNode=(Get-Command node).Source; $reviewSavedPath=$env:Path; try { $env:Path=''; & $reviewNode 'bin/godskills.mjs' validate } finally { $env:Path=$reviewSavedPath }",
+      "cwd": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/conditional-method-review-v1/copy-hHeUBN/portable pack",
+      "exitCode": 0,
+      "result": {
+        "status": "verified-content",
+        "releaseId": "45c5ce5779546018279b8cd70f67e0138fb772b659e0ae94bf0cc5965d8b6db4",
+        "skillCount": 68
+      }
+    },
+    {
+      "operation": "Final seal binding verification",
+      "reviewerCheckSetupFailure": {
+        "exitCode": 1,
+        "error": "TypeError: release.files is not iterable",
+        "cause": "Reviewer checksum helper treated the manifest's path-to-hash map as an array.",
+        "productMutation": false,
+        "interpretation": "Not a product regression or red acceptance test."
+      },
+      "correction": "Use Object.keys(release.files) for payload comparison; rehash readset bindings and canonical blobs; validate candidate/copy with existing verifyProduct.",
+      "resultPending": "Completion and exact counts recorded in receipt after corrected check."
+    }
+  ],
+  "inspectionBoundaries": {
+    "fullCandidateOwners": [
+      "eternities-hermes",
+      "symbolic-mathematics-python",
+      "eternities-daedalus",
+      "eternities-herald",
+      "columnar-ingestion-rollup-and-query-layout-design",
+      "eternities-muse",
+      "eternities-mnemosyne",
+      "structured-output-contracts",
+      "retrieval-grounded-answering",
+      "eternities-logos",
+      "geospatial-coordinate-integrity"
+    ],
+    "fullMatchingReferences": [
+      "skills/eternities-hermes/references/cursor-paged-task-messages.md",
+      "skills/eternities-hermes/references/truthful-cli-progress.md",
+      "skills/symbolic-mathematics-python/references/source-grounded-math-specification.md",
+      "skills/eternities-hermes/references/methods.md",
+      "skills/eternities-daedalus/references/optional-model-scenarios-ci.md",
+      "skills/eternities-daedalus/references/test-design-and-evidence.md"
+    ],
+    "directory": "Full README and method-directory rows; relevant INDEX entries, not all 68 owner bodies.",
+    "mechanicalOnly": "All 68 catalog scoring/filter and relations/specialization/maturity fields, all lib/bin bytes, manifest payload set and hashes; not semantic certification of the entire catalog.",
+    "DaedalusEvidence": "Full copied report and exact receipt bindings/pointers inspected; supporting task-plans/evidence hash-bound without repeating the prior independent review.",
+    "sourceBoundary": "Author receipts and first-party candidate documents only. No acquired source bodies, source-page reuse, rights dispositions or R10 review.",
+    "curatedSkills": "Architect used for the alternate-interface contract and invariants; Omnibus used for selective full-owner loading and exclusions, not global top-1 or native automatic-selection claims."
+  },
+  "finalSealVerificationPlan": "Rehash each readset file and canonical blob, compare copied payloads/manifest to frozen candidate, then bind report/readset/manual input/output hashes in a new independent receipt."
+}

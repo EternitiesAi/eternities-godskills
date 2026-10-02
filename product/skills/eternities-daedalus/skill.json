@@ -44,7 +44,8 @@
   ],
   "resources": [
     "references/methods.md",
-    "references/test-design-and-evidence.md"
+    "references/test-design-and-evidence.md",
+    "references/optional-model-scenarios-ci.md"
   ],
   "maturity": "instruction-reviewed",
   "provenance": [

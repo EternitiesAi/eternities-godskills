@@ -18,6 +18,15 @@ Hermes is the automation and integration route. It turns a concrete workflow int
 - **Remote-test coordination** builds a fixture matrix, prerequisites, skip rules, evidence capture, and cleanup without pretending that remote state changed.
 - **Degraded integrations** distinguish an optional adapter from a required effect; use the failure-mode card in [methods.md](references/methods.md) when an absent backend or mock fallback could look like success.
 
+## Conditional method references
+
+Open only the matching reference for the selected task; ordinary integration work does not need to load either card.
+
+- Repeated bounded reads of an authorized task feed: [cursor-paged task messages](references/cursor-paged-task-messages.md).
+- Observing progress from an already-authorized local CLI child: [truthful CLI progress](references/truthful-cli-progress.md).
+
+The cursor-paged task-message and local CLI-progress cards are DRAFTs. Hermes's existing `instruction-reviewed` entrypoint maturity does not review or certify these additions.
+
 ## Working method
 
 1. Bind objective, target scope, expected result, authority, acceptance evidence, and termination or cleanup state.

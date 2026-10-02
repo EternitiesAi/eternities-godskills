@@ -1,0 +1,145 @@
+{
+  "schema": "godskills.conditional-method-title-free-callers/v1",
+  "inputCaptureOrder": "Twelve literal inputs recorded before the current candidate owner/resource reads; timestamp not inferred.",
+  "inputBasis": "Agreed design contract and inherited concrete negative categories; requests do not name method titles.",
+  "executionScope": "Independent manual document applications only. No provider/network calls, task process launch/observation, solving or source acquisition.",
+  "notBlindExperiment": true,
+  "reviewerAlreadyAwareOfPriorMethodNames": true,
+  "cases": [
+    {
+      "id": "P1",
+      "kind": "positive",
+      "request": "An authorized task is still running. Keep up with messages added after the position I saved, without downloading the whole history again. Preserve what I have already accepted and be honest if the final history cannot be shown complete.",
+      "expectedOwner": "eternities-hermes",
+      "expectedReference": "references/cursor-paged-task-messages.md",
+      "context": "Planning only. Assume an explicitly supplied versioned append-only task-feed contract with opaque service-returned continuations and read/retention authority; terminal status supplies no final watermark. Exact page/byte/time bounds must be obtained from that task contract, not invented."
+    },
+    {
+      "id": "P2",
+      "kind": "positive",
+      "request": "I already authorized and own this local tool. Describe how to report its state without disturbing its JSON output. It produces no valid progress events and eventually exits zero, but its application result has not been checked. Do not invent a percent, ETA or success.",
+      "expectedOwner": "eternities-hermes",
+      "expectedReference": "references/truthful-cli-progress.md",
+      "context": "Planning only; no tool is launched or observed. Child stdout is machine-readable, stderr is reserved for the child, and redirected mode is selected. Invocation/schema/deadline/validator/cleanup inputs still need to be bound."
+    },
+    {
+      "id": "P3",
+      "kind": "positive",
+      "request": "From only the supplied lines, prepare a reviewable mathematical specification with source locations. Keep missing meanings, units and domains unknown, preserve conflicts, and ask a separate domain reviewer to check the draft. Do not calculate a solution or judge whether the source is true.",
+      "expectedOwner": "symbolic-mathematics-python",
+      "expectedReference": "references/source-grounded-math-specification.md",
+      "context": "Reviewer-authored synthetic supplied fixture, not acquired/domain source evidence.",
+      "suppliedFixture": {
+        "identity": "reviewer-fixture-S1/v1",
+        "lines": [
+          {
+            "locator": "S1:L1",
+            "text": "Duration D is no greater than 3 seconds."
+          },
+          {
+            "locator": "S1:L2",
+            "text": "Duration D must be at least 4 seconds."
+          },
+          {
+            "locator": "S1:L3",
+            "text": "The field N is recorded for each delivery."
+          }
+        ]
+      }
+    },
+    {
+      "id": "NH1",
+      "kind": "negative",
+      "request": "Resume an incremental warehouse ingestion from its last cursor, reconcile late and reordered records after an expired page key, and report table completeness.",
+      "expectedOwner": "columnar-ingestion-rollup-and-query-layout-design",
+      "expectedReference": null,
+      "rejectNewMethods": [
+        "cursor-paged-task-messages",
+        "truthful-cli-progress"
+      ]
+    },
+    {
+      "id": "NH2",
+      "kind": "negative",
+      "request": "Design an accessible visual progress indicator with phase, percentage, ETA and live announcements; no command is launched and no process is observed.",
+      "expectedOwner": "eternities-muse",
+      "expectedReference": null,
+      "rejectNewMethods": [
+        "cursor-paged-task-messages",
+        "truthful-cli-progress"
+      ]
+    },
+    {
+      "id": "NH3",
+      "kind": "negative",
+      "request": "Summarize a prior conversation into durable memory with a saved position and retention policy; this is an archive task, not polling a running service feed.",
+      "expectedOwner": "eternities-mnemosyne",
+      "expectedReference": null,
+      "rejectNewMethods": [
+        "cursor-paged-task-messages",
+        "truthful-cli-progress"
+      ]
+    },
+    {
+      "id": "NH4",
+      "kind": "negative",
+      "request": "Define a versioned JSON schema for producer progress events with phase and percentage fields; do not build a CLI wrapper or observe a child process.",
+      "expectedOwner": "structured-output-contracts",
+      "expectedReference": null,
+      "rejectNewMethods": [
+        "cursor-paged-task-messages",
+        "truthful-cli-progress"
+      ]
+    },
+    {
+      "id": "NM1",
+      "kind": "negative",
+      "request": "Create a prose-only literature outline of authors, claims, disagreements and citations; do not formalize mathematical relations or compute.",
+      "expectedOwner": "retrieval-grounded-answering",
+      "expectedReference": null,
+      "rejectNewMethods": [
+        "source-grounded-math-specification"
+      ]
+    },
+    {
+      "id": "NM2",
+      "kind": "negative",
+      "request": "Extract qualitative interview themes and entities into a prose outline; no statistical or mathematical work is requested.",
+      "expectedOwner": "eternities-logos",
+      "expectedReference": null,
+      "rejectNewMethods": [
+        "source-grounded-math-specification"
+      ]
+    },
+    {
+      "id": "NM3",
+      "kind": "negative",
+      "request": "Validate a coordinate table against its declared units and ranges, convert only documented coordinate units, and flag invalid values. I need coordinate-data checks, not a new specification from cited prose.",
+      "expectedOwner": "geospatial-coordinate-integrity",
+      "expectedReference": null,
+      "rejectNewMethods": [
+        "source-grounded-math-specification"
+      ]
+    },
+    {
+      "id": "OH",
+      "kind": "ordinary-control",
+      "request": "An authorized response arrives as arbitrary UTF-8 byte chunks carrying NDJSON records. Plan safe decoding and framing before EOF, including split characters and a truncated final record. This is one response, not repeated task-history pages.",
+      "expectedOwner": "eternities-hermes",
+      "expectedReference": "references/methods.md#incremental-byte-to-record-stream-intake",
+      "rejectNewMethods": [
+        "cursor-paged-task-messages"
+      ]
+    },
+    {
+      "id": "OM",
+      "kind": "ordinary-control",
+      "request": "The equation x^2 = 4 is already declared over real x. Select the appropriate workflow for solving and checking it, but do not solve it in this review. I am not asking to extract a specification from prose.",
+      "expectedOwner": "symbolic-mathematics-python",
+      "expectedReference": null,
+      "rejectNewMethods": [
+        "source-grounded-math-specification"
+      ]
+    }
+  ]
+}

@@ -7,6 +7,11 @@ description: Use when Python-based symbolic derivation or transformation needs e
 
 Use this entrypoint to make a computer-algebra result inspectable and bounded. It is useful for derivation, simplification, solving, and transformation checks; symbolic output and numerical agreement are not automatically a formal proof.
 
+## Choose the route
+
+- **Source-grounded mathematical specification from cited prose — DRAFT:** Use before derivation when the requested artifact makes quantities or mathematical relations explicit with locators, units, domains, and unknowns. Follow [the source-grounded specification method](references/source-grounded-math-specification.md). This route does not solve or validate the source claim. Prose outlines and nonmathematical claim extraction, including policy and literature outlines, remain with Logos; scientific or causal claim appraisal remains with Athena. If the input already contains a declared equation or identity and the request is to solve, simplify, derive, or prove it, use the existing symbolic workflow below instead; that is an anti-trigger for this extraction method, not for this skill.
+- **Symbolic derivation or transformation:** Use the existing workflow below when an expression or identity is already declared and the requested work is symbolic computation or its checks.
+
 ## State the mathematical domain
 
 Write the expression or identity, variable domains, assumptions, units, branch conventions, parameter restrictions, and intended equality notion before asking a solver to simplify. Distinguish an identity on a domain from an equality that fails at a singularity or changes branch.

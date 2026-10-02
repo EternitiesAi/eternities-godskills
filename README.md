@@ -15,6 +15,8 @@ file manifest, and a backed-up installer with rollback. Markdown use requires no
 Node, API, warehouse, personal folder, Keel, or Godagents installation. The
 optional CLI uses Node built-ins only.
 
+The October 2 reviewed snapshot is available as a [standalone ZIP](artifacts/releases/godskills-product-20261002-f6d71194.zip), with its [SHA-256 sidecar](artifacts/releases/godskills-product-20261002-f6d71194.zip.sha256). It includes a [selected smaller-method directory](product/METHODS.v1.md): discover a useful method from ordinary task descriptions and exclusions, then read its complete owner and matching reference. The directory does not activate skills or replace agent judgment. See the [snapshot verification record](docs/product-release-20261002-finalization.md) for exact checks, review scopes and remaining limits.
+
 For a new computer, copy only `product/` or export its verified standalone ZIP:
 
 ```text
@@ -37,7 +39,8 @@ for host installation and rollback.
 - [Read the scientific, speech and education distillation](docs/universal-intake-distillation-wave-5.md)
 - [Read the structured-output, integration and refinement-loop distillation](docs/universal-intake-distillation-wave-4.md)
 - [See the research-family workplan for the newest source intake](docs/universal-refinement-family-workplan.md)
-- [See the installed release, verification and remaining work](docs/universal-product-v1-closeout.md)
+- [See the October 2 core publication and installation record](docs/product-core-20261002-publication-installation.md)
+- [Read the historical portable-product closeout](docs/universal-product-v1-closeout.md)
 
 The `skills/` tree and pinned historical protocols below remain preserved for
 compatibility. New installations should use `product/skills/`; the old 44-folder

@@ -1,0 +1,329 @@
+{
+  "schema": "godskills.daedalus-optional-model-ci-independent-evidence/v1",
+  "checkedAtUtc": "2026-10-02T11:54:58.525Z",
+  "authorRoot": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/daedalus-optional-model-ci-proposal-v1/staged",
+  "candidateBindings": [
+    {
+      "path": "receipt.json",
+      "bytes": 5798,
+      "sha256": "4332af96045798690ee4284a7f3af5d04d4e71f07d2a9a1aa7ce1e2b76ed507d"
+    },
+    {
+      "path": "product/skills/eternities-daedalus/SKILL.md",
+      "bytes": 3964,
+      "sha256": "ee2f0326f35e2a4efc952570dcd7956d04d1a4b5abc08e2a16f3a5776a09d347"
+    },
+    {
+      "path": "product/skills/eternities-daedalus/skill.json",
+      "bytes": 7017,
+      "sha256": "7df7c6256ffb5c2eb0be1ecf2343f16872b5847a04b4179100f4f0158babe49d"
+    },
+    {
+      "path": "product/skills/eternities-daedalus/references/optional-model-scenarios-ci.md",
+      "bytes": 3849,
+      "sha256": "982db0a3b6811f7b7fde0fa6b31e06e3df0ed86bbf9dc9826209dc52877b61d8"
+    },
+    {
+      "path": "tests/daedalus-optional-model-ci-proposal.test.mjs",
+      "bytes": 2813,
+      "sha256": "ad8e1422ddfc3858f73ee88b73e603cea62af06cc7c4179abf0ea7489928565b"
+    }
+  ],
+  "canonicalBindings": [
+    {
+      "path": "product/skills/eternities-daedalus/SKILL.md",
+      "revision": "55f960847fa2a06a750a1a6e20c4e7f95ea10449",
+      "bytes": 3492,
+      "sha256": "89b1e2c543293cb61da0f812d62562997a2b3d16553c30f70ae430a32c02fd3b"
+    },
+    {
+      "path": "product/skills/eternities-daedalus/skill.json",
+      "revision": "55f960847fa2a06a750a1a6e20c4e7f95ea10449",
+      "bytes": 6968,
+      "sha256": "051a80efb4e3a50134f46a0b86b7d2d203284db21a84d177726e37f074bdc282"
+    },
+    {
+      "path": "product/skills/eternities-daedalus/references/test-design-and-evidence.md",
+      "revision": "55f960847fa2a06a750a1a6e20c4e7f95ea10449",
+      "bytes": 5902,
+      "sha256": "276208dc309c3eb9058e0acf966b29ce2268876df48e36e0fe641d2a07534814"
+    },
+    {
+      "path": "product/skills/eternities-herald/SKILL.md",
+      "revision": "55f960847fa2a06a750a1a6e20c4e7f95ea10449",
+      "bytes": 3201,
+      "sha256": "3cd991e0e9539c9b40703b8ca39bd7c1a80d51f7cd6c4968e5c8299ed485445e"
+    },
+    {
+      "path": "product/skills/eternities-herald/references/methods.md",
+      "revision": "55f960847fa2a06a750a1a6e20c4e7f95ea10449",
+      "bytes": 1110,
+      "sha256": "ed5209dafb316cc67b213f1babdfb03d24642bedc59ad83e88512304175fa7f4"
+    },
+    {
+      "path": "product/skills/eternities-daedalus/references/methods.md",
+      "revision": "55f960847fa2a06a750a1a6e20c4e7f95ea10449",
+      "bytes": 6320,
+      "sha256": "deec76d5357d3f5fb3758c0bd9c956d1638b1736d9f20e2dbf53fe6da618abbc"
+    }
+  ],
+  "semanticDelta": {
+    "onlyTwoConditionalOwnerInsertions": true,
+    "metadataOnlyAddsOneResource": true,
+    "globalRoutingUnchanged": true,
+    "maturityUnchanged": true,
+    "provenanceUnchanged": true,
+    "linkClosure": [
+      {
+        "target": "references/methods.md",
+        "resolution": "unchanged canonical resource"
+      },
+      {
+        "target": "references/optional-model-scenarios-ci.md",
+        "resolution": "new staged method"
+      },
+      {
+        "target": "references/test-design-and-evidence.md",
+        "resolution": "unchanged canonical resource"
+      },
+      {
+        "target": "references/methods.md",
+        "resolution": "unchanged canonical resource"
+      }
+    ]
+  },
+  "inventoryCases": [
+    {
+      "id": "exact-disjoint-union",
+      "inventory": [
+        "R-parser",
+        "R-offline-model-fixture",
+        "R-recovery",
+        "O-prompt-exploration",
+        "O-provider-response"
+      ],
+      "required": [
+        "R-parser",
+        "R-offline-model-fixture",
+        "R-recovery"
+      ],
+      "optional": [
+        "O-prompt-exploration",
+        "O-provider-response"
+      ],
+      "expected": [],
+      "actual": [],
+      "assertion": "passed"
+    },
+    {
+      "id": "overlap",
+      "inventory": [
+        "R-parser",
+        "R-offline-model-fixture",
+        "R-recovery",
+        "O-prompt-exploration",
+        "O-provider-response"
+      ],
+      "required": [
+        "R-parser",
+        "R-offline-model-fixture",
+        "R-recovery",
+        "O-prompt-exploration"
+      ],
+      "optional": [
+        "O-prompt-exploration",
+        "O-provider-response"
+      ],
+      "expected": [
+        "overlap:O-prompt-exploration"
+      ],
+      "actual": [
+        "overlap:O-prompt-exploration"
+      ],
+      "assertion": "passed"
+    },
+    {
+      "id": "missing-case",
+      "inventory": [
+        "R-parser",
+        "R-offline-model-fixture",
+        "R-recovery",
+        "O-prompt-exploration",
+        "O-provider-response"
+      ],
+      "required": [
+        "R-parser",
+        "R-offline-model-fixture",
+        "R-recovery"
+      ],
+      "optional": [
+        "O-prompt-exploration"
+      ],
+      "expected": [
+        "missing:O-provider-response"
+      ],
+      "actual": [
+        "missing:O-provider-response"
+      ],
+      "assertion": "passed"
+    },
+    {
+      "id": "duplicate-required",
+      "inventory": [
+        "R-parser",
+        "R-offline-model-fixture",
+        "R-recovery",
+        "O-prompt-exploration",
+        "O-provider-response"
+      ],
+      "required": [
+        "R-parser",
+        "R-offline-model-fixture",
+        "R-recovery",
+        "R-parser"
+      ],
+      "optional": [
+        "O-prompt-exploration",
+        "O-provider-response"
+      ],
+      "expected": [
+        "duplicate:required"
+      ],
+      "actual": [
+        "duplicate:required"
+      ],
+      "assertion": "passed"
+    },
+    {
+      "id": "newly-discovered-case",
+      "inventory": [
+        "R-parser",
+        "R-offline-model-fixture",
+        "R-recovery",
+        "O-prompt-exploration",
+        "O-provider-response",
+        "N-new-model-setup"
+      ],
+      "required": [
+        "R-parser",
+        "R-offline-model-fixture",
+        "R-recovery"
+      ],
+      "optional": [
+        "O-prompt-exploration",
+        "O-provider-response"
+      ],
+      "expected": [
+        "missing:N-new-model-setup"
+      ],
+      "actual": [
+        "missing:N-new-model-setup"
+      ],
+      "assertion": "passed"
+    },
+    {
+      "id": "undeclared-selection",
+      "inventory": [
+        "R-parser",
+        "R-offline-model-fixture",
+        "R-recovery",
+        "O-prompt-exploration",
+        "O-provider-response"
+      ],
+      "required": [
+        "R-parser",
+        "R-offline-model-fixture",
+        "R-recovery"
+      ],
+      "optional": [
+        "O-prompt-exploration",
+        "O-provider-response",
+        "X-undeclared"
+      ],
+      "expected": [
+        "undeclared:X-undeclared"
+      ],
+      "actual": [
+        "undeclared:X-undeclared"
+      ],
+      "assertion": "passed"
+    }
+  ],
+  "focusedTests": {
+    "originalCommand": "node --test artifacts/sprint-20261002/daedalus-optional-model-ci-proposal-v1/staged/tests/daedalus-optional-model-ci-proposal.test.mjs",
+    "originalPassed": 4,
+    "originalFailed": 0,
+    "copiedCommand": "node --test tests/daedalus-optional-model-ci-proposal.test.mjs",
+    "copiedPassed": 4,
+    "copiedFailed": 0,
+    "copiedExitCode": 0,
+    "copiedStdout": "✔ the optional method is conditional and linked without broadening global routing metadata (0.5985ms)\n✔ required CI stays provider-free and exact test membership is auditable (0.1048ms)\n✔ optional execution requires explicit authority and does not retry uncertain paid work (0.0704ms)\n✔ result scope and actual merge-policy ownership remain distinct (0.0636ms)\nℹ tests 4\nℹ suites 0\nℹ pass 4\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 53.9715\n",
+    "emptyPATH": true
+  },
+  "fixturePath": "run-zkGUuU/staged copy",
+  "sourceBoundary": {
+    "source": "first-party B04 optional-model-scenarios-ci archive",
+    "authorRecordedSha256": "dd41280dda3457e486cc432d4598cff1e5a87ff2f7213fbcc3ecc639cd0b565b",
+    "independentlyReadInThisReview": false,
+    "currentDisposition": "deferred by parent, not a missing-rights certification finding",
+    "authorityOrRightsTransferred": false
+  },
+  "actualExecution": {
+    "providerCalls": 0,
+    "network": 0,
+    "CIEnablement": 0,
+    "productEdits": 0,
+    "integration": 0,
+    "fullSuite": false
+  },
+  "limits": [
+    "Static author tests and a reviewer literal set audit are not live CI or provider isolation proof.",
+    "The staged files are a delta; existing owner references resolve to canonical pack resources, not additional staged copies.",
+    "No required-status mapping, paid request, provider integration, model behavior or performance was executed."
+  ],
+  "manualPlanApplications": [
+    {
+      "id": "P1",
+      "caller": "Stable provider-free checks plus genuinely optional experiments",
+      "result": "Exact 3 required / 2 optional IDs; fixed model-shaped fixture remains required; optional off until authority and actual Herald policy inspection.",
+      "evidenceKind": "reviewer-written plan, not execution",
+      "methodLines": [
+        3,
+        7,
+        9,
+        13,
+        25
+      ]
+    },
+    {
+      "id": "P2",
+      "caller": "Ambiguous cost authority; then explicitly authorized unknown spend with interruption",
+      "result": "Ambiguous authority => not-run; interrupted possibly charged attempt => incomplete, acceptance/usage unknown, no automatic retry or silent substitution.",
+      "evidenceKind": "reviewer-written two-branch plan, not paid request",
+      "methodLines": [
+        13,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "P3",
+      "caller": "Required real-provider acceptance plus optional exploration",
+      "result": "Required live gate preserved unresolved; optional method is not a whole-project required-gate classifier or substitute. Herald condition must not be satisfied by weakening actual/user-required gates.",
+      "evidenceKind": "negative-fit application of full owner and conditional method, not observed branch policy",
+      "methodLines": [
+        3,
+        7,
+        9,
+        21,
+        25
+      ],
+      "ownerSupport": [
+        "Daedalus working method 1, 4 and deliverable/finish: acceptance and real-boundary evidence",
+        "test-design-and-evidence: bind claims to layers, keep doubles honest, finish/limits",
+        "Herald working method 1/5 and deliverable/finish: acceptance owner; missing evidence/authority unready"
+      ]
+    }
+  ],
+  "freshVerdictScope": "Useful documented DRAFT optional-scenario test-selection and authority/evidence method, conditional owner handoff and resource-only metadata addition. No live CI/provider or required-gate redesign approval."
+}

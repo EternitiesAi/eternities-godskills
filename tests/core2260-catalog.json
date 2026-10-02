@@ -952,7 +952,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-daedalus/SKILL.md",
-      "entrypointSha256": "ee2f0326f35e2a4efc952570dcd7956d04d1a4b5abc08e2a16f3a5776a09d347",
+      "entrypointSha256": "89b1e2c543293cb61da0f812d62562997a2b3d16553c30f70ae430a32c02fd3b",
       "resources": [
         {
           "path": "skills/eternities-daedalus/references/methods.md",
@@ -961,10 +961,6 @@
         {
           "path": "skills/eternities-daedalus/references/test-design-and-evidence.md",
           "sha256": "276208dc309c3eb9058e0acf966b29ce2268876df48e36e0fe641d2a07534814"
-        },
-        {
-          "path": "skills/eternities-daedalus/references/optional-model-scenarios-ci.md",
-          "sha256": "982db0a3b6811f7b7fde0fa6b31e06e3df0ed86bbf9dc9826209dc52877b61d8"
         }
       ]
     },
@@ -1126,19 +1122,11 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-hermes/SKILL.md",
-      "entrypointSha256": "f578fba0bc4d10af9221e2fbd980ee4d21b0de71bda26428d282dabdd9152f90",
+      "entrypointSha256": "435d81f1cfaeea64ebb85ad9cd00d1dae22e8bde77edeaa9e009c315e7ce69ba",
       "resources": [
         {
           "path": "skills/eternities-hermes/references/methods.md",
           "sha256": "3f0a33559aba81a728d7aa47ab6f5d5c9686490d8d7e68a83b1ddf3136747aa4"
-        },
-        {
-          "path": "skills/eternities-hermes/references/cursor-paged-task-messages.md",
-          "sha256": "b3135e20f4ff67b3ac5593536eb4b14b59ff3d96608dc26090a6181862e6e2da"
-        },
-        {
-          "path": "skills/eternities-hermes/references/truthful-cli-progress.md",
-          "sha256": "d9bd1ebfd44178a4d33f0d1150b460aa4d6fa564177ea0ded1577ce4123c936c"
         }
       ]
     },
@@ -2438,13 +2426,8 @@
       "specializes": "eternities-daedalus",
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/symbolic-mathematics-python/SKILL.md",
-      "entrypointSha256": "ad82634d58c4cbd2901b31e2475017f60c8cbfa820c9b929a76a4bc7b9d09a86",
-      "resources": [
-        {
-          "path": "skills/symbolic-mathematics-python/references/source-grounded-math-specification.md",
-          "sha256": "edbbb063b3550619cfe216db64a96611c14839fcf61e2f24f13ca9d2ecebdb20"
-        }
-      ]
+      "entrypointSha256": "e3d7645546def7d305480c7cc52c9767c49b4652081b389a30426f14bc0ecff5",
+      "resources": []
     },
     {
       "id": "terrain-watershed-analysis",

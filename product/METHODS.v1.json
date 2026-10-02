@@ -5,13 +5,125 @@
   "coverage": "selected-bundled-methods",
   "methods": [
     {
+      "id": "hermes-running-task-message-checkpoint",
+      "title": "Read new task messages from a saved position",
+      "owner": "eternities-hermes",
+      "resource": "skills/eternities-hermes/references/cursor-paged-task-messages.md",
+      "resourceSha256": "b3135e20f4ff67b3ac5593536eb4b14b59ff3d96608dc26090a6181862e6e2da",
+      "tasks": [
+        "Keep up with new messages from an authorized still-running task using a saved position instead of reloading the whole history"
+      ],
+      "exclusions": [
+        "Not warehouse or table ingestion, durable conversation-memory summarization, decoding bytes within one response, or authority to cancel a task"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Independent non-author document review included a manual task-feed planning application and four adjacent-owner exclusions. No live task-service or storage implementation was qualified.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact documented DRAFT method and conditional complete-owner fit under selected Markdown discovery; not global automatic routing, runtime, domain correctness or performance.",
+        "receipt": "evidence/method-reviews/conditional-v1/receipt.json",
+        "receiptSha256": "4b9860fa7d8020d819a0d522303194e8f8b593fd02794469b16799ba162d630b",
+        "report": "evidence/method-reviews/conditional-v1/review.md",
+        "reportSha256": "f6662e866e788e8a99c398d4632dd2e8e582fb606908bf57353e49ad5e9c57fd",
+        "resourceBinding": {
+          "pathPointer": "/methodBindings/0/path",
+          "sha256Pointer": "/methodBindings/0/sha256"
+        }
+      }
+    },
+    {
+      "id": "hermes-authorized-local-process-observation",
+      "title": "Observe a local command without invented progress",
+      "owner": "eternities-hermes",
+      "resource": "skills/eternities-hermes/references/truthful-cli-progress.md",
+      "resourceSha256": "d9bd1ebfd44178a4d33f0d1150b460aa4d6fa564177ea0ded1577ce4123c936c",
+      "tasks": [
+        "Report the state of an already-authorized local command while preserving its output channels and showing progress only from validated signals"
+      ],
+      "exclusions": [
+        "Not visual-only progress UI, accessibility announcements, schema-only producer-event design, or new process launch or cancellation authority"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Independent non-author document review included a manual process-observation planning application. No process wrapper, provider or live command was executed or qualified.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact documented DRAFT method and conditional complete-owner fit under selected Markdown discovery; not global automatic routing, runtime, domain correctness or performance.",
+        "receipt": "evidence/method-reviews/conditional-v1/receipt.json",
+        "receiptSha256": "4b9860fa7d8020d819a0d522303194e8f8b593fd02794469b16799ba162d630b",
+        "report": "evidence/method-reviews/conditional-v1/review.md",
+        "reportSha256": "f6662e866e788e8a99c398d4632dd2e8e582fb606908bf57353e49ad5e9c57fd",
+        "resourceBinding": {
+          "pathPointer": "/methodBindings/1/path",
+          "sha256Pointer": "/methodBindings/1/sha256"
+        }
+      }
+    },
+    {
+      "id": "math-supplied-prose-specification-draft",
+      "title": "Extract a source-linked mathematical specification",
+      "owner": "symbolic-mathematics-python",
+      "resource": "skills/symbolic-mathematics-python/references/source-grounded-math-specification.md",
+      "resourceSha256": "edbbb063b3550619cfe216db64a96611c14839fcf61e2f24f13ca9d2ecebdb20",
+      "tasks": [
+        "Turn supplied prose with stated mathematical relations into a source-linked specification draft, leaving unknown units, domains and conflicts for separate review"
+      ],
+      "exclusions": [
+        "Not prose-only outlines, qualitative interview extraction, coordinate or unit-value validation, source-truth appraisal, or solving an already-declared equation"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Independent non-author document review included a source-linked draft from a synthetic three-line fixture and three non-method exclusions. Mathematical domain review remains pending; no solver or real-source validation.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact documented DRAFT method and conditional complete-owner fit under selected Markdown discovery; not global automatic routing, runtime, domain correctness or performance.",
+        "receipt": "evidence/method-reviews/conditional-v1/receipt.json",
+        "receiptSha256": "4b9860fa7d8020d819a0d522303194e8f8b593fd02794469b16799ba162d630b",
+        "report": "evidence/method-reviews/conditional-v1/review.md",
+        "reportSha256": "f6662e866e788e8a99c398d4632dd2e8e582fb606908bf57353e49ad5e9c57fd",
+        "resourceBinding": {
+          "pathPointer": "/methodBindings/2/path",
+          "sha256Pointer": "/methodBindings/2/sha256"
+        }
+      }
+    },
+    {
+      "id": "daedalus-optional-model-scenario-ci",
+      "title": "Separate optional model scenarios from required CI",
+      "owner": "eternities-daedalus",
+      "resource": "skills/eternities-daedalus/references/optional-model-scenarios-ci.md",
+      "resourceSha256": "982db0a3b6811f7b7fde0fa6b31e06e3df0ed86bbf9dc9826209dc52877b61d8",
+      "tasks": [
+        "Keep explicitly optional live-model scenarios separate from mandatory deterministic CI while retaining paid-provider and required-acceptance gates"
+      ],
+      "exclusions": [
+        "A required live or paid acceptance test is not optional; this method does not authorize provider calls or qualify CI or merge configuration"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Independent document review included three planning applications and bounded copied-product checks; no live CI or provider execution.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact documented DRAFT optional-scenario selection and conditional owner handoff; not live CI, provider execution or redesign of a required acceptance gate.",
+        "receipt": "evidence/method-reviews/daedalus-v1/receipt.json",
+        "receiptSha256": "a0b2a8ac4611c327a40517cc588079d79cb4402416b14fd8c7f512cab6b373b0",
+        "report": "evidence/method-reviews/daedalus-v1/review.md",
+        "reportSha256": "4e945d60805c10be19a8d0a8e8f974e7d75a3968a9dd7dc60e13a820e6ae10ed",
+        "resourceBinding": {
+          "pathPointer": "/methodBindings/0/path",
+          "sha256Pointer": "/methodBindings/0/sha256"
+        }
+      }
+    },
+    {
       "id": "arcadia-game-state-audio-cues",
       "title": "Game-state to audio-cue design",
       "owner": "eternities-arcadia",
       "resource": "skills/eternities-arcadia/references/game-state-to-audio-cue.md",
       "resourceSha256": "f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f",
-      "tasks": ["Map gameplay states to sound, silence, cue interruption and muted alternatives"],
-      "exclusions": ["Not supplied DSP-code analysis, media rights, or automatic audio implementation"],
+      "tasks": [
+        "Map gameplay states to sound, silence, cue interruption and muted alternatives"
+      ],
+      "exclusions": [
+        "Not supplied DSP-code analysis, media rights, or automatic audio implementation"
+      ],
       "documentStatus": "independently-document-reviewed",
       "executionEvidence": "Three planning packets reported by the reviewer; no game/audio runtime or human listening was performed.",
       "outcomeStatus": "not-performance-qualified",
@@ -33,8 +145,12 @@
       "owner": "eternities-atlas",
       "resource": "skills/eternities-atlas/references/serving-time-ranking-decision-trace.md",
       "resourceSha256": "4a4ed718c0879126b1d30cf9c2f2c5f469cbe730e72d4103e9784ee5a7c5a496",
-      "tasks": ["Explain one feed, recommendation or notification-shortlist decision at its serving time"],
-      "exclusions": ["Not prospect scoring, retrieved-passage reranking, scientific validation, or schema-only validation"],
+      "tasks": [
+        "Explain one feed, recommendation or notification-shortlist decision at its serving time"
+      ],
+      "exclusions": [
+        "Not prospect scoring, retrieved-passage reranking, scientific validation, or schema-only validation"
+      ],
       "documentStatus": "independently-document-reviewed",
       "executionEvidence": "Package and bounded lexical checks observed; this review did not execute a live ranker or qualify recommendations.",
       "outcomeStatus": "not-performance-qualified",
@@ -57,8 +173,12 @@
       "resource": "skills/eternities-oracle/references/methods.md",
       "anchor": "artifact-role-evidence-draft",
       "resourceSha256": "ab1f3e8a23fa5929bcf8d25c119e25a275ffc752a119eb37cc9e9da78d339950",
-      "tasks": ["Determine who authored, reviewed, approved or challenged an exact artifact version"],
-      "exclusions": ["Permission to inspect a source is not approval of its artifact; this does not grant source access or reuse rights"],
+      "tasks": [
+        "Determine who authored, reviewed, approved or challenged an exact artifact version"
+      ],
+      "exclusions": [
+        "Permission to inspect a source is not approval of its artifact; this does not grant source access or reuse rights"
+      ],
       "documentStatus": "not-assessed-by-this-overlay",
       "executionEvidence": "The already shipped body remains explicitly DRAFT. This directory adds navigation, not a new review or execution claim.",
       "outcomeStatus": "not-performance-qualified"
@@ -70,8 +190,12 @@
       "resource": "skills/eternities-mnemosyne/references/methods.md",
       "anchor": "local-evidence-base-lifecycle-draft",
       "resourceSha256": "9b3bff3a805b833a4e3d72495382efab8b99e31a0719178a17f03ed4aca02d86",
-      "tasks": ["Recover, compare or preserve a named repository-local evidence or decision collection"],
-      "exclusions": ["Ordinary file lookup and repository search are not lifecycle work; vendor research stays separate"],
+      "tasks": [
+        "Recover, compare or preserve a named repository-local evidence or decision collection"
+      ],
+      "exclusions": [
+        "Ordinary file lookup and repository search are not lifecycle work; vendor research stays separate"
+      ],
       "documentStatus": "not-assessed-by-this-overlay",
       "executionEvidence": "The already shipped body remains explicitly DRAFT. This directory adds navigation, not a new review or execution claim.",
       "outcomeStatus": "not-performance-qualified"

@@ -1,0 +1,17 @@
+# Parent verification: final conditional product candidate
+
+Snapshot 2026-10-02 13:54 UTC. This is parent verification, not independent approval or publication.
+
+Independent original body receipt `4b9860fa7d8020d819a0d522303194e8f8b593fd02794469b16799ba162d630b` and its four supporting records were verified; the readset's 53 file bindings and two canonical Git blobs matched. Final-data receipt `9dd199d3ae0c46ddb9dd29f54bca61799fae98753e34f2c85da9cbe460f34dbb` is terminal READY. Parent checked its report/evidence and eight candidate file bindings, then independently validated the whole manifest. The original five records bundled into the pack are exact copies. Core deployment review `5ee302f359d1354d8fc759fde73d8f285449d2f829196b33bccc8c239c2e3c71` and nine bound deployment/statement/journal/snapshot/archive records matched; the earlier core remains installed while this candidate is tested.
+
+The isolated integration product was validated as exact core2260 before copying accepted candidate deltas; no old payload is removed. After copying only changed/new files and the manifest, the full pack validates as `f6d71194e6897118f7ec7dac9bd2a9287479acb3345f347f291958091fd65cdc`, 68 skills. Rebuild reproduces the raw manifest exactly: `949de38dd46fe7f6e0e618ff3e5e4ddd1f92acc614acd0f7c0a9991a3d376efd`.
+
+Copernicus's staged regression-v2 exact test `54b51de4b28a5d06da64c71021c7b181085e3ec1c39bc0d28960dc9ad3d2f2b1` and fixture `57d47c0a9692dc21caa0e7909ee6c557cd5ef5cc4e09b968df079cc81f86aecf` were copied without editing, pending independent review. Parent's integrated focused run passed 33/33. The actual full suite used 248 explicitly enumerated existing root test files, concurrency four and the existing D-volume fixture location. It passed 1,194 of 1,195 tests, with zero failures and one documented Windows leaf-symlink skip. TAP SHA-256: `28f3ec741ff91962f1046488bb0558090748774ed1e1d21708d94e07352e0487`. No nonexistent-glob file was counted as a test, no acquired source was executed, and historical receipts were not regenerated.
+
+Export emitted a new standalone ZIP, `artifacts/releases/godskills-product-20261002-f6d71194.zip`, 1,137,974 bytes, SHA-256 `bcd1d43c815f36e0fc62434dcca180f4b6fe1c2c877f49896508d0fce143a30d`. A separate .NET ZipArchive reader matched all 219 unique members against the product's 218 payload hashes plus raw manifest: zero extra, missing or changed members. The independent distribution review remains a separate gate, not fulfilled by this parent's check.
+
+The three protected activation hashes still match the frozen canonical values. R10 remains 49,514 open obligations/163 conflicts, without application. Exact root product/public metadata, tests and archive are candidates on the isolated integration branch; commit, main reconciliation, push, remote verification and a fresh backed-up installation are not implied by this note.
+
+## Repaired reader replay
+
+The outside-pack reader example v2 is still an author DRAFT, receipt `0d2393f4443182ab948f8cc8b093f9301068ebc3b91b31762424b3ab42c46c0f`. Parent freshly replayed both v1 counterexamples. Contradictory known event ID payloads now HOLD before reads/commits and preserve input state; mutating returned page cursor/status/finalCursor inside commit now leaves the returned cursor equal to the acknowledged cursor and retains the snapshotted running state. Six focused author regressions pass on rerun. Original behavior replay and independent code review are pending; this is not a live-service or durable-storage qualification.

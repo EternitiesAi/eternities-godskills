@@ -1,0 +1,78 @@
+{
+  "schema": "godskills.conditional-method-regression-independent-review/v1",
+  "stage": "SEALED_INDEPENDENT_NONAUTHOR_REVIEW",
+  "verdict": "READY",
+  "verdictScope": "The exact staged conditional-method-regression-v2 test packet, run against selected candidate-v2 release f6d711; no product adoption or broader qualification.",
+  "reviewer": {
+    "identity": "Codex",
+    "candidateAuthorship": false,
+    "productEdits": false,
+    "providerCalls": 0
+  },
+  "report": {
+    "path": "artifacts/sprint-20261002/conditional-method-regression-independent-review-v1/review.md",
+    "sha256": "fe4e81337562f906fc0472c9ef4b4815978e42149e95c7ff74dc44db918055d4"
+  },
+  "authorPacket": {
+    "root": "artifacts/sprint-20261002/conditional-method-regression-v2",
+    "receiptPath": "artifacts/sprint-20261002/conditional-method-regression-v2/receipt.json",
+    "receiptSha256": "cc03f2d611bd6103c09d48ca123a3104c63066faae3232c9e6cd93214e43cf47",
+    "reportPath": "artifacts/sprint-20261002/conditional-method-regression-v2/report.md",
+    "reportSha256": "973e5cf896eff2c93884d21ed8e0aac2a5c4206c079f6fdca835919629bbc165",
+    "evidencePath": "artifacts/sprint-20261002/conditional-method-regression-v2/evidence.json",
+    "evidenceSha256": "0aa8ad3cc86dfc6cea50f4d5b3f2b884f1e8b2221840c0a8858fa6f236d54e9d"
+  },
+  "frozenStagedInputs": [
+    {
+      "path": "artifacts/sprint-20261002/conditional-method-regression-v2/staged/tests/conditional-method-regression.test.mjs",
+      "bytes": 23241,
+      "sha256": "54b51de4b28a5d06da64c71021c7b181085e3ec1c39bc0d28960dc9ad3d2f2b1"
+    },
+    {
+      "path": "artifacts/sprint-20261002/conditional-method-regression-v2/staged/tests/core2260-catalog.json",
+      "bytes": 99289,
+      "sha256": "57d47c0a9692dc21caa0e7909ee6c557cd5ef5cc4e09b968df079cc81f86aecf",
+      "byteIdenticalToPinnedCore": true
+    }
+  ],
+  "candidateRun": {
+    "productRoot": "artifacts/sprint-20261002/conditional-method-candidate-v2/product",
+    "releaseId": "f6d71194e6897118f7ec7dac9bd2a9287479acb3345f347f291958091fd65cdc",
+    "releaseManifestSha256": "949de38dd46fe7f6e0e618ff3e5e4ddd1f92acc614acd0f7c0a9991a3d376efd",
+    "skillCount": 68,
+    "payloadFiles": 218,
+    "syntaxCheck": "PASS",
+    "focusedRun": {
+      "command": "node --test artifacts\\sprint-20261002\\conditional-method-regression-v2\\staged\\tests\\conditional-method-regression.test.mjs",
+      "environment": {
+        "GODSKILLS_PRODUCT_ROOT": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\conditional-method-candidate-v2\\product",
+        "GODSKILLS_REPOSITORY_ROOT": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002"
+      },
+      "total": 33,
+      "passed": 33,
+      "failed": 0,
+      "skipped": 0,
+      "durationMilliseconds": 589.7372
+    }
+  },
+  "caseAccounting": {
+    "projectionResourceOwnerDirectoryAndPackagingChecks": 6,
+    "frozenHermesAssertions": 18,
+    "daedalusOptionalCiAssertions": 8,
+    "selectedCandidateValidationAndCliIdentity": 1,
+    "total": 33
+  },
+  "reviewChecks": {
+    "v2DiffAgainstTerminalV1": "only the final validation test changes: async selected-manifest read, direct verifyProduct equality, and CLI-to-manifest identity binding",
+    "provisional45c5LiteralInTest": false,
+    "failedGlobalTopOneClaimedAsPassing": false,
+    "semanticRoutingOrTitleFreeOwnerCorrectnessClaimed": false,
+    "fullSuite": false,
+    "ciMergeProtectionQualified": false
+  },
+  "limitations": [
+    "Document assertions are static regex-presence checks over whole loaded owner/reference text, not behavioral or per-subsection semantic tests.",
+    "CLI and verifyProduct come from the selected product itself; this checks candidate integrity/self-consistency, not an independent validator implementation.",
+    "No product/service/runtime/provider/source-rights/R10/full-suite/merge/install qualification was performed."
+  ]
+}

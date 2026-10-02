@@ -1,0 +1,124 @@
+{
+  "schema": "godskills.core-installed-upgrade-review-receipt.v1",
+  "review": {
+    "path": "artifacts/sprint-20261002/core-installed-upgrade-review-v1/review.md",
+    "sha256": "599caf5b7f76b50e3637165ae46e028d6ecfac545c8e4573642ea2f0c21739ef",
+    "bytes": 3985,
+    "disposition": "READY_FOR_SCOPED_PUBLICATION_AND_SAME_HOST_INSTALLATION_FACTS"
+  },
+  "scope": {
+    "integrationWorktree": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002",
+    "canonicalHead": "84792f9e46b3b6511e7f3c5400dd840a4d658346",
+    "remoteMainObserved": "84792f9e46b3b6511e7f3c5400dd840a4d658346",
+    "readOnlyAudit": true,
+    "checks": [
+      "publication/install statement identity and relative link resolution",
+      "published main source release manifest and named archive identity",
+      "live installed runtime payload, manifest, and exact file-set hashes",
+      "installed CLI validate result",
+      "managed exposed-file hashes against journal, snapshots, and source manifest",
+      "pre-install managed baseline and preserved unrelated-file hashes",
+      "old runtime backup identity and all journaled runtime file hashes"
+    ],
+    "notPerformed": [
+      "installation, rollback, push, or other deployment mutation",
+      "test suite, UI/catalog refresh, or performance validation",
+      "fresh-OS, cross-platform, human-acceptance, rights, or corpus-completion validation",
+      "publication of unrelated file paths or semantic reread of unrelated skill bodies"
+    ]
+  },
+  "publicationStatement": {
+    "path": "docs/product-core-20261002-publication-installation.md",
+    "sha256": "26946504e26cfc694c2263ac95cc3c2a8524457fac7cd4c211b30156a7344a72",
+    "bytes": 2745,
+    "historicalReadinessStatement": {
+      "path": "docs/product-core-20261002-release-readiness.md",
+      "sha256": "54a2f0aac18ac1c28abeb306622c3b58324c9c263c7853e068fe4ed8026109a9",
+      "bytes": 3574,
+      "unchanged": true
+    },
+    "linksResolved": [
+      "product-core-20261002-release-readiness.md",
+      "../artifacts/releases/godskills-core-20261002-2260b471.zip"
+    ],
+    "canonicalTrackedDirtyCount": 0,
+    "canonicalUntrackedCount": 2
+  },
+  "sourceRelease": {
+    "manifestPath": "product/release.json",
+    "manifestSha256": "4d398fea6353586e1bf29e4376b2ac5cfc47914013286d7d9ecc5a8dc7b33dba",
+    "releaseId": "2260b471f889f5c25b772fc50d4e83566fe8a4ef28a7748674241c8e80ffc348",
+    "skillCount": 68,
+    "payloadCount": 205,
+    "sourcePayloadHashesMatched": 205
+  },
+  "publishedArchive": {
+    "path": "artifacts/releases/godskills-core-20261002-2260b471.zip",
+    "sha256": "0ea0b883181709f7a539369b6e89eba7fce6c8d840c5e32df3a5a206805ccce2",
+    "bytes": 999825,
+    "sidecarPath": "artifacts/releases/godskills-core-20261002-2260b471.zip.sha256",
+    "sidecarSha256": "3d890834ffb623ef5e658a618492a57d04af24cf670189ba2c35b699611d7c26",
+    "sidecarContentMatchesArchive": true
+  },
+  "installedRuntime": {
+    "path": "C:/Users/Dom/.agents/godskills",
+    "releaseId": "2260b471f889f5c25b772fc50d4e83566fe8a4ef28a7748674241c8e80ffc348",
+    "manifestAndPayloadFiles": 206,
+    "expectedFiles": 206,
+    "matched": 206,
+    "extra": 0,
+    "missing": 0,
+    "mismatched": 0,
+    "cliValidation": {
+      "command": "node C:\\Users\\Dom\\.agents\\godskills\\bin\\godskills.mjs validate",
+      "exitCode": 0,
+      "status": "verified-content",
+      "releaseId": "2260b471f889f5c25b772fc50d4e83566fe8a4ef28a7748674241c8e80ffc348",
+      "skillCount": 68
+    }
+  },
+  "exposedSkills": {
+    "path": "C:/Users/Dom/.agents/skills",
+    "releaseManagedDirectoryCount": 68,
+    "managedDirectoriesPresent": 68,
+    "physicalDirectoryCount": 81,
+    "nonCorePreexistingDirectories": 13,
+    "newManagedFileCount": 186,
+    "newManagedFilesMatchedSourceJournalSnapshot": 186,
+    "preInstallManagedFileCount": 184,
+    "preInstallManagedFilesMatchedBeforeSnapshot": 184,
+    "beforeSnapshotPath": "artifacts/sprint-20261002/core-install-audit-before-v1.json",
+    "beforeSnapshotSha256": "cf2aded67e1b0eface9b818ce5918effc34f8901e5e2304c2775729ef10efdb0",
+    "beforeSnapshotFiles": 240,
+    "afterSnapshotPath": "artifacts/sprint-20261002/core-install-audit-after-v1.json",
+    "afterSnapshotSha256": "b80dc619507eeea1fd69dc8101b2e0e59a360023f4b5b26fcd312dd287b53686",
+    "afterSnapshotFiles": 242,
+    "afterSnapshotMatchesLiveFiles": 242,
+    "unrelatedPreexistingFiles": 56,
+    "unrelatedPreservedByteForByte": 56,
+    "unrelatedMissing": 0,
+    "unrelatedChanged": 0,
+    "privateUnrelatedInventoryIncluded": false
+  },
+  "installJournalAndBackup": {
+    "receiptPath": "C:/Users/Dom/.agents/godskills-backups/20261002T124336Z-core2260/install-receipt.json",
+    "receiptSha256": "164c2f80b4063bf01234c02848c6b40ec6f8ce457fb74bd6b9cf7d10889f9e82",
+    "schema": "eternities-godskills-install-v1",
+    "status": "installed",
+    "runtimeMoved": true,
+    "runtimeInstalled": true,
+    "completedOwnerCount": 68,
+    "previousReleaseId": "61334aee865e67b815cce14dd6dd63078653282dfabac6342f1a31de163a0bfe",
+    "backupRuntimeFileCount": 193,
+    "backupRuntimeFilesMatchedJournal": 193
+  },
+  "effects": {
+    "runtimeOrProductFilesEdited": false,
+    "installOrRollbackPerformed": false,
+    "pushPerformed": false,
+    "testsRun": false,
+    "fullSuiteRun": false,
+    "providersCalled": false,
+    "unrelatedFileInventoryPublished": false
+  }
+}
