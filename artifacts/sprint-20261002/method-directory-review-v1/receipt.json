@@ -1,0 +1,406 @@
+{
+  "schema": "godskills.method-directory-independent-review-receipt/v1",
+  "stage": "SEALED_INDEPENDENT_NON_AUTHOR_REVIEW",
+  "verdict": "REPAIR",
+  "repairScope": "Documentation-only MD1; bounded implementation/navigation/binding checks passed",
+  "reviewedAtUtc": "2026-10-02T11:30:22.039Z",
+  "reviewer": {
+    "identity": "Codex",
+    "role": "parent-assigned native Sol high-level reviewer",
+    "parentPatchAuthoredByReviewer": false,
+    "gapAssessmentAuthoredByReviewer": true,
+    "productBytesAuthored": false,
+    "childAgents": 0
+  },
+  "scope": {
+    "worktree": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002",
+    "canonicalMain": "55f960847fa2a06a750a1a6e20c4e7f95ea10449",
+    "observedCombinedReleaseId": "dc0475ab124cebbec71d70f6080b2bff1a770e413fbfad78e011f8f9893cad8f",
+    "skillCount": 68,
+    "payloadFiles": 205,
+    "frozenFiles": [
+      "product/lib/method-directory.mjs",
+      "product/lib/product.mjs",
+      "product/METHODS.v1.json",
+      "product/METHODS.v1.md",
+      "product/README.md",
+      "tests/product-method-directory.test.mjs"
+    ],
+    "reviewMeaning": "Six frozen directory/build/documentation/test files and bound selected method evidence; not whole-product certification or approval of future combined bytes."
+  },
+  "artifactBindings": [
+    {
+      "path": "review.md",
+      "bytes": 8804,
+      "sha256": "420bf25018cf45233491b21f1f1699b21996a2167afda1562dbd67a15b8d8902"
+    },
+    {
+      "path": "evidence.json",
+      "bytes": 19480,
+      "sha256": "e91cba61c766a896b0bec04e464617994e74d524de4ff14123dfbda815595100"
+    },
+    {
+      "path": "evidence-probe.mjs",
+      "bytes": 13581,
+      "sha256": "bc5acff5f6b3b6dd958993076e7bceba9483faa1693a3befbac85eaca843040c"
+    }
+  ],
+  "frozenInputBindings": [
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\lib\\method-directory.mjs",
+      "bytes": 7836,
+      "sha256": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180",
+      "relativePath": "product/lib/method-directory.mjs",
+      "role": "parent-frozen review input"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\lib\\product.mjs",
+      "bytes": 21992,
+      "sha256": "1e99a9e68317fa01121f81e363860cd28e17e5b19c7aedc8522d949e7025ad79",
+      "relativePath": "product/lib/product.mjs",
+      "role": "parent-frozen review input"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\METHODS.v1.json",
+      "bytes": 4761,
+      "sha256": "c722fa517eb82757daf2baec7901e487e1cac757487be2559862ee5e71040abb",
+      "relativePath": "product/METHODS.v1.json",
+      "role": "parent-frozen review input"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\METHODS.v1.md",
+      "bytes": 5199,
+      "sha256": "365932e8f48c77c15d364ccefc3c4d37a60921de9768ae367133bece70c077af",
+      "relativePath": "product/METHODS.v1.md",
+      "role": "parent-frozen review input"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\README.md",
+      "bytes": 10713,
+      "sha256": "1db4c4ec4e9fae4f72ed8d90ed70a0166ebfae71b4d12285d994a3acb45a3e76",
+      "relativePath": "product/README.md",
+      "role": "parent-frozen review input"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\tests\\product-method-directory.test.mjs",
+      "bytes": 6687,
+      "sha256": "7415c0c9af6eef9377c89ea2935abc554964de1234841fc44252a250d2d21c76",
+      "relativePath": "tests/product-method-directory.test.mjs",
+      "role": "parent-frozen review input"
+    }
+  ],
+  "supportingEvidenceBindings": [
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\skills\\eternities-arcadia\\references\\game-state-to-audio-cue.md",
+      "bytes": 9247,
+      "sha256": "f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\evidence\\method-reviews\\arcadia-v2\\receipt.json",
+      "bytes": 4201,
+      "sha256": "fceb06922f496de2e2861725f25a3e9d3e24a5840cbe9c68e613099d9b2fed57"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\evidence\\method-reviews\\arcadia-v2\\review.md",
+      "bytes": 6937,
+      "sha256": "150a4011cdec776e5a25268d413bf18381a6a13bb770bc3cb630fe4c55c5f5ff"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\skills\\eternities-atlas\\references\\serving-time-ranking-decision-trace.md",
+      "bytes": 5487,
+      "sha256": "4a4ed718c0879126b1d30cf9c2f2c5f469cbe730e72d4103e9784ee5a7c5a496"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\evidence\\method-reviews\\atlas-v3\\receipt.json",
+      "bytes": 15924,
+      "sha256": "d6acb24533810b956f05ef8aa9f72ca9caba40a83e5ac5992b97664cdff9ffa4"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\evidence\\method-reviews\\atlas-v3\\review.md",
+      "bytes": 9665,
+      "sha256": "92c5232b86ff42e4ffe20da76da5e9f42cc102234fee015b2decf1c5e484210c"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\skills\\eternities-oracle\\references\\methods.md",
+      "bytes": 4673,
+      "sha256": "ab1f3e8a23fa5929bcf8d25c119e25a275ffc752a119eb37cc9e9da78d339950"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\skills\\eternities-mnemosyne\\references\\methods.md",
+      "bytes": 5018,
+      "sha256": "9b3bff3a805b833a4e3d72495382efab8b99e31a0719178a17f03ed4aca02d86"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\evidence\\method-reviews\\arcadia-v2\\cue-plan-packets.md",
+      "bytes": 5669,
+      "sha256": "4610142758fe3696a8b27d32f7c1ae2053b766303cc9b3604670ce4578698dcc"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\evidence\\method-reviews\\atlas-v3\\routing-matrix.tsv",
+      "bytes": 11102,
+      "sha256": "470559d2cadfd33a1b54eec748078fd23ef29da7755a8e1c74eecec395d45741"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\evidence\\method-reviews\\atlas-v3\\evidence.json",
+      "bytes": 50102,
+      "sha256": "9c83f326db0a8148c797638ba3e0f52be349c383e1c06849f945286d7e36bd30"
+    }
+  ],
+  "observedContextBindings": [
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\catalog.json",
+      "bytes": 99289,
+      "sha256": "57d47c0a9692dc21caa0e7909ee6c557cd5ef5cc4e09b968df079cc81f86aecf",
+      "relativePath": "product/catalog.json",
+      "role": "observed context"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\release.json",
+      "bytes": 25227,
+      "sha256": "c2d28ea26c53a2f34d488558cd5d4a46be57a07c3e32c00e8306958598f71066",
+      "relativePath": "product/release.json",
+      "role": "observed context"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\INDEX.md",
+      "bytes": 17441,
+      "sha256": "27d50fbf73154aa5777e51dc3e9ea7c0b0c336cfe4ced1922beef1d976555e49",
+      "relativePath": "product/INDEX.md",
+      "role": "observed context"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\tests\\universal-product.test.mjs",
+      "bytes": 14806,
+      "sha256": "28784ec8266329ce4b07a9699a66ad784290ed260b3ad9d5474874507a77eca4",
+      "relativePath": "tests/universal-product.test.mjs",
+      "role": "observed context"
+    }
+  ],
+  "findings": [
+    {
+      "id": "MD1",
+      "kind": "documentation scope mismatch only",
+      "path": "product/README.md",
+      "line": 92,
+      "actualClaim": "No source warehouse or development artifacts enter the archive.",
+      "contradictingDeclaredPayloads": [
+        "evidence/method-reviews/arcadia-v2/cue-plan-packets.md",
+        "evidence/method-reviews/arcadia-v2/receipt.json",
+        "evidence/method-reviews/arcadia-v2/review.md",
+        "evidence/method-reviews/atlas-v3/evidence.json",
+        "evidence/method-reviews/atlas-v3/receipt.json",
+        "evidence/method-reviews/atlas-v3/review.md",
+        "evidence/method-reviews/atlas-v3/routing-matrix.tsv"
+      ],
+      "originalReviewCopiesByteIdentical": true,
+      "requestedRepair": "State that selected historical method-review receipts/reports/supporting data are included as optional evidence; exclude only source warehouse/rest of development checkout.",
+      "implementationBindingDefectFound": false,
+      "historicalEvidenceRemovalRequested": false
+    }
+  ],
+  "passedChecks": {
+    "focusedTests": {
+      "command": "node --test tests/product-method-directory.test.mjs",
+      "exitCode": 0,
+      "passed": 6,
+      "failed": 0,
+      "skipped": 0
+    },
+    "selectedExistingTests": {
+      "command": "node --test --test-name-pattern \"portable content identity|specialist discovery works|changed bytes and extra undeclared|missing resources, dangling relations|real product CLI works|self-consistent hashes cannot|exact declared negative phrases|portable metadata rejects|portable reference URLs\" tests/universal-product.test.mjs",
+      "exitCode": 0,
+      "passed": 9,
+      "failed": 0,
+      "skipped": 0
+    },
+    "independentProbeCommand": "node artifacts/sprint-20261002/method-directory-review-v1/evidence-probe.mjs",
+    "independentProbeExitCode": 0,
+    "callerPaths": [
+      {
+        "caseId": "Q1",
+        "query": "Map gameplay states to audio cues with muted alternatives and priority interruption",
+        "selection": "Reviewer matched actual task and exclusions, not an automated selector",
+        "path": [
+          "README.md",
+          "METHODS.v1.md",
+          "skills/eternities-arcadia/SKILL.md",
+          "skills/eternities-arcadia/references/game-state-to-audio-cue.md"
+        ],
+        "completeOwnerRead": true,
+        "conditionalReferenceRead": true,
+        "ownerBytes": 4019,
+        "methodBytes": 9247,
+        "documentStatus": "independently-document-reviewed",
+        "outcomeStatus": "not-performance-qualified"
+      },
+      {
+        "caseId": "Q2",
+        "query": "game-state to audio-cue design",
+        "selection": "Reviewer matched actual task and exclusions, not an automated selector",
+        "path": [
+          "README.md",
+          "METHODS.v1.md",
+          "skills/eternities-arcadia/SKILL.md",
+          "skills/eternities-arcadia/references/game-state-to-audio-cue.md"
+        ],
+        "completeOwnerRead": true,
+        "conditionalReferenceRead": true,
+        "ownerBytes": 4019,
+        "methodBytes": 9247,
+        "documentStatus": "independently-document-reviewed",
+        "outcomeStatus": "not-performance-qualified"
+      },
+      {
+        "caseId": "Q3",
+        "query": "Who authored, reviewed, approved, or challenged this exact artifact version?",
+        "selection": "Reviewer matched actual task and exclusions, not an automated selector",
+        "path": [
+          "README.md",
+          "METHODS.v1.md",
+          "skills/eternities-oracle/SKILL.md",
+          "skills/eternities-oracle/references/methods.md#artifact-role-evidence-draft"
+        ],
+        "completeOwnerRead": true,
+        "conditionalReferenceRead": true,
+        "ownerBytes": 3907,
+        "methodBytes": 4673,
+        "documentStatus": "not-assessed-by-this-overlay",
+        "outcomeStatus": "not-performance-qualified"
+      }
+    ],
+    "negativeBoundaries": [
+      {
+        "caseId": "N1",
+        "query": "Inspect supplied DSP code for sample-rate discontinuities",
+        "rejectedMethod": "arcadia-game-state-audio-cues",
+        "nextOwner": "audio-dsp-integrity-review",
+        "reason": "Not supplied DSP-code analysis, media rights, or automatic audio implementation"
+      },
+      {
+        "caseId": "N2",
+        "query": "Score sales prospects from account records",
+        "rejectedMethod": "atlas-serving-time-decision-trace",
+        "nextOwner": "eternities-agora",
+        "reason": "Not prospect scoring, retrieved-passage reranking, scientific validation, or schema-only validation"
+      },
+      {
+        "caseId": "N3",
+        "query": "Validate the serialized trace schema only",
+        "rejectedMethod": "atlas-serving-time-decision-trace",
+        "nextOwner": "structured-output-contracts",
+        "reason": "Not prospect scoring, retrieved-passage reranking, scientific validation, or schema-only validation"
+      },
+      {
+        "caseId": "N4",
+        "query": "Permission to read report v3 is asserted; who formally approved that report?",
+        "method": "oracle-artifact-role-evidence",
+        "result": "No verified artifact approval from read-access permission alone",
+        "reason": "Permission to inspect a source is not approval of its artifact; this does not grant source access or reuse rights"
+      }
+    ],
+    "independentRefusals": [
+      {
+        "caseId": "stale-body",
+        "result": "refused",
+        "error": "Stale method resource: arcadia-game-state-audio-cues"
+      },
+      {
+        "caseId": "old-review-transfer",
+        "result": "refused",
+        "error": "Stale method review binding: arcadia-game-state-audio-cues"
+      },
+      {
+        "caseId": "missing-json-with-md",
+        "result": "refused",
+        "error": "Method directory metadata missing"
+      },
+      {
+        "caseId": "report-tamper",
+        "result": "refused",
+        "error": "Stale method review: arcadia-game-state-audio-cues"
+      },
+      {
+        "caseId": "undeclared-resource",
+        "result": "refused",
+        "error": "Invalid or undeclared method resource"
+      },
+      {
+        "caseId": "unsupported-performance-enum",
+        "result": "refused",
+        "error": "Unsupported Method outcome status"
+      },
+      {
+        "caseId": "bad-review-pointer",
+        "result": "refused",
+        "error": "Missing Method review pointer"
+      },
+      {
+        "caseId": "unassessed-review-inheritance",
+        "result": "refused",
+        "error": "Unassessed Method cannot inherit a review"
+      },
+      {
+        "caseId": "self-consistent-generated-md-tamper",
+        "result": "refused",
+        "error": "Method directory does not match its exact metadata"
+      }
+    ],
+    "minimalEnvironmentCliExitCode": 0,
+    "copiedBuildReproducesIdentity": true,
+    "originalReviewReceiptAndReportBytesIdentical": true,
+    "reportSupportingRelativeLinksResolve": true,
+    "searchScorerSourceUnchanged": true,
+    "methodRows": 4,
+    "documentReviewedRows": 2,
+    "legacyNotAssessedRows": 2,
+    "allOutcomesNotPerformanceQualified": true,
+    "oldReviewCannotTransferToChangedBodyInTest": true,
+    "diffCheck": {
+      "command": "git diff --check",
+      "exitCode": 0
+    },
+    "fullSuiteRun": false,
+    "exportRerun": false,
+    "installerTestsRun": false
+  },
+  "claimLimits": {
+    "hashIsNotAuthenticity": true,
+    "pointersAreNotReviewerIdentityProof": true,
+    "publisherScopeAndExecutionTextRequiresReview": true,
+    "statusDoesNotGrantRights": true,
+    "equalBodiesDoNotTransferTerminalOutcomes": true,
+    "performanceQualification": false,
+    "DraftBodiesRelabeled": false,
+    "parentMaturityPromoted": false
+  },
+  "effects": {
+    "outputRoot": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\method-directory-review-v1",
+    "productEdits": 0,
+    "fixtureWritesOnlyInsideOutputRoot": true,
+    "childAgents": 0,
+    "providers": 0,
+    "acquisition": 0,
+    "acquiredCodeExecution": 0,
+    "installs": 0,
+    "commits": 0,
+    "merges": 0,
+    "pushes": 0,
+    "R10Dispositions": 0,
+    "frozenActivationPathAccess": 0
+  },
+  "limitations": [
+    "Same-host Windows product-only copy, not fresh OS/native host UI or agent-performance evidence.",
+    "Caller selections and exclusions are independent manual application of Markdown, not new semantic-routing code or automatic classification.",
+    "Byte/pointer checks establish consistency, not authenticity, independence, truthful scope, reviewer identity or rights; evidence claims remain publisher statements.",
+    "Unsupported performance enum is rejected; free-text execution statements still require publisher review rather than machine truth certification.",
+    "No export replay, installer tests, full suite, source-obligation review or runtime/human quality qualification."
+  ],
+  "ownership": {
+    "outputRoot": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\method-directory-review-v1",
+    "sealedArtifactsImmutable": true,
+    "parentOwnsREADMERepairAndIntegration": true,
+    "changedBytesNeedNewVersionedScopedReceipt": true,
+    "implementationEditsByReviewer": false,
+    "nextAction": "Return exact documentation-only REPAIR; wait for separate assignment or frozen repair candidate."
+  }
+}

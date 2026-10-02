@@ -1,0 +1,264 @@
+{
+  "schema": "godskills.distribution-independent-review-receipt/v1",
+  "stage": "SEALED_INDEPENDENT_NON_AUTHOR_REVIEW",
+  "verdict": "REPAIR",
+  "reviewedAtUtc": "2026-10-02T10:05:43.722Z",
+  "reviewer": {
+    "identity": "Codex",
+    "role": "parent-assigned native Sol high-level reviewer",
+    "parentDeltaAuthorship": false,
+    "childrenAgents": 0
+  },
+  "scope": {
+    "worktree": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002",
+    "canonicalMain": "55f960847fa2a06a750a1a6e20c4e7f95ea10449",
+    "releaseId": "570aa62fb01e04047e44d62b9c061afce276461db17b20f7813672b1b0d31e36",
+    "skillCount": 68,
+    "categories": 21,
+    "releaseBoundFiles": 193,
+    "archiveFileCount": 194,
+    "reviewScope": "Exact parent-authored package/export/documentation delta only",
+    "wholeReleaseApproval": false,
+    "readinessMeaning": "READY would narrowly approve exact package/export/onboarding/documentation bytes, not authenticity, rights, license clearance, agent superiority, source-corpus completion, integration or installation."
+  },
+  "artifactBindings": [
+    {
+      "path": "review.md",
+      "bytes": 9454,
+      "sha256": "478e1541274efba3ae0f9ee8bcb74c845fa7616c5f9ddef0a9ef2fc6dd9d3849"
+    },
+    {
+      "path": "evidence.json",
+      "bytes": 24896,
+      "sha256": "155446c104977409ff519aca70b0acf5a25c89cbb23a1e39cfc67003c05317f3"
+    },
+    {
+      "path": "evidence-probe.mjs",
+      "bytes": 13486,
+      "sha256": "362cde991a247ff814fd46a7c9d553730d316736925645417b0809d24f2dc53a"
+    }
+  ],
+  "inputBindings": [
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\lib\\archive.mjs",
+      "bytes": 3957,
+      "sha256": "7e827b3162724bb3415a571286543d607281f82d65d9136e65a3757848e4191e",
+      "relativePath": "product/lib/archive.mjs"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\bin\\godskills.mjs",
+      "bytes": 3097,
+      "sha256": "2bfd79da8efc81a5c4b65556e042bd89bcbd5b06d75d8e1020dbc9a8ebac5685",
+      "relativePath": "product/bin/godskills.mjs"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\tests\\product-archive.test.mjs",
+      "bytes": 4562,
+      "sha256": "9e9e9446c61ab358f10d6bb226d9805fe0d9724e39c71bcc4cd53ee8b21c0793",
+      "relativePath": "tests/product-archive.test.mjs"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\README.md",
+      "bytes": 10486,
+      "sha256": "ca2fcb97e4ea44864b11a92b7c22910a49bdfb93c72ce30d43976e71b78a69d3",
+      "relativePath": "README.md"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\README.md",
+      "bytes": 9619,
+      "sha256": "f2d578abc821c253042fb40118b3d04029ef7bea6d4905f5d4898a2851d77b7a",
+      "relativePath": "product/README.md"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\CORPUS-SCOPE.md",
+      "bytes": 10620,
+      "sha256": "f67fd28074a6fbcb90b9d773db67845a37a58eacfabeba694b187f3433425f32",
+      "relativePath": "product/CORPUS-SCOPE.md"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\release.json",
+      "bytes": 23798,
+      "sha256": "c718d3395daa67710bf0d40251c3cdb09c331dbeeaddf77245670d45e27ab34d",
+      "relativePath": "product/release.json"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\lib\\product.mjs",
+      "bytes": 21368,
+      "sha256": "50bab545b02d947e27f9ddf3db38e7910d5b0bf341de0c0a15bf63c6d61a39af",
+      "relativePath": "product/lib/product.mjs"
+    }
+  ],
+  "frozenAccountingInputs": [
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\universal-product-v1\\artifacts\\corpus-disposition-20260923-r10\\corpus-disposition-summary.json",
+      "bytes": 8450,
+      "sha256": "75dab55310dddae3a0cd4d7f70ff2044aba632185c56f365aed2ffe4c5fd800d"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\universal-product-v1\\artifacts\\corpus-disposition-20260923-r10\\corpus-disposition-manifest.json",
+      "bytes": 2755,
+      "sha256": "419b6a770cec296e26c6a0d4d1a59ed70297d1258cee92f264157cd556e01026"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\universal-product-v1\\artifacts\\corpus-disposition-20260923-r10\\parent-acceptance-receipt.json",
+      "bytes": 1674,
+      "sha256": "308495ac6e78bb94bf1206e8affe9cca915ca80780f43202d6096c873762d9d2"
+    }
+  ],
+  "archiveBindings": [
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\normal-a.zip",
+      "bytes": 851842,
+      "sha256": "d30db275add02ab8dd15c585858e61414a935a34ad30429f1d4c658aab042356"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\normal-b.zip",
+      "bytes": 851842,
+      "sha256": "d30db275add02ab8dd15c585858e61414a935a34ad30429f1d4c658aab042356"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\manifest-interleave.zip",
+      "bytes": 851841,
+      "sha256": "2a70be0edfaa03411fd5e85462bc8008415374dac5567b8a3339c91fe8c43215"
+    }
+  ],
+  "findings": [
+    {
+      "id": "D1",
+      "severity": "blocking export snapshot integrity defect",
+      "path": "product/lib/archive.mjs",
+      "lines": [
+        64,
+        65,
+        66,
+        67,
+        70,
+        71
+      ],
+      "defect": "Exported release.json bytes are exempt from digest checking and not bound to the manifest validated before/after capture; final check compares only releaseId.",
+      "reproduction": "In a copied pack, change skillCount 68 to 0 exactly during the exporter's direct release.json read, then restore source. Both actual source verifications pass, export reports success, independent extraction succeeds, extracted validate fails.",
+      "expected": "Refuse before writing or export an internally valid snapshot tied to the validated manifest.",
+      "observed": {
+        "status": "exported",
+        "returnedSkillCount": 68,
+        "archiveManifestSkillCount": 0,
+        "extractedValidateExitCode": 1,
+        "error": "Catalog count mismatch",
+        "returnedArchiveHashMatchesActualBytes": true,
+        "sourceRestoredAndValid": true
+      },
+      "brokenArchiveSha256": "2a70be0edfaa03411fd5e85462bc8008415374dac5567b8a3339c91fe8c43215",
+      "contrast": "Equivalent README.md capture interleaving is refused with Source changed during export and no archive.",
+      "repair": "Bind exact exported manifest to the validated snapshot or validate the complete assembled in-memory snapshot, including schema/count/files/releaseId; add one bounded regression, preserving exact-pack promise.",
+      "limits": "Controlled deterministic built-in readFile interleaving with real writes/restoration in copies. Not a naturally timed race or external adversary claim."
+    }
+  ],
+  "checks": {
+    "authorTests": {
+      "command": "node --test tests/product-archive.test.mjs",
+      "exitCode": 0,
+      "passed": 5,
+      "failed": 0,
+      "skipped": 0
+    },
+    "fullSuiteRun": false,
+    "diffCheck": {
+      "command": "git diff --check",
+      "exitCode": 0
+    },
+    "independentProbeCommand": "node artifacts/sprint-20261002/distribution-review-v1/evidence-probe.mjs C:/Users/Dom/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/powershell/pwsh.exe",
+    "normalReproducibleExports": 2,
+    "normalArchiveBytes": 851842,
+    "normalArchiveSha256": "d30db275add02ab8dd15c585858e61414a935a34ad30429f1d4c658aab042356",
+    "independentExpandArchiveExitCode": 0,
+    "normalExtractedValidateExitCode": 0,
+    "normalExtractedReleaseId": "570aa62fb01e04047e44d62b9c061afce276461db17b20f7813672b1b0d31e36",
+    "expectedRefusalCases": [
+      "existing archive",
+      "relative output",
+      "source-contained output",
+      "two-dot source-contained filename",
+      "missing parent directory",
+      "missing output option",
+      "duplicate option",
+      "unknown option",
+      "parent is a file",
+      "linked output ancestor",
+      "modified declared content",
+      "undeclared source file"
+    ],
+    "expectedRefusalCount": 12,
+    "declaredFileInterleaveRefused": true,
+    "releaseManifestInterleaveDefectReproduced": true,
+    "leafFileSymlinkRefusal": "unobserved: test fixture creation returned EPERM; directory-junction refusal passed",
+    "allReviewedInputHashesUnchanged": true
+  },
+  "documentation": {
+    "newCorpusCountsAgreeWithFrozenSummary": true,
+    "frozenCounts": {
+      "sourceRowCount": 49974,
+      "identityCount": 37529,
+      "validBodyGroupCount": 20737,
+      "identityObligationCount": 51006,
+      "outstandingIdentityObligationCount": 49514,
+      "conflictingIdentityCount": 163,
+      "distinctReviewedBodyCount": 588,
+      "distinctReviewedBodyIdentityCount": 746
+    },
+    "reviewedBodiesAndIdentitiesAgreeWithFrozenParentReceipt": true,
+    "currentProductMembershipAndCategoryCountsAgree": true,
+    "sourceAccountingIsNotProductQuality": true,
+    "hashIsNotAuthenticity": true,
+    "equalBodiesDoNotTransferRightsOrTerminalOutcomes": true,
+    "newlyPublishedLedgerOrWholeCorpusCompletionClaim": false,
+    "rightsOrLicenseClearance": false,
+    "documentationRepairRequired": false
+  },
+  "environment": {
+    "node": "v24.18.0",
+    "platform": "win32",
+    "architecture": "x64",
+    "nodeExecutable": "C:\\Program Files\\nodejs\\node.exe",
+    "minimalCliEnvironment": {
+      "PATH": "",
+      "SystemRoot": "C:\\WINDOWS"
+    }
+  },
+  "effects": {
+    "outputRoot": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3",
+    "generatedFixturesOnlyInsideOutputRoot": true,
+    "reviewedProductEdits": 0,
+    "commits": 0,
+    "installs": 0,
+    "pushes": 0,
+    "merges": 0,
+    "childAgents": 0,
+    "paidProviders": 0,
+    "webAcquisition": 0,
+    "acquiredCodeExecution": 0,
+    "frozenActivationPathsReadOrWritten": 0,
+    "r10DispositionApplications": 0,
+    "r10MetadataDocumentsRead": 3,
+    "r10LedgerPayloadsRead": 0,
+    "arcadiaV1Changed": false,
+    "arcadiaV2Reviewed": false,
+    "atlasMathHermesReviewed": false
+  },
+  "limitations": [
+    "Same Windows host and .NET extraction only; no observed Linux/macOS or fresh OS.",
+    "Controlled deterministic interleaving uses a temporary built-in readFile wrapper and actual changes/restoration in copied source packs; no naturally timed race or external adversary claim.",
+    "Five author tests passed but do not cover the reproduced release.json interleaving.",
+    "Only frozen R10 summary/manifest/parent receipt inspected; no full-ledger reconstruction or source-rights clearance.",
+    "File-symlink creation is EPERM on this Windows token; leaf-symlink refusal remains unobserved. Directory-junction ancestor refusal was observed.",
+    "First probe stopped at file-symlink setup; a second used legacy Windows PowerShell whose Archive module did not load. Partial fixtures remain; the completed probe uses the observed current PowerShell host and a fresh run directory without overwrite.",
+    "No disk-full/interrupted-write or destination-parent-replacement test."
+  ],
+  "ownership": {
+    "outputRoot": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/distribution-review-v1",
+    "parentOwnsRepairAndIntegration": true,
+    "reviewComplete": true,
+    "sealedArtifactImmutability": true,
+    "repairedBytesNeedNewVersionedReview": true,
+    "nextAction": "Return this exact review; wait for separate assignment."
+  }
+}

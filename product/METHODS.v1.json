@@ -1,0 +1,80 @@
+{
+  "schema": "eternities-godskills-method-directory-v1",
+  "authority": "none",
+  "activation": "none",
+  "coverage": "selected-bundled-methods",
+  "methods": [
+    {
+      "id": "arcadia-game-state-audio-cues",
+      "title": "Game-state to audio-cue design",
+      "owner": "eternities-arcadia",
+      "resource": "skills/eternities-arcadia/references/game-state-to-audio-cue.md",
+      "resourceSha256": "f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f",
+      "tasks": ["Map gameplay states to sound, silence, cue interruption and muted alternatives"],
+      "exclusions": ["Not supplied DSP-code analysis, media rights, or automatic audio implementation"],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Three planning packets reported by the reviewer; no game/audio runtime or human listening was performed.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact documented DRAFT game-state cue design and acceptance-planning method; not play, audibility, accessibility or runtime qualification.",
+        "receipt": "evidence/method-reviews/arcadia-v2/receipt.json",
+        "receiptSha256": "fceb06922f496de2e2861725f25a3e9d3e24a5840cbe9c68e613099d9b2fed57",
+        "report": "evidence/method-reviews/arcadia-v2/review.md",
+        "reportSha256": "150a4011cdec776e5a25268d413bf18381a6a13bb770bc3cb630fe4c55c5f5ff",
+        "resourceBinding": {
+          "pathPointer": "/candidateIdentity/methodPath",
+          "sha256Pointer": "/candidateIdentity/methodSha256"
+        }
+      }
+    },
+    {
+      "id": "atlas-serving-time-decision-trace",
+      "title": "Serving-time ranking decision trace",
+      "owner": "eternities-atlas",
+      "resource": "skills/eternities-atlas/references/serving-time-ranking-decision-trace.md",
+      "resourceSha256": "4a4ed718c0879126b1d30cf9c2f2c5f469cbe730e72d4103e9784ee5a7c5a496",
+      "tasks": ["Explain one feed, recommendation or notification-shortlist decision at its serving time"],
+      "exclusions": ["Not prospect scoring, retrieved-passage reranking, scientific validation, or schema-only validation"],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Package and bounded lexical checks observed; this review did not execute a live ranker or qualify recommendations.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact documented DRAFT one-decision trace guidance and scoped lexical routing repair; not ranking correctness, exposure, fairness or causal benefit.",
+        "receipt": "evidence/method-reviews/atlas-v3/receipt.json",
+        "receiptSha256": "d6acb24533810b956f05ef8aa9f72ca9caba40a83e5ac5992b97664cdff9ffa4",
+        "report": "evidence/method-reviews/atlas-v3/review.md",
+        "reportSha256": "92c5232b86ff42e4ffe20da76da5e9f42cc102234fee015b2decf1c5e484210c",
+        "resourceBinding": {
+          "pathPointer": "/method/path",
+          "sha256Pointer": "/method/sha256"
+        }
+      }
+    },
+    {
+      "id": "oracle-artifact-role-evidence",
+      "title": "Artifact-role evidence",
+      "owner": "eternities-oracle",
+      "resource": "skills/eternities-oracle/references/methods.md",
+      "anchor": "artifact-role-evidence-draft",
+      "resourceSha256": "ab1f3e8a23fa5929bcf8d25c119e25a275ffc752a119eb37cc9e9da78d339950",
+      "tasks": ["Determine who authored, reviewed, approved or challenged an exact artifact version"],
+      "exclusions": ["Permission to inspect a source is not approval of its artifact; this does not grant source access or reuse rights"],
+      "documentStatus": "not-assessed-by-this-overlay",
+      "executionEvidence": "The already shipped body remains explicitly DRAFT. This directory adds navigation, not a new review or execution claim.",
+      "outcomeStatus": "not-performance-qualified"
+    },
+    {
+      "id": "mnemosyne-local-evidence-lifecycle",
+      "title": "Local evidence-base lifecycle",
+      "owner": "eternities-mnemosyne",
+      "resource": "skills/eternities-mnemosyne/references/methods.md",
+      "anchor": "local-evidence-base-lifecycle-draft",
+      "resourceSha256": "9b3bff3a805b833a4e3d72495382efab8b99e31a0719178a17f03ed4aca02d86",
+      "tasks": ["Recover, compare or preserve a named repository-local evidence or decision collection"],
+      "exclusions": ["Ordinary file lookup and repository search are not lifecycle work; vendor research stays separate"],
+      "documentStatus": "not-assessed-by-this-overlay",
+      "executionEvidence": "The already shipped body remains explicitly DRAFT. This directory adds navigation, not a new review or execution claim.",
+      "outcomeStatus": "not-performance-qualified"
+    }
+  ]
+}

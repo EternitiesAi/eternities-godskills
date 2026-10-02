@@ -1,19 +1,31 @@
 # Eternities Godskills
 
-a portable professional capability library for ai agents. godskills organize
+A portable professional capability library for AI agents. Godskills organize
 broad disciplines, operational skills supply focused methods, and extensions
-add bounded mechanisms to an owner. godagents, the keel, and Lunari are
+add bounded mechanisms to an owner. Godagents, the Keel, and Lunari are
 optional consumers, not prerequisites.
 
-## portable product successor
+## Portable product
 
-The self-contained pack is now in **[product/](product/README.md)**: 66 refined
+The self-contained pack is in **[product/](product/README.md)**: 68 refined
 skill entrypoints organized into 21 primary domains, with the 26 existing owner
 extensions folded into relevant methods. It includes broad and specialist
 discovery, a compact relationship catalog, explainable offline search, an exact
 file manifest, and a backed-up installer with rollback. Markdown use requires no
 Node, API, warehouse, personal folder, Keel, or Godagents installation. The
 optional CLI uses Node built-ins only.
+
+For a new computer, copy only `product/` or export its verified standalone ZIP:
+
+```text
+node product/bin/godskills.mjs export --output <new-absolute-archive-path>
+```
+
+Extract the `godskills/` folder and start with its `README.md` and `INDEX.md`.
+The export verifies the pack first, refuses to overwrite an existing archive,
+and reports the archive SHA-256 plus the content release ID. No research quarry
+or repository dependencies are included. See the [portable guide](product/README.md)
+for host installation and rollback.
 
 - [Browse the portable directory](product/INDEX.md)
 - [Idea-to-product, incident repair, research-to-article and visual-scene examples](product/RECIPES.md)

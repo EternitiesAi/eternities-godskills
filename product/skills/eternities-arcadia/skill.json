@@ -35,6 +35,7 @@
   ],
   "resources": [
     "references/methods.md",
+    "references/game-state-to-audio-cue.md",
     "references/browser-runtime-lifecycle.md",
     "references/requirement-screen-state-traceability.md"
   ],

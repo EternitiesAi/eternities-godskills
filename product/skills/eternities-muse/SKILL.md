@@ -22,7 +22,7 @@ Muse turns visual ambition into a coherent system with a visual law, semantic to
 2. State one visual law that can decide palette, type, spacing, shape, imagery, motion, and density together. Name exceptions instead of letting them accumulate invisibly.
 3. Treat accessibility, responsive behavior, loading, reduced motion, and GPU cost as design inputs. Map every motion beat to orientation, causality, demonstration, or story.
 4. For asynchronous interfaces, design state, focus, announcement, cancellation, retry, and stale-response behavior together. For rendered systems, measure geometry in the final viewport rather than trusting source assumptions.
-5. Freeze an acceptance matrix with representative content, extremes, diagnostic states, keyboard and focus checks, fallback behavior, temporal samples, and rejection thresholds.
+5. Scale acceptance evidence to the route and maturity. For formal visual acceptance or release, freeze an acceptance matrix with representative content, extremes, diagnostic states, keyboard and focus checks, fallback behavior, temporal samples, and rejection thresholds. For early art direction or an exploratory prototype, honor the brief's creative freedom and direct viewing and the applicable operability checks; record the accepting person or unresolved owner, target context, observed result, and limits. Do not invent a release matrix or aesthetic threshold before the brief needs one. A generated mock or checklist is not observed visual acceptance, and an early prototype does not imply release, accessibility, or device-wide qualification.
 
 ## Deliverable and finish
 

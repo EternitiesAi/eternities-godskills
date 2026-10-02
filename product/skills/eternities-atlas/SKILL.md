@@ -10,6 +10,7 @@ Atlas is the data-infrastructure route. It connects a data question to the small
 ## Choose the route
 
 - **Analytics and experimentation** defines the estimand, population, leakage controls, uncertainty, and reproducible result.
+- **Serving-time ranking decision trace** follows one named feed, recommendation, or notification-shortlist decision from its candidate population and hard eligibility through time-bound features, scoring, post-score constraints, and separately observed output. It is a DRAFT explanation method, not a ranker or a quality judgment; open the [serving-time ranking decision trace](references/serving-time-ranking-decision-trace.md) only when that route applies.
 - **Finite trade-off frontier** computes a bounded nondominated set across predeclared objectives, never a winner. Use the [finite-frontier method](references/pareto-frontier-decision.md) only for that question. Its optional Node checker verifies declared-input arithmetic, not sources or rights.
 - **Simulation-artifact handoff** binds a declared file set, run context, access limits, per-measurement units, stable-source evidence, and receiver byte checks. Use the [portable handoff contract](references/simulation-artifact-handoff.md); it provides no executable snapshot or security guarantee.
 - **Query and performance** discovers the schema and dialect, establishes a comparable workload and baseline, inspects plans, and distinguishes a measured gain from a hypothesis.
@@ -36,5 +37,7 @@ Use the conditional [connected-source method](references/connector-discovery.md)
 For a consequential real-world choice, HOLD any recommendation until an externally authorized evidence owner has reviewed the exact input, measurements, comparability, hard feasibility, and rights. Neither the calculating agent nor a caller-supplied reviewer name can self-certify that review. A passing finite checker is only a declared-input partition. Node is required for that optional executable route, not for Atlas's other routes.
 
 The data model, query plan, or experiment contract is a checkpoint when the user also requested an authorized local implementation. Continue into the migration fixture, query change, instrumentation, or analysis and verify it without re-requesting permission. Pause only when authority, rollback, consent, or material live-data risk is unresolved.
+
+Use the DRAFT ranking trace only for one identified serving-time decision. Search reranking belongs to retrieval-grounded answering; business or prospect scoring to Agora; external app-store placement to app-store discovery; offline scientific model validation to scientific-surrogate validation; and schema-only validation of a serialized trace to structured-output-contracts. A trace does not establish ranking correctness, fairness, legal compliance, relevance, actual exposure, or source rights.
 
 Example: design an additive column migration from observed workload constraints, implement it in the local fixture, run old/new compatibility checks, and preserve the rollback evidence before any live target is considered.

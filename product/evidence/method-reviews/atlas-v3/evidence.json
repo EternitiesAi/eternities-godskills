@@ -1,0 +1,1401 @@
+{
+  "schema": "godskills.atlas-v3-independent-evidence/v1",
+  "observedUtc": "2026-10-02T10:25:48.890Z",
+  "scope": {
+    "candidate": "C:/dev/eternities-godskills/.worktrees/product-wave25",
+    "canonicalMain": "55f960847fa2a06a750a1a6e20c4e7f95ea10449",
+    "canonicalReleaseId": "61334aee865e67b815cce14dd6dd63078653282dfabac6342f1a31de163a0bfe",
+    "candidateReleaseId": "37a51d00aece6a4058e4c8264ba40ae2c8fe848746c3c2c407cce4c7683ef78e",
+    "skillCount": 68,
+    "releaseBoundFiles": 193
+  },
+  "inputBindings": {
+    "authorReceipt": {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-wave25\\artifacts\\universal-product-v1\\wave29-atlas-serving-time-ranking-trace-v3\\receipt.json",
+      "bytes": 8199,
+      "sha256": "49a6b5e5c4277c12468030f83501aec0cc06fed3cb3e0dde54f519295a22d513"
+    },
+    "authorDeclaredAndHistoricalFiles": [
+      {
+        "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-wave25\\product\\skills\\eternities-atlas\\skill.json",
+        "bytes": 5484,
+        "sha256": "c270415abbe6769fdc5ce7362c5569735ba907bfffb5a2f0da304a1e839de77d",
+        "relativePath": "product/skills/eternities-atlas/skill.json"
+      },
+      {
+        "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-wave25\\product\\catalog.json",
+        "bytes": 99096,
+        "sha256": "962e486c9e99613bb672f4bd4257bb04b0df7f6c0147414aa2e37f0b4bff1355",
+        "relativePath": "product/catalog.json"
+      },
+      {
+        "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-wave25\\product\\release.json",
+        "bytes": 23856,
+        "sha256": "b3baf7788041c31d04aabc2f2948c507d975cacee1d1b92910ef95792de17b2e",
+        "relativePath": "product/release.json"
+      },
+      {
+        "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-wave25\\tests\\wave29-atlas-serving-time-ranking-trace-v3.test.mjs",
+        "bytes": 7606,
+        "sha256": "1a63abab0f5cfee21f22cbb6e7169ce082781e7838f41492ae0d7d6e0c514193",
+        "relativePath": "tests/wave29-atlas-serving-time-ranking-trace-v3.test.mjs"
+      },
+      {
+        "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-wave25\\artifacts\\universal-product-v1\\wave29-atlas-serving-time-ranking-trace-v3\\CANDIDATE.patch",
+        "bytes": 36330,
+        "sha256": "fe0be646c50520d191e33c60a99e3c6be9943146bfe162ab58b72df656227792",
+        "relativePath": "artifacts/universal-product-v1/wave29-atlas-serving-time-ranking-trace-v3/CANDIDATE.patch"
+      },
+      {
+        "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-wave25\\artifacts\\universal-product-v1\\wave29-atlas-serving-time-ranking-trace-v3\\routing-matrix.tsv",
+        "bytes": 6483,
+        "sha256": "761c97d6199f924be51d897867cbbe8f86a45fce04f8ec41608bdfc5c4a2d0b2",
+        "relativePath": "artifacts/universal-product-v1/wave29-atlas-serving-time-ranking-trace-v3/routing-matrix.tsv"
+      },
+      {
+        "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-wave25\\product\\skills\\eternities-atlas\\SKILL.md",
+        "bytes": 6278,
+        "sha256": "35e819e37a97923cc2ae3e9b6d5c35a32843fab2bbe7dd373f483213e9a385ad",
+        "relativePath": "product/skills/eternities-atlas/SKILL.md"
+      },
+      {
+        "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-wave25\\product\\skills\\eternities-atlas\\references\\methods.md",
+        "bytes": 2710,
+        "sha256": "1a6fa9ab8a21ce37de2c9dd909f4156889510faf08292a583fe577a7fdb79d14",
+        "relativePath": "product/skills/eternities-atlas/references/methods.md"
+      },
+      {
+        "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-wave25\\product\\skills\\eternities-atlas\\references\\serving-time-ranking-decision-trace.md",
+        "bytes": 5487,
+        "sha256": "4a4ed718c0879126b1d30cf9c2f2c5f469cbe730e72d4103e9784ee5a7c5a496",
+        "relativePath": "product/skills/eternities-atlas/references/serving-time-ranking-decision-trace.md"
+      },
+      {
+        "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-wave25\\tests\\wave29-atlas-serving-time-ranking-trace.test.mjs",
+        "bytes": 4016,
+        "sha256": "c3b5fe30fb800110299aa009cc0e2450484d8c36f9b41c973bcdb35feedc225e",
+        "relativePath": "tests/wave29-atlas-serving-time-ranking-trace.test.mjs"
+      },
+      {
+        "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-wave25\\tests\\wave29-atlas-serving-time-ranking-trace-v2.test.mjs",
+        "bytes": 4174,
+        "sha256": "5e9243dd13d3deb67fb60d11daa34ee0db5544a4a453f485ec0c6bbe2968c415",
+        "relativePath": "tests/wave29-atlas-serving-time-ranking-trace-v2.test.mjs"
+      },
+      {
+        "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-wave25\\artifacts\\universal-product-v1\\wave29-atlas-serving-time-ranking-trace-v1\\receipt.json",
+        "bytes": 10117,
+        "sha256": "6e9e82be36752c01d098a3a8322d24804077b1c49cd22f22cdb582baed8e18ef",
+        "role": "immutable historical receipt"
+      },
+      {
+        "path": "C:/dev/eternities-godskills/.worktrees/universal-product-v1/artifacts/universal-product-v1/wave29-atlas-serving-time-ranking-independent-review-v1/receipt.json",
+        "bytes": 9170,
+        "sha256": "2486d73e3860d7211f258dbd00dfd8eeb797e456d1ac9002063194140f592c69",
+        "role": "immutable historical receipt"
+      },
+      {
+        "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-wave25\\artifacts\\universal-product-v1\\wave29-atlas-serving-time-ranking-trace-v2\\receipt.json",
+        "bytes": 5318,
+        "sha256": "6e987201d118addc72a728878d698261f5860b4d26981e9a23539e1c705b1e34",
+        "role": "immutable historical receipt"
+      }
+    ],
+    "priorIndependentReview": [
+      {
+        "path": "C:\\dev\\eternities-godskills\\.worktrees\\universal-product-v1\\artifacts\\universal-product-v1\\wave29-atlas-serving-time-ranking-independent-review-v1\\receipt.json",
+        "bytes": 9170,
+        "sha256": "2486d73e3860d7211f258dbd00dfd8eeb797e456d1ac9002063194140f592c69"
+      },
+      {
+        "path": "C:\\dev\\eternities-godskills\\.worktrees\\universal-product-v1\\artifacts\\universal-product-v1\\wave29-atlas-serving-time-ranking-independent-review-v1\\review.md",
+        "bytes": 8924,
+        "sha256": "696e3d6d00ddb674974ad15299996a5fb236d6547f30b60561c017b6d4556442"
+      },
+      {
+        "path": "C:\\dev\\eternities-godskills\\.worktrees\\universal-product-v1\\artifacts\\universal-product-v1\\wave29-atlas-serving-time-ranking-independent-review-v1\\routing-matrix.tsv",
+        "bytes": 8702,
+        "sha256": "95ec3403f4efa42326656c4111410c3abd552c33bfcaea295e49c073d985314c"
+      }
+    ],
+    "sourceFit": {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\universal-product-v1\\artifacts\\universal-product-v1\\wave29-b02-current-product-fit-v1\\product-fit-decision.md",
+      "bytes": 18953,
+      "sha256": "774c2354192f1ca18033a7aba98dc1f90713f0ca86e1907fca235dceb0eeaa38"
+    },
+    "canonicalOwners": [
+      {
+        "path": "product/skills/eternities-atlas/SKILL.md",
+        "bytes": 5317,
+        "sha256": "b137ef291e5a210b2521bbc308b8b990bcd06ba526cd66198d0677a6235f6747"
+      },
+      {
+        "path": "product/skills/eternities-atlas/references/methods.md",
+        "bytes": 2409,
+        "sha256": "e489454e4a7d8f659a9f3bbd5344da4a09cf5fcaa843c0c3bd43261f7fd9a3e6"
+      },
+      {
+        "path": "product/skills/eternities-agora/SKILL.md",
+        "bytes": 3870,
+        "sha256": "a6602a256f8ad9e598947e18c057fd10c3b82f0ed6a44f7915fc439586c6225f"
+      },
+      {
+        "path": "product/skills/eternities-athena/SKILL.md",
+        "bytes": 3449,
+        "sha256": "cb4c4bc02d25e24945fb83d7663f8d868c60b2579614c06eaf4821bbd2afe8db"
+      },
+      {
+        "path": "product/skills/structured-output-contracts/SKILL.md",
+        "bytes": 4677,
+        "sha256": "0650ce7e3aaa652071cc53df6bc8d882fdf1f2359c0543a1b9e3e7d8bdafb668"
+      },
+      {
+        "path": "product/skills/scientific-surrogate-validation/SKILL.md",
+        "bytes": 6329,
+        "sha256": "bb13e6221b81e3dd20d182014314bbf5021940e80c5793ad5492f85bf0e62642"
+      },
+      {
+        "path": "product/skills/retrieval-grounded-answering/SKILL.md",
+        "bytes": 4825,
+        "sha256": "9699b65853adf21b4e285c2b357295ea401822b0dbda46eb168510cb1d654236"
+      },
+      {
+        "path": "product/skills/eternities-daedalus/SKILL.md",
+        "bytes": 3492,
+        "sha256": "89b1e2c543293cb61da0f812d62562997a2b3d16553c30f70ae430a32c02fd3b"
+      },
+      {
+        "path": "product/skills/approval-bound-private-session-mining/SKILL.md",
+        "bytes": 3492,
+        "sha256": "70aec16ea25798d6916294cedf654ae66eba3aa54d0ec2a1f2249199e30d02e1"
+      },
+      {
+        "path": "product/skills/app-store-discovery-experiments/SKILL.md",
+        "bytes": 4223,
+        "sha256": "b25dbdf93508f20f8135253d129419a2de958350156fdf3692afce4668cacd3a"
+      },
+      {
+        "path": "product/skills/physics-constrained-numerical-validation/SKILL.md",
+        "bytes": 3001,
+        "sha256": "83afefae2e0cb5fde9b7f719cc49e2bd6a80cad4a42591e212edf6799064cde1"
+      }
+    ],
+    "canonicalRelease": {
+      "bytes": 23707,
+      "sha256": "63d45eef29d1220aa887068a434ddad8bf174d0f6c48d571b5b6b1975820b91b"
+    },
+    "canonicalCatalog": {
+      "bytes": 98350,
+      "sha256": "0ac01b0042fef02a4aba713d275f73d96c30037f5a2c945af043b29d51bc3ea3"
+    }
+  },
+  "changedTree": {
+    "statusBefore": " M product/catalog.json\n M product/release.json\n M product/skills/eternities-atlas/SKILL.md\n M product/skills/eternities-atlas/references/methods.md\n M product/skills/eternities-atlas/skill.json\n?? artifacts/universal-product-v1/wave29-atlas-serving-time-ranking-trace-v1/\n?? artifacts/universal-product-v1/wave29-atlas-serving-time-ranking-trace-v2/\n?? artifacts/universal-product-v1/wave29-atlas-serving-time-ranking-trace-v3/\n?? product/skills/eternities-atlas/references/serving-time-ranking-decision-trace.md\n?? tests/wave29-atlas-serving-time-ranking-trace-v2.test.mjs\n?? tests/wave29-atlas-serving-time-ranking-trace-v3.test.mjs\n?? tests/wave29-atlas-serving-time-ranking-trace.test.mjs\n",
+    "statusAfter": " M product/catalog.json\n M product/release.json\n M product/skills/eternities-atlas/SKILL.md\n M product/skills/eternities-atlas/references/methods.md\n M product/skills/eternities-atlas/skill.json\n?? artifacts/universal-product-v1/wave29-atlas-serving-time-ranking-trace-v1/\n?? artifacts/universal-product-v1/wave29-atlas-serving-time-ranking-trace-v2/\n?? artifacts/universal-product-v1/wave29-atlas-serving-time-ranking-trace-v3/\n?? product/skills/eternities-atlas/references/serving-time-ranking-decision-trace.md\n?? tests/wave29-atlas-serving-time-ranking-trace-v2.test.mjs\n?? tests/wave29-atlas-serving-time-ranking-trace-v3.test.mjs\n?? tests/wave29-atlas-serving-time-ranking-trace.test.mjs\n",
+    "releaseChanges": [
+      {
+        "path": "catalog.json",
+        "mainSha256": "0ac01b0042fef02a4aba713d275f73d96c30037f5a2c945af043b29d51bc3ea3",
+        "v3Sha256": "962e486c9e99613bb672f4bd4257bb04b0df7f6c0147414aa2e37f0b4bff1355"
+      },
+      {
+        "path": "skills/eternities-atlas/SKILL.md",
+        "mainSha256": "b137ef291e5a210b2521bbc308b8b990bcd06ba526cd66198d0677a6235f6747",
+        "v3Sha256": "35e819e37a97923cc2ae3e9b6d5c35a32843fab2bbe7dd373f483213e9a385ad"
+      },
+      {
+        "path": "skills/eternities-atlas/references/methods.md",
+        "mainSha256": "e489454e4a7d8f659a9f3bbd5344da4a09cf5fcaa843c0c3bd43261f7fd9a3e6",
+        "v3Sha256": "1a6fa9ab8a21ce37de2c9dd909f4156889510faf08292a583fe577a7fdb79d14"
+      },
+      {
+        "path": "skills/eternities-atlas/references/serving-time-ranking-decision-trace.md",
+        "mainSha256": null,
+        "v3Sha256": "4a4ed718c0879126b1d30cf9c2f2c5f469cbe730e72d4103e9784ee5a7c5a496"
+      },
+      {
+        "path": "skills/eternities-atlas/skill.json",
+        "mainSha256": "73e3770eb5aa63fbc3dd44010e2a9fd0a2ab57138a4dea8b593ee5eb1a9adf9e",
+        "v3Sha256": "c270415abbe6769fdc5ce7362c5569735ba907bfffb5a2f0da304a1e839de77d"
+      }
+    ],
+    "patchReverseCheck": true,
+    "searchImplementationUnchanged": true,
+    "unchangedSkillMembership": true,
+    "antiTriggersUnchanged": true
+  },
+  "matrix": {
+    "originalIndependentCases": 16,
+    "authorMatrixCasesReplayed": 18,
+    "authorMatrixExactMatches": 18,
+    "freshReviewerCases": 6,
+    "observations": [
+      {
+        "id": "P01",
+        "query": "For delivery attempt d-88, reconstruct the one notification shortlist decision before dispatch, including its pre-score eligibility rules, score tie-break, and final ordered candidates; do not diagnose delivery success.",
+        "expectedSemanticOwner": "eternities-atlas",
+        "originalIndependentCase": true,
+        "main": {
+          "top3": [
+            {
+              "id": "scientific-surrogate-validation",
+              "score": 60.579
+            },
+            {
+              "id": "venture-falsification-and-planning",
+              "score": 35.691
+            },
+            {
+              "id": "eternities-hermes",
+              "score": 34.124
+            }
+          ],
+          "atlasRank": null,
+          "authority": "none",
+          "activation": "none"
+        },
+        "v3": {
+          "top3": [
+            {
+              "id": "eternities-atlas",
+              "score": 151.774
+            },
+            {
+              "id": "scientific-surrogate-validation",
+              "score": 57.84
+            },
+            {
+              "id": "venture-falsification-and-planning",
+              "score": 35.691
+            }
+          ],
+          "atlasRank": 1,
+          "authority": "none",
+          "activation": "none"
+        }
+      },
+      {
+        "id": "P02",
+        "query": "For request r-701, explain why the selected personalized recommendation collection differs from raw score order after applying the candidate cutoff and post-score diversity constraint.",
+        "expectedSemanticOwner": "eternities-atlas",
+        "originalIndependentCase": true,
+        "main": {
+          "top3": [
+            {
+              "id": "counterbalanced-agent-evaluation",
+              "score": 35.553
+            },
+            {
+              "id": "eternities-phoenix",
+              "score": 28.904
+            },
+            {
+              "id": "performance-release-gating",
+              "score": 28.904
+            }
+          ],
+          "atlasRank": null,
+          "authority": "none",
+          "activation": "none"
+        },
+        "v3": {
+          "top3": [
+            {
+              "id": "eternities-atlas",
+              "score": 98.734
+            },
+            {
+              "id": "counterbalanced-agent-evaluation",
+              "score": 35.553
+            },
+            {
+              "id": "eternities-phoenix",
+              "score": 26.81
+            }
+          ],
+          "atlasRank": 1,
+          "authority": "none",
+          "activation": "none"
+        }
+      },
+      {
+        "id": "P03",
+        "query": "For one past serving choice, reconstruct the versioned list of ranked candidates and its scorer configuration; separate the historical result from the current version and leave a missing revision unknown.",
+        "expectedSemanticOwner": "eternities-atlas",
+        "originalIndependentCase": true,
+        "main": {
+          "top3": [
+            {
+              "id": "eternities-hephaestus",
+              "score": 57.702
+            },
+            {
+              "id": "app-store-discovery-experiments",
+              "score": 48.959
+            },
+            {
+              "id": "structured-output-contracts",
+              "score": 45.12
+            }
+          ],
+          "atlasRank": null,
+          "authority": "none",
+          "activation": "none"
+        },
+        "v3": {
+          "top3": [
+            {
+              "id": "eternities-atlas",
+              "score": 149.858
+            },
+            {
+              "id": "eternities-hephaestus",
+              "score": 56.528
+            },
+            {
+              "id": "app-store-discovery-experiments",
+              "score": 48.959
+            }
+          ],
+          "atlasRank": 1,
+          "authority": "none",
+          "activation": "none"
+        }
+      },
+      {
+        "id": "N01",
+        "query": "Explain why a push notification was not delivered and reconcile broker acknowledgement",
+        "expectedSemanticOwner": "eternities-daedalus",
+        "originalIndependentCase": true,
+        "main": {
+          "top3": [
+            {
+              "id": "eternities-daedalus",
+              "score": 24.887
+            },
+            {
+              "id": "geospatial-coordinate-integrity",
+              "score": 24.887
+            },
+            {
+              "id": "financial-statement-reconciliation",
+              "score": 9.492
+            }
+          ],
+          "atlasRank": null,
+          "authority": "none",
+          "activation": "none"
+        },
+        "v3": {
+          "top3": [
+            {
+              "id": "eternities-daedalus",
+              "score": 24.887
+            },
+            {
+              "id": "geospatial-coordinate-integrity",
+              "score": 24.887
+            },
+            {
+              "id": "financial-statement-reconciliation",
+              "score": 9.492
+            }
+          ],
+          "atlasRank": null,
+          "authority": "none",
+          "activation": "none"
+        }
+      },
+      {
+        "id": "N02",
+        "query": "Investigate a missing mobile alert after broker acceptance; reconcile durable send state, retry, and acknowledgement without analyzing shortlist selection.",
+        "expectedSemanticOwner": "eternities-daedalus",
+        "originalIndependentCase": true,
+        "main": {
+          "top3": [
+            {
+              "id": "eternities-daedalus",
+              "score": 80.488
+            },
+            {
+              "id": "eternities-muse",
+              "score": 74.553
+            },
+            {
+              "id": "release-script-safety",
+              "score": 43.948
+            }
+          ],
+          "atlasRank": 9,
+          "authority": "none",
+          "activation": "none"
+        },
+        "v3": {
+          "top3": [
+            {
+              "id": "eternities-daedalus",
+              "score": 80.488
+            },
+            {
+              "id": "eternities-muse",
+              "score": 74.553
+            },
+            {
+              "id": "release-script-safety",
+              "score": 43.948
+            }
+          ],
+          "atlasRank": 9,
+          "authority": "none",
+          "activation": "none"
+        }
+      },
+      {
+        "id": "N03",
+        "query": "Validate model generalization for recommendation ranking on held-out offline data",
+        "expectedSemanticOwner": "scientific-surrogate-validation",
+        "originalIndependentCase": true,
+        "main": {
+          "top3": [
+            {
+              "id": "scientific-surrogate-validation",
+              "score": 65.499
+            },
+            {
+              "id": "experiment-artifact-lineage",
+              "score": 40.742
+            },
+            {
+              "id": "eternities-omnibus",
+              "score": 35.553
+            }
+          ],
+          "atlasRank": 10,
+          "authority": "none",
+          "activation": "none"
+        },
+        "v3": {
+          "top3": [
+            {
+              "id": "scientific-surrogate-validation",
+              "score": 65.499
+            },
+            {
+              "id": "experiment-artifact-lineage",
+              "score": 40.742
+            },
+            {
+              "id": "eternities-omnibus",
+              "score": 35.553
+            }
+          ],
+          "atlasRank": 10,
+          "authority": "none",
+          "activation": "none"
+        }
+      },
+      {
+        "id": "N04",
+        "query": "Evaluate an offline recommendation model on a grouped holdout for leakage, calibration, and generalization; there is no live request or serving trace.",
+        "expectedSemanticOwner": "scientific-surrogate-validation",
+        "originalIndependentCase": true,
+        "main": {
+          "top3": [
+            {
+              "id": "scientific-surrogate-validation",
+              "score": 145.349
+            },
+            {
+              "id": "eternities-omnibus",
+              "score": 57.702
+            },
+            {
+              "id": "eternities-hephaestus",
+              "score": 30.382
+            }
+          ],
+          "atlasRank": null,
+          "authority": "none",
+          "activation": "none"
+        },
+        "v3": {
+          "top3": [
+            {
+              "id": "scientific-surrogate-validation",
+              "score": 145.349
+            },
+            {
+              "id": "eternities-omnibus",
+              "score": 57.702
+            },
+            {
+              "id": "interatomic-model-validation",
+              "score": 30.035
+            }
+          ],
+          "atlasRank": 6,
+          "authority": "none",
+          "activation": "none"
+        }
+      },
+      {
+        "id": "N05",
+        "query": "Improve search result retrieval and rerank documents using query relevance, evidence coverage, and source attribution.",
+        "expectedSemanticOwner": "retrieval-grounded-answering",
+        "originalIndependentCase": true,
+        "main": {
+          "top3": [
+            {
+              "id": "retrieval-grounded-answering",
+              "score": 74.013
+            },
+            {
+              "id": "eternities-atlas",
+              "score": 58.201
+            },
+            {
+              "id": "eternities-oracle",
+              "score": 50.587
+            }
+          ],
+          "atlasRank": 2,
+          "authority": "none",
+          "activation": "none"
+        },
+        "v3": {
+          "top3": [
+            {
+              "id": "retrieval-grounded-answering",
+              "score": 74.013
+            },
+            {
+              "id": "eternities-atlas",
+              "score": 58.201
+            },
+            {
+              "id": "eternities-oracle",
+              "score": 50.587
+            }
+          ],
+          "atlasRank": 2,
+          "authority": "none",
+          "activation": "none"
+        }
+      },
+      {
+        "id": "N06",
+        "query": "Analyze external app-store placement and keyword ranking across storefronts, not an in-app feed.",
+        "expectedSemanticOwner": "app-store-discovery-experiments",
+        "originalIndependentCase": true,
+        "main": {
+          "top3": [
+            {
+              "id": "app-store-discovery-experiments",
+              "score": 124.437
+            },
+            {
+              "id": "geospatial-coordinate-integrity",
+              "score": 24.887
+            },
+            {
+              "id": "scene-continuity-and-coverage",
+              "score": 23.716
+            }
+          ],
+          "atlasRank": null,
+          "authority": "none",
+          "activation": "none"
+        },
+        "v3": {
+          "top3": [
+            {
+              "id": "app-store-discovery-experiments",
+              "score": 124.437
+            },
+            {
+              "id": "geospatial-coordinate-integrity",
+              "score": 24.887
+            },
+            {
+              "id": "scene-continuity-and-coverage",
+              "score": 23.716
+            }
+          ],
+          "atlasRank": null,
+          "authority": "none",
+          "activation": "none"
+        }
+      },
+      {
+        "id": "N07",
+        "query": "Score and prioritize prospective enterprise accounts by commercial fit and buying intent.",
+        "expectedSemanticOwner": "eternities-agora (semantic owner)",
+        "originalIndependentCase": true,
+        "main": {
+          "top3": [
+            {
+              "id": "eternities-prometheus",
+              "score": 24.887
+            },
+            {
+              "id": "eternities-hephaestus",
+              "score": 22.148
+            },
+            {
+              "id": "diagnostic-statistical-model-inference",
+              "score": 9.492
+            }
+          ],
+          "atlasRank": null,
+          "authority": "none",
+          "activation": "none"
+        },
+        "v3": {
+          "top3": [
+            {
+              "id": "eternities-prometheus",
+              "score": 24.887
+            },
+            {
+              "id": "eternities-hephaestus",
+              "score": 22.148
+            },
+            {
+              "id": "diagnostic-statistical-model-inference",
+              "score": 9.492
+            }
+          ],
+          "atlasRank": null,
+          "authority": "none",
+          "activation": "none"
+        }
+      },
+      {
+        "id": "A01",
+        "query": "Prepare a prospect assessment for an enterprise account using commercial fit and buying intent.",
+        "expectedSemanticOwner": "eternities-agora",
+        "originalIndependentCase": false,
+        "main": {
+          "top3": [
+            {
+              "id": "eternities-agora",
+              "score": 93.255
+            },
+            {
+              "id": "eternities-prometheus",
+              "score": 24.887
+            },
+            {
+              "id": "eternities-hephaestus",
+              "score": 22.148
+            }
+          ],
+          "atlasRank": null,
+          "authority": "none",
+          "activation": "none"
+        },
+        "v3": {
+          "top3": [
+            {
+              "id": "eternities-agora",
+              "score": 93.255
+            },
+            {
+              "id": "eternities-prometheus",
+              "score": 24.887
+            },
+            {
+              "id": "eternities-hephaestus",
+              "score": 22.148
+            }
+          ],
+          "atlasRank": null,
+          "authority": "none",
+          "activation": "none"
+        }
+      },
+      {
+        "id": "N08",
+        "query": "Validate only the JSON schema for a stored ranking-decision record; do not reconstruct a serving decision.",
+        "expectedSemanticOwner": "structured-output-contracts",
+        "originalIndependentCase": true,
+        "main": {
+          "top3": [
+            {
+              "id": "structured-output-contracts",
+              "score": 84.062
+            },
+            {
+              "id": "scientific-surrogate-validation",
+              "score": 50.526
+            },
+            {
+              "id": "eternities-atlas",
+              "score": 28.904
+            }
+          ],
+          "atlasRank": 3,
+          "authority": "none",
+          "activation": "none"
+        },
+        "v3": {
+          "top3": [
+            {
+              "id": "structured-output-contracts",
+              "score": 84.062
+            },
+            {
+              "id": "scientific-surrogate-validation",
+              "score": 50.526
+            },
+            {
+              "id": "eternities-atlas",
+              "score": 42.381
+            }
+          ],
+          "atlasRank": 3,
+          "authority": "none",
+          "activation": "none"
+        }
+      },
+      {
+        "id": "N09",
+        "query": "Build aggregate home-feed engagement analytics by day and cohort; report clicks and retention without item ordering or per-request traces.",
+        "expectedSemanticOwner": "eternities-atlas (parent analytics route)",
+        "originalIndependentCase": true,
+        "main": {
+          "top3": [
+            {
+              "id": "eternities-prometheus",
+              "score": 31.641
+            },
+            {
+              "id": "measured-paid-creative-iteration",
+              "score": 31.641
+            },
+            {
+              "id": "eternities-atlas",
+              "score": 30.197
+            }
+          ],
+          "atlasRank": 3,
+          "authority": "none",
+          "activation": "none"
+        },
+        "v3": {
+          "top3": [
+            {
+              "id": "eternities-atlas",
+              "score": 147.24
+            },
+            {
+              "id": "eternities-prometheus",
+              "score": 31.641
+            },
+            {
+              "id": "fp-ts-functional-refactoring",
+              "score": 29.93
+            }
+          ],
+          "atlasRank": 1,
+          "authority": "none",
+          "activation": "none"
+        }
+      },
+      {
+        "id": "N10",
+        "query": "Design a precommitted randomized experiment for aggregate home-feed retention, including guardrails and stopping rules, not a single serving decision.",
+        "expectedSemanticOwner": "eternities-atlas (parent experiment route)",
+        "originalIndependentCase": true,
+        "main": {
+          "top3": [
+            {
+              "id": "measured-paid-creative-iteration",
+              "score": 113.064
+            },
+            {
+              "id": "app-store-discovery-experiments",
+              "score": 48.242
+            },
+            {
+              "id": "eternities-atlas",
+              "score": 34.664
+            }
+          ],
+          "atlasRank": 3,
+          "authority": "none",
+          "activation": "none"
+        },
+        "v3": {
+          "top3": [
+            {
+              "id": "eternities-atlas",
+              "score": 171.154
+            },
+            {
+              "id": "measured-paid-creative-iteration",
+              "score": 104.499
+            },
+            {
+              "id": "app-store-discovery-experiments",
+              "score": 46.326
+            }
+          ],
+          "atlasRank": 1,
+          "authority": "none",
+          "activation": "none"
+        }
+      },
+      {
+        "id": "N11",
+        "query": "Judge whether a measured home-feed retention lift supports a causal claim; inspect randomization, exposure, confounders, uncertainty, and guardrails, not one serving request.",
+        "expectedSemanticOwner": "eternities-athena (causal-evidence owner)",
+        "originalIndependentCase": true,
+        "main": {
+          "top3": [
+            {
+              "id": "interatomic-model-validation",
+              "score": 58.054
+            },
+            {
+              "id": "eternities-athena",
+              "score": 53.244
+            },
+            {
+              "id": "diagnostic-statistical-model-inference",
+              "score": 48.77
+            }
+          ],
+          "atlasRank": null,
+          "authority": "none",
+          "activation": "none"
+        },
+        "v3": {
+          "top3": [
+            {
+              "id": "interatomic-model-validation",
+              "score": 58.054
+            },
+            {
+              "id": "eternities-athena",
+              "score": 53.244
+            },
+            {
+              "id": "diagnostic-statistical-model-inference",
+              "score": 48.77
+            }
+          ],
+          "atlasRank": null,
+          "authority": "none",
+          "activation": "none"
+        }
+      },
+      {
+        "id": "N12",
+        "query": "Check dimensional consistency and numerical stability of a physics-constrained simulator used to compare recommendation scores; do not route or audit a live serving request.",
+        "expectedSemanticOwner": "physics-constrained-numerical-validation",
+        "originalIndependentCase": true,
+        "main": {
+          "top3": [
+            {
+              "id": "physics-constrained-numerical-validation",
+              "score": 118.959
+            },
+            {
+              "id": "eternities-omnibus",
+              "score": 37.908
+            },
+            {
+              "id": "scientific-surrogate-validation",
+              "score": 33.345
+            }
+          ],
+          "atlasRank": null,
+          "authority": "none",
+          "activation": "none"
+        },
+        "v3": {
+          "top3": [
+            {
+              "id": "physics-constrained-numerical-validation",
+              "score": 118.959
+            },
+            {
+              "id": "eternities-omnibus",
+              "score": 37.908
+            },
+            {
+              "id": "scientific-surrogate-validation",
+              "score": 33.345
+            }
+          ],
+          "atlasRank": 10,
+          "authority": "none",
+          "activation": "none"
+        }
+      },
+      {
+        "id": "R01",
+        "query": "Connect to private per-user recommendation logs and prove why a named person saw an item; consent, purpose, retention, and access approval are unknown.",
+        "expectedSemanticOwner": "approval-bound-private-session-mining",
+        "originalIndependentCase": true,
+        "main": {
+          "top3": [
+            {
+              "id": "approval-bound-private-session-mining",
+              "score": 106.377
+            },
+            {
+              "id": "structured-output-contracts",
+              "score": 24.887
+            },
+            {
+              "id": "eternities-beacon",
+              "score": 22.148
+            }
+          ],
+          "atlasRank": 5,
+          "authority": "none",
+          "activation": "none"
+        },
+        "v3": {
+          "top3": [
+            {
+              "id": "approval-bound-private-session-mining",
+              "score": 106.377
+            },
+            {
+              "id": "structured-output-contracts",
+              "score": 24.887
+            },
+            {
+              "id": "eternities-beacon",
+              "score": 22.148
+            }
+          ],
+          "atlasRank": 5,
+          "authority": "none",
+          "activation": "none"
+        }
+      },
+      {
+        "id": "H01",
+        "query": "Appraise whether a study supports a causal inference; inspect the design, confounding, statistical analysis, and uncertainty.",
+        "expectedSemanticOwner": "eternities-athena",
+        "originalIndependentCase": false,
+        "main": {
+          "top3": [
+            {
+              "id": "eternities-athena",
+              "score": 160.8
+            },
+            {
+              "id": "diagnostic-statistical-model-inference",
+              "score": 77.55
+            },
+            {
+              "id": "physics-constrained-numerical-validation",
+              "score": 33.461
+            }
+          ],
+          "atlasRank": 5,
+          "authority": "none",
+          "activation": "none"
+        },
+        "v3": {
+          "top3": [
+            {
+              "id": "eternities-athena",
+              "score": 160.8
+            },
+            {
+              "id": "diagnostic-statistical-model-inference",
+              "score": 77.55
+            },
+            {
+              "id": "physics-constrained-numerical-validation",
+              "score": 33.461
+            }
+          ],
+          "atlasRank": 4,
+          "authority": "none",
+          "activation": "none"
+        }
+      },
+      {
+        "id": "F01",
+        "query": "For request q-12, explain eligible candidates, feature revisions, scorer version, tie-break and final order. Record observed views separately from display requests.",
+        "expectedSemanticOwner": "eternities-atlas",
+        "originalIndependentCase": false,
+        "freshReviewerParaphrase": true,
+        "expectedOwnerFirst": true,
+        "main": {
+          "top3": [
+            {
+              "id": "scientific-surrogate-validation",
+              "score": 54.321
+            },
+            {
+              "id": "eternities-hermes",
+              "score": 42.381
+            },
+            {
+              "id": "eternities-daedalus",
+              "score": 40.916
+            }
+          ],
+          "atlasRank": null,
+          "authority": "none",
+          "activation": "none"
+        },
+        "v3": {
+          "top3": [
+            {
+              "id": "eternities-atlas",
+              "score": 236.556
+            },
+            {
+              "id": "scientific-surrogate-validation",
+              "score": 50.401
+            },
+            {
+              "id": "eternities-hermes",
+              "score": 42.381
+            }
+          ],
+          "atlasRank": 1,
+          "authority": "none",
+          "activation": "none"
+        }
+      },
+      {
+        "id": "F02",
+        "query": "Diagnose retry and acknowledgement failures after a mobile alert was sent; the shortlist is already settled.",
+        "expectedSemanticOwner": "eternities-daedalus",
+        "originalIndependentCase": false,
+        "freshReviewerParaphrase": true,
+        "expectedOwnerFirst": true,
+        "main": {
+          "top3": [
+            {
+              "id": "eternities-daedalus",
+              "score": 47.594
+            },
+            {
+              "id": "native-mobile-interaction-testing",
+              "score": 39.109
+            },
+            {
+              "id": "eternities-muse",
+              "score": 39
+            }
+          ],
+          "atlasRank": null,
+          "authority": "none",
+          "activation": "none"
+        },
+        "v3": {
+          "top3": [
+            {
+              "id": "eternities-daedalus",
+              "score": 47.594
+            },
+            {
+              "id": "native-mobile-interaction-testing",
+              "score": 39.109
+            },
+            {
+              "id": "eternities-muse",
+              "score": 39
+            }
+          ],
+          "atlasRank": null,
+          "authority": "none",
+          "activation": "none"
+        }
+      },
+      {
+        "id": "F03",
+        "query": "Assess grouped held-out generalization, training leakage and calibration of a recommender model, without replaying any live decision.",
+        "expectedSemanticOwner": "scientific-surrogate-validation",
+        "originalIndependentCase": false,
+        "freshReviewerParaphrase": true,
+        "expectedOwnerFirst": true,
+        "main": {
+          "top3": [
+            {
+              "id": "scientific-surrogate-validation",
+              "score": 191.213
+            },
+            {
+              "id": "experiment-artifact-lineage",
+              "score": 51.356
+            },
+            {
+              "id": "interatomic-model-validation",
+              "score": 39.527
+            }
+          ],
+          "atlasRank": null,
+          "authority": "none",
+          "activation": "none"
+        },
+        "v3": {
+          "top3": [
+            {
+              "id": "scientific-surrogate-validation",
+              "score": 191.213
+            },
+            {
+              "id": "experiment-artifact-lineage",
+              "score": 51.356
+            },
+            {
+              "id": "interatomic-model-validation",
+              "score": 39.527
+            }
+          ],
+          "atlasRank": null,
+          "authority": "none",
+          "activation": "none"
+        }
+      },
+      {
+        "id": "F04",
+        "query": "Check required fields, nulls, malformed JSON and unknown values in a serialized ranking log; validate the output schema.",
+        "expectedSemanticOwner": "structured-output-contracts",
+        "originalIndependentCase": false,
+        "freshReviewerParaphrase": true,
+        "expectedOwnerFirst": true,
+        "main": {
+          "top3": [
+            {
+              "id": "structured-output-contracts",
+              "score": 143.095
+            },
+            {
+              "id": "lazy-tabular-transformation-and-validation",
+              "score": 53.163
+            },
+            {
+              "id": "scientific-surrogate-validation",
+              "score": 44.396
+            }
+          ],
+          "atlasRank": 4,
+          "authority": "none",
+          "activation": "none"
+        },
+        "v3": {
+          "top3": [
+            {
+              "id": "structured-output-contracts",
+              "score": 143.095
+            },
+            {
+              "id": "lazy-tabular-transformation-and-validation",
+              "score": 53.163
+            },
+            {
+              "id": "scientific-surrogate-validation",
+              "score": 44.396
+            }
+          ],
+          "atlasRank": 6,
+          "authority": "none",
+          "activation": "none"
+        }
+      },
+      {
+        "id": "F05",
+        "query": "Rerank retrieved passages for grounded answers and citations; evaluate missing evidence and retrieval recall.",
+        "expectedSemanticOwner": "retrieval-grounded-answering",
+        "originalIndependentCase": false,
+        "freshReviewerParaphrase": true,
+        "expectedOwnerFirst": true,
+        "main": {
+          "top3": [
+            {
+              "id": "retrieval-grounded-answering",
+              "score": 169.184
+            },
+            {
+              "id": "interatomic-model-validation",
+              "score": 24.993
+            },
+            {
+              "id": "ecological-sampling-and-detection-uncertainty",
+              "score": 24.887
+            }
+          ],
+          "atlasRank": null,
+          "authority": "none",
+          "activation": "none"
+        },
+        "v3": {
+          "top3": [
+            {
+              "id": "retrieval-grounded-answering",
+              "score": 169.184
+            },
+            {
+              "id": "interatomic-model-validation",
+              "score": 24.993
+            },
+            {
+              "id": "ecological-sampling-and-detection-uncertainty",
+              "score": 24.887
+            }
+          ],
+          "atlasRank": null,
+          "authority": "none",
+          "activation": "none"
+        }
+      },
+      {
+        "id": "F06",
+        "query": "Design an additive database migration with entities, keys, null semantics, old-reader compatibility and rollback.",
+        "expectedSemanticOwner": "eternities-atlas",
+        "originalIndependentCase": false,
+        "freshReviewerParaphrase": true,
+        "expectedOwnerFirst": false,
+        "main": {
+          "top3": [
+            {
+              "id": "eternities-muse",
+              "score": 55.958
+            },
+            {
+              "id": "bounded-parametric-design-iteration",
+              "score": 50.27
+            },
+            {
+              "id": "eternities-atlas",
+              "score": 39.852
+            }
+          ],
+          "atlasRank": 3,
+          "authority": "none",
+          "activation": "none"
+        },
+        "v3": {
+          "top3": [
+            {
+              "id": "eternities-muse",
+              "score": 55.958
+            },
+            {
+              "id": "bounded-parametric-design-iteration",
+              "score": 50.27
+            },
+            {
+              "id": "eternities-atlas",
+              "score": 44.543
+            }
+          ],
+          "atlasRank": 3,
+          "authority": "none",
+          "activation": "none"
+        }
+      }
+    ]
+  },
+  "tests": {
+    "focused": {
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "--test",
+        "--test-concurrency=1",
+        "tests/wave29-atlas-serving-time-ranking-trace-v3.test.mjs",
+        "tests/wave29-atlas-serving-time-ranking-trace-v2.test.mjs",
+        "tests/wave29-atlas-serving-time-ranking-trace.test.mjs"
+      ],
+      "cwd": "C:/dev/eternities-godskills/.worktrees/product-wave25",
+      "exitCode": 0,
+      "stdout": "✔ a request-level serving trace stays discoverable in direct and paraphrased forms (8.3053ms)\n✔ Atlas metadata does not displace delivery, offline-validation, schema, causal, or prospect routes (12.317ms)\n✔ the v2 lexical repair adds no owner-specific anti-trigger exceptions (1.8662ms)\n✔ serving-time trace keeps its historical-version paraphrase discoverable (3.3218ms)\n✔ notification delivery reconciliation remains with Daedalus (1.9181ms)\n✔ offline recommendation model generalization remains with the scientific validator (1.5783ms)\n✔ an offline grouped holdout without a serving trace does not promote Atlas (1.7188ms)\n✔ the prospect paraphrase does not promote Atlas over the existing route (1.8139ms)\n✔ the current prospect-assessment wording routes to Agora (1.9648ms)\n✔ schema-only validation remains with structured-output-contracts (1.5634ms)\n✔ aggregate causal appraisal does not promote Atlas over the evidence owners (1.8923ms)\n✔ aggregate feed analytics remains an Atlas parent route (1.7361ms)\n✔ aggregate precommitted experiment design remains an Atlas parent route (2.1374ms)\n✔ search reranking remains with retrieval-grounded answering (1.9831ms)\n✔ external app-store placement remains with its discovery owner (1.9215ms)\n✔ physics-constrained numerical validation remains with its specialist (1.3069ms)\n✔ private-log lookup remains approval-bound with no authority or activation (2.7554ms)\n✔ Athena retains the direct causal-appraisal route (1.4218ms)\n✔ the Atlas search summary exposes the method DRAFT without changing parent maturity (1.5169ms)\n✔ serving-time feed ranking decisions discover Atlas from direct and paraphrased requests (5.3615ms)\n✔ adjacent ranking tasks remain with their existing owners (8.0923ms)\n✔ Atlas exposes the method lazily and its DRAFT contract preserves the required boundaries (2.4245ms)\nℹ tests 22\nℹ suites 0\nℹ pass 22\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 231.2648\n",
+      "stderr": ""
+    },
+    "hostRoute": {
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "--test",
+        "--test-concurrency=1",
+        "tests/universal-wave27-atlas-host-route-v4.test.mjs"
+      ],
+      "cwd": "C:/dev/eternities-godskills/.worktrees/product-wave25",
+      "exitCode": 0,
+      "stdout": "✔ five reviewed and two new supplied-only paraphrases reject connected source despite an Atlas shortlist (23.7362ms)\n✔ explicit no-discovery and supplied-only facts take precedence over connected-purpose claims (2.2856ms)\n✔ missing, unknown and contradictory task facts never enable connected-source eligibility (0.2296ms)\n✔ explicit connected questions remain conditional candidates and local Atlas remains available (4.968ms)\n✔ CLI route command calls the real host decision without connector access (1133.1929ms)\nℹ tests 5\nℹ suites 0\nℹ pass 5\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 1224.8313\n",
+      "stderr": ""
+    },
+    "diffCheck": {
+      "exitCode": 0,
+      "stdout": ""
+    }
+  },
+  "portability": {
+    "pack": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\atlas-review-v3\\portable pack",
+    "env": {
+      "PATH": "",
+      "SystemRoot": "C:\\WINDOWS"
+    },
+    "validate": {
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\atlas-review-v3\\portable pack\\bin\\godskills.mjs",
+        "validate"
+      ],
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\atlas-review-v3",
+      "exitCode": 0,
+      "stdout": "{\n  \"status\": \"verified-content\",\n  \"releaseId\": \"37a51d00aece6a4058e4c8264ba40ae2c8fe848746c3c2c407cce4c7683ef78e\",\n  \"skillCount\": 68\n}\n",
+      "stderr": ""
+    },
+    "searchSummary": {
+      "command": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\atlas-review-v3\\portable pack\\bin\\godskills.mjs",
+        "search",
+        "For delivery attempt d-88, reconstruct the one notification shortlist decision before dispatch, including its pre-score eligibility rules, score tie-break, and final ordered candidates; do not diagnose delivery success.",
+        "--limit",
+        "5"
+      ],
+      "exitCode": 0,
+      "topId": "eternities-atlas",
+      "summary": "Build reproducible analytics, conditional connected-source evidence, finite trade-off frontiers, simulation-artifact handoffs, query planning, entity design and migration, synchronization, telemetry, experiment artifacts, and candidate eligibility, time-bound scorer revisions, and observed outcomes; the new extension remains DRAFT.",
+      "maturity": "instruction-reviewed",
+      "stdoutSha256": "fda021e65c042f16eb9e4e4cd7b325891fe70f27dfa553d9069ab9fbe24de737"
+    },
+    "snapshotContainsProductOnly": true,
+    "hostInstallation": false
+  },
+  "environment": {
+    "node": "v24.18.0",
+    "platform": "win32",
+    "architecture": "x64",
+    "nodeExecutable": "C:\\Program Files\\nodejs\\node.exe"
+  },
+  "authorReceiptBaseReleaseCaveat": {
+    "reported": "6983aad7b0c8a6e97e6db61eb544dee8e712d85901a89933a20d6f50a4a3f376",
+    "canonicalMain": "61334aee865e67b815cce14dd6dd63078653282dfabac6342f1a31de163a0bfe",
+    "interpretation": "The reported author field is not the canonical-main release identity. Its origin was not established; current Git objects independently establish the actual baseline. It is not used as review authority."
+  },
+  "effects": {
+    "outputRoot": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\atlas-review-v3",
+    "productEdits": 0,
+    "childrenAgents": 0,
+    "providers": 0,
+    "webAcquisition": 0,
+    "acquiredCodeExecution": 0,
+    "installs": 0,
+    "commits": 0,
+    "pushes": 0,
+    "merges": 0,
+    "r10ReadsOrWrites": 0,
+    "frozenActivationPathsReadOrWritten": 0,
+    "historicalArtifactsModified": 0
+  },
+  "limits": [
+    "Lexical matrix results do not establish semantic intent resolution or method-level routing.",
+    "Document review plus package tests; no actual serving engine, user logs, observed impression, matched agent comparison or source-rights adjudication.",
+    "Same Windows host, copied product-only resources and minimal CLI environment; no clean OS or other-platform observation.",
+    "Author matrix replay is independent execution of known cases; six fresh paraphrases are separately identified."
+  ]
+}

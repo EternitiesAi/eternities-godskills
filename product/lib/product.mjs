@@ -1,6 +1,7 @@
 import { createHash } from 'node:crypto';
 import { readFile, writeFile, readdir, lstat, mkdir, cp, rename } from 'node:fs/promises';
 import { resolve, relative, join, dirname, parse, isAbsolute } from 'node:path';
+import {inspectMethodDirectory, renderMethodDirectory} from './method-directory.mjs';
 
 const cmp=(a,b)=>a<b?-1:a>b?1:0;
 const idPattern=/^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$/;
@@ -89,14 +90,19 @@ async function inspectCatalog(root) {
 
 export async function buildProduct(root) {
   root=resolve(root);await noLinks(root);
-  for(const name of ['catalog.json','INDEX.md','release.json']){
+  for(const name of ['catalog.json','INDEX.md','release.json','METHODS.v1.md']){
     const path=join(root,name);
     if(await exists(path)){const stat=await lstat(path);check(stat.isFile()&&!stat.isSymbolicLink()&&stat.nlink===1,`Unsafe linked manifest output: ${name}`);}
   }
   await filesAt(root);
   const catalog=await inspectCatalog(root), skills=catalog.skills;
+  const methods=await inspectMethodDirectory(root,catalog);
   await writeFile(join(root,'catalog.json'),stable(catalog));
   const lines=['# Godskills directory','','Search metadata first; open the selected skill, then only its needed references. Relationships suggest collaboration, not mandatory loading. All entries are instruction-reviewed; this is not performance qualification.',''];
+  if(methods){
+    lines.push('For smaller bundled methods and their separate review/execution states, use the [selected method directory](METHODS.v1.md).','');
+    await writeFile(join(root,'METHODS.v1.md'),renderMethodDirectory(methods));
+  }
   for(const category of [...new Set(skills.map(x=>x.category))].sort(cmp)){
     lines.push(`## ${category}`,'');
     for(const item of skills.filter(x=>x.category===category))lines.push(`- [${item.id}](${item.entrypoint}): ${item.summary}${item.specializes?` Specialist of ${item.specializes}.`:''}`);
@@ -121,6 +127,8 @@ export async function verifyProduct(root) {
   const catalog=await readJson(join(root,'catalog.json'));
   check(catalog.schema==='eternities-godskills-catalog-v1'&&Array.isArray(catalog.skills)&&catalog.skills.length===release.skillCount,'Catalog count mismatch');
   check(same(catalog,await inspectCatalog(root)),'Catalog does not exactly cover valid skill metadata');
+  const methods=await inspectMethodDirectory(root,catalog);
+  if(methods)check(await readFile(join(root,'METHODS.v1.md'),'utf8')===renderMethodDirectory(methods),'Method directory does not match its exact metadata');
   for(const skill of catalog.skills){check(idPattern.test(skill.id)&&skill.entrypoint===`skills/${skill.id}/SKILL.md`&&actual[skill.entrypoint]===skill.entrypointSha256,'Catalog entrypoint mismatch');}
   return release;
 }

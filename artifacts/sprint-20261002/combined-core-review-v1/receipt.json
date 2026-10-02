@@ -1,0 +1,168 @@
+{
+  "schema": "eternities-godskills-combined-core-independent-review/v1",
+  "stage": "SEALED_BOUNDED_NONAUTHOR_RELEASE_TREE_REVIEW",
+  "disposition": "REPAIR_REQUIRED_FOR_NAMED_STALE_CANDIDATE_ARCHIVE; FOCUSED_SOURCE_TREE_AND_REGENERATED_PACK_CHECKS_PASS",
+  "reviewer": {
+    "identity": "Codex",
+    "role": "parent-assigned independent combined-core reviewer",
+    "productAuthorship": false,
+    "childAgents": 0,
+    "paidProviders": 0
+  },
+  "scope": {
+    "worktree": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002",
+    "canonicalMain": "55f960847fa2a06a750a1a6e20c4e7f95ea10449",
+    "releaseId": "2260b471f889f5c25b772fc50d4e83566fe8a4ef28a7748674241c8e80ffc348",
+    "releaseJsonSha256": "4d398fea6353586e1bf29e4376b2ac5cfc47914013286d7d9ecc5a8dc7b33dba",
+    "skillCount": 68,
+    "releaseBoundPayloadFiles": 205,
+    "changedProductFileCount": 29,
+    "reviewMeaning": "Independent review of the parent-frozen combined product tree and one product-only pack exercise; the stale named candidate archive requires repair if intended for this release. Not whole-release performance, rights, source freshness, provenance, or corpus certification."
+  },
+  "artifactBindings": {
+    "review": {
+      "path": "artifacts/sprint-20261002/combined-core-review-v1/review.md",
+      "bytes": 7015,
+      "sha256": "c15a394f19cb6e9e92acc7b3e81089bbf4a161ad86b8502acee670a2b15b5140"
+    },
+    "releaseChangedFiles": [
+      {"path":"product/bin/godskills.mjs","bytes":3097,"sha256":"2bfd79da8efc81a5c4b65556e042bd89bcbd5b06d75d8e1020dbc9a8ebac5685"},
+      {"path":"product/catalog.json","bytes":99289,"sha256":"57d47c0a9692dc21caa0e7909ee6c557cd5ef5cc4e09b968df079cc81f86aecf"},
+      {"path":"product/CORPUS-SCOPE.md","bytes":10620,"sha256":"f67fd28074a6fbcb90b9d773db67845a37a58eacfabeba694b187f3433425f32"},
+      {"path":"product/evidence/method-reviews/arcadia-v2/cue-plan-packets.md","bytes":5669,"sha256":"4610142758fe3696a8b27d32f7c1ae2053b766303cc9b3604670ce4578698dcc"},
+      {"path":"product/evidence/method-reviews/arcadia-v2/receipt.json","bytes":4201,"sha256":"fceb06922f496de2e2861725f25a3e9d3e24a5840cbe9c68e613099d9b2fed57"},
+      {"path":"product/evidence/method-reviews/arcadia-v2/review.md","bytes":6937,"sha256":"150a4011cdec776e5a25268d413bf18381a6a13bb770bc3cb630fe4c55c5f5ff"},
+      {"path":"product/evidence/method-reviews/atlas-v3/evidence.json","bytes":50102,"sha256":"9c83f326db0a8148c797638ba3e0f52be349c383e1c06849f945286d7e36bd30"},
+      {"path":"product/evidence/method-reviews/atlas-v3/receipt.json","bytes":15924,"sha256":"d6acb24533810b956f05ef8aa9f72ca9caba40a83e5ac5992b97664cdff9ffa4"},
+      {"path":"product/evidence/method-reviews/atlas-v3/review.md","bytes":9665,"sha256":"92c5232b86ff42e4ffe20da76da5e9f42cc102234fee015b2decf1c5e484210c"},
+      {"path":"product/evidence/method-reviews/atlas-v3/routing-matrix.tsv","bytes":11102,"sha256":"470559d2cadfd33a1b54eec748078fd23ef29da7755a8e1c74eecec395d45741"},
+      {"path":"product/INDEX.md","bytes":17441,"sha256":"27d50fbf73154aa5777e51dc3e9ea7c0b0c336cfe4ced1922beef1d976555e49"},
+      {"path":"product/lib/archive.mjs","bytes":4358,"sha256":"62cb7442554233a93aa7a149e3336830ef02cdfaf905d944e8f2241b07ce0ba3"},
+      {"path":"product/lib/method-directory.mjs","bytes":7836,"sha256":"22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180"},
+      {"path":"product/lib/product.mjs","bytes":21992,"sha256":"1e99a9e68317fa01121f81e363860cd28e17e5b19c7aedc8522d949e7025ad79"},
+      {"path":"product/METHODS.v1.json","bytes":4761,"sha256":"c722fa517eb82757daf2baec7901e487e1cac757487be2559862ee5e71040abb"},
+      {"path":"product/METHODS.v1.md","bytes":5199,"sha256":"365932e8f48c77c15d364ccefc3c4d37a60921de9768ae367133bece70c077af"},
+      {"path":"product/README.md","bytes":10844,"sha256":"2b17c2ed8047c94407038bf815244b88b13b8773dd60f69ca607b8be0ef50d2f"},
+      {"path":"product/release.json","bytes":25227,"sha256":"4d398fea6353586e1bf29e4376b2ac5cfc47914013286d7d9ecc5a8dc7b33dba"},
+      {"path":"product/skills/eternities-arcadia/references/browser-runtime-lifecycle.md","bytes":4043,"sha256":"92f138939846c57ad5de1d36fd1c60d11341e29a91fcaecb03c942397ad93853"},
+      {"path":"product/skills/eternities-arcadia/references/game-state-to-audio-cue.md","bytes":9247,"sha256":"f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f"},
+      {"path":"product/skills/eternities-arcadia/skill.json","bytes":4416,"sha256":"5cf252421f40197a8c8c862c9f0e31fd3b7d6181baa112666afef8382c596c0c"},
+      {"path":"product/skills/eternities-arcadia/SKILL.md","bytes":4019,"sha256":"84023828419d63d0cdff7936d3c87d742a7ae58d07dd00f547ae8397584e47db"},
+      {"path":"product/skills/eternities-atlas/references/methods.md","bytes":2710,"sha256":"1a6fa9ab8a21ce37de2c9dd909f4156889510faf08292a583fe577a7fdb79d14"},
+      {"path":"product/skills/eternities-atlas/references/serving-time-ranking-decision-trace.md","bytes":5487,"sha256":"4a4ed718c0879126b1d30cf9c2f2c5f469cbe730e72d4103e9784ee5a7c5a496"},
+      {"path":"product/skills/eternities-atlas/skill.json","bytes":5484,"sha256":"c270415abbe6769fdc5ce7362c5569735ba907bfffb5a2f0da304a1e839de77d"},
+      {"path":"product/skills/eternities-atlas/SKILL.md","bytes":6278,"sha256":"35e819e37a97923cc2ae3e9b6d5c35a32843fab2bbe7dd373f483213e9a385ad"},
+      {"path":"product/skills/eternities-beacon/SKILL.md","bytes":4250,"sha256":"da29c9866d4558307ee183b9c524ee894bdd6bd960ab766a345783e11d395a7e"},
+      {"path":"product/skills/eternities-muse/SKILL.md","bytes":3969,"sha256":"b7097258366a53f645d2d1a52a6492a691f933c2cc535fd32beae452f398f374"},
+      {"path":"product/skills/eternities-phoenix/SKILL.md","bytes":5063,"sha256":"8a522e555beb8e605b3b3751f7ffeb5cf6e924c85f8e0950620ab85899fbe111"}
+    ],
+    "reviewControlBindings": [
+      {"path":"docs/sprint-20261002-accepted-changes.md","bytes":4572,"sha256":"62bf8907e14df188c510a1ef81a22b78b36da5b9ac34c050974f4243289ce6ef"},
+      {"path":"README.md","bytes":10486,"sha256":"ca2fcb97e4ea44864b11a92b7c22910a49bdfb93c72ce30d43976e71b78a69d3"},
+      {"path":"tests/product-archive.test.mjs","bytes":6548,"sha256":"f08b7696f534b166991de3f13b0da87fa82ed4225bf0fe78ff9be28845dd5c42"},
+      {"path":"tests/product-method-directory.test.mjs","bytes":6687,"sha256":"7415c0c9af6eef9377c89ea2935abc554964de1234841fc44252a250d2d21c76"}
+    ],
+    "independentReviewBindings": [
+      {
+        "name":"distribution-review-v2",
+        "receipt":{"path":"artifacts/sprint-20261002/distribution-review-v2/receipt.json","sha256":"044cf2c64ea3a9000ec28b3417c55b43ed09ddbadb88a025f6a9d5ec2119ab0f"},
+        "report":{"path":"artifacts/sprint-20261002/distribution-review-v2/review.md","sha256":"a40a169e792cd069f1bf90d238d40ed9ccb8404fb035309c414aa09482121fa1"},
+        "scope":"Earlier exact package/export/onboarding release 6e0780ee9580369068ede14c14dd85261fe197a177eede6889e6fdf7d94ecc1b only; does not bind current named candidate ZIP or current combined export."
+      },
+      {
+        "name":"method-directory-review-v2",
+        "receipt":{"path":"artifacts/sprint-20261002/method-directory-review-v2/receipt.json","sha256":"aa8ead93036bbb3c2ac7c1b6a3342bb61bfaac81d026f569438bd4281cce9dcf"},
+        "report":{"path":"artifacts/sprint-20261002/method-directory-review-v2/review.md","sha256":"da37bdd393fabd61a4b259b19a72ed99c75ebf407aa58152ff459e3d632d2ec9"},
+        "scope":"README-only inclusion repair plus unchanged selected-method directory/build/evidence bindings at release 2260b471; not new method-body or whole-release approval."
+      },
+      {
+        "name":"arcadia-v2-method-review",
+        "receipt":{"path":"product/evidence/method-reviews/arcadia-v2/receipt.json","sha256":"fceb06922f496de2e2861725f25a3e9d3e24a5840cbe9c68e613099d9b2fed57"},
+        "report":{"path":"product/evidence/method-reviews/arcadia-v2/review.md","sha256":"150a4011cdec776e5a25268d413bf18381a6a13bb770bc3cb630fe4c55c5f5ff"},
+        "scope":"Exact documented DRAFT game-state cue design/acceptance-planning resource only; no game/audio runtime, human listening, accessibility qualification, or source-rights disposition."
+      },
+      {
+        "name":"atlas-v3-method-review",
+        "receipt":{"path":"product/evidence/method-reviews/atlas-v3/receipt.json","sha256":"d6acb24533810b956f05ef8aa9f72ca9caba40a83e5ac5992b97664cdff9ffa4"},
+        "report":{"path":"product/evidence/method-reviews/atlas-v3/review.md","sha256":"92c5232b86ff42e4ffe20da76da5e9f42cc102234fee015b2decf1c5e484210c"},
+        "scope":"Exact documented DRAFT single-decision trace and bounded lexical routing candidate; not live ranking, exposure, relevance, or causal benefit."
+      },
+      {
+        "name":"phoenix-authorization-review-v1",
+        "receipt":{"path":"artifacts/sprint-20261002/phoenix-authorization-review-v1/receipt.json","sha256":"380bdc765d09be7945934d778a36abe9a3898a9f2afcb5a0d5c9e3dbfa5975c2"},
+        "report":{"path":"artifacts/sprint-20261002/phoenix-authorization-review-v1/review.md","sha256":"d9338a416160a2ab6adce3f2640a57f0f2fe56b24fcedad6d634047a382d93ea"},
+        "scope":"Exact Phoenix instructional wording/static text-contract scope; hypothetical plans, not agent behavior or production recovery."
+      },
+      {
+        "name":"creative-proportionality-review-v1",
+        "receipt":{"path":"artifacts/sprint-20261002/creative-proportionality-review-v1/receipt.json","sha256":"e6fc670ce2d26e28098854bc354f5cc2d5cb7c0774fad98a6d9e9e4d8463cc24"},
+        "report":{"path":"artifacts/sprint-20261002/creative-proportionality-review-v1/review.md","sha256":"152245ef1986201e6a1c2f3a6cd4303417b34a0e4d7999c53c0692e653f58e7a"},
+        "scope":"Three exact instructional bodies; no rendered visual, listening, accessibility, device-performance, campaign, or market-outcome validation."
+      }
+    ]
+  },
+  "findings": [
+    {
+      "id":"CC1",
+      "status":"REPAIR_REQUIRED_IF_NAMED_ARCHIVE_IS_FOR_FROZEN_RELEASE",
+      "path":"artifacts/sprint-20261002/godskills-candidate-export.zip",
+      "sha256":"47b2f20136d9e3817619722d8aaafd2ffab69ea3d07ab622fe6f0a93249cc770",
+      "embeddedReleaseId":"d61e0410281a940a508b2ed6b332b60d302766751578bdf37de3879cb90aa889",
+      "targetReleaseId":"2260b471f889f5c25b772fc50d4e83566fe8a4ef28a7748674241c8e80ffc348",
+      "archiveEntries":194,
+      "currentGeneratedArchiveEntries":206,
+      "comparison":{"missingFromNamedArchive":12,"extraInNamedArchive":0,"changedSharedEntries":16},
+      "resolution":"Not altered. A new review-only export of the frozen product tree was created and validated separately; parent owns replacement or distribution decisions."
+    },
+    {
+      "id":"CC2",
+      "status":"NO_ADDITIONAL_FINDING_IN_EXERCISED_METHOD_STATUS_ALIGNMENT",
+      "methodPath":"skills/eternities-arcadia/references/game-state-to-audio-cue.md",
+      "methodSha256":"f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f",
+      "directoryDocumentStatus":"independently-document-reviewed",
+      "directoryOutcomeStatus":"not-performance-qualified",
+      "bodyStatus":"DRAFT",
+      "receiptSha256":"fceb06922f496de2e2861725f25a3e9d3e24a5840cbe9c68e613099d9b2fed57",
+      "reason":"The extracted row's method digest equals the body and reviewer receipt JSON-pointer target; document-review scope is separate from execution/outcome maturity, and optional evidence is not executable policy."
+    }
+  ],
+  "packageExercise": {
+    "sourceValidate":{"command":"node product/bin/godskills.mjs validate","exitCode":0,"releaseId":"2260b471f889f5c25b772fc50d4e83566fe8a4ef28a7748674241c8e80ffc348","skillCount":68},
+    "reviewOnlyArchive":{"path":"artifacts/sprint-20261002/combined-core-review-v1/combined-release.zip","bytes":999825,"sha256":"0ea0b883181709f7a539369b6e89eba7fce6c8d840c5e32df3a5a206805ccce2","releaseId":"2260b471f889f5c25b772fc50d4e83566fe8a4ef28a7748674241c8e80ffc348","archiveFileCount":206},
+    "extraction":{"path":"artifacts/sprint-20261002/combined-core-review-v1/blank-consumer/godskills","method":"PowerShell Expand-Archive, same Windows host","sourceFileCount":206,"extractedFileCount":206,"missing":0,"extra":0,"changed":0},
+    "consumerCli":{"node":"v24.18.0","platform":"win32 x64","path":"empty; SystemRoot=C:\\WINDOWS","validateExitCode":0,"searchExitCode":0,"searchQuery":"Map gameplay states to sound, silence, cue interruption and muted alternatives","firstResult":"eternities-arcadia","authority":"none","activation":"none"}
+  },
+  "focusedChecks": [
+    {"command":"node --test tests/product-archive.test.mjs","exitCode":0,"passed":6,"failed":0,"skipped":0},
+    {"command":"node --test tests/product-method-directory.test.mjs","exitCode":0,"passed":6,"failed":0,"skipped":0},
+    {"command":"git diff --check -- product README.md","exitCode":0,"result":"no whitespace errors"}
+  ],
+  "limits": [
+    "No full suite; parent owns the separate run.",
+    "Same-host Windows product-only extraction, not a fresh operating system or cross-platform qualification.",
+    "No game/audio runtime, human listening, visual rendering, human acceptance, live service, campaign, or market outcome.",
+    "No source freshness, source-rights, license, authenticity, or R10 disposition was established.",
+    "Only changed product files and necessary owner/reference interactions were reviewed; not all 68 skill bodies or the full source corpus. Math v4, Hermes v2, and Daedalus were not adopted in this release and were not re-reviewed here.",
+    "The review-only regenerated ZIP is evidence for this bounded exercise, not an independently authorized distribution artifact."
+  ],
+  "effects": {
+    "productEdits":0,
+    "historicalReviewArtifactEdits":0,
+    "frozenActivationPathsReadOrWritten":0,
+    "r10DispositionsApplied":0,
+    "providers":0,
+    "webAcquisition":0,
+    "children":0,
+    "installs":0,
+    "commits":0,
+    "merges":0,
+    "pushes":0,
+    "generatedFilesConfinedTo":"artifacts/sprint-20261002/combined-core-review-v1"
+  },
+  "ownership": {
+    "parentOwnsIntegration":true,
+    "parentOwnsCandidateArchiveReplacementOrDistribution":true,
+    "historicalInputsImmutable":true,
+    "nextAction":"If godskills-candidate-export.zip is intended for release 2260b471, regenerate and rebind that archive in a new parent-controlled versioned artifact; do not treat the earlier ZIP review receipt as covering it."
+  }
+}

@@ -1,0 +1,462 @@
+{
+  "schema": "godskills.distribution-independent-evidence/v1",
+  "observedUtc": "2026-10-02T10:05:43.722Z",
+  "inputBindings": [
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\lib\\archive.mjs",
+      "bytes": 3957,
+      "sha256": "7e827b3162724bb3415a571286543d607281f82d65d9136e65a3757848e4191e",
+      "relativePath": "product/lib/archive.mjs"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\bin\\godskills.mjs",
+      "bytes": 3097,
+      "sha256": "2bfd79da8efc81a5c4b65556e042bd89bcbd5b06d75d8e1020dbc9a8ebac5685",
+      "relativePath": "product/bin/godskills.mjs"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\tests\\product-archive.test.mjs",
+      "bytes": 4562,
+      "sha256": "9e9e9446c61ab358f10d6bb226d9805fe0d9724e39c71bcc4cd53ee8b21c0793",
+      "relativePath": "tests/product-archive.test.mjs"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\README.md",
+      "bytes": 10486,
+      "sha256": "ca2fcb97e4ea44864b11a92b7c22910a49bdfb93c72ce30d43976e71b78a69d3",
+      "relativePath": "README.md"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\README.md",
+      "bytes": 9619,
+      "sha256": "f2d578abc821c253042fb40118b3d04029ef7bea6d4905f5d4898a2851d77b7a",
+      "relativePath": "product/README.md"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\CORPUS-SCOPE.md",
+      "bytes": 10620,
+      "sha256": "f67fd28074a6fbcb90b9d773db67845a37a58eacfabeba694b187f3433425f32",
+      "relativePath": "product/CORPUS-SCOPE.md"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\release.json",
+      "bytes": 23798,
+      "sha256": "c718d3395daa67710bf0d40251c3cdb09c331dbeeaddf77245670d45e27ab34d",
+      "relativePath": "product/release.json"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\lib\\product.mjs",
+      "bytes": 21368,
+      "sha256": "50bab545b02d947e27f9ddf3db38e7910d5b0bf341de0c0a15bf63c6d61a39af",
+      "relativePath": "product/lib/product.mjs"
+    }
+  ],
+  "frozenAccountingInputs": [
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\universal-product-v1\\artifacts\\corpus-disposition-20260923-r10\\corpus-disposition-summary.json",
+      "bytes": 8450,
+      "sha256": "75dab55310dddae3a0cd4d7f70ff2044aba632185c56f365aed2ffe4c5fd800d"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\universal-product-v1\\artifacts\\corpus-disposition-20260923-r10\\corpus-disposition-manifest.json",
+      "bytes": 2755,
+      "sha256": "419b6a770cec296e26c6a0d4d1a59ed70297d1258cee92f264157cd556e01026"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\universal-product-v1\\artifacts\\corpus-disposition-20260923-r10\\parent-acceptance-receipt.json",
+      "bytes": 1674,
+      "sha256": "308495ac6e78bb94bf1206e8affe9cca915ca80780f43202d6096c873762d9d2"
+    }
+  ],
+  "environment": {
+    "node": "v24.18.0",
+    "platform": "win32",
+    "architecture": "x64",
+    "nodeExecutable": "C:\\Program Files\\nodejs\\node.exe",
+    "minimalCliEnvironment": {
+      "PATH": "",
+      "SystemRoot": "C:\\WINDOWS"
+    }
+  },
+  "scope": {
+    "canonicalMain": "55f960847fa2a06a750a1a6e20c4e7f95ea10449",
+    "releaseId": "570aa62fb01e04047e44d62b9c061afce276461db17b20f7813672b1b0d31e36",
+    "skillCount": 68,
+    "categories": 21,
+    "releaseBoundFiles": 193,
+    "root": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3"
+  },
+  "normalExports": [
+    {
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\portable pack\\bin\\godskills.mjs",
+        "export",
+        "--output",
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\normal-a.zip"
+      ],
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3",
+      "exitCode": 0,
+      "stdout": "{\n  \"schema\": \"eternities-godskills-export-v1\",\n  \"status\": \"exported\",\n  \"releaseId\": \"570aa62fb01e04047e44d62b9c061afce276461db17b20f7813672b1b0d31e36\",\n  \"skillCount\": 68,\n  \"fileCount\": 194,\n  \"archiveSha256\": \"d30db275add02ab8dd15c585858e61414a935a34ad30429f1d4c658aab042356\",\n  \"archiveBytes\": 851842,\n  \"output\": \"C:\\\\dev\\\\eternities-godskills\\\\.worktrees\\\\product-sprint-20261002\\\\artifacts\\\\sprint-20261002\\\\distribution-review-v1\\\\run-TDvIx3\\\\normal-a.zip\",\n  \"format\": \"zip32-stored-v1\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\second location\\bin\\godskills.mjs",
+        "export",
+        "--output",
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\normal-b.zip"
+      ],
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3",
+      "exitCode": 0,
+      "stdout": "{\n  \"schema\": \"eternities-godskills-export-v1\",\n  \"status\": \"exported\",\n  \"releaseId\": \"570aa62fb01e04047e44d62b9c061afce276461db17b20f7813672b1b0d31e36\",\n  \"skillCount\": 68,\n  \"fileCount\": 194,\n  \"archiveSha256\": \"d30db275add02ab8dd15c585858e61414a935a34ad30429f1d4c658aab042356\",\n  \"archiveBytes\": 851842,\n  \"output\": \"C:\\\\dev\\\\eternities-godskills\\\\.worktrees\\\\product-sprint-20261002\\\\artifacts\\\\sprint-20261002\\\\distribution-review-v1\\\\run-TDvIx3\\\\normal-b.zip\",\n  \"format\": \"zip32-stored-v1\"\n}\n",
+      "stderr": ""
+    }
+  ],
+  "byteReproducible": true,
+  "archiveReceipt": {
+    "schema": "eternities-godskills-export-v1",
+    "status": "exported",
+    "releaseId": "570aa62fb01e04047e44d62b9c061afce276461db17b20f7813672b1b0d31e36",
+    "skillCount": 68,
+    "fileCount": 194,
+    "archiveSha256": "d30db275add02ab8dd15c585858e61414a935a34ad30429f1d4c658aab042356",
+    "archiveBytes": 851842,
+    "output": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\normal-a.zip",
+    "format": "zip32-stored-v1"
+  },
+  "archiveBindings": [
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\normal-a.zip",
+      "bytes": 851842,
+      "sha256": "d30db275add02ab8dd15c585858e61414a935a34ad30429f1d4c658aab042356"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\normal-b.zip",
+      "bytes": 851842,
+      "sha256": "d30db275add02ab8dd15c585858e61414a935a34ad30429f1d4c658aab042356"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\manifest-interleave.zip",
+      "bytes": 851841,
+      "sha256": "2a70be0edfaa03411fd5e85462bc8008415374dac5567b8a3339c91fe8c43215"
+    }
+  ],
+  "refusals": [
+    {
+      "id": "existing archive",
+      "kind": "expected-refusal",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\portable pack\\bin\\godskills.mjs",
+        "export",
+        "--output",
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\normal-a.zip"
+      ],
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "{\"error\":\"EEXIST: file already exists, open 'C:\\\\dev\\\\eternities-godskills\\\\.worktrees\\\\product-sprint-20261002\\\\artifacts\\\\sprint-20261002\\\\distribution-review-v1\\\\run-TDvIx3\\\\normal-a.zip'\"}\n",
+      "outputAbsent": null
+    },
+    {
+      "id": "relative output",
+      "kind": "expected-refusal",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\portable pack\\bin\\godskills.mjs",
+        "export",
+        "--output",
+        "relative.zip"
+      ],
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "{\"error\":\"Archive output must be an absolute path\"}\n",
+      "outputAbsent": true
+    },
+    {
+      "id": "source-contained output",
+      "kind": "expected-refusal",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\portable pack\\bin\\godskills.mjs",
+        "export",
+        "--output",
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\portable pack\\self.zip"
+      ],
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "{\"error\":\"Archive output must be outside the source pack\"}\n",
+      "outputAbsent": true
+    },
+    {
+      "id": "two-dot source-contained filename",
+      "kind": "expected-refusal",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\portable pack\\bin\\godskills.mjs",
+        "export",
+        "--output",
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\portable pack\\..archive.zip"
+      ],
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "{\"error\":\"Archive output must be outside the source pack\"}\n",
+      "outputAbsent": true
+    },
+    {
+      "id": "missing parent directory",
+      "kind": "expected-refusal",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\portable pack\\bin\\godskills.mjs",
+        "export",
+        "--output",
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\missing-parent\\out.zip"
+      ],
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "{\"error\":\"ENOENT: no such file or directory, lstat 'C:\\\\dev\\\\eternities-godskills\\\\.worktrees\\\\product-sprint-20261002\\\\artifacts\\\\sprint-20261002\\\\distribution-review-v1\\\\run-TDvIx3\\\\missing-parent'\"}\n",
+      "outputAbsent": null
+    },
+    {
+      "id": "missing output option",
+      "kind": "expected-refusal",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\portable pack\\bin\\godskills.mjs",
+        "export"
+      ],
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "{\"error\":\"Archive output must be an absolute path\"}\n",
+      "outputAbsent": null
+    },
+    {
+      "id": "duplicate option",
+      "kind": "expected-refusal",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\portable pack\\bin\\godskills.mjs",
+        "export",
+        "--output",
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\duplicate.zip",
+        "--output",
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\duplicate2.zip"
+      ],
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "{\"error\":\"Invalid option: --output\"}\n",
+      "outputAbsent": true
+    },
+    {
+      "id": "unknown option",
+      "kind": "expected-refusal",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\portable pack\\bin\\godskills.mjs",
+        "export",
+        "--bad",
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\unknown.zip"
+      ],
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "{\"error\":\"Invalid option: --bad\"}\n",
+      "outputAbsent": true
+    },
+    {
+      "id": "parent is a file",
+      "kind": "expected-refusal",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\portable pack\\bin\\godskills.mjs",
+        "export",
+        "--output",
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\parent-is-a-file\\out.zip"
+      ],
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "{\"error\":\"Archive parent must be an existing directory\"}\n",
+      "outputAbsent": null
+    },
+    {
+      "id": "linked output ancestor",
+      "kind": "expected-refusal",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\portable pack\\bin\\godskills.mjs",
+        "export",
+        "--output",
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\linked-parent\\redirected.zip"
+      ],
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "{\"error\":\"Linked archive output path rejected\"}\n",
+      "outputAbsent": true
+    },
+    {
+      "id": "linked output leaf",
+      "kind": "platform-skip",
+      "reason": "This Windows token cannot create file symlinks (EPERM). Junction ancestor refusal was exercised."
+    },
+    {
+      "id": "modified declared content",
+      "kind": "expected-refusal",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\tampered pack\\bin\\godskills.mjs",
+        "export",
+        "--output",
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\tampered.zip"
+      ],
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "{\"error\":\"Release file digest changed\"}\n",
+      "outputAbsent": true
+    },
+    {
+      "id": "undeclared source file",
+      "kind": "expected-refusal",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\undeclared pack\\bin\\godskills.mjs",
+        "export",
+        "--output",
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\undeclared.zip"
+      ],
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "{\"error\":\"Release file set changed or undeclared files present\"}\n",
+      "outputAbsent": true
+    }
+  ],
+  "normalExtraction": {
+    "executable": "C:\\Users\\Dom\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
+    "command": "$ErrorActionPreference = 'Stop'; Expand-Archive -LiteralPath 'C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\normal-a.zip' -DestinationPath 'C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\normal extracted'",
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "normalValidation": {
+    "executable": "C:\\Program Files\\nodejs\\node.exe",
+    "args": [
+      "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\normal extracted\\godskills\\bin\\godskills.mjs",
+      "validate"
+    ],
+    "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3",
+    "exitCode": 0,
+    "stdout": "{\n  \"status\": \"verified-content\",\n  \"releaseId\": \"570aa62fb01e04047e44d62b9c061afce276461db17b20f7813672b1b0d31e36\",\n  \"skillCount\": 68\n}\n",
+    "stderr": ""
+  },
+  "controlledInterleavings": {
+    "declaredFile": {
+      "scenario": "declared-file interleave",
+      "file": "README.md",
+      "observed": true,
+      "sourceRestoredAndValid": true,
+      "returned": null,
+      "error": {
+        "name": "Error",
+        "message": "Source changed during export"
+      },
+      "output": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\declared-interleave.zip"
+    },
+    "releaseManifest": {
+      "scenario": "manifest interleave",
+      "file": "release.json",
+      "observed": true,
+      "sourceRestoredAndValid": true,
+      "returned": {
+        "schema": "eternities-godskills-export-v1",
+        "status": "exported",
+        "releaseId": "570aa62fb01e04047e44d62b9c061afce276461db17b20f7813672b1b0d31e36",
+        "skillCount": 68,
+        "fileCount": 194,
+        "archiveSha256": "2a70be0edfaa03411fd5e85462bc8008415374dac5567b8a3339c91fe8c43215",
+        "archiveBytes": 851841,
+        "output": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\manifest-interleave.zip",
+        "format": "zip32-stored-v1"
+      },
+      "error": null,
+      "output": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\manifest-interleave.zip"
+    },
+    "brokenExtraction": {
+      "executable": "C:\\Users\\Dom\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
+      "command": "$ErrorActionPreference = 'Stop'; Expand-Archive -LiteralPath 'C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\manifest-interleave.zip' -DestinationPath 'C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\manifest extracted'",
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "brokenValidation": {
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3\\manifest extracted\\godskills\\bin\\godskills.mjs",
+        "validate"
+      ],
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "{\"error\":\"Catalog count mismatch\"}\n"
+    },
+    "extractedManifestSkillCount": 0,
+    "manifestArchiveReceiptHashMatchesBytes": true
+  },
+  "parentTests": {
+    "command": "node --test tests/product-archive.test.mjs",
+    "exitCode": 0,
+    "stdout": "✔ export produces the exact standalone pack and a verifiable archive receipt (2253.9097ms)\n✔ export is byte reproducible across locations and does not overwrite files (3750.7584ms)\n✔ export rejects a modified pack before writing any archive (1438.2006ms)\n✔ export refuses source-contained, relative and linked output paths (914.1846ms)\n✔ a source-contained name beginning with two dots is not a parent path (814.2433ms)\nℹ tests 5\nℹ suites 0\nℹ pass 5\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 9234.7166\n",
+    "stderr": ""
+  },
+  "frozenAccounting": {
+    "counts": {
+      "sourceRowCount": 49974,
+      "identityCount": 37529,
+      "validBodyGroupCount": 20737,
+      "identityObligationCount": 51006,
+      "outstandingIdentityObligationCount": 49514,
+      "conflictingIdentityCount": 163,
+      "distinctReviewedBodyCount": 588,
+      "distinctReviewedBodyIdentityCount": 746
+    },
+    "allNewDocumentationCountsAgree": true,
+    "parentReceiptCoverageComplete": false,
+    "ledgerPayloadsRead": false,
+    "ledgerDispositionsChanged": false
+  },
+  "allReviewedInputHashesUnchanged": true,
+  "effects": {
+    "outputRoot": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\run-TDvIx3",
+    "generatedFixturesOnlyInsideOutputRoot": true,
+    "reviewedProductEdits": 0,
+    "commits": 0,
+    "installs": 0,
+    "pushes": 0,
+    "merges": 0,
+    "childAgents": 0,
+    "paidProviders": 0,
+    "webAcquisition": 0,
+    "acquiredCodeExecution": 0,
+    "frozenActivationPathsReadOrWritten": 0,
+    "r10DispositionApplications": 0
+  },
+  "limitations": [
+    "Same Windows host and .NET extraction only; no observed Linux/macOS or fresh OS.",
+    "Controlled deterministic interleaving uses a temporary built-in readFile wrapper and actual changes/restoration in copied source packs; no naturally timed race or external adversary claim.",
+    "Five author tests passed but do not cover the reproduced release.json interleaving.",
+    "Only frozen R10 summary/manifest/parent receipt inspected; no full-ledger reconstruction or source-rights clearance.",
+    "File-symlink creation is EPERM on this Windows token; leaf-symlink refusal remains unobserved. Directory-junction ancestor refusal was observed.",
+    "First probe stopped at file-symlink setup; a second used legacy Windows PowerShell whose Archive module did not load. Partial fixtures remain; the completed probe uses the observed current PowerShell host and a fresh run directory without overwrite."
+  ]
+}

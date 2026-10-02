@@ -1,7 +1,7 @@
 {
   "id": "eternities-atlas",
   "category": "data",
-  "summary": "Build reproducible analytics, conditional connected-source evidence, finite trade-off frontiers, simulation-artifact handoffs, query, schema, migration, synchronization, telemetry, and experiment artifacts.",
+  "summary": "Build reproducible analytics, conditional connected-source evidence, finite trade-off frontiers, simulation-artifact handoffs, query planning, entity design and migration, synchronization, telemetry, experiment artifacts, and candidate eligibility, time-bound scorer revisions, and observed outcomes; the new extension remains DRAFT.",
   "triggers": [
     "data analysis",
     "query performance",
@@ -19,7 +19,14 @@
     "connector dataset selection",
     "workspace integration datasets",
     "report run data read",
-    "named report run inputs"
+    "named report run inputs",
+    "serving-time candidate eligibility feature scorer revisions observed impression",
+    "eligible candidates tie-break ordered items",
+    "candidate cutoff diversity constraint",
+    "eligible items display observed view",
+    "historical ranked candidates scorer revision",
+    "aggregate cohort engagement analytics by day",
+    "precommitted randomized experiment stopping rules"
   ],
   "antiTriggers": [
     "production mutation without migration and rollback evidence",
@@ -43,6 +50,7 @@
   ],
   "resources": [
     "references/methods.md",
+    "references/serving-time-ranking-decision-trace.md",
     "references/pareto-frontier-decision.md",
     "references/simulation-artifact-handoff.md",
     "references/connector-discovery.md",
@@ -97,6 +105,11 @@
       "kind": "method-research",
       "source": "artifacts/universal-product-v1/wave25-b01-atlas-proposal-v2/staged/references/connector-discovery.md",
       "note": "Original portable method for conditional connected-source evidence and identity-specific holds; staged review and fake-connector exercise are bounded evidence, not live-provider validation."
+    },
+    {
+      "kind": "product-fit-reference",
+      "source": "artifacts/universal-product-v1/wave29-b02-current-product-fit-v1/product-fit-decision.md",
+      "note": "SHA-256 774c2354192f1ca18033a7aba98dc1f90713f0ca86e1907fca235dceb0eeaa38. This owner-fit decision motivated an independently worded DRAFT scope only; associated source identities and rights/access remain on HOLD, and no source prose or implementation is incorporated or cleared."
     }
   ]
 }

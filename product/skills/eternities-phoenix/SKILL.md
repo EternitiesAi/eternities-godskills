@@ -25,7 +25,7 @@ For case discovery, follow [the case-discovery method](references/trace-to-evalu
 2. Read local evidence first. Preserve exact observations and locators; distinguish observed facts, derived values, hypotheses, proposals, and unresolved conflict. When another person or later session must replay the failure, use [reproducible bug packets](references/reproducible-bug-packets.md).
 3. Rank hypotheses and run one predeclared reversible check at a time. Record negative results so an eliminated explanation does not silently return.
 4. Compare expected and actual behavior, then propose the smallest repair or recovery that can be independently checked. If implementation is authorized, change one bounded surface and rerun the reproducer and regression checks.
-5. Keep production mutation, destructive repair, credentials, external systems, background monitoring, and missing rollback as explicit boundaries requiring another decision.
+5. Treat production mutation, destructive repair, credential use, external systems, and background monitoring as consequential boundaries. Check whether existing authority explicitly covers the exact target and effect, and whether required preconditions and rollback are clear. Do not request approval already supplied. A new decision is needed only when that scope is missing or changed, or an unresolved precondition, material risk, or rollback gap remains. If an external effect is uncertain, reconcile authoritative state before acting; do not retry or compensate merely to resolve that uncertainty. Continue independent authorized diagnosis, local repair, and tests while the affected external action is held.
 
 ## Deliverable and finish
 
@@ -34,5 +34,9 @@ For diagnosis and recovery, return route, scope, impact, evidence, hypothesis le
 If reproduction is unavailable, return the smallest fixture or observation needed to obtain it and stop the affected conclusion at unknown. Do not substitute urgency, a familiar symptom, or a successful restart for causal evidence.
 
 A diagnosis is a checkpoint when the user also requested an authorized local repair. Once the cause and rollback are sufficiently evidenced, apply the bounded fix and rerun the reproducer without requesting permission already supplied. Pause only for missing authority or material safety, rollback, or evidence risk.
+
+An authorized local repair is not proof of production recovery. Record the actual
+target and observed effect; a passing mock, local test, or planned rollback cannot
+establish what happened in an external system.
 
 Example: reproduce a stale-cache failure, patch the invalidation boundary, rerun cold/warm and recovery cases, and preserve the eliminated hypotheses with the repair receipt.

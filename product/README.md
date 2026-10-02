@@ -5,7 +5,7 @@ design, science, games, writing, operations, marketing, audio, and more.
 
 ## Start here
 
-1. Read [the directory](INDEX.md) or search the compact `catalog.json` metadata.
+1. Read [the skill directory](INDEX.md), the [selected smaller-method directory](METHODS.v1.md), or search the compact `catalog.json` metadata.
 2. Pick the smallest useful skill from the user's task, not from a slash command.
 3. Read its `skills/<id>/SKILL.md`. Open only the references needed for that task.
 4. Apply the method within the user's request and the host's permissions. Related
@@ -69,6 +69,39 @@ establish them from the user's task or ask when they are unclear. Neither
 No result means use ordinary agent competence, refine the query, or browse a
 category. Do not invent an installed capability or load the entire library.
 
+Some methods are narrower than their parent skills. The selected method directory
+gives direct conditional links, exclusions and two separate status axes. Its
+`METHODS.v1.json` metadata binds method bytes and any bundled review evidence;
+build/validate refuses stale method or review identities, including a changed
+method that tries to retain its old review. It is a selected navigation overlay,
+not an exhaustive method catalog or automatic semantic selector. Review records
+are optional evidence; do not load them as part of routine skill selection.
+
+## Hand the pack to another computer
+
+Copy this folder, or use the optional verified export:
+
+```text
+node bin/godskills.mjs export --output <new-absolute-archive-path>
+```
+
+The destination's parent directory must already exist, and the archive must be
+outside this pack. Export refuses existing files and linked output paths. It
+verifies all declared content before creating a standard ZIP containing only
+the standalone `godskills/` folder, including its catalog, methods, resources,
+CLI and release manifest. Selected historical method-review receipts, reports
+and bounded supporting data are included as optional evidence. The source
+warehouse and the rest of the development checkout are not included. Stored
+entries and fixed timestamps make identical pack bytes
+produce identical archive bytes across checkout locations.
+
+Save the returned `archiveSha256` and `releaseId` through a trusted channel.
+On the receiving computer, verify the archive SHA-256, extract it using a normal
+ZIP utility, and open `godskills/README.md`. With Node, run
+`node godskills/bin/godskills.mjs validate` before installation. Hashes establish
+consistency with the received manifest, not publisher authenticity. Markdown
+use still needs no Node. Export never installs or activates skills.
+
 ## Install into an agent's skill directory
 
 Supply three separate absolute paths on the same filesystem volume. The source
@@ -86,6 +119,8 @@ versions into the named backup. It writes a durable installation journal and
 verifies the installed files. It does not edit global agent instructions, enable
 tasks, install dependencies, call providers, or alter model settings. An existing
 backup directory is refused. Do not run concurrent installers against one target.
+Automated installation exposes all 68 parent skills; for a subset, use the manual
+folder-copy path described above and preserve its referenced resources.
 An existing runtime directory must already be an intact Godskills pack; the
 installer will not replace an unrelated folder or a modified runtime snapshot.
 
@@ -109,6 +144,10 @@ or application reload. File installation alone does not prove UI discovery.
   until separately reviewed and accepted. Bundling a DRAFT reference does not
   upgrade it; it does not imply automatic selection, source rights, or
   operational validation.
+- **Independently document-reviewed method:** a versioned method-directory row
+  records later review of exact guidance while its original body may retain the
+  DRAFT label. Read the row's scope and execution/outcome axis together. This does
+  not qualify performance, grant rights, or confer that status on other methods.
 - **Package-tested:** executable tests check catalog behavior, portable paths,
   byte identity, installation and rollback. These test software, not expertise.
 - **Agent exercise:** an actual agent uses a fixed skill snapshot on a recorded

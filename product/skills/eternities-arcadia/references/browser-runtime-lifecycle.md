@@ -47,11 +47,17 @@ context, with restoration behavior appropriate to the actual engine.
 
 ## Prove the lifecycle, then the experience
 
-Exercise mount/unmount/remount, duplicate start, interrupted load, late success
-and rejection, focus loss, long resume, container resize, hidden zero size and
-failed assets. Check that loop/listener/resource counts return to the expected
-baseline and that reused shared assets remain usable. Compare memory and frame
-behavior over repeated cycles, not just one attractive screenshot.
+Select cases from the actual implementation, target context and requested stage.
+Exercise mount/unmount/remount when the surface can be recreated; duplicate
+start when setup can repeat; and interrupted load, late settlement and failed-asset cases when asynchronous loads exist.
+Check focus loss, visibility/long resume and container resize for an interactive
+browser surface, including hidden zero size when it can occur. Record why a case
+has no corresponding feature rather than inventing one merely to test it.
+A required mechanism that is missing is a gap, not an out-of-scope case.
+For the lifetimes actually exercised, check that loop/listener/resource counts
+return to the expected baseline and reused shared assets remain usable. Compare
+memory and frame behavior over repeated supported cycles, not just one attractive
+screenshot. Keep unperformed applicable checks explicitly pending.
 
 Then inspect the actual rendered scene: nonblank output, camera extremes,
 interaction, equivalent cues and target-device cost. Test shipped relative asset

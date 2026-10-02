@@ -1,0 +1,180 @@
+{
+  "schema": "godskills.method-directory-repair-review-evidence/v2",
+  "checkedAtUtc": "2026-10-02T11:49:06.105Z",
+  "frozenInputBindings": [
+    {
+      "path": "product/lib/method-directory.mjs",
+      "bytes": 7836,
+      "sha256": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180"
+    },
+    {
+      "path": "product/lib/product.mjs",
+      "bytes": 21992,
+      "sha256": "1e99a9e68317fa01121f81e363860cd28e17e5b19c7aedc8522d949e7025ad79"
+    },
+    {
+      "path": "product/METHODS.v1.json",
+      "bytes": 4761,
+      "sha256": "c722fa517eb82757daf2baec7901e487e1cac757487be2559862ee5e71040abb"
+    },
+    {
+      "path": "product/METHODS.v1.md",
+      "bytes": 5199,
+      "sha256": "365932e8f48c77c15d364ccefc3c4d37a60921de9768ae367133bece70c077af"
+    },
+    {
+      "path": "product/README.md",
+      "bytes": 10844,
+      "sha256": "2b17c2ed8047c94407038bf815244b88b13b8773dd60f69ca607b8be0ef50d2f"
+    },
+    {
+      "path": "tests/product-method-directory.test.mjs",
+      "bytes": 6687,
+      "sha256": "7415c0c9af6eef9377c89ea2935abc554964de1234841fc44252a250d2d21c76"
+    }
+  ],
+  "supportingEvidenceBindings": [
+    {
+      "path": "product/skills/eternities-arcadia/references/game-state-to-audio-cue.md",
+      "bytes": 9247,
+      "sha256": "f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f"
+    },
+    {
+      "path": "product/evidence/method-reviews/arcadia-v2/receipt.json",
+      "bytes": 4201,
+      "sha256": "fceb06922f496de2e2861725f25a3e9d3e24a5840cbe9c68e613099d9b2fed57"
+    },
+    {
+      "path": "product/evidence/method-reviews/arcadia-v2/review.md",
+      "bytes": 6937,
+      "sha256": "150a4011cdec776e5a25268d413bf18381a6a13bb770bc3cb630fe4c55c5f5ff"
+    },
+    {
+      "path": "product/skills/eternities-atlas/references/serving-time-ranking-decision-trace.md",
+      "bytes": 5487,
+      "sha256": "4a4ed718c0879126b1d30cf9c2f2c5f469cbe730e72d4103e9784ee5a7c5a496"
+    },
+    {
+      "path": "product/evidence/method-reviews/atlas-v3/receipt.json",
+      "bytes": 15924,
+      "sha256": "d6acb24533810b956f05ef8aa9f72ca9caba40a83e5ac5992b97664cdff9ffa4"
+    },
+    {
+      "path": "product/evidence/method-reviews/atlas-v3/review.md",
+      "bytes": 9665,
+      "sha256": "92c5232b86ff42e4ffe20da76da5e9f42cc102234fee015b2decf1c5e484210c"
+    },
+    {
+      "path": "product/skills/eternities-oracle/references/methods.md",
+      "bytes": 4673,
+      "sha256": "ab1f3e8a23fa5929bcf8d25c119e25a275ffc752a119eb37cc9e9da78d339950"
+    },
+    {
+      "path": "product/skills/eternities-mnemosyne/references/methods.md",
+      "bytes": 5018,
+      "sha256": "9b3bff3a805b833a4e3d72495382efab8b99e31a0719178a17f03ed4aca02d86"
+    },
+    {
+      "path": "product/evidence/method-reviews/arcadia-v2/cue-plan-packets.md",
+      "bytes": 5669,
+      "sha256": "4610142758fe3696a8b27d32f7c1ae2053b766303cc9b3604670ce4578698dcc"
+    },
+    {
+      "path": "product/evidence/method-reviews/atlas-v3/routing-matrix.tsv",
+      "bytes": 11102,
+      "sha256": "470559d2cadfd33a1b54eec748078fd23ef29da7755a8e1c74eecec395d45741"
+    },
+    {
+      "path": "product/evidence/method-reviews/atlas-v3/evidence.json",
+      "bytes": 50102,
+      "sha256": "9c83f326db0a8148c797638ba3e0f52be349c383e1c06849f945286d7e36bd30"
+    }
+  ],
+  "observedContextBindings": [
+    {
+      "path": "product/catalog.json",
+      "bytes": 99289,
+      "sha256": "57d47c0a9692dc21caa0e7909ee6c557cd5ef5cc4e09b968df079cc81f86aecf"
+    },
+    {
+      "path": "product/release.json",
+      "bytes": 25227,
+      "sha256": "4d398fea6353586e1bf29e4376b2ac5cfc47914013286d7d9ecc5a8dc7b33dba"
+    },
+    {
+      "path": "product/INDEX.md",
+      "bytes": 17441,
+      "sha256": "27d50fbf73154aa5777e51dc3e9ea7c0b0c336cfe4ced1922beef1d976555e49"
+    }
+  ],
+  "historicalBindings": [
+    {
+      "path": "artifacts/sprint-20261002/method-directory-review-v1/receipt.json",
+      "bytes": 17347,
+      "sha256": "f832df30650d29f0916fa81a89fad3e343dcb05f7f72b05b31093222d3465fa7"
+    },
+    {
+      "path": "artifacts/sprint-20261002/method-directory-review-v1/review.md",
+      "bytes": 8804,
+      "sha256": "420bf25018cf45233491b21f1f1699b21996a2167afda1562dbd67a15b8d8902"
+    },
+    {
+      "path": "artifacts/sprint-20261002/method-directory-review-v1/evidence.json",
+      "bytes": 19480,
+      "sha256": "e91cba61c766a896b0bec04e464617994e74d524de4ff14123dfbda815595100"
+    },
+    {
+      "path": "artifacts/sprint-20261002/method-directory-review-v1/evidence-probe.mjs",
+      "bytes": 13581,
+      "sha256": "bc5acff5f6b3b6dd958993076e7bceba9483faa1693a3befbac85eaca843040c"
+    }
+  ],
+  "readmeDelta": {
+    "oldReadmeBinding": {
+      "path": "artifacts/sprint-20261002/method-directory-review-v1/run-r9wIW7/portable pack/README.md",
+      "bytes": 10713,
+      "sha256": "1db4c4ec4e9fae4f72ed8d90ed70a0166ebfae71b4d12285d994a3acb45a3e76"
+    },
+    "removed": "CLI and release manifest. No source warehouse or development artifacts enter\nthe archive. Stored entries and fixed timestamps make identical pack bytes",
+    "added": "CLI and release manifest. Selected historical method-review receipts, reports\nand bounded supporting data are included as optional evidence. The source\nwarehouse and the rest of the development checkout are not included. Stored\nentries and fixed timestamps make identical pack bytes",
+    "onlyMD1Repair": true
+  },
+  "checks": {
+    "unchangedDirectoryAndTestInputs": 5,
+    "unchangedSupportingBindings": 11,
+    "previousReceiptAndArtifactsUnchanged": true,
+    "reviewPayloads": [
+      "evidence/method-reviews/arcadia-v2/cue-plan-packets.md",
+      "evidence/method-reviews/arcadia-v2/receipt.json",
+      "evidence/method-reviews/arcadia-v2/review.md",
+      "evidence/method-reviews/atlas-v3/evidence.json",
+      "evidence/method-reviews/atlas-v3/receipt.json",
+      "evidence/method-reviews/atlas-v3/review.md",
+      "evidence/method-reviews/atlas-v3/routing-matrix.tsv"
+    ],
+    "copiedValidation": "passed",
+    "generatedDirectoryExact": true,
+    "copiedBuildReproducesEntireManifest": true,
+    "minimalEnvironmentCli": {
+      "exitCode": 0,
+      "status": "verified-content",
+      "releaseId": "2260b471f889f5c25b772fc50d4e83566fe8a4ef28a7748674241c8e80ffc348",
+      "skillCount": 68
+    },
+    "releaseId": "2260b471f889f5c25b772fc50d4e83566fe8a4ef28a7748674241c8e80ffc348",
+    "skillCount": 68,
+    "payloadFiles": 205,
+    "methodRows": 4,
+    "freshFixtureProbes": 0,
+    "testsRerun": 0,
+    "fullSuiteRun": false,
+    "exportRerun": false
+  },
+  "fixturePath": "run-daMB4l/portable pack",
+  "inheritedChecksOnly": "V1 focused 6 and selected existing 9 tests, nine refusal probes, caller navigation and exclusion checks are not rerun or expanded.",
+  "probeSetupCorrection": "First attempt reached rebuild but compared a null-prototype in-memory inventory to a JSON-parsed ordinary object. Only that reviewer assertion was corrected; entire serialized manifest and raw persisted release bytes are now compared. This was not a product defect or an adversarial red.",
+  "limitations": [
+    "Same-host product-only copy, not a fresh OS.",
+    "No new method-body approval, runtime, performance, authenticity, rights, source-obligation or whole-product certification."
+  ]
+}

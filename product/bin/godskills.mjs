@@ -3,6 +3,7 @@ import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { readFile } from 'node:fs/promises';
 import { buildProduct, verifyProduct, searchCatalog, routeTask, installProduct, rollbackInstall } from '../lib/product.mjs';
+import { exportProduct } from '../lib/archive.mjs';
 
 const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
 const [command,...args]=process.argv.slice(2);
@@ -29,11 +30,13 @@ try{
       connectedPurpose:opts['--connected-purpose']??'unknown',
       discovery:opts['--discovery']??'unknown'
     },{limit:opts['--limit']===undefined?5:Number(opts['--limit'])});
+  }else if(command==='export'){
+    const opts=options(args,['--output']);result=await exportProduct(root,opts['--output']);
   }else if(command==='install'){
     const opts=options(args,['--skills-dir','--runtime-dir','--backup-dir']);
     result=await installProduct(root,{skillsDir:opts['--skills-dir'],runtimeDir:opts['--runtime-dir'],backupDir:opts['--backup-dir']});
   }else if(command==='rollback'){
     const opts=options(args,['--receipt']);if(!opts['--receipt'])throw new Error('Missing --receipt');result=await rollbackInstall(opts['--receipt']);
-  }else throw new Error('Usage: godskills.mjs build | validate | search "task" [--limit 1..20] [--category name] [--task name] | route "task" [--limit 1..20] [--input-scope supplied-only|sufficient|missing-input|open|unknown] [--connected-purpose none|inventory|fill-missing|named-run|unknown] [--discovery prohibited|not-prohibited|unknown] | install --skills-dir ABS --runtime-dir ABS --backup-dir ABS | rollback --receipt ABS');
+  }else throw new Error('Usage: godskills.mjs build | validate | search "task" [--limit 1..20] [--category name] [--task name] | route "task" [--limit 1..20] [--input-scope supplied-only|sufficient|missing-input|open|unknown] [--connected-purpose none|inventory|fill-missing|named-run|unknown] [--discovery prohibited|not-prohibited|unknown] | export --output NEW_ABSOLUTE_ZIP_PATH | install --skills-dir ABS --runtime-dir ABS --backup-dir ABS | rollback --receipt ABS');
   process.stdout.write(JSON.stringify(result,null,2)+'\n');
 }catch(error){process.stderr.write(JSON.stringify({error:error.message})+'\n');process.exitCode=1;}

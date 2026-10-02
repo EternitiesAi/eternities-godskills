@@ -1,5 +1,41 @@
 # Corpus scope and honest coverage
 
+## Current product and frozen research accounting
+
+The shipped catalog contains **68 skill entrypoints**, not 50,000 installed
+skills. The larger number counts unresolved source-review obligations across
+overlapping research inputs. Source copies, identities, bodies and review
+obligations are different units; none is a product quality score.
+
+The frozen September 23 R10 ledger, rechecked on October 2, records:
+
+| Unit | Count | Meaning |
+|---|---:|---|
+| Source rows | 49,974 | Records across primary and derived input layers |
+| Source identities | 37,529 | Source-specific identities, not independent methods |
+| Valid declared body groups | 20,737 | Equal declared hashes; not automatic current-byte or rights verification |
+| Identity obligations | 51,006 | Source-bound review obligations across layers |
+| Outstanding identity obligations | 49,514 | Still open in the actual frozen ledger |
+| Conflicting identities | 163 | Conflicting declarations requiring case-specific resolution |
+
+The R10 parent receipt reports 588 distinct reviewed bodies and 746 reviewed
+source-body identities at that cut. Later research packets are provisional until
+their actual application is separately accepted; do not subtract candidate or
+projection counts from the frozen ledger. Equal source bytes do not transfer
+rights, provenance, quality judgments or terminal dispositions among identities.
+
+The accounting is pinned in the development evidence, not needed to use this
+standalone pack: R10 manifest SHA-256
+`419b6a770cec296e26c6a0d4d1a59ed70297d1258cee92f264157cd556e01026`,
+summary SHA-256
+`75dab55310dddae3a0cd4d7f70ff2044aba632185c56f365aed2ffe4c5fd800d`,
+and parent receipt SHA-256
+`308495ac6e78bb94bf1206e8affe9cca915ca80780f43202d6096c873762d9d2`.
+The large local ledger is not represented as a published, clean-machine
+reconstruction. Product package integrity and corpus completion remain separate.
+
+## Historical intake and refinement milestones
+
 The 2026-09-21 inventory reconciles 28,787 primary source rows representing 27,741
 source identities. It also preserves derived classification/evidence records.
 These are not 28,787 independently refined or tested product skills.

@@ -1,0 +1,96 @@
+{
+  "schema": "eternities-godskills-designated-distribution-independent-review/v2",
+  "stage": "SEALED_INDEPENDENT_NONAUTHOR_CHANGED_ARTIFACT_REVIEW",
+  "verdict": "READY_FOR_EXACT_NAMED_ARCHIVE_AND_FROZEN_MANIFEST_IDENTITY_ONLY",
+  "reviewedAtUtc": "2026-10-02T12:33:12Z",
+  "reviewer": {
+    "identity": "Codex",
+    "role": "parent-assigned independent combined-core reviewer",
+    "archiveAuthorship": false,
+    "productAuthorship": false,
+    "childAgents": 0
+  },
+  "scope": {
+    "worktree": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002",
+    "canonicalMain": "55f960847fa2a06a750a1a6e20c4e7f95ea10449",
+    "scopeMeaning": "Changed-artifact check of the newly designated release ZIP only; not a fresh extraction, full product re-review, distribution authorization, authenticity, rights, source freshness, or performance approval."
+  },
+  "candidate": {
+    "path": "artifacts/sprint-20261002/godskills-core2260-distribution-v2.zip",
+    "sha256": "0ea0b883181709f7a539369b6e89eba7fce6c8d840c5e32df3a5a206805ccce2",
+    "bytes": 999825,
+    "parentReturnedIdentityMatches": true,
+    "releaseId": "2260b471f889f5c25b772fc50d4e83566fe8a4ef28a7748674241c8e80ffc348",
+    "archiveEntryCount": 206
+  },
+  "sourceManifest": {
+    "path": "product/release.json",
+    "sha256": "4d398fea6353586e1bf29e4376b2ac5cfc47914013286d7d9ecc5a8dc7b33dba",
+    "releaseId": "2260b471f889f5c25b772fc50d4e83566fe8a4ef28a7748674241c8e80ffc348",
+    "skillCount": 68,
+    "payloadFileCount": 205
+  },
+  "v1Bindings": {
+    "reviewPath": "artifacts/sprint-20261002/combined-core-review-v1/review.md",
+    "reviewSha256": "c15a394f19cb6e9e92acc7b3e81089bbf4a161ad86b8502acee670a2b15b5140",
+    "receiptPath": "artifacts/sprint-20261002/combined-core-review-v1/receipt.json",
+    "receiptSha256": "7b69ed5c912481024620b00640bf40540aa74d42078af336547587e38deae473",
+    "receiptSidecarPath": "artifacts/sprint-20261002/combined-core-review-v1/receipt.sha256",
+    "receiptSidecarSha256": "72c30df619a3e0e14ae583878af2ec9f25413cf3859d316fc50c1575bd9fa11f",
+    "previousReviewOnlyArchiveSha256": "0ea0b883181709f7a539369b6e89eba7fce6c8d840c5e32df3a5a206805ccce2",
+    "inheritedExtractionEvidence": {
+      "consumerPath": "artifacts/sprint-20261002/combined-core-review-v1/blank-consumer/godskills",
+      "v1ReceiptResult": "206 source/extracted files compared byte-for-byte; zero missing, extra, or changed; extracted validate and search passed with empty PATH.",
+      "inheritanceBasis": "Named v2 ZIP SHA-256 exactly equals the v1-reviewed and extracted ZIP SHA-256; v1 report and receipt are hash-bound above and their detached receipt checksum verifies."
+    }
+  },
+  "checks": {
+    "archiveHashMatchesParentReturnedSha256": true,
+    "archiveSizeMatchesParentReturnedBytes": true,
+    "entryCount": 206,
+    "allEntriesUnderGodskillsRoot": true,
+    "entryNamesUnique": true,
+    "embeddedManifestPayloadFiles": 205,
+    "embeddedManifestEntrySetPlusReleaseJsonEqualsArchiveEntrySet": true,
+    "missingEntries": 0,
+    "extraEntries": 0,
+    "embeddedReleaseIdMatchesCurrentProductManifest": true,
+    "embeddedReleaseManifestBytesEqualProductReleaseJson": true,
+    "embeddedReleaseManifestSha256": "4d398fea6353586e1bf29e4376b2ac5cfc47914013286d7d9ecc5a8dc7b33dba",
+    "oldCandidateArchiveStatus": "Historical/unshipped per parent direction; v1 REPAIR finding remains an accurate distinction from this designated archive.",
+    "oldCandidateArchiveReadInV2": false,
+    "oldCandidateArchiveChangedInV2": false,
+    "reexportedOrReextractedInV2": false,
+    "testsRerunInV2": false,
+    "initialHarnessError": "A disposable first path-set attempt stripped 9 rather than all 10 characters of literal prefix 'godskills/'; result discarded. Corrected literal-length comparison produced exact 206-entry equality with zero missing/extra."
+  },
+  "reviewArtifact": {
+    "path": "artifacts/sprint-20261002/combined-core-review-v2/review.md",
+    "bytes": 3325,
+    "sha256": "4bfe51fed6c673f0a732db6c22edc1c0b2b72c8bae0bc9ae2550df042a6613e9"
+  },
+  "limitations": [
+    "V2 verifies only exact named ZIP, entry names/count, and embedded manifest correspondence to the frozen source manifest; it does not repeat or extend the full tree/content review.",
+    "Extraction, empty-PATH CLI calls, product archive tests, method-directory tests, and the 206-file source/extraction comparison are inherited from sealed v1 solely by exact archive SHA identity; they were not rerun.",
+    "The inherited environment was same-host Windows x64 / Node v24.18.0, not a fresh OS or cross-platform run.",
+    "Matching hashes establish byte consistency, not publisher authenticity, transport custody, source rights, licenses, freshness, or product capability."
+  ],
+  "effects": {
+    "productEdits": 0,
+    "v1ArtifactsEdited": 0,
+    "oldHistoricalArchiveEdited": 0,
+    "frozenActivationPathsReadOrWritten": 0,
+    "providers": 0,
+    "children": 0,
+    "installs": 0,
+    "commits": 0,
+    "merges": 0,
+    "pushes": 0,
+    "newFilesConfinedTo": "artifacts/sprint-20261002/combined-core-review-v2"
+  },
+  "ownership": {
+    "parentOwnsIntegrationAndDistribution": true,
+    "historicalReviewArtifactsImmutable": true,
+    "nextAction": "Return this exact scoped READY receipt for parent reconciliation; do not infer broader product or distribution approval."
+  }
+}

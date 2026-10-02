@@ -1,0 +1,541 @@
+{
+  "schema": "godskills.distribution-independent-evidence/v2",
+  "observedUtc": "2026-10-02T10:38:07.795Z",
+  "inputBindings": [
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\lib\\archive.mjs",
+      "bytes": 4358,
+      "sha256": "62cb7442554233a93aa7a149e3336830ef02cdfaf905d944e8f2241b07ce0ba3",
+      "relativePath": "product/lib/archive.mjs"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\bin\\godskills.mjs",
+      "bytes": 3097,
+      "sha256": "2bfd79da8efc81a5c4b65556e042bd89bcbd5b06d75d8e1020dbc9a8ebac5685",
+      "relativePath": "product/bin/godskills.mjs"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\tests\\product-archive.test.mjs",
+      "bytes": 6548,
+      "sha256": "f08b7696f534b166991de3f13b0da87fa82ed4225bf0fe78ff9be28845dd5c42",
+      "relativePath": "tests/product-archive.test.mjs"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\README.md",
+      "bytes": 10486,
+      "sha256": "ca2fcb97e4ea44864b11a92b7c22910a49bdfb93c72ce30d43976e71b78a69d3",
+      "relativePath": "README.md"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\README.md",
+      "bytes": 9619,
+      "sha256": "f2d578abc821c253042fb40118b3d04029ef7bea6d4905f5d4898a2851d77b7a",
+      "relativePath": "product/README.md"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\CORPUS-SCOPE.md",
+      "bytes": 10620,
+      "sha256": "f67fd28074a6fbcb90b9d773db67845a37a58eacfabeba694b187f3433425f32",
+      "relativePath": "product/CORPUS-SCOPE.md"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\release.json",
+      "bytes": 23798,
+      "sha256": "2566397486366d3ae21759a6d6bbf0668ed34c8aca9910743e857579d9e073a9",
+      "relativePath": "product/release.json"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\product\\lib\\product.mjs",
+      "bytes": 21368,
+      "sha256": "50bab545b02d947e27f9ddf3db38e7910d5b0bf341de0c0a15bf63c6d61a39af",
+      "relativePath": "product/lib/product.mjs"
+    }
+  ],
+  "lineageInputs": [
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\receipt.json",
+      "bytes": 11938,
+      "sha256": "1e9b5a025856545ed952a0b8c58facba1fb19748e222af24ea785a6d2b1f77dd"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\review.md",
+      "bytes": 9454,
+      "sha256": "478e1541274efba3ae0f9ee8bcb74c845fa7616c5f9ddef0a9ef2fc6dd9d3849"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\evidence.json",
+      "bytes": 24896,
+      "sha256": "155446c104977409ff519aca70b0acf5a25c89cbb23a1e39cfc67003c05317f3"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v1\\evidence-probe.mjs",
+      "bytes": 13486,
+      "sha256": "362cde991a247ff814fd46a7c9d553730d316736925645417b0809d24f2dc53a"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-author-v2.md",
+      "bytes": 1655,
+      "sha256": "c6b8fec64a0ed0f40a4099a81f31e127c991ad14c8c647185ca9ac2420187271"
+    }
+  ],
+  "unchangedPaths": [
+    "product/bin/godskills.mjs",
+    "README.md",
+    "product/README.md",
+    "product/CORPUS-SCOPE.md",
+    "product/lib/product.mjs"
+  ],
+  "environment": {
+    "node": "v24.18.0",
+    "platform": "win32",
+    "architecture": "x64",
+    "nodeExecutable": "C:\\Program Files\\nodejs\\node.exe",
+    "minimalCliEnvironment": {
+      "PATH": "",
+      "SystemRoot": "C:\\WINDOWS"
+    }
+  },
+  "scope": {
+    "canonicalMain": "55f960847fa2a06a750a1a6e20c4e7f95ea10449",
+    "releaseId": "6e0780ee9580369068ede14c14dd85261fe197a177eede6889e6fdf7d94ecc1b",
+    "skillCount": 68,
+    "categories": 21,
+    "releaseBoundFiles": 193,
+    "root": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2"
+  },
+  "normalExports": [
+    {
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\portable pack\\bin\\godskills.mjs",
+        "export",
+        "--output",
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\normal-a.zip"
+      ],
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2",
+      "exitCode": 0,
+      "stdout": "{\n  \"schema\": \"eternities-godskills-export-v1\",\n  \"status\": \"exported\",\n  \"releaseId\": \"6e0780ee9580369068ede14c14dd85261fe197a177eede6889e6fdf7d94ecc1b\",\n  \"skillCount\": 68,\n  \"fileCount\": 194,\n  \"archiveSha256\": \"48b41cf2594f4330edfe23fec5219e3c89cc677bf847d6544114f7933a3e48c6\",\n  \"archiveBytes\": 852243,\n  \"output\": \"C:\\\\dev\\\\eternities-godskills\\\\.worktrees\\\\product-sprint-20261002\\\\artifacts\\\\sprint-20261002\\\\distribution-review-v2\\\\run-puM5e2\\\\normal-a.zip\",\n  \"format\": \"zip32-stored-v1\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\second location\\bin\\godskills.mjs",
+        "export",
+        "--output",
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\normal-b.zip"
+      ],
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2",
+      "exitCode": 0,
+      "stdout": "{\n  \"schema\": \"eternities-godskills-export-v1\",\n  \"status\": \"exported\",\n  \"releaseId\": \"6e0780ee9580369068ede14c14dd85261fe197a177eede6889e6fdf7d94ecc1b\",\n  \"skillCount\": 68,\n  \"fileCount\": 194,\n  \"archiveSha256\": \"48b41cf2594f4330edfe23fec5219e3c89cc677bf847d6544114f7933a3e48c6\",\n  \"archiveBytes\": 852243,\n  \"output\": \"C:\\\\dev\\\\eternities-godskills\\\\.worktrees\\\\product-sprint-20261002\\\\artifacts\\\\sprint-20261002\\\\distribution-review-v2\\\\run-puM5e2\\\\normal-b.zip\",\n  \"format\": \"zip32-stored-v1\"\n}\n",
+      "stderr": ""
+    }
+  ],
+  "byteReproducible": true,
+  "archiveReceipt": {
+    "schema": "eternities-godskills-export-v1",
+    "status": "exported",
+    "releaseId": "6e0780ee9580369068ede14c14dd85261fe197a177eede6889e6fdf7d94ecc1b",
+    "skillCount": 68,
+    "fileCount": 194,
+    "archiveSha256": "48b41cf2594f4330edfe23fec5219e3c89cc677bf847d6544114f7933a3e48c6",
+    "archiveBytes": 852243,
+    "output": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\normal-a.zip",
+    "format": "zip32-stored-v1"
+  },
+  "archiveBindings": [
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\normal-a.zip",
+      "bytes": 852243,
+      "sha256": "48b41cf2594f4330edfe23fec5219e3c89cc677bf847d6544114f7933a3e48c6"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\normal-b.zip",
+      "bytes": 852243,
+      "sha256": "48b41cf2594f4330edfe23fec5219e3c89cc677bf847d6544114f7933a3e48c6"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\normal-from-extracted.zip",
+      "bytes": 852243,
+      "sha256": "48b41cf2594f4330edfe23fec5219e3c89cc677bf847d6544114f7933a3e48c6"
+    }
+  ],
+  "refusals": [
+    {
+      "id": "existing archive",
+      "kind": "expected-refusal",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\portable pack\\bin\\godskills.mjs",
+        "export",
+        "--output",
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\normal-a.zip"
+      ],
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "{\"error\":\"EEXIST: file already exists, open 'C:\\\\dev\\\\eternities-godskills\\\\.worktrees\\\\product-sprint-20261002\\\\artifacts\\\\sprint-20261002\\\\distribution-review-v2\\\\run-puM5e2\\\\normal-a.zip'\"}\n",
+      "outputAbsent": null
+    },
+    {
+      "id": "relative output",
+      "kind": "expected-refusal",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\portable pack\\bin\\godskills.mjs",
+        "export",
+        "--output",
+        "relative.zip"
+      ],
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "{\"error\":\"Archive output must be an absolute path\"}\n",
+      "outputAbsent": true
+    },
+    {
+      "id": "source-contained output",
+      "kind": "expected-refusal",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\portable pack\\bin\\godskills.mjs",
+        "export",
+        "--output",
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\portable pack\\self.zip"
+      ],
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "{\"error\":\"Archive output must be outside the source pack\"}\n",
+      "outputAbsent": true
+    },
+    {
+      "id": "two-dot source-contained filename",
+      "kind": "expected-refusal",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\portable pack\\bin\\godskills.mjs",
+        "export",
+        "--output",
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\portable pack\\..archive.zip"
+      ],
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "{\"error\":\"Archive output must be outside the source pack\"}\n",
+      "outputAbsent": true
+    },
+    {
+      "id": "missing parent directory",
+      "kind": "expected-refusal",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\portable pack\\bin\\godskills.mjs",
+        "export",
+        "--output",
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\missing-parent\\out.zip"
+      ],
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "{\"error\":\"ENOENT: no such file or directory, lstat 'C:\\\\dev\\\\eternities-godskills\\\\.worktrees\\\\product-sprint-20261002\\\\artifacts\\\\sprint-20261002\\\\distribution-review-v2\\\\run-puM5e2\\\\missing-parent'\"}\n",
+      "outputAbsent": null
+    },
+    {
+      "id": "missing output option",
+      "kind": "expected-refusal",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\portable pack\\bin\\godskills.mjs",
+        "export"
+      ],
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "{\"error\":\"Archive output must be an absolute path\"}\n",
+      "outputAbsent": null
+    },
+    {
+      "id": "duplicate option",
+      "kind": "expected-refusal",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\portable pack\\bin\\godskills.mjs",
+        "export",
+        "--output",
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\duplicate.zip",
+        "--output",
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\duplicate2.zip"
+      ],
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "{\"error\":\"Invalid option: --output\"}\n",
+      "outputAbsent": true
+    },
+    {
+      "id": "unknown option",
+      "kind": "expected-refusal",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\portable pack\\bin\\godskills.mjs",
+        "export",
+        "--bad",
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\unknown.zip"
+      ],
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "{\"error\":\"Invalid option: --bad\"}\n",
+      "outputAbsent": true
+    },
+    {
+      "id": "parent is a file",
+      "kind": "expected-refusal",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\portable pack\\bin\\godskills.mjs",
+        "export",
+        "--output",
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\parent-is-a-file\\out.zip"
+      ],
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "{\"error\":\"Archive parent must be an existing directory\"}\n",
+      "outputAbsent": null
+    },
+    {
+      "id": "linked output ancestor",
+      "kind": "expected-refusal",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\portable pack\\bin\\godskills.mjs",
+        "export",
+        "--output",
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\linked-parent\\redirected.zip"
+      ],
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "{\"error\":\"Linked archive output path rejected\"}\n",
+      "outputAbsent": true
+    },
+    {
+      "id": "linked output leaf",
+      "kind": "platform-skip",
+      "reason": "This Windows token cannot create file symlinks (EPERM). Junction ancestor refusal was exercised."
+    },
+    {
+      "id": "modified declared content",
+      "kind": "expected-refusal",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\tampered pack\\bin\\godskills.mjs",
+        "export",
+        "--output",
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\tampered.zip"
+      ],
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "{\"error\":\"Release file digest changed\"}\n",
+      "outputAbsent": true
+    },
+    {
+      "id": "undeclared source file",
+      "kind": "expected-refusal",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\undeclared pack\\bin\\godskills.mjs",
+        "export",
+        "--output",
+        "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\undeclared.zip"
+      ],
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": "{\"error\":\"Release file set changed or undeclared files present\"}\n",
+      "outputAbsent": true
+    }
+  ],
+  "normalExtraction": {
+    "executable": "C:/Users/Dom/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/powershell/pwsh.exe",
+    "command": "$ErrorActionPreference = 'Stop'; Expand-Archive -LiteralPath 'C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\normal-a.zip' -DestinationPath 'C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\normal extracted'",
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "normalValidation": {
+    "executable": "C:\\Program Files\\nodejs\\node.exe",
+    "args": [
+      "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\normal extracted\\godskills\\bin\\godskills.mjs",
+      "validate"
+    ],
+    "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2",
+    "exitCode": 0,
+    "stdout": "{\n  \"status\": \"verified-content\",\n  \"releaseId\": \"6e0780ee9580369068ede14c14dd85261fe197a177eede6889e6fdf7d94ecc1b\",\n  \"skillCount\": 68\n}\n",
+    "stderr": ""
+  },
+  "extractedFileCount": 194,
+  "allExtractedBytesEqualSource": true,
+  "extractedExport": {
+    "executable": "C:\\Program Files\\nodejs\\node.exe",
+    "args": [
+      "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\normal extracted\\godskills\\bin\\godskills.mjs",
+      "export",
+      "--output",
+      "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\normal-from-extracted.zip"
+    ],
+    "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2",
+    "exitCode": 0,
+    "stdout": "{\n  \"schema\": \"eternities-godskills-export-v1\",\n  \"status\": \"exported\",\n  \"releaseId\": \"6e0780ee9580369068ede14c14dd85261fe197a177eede6889e6fdf7d94ecc1b\",\n  \"skillCount\": 68,\n  \"fileCount\": 194,\n  \"archiveSha256\": \"48b41cf2594f4330edfe23fec5219e3c89cc677bf847d6544114f7933a3e48c6\",\n  \"archiveBytes\": 852243,\n  \"output\": \"C:\\\\dev\\\\eternities-godskills\\\\.worktrees\\\\product-sprint-20261002\\\\artifacts\\\\sprint-20261002\\\\distribution-review-v2\\\\run-puM5e2\\\\normal-from-extracted.zip\",\n  \"format\": \"zip32-stored-v1\"\n}\n",
+    "stderr": ""
+  },
+  "extractedReExportByteReproducible": true,
+  "controlledInterleavings": {
+    "declaredFile": {
+      "scenario": "declared-file interleave",
+      "file": "README.md",
+      "observed": true,
+      "sourceRestoredAndValid": true,
+      "returned": null,
+      "error": {
+        "name": "Error",
+        "message": "Source changed during export"
+      },
+      "output": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\declared-interleave.zip"
+    },
+    "capturedManifests": [
+      {
+        "scenario": "manifest interleave skillCount",
+        "file": "release.json",
+        "observed": true,
+        "sourceRestoredAndValid": true,
+        "returned": null,
+        "error": {
+          "name": "Error",
+          "message": "Captured release manifest changed during export"
+        },
+        "output": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\manifest-interleave-skillCount.zip",
+        "field": "skillCount",
+        "outputAbsent": true
+      },
+      {
+        "scenario": "manifest interleave schema",
+        "file": "release.json",
+        "observed": true,
+        "sourceRestoredAndValid": true,
+        "returned": null,
+        "error": {
+          "name": "Error",
+          "message": "Captured release manifest changed during export"
+        },
+        "output": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\manifest-interleave-schema.zip",
+        "field": "schema",
+        "outputAbsent": true
+      },
+      {
+        "scenario": "manifest interleave files",
+        "file": "release.json",
+        "observed": true,
+        "sourceRestoredAndValid": true,
+        "returned": null,
+        "error": {
+          "name": "Error",
+          "message": "Captured release manifest changed during export"
+        },
+        "output": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\manifest-interleave-files.zip",
+        "field": "files",
+        "outputAbsent": true
+      },
+      {
+        "scenario": "manifest interleave releaseId",
+        "file": "release.json",
+        "observed": true,
+        "sourceRestoredAndValid": true,
+        "returned": null,
+        "error": {
+          "name": "Error",
+          "message": "Captured release manifest changed during export"
+        },
+        "output": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\manifest-interleave-releaseId.zip",
+        "field": "releaseId",
+        "outputAbsent": true
+      }
+    ],
+    "finalManifest": {
+      "scenario": "final validated manifest extra property",
+      "field": "independentReviewMarker",
+      "observedRead": 4,
+      "manifestReads": 5,
+      "semanticallyValidChangedManifest": true,
+      "releaseIdentityUnchanged": true,
+      "sourceRestoredAndValid": true,
+      "returned": null,
+      "error": {
+        "name": "Error",
+        "message": "Source release manifest changed during export"
+      },
+      "output": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2\\final-manifest-interleave.zip",
+      "outputAbsent": true
+    }
+  },
+  "parentTests": {
+    "command": "node --test tests/product-archive.test.mjs",
+    "exitCode": 0,
+    "stdout": "✔ export produces the exact standalone pack and a verifiable archive receipt (1264.8517ms)\n✔ export is byte reproducible across locations and does not overwrite files (2801.2235ms)\n✔ export rejects a modified pack before writing any archive (869.1382ms)\n✔ export refuses source-contained, relative and linked output paths (843.5496ms)\n✔ a source-contained name beginning with two dots is not a parent path (757.0071ms)\n✔ export refuses manifest bytes changed during capture even when the source is restored (4356.2768ms)\nℹ tests 6\nℹ suites 0\nℹ pass 6\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 10953.6904\n",
+    "stderr": ""
+  },
+  "documentationContinuity": {
+    "sameReviewedDocumentationBytesAsV1": true,
+    "priorReviewVerdict": "REPAIR",
+    "priorCorpusAccountingFinding": {
+      "newCorpusCountsAgreeWithFrozenSummary": true,
+      "frozenCounts": {
+        "sourceRowCount": 49974,
+        "identityCount": 37529,
+        "validBodyGroupCount": 20737,
+        "identityObligationCount": 51006,
+        "outstandingIdentityObligationCount": 49514,
+        "conflictingIdentityCount": 163,
+        "distinctReviewedBodyCount": 588,
+        "distinctReviewedBodyIdentityCount": 746
+      },
+      "reviewedBodiesAndIdentitiesAgreeWithFrozenParentReceipt": true,
+      "currentProductMembershipAndCategoryCountsAgree": true,
+      "sourceAccountingIsNotProductQuality": true,
+      "hashIsNotAuthenticity": true,
+      "equalBodiesDoNotTransferRightsOrTerminalOutcomes": true,
+      "newlyPublishedLedgerOrWholeCorpusCompletionClaim": false,
+      "rightsOrLicenseClearance": false,
+      "documentationRepairRequired": false
+    },
+    "freshR10MetadataReads": 0,
+    "freshR10LedgerPayloadReads": 0
+  },
+  "allReviewedInputHashesUnchanged": true,
+  "effects": {
+    "outputRoot": "C:\\dev\\eternities-godskills\\.worktrees\\product-sprint-20261002\\artifacts\\sprint-20261002\\distribution-review-v2\\run-puM5e2",
+    "generatedFixturesOnlyInsideOutputRoot": true,
+    "reviewedProductEdits": 0,
+    "commits": 0,
+    "installs": 0,
+    "pushes": 0,
+    "merges": 0,
+    "childAgents": 0,
+    "paidProviders": 0,
+    "webAcquisition": 0,
+    "acquiredCodeExecution": 0,
+    "frozenActivationPathsReadOrWritten": 0,
+    "r10DispositionApplications": 0
+  },
+  "limitations": [
+    "Same Windows host and .NET extraction only; no observed Linux/macOS or fresh OS.",
+    "Controlled deterministic interleaving uses a temporary built-in readFile wrapper and actual changes/restoration in copied source packs; no naturally timed race or external adversary claim.",
+    "Six author tests passed, including four captured-manifest field changes; independent capture hook is preserved from v1 rather than relying on the author read-count hook.",
+    "Documentation is byte-identical to v1; frozen R10 accounting support is inherited from its sealed review, not freshly replayed. No full-ledger reconstruction or source-rights clearance.",
+    "File-symlink creation is EPERM on this Windows token; leaf-symlink refusal remains unobserved. Directory-junction ancestor refusal was observed.",
+    "No disk-full/interrupted-write or destination-parent-replacement test. These unchanged v1 limitations are not concealed by the snapshot repair."
+  ]
+}

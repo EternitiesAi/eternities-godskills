@@ -1,5 +1,9 @@
 # Atlas method cards
 
+## serving-time-ranking-decision-trace
+
+Use only for a named serving-time feed, recommendation, or notification-shortlist decision. Read the separately versioned [DRAFT method](serving-time-ranking-decision-trace.md) when this route applies; it is not a ranking algorithm or a quality certification.
+
 ## consent-gated-decision-linked-telemetry
 
 Start with one decision question and the minimum observation needed to answer it. For each event, record purpose, subject or aggregate level, fields, sensitivity, consent or other collection basis, retention, access, deletion, sampling, owner, and the decision it can inform. Do not collect a field because it might be useful later.
