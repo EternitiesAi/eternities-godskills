@@ -1,0 +1,13 @@
+# Independent publication and installed-upgrade review v1
+
+Verdict: **READY for the bounded historical publication/action statement and same-host installation claims reviewed here.** This is an independent read-only deployment audit, not product authorship or general product approval.
+
+The frozen installation document and install journal match their declared identities. The f6d71194 release manifest has 218 payload entries (190 under `skills/`); its runtime adds `release.json` for 219 files. All source payload hashes matched the manifest, all 219 installed runtime files matched it exactly, and the 190 installed managed skill files matched their manifest hashes. The completed journal records the same release, 68 completed skills, and installed state; the installed read-only `validate` command returned that release ID and 68 skills. The linked standalone ZIP has the documented SHA-256 and its 219 entries match the same manifest byte-for-byte. All four direct links in the frozen deployment document resolve.
+
+The immediately previous runtime backup contains exactly 206 files matching the journal's pre-install map; its release identity is core2260. The previous managed-skill backup contains 186 files and matches the pre-install audit. Before/after host maps contain 56 unrelated files with identical paths and hashes. All three protected-file hashes are equal across the snapshots and match canonical main.
+
+Publication identity is time-scoped. At the first read-only check (14:56Z), local main and `origin/main` both resolved to `85c5f4268b22b4042ebc893acc938fa095a4fa6f`, the publication commit named by the frozen document. At the later check (15:09Z), both resolved to `30c677a7204bdc83759c6aa80ba2a7aa88fbe66a`. The later commit is a descendant of the publication commit; its product tree is identical to the 85c5 tree and its diff contains no `product/` paths. Thus the document accurately records the historical publication action; this review does not present 85c5 as the current main tip. No repeat installation was observed or performed.
+
+The frozen document SHA-256 is `eddce550e4fc76b9b56e3e0106414c14ad31f328fb35f0e3a358aa5b88cf33a7`. The completed journal SHA-256 is `c68ae5e2ce9365810c583cc6d58cf2588a7d2a878d0537cdb3f32d16ad3bc2bf`; the parent pre/post audit bindings and all verified counts/hashes are recorded in the compact receipt.
+
+Scope limits: no installation, rollback, refresh, full-suite run, provider, example qualification, R10 disposition, fresh-OS/cross-platform test, or performance claim. The document's separate full-suite result and non-deployment capability/rights claims were not re-run or independently certified by this deployment audit. Private full inventories and unrelated paths/bodies are intentionally omitted.

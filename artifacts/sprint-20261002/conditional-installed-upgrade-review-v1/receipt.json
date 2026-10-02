@@ -1,0 +1,56 @@
+{
+  "schema": "godskills-conditional-installed-upgrade-review-v1",
+  "verdict": "READY",
+  "reviewState": "SEALED",
+  "createdAt": "2026-10-02T15:11:43Z",
+  "reviewRoot": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/conditional-installed-upgrade-review-v1",
+  "scope": "Independent read-only verification of the frozen publication/installation statement and same-host installed/rollback snapshots; not installer, product author, performance, fresh-OS, or R10 review.",
+  "bindings": [
+    { "path": "docs/product-release-20261002-publication-installation.md", "sha256": "eddce550e4fc76b9b56e3e0106414c14ad31f328fb35f0e3a358aa5b88cf33a7" },
+    { "path": "C:/Users/Dom/.agents/godskills-backups/20261002T145410Z-productf6d711/install-receipt.json", "sha256": "c68ae5e2ce9365810c583cc6d58cf2588a7d2a878d0537cdb3f32d16ad3bc2bf" },
+    { "path": "artifacts/sprint-20261002/final-install-before-v2.json", "sha256": "8d40e89c9035e92ebd55b80f04c2022f0ee9b7ca79cfbc42391dc22a38f0ad57" },
+    { "path": "artifacts/sprint-20261002/final-install-after-v1.json", "sha256": "617344028b7a2aacb8e5f6ee0d34af5bf5d6ffba2401e12f642509407c0ce16e" },
+    { "path": "product/release.json", "sha256": "949de38dd46fe7f6e0e618ff3e5e4ddd1f92acc614acd0f7c0a9991a3d376efd" },
+    { "path": "artifacts/releases/godskills-product-20261002-f6d71194.zip", "sha256": "bcd1d43c815f36e0fc62434dcca180f4b6fe1c2c877f49896508d0fce143a30d" },
+    { "path": "docs/product-release-20261002-finalization.md", "sha256": "0bf6c4239156fe9da9adaa3d913b3405e58d26efb108c003bb3017ed6718e97e" },
+    { "path": "artifacts/sprint-20261002/conditional-product-distribution-review-v1/review.md", "sha256": "7b02d8162170d509146139adfca727e54c07d349b3c4f34463a7628c7f9a8fa1" },
+    { "path": "product/METHODS.v1.md", "sha256": "8f98763a7a706e4ba220654e45db2cbea17f56fd497f6edf1d6b4baaaa02d1cd" }
+  ],
+  "publicationObservation": {
+    "historicalCommit": "85c5f4268b22b4042ebc893acc938fa095a4fa6f",
+    "initialReadOnlyMainAndRemoteAt": "2026-10-02T14:56:02Z",
+    "initialMainAndRemoteMatched": true,
+    "freshMainAndRemoteAt": "2026-10-02T15:09:57Z",
+    "freshMain": "30c677a7204bdc83759c6aa80ba2a7aa88fbe66a",
+    "freshOriginMain": "30c677a7204bdc83759c6aa80ba2a7aa88fbe66a",
+    "historicalCommitIsAncestor": true,
+    "productTreeUnchangedSinceHistoricalCommit": true,
+    "newCommitProductPathChanges": 0
+  },
+  "verified": {
+    "releaseId": "f6d71194e6897118f7ec7dac9bd2a9287479acb3345f347f291958091fd65cdc",
+    "manifestPayloadFiles": 218,
+    "managedSkillPayloadFiles": 190,
+    "installedRuntimeFiles": 219,
+    "installedRuntimeExactManifestMatch": true,
+    "installedManagedHashesMatch": true,
+    "installedValidateOutput": { "status": "verified-content", "skillCount": 68 },
+    "completedInstallJournal": true,
+    "previousRuntimeBackupFiles": 206,
+    "previousRuntimeMatchesJournal": true,
+    "previousReleaseId": "2260b471f889f5c25b772fc50d4e83566fe8a4ef28a7748674241c8e80ffc348",
+    "previousManagedFiles": 186,
+    "previousManagedMatchesPreAudit": true,
+    "unrelatedFilesPreserved": 56,
+    "unrelatedPathsAndHashesIdentical": true,
+    "protectedHashesUnchanged": 3,
+    "releaseDocLinksPresent": 4,
+    "zipEntriesMatchManifest": 219
+  },
+  "reviewOutput": { "path": "review.md", "sha256": "92da7d1dc52fcedf4f40128e6c26e031bdf5a5ab2a4fafbdbe77a16c90cdccf8", "bytes": 2770 },
+  "limits": [
+    "No install, rollback, refresh, full suite, provider, example qualification, or R10 action was performed.",
+    "No fresh-OS, cross-platform, performance, or independent product-authorship claim is made.",
+    "The frozen historical statement is not treated as asserting that 85c5 remains the current main tip."
+  ]
+}

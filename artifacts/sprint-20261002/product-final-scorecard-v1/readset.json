@@ -1,0 +1,204 @@
+{
+  "schema": "godskills.product-final-scorecard-readset.v1",
+  "workspaceRoot": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002",
+  "snapshotIdentity": {
+    "releaseId": "f6d71194e6897118f7ec7dac9bd2a9287479acb3345f347f291958091fd65cdc",
+    "skillCount": 68,
+    "payloadFiles": 218,
+    "manifestSha256": "949de38dd46fe7f6e0e618ff3e5e4ddd1f92acc614acd0f7c0a9991a3d376efd"
+  },
+  "files": [
+    {
+      "path": "artifacts/sprint-20261002/product-gap-assessment-v1/assessment.md",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/product-gap-assessment-v1/assessment.md",
+      "bytes": 11459,
+      "sha256": "6f73f19be62b90c72eec599048a2584f8a9a64759357895ca705f8edf1f83ca2",
+      "inspection": "full"
+    },
+    {
+      "path": "docs/product-release-20261002-finalization.md",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/docs/product-release-20261002-finalization.md",
+      "bytes": 5429,
+      "sha256": "0bf6c4239156fe9da9adaa3d913b3405e58d26efb108c003bb3017ed6718e97e",
+      "inspection": "full"
+    },
+    {
+      "path": "docs/product-release-20261002-publication-installation.md",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/docs/product-release-20261002-publication-installation.md",
+      "bytes": 4057,
+      "sha256": "eddce550e4fc76b9b56e3e0106414c14ad31f328fb35f0e3a358aa5b88cf33a7",
+      "inspection": "full"
+    },
+    {
+      "path": "product/README.md",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/product/README.md",
+      "bytes": 10844,
+      "sha256": "2b17c2ed8047c94407038bf815244b88b13b8773dd60f69ca607b8be0ef50d2f",
+      "inspection": "full"
+    },
+    {
+      "path": "product/INDEX.md",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/product/INDEX.md",
+      "bytes": 17441,
+      "sha256": "27d50fbf73154aa5777e51dc3e9ea7c0b0c336cfe4ced1922beef1d976555e49",
+      "inspection": "full"
+    },
+    {
+      "path": "product/METHODS.v1.md",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/product/METHODS.v1.md",
+      "bytes": 10914,
+      "sha256": "8f98763a7a706e4ba220654e45db2cbea17f56fd497f6edf1d6b4baaaa02d1cd",
+      "inspection": "full"
+    },
+    {
+      "path": "product/METHODS.v1.json",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/product/METHODS.v1.json",
+      "bytes": 11810,
+      "sha256": "412b4272987b119ba3edf1a9df44aeb75d6b372a90f1bdeabe92c5834bd5265d",
+      "inspection": "full"
+    },
+    {
+      "path": "product/release.json",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/product/release.json",
+      "bytes": 26950,
+      "sha256": "949de38dd46fe7f6e0e618ff3e5e4ddd1f92acc614acd0f7c0a9991a3d376efd",
+      "inspection": "identity and declared counts"
+    },
+    {
+      "path": "artifacts/sprint-20261002/conditional-method-final-binding-review-v1/receipt.json",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/conditional-method-final-binding-review-v1/receipt.json",
+      "bytes": 12190,
+      "sha256": "9dd199d3ae0c46ddb9dd29f54bca61799fae98753e34f2c85da9cbe460f34dbb",
+      "inspection": "full"
+    },
+    {
+      "path": "artifacts/sprint-20261002/conditional-method-regression-independent-review-v1/receipt.json",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/conditional-method-regression-independent-review-v1/receipt.json",
+      "bytes": 3924,
+      "sha256": "92dfdac2f901ea58f5fd28bdf38afc1e9fba9b94dc0ed4f2d4234a041870bf61",
+      "inspection": "full"
+    },
+    {
+      "path": "artifacts/sprint-20261002/conditional-product-distribution-review-v1/receipt.json",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/conditional-product-distribution-review-v1/receipt.json",
+      "bytes": 5290,
+      "sha256": "d30f4b71e40544c65adf83522b7a3b076a6201bbc1f67e7451999b6ec8699538",
+      "inspection": "full"
+    },
+    {
+      "path": "artifacts/sprint-20261002/task-feed-application-independent-review-v2/receipt.json",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/artifacts/sprint-20261002/task-feed-application-independent-review-v2/receipt.json",
+      "bytes": 8593,
+      "sha256": "a42bbb7f59dd42f5f92eb3d05ef20c5d7b0e50495bf4b65432aa287a8cb23072",
+      "inspection": "recent sealed reviewer result, identity and scope"
+    },
+    {
+      "path": "product/evidence/method-reviews/conditional-v1/receipt.json",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/product/evidence/method-reviews/conditional-v1/receipt.json",
+      "bytes": 11361,
+      "sha256": "4b9860fa7d8020d819a0d522303194e8f8b593fd02794469b16799ba162d630b",
+      "inspection": "full"
+    },
+    {
+      "path": "product/evidence/method-reviews/daedalus-v1/receipt.json",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/product/evidence/method-reviews/daedalus-v1/receipt.json",
+      "bytes": 11797,
+      "sha256": "a0b2a8ac4611c327a40517cc588079d79cb4402416b14fd8c7f512cab6b373b0",
+      "inspection": "full"
+    },
+    {
+      "path": "product/evidence/method-reviews/arcadia-v2/receipt.json",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/product/evidence/method-reviews/arcadia-v2/receipt.json",
+      "bytes": 4201,
+      "sha256": "fceb06922f496de2e2861725f25a3e9d3e24a5840cbe9c68e613099d9b2fed57",
+      "inspection": "full"
+    },
+    {
+      "path": "product/evidence/method-reviews/atlas-v3/receipt.json",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/product-sprint-20261002/product/evidence/method-reviews/atlas-v3/receipt.json",
+      "bytes": 15924,
+      "sha256": "d6acb24533810b956f05ef8aa9f72ca9caba40a83e5ac5992b97664cdff9ffa4",
+      "inspection": "full"
+    }
+  ],
+  "methodRows": [
+    {
+      "id": "hermes-running-task-message-checkpoint",
+      "owner": "eternities-hermes",
+      "resource": "skills/eternities-hermes/references/cursor-paged-task-messages.md",
+      "documentStatus": "independently-document-reviewed",
+      "outcomeStatus": "not-performance-qualified",
+      "reviewReceipt": "evidence/method-reviews/conditional-v1/receipt.json",
+      "reviewSha256": "4b9860fa7d8020d819a0d522303194e8f8b593fd02794469b16799ba162d630b"
+    },
+    {
+      "id": "hermes-authorized-local-process-observation",
+      "owner": "eternities-hermes",
+      "resource": "skills/eternities-hermes/references/truthful-cli-progress.md",
+      "documentStatus": "independently-document-reviewed",
+      "outcomeStatus": "not-performance-qualified",
+      "reviewReceipt": "evidence/method-reviews/conditional-v1/receipt.json",
+      "reviewSha256": "4b9860fa7d8020d819a0d522303194e8f8b593fd02794469b16799ba162d630b"
+    },
+    {
+      "id": "math-supplied-prose-specification-draft",
+      "owner": "symbolic-mathematics-python",
+      "resource": "skills/symbolic-mathematics-python/references/source-grounded-math-specification.md",
+      "documentStatus": "independently-document-reviewed",
+      "outcomeStatus": "not-performance-qualified",
+      "reviewReceipt": "evidence/method-reviews/conditional-v1/receipt.json",
+      "reviewSha256": "4b9860fa7d8020d819a0d522303194e8f8b593fd02794469b16799ba162d630b"
+    },
+    {
+      "id": "daedalus-optional-model-scenario-ci",
+      "owner": "eternities-daedalus",
+      "resource": "skills/eternities-daedalus/references/optional-model-scenarios-ci.md",
+      "documentStatus": "independently-document-reviewed",
+      "outcomeStatus": "not-performance-qualified",
+      "reviewReceipt": "evidence/method-reviews/daedalus-v1/receipt.json",
+      "reviewSha256": "a0b2a8ac4611c327a40517cc588079d79cb4402416b14fd8c7f512cab6b373b0"
+    },
+    {
+      "id": "arcadia-game-state-audio-cues",
+      "owner": "eternities-arcadia",
+      "resource": "skills/eternities-arcadia/references/game-state-to-audio-cue.md",
+      "documentStatus": "independently-document-reviewed",
+      "outcomeStatus": "not-performance-qualified",
+      "reviewReceipt": "evidence/method-reviews/arcadia-v2/receipt.json",
+      "reviewSha256": "fceb06922f496de2e2861725f25a3e9d3e24a5840cbe9c68e613099d9b2fed57"
+    },
+    {
+      "id": "atlas-serving-time-decision-trace",
+      "owner": "eternities-atlas",
+      "resource": "skills/eternities-atlas/references/serving-time-ranking-decision-trace.md",
+      "documentStatus": "independently-document-reviewed",
+      "outcomeStatus": "not-performance-qualified",
+      "reviewReceipt": "evidence/method-reviews/atlas-v3/receipt.json",
+      "reviewSha256": "d6acb24533810b956f05ef8aa9f72ca9caba40a83e5ac5992b97664cdff9ffa4"
+    },
+    {
+      "id": "oracle-artifact-role-evidence",
+      "owner": "eternities-oracle",
+      "resource": "skills/eternities-oracle/references/methods.md",
+      "documentStatus": "not-assessed-by-this-overlay",
+      "outcomeStatus": "not-performance-qualified"
+    },
+    {
+      "id": "mnemosyne-local-evidence-lifecycle",
+      "owner": "eternities-mnemosyne",
+      "resource": "skills/eternities-mnemosyne/references/methods.md",
+      "documentStatus": "not-assessed-by-this-overlay",
+      "outcomeStatus": "not-performance-qualified"
+    }
+  ],
+  "verification": {
+    "operation": "Read-only Node built-in SHA-256/JSON identity checks over listed documents and receipts; no product validator, test or benchmark execution",
+    "currentManifestMatchesPublishedIdentity": true,
+    "currentDirectoryAndREADMEHashesMatchFinalBinding": true,
+    "sixMethodReceiptReferencesMatchFourOriginalReceiptHashes": true,
+    "fullPayloadRevalidation": false,
+    "installedTargetOrRemoteQueried": false,
+    "R10FreshRecount": false
+  },
+  "readingNote": "One aggregate tool output truncated the middle of INDEX and portions of Arcadia/Daedalus receipts; separate bounded reads completed them before this artifact. No instruction or source-body expansion followed."
+}
