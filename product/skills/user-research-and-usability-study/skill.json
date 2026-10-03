@@ -1,0 +1,16 @@
+{
+  "id": "user-research-and-usability-study",
+  "category": "design",
+  "summary": "Plan neutral interviews and usability studies, preserve real participant observations and turn bounded findings into testable product improvements.",
+  "triggers": ["user interview guide", "usability study plan", "research participant selection", "product research synthesis", "observed task completion and moderator assistance", "neutral customer interview questions"],
+  "antiTriggers": ["market copy only", "synthetic users treated as human evidence", "routine interface code check", "population prevalence from qualitative quotes", "unapproved private recording"],
+  "taskTypes": ["research", "plan", "verify", "create"],
+  "specializes": "eternities-prometheus",
+  "related": ["eternities-muse", "eternities-athena", "eternities-beacon", "eternities-atlas"],
+  "resources": ["references/methods.md"],
+  "maturity": "instruction-reviewed",
+  "provenance": [
+    {"kind":"pattern-reference","source":"anthropics/knowledge-work-plugins@5267cf7bff3031921d4474b8e8f86ad02d2b8f6d:design/skills/user-research/SKILL.md","note":"Full source body SHA-256 c72224f47474de011e8523550843ba2a5e5fd1e008c78456b2d166567fa3fac6. Method/guide/synthesis concepts informed independent writing. Fixed sample counts and schedules rejected; neutral tasks, assisted outcomes and evidence denominators independently developed. Root Apache-2.0 notice observed, not legal clearance."},
+    {"kind":"authoring","source":"product/skills/user-research-and-usability-study/","note":"Original provider-neutral study and observation procedure; no source prose copied, no real participants or human outcome qualified by instruction review."}
+  ]
+}

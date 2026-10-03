@@ -14,7 +14,8 @@ const productRoot = resolve(
 const baselineCatalogUrl = new URL("./core2260-catalog.json", import.meta.url);
 const frozenCoreCatalogSha256 = "57d47c0a9692dc21caa0e7909ee6c557cd5ef5cc4e09b968df079cc81f86aecf";
 // Preserve the exact historical 68-skill projection while explicitly admitting
-// only the independently reviewed cognitive-workflow batch, not arbitrary growth.
+// only the cognitive batch and the explicitly scoped October3 professional
+// additions. Historical fixture bytes and all 68 core scoring fields stay exact.
 const cognitiveSkillIds = [
   "completeness-and-consistency-audit",
   "imaginative-concept-development",
@@ -23,6 +24,17 @@ const cognitiveSkillIds = [
   "memory-retention-and-recovery",
   "voice-style-calibration",
 ];
+const professionalSkillIds = [
+  "customer-support-triage-and-resolution",
+  "structured-hiring-evaluation",
+  "user-research-and-usability-study",
+];
+const admittedAdditionIds = [...cognitiveSkillIds, ...professionalSkillIds].sort();
+const intentionalDiscoveryResource = {
+  owner: "eternities-omnibus",
+  path: "skills/eternities-omnibus/references/methods.md",
+  sha256: "b9f125b0b5b53d6a9875f8ae597b316db37523b10ef872d3dcf69366916a7f5a",
+};
 const projectionFields = [
   "id",
   "category",
@@ -137,11 +149,11 @@ test("the immutable core2260 fixture is exact and all 68 scoring, relation, spec
   assert.equal(baselineCatalog.skills.length, 68);
   const baselineIds = new Set(baselineCatalog.skills.map((skill) => skill.id));
   const liveCore = liveCatalog.skills.filter((skill) => baselineIds.has(skill.id));
-  assert.equal(liveCatalog.skills.length, 68 + cognitiveSkillIds.length);
+  assert.equal(liveCatalog.skills.length, 68 + admittedAdditionIds.length);
   assert.deepEqual(
     liveCatalog.skills.filter((skill) => !baselineIds.has(skill.id)).map((skill) => skill.id),
-    cognitiveSkillIds,
-    "only the six approved addition IDs are outside the frozen core",
+    admittedAdditionIds,
+    "only the six cognitive and three scoped professional IDs are outside the frozen core",
   );
   assert.deepEqual(
     liveCore.map((skill) => skill.id),
@@ -151,7 +163,7 @@ test("the immutable core2260 fixture is exact and all 68 scoring, relation, spec
   assert.deepEqual(scoringProjection(liveCore), scoringProjection(baselineCatalog.skills));
 });
 
-test("exactly four new resource paths are added and every existing resource binding stays unchanged", async () => {
+test("four historical new paths remain exact and only the scoped Omnibus discovery resource is revised", async () => {
   const liveCatalog = JSON.parse(await readFile(join(productRoot, "catalog.json"), "utf8"));
   const baselineById = new Map(baselineCatalog.skills.map((skill) => [skill.id, skill]));
   const liveById = new Map(liveCatalog.skills.map((skill) => [skill.id, skill]));
@@ -182,7 +194,9 @@ test("exactly four new resource paths are added and every existing resource bind
     });
   assert.deepEqual(sortResources(added), sortResources(fourNewResources));
   assert.deepEqual(removed, []);
-  assert.deepEqual(changed, []);
+  assert.deepEqual(changed, [intentionalDiscoveryResource.owner + ":" + intentionalDiscoveryResource.path]);
+  assert.equal(resourceIndex(liveById.get(intentionalDiscoveryResource.owner)).get(intentionalDiscoveryResource.path), intentionalDiscoveryResource.sha256);
+  assert.equal(sha256(await readFile(join(productRoot, intentionalDiscoveryResource.path))), intentionalDiscoveryResource.sha256);
 
   for (const resource of fourNewResources) {
     const bytes = await readFile(join(productRoot, resource.path));
@@ -481,5 +495,5 @@ test("frozen candidate validates locally without executing its scenarios", async
   assert.equal(releaseManifest.schema, "eternities-godskills-release-v1");
   assert.equal(validation.releaseId, releaseManifest.releaseId);
   assert.equal(validation.skillCount, releaseManifest.skillCount);
-  assert.equal(releaseManifest.skillCount, 68 + cognitiveSkillIds.length);
+  assert.equal(releaseManifest.skillCount, 68 + admittedAdditionIds.length);
 });

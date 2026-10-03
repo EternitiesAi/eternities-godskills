@@ -417,6 +417,48 @@
       "resources": []
     },
     {
+      "id": "customer-support-triage-and-resolution",
+      "category": "business",
+      "summary": "Handle support issues through evidence-based triage, safe troubleshooting, truthful customer updates, focused escalation and explicit resolution states.",
+      "triggers": [
+        "support ticket triage",
+        "customer issue resolution",
+        "known issue duplicate cases",
+        "support escalation handoff",
+        "customer update after failed workaround",
+        "support queue recurring symptoms"
+      ],
+      "antiTriggers": [
+        "simple acknowledgment",
+        "unapproved account refund",
+        "clinical or legal advice",
+        "exploit reproduction",
+        "company-wide account health strategy"
+      ],
+      "taskTypes": [
+        "recover",
+        "verify",
+        "communicate",
+        "plan"
+      ],
+      "related": [
+        "eternities-aegis",
+        "eternities-daedalus",
+        "eternities-phoenix",
+        "eternities-prometheus"
+      ],
+      "specializes": "eternities-agora",
+      "maturity": "instruction-reviewed",
+      "entrypoint": "skills/customer-support-triage-and-resolution/SKILL.md",
+      "entrypointSha256": "32f0615a91aa2ca3e5933c40e24aa80ae200b9b7394549bf37b42b1d1ba34be0",
+      "resources": [
+        {
+          "path": "skills/customer-support-triage-and-resolution/references/methods.md",
+          "sha256": "769d48d3ca673694ee2024d7c745818b7e263232d9b281cb606c7b70312239e2"
+        }
+      ]
+    },
+    {
       "id": "diagnostic-statistical-model-inference",
       "category": "science",
       "summary": "Diagnose fit, assumptions, influence, uncertainty, and specification sensitivity before making descriptive, predictive, or causal claims.",
@@ -1348,11 +1390,11 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-omnibus/SKILL.md",
-      "entrypointSha256": "10deff5b40dd5c318e287ba7b60c7e10500a103a2a0699d53a9435913d14bc41",
+      "entrypointSha256": "6009e4015f56b00cab8e7142a67273e7be6be2de8bb955e6d9383320b5107c4d",
       "resources": [
         {
           "path": "skills/eternities-omnibus/references/methods.md",
-          "sha256": "bf0cbfd05901848d2cd1459e7a20fe287c87cf8d62beb97134675126d3483b78"
+          "sha256": "b9f125b0b5b53d6a9875f8ae597b316db37523b10ef872d3dcf69366916a7f5a"
         }
       ]
     },
@@ -2563,6 +2605,46 @@
       ]
     },
     {
+      "id": "structured-hiring-evaluation",
+      "category": "business",
+      "summary": "Design role-specific hiring assessments, compare independent candidate evidence and diagnose dated recruiting funnels without proxy-based judgments.",
+      "triggers": [
+        "structured interview scorecard",
+        "role hiring assessment",
+        "candidate evidence debrief",
+        "recruiting pipeline stage conversion",
+        "hiring funnel bottleneck",
+        "role-specific assessment criteria"
+      ],
+      "antiTriggers": [
+        "simple job title edit",
+        "protected trait inference",
+        "background check",
+        "employment-law determination",
+        "unsolicited candidate scraping"
+      ],
+      "taskTypes": [
+        "plan",
+        "verify",
+        "create"
+      ],
+      "related": [
+        "eternities-agora",
+        "eternities-atlas",
+        "interpersonal-understanding-and-dialogue"
+      ],
+      "specializes": "eternities-prometheus",
+      "maturity": "instruction-reviewed",
+      "entrypoint": "skills/structured-hiring-evaluation/SKILL.md",
+      "entrypointSha256": "48b97d61aac129857abafacd7d84fec63611ff04bdb064c62b17c8e0e82d7ed4",
+      "resources": [
+        {
+          "path": "skills/structured-hiring-evaluation/references/methods.md",
+          "sha256": "ba4089a688da40f37f05b50dab20c110a5469e146eac98e833d30390d36bd685"
+        }
+      ]
+    },
+    {
       "id": "structured-output-contracts",
       "category": "automation",
       "summary": "Validate machine-consumed records and model JSON with schemas, source-bound IDs, governed vocabularies, relationship checks and truthful failure states.",
@@ -2674,6 +2756,48 @@
         {
           "path": "skills/terrain-watershed-analysis/references/terrain-operations.md",
           "sha256": "e1d10f927d52154bdbf0963e479bb567856aeffabb3817df8a9689c481e10704"
+        }
+      ]
+    },
+    {
+      "id": "user-research-and-usability-study",
+      "category": "design",
+      "summary": "Plan neutral interviews and usability studies, preserve real participant observations and turn bounded findings into testable product improvements.",
+      "triggers": [
+        "user interview guide",
+        "usability study plan",
+        "research participant selection",
+        "product research synthesis",
+        "observed task completion and moderator assistance",
+        "neutral customer interview questions"
+      ],
+      "antiTriggers": [
+        "market copy only",
+        "synthetic users treated as human evidence",
+        "routine interface code check",
+        "population prevalence from qualitative quotes",
+        "unapproved private recording"
+      ],
+      "taskTypes": [
+        "research",
+        "plan",
+        "verify",
+        "create"
+      ],
+      "related": [
+        "eternities-athena",
+        "eternities-atlas",
+        "eternities-beacon",
+        "eternities-muse"
+      ],
+      "specializes": "eternities-prometheus",
+      "maturity": "instruction-reviewed",
+      "entrypoint": "skills/user-research-and-usability-study/SKILL.md",
+      "entrypointSha256": "8d6a510d500adf43cf3b439c3525aa5792aeb7601cd84ffa877ef5039313f13f",
+      "resources": [
+        {
+          "path": "skills/user-research-and-usability-study/references/methods.md",
+          "sha256": "e7d644a31a71e085fda0f6ff3c23879be0c3e1e22f4b62ff778af039d892985d"
         }
       ]
     },

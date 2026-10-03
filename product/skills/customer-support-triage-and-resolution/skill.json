@@ -1,0 +1,17 @@
+{
+  "id": "customer-support-triage-and-resolution",
+  "category": "business",
+  "summary": "Handle support issues through evidence-based triage, safe troubleshooting, truthful customer updates, focused escalation and explicit resolution states.",
+  "triggers": ["support ticket triage", "customer issue resolution", "known issue duplicate cases", "support escalation handoff", "customer update after failed workaround", "support queue recurring symptoms"],
+  "antiTriggers": ["simple acknowledgment", "unapproved account refund", "clinical or legal advice", "exploit reproduction", "company-wide account health strategy"],
+  "taskTypes": ["recover", "verify", "communicate", "plan"],
+  "specializes": "eternities-agora",
+  "related": ["eternities-phoenix", "eternities-daedalus", "eternities-aegis", "eternities-prometheus"],
+  "resources": ["references/methods.md"],
+  "maturity": "instruction-reviewed",
+  "provenance": [
+    {"kind":"pattern-reference","source":"anthropics/knowledge-work-plugins@5267cf7bff3031921d4474b8e8f86ad02d2b8f6d:customer-support/skills/ticket-triage/SKILL.md","note":"Full body SHA-256 87a04f698b25feaf20a0f922eacf270d195747ef12f1ca6352f9a0caa5e49363. Triage/known-issue concepts informed independent synthesis; slash commands, fixed SLAs, automatic priority bumps and unperformed-action response templates rejected. Root Apache-2.0 notice observed, not legal clearance."},
+    {"kind":"pattern-reference","source":"anthropics/knowledge-work-plugins@5267cf7bff3031921d4474b8e8f86ad02d2b8f6d:customer-support/skills/customer-escalation/SKILL.md","note":"Full body SHA-256 836571d8300892eaa78b4145d86995fa002703e4ad0d40e5ab4d9a7a759be4af. Impact/attempt/handoff/closure concepts informed original writing. Fixed escalation tiers, follow-up times, revenue-led technical severity and blanket root-cause claims not adopted. Source-specific obligations remain separate."},
+    {"kind":"authoring","source":"product/skills/customer-support-triage-and-resolution/","note":"Original portable support procedure. No templates copied and no runtime, customer outcome or SLA certification claimed."}
+  ]
+}

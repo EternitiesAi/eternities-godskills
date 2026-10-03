@@ -6,7 +6,9 @@ design, science, games, writing, operations, marketing, audio, and more.
 ## Start here
 
 1. Read [the skill directory](INDEX.md), the [selected smaller-method directory](METHODS.v1.md), or search the compact `catalog.json` metadata.
-2. Pick the smallest useful skill from the user's task, not from a slash command.
+2. Decide whether a skill adds value to the actual action; ordinary competence
+   is the right route for simple requests. Pick the smallest useful skill, not
+   one triggered merely by domain vocabulary or a slash command.
 3. Read its `skills/<id>/SKILL.md`. Open only the references needed for that task.
 4. Apply the method within the user's request and the host's permissions. Related
    skills are suggestions, not mandatory dependency chains.
@@ -30,6 +32,7 @@ With Node.js 24 or newer, no dependency installation is needed:
 node bin/godskills.mjs validate
 node bin/godskills.mjs search "test audio DSP discontinuities" --limit 3
 node bin/godskills.mjs search "release readiness" --task verify
+node bin/godskills.mjs search "Say hello to the robotics team" --need none
 node bin/godskills.mjs route "Analyze the supplied report only; do not discover connected data" --input-scope supplied-only --connected-purpose none --discovery prohibited
 ```
 
@@ -43,6 +46,15 @@ anything. The `offline-lexical-intent-phrases-v3` method is deterministic lexica
 retrieval, not a claim of semantic understanding or vector-search superiority.
 The agent still judges applicability against the actual task. A low-quality
 match is not an instruction to force a skill into the work.
+
+Both `search` and `route` accept `--need none|specialist|unknown`. The host owns
+this semantic judgment. `none` returns no suggestions; `specialist` asks for
+candidates to check; the default `unknown` allows lexical retrieval but reports
+`selection.state: review-required`. No option selects or activates a skill.
+The same fact is available to `searchCatalog` as `need` and to `routeTask` in
+its context. A no-need route holds connected-specialist eligibility without
+calling any source. This fixes a caller boundary, not arbitrary natural-language
+understanding: plain keyword search can still retrieve irrelevant matches.
 
 For explicit limited arithmetic, casing, counting, grammar or metaphor questions,
 and an explicit request to clarify before choosing a specialist, search can return

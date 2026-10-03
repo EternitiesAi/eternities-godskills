@@ -149,12 +149,14 @@ const stop=new Set('a an the to for of in on at and or with from as by this that
 const groups=[['debug','debugging','crash','crashes','broken','failure','failures','fault','diagnose','diagnosis'],['reproduce','reproducible','reproduction'],['write','writing','article','draft','drafting','editorial','narrative','canon'],['performance','slow','latency','speed'],['audio','sound','dsp'],['security','threat','vulnerability'],['deploy','deployment','release','publish'],['test','tests','testing','verify','validation'],['memory','continuity','context'],['design','visual','interface'],['data','dataset','table'],['marketing','growth','conversion'],['mobile','android','ios'],['robot','robotics'],['accessibility','a11y','accessible']];
 const words=text=>(text.toLowerCase().normalize('NFKC').match(/[\p{L}\p{N}]+(?:[.+#][\p{L}\p{N}]+)*/gu)||[]).filter(x=>!stop.has(x)&&x.length>1);
 
-export function searchCatalog(catalog,query,{limit=5,category,taskType}={}) {
+export function searchCatalog(catalog,query,{limit=5,category,taskType,need='unknown'}={}) {
   check(typeof query==='string'&&query.trim().length>0&&query.length<=4096,'Query must contain 1-4096 characters');
   check(Number.isInteger(limit)&&limit>=1&&limit<=20,'Limit must be an integer from 1 to 20');
   check(catalog.schema==='eternities-godskills-catalog-v1'&&Array.isArray(catalog.skills),'Invalid catalog');
+  check(['none','specialist','unknown'].includes(need),'Need must be none, specialist, or unknown');
+  if(need==='none')return {schema:'eternities-godskills-discovery-v1',authority:'none',activation:'none',method:'offline-lexical-intent-phrases-v3',query,results:[],abstentionReason:'host-supplied-no-need',selection:{state:'abstain',basis:'host-supplied-no-need'}};
   const abstentionReason=lexicalSelectionBoundary(query);
-  if(abstentionReason)return {schema:'eternities-godskills-discovery-v1',authority:'none',activation:'none',method:'offline-lexical-intent-phrases-v3',query,results:[],abstentionReason};
+  if(abstentionReason)return {schema:'eternities-godskills-discovery-v1',authority:'none',activation:'none',method:'offline-lexical-intent-phrases-v3',query,results:[],abstentionReason,selection:{state:'abstain',basis:'bounded-lexical-exclusion'}};
   const evidence=lexicalQueryEvidence(query);
   // In a corroborated writing request, "sound like me" describes prose. Keep
   // literal audio/DSP queries on the established weighted-term path.
@@ -176,7 +178,7 @@ export function searchCatalog(catalog,query,{limit=5,category,taskType}={}) {
     candidates.push({id:item.id,category:item.category,entrypoint:item.entrypoint,entrypointSha256:item.entrypointSha256,summary:item.summary,maturity:item.maturity,taskTypes:item.taskTypes,antiTriggers:item.antiTriggers,score:Math.round(score*1000)/1000,reasons:[...(matched.size?[`Matched: ${[...matched].sort(cmp).join(', ')}`]:[]),...intent.reasons],related:item.related,...(item.specializes?{specializes:item.specializes}:{})});
   }
   candidates.sort((a,b)=>b.score-a.score||cmp(a.id,b.id));
-  return {schema:'eternities-godskills-discovery-v1',authority:'none',activation:'none',method:'offline-lexical-intent-phrases-v3',query,results:candidates.slice(0,limit)};
+  return {schema:'eternities-godskills-discovery-v1',authority:'none',activation:'none',method:'offline-lexical-intent-phrases-v3',query,results:candidates.slice(0,limit),selection:{state:'review-required',basis:need==='specialist'?'host-requested-specialist-candidates':'lexical-candidates-only'}};
 }
 
 // Host-supplied task facts, not keyword inference. A shortlist never grants this subroute.
@@ -200,13 +202,15 @@ export function decideAtlasConnectedSource(context) {
 }
 
 export function routeTask(catalog,query,context,searchOptions={}) {
-  const search=searchCatalog(catalog,query,searchOptions);
+  // Semantic need is supplied by the caller, never inferred from a domain hit.
+  // The default retains retrieval for explicit browsing, but does not select it.
+  const search=searchCatalog(catalog,query,{...searchOptions,need:context?.need===undefined?'unknown':context.need});
   const atlas=catalog.skills.find(item=>item.id==='eternities-atlas');
   return {
-    schema:'eternities-godskills-host-route-v1',query,search,
+    schema:'eternities-godskills-host-route-v1',query,search,selection:search.selection,
     atlas:{shortlisted:search.results.some(item=>item.id==='eternities-atlas'),
       localAnalysisAvailable:Boolean(atlas),
-      connectedSource:atlas?decideAtlasConnectedSource(context):{state:'hold',reason:'atlas-unavailable'}}
+      connectedSource:search.selection.state==='abstain'?{state:'hold',reason:'no-specialist-route-selected'}:atlas?decideAtlasConnectedSource(context):{state:'hold',reason:'atlas-unavailable'}}
   };
 }
 

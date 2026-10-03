@@ -28,8 +28,10 @@ For smaller bundled methods and their separate review/execution states, use the 
 
 ## business
 
+- [customer-support-triage-and-resolution](skills/customer-support-triage-and-resolution/SKILL.md): Handle support issues through evidence-based triage, safe troubleshooting, truthful customer updates, focused escalation and explicit resolution states. Specialist of eternities-agora.
 - [eternities-agora](skills/eternities-agora/SKILL.md): Traceable prospect, account, service, proposal, and client-report artifacts from reconciled evidence.
 - [eternities-prometheus](skills/eternities-prometheus/SKILL.md): Route product-operations questions into evidence-led growth, analytics, customer insight, learning, planning, and delivery artifacts.
+- [structured-hiring-evaluation](skills/structured-hiring-evaluation/SKILL.md): Design role-specific hiring assessments, compare independent candidate evidence and diagnose dated recruiting funnels without proxy-based judgments. Specialist of eternities-prometheus.
 - [venture-falsification-and-planning](skills/venture-falsification-and-planning/SKILL.md): Turn a venture thesis into source-labeled assumptions, staged falsification experiments, resource bounds, kill criteria, and decision records. Specialist of eternities-prometheus.
 
 ## data
@@ -49,6 +51,7 @@ For smaller bundled methods and their separate review/execution states, use the 
 - [imaginative-concept-development](skills/imaginative-concept-development/SKILL.md): Explore and develop distinct concept mechanisms under constraints, then select by declared criteria without confusing invention with fact.
 - [interface-localization-and-bidirectionality](skills/interface-localization-and-bidirectionality/SKILL.md): Implement and verify locale-aware content, formatting, RTL/LTR layout, mixed-direction text, controls, accessibility, and human translation review. Specialist of eternities-muse.
 - [scene-continuity-and-coverage](skills/scene-continuity-and-coverage/SKILL.md): Design storyboards and camera coverage on a shared scene timeline with expressive motion, coherent geography and continuity across edits. Specialist of eternities-muse.
+- [user-research-and-usability-study](skills/user-research-and-usability-study/SKILL.md): Plan neutral interviews and usability studies, preserve real participant observations and turn bounded findings into testable product improvements. Specialist of eternities-prometheus.
 
 ## education
 

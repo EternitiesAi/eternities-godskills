@@ -1,0 +1,16 @@
+{
+  "id": "structured-hiring-evaluation",
+  "category": "business",
+  "summary": "Design role-specific hiring assessments, compare independent candidate evidence and diagnose dated recruiting funnels without proxy-based judgments.",
+  "triggers": ["structured interview scorecard", "role hiring assessment", "candidate evidence debrief", "recruiting pipeline stage conversion", "hiring funnel bottleneck", "role-specific assessment criteria"],
+  "antiTriggers": ["simple job title edit", "protected trait inference", "background check", "employment-law determination", "unsolicited candidate scraping"],
+  "taskTypes": ["plan", "verify", "create"],
+  "specializes": "eternities-prometheus",
+  "related": ["eternities-agora", "interpersonal-understanding-and-dialogue", "eternities-atlas"],
+  "resources": ["references/methods.md"],
+  "maturity": "instruction-reviewed",
+  "provenance": [
+    {"kind":"pattern-reference","source":"anthropics/knowledge-work-plugins@5267cf7bff3031921d4474b8e8f86ad02d2b8f6d:human-resources/skills/recruiting-pipeline/SKILL.md","note":"Exact body SHA-256 2b8539f8af09e2c4239c103f6323f24f9a2c169ca2257cc1235857dae1acf676. Stage/flow measurement concepts informed independent writing; automatic ATS updates and unqualified stage counts were not adopted. Root Apache-2.0 notice observed; provenance and applicable obligations retained, not legal clearance."},
+    {"kind":"authoring","source":"product/skills/structured-hiring-evaluation/","note":"Original role/evidence contract, anchored assessment and cohort-aware measurement. No source text or templates copied. Instruction review is not candidate validation, hiring outcome qualification or employment-law expertise."}
+  ]
+}

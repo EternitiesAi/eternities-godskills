@@ -17,15 +17,16 @@ try{
   if(command==='build'&&args.length===0)result=await buildProduct(root);
   else if(command==='validate'&&args.length===0){const x=await verifyProduct(root);result={status:'verified-content',releaseId:x.releaseId,skillCount:x.skillCount};}
   else if(command==='search'){
-    const [query,...flags]=args, opts=options(flags,['--limit','--category','--task']);
+    const [query,...flags]=args, opts=options(flags,['--limit','--category','--task','--need']);
     await verifyProduct(root);
     const catalog=JSON.parse(await readFile(resolve(root,'catalog.json'),'utf8'));
-    result=searchCatalog(catalog,query,{limit:opts['--limit']===undefined?5:Number(opts['--limit']),category:opts['--category'],taskType:opts['--task']});
+    result=searchCatalog(catalog,query,{limit:opts['--limit']===undefined?5:Number(opts['--limit']),category:opts['--category'],taskType:opts['--task'],need:opts['--need']??'unknown'});
   }else if(command==='route'){
-    const [query,...flags]=args, opts=options(flags,['--limit','--input-scope','--connected-purpose','--discovery']);
+    const [query,...flags]=args, opts=options(flags,['--limit','--input-scope','--connected-purpose','--discovery','--need']);
     await verifyProduct(root);
     const catalog=JSON.parse(await readFile(resolve(root,'catalog.json'),'utf8'));
     result=routeTask(catalog,query,{
+      need:opts['--need']??'unknown',
       inputScope:opts['--input-scope']??'unknown',
       connectedPurpose:opts['--connected-purpose']??'unknown',
       discovery:opts['--discovery']??'unknown'
@@ -37,6 +38,6 @@ try{
     result=await installProduct(root,{skillsDir:opts['--skills-dir'],runtimeDir:opts['--runtime-dir'],backupDir:opts['--backup-dir']});
   }else if(command==='rollback'){
     const opts=options(args,['--receipt']);if(!opts['--receipt'])throw new Error('Missing --receipt');result=await rollbackInstall(opts['--receipt']);
-  }else throw new Error('Usage: godskills.mjs build | validate | search "task" [--limit 1..20] [--category name] [--task name] | route "task" [--limit 1..20] [--input-scope supplied-only|sufficient|missing-input|open|unknown] [--connected-purpose none|inventory|fill-missing|named-run|unknown] [--discovery prohibited|not-prohibited|unknown] | export --output NEW_ABSOLUTE_ZIP_PATH | install --skills-dir ABS --runtime-dir ABS --backup-dir ABS | rollback --receipt ABS');
+  }else throw new Error('Usage: godskills.mjs build | validate | search "task" [--limit 1..20] [--category name] [--task name] [--need none|specialist|unknown] | route "task" [--limit 1..20] [--need none|specialist|unknown] [--input-scope supplied-only|sufficient|missing-input|open|unknown] [--connected-purpose none|inventory|fill-missing|named-run|unknown] [--discovery prohibited|not-prohibited|unknown] | export --output NEW_ABSOLUTE_ZIP_PATH | install --skills-dir ABS --runtime-dir ABS --backup-dir ABS | rollback --receipt ABS');
   process.stdout.write(JSON.stringify(result,null,2)+'\n');
 }catch(error){process.stderr.write(JSON.stringify({error:error.message})+'\n');process.exitCode=1;}
