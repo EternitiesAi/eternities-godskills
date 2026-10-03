@@ -1,0 +1,141 @@
+{
+  "schema": "eternities-godskills-professional-gap-release-evidence-v1",
+  "recordedAtUtc": "2026-10-03T18:51:26.504Z",
+  "baselineCommit": "68c7cd85833aa328c14df1eb889ee476a2ca1d22",
+  "implementationCommit": "44bb7bd2a92fce0cddca3cd8f85222c6bbce3624",
+  "releaseId": "602b06151fa0595580381011cef24fbdb7965fde0d7d983b8f8f34ee06f9c4d7",
+  "skillCount": 77,
+  "reviewedDelta": [
+    {
+      "path": "product/INDEX.md",
+      "sha256": "53c0abec6a2794c8507a7203227aa0d1edbcbbe5d9d8b3613f300beef81468f5"
+    },
+    {
+      "path": "product/README.md",
+      "sha256": "6fcd2ea7b10622cf1831cb76ad44fee67d0f271b3b1b6d607e613b0be99dd2f7"
+    },
+    {
+      "path": "product/bin/godskills.mjs",
+      "sha256": "cd2b01f504fb89efee54e0b70dcc08631842e03305d5c35be67777d88a0718d4"
+    },
+    {
+      "path": "product/catalog.json",
+      "sha256": "5fadb042d35319667fbe0abba87350b673ee843703246571e39f948b2c8f1df9"
+    },
+    {
+      "path": "product/lib/product.mjs",
+      "sha256": "9f0fd965a0a0f37de89d0a9796d534678ae08289898327b4030b25adca6d1e4a"
+    },
+    {
+      "path": "product/release.json",
+      "sha256": "164eb8e74bf719b254ac10bc3d5742fbd296b1bc958423bbc4547a172ca7dd55"
+    },
+    {
+      "path": "product/skills/eternities-omnibus/SKILL.md",
+      "sha256": "6009e4015f56b00cab8e7142a67273e7be6be2de8bb955e6d9383320b5107c4d"
+    },
+    {
+      "path": "product/skills/eternities-omnibus/references/methods.md",
+      "sha256": "b9f125b0b5b53d6a9875f8ae597b316db37523b10ef872d3dcf69366916a7f5a"
+    },
+    {
+      "path": "product/skills/customer-support-triage-and-resolution/SKILL.md",
+      "sha256": "32f0615a91aa2ca3e5933c40e24aa80ae200b9b7394549bf37b42b1d1ba34be0"
+    },
+    {
+      "path": "product/skills/customer-support-triage-and-resolution/references/methods.md",
+      "sha256": "769d48d3ca673694ee2024d7c745818b7e263232d9b281cb606c7b70312239e2"
+    },
+    {
+      "path": "product/skills/customer-support-triage-and-resolution/skill.json",
+      "sha256": "8dea394c14591bd7ffc35443dc6b254a15b443667c7aee13aad328488f2fb0ae"
+    },
+    {
+      "path": "product/skills/structured-hiring-evaluation/SKILL.md",
+      "sha256": "48b97d61aac129857abafacd7d84fec63611ff04bdb064c62b17c8e0e82d7ed4"
+    },
+    {
+      "path": "product/skills/structured-hiring-evaluation/references/methods.md",
+      "sha256": "ba4089a688da40f37f05b50dab20c110a5469e146eac98e833d30390d36bd685"
+    },
+    {
+      "path": "product/skills/structured-hiring-evaluation/skill.json",
+      "sha256": "4fae2efd6db75899da73a899b69a3b3faeb87f0f6962299e7b879ccdbc45229c"
+    },
+    {
+      "path": "product/skills/user-research-and-usability-study/SKILL.md",
+      "sha256": "8d6a510d500adf43cf3b439c3525aa5792aeb7601cd84ffa877ef5039313f13f"
+    },
+    {
+      "path": "product/skills/user-research-and-usability-study/references/methods.md",
+      "sha256": "e7d644a31a71e085fda0f6ff3c23879be0c3e1e22f4b62ff778af039d892985d"
+    },
+    {
+      "path": "product/skills/user-research-and-usability-study/skill.json",
+      "sha256": "a25538012c3cdb5140a18fdad84e9f6bbc02f63f39e5e2e1ee99b079171300c4"
+    },
+    {
+      "path": "docs/godskills-gap-refinement-20261003.md",
+      "sha256": "494fcc943491c453abe0748b9190f9051c94ede5bb1f7e2f00977b7129f03302"
+    },
+    {
+      "path": "tests/conditional-method-regression.test.mjs",
+      "sha256": "e06715bbf1653980d6b58858da6446a880515191fadc1b16df184e5a6e0631ab"
+    },
+    {
+      "path": "tests/discovery-need-20261003.test.mjs",
+      "sha256": "7b3bfd5c805e6a80b6191c97ecf67a162f74570b45fcd23358fb830e95b5262e"
+    }
+  ],
+  "independentReview": {
+    "reviewerThread": "01a10305-02dd-7531-91a9-0cda38e325ce",
+    "requestedModel": "gpt-6-luna",
+    "reasoning": "max",
+    "verdict": "READY-narrowly",
+    "sourceManifestSha256": "972bc87c0701741b67d85045692a04ff3f28fd9283358bb45b51821eea0be9d4",
+    "reportSha256": "f158a0d80988a7e3dcaa20a335d760c778bd0661fa968075828a96eaa2ea3d04",
+    "syntheticApplicationsSha256": "d43953b6af9d26e9d286770d6991b8285d14dfaf87c8bb105596504da9ecfc7a",
+    "scope": "Exact changed product/test/document bytes and three manually populated synthetic applications; not human, legal or performance outcomes"
+  },
+  "windows": {
+    "node": "v24.18.0",
+    "counts": {
+      "tests": 1468,
+      "pass": 1466,
+      "fail": 0,
+      "cancelled": 0,
+      "skipped": 2,
+      "todo": 0
+    },
+    "tapSha256": "32772cc7d6f69a06ee2d89dfce9394b9e78f40532d049df6b6a1baf78098524d",
+    "skipReasons": [
+      "ok 704 - rejects symbolic links instead of following them # SKIP symbolic-link creation is unavailable on this Windows account",
+      "ok 1285 - different-volume commit destinations are rejected before any skills move # SKIP"
+    ]
+  },
+  "linux": {
+    "environment": "Isolated minimal-environment Ubuntu WSL copy on same host; not a fresh OS or computer",
+    "counts": {
+      "tests": 97,
+      "pass": 96,
+      "fail": 0,
+      "skipped": 1
+    },
+    "tapSha256": "b0f66c86d1aaf07e8a5a891f089d3e2ce7eab45251bc0d02d07c23e73e51aa0e",
+    "supplementalSecondVolume": {
+      "tests": 1,
+      "pass": 1,
+      "fail": 0,
+      "skip": 0,
+      "scope": "Parent observed corrected GODSKILLS_TEST_SECOND_VOLUME focused invocation after original broad run skipped that case"
+    }
+  },
+  "limitations": [
+    "Host need judgment is supplied, not an automatic semantic classifier",
+    "Plain lexical retrieval can still contain irrelevant matches",
+    "No real employment, customer, participant, provider or model-performance outcome qualified",
+    "Not whole-quarry completion; R10 unchanged",
+    "Review hashes bind bytes, not publisher authenticity or legal clearance"
+  ],
+  "installed": false
+}
