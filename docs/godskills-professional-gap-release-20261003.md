@@ -44,6 +44,18 @@ classifier. The underlying lexical ranker is unchanged and can still retrieve
 irrelevant matches. Host-supplied decisions must not be presented as automatically
 inferred routing accuracy, or as proof of improved agent performance.
 
+A separate reviewer froze twelve natural requests before reading the candidate.
+The parent then executed 24 local CLI invocations: the unchanged baseline and
+candidate for each exact request. All six host-marked no-need cases returned no
+candidate skills; all four professional cases included the applicable new skill
+within the top three. The research-observation case ranked it third behind two
+irrelevant matches. Both underspecified cases remained `review-required`, with
+clarification required by the host rather than automatically performed by search.
+This is a retrieval observation under supplied need facts, not an automatic
+selection, blind agent contest, or evidence that an external action occurred.
+The raw private record has SHA-256
+`2bac5e5ff36c510c1940b8404a18f43d43919cdec20871d729a16e3f40d97cfa`.
+
 ## Qualification
 
 [The exact evidence receipt](evidence/godskills-gap-release-20261003/receipt-v1.json)
@@ -58,6 +70,10 @@ Ubuntu WSL copy registered 97 focused tests: 96 passed, none failed, and one
 second-volume case was skipped. A separate invocation with the correct
 second-volume environment variable then passed that case. WSL is on the same
 computer, not a fresh OS, macOS, or an unrelated-machine qualification.
+
+A final repeat on the integration candidate produced the same 1,466 passed,
+zero failed, and two skipped counts. Its raw TAP SHA-256 is
+`5f153e051be05b5d560d070344fcb39d4f22ee0011cedbe21a00556904ffda55`.
 
 The three coordinated activation artifacts retain their historical hashes.
 No historical source, receipt, frozen scoring fixture, unrelated installed skill,
