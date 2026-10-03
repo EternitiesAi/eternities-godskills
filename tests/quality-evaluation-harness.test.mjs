@@ -26,6 +26,18 @@ test('create_time outside provenance cannot hide changed captured instruction co
   assert.match(result.error,/invalid|reconcile/i);
   assert.equal(result.execs,0);
 });
+test('a same-named metadata object nested in content remains fully significant', () => {
+  const result=probe(async lab=>{
+    lab.reference[0].content[0].internal_chat_message_metadata_passthrough={create_time:100};
+    await lab.put(lab.referencePath,lab.reference);
+    lab.control.prefix=structuredClone(lab.reference);
+    lab.control.prefix[0].content[0].internal_chat_message_metadata_passthrough.create_time=101;
+    let error;try{await lab.run();}catch(e){error=e.message;}
+    return {error,execs:lab.calls.filter(call=>call.args[0]==='exec').length};
+  });
+  assert.match(result.error,/invalid|reconcile/i);
+  assert.equal(result.execs,0);
+});
 test('preflight without an approved captured reference fails closed, including marker-free instructions', () => {
   assert.equal(inspectIsolation([msg('<skills_instructions>\n### Available skills\n- voice-style-calibration: rewrite\n</skills_instructions>')]).valid, false);
   const builtin=msg('<skills_instructions>\n### Skill roots\n- `r0` = `C:/factory/skills`\n### Available skills\n- openai-docs: official docs\n- skill-creator: build skills\n</skills_instructions>');

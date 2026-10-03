@@ -37,11 +37,9 @@ async function validateReplay(job,prior,identity,reference) {
 const instructionKinds=new Set(['host_skills.instructions','permissions.instructions','collaboration_mode.instructions',
   'multi_agent.role_instructions','multi_agent.mode_instructions','environments.environment_context','user.text']);
 const ephemeralKeys=new Set(['id','message_id','timestamp','created_at','updated_at']);
-function canonical(value,parentKey='') {
-  if(Array.isArray(value))return value.map(item=>canonical(item,parentKey));
-  if(value&&typeof value==='object')return Object.fromEntries(Object.keys(value).sort()
-    .filter(key=>!ephemeralKeys.has(key)&&!(parentKey==='internal_chat_message_metadata_passthrough'&&key==='create_time'))
-    .map(key=>[key,canonical(value[key],key)]));
+function canonical(value) {
+  if(Array.isArray(value))return value.map(canonical);
+  if(value&&typeof value==='object')return Object.fromEntries(Object.keys(value).sort().filter(key=>!ephemeralKeys.has(key)).map(key=>[key,canonical(value[key])]));
   return value;
 }
 function capturedInput(input,workspace) {
@@ -74,7 +72,9 @@ function capturedInput(input,workspace) {
       }
       return {...item,text};
     });
-    normalized.push({...message,content});
+    const metadata={...message.internal_chat_message_metadata_passthrough};
+    delete metadata.create_time; // Only this actual message-level provenance field is ephemeral.
+    normalized.push({...message,internal_chat_message_metadata_passthrough:metadata,content});
   }
   if(kindsSeen.length!==instructionKinds.size||new Set(kindsSeen).size!==instructionKinds.size)throw new Error('Incomplete or duplicate instruction provenance');
   return JSON.stringify(canonical(normalized));

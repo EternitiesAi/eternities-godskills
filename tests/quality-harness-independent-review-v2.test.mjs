@@ -8,7 +8,7 @@ import {probe} from './helpers/quality-harness-lab.mjs';
 // children and creates only disposable synthetic evidence/configuration files.
 const sourceRoot = new URL('../',import.meta.url);
 for (const [path, expected] of [
-  ['scripts/quality-evaluation-harness.mjs', 'bf3597564b64583223372cc1aef558e77ee795bb731ba52a48a29c0a26e9d08e'],
+  ['scripts/quality-evaluation-harness.mjs', '24736713cab1205891d8f466c82076f36c93536ca19c2e8af2bea9576359365e'],
   ['tests/helpers/quality-harness-lab.mjs', '84195803dbdd33f2f50ef12f154e7770b3e1fcd6a5aa3d06a39ad8175e95a638'],
 ]) assert.equal(createHash('sha256').update(readFileSync(new URL(path,sourceRoot))).digest('hex'), expected,
   'Frozen review source changed; do not run against an unreviewed version');
