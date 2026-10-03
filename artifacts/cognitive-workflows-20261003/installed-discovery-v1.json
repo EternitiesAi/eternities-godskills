@@ -1,0 +1,120 @@
+{
+  "schema": "cognitive-installed-discovery-v1",
+  "source": "actual installed CLI on the current Windows host",
+  "releaseId": "54688268f540ce974272f4619f88d97adde80a0c058325a5b8f960432370a0dd",
+  "checks": [
+    {
+      "query": "calibrate editorial voice from writing samples",
+      "expectedId": "voice-style-calibration",
+      "results": [
+        {
+          "id": "voice-style-calibration",
+          "entrypointSha256": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b"
+        },
+        {
+          "id": "eternities-logos",
+          "entrypointSha256": "a215da7877c4ef33e83796209488dcf5b390bf1f91b38098ba47d1c89a8f11d2"
+        },
+        {
+          "id": "eternities-chorus",
+          "entrypointSha256": "34814474ccd29d642c87f50ebed24b56cef572cd6e6869d4ce8ca427c0eae5dc"
+        }
+      ],
+      "authority": "none",
+      "activation": "none"
+    },
+    {
+      "query": "develop imaginative concepts with alternative mechanisms",
+      "expectedId": "imaginative-concept-development",
+      "results": [
+        {
+          "id": "imaginative-concept-development",
+          "entrypointSha256": "5a1b550f7db546470d93a73106f972d59cf1cf4be21cc6e7c8d08cb7f9fd95c7"
+        }
+      ],
+      "authority": "none",
+      "activation": "none"
+    },
+    {
+      "query": "understand interpersonal conflict and draft respectful dialogue",
+      "expectedId": "interpersonal-understanding-and-dialogue",
+      "results": [
+        {
+          "id": "interpersonal-understanding-and-dialogue",
+          "entrypointSha256": "dfa4af05ca5b68aa6db7252d70dc0d2b57a610f4fa0f49104fe3b07eb1cacc74"
+        },
+        {
+          "id": "eternities-logos",
+          "entrypointSha256": "a215da7877c4ef33e83796209488dcf5b390bf1f91b38098ba47d1c89a8f11d2"
+        },
+        {
+          "id": "voice-style-calibration",
+          "entrypointSha256": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b"
+        }
+      ],
+      "authority": "none",
+      "activation": "none"
+    },
+    {
+      "query": "recover task memory with stale and conflicting records",
+      "expectedId": "memory-retention-and-recovery",
+      "results": [
+        {
+          "id": "memory-retention-and-recovery",
+          "entrypointSha256": "36c14c3b62bdf72c2b12bf4678ec44223bd0c3064528a7f1b34d7df4fcc966e7"
+        },
+        {
+          "id": "eternities-mnemosyne",
+          "entrypointSha256": "43f83b2332ca21e65fa6b640a8489fe03c7ee58b8d5e1f1435ae31b027e32988"
+        },
+        {
+          "id": "retrieval-grounded-answering",
+          "entrypointSha256": "9699b65853adf21b4e285c2b357295ea401822b0dbda46eb168510cb1d654236"
+        }
+      ],
+      "authority": "none",
+      "activation": "none"
+    },
+    {
+      "query": "audit requirements coverage omissions and cross artifact consistency",
+      "expectedId": "completeness-and-consistency-audit",
+      "results": [
+        {
+          "id": "completeness-and-consistency-audit",
+          "entrypointSha256": "4e434687d0f77a0577c6bd2c8b869fe60d409df5c5e6d5b6ee946771a78d5f71"
+        },
+        {
+          "id": "eternities-agora",
+          "entrypointSha256": "a6602a256f8ad9e598947e18c057fd10c3b82f0ed6a44f7915fc439586c6225f"
+        },
+        {
+          "id": "eternities-architect",
+          "entrypointSha256": "351269b25eb0a26b06e51abe774f0bb6a92d23953592196f48d70651dff2fb11"
+        }
+      ],
+      "authority": "none",
+      "activation": "none"
+    },
+    {
+      "query": "continue multi day work after interruption and uncertain effects",
+      "expectedId": "long-horizon-work-continuity",
+      "results": [
+        {
+          "id": "long-horizon-work-continuity",
+          "entrypointSha256": "83584469ab0faf64844451aba67bfe4e9325d2c1f7d6580ff951bc90d3a34f5d"
+        },
+        {
+          "id": "eternities-daedalus",
+          "entrypointSha256": "ee2f0326f35e2a4efc952570dcd7956d04d1a4b5abc08e2a16f3a5776a09d347"
+        },
+        {
+          "id": "memory-retention-and-recovery",
+          "entrypointSha256": "36c14c3b62bdf72c2b12bf4678ec44223bd0c3064528a7f1b34d7df4fcc966e7"
+        }
+      ],
+      "authority": "none",
+      "activation": "none"
+    }
+  ],
+  "limits": "Bounded lexical discovery; not a running-host refresh or agent-performance test."
+}

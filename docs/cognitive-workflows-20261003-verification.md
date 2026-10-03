@@ -3,9 +3,12 @@
 ## Scope and current disposition
 
 The approved expansion adds six portable methods to the existing 68-skill pack.
-The candidate is instruction-reviewed and content-verified. The final corrected
-cases are independently READY; publication and installed upgrade remain pending
-at this revision.
+This expansion is completed, published and installed. All six methods are
+instruction-reviewed and content-verified; the final corrected cases are
+independently READY. Release implementation commit
+`a21f38aae6dfe777795c8f3af9b984a463f57404` was fast-forwarded into main and pushed,
+and remote main was independently queried to confirm that exact revision before
+installation.
 This is a finite product expansion, not a restart or closure of the source corpus.
 
 | Method | Useful result |
@@ -126,5 +129,40 @@ The old Godskills automation stays paused.
 The original `artifacts/cognitive-workflows-20261003/run-state.json` and planning
 inputs are retained as review-pinned history, not rewritten progress claims. A
 versioned [current batch state](../artifacts/cognitive-workflows-20261003/run-state-v2.json)
-records the accepted gates; publication and installation effects will be added
-only after verification. Private full installation manifests stay local.
+records the accepted gates and verified publication/installation effects.
+Private full installation manifests stay local.
+
+## Verified installed upgrade
+
+On the current Windows host, the native skills directory and standalone runtime
+were upgraded through the existing journaled installer with a fresh rollback
+backup. Actual installed validation returns the exact 74-skill release above.
+
+| Exact manifest check | Verified count |
+| --- | --- |
+| New managed skill files | 209 |
+| New standalone runtime files | 239 |
+| Previous managed files preserved in backup | 190 |
+| Previous standalone runtime files preserved in backup | 219 |
+| Unrelated native files unchanged | 56 |
+
+Private before-inventory SHA-256:
+`d1130123415b7f291d5ce9a46e61b16d98fcdf3aa1b174fefde141e02f127d52`.
+Private after-inventory SHA-256:
+`c812343efb210bd79e5aca87d77e5c4be95cb389308ece74791fde27975fd62b`.
+Installed journal SHA-256:
+`548bbcc474f64a9bd269cb06b10d9cfe21997210344901c22afbdb7b127015ae`.
+The journal status is `installed`; it records all 74 completed IDs. The prior
+68-skill runtime and every prior managed skill directory were verified against
+their original manifest. Full private inventories and rollback paths are not
+published here.
+
+Installed CLI discovery was checked independently of the repository catalog;
+all six named cases find their expected method within the unchanged top-three
+limit. The bounded [discovery projection](../artifacts/cognitive-workflows-20261003/installed-discovery-v1.json)
+records actual IDs and entrypoint hashes without bulk-loading skill bodies.
+This proves installed file/runtime availability, not that every already-running
+host session has refreshed its native skill list. No other session was restarted
+or had its model changed. All four workers finished and were closed; the older
+Godskills automation remains paused. No continuation is left running for this
+finite expansion.
