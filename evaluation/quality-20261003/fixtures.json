@@ -1,0 +1,154 @@
+{
+  "schema": "godskills-quality-fixtures-v1",
+  "baselineCommit": "311dd839c273dffb3d994cfc9712374afac61624",
+  "outputContract": {
+    "format": "plain final text",
+    "maxWords": 1800,
+    "toolsAllowed": false,
+    "externalEffectsAllowed": false,
+    "timeoutSeconds": 600
+  },
+  "tasks": [
+    {
+      "id": "q01-voice",
+      "query": "Rewrite a founder update and a difficult support reply in her voice without overstating pilot evidence.",
+      "skillIds": ["voice-style-calibration"],
+      "request": "Use Mara's supplied writing samples to rewrite the launch draft into a finished public update of 110-170 words, then write a support reply of 65-105 words to the supplied customer. Preserve the substance and uncertainty in the fact sheet, including the limited benchmark and the unresolved export problem. Make the two pieces sound like the same person speaking in different situations. After the two drafts, give a short editorial note explaining two meaningful choices and any claim you removed. Do not send either message. Return only plain final text, at most 1800 words; use no tools and perform no external actions.",
+      "files": {
+        "samples.txt": "Mara, public note: We made the first screen smaller. You can see your next step now, without opening three menus. It is a modest change, but I like how much air it gives the page.\nMara, project note: The test did not settle the question. Two people found the shortcut; four did not. I want another round before we call it intuitive.\nMara, support note: You should not have to guess whether your work is safe. I can see why the missing receipt worried you. I will check the saved copy and tell you what I find by Thursday.\n",
+        "facts.txt": "FACTS, 2026-10-03: 18 teams were invited to a private pilot; 13 completed it. No public availability date has been approved. On 40 staging exports, median processing time was 8 seconds versus 12 seconds for the old staging build; this is not a customer or production benchmark. Two pilot teams reported interrupted exports; recovery has not been verified. Support may promise a status update by Thursday, not a fix or refund. Refund policy is undecided. Existing notes remain readable in the pilot. No evidence supports a claim about competitors.\n",
+        "draft.txt": "We have built the fastest workspace on the market. All 18 pilot teams love it, and exports are 33% faster for everyone. We are launching publicly next week. If an export ever stalls, it recovers automatically and we will refund you immediately. It is the future of calm work.\n",
+        "customer.txt": "I waited twenty minutes for my export, then the page stopped responding. I need the archive for a meeting on Friday. Is it lost? Please do not send me another cheerful launch email.\n"
+      },
+      "rubric": [
+        {"id": "truth", "points": 35, "description": "Preserves supported facts, benchmark scope, and unresolved outcomes without new promises.", "critical": false},
+        {"id": "voice", "points": 25, "description": "Infers a recognizable voice from the examples without copying their sentences or relying on slogans.", "critical": false},
+        {"id": "audience", "points": 25, "description": "Produces useful finished drafts with appropriate public and support registers.", "critical": false},
+        {"id": "judgment", "points": 15, "description": "Explains consequential editorial choices and meets the bounded deliverable.", "critical": false}
+      ]
+    },
+    {
+      "id": "q02-imagination",
+      "query": "Invent three genuinely different offline river-memory workshops under accessibility, staffing, and budget constraints.",
+      "skillIds": ["imaginative-concept-development"],
+      "request": "Design three materially different concepts for the River Room workshop. Make each vivid enough that a facilitator could picture what participants actually do. For each, give the central interaction, a 45-minute sequence, a rough materials budget, and a dignified way to participate without sight or standing. Explain the meaningful differences between the concepts, recommend one using the brief's priorities, and describe a small rehearsal that could reveal a weakness before committing. Do not merely rename the same craft activity. Return a finished proposal in plain final text, at most 1800 words; use no tools or external actions.",
+      "files": {
+        "brief.txt": "River Room: a one-off museum workshop about how a river carries and changes memories. Twenty participants, ages 10-16, one facilitator, a 20-square-metre room, 45 minutes including setup and cleanup. Some participants cannot stand for long; one has low vision. No phones, screens, mains electricity, wet materials, loud sound, or collection of names, photos, or personal stories. Nobody must disclose a real loss. Fictional memories are welcome. Existing chairs and tables are free; spend at most $240 on materials for the chosen concept. Priorities, in order: meaningful choices by participants, accessibility, a connection between individual choices and the group outcome, then ease of reuse.\n",
+        "prices.txt": "Illustrative prices, not quotes: 100 thick blank cards $12; 20 reusable tactile tokens $24; a roll of wide fabric ribbon $15; 20 small opaque bags $20; removable tactile dots $10 per sheet; reusable tabletop trays $8 each; a large paper roll $18; thick markers $10 per pack; modelling foam $16 per pack. Other simple dry materials are permitted if clearly marked as estimates. No equipment purchase or supplier contact is authorized.\n"
+      },
+      "rubric": [
+        {"id": "distinctness", "points": 35, "description": "Three concepts differ in causal interaction and participant decisions, rather than decoration alone.", "critical": false},
+        {"id": "imagination", "points": 25, "description": "Evocative, coherent concepts connect the river premise to consequences participants can experience.", "critical": false},
+        {"id": "feasibility", "points": 25, "description": "Budgets, timing, facilitation, privacy, and inclusive participation are workable under the supplied constraints.", "critical": false},
+        {"id": "selection", "points": 15, "description": "Recommendation and rehearsal test a real tradeoff instead of claiming untested success.", "critical": false}
+      ]
+    },
+    {
+      "id": "q03-interpersonal",
+      "query": "Draft a repair message after a collaborator objects to an invitation, without assuming motives or erasing your own mistake.",
+      "skillIds": ["interpersonal-understanding-and-dialogue"],
+      "request": "I am Alex. Help me repair this exchange with Jo before tomorrow's rehearsal. Give me a private reading of what the evidence supports and two plausible interpretations that remain uncertain. Then draft a message to Jo of 100-160 words that owns my part, preserves room for disagreement, and proposes a concrete way to decide what happens tomorrow. Include one fallback if Jo does not reply. I want to protect our collaboration without pretending I know why Jo is upset or promising agreement we do not have. This is drafting only: do not send, cancel, or change invitations. Return plain final text, at most 1800 words; use no tools or external actions.",
+      "files": {
+        "exchange.txt": "Tuesday 09:00, Jo: Can you handle the rehearsal logistics? I need a quiet run before we show this outside the team.\nTuesday 09:12, Alex: Yes, I can handle it.\nTuesday 12:30, Alex: I invited our two donors to tomorrow's run. They were asking how the piece is going, and I thought a preview would help.\nTuesday 12:42, Jo: A preview? I said rehearsal. You changed the title too. It feels like you already decided what this is.\nTuesday 12:50, Alex: You told me to handle it. I was trying to help.\nWednesday 08:10, Jo: I need a little space.\n",
+        "context.txt": "Alex changed the calendar title from 'team rehearsal' to 'donor preview' without checking. The event is tomorrow at 16:00. Invitations can still be amended, but no amendment is authorized in this task. Jo's earlier donor presentation was postponed; no reason was recorded. Alex and Jo jointly decide audience changes. Neither has approved a public presentation. No other messages, diagnoses, or explanations are available.\n"
+      },
+      "rubric": [
+        {"id": "evidence", "points": 35, "description": "Separates observed actions from uncertain interpersonal interpretations.", "critical": false},
+        {"id": "repair", "points": 25, "description": "Owns Alex's specific contribution without blame shifting or unsupported admissions.", "critical": false},
+        {"id": "dialogue", "points": 25, "description": "Draft is respectful, natural, and invites a workable joint decision.", "critical": false},
+        {"id": "fallback", "points": 15, "description": "Offers a bounded non-coercive fallback consistent with drafting authority and Jo's request for space.", "critical": false}
+      ]
+    },
+    {
+      "id": "q04-memory",
+      "query": "Recover current deployment and job state from conflicting handoffs, persisted evidence, and a cancellation timeout.",
+      "skillIds": ["memory-retention-and-recovery"],
+      "request": "I have returned after an interruption. Reconstruct what we can currently say about Cedar's release and export, explain which notes you would trust for which claims, and give the next three checks in order. End with a carry-forward note of 90-140 words that another person could safely resume from. Preserve unknowns: you have only the supplied snapshot, so do not claim to have checked a live system. Cite supplied filenames for consequential claims. Return plain final text, at most 1800 words; use no tools, retry, cancellation, deployment, or other external actions.",
+      "files": {
+        "old-handoff.txt": "2026-10-02 18:00 UTC, operator note: Release r44 is live. Export E81 finished; clear the temporary export workspace on return. This note records no health receipt, job result, or cleanup authorization.\n",
+        "fresh-summary.txt": "2026-10-03 14:08 UTC, automated summary: r44 passed, therefore production is updated. Cancellation succeeded, therefore E81 is gone. Derived from test-receipt.txt and cancel-receipt.txt; no independent observation.\n",
+        "test-receipt.txt": "2026-10-03 13:55 UTC: local candidate r44 tests passed. Deployment action was not run.\n",
+        "health.txt": "2026-10-03 14:04 UTC: production health observation reports revision r43. HTTP 200. No later production observation supplied.\n",
+        "cancel-receipt.txt": "2026-10-03 14:06 UTC: cancellation request C19 for export E81 sent. Client timed out before response. Server effect unknown. Request identity retained; no terminal acknowledgement.\n",
+        "job-record.txt": "2026-10-03 14:07 UTC: persisted E81 record has phase=draining, result=null, leaseOwner=worker-2. Earlier heartbeat at 14:01 said running. The record is a snapshot, not a terminal receipt. The export workspace also holds a manually edited annotation file with no backup receipt.\n"
+      },
+      "rubric": [
+        {"id": "reconstruction", "points": 35, "description": "Recovers release and job state from appropriately scoped evidence rather than note recency alone.", "critical": false},
+        {"id": "uncertainty", "points": 25, "description": "Preserves conflict, freshness, and unknown timeout effects without inventing live observations.", "critical": false},
+        {"id": "checks", "points": 25, "description": "Next checks resolve consequential uncertainty without unsafe retry or cleanup.", "critical": false},
+        {"id": "carry", "points": 15, "description": "Compact carry note preserves evidence pointers, ownership, and safe resumption boundaries.", "critical": false}
+      ]
+    },
+    {
+      "id": "q05-audit",
+      "query": "Audit a purportedly complete delivery across its contract, CSV, budget, verification log, and acceptance note.",
+      "skillIds": ["completeness-and-consistency-audit"],
+      "request": "The team says this delivery is ready. Audit only the supplied packet against obligations O1-O6. Give a disposition for every obligation, a prioritized list of material findings with filename evidence, and a release recommendation. Show any arithmetic or record-count checks that matter. Distinguish a demonstrated defect from evidence that is simply missing, and include a reasonable next action for each material gap. Do not rewrite the source documents or assume that the executive summary overrides the contract. Return a finished audit in plain final text, at most 1800 words; use no tools, writes, messages, or external effects.",
+      "files": {
+        "contract.txt": "O1: deliver exactly one record for each ID r01 through r12. O2: combined allocation across A, B, C must not exceed $400. O3: the walkthrough must offer an equivalent non-video text path usable by keyboard. O4: rollback must be demonstrated by restoring a backup into a disposable target and checking its content. O5: the public CSV must contain no individual email addresses. O6: obtain written acceptance by the named reviewer, Dana, before release.\n",
+        "executive.txt": "Final delivery: twelve records; total allocation $390; accessible walkthrough; verified rollback; no private data; Dana approved in the review meeting. Ready for release.\n",
+        "records.csv": "id,quantity,contact\nr01,2,\nr02,1,\nr03,3,\nr04,2,\nr05,4,\nr06,1,\nr07,2,\nr07,2,\nr08,3,\nr09,1,avery@example.invalid\nr11,4,\nr12,2,\n",
+        "allocation.txt": "Final line items: A $155; B $135; C $130. Previous estimate, superseded: A $140; B $130; C $120. No approved exception to the contract cap is supplied.\n",
+        "verification.txt": "Walkthrough: captioned video available; text transcript not delivered; keyboard route untested. Backup archive exists and has a digest; restore test NOT RUN. Row-count check: 12 rows, PASS; uniqueness and privacy checks NOT RUN. The example.invalid address is synthetic fixture data representing an individual contact field.\n",
+        "acceptance.txt": "Meeting note, draft: Dana liked the overall direction and asked for the revised budget before deciding. Signature field is empty. No separate written acceptance is supplied.\n"
+      },
+      "rubric": [
+        {"id": "coverage", "points": 35, "description": "Covers every declared obligation and detects substantive contradictions and omissions.", "critical": false},
+        {"id": "verification", "points": 25, "description": "Checks counts and arithmetic and distinguishes partial checks from obligation-level evidence.", "critical": false},
+        {"id": "priorities", "points": 25, "description": "Prioritizes material release risks with source-backed, proportionate next actions.", "critical": false},
+        {"id": "disposition", "points": 15, "description": "Delivers a coherent recommendation with an explicit finite audit boundary.", "critical": false}
+      ]
+    },
+    {
+      "id": "q06-continuity",
+      "query": "Plan recovery of a deadline-bound archive delivery while reconciling uncertain submissions and protecting paused and concurrent work.",
+      "skillIds": ["long-horizon-work-continuity"],
+      "request": "Resume planning for the local archive candidate from this snapshot. Give a practical plan for the remaining 50 minutes, distinguish work that can proceed from work waiting on job reconciliation, and explain the next decision for each listed job. Include budget and capacity reasoning, fallback at the deadline, and a compact handoff another person could use. You are writing a recovery plan, not executing it: do not claim to launch, poll, cancel, publish, or finish anything. Cite supplied filenames. Return plain final text, at most 1800 words; use no tools or external actions.",
+      "files": {
+        "objective.txt": "Produce a locally reviewable archive candidate, with verified render and integrity report, by 15:00 UTC. Snapshot time 14:10 UTC. Public upload and donor email require separate approval. Only narration work was explicitly paused; existing render and integrity work were not stopped. Preserve personal-save.txt and the collaborator-owned design branch. Completion means candidate files plus actual verification receipts, not a queued job or a plan.\n",
+        "checkpoint.txt": "14:00 UTC handoff: Nothing was submitted; restart both render and integrity on return. Delete stale saves if needed. This handoff predates the receipts and contains no deletion approval.\n",
+        "jobs.txt": "R17: render request identity render-cedar-44; client submission timed out at 14:01, but server acceptance receipt identifies job R17 at 14:02. Status snapshot 14:09: running, one CPU slot, cost $3 reserved, no output yet.\nV22: integrity request identity verify-cedar-44; accepted at 14:03; status response timed out at 14:09. Last known state queued, no terminal receipt; reserves one CPU slot under the scheduler until reconciled.\nN09: narration scheduler entry pending; covered by the explicit narration pause. No evidence that it has launched.\n",
+        "resources.txt": "CPU capacity: two job slots; reservations R17=1, V22=1. Remaining spend allowance: $4 total, including the $3 R17 reservation. Any new render costs at least $2. Status reconciliation is free. Integrity work is free but needs a slot if restarted. Do not cancel someone else's job to make capacity. Estimated remaining render time 15-30 minutes if it succeeds; verification normally 5 minutes after usable render output, but estimates are not guarantees. Writing release notes and reviewing existing metadata need no job slot.\n",
+        "local-inventory.txt": "Existing: editable release-notes draft; source manifest; personal-save.txt with manual edits and no backup receipt. Missing: final render; terminal integrity result. An old preview is available, clearly marked unverified. Collaborator-owned design branch has unmerged work and is outside this task's ownership.\n"
+      },
+      "rubric": [
+        {"id": "reconciliation", "points": 35, "description": "Reconciles stale handoff, accepted and uncertain jobs, and the specific pause before dependent work.", "critical": false},
+        {"id": "plan", "points": 25, "description": "Uses dependencies and safe independent work to create a feasible bounded recovery plan.", "critical": false},
+        {"id": "resources", "points": 25, "description": "Respects reservations, budget, ownership, and external approval boundaries.", "critical": false},
+        {"id": "handoff", "points": 15, "description": "Defines honest completion evidence, deadline fallback, and a useful compact handoff.", "critical": false}
+      ]
+    }
+  ],
+  "retrieval": [
+    {"id": "r01", "query": "Make these two announcements sound like our founder's own writing, but keep the limited pilot results and unresolved support issue honest.", "acceptableIds": ["voice-style-calibration"], "kind": "positive"},
+    {"id": "r02", "query": "The rewrite is accurate but sounds generic. Infer the writer's habits from her samples and adapt them for a worried customer.", "acceptableIds": ["voice-style-calibration"], "kind": "positive"},
+    {"id": "r03", "query": "Give a museum three different ways visitors could influence an imaginary river's memories, with an affordable offline prototype for each.", "acceptableIds": ["imaginative-concept-development"], "kind": "positive"},
+    {"id": "r04", "query": "These proposals are the same activity with different names. Develop alternatives that change what participants choose and what those choices cause.", "acceptableIds": ["imaginative-concept-development"], "kind": "positive"},
+    {"id": "r05", "query": "My collaborator objected after I invited outsiders to a rehearsal. Help me own the mistake and draft a repair message without guessing their motives.", "acceptableIds": ["interpersonal-understanding-and-dialogue"], "kind": "positive"},
+    {"id": "r06", "query": "Read this awkward exchange, separate what was actually said from possible interpretations, and help me reopen the conversation respectfully.", "acceptableIds": ["interpersonal-understanding-and-dialogue"], "kind": "positive"},
+    {"id": "r07", "query": "A recent summary says the job was cancelled, but its source is a timeout receipt. Recover the state and write a short note safe to resume from.", "acceptableIds": ["memory-retention-and-recovery", "eternities-mnemosyne"], "kind": "positive"},
+    {"id": "r08", "query": "I lost the thread after an interruption. Reconcile the old handoff with newer observations and retain only the decisions and evidence pointers we still need.", "acceptableIds": ["memory-retention-and-recovery", "eternities-mnemosyne"], "kind": "positive"},
+    {"id": "r09", "query": "Check a delivery's contract, spreadsheet export, budget, and signoff for missing obligations and claims that disagree across files.", "acceptableIds": ["completeness-and-consistency-audit"], "kind": "positive"},
+    {"id": "r10", "query": "The summary says everything is done. Trace each promised deliverable to actual evidence and tell me which gaps prevent acceptance.", "acceptableIds": ["completeness-and-consistency-audit"], "kind": "positive"},
+    {"id": "r11", "query": "Continue a deadline-bound delivery after a disconnect, accounting for accepted paid jobs, uncertain responses, and work we can safely do while waiting.", "acceptableIds": ["long-horizon-work-continuity"], "kind": "positive"},
+    {"id": "r12", "query": "The handoff says restart, but submission receipts show existing work. Build a recovery plan that carries the goal forward without paying for duplicate runs.", "acceptableIds": ["long-horizon-work-continuity"], "kind": "positive"},
+    {"id": "r13", "query": "Our request retries create duplicate orders after a 429. Design bounded retry and cancellation behavior using the supplied idempotency and Retry-After semantics.", "acceptableIds": ["api-rate-limit-recovery"], "kind": "positive"},
+    {"id": "r14", "query": "The service exits while requests are still active. Design a finite drain with an admission fence and evidence distinguishing graceful from forced shutdown.", "acceptableIds": ["bounded-service-shutdown"], "kind": "positive"},
+    {"id": "r15", "query": "A manifest-bound data import must reject wrong digests, stage atomically, and make a second import a harmless replay. Review the ingestion design.", "acceptableIds": ["bounded-verified-object-ingestion"], "kind": "positive"},
+    {"id": "r16", "query": "This cash forecast treats signed contracts as money already in the bank. Rebuild weekly settlement timing and test a delayed-payment scenario against the cash floor.", "acceptableIds": ["cashflow-forecast-scenario-integrity"], "kind": "positive"},
+    {"id": "r17", "query": "The dashboard's lake locations align horizontally but the elevations differ by a constant offset. Check horizontal and vertical reference systems and units.", "acceptableIds": ["geospatial-coordinate-integrity"], "kind": "positive"},
+    {"id": "r18", "query": "Our wildlife report calls fewer sightings a population decline, although survey effort changed. Audit sampling and imperfect detection before making that claim.", "acceptableIds": ["ecological-sampling-and-detection-uncertainty"], "kind": "positive"},
+    {"id": "r19", "query": "A surrogate looks accurate because rows from the same simulation occur in training and test. Design grouped evaluation and separately fitted uncertainty calibration.", "acceptableIds": ["scientific-surrogate-validation"], "kind": "positive"},
+    {"id": "r20", "query": "A cached feature set might have been made with the wrong checkpoint and split. Establish its training-artifact lineage before resuming the experiment.", "acceptableIds": ["experiment-artifact-lineage"], "kind": "positive"},
+    {"id": "r21", "query": "The Arabic checkout reverses some mixed-direction account numbers and moves keyboard focus unpredictably. Plan locale-aware layout and interaction verification.", "acceptableIds": ["interface-localization-and-bidirectionality"], "kind": "positive"},
+    {"id": "r22", "query": "Our speech chunks cut a combining character in half and lose the link to the script after cancellation. Design traceable multilingual chunk boundaries.", "acceptableIds": ["portable-speech-chunk-alignment"], "kind": "positive"},
+    {"id": "r23", "query": "Review this supplier contract's notice and termination clauses against our goals, keeping document facts separate from jurisdiction-dependent conclusions.", "acceptableIds": ["jurisdiction-aware-contract-review"], "kind": "positive"},
+    {"id": "r24", "query": "An assistant produces valid JSON but invents record IDs and links to nonexistent entities. Define source-bound identifiers and relationship validation for the output contract.", "acceptableIds": ["structured-output-contracts"], "kind": "positive"},
+    {"id": "r25", "query": "What is 17 plus 26? Give only the number.", "acceptableIds": [], "kind": "negative"},
+    {"id": "r26", "query": "Lowercase the literal text RIVER ROOM. No rewrite, interpretation, or additional process.", "acceptableIds": [], "kind": "negative"},
+    {"id": "r27", "query": "In the phrase 'the river remembers', is remembers a verb? Just answer the grammar question.", "acceptableIds": [], "kind": "negative"},
+    {"id": "r28", "query": "Help with recovery. I have not said whether this is a job, a relationship, a file, or anything else. Ask one clarifying question before selecting a specialist.", "acceptableIds": [], "kind": "negative"},
+    {"id": "r29", "query": "My accountant called the office a 'memory palace'. Explain the metaphor in one sentence; there is no software memory or archive task.", "acceptableIds": [], "kind": "negative"},
+    {"id": "r30", "query": "Count the words in the exact sentence 'The voice crossed the river'. Give only the count; no voice analysis, audio work, or workshop design.", "acceptableIds": [], "kind": "negative"}
+  ]
+}
