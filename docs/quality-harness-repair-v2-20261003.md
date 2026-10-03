@@ -175,3 +175,53 @@ No hard generated-token limit is configured or invented. CLI support was not
 probed. The existing 1800-word prompt instruction is a soft request, not a token
 ceiling. Parent must document unsupported maximum-token control if the CLI
 cannot enforce it. Formal runs and blinded outcome assessment remain separate.
+
+## v2.1 append-only record: full fixture ID compatibility
+
+The parent reported the frozen ID strings only:
+`q01-voice`, `q02-imagination`, `q03-interpersonal`, `q04-memory`, `q05-audit`,
+`q06-continuity`. No frozen request, evidence, rubric/key or fixture file was
+opened. All compatibility tests use newly generated inert fake task bodies.
+The earlier code/receipt remains preserved at
+`af89fbb29146ad967d171f8a7e0791c523d6c02d`; this is a separate narrow follow-up,
+not an amendment or harness redesign. The parent's `afc5f94` integration and
+reported 56/56 result are supplied context, not locally inspected evidence.
+
+Following the curated TDD skill/reference, the focused five-test batch ran
+before changing production code. The full-ID acceptance test failed with
+`Preregistered six tasks q01-q06 required`; its zero-dispatch assertion passed.
+Four duplicate/missing/unknown/malformed ordinal rejection controls passed.
+An initial duplicate-error wording assertion was relaxed to the error category
+before rerunning red, so the reported failure tests acceptance, not wording.
+
+The only production change replaces bare-ID membership with a unique
+`q01`..`q06` ordinal-to-original-ID index. Ordinals determine ordering/parity;
+the unmodified full IDs remain in schedules, job identities, paths and task
+body selection. Bare ordinal IDs remain supported for the earlier synthetic
+tests. Duplicate ordinals are rejected even when their suffixes differ.
+The existing two-wave parity formula, full settlement barrier, replay binding,
+preflight, usage and failure behavior are unchanged.
+
+The acceptance test supplies all six exact IDs in shuffled order with unique
+fake body/evidence markers. It checks the literal twelve-job full-ID schedule,
+wave barrier, original body-to-ID binding and zero-dispatch unchanged replay.
+The negative controls reject before any operation directory or external
+preparation. No helper changes are required.
+
+Verification commands:
+
+```powershell
+node --test --test-reporter=spec --test-name-pattern='full fixture IDs' tests/quality-evaluation-harness.test.mjs
+node --test --test-reporter=spec tests/quality-evaluation-harness.test.mjs
+node --check scripts/quality-evaluation-harness.mjs
+node --check tests/quality-evaluation-harness.test.mjs
+```
+
+Focused green: **5/5 passed**. Complete regression suite: **61/61 passed**, zero
+skipped/cancelled, exit 0. Both syntax checks passed, exit 0. The scope comparison
+shows an append-only doc/test change and the nine-line ordinal replacement;
+the helper, frozen discovery bytes and immutable v1 review are unchanged. This
+follow-up changes only the harness ordinal gate, its new tests and this appended
+record. Discovery remains frozen. No provider/evaluation CLI, credential/auth,
+historical receipt, held-out body or other worktree is in scope. Parent/Gibbs
+retains independent review responsibility; no formal runs are performed here.

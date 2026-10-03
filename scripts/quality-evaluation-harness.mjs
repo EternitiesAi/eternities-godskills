@@ -180,8 +180,15 @@ export async function runEvaluation({cli,home,operation,fixtures,pack,fixtureCom
     if(typeof task.request!=='string'||!Array.isArray(task.skillIds))throw new Error('Invalid task');
     for(const [path,text]of Object.entries(task.files||{}))if(!/^[a-zA-Z0-9][a-zA-Z0-9._-]*$/.test(path)||typeof text!=='string')throw new Error('Invalid inert evidence file');
   }
-  const taskIds=['q01','q02','q03','q04','q05','q06'];
-  if(ids.size!==6||taskIds.some(id=>!ids.has(id)))throw new Error('Preregistered six tasks q01-q06 required');
+  const ordinals=['q01','q02','q03','q04','q05','q06'],byOrdinal=new Map();
+  for(const task of cases.tasks){
+    const ordinal=/^(q0[1-6])(?:-[a-z0-9][a-z0-9-]*)?$/.exec(task.id)?.[1];
+    if(!ordinal)throw new Error('Task ID must have a q01-q06 ordinal');
+    if(byOrdinal.has(ordinal))throw new Error('Duplicate task ordinal: '+ordinal);
+    byOrdinal.set(ordinal,task.id);
+  }
+  if(byOrdinal.size!==6||ordinals.some(ordinal=>!byOrdinal.has(ordinal)))throw new Error('Preregistered six task ordinals q01-q06 required');
+  const taskIds=ordinals.map(ordinal=>byOrdinal.get(ordinal));
   const bit=parseInt(hash(fixtureCommit).at(-1),16)&1;
   const schedule=[1,2].flatMap(wave=>taskIds.map((taskId,n)=>({wave,taskId,arm:(n+bit+wave-1)%2?'skill':'baseline'})));
   const manifestPath=join(operation,'manifest.json');

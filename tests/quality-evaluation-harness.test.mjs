@@ -349,3 +349,63 @@ test('tool contamination remains an invalid comparison even if the execution als
   assert.equal(result.status,'invalid');assert.equal(result.comparison,'invalid-comparison');
   assert.equal(result.timedOut,true);assert.equal(result.toolCalls,1);
 });
+
+// Break: the preregistered full IDs are rejected, or sorted ordinals replace
+// the original task/body identities. Every body here is synthetic and inert.
+test('full fixture IDs preserve ordinal waves and original body identity',()=>{
+  const result=probe(async lab=>{
+    await lab.tasks(['q06-continuity','q03-interpersonal','q01-voice','q05-audit','q02-imagination','q04-memory']);
+    const fixture=JSON.parse(await lab.fs.readFile(lab.options.fixtures,'utf8'));
+    for(const task of fixture.tasks){task.request=`SYNTHETIC BODY ${task.id}`;task.files={'fake.txt':`SYNTHETIC FILE ${task.id}`};}
+    await lab.put(lab.options.fixtures,fixture);
+    let error=null,states=[];try{states=await lab.run({concurrency:6});}catch(e){error=e.message;}
+    if(error)return {error,dispatch:lab.calls.length};
+    const manifest=JSON.parse(await lab.fs.readFile(lab.join(lab.options.operation,'manifest.json'),'utf8'));
+    const calls=lab.calls.filter(c=>c.args[0]==='exec');
+    const before=lab.calls.length,reused=await lab.run({concurrency:6});
+    return {error,manifest,states:states.map(s=>({taskId:s.taskId,identity:s.identity})),
+      calls:calls.map(c=>({job:c.cwd.split(/[\\/]/).at(-2),input:c.input,unfinished:c.unfinishedExec})),
+      replayCalls:lab.calls.length-before,replaySame:JSON.stringify(states)===JSON.stringify(reused)};
+  });
+  if(result.error)assert.equal(result.dispatch,0,'Rejected full IDs must not launch external preparation');
+  assert.equal(result.error,null,'Full preregistered IDs must be accepted without reading real task content');
+  const schedule=[
+    {wave:1,taskId:'q01-voice',arm:'skill'},{wave:1,taskId:'q02-imagination',arm:'baseline'},
+    {wave:1,taskId:'q03-interpersonal',arm:'skill'},{wave:1,taskId:'q04-memory',arm:'baseline'},
+    {wave:1,taskId:'q05-audit',arm:'skill'},{wave:1,taskId:'q06-continuity',arm:'baseline'},
+    {wave:2,taskId:'q01-voice',arm:'baseline'},{wave:2,taskId:'q02-imagination',arm:'skill'},
+    {wave:2,taskId:'q03-interpersonal',arm:'baseline'},{wave:2,taskId:'q04-memory',arm:'skill'},
+    {wave:2,taskId:'q05-audit',arm:'baseline'},{wave:2,taskId:'q06-continuity',arm:'skill'},
+  ];
+  assert.deepEqual(result.manifest.schedule,schedule);
+  assert.equal(result.states.length,12);assert.equal(result.calls.length,12);
+  assert.deepEqual(result.calls.slice(0,6).map(c=>c.job).sort(),[
+    'q01-voice-skill','q02-imagination-baseline','q03-interpersonal-skill',
+    'q04-memory-baseline','q05-audit-skill','q06-continuity-baseline',
+  ]);
+  assert.equal(result.calls[6].unfinished.length,0,'Opposite wave started before the first wave settled');
+  for(const row of schedule){
+    const state=result.states.find(s=>s.taskId===row.taskId&&s.identity.arm===row.arm);
+    assert.ok(state);assert.equal(state.identity.taskId,row.taskId);assert.equal(state.identity.wave,row.wave);
+    assert.deepEqual(state.identity.schedule,schedule);
+    const call=result.calls.find(c=>c.job===row.taskId+'-'+row.arm);
+    assert.ok(call.input.includes(`SYNTHETIC BODY ${row.taskId}\n`));
+    assert.ok(call.input.includes(`SYNTHETIC FILE ${row.taskId}\n`));
+    for(const other of schedule.filter(s=>s.wave===1&&s.taskId!==row.taskId))assert.ok(!call.input.includes(`SYNTHETIC BODY ${other.taskId}\n`));
+  }
+  assert.equal(result.replayCalls,0);assert.equal(result.replaySame,true);
+});
+
+for(const [label,ids,pattern]of [
+  ['duplicate ordinal',['q01-voice','q01-fake','q02-imagination','q03-interpersonal','q04-memory','q05-audit','q06-continuity'],'ordinal|q01-q06'],
+  ['missing ordinal',['q01-voice','q02-imagination','q03-interpersonal','q04-memory','q05-audit'],'ordinal|six|q01-q06'],
+  ['unknown ordinal',['q01-voice','q02-imagination','q03-interpersonal','q04-memory','q05-audit','q07-fake'],'ordinal|q01-q06'],
+  ['malformed ordinal',['q010-voice','q02-imagination','q03-interpersonal','q04-memory','q05-audit','q06-continuity'],'ordinal|q01-q06'],
+])test(`full fixture IDs reject ${label} before external preparation`,()=>{
+  const result=probe((async lab=>{
+    await lab.tasks(IDS);let error=null;try{await lab.run();}catch(e){error=e.message;}
+    const operationExists=await lab.fs.stat(lab.options.operation).then(()=>true,e=>{if(e.code==='ENOENT')return false;throw e;});
+    return {error,dispatch:lab.calls.length,operationExists};
+  }).toString().replace('IDS',JSON.stringify(ids)));
+  assert.match(result.error??'',new RegExp(pattern,'i'));assert.equal(result.dispatch,0);assert.equal(result.operationExists,false);
+});
