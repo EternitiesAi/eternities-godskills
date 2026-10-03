@@ -2,6 +2,7 @@ import { createHash } from 'node:crypto';
 import { readFile, writeFile, readdir, lstat, mkdir, cp, rename } from 'node:fs/promises';
 import { resolve, relative, join, dirname, parse, isAbsolute } from 'node:path';
 import {inspectMethodDirectory, renderMethodDirectory} from './method-directory.mjs';
+import {lexicalQueryEvidence, lexicalIntentMatch} from './discovery.mjs';
 
 const cmp=(a,b)=>a<b?-1:a>b?1:0;
 const idPattern=/^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$/;
@@ -151,7 +152,10 @@ export function searchCatalog(catalog,query,{limit=5,category,taskType}={}) {
   check(typeof query==='string'&&query.trim().length>0&&query.length<=4096,'Query must contain 1-4096 characters');
   check(Number.isInteger(limit)&&limit>=1&&limit<=20,'Limit must be an integer from 1 to 20');
   check(catalog.schema==='eternities-godskills-catalog-v1'&&Array.isArray(catalog.skills),'Invalid catalog');
-  const base=[...new Set(words(query))], expanded=new Set(base);
+  const evidence=lexicalQueryEvidence(query);
+  // In a corroborated writing request, "sound like me" describes prose. Keep
+  // literal audio/DSP queries on the established weighted-term path.
+  const base=[...new Set(words(query))].filter(term=>!evidence.writtenVoice||term!=='sound'), expanded=new Set(base);
   for(const group of groups)if(group.some(x=>expanded.has(x)))for(const word of group)expanded.add(word);
   const docs=catalog.skills.map(item=>({item,fields:[{weight:7,text:item.triggers.join(' ')},{weight:4,text:item.id.replaceAll('-',' ')},{weight:3,text:item.summary},{weight:1,text:item.category.replaceAll('-',' ')+' '+item.taskTypes.join(' ')}]}));
   const documentWords=docs.map(x=>new Set(words(x.fields.map(f=>f.text).join(' '))));
@@ -164,11 +168,12 @@ export function searchCatalog(catalog,query,{limit=5,category,taskType}={}) {
     let score=0;const matched=new Set();
     for(const field of doc.fields){const tokens=new Set(words(field.text));for(const term of expanded)if(tokens.has(term)){const direct=base.includes(term);score+=field.weight*(direct?1:0.25)*Math.log(1+docs.length/(1+(frequency.get(term)||0)));matched.add(term);}}
     if(query.trim().toLowerCase()===item.id){score+=100;matched.add(item.id);}
+    const intent=lexicalIntentMatch(item,evidence);score+=intent.score;
     if(!score)continue;
-    candidates.push({id:item.id,category:item.category,entrypoint:item.entrypoint,entrypointSha256:item.entrypointSha256,summary:item.summary,maturity:item.maturity,taskTypes:item.taskTypes,antiTriggers:item.antiTriggers,score:Math.round(score*1000)/1000,reasons:[`Matched: ${[...matched].sort(cmp).join(', ')}`],related:item.related,...(item.specializes?{specializes:item.specializes}:{})});
+    candidates.push({id:item.id,category:item.category,entrypoint:item.entrypoint,entrypointSha256:item.entrypointSha256,summary:item.summary,maturity:item.maturity,taskTypes:item.taskTypes,antiTriggers:item.antiTriggers,score:Math.round(score*1000)/1000,reasons:[...(matched.size?[`Matched: ${[...matched].sort(cmp).join(', ')}`]:[]),...intent.reasons],related:item.related,...(item.specializes?{specializes:item.specializes}:{})});
   }
   candidates.sort((a,b)=>b.score-a.score||cmp(a.id,b.id));
-  return {schema:'eternities-godskills-discovery-v1',authority:'none',activation:'none',method:'offline-weighted-terms-v1',query,results:candidates.slice(0,limit)};
+  return {schema:'eternities-godskills-discovery-v1',authority:'none',activation:'none',method:'offline-lexical-intent-phrases-v2',query,results:candidates.slice(0,limit)};
 }
 
 // Host-supplied task facts, not keyword inference. A shortlist never grants this subroute.
