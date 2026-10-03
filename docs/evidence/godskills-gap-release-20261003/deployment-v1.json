@@ -1,0 +1,65 @@
+{
+  "schema": "eternities-godskills-professional-gap-deployment-v1",
+  "recordedAtUtc": "2026-10-03T22:58:45Z",
+  "publishedContentCommit": "ca27fc75c87ebbae89fdfbb8822a25fa90bdfc73",
+  "publicationVerified": "Canonical local main, origin/main and remote refs/heads/main matched the content commit",
+  "releaseId": "602b06151fa0595580381011cef24fbdb7965fde0d7d983b8f8f34ee06f9c4d7",
+  "releaseFileSha256": "164eb8e74bf719b254ac10bc3d5742fbd296b1bc958423bbc4547a172ca7dd55",
+  "skillCount": 77,
+  "priorEvidenceFileSha256": "cf60346c6ce7fb29e91ffd258ed886d04aa2ff07ceaa8b55152282a9f04d9087",
+  "installation": {
+    "status": "installed-and-parent-verified",
+    "completedSkills": 77,
+    "managedNativeFiles": 218,
+    "portableRuntimeFiles": 250,
+    "journalFileSha256": "b6933c200c88df06b5c5e1e115059affefbfb003b39da7aa9378917190d4418d",
+    "beforeManifestFileSha256": "066743d5db2c7c4c68223401201e42bef95d19074f22c1aec4fdc74e77fc7203",
+    "afterManifestFileSha256": "7527178d457c1293d4357770e361b85e95833c8a925dce0cab48aba068e1d1ce",
+    "rollbackBackupVerified": true,
+    "priorReleaseId": "cc43b99316ef813f86097f3444598e4ec243124d50e6001572a8a190b6e07402",
+    "preservedPriorManagedFiles": 209,
+    "preservedPriorRuntimeFiles": 241,
+    "preservedUnrelatedNativeFiles": 56,
+    "installedCliValidation": "passed",
+    "appFreshSessionEnumeration": "not-observed",
+    "privateInventoriesPublished": false
+  },
+  "canonicalVerification": {
+    "interruptedV3": "No terminal receipt; zero-byte output preserved and not treated as a result",
+    "failedV4": {
+      "counts": {"tests": 1468, "pass": 1464, "fail": 2, "skipped": 2},
+      "tapSha256": "936ae3dfb7fac16e3475096299e4dc940dfc4f4e99c5975c9c481621a39d3db0",
+      "failureBoundary": "Two historical warehouse Git source reads ended around their 25-second timeout"
+    },
+    "focusedRepairCheck": {
+      "tests": 8,
+      "pass": 8,
+      "fail": 0,
+      "scope": "The two affected source-proof test files, separately run without code or timeout changes; parent-observed output"
+    },
+    "finalV5": {
+      "node": "v24.18.0",
+      "testConcurrency": 4,
+      "startedAtUtc": "2026-10-03T22:49:08.671Z",
+      "finishedAtUtc": "2026-10-03T22:49:51.766Z",
+      "counts": {"tests": 1468, "pass": 1466, "fail": 0, "skipped": 2},
+      "receiptFileSha256": "feac3746df75e7019d3b540e8f5b832f4b282ead7371152c28524c98f728fd07",
+      "tapSha256": "82f25cafd22ad3d5a33c82c0d4e0ea1b0e5ffed04364dccade049ba557e7c45d",
+      "skipReasons": ["Symbolic-link creation unavailable on this Windows account", "Optional second-volume case not configured in this run"]
+    },
+    "assertionsSourcesFixturesAndTimeoutsChangedForRetry": false
+  },
+  "protectedArtifacts": {
+    "src/adaptive-activation.mjs": "9844aee1147f7129f3e37067424ccebb88ff478de1b7a9a9fb7306d5f2fdbd82",
+    "policies/adaptive-activation.v1.json": "b87bbfaddecb42417e57202173220bf240204d27b7de5fffc9e609eb18138939",
+    "artifacts/adaptive-activation/evidence.v1.json": "b55a5cb4f7ff039cc7f4027c165b2f151bad723d9030913076a4225342fbe8c5"
+  },
+  "r10": {"applied": false, "actualOpenObligations": 49514, "conflicts": 163, "wholeCorpusComplete": false},
+  "limitations": [
+    "Installed bytes and CLI qualification do not prove app-session refresh or successful agent use",
+    "Host-supplied need facts are not automatic semantic selection",
+    "Same-host Windows and WSL checks are not a fresh-computer qualification",
+    "No real hiring, support, user-study, provider or model-performance outcomes measured",
+    "Hashes bind exact bytes, not source authenticity or legal clearance"
+  ]
+}
