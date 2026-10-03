@@ -2,15 +2,15 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
-import {probe} from './helpers/quality-harness-lab.mjs';
+import {probe} from 'file:///C:/dev/eternities-godskills/.worktrees/discovery-quality-20261003/tests/helpers/quality-harness-lab.mjs';
 
-// Source-pinned controls, portable across checkouts. The helper substitutes the CLI with fake
+// Source-pinned, local-only controls. The helper substitutes the CLI with fake
 // children and creates only disposable synthetic evidence/configuration files.
-const sourceRoot = new URL('../',import.meta.url);
+const sourceRoot = 'C:/dev/eternities-godskills/.worktrees/discovery-quality-20261003/';
 for (const [path, expected] of [
-  ['scripts/quality-evaluation-harness.mjs', 'bf3597564b64583223372cc1aef558e77ee795bb731ba52a48a29c0a26e9d08e'],
+  ['scripts/quality-evaluation-harness.mjs', '3bbc6c29bc4b4367ffbb766ec062ba0f56a7ed22088f650db3fc64bd07e85ccb'],
   ['tests/helpers/quality-harness-lab.mjs', '84195803dbdd33f2f50ef12f154e7770b3e1fcd6a5aa3d06a39ad8175e95a638'],
-]) assert.equal(createHash('sha256').update(readFileSync(new URL(path,sourceRoot))).digest('hex'), expected,
+]) assert.equal(createHash('sha256').update(readFileSync(sourceRoot + path)).digest('hex'), expected,
   'Frozen review source changed; do not run against an unreviewed version');
 
 test('crash-left operation claim is preserved and dispatch remains held', () => {

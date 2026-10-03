@@ -1,0 +1,11 @@
+# Pre-acceptance launcher amendment, October 3, 2026
+
+Before any accepted formal model invocation, the first six debug preflights exited successfully but the runner rejected them. Their emitted `internal_chat_message_metadata_passthrough.create_time` values differed from the approved reference. All normalized instruction texts, roles and provenance kinds were equal. The original operation, manifest, six preflight/state records and stopped summary remain preserved; no `exec` event or result files exist. This is a pre-acceptance launcher failure, not six model task failures or an opportunity to retry losing answers.
+
+The narrow repair ignores `create_time` only inside that message-provenance metadata object. A same-named field in instruction content remains significant. The focused regression first recorded one failure and one successful rejection control; after repair both passed. The complete repaired harness plus current independent controls passed 67/67 on the parent Windows/Node24 host.
+
+The original independent source-pinned reviewer control bytes are preserved in `review-controls/quality-harness-independent-review-v2.mjs`, outside automatic test discovery. Their original absolute author-worktree import would break a fresh clone. The executable root test now imports the same local helper and hash-checks the current reviewed harness relative to its own checkout. This relocation does not change its four semantic controls.
+
+Replacement is a new operation with fresh contexts for both members of all six pairs, not replay of the stopped operation. Before any replacement call, the repaired source must receive fresh independent delta review. Fixture commit, fixture/key bytes, original source-guidance bytes, requested Luna/max/provider, timeout, output contract, six-pair denominator, two-wave schedule and outcome thresholds remain unchanged. No task output exists to inform this amendment.
+
+Matched conditions remain factory-Codex baseline versus preselected exact Godskills guidance. Four factory skill descriptions remain; isolation evidence is captured-preflight-only and the served model is unreported. The metadata repair does not expand those claims. Blinding uses a recorded private random seed and deterministic per-task label assignment; only provisional model assessment is available, with no human adjudication.

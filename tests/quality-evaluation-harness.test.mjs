@@ -4,6 +4,28 @@ import { inspectIsolation, settledUsage, checkJobReplay } from '../scripts/quali
 import {probe} from './helpers/quality-harness-lab.mjs';
 
 const msg = text => ({type:'message',role:'developer',content:[{type:'input_text',text}]});
+test('fresh CLI create_time provenance is ephemeral only inside message metadata', () => {
+  const result=probe(async lab=>{
+    for(const message of lab.reference)message.internal_chat_message_metadata_passthrough.create_time=100;
+    await lab.put(lab.referencePath,lab.reference);
+    lab.control.prefix=structuredClone(lab.reference);
+    for(const message of lab.control.prefix)message.internal_chat_message_metadata_passthrough.create_time=101;
+    return {completed:(await lab.run()).filter(state=>state.status==='completed').length};
+  });
+  assert.equal(result.completed,12);
+});
+test('create_time outside provenance cannot hide changed captured instruction content', () => {
+  const result=probe(async lab=>{
+    lab.reference[0].content[0].create_time=100;
+    await lab.put(lab.referencePath,lab.reference);
+    lab.control.prefix=structuredClone(lab.reference);
+    lab.control.prefix[0].content[0].create_time=101;
+    let error;try{await lab.run();}catch(e){error=e.message;}
+    return {error,execs:lab.calls.filter(call=>call.args[0]==='exec').length};
+  });
+  assert.match(result.error,/invalid|reconcile/i);
+  assert.equal(result.execs,0);
+});
 test('preflight without an approved captured reference fails closed, including marker-free instructions', () => {
   assert.equal(inspectIsolation([msg('<skills_instructions>\n### Available skills\n- voice-style-calibration: rewrite\n</skills_instructions>')]).valid, false);
   const builtin=msg('<skills_instructions>\n### Skill roots\n- `r0` = `C:/factory/skills`\n### Available skills\n- openai-docs: official docs\n- skill-creator: build skills\n</skills_instructions>');

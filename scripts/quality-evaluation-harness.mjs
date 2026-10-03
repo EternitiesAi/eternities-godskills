@@ -37,9 +37,11 @@ async function validateReplay(job,prior,identity,reference) {
 const instructionKinds=new Set(['host_skills.instructions','permissions.instructions','collaboration_mode.instructions',
   'multi_agent.role_instructions','multi_agent.mode_instructions','environments.environment_context','user.text']);
 const ephemeralKeys=new Set(['id','message_id','timestamp','created_at','updated_at']);
-function canonical(value) {
-  if(Array.isArray(value))return value.map(canonical);
-  if(value&&typeof value==='object')return Object.fromEntries(Object.keys(value).sort().filter(key=>!ephemeralKeys.has(key)).map(key=>[key,canonical(value[key])]));
+function canonical(value,parentKey='') {
+  if(Array.isArray(value))return value.map(item=>canonical(item,parentKey));
+  if(value&&typeof value==='object')return Object.fromEntries(Object.keys(value).sort()
+    .filter(key=>!ephemeralKeys.has(key)&&!(parentKey==='internal_chat_message_metadata_passthrough'&&key==='create_time'))
+    .map(key=>[key,canonical(value[key],key)]));
   return value;
 }
 function capturedInput(input,workspace) {
