@@ -3,7 +3,9 @@
 export function lexicalSelectionBoundary(query) {
   const text=query.normalize('NFKC').toLowerCase().replace(/\s+/g,' ').trim();
   if(/\bask (?:one|a|an) clarifying question before (?:selecting|choosing|using) (?:a |an |the )?(?:skill|specialist|workflow)\b/.test(text))return 'clarification-requested-before-selection';
-  const workflow=/\b(?:build|implement|develop|design|audit|migrate|evaluate|test|verify|repair)\s+(?:a|an|the|this|our|my)\b/.test(text);
+  // Keep affirmative workflow verbs with an object, including plural objects
+  // without an article. A concise answer/counting substep is not the whole task.
+  const workflow=/\b(?:build|implement|develop|design|audit|migrate|evaluate|test|verify|repair|compare)\s+\p{L}/u.test(text);
   if(workflow)return null;
   const limited=/\b(?:give only|only the (?:number|result|text|count)|just answer|in one sentence|no rewrite[^.]*additional process)\b/.test(text);
   if(!limited)return null;

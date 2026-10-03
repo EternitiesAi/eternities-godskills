@@ -37,3 +37,11 @@ for(const query of [
 test('all exact catalog IDs remain addressable',()=>{
   for(const item of catalog.skills)assert.equal(searchCatalog(catalog,item.id,{limit:1}).results[0]?.id,item.id);
 });
+
+for(const query of [
+  'Audit obligations across documents and count the words; give only the findings.',
+  'Audit the obligations across documents and count the words; give only the findings.',
+  'Compare requirements across documents; the quoted checklist says "count the words". Give only the audit findings.',
+])test(`a concise audit is not mistaken for its incidental counting substep: ${query}`,()=>{
+  assert.equal(searchCatalog(catalog,query,{limit:3}).results[0]?.id,'completeness-and-consistency-audit');
+});

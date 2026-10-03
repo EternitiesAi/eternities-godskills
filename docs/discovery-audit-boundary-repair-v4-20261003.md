@@ -1,0 +1,7 @@
+# Repair of the affirmative-audit false abstention
+
+Independent v3 review is preserved as REPAIR. The parent reproduced two failures among three article/quotation controls: an affirmative audit and an affirmative comparison were discarded because the workflow guard required a determiner after the verb. The guard now conservatively preserves a workflow verb followed by a lexical object, including plural objects without an article. It includes implementation comparison, and does not treat concise-output or incidental counting wording as the entire task. All 61 development discovery tests passed afterward.
+
+The twelve genuinely fresh boundary probes on frozen v3 preserve 6/6 positive top-1 and hit-at-3, but abstain on 0/6 negative controls in both baseline and candidate. They include extraction, definition, date formatting, numerical comparison and other clarification wording outside the narrow lexical patterns. This is negative generalization evidence, not erased by passing development examples. No broad automatic skill-need classifier, arbitrary semantic negation or universal abstention claim is accepted. Search remains a suggestion aid; the consuming agent judges fit and may use no skill.
+
+The current repair changes neither those intentionally narrow boundary families nor the six practical treatment bodies. Its separate independent review and final release checks remain pending. Historical receipt bytes and source obligations are untouched.
