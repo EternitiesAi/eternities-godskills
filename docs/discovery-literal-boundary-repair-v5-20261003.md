@@ -1,0 +1,5 @@
+# Preserve literal payloads as data
+
+Independent v4 review remains REPAIR. The parent reproduced three failures for case conversion of double-quoted, single-quoted and backtick literal payloads containing workflow words. A real workflow outside a quoted counting phrase still passed. The narrow boundary now removes balanced inline literal spans before its request-boundary checks; word-internal apostrophes are not quote delimiters. This fixes the supplied-literal regression without suppressing affirmative audit/comparison outside those spans. All 65 development discovery checks passed afterward.
+
+This is not a full language, quoted-command or arbitrary negation parser. Curly or malformed/nested literal syntax, unsupported primitive families, contextual intent and multilingual requests remain unqualified. Previously retained fresh negative results are not replaced by these development regressions. The consuming agent must still judge applicability and may choose no skill. A fresh independent source review is required before adoption.

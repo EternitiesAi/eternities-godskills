@@ -1,7 +1,12 @@
 // Explicit English request boundaries, not a general semantic classifier.
 // Domain words in a supplied literal do not necessarily request a workflow.
 export function lexicalSelectionBoundary(query) {
-  const text=query.normalize('NFKC').toLowerCase().replace(/\s+/g,' ').trim();
+  // Balanced inline literals are data for these narrow casing/counting checks.
+  // Apostrophes inside words are not quote delimiters; escaped quotes remain data.
+  const request=query.replace(/"(?:\\.|[^"\\])*"/g,' ')
+    .replace(/(?<![\p{L}\p{N}])'(?:\\.|[^'\\])*'(?![\p{L}\p{N}])/gu,' ')
+    .replace(/`[^`]*`/g,' ');
+  const text=request.normalize('NFKC').toLowerCase().replace(/\s+/g,' ').trim();
   if(/\bask (?:one|a|an) clarifying question before (?:selecting|choosing|using) (?:a |an |the )?(?:skill|specialist|workflow)\b/.test(text))return 'clarification-requested-before-selection';
   // Keep affirmative workflow verbs with an object, including plural objects
   // without an article. A concise answer/counting substep is not the whole task.

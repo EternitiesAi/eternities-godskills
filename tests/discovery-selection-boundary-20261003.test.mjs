@@ -38,6 +38,14 @@ test('all exact catalog IDs remain addressable',()=>{
   for(const item of catalog.skills)assert.equal(searchCatalog(catalog,item.id,{limit:1}).results[0]?.id,item.id);
 });
 
+for(const literal of ['"compare requirements"',"'AUDIT OBLIGATIONS'",'`design a service`'])test(`quoted casing input is data, not an active workflow: ${literal}`,()=>{
+  assert.deepEqual(searchCatalog(catalog,`Uppercase the literal text ${literal}. Give only the text.`,{limit:3}).results,[]);
+});
+
+test('an affirmative workflow outside a literal remains discoverable',()=>{
+  assert.ok(searchCatalog(catalog,'Audit obligations across documents; the quoted input is "count the words". Give only the findings.',{limit:3}).results.length>0);
+});
+
 for(const query of [
   'Audit obligations across documents and count the words; give only the findings.',
   'Audit the obligations across documents and count the words; give only the findings.',
