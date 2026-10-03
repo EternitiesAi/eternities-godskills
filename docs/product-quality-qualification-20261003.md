@@ -152,6 +152,9 @@ skills. Installation status is recorded separately, never inferred from tests.
 Protected activation bytes, historical receipts, source obligations and the
 paused whole-corpus automation remain untouched.
 
+The subsequently verified [native installation record](product-quality-installation-20261003.md)
+binds the applied release, rollback backup and exact before/after hashes.
+
 Highest-leverage future qualification is a bounded caller-side selection test
 with genuinely new negative intents, then more discriminating real tasks beyond
 the present ceiling. That work is not silently added to this completed batch.
