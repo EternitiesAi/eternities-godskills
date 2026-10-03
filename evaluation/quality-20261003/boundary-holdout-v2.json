@@ -1,0 +1,78 @@
+{
+  "schema": "godskills-quality-fixtures-v1",
+  "tasks": [],
+  "retrieval": [
+    {
+      "id": "boundary-v2-n01",
+      "query": "Return exactly the text inside the extract tags in this supplied string: Before <extract>Same voice, new draft.</extract> After. This is literal extraction; do not rewrite, infer a voice, or add commentary.",
+      "acceptableIds": [],
+      "kind": "negative"
+    },
+    {
+      "id": "boundary-v2-n02",
+      "query": "The entire request I received is 'Please validate it.' No object, data, or success condition was supplied. Give one question that would establish what must be validated and against which criterion before choosing a method.",
+      "acceptableIds": [],
+      "kind": "negative"
+    },
+    {
+      "id": "boundary-v2-n03",
+      "query": "In a hiking itinerary, what does 'checkpoint' mean? Give a brief everyday definition for a child reading the map. There are no saved decisions, computer records, or interrupted tasks to recover.",
+      "acceptableIds": [],
+      "kind": "negative"
+    },
+    {
+      "id": "boundary-v2-n04",
+      "query": "Reformat the already supplied date 2026-10-03 as day, full English month, and year. Give only the formatted date. No timezone conversion, scheduling, scene planning, or verification is requested.",
+      "acceptableIds": [],
+      "kind": "negative"
+    },
+    {
+      "id": "boundary-v2-n05",
+      "query": "Someone wrote 'the bank needs work' without any other context. Ask whether they mean a financial institution, a riverbank, or something else, and what outcome they want. Do not assume a financial or environmental workflow yet.",
+      "acceptableIds": [],
+      "kind": "negative"
+    },
+    {
+      "id": "boundary-v2-n06",
+      "query": "A worksheet supplies two sighting counts: Meadow = 3 and Quarry = 5. Return only the place with the larger supplied count. Do not estimate abundance, explain why counts differ, or draw a population conclusion.",
+      "acceptableIds": [],
+      "kind": "negative"
+    },
+    {
+      "id": "boundary-v2-p01",
+      "query": "Two batches of a director's writing pull in different directions: fundraising updates are restrained, while private critiques are abrupt. From the supplied samples, decide which recurring features transfer to a public apology for a delayed exhibition, then draft it from the dated facts. Keep quotations attributed, avoid importing private opinions, and explain which register you chose.",
+      "acceptableIds": ["voice-style-calibration"],
+      "kind": "positive"
+    },
+    {
+      "id": "boundary-v2-p02",
+      "query": "Validate a heat-diffusion solver whose plotted temperature looks smooth but whose total heat increases in an insulated box. Use the supplied units, initial condition, and three mesh/time-step runs to check conservation and convergence, propose an independent limiting-case comparison, and state what evidence would distinguish a discretization defect from a reporting error.",
+      "acceptableIds": ["physics-constrained-numerical-validation"],
+      "kind": "positive"
+    },
+    {
+      "id": "boundary-v2-p03",
+      "query": "Recover a usable decision record after a folder migration gave every note the same modified timestamp. A March checkpoint selected option A, an April signed decision selected B, and a current branch receipt shows B was implemented but not accepted. Resolve the chronology from the contents, preserve the acceptance gap, and write a minimal record that prevents the next person from reviving A as the current decision.",
+      "acceptableIds": ["memory-retention-and-recovery", "eternities-mnemosyne"],
+      "kind": "positive"
+    },
+    {
+      "id": "boundary-v2-p04",
+      "query": "Plan coverage for a scene in which one character passes a sealed letter to another during a seven-second walk through a doorway. The wide shot and close-up will be filmed on different dates. Establish a shared action timeline, screen direction, hand and prop states at the cut, and an alternative edit if the close-up starts late, using only the supplied room sketch and blocking notes.",
+      "acceptableIds": ["scene-continuity-and-coverage"],
+      "kind": "positive"
+    },
+    {
+      "id": "boundary-v2-p05",
+      "query": "Our exhibition can show a profit yet exhaust its bank balance before opening because suppliers require deposits and ticket revenue settles later. From the supplied dated receipts, deposit schedule, and opening cash, build a cash forecast through opening, identify the lowest balance, and compare delayed opening and slower settlement scenarios without counting unpaid ticket orders as available cash.",
+      "acceptableIds": ["cashflow-forecast-scenario-integrity"],
+      "kind": "positive"
+    },
+    {
+      "id": "boundary-v2-p06",
+      "query": "Prepare a detection-aware observation protocol for repeated wildlife visits to six sites. Pilot logs mix genuine zero sightings with recorder failures and unequal visit durations. Define event and effort records, explain how to retain failed visits without treating them as absence, and specify what repeated observations and uncertainty reporting are needed before comparing occupancy across sites.",
+      "acceptableIds": ["ecological-sampling-and-detection-uncertainty"],
+      "kind": "positive"
+    }
+  ]
+}
