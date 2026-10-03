@@ -2,10 +2,16 @@
 
 ## Current product and frozen research accounting
 
-The shipped catalog contains **68 skill entrypoints**, not 50,000 installed
+The shipped catalog contains **74 skill entrypoints**, not 50,000 installed
 skills. The larger number counts unresolved source-review obligations across
 overlapping research inputs. Source copies, identities, bodies and review
 obligations are different units; none is a product quality score.
+
+The October 3 cognitive/workflow release adds six reviewed methods to the earlier
+68-entrypoint milestone. Historical release counts below describe their own
+snapshots; they are not the current catalog count. See the repository's
+`docs/cognitive-workflows-20261003-verification.md` for the exact release and its
+bounded application evidence. The source ledger was not changed by that release.
 
 The frozen September 23 R10 ledger, rechecked on October 2, records:
 

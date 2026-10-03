@@ -33,12 +33,24 @@ node bin/godskills.mjs search "release readiness" --task verify
 node bin/godskills.mjs route "Analyze the supplied report only; do not discover connected data" --input-scope supplied-only --connected-purpose none --discovery prohibited
 ```
 
-Search combines weighted terms, a small explicit synonym vocabulary, and stable
-ties. It searches specialists as well as broad capabilities, returns matched
-terms and related IDs, and never executes anything. It is deterministic lexical
+Search combines weighted terms, a small explicit synonym vocabulary, stable
+ties, and bounded lexical intent profiles. A profile requires several request
+cues and matching skill metadata; it does not identify a skill from an exact
+query lookup. Profiles currently cover written voice, interpersonal clarification,
+task-record recovery, delivery completeness, and sustained-work reconciliation.
+Search returns matched terms, profile reasons and related IDs, and never executes
+anything. The `offline-lexical-intent-phrases-v3` method is deterministic lexical
 retrieval, not a claim of semantic understanding or vector-search superiority.
 The agent still judges applicability against the actual task. A low-quality
 match is not an instruction to force a skill into the work.
+
+For explicit limited arithmetic, casing, counting, grammar or metaphor questions,
+and an explicit request to clarify before choosing a specialist, search can return
+no suggestions with an `abstentionReason`. These narrow English request rules do
+not solve arbitrary intent, quotation scope or negation. A request to build,
+design, implement or audit a workflow is not suppressed merely because it also
+mentions a literal operation. Absence of a rule match does not establish that a
+skill is necessary; the host still checks fit.
 
 An exact normalized phrase from a skill's declared anti-triggers suppresses that
 match. This is a limited negative-match rule, not general semantic negation or an

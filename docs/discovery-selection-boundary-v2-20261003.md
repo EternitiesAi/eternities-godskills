@@ -1,0 +1,9 @@
+# Explicit selection-boundary repair
+
+The immutable fresh v1 observation used independent fixture commit `02a43b423553ede5da8c72427c24b5eb1bfe9dba` and frozen candidate release `914063dad3d3b7acdc9ad527cf720c1ab11f7dfced30ec4fd47674c237fddd0c`. Baseline positive top-1 was 17/24, candidate 18/24, both hit-at-3 21/24, and both abstained on 0/6 negative controls. Preserve that result; it is not erased or retrospectively reclassified as development evidence.
+
+That observation exposed over-selection for explicit micro-tasks and a clarification-first request. The parent authored a separate bounded repair after observing it. The old six controls, plus two new authored variations, now form development regressions, not independent evaluation of this new repair. Before code changes, 8/14 new tests failed against functioning search; six workflow/exact-ID controls passed. After changes, all 14 passed, together with the 42 prior development regressions.
+
+`selection-boundary.mjs` distinguishes two explicit lexical boundaries: a request to ask before selecting a specialist, and a constrained answer paired with a narrow literal operation. It has no skill-ID table, exact-query lookup, provider, tool, permission or activation effect. Workflow verbs paired with an object conservatively retain search. Scores and all normal discovery rules remain independent of this boundary. Empty results expose a reason rather than pretending that low scores are meaningful probabilities.
+
+This remains a finite English heuristic. It does not parse arbitrary quoted instructions, clause scope, broad negation or multilingual intent. The v1 paraphrase misses remain real limitations. The repaired controls are not a universal abstention proof. Separate independent source review and fresh boundary controls remain pending before promotion. Historical source obligations and frozen activation bytes are untouched.

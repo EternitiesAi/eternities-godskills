@@ -3,6 +3,7 @@ import { readFile, writeFile, readdir, lstat, mkdir, cp, rename } from 'node:fs/
 import { resolve, relative, join, dirname, parse, isAbsolute } from 'node:path';
 import {inspectMethodDirectory, renderMethodDirectory} from './method-directory.mjs';
 import {lexicalQueryEvidence, lexicalIntentMatch} from './discovery.mjs';
+import {lexicalSelectionBoundary} from './selection-boundary.mjs';
 
 const cmp=(a,b)=>a<b?-1:a>b?1:0;
 const idPattern=/^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$/;
@@ -152,6 +153,8 @@ export function searchCatalog(catalog,query,{limit=5,category,taskType}={}) {
   check(typeof query==='string'&&query.trim().length>0&&query.length<=4096,'Query must contain 1-4096 characters');
   check(Number.isInteger(limit)&&limit>=1&&limit<=20,'Limit must be an integer from 1 to 20');
   check(catalog.schema==='eternities-godskills-catalog-v1'&&Array.isArray(catalog.skills),'Invalid catalog');
+  const abstentionReason=lexicalSelectionBoundary(query);
+  if(abstentionReason)return {schema:'eternities-godskills-discovery-v1',authority:'none',activation:'none',method:'offline-lexical-intent-phrases-v3',query,results:[],abstentionReason};
   const evidence=lexicalQueryEvidence(query);
   // In a corroborated writing request, "sound like me" describes prose. Keep
   // literal audio/DSP queries on the established weighted-term path.
@@ -173,7 +176,7 @@ export function searchCatalog(catalog,query,{limit=5,category,taskType}={}) {
     candidates.push({id:item.id,category:item.category,entrypoint:item.entrypoint,entrypointSha256:item.entrypointSha256,summary:item.summary,maturity:item.maturity,taskTypes:item.taskTypes,antiTriggers:item.antiTriggers,score:Math.round(score*1000)/1000,reasons:[...(matched.size?[`Matched: ${[...matched].sort(cmp).join(', ')}`]:[]),...intent.reasons],related:item.related,...(item.specializes?{specializes:item.specializes}:{})});
   }
   candidates.sort((a,b)=>b.score-a.score||cmp(a.id,b.id));
-  return {schema:'eternities-godskills-discovery-v1',authority:'none',activation:'none',method:'offline-lexical-intent-phrases-v2',query,results:candidates.slice(0,limit)};
+  return {schema:'eternities-godskills-discovery-v1',authority:'none',activation:'none',method:'offline-lexical-intent-phrases-v3',query,results:candidates.slice(0,limit)};
 }
 
 // Host-supplied task facts, not keyword inference. A shortlist never grants this subroute.
