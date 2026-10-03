@@ -1,0 +1,260 @@
+{
+  "schema": "godskills-assessor-uncertainty-envelope-v1",
+  "tasks": [
+    {
+      "taskId": "q01-voice",
+      "ranges": [
+        {
+          "assessor": 1,
+          "baseline": [
+            70,
+            70
+          ],
+          "skill": [
+            100,
+            100
+          ],
+          "delta": [
+            30,
+            30
+          ]
+        },
+        {
+          "assessor": 2,
+          "baseline": [
+            82.5,
+            100
+          ],
+          "skill": [
+            87.5,
+            100
+          ],
+          "delta": [
+            -12.5,
+            17.5
+          ]
+        }
+      ],
+      "combinedCartesianDelta": [
+        -12.5,
+        30
+      ]
+    },
+    {
+      "taskId": "q02-imagination",
+      "ranges": [
+        {
+          "assessor": 1,
+          "baseline": [
+            100,
+            100
+          ],
+          "skill": [
+            100,
+            100
+          ],
+          "delta": [
+            0,
+            0
+          ]
+        },
+        {
+          "assessor": 2,
+          "baseline": [
+            100,
+            100
+          ],
+          "skill": [
+            100,
+            100
+          ],
+          "delta": [
+            0,
+            0
+          ]
+        }
+      ],
+      "combinedCartesianDelta": [
+        0,
+        0
+      ]
+    },
+    {
+      "taskId": "q03-interpersonal",
+      "ranges": [
+        {
+          "assessor": 1,
+          "baseline": [
+            92.5,
+            92.5
+          ],
+          "skill": [
+            100,
+            100
+          ],
+          "delta": [
+            7.5,
+            7.5
+          ]
+        },
+        {
+          "assessor": 2,
+          "baseline": [
+            92.5,
+            100
+          ],
+          "skill": [
+            100,
+            100
+          ],
+          "delta": [
+            0,
+            7.5
+          ]
+        }
+      ],
+      "combinedCartesianDelta": [
+        0,
+        7.5
+      ]
+    },
+    {
+      "taskId": "q04-memory",
+      "ranges": [
+        {
+          "assessor": 1,
+          "baseline": [
+            100,
+            100
+          ],
+          "skill": [
+            100,
+            100
+          ],
+          "delta": [
+            0,
+            0
+          ]
+        },
+        {
+          "assessor": 2,
+          "baseline": [
+            100,
+            100
+          ],
+          "skill": [
+            100,
+            100
+          ],
+          "delta": [
+            0,
+            0
+          ]
+        }
+      ],
+      "combinedCartesianDelta": [
+        0,
+        0
+      ]
+    },
+    {
+      "taskId": "q05-audit",
+      "ranges": [
+        {
+          "assessor": 1,
+          "baseline": [
+            92.5,
+            92.5
+          ],
+          "skill": [
+            100,
+            100
+          ],
+          "delta": [
+            7.5,
+            7.5
+          ]
+        },
+        {
+          "assessor": 2,
+          "baseline": [
+            92.5,
+            100
+          ],
+          "skill": [
+            100,
+            100
+          ],
+          "delta": [
+            0,
+            7.5
+          ]
+        }
+      ],
+      "combinedCartesianDelta": [
+        0,
+        7.5
+      ]
+    },
+    {
+      "taskId": "q06-continuity",
+      "ranges": [
+        {
+          "assessor": 1,
+          "baseline": [
+            92.5,
+            92.5
+          ],
+          "skill": [
+            100,
+            100
+          ],
+          "delta": [
+            7.5,
+            7.5
+          ]
+        },
+        {
+          "assessor": 2,
+          "baseline": [
+            100,
+            100
+          ],
+          "skill": [
+            100,
+            100
+          ],
+          "delta": [
+            0,
+            0
+          ]
+        }
+      ],
+      "combinedCartesianDelta": [
+        0,
+        7.5
+      ]
+    }
+  ],
+  "meanCartesianEnvelope": [
+    -2.0833333333333335,
+    8.75
+  ],
+  "perAssessorMeanEnvelopes": [
+    {
+      "assessor": 1,
+      "range": [
+        8.75,
+        8.75
+      ]
+    },
+    {
+      "assessor": 2,
+      "range": [
+        -2.0833333333333335,
+        5.416666666666667
+      ]
+    }
+  ],
+  "scope": "Conservative Cartesian combinations of recorded model point scores and assessor-reported alternative score ranges. Not a confidence interval, probability, adjudication or demonstrated simultaneous outcome. Original grades unchanged."
+}

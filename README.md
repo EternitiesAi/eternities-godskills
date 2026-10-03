@@ -7,7 +7,7 @@ optional consumers, not prerequisites.
 
 ## Portable product
 
-The self-contained pack is in **[product/](product/README.md)**: 68 refined
+The self-contained pack is in **[product/](product/README.md)**: 74 refined
 skill entrypoints organized into 21 primary domains, with the 26 existing owner
 extensions folded into relevant methods. It includes broad and specialist
 discovery, a compact relationship catalog, explainable offline search, an exact
@@ -16,6 +16,14 @@ Node, API, warehouse, personal folder, Keel, or Godagents installation. The
 optional CLI uses Node built-ins only.
 
 The October 2 reviewed snapshot is available as a [standalone ZIP](artifacts/releases/godskills-product-20261002-f6d71194.zip), with its [SHA-256 sidecar](artifacts/releases/godskills-product-20261002-f6d71194.zip.sha256). It includes a [selected smaller-method directory](product/METHODS.v1.md): discover a useful method from ordinary task descriptions and exclusions, then read its complete owner and matching reference. The directory does not activate skills or replace agent judgment. See the [snapshot verification record](docs/product-release-20261002-finalization.md) for exact checks, review scopes and remaining limits.
+
+The [October 3 quality qualification](docs/product-quality-qualification-20261003.md)
+records repaired offline discovery, portable packaging checks, and twelve
+matched Luna executions with two blinded model assessments. Practical results
+were mixed-positive, not a universal win; general negative-intent discovery
+remains limited. The [new standalone snapshot](artifacts/releases/godskills-product-20261003-cc43b993.zip)
+and [SHA-256 sidecar](artifacts/releases/godskills-product-20261003-cc43b993.zip.sha256)
+contain the same 74 skill bodies and references, with the reviewed routing fixes.
 
 For a new computer, copy only `product/` or export its verified standalone ZIP:
 

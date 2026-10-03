@@ -1,0 +1,14 @@
+{
+  "schema": "godskills-portable-qualification-v1",
+  "candidateReleaseId": "cc43b99316ef813f86097f3444598e4ec243124d50e6001572a8a190b6e07402",
+  "candidateSourceCommit": "446363488f266aa99fa47e53fc5392f1b33c4a6a",
+  "environment": "Ubuntu WSL on the same Windows host; isolated persistent /var/tmp workspace and minimal environment",
+  "workspace": "/var/tmp/godskills-quality-20261003.3ItiK4/checkout-v5",
+  "node": "v24.18.0 official Linux x64; archive SHA-256 55aa7153f9d88f28d765fcdad5ae6945b5c0f98a36881703817e4c450fa76742",
+  "tests": ["tests/universal-product.test.mjs", "tests/discovery-quality-20261003.test.mjs", "tests/discovery-selection-boundary-20261003.test.mjs"],
+  "result": {"registered":86,"pass":86,"fail":0,"cancelled":0,"skip":0,"exitCode":0,"reportedDurationMs":4981.709759},
+  "returnedTestOutput": {"unifiedExecSession":75237,"chunkId":"b83c0c","completeTapReturned":true},
+  "standaloneValidation": {"status":"verified-content","releaseId":"cc43b99316ef813f86097f3444598e4ec243124d50e6001572a8a190b6e07402","skillCount":74,"exitCode":0,"chunkId":"3eb623"},
+  "secondVolumeFixture": "/mnt/c/Users/Dom/.codex/operations/godskills-quality-20261003/linux-second-volume",
+  "limits": ["Not a separate fresh OS or computer", "No macOS execution", "No live Linux installation", "Development/regression tests do not prove model quality or general semantic intent recognition"]
+}

@@ -1,0 +1,1185 @@
+{
+  "schema": "godskills-fresh-retrieval-observation-v1",
+  "fixtureSha256": "686d72d75d63c0dc4cae6925dc6b872f34895bd325c308b70c2eadf404518822",
+  "arms": [
+    {
+      "name": "baseline",
+      "releaseId": "54688268f540ce974272f4619f88d97adde80a0c058325a5b8f960432370a0dd",
+      "catalogSha256": "02af51a684ac09320f8ec9037c8a543c571ab381b299655b02147309e769009c",
+      "counts": {
+        "cases": 30,
+        "positive": 24,
+        "top1": 17,
+        "top3": 21,
+        "negative": 6,
+        "negativeAbstentions": 0
+      },
+      "rows": [
+        {
+          "id": "r01",
+          "kind": "positive",
+          "query": "Make these two announcements sound like our founder's own writing, but keep the limited pilot results and unresolved support issue honest.",
+          "acceptableIds": [
+            "voice-style-calibration"
+          ],
+          "actual": [
+            "eternities-logos",
+            "lazy-tabular-transformation-and-validation",
+            "voice-style-calibration"
+          ],
+          "top1": false,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r02",
+          "kind": "positive",
+          "query": "The rewrite is accurate but sounds generic. Infer the writer's habits from her samples and adapt them for a worried customer.",
+          "acceptableIds": [
+            "voice-style-calibration"
+          ],
+          "actual": [
+            "voice-style-calibration",
+            "eternities-prometheus",
+            "semantic-implementation-diff"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r03",
+          "kind": "positive",
+          "query": "Give a museum three different ways visitors could influence an imaginary river's memories, with an affordable offline prototype for each.",
+          "acceptableIds": [
+            "imaginative-concept-development"
+          ],
+          "actual": [
+            "eternities-omnibus",
+            "eternities-arcadia",
+            "imaginative-concept-development"
+          ],
+          "top1": false,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r04",
+          "kind": "positive",
+          "query": "These proposals are the same activity with different names. Develop alternatives that change what participants choose and what those choices cause.",
+          "acceptableIds": [
+            "imaginative-concept-development"
+          ],
+          "actual": [
+            "imaginative-concept-development",
+            "bounded-parametric-design-iteration",
+            "diagnostic-statistical-model-inference"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r05",
+          "kind": "positive",
+          "query": "My collaborator objected after I invited outsiders to a rehearsal. Help me own the mistake and draft a repair message without guessing their motives.",
+          "acceptableIds": [
+            "interpersonal-understanding-and-dialogue"
+          ],
+          "actual": [
+            "interpersonal-understanding-and-dialogue",
+            "eternities-muse",
+            "eternities-logos"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r06",
+          "kind": "positive",
+          "query": "Read this awkward exchange, separate what was actually said from possible interpretations, and help me reopen the conversation respectfully.",
+          "acceptableIds": [
+            "interpersonal-understanding-and-dialogue"
+          ],
+          "actual": [
+            "eternities-atlas",
+            "app-store-discovery-experiments",
+            "measured-paid-creative-iteration"
+          ],
+          "top1": false,
+          "top3": false,
+          "negative": false
+        },
+        {
+          "id": "r07",
+          "kind": "positive",
+          "query": "A recent summary says the job was cancelled, but its source is a timeout receipt. Recover the state and write a short note safe to resume from.",
+          "acceptableIds": [
+            "memory-retention-and-recovery",
+            "eternities-mnemosyne"
+          ],
+          "actual": [
+            "eternities-logos",
+            "memory-retention-and-recovery",
+            "bounded-service-shutdown"
+          ],
+          "top1": false,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r08",
+          "kind": "positive",
+          "query": "I lost the thread after an interruption. Reconcile the old handoff with newer observations and retain only the decisions and evidence pointers we still need.",
+          "acceptableIds": [
+            "memory-retention-and-recovery",
+            "eternities-mnemosyne"
+          ],
+          "actual": [
+            "memory-retention-and-recovery",
+            "evidence-linked-learning-design",
+            "eternities-chorus"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r09",
+          "kind": "positive",
+          "query": "Check a delivery's contract, spreadsheet export, budget, and signoff for missing obligations and claims that disagree across files.",
+          "acceptableIds": [
+            "completeness-and-consistency-audit"
+          ],
+          "actual": [
+            "jurisdiction-aware-contract-review",
+            "completeness-and-consistency-audit",
+            "scientific-surrogate-validation"
+          ],
+          "top1": false,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r10",
+          "kind": "positive",
+          "query": "The summary says everything is done. Trace each promised deliverable to actual evidence and tell me which gaps prevent acceptance.",
+          "acceptableIds": [
+            "completeness-and-consistency-audit"
+          ],
+          "actual": [
+            "completeness-and-consistency-audit",
+            "eternities-muse",
+            "eternities-omnibus"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r11",
+          "kind": "positive",
+          "query": "Continue a deadline-bound delivery after a disconnect, accounting for accepted paid jobs, uncertain responses, and work we can safely do while waiting.",
+          "acceptableIds": [
+            "long-horizon-work-continuity"
+          ],
+          "actual": [
+            "api-rate-limit-recovery",
+            "bounded-verified-object-ingestion",
+            "measured-paid-creative-iteration"
+          ],
+          "top1": false,
+          "top3": false,
+          "negative": false
+        },
+        {
+          "id": "r12",
+          "kind": "positive",
+          "query": "The handoff says restart, but submission receipts show existing work. Build a recovery plan that carries the goal forward without paying for duplicate runs.",
+          "acceptableIds": [
+            "long-horizon-work-continuity"
+          ],
+          "actual": [
+            "bounded-parametric-design-iteration",
+            "memory-retention-and-recovery",
+            "eternities-phoenix"
+          ],
+          "top1": false,
+          "top3": false,
+          "negative": false
+        },
+        {
+          "id": "r13",
+          "kind": "positive",
+          "query": "Our request retries create duplicate orders after a 429. Design bounded retry and cancellation behavior using the supplied idempotency and Retry-After semantics.",
+          "acceptableIds": [
+            "api-rate-limit-recovery"
+          ],
+          "actual": [
+            "api-rate-limit-recovery",
+            "eternities-muse",
+            "bounded-service-shutdown"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r14",
+          "kind": "positive",
+          "query": "The service exits while requests are still active. Design a finite drain with an admission fence and evidence distinguishing graceful from forced shutdown.",
+          "acceptableIds": [
+            "bounded-service-shutdown"
+          ],
+          "actual": [
+            "bounded-service-shutdown",
+            "bounded-parametric-design-iteration",
+            "eternities-agora"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r15",
+          "kind": "positive",
+          "query": "A manifest-bound data import must reject wrong digests, stage atomically, and make a second import a harmless replay. Review the ingestion design.",
+          "acceptableIds": [
+            "bounded-verified-object-ingestion"
+          ],
+          "actual": [
+            "bounded-verified-object-ingestion",
+            "columnar-ingestion-rollup-and-query-layout-design",
+            "eternities-atlas"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r16",
+          "kind": "positive",
+          "query": "This cash forecast treats signed contracts as money already in the bank. Rebuild weekly settlement timing and test a delayed-payment scenario against the cash floor.",
+          "acceptableIds": [
+            "cashflow-forecast-scenario-integrity"
+          ],
+          "actual": [
+            "cashflow-forecast-scenario-integrity",
+            "financial-statement-reconciliation",
+            "robotics-test-ladder"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r17",
+          "kind": "positive",
+          "query": "The dashboard's lake locations align horizontally but the elevations differ by a constant offset. Check horizontal and vertical reference systems and units.",
+          "acceptableIds": [
+            "geospatial-coordinate-integrity"
+          ],
+          "actual": [
+            "geospatial-coordinate-integrity",
+            "symbolic-mathematics-python",
+            "semantic-implementation-diff"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r18",
+          "kind": "positive",
+          "query": "Our wildlife report calls fewer sightings a population decline, although survey effort changed. Audit sampling and imperfect detection before making that claim.",
+          "acceptableIds": [
+            "ecological-sampling-and-detection-uncertainty"
+          ],
+          "actual": [
+            "ecological-sampling-and-detection-uncertainty",
+            "diagnostic-statistical-model-inference",
+            "eternities-agora"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r19",
+          "kind": "positive",
+          "query": "A surrogate looks accurate because rows from the same simulation occur in training and test. Design grouped evaluation and separately fitted uncertainty calibration.",
+          "acceptableIds": [
+            "scientific-surrogate-validation"
+          ],
+          "actual": [
+            "scientific-surrogate-validation",
+            "physics-constrained-numerical-validation",
+            "robotics-test-ladder"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r20",
+          "kind": "positive",
+          "query": "A cached feature set might have been made with the wrong checkpoint and split. Establish its training-artifact lineage before resuming the experiment.",
+          "acceptableIds": [
+            "experiment-artifact-lineage"
+          ],
+          "actual": [
+            "experiment-artifact-lineage",
+            "eternities-atlas",
+            "memory-retention-and-recovery"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r21",
+          "kind": "positive",
+          "query": "The Arabic checkout reverses some mixed-direction account numbers and moves keyboard focus unpredictably. Plan locale-aware layout and interaction verification.",
+          "acceptableIds": [
+            "interface-localization-and-bidirectionality"
+          ],
+          "actual": [
+            "interface-localization-and-bidirectionality",
+            "eternities-arcadia",
+            "native-mobile-interaction-testing"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r22",
+          "kind": "positive",
+          "query": "Our speech chunks cut a combining character in half and lose the link to the script after cancellation. Design traceable multilingual chunk boundaries.",
+          "acceptableIds": [
+            "portable-speech-chunk-alignment"
+          ],
+          "actual": [
+            "portable-speech-chunk-alignment",
+            "eternities-daedalus",
+            "web-performance-optimization"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r23",
+          "kind": "positive",
+          "query": "Review this supplier contract's notice and termination clauses against our goals, keeping document facts separate from jurisdiction-dependent conclusions.",
+          "acceptableIds": [
+            "jurisdiction-aware-contract-review"
+          ],
+          "actual": [
+            "jurisdiction-aware-contract-review",
+            "bounded-service-shutdown",
+            "completeness-and-consistency-audit"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r24",
+          "kind": "positive",
+          "query": "An assistant produces valid JSON but invents record IDs and links to nonexistent entities. Define source-bound identifiers and relationship validation for the output contract.",
+          "acceptableIds": [
+            "structured-output-contracts"
+          ],
+          "actual": [
+            "structured-output-contracts",
+            "jurisdiction-aware-contract-review",
+            "formula-preserving-workbook-engineering"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r25",
+          "kind": "negative",
+          "query": "What is 17 plus 26? Give only the number.",
+          "acceptableIds": [],
+          "actual": [
+            "confirmed-destructive-reconstruction",
+            "docx-package-redline-and-render-verification",
+            "eternities-chorus"
+          ],
+          "top1": false,
+          "top3": false,
+          "negative": true
+        },
+        {
+          "id": "r26",
+          "kind": "negative",
+          "query": "Lowercase the literal text RIVER ROOM. No rewrite, interpretation, or additional process.",
+          "acceptableIds": [],
+          "actual": [
+            "interface-localization-and-bidirectionality",
+            "portable-speech-chunk-alignment",
+            "semantic-implementation-diff"
+          ],
+          "top1": false,
+          "top3": false,
+          "negative": true
+        },
+        {
+          "id": "r27",
+          "kind": "negative",
+          "query": "In the phrase 'the river remembers', is remembers a verb? Just answer the grammar question.",
+          "acceptableIds": [],
+          "actual": [
+            "approval-bound-private-session-mining"
+          ],
+          "top1": false,
+          "top3": false,
+          "negative": true
+        },
+        {
+          "id": "r28",
+          "kind": "negative",
+          "query": "Help with recovery. I have not said whether this is a job, a relationship, a file, or anything else. Ask one clarifying question before selecting a specialist.",
+          "acceptableIds": [],
+          "actual": [
+            "memory-retention-and-recovery",
+            "structured-output-contracts",
+            "interatomic-model-validation"
+          ],
+          "top1": false,
+          "top3": false,
+          "negative": true
+        },
+        {
+          "id": "r29",
+          "kind": "negative",
+          "query": "My accountant called the office a 'memory palace'. Explain the metaphor in one sentence; there is no software memory or archive task.",
+          "acceptableIds": [],
+          "actual": [
+            "eternities-mnemosyne",
+            "memory-retention-and-recovery",
+            "app-store-discovery-experiments"
+          ],
+          "top1": false,
+          "top3": false,
+          "negative": true
+        },
+        {
+          "id": "r30",
+          "kind": "negative",
+          "query": "Count the words in the exact sentence 'The voice crossed the river'. Give only the count; no voice analysis, audio work, or workshop design.",
+          "acceptableIds": [],
+          "actual": [
+            "audio-dsp-integrity-review",
+            "voice-style-calibration",
+            "eternities-atlas"
+          ],
+          "top1": false,
+          "top3": false,
+          "negative": true
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "releaseId": "914063dad3d3b7acdc9ad527cf720c1ab11f7dfced30ec4fd47674c237fddd0c",
+      "catalogSha256": "02af51a684ac09320f8ec9037c8a543c571ab381b299655b02147309e769009c",
+      "counts": {
+        "cases": 30,
+        "positive": 24,
+        "top1": 18,
+        "top3": 21,
+        "negative": 6,
+        "negativeAbstentions": 0
+      },
+      "rows": [
+        {
+          "id": "r01",
+          "kind": "positive",
+          "query": "Make these two announcements sound like our founder's own writing, but keep the limited pilot results and unresolved support issue honest.",
+          "acceptableIds": [
+            "voice-style-calibration"
+          ],
+          "actual": [
+            "eternities-logos",
+            "lazy-tabular-transformation-and-validation",
+            "voice-style-calibration"
+          ],
+          "top1": false,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r02",
+          "kind": "positive",
+          "query": "The rewrite is accurate but sounds generic. Infer the writer's habits from her samples and adapt them for a worried customer.",
+          "acceptableIds": [
+            "voice-style-calibration"
+          ],
+          "actual": [
+            "voice-style-calibration",
+            "eternities-prometheus",
+            "semantic-implementation-diff"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r03",
+          "kind": "positive",
+          "query": "Give a museum three different ways visitors could influence an imaginary river's memories, with an affordable offline prototype for each.",
+          "acceptableIds": [
+            "imaginative-concept-development"
+          ],
+          "actual": [
+            "eternities-omnibus",
+            "eternities-arcadia",
+            "imaginative-concept-development"
+          ],
+          "top1": false,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r04",
+          "kind": "positive",
+          "query": "These proposals are the same activity with different names. Develop alternatives that change what participants choose and what those choices cause.",
+          "acceptableIds": [
+            "imaginative-concept-development"
+          ],
+          "actual": [
+            "imaginative-concept-development",
+            "bounded-parametric-design-iteration",
+            "diagnostic-statistical-model-inference"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r05",
+          "kind": "positive",
+          "query": "My collaborator objected after I invited outsiders to a rehearsal. Help me own the mistake and draft a repair message without guessing their motives.",
+          "acceptableIds": [
+            "interpersonal-understanding-and-dialogue"
+          ],
+          "actual": [
+            "interpersonal-understanding-and-dialogue",
+            "eternities-muse",
+            "eternities-logos"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r06",
+          "kind": "positive",
+          "query": "Read this awkward exchange, separate what was actually said from possible interpretations, and help me reopen the conversation respectfully.",
+          "acceptableIds": [
+            "interpersonal-understanding-and-dialogue"
+          ],
+          "actual": [
+            "eternities-atlas",
+            "app-store-discovery-experiments",
+            "measured-paid-creative-iteration"
+          ],
+          "top1": false,
+          "top3": false,
+          "negative": false
+        },
+        {
+          "id": "r07",
+          "kind": "positive",
+          "query": "A recent summary says the job was cancelled, but its source is a timeout receipt. Recover the state and write a short note safe to resume from.",
+          "acceptableIds": [
+            "memory-retention-and-recovery",
+            "eternities-mnemosyne"
+          ],
+          "actual": [
+            "eternities-logos",
+            "memory-retention-and-recovery",
+            "bounded-service-shutdown"
+          ],
+          "top1": false,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r08",
+          "kind": "positive",
+          "query": "I lost the thread after an interruption. Reconcile the old handoff with newer observations and retain only the decisions and evidence pointers we still need.",
+          "acceptableIds": [
+            "memory-retention-and-recovery",
+            "eternities-mnemosyne"
+          ],
+          "actual": [
+            "memory-retention-and-recovery",
+            "evidence-linked-learning-design",
+            "eternities-chorus"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r09",
+          "kind": "positive",
+          "query": "Check a delivery's contract, spreadsheet export, budget, and signoff for missing obligations and claims that disagree across files.",
+          "acceptableIds": [
+            "completeness-and-consistency-audit"
+          ],
+          "actual": [
+            "completeness-and-consistency-audit",
+            "jurisdiction-aware-contract-review",
+            "scientific-surrogate-validation"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r10",
+          "kind": "positive",
+          "query": "The summary says everything is done. Trace each promised deliverable to actual evidence and tell me which gaps prevent acceptance.",
+          "acceptableIds": [
+            "completeness-and-consistency-audit"
+          ],
+          "actual": [
+            "completeness-and-consistency-audit",
+            "eternities-muse",
+            "eternities-omnibus"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r11",
+          "kind": "positive",
+          "query": "Continue a deadline-bound delivery after a disconnect, accounting for accepted paid jobs, uncertain responses, and work we can safely do while waiting.",
+          "acceptableIds": [
+            "long-horizon-work-continuity"
+          ],
+          "actual": [
+            "api-rate-limit-recovery",
+            "bounded-verified-object-ingestion",
+            "measured-paid-creative-iteration"
+          ],
+          "top1": false,
+          "top3": false,
+          "negative": false
+        },
+        {
+          "id": "r12",
+          "kind": "positive",
+          "query": "The handoff says restart, but submission receipts show existing work. Build a recovery plan that carries the goal forward without paying for duplicate runs.",
+          "acceptableIds": [
+            "long-horizon-work-continuity"
+          ],
+          "actual": [
+            "bounded-parametric-design-iteration",
+            "memory-retention-and-recovery",
+            "eternities-phoenix"
+          ],
+          "top1": false,
+          "top3": false,
+          "negative": false
+        },
+        {
+          "id": "r13",
+          "kind": "positive",
+          "query": "Our request retries create duplicate orders after a 429. Design bounded retry and cancellation behavior using the supplied idempotency and Retry-After semantics.",
+          "acceptableIds": [
+            "api-rate-limit-recovery"
+          ],
+          "actual": [
+            "api-rate-limit-recovery",
+            "eternities-muse",
+            "bounded-service-shutdown"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r14",
+          "kind": "positive",
+          "query": "The service exits while requests are still active. Design a finite drain with an admission fence and evidence distinguishing graceful from forced shutdown.",
+          "acceptableIds": [
+            "bounded-service-shutdown"
+          ],
+          "actual": [
+            "bounded-service-shutdown",
+            "bounded-parametric-design-iteration",
+            "eternities-agora"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r15",
+          "kind": "positive",
+          "query": "A manifest-bound data import must reject wrong digests, stage atomically, and make a second import a harmless replay. Review the ingestion design.",
+          "acceptableIds": [
+            "bounded-verified-object-ingestion"
+          ],
+          "actual": [
+            "bounded-verified-object-ingestion",
+            "columnar-ingestion-rollup-and-query-layout-design",
+            "eternities-atlas"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r16",
+          "kind": "positive",
+          "query": "This cash forecast treats signed contracts as money already in the bank. Rebuild weekly settlement timing and test a delayed-payment scenario against the cash floor.",
+          "acceptableIds": [
+            "cashflow-forecast-scenario-integrity"
+          ],
+          "actual": [
+            "cashflow-forecast-scenario-integrity",
+            "financial-statement-reconciliation",
+            "robotics-test-ladder"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r17",
+          "kind": "positive",
+          "query": "The dashboard's lake locations align horizontally but the elevations differ by a constant offset. Check horizontal and vertical reference systems and units.",
+          "acceptableIds": [
+            "geospatial-coordinate-integrity"
+          ],
+          "actual": [
+            "geospatial-coordinate-integrity",
+            "symbolic-mathematics-python",
+            "semantic-implementation-diff"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r18",
+          "kind": "positive",
+          "query": "Our wildlife report calls fewer sightings a population decline, although survey effort changed. Audit sampling and imperfect detection before making that claim.",
+          "acceptableIds": [
+            "ecological-sampling-and-detection-uncertainty"
+          ],
+          "actual": [
+            "ecological-sampling-and-detection-uncertainty",
+            "diagnostic-statistical-model-inference",
+            "eternities-agora"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r19",
+          "kind": "positive",
+          "query": "A surrogate looks accurate because rows from the same simulation occur in training and test. Design grouped evaluation and separately fitted uncertainty calibration.",
+          "acceptableIds": [
+            "scientific-surrogate-validation"
+          ],
+          "actual": [
+            "scientific-surrogate-validation",
+            "physics-constrained-numerical-validation",
+            "robotics-test-ladder"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r20",
+          "kind": "positive",
+          "query": "A cached feature set might have been made with the wrong checkpoint and split. Establish its training-artifact lineage before resuming the experiment.",
+          "acceptableIds": [
+            "experiment-artifact-lineage"
+          ],
+          "actual": [
+            "experiment-artifact-lineage",
+            "eternities-atlas",
+            "memory-retention-and-recovery"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r21",
+          "kind": "positive",
+          "query": "The Arabic checkout reverses some mixed-direction account numbers and moves keyboard focus unpredictably. Plan locale-aware layout and interaction verification.",
+          "acceptableIds": [
+            "interface-localization-and-bidirectionality"
+          ],
+          "actual": [
+            "interface-localization-and-bidirectionality",
+            "eternities-arcadia",
+            "native-mobile-interaction-testing"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r22",
+          "kind": "positive",
+          "query": "Our speech chunks cut a combining character in half and lose the link to the script after cancellation. Design traceable multilingual chunk boundaries.",
+          "acceptableIds": [
+            "portable-speech-chunk-alignment"
+          ],
+          "actual": [
+            "portable-speech-chunk-alignment",
+            "eternities-daedalus",
+            "web-performance-optimization"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r23",
+          "kind": "positive",
+          "query": "Review this supplier contract's notice and termination clauses against our goals, keeping document facts separate from jurisdiction-dependent conclusions.",
+          "acceptableIds": [
+            "jurisdiction-aware-contract-review"
+          ],
+          "actual": [
+            "jurisdiction-aware-contract-review",
+            "bounded-service-shutdown",
+            "completeness-and-consistency-audit"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r24",
+          "kind": "positive",
+          "query": "An assistant produces valid JSON but invents record IDs and links to nonexistent entities. Define source-bound identifiers and relationship validation for the output contract.",
+          "acceptableIds": [
+            "structured-output-contracts"
+          ],
+          "actual": [
+            "structured-output-contracts",
+            "jurisdiction-aware-contract-review",
+            "formula-preserving-workbook-engineering"
+          ],
+          "top1": true,
+          "top3": true,
+          "negative": false
+        },
+        {
+          "id": "r25",
+          "kind": "negative",
+          "query": "What is 17 plus 26? Give only the number.",
+          "acceptableIds": [],
+          "actual": [
+            "confirmed-destructive-reconstruction",
+            "docx-package-redline-and-render-verification",
+            "eternities-chorus"
+          ],
+          "top1": false,
+          "top3": false,
+          "negative": true
+        },
+        {
+          "id": "r26",
+          "kind": "negative",
+          "query": "Lowercase the literal text RIVER ROOM. No rewrite, interpretation, or additional process.",
+          "acceptableIds": [],
+          "actual": [
+            "interface-localization-and-bidirectionality",
+            "portable-speech-chunk-alignment",
+            "semantic-implementation-diff"
+          ],
+          "top1": false,
+          "top3": false,
+          "negative": true
+        },
+        {
+          "id": "r27",
+          "kind": "negative",
+          "query": "In the phrase 'the river remembers', is remembers a verb? Just answer the grammar question.",
+          "acceptableIds": [],
+          "actual": [
+            "approval-bound-private-session-mining"
+          ],
+          "top1": false,
+          "top3": false,
+          "negative": true
+        },
+        {
+          "id": "r28",
+          "kind": "negative",
+          "query": "Help with recovery. I have not said whether this is a job, a relationship, a file, or anything else. Ask one clarifying question before selecting a specialist.",
+          "acceptableIds": [],
+          "actual": [
+            "memory-retention-and-recovery",
+            "structured-output-contracts",
+            "interatomic-model-validation"
+          ],
+          "top1": false,
+          "top3": false,
+          "negative": true
+        },
+        {
+          "id": "r29",
+          "kind": "negative",
+          "query": "My accountant called the office a 'memory palace'. Explain the metaphor in one sentence; there is no software memory or archive task.",
+          "acceptableIds": [],
+          "actual": [
+            "eternities-mnemosyne",
+            "memory-retention-and-recovery",
+            "app-store-discovery-experiments"
+          ],
+          "top1": false,
+          "top3": false,
+          "negative": true
+        },
+        {
+          "id": "r30",
+          "kind": "negative",
+          "query": "Count the words in the exact sentence 'The voice crossed the river'. Give only the count; no voice analysis, audio work, or workshop design.",
+          "acceptableIds": [],
+          "actual": [
+            "audio-dsp-integrity-review",
+            "voice-style-calibration",
+            "eternities-atlas"
+          ],
+          "top1": false,
+          "top3": false,
+          "negative": true
+        }
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "id": "r01",
+      "beforeTop1": false,
+      "afterTop1": false,
+      "beforeTop3": true,
+      "afterTop3": true
+    },
+    {
+      "id": "r02",
+      "beforeTop1": true,
+      "afterTop1": true,
+      "beforeTop3": true,
+      "afterTop3": true
+    },
+    {
+      "id": "r03",
+      "beforeTop1": false,
+      "afterTop1": false,
+      "beforeTop3": true,
+      "afterTop3": true
+    },
+    {
+      "id": "r04",
+      "beforeTop1": true,
+      "afterTop1": true,
+      "beforeTop3": true,
+      "afterTop3": true
+    },
+    {
+      "id": "r05",
+      "beforeTop1": true,
+      "afterTop1": true,
+      "beforeTop3": true,
+      "afterTop3": true
+    },
+    {
+      "id": "r06",
+      "beforeTop1": false,
+      "afterTop1": false,
+      "beforeTop3": false,
+      "afterTop3": false
+    },
+    {
+      "id": "r07",
+      "beforeTop1": false,
+      "afterTop1": false,
+      "beforeTop3": true,
+      "afterTop3": true
+    },
+    {
+      "id": "r08",
+      "beforeTop1": true,
+      "afterTop1": true,
+      "beforeTop3": true,
+      "afterTop3": true
+    },
+    {
+      "id": "r09",
+      "beforeTop1": false,
+      "afterTop1": true,
+      "beforeTop3": true,
+      "afterTop3": true
+    },
+    {
+      "id": "r10",
+      "beforeTop1": true,
+      "afterTop1": true,
+      "beforeTop3": true,
+      "afterTop3": true
+    },
+    {
+      "id": "r11",
+      "beforeTop1": false,
+      "afterTop1": false,
+      "beforeTop3": false,
+      "afterTop3": false
+    },
+    {
+      "id": "r12",
+      "beforeTop1": false,
+      "afterTop1": false,
+      "beforeTop3": false,
+      "afterTop3": false
+    },
+    {
+      "id": "r13",
+      "beforeTop1": true,
+      "afterTop1": true,
+      "beforeTop3": true,
+      "afterTop3": true
+    },
+    {
+      "id": "r14",
+      "beforeTop1": true,
+      "afterTop1": true,
+      "beforeTop3": true,
+      "afterTop3": true
+    },
+    {
+      "id": "r15",
+      "beforeTop1": true,
+      "afterTop1": true,
+      "beforeTop3": true,
+      "afterTop3": true
+    },
+    {
+      "id": "r16",
+      "beforeTop1": true,
+      "afterTop1": true,
+      "beforeTop3": true,
+      "afterTop3": true
+    },
+    {
+      "id": "r17",
+      "beforeTop1": true,
+      "afterTop1": true,
+      "beforeTop3": true,
+      "afterTop3": true
+    },
+    {
+      "id": "r18",
+      "beforeTop1": true,
+      "afterTop1": true,
+      "beforeTop3": true,
+      "afterTop3": true
+    },
+    {
+      "id": "r19",
+      "beforeTop1": true,
+      "afterTop1": true,
+      "beforeTop3": true,
+      "afterTop3": true
+    },
+    {
+      "id": "r20",
+      "beforeTop1": true,
+      "afterTop1": true,
+      "beforeTop3": true,
+      "afterTop3": true
+    },
+    {
+      "id": "r21",
+      "beforeTop1": true,
+      "afterTop1": true,
+      "beforeTop3": true,
+      "afterTop3": true
+    },
+    {
+      "id": "r22",
+      "beforeTop1": true,
+      "afterTop1": true,
+      "beforeTop3": true,
+      "afterTop3": true
+    },
+    {
+      "id": "r23",
+      "beforeTop1": true,
+      "afterTop1": true,
+      "beforeTop3": true,
+      "afterTop3": true
+    },
+    {
+      "id": "r24",
+      "beforeTop1": true,
+      "afterTop1": true,
+      "beforeTop3": true,
+      "afterTop3": true
+    },
+    {
+      "id": "r25",
+      "beforeTop1": false,
+      "afterTop1": false,
+      "beforeTop3": false,
+      "afterTop3": false
+    },
+    {
+      "id": "r26",
+      "beforeTop1": false,
+      "afterTop1": false,
+      "beforeTop3": false,
+      "afterTop3": false
+    },
+    {
+      "id": "r27",
+      "beforeTop1": false,
+      "afterTop1": false,
+      "beforeTop3": false,
+      "afterTop3": false
+    },
+    {
+      "id": "r28",
+      "beforeTop1": false,
+      "afterTop1": false,
+      "beforeTop3": false,
+      "afterTop3": false
+    },
+    {
+      "id": "r29",
+      "beforeTop1": false,
+      "afterTop1": false,
+      "beforeTop3": false,
+      "afterTop3": false
+    },
+    {
+      "id": "r30",
+      "beforeTop1": false,
+      "afterTop1": false,
+      "beforeTop3": false,
+      "afterTop3": false
+    }
+  ],
+  "limitation": "Finite English lexical evaluation; not proof of universal semantic understanding or automatic skill consumption"
+}

@@ -1,0 +1,713 @@
+{
+  "schema": "godskills-blind-assessment-v1",
+  "assessorIdentity": "Luna-Blind-2",
+  "records": [
+    {
+      "taskId": "q01-voice",
+      "anonymousOutputId": "A",
+      "assessorIdentity": "Luna-Blind-2",
+      "criterionScores": [
+        {
+          "criterionId": "truth",
+          "factor": 0.5,
+          "excerpt": "I’ll check the saved copy and send you a status update by Thursday.",
+          "reason": "The answer keeps the archive and recovery uncertain and avoids a fix or refund promise. Promising to inspect this customer’s saved copy goes beyond the supplied facts, which authorize a Thursday status update."
+        },
+        {
+          "criterionId": "voice",
+          "factor": 1,
+          "excerpt": "This is an early read, and we have more to learn.",
+          "reason": "Plain, measured uncertainty and direct support empathy fit Mara’s samples without copying their sentences."
+        },
+        {
+          "criterionId": "audience",
+          "factor": 1,
+          "excerpt": "I can see why the page stopping would make you worry about the archive.",
+          "reason": "The public update is scoped for readers, and the support reply addresses the customer’s worry and Friday meeting in a distinct, empathetic register."
+        },
+        {
+          "criterionId": "judgment",
+          "factor": 1,
+          "excerpt": "I kept the benchmark tied to staging and the export recovery uncertain.",
+          "reason": "The two requested drafts fit their stated lengths, and the note explains meaningful choices and identifies unsupported claims removed."
+        }
+      ],
+      "supportingExcerpts": [
+        {
+          "criterionId": "truth",
+          "excerpt": "I’ll check the saved copy and send you a status update by Thursday."
+        },
+        {
+          "criterionId": "voice",
+          "excerpt": "This is an early read, and we have more to learn."
+        },
+        {
+          "criterionId": "audience",
+          "excerpt": "I can see why the page stopping would make you worry about the archive."
+        },
+        {
+          "criterionId": "judgment",
+          "excerpt": "I kept the benchmark tied to staging and the export recovery uncertain."
+        }
+      ],
+      "criticalFailureIds": [],
+      "criticalEvidence": [],
+      "rawScore": 82.5,
+      "rawScoreRange": [
+        82.5,
+        100
+      ],
+      "gatedScore": 82.5,
+      "disagreements": [
+        "Borderline truth score: Mara’s supplied support sample models checking a saved copy, but the case facts do not establish that this customer’s copy can be checked. If the sample is treated as authority for that promise, the raw score would be 100."
+      ]
+    },
+    {
+      "taskId": "q01-voice",
+      "anonymousOutputId": "B",
+      "assessorIdentity": "Luna-Blind-2",
+      "criterionScores": [
+        {
+          "criterionId": "truth",
+          "factor": 1,
+          "excerpt": "We have not verified recovery",
+          "reason": "The benchmark remains scoped to staging, the public date is unapproved, and the export outcome is left unresolved without new promises."
+        },
+        {
+          "criterionId": "voice",
+          "factor": 0.5,
+          "excerpt": "This staging test did not settle how exports will perform for customers.",
+          "reason": "The measured tone fits Mara, but this sentence closely echoes the sample’s distinctive “test did not settle” phrasing rather than expressing the uncertainty in a fully fresh sentence."
+        },
+        {
+          "criterionId": "audience",
+          "factor": 1,
+          "excerpt": "I understand you need the archive for Friday and want a clear answer, not another launch email.",
+          "reason": "The drafts suit public and support audiences, and the reply directly acknowledges the customer’s deadline and request."
+        },
+        {
+          "criterionId": "judgment",
+          "factor": 1,
+          "excerpt": "I kept the public update measured and tied the timing result to its staging sample.",
+          "reason": "The drafts meet the task-specific lengths, and the editorial note explains choices and names unsupported claims removed."
+        }
+      ],
+      "supportingExcerpts": [
+        {
+          "criterionId": "truth",
+          "excerpt": "We have not verified recovery"
+        },
+        {
+          "criterionId": "voice",
+          "excerpt": "This staging test did not settle how exports will perform for customers."
+        },
+        {
+          "criterionId": "audience",
+          "excerpt": "I understand you need the archive for Friday and want a clear answer, not another launch email."
+        },
+        {
+          "criterionId": "judgment",
+          "excerpt": "I kept the public update measured and tied the timing result to its staging sample."
+        }
+      ],
+      "criticalFailureIds": [],
+      "criticalEvidence": [],
+      "rawScore": 87.5,
+      "rawScoreRange": [
+        87.5,
+        100
+      ],
+      "gatedScore": 87.5,
+      "disagreements": [
+        "Borderline voice score: “test did not settle” may be ordinary phrasing rather than a meaningful echo of the sample; if judged sufficiently fresh, the raw score would be 100."
+      ]
+    },
+    {
+      "taskId": "q02-imagination",
+      "anonymousOutputId": "A",
+      "assessorIdentity": "Luna-Blind-2",
+      "criterionScores": [
+        {
+          "criterionId": "distinctness",
+          "factor": 1,
+          "excerpt": "The first is mostly tactile and accumulative, the second is sequential and narrative, and the third is deliberative.",
+          "reason": "Routing tokens, changing a story through a relay, and negotiating a curatorial decision produce distinct participant choices and group outcomes."
+        },
+        {
+          "criterionId": "imagination",
+          "factor": 1,
+          "excerpt": "Each table’s decisions become one clause in a shared River Charter.",
+          "reason": "The concepts connect memory to what a river carries, changes, or releases through concrete outcomes participants create."
+        },
+        {
+          "criterionId": "feasibility",
+          "factor": 1,
+          "excerpt": "The trays and choices stay within seated reach.",
+          "reason": "The recommended concept stays under budget, fits the timed session, uses fictional material, and gives nonvisual and seated participants consequential ways to vote and contribute."
+        },
+        {
+          "criterionId": "selection",
+          "factor": 1,
+          "excerpt": "The main risk is that a few voices could dominate the group decision",
+          "reason": "The recommendation follows the stated priorities, and the rehearsal tests tactile identification, turn timing, and whether choices affect the result."
+        }
+      ],
+      "supportingExcerpts": [
+        {
+          "criterionId": "distinctness",
+          "excerpt": "The first is mostly tactile and accumulative, the second is sequential and narrative, and the third is deliberative."
+        },
+        {
+          "criterionId": "imagination",
+          "excerpt": "Each table’s decisions become one clause in a shared River Charter."
+        },
+        {
+          "criterionId": "feasibility",
+          "excerpt": "The trays and choices stay within seated reach."
+        },
+        {
+          "criterionId": "selection",
+          "excerpt": "The main risk is that a few voices could dominate the group decision"
+        }
+      ],
+      "criticalFailureIds": [],
+      "criticalEvidence": [],
+      "rawScore": 100,
+      "gatedScore": 100,
+      "disagreements": []
+    },
+    {
+      "taskId": "q02-imagination",
+      "anonymousOutputId": "B",
+      "assessorIdentity": "Luna-Blind-2",
+      "criterionScores": [
+        {
+          "criterionId": "distinctness",
+          "factor": 1,
+          "excerpt": "Tributaries turns individual choices into a shared spatial pattern. The River Council is about negotiation under a shared limit. Eddies is a sequential story experience",
+          "reason": "Each concept changes the shared result through a different mechanism: mapping choices, voting under capacity, or successive story edits."
+        },
+        {
+          "criterionId": "imagination",
+          "factor": 1,
+          "excerpt": "The other cards go into the bank.",
+          "reason": "The bank makes a memorable, coherent consequence for what the river cannot carry, and the other concepts also tie choices to the river premise."
+        },
+        {
+          "criterionId": "feasibility",
+          "factor": 1,
+          "excerpt": "The facilitator reads the prompts aloud. Anyone may place their own token or direct someone else to place it for them.",
+          "reason": "The concepts fit the room, staffing, time and budget; the recommended concept provides seated, tactile, read-aloud participation without requiring disclosure."
+        },
+        {
+          "criterionId": "selection",
+          "factor": 1,
+          "excerpt": "Include a blind or low-vision reviewer with relevant experience if available; a sighted person using a blindfold would not validate access.",
+          "reason": "The recommendation addresses the brief’s priorities, and the rehearsal could reveal access, reach, and group-outcome weaknesses before commitment."
+        }
+      ],
+      "supportingExcerpts": [
+        {
+          "criterionId": "distinctness",
+          "excerpt": "Tributaries turns individual choices into a shared spatial pattern. The River Council is about negotiation under a shared limit. Eddies is a sequential story experience"
+        },
+        {
+          "criterionId": "imagination",
+          "excerpt": "The other cards go into the bank."
+        },
+        {
+          "criterionId": "feasibility",
+          "excerpt": "The facilitator reads the prompts aloud. Anyone may place their own token or direct someone else to place it for them."
+        },
+        {
+          "criterionId": "selection",
+          "excerpt": "Include a blind or low-vision reviewer with relevant experience if available; a sighted person using a blindfold would not validate access."
+        }
+      ],
+      "criticalFailureIds": [],
+      "criticalEvidence": [],
+      "rawScore": 100,
+      "gatedScore": 100,
+      "disagreements": []
+    },
+    {
+      "taskId": "q03-interpersonal",
+      "anonymousOutputId": "A",
+      "assessorIdentity": "Luna-Blind-2",
+      "criterionScores": [
+        {
+          "criterionId": "evidence",
+          "factor": 1,
+          "excerpt": "Both could be involved; the evidence doesn’t establish which matters most.",
+          "reason": "It separates Alex’s documented actions from two tentative interpretations and preserves the unknown reason for the earlier postponement."
+        },
+        {
+          "criterionId": "repair",
+          "factor": 1,
+          "excerpt": "I invited the donors and changed “team rehearsal” to “donor preview” without checking with you.",
+          "reason": "Alex owns the specific unilateral choices and recognizes that the defensive reply did not address them."
+        },
+        {
+          "criterionId": "dialogue",
+          "factor": 1,
+          "excerpt": "Could we take ten minutes today to decide together",
+          "reason": "The draft is respectful, invites disagreement, and proposes a bounded joint decision."
+        },
+        {
+          "criterionId": "fallback",
+          "factor": 0.5,
+          "excerpt": "I’ll ask the donors to wait at the start while I check with you before they join.",
+          "reason": "It does not treat silence as agreement, but having donors wait while Alex checks with Jo may create avoidable pressure; it does not clearly default to a team-only rehearsal absent mutual agreement."
+        }
+      ],
+      "supportingExcerpts": [
+        {
+          "criterionId": "evidence",
+          "excerpt": "Both could be involved; the evidence doesn’t establish which matters most."
+        },
+        {
+          "criterionId": "repair",
+          "excerpt": "I invited the donors and changed “team rehearsal” to “donor preview” without checking with you."
+        },
+        {
+          "criterionId": "dialogue",
+          "excerpt": "Could we take ten minutes today to decide together"
+        },
+        {
+          "criterionId": "fallback",
+          "excerpt": "I’ll ask the donors to wait at the start while I check with you before they join."
+        }
+      ],
+      "criticalFailureIds": [],
+      "criticalEvidence": [],
+      "rawScore": 92.5,
+      "rawScoreRange": [
+        92.5,
+        100
+      ],
+      "gatedScore": 92.5,
+      "disagreements": [
+        "Borderline fallback score: the promise not to treat silence as agreement may be enough to make the wait-and-check proposal safe. If so, fallback could score 1 and the raw score would be 100."
+      ]
+    },
+    {
+      "taskId": "q03-interpersonal",
+      "anonymousOutputId": "B",
+      "assessorIdentity": "Luna-Blind-2",
+      "criterionScores": [
+        {
+          "criterionId": "evidence",
+          "factor": 1,
+          "excerpt": "Jo’s words support both readings, but don’t establish which mattered most.",
+          "reason": "The private reading distinguishes observed actions from two plausible, tentative interpretations and preserves the unknown postponement reason."
+        },
+        {
+          "criterionId": "repair",
+          "factor": 1,
+          "excerpt": "When you objected, I defended my intent instead of owning those decisions. I’m sorry.",
+          "reason": "The draft explicitly owns the title, invitation, and defensive reply without blaming Jo."
+        },
+        {
+          "criterionId": "dialogue",
+          "factor": 1,
+          "excerpt": "Could we take ten minutes today to decide together whether tomorrow at 16:00 stays a team rehearsal or includes donors",
+          "reason": "It is respectful, invites correction, and offers a concrete joint decision within the requested draft length."
+        },
+        {
+          "criterionId": "fallback",
+          "factor": 1,
+          "excerpt": "unless we both agree otherwise, we keep it a rehearsal, do no donor showing",
+          "reason": "The deadline fallback respects Jo’s space and the joint-approval boundary, while leaving invitation changes for shared decision."
+        }
+      ],
+      "supportingExcerpts": [
+        {
+          "criterionId": "evidence",
+          "excerpt": "Jo’s words support both readings, but don’t establish which mattered most."
+        },
+        {
+          "criterionId": "repair",
+          "excerpt": "When you objected, I defended my intent instead of owning those decisions. I’m sorry."
+        },
+        {
+          "criterionId": "dialogue",
+          "excerpt": "Could we take ten minutes today to decide together whether tomorrow at 16:00 stays a team rehearsal or includes donors"
+        },
+        {
+          "criterionId": "fallback",
+          "excerpt": "unless we both agree otherwise, we keep it a rehearsal, do no donor showing"
+        }
+      ],
+      "criticalFailureIds": [],
+      "criticalEvidence": [],
+      "rawScore": 100,
+      "gatedScore": 100,
+      "disagreements": []
+    },
+    {
+      "taskId": "q04-memory",
+      "anonymousOutputId": "A",
+      "assessorIdentity": "Luna-Blind-2",
+      "criterionScores": [
+        {
+          "criterionId": "reconstruction",
+          "factor": 1,
+          "excerpt": "The latest supplied production observation, health.txt at 14:04 UTC, reports revision r43 with HTTP 200.",
+          "reason": "It distinguishes local r44 test success from the observed production r43 state and treats E81’s job snapshot as nonterminal."
+        },
+        {
+          "criterionId": "uncertainty",
+          "factor": 1,
+          "excerpt": "leaving the server effect unknown",
+          "reason": "It preserves the cancellation timeout, the age and scope of observations, and the unsupported claims in the derivative summary."
+        },
+        {
+          "criterionId": "checks",
+          "factor": 1,
+          "excerpt": "Check an authoritative deployment record or a fresh production observation",
+          "reason": "The three proposed checks address production state, E81/C19 terminal status, and annotation preservation and cleanup authority without retrying or clearing anything."
+        },
+        {
+          "criterionId": "carry",
+          "factor": 1,
+          "excerpt": "The export workspace contains a manually edited annotation without a backup receipt",
+          "reason": "The carry note fits the requested word range and retains key evidence pointers, unresolved state, and safe resumption boundaries."
+        }
+      ],
+      "supportingExcerpts": [
+        {
+          "criterionId": "reconstruction",
+          "excerpt": "The latest supplied production observation, health.txt at 14:04 UTC, reports revision r43 with HTTP 200."
+        },
+        {
+          "criterionId": "uncertainty",
+          "excerpt": "leaving the server effect unknown"
+        },
+        {
+          "criterionId": "checks",
+          "excerpt": "Check an authoritative deployment record or a fresh production observation"
+        },
+        {
+          "criterionId": "carry",
+          "excerpt": "The export workspace contains a manually edited annotation without a backup receipt"
+        }
+      ],
+      "criticalFailureIds": [],
+      "criticalEvidence": [],
+      "rawScore": 100,
+      "gatedScore": 100,
+      "disagreements": []
+    },
+    {
+      "taskId": "q04-memory",
+      "anonymousOutputId": "B",
+      "assessorIdentity": "Luna-Blind-2",
+      "criterionScores": [
+        {
+          "criterionId": "reconstruction",
+          "factor": 1,
+          "excerpt": "The latest production observation, in `health.txt`, reports r43 and HTTP 200 at 14:04 UTC.",
+          "reason": "It correctly distinguishes local test evidence from production observation and treats E81’s draining snapshot as nonterminal."
+        },
+        {
+          "criterionId": "uncertainty",
+          "factor": 1,
+          "excerpt": "the effect is unknown",
+          "reason": "It does not infer current live state from recency, and identifies the fresh summary as derivative rather than independent confirmation."
+        },
+        {
+          "criterionId": "checks",
+          "factor": 1,
+          "excerpt": "Check the authorized export/job record for the current status of C19 and E81",
+          "reason": "The ordered checks reconcile the accepted job and timed-out cancellation, then the production revision, then annotation preservation and cleanup authority."
+        },
+        {
+          "criterionId": "carry",
+          "factor": 1,
+          "excerpt": "Do not say E81 finished, cancelled, or gone.",
+          "reason": "The carry note fits the requested length and preserves evidence pointers, unknowns, and safe next steps."
+        }
+      ],
+      "supportingExcerpts": [
+        {
+          "criterionId": "reconstruction",
+          "excerpt": "The latest production observation, in `health.txt`, reports r43 and HTTP 200 at 14:04 UTC."
+        },
+        {
+          "criterionId": "uncertainty",
+          "excerpt": "the effect is unknown"
+        },
+        {
+          "criterionId": "checks",
+          "excerpt": "Check the authorized export/job record for the current status of C19 and E81"
+        },
+        {
+          "criterionId": "carry",
+          "excerpt": "Do not say E81 finished, cancelled, or gone."
+        }
+      ],
+      "criticalFailureIds": [],
+      "criticalEvidence": [],
+      "rawScore": 100,
+      "gatedScore": 100,
+      "disagreements": []
+    },
+    {
+      "taskId": "q05-audit",
+      "anonymousOutputId": "A",
+      "assessorIdentity": "Luna-Blind-2",
+      "criterionScores": [
+        {
+          "criterionId": "coverage",
+          "factor": 1,
+          "excerpt": "O1: Fail; demonstrated defect.",
+          "reason": "It addresses all six obligations and distinguishes demonstrated record, budget, and CSV defects from missing verification and acceptance evidence."
+        },
+        {
+          "criterionId": "verification",
+          "factor": 1,
+          "excerpt": "$155 + $135 + $130 = $420",
+          "reason": "The allocation arithmetic is correct, and the 12 rows/11 distinct IDs, duplicated r07, missing r10, and unrun checks are identified."
+        },
+        {
+          "criterionId": "priorities",
+          "factor": 1,
+          "excerpt": "Next action: run that restore and record the target and content check.",
+          "reason": "Material release gaps are prioritized and paired with proportionate next actions."
+        },
+        {
+          "criterionId": "disposition",
+          "factor": 0.5,
+          "excerpt": "Do not release on this evidence.",
+          "reason": "The recommendation is coherent and limited by the evidence, but the audit does not explicitly state its finite scope as inspection of only the supplied packet."
+        }
+      ],
+      "supportingExcerpts": [
+        {
+          "criterionId": "coverage",
+          "excerpt": "O1: Fail; demonstrated defect."
+        },
+        {
+          "criterionId": "verification",
+          "excerpt": "$155 + $135 + $130 = $420"
+        },
+        {
+          "criterionId": "priorities",
+          "excerpt": "Next action: run that restore and record the target and content check."
+        },
+        {
+          "criterionId": "disposition",
+          "excerpt": "Do not release on this evidence."
+        }
+      ],
+      "criticalFailureIds": [],
+      "criticalEvidence": [],
+      "rawScore": 92.5,
+      "rawScoreRange": [
+        92.5,
+        100
+      ],
+      "gatedScore": 92.5,
+      "disagreements": [
+        "Borderline disposition score: “on this evidence” may adequately convey the packet boundary in context; if treated as explicit enough, disposition could score 1 and raw score would be 100."
+      ]
+    },
+    {
+      "taskId": "q05-audit",
+      "anonymousOutputId": "B",
+      "assessorIdentity": "Luna-Blind-2",
+      "criterionScores": [
+        {
+          "criterionId": "coverage",
+          "factor": 1,
+          "excerpt": "This audit covers only the supplied packet and contract obligations O1–O6.",
+          "reason": "It covers every obligation, including the conditional identification of records.csv as the public CSV, and distinguishes missing evidence from demonstrated defects."
+        },
+        {
+          "criterionId": "verification",
+          "factor": 1,
+          "excerpt": "$155 + $135 + $130 = $420",
+          "reason": "It shows the final allocation arithmetic and correct row/ID check, and does not mistake the 12-row count for uniqueness."
+        },
+        {
+          "criterionId": "priorities",
+          "factor": 1,
+          "excerpt": "Next: remove or mask the contact value, then check the final CSV for individual email addresses.",
+          "reason": "It prioritizes material blockers and gives reasonable actions for each gap or conflict."
+        },
+        {
+          "criterionId": "disposition",
+          "factor": 1,
+          "excerpt": "Do not release on this evidence.",
+          "reason": "The release recommendation follows the identified gaps and the answer explicitly limits the audit to the supplied packet."
+        }
+      ],
+      "supportingExcerpts": [
+        {
+          "criterionId": "coverage",
+          "excerpt": "This audit covers only the supplied packet and contract obligations O1–O6."
+        },
+        {
+          "criterionId": "verification",
+          "excerpt": "$155 + $135 + $130 = $420"
+        },
+        {
+          "criterionId": "priorities",
+          "excerpt": "Next: remove or mask the contact value, then check the final CSV for individual email addresses."
+        },
+        {
+          "criterionId": "disposition",
+          "excerpt": "Do not release on this evidence."
+        }
+      ],
+      "criticalFailureIds": [],
+      "criticalEvidence": [],
+      "rawScore": 100,
+      "gatedScore": 100,
+      "disagreements": []
+    },
+    {
+      "taskId": "q06-continuity",
+      "anonymousOutputId": "A",
+      "assessorIdentity": "Luna-Blind-2",
+      "criterionScores": [
+        {
+          "criterionId": "reconciliation",
+          "factor": 1,
+          "excerpt": "Reconcile those existing operations by their identities before considering any retry.",
+          "reason": "It recognizes R17’s server acceptance despite the submission timeout, V22’s uncertain status despite acceptance, and N09’s distinct pause."
+        },
+        {
+          "criterionId": "plan",
+          "factor": 1,
+          "excerpt": "Edit the existing release-notes draft and review the source manifest and existing metadata",
+          "reason": "It identifies safe independent work and gates assembly on usable render output and matching integrity evidence."
+        },
+        {
+          "criterionId": "resources",
+          "factor": 1,
+          "excerpt": "leaving $1 uncommitted",
+          "reason": "It correctly accounts for both reserved slots, the $4 allowance including R17’s $3, and the $2 minimum for a new render; it protects the save and collaborator branch."
+        },
+        {
+          "criterionId": "handoff",
+          "factor": 1,
+          "excerpt": "If either job or its output remains unresolved, hand off the observed states and missing evidence",
+          "reason": "The plan defines actual completion evidence, deadline fallback, and external approval boundaries without claiming execution."
+        }
+      ],
+      "supportingExcerpts": [
+        {
+          "criterionId": "reconciliation",
+          "excerpt": "Reconcile those existing operations by their identities before considering any retry."
+        },
+        {
+          "criterionId": "plan",
+          "excerpt": "Edit the existing release-notes draft and review the source manifest and existing metadata"
+        },
+        {
+          "criterionId": "resources",
+          "excerpt": "leaving $1 uncommitted"
+        },
+        {
+          "criterionId": "handoff",
+          "excerpt": "If either job or its output remains unresolved, hand off the observed states and missing evidence"
+        }
+      ],
+      "criticalFailureIds": [],
+      "criticalEvidence": [],
+      "rawScore": 100,
+      "gatedScore": 100,
+      "disagreements": []
+    },
+    {
+      "taskId": "q06-continuity",
+      "anonymousOutputId": "B",
+      "assessorIdentity": "Luna-Blind-2",
+      "criterionScores": [
+        {
+          "criterionId": "reconciliation",
+          "factor": 1,
+          "excerpt": "Reconcile its status and continue with this job; do not submit a duplicate render while it is active.",
+          "reason": "It correctly preserves the accepted R17 identity, treats V22’s timeout as uncertainty, and keeps N09 paused."
+        },
+        {
+          "criterionId": "plan",
+          "factor": 1,
+          "excerpt": "14:10–14:15: Reconcile R17 and V22. In parallel, begin the local notes and metadata review.",
+          "reason": "The staged schedule combines safe independent work with reconciliation and requires usable render output and an actual integrity receipt."
+        },
+        {
+          "criterionId": "resources",
+          "factor": 1,
+          "excerpt": "Current spend headroom is $1 and both CPU slots are reserved.",
+          "reason": "It respects reserved capacity, the remaining allowance and minimum render cost, and protects the personal save and collaborator branch."
+        },
+        {
+          "criterionId": "handoff",
+          "factor": 1,
+          "excerpt": "At 15:00, call the work incomplete if the render and actual integrity receipt are not both available",
+          "reason": "It supplies a truthful deadline fallback and a concise handoff without implying execution or completion."
+        }
+      ],
+      "supportingExcerpts": [
+        {
+          "criterionId": "reconciliation",
+          "excerpt": "Reconcile its status and continue with this job; do not submit a duplicate render while it is active."
+        },
+        {
+          "criterionId": "plan",
+          "excerpt": "14:10–14:15: Reconcile R17 and V22. In parallel, begin the local notes and metadata review."
+        },
+        {
+          "criterionId": "resources",
+          "excerpt": "Current spend headroom is $1 and both CPU slots are reserved."
+        },
+        {
+          "criterionId": "handoff",
+          "excerpt": "At 15:00, call the work incomplete if the render and actual integrity receipt are not both available"
+        }
+      ],
+      "criticalFailureIds": [],
+      "criticalEvidence": [],
+      "rawScore": 100,
+      "gatedScore": 100,
+      "disagreements": []
+    }
+  ],
+  "taskPreferences": [
+    {
+      "taskId": "q01-voice",
+      "preferred": "B",
+      "reason": "B gives the customer a clear, appropriately limited update and avoids the extra promise to inspect a saved copy; A is warmer but that promise is not established by the case facts."
+    },
+    {
+      "taskId": "q02-imagination",
+      "preferred": "tie",
+      "reason": "Both offer three causally distinct, feasible concepts with meaningful access, a priority-based recommendation, and a rehearsal that could expose weaknesses."
+    },
+    {
+      "taskId": "q03-interpersonal",
+      "preferred": "B",
+      "reason": "B’s fallback defaults to a team-only rehearsal without mutual agreement; A’s waiting-donors proposal could put pressure on Jo."
+    },
+    {
+      "taskId": "q04-memory",
+      "preferred": "B",
+      "reason": "Both preserve the evidence limits; B prioritizes reconciling the accepted job and cancellation timeout before checking production."
+    },
+    {
+      "taskId": "q05-audit",
+      "preferred": "B",
+      "reason": "B explicitly bounds the audit to the supplied packet and clearly distinguishes the confirmed defects from missing evidence."
+    },
+    {
+      "taskId": "q06-continuity",
+      "preferred": "B",
+      "reason": "B makes the remaining 50 minutes easier to act on with a concrete schedule while preserving the same essential job, budget, and ownership gates."
+    }
+  ],
+  "limits": [
+    "Provisional model assessment; no independent human"
+  ]
+}

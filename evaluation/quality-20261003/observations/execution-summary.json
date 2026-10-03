@@ -1,0 +1,755 @@
+{
+  "schema": "godskills-quality-public-execution-projection-v1",
+  "originalSummarySha256": "659eb75abcacac9ece66d49d577b1bf2a6a37325befc66757a4fdfda9ccf32c4",
+  "fixtureCommit": "02a43b423553ede5da8c72427c24b5eb1bfe9dba",
+  "schedule": [
+    {
+      "wave": 1,
+      "taskId": "q01-voice",
+      "arm": "skill"
+    },
+    {
+      "wave": 1,
+      "taskId": "q02-imagination",
+      "arm": "baseline"
+    },
+    {
+      "wave": 1,
+      "taskId": "q03-interpersonal",
+      "arm": "skill"
+    },
+    {
+      "wave": 1,
+      "taskId": "q04-memory",
+      "arm": "baseline"
+    },
+    {
+      "wave": 1,
+      "taskId": "q05-audit",
+      "arm": "skill"
+    },
+    {
+      "wave": 1,
+      "taskId": "q06-continuity",
+      "arm": "baseline"
+    },
+    {
+      "wave": 2,
+      "taskId": "q01-voice",
+      "arm": "baseline"
+    },
+    {
+      "wave": 2,
+      "taskId": "q02-imagination",
+      "arm": "skill"
+    },
+    {
+      "wave": 2,
+      "taskId": "q03-interpersonal",
+      "arm": "baseline"
+    },
+    {
+      "wave": 2,
+      "taskId": "q04-memory",
+      "arm": "skill"
+    },
+    {
+      "wave": 2,
+      "taskId": "q05-audit",
+      "arm": "baseline"
+    },
+    {
+      "wave": 2,
+      "taskId": "q06-continuity",
+      "arm": "skill"
+    }
+  ],
+  "fixtureSha256": "686d72d75d63c0dc4cae6925dc6b872f34895bd325c308b70c2eadf404518822",
+  "results": [
+    {
+      "taskId": "q01-voice",
+      "arm": "baseline",
+      "status": "completed",
+      "requested": {
+        "model": "gpt-6-luna",
+        "provider": "openai",
+        "reasoning": "max"
+      },
+      "servedModel": "unknown",
+      "startedAt": "2026-10-03T12:23:48.772Z",
+      "endedAt": "2026-10-03T12:24:36.050Z",
+      "wallMs": 46828,
+      "toolCalls": 0,
+      "exitCode": 0,
+      "timedOut": false,
+      "isolation": {
+        "valid": true,
+        "label": "factory-codex-baseline",
+        "scope": "captured-preflight-only",
+        "factorySkills": [
+          "imagegen",
+          "openai-docs",
+          "skill-creator",
+          "skill-installer"
+        ],
+        "normalizedPrefixSha256": "68fef104f2f4fc3138f68e68fd5d8e9c71fc26a557b71f83e134886d1ea1c5cd"
+      },
+      "usage": {
+        "input": 10607,
+        "cachedInput": 2816,
+        "output": 2424,
+        "reasoningOutput": 2115,
+        "cacheWriteInput": 0,
+        "raw": {
+          "input_tokens": 10607,
+          "cached_input_tokens": 2816,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2424,
+          "reasoning_output_tokens": 2115
+        }
+      },
+      "treatmentReleaseId": null,
+      "treatmentFiles": [],
+      "resultSha256": "e12d171d1f2c66a18d25264c2bff04787aceb0b7875220174b4f3a84611b63d7",
+      "promptSha256": "2ab3d5816fb898321f399e58d8abf4ec80b3b76f0c8d605f32050377717450f8",
+      "fixtureSha256": "686d72d75d63c0dc4cae6925dc6b872f34895bd325c308b70c2eadf404518822",
+      "configSha256": "c5e337ba27f034dc92b2b1294ed9e29c16c310b89816b31640b195378570e15d",
+      "harnessSha256": "24736713cab1205891d8f466c82076f36c93536ca19c2e8af2bea9576359365e",
+      "binarySha256": "34549ded6e2aee87c911c62d025e52e26c488683d0f489cd68f756baef1a6df6",
+      "referenceInputSha256": "98d14cfc4744d982377d8536b7162dbcf4aa7083654a2853844536779218f705"
+    },
+    {
+      "taskId": "q01-voice",
+      "arm": "skill",
+      "status": "completed",
+      "requested": {
+        "model": "gpt-6-luna",
+        "provider": "openai",
+        "reasoning": "max"
+      },
+      "servedModel": "unknown",
+      "startedAt": "2026-10-03T12:17:15.353Z",
+      "endedAt": "2026-10-03T12:19:27.009Z",
+      "wallMs": 130640,
+      "toolCalls": 0,
+      "exitCode": 0,
+      "timedOut": false,
+      "isolation": {
+        "valid": true,
+        "label": "factory-codex-baseline",
+        "scope": "captured-preflight-only",
+        "factorySkills": [
+          "imagegen",
+          "openai-docs",
+          "skill-creator",
+          "skill-installer"
+        ],
+        "normalizedPrefixSha256": "68fef104f2f4fc3138f68e68fd5d8e9c71fc26a557b71f83e134886d1ea1c5cd"
+      },
+      "usage": {
+        "input": 11469,
+        "cachedInput": 7936,
+        "output": 6810,
+        "reasoningOutput": 6513,
+        "cacheWriteInput": 0,
+        "raw": {
+          "input_tokens": 11469,
+          "cached_input_tokens": 7936,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 6810,
+          "reasoning_output_tokens": 6513
+        }
+      },
+      "treatmentReleaseId": "54688268f540ce974272f4619f88d97adde80a0c058325a5b8f960432370a0dd",
+      "treatmentFiles": [
+        {
+          "path": "skills/voice-style-calibration/SKILL.md",
+          "sha256": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b"
+        }
+      ],
+      "resultSha256": "887c919a7f02c25b76b8d9c5656b73b216f6fea9cf2581218fcbc88038c5885b",
+      "promptSha256": "55ad08064caab550b038676160c4909816ccc15507b604df2c1118ccf3c92c96",
+      "fixtureSha256": "686d72d75d63c0dc4cae6925dc6b872f34895bd325c308b70c2eadf404518822",
+      "configSha256": "c5e337ba27f034dc92b2b1294ed9e29c16c310b89816b31640b195378570e15d",
+      "harnessSha256": "24736713cab1205891d8f466c82076f36c93536ca19c2e8af2bea9576359365e",
+      "binarySha256": "34549ded6e2aee87c911c62d025e52e26c488683d0f489cd68f756baef1a6df6",
+      "referenceInputSha256": "98d14cfc4744d982377d8536b7162dbcf4aa7083654a2853844536779218f705"
+    },
+    {
+      "taskId": "q02-imagination",
+      "arm": "baseline",
+      "status": "completed",
+      "requested": {
+        "model": "gpt-6-luna",
+        "provider": "openai",
+        "reasoning": "max"
+      },
+      "servedModel": "unknown",
+      "startedAt": "2026-10-03T12:17:15.303Z",
+      "endedAt": "2026-10-03T12:23:48.747Z",
+      "wallMs": 392373,
+      "toolCalls": 0,
+      "exitCode": 0,
+      "timedOut": false,
+      "isolation": {
+        "valid": true,
+        "label": "factory-codex-baseline",
+        "scope": "captured-preflight-only",
+        "factorySkills": [
+          "imagegen",
+          "openai-docs",
+          "skill-creator",
+          "skill-installer"
+        ],
+        "normalizedPrefixSha256": "68fef104f2f4fc3138f68e68fd5d8e9c71fc26a557b71f83e134886d1ea1c5cd"
+      },
+      "usage": {
+        "input": 10494,
+        "cachedInput": 7936,
+        "output": 16925,
+        "reasoningOutput": 15494,
+        "cacheWriteInput": 0,
+        "raw": {
+          "input_tokens": 10494,
+          "cached_input_tokens": 7936,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 16925,
+          "reasoning_output_tokens": 15494
+        }
+      },
+      "treatmentReleaseId": null,
+      "treatmentFiles": [],
+      "resultSha256": "88234379bfc222790a78ff89bd3ef8fb3a4c006a2e9c50b5997240c71ed1b887",
+      "promptSha256": "f68059d5de9a2d3f7d446e3d2bd8404d18042c5b2192bfa08344fec823b8d1f4",
+      "fixtureSha256": "686d72d75d63c0dc4cae6925dc6b872f34895bd325c308b70c2eadf404518822",
+      "configSha256": "c5e337ba27f034dc92b2b1294ed9e29c16c310b89816b31640b195378570e15d",
+      "harnessSha256": "24736713cab1205891d8f466c82076f36c93536ca19c2e8af2bea9576359365e",
+      "binarySha256": "34549ded6e2aee87c911c62d025e52e26c488683d0f489cd68f756baef1a6df6",
+      "referenceInputSha256": "98d14cfc4744d982377d8536b7162dbcf4aa7083654a2853844536779218f705"
+    },
+    {
+      "taskId": "q02-imagination",
+      "arm": "skill",
+      "status": "completed",
+      "requested": {
+        "model": "gpt-6-luna",
+        "provider": "openai",
+        "reasoning": "max"
+      },
+      "servedModel": "unknown",
+      "startedAt": "2026-10-03T12:23:48.758Z",
+      "endedAt": "2026-10-03T12:29:00.900Z",
+      "wallMs": 311696,
+      "toolCalls": 0,
+      "exitCode": 0,
+      "timedOut": false,
+      "isolation": {
+        "valid": true,
+        "label": "factory-codex-baseline",
+        "scope": "captured-preflight-only",
+        "factorySkills": [
+          "imagegen",
+          "openai-docs",
+          "skill-creator",
+          "skill-installer"
+        ],
+        "normalizedPrefixSha256": "68fef104f2f4fc3138f68e68fd5d8e9c71fc26a557b71f83e134886d1ea1c5cd"
+      },
+      "usage": {
+        "input": 11280,
+        "cachedInput": 7936,
+        "output": 17132,
+        "reasoningOutput": 15709,
+        "cacheWriteInput": 0,
+        "raw": {
+          "input_tokens": 11280,
+          "cached_input_tokens": 7936,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 17132,
+          "reasoning_output_tokens": 15709
+        }
+      },
+      "treatmentReleaseId": "54688268f540ce974272f4619f88d97adde80a0c058325a5b8f960432370a0dd",
+      "treatmentFiles": [
+        {
+          "path": "skills/imaginative-concept-development/SKILL.md",
+          "sha256": "5a1b550f7db546470d93a73106f972d59cf1cf4be21cc6e7c8d08cb7f9fd95c7"
+        }
+      ],
+      "resultSha256": "4f4d50e7048667f2a64887a5ab3ae626b0b204d3f3f0915d72f2ea0bd5b82dac",
+      "promptSha256": "b7182b1e7e5dba3eb1d0a21c5585609a646397eaa66f38ad6f512e81c6b21a78",
+      "fixtureSha256": "686d72d75d63c0dc4cae6925dc6b872f34895bd325c308b70c2eadf404518822",
+      "configSha256": "c5e337ba27f034dc92b2b1294ed9e29c16c310b89816b31640b195378570e15d",
+      "harnessSha256": "24736713cab1205891d8f466c82076f36c93536ca19c2e8af2bea9576359365e",
+      "binarySha256": "34549ded6e2aee87c911c62d025e52e26c488683d0f489cd68f756baef1a6df6",
+      "referenceInputSha256": "98d14cfc4744d982377d8536b7162dbcf4aa7083654a2853844536779218f705"
+    },
+    {
+      "taskId": "q03-interpersonal",
+      "arm": "baseline",
+      "status": "completed",
+      "requested": {
+        "model": "gpt-6-luna",
+        "provider": "openai",
+        "reasoning": "max"
+      },
+      "servedModel": "unknown",
+      "startedAt": "2026-10-03T12:23:48.758Z",
+      "endedAt": "2026-10-03T12:24:56.149Z",
+      "wallMs": 66959,
+      "toolCalls": 0,
+      "exitCode": 0,
+      "timedOut": false,
+      "isolation": {
+        "valid": true,
+        "label": "factory-codex-baseline",
+        "scope": "captured-preflight-only",
+        "factorySkills": [
+          "imagegen",
+          "openai-docs",
+          "skill-creator",
+          "skill-installer"
+        ],
+        "normalizedPrefixSha256": "68fef104f2f4fc3138f68e68fd5d8e9c71fc26a557b71f83e134886d1ea1c5cd"
+      },
+      "usage": {
+        "input": 10497,
+        "cachedInput": 7936,
+        "output": 3391,
+        "reasoningOutput": 3054,
+        "cacheWriteInput": 0,
+        "raw": {
+          "input_tokens": 10497,
+          "cached_input_tokens": 7936,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3391,
+          "reasoning_output_tokens": 3054
+        }
+      },
+      "treatmentReleaseId": null,
+      "treatmentFiles": [],
+      "resultSha256": "c583901bc0efdd2f2d414764fdc9eebf1201394cfd328b28b952f75e336edff3",
+      "promptSha256": "d543bd4d24b7094d716a5fb6448f2d430f0f856b5ba075bcd5f062d8fdd8f540",
+      "fixtureSha256": "686d72d75d63c0dc4cae6925dc6b872f34895bd325c308b70c2eadf404518822",
+      "configSha256": "c5e337ba27f034dc92b2b1294ed9e29c16c310b89816b31640b195378570e15d",
+      "harnessSha256": "24736713cab1205891d8f466c82076f36c93536ca19c2e8af2bea9576359365e",
+      "binarySha256": "34549ded6e2aee87c911c62d025e52e26c488683d0f489cd68f756baef1a6df6",
+      "referenceInputSha256": "98d14cfc4744d982377d8536b7162dbcf4aa7083654a2853844536779218f705"
+    },
+    {
+      "taskId": "q03-interpersonal",
+      "arm": "skill",
+      "status": "completed",
+      "requested": {
+        "model": "gpt-6-luna",
+        "provider": "openai",
+        "reasoning": "max"
+      },
+      "servedModel": "unknown",
+      "startedAt": "2026-10-03T12:17:15.304Z",
+      "endedAt": "2026-10-03T12:18:50.529Z",
+      "wallMs": 94115,
+      "toolCalls": 0,
+      "exitCode": 0,
+      "timedOut": false,
+      "isolation": {
+        "valid": true,
+        "label": "factory-codex-baseline",
+        "scope": "captured-preflight-only",
+        "factorySkills": [
+          "imagegen",
+          "openai-docs",
+          "skill-creator",
+          "skill-installer"
+        ],
+        "normalizedPrefixSha256": "68fef104f2f4fc3138f68e68fd5d8e9c71fc26a557b71f83e134886d1ea1c5cd"
+      },
+      "usage": {
+        "input": 11473,
+        "cachedInput": 7936,
+        "output": 4984,
+        "reasoningOutput": 4633,
+        "cacheWriteInput": 0,
+        "raw": {
+          "input_tokens": 11473,
+          "cached_input_tokens": 7936,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 4984,
+          "reasoning_output_tokens": 4633
+        }
+      },
+      "treatmentReleaseId": "54688268f540ce974272f4619f88d97adde80a0c058325a5b8f960432370a0dd",
+      "treatmentFiles": [
+        {
+          "path": "skills/interpersonal-understanding-and-dialogue/SKILL.md",
+          "sha256": "dfa4af05ca5b68aa6db7252d70dc0d2b57a610f4fa0f49104fe3b07eb1cacc74"
+        },
+        {
+          "path": "skills/interpersonal-understanding-and-dialogue/references/examples.md",
+          "sha256": "c1593449b397d952b3d0c60d7bca728201be79e5715af0a0ba1b35adae590bec"
+        }
+      ],
+      "resultSha256": "e1e5e8609e60d0e77f47614f6679bc436bfe5047cd898ac871e69c0f192c9d80",
+      "promptSha256": "3347869778276fb3737d736ac40bcf98e468c0f8f4baa27b014758d4b866649e",
+      "fixtureSha256": "686d72d75d63c0dc4cae6925dc6b872f34895bd325c308b70c2eadf404518822",
+      "configSha256": "c5e337ba27f034dc92b2b1294ed9e29c16c310b89816b31640b195378570e15d",
+      "harnessSha256": "24736713cab1205891d8f466c82076f36c93536ca19c2e8af2bea9576359365e",
+      "binarySha256": "34549ded6e2aee87c911c62d025e52e26c488683d0f489cd68f756baef1a6df6",
+      "referenceInputSha256": "98d14cfc4744d982377d8536b7162dbcf4aa7083654a2853844536779218f705"
+    },
+    {
+      "taskId": "q04-memory",
+      "arm": "baseline",
+      "status": "completed",
+      "requested": {
+        "model": "gpt-6-luna",
+        "provider": "openai",
+        "reasoning": "max"
+      },
+      "servedModel": "unknown",
+      "startedAt": "2026-10-03T12:17:15.355Z",
+      "endedAt": "2026-10-03T12:18:08.300Z",
+      "wallMs": 51865,
+      "toolCalls": 0,
+      "exitCode": 0,
+      "timedOut": false,
+      "isolation": {
+        "valid": true,
+        "label": "factory-codex-baseline",
+        "scope": "captured-preflight-only",
+        "factorySkills": [
+          "imagegen",
+          "openai-docs",
+          "skill-creator",
+          "skill-installer"
+        ],
+        "normalizedPrefixSha256": "68fef104f2f4fc3138f68e68fd5d8e9c71fc26a557b71f83e134886d1ea1c5cd"
+      },
+      "usage": {
+        "input": 10552,
+        "cachedInput": 7936,
+        "output": 2168,
+        "reasoningOutput": 1552,
+        "cacheWriteInput": 0,
+        "raw": {
+          "input_tokens": 10552,
+          "cached_input_tokens": 7936,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2168,
+          "reasoning_output_tokens": 1552
+        }
+      },
+      "treatmentReleaseId": null,
+      "treatmentFiles": [],
+      "resultSha256": "e899a8c9c49ba83ea08b108733df75d87b2b2648d51f383798a95aceb3385834",
+      "promptSha256": "a2438b97a9f316b77a04cdb090ac473c688504d8e1e0af4f2ee76947740b4492",
+      "fixtureSha256": "686d72d75d63c0dc4cae6925dc6b872f34895bd325c308b70c2eadf404518822",
+      "configSha256": "c5e337ba27f034dc92b2b1294ed9e29c16c310b89816b31640b195378570e15d",
+      "harnessSha256": "24736713cab1205891d8f466c82076f36c93536ca19c2e8af2bea9576359365e",
+      "binarySha256": "34549ded6e2aee87c911c62d025e52e26c488683d0f489cd68f756baef1a6df6",
+      "referenceInputSha256": "98d14cfc4744d982377d8536b7162dbcf4aa7083654a2853844536779218f705"
+    },
+    {
+      "taskId": "q04-memory",
+      "arm": "skill",
+      "status": "completed",
+      "requested": {
+        "model": "gpt-6-luna",
+        "provider": "openai",
+        "reasoning": "max"
+      },
+      "servedModel": "unknown",
+      "startedAt": "2026-10-03T12:23:48.781Z",
+      "endedAt": "2026-10-03T12:24:30.634Z",
+      "wallMs": 41380,
+      "toolCalls": 0,
+      "exitCode": 0,
+      "timedOut": false,
+      "isolation": {
+        "valid": true,
+        "label": "factory-codex-baseline",
+        "scope": "captured-preflight-only",
+        "factorySkills": [
+          "imagegen",
+          "openai-docs",
+          "skill-creator",
+          "skill-installer"
+        ],
+        "normalizedPrefixSha256": "68fef104f2f4fc3138f68e68fd5d8e9c71fc26a557b71f83e134886d1ea1c5cd"
+      },
+      "usage": {
+        "input": 11941,
+        "cachedInput": 0,
+        "output": 2141,
+        "reasoningOutput": 1531,
+        "cacheWriteInput": 0,
+        "raw": {
+          "input_tokens": 11941,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 2141,
+          "reasoning_output_tokens": 1531
+        }
+      },
+      "treatmentReleaseId": "54688268f540ce974272f4619f88d97adde80a0c058325a5b8f960432370a0dd",
+      "treatmentFiles": [
+        {
+          "path": "skills/memory-retention-and-recovery/SKILL.md",
+          "sha256": "36c14c3b62bdf72c2b12bf4678ec44223bd0c3064528a7f1b34d7df4fcc966e7"
+        },
+        {
+          "path": "skills/memory-retention-and-recovery/references/examples.md",
+          "sha256": "e85739b8e8e517545d5862200f78e442dc23f59284f2e74751c7c39af8e5ece2"
+        }
+      ],
+      "resultSha256": "fc69c6c3b0570a2f553ef615c789af1bd0dd6f3b7f37d6a1a1c7ded37b272e12",
+      "promptSha256": "466ca49add4b718368eb590f8731f4ff799b6d75b441d8ed9e96189afbcfa4ac",
+      "fixtureSha256": "686d72d75d63c0dc4cae6925dc6b872f34895bd325c308b70c2eadf404518822",
+      "configSha256": "c5e337ba27f034dc92b2b1294ed9e29c16c310b89816b31640b195378570e15d",
+      "harnessSha256": "24736713cab1205891d8f466c82076f36c93536ca19c2e8af2bea9576359365e",
+      "binarySha256": "34549ded6e2aee87c911c62d025e52e26c488683d0f489cd68f756baef1a6df6",
+      "referenceInputSha256": "98d14cfc4744d982377d8536b7162dbcf4aa7083654a2853844536779218f705"
+    },
+    {
+      "taskId": "q05-audit",
+      "arm": "baseline",
+      "status": "completed",
+      "requested": {
+        "model": "gpt-6-luna",
+        "provider": "openai",
+        "reasoning": "max"
+      },
+      "servedModel": "unknown",
+      "startedAt": "2026-10-03T12:23:48.781Z",
+      "endedAt": "2026-10-03T12:25:07.484Z",
+      "wallMs": 78318,
+      "toolCalls": 0,
+      "exitCode": 0,
+      "timedOut": false,
+      "isolation": {
+        "valid": true,
+        "label": "factory-codex-baseline",
+        "scope": "captured-preflight-only",
+        "factorySkills": [
+          "imagegen",
+          "openai-docs",
+          "skill-creator",
+          "skill-installer"
+        ],
+        "normalizedPrefixSha256": "68fef104f2f4fc3138f68e68fd5d8e9c71fc26a557b71f83e134886d1ea1c5cd"
+      },
+      "usage": {
+        "input": 10624,
+        "cachedInput": 7936,
+        "output": 4186,
+        "reasoningOutput": 3624,
+        "cacheWriteInput": 0,
+        "raw": {
+          "input_tokens": 10624,
+          "cached_input_tokens": 7936,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 4186,
+          "reasoning_output_tokens": 3624
+        }
+      },
+      "treatmentReleaseId": null,
+      "treatmentFiles": [],
+      "resultSha256": "3f8d819fd672e28b4f9378cc1ac142d8bbb6ce634c13baea61f557f1df82dc6d",
+      "promptSha256": "b667c89cc24f86553d7305c1ed87fe1fb3aefbcc25a9a050934ca90457657fec",
+      "fixtureSha256": "686d72d75d63c0dc4cae6925dc6b872f34895bd325c308b70c2eadf404518822",
+      "configSha256": "c5e337ba27f034dc92b2b1294ed9e29c16c310b89816b31640b195378570e15d",
+      "harnessSha256": "24736713cab1205891d8f466c82076f36c93536ca19c2e8af2bea9576359365e",
+      "binarySha256": "34549ded6e2aee87c911c62d025e52e26c488683d0f489cd68f756baef1a6df6",
+      "referenceInputSha256": "98d14cfc4744d982377d8536b7162dbcf4aa7083654a2853844536779218f705"
+    },
+    {
+      "taskId": "q05-audit",
+      "arm": "skill",
+      "status": "completed",
+      "requested": {
+        "model": "gpt-6-luna",
+        "provider": "openai",
+        "reasoning": "max"
+      },
+      "servedModel": "unknown",
+      "startedAt": "2026-10-03T12:17:15.354Z",
+      "endedAt": "2026-10-03T12:18:28.416Z",
+      "wallMs": 72119,
+      "toolCalls": 0,
+      "exitCode": 0,
+      "timedOut": false,
+      "isolation": {
+        "valid": true,
+        "label": "factory-codex-baseline",
+        "scope": "captured-preflight-only",
+        "factorySkills": [
+          "imagegen",
+          "openai-docs",
+          "skill-creator",
+          "skill-installer"
+        ],
+        "normalizedPrefixSha256": "68fef104f2f4fc3138f68e68fd5d8e9c71fc26a557b71f83e134886d1ea1c5cd"
+      },
+      "usage": {
+        "input": 13452,
+        "cachedInput": 0,
+        "output": 3763,
+        "reasoningOutput": 3106,
+        "cacheWriteInput": 0,
+        "raw": {
+          "input_tokens": 13452,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3763,
+          "reasoning_output_tokens": 3106
+        }
+      },
+      "treatmentReleaseId": "54688268f540ce974272f4619f88d97adde80a0c058325a5b8f960432370a0dd",
+      "treatmentFiles": [
+        {
+          "path": "skills/completeness-and-consistency-audit/SKILL.md",
+          "sha256": "4e434687d0f77a0577c6bd2c8b869fe60d409df5c5e6d5b6ee946771a78d5f71"
+        },
+        {
+          "path": "skills/completeness-and-consistency-audit/references/coverage-template.md",
+          "sha256": "afb14dd68fe0735479deead5dcfb8dc4d71d6f4d8a36a5e7246afa73fea21340"
+        },
+        {
+          "path": "skills/completeness-and-consistency-audit/references/worked-audits.md",
+          "sha256": "dc8977704eb24d273dbc010a7ae1ea800efaa2c2df63622996a185fab6b906da"
+        }
+      ],
+      "resultSha256": "1f4d4c8c7c030e08a3a08e6430b75f8ff83adc23e2b3a5e46ded516f44039830",
+      "promptSha256": "9e30883811bf5ab703197e8288bb0aa2ce442a29ae139e022a07e77e6b85d6bf",
+      "fixtureSha256": "686d72d75d63c0dc4cae6925dc6b872f34895bd325c308b70c2eadf404518822",
+      "configSha256": "c5e337ba27f034dc92b2b1294ed9e29c16c310b89816b31640b195378570e15d",
+      "harnessSha256": "24736713cab1205891d8f466c82076f36c93536ca19c2e8af2bea9576359365e",
+      "binarySha256": "34549ded6e2aee87c911c62d025e52e26c488683d0f489cd68f756baef1a6df6",
+      "referenceInputSha256": "98d14cfc4744d982377d8536b7162dbcf4aa7083654a2853844536779218f705"
+    },
+    {
+      "taskId": "q06-continuity",
+      "arm": "baseline",
+      "status": "completed",
+      "requested": {
+        "model": "gpt-6-luna",
+        "provider": "openai",
+        "reasoning": "max"
+      },
+      "servedModel": "unknown",
+      "startedAt": "2026-10-03T12:17:15.354Z",
+      "endedAt": "2026-10-03T12:18:22.210Z",
+      "wallMs": 65699,
+      "toolCalls": 0,
+      "exitCode": 0,
+      "timedOut": false,
+      "isolation": {
+        "valid": true,
+        "label": "factory-codex-baseline",
+        "scope": "captured-preflight-only",
+        "factorySkills": [
+          "imagegen",
+          "openai-docs",
+          "skill-creator",
+          "skill-installer"
+        ],
+        "normalizedPrefixSha256": "68fef104f2f4fc3138f68e68fd5d8e9c71fc26a557b71f83e134886d1ea1c5cd"
+      },
+      "usage": {
+        "input": 10699,
+        "cachedInput": 7936,
+        "output": 3396,
+        "reasoningOutput": 2474,
+        "cacheWriteInput": 0,
+        "raw": {
+          "input_tokens": 10699,
+          "cached_input_tokens": 7936,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3396,
+          "reasoning_output_tokens": 2474
+        }
+      },
+      "treatmentReleaseId": null,
+      "treatmentFiles": [],
+      "resultSha256": "8dae8d3299d59384ea1248deee2f5dc8f0ccf3309327fd16ec8305c20d9f5095",
+      "promptSha256": "3aa67c5180d0d51b20437521f1a4373f2d78cca725185e6616f016f5a2031d08",
+      "fixtureSha256": "686d72d75d63c0dc4cae6925dc6b872f34895bd325c308b70c2eadf404518822",
+      "configSha256": "c5e337ba27f034dc92b2b1294ed9e29c16c310b89816b31640b195378570e15d",
+      "harnessSha256": "24736713cab1205891d8f466c82076f36c93536ca19c2e8af2bea9576359365e",
+      "binarySha256": "34549ded6e2aee87c911c62d025e52e26c488683d0f489cd68f756baef1a6df6",
+      "referenceInputSha256": "98d14cfc4744d982377d8536b7162dbcf4aa7083654a2853844536779218f705"
+    },
+    {
+      "taskId": "q06-continuity",
+      "arm": "skill",
+      "status": "completed",
+      "requested": {
+        "model": "gpt-6-luna",
+        "provider": "openai",
+        "reasoning": "max"
+      },
+      "servedModel": "unknown",
+      "startedAt": "2026-10-03T12:23:48.780Z",
+      "endedAt": "2026-10-03T12:25:29.177Z",
+      "wallMs": 99980,
+      "toolCalls": 0,
+      "exitCode": 0,
+      "timedOut": false,
+      "isolation": {
+        "valid": true,
+        "label": "factory-codex-baseline",
+        "scope": "captured-preflight-only",
+        "factorySkills": [
+          "imagegen",
+          "openai-docs",
+          "skill-creator",
+          "skill-installer"
+        ],
+        "normalizedPrefixSha256": "68fef104f2f4fc3138f68e68fd5d8e9c71fc26a557b71f83e134886d1ea1c5cd"
+      },
+      "usage": {
+        "input": 14109,
+        "cachedInput": 0,
+        "output": 5310,
+        "reasoningOutput": 4216,
+        "cacheWriteInput": 0,
+        "raw": {
+          "input_tokens": 14109,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 5310,
+          "reasoning_output_tokens": 4216
+        }
+      },
+      "treatmentReleaseId": "54688268f540ce974272f4619f88d97adde80a0c058325a5b8f960432370a0dd",
+      "treatmentFiles": [
+        {
+          "path": "skills/long-horizon-work-continuity/SKILL.md",
+          "sha256": "83584469ab0faf64844451aba67bfe4e9325d2c1f7d6580ff951bc90d3a34f5d"
+        },
+        {
+          "path": "skills/long-horizon-work-continuity/references/continuity-packet.md",
+          "sha256": "224245f7beb6f1ab8266a68636e47723926ab760886771d47df49e1e70e33311"
+        },
+        {
+          "path": "skills/long-horizon-work-continuity/references/uncertain-effect-recovery.md",
+          "sha256": "a12fcc1b51a85bcaa392fbc534ba3be74bd6aef184019ca78774e6615d8f8f7f"
+        },
+        {
+          "path": "skills/long-horizon-work-continuity/references/interruption-cases.md",
+          "sha256": "a922ecdc7620b3df8c7270ec0ec7e736e315af9a1582e6ed880c30276e702cc6"
+        }
+      ],
+      "resultSha256": "c8c80abae76d79575c48dd9a4517ab8aa90478e0af943f32e289b84947d21408",
+      "promptSha256": "ee2740e1bcc7ff9a6cbbe18fc94712e07d5b6b8821c7330235a507a26d045fa2",
+      "fixtureSha256": "686d72d75d63c0dc4cae6925dc6b872f34895bd325c308b70c2eadf404518822",
+      "configSha256": "c5e337ba27f034dc92b2b1294ed9e29c16c310b89816b31640b195378570e15d",
+      "harnessSha256": "24736713cab1205891d8f466c82076f36c93536ca19c2e8af2bea9576359365e",
+      "binarySha256": "34549ded6e2aee87c911c62d025e52e26c488683d0f489cd68f756baef1a6df6",
+      "referenceInputSha256": "98d14cfc4744d982377d8536b7162dbcf4aa7083654a2853844536779218f705"
+    }
+  ],
+  "errors": [],
+  "notDispatched": [],
+  "scope": "Visible final answers and counters only; private auth, prompts, raw events, hidden reasoning and local process paths are not published"
+}

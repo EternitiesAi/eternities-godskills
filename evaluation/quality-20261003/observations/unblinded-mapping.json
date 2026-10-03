@@ -1,0 +1,82 @@
+{
+  "schema": "godskills-public-unblinded-map-v1",
+  "originalPrivateMappingSha256": "296b7bd89d8c144bdb82d10e9d51d7ba68280cca975c1abe7b8d50e20a61d069",
+  "fixtureSha256": "686d72d75d63c0dc4cae6925dc6b872f34895bd325c308b70c2eadf404518822",
+  "packetSha256": "fb3675b44b58b7cd05900873fbc095ab669231d1ef6784806a5028f958e796b7",
+  "summarySha256": "f918db9e891cadb6847388c3c0fe0112f51e668ffd23adf9139a92ebdbddd6b1",
+  "mapping": [
+    {
+      "taskId": "q01-voice",
+      "label": "A",
+      "arm": "baseline",
+      "answerSha256": "e12d171d1f2c66a18d25264c2bff04787aceb0b7875220174b4f3a84611b63d7"
+    },
+    {
+      "taskId": "q01-voice",
+      "label": "B",
+      "arm": "skill",
+      "answerSha256": "887c919a7f02c25b76b8d9c5656b73b216f6fea9cf2581218fcbc88038c5885b"
+    },
+    {
+      "taskId": "q02-imagination",
+      "label": "A",
+      "arm": "baseline",
+      "answerSha256": "88234379bfc222790a78ff89bd3ef8fb3a4c006a2e9c50b5997240c71ed1b887"
+    },
+    {
+      "taskId": "q02-imagination",
+      "label": "B",
+      "arm": "skill",
+      "answerSha256": "4f4d50e7048667f2a64887a5ab3ae626b0b204d3f3f0915d72f2ea0bd5b82dac"
+    },
+    {
+      "taskId": "q03-interpersonal",
+      "label": "A",
+      "arm": "baseline",
+      "answerSha256": "c583901bc0efdd2f2d414764fdc9eebf1201394cfd328b28b952f75e336edff3"
+    },
+    {
+      "taskId": "q03-interpersonal",
+      "label": "B",
+      "arm": "skill",
+      "answerSha256": "e1e5e8609e60d0e77f47614f6679bc436bfe5047cd898ac871e69c0f192c9d80"
+    },
+    {
+      "taskId": "q04-memory",
+      "label": "A",
+      "arm": "baseline",
+      "answerSha256": "e899a8c9c49ba83ea08b108733df75d87b2b2648d51f383798a95aceb3385834"
+    },
+    {
+      "taskId": "q04-memory",
+      "label": "B",
+      "arm": "skill",
+      "answerSha256": "fc69c6c3b0570a2f553ef615c789af1bd0dd6f3b7f37d6a1a1c7ded37b272e12"
+    },
+    {
+      "taskId": "q05-audit",
+      "label": "A",
+      "arm": "baseline",
+      "answerSha256": "3f8d819fd672e28b4f9378cc1ac142d8bbb6ce634c13baea61f557f1df82dc6d"
+    },
+    {
+      "taskId": "q05-audit",
+      "label": "B",
+      "arm": "skill",
+      "answerSha256": "1f4d4c8c7c030e08a3a08e6430b75f8ff83adc23e2b3a5e46ded516f44039830"
+    },
+    {
+      "taskId": "q06-continuity",
+      "label": "A",
+      "arm": "skill",
+      "answerSha256": "c8c80abae76d79575c48dd9a4517ab8aa90478e0af943f32e289b84947d21408"
+    },
+    {
+      "taskId": "q06-continuity",
+      "label": "B",
+      "arm": "baseline",
+      "answerSha256": "8dae8d3299d59384ea1248deee2f5dc8f0ccf3309327fd16ec8305c20d9f5095"
+    }
+  ],
+  "disclosure": "Public after both blinded assessments completed; label seed remains private, no re-randomization"
+}

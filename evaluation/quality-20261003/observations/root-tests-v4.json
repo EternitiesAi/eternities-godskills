@@ -1,0 +1,33 @@
+{
+  "schema": "godskills-root-check-v1",
+  "repo": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003",
+  "startedAt": "2026-10-03T12:09:13.835Z",
+  "finishedAt": "2026-10-03T12:10:07.923Z",
+  "node": "v24.18.0",
+  "args": [
+    "--test",
+    "--test-reporter=tap"
+  ],
+  "exitCode": 0,
+  "counts": {
+    "tests": 1462,
+    "pass": 1460,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 2,
+    "todo": 0
+  },
+  "stdout": {
+    "path": "C:\\Users\\Dom\\.codex\\operations\\godskills-quality-20261003\\root-tests-v4.tap",
+    "sha256": "c002fd89e78ea77fe923a39d5060d66cbe50ac54ef58a8a28e70a4d81adcfa4f"
+  },
+  "stderr": {
+    "path": "C:\\Users\\Dom\\.codex\\operations\\godskills-quality-20261003\\root-tests-v4.stderr.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "skipLines": [
+    "ok 698 - rejects symbolic links instead of following them # SKIP symbolic-link creation is unavailable on this Windows account",
+    "ok 1279 - different-volume commit destinations are rejected before any skills move # SKIP"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "schema": "godskills-quality-public-observation-manifest-v1",
+  "files": [
+    {
+      "path": "packet.json",
+      "sha256": "fb3675b44b58b7cd05900873fbc095ab669231d1ef6784806a5028f958e796b7",
+      "bytes": 62013
+    },
+    {
+      "path": "judge-1.json",
+      "sha256": "6d5b7bd6d3c6c1f9b0ab2ab8d7aafa9079ac619111ae2457296776896d017eb0",
+      "bytes": 21799
+    },
+    {
+      "path": "judge-2.json",
+      "sha256": "5b4b576f371b99c4da2b7ab7199eb5eb4fa0801aeeb015f462c6ca6177a3c4b6",
+      "bytes": 30380
+    },
+    {
+      "path": "fresh-retrieval-v1.json",
+      "sha256": "025b39619d483aa4fa13b0df5d0b425c679dfecec5d754131ba3e6a8d41820eb",
+      "bytes": 38617
+    },
+    {
+      "path": "development-retrieval-v2.json",
+      "sha256": "b538790fc4dbb28848ee1a48d30a65f87ca4dc196ed2c909af5cc6dd7f5eaaec",
+      "bytes": 37812
+    },
+    {
+      "path": "fresh-boundary-v3.json",
+      "sha256": "275a2e430033f72a47a463a12f42b29232cd07d9ee102c04821fb843c8a96578",
+      "bytes": 20089
+    },
+    {
+      "path": "root-tests-v4.json",
+      "sha256": "18205b599d228c2a88c0775c5d301fdff8450140fb40e9be7102f54feb2837fa",
+      "bytes": 1104
+    },
+    {
+      "path": "linux-qualification-v5.json",
+      "sha256": "f8530d8b1a8e405dc43deed27069f882be5e62d3a5d7d5d56d3699457bc75abf",
+      "bytes": 1399
+    },
+    {
+      "path": "execution-summary.json",
+      "sha256": "f918db9e891cadb6847388c3c0fe0112f51e668ffd23adf9139a92ebdbddd6b1",
+      "bytes": 27136
+    },
+    {
+      "path": "unblinded-mapping.json",
+      "sha256": "fece3fdf8107186117b51fc5159c08732a50ae6bfc60934b4c783dc55fc848c3",
+      "bytes": 2683
+    },
+    {
+      "path": "paired-analysis.json",
+      "sha256": "fb8806d76bcc30c24d660940298e366f9068a65d70b0de69473897edc747dc95",
+      "bytes": 63624
+    },
+    {
+      "path": "assessor-uncertainty-envelope.json",
+      "sha256": "9fbc29aacf6081f4bebbe6c340eaa7279ef660ee94cd15da727e28dea3864f05",
+      "bytes": 4419
+    }
+  ],
+  "scope": "Exact synthetic final-answer and evidence projection; no raw hidden-reasoning transcript or credentials"
+}
