@@ -6,7 +6,9 @@ For smaller bundled methods and their separate review/execution states, use the 
 
 ## agent-workflows
 
+- [completeness-and-consistency-audit](skills/completeness-and-consistency-audit/SKILL.md): Trace declared obligations to actual artifacts, expose omissions and contradictions, and repair material dependencies within a finite coverage boundary.
 - [eternities-omnibus](skills/eternities-omnibus/SKILL.md): Navigate the universal pack catalog offline with deterministic matching, explanations, stable tie-breaking, and explicit coverage gaps.
+- [long-horizon-work-continuity](skills/long-horizon-work-continuity/SKILL.md): Preserve an authorized objective across milestones and interruption, reconcile live sources and uncertain effects, and resume within ownership and resource limits.
 - [sovereign-skill-refinery](skills/sovereign-skill-refinery/SKILL.md): Synthesize workflow sources into independently authored, provenance-backed, structurally checked capabilities with honest disposition.
 
 ## agriculture
@@ -44,6 +46,7 @@ For smaller bundled methods and their separate review/execution states, use the 
 
 - [bounded-parametric-design-iteration](skills/bounded-parametric-design-iteration/SKILL.md): Improve an existing solved parametric design through isolated changes, solver-backed comparison, hard-constraint checks, and finite accept-or-rollback evidence. Specialist of eternities-forge.
 - [eternities-muse](skills/eternities-muse/SKILL.md): Direct visual forensics, interface direction, operational data views, motion, accessibility, and rendered acceptance through coherent evidence.
+- [imaginative-concept-development](skills/imaginative-concept-development/SKILL.md): Explore and develop distinct concept mechanisms under constraints, then select by declared criteria without confusing invention with fact.
 - [interface-localization-and-bidirectionality](skills/interface-localization-and-bidirectionality/SKILL.md): Implement and verify locale-aware content, formatting, RTL/LTR layout, mixed-direction text, controls, accessibility, and human translation review. Specialist of eternities-muse.
 - [scene-continuity-and-coverage](skills/scene-continuity-and-coverage/SKILL.md): Design storyboards and camera coverage on a shared scene timeline with expressive motion, coherent geography and continuity across edits. Specialist of eternities-muse.
 
@@ -90,6 +93,7 @@ For smaller bundled methods and their separate review/execution states, use the 
 
 - [approval-bound-private-session-mining](skills/approval-bound-private-session-mining/SKILL.md): Extract source-labeled, minimized findings from an approved private transcript set while retaining scope, redaction, uncertainty, and revocation evidence. Specialist of eternities-mnemosyne.
 - [eternities-mnemosyne](skills/eternities-mnemosyne/SKILL.md): Recover task truth, design durable memory, reduce context, audit retrieval, and maintain reasoned dependency state.
+- [memory-retention-and-recovery](skills/memory-retention-and-recovery/SKILL.md): Retain and recover minimal task-critical decisions, evidence pointers, freshness, conflicts, and safe next actions.
 - [retrieval-grounded-answering](skills/retrieval-grounded-answering/SKILL.md): Build and test retrieval-grounded answers with evidence citations, permission filters, freshness and measured context cost. Specialist of eternities-mnemosyne.
 
 ## models
@@ -129,8 +133,10 @@ For smaller bundled methods and their separate review/execution states, use the 
 ## social
 
 - [eternities-chorus](skills/eternities-chorus/SKILL.md): Create evidence-led communication, editorial, community, measurement, and share-preview artifacts with identity and access intact.
+- [interpersonal-understanding-and-dialogue](skills/interpersonal-understanding-and-dialogue/SKILL.md): Clarify interpersonal meaning and prepare respectful dialogue by separating observed evidence from tentative interpretations.
 
 ## writing
 
 - [docx-package-redline-and-render-verification](skills/docx-package-redline-and-render-verification/SKILL.md): Edit DOCX packages with minimal relationship-safe changes and verify review markup, package integrity, external targets, and rendered pagination. Specialist of eternities-logos.
 - [eternities-logos](skills/eternities-logos/SKILL.md): Create precise technical, editorial, documentation, reporting, narrative, extraction, and structural-review artifacts from supplied evidence.
+- [voice-style-calibration](skills/voice-style-calibration/SKILL.md): Infer and apply an evidence-based written voice across contexts while preserving meaning, attribution, and register distinctions. Specialist of eternities-logos.

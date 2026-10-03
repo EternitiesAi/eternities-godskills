@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "run": "run-v1",
+  "scope": "independent-evaluation/applications/run-v1/ only",
+  "instructionPrerequisites": {
+    "skillCreator": {
+      "path": "C:/Users/Dom/.codex/skills/.system/skill-creator/SKILL.md",
+      "sha256": "cccd291077ec57c6f50ca6529f0f3fb93212da09473effb2fcec808e81b21288",
+      "readInFull": true,
+      "readEvidence": "Earlier full read in this same uninterrupted evaluation, recorded in ../../prerequisite-supplement.json; current user expressly renews the exact read authorization. No native initialization/UI metadata references are required for this non-author exercise."
+    },
+    "sovereignSkillRefinery": {
+      "readInFull": true,
+      "paths": ["skills/sovereign-skill-refinery/SKILL.md", "product/skills/sovereign-skill-refinery/SKILL.md"],
+      "applicableReferencesReadInFull": ["skills/sovereign-skill-refinery/references/contract-template.json", "product/skills/sovereign-skill-refinery/references/methods.md"]
+    },
+    "designAndCurrentProductContract": {
+      "readInFull": true,
+      "readEvidence": "Preregistration sources plus ../../verification-receipt.json current-contract refresh; no candidate guidance was read until the exact 19-file freeze and occurrence sets verified."
+    }
+  },
+  "preregistrationBundleSha256": "9049cb1b6d12259806d6cd0a130bf87555ab27256effd7d50c92496b74679092",
+  "candidateFreezeSha256": "c1e9bf9e7e2c549a59ccd5a822a8e0098f4cef6c7715930243315910f861b382",
+  "independence": "Non-author document/application exercise. This evaluator wrote the cases and criteria and cannot unsee them; shared model context remains. Criteria will not be reopened during construction; six outputs will be preserved before assessment. No blind baseline, fresh model, cross-session or multi-day trial.",
+  "leakage": "This evaluator has not sent raw cases, expectations or answer summaries to authors. Filesystem exposure was not technically prevented and author-access logs are unavailable.",
+  "effects": "Local reads and run-v1 artifacts only, including the expressly authorized C04 fixture note and readback. No providers, descendants, product writes or real external effects."
+}

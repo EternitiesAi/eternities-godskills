@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "kind": "final-preregistration-readiness-verification",
+  "verificationObservedUtc": "2026-10-03T06:06:49.2554330Z",
+  "checks": {
+    "readOnlyPreregistrationVerifier": "passed-exit-0",
+    "boundFileIdentities": "all-11-verified",
+    "rawCaseCount": 6,
+    "rawAndAssessorInventorySeparation": "verified-procedural-not-access-control",
+    "supplementBindsCurrentManifest": "verified",
+    "skillCreatorHashAfterFullRead": "verified-unchanged",
+    "sourceFreshness": "product-contract-drift-detected-and-full-read-refreshed",
+    "sealedProtocolCasesCriteriaAndSourcesRewritten": false
+  },
+  "identities": {
+    "preregistrationBundleSha256": "9049cb1b6d12259806d6cd0a130bf87555ab27256effd7d50c92496b74679092",
+    "preregistrationManifest": {
+      "path": "preregistration-manifest.json",
+      "sha256": "6b445b0c493c29f3fa6495b337d4f3f8e54c76ba715a48e8c8a773b2c78c14f4"
+    },
+    "prerequisiteSupplement": {
+      "path": "prerequisite-supplement.json",
+      "sha256": "d38485f81ba8e5b1b01cc7c23cceca55c0518b2038dde3099a960d646d71314d"
+    },
+    "readinessRecord": {
+      "path": "READINESS.md",
+      "sha256": "61230395d212baf4263328cbce5cac930fc5057eb78406150758a68ebf8487df"
+    }
+  },
+  "sourceRefresh": {
+    "path": "product/README.md",
+    "sealedV1SourceSha256": "99595a8e3fb90bfbc33d70c4f78ff2c979cf2e97e6d3e25d9257e13c40749406",
+    "currentBytes": 11522,
+    "currentSha256": "fd77f746ac811e6b6ab9129d384a741f31908f5c9e17cbf44e0aeccd86b0b247",
+    "currentSourceObservedUtc": "2026-10-03T06:06:49.2554330Z",
+    "currentReadInFull": true,
+    "ownership": "Parent-owned shared product contract; evaluator did not edit it.",
+    "currentRelevantContract": "Six focused thinking/expression/continuity methods remain selective, portable and within host authority. No clinical expertise, unlimited recall, background runner or creative-quality guarantee. Existing evidence axes remain separate.",
+    "criteriaOrCaseAmendmentNeeded": false,
+    "snapshotLimit": "The v1 source digest was captured separately from the earlier full-read command during concurrent parent work; it does not establish an atomic read of that exact intermediate version. This fresh full read and immediately captured identity supersede that uncertainty for the current product contract. Sealed source records are preserved as history."
+  },
+  "effectiveReadiness": "ready-awaiting-parent-exact-frozen-candidate-trees",
+  "candidateReview": "not-started",
+  "candidateApplication": "not-started",
+  "expectedAnswersSentToAuthors": false,
+  "qualityOrPerformanceVerdict": "none-preregistration-only",
+  "stopCondition": "Return readiness. Do not open candidate bodies or create application outputs until parent supplies exact frozen trees for the subsequent pass."
+}

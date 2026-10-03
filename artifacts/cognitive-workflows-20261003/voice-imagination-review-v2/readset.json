@@ -1,0 +1,58 @@
+{
+  "review": "voice-imagination-review-v2",
+  "scope": "Re-review the staged voice-style-calibration body against its frozen original; confirm the unchanged candidate context by exact hashes.",
+  "filesRead": [
+    {
+      "path": "artifacts/cognitive-workflows-20261003/candidate-freeze-v1.json",
+      "sha256": "c1e9bf9e7e2c549a59ccd5a822a8e0098f4cef6c7715930243315910f861b382",
+      "scope": "complete freeze manifest"
+    },
+    {
+      "path": "product/skills/voice-style-calibration/SKILL.md",
+      "sha256": "d85f07ec958e80adec1ca323d07ae496e9d5831ac550bf9a347c35d0f35cdd9a",
+      "scope": "complete frozen original body"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/repairs-v2/voice-style-calibration/SKILL.md",
+      "sha256": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b",
+      "scope": "complete staged repaired body"
+    },
+    {
+      "path": "product/skills/voice-style-calibration/skill.json",
+      "sha256": "944fb3ea0f29a02db1777b2322cd339010ea947170874be4f77b7dc6e70e3f1d",
+      "scope": "complete unchanged metadata"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/author-luna-a/source-ledger.md",
+      "sha256": "6aaa825fb6ba4c62d0b04ee37ae711800006948502eb195e3c4ac24f232955f9",
+      "scope": "complete unchanged author source ledger"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/voice-imagination-review-v1/readset.json",
+      "sha256": "3e93807bc66988076d045646de7283304a4a6aa711ab850c2201248c5e48f170",
+      "scope": "prior readset consulted to verify the unchanged source-ledger digest"
+    }
+  ],
+  "hashOnlyVerifiedAgainstFreeze": [
+    {
+      "path": "product/skills/imaginative-concept-development/SKILL.md",
+      "sha256": "5a1b550f7db546470d93a73106f972d59cf1cf4be21cc6e7c8d08cb7f9fd95c7"
+    },
+    {
+      "path": "product/skills/imaginative-concept-development/skill.json",
+      "sha256": "e4646a675c25d882e716cc373a842d0a692aad73589e6233385a3dcd3daa0937"
+    }
+  ],
+  "comparison": {
+    "originalVoiceBodySha256": "d85f07ec958e80adec1ca323d07ae496e9d5831ac550bf9a347c35d0f35cdd9a",
+    "repairedVoiceBodySha256": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b",
+    "diff": "One restriction paragraph changed. The entire body from '## Build a usable profile' onward, including the synthetic illustration, is exact text-identical.",
+    "freezePins": "The original voice body, voice metadata, and both imaginative-concept candidate files match candidate-freeze-v1.json."
+  },
+  "sourceLedgerPinNote": "candidate-freeze-v1.json does not list the author source ledger. Its current SHA-256 matches the hash in the prior v1 readset, which is recorded above.",
+  "notRead": [
+    "independent-evaluation/raw",
+    "assessor"
+  ],
+  "hashMeaning": "SHA-256 of exact file bytes; hashes are lowercase hexadecimal."
+}

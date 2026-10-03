@@ -1,0 +1,194 @@
+{
+  "schema": "dialogue-memory-instruction-review-checks-v1",
+  "scope": [
+    "interpersonal-understanding-and-dialogue",
+    "memory-retention-and-recovery"
+  ],
+  "evidence": "Frozen identity and scoped structural checks only; no independent raw fixture applications",
+  "freeze": {
+    "path": "artifacts/cognitive-workflows-20261003/candidate-freeze-v1.json",
+    "sha256": "c1e9bf9e7e2c549a59ccd5a822a8e0098f4cef6c7715930243315910f861b382"
+  },
+  "skills": [
+    {
+      "id": "interpersonal-understanding-and-dialogue",
+      "frozenFiles": [
+        {
+          "path": "product/skills/interpersonal-understanding-and-dialogue/skill.json",
+          "bytes": 2714,
+          "expectedSha256": "ba26d58b50cbf1becd1de2c8167f3ccc37353f2e614ae5d26abcbe7e3e60ba6e",
+          "actualSha256": "ba26d58b50cbf1becd1de2c8167f3ccc37353f2e614ae5d26abcbe7e3e60ba6e",
+          "matched": true
+        },
+        {
+          "path": "product/skills/interpersonal-understanding-and-dialogue/SKILL.md",
+          "bytes": 2978,
+          "expectedSha256": "dfa4af05ca5b68aa6db7252d70dc0d2b57a610f4fa0f49104fe3b07eb1cacc74",
+          "actualSha256": "dfa4af05ca5b68aa6db7252d70dc0d2b57a610f4fa0f49104fe3b07eb1cacc74",
+          "matched": true
+        },
+        {
+          "path": "product/skills/interpersonal-understanding-and-dialogue/references/examples.md",
+          "bytes": 1777,
+          "expectedSha256": "c1593449b397d952b3d0c60d7bca728201be79e5715af0a0ba1b35adae590bec",
+          "actualSha256": "c1593449b397d952b3d0c60d7bca728201be79e5715af0a0ba1b35adae590bec",
+          "matched": true
+        }
+      ],
+      "category": "social",
+      "maturity": "draft",
+      "unsupportedTaskTypes": [
+        "review"
+      ],
+      "sourcePins": [
+        {
+          "path": "product/skills/eternities-chorus/SKILL.md",
+          "expectedSha256": "34814474ccd29d642c87f50ebed24b56cef572cd6e6869d4ce8ca427c0eae5dc",
+          "actualSha256": "34814474ccd29d642c87f50ebed24b56cef572cd6e6869d4ce8ca427c0eae5dc",
+          "matched": true
+        },
+        {
+          "path": "product/skills/eternities-chorus/references/stakeholder-updates.md",
+          "expectedSha256": "02abdb2d7e61dc08579003d4f6b2f48bb6f4b0aacd16e4eaaa81abc5d3e6554f",
+          "actualSha256": "02abdb2d7e61dc08579003d4f6b2f48bb6f4b0aacd16e4eaaa81abc5d3e6554f",
+          "matched": true
+        },
+        {
+          "path": "product/skills/eternities-agora/SKILL.md",
+          "expectedSha256": "a6602a256f8ad9e598947e18c057fd10c3b82f0ed6a44f7915fc439586c6225f",
+          "actualSha256": "a6602a256f8ad9e598947e18c057fd10c3b82f0ed6a44f7915fc439586c6225f",
+          "matched": true
+        },
+        {
+          "path": "product/skills/eternities-agora/references/business-decision-evidence.md",
+          "expectedSha256": "9effd0372e4be72da4d9fdcd454e5b4c3ea313764f118f429b175e103f4ec188",
+          "actualSha256": "9effd0372e4be72da4d9fdcd454e5b4c3ea313764f118f429b175e103f4ec188",
+          "matched": true
+        },
+        {
+          "path": "product/skills/eternities-athena/SKILL.md",
+          "expectedSha256": "cb4c4bc02d25e24945fb83d7663f8d868c60b2579614c06eaf4821bbd2afe8db",
+          "actualSha256": "cb4c4bc02d25e24945fb83d7663f8d868c60b2579614c06eaf4821bbd2afe8db",
+          "matched": true
+        }
+      ],
+      "checkedProductSchema": [
+        "ID and category patterns",
+        "Category/summary string bounds",
+        "Array types, member bounds and uniqueness",
+        "Nonempty triggers and tasks",
+        "Supported task types",
+        "Draft-stage maturity exception",
+        "Required provenance fields",
+        "File count, ordinary files, symlink and case collision checks",
+        "Safe resource paths, links and inventory",
+        "Frontmatter ID/description",
+        "Existing related/specialization owners",
+        "Workstation paths",
+        "Frozen hashes",
+        "Source pins"
+      ],
+      "structuralIssues": [
+        {
+          "kind": "unsupported-task-type",
+          "detail": "review"
+        }
+      ],
+      "structuralDisposition": "REPAIR"
+    },
+    {
+      "id": "memory-retention-and-recovery",
+      "frozenFiles": [
+        {
+          "path": "product/skills/memory-retention-and-recovery/skill.json",
+          "bytes": 2047,
+          "expectedSha256": "370e944b61f74f9f0551c7f48af7e4cc8bb4df3d167a96a2b1001566f2c41f61",
+          "actualSha256": "370e944b61f74f9f0551c7f48af7e4cc8bb4df3d167a96a2b1001566f2c41f61",
+          "matched": true
+        },
+        {
+          "path": "product/skills/memory-retention-and-recovery/SKILL.md",
+          "bytes": 3566,
+          "expectedSha256": "ec48f8afcf742fc463903e734977c7ec030a6c672b3dbe937a99e826c0906e0e",
+          "actualSha256": "ec48f8afcf742fc463903e734977c7ec030a6c672b3dbe937a99e826c0906e0e",
+          "matched": true
+        },
+        {
+          "path": "product/skills/memory-retention-and-recovery/references/examples.md",
+          "bytes": 1858,
+          "expectedSha256": "fc4944177b92aee5682d49800ab7d43a09e0c12116400c523644c9b31068f695",
+          "actualSha256": "fc4944177b92aee5682d49800ab7d43a09e0c12116400c523644c9b31068f695",
+          "matched": true
+        }
+      ],
+      "category": "memory",
+      "maturity": "draft",
+      "unsupportedTaskTypes": [],
+      "sourcePins": [
+        {
+          "path": "product/skills/eternities-mnemosyne/SKILL.md",
+          "expectedSha256": "43f83b2332ca21e65fa6b640a8489fe03c7ee58b8d5e1f1435ae31b027e32988",
+          "actualSha256": "43f83b2332ca21e65fa6b640a8489fe03c7ee58b8d5e1f1435ae31b027e32988",
+          "matched": true
+        },
+        {
+          "path": "product/skills/eternities-mnemosyne/references/methods.md",
+          "expectedSha256": "9b3bff3a805b833a4e3d72495382efab8b99e31a0719178a17f03ed4aca02d86",
+          "actualSha256": "9b3bff3a805b833a4e3d72495382efab8b99e31a0719178a17f03ed4aca02d86",
+          "matched": true
+        },
+        {
+          "path": "product/skills/retrieval-grounded-answering/SKILL.md",
+          "expectedSha256": "9699b65853adf21b4e285c2b357295ea401822b0dbda46eb168510cb1d654236",
+          "actualSha256": "9699b65853adf21b4e285c2b357295ea401822b0dbda46eb168510cb1d654236",
+          "matched": true
+        }
+      ],
+      "checkedProductSchema": [
+        "ID and category patterns",
+        "Category/summary string bounds",
+        "Array types, member bounds and uniqueness",
+        "Nonempty triggers and tasks",
+        "Supported task types",
+        "Draft-stage maturity exception",
+        "Required provenance fields",
+        "File count, ordinary files, symlink and case collision checks",
+        "Safe resource paths, links and inventory",
+        "Frontmatter ID/description",
+        "Existing related/specialization owners",
+        "Workstation paths",
+        "Frozen hashes",
+        "Source pins"
+      ],
+      "structuralIssues": [],
+      "structuralDisposition": "READY"
+    }
+  ],
+  "expectedDraftMaturity": true,
+  "productBuilderInvoked": false,
+  "providersOrDescendantsInvoked": false,
+  "evaluationDirectoriesRead": false,
+  "structuralDisposition": "REPAIR",
+  "note": "Manual instruction findings in review.md additionally determine semantic readiness; structural READY alone is not instruction acceptance.",
+  "commands": [
+    {
+      "command": "node artifacts/cognitive-workflows-20261003/dialogue-memory-review-v1/check-readonly.mjs",
+      "exitCode": 0
+    },
+    {
+      "command": "python -B C:/Users/Dom/.codex/skills/.system/skill-creator/scripts/quick_validate.py product/skills/interpersonal-understanding-and-dialogue",
+      "exitCode": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "command": "python -B C:/Users/Dom/.codex/skills/.system/skill-creator/scripts/quick_validate.py product/skills/memory-retention-and-recovery",
+      "exitCode": 0,
+      "output": "Skill is valid!"
+    }
+  ],
+  "manualInstructionDispositions": {
+    "dialogue": "REPAIR: D1 unsupported task type; D2 bounded lexical discovery gap",
+    "memory": "REPAIR: M1 missing persistence-outcome procedure"
+  },
+  "recordPlacement": "Supplemental frozen-v1 record saved in v2; v1 files and candidate bytes are preserved"
+}

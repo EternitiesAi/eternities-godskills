@@ -1,0 +1,79 @@
+{
+  "review": "voice-imagination-review-v1",
+  "reviewType": "independent instruction review",
+  "candidatePinCheck": "all four user-specified candidate hashes matched the exact bytes read",
+  "filesRead": [
+    {
+      "path": "product/skills/voice-style-calibration/SKILL.md",
+      "sha256": "d85f07ec958e80adec1ca323d07ae496e9d5831ac550bf9a347c35d0f35cdd9a",
+      "scope": "complete candidate body, including synthetic Illustration"
+    },
+    {
+      "path": "product/skills/voice-style-calibration/skill.json",
+      "sha256": "944fb3ea0f29a02db1777b2322cd339010ea947170874be4f77b7dc6e70e3f1d",
+      "scope": "complete candidate metadata"
+    },
+    {
+      "path": "product/skills/imaginative-concept-development/SKILL.md",
+      "sha256": "5a1b550f7db546470d93a73106f972d59cf1cf4be21cc6e7c8d08cb7f9fd95c7",
+      "scope": "complete candidate body, including synthetic Illustration"
+    },
+    {
+      "path": "product/skills/imaginative-concept-development/skill.json",
+      "sha256": "e4646a675c25d882e716cc373a842d0a692aad73589e6233385a3dcd3daa0937",
+      "scope": "complete candidate metadata"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/author-luna-a/source-ledger.md",
+      "sha256": "6aaa825fb6ba4c62d0b04ee37ae711800006948502eb195e3c4ac24f232955f9",
+      "scope": "complete author source ledger; its six listed source digests were checked against current bytes"
+    },
+    {
+      "path": "product/skills/eternities-logos/SKILL.md",
+      "sha256": "a215da7877c4ef33e83796209488dcf5b390bf1f91b38098ba47d1c89a8f11d2",
+      "scope": "complete cited owner body"
+    },
+    {
+      "path": "product/skills/eternities-chorus/SKILL.md",
+      "sha256": "34814474ccd29d642c87f50ebed24b56cef572cd6e6869d4ce8ca427c0eae5dc",
+      "scope": "complete cited owner body"
+    },
+    {
+      "path": "product/skills/eternities-muse/SKILL.md",
+      "sha256": "b7097258366a53f645d2d1a52a6492a691f933c2cc535fd32beae452f398f374",
+      "scope": "complete cited owner body"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/SKILL.md",
+      "sha256": "84023828419d63d0cdff7936d3c87d742a7ae58d07dd00f547ae8397584e47db",
+      "scope": "complete cited owner body"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-10-03-cognitive-workflows-design.md",
+      "sha256": "5a805f2067444a16c75e18dd0805c731d927c4619b3e8dce191fef9ae80c3955",
+      "scope": "complete governing design specification"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-03-cognitive-workflows.md",
+      "sha256": "58260a3663dd53cb8f90bf2fe04491970d8e6280a9b605abee039174569423e5",
+      "scope": "complete authoring and acceptance plan"
+    }
+  ],
+  "syntheticExamples": [
+    {
+      "candidate": "voice-style-calibration",
+      "location": "product/skills/voice-style-calibration/SKILL.md#Illustration",
+      "sha256": "d85f07ec958e80adec1ca323d07ae496e9d5831ac550bf9a347c35d0f35cdd9a"
+    },
+    {
+      "candidate": "imaginative-concept-development",
+      "location": "product/skills/imaginative-concept-development/SKILL.md#Illustration",
+      "sha256": "5a1b550f7db546470d93a73106f972d59cf1cf4be21cc6e7c8d08cb7f9fd95c7"
+    }
+  ],
+  "notRead": [
+    "independent-evaluation/raw",
+    "assessor"
+  ],
+  "hashMeaning": "SHA-256 of exact file bytes; hashes are lowercase hexadecimal."
+}

@@ -1,0 +1,3 @@
+# Captured console receipts retain exact CRLF/spacing and their recorded hashes.
+# They are evidence bytes, not authored source subject to text normalization.
+*.tap -text -diff

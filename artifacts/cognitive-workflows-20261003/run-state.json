@@ -1,0 +1,36 @@
+{
+  "schema": "godskills-cognitive-workflow-batch-v1",
+  "status": "frozen-drafts-under-independent-review-and-application",
+  "baselineCommit": "9409eb8f2f10300a316879d042b12159f94ed302",
+  "baselineRelease": "f6d71194e6897118f7ec7dac9bd2a9287479acb3345f347f291958091fd65cdc",
+  "baselineChecks": {
+    "command": "node --test --test-concurrency=4 tests/universal-product.test.mjs tests/product-method-directory.test.mjs tests/product-archive.test.mjs",
+    "passed": 32,
+    "failed": 0,
+    "skipped": 1,
+    "skip": "different-volume commit destinations requires explicit volume fixture"
+  },
+  "discoveryRed": {
+    "command": "node --test tests/cognitive-workflows-discovery.test.mjs",
+    "passed": 1,
+    "failed": 12,
+    "reason": "six new methods absent from the baseline real catalog; existing DSP specialist control passed"
+  },
+  "workers": [
+    {"id": "01a10050-906f-74e0-bb3a-5162a2676cc8", "name": "Plato", "model": "gpt-6-luna", "effort": "max", "role": "voice-and-imagination-author"},
+    {"id": "01a10050-91ca-7ab2-a184-6e39855948e8", "name": "Einstein", "model": "gpt-6-luna", "effort": "max", "role": "interpersonal-and-memory-author"},
+    {"id": "01a10050-911b-7a51-b9f5-90c546c0437a", "name": "Leibniz", "model": "gpt-6.1-sol", "effort": "xhigh", "role": "completeness-and-long-horizon-author"},
+    {"id": "01a10050-9274-7580-8864-d8734319ad06", "name": "Harvey", "model": "gpt-6.1-sol", "effort": "xhigh", "role": "independent-evaluation-protocol"}
+  ],
+  "limits": {
+    "maximumConcurrentWorkers": 4,
+    "descendants": false,
+    "oldAutomation": "remain-paused",
+    "sourceCorpus": "not-resumed",
+    "parentOnly": ["catalog-build", "integration", "publication", "installation"]
+  },
+  "candidateFreeze": "artifacts/cognitive-workflows-20261003/candidate-freeze-v1.json",
+  "preregistration": {"manifestSha256": "6b445b0c493c29f3fa6495b337d4f3f8e54c76ba715a48e8c8a773b2c78c14f4", "caseCount": 6, "assessmentScope": "non-author exercise, not a blind matched comparison"},
+  "privateInstallationBefore": "C:/Users/Dom/.codex/operations/cognitive-workflows-20261003/install-before.json",
+  "next": "Reconcile exact independent instruction reviews and six preregistered applications; repair concrete defects before maturity promotion and catalog build."
+}

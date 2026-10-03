@@ -317,6 +317,45 @@
       "resources": []
     },
     {
+      "id": "completeness-and-consistency-audit",
+      "category": "agent-workflows",
+      "summary": "Trace declared obligations to actual artifacts, expose omissions and contradictions, and repair material dependencies within a finite coverage boundary.",
+      "triggers": [
+        "completeness and consistency audit",
+        "check deliverable against requirements missing details",
+        "trace obligation coverage across artifacts",
+        "contradictory documentation implementation dependency review"
+      ],
+      "antiTriggers": [
+        "ordinary typo correction",
+        "simple style edit",
+        "make output longer without a coverage problem"
+      ],
+      "taskTypes": [
+        "verify",
+        "plan",
+        "build"
+      ],
+      "related": [
+        "eternities-architect",
+        "eternities-forge",
+        "eternities-phoenix"
+      ],
+      "maturity": "instruction-reviewed",
+      "entrypoint": "skills/completeness-and-consistency-audit/SKILL.md",
+      "entrypointSha256": "4e434687d0f77a0577c6bd2c8b869fe60d409df5c5e6d5b6ee946771a78d5f71",
+      "resources": [
+        {
+          "path": "skills/completeness-and-consistency-audit/references/coverage-template.md",
+          "sha256": "afb14dd68fe0735479deead5dcfb8dc4d71d6f4d8a36a5e7246afa73fea21340"
+        },
+        {
+          "path": "skills/completeness-and-consistency-audit/references/worked-audits.md",
+          "sha256": "dc8977704eb24d273dbc010a7ae1ea800efaa2c2df63622996a185fab6b906da"
+        }
+      ]
+    },
+    {
       "id": "confirmed-destructive-reconstruction",
       "category": "engineering",
       "summary": "Stage and verify a recoverable destructive reconstruction with exact target binding, independent backup validation, postconditions, and rollback evidence.",
@@ -1720,6 +1759,36 @@
       ]
     },
     {
+      "id": "imaginative-concept-development",
+      "category": "design",
+      "summary": "Explore and develop distinct concept mechanisms under constraints, then select by declared criteria without confusing invention with fact.",
+      "triggers": [
+        "develop competing concepts for a product, game, story, or experience",
+        "find different mechanisms for a constrained design brief",
+        "use a distant analogy to rethink an experience",
+        "compare concept directions before committing to one"
+      ],
+      "antiTriggers": [
+        "routine revision or settled implementation",
+        "fact research without a concept decision",
+        "request to present invented events as factual canon",
+        "fixed single-direction brief with no material uncertainty to explore"
+      ],
+      "taskTypes": [
+        "plan",
+        "create",
+        "verify"
+      ],
+      "related": [
+        "eternities-arcadia",
+        "eternities-muse"
+      ],
+      "maturity": "instruction-reviewed",
+      "entrypoint": "skills/imaginative-concept-development/SKILL.md",
+      "entrypointSha256": "5a1b550f7db546470d93a73106f972d59cf1cf4be21cc6e7c8d08cb7f9fd95c7",
+      "resources": []
+    },
+    {
       "id": "infrastructure-plan-apply-isolation",
       "category": "release",
       "summary": "Isolate infrastructure tests and plans from authorized state-changing applies, preserving version, state, diff, and cleanup evidence.",
@@ -1816,6 +1885,46 @@
       "entrypoint": "skills/interface-localization-and-bidirectionality/SKILL.md",
       "entrypointSha256": "7fa41cd4576a01d82f8507cf2d207ab13f2eb0f2a2e2d61d87d39e4c7afc5458",
       "resources": []
+    },
+    {
+      "id": "interpersonal-understanding-and-dialogue",
+      "category": "social",
+      "summary": "Clarify interpersonal meaning and prepare respectful dialogue by separating observed evidence from tentative interpretations.",
+      "triggers": [
+        "interpersonal misunderstanding with conflicting accounts",
+        "clarify someone's preference, need, or boundary",
+        "respectful negotiation with room to decline",
+        "conflict repair after a specific action or statement",
+        "reflective listening and a tentative perspective map",
+        "reflect participant statements while keeping motives tentative"
+      ],
+      "antiTriggers": [
+        "routine copy edit or ordinary small talk",
+        "diagnosis, treatment, or psychological profiling",
+        "mind-reading or certainty about hidden motives",
+        "coercion, manipulation, or manufactured intimacy",
+        "demographic stereotypes used to infer an individual preference"
+      ],
+      "taskTypes": [
+        "plan",
+        "create",
+        "verify",
+        "communicate"
+      ],
+      "related": [
+        "eternities-agora",
+        "eternities-athena",
+        "eternities-chorus"
+      ],
+      "maturity": "instruction-reviewed",
+      "entrypoint": "skills/interpersonal-understanding-and-dialogue/SKILL.md",
+      "entrypointSha256": "dfa4af05ca5b68aa6db7252d70dc0d2b57a610f4fa0f49104fe3b07eb1cacc74",
+      "resources": [
+        {
+          "path": "skills/interpersonal-understanding-and-dialogue/references/examples.md",
+          "sha256": "c1593449b397d952b3d0c60d7bca728201be79e5715af0a0ba1b35adae590bec"
+        }
+      ]
     },
     {
       "id": "invariant-guard",
@@ -1948,6 +2057,53 @@
       "resources": []
     },
     {
+      "id": "long-horizon-work-continuity",
+      "category": "agent-workflows",
+      "summary": "Preserve an authorized objective across milestones and interruption, reconcile live sources and uncertain effects, and resume within ownership and resource limits.",
+      "triggers": [
+        "long horizon work continuity",
+        "resume interrupted multi stage objective",
+        "carry project across sessions milestone checkpoints",
+        "recover uncertain external operation before retry"
+      ],
+      "antiTriggers": [
+        "one step task",
+        "simple status check",
+        "create scheduler or guarantee unattended execution"
+      ],
+      "taskTypes": [
+        "orchestrate",
+        "recover",
+        "plan",
+        "build",
+        "verify"
+      ],
+      "related": [
+        "eternities-architect",
+        "eternities-forge",
+        "eternities-hermes",
+        "eternities-mnemosyne",
+        "eternities-phoenix"
+      ],
+      "maturity": "instruction-reviewed",
+      "entrypoint": "skills/long-horizon-work-continuity/SKILL.md",
+      "entrypointSha256": "83584469ab0faf64844451aba67bfe4e9325d2c1f7d6580ff951bc90d3a34f5d",
+      "resources": [
+        {
+          "path": "skills/long-horizon-work-continuity/references/continuity-packet.md",
+          "sha256": "224245f7beb6f1ab8266a68636e47723926ab760886771d47df49e1e70e33311"
+        },
+        {
+          "path": "skills/long-horizon-work-continuity/references/uncertain-effect-recovery.md",
+          "sha256": "a12fcc1b51a85bcaa392fbc534ba3be74bd6aef184019ca78774e6615d8f8f7f"
+        },
+        {
+          "path": "skills/long-horizon-work-continuity/references/interruption-cases.md",
+          "sha256": "a922ecdc7620b3df8c7270ec0ec7e736e315af9a1582e6ed880c30276e702cc6"
+        }
+      ]
+    },
+    {
       "id": "measured-paid-creative-iteration",
       "category": "marketing",
       "summary": "Convert aggregate campaign observations into falsifiable creative variants, precommitted metrics, guardrails, and a controlled experiment decision.",
@@ -1979,6 +2135,43 @@
       "entrypoint": "skills/measured-paid-creative-iteration/SKILL.md",
       "entrypointSha256": "9873f4d79ee04683267e8dff34264a033189a50a8b813873f3699ac9e250dfe5",
       "resources": []
+    },
+    {
+      "id": "memory-retention-and-recovery",
+      "category": "memory",
+      "summary": "Retain and recover minimal task-critical decisions, evidence pointers, freshness, conflicts, and safe next actions.",
+      "triggers": [
+        "task checkpoint across interruption or handoff",
+        "resume from a prior task record after state may have changed",
+        "correct or invalidate stale memory",
+        "reconcile conflicting or cross-scope continuity records",
+        "verify whether a previously attempted effect completed"
+      ],
+      "antiTriggers": [
+        "ordinary recall from context already supplied",
+        "simple lookup or routine status check",
+        "unlimited recall or raw transcript replay",
+        "change to host memory permissions or continuity policy"
+      ],
+      "taskTypes": [
+        "plan",
+        "create",
+        "recover",
+        "verify"
+      ],
+      "related": [
+        "eternities-mnemosyne",
+        "retrieval-grounded-answering"
+      ],
+      "maturity": "instruction-reviewed",
+      "entrypoint": "skills/memory-retention-and-recovery/SKILL.md",
+      "entrypointSha256": "36c14c3b62bdf72c2b12bf4678ec44223bd0c3064528a7f1b34d7df4fcc966e7",
+      "resources": [
+        {
+          "path": "skills/memory-retention-and-recovery/references/examples.md",
+          "sha256": "e85739b8e8e517545d5862200f78e442dc23f59284f2e74751c7c39af8e5ece2"
+        }
+      ]
     },
     {
       "id": "molecular-observable-integrity",
@@ -2515,6 +2708,36 @@
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/venture-falsification-and-planning/SKILL.md",
       "entrypointSha256": "f465ba4b35d09b2cbd3c9a8b64d877f1230bbb4c3668a00100bc5763f41a0eff",
+      "resources": []
+    },
+    {
+      "id": "voice-style-calibration",
+      "category": "writing",
+      "summary": "Infer and apply an evidence-based written voice across contexts while preserving meaning, attribution, and register distinctions.",
+      "triggers": [
+        "infer a project voice from authorized writing samples",
+        "adapt this draft to our brand or team voice across audiences",
+        "calibrate recurring writing traits and context-specific registers",
+        "compare conflicting voice examples before drafting"
+      ],
+      "antiTriggers": [
+        "one-off tone adjustment with no sample-based profile needed",
+        "deceptive imitation or false attribution of a real person",
+        "speech synthesis, voice cloning, or likeness generation",
+        "send or publish a draft without a named target and authority"
+      ],
+      "taskTypes": [
+        "create",
+        "communicate",
+        "verify"
+      ],
+      "related": [
+        "eternities-chorus"
+      ],
+      "specializes": "eternities-logos",
+      "maturity": "instruction-reviewed",
+      "entrypoint": "skills/voice-style-calibration/SKILL.md",
+      "entrypointSha256": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b",
       "resources": []
     },
     {

@@ -1,0 +1,170 @@
+{
+  "schema": "dialogue-memory-instruction-review-readset-v1",
+  "scope": "Exact frozen-v1 instruction review; preserved supplemental record placed in v2 after write scope moved",
+  "fileCount": 23,
+  "files": [
+    {
+      "path": "artifacts/cognitive-workflows-20261003/candidate-freeze-v1.json",
+      "bytes": 3531,
+      "sha256": "c1e9bf9e7e2c549a59ccd5a822a8e0098f4cef6c7715930243315910f861b382",
+      "readMode": "Complete body or JSON inspected"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-10-03-cognitive-workflows-design.md",
+      "bytes": 5047,
+      "sha256": "5a805f2067444a16c75e18dd0805c731d927c4619b3e8dce191fef9ae80c3955",
+      "readMode": "Complete body or JSON inspected"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-03-cognitive-workflows.md",
+      "bytes": 4134,
+      "sha256": "58260a3663dd53cb8f90bf2fe04491970d8e6280a9b605abee039174569423e5",
+      "readMode": "Complete body or JSON inspected"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/author-luna-b/source-ledger.md",
+      "bytes": 6525,
+      "sha256": "deb6522ce834b3273499f103bea7a5b4d5d2ca7bce0676aa167c6b87a12b77c8",
+      "readMode": "Complete body or JSON inspected"
+    },
+    {
+      "path": "product/taxonomy.json",
+      "bytes": 682,
+      "sha256": "806ea92bb5414ea3bb5b93acbc61ca2a98c5142089d9ff790cc3d29f2bdd3e2c",
+      "readMode": "Complete body or JSON inspected"
+    },
+    {
+      "path": "product/lib/product.mjs",
+      "bytes": 21992,
+      "sha256": "1e99a9e68317fa01121f81e363860cd28e17e5b19c7aedc8522d949e7025ad79",
+      "readMode": "Focused semantic excerpts 1-10, 48-87 and 120-174, plus indexed matches; full file bytes used for digest"
+    },
+    {
+      "path": "product/skills/interpersonal-understanding-and-dialogue/SKILL.md",
+      "bytes": 2978,
+      "sha256": "dfa4af05ca5b68aa6db7252d70dc0d2b57a610f4fa0f49104fe3b07eb1cacc74",
+      "readMode": "Complete body or JSON inspected"
+    },
+    {
+      "path": "product/skills/interpersonal-understanding-and-dialogue/skill.json",
+      "bytes": 2714,
+      "sha256": "ba26d58b50cbf1becd1de2c8167f3ccc37353f2e614ae5d26abcbe7e3e60ba6e",
+      "readMode": "Complete body or JSON inspected"
+    },
+    {
+      "path": "product/skills/interpersonal-understanding-and-dialogue/references/examples.md",
+      "bytes": 1777,
+      "sha256": "c1593449b397d952b3d0c60d7bca728201be79e5715af0a0ba1b35adae590bec",
+      "readMode": "Complete body or JSON inspected"
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/SKILL.md",
+      "bytes": 3566,
+      "sha256": "ec48f8afcf742fc463903e734977c7ec030a6c672b3dbe937a99e826c0906e0e",
+      "readMode": "Complete body or JSON inspected"
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/skill.json",
+      "bytes": 2047,
+      "sha256": "370e944b61f74f9f0551c7f48af7e4cc8bb4df3d167a96a2b1001566f2c41f61",
+      "readMode": "Complete body or JSON inspected"
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/references/examples.md",
+      "bytes": 1858,
+      "sha256": "fc4944177b92aee5682d49800ab7d43a09e0c12116400c523644c9b31068f695",
+      "readMode": "Complete body or JSON inspected"
+    },
+    {
+      "path": "product/skills/eternities-chorus/SKILL.md",
+      "bytes": 3425,
+      "sha256": "34814474ccd29d642c87f50ebed24b56cef572cd6e6869d4ce8ca427c0eae5dc",
+      "readMode": "Complete body or JSON inspected"
+    },
+    {
+      "path": "product/skills/eternities-chorus/references/stakeholder-updates.md",
+      "bytes": 3438,
+      "sha256": "02abdb2d7e61dc08579003d4f6b2f48bb6f4b0aacd16e4eaaa81abc5d3e6554f",
+      "readMode": "Complete body or JSON inspected"
+    },
+    {
+      "path": "product/skills/eternities-agora/SKILL.md",
+      "bytes": 3870,
+      "sha256": "a6602a256f8ad9e598947e18c057fd10c3b82f0ed6a44f7915fc439586c6225f",
+      "readMode": "Complete body or JSON inspected"
+    },
+    {
+      "path": "product/skills/eternities-agora/references/business-decision-evidence.md",
+      "bytes": 6287,
+      "sha256": "9effd0372e4be72da4d9fdcd454e5b4c3ea313764f118f429b175e103f4ec188",
+      "readMode": "Complete body or JSON inspected"
+    },
+    {
+      "path": "product/skills/eternities-athena/SKILL.md",
+      "bytes": 3449,
+      "sha256": "cb4c4bc02d25e24945fb83d7663f8d868c60b2579614c06eaf4821bbd2afe8db",
+      "readMode": "Complete body or JSON inspected"
+    },
+    {
+      "path": "product/skills/eternities-mnemosyne/SKILL.md",
+      "bytes": 3910,
+      "sha256": "43f83b2332ca21e65fa6b640a8489fe03c7ee58b8d5e1f1435ae31b027e32988",
+      "readMode": "Complete body or JSON inspected"
+    },
+    {
+      "path": "product/skills/eternities-mnemosyne/references/methods.md",
+      "bytes": 5018,
+      "sha256": "9b3bff3a805b833a4e3d72495382efab8b99e31a0719178a17f03ed4aca02d86",
+      "readMode": "Complete body or JSON inspected"
+    },
+    {
+      "path": "product/skills/retrieval-grounded-answering/SKILL.md",
+      "bytes": 4825,
+      "sha256": "9699b65853adf21b4e285c2b357295ea401822b0dbda46eb168510cb1d654236",
+      "readMode": "Complete body or JSON inspected"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/skills/.system/skill-creator/SKILL.md",
+      "bytes": 15540,
+      "sha256": "cccd291077ec57c6f50ca6529f0f3fb93212da09473effb2fcec808e81b21288",
+      "readMode": "Complete body or JSON inspected"
+    },
+    {
+      "path": "C:/Users/Dom/.agents/skills/sovereign-skill-refinery/SKILL.md",
+      "bytes": 3106,
+      "sha256": "caac3fd18dd020810b8e67f0633773c430eba5a6fb4878209f73c0fc65b0306b",
+      "readMode": "Complete body or JSON inspected"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/skills/.system/skill-creator/scripts/quick_validate.py",
+      "bytes": 4376,
+      "sha256": "6068513d924ed3559e186dfcdead7439129828dcf402167fd925c06dffbf2806",
+      "readMode": "Complete body or JSON inspected"
+    }
+  ],
+  "metadataOnlyInventories": [
+    "Two reviewed product trees; all six files subsequently read",
+    "Top-level artifacts/cognitive-workflows-20261003 directory names only",
+    "author-luna-b directory names; only source-ledger.md read",
+    "Existence of related owner SKILL.md paths, already part of adopted-source readset"
+  ],
+  "excluded": [
+    "independent-evaluation/raw",
+    "assessor contents",
+    "Three rejected source bodies listed in author ledger",
+    "Other four authored instruction bodies"
+  ],
+  "contextualEvidence": [
+    {
+      "source": "Parent user message",
+      "kind": "Reported schema concern",
+      "claim": "Frozen dialogue taskTypes includes unsupported review"
+    },
+    {
+      "source": "Parent user message",
+      "kind": "Reported bounded preview",
+      "claim": "11/12 positive queries; reflect what participants said before assuming their motives omitted dialogue from top3"
+    }
+  ],
+  "sourceLicenseClearance": "Not established; first-party source attribution/uncertainty retained"
+}

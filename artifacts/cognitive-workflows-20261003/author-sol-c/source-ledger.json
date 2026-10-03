@@ -1,0 +1,150 @@
+{
+  "schema": "cognitive-workflows-author-source-ledger-v1",
+  "authorSlice": "sol-c",
+  "baselineCommit": "9409eb8f2f10300a316879d042b12159f94ed302",
+  "observedDate": "2026-10-03",
+  "sourceBoundary": "Approved local contract and smallest relevant current product bodies/references; no new web, warehouse, private transcript or provider acquisition.",
+  "licenseBoundary": "Repository-local materials are first-party context, but no repository license grant was verified in this pass. Host authoring instructions were authorized for use; redistribution rights were not established. No source bodies are redistributed, and no legal clearance is claimed.",
+  "sources": [
+    {
+      "id": "approved-design",
+      "path": "docs/superpowers/specs/2026-10-03-cognitive-workflows-design.md",
+      "sha256": "5a805f2067444a16c75e18dd0805c731d927c4619b3e8dce191fef9ae80c3955",
+      "licenseClass": "First-party contract; license unverified",
+      "disposition": "independent-implementation",
+      "retained": "Finite six-method expansion, compact procedures, host limits, exact non-author review, author draft maturity.",
+      "excluded": "Parent integration, catalog generation, publication and installation."
+    },
+    {
+      "id": "approved-plan",
+      "path": "docs/superpowers/plans/2026-10-03-cognitive-workflows.md",
+      "sha256": "58260a3663dd53cb8f90bf2fe04491970d8e6280a9b605abee039174569423e5",
+      "licenseClass": "First-party contract; license unverified",
+      "disposition": "independent-implementation",
+      "retained": "Sol C write boundaries and freeze-before-independent-review handoff.",
+      "excluded": "Dispatch, other author slices, hidden fixture ownership and release steps."
+    },
+    {
+      "id": "forge-entrypoint",
+      "path": "product/skills/eternities-forge/SKILL.md",
+      "sha256": "69dd108e325f48ccb2fe2833018f721e31f1725b109da9919faa89c93503267f",
+      "licenseClass": "First-party product context; license unverified",
+      "disposition": "pattern-reference",
+      "retained": "Observable slices, disjoint ownership, integration evidence and authorization retained.",
+      "excluded": "Required planning chain or delegate execution."
+    },
+    {
+      "id": "forge-cards",
+      "path": "product/skills/eternities-forge/references/methods.md",
+      "sha256": "4e25671091310043e92358182918bfa32eefe08b34508f6d1cd6e4418ac45db5",
+      "licenseClass": "First-party product context; license unverified",
+      "disposition": "pattern-reference",
+      "retained": "Finite closure seam selection, evidence and dependent-check reopening.",
+      "excluded": "Model-feedback loop and claims of literal perfection."
+    },
+    {
+      "id": "architect-entrypoint",
+      "path": "product/skills/eternities-architect/SKILL.md",
+      "sha256": "351269b25eb0a26b06e51abe774f0bb6a92d23953592196f48d70651dff2fb11",
+      "licenseClass": "First-party product context; license unverified",
+      "disposition": "pattern-reference",
+      "retained": "Intent versus observed implementation and critical requirements mapped to acceptance evidence.",
+      "excluded": "Mandatory new-system design or architecture decision record."
+    },
+    {
+      "id": "architect-cards",
+      "path": "product/skills/eternities-architect/references/methods.md",
+      "sha256": "1873d742426d274e5b78bd10d24bdb67003e725e641dd4789766bfb0ca234b73",
+      "licenseClass": "First-party product context; license unverified",
+      "disposition": "pattern-reference",
+      "retained": "Producer/transformation/consumer contracts, semantic drift and explicit uninspected coverage.",
+      "excluded": "Universal inventory beyond the user's declared audit scope."
+    },
+    {
+      "id": "mnemosyne-entrypoint",
+      "path": "product/skills/eternities-mnemosyne/SKILL.md",
+      "sha256": "43f83b2332ca21e65fa6b640a8489fe03c7ee58b8d5e1f1435ae31b027e32988",
+      "licenseClass": "First-party product context; license unverified",
+      "disposition": "pattern-reference",
+      "retained": "Minimal truthful checkpoints, authority and freshness, targeted retrieval with explicit unknowns.",
+      "excluded": "Global memory writes, identity-specific stores, local evidence-base lifecycle DRAFT route."
+    },
+    {
+      "id": "mnemosyne-cards",
+      "path": "product/skills/eternities-mnemosyne/references/methods.md",
+      "sha256": "9b3bff3a805b833a4e3d72495382efab8b99e31a0719178a17f03ed4aca02d86",
+      "licenseClass": "First-party product context; license unverified",
+      "disposition": "pattern-reference",
+      "retained": "Source revisions and invalidation reasons for dependent state.",
+      "excluded": "Code graph extractor, collection snapshot writer, private source permission workflow and retention policy."
+    },
+    {
+      "id": "phoenix-entrypoint",
+      "path": "product/skills/eternities-phoenix/SKILL.md",
+      "sha256": "8a522e555beb8e605b3b3751f7ffeb5cf6e924c85f8e0950620ab85899fbe111",
+      "licenseClass": "First-party product context; license unverified",
+      "disposition": "pattern-reference",
+      "retained": "Reconcile external uncertainty before retry/compensation; continue independent authorized work; local proof is not production recovery.",
+      "excluded": "Private trace discovery, incident process for ordinary edits, unrequested telemetry."
+    },
+    {
+      "id": "phoenix-cards",
+      "path": "product/skills/eternities-phoenix/references/methods.md",
+      "sha256": "aa9a1fefeb9e0ca5107f0b5fb3e3a97cf647c748b91922e3b3303c8bc90c8ebc",
+      "licenseClass": "First-party product context; license unverified",
+      "disposition": "pattern-reference",
+      "retained": "Disconfirming evidence and conditions to reopen eliminated approaches.",
+      "excluded": "Single-hypothesis diagnostic ritual or performance measurement implementation."
+    },
+    {
+      "id": "hermes-entrypoint",
+      "path": "product/skills/eternities-hermes/SKILL.md",
+      "sha256": "f578fba0bc4d10af9221e2fbd980ee4d21b0de71bda26428d282dabdd9152f90",
+      "licenseClass": "First-party product context; license unverified",
+      "disposition": "pattern-reference",
+      "retained": "Target/effect classification, identity, partial failure, receipts and truthful close-out.",
+      "excluded": "Browser lifecycle, CLI/API adapter generation and DRAFT cursor/progress cards."
+    },
+    {
+      "id": "hermes-cards",
+      "path": "product/skills/eternities-hermes/references/methods.md",
+      "sha256": "3f0a33559aba81a728d7aa47ab6f5d5c9686490d8d7e68a83b1ddf3136747aa4",
+      "licenseClass": "First-party product context; license unverified",
+      "disposition": "pattern-reference",
+      "retained": "Real idempotency contract, unknown and partial effects, fallback without false success or replay.",
+      "excluded": "New executor, incremental stream parser, fixed runtime and service assumptions."
+    },
+    {
+      "id": "host-skill-creator",
+      "path": "C:/Users/Dom/.codex/skills/.system/skill-creator/SKILL.md",
+      "sha256": "cccd291077ec57c6f50ca6529f0f3fb93212da09473effb2fcec808e81b21288",
+      "licenseClass": "Authorized host authoring instructions; redistribution unverified",
+      "disposition": "pattern-reference",
+      "retained": "Decision-useful fresh instructions, discriminating triggers, progressive disclosure and proportionate validation.",
+      "excluded": "Installed skill location, initialization or UI metadata generation; host path never enters product instructions."
+    },
+    {
+      "id": "host-sovereign-refinery",
+      "path": "C:/Users/Dom/.agents/skills/sovereign-skill-refinery/SKILL.md",
+      "sha256": "caac3fd18dd020810b8e67f0633773c430eba5a6fb4878209f73c0fc65b0306b",
+      "licenseClass": "Authorized host authoring instructions; redistribution unverified",
+      "disposition": "pattern-reference",
+      "retained": "Neutral contracts, minimal source ledger, source disposition and honest evidence gates.",
+      "excluded": "Third-party acquisition, execution, activation or inferred installation authority."
+    },
+    {
+      "id": "host-refinery-cards",
+      "path": "C:/Users/Dom/.agents/skills/sovereign-skill-refinery/references/methods.md",
+      "sha256": "a27941002823eb36b462e93b73dfe45d14c91205b18a48366b50e5b3abc46a85",
+      "licenseClass": "Authorized host authoring instructions; redistribution unverified",
+      "disposition": "pattern-reference",
+      "retained": "Contract, provenance and receipt fields; structural versus behavioral evidence distinction.",
+      "excluded": "Certification and superiority inference from completed drafts."
+    }
+  ],
+  "illustrations": {
+    "origin": "Fresh synthetic author examples based on the neutral contracts; no private transcript or external corpus.",
+    "completeness": ["CSV status filter, interval, units, empty output and unknown tenant boundary", "Polished handoff contradicting a failing run and omitting save-preserving rollback"],
+    "continuity": ["One authorized paid request with timeout", "Stale branch, schema and ownership", "Scoped pause versus actual worker/wake state", "No durable checkpoint store or scheduler", "Shared compute limit and stale validation"]
+  }
+}

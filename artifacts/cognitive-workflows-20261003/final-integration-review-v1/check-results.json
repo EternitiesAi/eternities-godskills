@@ -1,0 +1,446 @@
+{
+  "schema": "cognitive-final-integration-results-v1",
+  "decision": "READY",
+  "scope": "Integration slice only; not finished release or repaired-case assessment",
+  "baselineCommit": "9409eb8f2f10300a316879d042b12159f94ed302",
+  "candidateReleaseId": "54688268f540ce974272f4619f88d97adde80a0c058325a5b8f960432370a0dd",
+  "observedByReviewer": {
+    "validate": {
+      "command": "node product/bin/godskills.mjs validate",
+      "exitCode": 0,
+      "result": {
+        "status": "verified-content",
+        "releaseId": "54688268f540ce974272f4619f88d97adde80a0c058325a5b8f960432370a0dd",
+        "skillCount": 74
+      }
+    },
+    "selectedTests": {
+      "command": "node --test --test-concurrency=3 tests/cognitive-workflows-discovery.test.mjs tests/conditional-method-regression.test.mjs tests/universal-owner-refinements-wave17-18.test.mjs",
+      "exitCode": 0,
+      "tests": 60,
+      "pass": 60,
+      "fail": 0,
+      "skipped": 0,
+      "rawOutput": "selected-tests.txt"
+    },
+    "exactChecks": {
+      "command": "node artifacts/cognitive-workflows-20261003/final-integration-review-v1/check-integration.mjs",
+      "exitCode": 0,
+      "result": "PASS",
+      "changedTreeCount": 28,
+      "frozenSnapshotCount": 19,
+      "oldShippedFilesUnchanged": 214
+    }
+  },
+  "frozenSnapshots": [
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/voice-style-calibration/skill.json",
+      "sha256": "944fb3ea0f29a02db1777b2322cd339010ea947170874be4f77b7dc6e70e3f1d"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/voice-style-calibration/SKILL.md",
+      "sha256": "d85f07ec958e80adec1ca323d07ae496e9d5831ac550bf9a347c35d0f35cdd9a"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/imaginative-concept-development/skill.json",
+      "sha256": "e4646a675c25d882e716cc373a842d0a692aad73589e6233385a3dcd3daa0937"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/imaginative-concept-development/SKILL.md",
+      "sha256": "5a1b550f7db546470d93a73106f972d59cf1cf4be21cc6e7c8d08cb7f9fd95c7"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/interpersonal-understanding-and-dialogue/skill.json",
+      "sha256": "ba26d58b50cbf1becd1de2c8167f3ccc37353f2e614ae5d26abcbe7e3e60ba6e"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/interpersonal-understanding-and-dialogue/SKILL.md",
+      "sha256": "dfa4af05ca5b68aa6db7252d70dc0d2b57a610f4fa0f49104fe3b07eb1cacc74"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/interpersonal-understanding-and-dialogue/references/examples.md",
+      "sha256": "c1593449b397d952b3d0c60d7bca728201be79e5715af0a0ba1b35adae590bec"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/memory-retention-and-recovery/skill.json",
+      "sha256": "370e944b61f74f9f0551c7f48af7e4cc8bb4df3d167a96a2b1001566f2c41f61"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/memory-retention-and-recovery/SKILL.md",
+      "sha256": "ec48f8afcf742fc463903e734977c7ec030a6c672b3dbe937a99e826c0906e0e"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/memory-retention-and-recovery/references/examples.md",
+      "sha256": "fc4944177b92aee5682d49800ab7d43a09e0c12116400c523644c9b31068f695"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/completeness-and-consistency-audit/skill.json",
+      "sha256": "5e772ab38c6a5891c1f4c65490ac1af1c792eb64a742e4d0c4d190c8575f60bf"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/completeness-and-consistency-audit/SKILL.md",
+      "sha256": "4e434687d0f77a0577c6bd2c8b869fe60d409df5c5e6d5b6ee946771a78d5f71"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/completeness-and-consistency-audit/references/coverage-template.md",
+      "sha256": "afb14dd68fe0735479deead5dcfb8dc4d71d6f4d8a36a5e7246afa73fea21340"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/completeness-and-consistency-audit/references/worked-audits.md",
+      "sha256": "dc8977704eb24d273dbc010a7ae1ea800efaa2c2df63622996a185fab6b906da"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/long-horizon-work-continuity/skill.json",
+      "sha256": "2315f4367905ac7d62ccfa76bb56469f329c734a44b0889dca5a080db7f68077"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/long-horizon-work-continuity/SKILL.md",
+      "sha256": "83584469ab0faf64844451aba67bfe4e9325d2c1f7d6580ff951bc90d3a34f5d"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/long-horizon-work-continuity/references/continuity-packet.md",
+      "sha256": "224245f7beb6f1ab8266a68636e47723926ab760886771d47df49e1e70e33311"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/long-horizon-work-continuity/references/interruption-cases.md",
+      "sha256": "a922ecdc7620b3df8c7270ec0ec7e736e315af9a1582e6ed880c30276e702cc6"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/long-horizon-work-continuity/references/uncertain-effect-recovery.md",
+      "sha256": "a12fcc1b51a85bcaa392fbc534ba3be74bd6aef184019ca78774e6615d8f8f7f"
+    }
+  ],
+  "changedFromFreeze": [
+    {
+      "path": "product/skills/voice-style-calibration/skill.json",
+      "frozenSha256": "944fb3ea0f29a02db1777b2322cd339010ea947170874be4f77b7dc6e70e3f1d",
+      "finalSha256": "853cce581a0f216c3650f1f857bfae0fa1f78ef93dfc398fbfd350b74eacf6d3"
+    },
+    {
+      "path": "product/skills/voice-style-calibration/SKILL.md",
+      "frozenSha256": "d85f07ec958e80adec1ca323d07ae496e9d5831ac550bf9a347c35d0f35cdd9a",
+      "finalSha256": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b"
+    },
+    {
+      "path": "product/skills/imaginative-concept-development/skill.json",
+      "frozenSha256": "e4646a675c25d882e716cc373a842d0a692aad73589e6233385a3dcd3daa0937",
+      "finalSha256": "90fed2e5797f81f5affb2a1119260a9b885dbe5f7868ade0d20f96abbf304eff"
+    },
+    {
+      "path": "product/skills/interpersonal-understanding-and-dialogue/skill.json",
+      "frozenSha256": "ba26d58b50cbf1becd1de2c8167f3ccc37353f2e614ae5d26abcbe7e3e60ba6e",
+      "finalSha256": "a582d6717d1eccc2516d787b987ffebe16f704d98a12f64b3cfe2feb31c71101"
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/skill.json",
+      "frozenSha256": "370e944b61f74f9f0551c7f48af7e4cc8bb4df3d167a96a2b1001566f2c41f61",
+      "finalSha256": "d430c9842dc5a3c604ebd7afda911edfb6a37ead8b631e54de4b3c4c7054bacd"
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/SKILL.md",
+      "frozenSha256": "ec48f8afcf742fc463903e734977c7ec030a6c672b3dbe937a99e826c0906e0e",
+      "finalSha256": "36c14c3b62bdf72c2b12bf4678ec44223bd0c3064528a7f1b34d7df4fcc966e7"
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/references/examples.md",
+      "frozenSha256": "fc4944177b92aee5682d49800ab7d43a09e0c12116400c523644c9b31068f695",
+      "finalSha256": "e85739b8e8e517545d5862200f78e442dc23f59284f2e74751c7c39af8e5ece2"
+    },
+    {
+      "path": "product/skills/completeness-and-consistency-audit/skill.json",
+      "frozenSha256": "5e772ab38c6a5891c1f4c65490ac1af1c792eb64a742e4d0c4d190c8575f60bf",
+      "finalSha256": "da1004f5dc182e69ecf6b0324c29e3c2734639269be7f583814a6da0afc911ed"
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/skill.json",
+      "frozenSha256": "2315f4367905ac7d62ccfa76bb56469f329c734a44b0889dca5a080db7f68077",
+      "finalSha256": "5fa7b436fa35069441e9d690c3cd82b4e8ecc16e6aa72c8661d5c0cd79d273d2"
+    }
+  ],
+  "metadataDeltas": [
+    {
+      "id": "completeness-and-consistency-audit",
+      "sha256": "da1004f5dc182e69ecf6b0324c29e3c2734639269be7f583814a6da0afc911ed",
+      "maturity": "instruction-reviewed",
+      "reviewPath": "artifacts/cognitive-workflows-20261003/audit-continuity-review-v1/review.md",
+      "reviewSha256": "bae15f49f1a6f43c5fab1b42135c4bede0592c2320921cc7862158cb0b513cad",
+      "changes": [
+        "draft -> instruction-reviewed",
+        "append exact-hash instruction-review provenance"
+      ]
+    },
+    {
+      "id": "imaginative-concept-development",
+      "sha256": "90fed2e5797f81f5affb2a1119260a9b885dbe5f7868ade0d20f96abbf304eff",
+      "maturity": "instruction-reviewed",
+      "reviewPath": "artifacts/cognitive-workflows-20261003/voice-imagination-review-v1/review.md",
+      "reviewSha256": "699e5ee554898632bf3e19fff50e2ed6e025c3bee9231c0ed7b8b0e7577e501d",
+      "changes": [
+        "draft -> instruction-reviewed",
+        "append exact-hash instruction-review provenance",
+        "clarify initial author provenance as authoring, not later review"
+      ]
+    },
+    {
+      "id": "interpersonal-understanding-and-dialogue",
+      "sha256": "a582d6717d1eccc2516d787b987ffebe16f704d98a12f64b3cfe2feb31c71101",
+      "maturity": "instruction-reviewed",
+      "reviewPath": "artifacts/cognitive-workflows-20261003/dialogue-memory-review-v2/review.md",
+      "reviewSha256": "0ef8babe097a62e0f6e96e6b6df8f829abe3205e47ea7e8d66b30c412fc316bc",
+      "changes": [
+        "draft -> instruction-reviewed",
+        "append exact-hash instruction-review provenance",
+        "taskTypes review -> verify",
+        "append general reflective-statements / tentative-motives trigger"
+      ]
+    },
+    {
+      "id": "long-horizon-work-continuity",
+      "sha256": "5fa7b436fa35069441e9d690c3cd82b4e8ecc16e6aa72c8661d5c0cd79d273d2",
+      "maturity": "instruction-reviewed",
+      "reviewPath": "artifacts/cognitive-workflows-20261003/audit-continuity-review-v1/review.md",
+      "reviewSha256": "bae15f49f1a6f43c5fab1b42135c4bede0592c2320921cc7862158cb0b513cad",
+      "changes": [
+        "draft -> instruction-reviewed",
+        "append exact-hash instruction-review provenance"
+      ]
+    },
+    {
+      "id": "memory-retention-and-recovery",
+      "sha256": "d430c9842dc5a3c604ebd7afda911edfb6a37ead8b631e54de4b3c4c7054bacd",
+      "maturity": "instruction-reviewed",
+      "reviewPath": "artifacts/cognitive-workflows-20261003/dialogue-memory-review-v2/review.md",
+      "reviewSha256": "0ef8babe097a62e0f6e96e6b6df8f829abe3205e47ea7e8d66b30c412fc316bc",
+      "changes": [
+        "draft -> instruction-reviewed",
+        "append exact-hash instruction-review provenance"
+      ]
+    },
+    {
+      "id": "voice-style-calibration",
+      "sha256": "853cce581a0f216c3650f1f857bfae0fa1f78ef93dfc398fbfd350b74eacf6d3",
+      "maturity": "instruction-reviewed",
+      "reviewPath": "artifacts/cognitive-workflows-20261003/voice-imagination-review-v2/review.md",
+      "reviewSha256": "0bebafb5801baf390874e2224349c3eb119373b39cb2c9755c6662b6f8a68c0b",
+      "changes": [
+        "draft -> instruction-reviewed",
+        "append exact-hash instruction-review provenance",
+        "clarify initial author provenance as authoring, not later review"
+      ]
+    }
+  ],
+  "preservation": {
+    "oldShippedFilesUnchanged": 214,
+    "all68OldSkillMetadataByteIdentical": true,
+    "authorizedOldProductChanges": [
+      "product/INDEX.md",
+      "product/README.md",
+      "product/RECIPES.md",
+      "product/catalog.json",
+      "product/release.json"
+    ],
+    "exactOldFileHashes": "readset.json",
+    "baselineTrackedPins": [
+      {
+        "path": "package.json",
+        "sha256": "538531951004f100fd557066ebb274306847f38ba514f4333f735b0dccd9b773"
+      },
+      {
+        "path": "package-lock.json",
+        "sha256": "e0b5c43f574e04c2ae7b9c0df4a1f09b609879341a8b6294a5de470009d7565c"
+      },
+      {
+        "path": "tests/adaptive-evaluator-compatibility.test.mjs",
+        "sha256": "7ebba77fb8528734e6e6a025df289bbc9e96ea3c7f32f49af9b6401b73fab5e0"
+      },
+      {
+        "path": "tests/aegis-evaluator-v2-shadow.test.mjs",
+        "sha256": "21180add56d5a88a283d2e8b9a6bbfee52a0300dcdab5c7da79f32ffd42d4dae"
+      }
+    ],
+    "protectedTrackedState": {
+      "trackedChanges": [
+        "product/INDEX.md",
+        "product/README.md",
+        "product/RECIPES.md",
+        "product/catalog.json",
+        "product/release.json",
+        "tests/conditional-method-regression.test.mjs",
+        "tests/universal-owner-refinements-wave17-18.test.mjs"
+      ],
+      "noHiddenIndexFlags": true,
+      "limitation": "Git diff establishes tracked protection outside this explicit change set; not an inventory of arbitrary untracked personal files."
+    },
+    "localOriginMain": "9409eb8f2f10300a316879d042b12159f94ed302"
+  },
+  "immutableFixture": {
+    "path": "tests/core2260-catalog.json",
+    "sha256": "57d47c0a9692dc21caa0e7909ee6c557cd5ef5cc4e09b968df079cc81f86aecf",
+    "orderedOldIds": 68,
+    "allowedAdditionalIds": [
+      "completeness-and-consistency-audit",
+      "imaginative-concept-development",
+      "interpersonal-understanding-and-dialogue",
+      "long-horizon-work-continuity",
+      "memory-retention-and-recovery",
+      "voice-style-calibration"
+    ],
+    "total": 74,
+    "negativeControls": [
+      {
+        "case": "unapproved extra ID",
+        "result": "rejected in memory; no input bytes changed"
+      },
+      {
+        "case": "replace an admitted new ID by arbitrary ID at total 74",
+        "result": "rejected in memory; no input bytes changed"
+      },
+      {
+        "case": "duplicate old ID in place of another old ID at total 74",
+        "result": "rejected in memory; no input bytes changed"
+      },
+      {
+        "case": "reorder old IDs",
+        "result": "rejected in memory; no input bytes changed"
+      },
+      {
+        "case": "change old scoring trigger",
+        "result": "rejected in memory; no input bytes changed"
+      },
+      {
+        "case": "remove admitted ID",
+        "result": "rejected in memory; no input bytes changed"
+      }
+    ]
+  },
+  "parentLogs": [
+    {
+      "path": "artifacts/cognitive-workflows-20261003/historical-count-red.tap",
+      "sha256": "53c036a15572e3eb9f058c0bf6a18d36c1bee16a0ecf3a3efa5a42f565a8836c",
+      "counts": {
+        "tests": 47,
+        "pass": 44,
+        "fail": 3,
+        "cancelled": 0,
+        "skipped": 0
+      },
+      "failures": [
+        "✖ the immutable core2260 fixture is exact and all 68 scoring, relation, specialization, and maturity projections remain ordered (3.6726ms)",
+        "✖ frozen candidate validates locally without executing its scenarios (749.0053ms)",
+        "✖ the refined product remains a verified, offline package (399.0533ms)",
+        "✖ failing tests:",
+        "✖ the immutable core2260 fixture is exact and all 68 scoring, relation, specialization, and maturity projections remain ordered (3.6726ms)",
+        "  74 !== 68",
+        "✖ frozen candidate validates locally without executing its scenarios (749.0053ms)",
+        "  74 !== 68",
+        "✖ the refined product remains a verified, offline package (399.0533ms)",
+        "  74 !== 68"
+      ],
+      "skips": []
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/historical-count-green.tap",
+      "sha256": "ff1e00bcdb1cfa8dc53426af251352dc8254051ca51e2a91133efdacaa148e00",
+      "counts": {
+        "tests": 47,
+        "pass": 47,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0
+      },
+      "failures": [],
+      "skips": []
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/focused-pre-migration.tap",
+      "sha256": "4e8c1fc5f1762837e5704e5d63a5534eb21151f829afd487075e998663d95218",
+      "counts": {
+        "tests": 46,
+        "pass": 46,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0
+      },
+      "failures": [],
+      "skips": []
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/full-suite.tap",
+      "sha256": "090a617763d53dfed9dcc409dccf9fc01d1751b1c1c2ec290b969e09f20c8d1e",
+      "counts": {
+        "tests": 1208,
+        "pass": 1204,
+        "fail": 3,
+        "cancelled": 0,
+        "skipped": 1
+      },
+      "failures": [
+        "not ok 28 - aggregate receipt binds every declared input and output to actual bytes",
+        "  error: \"ENOENT: no such file or directory, open 'C:\\\\dev\\\\eternities-godskills\\\\.worktrees\\\\cognitive-workflows-20261003\\\\node_modules\\\\acorn\\\\dist\\\\acorn.mjs'\"",
+        "not ok 84 - rebuilds one deterministic ineligible five-variant shadow replay",
+        "  error: \"ENOENT: no such file or directory, open 'C:\\\\dev\\\\eternities-godskills\\\\.worktrees\\\\cognitive-workflows-20261003\\\\node_modules\\\\acorn\\\\dist\\\\acorn.mjs'\"",
+        "not ok 85 - checked shadow outputs commit transactionally and restore on a later failure",
+        "  error: \"ENOENT: no such file or directory, copyfile 'C:\\\\dev\\\\eternities-godskills\\\\.worktrees\\\\cognitive-workflows-20261003\\\\node_modules\\\\acorn\\\\dist\\\\acorn.mjs' -> 'C:\\\\Users\\\\Dom\\\\AppData\\\\Local\\\\Temp\\\\aegis-v2-shadow-transaction-JX11Yv\\\\node_modules\\\\acorn\\\\dist\\\\acorn.mjs'\""
+      ],
+      "skips": [
+        "ok 512 - rejects symbolic links instead of following them # SKIP symbolic-link creation is unavailable on this Windows account"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/dependency-repair-focused-green.tap",
+      "sha256": "74a90bd7a46bab1cd09def6982ad61d2611e159ec0760ca05982b830e7087ccd",
+      "counts": {
+        "tests": 6,
+        "pass": 6,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0
+      },
+      "failures": [],
+      "skips": []
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/full-suite-repaired.tap",
+      "sha256": "fae83cd11b0e1c50ca655d80c2a4a429d8cc8b2e584cf7171f58525f5afeec15",
+      "counts": {
+        "tests": 1208,
+        "pass": 1207,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 1
+      },
+      "failures": [],
+      "skips": [
+        "ok 512 - rejects symbolic links instead of following them # SKIP symbolic-link creation is unavailable on this Windows account"
+      ]
+    }
+  ],
+  "reviewIdentityBasis": "Independent receipt decisions and parent cross-review assignment attestation; hashes bind exact content, not cryptographic reviewer identity. Leibniz authored audit/continuity and independently reviewed Einstein dialogue/memory; no new own-body judgment in this integration review.",
+  "parentReportedOnly": {
+    "rootFileEnumeration": 249,
+    "dependencyRepair": "Offline npm ci ENOTCACHED; parent copied exactly existing canonical Acorn 8.18.0, 10 source/destination file SHA matches. Copy source receipts not independently inspected; no dependency modification performed by this reviewer.",
+    "export": {
+      "files": 239,
+      "archiveSha256": "e319cf6fbca70b2b88696657e6182b049bab5baef295a6e3b482867acd1e86d6",
+      "result": "Parent reports fresh same-host extraction/minimal-env validate 74 with no dependency installation; archive not inspected or reproduced in this bounded slice."
+    }
+  },
+  "findings": [],
+  "remainingGates": [
+    "Separate independent repaired-case assessments remain pending.",
+    "Parent owns final candidate handoff, integration, main/push and backed-up installed release; no release effect inferred.",
+    "Full-suite symlink leaf creation remains one documented host-capability skip, not covered success.",
+    "No performance qualification, global originality/source-rights clearance, scheduler/store/service availability or cross-host certification established."
+  ],
+  "prohibitedActionsNotPerformed": [
+    "product/shared-test edits",
+    "builder",
+    "full-suite rerun",
+    "providers",
+    "descendants",
+    "raw/assessor fixture reads",
+    "integration/main/push/install",
+    "global instruction/memory changes",
+    "new web/source acquisition"
+  ]
+}

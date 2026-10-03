@@ -1,0 +1,63 @@
+{
+  "id": "long-horizon-work-continuity",
+  "category": "agent-workflows",
+  "summary": "Preserve an authorized objective across milestones and interruption, reconcile live sources and uncertain effects, and resume within ownership and resource limits.",
+  "triggers": [
+    "long horizon work continuity",
+    "resume interrupted multi stage objective",
+    "carry project across sessions milestone checkpoints",
+    "recover uncertain external operation before retry"
+  ],
+  "antiTriggers": [
+    "one step task",
+    "simple status check",
+    "create scheduler or guarantee unattended execution"
+  ],
+  "taskTypes": [
+    "orchestrate",
+    "recover",
+    "plan",
+    "build",
+    "verify"
+  ],
+  "related": [
+    "eternities-forge",
+    "eternities-architect",
+    "eternities-mnemosyne",
+    "eternities-phoenix",
+    "eternities-hermes"
+  ],
+  "resources": [
+    "references/continuity-packet.md",
+    "references/uncertain-effect-recovery.md",
+    "references/interruption-cases.md"
+  ],
+  "maturity": "instruction-reviewed",
+  "provenance": [
+    {
+      "kind": "original",
+      "source": "docs/superpowers/specs/2026-10-03-cognitive-workflows-design.md",
+      "note": "Independently authored portable method for the approved finite expansion. Exact source pins are recorded in artifacts/cognitive-workflows-20261003/author-sol-c/source-ledger.json; author checks are not independent acceptance."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "product/skills/eternities-mnemosyne/SKILL.md",
+      "note": "Compact source-labeled recovery and explicit freshness informed checkpoints without importing a host-specific store or identity mechanism."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "product/skills/eternities-phoenix/SKILL.md",
+      "note": "Uncertain external effects, retained authorization and independent local progress informed recovery decisions."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "product/skills/eternities-hermes/references/methods.md",
+      "note": "Idempotency, partial-success and receipt boundaries informed retry decisions; no executor or service adapter is included."
+    },
+    {
+      "kind": "instruction-review",
+      "source": "artifacts/cognitive-workflows-20261003/audit-continuity-review-v1/review.md",
+      "note": "SHA-256 bae15f49f1a6f43c5fab1b42135c4bede0592c2320921cc7862158cb0b513cad. Independent document acceptance of the exact reviewed instructions; limited fixture applications and release checks are separate evidence. No performance superiority or source-rights clearance is implied."
+    }
+  ]
+}

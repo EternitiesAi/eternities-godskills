@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "kind": "independent-repaired-case-application-assessment-v2",
+  "scope": "artifacts/cognitive-workflows-20261003/independent-evaluation/run-v2-assessment/ only",
+  "v1History": {
+    "bundleSha256": "36273dc8f43ab8c1554d4817f47342d99aea37e80ad828aca2ded29b0c69a954",
+    "manifestSha256": "d3d0ed2cd58c309c4b47e43467065f9df2c131ca26ecd82be3d51c2d94f4fee7",
+    "unchanged": true,
+    "original19Archive": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/",
+    "archiveEvidence": "Parent reports exact preservation and independent successful pre-incorporation rerun. Assessor does not rebind or reverify historical receipt against intentionally changed live product.",
+    "dissentPreserved": [
+      {"path":"artifacts/cognitive-workflows-20261003/voice-imagination-review-v1/review.md","sha256":"699e5ee554898632bf3e19fff50e2ed6e025c3bee9231c0ed7b8b0e7577e501d","finding":"I1 authorized review-draft restriction; original C01 did not test that branch."},
+      {"path":"artifacts/cognitive-workflows-20261003/dialogue-memory-review-v1/review.md","sha256":"060094fae9af2c78c1c8999d4ef3831fd1916ad43df4d4e2cbedc3933e70d28c","finding":"M1 failed/uncertain checkpoint-save gap; original C04 expressly cued successful readback. D1/D2 metadata findings also preserved; parent owns their catalog gates."}
+    ]
+  },
+  "memory": {
+    "case": "C04",
+    "disposition": "acceptable-for-bounded-outcome-with-nonmaterial-source-wording-correction",
+    "report": "memory-assessment.md",
+    "inputReceipt": "memory-input-verification.json",
+    "applicationRecordSha256": "84b1b2d058c195585ed57ad302f876ca7bf4acbadbaea20288a457d474675b56",
+    "checkpointSha256": "3b03196a0702585c1db6cbeaff90b2a579f62f2f517c036e8a67301bbb3a83c9",
+    "stagedBodySha256": "36c14c3b62bdf72c2b12bf4678ec44223bd0c3064528a7f1b34d7df4fcc966e7",
+    "stagedExamplesSha256": "e85739b8e8e517545d5862200f78e442dc23f59284f2e74751c7c39af8e5ece2",
+    "actualNote": {"words":215,"bytes":1498,"location":"artifacts/cognitive-workflows-20261003/memory-application-v2/checkpoint.md","assessorReadback":"actual-current-file-content-inspected"},
+    "locationAdaptation": "Explicit narrower real parent write root supersedes simulated H0 destination; actor disclosed it, so accepted as host adaptation.",
+    "saveReadbackEvidence": "Actor record and parent attestation of save/readback; assessor independently confirms current readable bytes. No replay of actor save, cold-session/global-memory or failed-store test.",
+    "nonmaterialFinding": {"id":"M-APP-1","trigger":"Record:5 and checkpoint:9 say acknowledgment timed out; raw C04:28 says response timed out after writer acknowledgement.","consequence":"Event-wording imprecision; EX9 unknown/no-retry decision, operation identity and invitation gate remain intact.","repairRequestRequired":false},
+    "materialDefects": []
+  },
+  "voice": {
+    "case": "C01",
+    "disposition": "repair-needed-application-meaning-preservation",
+    "report": "voice-assessment.md",
+    "inputReceipt": "voice-input-verification.json",
+    "profileSha256": "f160d35ebb91f15372c3f290601649ed30ea9c49f43d170f2741a68773d80cc6",
+    "noticeSha256": "c4843efb4420c7e50ba4d778b2488caa907cb3204311c3046a93fc6666ae9b65",
+    "actorReceiptSha256": "a641ff6f61e077a47e28e0a576e8cca6a83e96e276e06b45a76e9b1304cc2caf",
+    "stagedBodySha256": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b",
+    "literalChecks": {"words":139,"paragraphs":2,"profileRules":5,"exactFinalSentence":true,"prohibitedWordsAbsent":true},
+    "profileAssessment": "acceptable-subjective-fit-with-bounded-confidence",
+    "materialDefects": [{"id":"V-APP-1","location":"voice-application-v2/notice-draft.md:3","unsupportedPromise":"If weather changes, we will post the observing status here and explain what it means for your booking.","source":"Similar promise is in raw sample B, not the signed maintenance facts.","consequence":"A voice example is promoted into a current service/location commitment, violating preserved meaning.","attribution":"application error; repaired instruction already prohibits added claims/promises"}],
+    "specificRepair": "Actor revises only notice and receipt, removes unsupported commitment while preserving existing facts and 130-170-word/two-paragraph/exact-ending constraints, preserves current artifacts, and supplies new frozen hashes. No profile, product, raw-case or instruction repair required for V-APP-1."
+  },
+  "independence": "Separate actor/assessor application review. Parent attests raw/method-only actor inputs; no comprehensive context-access audit. Exposed-case reruns, not new held-out blind baselines or matched superiority tests.",
+  "qualityScore": null,
+  "productReadOrWriteDuringV2Assessment": "none; staged bodies only",
+  "externalServiceGlobalMemoryProviderDescendantEffects": "none by assessor; supplied actor records/parent report local fixture artifacts only",
+  "remainingGate": "Specific voice-application repair and new versioned hashes/reassessment. Parent owns product discovery/build/integration/release."
+}

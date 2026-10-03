@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "kind": "bounded-independent-v3-final-case-assessment",
+  "state": "SEALED",
+  "workspace": "C:\\dev\\eternities-godskills\\.worktrees\\cognitive-workflows-20261003",
+  "writeRoot": "artifacts/cognitive-workflows-20261003/independent-evaluation/run-v3-assessment",
+  "criteriaSha256": "4f6e002d3c13656a5f112266cde4a110dd75fac1195e8e62c2954e680a1248f5",
+  "protocolSha256": "3b519effd53ca79088238856c0e92fe4e2da579add148ebe21a50d320320e41c",
+  "criteriaAmended": false,
+  "assessment": "assessment.md",
+  "verification": "verification.json",
+  "cases": [
+    {
+      "case": "C01",
+      "method": "voice-style-calibration",
+      "disposition": "READY",
+      "scope": "bounded-final-application-outcome",
+      "priorFinding": "V-APP-1",
+      "priorFindingStatus": "corrected-in-new-version; prior failure preserved",
+      "noticeSha256": "9edbdba106887bc0b3f66c0e0477d98ea25e4303fc55652a9060ab3a5a8e217b",
+      "actorReceiptSha256": "b5ce23525f86c87e78184d608850e2a1da711a4657161db5da9a12aa3d463af5",
+      "inheritedProfileSha256": "f160d35ebb91f15372c3f290601649ed30ea9c49f43d170f2741a68773d80cc6",
+      "stagedMethodSha256": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b",
+      "words": 134,
+      "paragraphs": 2,
+      "criticalMeaning": "All current assertions grounded in signed C01 facts; no sample-derived operational obligation.",
+      "materialDefects": []
+    },
+    {
+      "case": "C04",
+      "method": "memory-retention-and-recovery",
+      "disposition": "READY",
+      "scope": "bounded-sequence-and-retention-identity-repair",
+      "priorFinding": "M-APP-1",
+      "priorFindingStatus": "corrected-in-new-version; prior wording preserved",
+      "checkpointSha256": "d132324f8d1de49d11d0a254e7bccd7926cb792c9f76683a3e2c6032917e0f91",
+      "actorRecordSha256": "0fdb91bb1ad8f9763cba587f136b5e91073ef9cbb485f6bbc9d2e65592d3260b",
+      "stagedMethodSha256": "36c14c3b62bdf72c2b12bf4678ec44223bd0c3064528a7f1b34d7df4fcc966e7",
+      "checkpointWords": 220,
+      "checkpointBytes": 1524,
+      "criticalMeaning": "Writer acknowledged the job before response timeout; accepted authority, uncertain EX9 state and no-retry boundaries unchanged.",
+      "retention": "Actor/parent report real scoped save/readback; assessor directly retrieved matching present note bytes. Explicit authorized-location adaptation.",
+      "materialDefects": []
+    }
+  ],
+  "historicalReceipts": {
+    "preregistrationManifest": "6b445b0c493c29f3fa6495b337d4f3f8e54c76ba715a48e8c8a773b2c78c14f4",
+    "runV1Manifest": "d3d0ed2cd58c309c4b47e43467065f9df2c131ca26ecd82be3d51c2d94f4fee7",
+    "runV2Manifest": "1e9bdda52b616a8b5a657070f65f80f00090cba782a0dba80f8922184712969a",
+    "runV2Receipt": "a0b25bb7e050e94b20944c80dbdd4e1d7ed674b8b7a2bf1e02c68996d43e1fab",
+    "reboundToCurrentProduct": false
+  },
+  "evidenceLimits": [
+    "Exposed-case targeted repair confirmation, not a new held-out benchmark.",
+    "Separate nonauthor assessor; no actor-context audit or blind matched baseline.",
+    "Same-context local note readback, not cold-session recall or true multi-day continuity.",
+    "READY applies to these two application outcomes, not publication, adoption or universal quality."
+  ],
+  "effects": {
+    "localReads": true,
+    "assessmentFilesOnly": true,
+    "productWrites": false,
+    "providers": false,
+    "descendants": false,
+    "externalEffects": false,
+    "globalMemoryWrites": false,
+    "assessorTransientOutOfRootWritesCorrected": true
+  },
+  "repairRequested": false,
+  "executionCorrection": "verification.json: assessorExecutionCorrection"
+}

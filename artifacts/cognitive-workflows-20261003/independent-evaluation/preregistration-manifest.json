@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "algorithm": "sha256",
+  "canonicalEncoding": "utf8: sorted path + NUL + decimal bytes + NUL + lowercase sha256 + LF",
+  "bundleSha256": "9049cb1b6d12259806d6cd0a130bf87555ab27256effd7d50c92496b74679092",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1909,
+      "sha256": "03b2f2e13b2a51fe78586b15e766fd2b27a9e8e60dc6ea4c4061f05c8fe8e112"
+    },
+    {
+      "path": "assessor/acceptance.md",
+      "bytes": 10430,
+      "sha256": "4f6e002d3c13656a5f112266cde4a110dd75fac1195e8e62c2954e680a1248f5"
+    },
+    {
+      "path": "protocol.md",
+      "bytes": 7345,
+      "sha256": "3b519effd53ca79088238856c0e92fe4e2da579add148ebe21a50d320320e41c"
+    },
+    {
+      "path": "raw/C01-voice-style-calibration.md",
+      "bytes": 2941,
+      "sha256": "990923975f82f69b47b05a97eb484e7c24b84567be2df32eca893a4d852a41f7"
+    },
+    {
+      "path": "raw/C02-imaginative-concept-development.md",
+      "bytes": 2394,
+      "sha256": "10d581398c9267c9c0b7f1150cd71893d25364680637b368952fcfe3022c0ccc"
+    },
+    {
+      "path": "raw/C03-interpersonal-understanding-and-dialogue.md",
+      "bytes": 2678,
+      "sha256": "1862a3f9af0f57abf52ab128d70566f12d294ddd957ee0cd5ba32b9834834c5f"
+    },
+    {
+      "path": "raw/C04-memory-retention-and-recovery.md",
+      "bytes": 3239,
+      "sha256": "7bb272b49e98af768de83026b0f29e8da13d988e139b2bf03b54292d89106350"
+    },
+    {
+      "path": "raw/C05-completeness-and-consistency-audit.md",
+      "bytes": 3797,
+      "sha256": "dc9bc336c9881637d9940e9b3e1c2aa6234bb9248aa8ff8f1a334a12f323db6c"
+    },
+    {
+      "path": "raw/C06-long-horizon-work-continuity.md",
+      "bytes": 4000,
+      "sha256": "6d54f3b2df7a640d29325a6962c70291b499a083169710b7534ddb41193c465d"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 4690,
+      "sha256": "de8625e7e09b2f0de715a2d0839a0009cac3787fda97cdda63012a06b33ac386"
+    },
+    {
+      "path": "verify-preregistration.mjs",
+      "bytes": 4559,
+      "sha256": "d4aa061a19995bb02369fa9a245cc5ae8b95d917ecd6d31fc1d7e00b3b20c325"
+    }
+  ]
+}

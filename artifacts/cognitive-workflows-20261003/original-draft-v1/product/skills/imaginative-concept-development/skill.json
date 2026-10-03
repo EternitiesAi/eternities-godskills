@@ -1,0 +1,35 @@
+{
+  "id": "imaginative-concept-development",
+  "category": "design",
+  "summary": "Explore and develop distinct concept mechanisms under constraints, then select by declared criteria without confusing invention with fact.",
+  "triggers": [
+    "develop competing concepts for a product, game, story, or experience",
+    "find different mechanisms for a constrained design brief",
+    "use a distant analogy to rethink an experience",
+    "compare concept directions before committing to one"
+  ],
+  "antiTriggers": [
+    "routine revision or settled implementation",
+    "fact research without a concept decision",
+    "request to present invented events as factual canon",
+    "fixed single-direction brief with no material uncertainty to explore"
+  ],
+  "taskTypes": [
+    "plan",
+    "create",
+    "verify"
+  ],
+  "related": [
+    "eternities-arcadia",
+    "eternities-muse"
+  ],
+  "resources": [],
+  "maturity": "draft",
+  "provenance": [
+    {
+      "kind": "authoring",
+      "source": "artifacts/cognitive-workflows-20261003/author-luna-a/source-ledger.md",
+      "note": "Fresh method informed by the approved contract and first-party owner boundaries; exact source identities and SHA-256 hashes are in the sidecar. Pending independent review."
+    }
+  ]
+}

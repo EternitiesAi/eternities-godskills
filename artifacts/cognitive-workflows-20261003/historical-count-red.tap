@@ -1,0 +1,108 @@
+✖ the immutable core2260 fixture is exact and all 68 scoring, relation, specialization, and maturity projections remain ordered (3.6726ms)
+✔ exactly four new resource paths are added and every existing resource binding stays unchanged (4.5919ms)
+✔ Hermes and Math retain canonical-main frontmatter and Hermes ordinary workflow body (0.29ms)
+✔ conditional method links remain with their owners and B04 is not a Hermes resource (0.6218ms)
+✔ the selected-method directory binds exactly the four new owner methods and their exclusions (11.5645ms)
+✔ Daedalus owns optional model scenarios without weakening deterministic required checks (0.9681ms)
+✔ frozen Hermes body case C01 retains its declared conformance boundary (0.5439ms)
+✔ frozen Hermes body case C02 retains its declared conformance boundary (0.1143ms)
+✔ frozen Hermes body case C03 retains its declared conformance boundary (0.2602ms)
+✔ frozen Hermes body case C04 retains its declared conformance boundary (0.241ms)
+✔ frozen Hermes body case C05 retains its declared conformance boundary (0.494ms)
+✔ frozen Hermes body case C06 retains its declared conformance boundary (0.3954ms)
+✔ frozen Hermes body case C07 retains its declared conformance boundary (0.1063ms)
+✔ frozen Hermes body case C08 retains its declared conformance boundary (0.4871ms)
+✔ frozen Hermes body case R01 retains its declared conformance boundary (0.3437ms)
+✔ frozen Hermes body case R02 retains its declared conformance boundary (0.3113ms)
+✔ frozen Hermes body case L01 retains its declared conformance boundary (0.1756ms)
+✔ frozen Hermes body case L02 retains its declared conformance boundary (0.1106ms)
+✔ frozen Hermes body case L03 retains its declared conformance boundary (0.1919ms)
+✔ frozen Hermes body case L04 retains its declared conformance boundary (0.1255ms)
+✔ frozen Hermes body case L05 retains its declared conformance boundary (0.164ms)
+✔ frozen Hermes body case L06 retains its declared conformance boundary (0.3137ms)
+✔ frozen Hermes body case L07 retains its declared conformance boundary (0.1154ms)
+✔ frozen Hermes body case E01 retains its declared conformance boundary (0.191ms)
+✔ Daedalus optional CI placement contract: default path (0.1598ms)
+✔ Daedalus optional CI placement contract: separate merge lane (0.1518ms)
+✔ Daedalus optional CI placement contract: behavior-based classification (0.0763ms)
+✔ Daedalus optional CI placement contract: bounded and attributable run (0.1081ms)
+✔ Daedalus optional CI placement contract: separate result states (0.2402ms)
+✔ Daedalus optional CI placement contract: uncertain request recovery (0.1124ms)
+✔ Daedalus optional CI placement contract: no duplicate policy and exact selection audit (0.0337ms)
+✔ Daedalus optional CI placement contract: evidence limits (0.1672ms)
+✖ frozen candidate validates locally without executing its scenarios (749.0053ms)
+✔ new owner refinement is discoverable for eternities-hermes (4.0051ms)
+✔ new owner refinement is discoverable for eternities-daedalus (2.2701ms)
+✔ new owner refinement is discoverable for eternities-logos (1.877ms)
+✔ new owner refinement is discoverable for eternities-agora (1.8341ms)
+✔ partial-commit method routes contradictory or paraphrased request: A database action succeeded but a downstream service failed: decide what remains committed, what is undone, and how to reconcile before retrying (1.9858ms)
+✔ partial-commit method routes contradictory or paraphrased request: A write is durable but the downstream step failed; decide whether to compensate or safely continue after checking persisted state (2.0897ms)
+✔ partial-commit method routes contradictory or paraphrased request: The service should be atomic even though the first database commit must remain when the next provider call fails (2.1223ms)
+✔ partial-commit method limits atomicity to a supported transaction boundary (2.898ms)
+✔ cross-owner handoffs appear in discovery relationships (0.1733ms)
+✔ eternities-hermes provides the bounded method contract (1.0494ms)
+✔ eternities-daedalus provides the bounded method contract (0.9029ms)
+✔ eternities-logos provides the bounded method contract (0.743ms)
+✔ eternities-agora provides the bounded method contract (0.7262ms)
+✖ the refined product remains a verified, offline package (399.0533ms)
+ℹ tests 47
+ℹ suites 0
+ℹ pass 44
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 839.1701
+
+✖ failing tests:
+
+test at tests\conditional-method-regression.test.mjs:124:1
+✖ the immutable core2260 fixture is exact and all 68 scoring, relation, specialization, and maturity projections remain ordered (3.6726ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  74 !== 68
+  
+      at TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/cognitive-workflows-20261003/tests/conditional-method-regression.test.mjs:128:10)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 74,
+    expected: 68,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\conditional-method-regression.test.mjs:444:1
+✖ frozen candidate validates locally without executing its scenarios (749.0053ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  74 !== 68
+  
+      at TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/cognitive-workflows-20261003/tests/conditional-method-regression.test.mjs:467:10)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 74,
+    expected: 68,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\universal-owner-refinements-wave17-18.test.mjs:70:1
+✖ the refined product remains a verified, offline package (399.0533ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  74 !== 68
+  
+      at TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/cognitive-workflows-20261003/tests/universal-owner-refinements-wave17-18.test.mjs:72:10)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 74,
+    expected: 68,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

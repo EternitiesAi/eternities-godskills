@@ -1,0 +1,121 @@
+{
+  "schema": "cognitive-final-integration-input-hashes-v1",
+  "hashMeaning": "SHA-256 of exact bytes; not publisher/reviewer authenticity",
+  "baselineCommit": "9409eb8f2f10300a316879d042b12159f94ed302",
+  "candidateReleaseId": "54688268f540ce974272f4619f88d97adde80a0c058325a5b8f960432370a0dd",
+  "scope": "19 new skill-tree files plus nine shared integration surfaces; no new skill-body self-review",
+  "files": [
+    {
+      "path": "product/HOST-CAPABILITIES.md",
+      "sha256": "6faa40662c752bdfb3bbeb5509388f7399c99640283b958ecc56b3415f9f25c5"
+    },
+    {
+      "path": "product/INDEX.md",
+      "sha256": "2603daa42c235285e6201d18f6ef49d632bf5d6170955d7ba82af3e7e14a1405"
+    },
+    {
+      "path": "product/README.md",
+      "sha256": "fd77f746ac811e6b6ab9129d384a741f31908f5c9e17cbf44e0aeccd86b0b247"
+    },
+    {
+      "path": "product/RECIPES.md",
+      "sha256": "5796f9f1957f2ab65c92bd7b5c2d3f0654fe4ef925e4005ec72a0a00b5d02528"
+    },
+    {
+      "path": "product/catalog.json",
+      "sha256": "02af51a684ac09320f8ec9037c8a543c571ab381b299655b02147309e769009c"
+    },
+    {
+      "path": "product/release.json",
+      "sha256": "cd052b6a5a2b9a2aa9a4cecbc750a9977a459185dcd26c858755f41cbd3f7825"
+    },
+    {
+      "path": "product/skills/completeness-and-consistency-audit/SKILL.md",
+      "sha256": "4e434687d0f77a0577c6bd2c8b869fe60d409df5c5e6d5b6ee946771a78d5f71"
+    },
+    {
+      "path": "product/skills/completeness-and-consistency-audit/references/coverage-template.md",
+      "sha256": "afb14dd68fe0735479deead5dcfb8dc4d71d6f4d8a36a5e7246afa73fea21340"
+    },
+    {
+      "path": "product/skills/completeness-and-consistency-audit/references/worked-audits.md",
+      "sha256": "dc8977704eb24d273dbc010a7ae1ea800efaa2c2df63622996a185fab6b906da"
+    },
+    {
+      "path": "product/skills/completeness-and-consistency-audit/skill.json",
+      "sha256": "da1004f5dc182e69ecf6b0324c29e3c2734639269be7f583814a6da0afc911ed"
+    },
+    {
+      "path": "product/skills/imaginative-concept-development/SKILL.md",
+      "sha256": "5a1b550f7db546470d93a73106f972d59cf1cf4be21cc6e7c8d08cb7f9fd95c7"
+    },
+    {
+      "path": "product/skills/imaginative-concept-development/skill.json",
+      "sha256": "90fed2e5797f81f5affb2a1119260a9b885dbe5f7868ade0d20f96abbf304eff"
+    },
+    {
+      "path": "product/skills/interpersonal-understanding-and-dialogue/SKILL.md",
+      "sha256": "dfa4af05ca5b68aa6db7252d70dc0d2b57a610f4fa0f49104fe3b07eb1cacc74"
+    },
+    {
+      "path": "product/skills/interpersonal-understanding-and-dialogue/references/examples.md",
+      "sha256": "c1593449b397d952b3d0c60d7bca728201be79e5715af0a0ba1b35adae590bec"
+    },
+    {
+      "path": "product/skills/interpersonal-understanding-and-dialogue/skill.json",
+      "sha256": "a582d6717d1eccc2516d787b987ffebe16f704d98a12f64b3cfe2feb31c71101"
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/SKILL.md",
+      "sha256": "83584469ab0faf64844451aba67bfe4e9325d2c1f7d6580ff951bc90d3a34f5d"
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/references/continuity-packet.md",
+      "sha256": "224245f7beb6f1ab8266a68636e47723926ab760886771d47df49e1e70e33311"
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/references/interruption-cases.md",
+      "sha256": "a922ecdc7620b3df8c7270ec0ec7e736e315af9a1582e6ed880c30276e702cc6"
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/references/uncertain-effect-recovery.md",
+      "sha256": "a12fcc1b51a85bcaa392fbc534ba3be74bd6aef184019ca78774e6615d8f8f7f"
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/skill.json",
+      "sha256": "5fa7b436fa35069441e9d690c3cd82b4e8ecc16e6aa72c8661d5c0cd79d273d2"
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/SKILL.md",
+      "sha256": "36c14c3b62bdf72c2b12bf4678ec44223bd0c3064528a7f1b34d7df4fcc966e7"
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/references/examples.md",
+      "sha256": "e85739b8e8e517545d5862200f78e442dc23f59284f2e74751c7c39af8e5ece2"
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/skill.json",
+      "sha256": "d430c9842dc5a3c604ebd7afda911edfb6a37ead8b631e54de4b3c4c7054bacd"
+    },
+    {
+      "path": "product/skills/voice-style-calibration/SKILL.md",
+      "sha256": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b"
+    },
+    {
+      "path": "product/skills/voice-style-calibration/skill.json",
+      "sha256": "853cce581a0f216c3650f1f857bfae0fa1f78ef93dfc398fbfd350b74eacf6d3"
+    },
+    {
+      "path": "tests/cognitive-workflows-discovery.test.mjs",
+      "sha256": "d1d8cfdb77c9fc3f3bcf5c0c442265ae898bdfca782425994753cc7843805455"
+    },
+    {
+      "path": "tests/conditional-method-regression.test.mjs",
+      "sha256": "f96df3a93ad4a836ad77a2f8acdb7e350a6761f2e7ed885ae32fa8c5f029eb7d"
+    },
+    {
+      "path": "tests/universal-owner-refinements-wave17-18.test.mjs",
+      "sha256": "6afaceb00003dbd6e59dad6d67aa6c5e4d8050d08f4f48945fd0d4d43911e20b"
+    }
+  ]
+}

@@ -13,6 +13,16 @@ const productRoot = resolve(
 );
 const baselineCatalogUrl = new URL("./core2260-catalog.json", import.meta.url);
 const frozenCoreCatalogSha256 = "57d47c0a9692dc21caa0e7909ee6c557cd5ef5cc4e09b968df079cc81f86aecf";
+// Preserve the exact historical 68-skill projection while explicitly admitting
+// only the independently reviewed cognitive-workflow batch, not arbitrary growth.
+const cognitiveSkillIds = [
+  "completeness-and-consistency-audit",
+  "imaginative-concept-development",
+  "interpersonal-understanding-and-dialogue",
+  "long-horizon-work-continuity",
+  "memory-retention-and-recovery",
+  "voice-style-calibration",
+];
 const projectionFields = [
   "id",
   "category",
@@ -125,13 +135,20 @@ test("the immutable core2260 fixture is exact and all 68 scoring, relation, spec
   assert.equal(sha256(baselineBytes), frozenCoreCatalogSha256);
   const liveCatalog = JSON.parse(await readFile(join(productRoot, "catalog.json"), "utf8"));
   assert.equal(baselineCatalog.skills.length, 68);
-  assert.equal(liveCatalog.skills.length, 68);
+  const baselineIds = new Set(baselineCatalog.skills.map((skill) => skill.id));
+  const liveCore = liveCatalog.skills.filter((skill) => baselineIds.has(skill.id));
+  assert.equal(liveCatalog.skills.length, 68 + cognitiveSkillIds.length);
   assert.deepEqual(
-    liveCatalog.skills.map((skill) => skill.id),
+    liveCatalog.skills.filter((skill) => !baselineIds.has(skill.id)).map((skill) => skill.id),
+    cognitiveSkillIds,
+    "only the six approved addition IDs are outside the frozen core",
+  );
+  assert.deepEqual(
+    liveCore.map((skill) => skill.id),
     baselineCatalog.skills.map((skill) => skill.id),
     "skill membership and array order",
   );
-  assert.deepEqual(scoringProjection(liveCatalog.skills), scoringProjection(baselineCatalog.skills));
+  assert.deepEqual(scoringProjection(liveCore), scoringProjection(baselineCatalog.skills));
 });
 
 test("exactly four new resource paths are added and every existing resource binding stays unchanged", async () => {
@@ -464,5 +481,5 @@ test("frozen candidate validates locally without executing its scenarios", async
   assert.equal(releaseManifest.schema, "eternities-godskills-release-v1");
   assert.equal(validation.releaseId, releaseManifest.releaseId);
   assert.equal(validation.skillCount, releaseManifest.skillCount);
-  assert.equal(releaseManifest.skillCount, 68);
+  assert.equal(releaseManifest.skillCount, 68 + cognitiveSkillIds.length);
 });

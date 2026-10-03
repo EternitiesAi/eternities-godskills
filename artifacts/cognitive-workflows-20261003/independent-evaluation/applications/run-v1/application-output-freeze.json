@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "run": "run-v1",
+  "outputIdentityCapturedUtc": "2026-10-03T06:18:43.7680792Z",
+  "criteriaReopenedAtCapture": false,
+  "priorAssessorKnowledge": "Evaluator authored the preregistered criteria earlier; this sequencing is not expectation blindness.",
+  "files": [
+    {"path": "C01/output.md", "bytes": 2571, "sha256": "5195e7abdd8c9a12ecad1ffedc227734ddd0d7366ce256cf1b90082e243558cf"},
+    {"path": "C02/output.md", "bytes": 5498, "sha256": "e859d5e569d498b40a699d3e12d8278035d5d6f80bc07a9a8fe38791432f43ff"},
+    {"path": "C03/output.md", "bytes": 2841, "sha256": "2f722aad00bb3ae476804aee547f64e082fef2304486d184bef2693e6528eef3"},
+    {"path": "C04/output.md", "bytes": 2858, "sha256": "8b3ef99a03c56a66e9b78e99c92287b666f0d9513508c5cbae1a8475d3da665d"},
+    {"path": "C04/task-state.md", "bytes": 1452, "sha256": "27de3b8dfe1c9eeca4aa16df90e3b8d50b910a409eb194af82a2572e7c574051"},
+    {"path": "C04/retention-readback.json", "bytes": 1060, "sha256": "6bd912805dee3e21b38f7e206699d3e87c86c6d0f1cb6233cd909065617625d1"},
+    {"path": "C05/output.md", "bytes": 5878, "sha256": "8f897c88a790d398dc0f6b507f70ff143b8f0f6446182b3c1790146df6d66828"},
+    {"path": "C06/output.md", "bytes": 6678, "sha256": "39c16db74ae39e0921a7a5e9fa4bd5666c41e79de22da0aa29d871c37c7848f2"}
+  ],
+  "outputRepairsOrReruns": "none; initial outputs preserved"
+}

@@ -77,6 +77,18 @@ method that tries to retain its old review. It is a selected navigation overlay,
 not an exhaustive method catalog or automatic semantic selector. Review records
 are optional evidence; do not load them as part of routine skill selection.
 
+## Thinking, expression and continuity
+
+The library also offers focused methods for calibrating a writing voice,
+developing imaginative concepts, understanding interpersonal dialogue,
+retaining task-critical memory, auditing completeness and carrying long-horizon
+work across interruptions. They are selected for an actual need, not loaded as a
+mandatory personality or reasoning stack. See [composition examples](RECIPES.md).
+
+These methods do not create clinical expertise, unlimited recall, a background
+runner or a guarantee of creative quality. [Host capabilities](HOST-CAPABILITIES.md)
+explains how portable guidance can coexist with a host's native skills and tools.
+
 ## Hand the pack to another computer
 
 Copy this folder, or use the optional verified export:
@@ -119,7 +131,7 @@ versions into the named backup. It writes a durable installation journal and
 verifies the installed files. It does not edit global agent instructions, enable
 tasks, install dependencies, call providers, or alter model settings. An existing
 backup directory is refused. Do not run concurrent installers against one target.
-Automated installation exposes all 68 parent skills; for a subset, use the manual
+Automated installation exposes all skills in this pack; for a subset, use the manual
 folder-copy path described above and preserve its referenced resources.
 An existing runtime directory must already be an intact Godskills pack; the
 installer will not replace an unrelated folder or a modified runtime snapshot.

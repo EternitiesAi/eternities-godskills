@@ -1,0 +1,38 @@
+{
+  "schema": "cognitive-final-integration-artifact-hashes-v1",
+  "decision": "READY",
+  "candidateReleaseId": "54688268f540ce974272f4619f88d97adde80a0c058325a5b8f960432370a0dd",
+  "scope": "Exact bounded review artifacts; excludes this manifest itself to avoid self-reference",
+  "files": [
+    {
+      "path": "check-integration.mjs",
+      "sha256": "e6e773e5ddf6c9e80e8db6ff7cf9000124cf68f7b4850b08a41159b508e2a0b3",
+      "bytes": 15490
+    },
+    {
+      "path": "check-results.json",
+      "sha256": "2d5464cdaa3b70a2377f0453179447fbd7752e4e5276f3e3b7cd0c215b720502",
+      "bytes": 20278
+    },
+    {
+      "path": "input-hashes.json",
+      "sha256": "3899eafd5ca1c7a4689cf71079691aea1fbcff2a209170a38138f5f59fc6c11e",
+      "bytes": 5080
+    },
+    {
+      "path": "readset.json",
+      "sha256": "9ccaced6edb76668a1870d39e4df69c7ee17b17474f6ae07e692250730353985",
+      "bytes": 83189
+    },
+    {
+      "path": "review.md",
+      "sha256": "8d464c8ab0d4f7c1cf6f3b3097eff65e164c286dd81303f1633564d60febecf1",
+      "bytes": 13502
+    },
+    {
+      "path": "selected-tests.txt",
+      "sha256": "07f247be9889ba73931c10dabfce0438e2a52386503764614b67ec4b8f22aa78",
+      "bytes": 6329
+    }
+  ]
+}

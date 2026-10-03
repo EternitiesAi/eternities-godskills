@@ -1,0 +1,282 @@
+{
+  "schema": "dialogue-memory-staged-review-readset-v2",
+  "stagedScope": "Three supplied repair files plus frozen-v1 unchanged target files",
+  "currentPassFileCount": 29,
+  "currentPassFiles": [
+    {
+      "path": "artifacts/cognitive-workflows-20261003/candidate-freeze-v1.json",
+      "sha256": "c1e9bf9e7e2c549a59ccd5a822a8e0098f4cef6c7715930243315910f861b382",
+      "bytes": 3531,
+      "roles": [
+        "Frozen-v1 identity"
+      ],
+      "readMode": "Complete bytes read; target bodies/metadata fully inspected"
+    },
+    {
+      "path": "product/taxonomy.json",
+      "sha256": "806ea92bb5414ea3bb5b93acbc61ca2a98c5142089d9ff790cc3d29f2bdd3e2c",
+      "bytes": 682,
+      "roles": [
+        "Current product task/category schema"
+      ],
+      "readMode": "Complete bytes read; target bodies/metadata fully inspected"
+    },
+    {
+      "path": "product/skills/interpersonal-understanding-and-dialogue/skill.json",
+      "sha256": "ba26d58b50cbf1becd1de2c8167f3ccc37353f2e614ae5d26abcbe7e3e60ba6e",
+      "bytes": 2714,
+      "roles": [
+        "Verify original target bytes remain frozen-v1; unchanged composite input",
+        "Compare exact targeted metadata changes",
+        "Six frozen draft metadata entries for preview; other four bodies not inspected"
+      ],
+      "readMode": "Complete JSON read for search preview; no other skill instruction review"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/repairs-v2/interpersonal-understanding-and-dialogue/skill.json",
+      "sha256": "90bd0aeccbf30c9492d3e8db94c6f289bb52afdd3523231d6877d5988085bc36",
+      "bytes": 2784,
+      "roles": [
+        "Exact staged replacement; complete instruction/metadata inspection"
+      ],
+      "readMode": "Complete bytes read; target bodies/metadata fully inspected"
+    },
+    {
+      "path": "product/skills/interpersonal-understanding-and-dialogue/SKILL.md",
+      "sha256": "dfa4af05ca5b68aa6db7252d70dc0d2b57a610f4fa0f49104fe3b07eb1cacc74",
+      "bytes": 2978,
+      "roles": [
+        "Verify original target bytes remain frozen-v1; unchanged composite input"
+      ],
+      "readMode": "Complete bytes read; target bodies/metadata fully inspected"
+    },
+    {
+      "path": "product/skills/interpersonal-understanding-and-dialogue/references/examples.md",
+      "sha256": "c1593449b397d952b3d0c60d7bca728201be79e5715af0a0ba1b35adae590bec",
+      "bytes": 1777,
+      "roles": [
+        "Verify original target bytes remain frozen-v1; unchanged composite input"
+      ],
+      "readMode": "Complete bytes read; target bodies/metadata fully inspected"
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/skill.json",
+      "sha256": "370e944b61f74f9f0551c7f48af7e4cc8bb4df3d167a96a2b1001566f2c41f61",
+      "bytes": 2047,
+      "roles": [
+        "Verify original target bytes remain frozen-v1; unchanged composite input",
+        "Six frozen draft metadata entries for preview; other four bodies not inspected"
+      ],
+      "readMode": "Complete JSON read for search preview; no other skill instruction review"
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/SKILL.md",
+      "sha256": "ec48f8afcf742fc463903e734977c7ec030a6c672b3dbe937a99e826c0906e0e",
+      "bytes": 3566,
+      "roles": [
+        "Verify original target bytes remain frozen-v1; unchanged composite input"
+      ],
+      "readMode": "Complete bytes read; target bodies/metadata fully inspected"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/repairs-v2/memory-retention-and-recovery/SKILL.md",
+      "sha256": "36c14c3b62bdf72c2b12bf4678ec44223bd0c3064528a7f1b34d7df4fcc966e7",
+      "bytes": 4273,
+      "roles": [
+        "Exact staged replacement; complete instruction/metadata inspection"
+      ],
+      "readMode": "Complete bytes read; target bodies/metadata fully inspected"
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/references/examples.md",
+      "sha256": "fc4944177b92aee5682d49800ab7d43a09e0c12116400c523644c9b31068f695",
+      "bytes": 1858,
+      "roles": [
+        "Verify original target bytes remain frozen-v1; unchanged composite input"
+      ],
+      "readMode": "Complete bytes read; target bodies/metadata fully inspected"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/repairs-v2/memory-retention-and-recovery/references/examples.md",
+      "sha256": "e85739b8e8e517545d5862200f78e442dc23f59284f2e74751c7c39af8e5ece2",
+      "bytes": 2844,
+      "roles": [
+        "Exact staged replacement; complete instruction/metadata inspection"
+      ],
+      "readMode": "Complete bytes read; target bodies/metadata fully inspected"
+    },
+    {
+      "path": "product/skills/eternities-chorus/SKILL.md",
+      "sha256": "34814474ccd29d642c87f50ebed24b56cef572cd6e6869d4ce8ca427c0eae5dc",
+      "bytes": 3425,
+      "roles": [
+        "Recheck unchanged adopted source pin; full semantic inspection inherited from v1"
+      ],
+      "readMode": "Full bytes rehashed; complete semantic source inspection inherited from frozen-v1 review"
+    },
+    {
+      "path": "product/skills/eternities-chorus/references/stakeholder-updates.md",
+      "sha256": "02abdb2d7e61dc08579003d4f6b2f48bb6f4b0aacd16e4eaaa81abc5d3e6554f",
+      "bytes": 3438,
+      "roles": [
+        "Recheck unchanged adopted source pin; full semantic inspection inherited from v1"
+      ],
+      "readMode": "Full bytes rehashed; complete semantic source inspection inherited from frozen-v1 review"
+    },
+    {
+      "path": "product/skills/eternities-agora/SKILL.md",
+      "sha256": "a6602a256f8ad9e598947e18c057fd10c3b82f0ed6a44f7915fc439586c6225f",
+      "bytes": 3870,
+      "roles": [
+        "Recheck unchanged adopted source pin; full semantic inspection inherited from v1"
+      ],
+      "readMode": "Full bytes rehashed; complete semantic source inspection inherited from frozen-v1 review"
+    },
+    {
+      "path": "product/skills/eternities-agora/references/business-decision-evidence.md",
+      "sha256": "9effd0372e4be72da4d9fdcd454e5b4c3ea313764f118f429b175e103f4ec188",
+      "bytes": 6287,
+      "roles": [
+        "Recheck unchanged adopted source pin; full semantic inspection inherited from v1"
+      ],
+      "readMode": "Full bytes rehashed; complete semantic source inspection inherited from frozen-v1 review"
+    },
+    {
+      "path": "product/skills/eternities-athena/SKILL.md",
+      "sha256": "cb4c4bc02d25e24945fb83d7663f8d868c60b2579614c06eaf4821bbd2afe8db",
+      "bytes": 3449,
+      "roles": [
+        "Recheck unchanged adopted source pin; full semantic inspection inherited from v1"
+      ],
+      "readMode": "Full bytes rehashed; complete semantic source inspection inherited from frozen-v1 review"
+    },
+    {
+      "path": "product/skills/eternities-mnemosyne/SKILL.md",
+      "sha256": "43f83b2332ca21e65fa6b640a8489fe03c7ee58b8d5e1f1435ae31b027e32988",
+      "bytes": 3910,
+      "roles": [
+        "Recheck unchanged adopted source pin; full semantic inspection inherited from v1"
+      ],
+      "readMode": "Full bytes rehashed; complete semantic source inspection inherited from frozen-v1 review"
+    },
+    {
+      "path": "product/skills/eternities-mnemosyne/references/methods.md",
+      "sha256": "9b3bff3a805b833a4e3d72495382efab8b99e31a0719178a17f03ed4aca02d86",
+      "bytes": 5018,
+      "roles": [
+        "Recheck unchanged adopted source pin; full semantic inspection inherited from v1"
+      ],
+      "readMode": "Full bytes rehashed; complete semantic source inspection inherited from frozen-v1 review"
+    },
+    {
+      "path": "product/skills/retrieval-grounded-answering/SKILL.md",
+      "sha256": "9699b65853adf21b4e285c2b357295ea401822b0dbda46eb168510cb1d654236",
+      "bytes": 4825,
+      "roles": [
+        "Recheck unchanged adopted source pin; full semantic inspection inherited from v1"
+      ],
+      "readMode": "Full bytes rehashed; complete semantic source inspection inherited from frozen-v1 review"
+    },
+    {
+      "path": "product/lib/product.mjs",
+      "sha256": "1e99a9e68317fa01121f81e363860cd28e17e5b19c7aedc8522d949e7025ad79",
+      "bytes": 21992,
+      "roles": [
+        "Actual search/schema implementation; focused semantic inspection, full import bytes"
+      ],
+      "readMode": "Focused schema/search semantic inspection; full file imported read-only"
+    },
+    {
+      "path": "product/lib/method-directory.mjs",
+      "sha256": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180",
+      "bytes": 7836,
+      "roles": [
+        "Transitive local import; complete body inspected, no exported function invoked"
+      ],
+      "readMode": "Complete bytes read; target bodies/metadata fully inspected"
+    },
+    {
+      "path": "product/catalog.json",
+      "sha256": "98bf0b06cbbb51c0e57176c5b503dd8baf0e908d82a0829445e1d78b8d49e1e0",
+      "bytes": 100091,
+      "roles": [
+        "Authorized current catalog read for in-memory search preview only"
+      ],
+      "readMode": "Complete JSON read for search preview; no other skill instruction review"
+    },
+    {
+      "path": "product/skills/voice-style-calibration/skill.json",
+      "sha256": "944fb3ea0f29a02db1777b2322cd339010ea947170874be4f77b7dc6e70e3f1d",
+      "bytes": 1306,
+      "roles": [
+        "Six frozen draft metadata entries for preview; other four bodies not inspected"
+      ],
+      "readMode": "Complete JSON read for search preview; no other skill instruction review"
+    },
+    {
+      "path": "product/skills/imaginative-concept-development/skill.json",
+      "sha256": "e4646a675c25d882e716cc373a842d0a692aad73589e6233385a3dcd3daa0937",
+      "bytes": 1265,
+      "roles": [
+        "Six frozen draft metadata entries for preview; other four bodies not inspected"
+      ],
+      "readMode": "Complete JSON read for search preview; no other skill instruction review"
+    },
+    {
+      "path": "product/skills/completeness-and-consistency-audit/skill.json",
+      "sha256": "5e772ab38c6a5891c1f4c65490ac1af1c792eb64a742e4d0c4d190c8575f60bf",
+      "bytes": 1755,
+      "roles": [
+        "Six frozen draft metadata entries for preview; other four bodies not inspected"
+      ],
+      "readMode": "Complete JSON read for search preview; no other skill instruction review"
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/skill.json",
+      "sha256": "2315f4367905ac7d62ccfa76bb56469f329c734a44b0889dca5a080db7f68077",
+      "bytes": 2106,
+      "roles": [
+        "Six frozen draft metadata entries for preview; other four bodies not inspected"
+      ],
+      "readMode": "Complete JSON read for search preview; no other skill instruction review"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/skills/.system/skill-creator/scripts/quick_validate.py",
+      "bytes": 4376,
+      "sha256": "6068513d924ed3559e186dfcdead7439129828dcf402167fd925c06dffbf2806",
+      "roles": [
+        "Frontmatter validator reused read-only with python -B on staged memory"
+      ],
+      "readMode": "Complete validator inspected in v1; executed during v2"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/dialogue-memory-review-v1/review.md",
+      "sha256": "060094fae9af2c78c1c8999d4ef3831fd1916ad43df4d4e2cbedc3933e70d28c",
+      "roles": [
+        "Confirm v1 receipt/checker preserved"
+      ],
+      "readMode": "Hash only; authored content inherited from preceding review"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/dialogue-memory-review-v1/check-readonly.mjs",
+      "sha256": "dc0329b260031e1880ad9fd1f235a3a032f394d8b6f1acefd077b106526565a9",
+      "roles": [
+        "Confirm v1 receipt/checker preserved"
+      ],
+      "readMode": "Hash only; authored content inherited from preceding review"
+    }
+  ],
+  "inheritedV1FileCount": 23,
+  "inheritedV1Readset": "v1-readset.json",
+  "combinedUniqueFileCount": 34,
+  "semanticScope": "Two reviewed target skills and their adopted sources only; four other draft metadata entries read solely for authorized preview",
+  "exclusionsPreserved": [
+    "No file under independent-evaluation/raw",
+    "No assessor file",
+    "No provider/descendant call",
+    "No builder or product write",
+    "No other four skill bodies"
+  ],
+  "sourceOfTestQuery": "Exact user-supplied positive query; no evaluator suite acquired",
+  "runtimeDependenciesNote": "Node/Python standard runtime library loads are execution dependencies, not additional model-visible source or evaluator reads"
+}

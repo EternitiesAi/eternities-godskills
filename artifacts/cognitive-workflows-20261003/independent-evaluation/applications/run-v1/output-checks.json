@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "command": "node artifacts/cognitive-workflows-20261003/independent-evaluation/applications/run-v1/check-output-constraints.mjs",
+  "observedExitCode": 0,
+  "passed": true,
+  "frozenApplicationFiles": 8,
+  "C01": {"noticeWords": 140, "noticeParagraphs": 2, "profileRules": 5, "finalSentenceExact": true, "prohibitedWordsAbsent": true},
+  "C03": {"draftWords": 143},
+  "C04": {"noteWords": 198, "noteBytes": 1452, "persistedReadbackSha256": "27de3b8dfe1c9eeca4aa16df90e3b8d50b910a409eb194af82a2572e7c574051", "retentionReceiptMatches": true},
+  "C06": {"intervals": [[0,5],[5,13],[13,15],[15,23],[23,28],[28,30]], "totalMinutes": 30},
+  "limits": "Literal artifact checks only; no aesthetic/semantic score, C05 snippet execution, external operation or runtime continuity test."
+}

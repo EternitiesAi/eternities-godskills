@@ -77,3 +77,49 @@ meaning, preserves abstention and tests malformed, stale and incomplete replies.
 mode. **Retrieval-grounded answering** joins only if document retrieval itself
 needs work. **Forge** may coordinate a bounded critique/revision loop, but a model
 reviewer's approval cannot replace validation or authorize downstream writes.
+
+## From a distinctive voice to an original concept
+
+User: "Use my supplied writing as a reference, but make this new product story
+feel imaginative rather than like an imitation of the examples."
+
+[Voice-style calibration](skills/voice-style-calibration/SKILL.md) identifies
+reusable voice characteristics and where a new audience changes the register.
+[Imaginative concept development](skills/imaginative-concept-development/SKILL.md)
+explores different mechanisms and experiences, then develops a chosen direction.
+Logos joins only when the actual drafting or editorial task needs its source and
+artifact work. Keep fictional imagery distinct from factual product claims.
+
+The result is a new concept draft with inspectable style decisions, not a claim
+of global novelty, a perfect voice profile or proven creative quality.
+
+## From a tense exchange to a useful next conversation
+
+User: "These teammates disagree. Help me understand what each actually asked
+for and draft a response that moves the discussion forward."
+
+[Interpersonal understanding and dialogue](skills/interpersonal-understanding-and-dialogue/SKILL.md)
+separates statements from inferred motives, identifies a useful clarification
+and drafts a response proportionate to the conflict. Preserve uncertainty without
+turning every sentence into hedging. This is neither diagnosis nor a strategy for
+coercing someone. Chorus joins if the task becomes a wider communication system;
+one private reply does not require that stack.
+
+## From interrupted work to a complete deliverable
+
+User: "Finish this approved project over several sessions. Don't lose the
+requirements or repeat a job that might already have completed."
+
+[Long-horizon work continuity](skills/long-horizon-work-continuity/SKILL.md)
+preserves the objective, milestone state, ownership, authority and uncertain
+effects. [Memory retention and recovery](skills/memory-retention-and-recovery/SKILL.md)
+joins when durable retention or stale/conflicting retrieval is the actual
+problem. [Completeness and consistency audit](skills/completeness-and-consistency-audit/SKILL.md)
+checks the requested deliverable against its obligations and artifact evidence
+instead of measuring success by its length.
+
+Use Forge when implementation needs multi-stage coordination, not as a mandatory
+wrapper around every turn. A host must provide any real multi-day runner; a
+retained checkpoint alone is not evidence that work is active. Perform already
+authorized work when its prerequisites hold, and preserve stop/pause conditions
+without inventing a fresh permission request for each milestone.

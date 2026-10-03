@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "kind": "sealed-independent-v2-application-assessment",
+  "algorithm": "sha256",
+  "canonicalEncoding": "utf8: sorted input records then sorted assessment records; domain + NUL + path + NUL + decimal bytes + NUL + lowercase sha256 + LF",
+  "bundleSha256": "d1c7ea9eccb651dad61a713cbeca4e867671dcf2144b1f360addc23232f00f94",
+  "inputs": [
+    {
+      "path": "artifacts/cognitive-workflows-20261003/dialogue-memory-review-v1/review.md",
+      "roles": [
+        "preserved-dissenting-review"
+      ],
+      "bytes": 13133,
+      "sha256": "060094fae9af2c78c1c8999d4ef3831fd1916ad43df4d4e2cbedc3933e70d28c"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/independent-evaluation/applications/run-v1/run-manifest.json",
+      "roles": [
+        "sealed-historical-v1-manifest"
+      ],
+      "bytes": 11594,
+      "sha256": "d3d0ed2cd58c309c4b47e43467065f9df2c131ca26ecd82be3d51c2d94f4fee7"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/independent-evaluation/assessor/acceptance.md",
+      "roles": [
+        "preregistered-criteria"
+      ],
+      "bytes": 10430,
+      "sha256": "4f6e002d3c13656a5f112266cde4a110dd75fac1195e8e62c2954e680a1248f5"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/independent-evaluation/raw/C01-voice-style-calibration.md",
+      "roles": [
+        "preregistered-raw-C01"
+      ],
+      "bytes": 2941,
+      "sha256": "990923975f82f69b47b05a97eb484e7c24b84567be2df32eca893a4d852a41f7"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/independent-evaluation/raw/C04-memory-retention-and-recovery.md",
+      "roles": [
+        "preregistered-raw-C04"
+      ],
+      "bytes": 3239,
+      "sha256": "7bb272b49e98af768de83026b0f29e8da13d988e139b2bf03b54292d89106350"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/memory-application-v2/application-record.md",
+      "roles": [
+        "actor-application"
+      ],
+      "bytes": 3407,
+      "sha256": "84b1b2d058c195585ed57ad302f876ca7bf4acbadbaea20288a457d474675b56"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/memory-application-v2/checkpoint.md",
+      "roles": [
+        "actual-retained-note"
+      ],
+      "bytes": 1498,
+      "sha256": "3b03196a0702585c1db6cbeaff90b2a579f62f2f517c036e8a67301bbb3a83c9"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/repairs-v2/memory-retention-and-recovery/SKILL.md",
+      "roles": [
+        "pinned-staged-method"
+      ],
+      "bytes": 4273,
+      "sha256": "36c14c3b62bdf72c2b12bf4678ec44223bd0c3064528a7f1b34d7df4fcc966e7"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/repairs-v2/memory-retention-and-recovery/references/examples.md",
+      "roles": [
+        "pinned-staged-resource"
+      ],
+      "bytes": 2844,
+      "sha256": "e85739b8e8e517545d5862200f78e442dc23f59284f2e74751c7c39af8e5ece2"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/repairs-v2/voice-style-calibration/SKILL.md",
+      "roles": [
+        "pinned-staged-method"
+      ],
+      "bytes": 4440,
+      "sha256": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/voice-application-v2/application-receipt.md",
+      "roles": [
+        "actor-receipt"
+      ],
+      "bytes": 2907,
+      "sha256": "a641ff6f61e077a47e28e0a576e8cca6a83e96e276e06b45a76e9b1304cc2caf"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/voice-application-v2/notice-draft.md",
+      "roles": [
+        "actor-notice"
+      ],
+      "bytes": 845,
+      "sha256": "c4843efb4420c7e50ba4d778b2488caa907cb3204311c3046a93fc6666ae9b65"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/voice-application-v2/profile.md",
+      "roles": [
+        "actor-profile"
+      ],
+      "bytes": 2261,
+      "sha256": "f160d35ebb91f15372c3f290601649ed30ea9c49f43d170f2741a68773d80cc6"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/voice-imagination-review-v1/review.md",
+      "roles": [
+        "preserved-dissenting-review"
+      ],
+      "bytes": 5610,
+      "sha256": "699e5ee554898632bf3e19fff50e2ed6e025c3bee9231c0ed7b8b0e7577e501d"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "README.md",
+      "bytes": 2842,
+      "sha256": "252eaa331a6cb51b273890585bdcce41147d82cf137760d895c7cc1c9b052c02"
+    },
+    {
+      "path": "assessment-receipt.json",
+      "bytes": 5113,
+      "sha256": "a0b25bb7e050e94b20944c80dbdd4e1d7ed674b8b7a2bf1e02c68996d43e1fab"
+    },
+    {
+      "path": "memory-assessment.md",
+      "bytes": 6358,
+      "sha256": "1e505420c9907da7c260e1b31f9640677f699fbf61a1405696656d786561c50b"
+    },
+    {
+      "path": "memory-input-verification.json",
+      "bytes": 3233,
+      "sha256": "f0d4ac67e4cd16fd0f7f7ce099b96941608ca8985a5a0ad59b8c92083c31c59d"
+    },
+    {
+      "path": "verify-assessment.mjs",
+      "bytes": 4332,
+      "sha256": "09582799354de796f2a81baacb4d08f2c7ce4994a46780a663b10a46d6cf4300"
+    },
+    {
+      "path": "verify-memory-v2.mjs",
+      "bytes": 4917,
+      "sha256": "e6be49b0b7a191174ad55629934ab379b92a233c7363283ba4944d017f2aae81"
+    },
+    {
+      "path": "verify-voice-v2.mjs",
+      "bytes": 4291,
+      "sha256": "ca989605531b0f37d024bdf75a6b5c02a99fb8f69a67e3daee13ae14b9394236"
+    },
+    {
+      "path": "voice-assessment.md",
+      "bytes": 6576,
+      "sha256": "3f5bf620de39ac6ecec416e831edc1973209591fab29bf4cdb78a6b0bf067467"
+    },
+    {
+      "path": "voice-input-verification.json",
+      "bytes": 2681,
+      "sha256": "5c88e980365369fe0b9fe25ba81db076ba44a16a38db0778e4ab3e74f9405a90"
+    }
+  ],
+  "memoryDisposition": "acceptable-for-bounded-outcome-with-nonmaterial-source-wording-correction",
+  "voiceDisposition": "repair-needed-application-meaning-preservation",
+  "v1ManifestSha256": "d3d0ed2cd58c309c4b47e43467065f9df2c131ca26ecd82be3d51c2d94f4fee7",
+  "liveProductRebound": false,
+  "qualityOrSuperiorityClaim": false
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "dialogue-memory-review-v2-artifact-hashes",
+  "decision": "READY",
+  "manifestSelfIncluded": false,
+  "files": [
+    {
+      "path": "artifacts/cognitive-workflows-20261003/dialogue-memory-review-v2/check-results.json",
+      "bytes": 23291,
+      "sha256": "f42fa3f4b95cd24500053d92485ac8aa9765f66e17aec5f1d61ec9e6ec570ab6"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/dialogue-memory-review-v2/checks.mjs",
+      "bytes": 10917,
+      "sha256": "57c26abcaabee06102706fd2d6d1d653f885f7baf6ba4f444f31c3f5165e6fa6"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/dialogue-memory-review-v2/readset.json",
+      "bytes": 12473,
+      "sha256": "deb1772a4b2e804fb41d5b0b6097a1067dd876020bc8aa77811ba61da888acdb"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/dialogue-memory-review-v2/review.md",
+      "bytes": 9688,
+      "sha256": "0ef8babe097a62e0f6e96e6b6df8f829abe3205e47ea7e8d66b30c412fc316bc"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/dialogue-memory-review-v2/v1-check-results.json",
+      "bytes": 8202,
+      "sha256": "92d8838426732bff347c2041e7560320bca42f5df811d0b4af95b8a853d71e5b"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/dialogue-memory-review-v2/v1-readset.json",
+      "bytes": 6933,
+      "sha256": "93e49143c912890d38ba1091f2b11e611c0cccbf346285be24c6153d369084fa"
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "run": "run-v1",
+  "algorithm": "sha256",
+  "canonicalEncoding": "utf8: sorted inspected input records, then sorted output records; domain + NUL + path + NUL + decimal bytes + NUL + lowercase sha256 + LF",
+  "bundleSha256": "36273dc8f43ab8c1554d4817f47342d99aea37e80ad828aca2ded29b0c69a954",
+  "candidateFreezeSha256": "c1e9bf9e7e2c549a59ccd5a822a8e0098f4cef6c7715930243315910f861b382",
+  "preregistrationBundleSha256": "9049cb1b6d12259806d6cd0a130bf87555ab27256effd7d50c92496b74679092",
+  "inspectedInputs": [
+    {
+      "path": "C:/Users/Dom/.codex/skills/.system/skill-creator/SKILL.md",
+      "role": "expressly-authorized-host-instruction",
+      "inspectedInFull": true,
+      "bytes": 15540,
+      "sha256": "cccd291077ec57c6f50ca6529f0f3fb93212da09473effb2fcec808e81b21288"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/candidate-freeze-v1.json",
+      "role": "candidate-freeze",
+      "inspectedInFull": true,
+      "bytes": 3531,
+      "sha256": "c1e9bf9e7e2c549a59ccd5a822a8e0098f4cef6c7715930243315910f861b382"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/independent-evaluation/assessor/acceptance.md",
+      "role": "criteria-read-after-output-freeze",
+      "inspectedInFull": true,
+      "bytes": 10430,
+      "sha256": "4f6e002d3c13656a5f112266cde4a110dd75fac1195e8e62c2954e680a1248f5"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/independent-evaluation/protocol.md",
+      "role": "preregistered-protocol",
+      "inspectedInFull": true,
+      "bytes": 7345,
+      "sha256": "3b519effd53ca79088238856c0e92fe4e2da579add148ebe21a50d320320e41c"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/independent-evaluation/raw/C01-voice-style-calibration.md",
+      "role": "raw-case",
+      "inspectedInFull": true,
+      "bytes": 2941,
+      "sha256": "990923975f82f69b47b05a97eb484e7c24b84567be2df32eca893a4d852a41f7"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/independent-evaluation/raw/C02-imaginative-concept-development.md",
+      "role": "raw-case",
+      "inspectedInFull": true,
+      "bytes": 2394,
+      "sha256": "10d581398c9267c9c0b7f1150cd71893d25364680637b368952fcfe3022c0ccc"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/independent-evaluation/raw/C03-interpersonal-understanding-and-dialogue.md",
+      "role": "raw-case",
+      "inspectedInFull": true,
+      "bytes": 2678,
+      "sha256": "1862a3f9af0f57abf52ab128d70566f12d294ddd957ee0cd5ba32b9834834c5f"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/independent-evaluation/raw/C04-memory-retention-and-recovery.md",
+      "role": "raw-case",
+      "inspectedInFull": true,
+      "bytes": 3239,
+      "sha256": "7bb272b49e98af768de83026b0f29e8da13d988e139b2bf03b54292d89106350"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/independent-evaluation/raw/C05-completeness-and-consistency-audit.md",
+      "role": "raw-case",
+      "inspectedInFull": true,
+      "bytes": 3797,
+      "sha256": "dc9bc336c9881637d9940e9b3e1c2aa6234bb9248aa8ff8f1a334a12f323db6c"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/independent-evaluation/raw/C06-long-horizon-work-continuity.md",
+      "role": "raw-case",
+      "inspectedInFull": true,
+      "bytes": 4000,
+      "sha256": "6d54f3b2df7a640d29325a6962c70291b499a083169710b7534ddb41193c465d"
+    },
+    {
+      "path": "product/skills/completeness-and-consistency-audit/SKILL.md",
+      "role": "candidate-entrypoint",
+      "inspectedInFull": true,
+      "bytes": 4668,
+      "sha256": "4e434687d0f77a0577c6bd2c8b869fe60d409df5c5e6d5b6ee946771a78d5f71"
+    },
+    {
+      "path": "product/skills/completeness-and-consistency-audit/references/coverage-template.md",
+      "role": "applicable-bundled-reference",
+      "inspectedInFull": true,
+      "bytes": 3725,
+      "sha256": "afb14dd68fe0735479deead5dcfb8dc4d71d6f4d8a36a5e7246afa73fea21340"
+    },
+    {
+      "path": "product/skills/completeness-and-consistency-audit/references/worked-audits.md",
+      "role": "applicable-bundled-reference",
+      "inspectedInFull": true,
+      "bytes": 5923,
+      "sha256": "dc8977704eb24d273dbc010a7ae1ea800efaa2c2df63622996a185fab6b906da"
+    },
+    {
+      "path": "product/skills/completeness-and-consistency-audit/skill.json",
+      "role": "candidate-metadata",
+      "inspectedInFull": true,
+      "bytes": 1755,
+      "sha256": "5e772ab38c6a5891c1f4c65490ac1af1c792eb64a742e4d0c4d190c8575f60bf"
+    },
+    {
+      "path": "product/skills/imaginative-concept-development/SKILL.md",
+      "role": "candidate-entrypoint",
+      "inspectedInFull": true,
+      "bytes": 4288,
+      "sha256": "5a1b550f7db546470d93a73106f972d59cf1cf4be21cc6e7c8d08cb7f9fd95c7"
+    },
+    {
+      "path": "product/skills/imaginative-concept-development/skill.json",
+      "role": "candidate-metadata",
+      "inspectedInFull": true,
+      "bytes": 1265,
+      "sha256": "e4646a675c25d882e716cc373a842d0a692aad73589e6233385a3dcd3daa0937"
+    },
+    {
+      "path": "product/skills/interpersonal-understanding-and-dialogue/SKILL.md",
+      "role": "candidate-entrypoint",
+      "inspectedInFull": true,
+      "bytes": 2978,
+      "sha256": "dfa4af05ca5b68aa6db7252d70dc0d2b57a610f4fa0f49104fe3b07eb1cacc74"
+    },
+    {
+      "path": "product/skills/interpersonal-understanding-and-dialogue/references/examples.md",
+      "role": "applicable-bundled-reference",
+      "inspectedInFull": true,
+      "bytes": 1777,
+      "sha256": "c1593449b397d952b3d0c60d7bca728201be79e5715af0a0ba1b35adae590bec"
+    },
+    {
+      "path": "product/skills/interpersonal-understanding-and-dialogue/skill.json",
+      "role": "candidate-metadata",
+      "inspectedInFull": true,
+      "bytes": 2714,
+      "sha256": "ba26d58b50cbf1becd1de2c8167f3ccc37353f2e614ae5d26abcbe7e3e60ba6e"
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/SKILL.md",
+      "role": "candidate-entrypoint",
+      "inspectedInFull": true,
+      "bytes": 5456,
+      "sha256": "83584469ab0faf64844451aba67bfe4e9325d2c1f7d6580ff951bc90d3a34f5d"
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/references/continuity-packet.md",
+      "role": "applicable-bundled-reference",
+      "inspectedInFull": true,
+      "bytes": 3414,
+      "sha256": "224245f7beb6f1ab8266a68636e47723926ab760886771d47df49e1e70e33311"
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/references/interruption-cases.md",
+      "role": "applicable-bundled-reference",
+      "inspectedInFull": true,
+      "bytes": 5544,
+      "sha256": "a922ecdc7620b3df8c7270ec0ec7e736e315af9a1582e6ed880c30276e702cc6"
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/references/uncertain-effect-recovery.md",
+      "role": "applicable-bundled-reference",
+      "inspectedInFull": true,
+      "bytes": 3827,
+      "sha256": "a12fcc1b51a85bcaa392fbc534ba3be74bd6aef184019ca78774e6615d8f8f7f"
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/skill.json",
+      "role": "candidate-metadata",
+      "inspectedInFull": true,
+      "bytes": 2106,
+      "sha256": "2315f4367905ac7d62ccfa76bb56469f329c734a44b0889dca5a080db7f68077"
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/SKILL.md",
+      "role": "candidate-entrypoint",
+      "inspectedInFull": true,
+      "bytes": 3566,
+      "sha256": "ec48f8afcf742fc463903e734977c7ec030a6c672b3dbe937a99e826c0906e0e"
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/references/examples.md",
+      "role": "applicable-bundled-reference",
+      "inspectedInFull": true,
+      "bytes": 1858,
+      "sha256": "fc4944177b92aee5682d49800ab7d43a09e0c12116400c523644c9b31068f695"
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/skill.json",
+      "role": "candidate-metadata",
+      "inspectedInFull": true,
+      "bytes": 2047,
+      "sha256": "370e944b61f74f9f0551c7f48af7e4cc8bb4df3d167a96a2b1001566f2c41f61"
+    },
+    {
+      "path": "product/skills/voice-style-calibration/SKILL.md",
+      "role": "candidate-entrypoint",
+      "inspectedInFull": true,
+      "bytes": 4191,
+      "sha256": "d85f07ec958e80adec1ca323d07ae496e9d5831ac550bf9a347c35d0f35cdd9a"
+    },
+    {
+      "path": "product/skills/voice-style-calibration/skill.json",
+      "role": "candidate-metadata",
+      "inspectedInFull": true,
+      "bytes": 1306,
+      "sha256": "944fb3ea0f29a02db1777b2322cd339010ea947170874be4f77b7dc6e70e3f1d"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "C01/output.md",
+      "bytes": 2571,
+      "sha256": "5195e7abdd8c9a12ecad1ffedc227734ddd0d7366ce256cf1b90082e243558cf"
+    },
+    {
+      "path": "C02/output.md",
+      "bytes": 5498,
+      "sha256": "e859d5e569d498b40a699d3e12d8278035d5d6f80bc07a9a8fe38791432f43ff"
+    },
+    {
+      "path": "C03/output.md",
+      "bytes": 2841,
+      "sha256": "2f722aad00bb3ae476804aee547f64e082fef2304486d184bef2693e6528eef3"
+    },
+    {
+      "path": "C04/output.md",
+      "bytes": 2858,
+      "sha256": "8b3ef99a03c56a66e9b78e99c92287b666f0d9513508c5cbae1a8475d3da665d"
+    },
+    {
+      "path": "C04/retention-readback.json",
+      "bytes": 1060,
+      "sha256": "6bd912805dee3e21b38f7e206699d3e87c86c6d0f1cb6233cd909065617625d1"
+    },
+    {
+      "path": "C04/task-state.md",
+      "bytes": 1452,
+      "sha256": "27de3b8dfe1c9eeca4aa16df90e3b8d50b910a409eb194af82a2572e7c574051"
+    },
+    {
+      "path": "C05/output.md",
+      "bytes": 5878,
+      "sha256": "8f897c88a790d398dc0f6b507f70ff143b8f0f6446182b3c1790146df6d66828"
+    },
+    {
+      "path": "C06/output.md",
+      "bytes": 6678,
+      "sha256": "39c16db74ae39e0921a7a5e9fa4bd5666c41e79de22da0aa29d871c37c7848f2"
+    },
+    {
+      "path": "RUN.md",
+      "bytes": 2977,
+      "sha256": "4d5d53e7f9603a5fde5ddb9ccc5ddc6a15ec7cedbee99a18e6f5c835218b3dc7"
+    },
+    {
+      "path": "application-output-freeze.json",
+      "bytes": 1366,
+      "sha256": "229b38dbe61fa2b3ad20053ec77cdaab36718d8de5ed9aecfcf531c00a3f8f20"
+    },
+    {
+      "path": "assessment.md",
+      "bytes": 11610,
+      "sha256": "d61f23dae096563b8c7f5a1057022a36de2937085bd657f4f43cf660c639e96f"
+    },
+    {
+      "path": "check-output-constraints.mjs",
+      "bytes": 3268,
+      "sha256": "f0fcb31e71d297f65229ac4ebc8a7b7acd4301907f209eb0db0e90421d469d30"
+    },
+    {
+      "path": "dispositions.json",
+      "bytes": 4502,
+      "sha256": "4aa6964382bdddcd5c68af3f3ae6960bbd3c23728414656ee4890778433ab979"
+    },
+    {
+      "path": "document-review.md",
+      "bytes": 8994,
+      "sha256": "54a720b29d990811feb433234935fe40fd649550472deed9cea112137c0b8a2b"
+    },
+    {
+      "path": "input-verification.json",
+      "bytes": 7350,
+      "sha256": "0800f9f4d09b8f20fb2fdf51967e7db308d8b50c132a4b8e754b2427b0da3b6e"
+    },
+    {
+      "path": "manifest-run.mjs",
+      "bytes": 5823,
+      "sha256": "a01972b4337c71c05df356ce91528f288768c6b46d29ab7b2d4c1594f7af666b"
+    },
+    {
+      "path": "output-checks.json",
+      "bytes": 805,
+      "sha256": "e4f9935328e744bd3eb58c3dec1a38029a062e486ee9a82c2a60ddd2dcd563e1"
+    },
+    {
+      "path": "prerequisite-record.json",
+      "bytes": 2168,
+      "sha256": "a67b7251388e046821effff784e5125bba2f66df4dafa0837cc120af3292e35b"
+    },
+    {
+      "path": "verify-inputs.mjs",
+      "bytes": 5622,
+      "sha256": "ace77d68307bc42775cc4e760990690dc9b5104f9a8826c34710198d919d8a65"
+    }
+  ],
+  "independence": "One nonauthor document/application exercise; no blind baseline or true multi-day runtime."
+}

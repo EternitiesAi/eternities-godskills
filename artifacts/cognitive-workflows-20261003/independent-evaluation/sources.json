@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "worktree": "C:/dev/eternities-godskills/.worktrees/cognitive-workflows-20261003",
+  "writeScope": "artifacts/cognitive-workflows-20261003/independent-evaluation/",
+  "sourceIdentityCapturedUtc": "2026-10-03T05:54:42.8084651Z",
+  "candidateBodiesRead": false,
+  "candidateReviewsPerformed": false,
+  "fixtureApplicationsPerformed": false,
+  "readPrerequisites": {
+    "design": "read-in-full",
+    "currentProductContract": "read-in-full",
+    "localHistoricalRefinery": "read-in-full",
+    "currentProductRefinery": "read-in-full",
+    "skillCreator": {
+      "state": "unavailable-inside-permitted-worktree",
+      "readInFull": false,
+      "discovery": "Worktree-only filename inventory, including hidden/ignored files and bounded instruction-name searches in docs and local refinery. No Skill Creator instruction body located. No candidate bodies read.",
+      "requiredResolution": "Parent supplies an instruction copy at a named path inside this worktree; evaluator reads it fully and records its SHA-256 before candidate review/application."
+    }
+  },
+  "sources": [
+    {
+      "path": "docs/superpowers/specs/2026-10-03-cognitive-workflows-design.md",
+      "bytes": 5047,
+      "sha256": "5a805f2067444a16c75e18dd0805c731d927c4619b3e8dce191fef9ae80c3955",
+      "readInFull": true,
+      "disposition": "pattern-reference",
+      "use": "Six outcomes, independent non-author applications, finite scope, ownership and exact-byte acceptance boundaries.",
+      "licenseDisposition": "Internal task contract; not a legal-clearance finding."
+    },
+    {
+      "path": "product/README.md",
+      "bytes": 11519,
+      "sha256": "99595a8e3fb90bfbc33d70c4f78ff2c979cf2e97e6d3e25d9257e13c40749406",
+      "readInFull": true,
+      "disposition": "pattern-reference",
+      "use": "Current portable product/host contract, authority-none discovery, evidence labels and no superiority inference.",
+      "licenseDisposition": "Internal product contract; not a legal-clearance finding."
+    },
+    {
+      "path": "README.md",
+      "bytes": 11222,
+      "sha256": "d22b327b92da686d2b273f60d8a1edfceed2f1363b8b4afd85ff41a042d7002c",
+      "readInFull": true,
+      "disposition": "pattern-reference",
+      "use": "Distinction between the portable successor and historical compatibility tree.",
+      "licenseDisposition": "Internal project record; not a legal-clearance finding."
+    },
+    {
+      "path": "skills/sovereign-skill-refinery/SKILL.md",
+      "bytes": 4844,
+      "sha256": "71b39ba6963e030018c7830539e0ebe06dd902ffb4239fcd0f768a90d1791a4c",
+      "readInFull": true,
+      "disposition": "pattern-reference",
+      "use": "Neutral contract, provenance, leakage separation, exact identities and evidence limits. Historical promotion gates do not constitute this task's promotion or performance claim.",
+      "licenseDisposition": "Local first-party instruction; no upstream clearance asserted."
+    },
+    {
+      "path": "skills/sovereign-skill-refinery/references/contract-template.json",
+      "bytes": 672,
+      "sha256": "34f4f99f750b097b711091f614e3d603835d0511a245cdf877628249d7d8bba4",
+      "readInFull": true,
+      "disposition": "pattern-reference",
+      "use": "Outcome, success evidence, inputs/outputs, effects, scope, failure and dependency fields.",
+      "licenseDisposition": "Local first-party template; no upstream clearance asserted."
+    },
+    {
+      "path": "product/skills/sovereign-skill-refinery/SKILL.md",
+      "bytes": 3106,
+      "sha256": "caac3fd18dd020810b8e67f0633773c430eba5a6fb4878209f73c0fc65b0306b",
+      "readInFull": true,
+      "disposition": "pattern-reference",
+      "use": "Current portable refinery: separate authoring/evaluation, bounded checks, honest disposition and no source activation.",
+      "licenseDisposition": "Local first-party instruction; no upstream clearance asserted."
+    },
+    {
+      "path": "product/skills/sovereign-skill-refinery/references/methods.md",
+      "bytes": 1229,
+      "sha256": "a27941002823eb36b462e93b73dfe45d14c91205b18a48366b50e5b3abc46a85",
+      "readInFull": true,
+      "disposition": "pattern-reference",
+      "use": "Provenance and checks/disposition fields; hashes do not demonstrate outcomes.",
+      "licenseDisposition": "Local first-party reference; no upstream clearance asserted."
+    }
+  ],
+  "caseProvenance": "All six raw cases and assessor criteria independently invented for this evaluation from the neutral outcomes. No candidate body, private transcript, warehouse content or web acquisition used.",
+  "claimBoundary": "Preregistration only. Required Skill Creator read outstanding; no candidate acceptance or performance claim."
+}

@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "verifiedIdentities": true,
+  "case": "C01-voice-application-v2",
+  "inputs": [
+    {
+      "path": "artifacts/cognitive-workflows-20261003/voice-application-v2/profile.md",
+      "role": "actor-profile",
+      "bytes": 2261,
+      "sha256": "f160d35ebb91f15372c3f290601649ed30ea9c49f43d170f2741a68773d80cc6"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/voice-application-v2/notice-draft.md",
+      "role": "actor-notice",
+      "bytes": 845,
+      "sha256": "c4843efb4420c7e50ba4d778b2488caa907cb3204311c3046a93fc6666ae9b65"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/voice-application-v2/application-receipt.md",
+      "role": "actor-receipt",
+      "bytes": 2907,
+      "sha256": "a641ff6f61e077a47e28e0a576e8cca6a83e96e276e06b45a76e9b1304cc2caf"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/repairs-v2/voice-style-calibration/SKILL.md",
+      "role": "pinned-staged-method",
+      "bytes": 4440,
+      "sha256": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/independent-evaluation/raw/C01-voice-style-calibration.md",
+      "role": "preregistered-raw-C01",
+      "bytes": 2941,
+      "sha256": "990923975f82f69b47b05a97eb484e7c24b84567be2df32eca893a4d852a41f7"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/independent-evaluation/assessor/acceptance.md",
+      "role": "preregistered-criteria",
+      "bytes": 10430,
+      "sha256": "4f6e002d3c13656a5f112266cde4a110dd75fac1195e8e62c2954e680a1248f5"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/voice-imagination-review-v1/review.md",
+      "role": "preserved-dissenting-review",
+      "bytes": 5610,
+      "sha256": "699e5ee554898632bf3e19fff50e2ed6e025c3bee9231c0ed7b8b0e7577e501d"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/independent-evaluation/applications/run-v1/run-manifest.json",
+      "role": "sealed-historical-v1-manifest",
+      "bytes": 11594,
+      "sha256": "d3d0ed2cd58c309c4b47e43467065f9df2c131ca26ecd82be3d51c2d94f4fee7"
+    }
+  ],
+  "exactApplicationOccurrences": [
+    "application-receipt.md",
+    "notice-draft.md",
+    "profile.md"
+  ],
+  "literalChecks": {
+    "noticeWords": 139,
+    "noticeParagraphs": 2,
+    "profileRules": 5,
+    "finalSentenceExact": true,
+    "prohibitedWordsAbsent": true
+  },
+  "semanticAndSubjectiveVerdict": "Separate independent assessment required; literal PASS does not approve meaning or voice.",
+  "originalV1ManifestUnchanged": true,
+  "liveProductReadOrRebound": false,
+  "externalEffects": "none-read-only-check"
+}

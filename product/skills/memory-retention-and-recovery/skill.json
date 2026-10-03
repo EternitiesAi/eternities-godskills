@@ -1,0 +1,54 @@
+{
+  "id": "memory-retention-and-recovery",
+  "category": "memory",
+  "summary": "Retain and recover minimal task-critical decisions, evidence pointers, freshness, conflicts, and safe next actions.",
+  "triggers": [
+    "task checkpoint across interruption or handoff",
+    "resume from a prior task record after state may have changed",
+    "correct or invalidate stale memory",
+    "reconcile conflicting or cross-scope continuity records",
+    "verify whether a previously attempted effect completed"
+  ],
+  "antiTriggers": [
+    "ordinary recall from context already supplied",
+    "simple lookup or routine status check",
+    "unlimited recall or raw transcript replay",
+    "change to host memory permissions or continuity policy"
+  ],
+  "taskTypes": [
+    "plan",
+    "create",
+    "recover",
+    "verify"
+  ],
+  "related": [
+    "eternities-mnemosyne",
+    "retrieval-grounded-answering"
+  ],
+  "resources": [
+    "references/examples.md"
+  ],
+  "maturity": "instruction-reviewed",
+  "provenance": [
+    {
+      "kind": "pattern-reference",
+      "source": "product/skills/eternities-mnemosyne/SKILL.md",
+      "note": "SHA-256 43f83b2332ca21e65fa6b640a8489fe03c7ee58b8d5e1f1435ae31b027e32988. Exact task identity, verified/stale/conflicted/unknown state, minimal retrieval, and safe next actions informed the method."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "product/skills/eternities-mnemosyne/references/methods.md",
+      "note": "SHA-256 9b3bff3a805b833a4e3d72495382efab8b99e31a0719178a17f03ed4aca02d86. Source freshness, invalidation, bounded preservation, and conflict handling informed the checkpoint; repository lifecycle machinery was not adopted."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "product/skills/retrieval-grounded-answering/SKILL.md",
+      "note": "SHA-256 9699b65853adf21b4e285c2b357295ea401822b0dbda46eb168510cb1d654236. Versioned evidence, access scope, conflicting records, explicit evidence gaps, and invalidation informed recovery; no retrieval pipeline is required."
+    },
+    {
+      "kind": "instruction-review",
+      "source": "artifacts/cognitive-workflows-20261003/dialogue-memory-review-v2/review.md",
+      "note": "SHA-256 0ef8babe097a62e0f6e96e6b6df8f829abe3205e47ea7e8d66b30c412fc316bc. Independent document acceptance of the exact reviewed instructions; limited fixture applications and release checks are separate evidence. No performance superiority or source-rights clearance is implied."
+    }
+  ]
+}

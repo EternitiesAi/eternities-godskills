@@ -1,0 +1,31 @@
+{
+  "schema": "godskills-cognitive-workflow-batch-v2",
+  "status": "release-ready-publication-and-installation-pending",
+  "supersedesForCurrentStatus": "artifacts/cognitive-workflows-20261003/run-state.json",
+  "historicalInputPolicy": "Original state, plan, freezes and negative reviews remain unchanged review-pinned history.",
+  "baselineCommit": "9409eb8f2f10300a316879d042b12159f94ed302",
+  "baselineRelease": "f6d71194e6897118f7ec7dac9bd2a9287479acb3345f347f291958091fd65cdc",
+  "releaseId": "54688268f540ce974272f4619f88d97adde80a0c058325a5b8f960432370a0dd",
+  "skillCount": 74,
+  "addedMethods": [
+    "completeness-and-consistency-audit",
+    "imaginative-concept-development",
+    "interpersonal-understanding-and-dialogue",
+    "long-horizon-work-continuity",
+    "memory-retention-and-recovery",
+    "voice-style-calibration"
+  ],
+  "gates": {
+    "instructionReview": "All six exact final bodies/resources accepted by nonauthor reviews; metadata instruction-reviewed.",
+    "integrationReview": {"decision": "READY", "path": "final-integration-review-v1/review.md", "sha256": "8d464c8ab0d4f7c1cf6f3b3097eff65e164c286dd81303f1633564d60febecf1"},
+    "repairedApplications": {"decision": "READY-bounded-C01-and-C04", "manifest": "independent-evaluation/run-v3-assessment/assessment-manifest.json", "sha256": "59d25c1c1822b0712e675350792bb79fbb621eb08d478633d57a0f94b6045369", "parentVerifiedInputs": 27, "parentVerifiedArtifacts": 3},
+    "software": {"rootTests": 1208, "passed": 1207, "failed": 0, "skipped": 1, "skip": "Windows leaf-symlink creation unavailable", "rootLogSha256": "fae83cd11b0e1c50ca655d80c2a4a429d8cc8b2e584cf7171f58525f5afeec15"},
+    "portability": "239-file ZIP validated after extraction into a separate folder on the same host with minimal environment; not every-OS qualification.",
+    "publication": "pending",
+    "installation": "pending"
+  },
+  "archive": {"path": "artifacts/releases/godskills-product-20261003-54688268.zip", "sha256": "e319cf6fbca70b2b88696657e6182b049bab5baef295a6e3b482867acd1e86d6"},
+  "workers": {"authorsAndReviewers": 4, "descendants": 0, "state": "all finished and closed"},
+  "preservation": {"oldSkills": 68, "unchangedOldShippedFilesOutsideAuthorizedDocs": 214, "activationBytes": "unchanged", "historicalReceipts": "unchanged", "sourceCorpus": "not resumed or closed", "automation": "PAUSED"},
+  "next": "Reconcile origin/main, commit and fast-forward/push this verified release, then fresh backup and exact-manifest installed upgrade."
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "supplemental-instruction-read-and-scope-clarification",
+  "boundPreregistration": {
+    "manifestPath": "preregistration-manifest.json",
+    "manifestSha256": "6b445b0c493c29f3fa6495b337d4f3f8e54c76ba715a48e8c8a773b2c78c14f4",
+    "bundleSha256": "9049cb1b6d12259806d6cd0a130bf87555ab27256effd7d50c92496b74679092",
+    "integrityObserved": "verified",
+    "boundFiles": 11,
+    "rawCases": 6,
+    "preregisteredFilesRewritten": false
+  },
+  "authorization": {
+    "source": "Parent user read-scope clarification in this task",
+    "instruction": "Read-scope clarification: you are expressly authorized to read the full required C:/Users/Dom/.codex/skills/.system/skill-creator/SKILL.md (instruction file, not private transcript). No need to copy it into the repository. Keep all writes in your assigned independent-evaluation directory. Record this supplemental prerequisite without rewriting sealed preregistration. Do not start candidate applications until I supply exact frozen trees. Continue to readiness and return.",
+    "effect": "Permits this exact external instruction read. Supersedes the initial local-copy prerequisite in protocol step 4; no other read or write scope expands."
+  },
+  "supplementalSource": {
+    "path": "C:/Users/Dom/.codex/skills/.system/skill-creator/SKILL.md",
+    "bytes": 15540,
+    "sha256": "cccd291077ec57c6f50ca6529f0f3fb93212da09473effb2fcec808e81b21288",
+    "sourceObservedUtc": "2026-10-03T06:03:20.7519779Z",
+    "readInFull": true,
+    "disposition": "pattern-reference",
+    "use": "Scope-preserving useful guidance, proportionate procedure, progressive disclosure, meaningful outcome verification, and independent forward-testing with realistic raw artifacts rather than intended answers.",
+    "referencesRequiredForThisAssignment": [],
+    "referenceSelectionReason": "This evaluator does not create or change skill UI metadata, initialize skill bodies, or run native skill installation; their linked instructions/scripts are unnecessary here.",
+    "licenseDisposition": "Authorized host instruction read; no redistribution or legal-clearance finding."
+  },
+  "prerequisiteResolution": {
+    "skillCreator": "satisfied-full-authorized-read",
+    "design": "satisfied-full-read",
+    "currentProductContract": "satisfied-full-read",
+    "sovereignSkillRefinery": "satisfied-full-reads-with-applicable-local-references",
+    "criteriaOrRawInputChangesNeededAfterRead": false,
+    "historicalStatusNotice": "The sealed v1 README, sources.json, protocol local-copy requirement, and checker readiness output record the initial missing prerequisite. This separate supplement resolves that gap without rewriting those files. Read them together."
+  },
+  "effectiveReadiness": {
+    "protocolAndCases": "preregistered-and-integrity-verified",
+    "instructionPrerequisites": "satisfied",
+    "nextPass": "ready-awaiting-parent-exact-frozen-candidate-trees",
+    "candidateBodiesRead": false,
+    "candidateReviewsPerformed": false,
+    "fixtureApplicationsPerformed": false,
+    "candidatePathsOrHashesReceived": false,
+    "candidateApplicationStarted": false
+  },
+  "limits": {
+    "writes": "artifacts/cognitive-workflows-20261003/independent-evaluation/ only; apply_patch",
+    "descendantsOrProviderCalls": "none",
+    "webPrivateDataWarehouseAccess": "none",
+    "authorExposure": "No raw cases, assessor expectations or expected-answer summaries sent to authors by this evaluator. Filesystem access was not technically excluded; no access-log assurance asserted.",
+    "evaluationIndependence": "Non-author cases and review role. Same evaluator constructed criteria; not expectation-blind, model-blind, cold-session or matched-baseline evidence.",
+    "candidateAcceptanceOrPerformanceClaims": "none"
+  }
+}

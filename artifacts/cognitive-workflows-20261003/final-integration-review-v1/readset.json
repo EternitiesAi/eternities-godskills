@@ -1,0 +1,2064 @@
+{
+  "schema": "cognitive-final-integration-readset-v1",
+  "scope": "Independent metadata/documentation/test integration review. New bodies and all old shipped files hash-only; receipt bodies inspected for exact READY identities. No independent-evaluation/raw or assessor reads.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "90df801a97c0015a4f090c4d4beefb66d40cc82147677e030f1f6e07e3f5afcb",
+      "scopes": [
+        "review context or validator/archive protection boundary read; not evaluator fixtures"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/audit-continuity-review-v1/review.md",
+      "sha256": "bae15f49f1a6f43c5fab1b42135c4bede0592c2320921cc7862158cb0b513cad",
+      "scopes": [
+        "complete independent instruction decision; exact reviewed identity, not new body judgment"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/candidate-freeze-v1.json",
+      "sha256": "c1e9bf9e7e2c549a59ccd5a822a8e0098f4cef6c7715930243315910f861b382",
+      "scopes": [
+        "complete JSON"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/dependency-repair-focused-green.tap",
+      "sha256": "74a90bd7a46bab1cd09def6982ad61d2611e159ec0760ca05982b830e7087ccd",
+      "scopes": [
+        "hash and targeted counts/failures/skip inspection; parent-run evidence, not a rerun"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/dialogue-memory-review-v2/readset.json",
+      "sha256": "deb1772a4b2e804fb41d5b0b6097a1067dd876020bc8aa77811ba61da888acdb",
+      "scopes": [
+        "review context or validator/archive protection boundary read; not evaluator fixtures"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/dialogue-memory-review-v2/review.md",
+      "sha256": "0ef8babe097a62e0f6e96e6b6df8f829abe3205e47ea7e8d66b30c412fc316bc",
+      "scopes": [
+        "complete independent instruction decision; exact reviewed identity, not new body judgment"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/focused-pre-migration.tap",
+      "sha256": "4e8c1fc5f1762837e5704e5d63a5534eb21151f829afd487075e998663d95218",
+      "scopes": [
+        "hash and targeted counts/failures/skip inspection; parent-run evidence, not a rerun"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/full-suite-repaired.tap",
+      "sha256": "fae83cd11b0e1c50ca655d80c2a4a429d8cc8b2e584cf7171f58525f5afeec15",
+      "scopes": [
+        "hash and targeted counts/failures/skip inspection; parent-run evidence, not a rerun"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/full-suite.tap",
+      "sha256": "090a617763d53dfed9dcc409dccf9fc01d1751b1c1c2ec290b969e09f20c8d1e",
+      "scopes": [
+        "hash and targeted counts/failures/skip inspection; parent-run evidence, not a rerun"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/historical-count-green.tap",
+      "sha256": "ff1e00bcdb1cfa8dc53426af251352dc8254051ca51e2a91133efdacaa148e00",
+      "scopes": [
+        "hash and targeted counts/failures/skip inspection; parent-run evidence, not a rerun"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/historical-count-red.tap",
+      "sha256": "53c036a15572e3eb9f058c0bf6a18d36c1bee16a0ecf3a3efa5a42f565a8836c",
+      "scopes": [
+        "hash and targeted counts/failures/skip inspection; parent-run evidence, not a rerun"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/host-integration-review-v1/review.md",
+      "sha256": "ccd54eba495aed8944634d371a4ad8665ee0a4213e1db9f1876c3de16a881a95",
+      "scopes": [
+        "review context or validator/archive protection boundary read; not evaluator fixtures"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/completeness-and-consistency-audit/references/coverage-template.md",
+      "sha256": "afb14dd68fe0735479deead5dcfb8dc4d71d6f4d8a36a5e7246afa73fea21340",
+      "scopes": [
+        "exact-byte frozen snapshot check; metadata parsed below, bodies not judged"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/completeness-and-consistency-audit/references/worked-audits.md",
+      "sha256": "dc8977704eb24d273dbc010a7ae1ea800efaa2c2df63622996a185fab6b906da",
+      "scopes": [
+        "exact-byte frozen snapshot check; metadata parsed below, bodies not judged"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/completeness-and-consistency-audit/skill.json",
+      "sha256": "5e772ab38c6a5891c1f4c65490ac1af1c792eb64a742e4d0c4d190c8575f60bf",
+      "scopes": [
+        "exact-byte frozen snapshot check; metadata parsed below, bodies not judged",
+        "complete JSON"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/completeness-and-consistency-audit/SKILL.md",
+      "sha256": "4e434687d0f77a0577c6bd2c8b869fe60d409df5c5e6d5b6ee946771a78d5f71",
+      "scopes": [
+        "exact-byte frozen snapshot check; metadata parsed below, bodies not judged"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/imaginative-concept-development/skill.json",
+      "sha256": "e4646a675c25d882e716cc373a842d0a692aad73589e6233385a3dcd3daa0937",
+      "scopes": [
+        "exact-byte frozen snapshot check; metadata parsed below, bodies not judged",
+        "complete JSON"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/imaginative-concept-development/SKILL.md",
+      "sha256": "5a1b550f7db546470d93a73106f972d59cf1cf4be21cc6e7c8d08cb7f9fd95c7",
+      "scopes": [
+        "exact-byte frozen snapshot check; metadata parsed below, bodies not judged"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/interpersonal-understanding-and-dialogue/references/examples.md",
+      "sha256": "c1593449b397d952b3d0c60d7bca728201be79e5715af0a0ba1b35adae590bec",
+      "scopes": [
+        "exact-byte frozen snapshot check; metadata parsed below, bodies not judged"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/interpersonal-understanding-and-dialogue/skill.json",
+      "sha256": "ba26d58b50cbf1becd1de2c8167f3ccc37353f2e614ae5d26abcbe7e3e60ba6e",
+      "scopes": [
+        "exact-byte frozen snapshot check; metadata parsed below, bodies not judged",
+        "complete JSON"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/interpersonal-understanding-and-dialogue/SKILL.md",
+      "sha256": "dfa4af05ca5b68aa6db7252d70dc0d2b57a610f4fa0f49104fe3b07eb1cacc74",
+      "scopes": [
+        "exact-byte frozen snapshot check; metadata parsed below, bodies not judged"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/long-horizon-work-continuity/references/continuity-packet.md",
+      "sha256": "224245f7beb6f1ab8266a68636e47723926ab760886771d47df49e1e70e33311",
+      "scopes": [
+        "exact-byte frozen snapshot check; metadata parsed below, bodies not judged"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/long-horizon-work-continuity/references/interruption-cases.md",
+      "sha256": "a922ecdc7620b3df8c7270ec0ec7e736e315af9a1582e6ed880c30276e702cc6",
+      "scopes": [
+        "exact-byte frozen snapshot check; metadata parsed below, bodies not judged"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/long-horizon-work-continuity/references/uncertain-effect-recovery.md",
+      "sha256": "a12fcc1b51a85bcaa392fbc534ba3be74bd6aef184019ca78774e6615d8f8f7f",
+      "scopes": [
+        "exact-byte frozen snapshot check; metadata parsed below, bodies not judged"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/long-horizon-work-continuity/skill.json",
+      "sha256": "2315f4367905ac7d62ccfa76bb56469f329c734a44b0889dca5a080db7f68077",
+      "scopes": [
+        "exact-byte frozen snapshot check; metadata parsed below, bodies not judged",
+        "complete JSON"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/long-horizon-work-continuity/SKILL.md",
+      "sha256": "83584469ab0faf64844451aba67bfe4e9325d2c1f7d6580ff951bc90d3a34f5d",
+      "scopes": [
+        "exact-byte frozen snapshot check; metadata parsed below, bodies not judged"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/memory-retention-and-recovery/references/examples.md",
+      "sha256": "fc4944177b92aee5682d49800ab7d43a09e0c12116400c523644c9b31068f695",
+      "scopes": [
+        "exact-byte frozen snapshot check; metadata parsed below, bodies not judged"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/memory-retention-and-recovery/skill.json",
+      "sha256": "370e944b61f74f9f0551c7f48af7e4cc8bb4df3d167a96a2b1001566f2c41f61",
+      "scopes": [
+        "exact-byte frozen snapshot check; metadata parsed below, bodies not judged",
+        "complete JSON"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/memory-retention-and-recovery/SKILL.md",
+      "sha256": "ec48f8afcf742fc463903e734977c7ec030a6c672b3dbe937a99e826c0906e0e",
+      "scopes": [
+        "exact-byte frozen snapshot check; metadata parsed below, bodies not judged"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/voice-style-calibration/skill.json",
+      "sha256": "944fb3ea0f29a02db1777b2322cd339010ea947170874be4f77b7dc6e70e3f1d",
+      "scopes": [
+        "exact-byte frozen snapshot check; metadata parsed below, bodies not judged",
+        "complete JSON"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/original-draft-v1/product/skills/voice-style-calibration/SKILL.md",
+      "sha256": "d85f07ec958e80adec1ca323d07ae496e9d5831ac550bf9a347c35d0f35cdd9a",
+      "scopes": [
+        "exact-byte frozen snapshot check; metadata parsed below, bodies not judged"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/repairs-v2/interpersonal-understanding-and-dialogue/skill.json",
+      "sha256": "90bd0aeccbf30c9492d3e8db94c6f289bb52afdd3523231d6877d5988085bc36",
+      "scopes": [
+        "complete JSON"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/repairs-v2/memory-retention-and-recovery/references/examples.md",
+      "sha256": "e85739b8e8e517545d5862200f78e442dc23f59284f2e74751c7c39af8e5ece2",
+      "scopes": [
+        "hash-only approved repair binding"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/repairs-v2/memory-retention-and-recovery/SKILL.md",
+      "sha256": "36c14c3b62bdf72c2b12bf4678ec44223bd0c3064528a7f1b34d7df4fcc966e7",
+      "scopes": [
+        "hash-only approved repair binding"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/repairs-v2/voice-style-calibration/SKILL.md",
+      "sha256": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b",
+      "scopes": [
+        "hash-only approved repair binding"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/run-state.json",
+      "sha256": "05967bda5bdd8900b9cd5f2e26048e53157940f7ce82c3a364ebd5e1dc361dbb",
+      "scopes": [
+        "review context or validator/archive protection boundary read; not evaluator fixtures"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/voice-imagination-review-v1/readset.json",
+      "sha256": "3e93807bc66988076d045646de7283304a4a6aa711ab850c2201248c5e48f170",
+      "scopes": [
+        "review context or validator/archive protection boundary read; not evaluator fixtures"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/voice-imagination-review-v1/review.md",
+      "sha256": "699e5ee554898632bf3e19fff50e2ed6e025c3bee9231c0ed7b8b0e7577e501d",
+      "scopes": [
+        "complete independent instruction decision; exact reviewed identity, not new body judgment"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/voice-imagination-review-v2/readset.json",
+      "sha256": "5cf5641fbbe4d83f1ccaacb3d5205c59ad51fe14b6d91c31b4e317b90de9abf6",
+      "scopes": [
+        "review context or validator/archive protection boundary read; not evaluator fixtures"
+      ]
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/voice-imagination-review-v2/review.md",
+      "sha256": "0bebafb5801baf390874e2224349c3eb119373b39cb2c9755c6662b6f8a68c0b",
+      "scopes": [
+        "complete independent instruction decision; exact reviewed identity, not new body judgment"
+      ]
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-03-cognitive-workflows.md",
+      "sha256": "58260a3663dd53cb8f90bf2fe04491970d8e6280a9b605abee039174569423e5",
+      "scopes": [
+        "review context or validator/archive protection boundary read; not evaluator fixtures"
+      ]
+    },
+    {
+      "path": "docs/superpowers/specs/2026-10-03-cognitive-workflows-design.md",
+      "sha256": "5a805f2067444a16c75e18dd0805c731d927c4619b3e8dce191fef9ae80c3955",
+      "scopes": [
+        "review context or validator/archive protection boundary read; not evaluator fixtures"
+      ]
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "e0b5c43f574e04c2ae7b9c0df4a1f09b609879341a8b6294a5de470009d7565c",
+      "scopes": [
+        "exact-byte unchanged lock/package or historical failing-test preservation"
+      ]
+    },
+    {
+      "path": "package.json",
+      "sha256": "538531951004f100fd557066ebb274306847f38ba514f4333f735b0dccd9b773",
+      "scopes": [
+        "exact-byte unchanged lock/package or historical failing-test preservation"
+      ]
+    },
+    {
+      "path": "product/bin/godskills.mjs",
+      "sha256": "2bfd79da8efc81a5c4b65556e042bd89bcbd5b06d75d8e1020dbc9a8ebac5685",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/catalog.json",
+      "sha256": "02af51a684ac09320f8ec9037c8a543c571ab381b299655b02147309e769009c",
+      "scopes": [
+        "complete JSON",
+        "complete integration documentation or generated metadata reviewed"
+      ]
+    },
+    {
+      "path": "product/CORPUS-SCOPE.md",
+      "sha256": "f67fd28074a6fbcb90b9d773db67845a37a58eacfabeba694b187f3433425f32",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/evidence/method-reviews/arcadia-v2/cue-plan-packets.md",
+      "sha256": "4610142758fe3696a8b27d32f7c1ae2053b766303cc9b3604670ce4578698dcc",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/evidence/method-reviews/arcadia-v2/receipt.json",
+      "sha256": "fceb06922f496de2e2861725f25a3e9d3e24a5840cbe9c68e613099d9b2fed57",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/evidence/method-reviews/arcadia-v2/review.md",
+      "sha256": "150a4011cdec776e5a25268d413bf18381a6a13bb770bc3cb630fe4c55c5f5ff",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/evidence/method-reviews/atlas-v3/evidence.json",
+      "sha256": "9c83f326db0a8148c797638ba3e0f52be349c383e1c06849f945286d7e36bd30",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/evidence/method-reviews/atlas-v3/receipt.json",
+      "sha256": "d6acb24533810b956f05ef8aa9f72ca9caba40a83e5ac5992b97664cdff9ffa4",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/evidence/method-reviews/atlas-v3/review.md",
+      "sha256": "92c5232b86ff42e4ffe20da76da5e9f42cc102234fee015b2decf1c5e484210c",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/evidence/method-reviews/atlas-v3/routing-matrix.tsv",
+      "sha256": "470559d2cadfd33a1b54eec748078fd23ef29da7755a8e1c74eecec395d45741",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/evidence/method-reviews/conditional-v1/caller-applications.md",
+      "sha256": "907696a1ed0ea23a8869905f03dca5f36a4eab8c770f86903e4da9fa90bdf7a9",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/evidence/method-reviews/conditional-v1/caller-inputs.json",
+      "sha256": "74bb6c1b6b27ad6739efdaebedfc7a55a37cbbe357470093a4a93ec94c6ec062",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/evidence/method-reviews/conditional-v1/readset.json",
+      "sha256": "f29d8d240c87603f0a1841ebbdab8be0a475c3ecdd3e8920e7ed1c9f4ac4e337",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/evidence/method-reviews/conditional-v1/receipt.json",
+      "sha256": "4b9860fa7d8020d819a0d522303194e8f8b593fd02794469b16799ba162d630b",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/evidence/method-reviews/conditional-v1/review.md",
+      "sha256": "f6662e866e788e8a99c398d4632dd2e8e582fb606908bf57353e49ad5e9c57fd",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/evidence/method-reviews/daedalus-v1/evidence.json",
+      "sha256": "fea9024506eb77b3a86a86113b407f016255f796a92b91b52696e0d13cd35af2",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/evidence/method-reviews/daedalus-v1/receipt.json",
+      "sha256": "a0b2a8ac4611c327a40517cc588079d79cb4402416b14fd8c7f512cab6b373b0",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/evidence/method-reviews/daedalus-v1/review.md",
+      "sha256": "4e945d60805c10be19a8d0a8e8f974e7d75a3968a9dd7dc60e13a820e6ae10ed",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/evidence/method-reviews/daedalus-v1/task-plans.md",
+      "sha256": "0de3f7294e43179c4d4697a7f97ce01d364c8b0874c5353534f464c932f7ef99",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/HOST-CAPABILITIES.md",
+      "sha256": "6faa40662c752bdfb3bbeb5509388f7399c99640283b958ecc56b3415f9f25c5",
+      "scopes": [
+        "complete integration documentation or generated metadata reviewed"
+      ]
+    },
+    {
+      "path": "product/INDEX.md",
+      "sha256": "2603daa42c235285e6201d18f6ef49d632bf5d6170955d7ba82af3e7e14a1405",
+      "scopes": [
+        "complete integration documentation or generated metadata reviewed"
+      ]
+    },
+    {
+      "path": "product/lib/archive.mjs",
+      "sha256": "62cb7442554233a93aa7a149e3336830ef02cdfaf905d944e8f2241b07ce0ba3",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation",
+        "review context or validator/archive protection boundary read; not evaluator fixtures"
+      ]
+    },
+    {
+      "path": "product/lib/method-directory.mjs",
+      "sha256": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/lib/product.mjs",
+      "sha256": "1e99a9e68317fa01121f81e363860cd28e17e5b19c7aedc8522d949e7025ad79",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation",
+        "review context or validator/archive protection boundary read; not evaluator fixtures"
+      ]
+    },
+    {
+      "path": "product/METHODS.v1.json",
+      "sha256": "412b4272987b119ba3edf1a9df44aeb75d6b372a90f1bdeabe92c5834bd5265d",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/METHODS.v1.md",
+      "sha256": "8f98763a7a706e4ba220654e45db2cbea17f56fd497f6edf1d6b4baaaa02d1cd",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/README.md",
+      "sha256": "fd77f746ac811e6b6ab9129d384a741f31908f5c9e17cbf44e0aeccd86b0b247",
+      "scopes": [
+        "complete integration documentation or generated metadata reviewed"
+      ]
+    },
+    {
+      "path": "product/RECIPES.md",
+      "sha256": "5796f9f1957f2ab65c92bd7b5c2d3f0654fe4ef925e4005ec72a0a00b5d02528",
+      "scopes": [
+        "complete integration documentation or generated metadata reviewed"
+      ]
+    },
+    {
+      "path": "product/release.json",
+      "sha256": "cd052b6a5a2b9a2aa9a4cecbc750a9977a459185dcd26c858755f41cbd3f7825",
+      "scopes": [
+        "complete JSON",
+        "complete integration documentation or generated metadata reviewed"
+      ]
+    },
+    {
+      "path": "product/skills/agricultural-observation-and-trial/skill.json",
+      "sha256": "ee6e741e16650be93fcb245c8e2f75edf135d2ea79bdef29dfe184c56cdb933f",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/agricultural-observation-and-trial/SKILL.md",
+      "sha256": "dad70e81edda0d52ada7e726b7e19375dc2a1f3251435be295d9a92992304f2d",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/api-rate-limit-recovery/skill.json",
+      "sha256": "d44cb783cf5c2144327ec2e2946c964b5ff667d164437a1b711dda2851c40387",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/api-rate-limit-recovery/SKILL.md",
+      "sha256": "442c4db00b70ab29349c62f196ed7a3bb8d92ac8720e8d2caa4079049ab974db",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/app-store-discovery-experiments/skill.json",
+      "sha256": "339762bee9feb3a7c55db745b80dd68b819be86fe036abb3e67736d4bef3e757",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/app-store-discovery-experiments/SKILL.md",
+      "sha256": "b25dbdf93508f20f8135253d129419a2de958350156fdf3692afce4668cacd3a",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/approval-bound-private-session-mining/skill.json",
+      "sha256": "0521f0687700ec2e74d70ab89995a681447a7fce3b9b69e40f274c0760c495ba",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/approval-bound-private-session-mining/SKILL.md",
+      "sha256": "70aec16ea25798d6916294cedf654ae66eba3aa54d0ec2a1f2249199e30d02e1",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/audio-dsp-integrity-review/skill.json",
+      "sha256": "c7f05ff43b354c2a79812ee8cbca9c833bfa9db7fe92ffdc2e4eca4d724adec9",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/audio-dsp-integrity-review/SKILL.md",
+      "sha256": "425578dda01d430310f6626e2658ee35c5358d952a03ad59220bb1940dab2b23",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/bounded-parametric-design-iteration/skill.json",
+      "sha256": "cdd8b652379f4c3bee95a8452f6352c86ee930baabc0f2af91e87b51854ecf77",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/bounded-parametric-design-iteration/SKILL.md",
+      "sha256": "641fa8f5caf0c59e8d6b400476f4f8bd1a2b8cb9d3796cd0d9fcd2bbbdfc51d0",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/bounded-service-shutdown/skill.json",
+      "sha256": "5e8d0f21e8d996087b573e53cbbd7ca3ff4e06fdadb0c7b276bc0e5da2a75f97",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/bounded-service-shutdown/SKILL.md",
+      "sha256": "5257e79b7ac4b30738f54320a80f36adfbf49d0a57087a230de5c4cf2905c41e",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/bounded-verified-object-ingestion/skill.json",
+      "sha256": "26da1859217d796aded8fb89a4a9ca43555921726a0db1534b4808c02eeb9c5a",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/bounded-verified-object-ingestion/SKILL.md",
+      "sha256": "cf69c9340313bd2f01c8abc4fbf39a82234062bb2a8b933e30997a31d647301c",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/cashflow-forecast-scenario-integrity/skill.json",
+      "sha256": "6792423b54ff667e97bbe3acb6e7825f1c522a37fe9507f29f86fed926dc8bac",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/cashflow-forecast-scenario-integrity/SKILL.md",
+      "sha256": "d2b85835f46ac7aba103a43d5ee6eb9ccfe2970f3d17a690e8e9a01fa655a66e",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/columnar-ingestion-rollup-and-query-layout-design/skill.json",
+      "sha256": "5876f8733d4590b7ceb5975865e06e6dba222b4e73885cf13af945a6991bb513",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/columnar-ingestion-rollup-and-query-layout-design/SKILL.md",
+      "sha256": "8cba00eced7f2e84de01c0304aab9e59fed548ae1515bbbc164f568f17951626",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/completeness-and-consistency-audit/references/coverage-template.md",
+      "sha256": "afb14dd68fe0735479deead5dcfb8dc4d71d6f4d8a36a5e7246afa73fea21340",
+      "scopes": [
+        "hash-only binding to independent review; no skill-body self-review"
+      ]
+    },
+    {
+      "path": "product/skills/completeness-and-consistency-audit/references/worked-audits.md",
+      "sha256": "dc8977704eb24d273dbc010a7ae1ea800efaa2c2df63622996a185fab6b906da",
+      "scopes": [
+        "hash-only binding to independent review; no skill-body self-review"
+      ]
+    },
+    {
+      "path": "product/skills/completeness-and-consistency-audit/skill.json",
+      "sha256": "da1004f5dc182e69ecf6b0324c29e3c2734639269be7f583814a6da0afc911ed",
+      "scopes": [
+        "complete metadata; semantic integration comparison",
+        "complete JSON"
+      ]
+    },
+    {
+      "path": "product/skills/completeness-and-consistency-audit/SKILL.md",
+      "sha256": "4e434687d0f77a0577c6bd2c8b869fe60d409df5c5e6d5b6ee946771a78d5f71",
+      "scopes": [
+        "hash-only binding to independent review; no skill-body self-review"
+      ]
+    },
+    {
+      "path": "product/skills/confirmed-destructive-reconstruction/skill.json",
+      "sha256": "2481bd8ef1d83414cfbb05865de9bffd247b375e2708c37df9b7277f813f9016",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/confirmed-destructive-reconstruction/SKILL.md",
+      "sha256": "3ed45216a80c535253fd4fc88fec0c770d0c0aeeb81107090d66ca18a7a76436",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/counterbalanced-agent-evaluation/skill.json",
+      "sha256": "e9e1963c49e735a281788279bf6cb5cc89c76b414e04b59fab79be25b33ef6bf",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/counterbalanced-agent-evaluation/SKILL.md",
+      "sha256": "ad8e45793f5ec79ab577789d505893e2a0a7fbf97dfcde7542cb828aee985a88",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/diagnostic-statistical-model-inference/skill.json",
+      "sha256": "e458a6c1db05c5aebcd1d34ec224d57ac8b2501ee54589e9880cfc452a822022",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/diagnostic-statistical-model-inference/SKILL.md",
+      "sha256": "a65995b8649d28dc9e9ccd0bdfeb56799435c0eedb143b70590fb3f8b398c367",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/docx-package-redline-and-render-verification/skill.json",
+      "sha256": "45fb23c86d2244350222c4842b2e6fdb1a276d603d8c26d960dad93132a409cd",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/docx-package-redline-and-render-verification/SKILL.md",
+      "sha256": "b69845bef0009396b5f1dde6c6bd50da75e211b7329fd08c8240ecab60f7e2de",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/ecological-sampling-and-detection-uncertainty/references/sampling-and-detection-records.md",
+      "sha256": "5726960dd5072aa93919e1a600898bec7b16b06b3fb38cd89fd6fb0d8cddca5f",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/ecological-sampling-and-detection-uncertainty/skill.json",
+      "sha256": "b99dad708acef989811c6315532284ca70b1f1fa44d7c4473e7004f310d7a18c",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/ecological-sampling-and-detection-uncertainty/SKILL.md",
+      "sha256": "396fc469613b35fc2bc67ea34c8458d8d262d0cd312867526bc60ef38dd30c1c",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-aegis/references/methods.md",
+      "sha256": "73d0f3b1f910f9a5ae2dbdf213a7d487e7ec23eb62718cfbe86bad8def566bd4",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-aegis/skill.json",
+      "sha256": "8d703ca763191e5b9840000fc61e0c6619fdd66f9dc91624f96da0edc2e8c459",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-aegis/SKILL.md",
+      "sha256": "5e10e632e79ca765ad6357c7ee34137eaadab0aca2336236729ea32265eb7c12",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-agora/references/business-decision-evidence.md",
+      "sha256": "9effd0372e4be72da4d9fdcd454e5b4c3ea313764f118f429b175e103f4ec188",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-agora/references/methods.md",
+      "sha256": "a2df40b3388c5c4565c1d11276af478cf4e2b432a1551dcda5a94977f3daf1af",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-agora/skill.json",
+      "sha256": "6bd85a03bd1531d4c848dd14e362fa3f70a6fbcc1623fad92f8a64b51a54b8c3",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-agora/SKILL.md",
+      "sha256": "a6602a256f8ad9e598947e18c057fd10c3b82f0ed6a44f7915fc439586c6225f",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/browser-runtime-lifecycle.md",
+      "sha256": "92f138939846c57ad5de1d36fd1c60d11341e29a91fcaecb03c942397ad93853",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/game-state-to-audio-cue.md",
+      "sha256": "f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/methods.md",
+      "sha256": "57853439f2dbc6173e2b627b3d1cdd982c746f8376e86746b2745138b696dfc3",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/requirement-screen-state-traceability.md",
+      "sha256": "e26439a9761aebd5fabd6ac65865744063c6ce0ae26aaaadcc7d7fdb93d1f34a",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-arcadia/skill.json",
+      "sha256": "5cf252421f40197a8c8c862c9f0e31fd3b7d6181baa112666afef8382c596c0c",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-arcadia/SKILL.md",
+      "sha256": "84023828419d63d0cdff7936d3c87d742a7ae58d07dd00f547ae8397584e47db",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-architect/references/methods.md",
+      "sha256": "1873d742426d274e5b78bd10d24bdb67003e725e641dd4789766bfb0ca234b73",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-architect/skill.json",
+      "sha256": "8952a21e1bf43fe6e64498c17c9400bfeb8d5e8be9f8913d9dda6e4a84108a13",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-architect/SKILL.md",
+      "sha256": "351269b25eb0a26b06e51abe774f0bb6a92d23953592196f48d70651dff2fb11",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-athena/references/methods.md",
+      "sha256": "3518e5f333be18eded1799e62469d30be9b50133c87e8b243f38d3e48fb1cdce",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-athena/skill.json",
+      "sha256": "897475326575b2104071dec08b54356a202dfdcf51fa5f2e1d078eded1691cc4",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-athena/SKILL.md",
+      "sha256": "cb4c4bc02d25e24945fb83d7663f8d868c60b2579614c06eaf4821bbd2afe8db",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-atlas/references/connector-discovery.md",
+      "sha256": "97c83c5bb00914211d05eb784e1ff42efe5efa24cd1e4f1d9ec21d793c26a003",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-atlas/references/methods.md",
+      "sha256": "1a6fa9ab8a21ce37de2c9dd909f4156889510faf08292a583fe577a7fdb79d14",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-atlas/references/pareto-frontier-decision.md",
+      "sha256": "5323c0c99785866c3552c6131dab44d46459d1cd955f3acea66bb918b3439e2e",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-atlas/references/serving-time-ranking-decision-trace.md",
+      "sha256": "4a4ed718c0879126b1d30cf9c2f2c5f469cbe730e72d4103e9784ee5a7c5a496",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-atlas/references/simulation-artifact-handoff.md",
+      "sha256": "449846960aef9c0b59b7671b3e39a30541e48447d4cf023d607747a3587679b0",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-atlas/resources/pareto/example-input.json",
+      "sha256": "4c15e7742b85489884ed9863b16f8c5ccc5db24043ecfeaa7d6b6ab7b1879ed8",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-atlas/resources/pareto/frozen-independent-fixtures.json",
+      "sha256": "62460bdc01a6e808a09463795178a9f6ff7abfc619e436897dddc60d38c75add",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-atlas/resources/pareto/oracle.test.mjs",
+      "sha256": "50168e3406ecd3dce4130eaf55b40283d3ef2a25acc67a5819a0e4542d699c7f",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-atlas/resources/pareto/package-self-containment.test.mjs",
+      "sha256": "6711b15d4cf2272822a19ba0c44c392add025a001861e8e6b75950c153bd8c46",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-atlas/resources/pareto/pareto-gate.mjs",
+      "sha256": "0a2a3988fe59b5b3d2ae19e5fd5f22314b4111533b7ea28365c6e5c4a7ff8806",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-atlas/resources/pareto/pareto-oracle.mjs",
+      "sha256": "c8688c5c9f2f607c8f024851a74933f784dc6b25db7d81456a24c5951999c18f",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-atlas/resources/pareto/restrict-sibling-reads.mjs",
+      "sha256": "418a042717c522ed7a6577ace0da21329f0bec79f5bbf4c2e4ddac9d18d1960d",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-atlas/resources/pareto/verify-output-v1.mjs",
+      "sha256": "46d3029e3ddb19818e16d46011baa70a6c0c65500fb42cf6774a9a9739b1b4ca",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-atlas/resources/pareto/verify-output-v1.test.mjs",
+      "sha256": "bb0ec9748eacc9ea2061466cb33d132f105ceb299423010956d3265915615306",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-atlas/skill.json",
+      "sha256": "c270415abbe6769fdc5ce7362c5569735ba907bfffb5a2f0da304a1e839de77d",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-atlas/SKILL.md",
+      "sha256": "35e819e37a97923cc2ae3e9b6d5c35a32843fab2bbe7dd373f483213e9a385ad",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-beacon/references/creator-sponsorship-lifecycle.md",
+      "sha256": "4063b7c5ce3e283fbe6975b7644ffde1bf8283ce499ca77dc293e60bb7ba0d5e",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-beacon/references/methods.md",
+      "sha256": "efe539cfe35bf9703869d43cdaddedd2b29edb14c72525a5c9645fcf2a0eb2ed",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-beacon/skill.json",
+      "sha256": "b92dd17b389a5cfb5b2213e6f4fdd26f44994aa50947601da9fdd7217734bdfd",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-beacon/SKILL.md",
+      "sha256": "da29c9866d4558307ee183b9c524ee894bdd6bd960ab766a345783e11d395a7e",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-chorus/references/methods.md",
+      "sha256": "18c1463e075a373f09e1dd6b6279ba33a44d6108a0ffb51786721e4d1b9174e7",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-chorus/references/stakeholder-updates.md",
+      "sha256": "02abdb2d7e61dc08579003d4f6b2f48bb6f4b0aacd16e4eaaa81abc5d3e6554f",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-chorus/skill.json",
+      "sha256": "a282595b4593847fdd9a7c7e4ddc426a5da17095fbadec4065c39102efa6fe91",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-chorus/SKILL.md",
+      "sha256": "34814474ccd29d642c87f50ebed24b56cef572cd6e6869d4ce8ca427c0eae5dc",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-daedalus/references/methods.md",
+      "sha256": "deec76d5357d3f5fb3758c0bd9c956d1638b1736d9f20e2dbf53fe6da618abbc",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-daedalus/references/optional-model-scenarios-ci.md",
+      "sha256": "982db0a3b6811f7b7fde0fa6b31e06e3df0ed86bbf9dc9826209dc52877b61d8",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-daedalus/references/test-design-and-evidence.md",
+      "sha256": "276208dc309c3eb9058e0acf966b29ce2268876df48e36e0fe641d2a07534814",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-daedalus/skill.json",
+      "sha256": "7df7c6256ffb5c2eb0be1ecf2343f16872b5847a04b4179100f4f0158babe49d",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-daedalus/SKILL.md",
+      "sha256": "ee2f0326f35e2a4efc952570dcd7956d04d1a4b5abc08e2a16f3a5776a09d347",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-forge/references/methods.md",
+      "sha256": "4e25671091310043e92358182918bfa32eefe08b34508f6d1cd6e4418ac45db5",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-forge/skill.json",
+      "sha256": "af03b86ab49cac6e9ae4fd2f13bc7bfca9b563e66a6dcaded46d118ef8713fec",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-forge/SKILL.md",
+      "sha256": "69dd108e325f48ccb2fe2833018f721e31f1725b109da9919faa89c93503267f",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-hephaestus/references/methods.md",
+      "sha256": "f342e20f3b2f482de86bc4f200b56f5a1fc6ad149f75b1c5752952bb8b86e553",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-hephaestus/skill.json",
+      "sha256": "282187d90667fe52687c616933864b20926dc326afa529cfe432330afea7e030",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-hephaestus/SKILL.md",
+      "sha256": "63e5a150ba0252bab36a12719c3c287ab76c815fb488a6a6fe486a3afb417a82",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-herald/references/methods.md",
+      "sha256": "ed5209dafb316cc67b213f1babdfb03d24642bedc59ad83e88512304175fa7f4",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-herald/skill.json",
+      "sha256": "7f2e25ea6b271272e2be463f2ae8322137f72266e937cf452c5abd38e23944d7",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-herald/SKILL.md",
+      "sha256": "3cd991e0e9539c9b40703b8ca39bd7c1a80d51f7cd6c4968e5c8299ed485445e",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-hermes/references/cursor-paged-task-messages.md",
+      "sha256": "b3135e20f4ff67b3ac5593536eb4b14b59ff3d96608dc26090a6181862e6e2da",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-hermes/references/methods.md",
+      "sha256": "3f0a33559aba81a728d7aa47ab6f5d5c9686490d8d7e68a83b1ddf3136747aa4",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-hermes/references/truthful-cli-progress.md",
+      "sha256": "d9bd1ebfd44178a4d33f0d1150b460aa4d6fa564177ea0ded1577ce4123c936c",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-hermes/skill.json",
+      "sha256": "f36f49d7de25d8639a087c3d7884a9a90421ed2f481bfd3970a22bf9a712e04e",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-hermes/SKILL.md",
+      "sha256": "f578fba0bc4d10af9221e2fbd980ee4d21b0de71bda26428d282dabdd9152f90",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-logos/references/methods.md",
+      "sha256": "a79d6f724763afab227f6d9d347b2dad51031eefa1303284466df2eda8492ce3",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-logos/skill.json",
+      "sha256": "fa1d3d79b78ae574b40a67f62acbc0f5ef904bc3602bc321dcb5277324816cd9",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-logos/SKILL.md",
+      "sha256": "a215da7877c4ef33e83796209488dcf5b390bf1f91b38098ba47d1c89a8f11d2",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-mnemosyne/references/methods.md",
+      "sha256": "9b3bff3a805b833a4e3d72495382efab8b99e31a0719178a17f03ed4aca02d86",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-mnemosyne/skill.json",
+      "sha256": "9741df2de726741abf78a5383f54e74d72df0f3dd954330faede0f30637e5e14",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-mnemosyne/SKILL.md",
+      "sha256": "43f83b2332ca21e65fa6b640a8489fe03c7ee58b8d5e1f1435ae31b027e32988",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-muse/references/methods.md",
+      "sha256": "44cdaae8e34b83f69c8253f1cb61b4ed3c1af5548e58ef59d4f7e28df7e46b89",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-muse/skill.json",
+      "sha256": "640b33587d3f648552be317b1f436e1ce26ccb7a78c40bed507c33d7dd795a2a",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-muse/SKILL.md",
+      "sha256": "b7097258366a53f645d2d1a52a6492a691f933c2cc535fd32beae452f398f374",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-omnibus/references/methods.md",
+      "sha256": "bf0cbfd05901848d2cd1459e7a20fe287c87cf8d62beb97134675126d3483b78",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-omnibus/skill.json",
+      "sha256": "d3064e97c1f25d87adef40c2fca4228a9ed0f35d13606db1ad2d193d689e059d",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-omnibus/SKILL.md",
+      "sha256": "10deff5b40dd5c318e287ba7b60c7e10500a103a2a0699d53a9435913d14bc41",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-oracle/references/methods.md",
+      "sha256": "ab1f3e8a23fa5929bcf8d25c119e25a275ffc752a119eb37cc9e9da78d339950",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-oracle/skill.json",
+      "sha256": "ca73ebc6b2b8d7c1adcc00f74aa2fb28ad3705c4f1b7727024656dffcd5c23b0",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-oracle/SKILL.md",
+      "sha256": "796145f66a4f5d9cacadd55319e541234db9b7ac3b4d704f8b7411c949fce4cd",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-orpheus/references/methods.md",
+      "sha256": "ee216cf993a7629868d4fc918d27d94815e9b9f765acf4f1ab06644068a480e7",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-orpheus/skill.json",
+      "sha256": "6ac5ac8cf81386e5a739f369056d7332fb33e722a8fa02a0efd60e030abc3235",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-orpheus/SKILL.md",
+      "sha256": "083f4461cf7a28dd5a2b25bd3e2c2d05448b74b92aaa5d87b5daa50753c2c48e",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-phoenix/references/methods.md",
+      "sha256": "aa9a1fefeb9e0ca5107f0b5fb3e3a97cf647c748b91922e3b3303c8bc90c8ebc",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-phoenix/references/reproducible-bug-packets.md",
+      "sha256": "74059bb30b6af5289b661e93deac1ca7cd9d89bbc4ad0362d8c01b39d7333120",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-phoenix/references/trace-to-evaluation-cases.md",
+      "sha256": "57fe450be2791fe0e697663b49df5c6ed1c22ea6f8a94d9efa84cead1d2e1560",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-phoenix/skill.json",
+      "sha256": "13613f7882a7c7295945c73f9dac1609496d4391987697e581272b827805838c",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-phoenix/SKILL.md",
+      "sha256": "8a522e555beb8e605b3b3751f7ffeb5cf6e924c85f8e0950620ab85899fbe111",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-prometheus/references/methods.md",
+      "sha256": "6150efa2ad78e5ebc93b9dbde21893984428a9d5ac109c85f1966d2b3a815954",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-prometheus/skill.json",
+      "sha256": "7d118ed0417e927c5da6ea91640e2fa907d3f3ceccaaa62e050fc04e668bf3d8",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/eternities-prometheus/SKILL.md",
+      "sha256": "7b2cafacbe16e1e9a7e554d4848b17330ba2fb5aadec289b579312eae3c7ccd5",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/references/handoffs-and-reporting.md",
+      "sha256": "8722eaf7532007db27228e1b699fc0835cf46229a605801fb5cdc154924e870c",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/skill.json",
+      "sha256": "24a054183459fe99618afba433342a8d8f880880aaf44dd62b85696f0cbd9fe7",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/SKILL.md",
+      "sha256": "17d952adc8ba43eb243911c58fa67841de5040445e8c327d3c4161bfb2b6385f",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/experiment-artifact-lineage/skill.json",
+      "sha256": "0977e43f9ebfa31a432f3cb4ee8472df7cdb97d873947951440328c1106b4d47",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/experiment-artifact-lineage/SKILL.md",
+      "sha256": "92da8b7ef85c7b308d7e4842e3ef3de02ce4b54061a9603e2338fa6d676682fe",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/financial-statement-reconciliation/skill.json",
+      "sha256": "b642f8dfe7feca2f4ee412af16fe78f4d546cfe3c00acd2f292cd7c66e14b68f",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/financial-statement-reconciliation/SKILL.md",
+      "sha256": "9a82b733d54f8e8f594f93ecb6f6304d229bba99ba71b810f3a908146a7e5230",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/formula-preserving-workbook-engineering/skill.json",
+      "sha256": "14fd8f40e38f63256a84ddbe70fd9fd419261f0a506c9c5286314d27cfef4517",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/formula-preserving-workbook-engineering/SKILL.md",
+      "sha256": "69f701204ba80a60752567ceb646332714ff945f8bee9ab063ec3ef496d1d946",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/fp-ts-functional-refactoring/skill.json",
+      "sha256": "53ecbd37e67e9fef211bb354da67e0b4114eda737f900792d1361facc0a85ae9",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/fp-ts-functional-refactoring/SKILL.md",
+      "sha256": "65ed967d0043c3bddc61508f6ee16870b2e56b7d6ba425922f91f1e28e919539",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/genomic-coordinate-assembly-and-variant-gates/skill.json",
+      "sha256": "adc0cf6ef8d3cc823c56de2a6390979fb7a1e8341160feeedc84456c86c94ee7",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/genomic-coordinate-assembly-and-variant-gates/SKILL.md",
+      "sha256": "d276703d60093ee3a3f346ad9afcaf453bf0bee6801975f93fdc816d3671e852",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/geospatial-coordinate-integrity/references/vertical-and-surface-comparability.md",
+      "sha256": "31b73d5ff157bd1d32a729d442ad0d6d6400cb5d4c0d6c5736c4e2cde8961d62",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/geospatial-coordinate-integrity/skill.json",
+      "sha256": "ff7a9264006771ae6d4cb3e1d0a25a94bd7aea39dd5433ccf70c0c4b2371b318",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/geospatial-coordinate-integrity/SKILL.md",
+      "sha256": "ef14fd4bc877408a1acb6c24efb09557a4a02d65a6688fd22e3dfe893ce65ce0",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/imaginative-concept-development/skill.json",
+      "sha256": "90fed2e5797f81f5affb2a1119260a9b885dbe5f7868ade0d20f96abbf304eff",
+      "scopes": [
+        "complete metadata; semantic integration comparison",
+        "complete JSON"
+      ]
+    },
+    {
+      "path": "product/skills/imaginative-concept-development/SKILL.md",
+      "sha256": "5a1b550f7db546470d93a73106f972d59cf1cf4be21cc6e7c8d08cb7f9fd95c7",
+      "scopes": [
+        "hash-only binding to independent review; no skill-body self-review"
+      ]
+    },
+    {
+      "path": "product/skills/infrastructure-plan-apply-isolation/skill.json",
+      "sha256": "b29076c87709fad9c6cf0219b0f3650e14c4728d8fff0a5f6a2ebe3ccfffaecb",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/infrastructure-plan-apply-isolation/SKILL.md",
+      "sha256": "282241cb6fac6159779682b1b6853d90f0a43f60835922ea8e63ec868b05fc3b",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/interatomic-model-validation/skill.json",
+      "sha256": "34ec8e35b224bba26150e8b2128f734f214a0ecfc4215ef5c8ce61172e744972",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/interatomic-model-validation/SKILL.md",
+      "sha256": "fa1e1443277a7ded60d3f4bca483695b53e7c1511d4b5878d296ebeabd878583",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/interface-localization-and-bidirectionality/skill.json",
+      "sha256": "3e927eae13bb5d25370f6291478a6b3aa5d4c10566462ac036a0333ad4bedf03",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/interface-localization-and-bidirectionality/SKILL.md",
+      "sha256": "7fa41cd4576a01d82f8507cf2d207ab13f2eb0f2a2e2d61d87d39e4c7afc5458",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/interpersonal-understanding-and-dialogue/references/examples.md",
+      "sha256": "c1593449b397d952b3d0c60d7bca728201be79e5715af0a0ba1b35adae590bec",
+      "scopes": [
+        "hash-only binding to independent review; no skill-body self-review"
+      ]
+    },
+    {
+      "path": "product/skills/interpersonal-understanding-and-dialogue/skill.json",
+      "sha256": "a582d6717d1eccc2516d787b987ffebe16f704d98a12f64b3cfe2feb31c71101",
+      "scopes": [
+        "complete metadata; semantic integration comparison",
+        "complete JSON"
+      ]
+    },
+    {
+      "path": "product/skills/interpersonal-understanding-and-dialogue/SKILL.md",
+      "sha256": "dfa4af05ca5b68aa6db7252d70dc0d2b57a610f4fa0f49104fe3b07eb1cacc74",
+      "scopes": [
+        "hash-only binding to independent review; no skill-body self-review"
+      ]
+    },
+    {
+      "path": "product/skills/invariant-guard/skill.json",
+      "sha256": "77e8ffe06ad0ef408e40f7bd2eaf21fa8a670d6886bd3b2a2a7e73ea4aaec35f",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/invariant-guard/SKILL.md",
+      "sha256": "660357745a6d16fb81b5a98d12c3361a5d22a826a29858be0dbc9020b24f593f",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/jurisdiction-aware-contract-review/skill.json",
+      "sha256": "3cc4bb731582cb173b4f13fd500316003bb97aa39cab6c84e2d2aefe8f764158",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/jurisdiction-aware-contract-review/SKILL.md",
+      "sha256": "c600a5c1b47f652f435c4b0a1cb8d71ee043de7b801eff34aeb25a2b04c43303",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/landscape-connectivity-analysis/references/connectivity-operations.md",
+      "sha256": "dcf15931b1588968bcd707b278124815acd30ef4b2c5be3785ea07137b568425",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/landscape-connectivity-analysis/skill.json",
+      "sha256": "0038f2d442ecaea04d8fcb82fdd4bb2634b2142dd5a5c1c5ad843b7bd79a9882",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/landscape-connectivity-analysis/SKILL.md",
+      "sha256": "3ac3320e31f833962123acd1174ccc6a8031e3b3a777044d66beb21740541e97",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/lazy-tabular-transformation-and-validation/skill.json",
+      "sha256": "7d4c7db142249ba397c8614dc2f36f0d746c923becaab1876e935b623558442d",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/lazy-tabular-transformation-and-validation/SKILL.md",
+      "sha256": "848d222b70cf24d9ef86af68a4ec6bfeacf889c8f75f36a3facfabf66a7b1c77",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/references/continuity-packet.md",
+      "sha256": "224245f7beb6f1ab8266a68636e47723926ab760886771d47df49e1e70e33311",
+      "scopes": [
+        "hash-only binding to independent review; no skill-body self-review"
+      ]
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/references/interruption-cases.md",
+      "sha256": "a922ecdc7620b3df8c7270ec0ec7e736e315af9a1582e6ed880c30276e702cc6",
+      "scopes": [
+        "hash-only binding to independent review; no skill-body self-review"
+      ]
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/references/uncertain-effect-recovery.md",
+      "sha256": "a12fcc1b51a85bcaa392fbc534ba3be74bd6aef184019ca78774e6615d8f8f7f",
+      "scopes": [
+        "hash-only binding to independent review; no skill-body self-review"
+      ]
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/skill.json",
+      "sha256": "5fa7b436fa35069441e9d690c3cd82b4e8ecc16e6aa72c8661d5c0cd79d273d2",
+      "scopes": [
+        "complete metadata; semantic integration comparison",
+        "complete JSON"
+      ]
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/SKILL.md",
+      "sha256": "83584469ab0faf64844451aba67bfe4e9325d2c1f7d6580ff951bc90d3a34f5d",
+      "scopes": [
+        "hash-only binding to independent review; no skill-body self-review"
+      ]
+    },
+    {
+      "path": "product/skills/measured-paid-creative-iteration/skill.json",
+      "sha256": "ef42b77e2179937767e4bab624272e2b26c5c71d52cad7f20247c95bc9e7a99b",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/measured-paid-creative-iteration/SKILL.md",
+      "sha256": "9873f4d79ee04683267e8dff34264a033189a50a8b813873f3699ac9e250dfe5",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/references/examples.md",
+      "sha256": "e85739b8e8e517545d5862200f78e442dc23f59284f2e74751c7c39af8e5ece2",
+      "scopes": [
+        "hash-only binding to independent review; no skill-body self-review"
+      ]
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/skill.json",
+      "sha256": "d430c9842dc5a3c604ebd7afda911edfb6a37ead8b631e54de4b3c4c7054bacd",
+      "scopes": [
+        "complete metadata; semantic integration comparison",
+        "complete JSON"
+      ]
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/SKILL.md",
+      "sha256": "36c14c3b62bdf72c2b12bf4678ec44223bd0c3064528a7f1b34d7df4fcc966e7",
+      "scopes": [
+        "hash-only binding to independent review; no skill-body self-review"
+      ]
+    },
+    {
+      "path": "product/skills/molecular-observable-integrity/skill.json",
+      "sha256": "9818b45f8980c54581dfebf5cc8a7931606980d358e15b93206a0cdaca771557",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/molecular-observable-integrity/SKILL.md",
+      "sha256": "b12a8fb9fe39291b289eac55ee81f11df7baf274e088d5cb843fbc44256f7149",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/native-mobile-interaction-testing/skill.json",
+      "sha256": "f5618e9d35e18810edf177733af7e9088fe3bfc7c0e569ff79f22f526e178325",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/native-mobile-interaction-testing/SKILL.md",
+      "sha256": "b3b258fca1636f5d401b27ac051851f002c88580aa4f237eef68ce0f530d0489",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/performance-release-gating/skill.json",
+      "sha256": "3f8c6b2f9ce4983eb271b553f6369d117f27487e163017d3ea6adcb1b5cb48ff",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/performance-release-gating/SKILL.md",
+      "sha256": "60becfbc3da18a97434b5b876d4ff420316cc838632c68e4560a4b70f72af6ba",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/physics-constrained-numerical-validation/skill.json",
+      "sha256": "0448c1bd34edb10c530c38fab790c68526b2e7d20a02669171dba189dff1dfd1",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/physics-constrained-numerical-validation/SKILL.md",
+      "sha256": "83afefae2e0cb5fde9b7f719cc49e2bd6a80cad4a42591e212edf6799064cde1",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/portable-speech-chunk-alignment/skill.json",
+      "sha256": "16c8807d79d165f96d92237de04f4d7583a71363f89161aa4aeee619edbe5df1",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/portable-speech-chunk-alignment/SKILL.md",
+      "sha256": "93283ef9cf5b93a365d1fb7da970efb0c7afc2961385631909320856b9178166",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/release-script-safety/skill.json",
+      "sha256": "e0c7914cd7783812a7364b8a598bf19deac12f74b2f3c9afcea6882ad4c3a3f8",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/release-script-safety/SKILL.md",
+      "sha256": "c5efb81bb955cd91bb0636e7de517ea61c0c347224534014d787dd85b5206d57",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/retrieval-grounded-answering/skill.json",
+      "sha256": "18cd6faec3f22d9d541d16577c2478b8443b0f762c18fa4fa3f97232d9e2cffd",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/retrieval-grounded-answering/SKILL.md",
+      "sha256": "9699b65853adf21b4e285c2b357295ea401822b0dbda46eb168510cb1d654236",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/robotics-test-ladder/skill.json",
+      "sha256": "f7e1bcd259ffd7d99af8980bfd51f6170033cf4242a4a0de6ed6c1d61772ab5e",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/robotics-test-ladder/SKILL.md",
+      "sha256": "71950c00335d7b2a0d9220118b9332bee042615712111ff6f9aa2efd02358c2a",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/scene-continuity-and-coverage/skill.json",
+      "sha256": "99f454dac581983bd60c1f97a4a8fc9a8d908f857b0c7a4690796d5278173426",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/scene-continuity-and-coverage/SKILL.md",
+      "sha256": "78237dfcd4e7b71f5d16742cc47364ed3bad51774ab8bd9ab7f1da215f5359e8",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/scientific-surrogate-validation/skill.json",
+      "sha256": "3b6a994dec49b0c90e2c9cb463c8d75ca3ffb297c2f6294eb0d85cf9824b5e23",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/scientific-surrogate-validation/SKILL.md",
+      "sha256": "bb13e6221b81e3dd20d182014314bbf5021940e80c5793ad5492f85bf0e62642",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/semantic-implementation-diff/skill.json",
+      "sha256": "f6273fe925468bf892e410556f830b91703ba91fd823a6862449608916c92a66",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/semantic-implementation-diff/SKILL.md",
+      "sha256": "9d790f26786f711482d0b2cb6b460d80d56099492a60e9686092b73f7553ab77",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/sovereign-skill-refinery/references/methods.md",
+      "sha256": "a27941002823eb36b462e93b73dfe45d14c91205b18a48366b50e5b3abc46a85",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/sovereign-skill-refinery/skill.json",
+      "sha256": "74312faea90f51a56aefdc6b6261afc4e350adf16cdbba2d199623dbce955e0f",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/sovereign-skill-refinery/SKILL.md",
+      "sha256": "caac3fd18dd020810b8e67f0633773c430eba5a6fb4878209f73c0fc65b0306b",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/structured-output-contracts/references/governed-vocabulary-validation.md",
+      "sha256": "e1b4f1a4b4cc9489dc665ae34e144531fda3b615d9eab5412a343817a6e962b2",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/structured-output-contracts/skill.json",
+      "sha256": "875a67254ad63a647885d210e14828b365a08bf99a7829f7e68063fb241a953e",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/structured-output-contracts/SKILL.md",
+      "sha256": "0650ce7e3aaa652071cc53df6bc8d882fdf1f2359c0543a1b9e3e7d8bdafb668",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/symbolic-mathematics-python/references/source-grounded-math-specification.md",
+      "sha256": "edbbb063b3550619cfe216db64a96611c14839fcf61e2f24f13ca9d2ecebdb20",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/symbolic-mathematics-python/skill.json",
+      "sha256": "f1d10d6425f86a0750496530ca184f07386231b4eb52be4d1b2d8262b5abf2ce",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/symbolic-mathematics-python/SKILL.md",
+      "sha256": "ad82634d58c4cbd2901b31e2475017f60c8cbfa820c9b929a76a4bc7b9d09a86",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/terrain-watershed-analysis/references/terrain-operations.md",
+      "sha256": "e1d10f927d52154bdbf0963e479bb567856aeffabb3817df8a9689c481e10704",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/terrain-watershed-analysis/skill.json",
+      "sha256": "078e2c0fea4f018546e0072c5c02f6f62305fa8768ff7e480fd3e5bc49d00cd5",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/terrain-watershed-analysis/SKILL.md",
+      "sha256": "6ccbcc81b696b2050e8c6383b9a69eec0b2b3efbd0ed5f5b299db7981c0ebdea",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/venture-falsification-and-planning/skill.json",
+      "sha256": "de985b2f08d7d56888c7e529756c019ecc72e6bc83a25145bb779e948ec0f17b",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/venture-falsification-and-planning/SKILL.md",
+      "sha256": "f465ba4b35d09b2cbd3c9a8b64d877f1230bbb4c3668a00100bc5763f41a0eff",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/voice-style-calibration/skill.json",
+      "sha256": "853cce581a0f216c3650f1f857bfae0fa1f78ef93dfc398fbfd350b74eacf6d3",
+      "scopes": [
+        "complete metadata; semantic integration comparison",
+        "complete JSON"
+      ]
+    },
+    {
+      "path": "product/skills/voice-style-calibration/SKILL.md",
+      "sha256": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b",
+      "scopes": [
+        "hash-only binding to independent review; no skill-body self-review"
+      ]
+    },
+    {
+      "path": "product/skills/web-performance-optimization/skill.json",
+      "sha256": "157c41109e4fd8e0a727fb11a193d57f987f10eed40a0235a66be563c69ae433",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/skills/web-performance-optimization/SKILL.md",
+      "sha256": "9ae95c2503cd3800a9ad0dacc7190e52f613eaf08d92d8d1b2431e0e24399100",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "product/taxonomy.json",
+      "sha256": "806ea92bb5414ea3bb5b93acbc61ca2a98c5142089d9ff790cc3d29f2bdd3e2c",
+      "scopes": [
+        "hash-only preservation against baseline release; no old-body evaluation"
+      ]
+    },
+    {
+      "path": "tests/adaptive-evaluator-compatibility.test.mjs",
+      "sha256": "7ebba77fb8528734e6e6a025df289bbc9e96ea3c7f32f49af9b6401b73fab5e0",
+      "scopes": [
+        "exact-byte unchanged lock/package or historical failing-test preservation"
+      ]
+    },
+    {
+      "path": "tests/aegis-evaluator-v2-shadow.test.mjs",
+      "sha256": "21180add56d5a88a283d2e8b9a6bbfee52a0300dcdab5c7da79f32ffd42d4dae",
+      "scopes": [
+        "exact-byte unchanged lock/package or historical failing-test preservation"
+      ]
+    },
+    {
+      "path": "tests/cognitive-workflows-discovery.test.mjs",
+      "sha256": "d1d8cfdb77c9fc3f3bcf5c0c442265ae898bdfca782425994753cc7843805455",
+      "scopes": [
+        "complete integration test reviewed; actual code delta checked"
+      ]
+    },
+    {
+      "path": "tests/conditional-method-regression.test.mjs",
+      "sha256": "f96df3a93ad4a836ad77a2f8acdb7e350a6761f2e7ed885ae32fa8c5f029eb7d",
+      "scopes": [
+        "complete integration test reviewed; actual code delta checked"
+      ]
+    },
+    {
+      "path": "tests/core2260-catalog.json",
+      "sha256": "57d47c0a9692dc21caa0e7909ee6c557cd5ef5cc4e09b968df079cc81f86aecf",
+      "scopes": [
+        "immutable core hash and complete ordered scoring projection"
+      ]
+    },
+    {
+      "path": "tests/universal-owner-refinements-wave17-18.test.mjs",
+      "sha256": "6afaceb00003dbd6e59dad6d67aa6c5e4d8050d08f4f48945fd0d4d43911e20b",
+      "scopes": [
+        "complete integration test reviewed; actual code delta checked"
+      ]
+    }
+  ],
+  "externalInstructionReads": [
+    {
+      "path": "C:/Users/Dom/.agents/skills/verification-before-completion/SKILL.md",
+      "sha256": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3",
+      "scopes": [
+        "complete selected skill instructions; no global changes"
+      ]
+    }
+  ],
+  "baselineGitObjects": [
+    {
+      "path": "9409eb8f2f10300a316879d042b12159f94ed302:product/release.json",
+      "sha256": "949de38dd46fe7f6e0e618ff3e5e4ddd1f92acc614acd0f7c0a9991a3d376efd"
+    },
+    {
+      "path": "9409eb8f2f10300a316879d042b12159f94ed302:product/catalog.json",
+      "sha256": "98bf0b06cbbb51c0e57176c5b503dd8baf0e908d82a0829445e1d78b8d49e1e0"
+    }
+  ]
+}

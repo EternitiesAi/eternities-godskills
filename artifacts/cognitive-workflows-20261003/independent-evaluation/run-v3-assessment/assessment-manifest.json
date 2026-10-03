@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "kind": "sealed-bounded-independent-v3-final-case-assessment",
+  "sealedAtUtc": "2026-10-03T07:09:15.1166396Z",
+  "algorithm": "sha256",
+  "canonicalEncoding": "utf8: input records then assessment records, each sorted by ordinal path; domain + NUL + path + NUL + decimal bytes + NUL + lowercase sha256 + LF",
+  "bundleSha256": "fe2b36f86175c5540b205e22bdda5092d1474c5741ffc7a8a78d2db45a6f88d8",
+  "inputs": [
+    {
+      "path": "C:/Users/Dom/.codex/skills/.system/skill-creator/SKILL.md",
+      "bytes": 15540,
+      "sha256": "cccd291077ec57c6f50ca6529f0f3fb93212da09473effb2fcec808e81b21288"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/dialogue-memory-review-v1/review.md",
+      "bytes": 13133,
+      "sha256": "060094fae9af2c78c1c8999d4ef3831fd1916ad43df4d4e2cbedc3933e70d28c"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/independent-evaluation/applications/run-v1/run-manifest.json",
+      "bytes": 11594,
+      "sha256": "d3d0ed2cd58c309c4b47e43467065f9df2c131ca26ecd82be3d51c2d94f4fee7"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/independent-evaluation/assessor/acceptance.md",
+      "bytes": 10430,
+      "sha256": "4f6e002d3c13656a5f112266cde4a110dd75fac1195e8e62c2954e680a1248f5"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/independent-evaluation/preregistration-manifest.json",
+      "bytes": 2066,
+      "sha256": "6b445b0c493c29f3fa6495b337d4f3f8e54c76ba715a48e8c8a773b2c78c14f4"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/independent-evaluation/protocol.md",
+      "bytes": 7345,
+      "sha256": "3b519effd53ca79088238856c0e92fe4e2da579add148ebe21a50d320320e41c"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/independent-evaluation/raw/C01-voice-style-calibration.md",
+      "bytes": 2941,
+      "sha256": "990923975f82f69b47b05a97eb484e7c24b84567be2df32eca893a4d852a41f7"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/independent-evaluation/raw/C04-memory-retention-and-recovery.md",
+      "bytes": 3239,
+      "sha256": "7bb272b49e98af768de83026b0f29e8da13d988e139b2bf03b54292d89106350"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/independent-evaluation/run-v2-assessment/assessment-manifest.json",
+      "bytes": 6006,
+      "sha256": "1e9bdda52b616a8b5a657070f65f80f00090cba782a0dba80f8922184712969a"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/independent-evaluation/run-v2-assessment/assessment-receipt.json",
+      "bytes": 5113,
+      "sha256": "a0b25bb7e050e94b20944c80dbdd4e1d7ed674b8b7a2bf1e02c68996d43e1fab"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/independent-evaluation/run-v2-assessment/memory-assessment.md",
+      "bytes": 6358,
+      "sha256": "1e505420c9907da7c260e1b31f9640677f699fbf61a1405696656d786561c50b"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/independent-evaluation/run-v2-assessment/voice-assessment.md",
+      "bytes": 6576,
+      "sha256": "3f5bf620de39ac6ecec416e831edc1973209591fab29bf4cdb78a6b0bf067467"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/memory-application-v2/application-record.md",
+      "bytes": 3407,
+      "sha256": "84b1b2d058c195585ed57ad302f876ca7bf4acbadbaea20288a457d474675b56"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/memory-application-v2/checkpoint.md",
+      "bytes": 1498,
+      "sha256": "3b03196a0702585c1db6cbeaff90b2a579f62f2f517c036e8a67301bbb3a83c9"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/memory-application-v3/application-record.md",
+      "bytes": 4143,
+      "sha256": "0fdb91bb1ad8f9763cba587f136b5e91073ef9cbb485f6bbc9d2e65592d3260b"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/memory-application-v3/checkpoint.md",
+      "bytes": 1524,
+      "sha256": "d132324f8d1de49d11d0a254e7bccd7926cb792c9f76683a3e2c6032917e0f91"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/repairs-v2/memory-retention-and-recovery/SKILL.md",
+      "bytes": 4273,
+      "sha256": "36c14c3b62bdf72c2b12bf4678ec44223bd0c3064528a7f1b34d7df4fcc966e7"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/repairs-v2/memory-retention-and-recovery/references/examples.md",
+      "bytes": 2844,
+      "sha256": "e85739b8e8e517545d5862200f78e442dc23f59284f2e74751c7c39af8e5ece2"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/repairs-v2/voice-style-calibration/SKILL.md",
+      "bytes": 4440,
+      "sha256": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/voice-application-v2/application-receipt.md",
+      "bytes": 2907,
+      "sha256": "a641ff6f61e077a47e28e0a576e8cca6a83e96e276e06b45a76e9b1304cc2caf"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/voice-application-v2/notice-draft.md",
+      "bytes": 845,
+      "sha256": "c4843efb4420c7e50ba4d778b2488caa907cb3204311c3046a93fc6666ae9b65"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/voice-application-v2/profile.md",
+      "bytes": 2261,
+      "sha256": "f160d35ebb91f15372c3f290601649ed30ea9c49f43d170f2741a68773d80cc6"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/voice-application-v3/notice-draft.md",
+      "bytes": 800,
+      "sha256": "9edbdba106887bc0b3f66c0e0477d98ea25e4303fc55652a9060ab3a5a8e217b"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/voice-application-v3/repair-receipt.md",
+      "bytes": 2145,
+      "sha256": "b5ce23525f86c87e78184d608850e2a1da711a4657161db5da9a12aa3d463af5"
+    },
+    {
+      "path": "artifacts/cognitive-workflows-20261003/voice-imagination-review-v1/review.md",
+      "bytes": 5610,
+      "sha256": "699e5ee554898632bf3e19fff50e2ed6e025c3bee9231c0ed7b8b0e7577e501d"
+    },
+    {
+      "path": "product/skills/sovereign-skill-refinery/SKILL.md",
+      "bytes": 3106,
+      "sha256": "caac3fd18dd020810b8e67f0633773c430eba5a6fb4878209f73c0fc65b0306b"
+    },
+    {
+      "path": "product/skills/sovereign-skill-refinery/references/methods.md",
+      "bytes": 1229,
+      "sha256": "a27941002823eb36b462e93b73dfe45d14c91205b18a48366b50e5b3abc46a85"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "assessment-receipt.json",
+      "bytes": 3622,
+      "sha256": "3307975e9449cb3cd2f135225b5fbf88a4ad9db2515767e1ab4920870d188776"
+    },
+    {
+      "path": "assessment.md",
+      "bytes": 7237,
+      "sha256": "36b5a9494cd5add1d3cb42ab521ad31869d5009906557561e0483cd360d4dd99"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 21203,
+      "sha256": "b08a59f8cf801fc576572cf51aa2b8b832173e4c8ff1120952e9f53c2f1240b6"
+    }
+  ],
+  "manifestExcludedFromOwnBundle": true,
+  "historicalBoundFileIdentities": "39 additional historical entries recorded and verified in verification.json; no v1 input rebinding.",
+  "memoryDisposition": "READY-for-bounded-final-outcome",
+  "voiceDisposition": "READY-for-bounded-final-outcome",
+  "materialApplicationDefects": [],
+  "scopeIncident": "Corrected transient assessor relative-path write error; misplaced file copies absent, empty Desktop scaffold remains after policy-blocked cleanup. See verification.json.",
+  "liveProductRebound": false,
+  "criteriaAmended": false,
+  "qualityOrSuperiorityClaim": false
+}

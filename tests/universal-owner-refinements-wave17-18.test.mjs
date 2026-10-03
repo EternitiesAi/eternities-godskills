@@ -69,6 +69,6 @@ for (const [owner, reference, required] of instructions) {
 
 test('the refined product remains a verified, offline package', async () => {
   const result = await verifyProduct(product);
-  assert.equal(result.skillCount, 68);
+  assert.equal(result.skillCount, catalog.skills.length);
   assert.equal(result.releaseId, JSON.parse(await readFile(join(product, 'release.json'), 'utf8')).releaseId);
 });

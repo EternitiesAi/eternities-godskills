@@ -1,0 +1,40 @@
+{
+  "id": "voice-style-calibration",
+  "category": "writing",
+  "summary": "Infer and apply an evidence-based written voice across contexts while preserving meaning, attribution, and register distinctions.",
+  "triggers": [
+    "infer a project voice from authorized writing samples",
+    "adapt this draft to our brand or team voice across audiences",
+    "calibrate recurring writing traits and context-specific registers",
+    "compare conflicting voice examples before drafting"
+  ],
+  "antiTriggers": [
+    "one-off tone adjustment with no sample-based profile needed",
+    "deceptive imitation or false attribution of a real person",
+    "speech synthesis, voice cloning, or likeness generation",
+    "send or publish a draft without a named target and authority"
+  ],
+  "taskTypes": [
+    "create",
+    "communicate",
+    "verify"
+  ],
+  "related": [
+    "eternities-chorus"
+  ],
+  "specializes": "eternities-logos",
+  "resources": [],
+  "maturity": "instruction-reviewed",
+  "provenance": [
+    {
+      "kind": "authoring",
+      "source": "artifacts/cognitive-workflows-20261003/author-luna-a/source-ledger.md",
+      "note": "Fresh method informed by the approved contract and first-party owner boundaries; exact source identities and SHA-256 hashes are in the sidecar. This records initial authoring; later independent review is recorded separately."
+    },
+    {
+      "kind": "instruction-review",
+      "source": "artifacts/cognitive-workflows-20261003/voice-imagination-review-v2/review.md",
+      "note": "SHA-256 0bebafb5801baf390874e2224349c3eb119373b39cb2c9755c6662b6f8a68c0b. Independent document acceptance of the exact reviewed instructions; limited fixture applications and release checks are separate evidence. No performance superiority or source-rights clearance is implied."
+    }
+  ]
+}

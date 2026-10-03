@@ -1,0 +1,177 @@
+{
+  "schema": "cognitive-workflows-author-checks-v1",
+  "authorSlice": "sol-c",
+  "evidenceLevel": "Structural checks and source freshness; no independent instruction or behavioral evaluation",
+  "skills": [
+    {
+      "id": "completeness-and-consistency-audit",
+      "maturity": "draft",
+      "entrypointBodyWords": 616,
+      "files": [
+        {
+          "path": "product/skills/completeness-and-consistency-audit/references/coverage-template.md",
+          "bytes": 3725,
+          "sha256": "afb14dd68fe0735479deead5dcfb8dc4d71d6f4d8a36a5e7246afa73fea21340",
+          "words": 560
+        },
+        {
+          "path": "product/skills/completeness-and-consistency-audit/references/worked-audits.md",
+          "bytes": 5923,
+          "sha256": "dc8977704eb24d273dbc010a7ae1ea800efaa2c2df63622996a185fab6b906da",
+          "words": 847
+        },
+        {
+          "path": "product/skills/completeness-and-consistency-audit/skill.json",
+          "bytes": 1755,
+          "sha256": "5e772ab38c6a5891c1f4c65490ac1af1c792eb64a742e4d0c4d190c8575f60bf",
+          "words": null
+        },
+        {
+          "path": "product/skills/completeness-and-consistency-audit/SKILL.md",
+          "bytes": 4668,
+          "sha256": "4e434687d0f77a0577c6bd2c8b869fe60d409df5c5e6d5b6ee946771a78d5f71",
+          "words": 648
+        }
+      ],
+      "result": "passed"
+    },
+    {
+      "id": "long-horizon-work-continuity",
+      "maturity": "draft",
+      "entrypointBodyWords": 694,
+      "files": [
+        {
+          "path": "product/skills/long-horizon-work-continuity/references/continuity-packet.md",
+          "bytes": 3414,
+          "sha256": "224245f7beb6f1ab8266a68636e47723926ab760886771d47df49e1e70e33311",
+          "words": 491
+        },
+        {
+          "path": "product/skills/long-horizon-work-continuity/references/interruption-cases.md",
+          "bytes": 5544,
+          "sha256": "a922ecdc7620b3df8c7270ec0ec7e736e315af9a1582e6ed880c30276e702cc6",
+          "words": 799
+        },
+        {
+          "path": "product/skills/long-horizon-work-continuity/references/uncertain-effect-recovery.md",
+          "bytes": 3827,
+          "sha256": "a12fcc1b51a85bcaa392fbc534ba3be74bd6aef184019ca78774e6615d8f8f7f",
+          "words": 564
+        },
+        {
+          "path": "product/skills/long-horizon-work-continuity/skill.json",
+          "bytes": 2106,
+          "sha256": "2315f4367905ac7d62ccfa76bb56469f329c734a44b0889dca5a080db7f68077",
+          "words": null
+        },
+        {
+          "path": "product/skills/long-horizon-work-continuity/SKILL.md",
+          "bytes": 5456,
+          "sha256": "83584469ab0faf64844451aba67bfe4e9325d2c1f7d6580ff951bc90d3a34f5d",
+          "words": 730
+        }
+      ],
+      "result": "passed"
+    }
+  ],
+  "sources": [
+    {
+      "id": "approved-design",
+      "sha256": "5a805f2067444a16c75e18dd0805c731d927c4619b3e8dce191fef9ae80c3955",
+      "result": "matched"
+    },
+    {
+      "id": "approved-plan",
+      "sha256": "58260a3663dd53cb8f90bf2fe04491970d8e6280a9b605abee039174569423e5",
+      "result": "matched"
+    },
+    {
+      "id": "forge-entrypoint",
+      "sha256": "69dd108e325f48ccb2fe2833018f721e31f1725b109da9919faa89c93503267f",
+      "result": "matched"
+    },
+    {
+      "id": "forge-cards",
+      "sha256": "4e25671091310043e92358182918bfa32eefe08b34508f6d1cd6e4418ac45db5",
+      "result": "matched"
+    },
+    {
+      "id": "architect-entrypoint",
+      "sha256": "351269b25eb0a26b06e51abe774f0bb6a92d23953592196f48d70651dff2fb11",
+      "result": "matched"
+    },
+    {
+      "id": "architect-cards",
+      "sha256": "1873d742426d274e5b78bd10d24bdb67003e725e641dd4789766bfb0ca234b73",
+      "result": "matched"
+    },
+    {
+      "id": "mnemosyne-entrypoint",
+      "sha256": "43f83b2332ca21e65fa6b640a8489fe03c7ee58b8d5e1f1435ae31b027e32988",
+      "result": "matched"
+    },
+    {
+      "id": "mnemosyne-cards",
+      "sha256": "9b3bff3a805b833a4e3d72495382efab8b99e31a0719178a17f03ed4aca02d86",
+      "result": "matched"
+    },
+    {
+      "id": "phoenix-entrypoint",
+      "sha256": "8a522e555beb8e605b3b3751f7ffeb5cf6e924c85f8e0950620ab85899fbe111",
+      "result": "matched"
+    },
+    {
+      "id": "phoenix-cards",
+      "sha256": "aa9a1fefeb9e0ca5107f0b5fb3e3a97cf647c748b91922e3b3303c8bc90c8ebc",
+      "result": "matched"
+    },
+    {
+      "id": "hermes-entrypoint",
+      "sha256": "f578fba0bc4d10af9221e2fbd980ee4d21b0de71bda26428d282dabdd9152f90",
+      "result": "matched"
+    },
+    {
+      "id": "hermes-cards",
+      "sha256": "3f0a33559aba81a728d7aa47ab6f5d5c9686490d8d7e68a83b1ddf3136747aa4",
+      "result": "matched"
+    },
+    {
+      "id": "host-skill-creator",
+      "sha256": "cccd291077ec57c6f50ca6529f0f3fb93212da09473effb2fcec808e81b21288",
+      "result": "matched"
+    },
+    {
+      "id": "host-sovereign-refinery",
+      "sha256": "caac3fd18dd020810b8e67f0633773c430eba5a6fb4878209f73c0fc65b0306b",
+      "result": "matched"
+    },
+    {
+      "id": "host-refinery-cards",
+      "sha256": "a27941002823eb36b462e93b73dfe45d14c91205b18a48366b50e5b3abc46a85",
+      "result": "matched"
+    }
+  ],
+  "remainingGates": [
+    "Independent exact-byte instruction review",
+    "Independent raw fixture applications",
+    "Parent real-catalog discovery checks",
+    "Parent product integrity, export, release and installation gates"
+  ],
+  "result": "passed",
+  "commands": [
+    {
+      "command": "node artifacts/cognitive-workflows-20261003/author-sol-c/check-drafts.mjs",
+      "exitCode": 0
+    },
+    {
+      "command": "python -B C:/Users/Dom/.codex/skills/.system/skill-creator/scripts/quick_validate.py product/skills/completeness-and-consistency-audit",
+      "exitCode": 0,
+      "output": "Skill is valid!"
+    },
+    {
+      "command": "python -B C:/Users/Dom/.codex/skills/.system/skill-creator/scripts/quick_validate.py product/skills/long-horizon-work-continuity",
+      "exitCode": 0,
+      "output": "Skill is valid!"
+    }
+  ]
+}

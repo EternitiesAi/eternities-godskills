@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "case": "C04",
+  "scopeAuthority": "Current user run-v1 write scope and raw H0's exact fixture-note authority",
+  "path": "C04/task-state.md",
+  "write": "actual-apply_patch-local-fixture-file",
+  "readback": "actual-local-file-content-returned-and-inspected",
+  "bytes": 1452,
+  "sha256": "27de3b8dfe1c9eeca4aa16df90e3b8d50b910a409eb194af82a2572e7c574051",
+  "whitespaceWords": 198,
+  "observedUtc": "2026-10-03T06:15:22.0595321Z",
+  "contentMatchesWrittenNote": true,
+  "recoveredDecisionAnchors": ["H0", "D17", "D12", "T7", "R9", "S3", "N2"],
+  "recoveredCurrentSettings": {"cohort": 20, "reminderHours": 48, "inviteGate": "separate-owner-approval"},
+  "recoveredUncertainOperation": {"id": "EX9", "currentState": "unknown", "lastSnapshot": "R9-running", "partialOutput": "preview-EX9.zip.part"},
+  "oldN2StoreRecovered": false,
+  "globalOrHostMemoryWritten": false,
+  "coldSessionOrUnaidedRecallTested": false,
+  "claim": "One same-context local-file retention/readback, not live project state or general memory qualification."
+}

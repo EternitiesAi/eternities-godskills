@@ -1,0 +1,61 @@
+{
+  "id": "interpersonal-understanding-and-dialogue",
+  "category": "social",
+  "summary": "Clarify interpersonal meaning and prepare respectful dialogue by separating observed evidence from tentative interpretations.",
+  "triggers": [
+    "interpersonal misunderstanding with conflicting accounts",
+    "clarify someone's preference, need, or boundary",
+    "respectful negotiation with room to decline",
+    "conflict repair after a specific action or statement",
+    "reflective listening and a tentative perspective map"
+  ],
+  "antiTriggers": [
+    "routine copy edit or ordinary small talk",
+    "diagnosis, treatment, or psychological profiling",
+    "mind-reading or certainty about hidden motives",
+    "coercion, manipulation, or manufactured intimacy",
+    "demographic stereotypes used to infer an individual preference"
+  ],
+  "taskTypes": [
+    "plan",
+    "create",
+    "review",
+    "communicate"
+  ],
+  "related": [
+    "eternities-chorus",
+    "eternities-agora",
+    "eternities-athena"
+  ],
+  "resources": [
+    "references/examples.md"
+  ],
+  "maturity": "draft",
+  "provenance": [
+    {
+      "kind": "pattern-reference",
+      "source": "product/skills/eternities-chorus/SKILL.md",
+      "note": "SHA-256 34814474ccd29d642c87f50ebed24b56cef572cd6e6869d4ce8ca427c0eae5dc. Audience, evidence labels, and separation of drafting from action informed the fresh procedure."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "product/skills/eternities-chorus/references/stakeholder-updates.md",
+      "note": "SHA-256 02abdb2d7e61dc08579003d4f6b2f48bb6f4b0aacd16e4eaaa81abc5d3e6554f. Dated observations, uncertainty, non-diagnostic language, and not inventing actions or consent informed the method."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "product/skills/eternities-agora/SKILL.md",
+      "note": "SHA-256 a6602a256f8ad9e598947e18c057fd10c3b82f0ed6a44f7915fc439586c6225f. Separating facts, assessments, conflicts, and next actions informed the evidence map."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "product/skills/eternities-agora/references/business-decision-evidence.md",
+      "note": "SHA-256 9effd0372e4be72da4d9fdcd454e5b4c3ea313764f118f429b175e103f4ec188. Preserving opposing evidence and offering bounded options informed conflict handling; no business scoring workflow was adopted."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "product/skills/eternities-athena/SKILL.md",
+      "note": "SHA-256 cb4c4bc02d25e24945fb83d7663f8d868c60b2579614c06eaf4821bbd2afe8db. The observation, interpretation, and unknown distinction informed calibration; scientific appraisal procedures were not imported."
+    }
+  ]
+}

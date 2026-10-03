@@ -1,0 +1,37 @@
+{
+  "id": "completeness-and-consistency-audit",
+  "category": "agent-workflows",
+  "summary": "Trace declared obligations to actual artifacts, expose omissions and contradictions, and repair material dependencies within a finite coverage boundary.",
+  "triggers": [
+    "completeness and consistency audit",
+    "check deliverable against requirements missing details",
+    "trace obligation coverage across artifacts",
+    "contradictory documentation implementation dependency review"
+  ],
+  "antiTriggers": [
+    "ordinary typo correction",
+    "simple style edit",
+    "make output longer without a coverage problem"
+  ],
+  "taskTypes": ["verify", "plan", "build"],
+  "related": ["eternities-forge", "eternities-architect", "eternities-phoenix"],
+  "resources": ["references/coverage-template.md", "references/worked-audits.md"],
+  "maturity": "draft",
+  "provenance": [
+    {
+      "kind": "original",
+      "source": "docs/superpowers/specs/2026-10-03-cognitive-workflows-design.md",
+      "note": "Independently authored for the approved finite expansion. Exact source pins and dispositions are recorded in artifacts/cognitive-workflows-20261003/author-sol-c/source-ledger.json."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "product/skills/eternities-architect/references/methods.md",
+      "note": "Contract propagation and explicit uninspected coverage informed dependency tracing; no source prose was copied."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "product/skills/eternities-forge/references/methods.md",
+      "note": "Bounded closure and observable slice evidence informed finite audit and repair decisions. Draft author checks are not independent acceptance or measured superiority."
+    }
+  ]
+}
