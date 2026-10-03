@@ -35,6 +35,14 @@ const intentionalDiscoveryResource = {
   path: "skills/eternities-omnibus/references/methods.md",
   sha256: "b9f125b0b5b53d6a9875f8ae597b316db37523b10ef872d3dcf69366916a7f5a",
 };
+// Explicitly scoped next conditional reference; all four historical resource
+// hashes, existing scoring metadata and the Omnibus discovery revision remain
+// exact. Adding this path does not expand the selected four-method directory.
+const intentionalConfigurationResource = {
+  owner: "eternities-daedalus",
+  path: "skills/eternities-daedalus/references/configuration-lifecycle.md",
+  sha256: "8809c3f901722ee7a19cd1ca62def13573290813969c2268b4ac243489907c40",
+};
 const projectionFields = [
   "id",
   "category",
@@ -163,7 +171,7 @@ test("the immutable core2260 fixture is exact and all 68 scoring, relation, spec
   assert.deepEqual(scoringProjection(liveCore), scoringProjection(baselineCatalog.skills));
 });
 
-test("four historical new paths remain exact and only the scoped Omnibus discovery resource is revised", async () => {
+test("four historical paths remain exact, the configuration path is admitted, and only Omnibus is revised", async () => {
   const liveCatalog = JSON.parse(await readFile(join(productRoot, "catalog.json"), "utf8"));
   const baselineById = new Map(baselineCatalog.skills.map((skill) => [skill.id, skill]));
   const liveById = new Map(liveCatalog.skills.map((skill) => [skill.id, skill]));
@@ -192,13 +200,13 @@ test("four historical new paths remain exact and only the scoped Omnibus discove
       const right = b.join("|");
       return left < right ? -1 : left > right ? 1 : 0;
     });
-  assert.deepEqual(sortResources(added), sortResources(fourNewResources));
+  assert.deepEqual(sortResources(added), sortResources([...fourNewResources, intentionalConfigurationResource]));
   assert.deepEqual(removed, []);
   assert.deepEqual(changed, [intentionalDiscoveryResource.owner + ":" + intentionalDiscoveryResource.path]);
   assert.equal(resourceIndex(liveById.get(intentionalDiscoveryResource.owner)).get(intentionalDiscoveryResource.path), intentionalDiscoveryResource.sha256);
   assert.equal(sha256(await readFile(join(productRoot, intentionalDiscoveryResource.path))), intentionalDiscoveryResource.sha256);
 
-  for (const resource of fourNewResources) {
+  for (const resource of [...fourNewResources, intentionalConfigurationResource]) {
     const bytes = await readFile(join(productRoot, resource.path));
     assert.equal(sha256(bytes), resource.sha256, resource.path);
     const metadata = JSON.parse(await readFile(join(productRoot, "skills", resource.owner, "skill.json"), "utf8"));

@@ -45,7 +45,8 @@
   "resources": [
     "references/methods.md",
     "references/test-design-and-evidence.md",
-    "references/optional-model-scenarios-ci.md"
+    "references/optional-model-scenarios-ci.md",
+    "references/configuration-lifecycle.md"
   ],
   "maturity": "instruction-reviewed",
   "provenance": [
@@ -98,6 +99,11 @@
       "kind": "covered",
       "source": "kjuhwa/skills-hub@b8e7275ea024cc3f9d8551b41aa9ebf89b464cd1:skills/testing/browse/SKILL.md",
       "note": "Complete entrypoint reviewed; SHA-256 30ac9a72a68798a66b5e006046c9ccb58e47612705d5289442a0297fe0b0d4a3. Baseline/state diffs, element assertions, responsive and dialog cases, screenshots, and untrusted-content handling are covered in the new reference. The duplicate gstack path body with SHA-256 cfb9fd5db87c4912bfc6c7a9bfe7cdb6935f0ec2699ee5fcb9a171e2c349394f differs only in category and tags. Named browser commands, installation, telemetry, and host protocol were rejected or deferred as a platform adapter. Repository license notice is MIT; upstream obligations remain unresolved."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "nanocoai/nanoclaw@7902716b5b930215dbee4f56b8fb5b938d40468d:.claude/skills/manage-channels/SKILL.md",
+      "note": "Full inert body SHA-256 00156c70c80bd6a5e25eb0e5c066e6750e976e49bc38a1e38778826bc6e4e7e5 informed the original conditional configuration-lifecycle method. Materialized defaults, context-specific inheritance, adapter capability and renamed history keys were compared with existing owners. No source prose or commands copied; provider/workstation assumptions rejected. Source-specific provenance, rights and access remain separately unresolved; no R10 terminal outcome follows."
     },
     {
       "kind": "authoring",

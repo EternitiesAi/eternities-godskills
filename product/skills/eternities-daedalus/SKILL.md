@@ -15,6 +15,7 @@ Daedalus is the practical engineering route. It can inspect, plan, implement, re
 - **Integration and observability** connects components or instrumentation with schemas, ownership, failure behavior, and effect classification.
 - **Partial-commit recovery** maps durable effects, uncertain commits, and authorized compensation when a workflow must retain one effect while another fails; use the state-matrix card in [methods.md](references/methods.md).
 - **Migration and configuration** validates shape, precedence, compatibility, data movement, rollback, and environment boundaries before use.
+- Only when defaults or overrides affect existing durable objects, use [configuration lifecycle](references/configuration-lifecycle.md) to separate creation snapshots, live resolution, cache/refresh, capability and identity effects. A standalone constant with no persisted consumers does not need this reference.
 - **Performance and specialist methods** starts from a repeatable baseline and uses only evidence-supported techniques.
 - When a task introduces variable-output or potentially paid model scenarios that must remain outside required CI, use [optional model scenarios outside required CI](references/optional-model-scenarios-ci.md). This is a narrow test-selection and execution-boundary method; it does not replace ordinary local unit tests or qualify the repository's merge policy.
 

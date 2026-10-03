@@ -6,6 +6,18 @@ const media = /\b(?:audio|dsp|tts|speech|speaker|microphone|sample rate|plugin|c
 
 const profiles = [
   {
+    name: 'usability observation synthesis',
+    cues: [
+      ['people doing a task', /\b(?:participants?|users?|screen reader|task completion)\b/],
+      ['observed interaction', /\b(?:observations?|observed|hesitat\w*|struggl\w*|completed|completion|missed)\b/],
+      ['findings action', /\b(?:summariz\w*|synthesi\w*|recommend\w*|follow up|interpretation|findings)\b/],
+      ['interface or task artifact', /\b(?:checkout|sign up|signup|page|interface|website|app|usability|button|delivery fee|flow|prototype|form)\b/],
+    ],
+    exclude: /\b(?:clinical|placebo|drug|treatment|lab assay|waveform|dsp)\b/,
+    negated: /\b(?:do not|don t|never) (?:summariz\w*|synthesi\w*|interpret\w*|recommend\w*)(?: \w+){0,5} (?:observations?|usability findings)\b/,
+    metadata: [/\busability\b/, /\bobservations?\b/, /\b(?:studies|interviews|research)\b/],
+  },
+  {
     name: 'written authorial voice',
     cues: [
       ['authorial style', /\b(?:sound|read|write) (?:\w+ ){0,3}like (?:me|us|myself|something i would write)\b|\b(?:my|our|own|team s|brand|authorial) (?:\w+ ){0,2}(?:voice|writing style)\b|\bwriting samples\b/],

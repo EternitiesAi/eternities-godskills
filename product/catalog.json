@@ -1033,7 +1033,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-daedalus/SKILL.md",
-      "entrypointSha256": "ee2f0326f35e2a4efc952570dcd7956d04d1a4b5abc08e2a16f3a5776a09d347",
+      "entrypointSha256": "b1451db21752ad4f7f4fd3fa269b57e176191946aeb1701065e485327e89d0d8",
       "resources": [
         {
           "path": "skills/eternities-daedalus/references/methods.md",
@@ -1046,6 +1046,10 @@
         {
           "path": "skills/eternities-daedalus/references/optional-model-scenarios-ci.md",
           "sha256": "982db0a3b6811f7b7fde0fa6b31e06e3df0ed86bbf9dc9826209dc52877b61d8"
+        },
+        {
+          "path": "skills/eternities-daedalus/references/configuration-lifecycle.md",
+          "sha256": "8809c3f901722ee7a19cd1ca62def13573290813969c2268b4ac243489907c40"
         }
       ]
     },

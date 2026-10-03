@@ -40,7 +40,11 @@ Search combines weighted terms, a small explicit synonym vocabulary, stable
 ties, and bounded lexical intent profiles. A profile requires several request
 cues and matching skill metadata; it does not identify a skill from an exact
 query lookup. Profiles currently cover written voice, interpersonal clarification,
-task-record recovery, delivery completeness, and sustained-work reconciliation.
+task-record recovery, delivery completeness, sustained-work reconciliation, and
+corroborated usability-observation synthesis. The last profile requires people
+performing a task, observed interaction, a findings action, and an interface or
+task artifact; isolated usability vocabulary is not enough. These are explicit
+lexical rules, not a general semantic classifier or applicability judgment.
 Search returns matched terms, profile reasons and related IDs, and never executes
 anything. The `offline-lexical-intent-phrases-v3` method is deterministic lexical
 retrieval, not a claim of semantic understanding or vector-search superiority.
