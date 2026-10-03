@@ -12,6 +12,9 @@ const profiles = [
       ['text adaptation', /\b(?:sound|read) (?:\w+ ){0,3}like\b|\b(?:rewrite|adapt|draft|announcement|update|text|writing|facts|meaning|claims)\b/],
     ],
     exclude: media,
+    // A narrow explicit exclusion must not become positive ranking evidence.
+    // This does not claim arbitrary negation or quotation-scope parsing.
+    negated: /\b(?:do not|don t|never) (?:rewrite|write|adapt)(?: \w+){0,4} (?:my|our|own|team s|brand) (?:\w+ ){0,2}(?:voice|writing style)\b/,
     metadata: [/\bvoice\b/, /\b(?:samples|registers|traits|authorial)\b/],
   },
   {
@@ -55,7 +58,7 @@ const profiles = [
 
 export function lexicalQueryEvidence(query) {
   const text = normalize(query);
-  const intents = profiles.filter(profile => !profile.exclude?.test(text) &&
+  const intents = profiles.filter(profile => !profile.exclude?.test(text) && !profile.negated?.test(text) &&
     profile.cues.every(([, pattern]) => pattern.test(text)));
   return {intents, writtenVoice: intents.some(profile => profile.name === 'written authorial voice')};
 }

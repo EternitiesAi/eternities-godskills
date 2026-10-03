@@ -17,6 +17,17 @@ const developmentCases = [
   ['completeness-and-consistency-audit', 'what did we forget to deliver and which documents disagree'],
   ['long-horizon-work-continuity', 'finish this over the next few days and do not repeat a job that is already running'],
 ];
+
+test('explicit refusal of written-voice adaptation does not outrank requested implementation comparison',()=>{
+  const result=searchCatalog(catalog,'Do not rewrite in my voice; compare implementations and errors',{limit:3});
+  assert.equal(result.results[0]?.id,'semantic-implementation-diff');
+  assert.ok(result.results.every(x=>!x.reasons.some(r=>r.includes('written authorial voice'))));
+});
+
+test('a prohibition on factual invention does not suppress a separate positive written-voice request',()=>{
+  const result=searchCatalog(catalog,'Do not invent facts; rewrite this in my own voice using the samples',{limit:3});
+  assert.equal(result.results[0]?.id,'voice-style-calibration');
+});
 const variations = [
   ['voice-style-calibration', 'Rewrite this draft in my own voice and preserve the facts.'],
   ['voice-style-calibration', 'Use my writing samples to make this update read like something I would write.'],
