@@ -52,12 +52,21 @@ preserves the earlier scoring contracts and remains a historical exact release.
 The [educational microsimulation refinement](docs/educational-microsimulation-refinement-20261004.md)
 adds model-transition, invariant and probability-oracle depth to the existing
 learning owner, without changing the 77 discovery entries. Its
-[latest standalone ZIP](artifacts/releases/godskills-product-20261004-4520db08.zip)
+[microsimulation snapshot ZIP](artifacts/releases/godskills-product-20261004-4520db08.zip)
 and [SHA-256 sidecar](artifacts/releases/godskills-product-20261004-4520db08.zip.sha256)
 contain only the portable pack. A separate
 [offline fictional learner example](artifacts/microsimulation-method-20261004/application-v2/README.md)
 demonstrates the procedure's use; bounded software checks are not learner-efficacy
 or general agent-superiority evidence.
+
+The [conditional study and literature-synthesis refinement](docs/conditional-study-synthesis-refinement-20261004.md)
+adds access-sensitive study planning and staged, source-anchored synthesis under
+the existing user-study and Logos owners. The
+[latest standalone ZIP](artifacts/releases/godskills-product-20261004-5755594f.zip)
+and [SHA-256 sidecar](artifacts/releases/godskills-product-20261004-5755594f.zip.sha256)
+retain 77 entrypoints and the earlier scoring contracts. These methods load
+only for matching tasks; separate instruction/package reviews are not live
+study, scientific-outcome or whole-quarry qualification.
 
 For a new computer, copy only `product/` or export its verified standalone ZIP:
 

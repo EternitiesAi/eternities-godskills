@@ -36,10 +36,16 @@
     "eternities-muse"
   ],
   "resources": [
-    "references/methods.md"
+    "references/methods.md",
+    "references/staged-literature-synthesis.md"
   ],
   "maturity": "instruction-reviewed",
   "provenance": [
+    {
+      "kind": "conditional-method-review",
+      "source": "EvoScientist/EvoSkills@7dde27cda0ae57b863a371175275db8eaa02dcb2:skills/research-survey/SKILL.md",
+      "note": "references/staged-literature-synthesis.md is original conditional guidance, independently instruction-reviewed at c06ccf3ab1c799202214087e3d1caa4f8452d18e7a145cd8fcc8f599f19c48d9. Exact inert body SHA-256 2d547783c85a76dad5f66c15e343bc333a9860aca3576f829a6d375624650d58 informed the adaptive-outline, staged-body and anchored-summary pattern. No upstream prose, quotas, acquisition scripts, templates, mandatory mathematics or automatic winner is imported. Source rights/provenance and historical context remain held and nonterminal; no real scientific synthesis or systematic-review outcome is qualified."
+    },
     {
       "kind": "source",
       "source": "skills/eternities-logos/SKILL.md",

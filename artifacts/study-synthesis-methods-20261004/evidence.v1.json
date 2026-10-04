@@ -1,0 +1,32 @@
+{
+  "schema": "godskills-conditional-study-synthesis-release-evidence-v1",
+  "releaseId": "5755594ff5a8623d992b2537efdb827a9c5df37521418722efca7d1532cdc37e",
+  "baselineCommit": "a39510efdbb23a4fb18d8931b0935a94e7e75af2",
+  "entrypoints": 77,
+  "payloadFiles": 254,
+  "runtimeFiles": 255,
+  "newEntrypoints": 0,
+  "orderedScoringProjectionsChanged": false,
+  "runtimeDiscoveryCodeChanged": false,
+  "conditionalMethods": [
+    {"owner":"user-research-and-usability-study","path":"skills/user-research-and-usability-study/references/accessible-user-study.md","sha256":"a2d5726407966adc2846b21ac9174ee0d21014769a6739a1cd876413fa58de0a","sourceMethodReviewReceiptSha256":"5e7d1224e830b67d987d92482a0bcd2a6c1d9c8883448817c39c16ec8ae39359"},
+    {"owner":"eternities-logos","path":"skills/eternities-logos/references/staged-literature-synthesis.md","sha256":"ce55918cf0966beab0c4103a8cc2de69c517c7581c22320bfa2009d86b145c78","sourceMethodReviewReceiptSha256":"c06ccf3ab1c799202214087e3d1caa4f8452d18e7a145cd8fcc8f599f19c48d9"}
+  ],
+  "exactCandidateManifestSha256": "d6f162195be8acc579fa7b2f3ff775086a0920f6f77ad6fb557648923e02a63f",
+  "fullSuite": {"receiptSha256":"dd4650c8446d5c317751ae4df857f86a7964a3fb1c6e0a4fca3d6fd20d8b935a","tests":1524,"pass":1522,"fail":0,"skip":2,"beforeVerifiedFiles":10,"afterVerifiedFiles":10,"repeatedForPublication":false,"limits":"Windows symlink creation unavailable; different-volume destination fixture skipped. Software/package tests are not participant or synthesis outcomes."},
+  "focusedPass": 38,
+  "newPackagingChecksObservedRedThenGreen": 5,
+  "independentIntegration": {"disposition":"READY_NARROW_PACKAGE_ONLY","receiptSha256":"715cab74342b426a4db1aa3ff12271f6d518e5bbec2ee290dc65523e85dd7a97","reportSha256":"9de584cf9392f5ca2c3f207d99dc3d8039920f2bcd3a7e8e514479302ce0fcaf","parentAcceptanceSha256":"c8734972b9976db488150d6152cc680fd3b05f6c98c3bfdaea0b288a232307ad","parentVerifiedPhysicalInputs":31,"parentVerifiedBaselineGitBlobs":21,"parentVerifiedOutputs":1,"wholeContemporaryWorktreeApproved":false},
+  "archive": {"path":"artifacts/releases/godskills-product-20261004-5755594f.zip","sha256":"2d8b31a06e9ec3d56124a88e6829c775be289c1456bb8448ff9dbde28fb8afe5","bytes":1349162,"members":255,"exactSecondaryMemberCheck":true,"secondaryReader":"System.IO.Compression.ZipFile and SHA256, separate from Node exporter","privateRecordsOrQuarryIncluded":false},
+  "protectedActivationPathsUnchanged": true,
+  "sourceBodiesExecuted": false,
+  "sourceRightsOrHistoricalContextCleared": false,
+  "actualParticipantOrSynthesisOutcome": false,
+  "automaticSelectionOrSuperiorityProven": false,
+  "knownEducationalDiscoveryMissPreserved": true,
+  "r10Applied": false,
+  "r10ActualOpenObligations": 49514,
+  "r10Conflicts": 163,
+  "wholeCorpusComplete": false,
+  "deployment": "Separate release/install checkpoint; not implied by package review or this archive."
+}

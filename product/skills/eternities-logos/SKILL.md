@@ -30,6 +30,10 @@ Logos turns source material into a durable local artifact without erasing its pr
 
 Return the artifact or structural representation, provenance ledger, uncertainty, material revisions, exclusions, acceptance checks, and next owner. Finish when another reader can distinguish fact from interpretation and the artifact does not simulate publication. The evidence-derived engineering-documentation method is in [methods.md](references/methods.md).
 
+For a reasoned multi-document evidence report, use conditional
+[staged literature synthesis](references/staged-literature-synthesis.md). Do not
+load it for ordinary copy edits or a single-source summary.
+
 A source ledger or document blueprint is a checkpoint when the user also requested an authorized local document change. Continue into drafting, editing, and link or freshness checks without requesting permission already supplied. Pause only for missing authority or material rights, canon, privacy, or evidence risk.
 
 Example: inspect the code path and verification output, update the local runbook's configuration section, and verify every command and version claim against the same revision.

@@ -33,6 +33,9 @@ visual art direction or technical UI checks with evidence of human usability.
    with its appropriate implementation owner; research alone authorizes no
    recruitment, recording or publication.
 
-Use [methods.md](references/methods.md) for guide design and synthesis. Finish
+Use [methods.md](references/methods.md) for guide design and synthesis. For
+access-sensitive participant sessions, use the conditional
+[accessible user study](references/accessible-user-study.md) procedure; do not
+load it for ordinary interface checks or market copy. Finish
 with a decision-ready plan or findings packet and honest observation limits.
 Planning and simulated examples do not prove human acceptance or product-market fit.

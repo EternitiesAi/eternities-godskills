@@ -7,9 +7,10 @@
   "taskTypes": ["research", "plan", "verify", "create"],
   "specializes": "eternities-prometheus",
   "related": ["eternities-muse", "eternities-athena", "eternities-beacon", "eternities-atlas"],
-  "resources": ["references/methods.md"],
+  "resources": ["references/methods.md", "references/accessible-user-study.md"],
   "maturity": "instruction-reviewed",
   "provenance": [
+    {"kind":"conditional-method-review","source":"Owl-Listener/designer-skills@9a6930cf84a822eb458624bd11c61aac5bbdf224:prototyping-testing/skills/accessibility-test-plan/SKILL.md","note":"references/accessible-user-study.md is original conditional guidance, independently instruction-reviewed at source-method receipt 5e7d1224e830b67d987d92482a0bcd2a6c1d9c8883448817c39c16ec8ae39359. Exact inert body SHA-256 3124c56e250ae4bc7535af798e462bc7c93bae4ace8e45a513475734e5c9fdbc informed the bounded pattern; no upstream prose, capture service or checklist approval is imported. Source rights/access and historical context holds remain unresolved and nonterminal; no live study or accessibility certification follows."},
     {"kind":"pattern-reference","source":"anthropics/knowledge-work-plugins@5267cf7bff3031921d4474b8e8f86ad02d2b8f6d:design/skills/user-research/SKILL.md","note":"Full source body SHA-256 c72224f47474de011e8523550843ba2a5e5fd1e008c78456b2d166567fa3fac6. Method/guide/synthesis concepts informed independent writing. Fixed sample counts and schedules rejected; neutral tasks, assisted outcomes and evidence denominators independently developed. Root Apache-2.0 notice observed, not legal clearance."},
     {"kind":"authoring","source":"product/skills/user-research-and-usability-study/","note":"Original provider-neutral study and observation procedure; no source prose copied, no real participants or human outcome qualified by instruction review."}
   ]

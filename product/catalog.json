@@ -1270,11 +1270,15 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-logos/SKILL.md",
-      "entrypointSha256": "a215da7877c4ef33e83796209488dcf5b390bf1f91b38098ba47d1c89a8f11d2",
+      "entrypointSha256": "c7e7121ebe2e61eaf4ff646cd2a1bb3d8215403af060bb41b14938888c44961a",
       "resources": [
         {
           "path": "skills/eternities-logos/references/methods.md",
           "sha256": "a79d6f724763afab227f6d9d347b2dad51031eefa1303284466df2eda8492ce3"
+        },
+        {
+          "path": "skills/eternities-logos/references/staged-literature-synthesis.md",
+          "sha256": "ce55918cf0966beab0c4103a8cc2de69c517c7581c22320bfa2009d86b145c78"
         }
       ]
     },
@@ -2805,11 +2809,15 @@
       "specializes": "eternities-prometheus",
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/user-research-and-usability-study/SKILL.md",
-      "entrypointSha256": "8d6a510d500adf43cf3b439c3525aa5792aeb7601cd84ffa877ef5039313f13f",
+      "entrypointSha256": "5632fbaea3aeae5fe347927e162dd60f81d99f6ccdb83e02cb979cdc24e4bb4a",
       "resources": [
         {
           "path": "skills/user-research-and-usability-study/references/methods.md",
           "sha256": "e7d644a31a71e085fda0f6ff3c23879be0c3e1e22f4b62ff778af039d892985d"
+        },
+        {
+          "path": "skills/user-research-and-usability-study/references/accessible-user-study.md",
+          "sha256": "a2d5726407966adc2846b21ac9174ee0d21014769a6739a1cd876413fa58de0a"
         }
       ]
     },

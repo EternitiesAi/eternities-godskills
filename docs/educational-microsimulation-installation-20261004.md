@@ -3,8 +3,10 @@
 The reviewed portable release `4520db08b6ca5dbc8cc93f08585d7c021282ea021d80b9896ecbf9f06995651e`
 was pushed at implementation commit `589679f2052d3147f9d8998008b2a0e84b6c555e`
 and installed into the existing native skill collection and portable runtime.
-This is the parent's exact deployment check; a separate non-installer audit is
-pending at this checkpoint.
+The original parent checkpoint was followed by a separate non-installer audit.
+The historical parent receipt retains its earlier pending-audit state; the
+later [independent addendum](../artifacts/microsimulation-method-20261004/deployment-independent.v1.json)
+records the completed scope-specific judgment.
 
 The [deployment record](../artifacts/microsimulation-method-20261004/deployment-parent.v1.json)
 binds the before/after manifests and completed installation journal. All 252
@@ -26,3 +28,12 @@ The [implementation and example record](educational-microsimulation-refinement-2
 describes the narrower software evidence and its limits. No learner study,
 source-rights clearance, general agent advantage or terminal quarry application
 follows from installation. Whole-corpus work is still unfinished.
+
+The separate reviewer checked actual runtime/native files, the immediately
+preceding release's backup and the 77-owner completed journal; one installed
+content-validation command passed. During review, main moved to the
+documentation-only commit. Two stale fixed-ref assertions failed and remain
+preserved, while ancestry and exact product/protected-path checks confirmed the
+pinned deployment. The reviewer did not reinstall, execute rollback or repeat
+the full suite. Discovery's negative observation remains open, not replaced by
+a different favorable query.
