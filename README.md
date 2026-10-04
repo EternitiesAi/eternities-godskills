@@ -67,6 +67,8 @@ and [SHA-256 sidecar](artifacts/releases/godskills-product-20261004-5755594f.zip
 retain 77 entrypoints and the earlier scoring contracts. These methods load
 only for matching tasks; separate instruction/package reviews are not live
 study, scientific-outcome or whole-quarry qualification.
+The [separate installation record](docs/conditional-study-synthesis-installation-20261004.md)
+records the backed-up local upgrade and preservation of unrelated skills.
 
 For a new computer, copy only `product/` or export its verified standalone ZIP:
 

@@ -7,6 +7,8 @@ The content release is
 `5755594ff5a8623d992b2537efdb827a9c5df37521418722efca7d1532cdc37e`.
 Publication and installation are separate effects from the package checks
 recorded here. See the [exact evidence](../artifacts/study-synthesis-methods-20261004/evidence.v1.json).
+The [installation checkpoint](conditional-study-synthesis-installation-20261004.md)
+records the subsequent verified local upgrade and backup separately.
 
 The [standalone ZIP](../artifacts/releases/godskills-product-20261004-5755594f.zip)
 contains 255 files: 254 declared payloads and the release manifest. It is
