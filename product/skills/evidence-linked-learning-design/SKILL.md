@@ -9,6 +9,8 @@ Turn a lesson, course unit, or workplace training request into a learning experi
 
 For a substitute-facilitator handoff or learner report, read [handoffs and reporting](references/handoffs-and-reporting.md). These use existing evidence and plans; do not rebuild a course just to prepare a day's cover notes or draft a comment.
 
+When learners need to manipulate a bounded model to test a specific prediction or misconception, use [educational microsimulation](references/educational-microsimulation.md). It adds explicit state, units, transitions, invariants, replay and probability checks. Do not load it for ordinary lesson plans or reporting; prefer a static example when interaction adds no useful causal feedback.
+
 ## Start from the learner and the evidence
 
 Recover the topic, audience, duration, prerequisites, teaching setting, available materials and accessibility needs from context. Ask only for missing details that would change the design. If a curriculum or credential standard matters, use the supplied authoritative version or retrieve the current official source. Record its jurisdiction and version; never manufacture standard identifiers. Without verified standards, provide a useful provisional lesson and mark alignment unverified.

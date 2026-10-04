@@ -1,0 +1,34 @@
+{
+  "schema": "godskills-proposal-deployment-parent-v1",
+  "recordedAtUtc": "2026-10-04T01:59:16.636Z",
+  "publishedContentCommit": "a84bc232aaebd1d62d0b95f65ce56e6f673df9b8",
+  "releaseId": "6c36ebcdcda1df53006015e47e348189f14fc11968a7c153767dafeea0531520",
+  "previousReleaseId": "d6e1ba88549e7d94ca5d468fa006622a50dd18d46e22d1552051ade82841ac36",
+  "installed": true,
+  "verification": "Parent exact post-install inventory and live validation; independent non-installer audit has separate versioned record.",
+  "skillCount": 77,
+  "managedNativeFiles": 220,
+  "runtimeFiles": 252,
+  "backup": {
+    "verified": true,
+    "priorManagedFiles": 219,
+    "priorRuntimeFiles": 251,
+    "freshBackup": true,
+    "olderBackupsPreserved": true
+  },
+  "unrelatedNativeFilesPreserved": 56,
+  "manifestBindings": {
+    "beforeSha256": "afa3b8ee561fb1dd4ef177718ad4c9e035a1af8ea165fa95df3c58c0038501d4",
+    "afterSha256": "5df6aa6d0ffdf95dca5cc6df0aacc1472871a6e9a4f25979623343d7f808cd20",
+    "journalSha256": "94f140ad7a51444cbec1ab04b90650cbd001b0fdfe33a5e896f06d1d8e627d60"
+  },
+  "installedCliValidated": true,
+  "lexicalQuery": "Parent relevant query placed Agora first; independent reviewer used a different existing query and observed Agora second. Neither establishes general semantic selection or quality.",
+  "freshChatUiOrNativeLoaderRefreshObserved": false,
+  "globalInstructionsChanged": false,
+  "providerSettingsChanged": false,
+  "scheduledTasksEnabled": false,
+  "sourceRightsCleared": false,
+  "r10Applied": false,
+  "wholeCorpusComplete": false
+}

@@ -48,6 +48,11 @@ const intentionalResearchProposalResource = {
   path: "skills/eternities-agora/references/research-funding-proposal.md",
   sha256: "6bd7d41a9af3b40dc041ffeab73b8f692aba16910f4c72253e090ba451eee322",
 };
+const intentionalEducationalMicrosimulationResource = {
+  owner: "evidence-linked-learning-design",
+  path: "skills/evidence-linked-learning-design/references/educational-microsimulation.md",
+  sha256: "4f42471a7b33b9af45203a54eb82a3c95c6c19106446e0b9097006daff2f3b2e",
+};
 const projectionFields = [
   "id",
   "category",
@@ -176,7 +181,7 @@ test("the immutable core2260 fixture is exact and all 68 scoring, relation, spec
   assert.deepEqual(scoringProjection(liveCore), scoringProjection(baselineCatalog.skills));
 });
 
-test("four historical paths remain exact, configuration and research references are admitted, and only Omnibus is revised", async () => {
+test("historical paths remain exact, named optional owner references are admitted, and only Omnibus is revised", async () => {
   const liveCatalog = JSON.parse(await readFile(join(productRoot, "catalog.json"), "utf8"));
   const baselineById = new Map(baselineCatalog.skills.map((skill) => [skill.id, skill]));
   const liveById = new Map(liveCatalog.skills.map((skill) => [skill.id, skill]));
@@ -205,13 +210,13 @@ test("four historical paths remain exact, configuration and research references 
       const right = b.join("|");
       return left < right ? -1 : left > right ? 1 : 0;
     });
-  assert.deepEqual(sortResources(added), sortResources([...fourNewResources, intentionalConfigurationResource, intentionalResearchProposalResource]));
+  assert.deepEqual(sortResources(added), sortResources([...fourNewResources, intentionalConfigurationResource, intentionalResearchProposalResource, intentionalEducationalMicrosimulationResource]));
   assert.deepEqual(removed, []);
   assert.deepEqual(changed, [intentionalDiscoveryResource.owner + ":" + intentionalDiscoveryResource.path]);
   assert.equal(resourceIndex(liveById.get(intentionalDiscoveryResource.owner)).get(intentionalDiscoveryResource.path), intentionalDiscoveryResource.sha256);
   assert.equal(sha256(await readFile(join(productRoot, intentionalDiscoveryResource.path))), intentionalDiscoveryResource.sha256);
 
-  for (const resource of [...fourNewResources, intentionalConfigurationResource, intentionalResearchProposalResource]) {
+  for (const resource of [...fourNewResources, intentionalConfigurationResource, intentionalResearchProposalResource, intentionalEducationalMicrosimulationResource]) {
     const bytes = await readFile(join(productRoot, resource.path));
     assert.equal(sha256(bytes), resource.sha256, resource.path);
     const metadata = JSON.parse(await readFile(join(productRoot, "skills", resource.owner, "skill.json"), "utf8"));

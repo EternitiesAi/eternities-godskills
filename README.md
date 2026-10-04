@@ -35,13 +35,29 @@ pack. Use the export command below for the current verified content.
 
 The [configuration and usability-discovery refinement](docs/product-configuration-discovery-refinement-20261003.md)
 adds a conditional durable-settings method and a reviewed lexical discovery
-profile without increasing the entrypoint count. Its
-[current standalone 77-entrypoint ZIP](artifacts/releases/godskills-product-20261003-d6e1ba88.zip)
+profile without increasing the entrypoint count.
+[That refinement's 77-entrypoint ZIP](artifacts/releases/godskills-product-20261003-d6e1ba88.zip)
 and [SHA-256 sidecar](artifacts/releases/godskills-product-20261003-d6e1ba88.zip.sha256)
 are distinct from the historical 74-entrypoint snapshots above. The qualification
 record preserves the independent checks, negative examples and unfinished quarry.
 The [separate refinement installation record](docs/product-configuration-discovery-installation-20261003.md)
 records the verified local upgrade, exact file counts and preservation boundary.
+
+The [research-funding proposal refinement](docs/product-research-proposal-refinement-20261003.md)
+adds a detailed optional method under Agora, with two bounded fresh-context
+applications and a [separate deployment audit](docs/product-research-proposal-deployment-20261004.md).
+Its [77-entrypoint snapshot](artifacts/releases/godskills-product-20261003-6c36ebcd.zip)
+preserves the earlier scoring contracts and remains a historical exact release.
+
+The [educational microsimulation refinement](docs/educational-microsimulation-refinement-20261004.md)
+adds model-transition, invariant and probability-oracle depth to the existing
+learning owner, without changing the 77 discovery entries. Its
+[latest standalone ZIP](artifacts/releases/godskills-product-20261004-4520db08.zip)
+and [SHA-256 sidecar](artifacts/releases/godskills-product-20261004-4520db08.zip.sha256)
+contain only the portable pack. A separate
+[offline fictional learner example](artifacts/microsimulation-method-20261004/application-v2/README.md)
+demonstrates the procedure's use; bounded software checks are not learner-efficacy
+or general agent-superiority evidence.
 
 For a new computer, copy only `product/` or export its verified standalone ZIP:
 

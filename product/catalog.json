@@ -1607,11 +1607,15 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/evidence-linked-learning-design/SKILL.md",
-      "entrypointSha256": "17d952adc8ba43eb243911c58fa67841de5040445e8c327d3c4161bfb2b6385f",
+      "entrypointSha256": "5cb9a8fc967b0c3d404f699a689abed851b75e56c85a19c9b575e5d6aa143ea2",
       "resources": [
         {
           "path": "skills/evidence-linked-learning-design/references/handoffs-and-reporting.md",
           "sha256": "8722eaf7532007db27228e1b699fc0835cf46229a605801fb5cdc154924e870c"
+        },
+        {
+          "path": "skills/evidence-linked-learning-design/references/educational-microsimulation.md",
+          "sha256": "4f42471a7b33b9af45203a54eb82a3c95c6c19106446e0b9097006daff2f3b2e"
         }
       ]
     },

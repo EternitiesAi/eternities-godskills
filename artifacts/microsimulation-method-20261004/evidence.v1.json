@@ -1,0 +1,141 @@
+{
+  "schema": "godskills-educational-microsimulation-public-evidence-v1",
+  "recordedAtUtc": "2026-10-04T02:39:17.599Z",
+  "baselineCommit": "a84bc232aaebd1d62d0b95f65ce56e6f673df9b8",
+  "releaseId": "4520db08b6ca5dbc8cc93f08585d7c021282ea021d80b9896ecbf9f06995651e",
+  "skillCount": 77,
+  "payloadFiles": 252,
+  "runtimeFiles": 253,
+  "delta": "One original optional method under existing evidence-linked-learning-design; all77ordered indexed projections unchanged.",
+  "method": {
+    "path": "product/skills/evidence-linked-learning-design/references/educational-microsimulation.md",
+    "sha256": "4f42471a7b33b9af45203a54eb82a3c95c6c19106446e0b9097006daff2f3b2e",
+    "procedureTailExactToRepairedDraft": true,
+    "maturity": "instruction-reviewed"
+  },
+  "independentGuidanceIntegration": {
+    "verdict": "READY_NARROW",
+    "reviewerModel": "gpt-6-luna",
+    "receiptSha256": "4ca43899769948d06066846c957d513a9d6eeb79f2eceb67f4bdf20f3ded0d6a",
+    "reportSha256": "cbc73447955c7528766ec4d9fba1e87334224060f5e8144955378bdd16bd8d6b",
+    "parentAcceptanceSha256": "c82628a0feeada3942a685b968823a2cbba7f2a57cf3e295364b7eacbb8c3346",
+    "exactInputsVerified": 47,
+    "implementationTrialIncluded": false
+  },
+  "fullSoftwareChecks": {
+    "registered": 1491,
+    "pass": 1489,
+    "fail": 0,
+    "environmentSkips": 2,
+    "exactFilesBeforeAndAfter": 7,
+    "focusedPasses": 45,
+    "receiptSha256": "2e08ef79203c7698a1ed2f9d241994432d0c7fbbf4d7a6ffc19f85b6933a0f1e",
+    "skipReasons": [
+      "Unavailable Windows symlink creation",
+      "Optional different-volume fixture"
+    ]
+  },
+  "archive": {
+    "path": "artifacts/releases/godskills-product-20261004-4520db08.zip",
+    "sha256": "6223b4ff9b7fe9265028442352fac5cd581130dc63c8b22bda0af0973351adb0",
+    "bytes": 1312717,
+    "members": 253,
+    "allMembersCheckedBySeparateZipReader": true
+  },
+  "firstPartyApplication": {
+    "path": "artifacts/microsimulation-method-20261004/application-v2",
+    "files": [
+      {
+        "path": "MODEL.md",
+        "bytes": 6006,
+        "sha256": "794f22c12c27be29b63cc7a6cbd3cd455124ce93e3dccd845a879d4f8166e831"
+      },
+      {
+        "path": "README.md",
+        "bytes": 2992,
+        "sha256": "36742311f34240f8a53f4fe46922db8a9c9ac74724765df64f34d12f71680470"
+      },
+      {
+        "path": "VALIDATION.md",
+        "bytes": 2708,
+        "sha256": "927de0bbc9b2e7d6e8aa079d694718f9c1dba5878224bdf590bf00f36a959f5c"
+      },
+      {
+        "path": "learner.mjs",
+        "bytes": 11042,
+        "sha256": "715f15b06ef914667665e5a8be5d58fedc698c60838b270ee419d50b2ec8e6e7"
+      },
+      {
+        "path": "simulation.mjs",
+        "bytes": 6637,
+        "sha256": "f46cf79dd3db01794951373ddb0cd78ab7eeb5c419a752663be6cdbf3002d317"
+      },
+      {
+        "path": "tests/simulation.test.mjs",
+        "bytes": 8232,
+        "sha256": "835fbd10317a12c52c3e3447841a75b4303ee6beb330535ca7a28411f2f24184"
+      }
+    ],
+    "authorModel": "gpt-6-luna",
+    "authorReasoning": "max",
+    "freshContext": true,
+    "hostInstructionsRemain": true,
+    "task": "Fictional atomic-bin transition and chosen-pair/exact-spinner-enumeration lessons",
+    "independentParentRuntimeChecks": {
+      "modelCases": 58,
+      "scriptedCliPaths": 8,
+      "includedTestsPass": 28,
+      "receiptSha256": "50e04ace2ede3ca6ce31c95ee1449bbdb73ca3835ae3dd06c19625495998c574",
+      "copiedNeutralFolder": true,
+      "emptyPath": true,
+      "providerCredentialsRequired": false,
+      "sameHostWindows": true
+    },
+    "independentApplicationReview": {
+      "status": "READY_NARROW for the exact fictional offline implementation",
+      "reviewerModel": "gpt-6-luna",
+      "receiptSha256": "6c48fca4c69ad6de0079721066d6534bce8db870fc5ab679edcfb55f2ae06684",
+      "reportSha256": "ac9b0dc80e1ae00e8b2d0348541cd79d0520ca40eede835a7bd144bed5025361",
+      "parentAcceptanceSha256": "03d0dff4add6cc3f8daaa676a6d70842730f5f1353c4b475fab27bc2ec416c8d",
+      "checkedEvidenceInputs": 30,
+      "distinctReviewerProbes": 1,
+      "authorAndReviewerSeparate": true,
+      "learnerEfficacyOrUniversalOutcomeAcceptance": false
+    }
+  },
+  "negativeEvidence": {
+    "originalImplementationEofFailure": "Three bounded spinner EOF cases emitted indefinitely and failedENOBUFS; v1 and failures preserved.",
+    "repair": "Versionedv2 checksnull beforetrimming and adds17EOF regressions; arithmetic unchanged.",
+    "parentPlanCorrection": "Initial(3,2)k2 correctlyaccepts(1,4); parent mistaken paper expectation corrected additively, not code/test rule weakened."
+  },
+  "protectedPaths": [
+    {
+      "path": "src/adaptive-activation.mjs",
+      "bytes": 8386,
+      "sha256": "9844aee1147f7129f3e37067424ccebb88ff478de1b7a9a9fb7306d5f2fdbd82"
+    },
+    {
+      "path": "policies/adaptive-activation.v1.json",
+      "bytes": 849,
+      "sha256": "b87bbfaddecb42417e57202173220bf240204d27b7de5fffc9e609eb18138939"
+    },
+    {
+      "path": "artifacts/adaptive-activation/evidence.v1.json",
+      "bytes": 1910,
+      "sha256": "b55a5cb4f7ff039cc7f4027c165b2f151bad723d9030913076a4225342fbe8c5"
+    }
+  ],
+  "sourceRightsCleared": false,
+  "historicalPreReadProofRecovered": false,
+  "r10Applied": false,
+  "r10ActualOpenObligations": 49514,
+  "r10Conflicts": 163,
+  "wholeCorpusComplete": false,
+  "learnerEfficacy": false,
+  "physicalModelValidity": false,
+  "humanAccessibilityVerified": false,
+  "matchedRawAgentComparison": false,
+  "automaticNativeSelectionProven": false,
+  "universalSuperiority": false,
+  "deployment": "Not established by this implementation record; separate exact installation receipt required."
+}

@@ -23,9 +23,14 @@
     "eternities-athena",
     "eternities-muse"
   ],
-  "resources": ["references/handoffs-and-reporting.md"],
+  "resources": ["references/handoffs-and-reporting.md", "references/educational-microsimulation.md"],
   "maturity": "instruction-reviewed",
   "provenance": [
+    {
+      "kind": "pattern-reference",
+      "source": "ynulihao/AgentSkillOS@c3cfae10ea34a13973c461273ad9c5cc4aa907fe:data/skill_seeds/microsim-generator/SKILL.md",
+      "note": "Exact8299-byte source body SHA-25602f5da41751f7368757462e025de78ab0fb33b7a441cfc0b5d2bb43c3178789b inspected as inert comparison evidence. Independently authored portable learner-model procedure extends the existing learning-design owner; no source code, subordinate guide, template, renderer/library requirement or local deployment layout is adopted. Source rights and historical pre-read seal proof remain unreviewed; source disposition is nonterminal. Document review is not domain validation, learning efficacy, runtime qualification or R10 application."
+    },
     {
       "kind": "pattern-reference",
       "source": "easedup/educator-skills@8a6f3a22df5bdeb0d18d2edc5f46d6e2b61c62e1:skills/planning/lesson-planner/SKILL.md",
