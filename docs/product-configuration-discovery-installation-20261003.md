@@ -35,3 +35,19 @@ still correctly says `installed: false`: it records an earlier event. This
 separate deployment receipt records the verified later installation instead of
 rewriting that historical evidence. A separately assigned non-installer audit
 is not claimed completed by this parent verification record.
+
+## Subsequent independent deployment check
+
+A different, non-installer Luna Max reviewer subsequently checked the exact
+before/after delta, live installed and backup files, all 77 IDs, unchanged
+unrelated files, new reference links and caller availability. It returned READY
+narrowly; parent verified its three input and three output bindings and nine
+live delta-file hashes. The native delta is one added reference and two modified
+Daedalus files; the runtime delta is one addition and six modifications, with
+no removals. The prior 218 native/250 runtime files remain exactly in the backup.
+
+One newly authored installed CLI query retrieved the usability skill first while
+remaining review-required. This is an actual CLI result, not an agent-outcome
+test or app enumeration. The [separate independent-review receipt](evidence/godskills-refinement-20261003/deployment-independent-review-v1.json)
+records this later evidence. Earlier release and parent deployment receipts were
+not rewritten. All source-quarry and performance limits above remain in force.

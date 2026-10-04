@@ -1,0 +1,36 @@
+{
+  "schema": "eternities-godskills-refinement-independent-deployment-review-v1",
+  "releaseId": "d6e1ba88549e7d94ca5d468fa006622a50dd18d46e22d1552051ade82841ac36",
+  "auditedCanonicalCommit": "27eb2f9eb9d683ae358b860d6d5f54f7650b7b72",
+  "disposition": "independently-ready-narrowly-parent-accepted",
+  "reviewerModel": "gpt-6-luna",
+  "reasoning": "max",
+  "nonInstaller": true,
+  "privateReviewReceiptSha256": "440be261dd2bee04ec62f596360d38d5bf2e54615039ee891eb9d8121b42ba3b",
+  "privateReviewReportSha256": "acd1786abb93143e2b0834884e7f29664d3ad5e9d7ca07e06edf7addc7c12c96",
+  "privateParentAcceptanceSha256": "071cd1241b0f4b6e819c80a59e1ca0a723cbf6a6b93a921322fd601471920255",
+  "privateExactDeltaSha256": "522ba867eee75715443bb02011c54e7bdf77ca8b6c0957fb0a65574ac6743d35",
+  "manifestBindings": {
+    "beforeSha256": "463f5b90a3328b3268fe0bd3255e1980ff252e8a3f1f88a86c75ae0b4b62ab26",
+    "afterSha256": "326c1770b8694f694ef9971fb2516f2c567bd1ff14449fa7588150554bd30027",
+    "journalSha256": "4da886b4c98a5806de0d5e42ba1b9e4547ff1bb47ae07afbf26254e89be65bd2"
+  },
+  "skillCount": 77,
+  "managedNativeDelta": {"before": 218, "after": 219, "added": 1, "modified": 2, "removed": 0, "unchanged": 216},
+  "runtimeDelta": {"before": 250, "after": 251, "added": 1, "modified": 6, "removed": 0, "unchanged": 244},
+  "rollbackBackupMatchesBefore": true,
+  "unrelatedNativeFilesPreserved": 56,
+  "installedCaller": {
+    "validate": "verified-content, d6 release, 77 skills",
+    "oneNewSearchQuery": "usability-study skill rank1, profile reason present, review-required, authority none, activation none",
+    "privateProbeReceiptSha256": "0966d7cc88af7ad9a0ea94546ad5198c37431af5e1dadf89280669f521f8837c",
+    "scope": "Actual installed offline CLI only, not an agent or real-user outcome"
+  },
+  "freshSessionAppEnumerationObserved": false,
+  "fullSuiteRepeated": false,
+  "installerOrRollbackRunByReviewer": false,
+  "sourceRightsCleared": false,
+  "r10Applied": false,
+  "wholeCorpusComplete": false,
+  "historicalParentDeploymentReceiptRewritten": false
+}
