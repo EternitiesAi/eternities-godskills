@@ -1,0 +1,16 @@
+{
+  "schema": "godskills-experience-application-public-supplement-v1",
+  "releaseId": "a9a64ce08fd6896c18ce68b3dba8504832b4737b1602e52ccf5b2e87588795e4",
+  "kind": "Parent-supplied fictional planning fixture; not real participant data",
+  "authorPacketSha256": "b0349777adc254ebb8bcfec027c8f65737d153ad177740236113b61a901f56de",
+  "fixtureSha256": "28dfe4ed9f52e838ed84ce713b7ca7f9b1b928ad423b35e94a0eaa0975787ef5",
+  "differentApplicationAuthorReviewReceiptSha256": "f6ef1681dac2e9e20fcd88c38178ada3ec8b6431735d62d8c6efd25d9bdb5771",
+  "parentAcceptanceSha256": "1873986de3e56bf1822f06afc116201756eae4ec2e67ca10be44095be8881ffe",
+  "verdict": "READY_NARROW_APPLICATION_ONLY",
+  "reviewerAuthoredEarlierMethod": true,
+  "independentMethodApproval": false,
+  "paperEdgeChecks": 4,
+  "executedFixtures": 0,
+  "originalPromptFidelityVerified": false,
+  "limits": "No participant research, live service outcome, user comprehension, source clearance, raw baseline, general agent superiority, R10 application or whole-corpus completion. Original instruction/package evidence remains immutable and is not replaced."
+}

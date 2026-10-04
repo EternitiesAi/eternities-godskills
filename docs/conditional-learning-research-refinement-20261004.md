@@ -82,6 +82,17 @@ fixed-horizon design on its first nominal significance result. Its five edge
 cases were derived by hand, not executed fixtures. This is an application of
 instructions, not a raw-agent comparison, completed experiment or efficacy test.
 
+A second Luna application produced a 702-word fictional web-to-phone handoff
+assessment. It rejected joining different people's/builds' events and did not
+invent a booking outcome or assume receipt-copy changes would repair the gap.
+A different application reviewer found the packet narrowly useful, with four
+paper edge checks. That reviewer had authored the earlier mapping method, so
+this is not a new independent method approval. Review receipt SHA-256:
+`f6ef1681dac2e9e20fcd88c38178ada3ec8b6431735d62d8c6efd25d9bdb5771`;
+parent acceptance `1873986de3e56bf1822f06afc116201756eae4ec2e67ca10be44095be8881ffe`.
+The verdict covers the bound fictional fixture and packet, not fidelity to an
+unavailable original prompt, real participant data or observed usability benefit.
+
 The [standalone ZIP](../artifacts/releases/godskills-product-20261004-a9a64ce0.zip)
 contains 258 files: 257 declared payloads plus the release manifest. Its
 1,401,494 bytes have SHA-256

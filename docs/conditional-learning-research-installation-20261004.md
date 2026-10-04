@@ -32,10 +32,25 @@ Exact private receipt identities are disclosed as hashes, not personal paths:
 The [content qualification](conditional-learning-research-refinement-20261004.md)
 and [public scoped evidence](../artifacts/conditional-methods-20261004/evidence.v1.json)
 remain distinct from this deployment check. A separate non-installer audit of
-this new installation is pending; no independent deployment verdict is asserted
-here yet. The previous 5755 installation did have a narrowly accepted
+this new installation is complete, READY_NARROW_DEPLOYMENT, receipt SHA-256
+`9c89992ef397d7cd23f45ba600523ddc1de729fc4109b6808a95820a704fa2f9`.
+That reviewer had performed earlier product review but did not publish or install
+the upgrade. It directly checked published/current/runtime bytes, managed native
+content, the complete old backup, all 56 unrelated files and every ZIP member,
+then ran one installed validation. Parent acceptance SHA-256:
+`674a7920dca24844eda474c0be2f69ec758c18d87bb2f9f971f8a6e47f125004`.
+The [versioned public audit supplement](../artifacts/conditional-methods-20261004/deployment-evidence.v1.json)
+preserves those scopes; the earlier content evidence is unchanged.
+The previous 5755 installation did have a narrowly accepted
 different-installer audit, receipt `5cfb2fc714b5ea84b18540bb56a3f7e3e44a0155209fdd1507dbcbe56297b622`;
 that verdict is not transferred to a9a64.
+
+A separate parent check extracted only the public ZIP into a new empty directory,
+ran that extracted CLI's validator, and verified the three exact method resources.
+It passed without loading the warehouse or existing skill runtime. Receipt
+SHA-256 `dc834c0472c98fd7e761bd21b5616efd65535b7b860613e4ad673561297a55b2`.
+This is an isolated archive check on the same Windows host, not a fresh OS or
+fresh native-chat enumeration test.
 
 The failed first educational-discovery candidate is not in this installation.
 Protected activation files and historical receipts remain unchanged. Fresh OS,
