@@ -74,12 +74,23 @@ The [conditional comparison, experience and support-choice refinement](docs/cond
 adds three separately reviewed optional procedures to Athena, user research and
 learning design. They strengthen design-before-data, evidence-bound handoffs and
 learner-controlled support without making routine work load more context. The
-[latest standalone ZIP](artifacts/releases/godskills-product-20261004-a9a64ce0.zip)
+[conditional-methods snapshot ZIP](artifacts/releases/godskills-product-20261004-a9a64ce0.zip)
 and [SHA-256 sidecar](artifacts/releases/godskills-product-20261004-a9a64ce0.zip.sha256)
-retain 77 entrypoints and unchanged scoring. The independent educational-discovery
-candidate is separate: its failed first review is preserved, not shipped as a fix.
+retain 77 entrypoints and the scoring that existed at that release. The failed
+educational-discovery candidates remain historical evidence, not that snapshot's fix.
 The [separate conditional-methods installation record](docs/conditional-learning-research-installation-20261004.md)
 records the exact backed-up upgrade and unchanged unrelated files.
+
+The [learner-request discovery upgrade](docs/learner-request-discovery-upgrade-20261004.md)
+repairs the independently demonstrated teaching-request misses, contextual
+training false positive and refusal bug. Its explicit request-priority tier
+keeps incidental keyword hits from outranking a corroborated teaching activity,
+without changing existing score components or granting selection authority.
+The [current standalone ZIP](artifacts/releases/godskills-product-20261004-b3939c86.zip)
+and [SHA-256 sidecar](artifacts/releases/godskills-product-20261004-b3939c86.zip.sha256)
+retain all 77 entrypoints and methods. Separate code review and fixed-case
+replication passed; all challenge cases are now revealed regressions, not
+held-out semantic superiority. Earlier failures and unfinished quarry remain explicit.
 
 For a new computer, copy only `product/` or export its verified standalone ZIP:
 

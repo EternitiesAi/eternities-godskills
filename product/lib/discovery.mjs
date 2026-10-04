@@ -4,7 +4,66 @@
 const normalize = text => (text.normalize('NFKC').toLowerCase().match(/[\p{L}\p{N}]+/gu) || []).join(' ');
 const media = /\b(?:audio|dsp|tts|speech|speaker|microphone|sample rate|plugin|callback|voice clon\w*|synthesi\w*)\b/;
 
+// This profile uses deliberately finite English scoping, not general discourse parsing.
+// Balanced, nonnested quotes are omitted; apostrophes inside words are left alone.
+const quotedRequestMaterial = /“[^”]*”|‘[^’]*’|(?<![\p{L}\p{N}])'[^']*'(?![\p{L}\p{N}])|"(?:\\.|[^"\\])*"|`[^`]*`/gu;
+const refusedTeachingAction = /\b(?:do not|don t|never|no need to|avoid|not to|rather than)\s+(?:teach\w*|train\w*|instruct\w*|educat\w*|prepar\w*|plan\w*|design\w*|creat\w*|build\w*|mak\w*|develop\w*|arrang\w*|devis\w*|provid\w*|giv\w*|offer\w*|organis\w*|organiz\w*|set up|put together|run|use)\b/;
+const declinedLearningFormat = /\bno\s+(?:lessons?|workshops?|courses?|training|instruction|learning (?:models?|activities|experiences)|teaching (?:models?|activities|demos?))(?: \w+){0,5}\s+(?:requested|needed|wanted)\b/;
+// A learner audience alone is insufficient: it must accompany a teaching format,
+// while four separate gates still require requested action, explanation, an
+// active representation and manipulation/feedback. These are finite English
+// concept families, not a semantic classifier or an exact-query lookup table.
+const teachingPurpose = {
+  test: text => /\b(?:teach\w*|train\w*|instruct\w*|lesson\w*|workshop\w*|tutorial\w*|courses?|class(?:es)?|classroom|educational|learning (?:models?|tasks?|activit\w*|experiences?))\b|\bhelp (?:\w+ ){0,2}(?:children|students|learners?|novices?|beginners?|trainees?|apprentices?)\b/.test(text) ||
+    (/\b(?:students?|pupils?|children|learners?|novices?|beginners?|trainees?|apprentices?|visitors?)\b/.test(text) &&
+     /\b(?:activit\w*|exercises?|investigations?|sessions?|demonstrations?)\b/.test(text)),
+};
+// Require request-verb forms, not nominal mentions such as training or planning.
+// A training-simulator appraisal can satisfy several topic cues without asking
+// for a new teaching activity; topic evidence must not supply its own action.
+const requestedTeachingAction = /\b(?:prepare|plan|design|create|build|make|develop|teach|train|instruct|help|arrange|devise|provide|give|offer|organise|organize|set up|put together|i d like)\b/;
+const historicalTeachingClause = /\b(?:last (?:term|year|month|week)|previously|formerly|once|used to)\b(?: \w+)*\b(?:intended|planned|wanted|built|designed|taught|prepared|created|developed)\b/;
+
+function learnerRequestText(query) {
+  return query
+    .replace(quotedRequestMaterial, ' ')
+    // A contrast or sentence boundary may introduce a new live request.
+    // Keep the refused phrase "rather than" intact for the filter below.
+    .split(/[.!?;]+|\b(?:but|instead|rather(?!\s+than\b))\b/iu)
+    .filter(clause => {
+      const text = normalize(clause);
+      return !refusedTeachingAction.test(text) && !declinedLearningFormat.test(text) && !historicalTeachingClause.test(text);
+    })
+    .join(' ');
+}
+
 const profiles = [
+  {
+    name: 'learner-model explanation',
+    // A corroborated requested activity takes precedence over incidental topic
+    // words. This tier is separate from the unchanged keyword/bonus scores and
+    // does not select, activate or authorize a skill.
+    prioritizeRequestedActivity: true,
+    // Scope only this intent to unquoted affirmative request clauses. The finite
+    // cues do not resolve nested/escaped quotations or arbitrary negation.
+    prepare: learnerRequestText,
+    cues: [
+      ['teaching purpose or learner goal', teachingPurpose],
+      ['requested preparation or teaching action', requestedTeachingAction],
+      ['causal or explanatory objective', /\b(?:why|explain\w*|understand\w*|justif\w*|predict\w*|reason\w*|cause\w*|account for|describ\w* how|defend\w*|reconcil\w*|connect\w*|compar\w*|investigat\w*|work out)\b/],
+      ['model, lesson, or explorable representation', /\b(?:models?|microsimulat\w*|simulat\w*|traces?|lessons?|workshops?|activit\w*|exercises?|investigations?|representations?|diagrams?|experiments?|plots?|tables?|cards?|boards?|grids?|sections?|panels?|frames?|nets?|arrows?|shapes?|stations?|sandbox\w*|transparenc\w*|strips?|blocks?|tiles?|discs?|objects?|materials?|props?|balance beam|pieces|tokens?|valves?|ramps?|pendul\w*|sliders?|physical|hands on|explorable)\b/],
+      // A feedback-bearing small teaching model need not specify its controls yet.
+      // Purpose, requested action, explanation and representation are still required;
+      // this is ranking evidence, not permission or a proven learner interaction.
+      ['learner manipulation or feedback-bearing model', /\b(?:adjust\w*|manipulat\w*|explor\w*|interact\w*|mov\w*|rearrang\w*|vary|alter\w*|chang\w*|pause|control\w*|sliders?|microsimulat\w*|causal feedback|drag\w*|add\w*|remov\w*|reposition\w*|relocat\w*|assembl\w*|step\w*|try|redistribut\w*|rotat\w*|fold\w*|unfold\w*|overlay\w*|rerout\w*|redirect\w*|switch\w*)\b/],
+    ],
+    // Match meaning-bearing owner metadata, not an ID, query, reference, or path.
+    metadata: [
+      /\b(?:evidence linked lessons|lesson planning|learning outcomes)\b/,
+      /\b(?:teaching handoffs|teaching assessment|assessments?)\b/,
+      /\b(?:learner reports|observable goals|achievement evidence)\b/,
+    ],
+  },
   {
     name: 'usability observation synthesis',
     cues: [
@@ -70,18 +129,23 @@ const profiles = [
 
 export function lexicalQueryEvidence(query) {
   const text = normalize(query);
-  const intents = profiles.filter(profile => !profile.exclude?.test(text) && !profile.negated?.test(text) &&
-    profile.cues.every(([, pattern]) => pattern.test(text)));
+  const intents = profiles.filter(profile => {
+    const scopedText = profile.prepare ? normalize(profile.prepare(query)) : text;
+    return !profile.exclude?.test(scopedText) && !profile.negated?.test(scopedText) &&
+      profile.cues.every(([, pattern]) => pattern.test(scopedText));
+  });
   return {intents, writtenVoice: intents.some(profile => profile.name === 'written authorial voice')};
 }
 
 export function lexicalIntentMatch(item, evidence) {
   const text = normalize(`${item.summary} ${item.triggers.join(' ')}`);
   const matched = evidence.intents.filter(profile => profile.metadata.every(pattern => pattern.test(text)));
-  // A capped ranking bonus: corroborated phrases outrank incidental word hits.
-  // Scores are ordering heuristics, not confidence or applicability probabilities.
+  // Preserve the capped score component. The narrowly corroborated teaching
+  // request has a separate ordering tier so arbitrary keyword overlap cannot
+  // defeat it. Neither the tier nor score proves semantic applicability.
   return {
     score: matched.length ? 60 : 0,
-    reasons: matched.map(profile => `Lexical intent: ${profile.name}; cues: ${profile.cues.map(([name]) => name).join(', ')}`),
+    prioritizeRequestedActivity: matched.some(profile => profile.prioritizeRequestedActivity),
+    reasons: matched.map(profile => `Lexical intent: ${profile.name}; cues: ${profile.cues.map(([name]) => name).join(', ')}${profile.prioritizeRequestedActivity ? '; ordering: corroborated teaching request before incidental keyword matches' : ''}`),
   };
 }

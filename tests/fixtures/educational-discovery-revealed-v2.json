@@ -1,0 +1,1392 @@
+{
+  "schema": "godskills-disclosed-educational-regressions-v2",
+  "sourceCasePacketSha256": "65f06039f66c39786ab66e645237caba1ff01789a85256473f4bca8b2c828d66",
+  "sourceObservationsSha256": "7c457aceb4249bf036ef210059d5428194bb4bcb7716589f4f145959bb6bd1eb",
+  "exposure": "Revealed after immutable v2 independent REPAIR. These are development regressions, never virgin heldout or a pooled outcome accuracy estimate.",
+  "baselineProjectionScope": "Known old library envelope plus ordered id/score/reasons; metadata/resources protected by separate exact product/catalognonchange gate.",
+  "fixedCases": 28,
+  "uncertainCases": [
+    "E2-M03",
+    "E2-M04"
+  ],
+  "cases": [
+    {
+      "id": "E2-P01",
+      "stratum": "clear-positive",
+      "family": "statistics-outlier-representation",
+      "query": "Prepare a statistics exercise where students drag an extreme value across a dot plot, see the mean and median move, and defend which summary better represents the remaining observations.",
+      "options": {
+        "limit": 5,
+        "need": "specialist"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "TEACHING_EXPLORATION",
+          "attribution": "REQUIRED_OBSERVABLE_METADATA_BACKED_INTENT"
+        },
+        "returned": {
+          "owner": "evidence-linked-learning-design",
+          "obligation": "OWNER_FIRST_WITH_ACTUAL_INTENT_REASON"
+        },
+        "eligibility": {
+          "expected": "ELIGIBLE_UNDER_FROZEN_METADATA"
+        },
+        "preservation": {
+          "baseline": "OTHER_ELIGIBLE_OWNERS_LEGACY_COMPONENTS_UNCHANGED",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      }
+    },
+    {
+      "id": "E2-P02",
+      "stratum": "clear-positive",
+      "family": "chemistry-equilibrium-tabletop",
+      "query": "Put together an introductory chemistry activity using reactant cards: pupils add or remove cards, follow the displayed equilibrium response, and account for the direction of the shift.",
+      "options": {
+        "limit": 5,
+        "need": "specialist"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "TEACHING_EXPLORATION",
+          "attribution": "REQUIRED_OBSERVABLE_METADATA_BACKED_INTENT"
+        },
+        "returned": {
+          "owner": "evidence-linked-learning-design",
+          "obligation": "OWNER_FIRST_WITH_ACTUAL_INTENT_REASON"
+        },
+        "eligibility": {
+          "expected": "ELIGIBLE_UNDER_FROZEN_METADATA"
+        },
+        "preservation": {
+          "baseline": "OTHER_ELIGIBLE_OWNERS_LEGACY_COMPONENTS_UNCHANGED",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      }
+    },
+    {
+      "id": "E2-P03",
+      "stratum": "clear-positive",
+      "family": "astronomy-changing-viewpoint",
+      "query": "Devise an astronomy-club session with a lamp and sphere that learners reposition, so they can reconcile the illuminated shape they see with the geometry of Moon phases.",
+      "options": {
+        "limit": 5,
+        "need": "specialist"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "TEACHING_EXPLORATION",
+          "attribution": "REQUIRED_OBSERVABLE_METADATA_BACKED_INTENT"
+        },
+        "returned": {
+          "owner": "evidence-linked-learning-design",
+          "obligation": "OWNER_FIRST_WITH_ACTUAL_INTENT_REASON"
+        },
+        "eligibility": {
+          "expected": "ELIGIBLE_UNDER_FROZEN_METADATA"
+        },
+        "preservation": {
+          "baseline": "OTHER_ELIGIBLE_OWNERS_LEGACY_COMPONENTS_UNCHANGED",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      }
+    },
+    {
+      "id": "E2-P04",
+      "stratum": "clear-positive",
+      "family": "economics-fictional-market",
+      "query": "Create a lesson around a fictional market in which students change the number of buyers and sellers and work out why the clearing price responds.",
+      "options": {
+        "limit": 5
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "TEACHING_EXPLORATION",
+          "attribution": "REQUIRED_OBSERVABLE_METADATA_BACKED_INTENT"
+        },
+        "returned": {
+          "owner": "evidence-linked-learning-design",
+          "obligation": "OWNER_FIRST_WITH_ACTUAL_INTENT_REASON"
+        },
+        "eligibility": {
+          "expected": "ELIGIBLE_UNDER_FROZEN_METADATA"
+        },
+        "preservation": {
+          "baseline": "OTHER_ELIGIBLE_OWNERS_LEGACY_COMPONENTS_UNCHANGED",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      }
+    },
+    {
+      "id": "E2-P05",
+      "stratum": "clear-positive",
+      "family": "music-rhythm-sequencing",
+      "query": "Arrange a rhythm-training exercise where beginners relocate accents on a beat grid, replay the pattern, and describe how the placement changes their sense of meter.",
+      "options": {
+        "limit": 5,
+        "need": "specialist"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "TEACHING_EXPLORATION",
+          "attribution": "REQUIRED_OBSERVABLE_METADATA_BACKED_INTENT"
+        },
+        "returned": {
+          "owner": "evidence-linked-learning-design",
+          "obligation": "OWNER_FIRST_WITH_ACTUAL_INTENT_REASON"
+        },
+        "eligibility": {
+          "expected": "ELIGIBLE_UNDER_FROZEN_METADATA"
+        },
+        "preservation": {
+          "baseline": "OTHER_ELIGIBLE_OWNERS_LEGACY_COMPONENTS_UNCHANGED",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      }
+    },
+    {
+      "id": "E2-P06",
+      "stratum": "clear-positive",
+      "family": "geology-cross-section-exploration",
+      "query": "Give my geology class a cross-section they can assemble in different orders, then have them use the resulting layer relationships to justify which event must have happened first.",
+      "options": {
+        "limit": 5,
+        "need": "specialist"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "TEACHING_EXPLORATION",
+          "attribution": "REQUIRED_OBSERVABLE_METADATA_BACKED_INTENT"
+        },
+        "returned": {
+          "owner": "evidence-linked-learning-design",
+          "obligation": "OWNER_FIRST_WITH_ACTUAL_INTENT_REASON"
+        },
+        "eligibility": {
+          "expected": "ELIGIBLE_UNDER_FROZEN_METADATA"
+        },
+        "preservation": {
+          "baseline": "OTHER_ELIGIBLE_OWNERS_LEGACY_COMPONENTS_UNCHANGED",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      }
+    },
+    {
+      "id": "E2-P07",
+      "stratum": "clear-positive",
+      "family": "algebra-basis-vector-geometry",
+      "query": "I'd like an algebra activity in which students move the two basis arrows and observe a transformed square, then connect its distortion to the transformation they chose.",
+      "options": {
+        "limit": 5,
+        "need": "specialist"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "TEACHING_EXPLORATION",
+          "attribution": "REQUIRED_OBSERVABLE_METADATA_BACKED_INTENT"
+        },
+        "returned": {
+          "owner": "evidence-linked-learning-design",
+          "obligation": "OWNER_FIRST_WITH_ACTUAL_INTENT_REASON"
+        },
+        "eligibility": {
+          "expected": "ELIGIBLE_UNDER_FROZEN_METADATA"
+        },
+        "preservation": {
+          "baseline": "OTHER_ELIGIBLE_OWNERS_LEGACY_COMPONENTS_UNCHANGED",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      }
+    },
+    {
+      "id": "E2-P08",
+      "stratum": "clear-positive",
+      "family": "programming-call-stack-trace",
+      "query": "Build a self-paced learning task that lets new programmers step through nested function calls, try a different starting value, and account for when stack frames appear and disappear.",
+      "options": {
+        "limit": 5,
+        "need": "specialist"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "TEACHING_EXPLORATION",
+          "attribution": "REQUIRED_OBSERVABLE_METADATA_BACKED_INTENT"
+        },
+        "returned": {
+          "owner": "evidence-linked-learning-design",
+          "obligation": "OWNER_FIRST_WITH_ACTUAL_INTENT_REASON"
+        },
+        "eligibility": {
+          "expected": "ELIGIBLE_UNDER_FROZEN_METADATA"
+        },
+        "preservation": {
+          "baseline": "OTHER_ELIGIBLE_OWNERS_LEGACY_COMPONENTS_UNCHANGED",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      }
+    },
+    {
+      "id": "E2-P09",
+      "stratum": "clear-positive",
+      "family": "civics-voting-rule-sandbox",
+      "query": "Provide a civics exercise with a small fictional ballot sandbox: learners redistribute votes and compare how two decision rules produce different winners.",
+      "options": {
+        "limit": 5,
+        "need": "specialist"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "TEACHING_EXPLORATION",
+          "attribution": "REQUIRED_OBSERVABLE_METADATA_BACKED_INTENT"
+        },
+        "returned": {
+          "owner": "evidence-linked-learning-design",
+          "obligation": "OWNER_FIRST_WITH_ACTUAL_INTENT_REASON"
+        },
+        "eligibility": {
+          "expected": "ELIGIBLE_UNDER_FROZEN_METADATA"
+        },
+        "preservation": {
+          "baseline": "OTHER_ELIGIBLE_OWNERS_LEGACY_COMPONENTS_UNCHANGED",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      }
+    },
+    {
+      "id": "E2-P10",
+      "stratum": "clear-positive",
+      "family": "bookkeeping-transaction-effects",
+      "query": "Design an introductory bookkeeping activity where learners move a sale and a refund through linked account panels and explain why both sides remain balanced.",
+      "options": {
+        "limit": 5,
+        "need": "unknown"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "TEACHING_EXPLORATION",
+          "attribution": "REQUIRED_OBSERVABLE_METADATA_BACKED_INTENT"
+        },
+        "returned": {
+          "owner": "evidence-linked-learning-design",
+          "obligation": "OWNER_FIRST_WITH_ACTUAL_INTENT_REASON"
+        },
+        "eligibility": {
+          "expected": "ELIGIBLE_UNDER_FROZEN_METADATA"
+        },
+        "preservation": {
+          "baseline": "OTHER_ELIGIBLE_OWNERS_LEGACY_COMPONENTS_UNCHANGED",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      }
+    },
+    {
+      "id": "E2-P11",
+      "stratum": "clear-positive",
+      "family": "ecology-food-web-dependencies",
+      "query": "Make a lesson in which pupils remove one species from a toy food-web diagram, inspect the affected connections, and reason through the consequences for dependent species.",
+      "options": {
+        "limit": 5,
+        "need": "specialist"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "TEACHING_EXPLORATION",
+          "attribution": "REQUIRED_OBSERVABLE_METADATA_BACKED_INTENT"
+        },
+        "returned": {
+          "owner": "evidence-linked-learning-design",
+          "obligation": "OWNER_FIRST_WITH_ACTUAL_INTENT_REASON"
+        },
+        "eligibility": {
+          "expected": "ELIGIBLE_UNDER_FROZEN_METADATA"
+        },
+        "preservation": {
+          "baseline": "OTHER_ELIGIBLE_OWNERS_LEGACY_COMPONENTS_UNCHANGED",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      }
+    },
+    {
+      "id": "E2-P12",
+      "stratum": "clear-positive",
+      "family": "geometry-foldable-net",
+      "query": "Set up a geometry investigation where children fold and unfold several cube nets, predict which faces will meet, and justify their prediction after checking the folded shape.",
+      "options": {
+        "limit": 5,
+        "need": "specialist"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "TEACHING_EXPLORATION",
+          "attribution": "REQUIRED_OBSERVABLE_METADATA_BACKED_INTENT"
+        },
+        "returned": {
+          "owner": "evidence-linked-learning-design",
+          "obligation": "OWNER_FIRST_WITH_ACTUAL_INTENT_REASON"
+        },
+        "eligibility": {
+          "expected": "ELIGIBLE_UNDER_FROZEN_METADATA"
+        },
+        "preservation": {
+          "baseline": "OTHER_ELIGIBLE_OWNERS_LEGACY_COMPONENTS_UNCHANGED",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      }
+    },
+    {
+      "id": "E2-N01",
+      "stratum": "firm-negative",
+      "family": "educational-study-appraisal",
+      "query": "Review the study's evidence that a movable molecule display improved exam results; concentrate on allocation, attrition and alternative explanations rather than designing a class activity.",
+      "options": {
+        "limit": 5,
+        "need": "specialist"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "NO_NEW_INTENT",
+          "attribution": "NO_NEW_EDUCATION_INTENT"
+        },
+        "returned": {
+          "owner": null,
+          "obligation": "NO_NEW_REASON_OR_CONTRIBUTION_EXACT_BASELINE"
+        },
+        "eligibility": {
+          "expected": "ORDINARY_LEGACY_FILTER_RULES"
+        },
+        "preservation": {
+          "baseline": "EXACT_SEARCH_PROJECTION_NO_RANK_CORRECTION",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      },
+      "baseline": {
+        "envelope": {
+          "schema": "eternities-godskills-discovery-v1",
+          "authority": "none",
+          "activation": "none",
+          "method": "offline-lexical-intent-phrases-v3",
+          "query": "Review the study's evidence that a movable molecule display improved exam results; concentrate on allocation, attrition and alternative explanations rather than designing a class activity.",
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          }
+        },
+        "results": [
+          {
+            "id": "structured-output-contracts",
+            "score": 46.791,
+            "reasons": [
+              "Matched: class, results"
+            ]
+          },
+          {
+            "id": "bounded-service-shutdown",
+            "score": 41.708,
+            "reasons": [
+              "Matched: activity, evidence, review"
+            ]
+          },
+          {
+            "id": "user-research-and-usability-study",
+            "score": 36.118,
+            "reasons": [
+              "Matched: study"
+            ]
+          },
+          {
+            "id": "eternities-athena",
+            "score": 29.684,
+            "reasons": [
+              "Matched: evidence, study"
+            ]
+          },
+          {
+            "id": "eternities-atlas",
+            "score": 28.605,
+            "reasons": [
+              "Matched: display, evidence"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "E2-N02",
+      "stratum": "firm-negative",
+      "family": "production-simulator-operation",
+      "query": "Use the factory simulator's adjustable staffing inputs to find a feasible shift plan with the lowest overtime cost, and report the chosen settings.",
+      "options": {
+        "limit": 5,
+        "need": "specialist"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "NO_NEW_INTENT",
+          "attribution": "NO_NEW_EDUCATION_INTENT"
+        },
+        "returned": {
+          "owner": null,
+          "obligation": "NO_NEW_REASON_OR_CONTRIBUTION_EXACT_BASELINE"
+        },
+        "eligibility": {
+          "expected": "ORDINARY_LEGACY_FILTER_RULES"
+        },
+        "preservation": {
+          "baseline": "EXACT_SEARCH_PROJECTION_NO_RANK_CORRECTION",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      },
+      "baseline": {
+        "envelope": {
+          "schema": "eternities-godskills-discovery-v1",
+          "authority": "none",
+          "activation": "none",
+          "method": "offline-lexical-intent-phrases-v3",
+          "query": "Use the factory simulator's adjustable staffing inputs to find a feasible shift plan with the lowest overtime cost, and report the chosen settings.",
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          }
+        },
+        "results": [
+          {
+            "id": "eternities-atlas",
+            "score": 41.243,
+            "reasons": [
+              "Matched: inputs, plan, report"
+            ]
+          },
+          {
+            "id": "counterbalanced-agent-evaluation",
+            "score": 28.838,
+            "reasons": [
+              "Matched: cost, plan"
+            ]
+          },
+          {
+            "id": "app-store-discovery-experiments",
+            "score": 28.11,
+            "reasons": [
+              "Matched: inputs, plan, report"
+            ]
+          },
+          {
+            "id": "eternities-agora",
+            "score": 25.714,
+            "reasons": [
+              "Matched: plan, report"
+            ]
+          },
+          {
+            "id": "eternities-omnibus",
+            "score": 23.849,
+            "reasons": [
+              "Matched: find, plan"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "E2-N03",
+      "stratum": "firm-negative",
+      "family": "renderer-only-repair",
+      "query": "Fix the shader and rotation handles in the exhibit's existing interactive crystal scene; the educator's prompts and all explanatory rules must stay exactly as they are.",
+      "options": {
+        "limit": 5,
+        "need": "specialist"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "NO_NEW_INTENT",
+          "attribution": "NO_NEW_EDUCATION_INTENT"
+        },
+        "returned": {
+          "owner": null,
+          "obligation": "NO_NEW_REASON_OR_CONTRIBUTION_EXACT_BASELINE"
+        },
+        "eligibility": {
+          "expected": "ORDINARY_LEGACY_FILTER_RULES"
+        },
+        "preservation": {
+          "baseline": "EXACT_SEARCH_PROJECTION_NO_RANK_CORRECTION",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      },
+      "baseline": {
+        "envelope": {
+          "schema": "eternities-godskills-discovery-v1",
+          "authority": "none",
+          "activation": "none",
+          "method": "offline-lexical-intent-phrases-v3",
+          "query": "Fix the shader and rotation handles in the exhibit's existing interactive crystal scene; the educator's prompts and all explanatory rules must stay exactly as they are.",
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          }
+        },
+        "results": [
+          {
+            "id": "scene-continuity-and-coverage",
+            "score": 45.968,
+            "reasons": [
+              "Matched: scene"
+            ]
+          },
+          {
+            "id": "bounded-parametric-design-iteration",
+            "score": 36.763,
+            "reasons": [
+              "Matched: existing"
+            ]
+          },
+          {
+            "id": "fp-ts-functional-refactoring",
+            "score": 31.84,
+            "reasons": [
+              "Matched: are, must"
+            ]
+          },
+          {
+            "id": "venture-falsification-and-planning",
+            "score": 31.84,
+            "reasons": [
+              "Matched: are, must"
+            ]
+          },
+          {
+            "id": "eternities-arcadia",
+            "score": 22.984,
+            "reasons": [
+              "Matched: scene"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "E2-N04",
+      "stratum": "firm-negative",
+      "family": "education-administration-summary",
+      "query": "Summarize the workshop attendance sheet and reimbursement totals for the department chair; no changes to the workshop materials are requested.",
+      "options": {
+        "limit": 5,
+        "need": "specialist"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "NO_NEW_INTENT",
+          "attribution": "NO_NEW_EDUCATION_INTENT"
+        },
+        "returned": {
+          "owner": null,
+          "obligation": "NO_NEW_REASON_OR_CONTRIBUTION_EXACT_BASELINE"
+        },
+        "eligibility": {
+          "expected": "ORDINARY_LEGACY_FILTER_RULES"
+        },
+        "preservation": {
+          "baseline": "EXACT_SEARCH_PROJECTION_NO_RANK_CORRECTION",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      },
+      "baseline": {
+        "envelope": {
+          "schema": "eternities-godskills-discovery-v1",
+          "authority": "none",
+          "activation": "none",
+          "method": "offline-lexical-intent-phrases-v3",
+          "query": "Summarize the workshop attendance sheet and reimbursement totals for the department chair; no changes to the workshop materials are requested.",
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          }
+        },
+        "results": [
+          {
+            "id": "financial-statement-reconciliation",
+            "score": 25.734,
+            "reasons": [
+              "Matched: sheet"
+            ]
+          },
+          {
+            "id": "diagnostic-statistical-model-inference",
+            "score": 21.057,
+            "reasons": [
+              "Matched: are"
+            ]
+          },
+          {
+            "id": "fp-ts-functional-refactoring",
+            "score": 21.057,
+            "reasons": [
+              "Matched: are"
+            ]
+          },
+          {
+            "id": "venture-falsification-and-planning",
+            "score": 21.057,
+            "reasons": [
+              "Matched: are"
+            ]
+          },
+          {
+            "id": "interface-localization-and-bidirectionality",
+            "score": 18.39,
+            "reasons": [
+              "Matched: changes"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "E2-N05",
+      "stratum": "firm-negative",
+      "family": "ordinary-static-teaching",
+      "query": "Write a reading lesson on persuasive paragraphs with a short explanation, a static annotated example and three discussion questions.",
+      "options": {
+        "limit": 5,
+        "need": "specialist"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "NO_NEW_INTENT",
+          "attribution": "NO_NEW_EDUCATION_INTENT"
+        },
+        "returned": {
+          "owner": null,
+          "obligation": "NO_NEW_REASON_OR_CONTRIBUTION_EXACT_BASELINE"
+        },
+        "eligibility": {
+          "expected": "ORDINARY_LEGACY_FILTER_RULES"
+        },
+        "preservation": {
+          "baseline": "EXACT_SEARCH_PROJECTION_NO_RANK_CORRECTION",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      },
+      "baseline": {
+        "envelope": {
+          "schema": "eternities-godskills-discovery-v1",
+          "authority": "none",
+          "activation": "none",
+          "method": "offline-lexical-intent-phrases-v3",
+          "query": "Write a reading lesson on persuasive paragraphs with a short explanation, a static annotated example and three discussion questions.",
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          }
+        },
+        "results": [
+          {
+            "id": "eternities-logos",
+            "score": 41.607,
+            "reasons": [
+              "Matched: article, canon, drafting, editorial, narrative, writing"
+            ]
+          },
+          {
+            "id": "eternities-daedalus",
+            "score": 25.734,
+            "reasons": [
+              "Matched: write"
+            ]
+          },
+          {
+            "id": "evidence-linked-learning-design",
+            "score": 25.734,
+            "reasons": [
+              "Matched: lesson"
+            ]
+          },
+          {
+            "id": "invariant-guard",
+            "score": 25.734,
+            "reasons": [
+              "Matched: example"
+            ]
+          },
+          {
+            "id": "user-research-and-usability-study",
+            "score": 21.057,
+            "reasons": [
+              "Matched: questions"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "E2-N06",
+      "stratum": "firm-negative",
+      "family": "direct-refusal-current-alternative",
+      "query": "Do not prepare a learning exercise where apprentices alter a motor model to discover why its speed changes. I only need the notice withdrawing that proposed session.",
+      "options": {
+        "limit": 5,
+        "need": "specialist"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "NO_NEW_INTENT",
+          "attribution": "NO_NEW_EDUCATION_INTENT"
+        },
+        "returned": {
+          "owner": null,
+          "obligation": "NO_NEW_REASON_OR_CONTRIBUTION_EXACT_BASELINE"
+        },
+        "eligibility": {
+          "expected": "ORDINARY_LEGACY_FILTER_RULES"
+        },
+        "preservation": {
+          "baseline": "EXACT_SEARCH_PROJECTION_NO_RANK_CORRECTION",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      },
+      "baseline": {
+        "envelope": {
+          "schema": "eternities-godskills-discovery-v1",
+          "authority": "none",
+          "activation": "none",
+          "method": "offline-lexical-intent-phrases-v3",
+          "query": "Do not prepare a learning exercise where apprentices alter a motor model to discover why its speed changes. I only need the notice withdrawing that proposed session.",
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          }
+        },
+        "results": [
+          {
+            "id": "experiment-artifact-lineage",
+            "score": 59.956,
+            "reasons": [
+              "Matched: learning, model, only"
+            ]
+          },
+          {
+            "id": "eternities-chorus",
+            "score": 45.315,
+            "reasons": [
+              "Matched: notice, only"
+            ]
+          },
+          {
+            "id": "approval-bound-private-session-mining",
+            "score": 40.439,
+            "reasons": [
+              "Matched: session"
+            ]
+          },
+          {
+            "id": "scientific-surrogate-validation",
+            "score": 37.923,
+            "reasons": [
+              "Matched: learning, model, performance"
+            ]
+          },
+          {
+            "id": "evidence-linked-learning-design",
+            "score": 30.77,
+            "reasons": [
+              "Matched: learning"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "E2-N07",
+      "stratum": "firm-negative",
+      "family": "archived-quoted-assignment",
+      "query": "Extract the deadline from this archived memo, not the activity it describes: 'By Friday, give the class a model of a rail junction they can switch around to explain why some routes become blocked.'",
+      "options": {
+        "limit": 5,
+        "need": "specialist"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "NO_NEW_INTENT",
+          "attribution": "NO_NEW_EDUCATION_INTENT"
+        },
+        "returned": {
+          "owner": null,
+          "obligation": "NO_NEW_REASON_OR_CONTRIBUTION_EXACT_BASELINE"
+        },
+        "eligibility": {
+          "expected": "ORDINARY_LEGACY_FILTER_RULES"
+        },
+        "preservation": {
+          "baseline": "EXACT_SEARCH_PROJECTION_NO_RANK_CORRECTION",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      },
+      "baseline": {
+        "envelope": {
+          "schema": "eternities-godskills-discovery-v1",
+          "authority": "none",
+          "activation": "none",
+          "method": "offline-lexical-intent-phrases-v3",
+          "query": "Extract the deadline from this archived memo, not the activity it describes: 'By Friday, give the class a model of a rail junction they can switch around to explain why some routes become blocked.'",
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          }
+        },
+        "results": [
+          {
+            "id": "structured-output-contracts",
+            "score": 46.529,
+            "reasons": [
+              "Matched: class, model"
+            ]
+          },
+          {
+            "id": "bounded-service-shutdown",
+            "score": 25.734,
+            "reasons": [
+              "Matched: activity"
+            ]
+          },
+          {
+            "id": "eternities-agora",
+            "score": 25.734,
+            "reasons": [
+              "Matched: memo"
+            ]
+          },
+          {
+            "id": "geospatial-coordinate-integrity",
+            "score": 25.734,
+            "reasons": [
+              "Matched: not"
+            ]
+          },
+          {
+            "id": "diagnostic-statistical-model-inference",
+            "score": 22.874,
+            "reasons": [
+              "Matched: model"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "E2-N08",
+      "stratum": "firm-negative",
+      "family": "past-teaching-intent-replaced",
+      "query": "Last term we intended to build an adjustable sunlight display so pupils could understand seasonal shadows. That project is closed; today draft the note returning its unused equipment.",
+      "options": {
+        "limit": 5,
+        "need": "specialist"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "NO_NEW_INTENT",
+          "attribution": "NO_NEW_EDUCATION_INTENT"
+        },
+        "returned": {
+          "owner": null,
+          "obligation": "NO_NEW_REASON_OR_CONTRIBUTION_EXACT_BASELINE"
+        },
+        "eligibility": {
+          "expected": "ORDINARY_LEGACY_FILTER_RULES"
+        },
+        "preservation": {
+          "baseline": "EXACT_SEARCH_PROJECTION_NO_RANK_CORRECTION",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      },
+      "baseline": {
+        "envelope": {
+          "schema": "eternities-godskills-discovery-v1",
+          "authority": "none",
+          "activation": "none",
+          "method": "offline-lexical-intent-phrases-v3",
+          "query": "Last term we intended to build an adjustable sunlight display so pupils could understand seasonal shadows. That project is closed; today draft the note returning its unused equipment.",
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          }
+        },
+        "results": [
+          {
+            "id": "voice-style-calibration",
+            "score": 53.905,
+            "reasons": [
+              "Matched: draft, drafting, project, writing"
+            ]
+          },
+          {
+            "id": "eternities-logos",
+            "score": 41.607,
+            "reasons": [
+              "Matched: article, canon, drafting, editorial, narrative, writing"
+            ]
+          },
+          {
+            "id": "eternities-atlas",
+            "score": 38.419,
+            "reasons": [
+              "Matched: build, display, draft"
+            ]
+          },
+          {
+            "id": "api-rate-limit-recovery",
+            "score": 30.027,
+            "reasons": [
+              "Matched: build, its"
+            ]
+          },
+          {
+            "id": "eternities-chorus",
+            "score": 27.79,
+            "reasons": [
+              "Matched: draft, editorial"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "E2-N09",
+      "stratum": "firm-negative",
+      "family": "trainee-audience-validation-only",
+      "query": "We're choosing a route-planning engine for a logistics course. The immediate job is to audit its error rates against the supplied benchmark, not to devise an exercise for the trainees.",
+      "options": {
+        "limit": 5,
+        "need": "specialist"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "NO_NEW_INTENT",
+          "attribution": "NO_NEW_EDUCATION_INTENT"
+        },
+        "returned": {
+          "owner": null,
+          "obligation": "NO_NEW_REASON_OR_CONTRIBUTION_EXACT_BASELINE"
+        },
+        "eligibility": {
+          "expected": "ORDINARY_LEGACY_FILTER_RULES"
+        },
+        "preservation": {
+          "baseline": "EXACT_SEARCH_PROJECTION_NO_RANK_CORRECTION",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      },
+      "baseline": {
+        "envelope": {
+          "schema": "eternities-godskills-discovery-v1",
+          "authority": "none",
+          "activation": "none",
+          "method": "offline-lexical-intent-phrases-v3",
+          "query": "We're choosing a route-planning engine for a logistics course. The immediate job is to audit its error rates against the supplied benchmark, not to devise an exercise for the trainees.",
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          }
+        },
+        "results": [
+          {
+            "id": "evidence-linked-learning-design",
+            "score": 51.01,
+            "reasons": [
+              "Matched: course, planning, supplied"
+            ]
+          },
+          {
+            "id": "completeness-and-consistency-audit",
+            "score": 44.409,
+            "reasons": [
+              "Matched: against, audit"
+            ]
+          },
+          {
+            "id": "eternities-prometheus",
+            "score": 35.878,
+            "reasons": [
+              "Matched: planning, route"
+            ]
+          },
+          {
+            "id": "eternities-logos",
+            "score": 26.271,
+            "reasons": [
+              "Matched: supplied"
+            ]
+          },
+          {
+            "id": "api-rate-limit-recovery",
+            "score": 25.734,
+            "reasons": [
+              "Matched: its"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "E2-C01",
+      "stratum": "context-control",
+      "family": "explicit-no-need",
+      "query": "Give apprentices a pulley-board investigation where they reroute the cord, compare the load response and explain the tradeoff between distance and force.",
+      "options": {
+        "limit": 5,
+        "need": "none"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "TEACHING_EXPLORATION",
+          "attribution": "REQUIRED_TEXT_LEVEL_AUDIT_SEPARATE_FROM_RETURNED_SEARCH"
+        },
+        "returned": {
+          "owner": null,
+          "obligation": "EMPTY_HOST_NO_NEED_ABSTENTION"
+        },
+        "eligibility": {
+          "expected": "NO_NEED"
+        },
+        "preservation": {
+          "baseline": "EXACT_SEARCH_PROJECTION_NO_RANK_CORRECTION",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      },
+      "baseline": {
+        "envelope": {
+          "schema": "eternities-godskills-discovery-v1",
+          "authority": "none",
+          "activation": "none",
+          "method": "offline-lexical-intent-phrases-v3",
+          "query": "Give apprentices a pulley-board investigation where they reroute the cord, compare the load response and explain the tradeoff between distance and force.",
+          "abstentionReason": "host-supplied-no-need",
+          "selection": {
+            "state": "abstain",
+            "basis": "host-supplied-no-need"
+          }
+        },
+        "results": []
+      }
+    },
+    {
+      "id": "E2-C02",
+      "stratum": "context-control",
+      "family": "category-exclusion",
+      "query": "Plan a novice electricity activity where learners rearrange branches in a circuit diagram, observe which lamps remain connected, and explain the difference between series and parallel paths.",
+      "options": {
+        "limit": 5,
+        "need": "specialist",
+        "category": "writing"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "TEACHING_EXPLORATION",
+          "attribution": "REQUIRED_TEXT_LEVEL_AUDIT_SEPARATE_FROM_RETURNED_SEARCH"
+        },
+        "returned": {
+          "owner": null,
+          "obligation": "EDUCATION_OWNER_ABSENT_NO_RETURNED_REASON_REQUIRED"
+        },
+        "eligibility": {
+          "expected": "EXCLUDED_BY_CATEGORY"
+        },
+        "preservation": {
+          "baseline": "EXACT_SEARCH_PROJECTION_NO_RANK_CORRECTION",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      },
+      "baseline": {
+        "envelope": {
+          "schema": "eternities-godskills-discovery-v1",
+          "authority": "none",
+          "activation": "none",
+          "method": "offline-lexical-intent-phrases-v3",
+          "query": "Plan a novice electricity activity where learners rearrange branches in a circuit diagram, observe which lamps remain connected, and explain the difference between series and parallel paths.",
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          }
+        },
+        "results": []
+      }
+    },
+    {
+      "id": "E2-C03",
+      "stratum": "context-control",
+      "family": "task-type-exclusion",
+      "query": "Create a printmaking exercise where students overlay colored transparencies in several orders and account for the colors produced in the overlapping regions.",
+      "options": {
+        "limit": 5,
+        "need": "specialist",
+        "taskType": "recover"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "TEACHING_EXPLORATION",
+          "attribution": "REQUIRED_TEXT_LEVEL_AUDIT_SEPARATE_FROM_RETURNED_SEARCH"
+        },
+        "returned": {
+          "owner": null,
+          "obligation": "EDUCATION_OWNER_ABSENT_NO_RETURNED_REASON_REQUIRED"
+        },
+        "eligibility": {
+          "expected": "EXCLUDED_BY_TASK_TYPE"
+        },
+        "preservation": {
+          "baseline": "EXACT_SEARCH_PROJECTION_NO_RANK_CORRECTION",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      },
+      "baseline": {
+        "envelope": {
+          "schema": "eternities-godskills-discovery-v1",
+          "authority": "none",
+          "activation": "none",
+          "method": "offline-lexical-intent-phrases-v3",
+          "query": "Create a printmaking exercise where students overlay colored transparencies in several orders and account for the colors produced in the overlapping regions.",
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          }
+        },
+        "results": [
+          {
+            "id": "memory-retention-and-recovery",
+            "score": 1.62,
+            "reasons": [
+              "Matched: create"
+            ]
+          },
+          {
+            "id": "portable-speech-chunk-alignment",
+            "score": 1.62,
+            "reasons": [
+              "Matched: create"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "E2-C04",
+      "stratum": "context-control",
+      "family": "eligible-category-filter",
+      "query": "Offer a mechanics lesson where learners rotate a cam profile, inspect its follower's motion, and connect the motion pattern to the profile's shape.",
+      "options": {
+        "limit": 5,
+        "need": "unknown",
+        "category": "education"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "TEACHING_EXPLORATION",
+          "attribution": "REQUIRED_TEXT_LEVEL_AUDIT_SEPARATE_FROM_RETURNED_SEARCH"
+        },
+        "returned": {
+          "owner": "evidence-linked-learning-design",
+          "obligation": "OWNER_FIRST_WITH_ACTUAL_INTENT_REASON"
+        },
+        "eligibility": {
+          "expected": "ELIGIBLE_CATEGORY"
+        },
+        "preservation": {
+          "baseline": "OTHER_ELIGIBLE_OWNERS_LEGACY_COMPONENTS_UNCHANGED",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      }
+    },
+    {
+      "id": "E2-C05",
+      "stratum": "context-control",
+      "family": "literal-protected-anti-trigger",
+      "query": "The compliance note reads 'Professional certification or guaranteed outcomes without appropriate evidence and qualified review'. Separately, design a learner-controlled rail-switching exercise to explain why a chosen track layout creates a dead end.",
+      "options": {
+        "limit": 5,
+        "need": "specialist"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "TEACHING_EXPLORATION",
+          "attribution": "REQUIRED_TEXT_LEVEL_AUDIT_SEPARATE_FROM_RETURNED_SEARCH"
+        },
+        "returned": {
+          "owner": null,
+          "obligation": "EDUCATION_OWNER_ABSENT_NO_RETURNED_REASON_REQUIRED"
+        },
+        "eligibility": {
+          "expected": "EXCLUDED_BY_EXACT_ANTI_TRIGGER"
+        },
+        "preservation": {
+          "baseline": "EXACT_SEARCH_PROJECTION_NO_RANK_CORRECTION",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      },
+      "baseline": {
+        "envelope": {
+          "schema": "eternities-godskills-discovery-v1",
+          "authority": "none",
+          "activation": "none",
+          "method": "offline-lexical-intent-phrases-v3",
+          "query": "The compliance note reads 'Professional certification or guaranteed outcomes without appropriate evidence and qualified review'. Separately, design a learner-controlled rail-switching exercise to explain why a chosen track layout creates a dead end.",
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          }
+        },
+        "results": [
+          {
+            "id": "interface-localization-and-bidirectionality",
+            "score": 61.365,
+            "reasons": [
+              "Matched: design, interface, layout, review"
+            ]
+          },
+          {
+            "id": "eternities-daedalus",
+            "score": 39.389,
+            "reasons": [
+              "Matched: design, end, evidence"
+            ]
+          },
+          {
+            "id": "columnar-ingestion-rollup-and-query-layout-design",
+            "score": 37.571,
+            "reasons": [
+              "Matched: design, evidence, layout"
+            ]
+          },
+          {
+            "id": "formula-preserving-workbook-engineering",
+            "score": 36.387,
+            "reasons": [
+              "Matched: review, visual, without"
+            ]
+          },
+          {
+            "id": "eternities-logos",
+            "score": 33.184,
+            "reasons": [
+              "Matched: evidence, review, visual"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "E2-M01",
+      "stratum": "mixed-fixed",
+      "family": "education-and-scientific-validation",
+      "query": "Develop a student activity where they vary a toy orbital model and explain its changing path, and separately assess how far that model agrees with the supplied observations.",
+      "options": {
+        "limit": 5,
+        "need": "specialist"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "TEACHING_EXPLORATION",
+          "attribution": "REQUIRED_OBSERVABLE_METADATA_BACKED_INTENT"
+        },
+        "returned": {
+          "owner": "evidence-linked-learning-design",
+          "obligation": "ACTUAL_INTENT_REASON_IF_OWNER_RETURNED_NO_PRIMARY_REQUIREMENT"
+        },
+        "eligibility": {
+          "expected": "ELIGIBLE_UNDER_FROZEN_METADATA"
+        },
+        "preservation": {
+          "baseline": "OTHER_ELIGIBLE_OWNERS_LEGACY_COMPONENTS_UNCHANGED",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      }
+    },
+    {
+      "id": "E2-M02",
+      "stratum": "mixed-fixed",
+      "family": "education-and-accessibility-engineering",
+      "query": "Prepare an interactive network-routing lesson in which trainees redirect packets and explain the resulting path, and audit the existing control panel for screen-reader access.",
+      "options": {
+        "limit": 5,
+        "need": "specialist"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "TEACHING_EXPLORATION",
+          "attribution": "REQUIRED_OBSERVABLE_METADATA_BACKED_INTENT"
+        },
+        "returned": {
+          "owner": "evidence-linked-learning-design",
+          "obligation": "ACTUAL_INTENT_REASON_IF_OWNER_RETURNED_NO_PRIMARY_REQUIREMENT"
+        },
+        "eligibility": {
+          "expected": "ELIGIBLE_UNDER_FROZEN_METADATA"
+        },
+        "preservation": {
+          "baseline": "OTHER_ELIGIBLE_OWNERS_LEGACY_COMPONENTS_UNCHANGED",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      }
+    },
+    {
+      "id": "E2-M03",
+      "stratum": "mixed-uncertain",
+      "family": "public-exhibit-purpose-unresolved",
+      "query": "Make a visitor-controlled sound-wave display for the festival. We have not decided whether visitors should investigate a relationship or simply choose attractive patterns.",
+      "options": {
+        "limit": 5,
+        "need": "specialist"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "UNCERTAIN",
+          "allowedIntentStates": [
+            "NO_NEW_INTENT",
+            "TEACHING_EXPLORATION"
+          ],
+          "attribution": "OBSERVE_AND_EXPLAIN_ONE_ALLOWED_INTERPRETATION_WITH_REMAINING_UNCERTAINTY"
+        },
+        "returned": {
+          "owner": null,
+          "obligation": "NO_SINGLE_PRIMARY_OWNER_REQUIRED; NEW_REASON_IF_RECOGNIZED_OWNER_RETURNED"
+        },
+        "eligibility": {
+          "expected": "ORDINARY_LEGACY_FILTER_RULES"
+        },
+        "preservation": {
+          "baseline": "OTHER_ELIGIBLE_OWNERS_LEGACY_COMPONENTS_UNCHANGED",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      }
+    },
+    {
+      "id": "E2-M04",
+      "stratum": "mixed-uncertain",
+      "family": "conditional-secondary-learning-subtask",
+      "query": "Draft the curator's talk on how a printing press changed the workflow; if floor space allows, add a visitor exercise with rearrangeable process stations to investigate the bottlenecks.",
+      "options": {
+        "limit": 5,
+        "need": "specialist"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "UNCERTAIN",
+          "allowedIntentStates": [
+            "NO_NEW_INTENT",
+            "TEACHING_EXPLORATION"
+          ],
+          "attribution": "OBSERVE_AND_EXPLAIN_ONE_ALLOWED_INTERPRETATION_WITH_REMAINING_UNCERTAINTY"
+        },
+        "returned": {
+          "owner": null,
+          "obligation": "NO_SINGLE_PRIMARY_OWNER_REQUIRED; NEW_REASON_IF_RECOGNIZED_OWNER_RETURNED"
+        },
+        "eligibility": {
+          "expected": "ORDINARY_LEGACY_FILTER_RULES"
+        },
+        "preservation": {
+          "baseline": "OTHER_ELIGIBLE_OWNERS_LEGACY_COMPONENTS_UNCHANGED",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      }
+    }
+  ]
+}

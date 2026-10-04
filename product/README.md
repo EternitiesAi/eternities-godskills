@@ -41,7 +41,8 @@ ties, and bounded lexical intent profiles. A profile requires several request
 cues and matching skill metadata; it does not identify a skill from an exact
 query lookup. Profiles currently cover written voice, interpersonal clarification,
 task-record recovery, delivery completeness, sustained-work reconciliation, and
-corroborated usability-observation synthesis. The last profile requires people
+corroborated usability-observation synthesis, and learner-model explanation.
+The usability profile requires people
 performing a task, observed interaction, a findings action, and an interface or
 task artifact; isolated usability vocabulary is not enough. These are explicit
 lexical rules, not a general semantic classifier or applicability judgment.
@@ -50,6 +51,17 @@ anything. The `offline-lexical-intent-phrases-v3` method is deterministic lexica
 retrieval, not a claim of semantic understanding or vector-search superiority.
 The agent still judges applicability against the actual task. A low-quality
 match is not an instruction to force a skill into the work.
+
+The learner-model profile requires all five finite cue families: teaching purpose,
+a requested teaching/preparation action, an explanatory objective, an explorable
+representation, and manipulation or feedback. Matching owner metadata is also
+required. That corroborated request is ordered before incidental keyword hits;
+within each tier, the existing score and stable ID tie-break remain unchanged.
+Scores need not descend across tiers and are not confidence values. The reason
+reports this ordering. Category/task filters, anti-triggers and host no-need still
+apply. This profile alone omits balanced quoted material and recognized refusal
+or historical clauses; it is not general negation, discourse or multilingual
+understanding. Mere mentions of training or a model do not supply the request.
 
 Both `search` and `route` accept `--need none|specialist|unknown`. The host owns
 this semantic judgment. `none` returns no suggestions; `specialist` asks for

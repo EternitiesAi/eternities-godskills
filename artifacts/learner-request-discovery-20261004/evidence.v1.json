@@ -1,0 +1,47 @@
+{
+  "schema": "godskills-learner-request-discovery-evidence-v1",
+  "releaseId": "b3939c86a82ad58d6111942aa431c61a7b3eae173409f3e5b79e053916aad5f1",
+  "baselineCommit": "b7d8c6382e58aa2117cf70a4f8cd1f2f651ff994",
+  "priorReleaseId": "a9a64ce08fd6896c18ce68b3dba8504832b4737b1602e52ccf5b2e87588795e4",
+  "entrypoints": 77,
+  "runtimeFiles": 258,
+  "changedPayloads": ["README.md", "lib/discovery.mjs", "lib/product.mjs"],
+  "other254PayloadsAndCatalogUnchanged": true,
+  "inputManifestSha256": "34bca4f0340e7afd6955fefce35c6995b06ac34cd5104a5e6c6ab1c9cb280a4a",
+  "fullSuite": {
+    "registered": 1602, "pass": 1600, "fail": 0, "skip": 2,
+    "exactInputFilesBeforeAfter": 15,
+    "boundReceiptSha256": "02a10bf264f569f9d1192fe81b79b8b97c1ddac56bc151dad387910a06f06f3c",
+    "skipLimits": ["Windows symlink creation unavailable", "cross-volume destination fixture unavailable"]
+  },
+  "independentCodeReview": {
+    "disposition": "READY_NARROW", "targetedTests": 155, "actualCliProbes": 10,
+    "receiptSha256": "51defe8e9ca3069c2652b2f8335bd50e82c2ef7c9a1eb3896822de6a9ecb280c",
+    "notSemanticHeldoutQualification": true
+  },
+  "independentFixedReplication": {
+    "disposition": "READY_NARROW", "pairedSearches": 74,
+    "originalFixedPass": 28, "originalFixedFail": 0,
+    "laterFixedPass": 7, "laterFixedFail": 0,
+    "uncertainOutsideDenominators": 2, "exactNegativeProjections": 16,
+    "all37Revealed": true, "virginHeldout": false, "goldWeakened": false,
+    "receiptSha256": "a3f1e740f1fa1a9b1c05fd61685936f32023ed18782a81b01f1770c39518c000"
+  },
+  "parentAcceptanceSha256": "c0faa83176c1c83f902a473e9f7b994b283b5bfb0e502f83cb9a6612001a821f",
+  "parentReviewOutputBindings": 22,
+  "archive": {
+    "path": "artifacts/releases/godskills-product-20261004-b3939c86.zip",
+    "sha256": "cbecce3478cd040b46e098faeba5068458854b673686692659f9763550a60016",
+    "bytes": 1408264, "members": 258,
+    "separateDotNetExactMemberBytesVerified": true,
+    "isolatedZipOnlyCliVerifiedOnSameHost": true,
+    "freshOs": false, "freshChatEnumeration": false
+  },
+  "historicalNegativeReviewsPreserved": true,
+  "authority": "none", "activation": "none",
+  "sourceRightsCleared": false, "r10Applied": false,
+  "r10OpenIdentityObligations": 49514, "r10Conflicts": 163,
+  "wholeCorpusComplete": false,
+  "fieldEfficacyOrUniversalSemanticSuperiority": false,
+  "deployment": "Separate installation record and non-installer audit; not implied by this evidence."
+}

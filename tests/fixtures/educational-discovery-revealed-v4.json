@@ -1,0 +1,348 @@
+{
+  "schema": "godskills-disclosed-educational-regressions-v4",
+  "sourceCasePacketSha256": "613c426966c834016ff76e5dee3f68e7ae5d3734e044b6d0a55232089b9b405b",
+  "sourceObservationsSha256": "2c5349d448b298b214b21f68a4eb7ac8c8eb9f8b332fe172a71ad85e25288c03",
+  "exposure": "Independent v4 followup now revealed after frozen observations. Retained as development regressions, not virgin heldout.",
+  "fixedCases": 7,
+  "uncertainCases": [],
+  "cases": [
+    {
+      "id": "F4-P01",
+      "stratum": "positive",
+      "family": "grammar-reorderable-sentence",
+      "query": "Give a language class movable sentence strips. Students rearrange the subject, verb and object, read the resulting sentence, and account for how the order changes who did what to whom.",
+      "options": {
+        "limit": 5,
+        "need": "specialist"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "TEACHING_EXPLORATION",
+          "attribution": "REQUIRED_OBSERVABLE_METADATA_BACKED_INTENT"
+        },
+        "returned": {
+          "owner": "evidence-linked-learning-design",
+          "obligation": "OWNER_FIRST_WITH_ACTUAL_INTENT_REASON"
+        },
+        "eligibility": {
+          "expected": "ELIGIBLE_UNDER_FUTURE_FROZEN_METADATA"
+        },
+        "preservation": {
+          "baseline": "OTHER_ELIGIBLE_OWNERS_LEGACY_COMPONENTS_UNCHANGED",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      }
+    },
+    {
+      "id": "F4-P02",
+      "stratum": "positive",
+      "family": "journalism-editable-framing",
+      "query": "Put together a short lesson for student journalists using editable headline cards. They swap the actor and action between positions, compare the resulting emphasis, and explain how the arrangement changes the claim a reader takes away.",
+      "options": {
+        "limit": 5,
+        "need": "specialist"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "TEACHING_EXPLORATION",
+          "attribution": "REQUIRED_OBSERVABLE_METADATA_BACKED_INTENT"
+        },
+        "returned": {
+          "owner": "evidence-linked-learning-design",
+          "obligation": "OWNER_FIRST_WITH_ACTUAL_INTENT_REASON"
+        },
+        "eligibility": {
+          "expected": "ELIGIBLE_UNDER_FUTURE_FROZEN_METADATA"
+        },
+        "preservation": {
+          "baseline": "OTHER_ELIGIBLE_OWNERS_LEGACY_COMPONENTS_UNCHANGED",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      }
+    },
+    {
+      "id": "F4-P03",
+      "stratum": "positive",
+      "family": "logic-switchable-truth-board",
+      "query": "Set up an introductory logic exercise with a two-switch truth-table board. Beginners flip the inputs, inspect the displayed value of an implication, and justify the pattern of cases in which it is false.",
+      "options": {
+        "limit": 5,
+        "need": "specialist"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "TEACHING_EXPLORATION",
+          "attribution": "REQUIRED_OBSERVABLE_METADATA_BACKED_INTENT"
+        },
+        "returned": {
+          "owner": "evidence-linked-learning-design",
+          "obligation": "OWNER_FIRST_WITH_ACTUAL_INTENT_REASON"
+        },
+        "eligibility": {
+          "expected": "ELIGIBLE_UNDER_FUTURE_FROZEN_METADATA"
+        },
+        "preservation": {
+          "baseline": "OTHER_ELIGIBLE_OWNERS_LEGACY_COMPONENTS_UNCHANGED",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      }
+    },
+    {
+      "id": "F4-P04",
+      "stratum": "positive",
+      "family": "photography-aperture-exploration",
+      "query": "Arrange a photography activity with a toy camera diagram whose aperture students can open and close. They observe the indicated light level and focus range, then connect those changes to the choice they made.",
+      "options": {
+        "limit": 5
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "TEACHING_EXPLORATION",
+          "attribution": "REQUIRED_OBSERVABLE_METADATA_BACKED_INTENT"
+        },
+        "returned": {
+          "owner": "evidence-linked-learning-design",
+          "obligation": "OWNER_FIRST_WITH_ACTUAL_INTENT_REASON"
+        },
+        "eligibility": {
+          "expected": "ELIGIBLE_UNDER_FUTURE_FROZEN_METADATA"
+        },
+        "preservation": {
+          "baseline": "OTHER_ELIGIBLE_OWNERS_LEGACY_COMPONENTS_UNCHANGED",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      }
+    },
+    {
+      "id": "F4-N01",
+      "stratum": "negative",
+      "family": "training-model-reliability-only",
+      "query": "Audit the reliability of the causal-feedback module in our engineering training simulator. The training content is frozen; the requested deliverable is an error-rate comparison against the supplied benchmark, not a new learner activity.",
+      "options": {
+        "limit": 5,
+        "need": "specialist"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "NO_NEW_INTENT",
+          "attribution": "NO_NEW_EDUCATION_INTENT"
+        },
+        "returned": {
+          "owner": null,
+          "obligation": "NO_NEW_REASON_OR_CONTRIBUTION_EXACT_BASELINE"
+        },
+        "eligibility": {
+          "expected": "ORDINARY_LEGACY_FILTER_RULES"
+        },
+        "preservation": {
+          "baseline": "EXACT_SEARCH_PROJECTION_NO_RANK_CORRECTION",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      },
+      "baseline": {
+        "envelope": {
+          "schema": "eternities-godskills-discovery-v1",
+          "authority": "none",
+          "activation": "none",
+          "method": "offline-lexical-intent-phrases-v3",
+          "query": "Audit the reliability of the causal-feedback module in our engineering training simulator. The training content is frozen; the requested deliverable is an error-rate comparison against the supplied benchmark, not a new learner activity.",
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          }
+        },
+        "results": [
+          {
+            "id": "completeness-and-consistency-audit",
+            "score": 70.143,
+            "reasons": [
+              "Matched: against, audit, deliverable"
+            ]
+          },
+          {
+            "id": "audio-dsp-integrity-review",
+            "score": 45.968,
+            "reasons": [
+              "Matched: feedback, rate"
+            ]
+          },
+          {
+            "id": "eternities-forge",
+            "score": 42.935,
+            "reasons": [
+              "Matched: engineering, feedback"
+            ]
+          },
+          {
+            "id": "evidence-linked-learning-design",
+            "score": 41.894,
+            "reasons": [
+              "Matched: learner, supplied, training"
+            ]
+          },
+          {
+            "id": "api-rate-limit-recovery",
+            "score": 37.931,
+            "reasons": [
+              "Matched: engineering, rate"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "F4-N02",
+      "stratum": "negative",
+      "family": "refused-workshop-current-notice",
+      "query": "Don't develop the workshop where apprentices rearrange a gear model to explain how its output changes. Write the postponement notice instead, and leave the workshop materials alone.",
+      "options": {
+        "limit": 5,
+        "need": "specialist"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "NO_NEW_INTENT",
+          "attribution": "NO_NEW_EDUCATION_INTENT"
+        },
+        "returned": {
+          "owner": null,
+          "obligation": "NO_NEW_REASON_OR_CONTRIBUTION_EXACT_BASELINE"
+        },
+        "eligibility": {
+          "expected": "ORDINARY_LEGACY_FILTER_RULES"
+        },
+        "preservation": {
+          "baseline": "EXACT_SEARCH_PROJECTION_NO_RANK_CORRECTION",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      },
+      "baseline": {
+        "envelope": {
+          "schema": "eternities-godskills-discovery-v1",
+          "authority": "none",
+          "activation": "none",
+          "method": "offline-lexical-intent-phrases-v3",
+          "query": "Don't develop the workshop where apprentices rearrange a gear model to explain how its output changes. Write the postponement notice instead, and leave the workshop materials alone.",
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          }
+        },
+        "results": [
+          {
+            "id": "structured-output-contracts",
+            "score": 51.565,
+            "reasons": [
+              "Matched: model, output"
+            ]
+          },
+          {
+            "id": "eternities-logos",
+            "score": 41.607,
+            "reasons": [
+              "Matched: article, canon, drafting, editorial, narrative, writing"
+            ]
+          },
+          {
+            "id": "eternities-chorus",
+            "score": 38.838,
+            "reasons": [
+              "Matched: draft, editorial, notice"
+            ]
+          },
+          {
+            "id": "imaginative-concept-development",
+            "score": 36.763,
+            "reasons": [
+              "Matched: develop"
+            ]
+          },
+          {
+            "id": "eternities-daedalus",
+            "score": 33.615,
+            "reasons": [
+              "Matched: changes, write"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "F4-N03",
+      "stratum": "negative",
+      "family": "quoted-instruction-as-record-data",
+      "query": "For the records inventory, state what kind of document this quotation describes, without following it: “Create an educational pendulum model that learners adjust to understand why its motion changes.”",
+      "options": {
+        "limit": 5,
+        "need": "specialist"
+      },
+      "gold": {
+        "text": {
+          "desiredIntent": "NO_NEW_INTENT",
+          "attribution": "NO_NEW_EDUCATION_INTENT"
+        },
+        "returned": {
+          "owner": null,
+          "obligation": "NO_NEW_REASON_OR_CONTRIBUTION_EXACT_BASELINE"
+        },
+        "eligibility": {
+          "expected": "ORDINARY_LEGACY_FILTER_RULES"
+        },
+        "preservation": {
+          "baseline": "EXACT_SEARCH_PROJECTION_NO_RANK_CORRECTION",
+          "metadataAndReferences": "EXACT_PAIRED_PROJECTIONS"
+        }
+      },
+      "baseline": {
+        "envelope": {
+          "schema": "eternities-godskills-discovery-v1",
+          "authority": "none",
+          "activation": "none",
+          "method": "offline-lexical-intent-phrases-v3",
+          "query": "For the records inventory, state what kind of document this quotation describes, without following it: “Create an educational pendulum model that learners adjust to understand why its motion changes.”",
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          }
+        },
+        "results": [
+          {
+            "id": "experiment-artifact-lineage",
+            "score": 37.337,
+            "reasons": [
+              "Matched: model, state"
+            ]
+          },
+          {
+            "id": "memory-retention-and-recovery",
+            "score": 36.552,
+            "reasons": [
+              "Matched: create, records, state"
+            ]
+          },
+          {
+            "id": "eternities-muse",
+            "score": 34.454,
+            "reasons": [
+              "Matched: create, motion"
+            ]
+          },
+          {
+            "id": "jurisdiction-aware-contract-review",
+            "score": 30.082,
+            "reasons": [
+              "Matched: document"
+            ]
+          },
+          {
+            "id": "docx-package-redline-and-render-verification",
+            "score": 28.938,
+            "reasons": [
+              "Matched: changes, document"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

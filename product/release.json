@@ -1,6 +1,6 @@
 {
   "schema": "eternities-godskills-release-v1",
-  "releaseId": "a9a64ce08fd6896c18ce68b3dba8504832b4737b1602e52ccf5b2e87588795e4",
+  "releaseId": "b3939c86a82ad58d6111942aa431c61a7b3eae173409f3e5b79e053916aad5f1",
   "skillCount": 77,
   "files": {
     "CORPUS-SCOPE.md": "9294897e1d8d392322a4ef4d7ee4b678b0adc3afd62442b932e5b9f49c2774fb",
@@ -8,7 +8,7 @@
     "INDEX.md": "53c0abec6a2794c8507a7203227aa0d1edbcbbe5d9d8b3613f300beef81468f5",
     "METHODS.v1.json": "412b4272987b119ba3edf1a9df44aeb75d6b372a90f1bdeabe92c5834bd5265d",
     "METHODS.v1.md": "8f98763a7a706e4ba220654e45db2cbea17f56fd497f6edf1d6b4baaaa02d1cd",
-    "README.md": "e59d4f04e6dcf10be74d3cf234337cf70c1cd9b2b90a45f855f4f9bff046ef73",
+    "README.md": "5c376b88d06bff025581a55ed10306fede44442f3848486bddb3e864249db850",
     "RECIPES.md": "5796f9f1957f2ab65c92bd7b5c2d3f0654fe4ef925e4005ec72a0a00b5d02528",
     "bin/godskills.mjs": "cd2b01f504fb89efee54e0b70dcc08631842e03305d5c35be67777d88a0718d4",
     "catalog.json": "7b9a15d4e67e202fda0f68eb93f1a6675196f653373a062b8c9ffc125008a9e5",
@@ -29,9 +29,9 @@
     "evidence/method-reviews/daedalus-v1/review.md": "4e945d60805c10be19a8d0a8e8f974e7d75a3968a9dd7dc60e13a820e6ae10ed",
     "evidence/method-reviews/daedalus-v1/task-plans.md": "0de3f7294e43179c4d4697a7f97ce01d364c8b0874c5353534f464c932f7ef99",
     "lib/archive.mjs": "62cb7442554233a93aa7a149e3336830ef02cdfaf905d944e8f2241b07ce0ba3",
-    "lib/discovery.mjs": "645f0cb6db1c53b4e5b67142f6f78db69a1dc7b3841d4bb80fa18e8fd2004a3c",
+    "lib/discovery.mjs": "338dbfcb9b0a2d7ced99b2bdd52b9fd0c94f2ba964017ea6e035b8f5e54dfa49",
     "lib/method-directory.mjs": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180",
-    "lib/product.mjs": "9f0fd965a0a0f37de89d0a9796d534678ae08289898327b4030b25adca6d1e4a",
+    "lib/product.mjs": "b589b4baea80fadb6ee107b747f06e48c593ea58ece3622ea85bec919526aa27",
     "lib/selection-boundary.mjs": "792db2f120251de8c0d21985c10cb81a0fd1a5baa83978851e9eb16e10ca68be",
     "skills/agricultural-observation-and-trial/SKILL.md": "dad70e81edda0d52ada7e726b7e19375dc2a1f3251435be295d9a92992304f2d",
     "skills/agricultural-observation-and-trial/skill.json": "ee6e741e16650be93fcb245c8e2f75edf135d2ea79bdef29dfe184c56cdb933f",

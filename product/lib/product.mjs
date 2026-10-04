@@ -165,7 +165,7 @@ export function searchCatalog(catalog,query,{limit=5,category,taskType,need='unk
   const docs=catalog.skills.map(item=>({item,fields:[{weight:7,text:item.triggers.join(' ')},{weight:4,text:item.id.replaceAll('-',' ')},{weight:3,text:item.summary},{weight:1,text:item.category.replaceAll('-',' ')+' '+item.taskTypes.join(' ')}]}));
   const documentWords=docs.map(x=>new Set(words(x.fields.map(f=>f.text).join(' '))));
   const frequency=new Map();for(const set of documentWords)for(const term of set)frequency.set(term,(frequency.get(term)||0)+1);
-  const candidates=[];
+  const candidates=[],requestPriority=new Map();
   for(const doc of docs){
     const item=doc.item;if(category&&item.category!==category||taskType&&!item.taskTypes.includes(taskType))continue;
     const normalizedQuery=query.toLowerCase().normalize('NFKC').replace(/\s+/g,' ').trim();
@@ -175,9 +175,13 @@ export function searchCatalog(catalog,query,{limit=5,category,taskType,need='unk
     if(query.trim().toLowerCase()===item.id){score+=100;matched.add(item.id);}
     const intent=lexicalIntentMatch(item,evidence);score+=intent.score;
     if(!score)continue;
-    candidates.push({id:item.id,category:item.category,entrypoint:item.entrypoint,entrypointSha256:item.entrypointSha256,summary:item.summary,maturity:item.maturity,taskTypes:item.taskTypes,antiTriggers:item.antiTriggers,score:Math.round(score*1000)/1000,reasons:[...(matched.size?[`Matched: ${[...matched].sort(cmp).join(', ')}`]:[]),...intent.reasons],related:item.related,...(item.specializes?{specializes:item.specializes}:{})});
+    const candidate={id:item.id,category:item.category,entrypoint:item.entrypoint,entrypointSha256:item.entrypointSha256,summary:item.summary,maturity:item.maturity,taskTypes:item.taskTypes,antiTriggers:item.antiTriggers,score:Math.round(score*1000)/1000,reasons:[...(matched.size?[`Matched: ${[...matched].sort(cmp).join(', ')}`]:[]),...intent.reasons],related:item.related,...(item.specializes?{specializes:item.specializes}:{})};
+    candidates.push(candidate);requestPriority.set(candidate,intent.prioritizeRequestedActivity?1:0);
   }
-  candidates.sort((a,b)=>b.score-a.score||cmp(a.id,b.id));
+  // Only the five-cue, metadata-corroborated teaching request uses this tier.
+  // Existing profiles and no-new-intent queries retain score/ID ordering. Host
+  // need, task/category and anti-trigger exclusions have already been applied.
+  candidates.sort((a,b)=>requestPriority.get(b)-requestPriority.get(a)||b.score-a.score||cmp(a.id,b.id));
   return {schema:'eternities-godskills-discovery-v1',authority:'none',activation:'none',method:'offline-lexical-intent-phrases-v3',query,results:candidates.slice(0,limit),selection:{state:'review-required',basis:need==='specialist'?'host-requested-specialist-candidates':'lexical-candidates-only'}};
 }
 
