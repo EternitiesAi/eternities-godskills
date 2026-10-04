@@ -6,7 +6,9 @@ simulation entrypoint or make every lesson load a long model-building workflow.
 The pack still has 77 entrypoints, and its ordered discovery projections are
 unchanged. The release identity is
 `4520db08b6ca5dbc8cc93f08585d7c021282ea021d80b9896ecbf9f06995651e`.
-Publication and installation are separate from this implementation record.
+Publication and installation are separate from this implementation record; the
+[installation checkpoint](educational-microsimulation-installation-20261004.md)
+records the later verified local deployment and its known discovery weakness.
 See the [exact public evidence](../artifacts/microsimulation-method-20261004/evidence.v1.json).
 
 The [standalone ZIP](../artifacts/releases/godskills-product-20261004-4520db08.zip)

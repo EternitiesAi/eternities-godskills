@@ -1,0 +1,36 @@
+{
+  "schema": "godskills-microsimulation-parent-deployment-v1",
+  "releaseId": "4520db08b6ca5dbc8cc93f08585d7c021282ea021d80b9896ecbf9f06995651e",
+  "implementationCommit": "589679f2052d3147f9d8998008b2a0e84b6c555e",
+  "publishedMainAndOriginEqual": true,
+  "canonicalDeclaredPayloadsVerified": 252,
+  "protectedActivationFilesUnchanged": 3,
+  "unrelatedCanonicalExperimentFilesUnchanged": 2,
+  "publicImplementationEvidenceSha256": "977dfcba4857c5a6789d7729486e69a8a6ac17493606d855aacc4effec1d605c",
+  "installed": {
+    "entrypoints": 77,
+    "managedNativeFiles": 221,
+    "runtimeFiles": 253,
+    "installerJournalSha256": "2488e762deb9c04ed07887bcbefa9d88c905f2e8083ea21a178eefa8344f268d",
+    "beforeManifestSha256": "c56defcd14265d514d3c36a796c7ef53ea18336324fdfc8b34d5720ece94eab4",
+    "afterManifestSha256": "618a18ec2599d1dc61f1cdf34d1914f487c0d0ca86c8b32dd6b93e48b17fbcda",
+    "rollbackBackupVerified": true,
+    "previousReleaseId": "6c36ebcdcda1df53006015e47e348189f14fc11968a7c153767dafeea0531520",
+    "preservedPreviousManagedNativeFiles": 220,
+    "preservedPreviousRuntimeFiles": 252,
+    "preservedUnrelatedNativeFiles": 56
+  },
+  "discoveryObservation": {
+    "query": "design an educational microsimulation to explain a misconception with causal feedback and a hand-checkable model",
+    "returnedTopThree": ["eternities-athena", "eternities-forge", "diagnostic-statistical-model-inference"],
+    "intendedEducationOwnerAbsentFromTopThree": true,
+    "disposition": "Known lexical-discovery weakness; diagnosis assigned separately, not repaired by this release."
+  },
+  "independentDeploymentAudit": "Pending separate non-installer audit at this parent checkpoint",
+  "automaticNativeSelectionProven": false,
+  "learnerEfficacyProven": false,
+  "wholeCorpusComplete": false,
+  "r10Applied": false,
+  "r10ActualOpenObligations": 49514,
+  "r10Conflicts": 163
+}
