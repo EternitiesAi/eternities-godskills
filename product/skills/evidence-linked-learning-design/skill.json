@@ -23,9 +23,19 @@
     "eternities-athena",
     "eternities-muse"
   ],
-  "resources": ["references/handoffs-and-reporting.md", "references/educational-microsimulation.md"],
+  "resources": ["references/handoffs-and-reporting.md", "references/educational-microsimulation.md", "references/support-transition.md"],
   "maturity": "instruction-reviewed",
   "provenance": [
+    {
+      "kind": "conditional-method-review",
+      "source": "GarethManning/education-agent-skills@6bbbce418f82e11044009c9f3b7373a354de5bd0:skills/student-learning/fading-manager/SKILL.md",
+      "note": "Original references/support-transition.md is a learner-controlled optional aid procedure, separately instruction-reviewed at v3 receipt ba5d635830f8f5673a3ed78961a79f349686195c212a08ec887569446422effe. Exact inert pattern body SHA-256 83681b24f6746e727480efdf657299f47fad1da9d858932bac2e3217a482b1d2 informed bounded choice/restore; automatic fade thresholds, profiles and covert support withdrawal are not adopted. Source rights/access/provenance and historical context holds remain distinct and nonterminal; no actual learner, persistence, efficacy or compliance result follows."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "GarethManning/education-agent-skills@6bbbce418f82e11044009c9f3b7373a354de5bd0:skills/self-regulated-learning/self-regulation-scaffold-generator/SKILL.md",
+      "note": "Exact conceptual body SHA-256 8192adbc918764dc9f53ee30f67cf95a6056d3eaee6ef798ba9674e0233b6f5d informed only learner-led task reflection in independent writing. This identity retains its own unresolved rights/access/provenance/context holds; no source prose, profile mechanism or terminal quality outcome is transferred."
+    },
     {
       "kind": "pattern-reference",
       "source": "ynulihao/AgentSkillOS@c3cfae10ea34a13973c461273ad9c5cc4aa907fe:data/skill_seeds/microsim-generator/SKILL.md",

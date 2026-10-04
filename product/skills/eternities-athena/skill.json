@@ -28,10 +28,16 @@
     "counterbalanced-agent-evaluation"
   ],
   "resources": [
-    "references/methods.md"
+    "references/methods.md",
+    "references/prospective-comparison-design.md"
   ],
   "maturity": "instruction-reviewed",
   "provenance": [
+    {
+      "kind": "conditional-method-review",
+      "source": "Owl-Listener/designer-skills@9a6930cf84a822eb458624bd11c61aac5bbdf224:prototyping-testing/skills/a-b-test-design/SKILL.md",
+      "note": "references/prospective-comparison-design.md is original conditional guidance, separately instruction-reviewed at v2 receipt 7a3845a7472d6126d2179255fc766203b19e732825d4324898e57481c26bd684. Exact inert pattern body SHA-256 2ca225aaae67d1dd00f245302a655c08fce4d098604c9895e6f7c4d3e4d8b937 informed the design; fixed thresholds, universal durations, early favorable stopping and unconditional sharing were rejected. Source rights/access and historical context holds remain unresolved and nonterminal. No sample calculation, experiment launch, outcome or scientific certification follows."
+    },
     {
       "kind": "source",
       "source": "skills/eternities-athena/SKILL.md",

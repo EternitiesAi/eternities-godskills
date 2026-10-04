@@ -62,13 +62,22 @@ or general agent-superiority evidence.
 The [conditional study and literature-synthesis refinement](docs/conditional-study-synthesis-refinement-20261004.md)
 adds access-sensitive study planning and staged, source-anchored synthesis under
 the existing user-study and Logos owners. The
-[latest standalone ZIP](artifacts/releases/godskills-product-20261004-5755594f.zip)
+[study-synthesis snapshot ZIP](artifacts/releases/godskills-product-20261004-5755594f.zip)
 and [SHA-256 sidecar](artifacts/releases/godskills-product-20261004-5755594f.zip.sha256)
 retain 77 entrypoints and the earlier scoring contracts. These methods load
 only for matching tasks; separate instruction/package reviews are not live
 study, scientific-outcome or whole-quarry qualification.
 The [separate installation record](docs/conditional-study-synthesis-installation-20261004.md)
 records the backed-up local upgrade and preservation of unrelated skills.
+
+The [conditional comparison, experience and support-choice refinement](docs/conditional-learning-research-refinement-20261004.md)
+adds three separately reviewed optional procedures to Athena, user research and
+learning design. They strengthen design-before-data, evidence-bound handoffs and
+learner-controlled support without making routine work load more context. The
+[latest standalone ZIP](artifacts/releases/godskills-product-20261004-a9a64ce0.zip)
+and [SHA-256 sidecar](artifacts/releases/godskills-product-20261004-a9a64ce0.zip.sha256)
+retain 77 entrypoints and unchanged scoring. The independent educational-discovery
+candidate is separate: its failed first review is preserved, not shipped as a fix.
 
 For a new computer, copy only `product/` or export its verified standalone ZIP:
 

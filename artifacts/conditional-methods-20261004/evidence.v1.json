@@ -1,0 +1,63 @@
+{
+  "schema": "godskills-conditional-methods-public-evidence-v1",
+  "baselineCommit": "209b0afc9e9166e26d97b434b8b00889cf5c4d40",
+  "releaseId": "a9a64ce08fd6896c18ce68b3dba8504832b4737b1602e52ccf5b2e87588795e4",
+  "entrypoints": 77,
+  "payloadFiles": 257,
+  "changedFiles": 13,
+  "instructionResources": [
+    {"owner": "eternities-athena", "path": "references/prospective-comparison-design.md", "sha256": "f2ec1b06478248f9984c07d3a7399db4a5e36133826079afd28408e3e64749f7"},
+    {"owner": "user-research-and-usability-study", "path": "references/experience-mapping.md", "sha256": "bb7906daefa5d06a255c50b217ddafcd8a5db8b58d99d17ae16a345bc2132812"},
+    {"owner": "evidence-linked-learning-design", "path": "references/support-transition.md", "sha256": "470484b186df4978ec4c5e817990d25c0a2ad200dbf6ef1bea6441f43372d954"}
+  ],
+  "scoringProjectionsUnchanged": 77,
+  "discoveryRuntimeUnchanged": true,
+  "candidateManifestSha256": "8b39d3ef0ab447741e6c0c0baeb28100217155de1186878c5abdbefd04af5fb2",
+  "independentChangedTree": {
+    "verdict": "READY_NARROW",
+    "receiptSha256": "bd243e83e8df7d934898b4d8079c328ad7548ac7f80e654b6c7772772962e941",
+    "scope": "Exact instruction and packaging integration; no source requalification or live outcomes",
+    "freshChecks": ["frozen product validation", "three released catalog resource consumer tests"],
+    "parentAcceptanceSha256": "e5a25c66b9f7acde80a47bea8ee9eb4b83c8c86169f177548adf0daed354afa7"
+  },
+  "fullSuite": {
+    "boundReceiptSha256": "b1c8b85b771b4d18a59e18b0e24db44af46aa7092b450e7539c31188f1a50067",
+    "registered": 1527,
+    "pass": 1525,
+    "fail": 0,
+    "skip": 2,
+    "skipReason": "Windows symbolic-link and different-volume fixture availability",
+    "exactFilesBeforeAndAfter": 13,
+    "focusedPass": 41
+  },
+  "archive": {
+    "path": "artifacts/releases/godskills-product-20261004-a9a64ce0.zip",
+    "sha256": "fb7f0d29ed28046103f415da272354f00482cc34bc722d85ee691f32136fb233",
+    "bytes": 1401494,
+    "members": 258,
+    "independentMemberByteReader": ".NET ZipFile",
+    "exactMembershipAndBytes": true
+  },
+  "prospectiveApplication": {
+    "kind": "Fictional local planning packet with native host policy still active",
+    "authorPacketSha256": "c590ea44dac19a6227f448fda55da6eb15d41f3755f1b5eb5561ede976121332",
+    "differentAuthorReviewReceiptSha256": "f085d17304660ca33bf91ff4b46cad53b71bab50de4f5a0b5f47f1350acf25c5",
+    "verdict": "READY_NARROW for design discussion; feasibility remains unknown",
+    "executedFixtures": 0,
+    "rawBaselineComparison": false
+  },
+  "excludedDiscoveryCandidate": {
+    "verdict": "REPAIR",
+    "receiptSha256": "bcb6ec9d3d86451f8364e013ae068ffa7aada30df339268c8789b8bdb9030ce8",
+    "fixedPass": 13,
+    "fixedFail": 14,
+    "uncertainCases": 2,
+    "includedInRelease": false
+  },
+  "protectedActivationBytesUnchanged": true,
+  "r10Applied": false,
+  "r10ActualOpenObligations": 49514,
+  "r10Conflicts": 163,
+  "wholeCorpusComplete": false,
+  "limits": "No rights/source clearance, universal performance claim, fresh OS, fresh chat enumeration, real study, learner efficacy, live save behavior or source-specific terminal outcome. Installation is recorded separately."
+}

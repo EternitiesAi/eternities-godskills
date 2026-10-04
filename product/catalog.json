@@ -777,11 +777,15 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-athena/SKILL.md",
-      "entrypointSha256": "cb4c4bc02d25e24945fb83d7663f8d868c60b2579614c06eaf4821bbd2afe8db",
+      "entrypointSha256": "48474b519277446fb56c0555d9cb0545c684b29b39a29cef210187c260b58fdb",
       "resources": [
         {
           "path": "skills/eternities-athena/references/methods.md",
           "sha256": "3518e5f333be18eded1799e62469d30be9b50133c87e8b243f38d3e48fb1cdce"
+        },
+        {
+          "path": "skills/eternities-athena/references/prospective-comparison-design.md",
+          "sha256": "f2ec1b06478248f9984c07d3a7399db4a5e36133826079afd28408e3e64749f7"
         }
       ]
     },
@@ -1611,7 +1615,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/evidence-linked-learning-design/SKILL.md",
-      "entrypointSha256": "5cb9a8fc967b0c3d404f699a689abed851b75e56c85a19c9b575e5d6aa143ea2",
+      "entrypointSha256": "9bb3d11902abeb745ca82ccda0b9886b0ff2b86944666f9ee795442e06bfd76b",
       "resources": [
         {
           "path": "skills/evidence-linked-learning-design/references/handoffs-and-reporting.md",
@@ -1620,6 +1624,10 @@
         {
           "path": "skills/evidence-linked-learning-design/references/educational-microsimulation.md",
           "sha256": "4f42471a7b33b9af45203a54eb82a3c95c6c19106446e0b9097006daff2f3b2e"
+        },
+        {
+          "path": "skills/evidence-linked-learning-design/references/support-transition.md",
+          "sha256": "470484b186df4978ec4c5e817990d25c0a2ad200dbf6ef1bea6441f43372d954"
         }
       ]
     },
@@ -2809,7 +2817,7 @@
       "specializes": "eternities-prometheus",
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/user-research-and-usability-study/SKILL.md",
-      "entrypointSha256": "5632fbaea3aeae5fe347927e162dd60f81d99f6ccdb83e02cb979cdc24e4bb4a",
+      "entrypointSha256": "e8cb2d363b9baf41790c11a6625688646d550a75bbecd9169af885e7cdd2ed39",
       "resources": [
         {
           "path": "skills/user-research-and-usability-study/references/methods.md",
@@ -2818,6 +2826,10 @@
         {
           "path": "skills/user-research-and-usability-study/references/accessible-user-study.md",
           "sha256": "a2d5726407966adc2846b21ac9174ee0d21014769a6739a1cd876413fa58de0a"
+        },
+        {
+          "path": "skills/user-research-and-usability-study/references/experience-mapping.md",
+          "sha256": "bb7906daefa5d06a255c50b217ddafcd8a5db8b58d99d17ae16a345bc2132812"
         }
       ]
     },

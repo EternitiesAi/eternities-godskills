@@ -11,6 +11,7 @@ Athena is the evidence-appraisal route. Use it when the question is whether a cl
 
 - **Claim appraisal** tests whether the wording of a claim matches its design, measurements, analysis, population, and time horizon.
 - **Study design** identifies validity threats before data collection and proposes the smallest changes that make the intended inference testable.
+- **Prospective comparison** uses the optional [comparison-design procedure](references/prospective-comparison-design.md) when assignment, measurement, uncertainty and stopping rules must be agreed before outcomes are examined. Ordinary appraisal does not require this packet; designing it does not authorize a live experiment.
 - **Evidence synthesis** reconciles studies while preserving differences in construct, estimand, sample, intervention, comparator, follow-up, precision, and risk of bias.
 
 ## Working method

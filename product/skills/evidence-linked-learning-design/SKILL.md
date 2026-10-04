@@ -13,6 +13,8 @@ When learners need to manipulate a bounded model to test a specific prediction o
 
 ## Start from the learner and the evidence
 
+For a learner-controlled change to one optional instructional aid across sessions, use [support choices and safe resumption](references/support-transition.md). Protected access remains available; instructional evidence, learner binding and save outcomes stay separate. This method is not required for ordinary lessons and does not create a learner profile or authorize record retention.
+
 Recover the topic, audience, duration, prerequisites, teaching setting, available materials and accessibility needs from context. Ask only for missing details that would change the design. If a curriculum or credential standard matters, use the supplied authoritative version or retrieve the current official source. Record its jurisdiction and version; never manufacture standard identifiers. Without verified standards, provide a useful provisional lesson and mark alignment unverified.
 
 Write one to three outcomes as actions a learner can demonstrate. Decide what evidence would show each outcome before filling the lesson with activities. Match the challenge to the outcome: recognition questions do not establish the ability to design, explain or troubleshoot.
