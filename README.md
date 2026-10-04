@@ -91,6 +91,8 @@ and [SHA-256 sidecar](artifacts/releases/godskills-product-20261004-b3939c86.zip
 retain all 77 entrypoints and methods. Separate code review and fixed-case
 replication passed; all challenge cases are now revealed regressions, not
 held-out semantic superiority. Earlier failures and unfinished quarry remain explicit.
+The [separate installation and deployment audit](docs/learner-request-discovery-installation-20261004.md)
+records the verified backed-up upgrade and unchanged unrelated files.
 
 For a new computer, copy only `product/` or export its verified standalone ZIP:
 

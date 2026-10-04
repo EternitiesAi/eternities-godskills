@@ -1,0 +1,33 @@
+{
+  "schema": "godskills-learner-request-discovery-deployment-evidence-v1",
+  "releaseId": "b3939c86a82ad58d6111942aa431c61a7b3eae173409f3e5b79e053916aad5f1",
+  "contentCommit": "2dae081a5b4f01dc9027c25830255d07fa038935",
+  "priorReleaseId": "a9a64ce08fd6896c18ce68b3dba8504832b4737b1602e52ccf5b2e87588795e4",
+  "installed": true, "entrypoints": 77, "managedNativeFiles": 226,
+  "runtimeFiles": 258, "unrelatedFilesPreserved": 56,
+  "dedicatedBackup": "v7", "backupVerified": true,
+  "oldNativeFilesPreserved": 226, "oldRuntimeFilesPreserved": 258,
+  "rollbackExecuted": false,
+  "beforeManifestSha256": "74b73709f51331f2c9587a610f493fb411d05c5b5a5d3068ff5af14d00df4400",
+  "afterManifestSha256": "e53f0b9d1bf74d93f01e5d2fdabe4ef8f95e28ba182a6b244eeac190fa248650",
+  "journalSha256": "77738f5154726c704bfbc25b9d6b73e18a7ad5b4f3aaac557c6768b221c4dd7f",
+  "independentNonInstallerAudit": {
+    "disposition": "READY_NARROW_DEPLOYMENT",
+    "receiptSha256": "7d9edc8198f69e1046c9e82c12fddf5482f3e0b747790f91de47c7b5484b9d91",
+    "actualInstalledValidationExecutions": 1,
+    "existingCliControlExecutions": 6,
+    "authorOrInstaller": false,
+    "freshPhysicalInventoryAndBackupVerification": true,
+    "sameHostOnly": true
+  },
+  "parentAcceptanceSha256": "2ca891d7e780c8cf0669b30488106ac379e9fb4d9bedf8fda9f4cb3b6b7891b8",
+  "materialBindingsVerified": 13,
+  "unrelatedCreativeExperimentBytesPreserved": true,
+  "protectedActivationBytesPreserved": true,
+  "automation": "paused", "reviewWorkers": "closed",
+  "freshOsOrChatEnumeration": false, "automaticInvocation": false,
+  "fieldEfficacyOrUniversalSemanticSuperiority": false,
+  "sourceRightsCleared": false, "r10Applied": false,
+  "r10OpenIdentityObligations": 49514, "r10Conflicts": 163,
+  "wholeCorpusComplete": false
+}
