@@ -112,6 +112,9 @@ an extracted copy validated and executed discovery locally. This is isolated
 same-host package evidence, not a fresh-OS or native UI test.
 The [parent acceptance](refinement-20261004/parent-release-acceptance-v1.json)
 binds all 77 reviewed entrypoints and nine parent inputs to current exact bytes.
+The release was pushed and installed with an exact recovery backup; the
+[installation record](current-pack-refinement-installation-20261004.md) includes
+the separately accepted deployment audit and preservation boundaries.
 
 ## Boundaries
 

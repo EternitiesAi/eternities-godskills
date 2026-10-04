@@ -1,0 +1,26 @@
+{
+  "schema": "godskills-parent-deployment-acceptance-v1",
+  "outcome": "accepted-narrow-deployment",
+  "releaseId": "f186d19e06bd54bca3d71e1844866ac181c0bdfc3720a5e6037295402e6cc744",
+  "review": {
+    "path": "docs/refinement-20261004/deployment-audit-v1.json",
+    "sha256": "c4c8160ef902ff095f55b9288f82929c3591fb1365638677946aaa60e79cf3c5"
+  },
+  "markdown": {
+    "markdownPath": "docs/refinement-20261004/deployment-audit-v1.md",
+    "markdownSha256": "c837b202aa87ef10ee34a5c430081356464d5c6a12293761cf6f7cae0cbec61d",
+    "outcome": "READY_NARROW_DEPLOYMENT"
+  },
+  "inputHashBindings": 9,
+  "exactComparisons": 16,
+  "protectedFiles": 3,
+  "installedCliChecks": 3,
+  "installedSkills": 77,
+  "managedFiles": 226,
+  "runtimeFiles": 260,
+  "unrelatedFilesPreserved": 56,
+  "limits": [
+    "Review input/output bindings and concrete results accepted; prior parent installation verification remains separate",
+    "Not an executed restore, fresh operating system, native UI enumeration, universal performance or source-quarry completion"
+  ]
+}

@@ -106,6 +106,8 @@ whole-quarry completion. The [current 77-skill ZIP](artifacts/releases/godskills
 and [SHA-256 sidecar](artifacts/releases/godskills-product-20261004-f186d19e.zip.sha256)
 contain the complete portable pack. Detailed retrieval rules are optional
 [discovery documentation](product/DISCOVERY.md), not always-loaded policy.
+The [installation closeout](docs/current-pack-refinement-installation-20261004.md)
+records the fresh exact recovery backup and separately accepted deployment audit.
 
 For a new computer, copy only `product/` or export its verified standalone ZIP:
 
