@@ -40,6 +40,8 @@ profile without increasing the entrypoint count. Its
 and [SHA-256 sidecar](artifacts/releases/godskills-product-20261003-d6e1ba88.zip.sha256)
 are distinct from the historical 74-entrypoint snapshots above. The qualification
 record preserves the independent checks, negative examples and unfinished quarry.
+The [separate refinement installation record](docs/product-configuration-discovery-installation-20261003.md)
+records the verified local upgrade, exact file counts and preservation boundary.
 
 For a new computer, copy only `product/` or export its verified standalone ZIP:
 

@@ -1,0 +1,38 @@
+{
+  "schema": "eternities-godskills-refinement-deployment-v1",
+  "recordedAtUtc": "2026-10-04T00:07:38.467Z",
+  "publishedContentCommit": "bfc7a5df75b4b80472cdd1b88d5569347b769047",
+  "releaseId": "d6e1ba88549e7d94ca5d468fa006622a50dd18d46e22d1552051ade82841ac36",
+  "previousReleaseId": "602b06151fa0595580381011cef24fbdb7965fde0d7d983b8f8f34ee06f9c4d7",
+  "installed": true,
+  "verifiedBy": "Parent verification after the journaled installer; independent non-installer audit not yet complete",
+  "skillCount": 77,
+  "managedNativeFiles": 219,
+  "runtimeFiles": 251,
+  "backup": {
+    "verified": true,
+    "priorManagedFiles": 218,
+    "priorRuntimeFiles": 250,
+    "newBackup": true,
+    "oldBackupOverwritten": false
+  },
+  "unrelatedNativeFilesPreserved": 56,
+  "manifestBindings": {
+    "beforeSha256": "463f5b90a3328b3268fe0bd3255e1980ff252e8a3f1f88a86c75ae0b4b62ab26",
+    "afterSha256": "326c1770b8694f694ef9971fb2516f2c567bd1ff14449fa7588150554bd30027",
+    "journalSha256": "4da886b4c98a5806de0d5e42ba1b9e4547ff1bb47ae07afbf26254e89be65bd2",
+    "preInstallationReleaseReceiptSha256": "eb65eda5b68be7c5eef280a6aec853dde6ac34f7c3cd86530fa947f8940e8701"
+  },
+  "installedCli": {
+    "status": "verified-content",
+    "skillCount": 77,
+    "releaseId": "d6e1ba88549e7d94ca5d468fa006622a50dd18d46e22d1552051ade82841ac36"
+  },
+  "freshSessionAppEnumerationObserved": false,
+  "globalInstructionsChanged": false,
+  "providerSettingsChanged": false,
+  "scheduledTasksEnabled": false,
+  "sourceRightsCleared": false,
+  "r10Applied": false,
+  "wholeCorpusComplete": false
+}
