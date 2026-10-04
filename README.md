@@ -7,7 +7,7 @@ optional consumers, not prerequisites.
 
 ## Portable product
 
-The self-contained pack is in **[product/](product/README.md)**: 74 refined
+The self-contained pack is in **[product/](product/README.md)**: 77 refined
 skill entrypoints organized into 21 primary domains, with the 26 existing owner
 extensions folded into relevant methods. It includes broad and specialist
 discovery, a compact relationship catalog, explainable offline search, an exact
@@ -21,9 +21,25 @@ The [October 3 quality qualification](docs/product-quality-qualification-2026100
 records repaired offline discovery, portable packaging checks, and twelve
 matched Luna executions with two blinded model assessments. Practical results
 were mixed-positive, not a universal win; general negative-intent discovery
-remains limited. The [new standalone snapshot](artifacts/releases/godskills-product-20261003-cc43b993.zip)
+remains limited. The [historical 74-entrypoint snapshot](artifacts/releases/godskills-product-20261003-cc43b993.zip)
 and [SHA-256 sidecar](artifacts/releases/godskills-product-20261003-cc43b993.zip.sha256)
 contain the same 74 skill bodies and references, with the reviewed routing fixes.
+
+The [October 3 professional-gap release](docs/godskills-professional-gap-release-20261003.md)
+adds structured hiring evaluation, customer-support resolution, and user research
+and usability studies, bringing the current pack to 77 entrypoints. Its
+[installation record](docs/godskills-professional-gap-installation-20261003.md)
+separately records the verified local upgrade and rollback backup. The older
+74-entrypoint ZIPs above remain historical snapshots, not exports of the current
+pack. Use the export command below for the current verified content.
+
+The [configuration and usability-discovery refinement](docs/product-configuration-discovery-refinement-20261003.md)
+adds a conditional durable-settings method and a reviewed lexical discovery
+profile without increasing the entrypoint count. Its
+[current standalone 77-entrypoint ZIP](artifacts/releases/godskills-product-20261003-d6e1ba88.zip)
+and [SHA-256 sidecar](artifacts/releases/godskills-product-20261003-d6e1ba88.zip.sha256)
+are distinct from the historical 74-entrypoint snapshots above. The qualification
+record preserves the independent checks, negative examples and unfinished quarry.
 
 For a new computer, copy only `product/` or export its verified standalone ZIP:
 

@@ -1,0 +1,176 @@
+{
+  "schema": "eternities-godskills-configuration-discovery-refinement-evidence-v1",
+  "recordedAtUtc": "2026-10-04T00:00:11.007Z",
+  "baselineCommit": "ff03edcb3b02d588a36a9b72e826f519170d2a8f",
+  "implementationCommit": "de08c546221afe472472bd87672cc70e68ff5470",
+  "releaseId": "d6e1ba88549e7d94ca5d468fa006622a50dd18d46e22d1552051ade82841ac36",
+  "skillCount": 77,
+  "declaredPayloadFiles": 250,
+  "runtimeFiles": 251,
+  "reviewedDelta": [
+    {
+      "path": "product/README.md",
+      "bytes": 13528,
+      "sha256": "e59d4f04e6dcf10be74d3cf234337cf70c1cd9b2b90a45f855f4f9bff046ef73"
+    },
+    {
+      "path": "product/catalog.json",
+      "bytes": 113596,
+      "sha256": "560e1e26dc13b60f3657cc13b6a5d35df1cc07ad7adac549ea38956b3a2f7265"
+    },
+    {
+      "path": "product/lib/discovery.mjs",
+      "bytes": 5296,
+      "sha256": "645f0cb6db1c53b4e5b67142f6f78db69a1dc7b3841d4bb80fa18e8fd2004a3c"
+    },
+    {
+      "path": "product/release.json",
+      "bytes": 31050,
+      "sha256": "853c94922e8224d25f154285f324325e8a28536d43d25f8273e012ccdeccf787"
+    },
+    {
+      "path": "product/skills/eternities-daedalus/SKILL.md",
+      "bytes": 4277,
+      "sha256": "b1451db21752ad4f7f4fd3fa269b57e176191946aeb1701065e485327e89d0d8"
+    },
+    {
+      "path": "product/skills/eternities-daedalus/skill.json",
+      "bytes": 7720,
+      "sha256": "a627727d097481928f009b478527f09d6c44f0c65a7afd3f15f7c1603fb1c1d7"
+    },
+    {
+      "path": "product/skills/eternities-daedalus/references/configuration-lifecycle.md",
+      "bytes": 4160,
+      "sha256": "8809c3f901722ee7a19cd1ca62def13573290813969c2268b4ac243489907c40"
+    },
+    {
+      "path": "tests/conditional-method-regression.test.mjs",
+      "bytes": 25531,
+      "sha256": "9fa92c020ecfb9f1c65f3cd6b797ad63fc029dc062f77b3b0eac98253c599633"
+    },
+    {
+      "path": "tests/configuration-lifecycle-method.test.mjs",
+      "bytes": 2318,
+      "sha256": "ecda5842a43fe5cd5bdb40ea4b51cb14ce5d55b8cc80aaa74e39ec4d1a831671"
+    },
+    {
+      "path": "tests/usability-observation-discovery.test.mjs",
+      "bytes": 3330,
+      "sha256": "ca68a3c10c6c79bf763395176fe6a95730c73ae68a54d94d563c739936b96830"
+    }
+  ],
+  "independentReviews": {
+    "configuration": {
+      "verdict": "accepted-narrowly-optional-reference-integration",
+      "requestedModel": "gpt-6-luna",
+      "reasoning": "max",
+      "reviewReceiptSha256": "1544cd55d7dd2af82810f3567eaf9bb93c3059b10bec34b27c4ca42067059378",
+      "inputManifestSha256": "a535e616343ded247d2faed0ea77c8e0e886dfc70e9da8706dd95a9f173e2b97",
+      "parentAcceptanceSha256": "7d344b749a3415e3f5e7872927d8bd8f481c1964e5ac025ebffcc92b13891ed2",
+      "scope": "Conditional configuration reference, original method-body continuity, resource/provenance packaging and frozen-core regression; not source clearance or real migration outcomes"
+    },
+    "discovery": {
+      "verdict": "accepted-narrowly-discovery-profile-caller-readme",
+      "requestedModel": "gpt-6-luna",
+      "reasoning": "max",
+      "reviewReceiptSha256": "03266c0000e2055f11953410ccfcee97c1767dca33890ba13f9a0f3a4258cf9e",
+      "reportSha256": "3d18a6197469b205f4656d2b9eedde38f877f5a67f756fb791f88844ffd07848",
+      "parentAcceptanceSha256": "8ef1aef78afae0e4b09a9892969b8deac589ad8599f96968dc6fe05e8da82269",
+      "freshSearchQueries": 11,
+      "observedCases": [
+        {
+          "id": "F1-positive-paraphrase",
+          "observed": "target rank 2/20; new profile reason"
+        },
+        {
+          "id": "F2-missing-findings-action",
+          "observed": "target absent"
+        },
+        {
+          "id": "F3-adjacent-interface-fix",
+          "observed": "target rank 7/20; no profile reason"
+        },
+        {
+          "id": "F4-narrow-explicit-negation",
+          "observed": "target rank 1/20 through ordinary lexical scoring; no profile reason"
+        },
+        {
+          "id": "F5-clinical-exclusion",
+          "observed": "target rank 13/13; no profile reason"
+        },
+        {
+          "id": "F6-literal-antitrigger-in-critical-context",
+          "observed": "target absent due literal exact anti-trigger phrase"
+        },
+        {
+          "id": "F7-category-filter",
+          "observed": "six results all design; target rank 1 with profile reason"
+        },
+        {
+          "id": "F8-task-filter",
+          "observed": "all results support research; target rank 2 with profile reason"
+        },
+        {
+          "id": "F9-host-supplied-no-need",
+          "observed": "abstain/host-supplied-no-need; zero results"
+        },
+        {
+          "id": "F10-unknown-host-need",
+          "observed": "review-required/lexical-candidates-only; target rank 2"
+        },
+        {
+          "id": "F11-exact-id-shortcut-separation",
+          "observed": "target rank 1; no profile reason"
+        }
+      ],
+      "scope": "Lexical profile, actual offline callers, filters, host-need and README limits; not semantic selection or performance superiority"
+    }
+  },
+  "windows": {
+    "node": "v24.18.0",
+    "counts": {
+      "tests": 1482,
+      "pass": 1480,
+      "fail": 0,
+      "cancelled": 0,
+      "skipped": 2,
+      "todo": 0
+    },
+    "receiptSha256": "fb6d017e794f22ca7d148c908e930003f86278f1000bc4dfb6652c9c90a375bd",
+    "tapSha256": "df68ec0064fe95be66f03441795e96cc71fe119962acf5ab29c631e23200385c",
+    "exactDeltaVerifiedBeforeAndAfter": true,
+    "skipReasons": [
+      "ok 707 - rejects symbolic links instead of following them # SKIP symbolic-link creation is unavailable on this Windows account",
+      "ok 1288 - different-volume commit destinations are rejected before any skills move # SKIP"
+    ]
+  },
+  "portability": {
+    "scope": "Isolated copied pack, blank workspace, empty PATH and no credentials or home configuration on the same Windows host",
+    "actualCliChecks": 4,
+    "receiptSha256": "82735a0dd6de80bcbe6902b959e38f20c53980504977a0b14ec8373f505494a2",
+    "freshOs": false
+  },
+  "archive": {
+    "path": "artifacts/releases/godskills-product-20261003-d6e1ba88.zip",
+    "bytes": 1281541,
+    "sha256": "57f75030a23842cc863e9bc3cbc7d28716930a434874575ed187255b2b22a315",
+    "runtimeFiles": 251
+  },
+  "protectedActivationHashes": {
+    "src/adaptive-activation.mjs": "9844aee1147f7129f3e37067424ccebb88ff478de1b7a9a9fb7306d5f2fdbd82",
+    "policies/adaptive-activation.v1.json": "b87bbfaddecb42417e57202173220bf240204d27b7de5fffc9e609eb18138939",
+    "artifacts/adaptive-activation/evidence.v1.json": "b55a5cb4f7ff039cc7f4027c165b2f151bad723d9030913076a4225342fbe8c5"
+  },
+  "limitations": [
+    "Lexical cue conjunction is not semantic applicability or permission inference.",
+    "Ordinary weighted terms may still surface the target without the new profile reason, including under explicit negation or clinical exclusion.",
+    "Exact anti-trigger phrase matching can suppress a relevant query when the phrase is quoted or rejected.",
+    "The CLI has a distinct exact-ID score path outside the new profile.",
+    "Unknown host need remains review-required; no-need must be supplied by the host.",
+    "No Codex app fresh-session enumeration or real usability outcome was checked."
+  ],
+  "sourceRightsCleared": false,
+  "r10Applied": false,
+  "wholeCorpusComplete": false,
+  "installed": false
+}
