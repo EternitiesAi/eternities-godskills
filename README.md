@@ -78,6 +78,8 @@ learner-controlled support without making routine work load more context. The
 and [SHA-256 sidecar](artifacts/releases/godskills-product-20261004-a9a64ce0.zip.sha256)
 retain 77 entrypoints and unchanged scoring. The independent educational-discovery
 candidate is separate: its failed first review is preserved, not shipped as a fix.
+The [separate conditional-methods installation record](docs/conditional-learning-research-installation-20261004.md)
+records the exact backed-up upgrade and unchanged unrelated files.
 
 For a new computer, copy only `product/` or export its verified standalone ZIP:
 
