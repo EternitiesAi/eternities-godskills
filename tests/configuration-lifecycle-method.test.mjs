@@ -16,7 +16,10 @@ test('configuration lifecycle is a packaged optional owner reference, not a new 
  const metadata=await json(`skills/${owner}/skill.json`);
  assert(metadata.resources.includes(resource));
  const catalog=await json('catalog.json');
- assert.equal(catalog.skills.length,77);
+ // An unrelated new procedure may grow the pack. The actual invariant is that
+ // this method remains a selected reference under its existing owner.
+ assert.equal(catalog.skills.filter(s=>s.id===owner).length,1);
+ assert.equal(catalog.skills.some(s=>s.entrypoint===productPath),false);
  const entry=catalog.skills.find(s=>s.id===owner);
  const declared=entry.resources.find(r=>r.path===productPath);
  assert(declared,'catalog exposes the selected resource');

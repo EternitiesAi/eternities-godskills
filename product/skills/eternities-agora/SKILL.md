@@ -12,6 +12,7 @@ Agora turns messy service evidence into a bounded artifact. It is useful when id
 - **Prospect assessment** produces a rapid screen or a multidimensional assessment. State the target, dimensions, weights, coverage, and blind spots before ranking.
 - **Account reconstruction** rebuilds one account history, a portfolio pipeline, or an operational rollup from dated records. Ambiguous identities remain separate until a disambiguating fact is available.
 - **Client deliverable** turns verified findings into a proposal, report-data contract, or local draft. Recommendations trace to evidence and approved policy; presentation polish does not increase confidence.
+- **Research funding proposal** binds a named opportunity to a research argument, feasible workplan, resource assumptions, and internal review. When that route needs a detailed procedure, use [research-funding-proposal.md](references/research-funding-proposal.md); do not load it for ordinary prospect or account work.
 - **Cross-route handoff** ends the current route with a typed packet when the next operation belongs to another domain.
 - **Cross-artifact fact consistency** maps stable facts to assertions in a named deck, memo, model summary, or update set without turning a later number into automatic authority; use [business-decision-evidence.md](references/business-decision-evidence.md).
 

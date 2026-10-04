@@ -1,0 +1,78 @@
+{
+  "schema": "godskills-proposal-refinement-public-evidence-v1",
+  "recordedAtUtc": "2026-10-04T01:41:57.466Z",
+  "baselineCommit": "583b935a74dc723ab90e79f02810e739715ec298",
+  "releaseId": "6c36ebcdcda1df53006015e47e348189f14fc11968a7c153767dafeea0531520",
+  "skillCount": 77,
+  "delta": "Optional original research-funding proposal reference under existing Agora; indexed skill scoring fields unchanged; corpus current-count documentation corrected separately.",
+  "method": {
+    "path": "product/skills/eternities-agora/references/research-funding-proposal.md",
+    "sha256": "6bd7d41a9af3b40dc041ffeab73b8f692aba16910f4c72253e090ba451eee322"
+  },
+  "functionalCheck": {
+    "candidateReleaseId": "842acdf3327c24191480f3235c6322dddf4868fd2d25ad6d4cf6a6f2faec4967",
+    "registered": 1487,
+    "pass": 1485,
+    "fail": 0,
+    "environmentSkips": 2,
+    "exactCandidateFilesBeforeAndAfter": 8,
+    "receiptSha256": "2e626872f30b7dfdc01afb89d27c29a0e3bb840329fad38da4f9ec04029b50cc",
+    "scope": "Same functional implementation and three tests; final release differs only in separately reviewed corpus prose and release manifest."
+  },
+  "independentReviews": {
+    "integrationAndCaseAReceiptSha256": "88f65a4a8696e144ab2fb1a80ad6391ffa05deea7d846ecd7ad5fec0e452ede9",
+    "documentSupplementReceiptSha256": "e051cb01e39c54cbd1829007345ef5d9299702454ca048d1ed7e032a5d654a48",
+    "caseBReceiptSha256": "f6cfc70a1efbda1f01944d799e7867d847654b0a71ef9abd53e36a14a41db496",
+    "disposition": "READY_NARROW in each respective exact scope"
+  },
+  "promotion": {
+    "all251PayloadsAndReleaseExact": true,
+    "receiptSha256": "c529b64a967ff2467f225d9d23930fdd106e3093067339d9c49f3ec2ca5c25f7"
+  },
+  "syntheticApplications": {
+    "count": 2,
+    "model": "gpt-6-luna",
+    "reasoning": "max",
+    "freshContext": true,
+    "hostInstructionsRemain": true,
+    "matchedRawBaseline": false,
+    "automaticOwnerSelectionProven": false,
+    "caseA": "Usable narrative/workplan/source crosswalk and fictional31400planning budget; unsupported validation/partnership/subaward claims held.",
+    "caseB": "Usable internal concept and candidate research plan despite missing current guide and costs; no invented current rules; historical currency notation and parallel sequencing are nonblocking clarifications."
+  },
+  "sameHostPortableSmoke": {
+    "calls": 4,
+    "blankCwd": true,
+    "emptyPath": true,
+    "providerCredentialsRequired": false,
+    "freshOs": false,
+    "receiptSha256": "9be16fa2866d23b11062fee6bd3331a5bc2598be4e9bda211108e5bcfb3fe11e"
+  },
+  "negativeEvidence": {
+    "earlier78thEntrypointNotShipped": true,
+    "reason": "Duplicate broad route displaced business prospect scoring; original failing receipt/snapshot preserved, fixed via existing-owner reference instead of ranking exception.",
+    "earlierFullRunFailures": 3,
+    "receiptSha256": "e1e3da4d0c56863ef3df4f150b831ca39f1f671fc4fc8c8dc93364b5db221d08"
+  },
+  "protectedHashes": [
+    {
+      "path": "src/adaptive-activation.mjs",
+      "sha256": "9844aee1147f7129f3e37067424ccebb88ff478de1b7a9a9fb7306d5f2fdbd82"
+    },
+    {
+      "path": "policies/adaptive-activation.v1.json",
+      "sha256": "b87bbfaddecb42417e57202173220bf240204d27b7de5fffc9e609eb18138939"
+    },
+    {
+      "path": "artifacts/adaptive-activation/evidence.v1.json",
+      "sha256": "b55a5cb4f7ff039cc7f4027c165b2f151bad723d9030913076a4225342fbe8c5"
+    }
+  ],
+  "sourceRightsCleared": false,
+  "r10Applied": false,
+  "r10ActualOpenObligations": 49514,
+  "r10Conflicts": 163,
+  "wholeCorpusComplete": false,
+  "measuredSuperiorityOrSponsorScientificOutcome": false,
+  "deployment": "Not established by this pre-publication implementation evidence; recorded separately after installation."
+}

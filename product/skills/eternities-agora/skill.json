@@ -35,10 +35,16 @@
   ],
   "resources": [
     "references/methods.md",
-    "references/business-decision-evidence.md"
+    "references/business-decision-evidence.md",
+    "references/research-funding-proposal.md"
   ],
   "maturity": "instruction-reviewed",
   "provenance": [
+    {
+      "kind": "reference",
+      "source": "ynulihao/AgentSkillOS@c3cfae10ea34a13973c461273ad9c5cc4aa907fe:data/skill_seeds/research-grants/SKILL.md",
+      "note": "Exact 36281-byte body SHA-256 6f1540295e328fc9571b4f835b0cd3d10ca0674a4e8dc1d6caaee33a043c69e9 inspected in the fixed quarry. Independently authored detailed proposal procedure extends the existing Agora research-proposal method; no agency template, copied source prose, mandatory figure, platform requirement or approval authority is adopted. Source rights remain unreviewed and the source disposition is nonterminal. The local development review and synthetic application are not sponsor compliance, scientific validation or award evidence."
+    },
     {
       "kind": "reference",
       "source": "jeremylongworth-source/AgentSkills@ebf24796e884b9196bdb47373d53dcc547466730:skills/{data-room-checklist,escalation-pack,sales-pipeline-management,metric-narrative,customer-health-review}/SKILL.md",

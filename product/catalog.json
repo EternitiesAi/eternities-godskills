@@ -635,7 +635,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-agora/SKILL.md",
-      "entrypointSha256": "a6602a256f8ad9e598947e18c057fd10c3b82f0ed6a44f7915fc439586c6225f",
+      "entrypointSha256": "d69a26a4d974228729f25f2d5b5835c175a151a29d9da7d2974ccbc23ebc5a7d",
       "resources": [
         {
           "path": "skills/eternities-agora/references/methods.md",
@@ -644,6 +644,10 @@
         {
           "path": "skills/eternities-agora/references/business-decision-evidence.md",
           "sha256": "9effd0372e4be72da4d9fdcd454e5b4c3ea313764f118f429b175e103f4ec188"
+        },
+        {
+          "path": "skills/eternities-agora/references/research-funding-proposal.md",
+          "sha256": "6bd7d41a9af3b40dc041ffeab73b8f692aba16910f4c72253e090ba451eee322"
         }
       ]
     },
