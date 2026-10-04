@@ -1,0 +1,1462 @@
+{
+  "schema": "godskills-cohort-refinement-v1",
+  "cohort": "A",
+  "baselineCommit": "dc704536875cda166f7ab784bce28f3c2b54ae0c",
+  "skills": [
+    {
+      "id": "agricultural-observation-and-trial",
+      "disposition": "retain",
+      "reason": "The existing method already distinguishes observation from explanation, conditions lab interpretation on extraction method and depth, and makes trials contingent on uncertainty and local appropriateness. No body defect was established; its concrete agronomic checks are more useful than a cosmetic rewrite.",
+      "retainedMechanisms": [
+        "Compare affected and matched unaffected areas by spatial and management pattern.",
+        "Bind soil values to sampling depth, extraction method, units and regional crop interpretation.",
+        "Use controlled, replicated or randomized local trials where feasible; retain adverse outcomes and seasonal confounding."
+      ],
+      "changes": [],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Design a small irrigation trial for patchy maize emergence using the supplied field observations.",
+          "expectedMethodOrBoundary": "Map spatial alternatives, select a matched control and measurable emergence outcome, and predeclare observation dates and stop rule."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "Two soil reports disagree about available phosphorus. Can I compare them before changing inputs?",
+          "expectedMethodOrBoundary": "Check sampling depth, extraction methods and reporting units; do not transfer an unrelated numeric threshold."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Rewrite this gardening caption to sound friendlier.",
+          "expectedMethodOrBoundary": "Use ordinary editing; no agronomic investigation or trial is needed."
+        },
+        {
+          "kind": "boundary",
+          "request": "A user asks for a universal fertilizer rate from one unlabeled soil number.",
+          "expectedMethodOrBoundary": "Withhold the rate; identify missing crop/location/test-method evidence and locally applicable guidance."
+        }
+      ],
+      "remainingUncertainty": "Local trial efficacy and applicability of extension or product-label guidance remain unevaluated; no agronomic field intervention was executed.",
+      "baselineEntrypointSha256": "dad70e81edda0d52ada7e726b7e19375dc2a1f3251435be295d9a92992304f2d",
+      "candidateEntrypointSha256": "dad70e81edda0d52ada7e726b7e19375dc2a1f3251435be295d9a92992304f2d"
+    },
+    {
+      "id": "app-store-discovery-experiments",
+      "disposition": "refine",
+      "reason": "The body forced one variable and a full listing inventory even for a narrower audit. It now distinguishes audit from causal experimentation and permits identified factorial effects while retaining bundle-level attribution limits.",
+      "retainedMechanisms": [
+        "Bind storefront, locale, version, time and measurement source.",
+        "Predeclare metrics, exposure denominators, guardrails and stopping rule; account for traffic and rating confounders.",
+        "Separate prepared, submitted and published revisions, retaining rollback values and privacy limits."
+      ],
+      "changes": [
+        "product/skills/app-store-discovery-experiments/SKILL.md: make the field inventory depend on the discovery question; distinguish audit from experiment; retain one-variable default while allowing a supported factorial design."
+      ],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Prepare a US-store first-screenshot test with unchanged title, traffic mix and release.",
+          "expectedMethodOrBoundary": "Inspect the relevant screenshot and context, predeclare qualified engagement denominator and guardrails, and retain rollback creative; do not require an unrelated whole-listing audit."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "Our store supports randomized title and icon combinations. How should we tell what helped?",
+          "expectedMethodOrBoundary": "Allow a supported factorial assignment and analysis; declare interactions and effect identification instead of imposing one field per cycle."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Apply this approved subtitle correction; we are not evaluating growth.",
+          "expectedMethodOrBoundary": "Perform the scoped field edit and limits check without inventing a growth experiment or ranking claim."
+        },
+        {
+          "kind": "boundary",
+          "request": "Installs rose after title, price and a paid campaign changed together.",
+          "expectedMethodOrBoundary": "Report a bundled directional observation with confounding and missing exposure controls; do not credit the title alone."
+        }
+      ],
+      "remainingUncertainty": "No live store experiment, platform factorial capability, publication receipt or growth effect was verified. Existing summary and trigger cues were preserved.",
+      "baselineEntrypointSha256": "b25dbdf93508f20f8135253d129419a2de958350156fdf3692afce4668cacd3a",
+      "candidateEntrypointSha256": "43beef20c43bea5046f722e6b5d5fabd76a770a747bc1cf60eb2a598fd97c46c"
+    },
+    {
+      "id": "audio-dsp-integrity-review",
+      "disposition": "refine",
+      "reason": "The entrypoint required both a transitive call map and full signal graph for every review. Lane selection now follows the acceptance question, so offline coefficient review does not imply a realtime audit and graph findings cannot silently clear scheduling.",
+      "retainedMechanisms": [
+        "Finite callback bounds and platform evidence for lock-free or wait-free claims.",
+        "NaN/infinity, denormal, overflow, state initialization, coefficient sensitivity and bounded-feedback checks.",
+        "Channels, rate, block, latency, sidechain, fan-out, summing and feedback-delay edge contracts."
+      ],
+      "changes": [
+        "product/skills/audio-dsp-integrity-review/SKILL.md: select deadline/numeric/graph lanes explicitly and build the maps those lanes need; give assessed-lane verdicts with omitted lanes visible."
+      ],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Review a 48 kHz, 128-frame callback whose helper may allocate after first use.",
+          "expectedMethodOrBoundary": "Compute a nominal budget without claiming headroom; trace reachable allocation/lazy initialization and classify the deadline evidence."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "The sidechain seems one block behind the parallel dry path. Inspect the supplied graph.",
+          "expectedMethodOrBoundary": "Trace relevant edge latencies and host-compensation uncertainty; add timing evidence without automatically auditing every numeric function."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Trim silence from an audio clip and add a fade.",
+          "expectedMethodOrBoundary": "Use audio editing rather than DSP code-integrity review."
+        },
+        {
+          "kind": "boundary",
+          "request": "An offline filter check is finite and stable in synthetic samples; certify the plugin glitch-free.",
+          "expectedMethodOrBoundary": "Limit the verdict to numeric evidence; realtime, audible, device and host performance remain unverified."
+        }
+      ],
+      "remainingUncertainty": "Lane selection and findings have not been exercised on a real callback or host. Source reachability, platform atomic guarantees and audible behavior remain task-specific evidence requirements.",
+      "baselineEntrypointSha256": "425578dda01d430310f6626e2658ee35c5358d952a03ad59220bb1940dab2b23",
+      "candidateEntrypointSha256": "f26dba4612e8a749a289f1df66f1481dd752d6db0aff63c1240d4b768269b7f2"
+    },
+    {
+      "id": "bounded-service-shutdown",
+      "disposition": "retain",
+      "reason": "The fixed order is justified by the lifecycle hazard: quiescence must precede drain, settlement must determine active counts, and published exit status must remain stable after late completion. Removing these steps would lose concrete race and deadline protections.",
+      "retainedMechanisms": [
+        "Idempotent shutdown transition shares one monotonic deadline and outcome.",
+        "Close every admission path before waiting on settlement-based in-flight counts.",
+        "Dependency-ordered cleanup with distinct forced, failed and late-completion outcomes."
+      ],
+      "changes": [],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Implement graceful shutdown for HTTP and queue ingress sharing an in-flight registry.",
+          "expectedMethodOrBoundary": "Quiesce both admission paths before drain; decrement only at settlement; close dependent resources under the host grace deadline."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "A second termination signal arrives while the worker is draining. What should happen?",
+          "expectedMethodOrBoundary": "Reuse the existing transition, deadline and outcome; do not start another drain or bypass cleanup."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Explain how to close a text editor window.",
+          "expectedMethodOrBoundary": "Use ordinary explanation, not a service lifecycle implementation."
+        },
+        {
+          "kind": "boundary",
+          "request": "A stuck task completes after a forced-stop receipt was emitted.",
+          "expectedMethodOrBoundary": "Record late completion diagnostically while preserving the already-published forced outcome and unfinished-work record."
+        }
+      ],
+      "remainingUncertainty": "No service, host grace window or event-driven shutdown harness was executed; ingress completeness must be established in each implementation.",
+      "baselineEntrypointSha256": "5257e79b7ac4b30738f54320a80f36adfbf49d0a57087a230de5c4cf2905c41e",
+      "candidateEntrypointSha256": "5257e79b7ac4b30738f54320a80f36adfbf49d0a57087a230de5c4cf2905c41e"
+    },
+    {
+      "id": "cashflow-forecast-scenario-integrity",
+      "disposition": "retain",
+      "reason": "The body is already a differentiated cash-timing method rather than generic financial coaching. It separates accrual and settlement, period and cumulative deltas, and available liquidity from nominal balances; these are essential checks worth keeping intact.",
+      "retainedMechanisms": [
+        "Stable settlement events prevent invoice/collection double counting and retain partial or out-of-horizon balances.",
+        "Opening/closing continuity with explicit reconciliation adjustments and no balancing plugs.",
+        "Fixed-base scenarios distinguish timing shifts from collectibility haircuts and report both movement and cumulative balance deltas."
+      ],
+      "changes": [],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Move a known $30,000 collection from week 2 to week 5 and show liquidity effects.",
+          "expectedMethodOrBoundary": "Move the settlement event without altering revenue; reconcile each bucket and show movement versus cumulative closing-balance deltas."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "Month-end cash is positive, but payroll occurs before customer receipts. Can the forecast hide a gap?",
+          "expectedMethodOrBoundary": "Use buckets fine enough to expose the shortfall and distinguish restricted balances, reserve policy and evidenced credit availability."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Recommend which stock I should buy with spare cash.",
+          "expectedMethodOrBoundary": "Investment advice is outside this settlement forecast method."
+        },
+        {
+          "kind": "boundary",
+          "request": "Invoices have unknown dates and the user wants an exact forecast; credit availability is also unknown.",
+          "expectedMethodOrBoundary": "Keep dates/credit unresolved; provide labeled sensitivity or partial forecast, with no invented credit or zero-filled missing cash."
+        }
+      ],
+      "remainingUncertainty": "No forecast workbook or event ledger was executed. Settlement accuracy, funding access and realized forecast outcomes are not established by instruction inspection.",
+      "baselineEntrypointSha256": "d2b85835f46ac7aba103a43d5ee6eb9ccfe2970f3d17a690e8e9a01fa655a66e",
+      "candidateEntrypointSha256": "d2b85835f46ac7aba103a43d5ee6eb9ccfe2970f3d17a690e8e9a01fa655a66e"
+    },
+    {
+      "id": "completeness-and-consistency-audit",
+      "disposition": "retain",
+      "reason": "The recent body and worked audits already distinguish explicit, derived and proposed obligations, actual content from mentions, and missing evidence from contradictions. Its finite audit boundary and dependency reopening are substantive, not ritual paperwork.",
+      "retainedMechanisms": [
+        "Trace independently failing obligation details to inspected locators and contract standing.",
+        "Separate presence, agreement and evidentiary support; preserve unknown and excluded coverage.",
+        "Use falsifying seams and reopen dependent rows after authorized repair."
+      ],
+      "changes": [],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Audit a CSV export contract requiring visible rows, milliseconds, half-open dates and a header for empty output.",
+          "expectedMethodOrBoundary": "Trace each independent requirement through producer, exporter, UI and guide; use distinguishing boundary checks rather than topic mentions."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "This polished handoff says tests passed, but its run note shows failure. Is it complete?",
+          "expectedMethodOrBoundary": "Retain conflicting revisions/results, identify missing verification and recovery details, and do not count background length as coverage."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Correct one misspelling in a settled document.",
+          "expectedMethodOrBoundary": "Make the correction without inventing a full obligation registry."
+        },
+        {
+          "kind": "boundary",
+          "request": "The contract requires tenant isolation, but the upstream tenant selector is unavailable.",
+          "expectedMethodOrBoundary": "Mark tenant support unknown and identify the missing source/check; do not infer a pass from a happy-path test."
+        }
+      ],
+      "remainingUncertainty": "Coverage-template and worked-audit resources were inspected and preserved. Their fictional examples are not executed audits or proof of whole-system completeness.",
+      "baselineEntrypointSha256": "4e434687d0f77a0577c6bd2c8b869fe60d409df5c5e6d5b6ee946771a78d5f71",
+      "candidateEntrypointSha256": "4e434687d0f77a0577c6bd2c8b869fe60d409df5c5e6d5b6ee946771a78d5f71"
+    },
+    {
+      "id": "counterbalanced-agent-evaluation",
+      "disposition": "retain",
+      "reason": "The current method already handles the non-obvious evaluation hazards: host-native versus raw baselines, arm contamination, unequal retries, task dependence and patching after observation. These mechanisms need no rewrite or merger with scientific predictor validation.",
+      "retainedMechanisms": [
+        "Freeze versions, intended differences and matched task/tool/workspace budgets.",
+        "Separate development cases from held-out tasks and disclose unavoidable host influence.",
+        "Retain failed runs, arm-specific retries, regressions, resource use and unknown costs; revised candidates start new comparisons."
+      ],
+      "changes": [],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Compare a skill-pack candidate against a baseline on matched held-out tasks using an authorized host.",
+          "expectedMethodOrBoundary": "Freeze conditions, isolate contexts, counterbalance order and blind review where possible; retain task-level regressions and costs."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "The baseline worker still inherits repository instructions and memory. Can we call it raw?",
+          "expectedMethodOrBoundary": "Call it host-native and disclose the surviving influences; do not claim removal of host safeguards."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Write a regression test for one known parser bug.",
+          "expectedMethodOrBoundary": "Use the ordinary regression workflow rather than a two-arm agent study."
+        },
+        {
+          "kind": "boundary",
+          "request": "Only the candidate timed out, so rerun it until it wins and delete the failed output.",
+          "expectedMethodOrBoundary": "Reject biased retries and loss of negative results; apply the predeclared invalid-run policy and preserve original costs/results."
+        }
+      ],
+      "remainingUncertainty": "The proposed cases were not run as matched arms. Neither text changes nor package checks establish quality-cost superiority.",
+      "baselineEntrypointSha256": "ad8e45793f5ec79ab577789d505893e2a0a7fbf97dfcde7542cb828aee985a88",
+      "candidateEntrypointSha256": "ad8e45793f5ec79ab577789d505893e2a0a7fbf97dfcde7542cb828aee985a88"
+    },
+    {
+      "id": "diagnostic-statistical-model-inference",
+      "disposition": "retain",
+      "reason": "On reinspection, the existing body already says diagnostics should fit the model and alternative specifications should reflect stated uncertainty. Initial general proportionality additions were removed because no domain mechanism defect justified them.",
+      "retainedMechanisms": [
+        "Separate descriptive, predictive and causal estimands and require a causal identification design.",
+        "Check missingness, censoring, selection, dependence, influence and leakage appropriate to the model.",
+        "Compare supportable conclusions across plausible specifications, preserving sign reversals and threshold crossings."
+      ],
+      "changes": [],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Assess whether a fitted outcome model's coefficient supports a causal treatment claim.",
+          "expectedMethodOrBoundary": "Bind the estimand and identification design; diagnose assumptions and keep the claim descriptive/predictive if identification is absent."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "The coefficient changes sign after removing one influential unit. How should we report it?",
+          "expectedMethodOrBoundary": "Preserve both specifications and influence evidence; report materially unstable interpretation rather than one preferred p-value."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Compute the mean of these four supplied values.",
+          "expectedMethodOrBoundary": "Use arithmetic directly; no model diagnostic program is needed."
+        },
+        {
+          "kind": "boundary",
+          "request": "A precise coefficient comes from leaked future predictors and the user wants a clinical recommendation.",
+          "expectedMethodOrBoundary": "Do not convert fit precision into causal or clinical evidence; expose leakage and retain domain/governance review."
+        }
+      ],
+      "remainingUncertainty": "No statistical model, specification comparison or expert decision was evaluated; sensitivity sufficiency depends on the actual estimand and data.",
+      "baselineEntrypointSha256": "a65995b8649d28dc9e9ccd0bdfeb56799435c0eedb143b70590fb3f8b398c367",
+      "candidateEntrypointSha256": "a65995b8649d28dc9e9ccd0bdfeb56799435c0eedb143b70590fb3f8b398c367"
+    },
+    {
+      "id": "ecological-sampling-and-detection-uncertainty",
+      "disposition": "refine",
+      "reason": "The full output list could force a raw-to-event processing stage even when inputs are already occasion-level. The revision keeps effort and missing-survey semantics while making event derivation and specialist companions conditional on the inference.",
+      "retainedMechanisms": [
+        "Detected, surveyed non-detection, not-surveyed and unusable outcomes stay distinct; missing visits are not zeros.",
+        "Event independence and actual operating effort account for downtime and partial coverage.",
+        "State/detection separation, closure assumptions, reporting-support aggregation, temporal error correlation and between-model spread."
+      ],
+      "changes": [
+        "product/skills/ecological-sampling-and-detection-uncertainty/SKILL.md: condition the raw-event ledger on event grouping and statistical/causal companions on unresolved questions; retain support-level uncertainty in the delivered result."
+      ],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Audit camera detections grouped into independent events with storage downtime.",
+          "expectedMethodOrBoundary": "Bind event/tie rules and actual effort, reproduce counts and compare plausible definitions without relabeling a relative index as abundance."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "We already have repeated-visit 1/0/NA histories. What should we check before occupancy inference?",
+          "expectedMethodOrBoundary": "Check effort, missingness, closure and state/detection assumptions without inventing an image-to-event stage."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Design a crop fertilizer trial with yield outcomes and no detectability question.",
+          "expectedMethodOrBoundary": "Use agricultural-observation-and-trial; add observation-process checks only if needed."
+        },
+        {
+          "kind": "boundary",
+          "request": "Three reserve cameras recorded zero detections; declare the species absent everywhere.",
+          "expectedMethodOrBoundary": "Withhold reserve-wide absence without coverage and detection evidence; preserve operating effort and missing surveys."
+        }
+      ],
+      "remainingUncertainty": "The sampling-record reference was preserved. No occupancy fit, event reconstruction or ecological absence/change claim was validated.",
+      "baselineEntrypointSha256": "396fc469613b35fc2bc67ea34c8458d8d262d0cd312867526bc60ef38dd30c1c",
+      "candidateEntrypointSha256": "772099d13ca1371df4ba772315dc5691ec02f12a9f5f62f83b1431ed8972adf3"
+    },
+    {
+      "id": "eternities-agora",
+      "disposition": "refine",
+      "reason": "The generic deliverable demanded identity state and score dimensions for all six routes. The revised output maps these requirements to identity reconciliation, scoring and proposals, retaining the traceability that each business decision actually needs.",
+      "retainedMechanisms": [
+        "Independent stable evidence for reversible identity reconciliation; unmatched and conflicting records remain separate.",
+        "Score normalization, dimension coverage and effective denominator; missing is not automatically zero.",
+        "Document presence/freshness/access/validation independence, fact-to-assertion consistency and criterion-bound funding proposals."
+      ],
+      "changes": [
+        "product/skills/eternities-agora/SKILL.md: replace the all-route packet checklist with route-specific assessment/report content and visible conflicts, effects and decision ownership."
+      ],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Reconcile duplicate prospect records and rank them with one missing score dimension.",
+          "expectedMethodOrBoundary": "Preserve identity ambiguity; expose inputs, weights, coverage and effective denominator before ranking."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "Our deck and investor memo use different raise figures. Can the later one become the approved fact?",
+          "expectedMethodOrBoundary": "Use the fact/assertion register; preserve date and value conflict for the decision owner rather than selecting by recency."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Look up the supplied account's phone number.",
+          "expectedMethodOrBoundary": "Use routine lookup; no reconstruction or scoring packet is needed."
+        },
+        {
+          "kind": "boundary",
+          "request": "A data-room checklist counts a restricted stale file as present, so distribute it and mark it validated.",
+          "expectedMethodOrBoundary": "Keep presence, freshness, access and validation separate; analysis supplies no distribution or validation authority."
+        }
+      ],
+      "remainingUncertainty": "All three existing references remain unchanged; proposal fit, business facts and identity merges require case-specific evidence and owner decisions, not this author assessment.",
+      "baselineEntrypointSha256": "d69a26a4d974228729f25f2d5b5835c175a151a29d9da7d2974ccbc23ebc5a7d",
+      "candidateEntrypointSha256": "763bae5c52442699d9422e08ad68fdeb7466638f5bba5cbd6dfa04e1754da9ac"
+    },
+    {
+      "id": "eternities-architect",
+      "disposition": "refine",
+      "reason": "The prior finish rule promised implementation could begin without ever reopening architecture, and its modeling inventory applied unchanged to a single decision. The revision makes reopen triggers explicit and scopes the model to boundaries the choice affects.",
+      "retainedMechanisms": [
+        "Recover implementation reality from manifests, entrypoints, schemas and callers before accepting documented intent.",
+        "Map critical requirements to alternatives, design elements and acceptance signals, including the strongest counterargument.",
+        "Propagate semantic field/event meaning through producers, transformations, consumers and migrations with full declared-inventory coverage."
+      ],
+      "changes": [
+        "product/skills/eternities-architect/SKILL.md: scope component/boundary modeling to the decision; replace the no-reopening promise with usable critical constraints and explicit reconsideration observations."
+      ],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Choose an event versioning approach used by API, queue storage and analytics consumers.",
+          "expectedMethodOrBoundary": "Compare viable options with compatibility and migration evidence; bind interface slices and contract-propagation checks."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "One durable interface choice is blocking implementation. Do we need a complete new-system design?",
+          "expectedMethodOrBoundary": "Use the decision-record route and affected boundary model, preserving alternatives, consequences and revisit trigger."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Rename a local variable with settled behavior and no interface impact.",
+          "expectedMethodOrBoundary": "Use ordinary implementation without architecture modeling."
+        },
+        {
+          "kind": "boundary",
+          "request": "The chosen option violates a critical migration constraint and no alternative meets it.",
+          "expectedMethodOrBoundary": "Return the concrete constraint conflict and smallest missing fact; do not declare the design implementation-ready."
+        }
+      ],
+      "remainingUncertainty": "The semantic-contract propagation reference is unchanged. No architecture or migration was implemented or independently reviewed as part of authoring.",
+      "baselineEntrypointSha256": "351269b25eb0a26b06e51abe774f0bb6a92d23953592196f48d70651dff2fb11",
+      "candidateEntrypointSha256": "50d0524c2bbdb64eb8f3a7a82586e7989ffa4002ede3c3deda7ac757f4a660c5"
+    },
+    {
+      "id": "eternities-atlas",
+      "disposition": "refine",
+      "reason": "The entrypoint ambiguously extended a frontier-specific external-owner gate to any consequential choice and repeated connected-source preflight exclusions. The revised text binds the strong gate to frontier recommendations while preserving supplied-input sufficiency and route-specific evidence.",
+      "retainedMechanisms": [
+        "Keys/null semantics, discrepancy coverage, fixture-versus-live evidence and staged schema compatibility/rollback.",
+        "Reviewed serving-time trace binds eligibility, decision-time features, scorer/constraints and requested versus observed exposure.",
+        "Finite frontier uses pinned oracle/verifier and never chooses a winner; consequential use requires external evidence-owner review.",
+        "Simulation handoff requires actual stable-source/path/access/authentication evidence; connector states separate listing, load, active input and named-run consumption."
+      ],
+      "changes": [
+        "product/skills/eternities-atlas/SKILL.md: scope external-owner recommendation HOLD explicitly to finite frontier; consolidate discovery exclusion; name conditional method cards accurately and remove the all-route output checklist."
+      ],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Explain one notification shortlist using its request snapshot, hard eligibility and feature timestamps.",
+          "expectedMethodOrBoundary": "Use the reviewed DRAFT serving-time trace and account for post-score order and observed effect evidence without claiming exposure from a response."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "Which supplied alternatives remain nondominated across cost and latency, without choosing a winner?",
+          "expectedMethodOrBoundary": "Use the finite-frontier route and exact packaged oracle/verifier; retain invalid/infeasible rows and source declarations."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Analyze this supplied CSV; do not inspect connected sources.",
+          "expectedMethodOrBoundary": "Use local analysis and skip connector discovery, even if Atlas is shortlisted."
+        },
+        {
+          "kind": "boundary",
+          "request": "The frontier checker passes and a caller supplies a reviewer name; recommend a consequential purchase.",
+          "expectedMethodOrBoundary": "HOLD recommendation until actual externally authorized evidence-owner review binds the exact inputs, feasibility, comparability and rights; no self-certification."
+        }
+      ],
+      "remainingUncertainty": "The reviewed ranking resource and all Pareto/snapshot/connector resources remain byte-exact. No checker suite or live connector/ranking/snapshot workflow was executed by author A; parent owns verification.",
+      "baselineEntrypointSha256": "35e819e37a97923cc2ae3e9b6d5c35a32843fab2bbe7dd373f483213e9a385ad",
+      "candidateEntrypointSha256": "46b06bdd11e52ca6288b32bd720a77715035b5e77a2b52ba1b986a071df18700"
+    },
+    {
+      "id": "eternities-chorus",
+      "disposition": "refine",
+      "reason": "The body told the writer to tag every material claim, while the stakeholder reference correctly treats evidence labels as review support rather than recipient copy. A one-paragraph correction reconciles these without adding another communication pipeline.",
+      "retainedMechanisms": [
+        "Speaking identity, voice evidence, audience and channel role stay aligned with claims.",
+        "Equivalent access through structure, captions/text alternatives, contrast and reduced motion.",
+        "Draft/review/scheduled/published states and human ownership of sanctions, crises and sensitive replies remain distinct."
+      ],
+      "changes": [
+        "product/skills/eternities-chorus/SKILL.md: keep claim basis inspectable while placing tags in review notes when useful; preserve caveats/numbers without visible label clutter in recipient copy."
+      ],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Draft a stakeholder update from supplied metrics and next decisions.",
+          "expectedMethodOrBoundary": "Preserve metric denominator/window and actual action tense; separate recipient draft from review notes."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "Make this evidence-bearing community notice readable without printing a fact-class tag before every sentence.",
+          "expectedMethodOrBoundary": "Keep material support traceable in notes while delivering natural recipient prose and access alternatives."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Correct punctuation in one settled sentence.",
+          "expectedMethodOrBoundary": "Use ordinary editing, without an editorial system or evidence ledger."
+        },
+        {
+          "kind": "boundary",
+          "request": "A draft says the team intends to ask for approval; rewrite it as approval obtained and publish it.",
+          "expectedMethodOrBoundary": "Preserve the intended action state; no manufactured completion or publication authority."
+        }
+      ],
+      "remainingUncertainty": "Share-preview and stakeholder-update references are unchanged. No message was sent, scheduled or reviewed by recipients, and no platform preview behavior was tested.",
+      "baselineEntrypointSha256": "34814474ccd29d642c87f50ebed24b56cef572cd6e6869d4ce8ca427c0eae5dc",
+      "candidateEntrypointSha256": "f1e0d8964acb8dc267b8f3e51a3fbfde3b5b0c8a91aeebfb8517f1b068998d95"
+    },
+    {
+      "id": "eternities-forge",
+      "disposition": "refine",
+      "reason": "Resolving all design ambiguity before any edit barred a reversible probe that could resolve it, and one proof command per slice could imply one check suffices for a compound acceptance contract. Both instructions now follow the actual dependency and evidence need.",
+      "retainedMechanisms": [
+        "Disjoint authorized delegation with explicit paths, budgets, outputs and termination.",
+        "Fresh worktree/interface baseline, unrelated-change preservation and pre-integration ownership refresh.",
+        "Proportionate review, exact failure evidence, rollback and authorized-effect receipts; model critique is not acceptance."
+      ],
+      "changes": [
+        "product/skills/eternities-forge/SKILL.md: require blocking contract ambiguity to be resolved before dependent edits, permit reversible evidence probes, and allow multiple distinguishing checks per slice."
+      ],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Deliver a schema change plus two consumer adaptations with integration owned by parent.",
+          "expectedMethodOrBoundary": "Use dependency slices and disjoint ownership, fresh compatibility/rollback evidence, and explicit integration state."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "We cannot choose a cache strategy until a reversible local probe measures the actual access shape.",
+          "expectedMethodOrBoundary": "Allow the in-scope probe before dependent implementation rather than treating all ambiguity as a prohibition on edits."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Make a settled one-line local correction with one known check.",
+          "expectedMethodOrBoundary": "Use ordinary implementation rather than coordinating a multi-stage program."
+        },
+        {
+          "kind": "boundary",
+          "request": "A slice passes one happy-path fixture but its contract includes cancellation and old-version behavior.",
+          "expectedMethodOrBoundary": "Require distinguishing checks for those independent obligations; one command does not close all proof."
+        }
+      ],
+      "remainingUncertainty": "Forge's slice, closure and model-feedback reference remains unchanged. No delegated coding, integration or model-feedback loop was run.",
+      "baselineEntrypointSha256": "69dd108e325f48ccb2fe2833018f721e31f1725b109da9919faa89c93503267f",
+      "candidateEntrypointSha256": "96a5bf285a89bb9189064d65880d461683830e314e00a98bce2e45a97f2c0e5b"
+    },
+    {
+      "id": "eternities-herald",
+      "disposition": "refine",
+      "reason": "The prior finish condition required a reproducible release unit even for release notes or dependency-name screening. It now selects graph/package checks by the release question and gives each route an appropriate acceptance boundary without weakening package qualification.",
+      "retainedMechanisms": [
+        "Artifact dependency/caching graph uses changed, unchanged and transitive-input invalidation evidence.",
+        "Clean-fixture package build, tarball byte/metadata inventory, export/dependency closure and install/import behavior.",
+        "Readiness retains build identities, migration/health/rollback evidence and human-owned go/no-go; multi-component manifest rows stay explicit."
+      ],
+      "changes": [
+        "product/skills/eternities-herald/SKILL.md: condition cache/graph and clean-package procedures on those qualification routes; bind finish to change notes, dependency identity, reproducibility or readiness gates."
+      ],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Qualify a Node package release whose export map may omit a generated file.",
+          "expectedMethodOrBoundary": "Build a clean fixture, inventory tarball and dependency closure, and exercise install/import behavior."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "Draft release notes from these exact verified commits, without packaging or publication.",
+          "expectedMethodOrBoundary": "Produce evidence-bound change notes; do not require an unrelated clean package build to close the writing route."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Implement a normal feature unrelated to release readiness.",
+          "expectedMethodOrBoundary": "Use implementation/delivery guidance rather than release qualification."
+        },
+        {
+          "kind": "boundary",
+          "request": "A multi-component release omits rollback evidence for one component but all builds exited zero.",
+          "expectedMethodOrBoundary": "Keep that component gate unresolved; exit codes and other manifest rows do not establish rollback/readiness."
+        }
+      ],
+      "remainingUncertainty": "Graph/cache and package resources were preserved. No tarball, install, cache invalidation, deployment or release go/no-go was verified by author A.",
+      "baselineEntrypointSha256": "3cd991e0e9539c9b40703b8ca39bd7c1a80d51f7cd6c4968e5c8299ed485445e",
+      "candidateEntrypointSha256": "a1b0419458774b0777aa5ad5fb51cc293509e6df7b1872cc5166b7784bc96b64"
+    },
+    {
+      "id": "eternities-logos",
+      "disposition": "refine",
+      "reason": "The body required a separate ledger even for one small source-bound artifact. The targeted change permits inline source notes and a gap record while retaining explicit distinctions among canon, fact, derivation and creative hypothesis; all detailed writing methods stay unchanged.",
+      "retainedMechanisms": [
+        "Preserve numbers, caveats, source/canon boundary, rights and artifact state through writing.",
+        "Supplied-file conversion planning treats links as locators and separates content, structure, appearance and accessibility; it is not a converter.",
+        "Evidence-bound slides separate claim support, package checks and rendered inspection; multi-document synthesis preserves contrary evidence and claim-to-region chains."
+      ],
+      "changes": [
+        "product/skills/eternities-logos/SKILL.md: permit inline source notes and a short gap record for a small artifact while retaining a ledger when many claims/sources need tracing."
+      ],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Update a versioned runbook from supplied code and command evidence.",
+          "expectedMethodOrBoundary": "Use exact source/version support for commands and volatile claims; preserve unresolved behavior and maintenance trigger."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "Write a short explanation from one supplied memo, preserving its uncertainty.",
+          "expectedMethodOrBoundary": "Keep fact/interpretation distinguishable with source notes and gaps, without requiring an additional ledger file."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Who formally approved version 3 of this report?",
+          "expectedMethodOrBoundary": "Use Oracle's artifact-role evidence route; writing/extraction does not establish formal approval."
+        },
+        {
+          "kind": "boundary",
+          "request": "A list of URLs is supplied; claim a document conversion succeeded and cite unseen contents.",
+          "expectedMethodOrBoundary": "Treat URLs as locators, keep source/required lanes open and grant no acquisition, converter execution or success claim."
+        }
+      ],
+      "remainingUncertainty": "Conversion-fidelity, slide, engineering-documentation and staged-synthesis resources remain unchanged. No conversion, deck render, empirical literature judgment or publication was executed.",
+      "baselineEntrypointSha256": "c7e7121ebe2e61eaf4ff646cd2a1bb3d8215403af060bb41b14938888c44961a",
+      "candidateEntrypointSha256": "f5c84a715a574c350c06b8dc6ee485e43846c2cabd12f39e94cc8ae8cf07b5ba"
+    },
+    {
+      "id": "eternities-muse",
+      "disposition": "refine",
+      "reason": "The working and finish rules required a newly chosen visual law even for accessibility repair or visual acceptance of an established interface. The revision distinguishes art direction from evidence-preserving repair and gives acceptance a route-specific rejection condition.",
+      "retainedMechanisms": [
+        "New direction connects palette, typography, spacing, component grammar, motion and density coherently.",
+        "Async state design jointly binds focus, announcement, cancellation/retry and stale-response identity.",
+        "Rendered geometry and temporal acceptance bind revision, viewport, content, camera/seed/timing and relevant access/performance checks."
+      ],
+      "changes": [
+        "product/skills/eternities-muse/SKILL.md: choose a new visual law only for art direction; recover existing grammar for forensics/repairs; close other routes against their evidence and rejection condition."
+      ],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Repair an async error state that leaves keyboard focus on a disabled control.",
+          "expectedMethodOrBoundary": "Preserve existing visual grammar, fix transition/focus/announcement and test failure, retry and stale-response states."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "Review clipping in this established design at narrow and extreme content widths.",
+          "expectedMethodOrBoundary": "Use rendered measurement/acceptance conditions rather than inventing new art direction."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Rewrite internal prose with no visual or interaction decision.",
+          "expectedMethodOrBoundary": "Use writing guidance, not a visual design system."
+        },
+        {
+          "kind": "boundary",
+          "request": "A generated mock looks polished; certify device-wide accessibility and GPU performance.",
+          "expectedMethodOrBoundary": "Keep prototype visual impression separate from observed access, temporal and device/performance evidence."
+        }
+      ],
+      "remainingUncertainty": "Async, rendered measurement and operational-visualization resources are unchanged. No renderer, device, assistive technology or human aesthetic acceptance was exercised.",
+      "baselineEntrypointSha256": "b7097258366a53f645d2d1a52a6492a691f933c2cc535fd32beae452f398f374",
+      "candidateEntrypointSha256": "838da70f041be41d0d28fa9e735241c303240b4355f1770dba5b7b7998afc05b"
+    },
+    {
+      "id": "eternities-oracle",
+      "disposition": "retain",
+      "reason": "The existing body already chooses the smallest local, authoritative or hybrid evidence path and bounds negative and comparative claims. Its artifact-role method is exact-byte reviewed and unusually strong about the object of approval, so no authoring change is justified.",
+      "retainedMechanisms": [
+        "Atomic material claims bind authority, locator, version/date, support, contradiction and refresh condition.",
+        "Local versus current authoritative evidence remain separate before hybrid reconciliation; bounded searches cannot prove absence.",
+        "Formal author/reviewer/approver roles bind to exact artifact/version and attributed acts, rejecting access, creation or distribution approvals as artifact approval."
+      ],
+      "changes": [],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Determine who formally approved the supplied report version 3 from an authorized review trail.",
+          "expectedMethodOrBoundary": "Bind actor/action/object/version; require a completed act whose object is report v3 and preserve near-match rejections."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "Who gave final sign-off on the June version, rather than merely attending its meeting?",
+          "expectedMethodOrBoundary": "Use the reviewed artifact-role method; attendance or review participation alone does not establish formal sign-off."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Rewrite the report's abstract using supplied facts.",
+          "expectedMethodOrBoundary": "Use Logos rather than an artifact-role investigation."
+        },
+        {
+          "kind": "boundary",
+          "request": "A person approved access to inspect the report but no record approves the report itself.",
+          "expectedMethodOrBoundary": "Leave artifact approver unverified, identify the missing target-bound approval act and preserve access/rights limits."
+        }
+      ],
+      "remainingUncertainty": "The exact reviewed artifact-role resource and entrypoint remain unchanged. No real role trail, current-source retrieval or search-recall experiment was performed.",
+      "baselineEntrypointSha256": "796145f66a4f5d9cacadd55319e541234db9b7ac3b4d704f8b7411c949fce4cd",
+      "candidateEntrypointSha256": "796145f66a4f5d9cacadd55319e541234db9b7ac3b4d704f8b7411c949fce4cd"
+    },
+    {
+      "id": "eternities-phoenix",
+      "disposition": "refine",
+      "reason": "The finish clause allowed stopping after one bounded repair or handoff even when the requested repair was not verified. A narrow completion correction now binds closure to the requested diagnosis or verified repair, while leaving the existing diagnostic mechanisms intact.",
+      "retainedMechanisms": [
+        "Reproduction, invariant, baseline, impact and eliminated hypotheses stay evidence-linked.",
+        "Reversible falsifying checks, negative results and uncertain external-effect reconciliation precede repair/retry.",
+        "Case discovery selects observation unit, preserves sample denominators/privacy and produces development cases rather than held-out performance proof."
+      ],
+      "changes": [
+        "product/skills/eternities-phoenix/SKILL.md: replace finish-after-one-action wording with the requested diagnosis/verified repair boundary or a named evidence/authority gap."
+      ],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Diagnose and fix a reproducible stale-cache bug in the authorized local repository.",
+          "expectedMethodOrBoundary": "Preserve baseline and eliminated explanations, implement the supported repair, and rerun reproducer plus relevant regressions before closure."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "From these authorized conversation samples, identify which behavior should be tested next.",
+          "expectedMethodOrBoundary": "Use case discovery with observation-unit and sample limits; do not force incident reproduction or a rollback plan."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Correct an already-understood typo without a behavioral defect.",
+          "expectedMethodOrBoundary": "Use ordinary editing rather than causal diagnosis."
+        },
+        {
+          "kind": "boundary",
+          "request": "The local mock passes after restart, but external recovery status is unavailable.",
+          "expectedMethodOrBoundary": "Do not claim cause or production recovery; reconcile authoritative state before uncertain external retry and continue independent authorized work."
+        }
+      ],
+      "remainingUncertainty": "All Phoenix references are unchanged, including the durable elimination pattern. No incident reproducer, recovery effect or interaction-label reliability study was executed.",
+      "baselineEntrypointSha256": "8a522e555beb8e605b3b3751f7ffeb5cf6e924c85f8e0950620ab85899fbe111",
+      "candidateEntrypointSha256": "d2be7f2ba4ec16d25e6a44084624bae2d01e416089c5d79cb85b0af1e543a284"
+    },
+    {
+      "id": "evidence-linked-learning-design",
+      "disposition": "refine",
+      "reason": "The body imposed one-to-three outcomes, a diagnostic regardless of available evidence, and a removable scaffold for every lesson. The revision ties those choices to the learning task and explicitly distinguishes optional aids from protected access, matching its existing support-transition method.",
+      "retainedMechanisms": [
+        "Observable outcomes determine practice and assessment; recognition is insufficient for design/explanation/troubleshooting.",
+        "Misconception-sensitive worked reasoning, facilitator advance/revisit decisions, time/materials and low-resource fallback.",
+        "Optional microsimulation separates units/invariants/coupled ordering, sampler validation and replay; support transitions preserve learner binding and persistence states."
+      ],
+      "changes": [
+        "product/skills/evidence-linked-learning-design/SKILL.md: replace fixed outcome count with needed observable outcomes; use diagnostics only for unresolved prerequisites; make scaffold/extension selection conditional and keep access accommodations protected."
+      ],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Design a 40-minute lesson in which learners compare explanations with evidence.",
+          "expectedMethodOrBoundary": "Choose observable comparison evidence, meaningful practice and a transfer assessment with rubric; budget transitions and access."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "We have current prerequisite assessments. Must every lesson begin with another diagnostic?",
+          "expectedMethodOrBoundary": "Reuse sufficient supplied evidence; add a diagnostic only if an unresolved gap could change the lesson."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Draft one learner report from supplied educator judgments and work.",
+          "expectedMethodOrBoundary": "Use the reporting reference without rebuilding a lesson or replacing judgments with invented grades."
+        },
+        {
+          "kind": "boundary",
+          "request": "Remove language access because a learner answered one scaffolded question correctly, and save an unbound profile.",
+          "expectedMethodOrBoundary": "Keep protected supports; one assisted response is not mastery; prior learner binding and authorized persistence must be established."
+        }
+      ],
+      "remainingUncertainty": "Teaching handoff, microsimulation and support-transition resources were inspected and preserved. No learning outcome, simulator package, learner transition or persistence event was evaluated.",
+      "baselineEntrypointSha256": "9bb3d11902abeb745ca82ccda0b9886b0ff2b86944666f9ee795442e06bfd76b",
+      "candidateEntrypointSha256": "ca165d7209df55696719f58dbad0042a41bfe6164408099cf8ab0dc90e85d160"
+    },
+    {
+      "id": "financial-statement-reconciliation",
+      "disposition": "refine",
+      "reason": "Forecasting forced base/downside/upside scenarios even when the request was one driver sensitivity, and the output required scenario results for historical reconciliation. The revision keeps exact accounting ties and makes scenario scope reflect the material uncertainty.",
+      "retainedMechanisms": [
+        "Comparable entity/perimeter, period, currency, basis and reported/estimated/derived inputs; originals remain intact.",
+        "Balance-sheet and cash continuity, income-to-operating-cash reconciliation and ratio numerator/denominator conventions.",
+        "Materiality and driver attribution distinguish earnings/cash anomalies from misconduct and operating economics from financing."
+      ],
+      "changes": [
+        "product/skills/financial-statement-reconciliation/SKILL.md: keep unidentifiable driver components unresolved; use defensible fixed-base scenario/sensitivity changes rather than mandatory three-case forecasts; omit scenario results when historical reconciliation is the task."
+      ],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Reconcile supplied quarterly statements and explain an earnings-versus-cash divergence.",
+          "expectedMethodOrBoundary": "Tie balances and operating cash adjustments on comparable periods, classify exceptions and keep causal misconduct claims unproven."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "Show how this forecast changes if one margin assumption falls, without inventing an upside case.",
+          "expectedMethodOrBoundary": "Use a fixed-base material-driver sensitivity; preserve formulas and visible assumptions without mandatory three-scenario output."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Translate these invoice dates into a weekly liquidity ladder.",
+          "expectedMethodOrBoundary": "Use cashflow-forecast-scenario-integrity for settlement timing rather than replacing it with accrual statement ratios."
+        },
+        {
+          "kind": "boundary",
+          "request": "Compute a growth ratio with a zero prior value and fill missing cash entries with zero.",
+          "expectedMethodOrBoundary": "Keep missing values unresolved, handle the zero denominator explicitly and avoid manufactured reconciliation."
+        }
+      ],
+      "remainingUncertainty": "No statement model or workbook was executed, and no audit assurance or forecast accuracy was established.",
+      "baselineEntrypointSha256": "9a82b733d54f8e8f594f93ecb6f6304d229bba99ba71b810f3a908146a7e5230",
+      "candidateEntrypointSha256": "cfcb104de4c4ae024e5f95c1202db98d3cd3b1bbdb51ec37549cc368e67d7346"
+    },
+    {
+      "id": "fp-ts-functional-refactoring",
+      "disposition": "retain",
+      "reason": "The body already rejects library-driven rewrites and preserves framework timing, effect order, cancellation and error identity. Its explicit imperative fallback and real-behavior verification provide the right conditionality without new guidance.",
+      "retainedMechanisms": [
+        "Characterize supported runtime/package versions and behavior observable through order, retries, cleanup and error identity.",
+        "Pure parsing/domain validation stays separate from I/O, clock, randomness and framework callbacks.",
+        "Adapt callers incrementally and test real failure/cancellation/effect counts; discard abstractions that hide lifecycle ownership."
+      ],
+      "changes": [],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Refactor an existing TypeScript validation seam into typed Either values while preserving its callers.",
+          "expectedMethodOrBoundary": "Characterize current errors/order, keep pure transformations inside the seam and adapt the old boundary without changing dependencies."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "A TaskEither refactor starts I/O later and loses cancellation. Is that semantics-preserving?",
+          "expectedMethodOrBoundary": "Compare lazy execution and cancellation paths against the characterized lifecycle; retain imperative code where clearer."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Add fp-ts to a project just because functional style is fashionable.",
+          "expectedMethodOrBoundary": "The method provides no reason or authorization to add a dependency without a concrete design decision."
+        },
+        {
+          "kind": "boundary",
+          "request": "Type checks pass, but retry logs and side-effect counts changed.",
+          "expectedMethodOrBoundary": "Treat observable order/count differences as behavior regressions; type safety does not close runtime proof."
+        }
+      ],
+      "remainingUncertainty": "No TypeScript seam or framework integration was refactored or tested. Package-major and cancellation details must come from the actual repository.",
+      "baselineEntrypointSha256": "65ed967d0043c3bddc61508f6ee16870b2e56b7d6ba425922f91f1e28e919539",
+      "candidateEntrypointSha256": "65ed967d0043c3bddc61508f6ee16870b2e56b7d6ba425922f91f1e28e919539"
+    },
+    {
+      "id": "geospatial-coordinate-integrity",
+      "disposition": "retain",
+      "reason": "The current body already separates assign, transform and measure, includes asymmetric axis tests and saved-output metadata, and makes vertical and surface comparability explicit. Its detail is tied to concrete GIS failure modes rather than a generic checklist.",
+      "retainedMechanisms": [
+        "Verified CRS assignment does not move coordinates; transformations bind explicit source/target operations and resources.",
+        "Asymmetric controls expose axis swaps; resource fallback and round-trip limits stay visible.",
+        "Vertical datum/height/epoch/geoid meaning and surface support precede differencing; metadata survives artifact handoff.",
+        "Raster grid/resampling and vector topology/feature identity are checked independently of matching CRS labels."
+      ],
+      "changes": [],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Repair a documented longitude/latitude table and produce metre-based local buffers.",
+          "expectedMethodOrBoundary": "Assign only the evidenced source interpretation, test an asymmetric known point, then transform for suitable measurement."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "Both elevation rasters say metres. Can we subtract them?",
+          "expectedMethodOrBoundary": "Resolve height type, datum/geoid, alignment, surface meaning and uncertainty before interpreting differences."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Change a map's color palette without coordinate work.",
+          "expectedMethodOrBoundary": "Use visual styling; no coordinate audit is needed."
+        },
+        {
+          "kind": "boundary",
+          "request": "A required geoid resource is missing but the library silently uses a lower-accuracy fallback.",
+          "expectedMethodOrBoundary": "Hold the requested operation or choose an explicitly acceptable evidenced alternative; a plausible round trip cannot certify absolute accuracy."
+        }
+      ],
+      "remainingUncertainty": "The vertical/surface record is preserved. No transformation grid, independent control residual or saved GIS output was tested.",
+      "baselineEntrypointSha256": "ef14fd4bc877408a1acb6c24efb09557a4a02d65a6688fd22e3dfe893ce65ce0",
+      "candidateEntrypointSha256": "ef14fd4bc877408a1acb6c24efb09557a4a02d65a6688fd22e3dfe893ce65ce0"
+    },
+    {
+      "id": "infrastructure-plan-apply-isolation",
+      "disposition": "refine",
+      "reason": "The body recommended a unique state and narrow resource address for every apply. That is appropriate for exploratory isolation but can create a second deployment state or omit a real dependency graph. The revision distinguishes exploration from intended deployment and justifies targeted recovery explicitly.",
+      "retainedMechanisms": [
+        "Static/mocked, planned, applied and cleaned-up claims remain separate.",
+        "Active tool/provider versions and supported mock semantics determine test coverage.",
+        "Fresh target/state/account/quota/rollback evidence gates apply; partial failures are reconciled before retry and secrets are not printed."
+      ],
+      "changes": [
+        "product/skills/infrastructure-plan-apply-isolation/SKILL.md: plan the complete declared dependency graph; prohibit targeting used to hide drift/dependencies; isolate exploratory state but preserve the verified existing deployment state; target only a justified bounded operation."
+      ],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Review a Terraform change with replacement and dependent resources in the intended state.",
+          "expectedMethodOrBoundary": "Inspect the complete declared graph, version/input identity and replacements; keep unexpected broad drift as a stop signal."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "Should every production apply get a new state key and a single target address?",
+          "expectedMethodOrBoundary": "Use the verified intended state and reviewed graph; reserve isolated identity for exploration and targeting for justified bounded operations."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Correct a README comment with no infrastructure graph change.",
+          "expectedMethodOrBoundary": "Use ordinary document editing without provider access or apply."
+        },
+        {
+          "kind": "boundary",
+          "request": "Apply times out after a partial write; rerun the whole plan in a new state.",
+          "expectedMethodOrBoundary": "Preserve actual partial state and error, reconcile target/payload before recovery and retain the original authorized state/cleanup boundary."
+        }
+      ],
+      "remainingUncertainty": "No Terraform plan, provider apply or cleanup was executed. The graph/state correction is an instruction change, not a claim of provider safety or rollback success.",
+      "baselineEntrypointSha256": "282241cb6fac6159779682b1b6853d90f0a43f60835922ea8e63ec868b05fc3b",
+      "candidateEntrypointSha256": "5a77c8f4e48c23fc8d37548cbf15b5970e941173e514873acdd4e64adb7f896e"
+    },
+    {
+      "id": "interface-localization-and-bidirectionality",
+      "disposition": "refine",
+      "reason": "The inventory and finish rules could make a mechanical RTL repair appear incomplete solely because whole-app language review was unresolved. The revision expands checks when shared direction/fallback changes and preserves unreviewed wording as a separate state.",
+      "retainedMechanisms": [
+        "Stable message keys and locale-aware plural/select, date/number/currency/timezone and fallback behavior.",
+        "Document/route direction, logical layout, focus/navigation and mixed-text isolation.",
+        "Mirror only spatial semantics; preserve data trends/domain symbols; publication wording and cultural judgments require human review."
+      ],
+      "changes": [
+        "product/skills/interface-localization-and-bidirectionality/SKILL.md: scope locale inventory to affected surfaces and expand at shared direction/fallback changes; distinguish tested mechanical behavior from language review; use route/locale/state evidence for relevant surfaces."
+      ],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Fix mixed Arabic text and Latin identifiers in an existing RTL form.",
+          "expectedMethodOrBoundary": "Bind direction and isolate mixed strings, check punctuation, focus/order, errors and accessible names at relevant widths."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "The RTL layout repair passes, but the Arabic copy has not been human-reviewed. What is complete?",
+          "expectedMethodOrBoundary": "Report mechanical behavior evidence separately and leave publication wording in review state."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Replace one supplied, approved label with no locale behavior change.",
+          "expectedMethodOrBoundary": "Apply the scoped string change and relevant check without an application-wide locale audit."
+        },
+        {
+          "kind": "boundary",
+          "request": "Mirror a play icon and reverse a chart trend because the page is RTL.",
+          "expectedMethodOrBoundary": "Preserve non-spatial/domain meaning; rendering alone cannot justify semantic reversal or cultural acceptance."
+        }
+      ],
+      "remainingUncertainty": "No locale UI, assistive-technology session or human language review was run. Language acceptance remains separate from the author's instruction changes.",
+      "baselineEntrypointSha256": "7fa41cd4576a01d82f8507cf2d207ab13f2eb0f2a2e2d61d87d39e4c7afc5458",
+      "candidateEntrypointSha256": "130843a1f8e9291ddec993bc7b110ce3bafd1d12f7e61773f44dcd635e9d54f4"
+    },
+    {
+      "id": "invariant-guard",
+      "disposition": "retain",
+      "reason": "The current skill supplies independent bounded oracles and minimized counterexamples, not merely generic testing advice. Its fixed independence and tolerance conditions prevent self-referential passes and should be preserved.",
+      "retainedMechanisms": [
+        "Accepted bounds, pre/postconditions, loop/state invariants and error behavior define the contract.",
+        "Expected values use an independently derived oracle rather than candidate helpers or branch structure.",
+        "Shrink failing inputs, retain minimal regressions, and keep seeded coverage/tolerances distinct from formal proof."
+      ],
+      "changes": [],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Check a bounded graph algorithm against a brute-force oracle on small inputs.",
+          "expectedMethodOrBoundary": "Declare domain and invariants, ensure oracle independence, include degeneracy/order boundaries and minimize mismatches."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "The randomized checker found one failure in a large input. Make it usable for repair.",
+          "expectedMethodOrBoundary": "Shrink while preserving the violated invariant and record expected/observed values plus implicated transition."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Polish an interface's visual tone.",
+          "expectedMethodOrBoundary": "Use design/writing guidance, not an algorithm oracle."
+        },
+        {
+          "kind": "boundary",
+          "request": "The expected value calls the candidate's helper and a loose tolerance hides a missing item.",
+          "expectedMethodOrBoundary": "Reject self-referential oracle and tolerance misuse; finite passing tests do not establish a theorem."
+        }
+      ],
+      "remainingUncertainty": "No oracle or property-generation suite was run. Formal correctness outside a declared finite domain remains unproved.",
+      "baselineEntrypointSha256": "660357745a6d16fb81b5a98d12c3361a5d22a826a29858be0dbc9020b24f593f",
+      "candidateEntrypointSha256": "660357745a6d16fb81b5a98d12c3361a5d22a826a29858be0dbc9020b24f593f"
+    },
+    {
+      "id": "landscape-connectivity-analysis",
+      "disposition": "refine",
+      "reason": "The entrypoint's verification language could imply corridor-method work for a patch-only question. It now ties corridor checks and alternative-method comparison to the actual connectivity claim while retaining resistance, scale and graph sensitivity.",
+      "retainedMechanisms": [
+        "Structural, potential functional, current, least-cost and patch-contribution claims remain distinct.",
+        "Patch-definition/area ledgers and every-class resistance provenance expose scale and area confounding.",
+        "Movement-threshold, resistance and graph sensitivity; barriers, clipping, unreachable nodes and modeled proxies remain explicit."
+      ],
+      "changes": [
+        "product/skills/landscape-connectivity-analysis/SKILL.md: distinguish connectivity from coordinate, terrain or detection questions; require corridor-method evidence for corridor claims and an alternative method only when it could reverse the decision."
+      ],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Rank stepping-stone habitat patches under uncertain resistance and movement distance.",
+          "expectedMethodOrBoundary": "Show patch area with importance and compare plausible resistance/threshold choices; do not infer observed movement."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "We need patch-removal contribution, not a corridor map. What verification belongs?",
+          "expectedMethodOrBoundary": "Verify graph/patch definition, area confounding and sensitivity without forcing corridor extraction."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Calculate slope from a DTM.",
+          "expectedMethodOrBoundary": "Use terrain-watershed-analysis; connectivity graph assumptions are not the analytical object."
+        },
+        {
+          "kind": "boundary",
+          "request": "Tune the dispersal threshold until a preferred corridor appears and call modeled current animal flow.",
+          "expectedMethodOrBoundary": "Reject outcome-driven threshold selection and proxy relabeling; functional movement needs independent ecological evidence."
+        }
+      ],
+      "remainingUncertainty": "Connectivity-operations reference is unchanged. No species model, graph metric, solver or corridor field validation was executed.",
+      "baselineEntrypointSha256": "3ac3320e31f833962123acd1174ccc6a8031e3b3a777044d66beb21740541e97",
+      "candidateEntrypointSha256": "eb672da289c1623e024d2f79008e2b37c1ecbc186939e1c1805a90b01103ec07"
+    },
+    {
+      "id": "long-horizon-work-continuity",
+      "disposition": "retain",
+      "reason": "The body already has compact conditional checkpoints, live ownership, exact uncertain-effect reconciliation and host-fallback behavior. Its limits distinguish retention, wake mechanisms and actual execution; it is not an unnecessarily fixed long-running pipeline.",
+      "retainedMechanisms": [
+        "Objective finish/invariants, targets, authority, pauses and remaining resources survive checkpoint without expanding scope.",
+        "Live ownership/revision refresh reopens invalidated checks and protects concurrent work.",
+        "Uncertain paid/external effects reconcile by operation identity before retry/cancel/compensate; independent work can proceed.",
+        "No store or scheduler means an explicit handoff rather than a background-progress promise."
+      ],
+      "changes": [],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Resume an authorized multi-stage local change after schema and path ownership changed.",
+          "expectedMethodOrBoundary": "Refresh owners/revisions, invalidate the old fixture pass and select a ready disjoint action under retained authority."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "A paid render was acknowledged before context loss; its notification is missing.",
+          "expectedMethodOrBoundary": "Reconcile the exact job/payload and spending ceiling; no duplicate render from timeout or empty local output."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Answer a one-step question in the current context.",
+          "expectedMethodOrBoundary": "Use ordinary response, without checkpoints or a runner."
+        },
+        {
+          "kind": "boundary",
+          "request": "Pause launches but keep the current worker; scheduler state cannot be observed.",
+          "expectedMethodOrBoundary": "Launch nothing dependent, preserve worker and schedule states separately and do not infer cancellation or background continuation."
+        }
+      ],
+      "remainingUncertainty": "Continuity-packet, recovery and interruption resources are unchanged. No durable save, worker, scheduler or external operation was exercised.",
+      "baselineEntrypointSha256": "83584469ab0faf64844451aba67bfe4e9325d2c1f7d6580ff951bc90d3a34f5d",
+      "candidateEntrypointSha256": "83584469ab0faf64844451aba67bfe4e9325d2c1f7d6580ff951bc90d3a34f5d"
+    },
+    {
+      "id": "memory-retention-and-recovery",
+      "disposition": "retain",
+      "reason": "The current method already minimizes task-critical state and treats save rejection, verified retention and ambiguous persistence differently. It has concrete scope/freshness correction behavior and should not be shortened into an unreliable summary-only handoff.",
+      "retainedMechanisms": [
+        "Retain only scoped decisions, verified/unknown state, source identities and next-action conditions; exclude secrets and raw replay.",
+        "Verify task/project/authority and narrow current sources before using stored state; newer notes do not automatically win.",
+        "Superseding corrections preserve lineage, and persistence needs a receipt/readback rather than prepared text or a timeout."
+      ],
+      "changes": [],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Prepare an interruption checkpoint from current verified artifacts and one uncertain operation.",
+          "expectedMethodOrBoundary": "Keep minimal state, exact source/revision pointers and one safe next step within authorized storage."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "A checkpoint and a newer memo conflict. Can we resume from the newer one?",
+          "expectedMethodOrBoundary": "Reconcile authoritative evidence and scope/date applicability; preserve the conflict instead of selecting by timestamp."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Recall a fact already supplied in this chat for a routine answer.",
+          "expectedMethodOrBoundary": "Use current context; no retention workflow is needed."
+        },
+        {
+          "kind": "boundary",
+          "request": "A save timed out with no receipt and the user asks whether it is durable.",
+          "expectedMethodOrBoundary": "Report persistence unknown, retain operation locator and reconcile the same authorized store before a duplicating retry."
+        }
+      ],
+      "remainingUncertainty": "The examples reference is unchanged. No host store write, retention receipt, correction propagation or native history recovery was demonstrated.",
+      "baselineEntrypointSha256": "36c14c3b62bdf72c2b12bf4678ec44223bd0c3064528a7f1b34d7df4fcc966e7",
+      "candidateEntrypointSha256": "36c14c3b62bdf72c2b12bf4678ec44223bd0c3064528a7f1b34d7df4fcc966e7"
+    },
+    {
+      "id": "native-mobile-interaction-testing",
+      "disposition": "refine",
+      "reason": "The verification paragraph required all listed mobile failure classes for every component change. It now selects falsifying interaction cases and explicitly retains pending-work cleanup for async owners, while leaving the version-sensitive APIs intact.",
+      "retainedMechanisms": [
+        "Installed React/RNTL major versions determine synchronous/async render and event API semantics.",
+        "Accessible role/name and user-event flows take precedence over private state/nesting and incidental IDs.",
+        "Side-effect-free waitFor, deterministic provider wrappers and explicit async boundaries; component mocks cannot establish device/OS behavior."
+      ],
+      "changes": [
+        "product/skills/native-mobile-interaction-testing/SKILL.md: choose defect-detecting interaction cases rather than all unrelated cases; keep cleanup checks when the component owns pending asynchronous work."
+      ],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Test a query-backed React Native button with loading, retry and unmount while work is pending.",
+          "expectedMethodOrBoundary": "Inspect installed major versions, use an accessible query and deterministic wrapper, and exercise pending cleanup and visible/accessibility states."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "A RNTL v14 test copied renderAsync and fireEventAsync from an older example.",
+          "expectedMethodOrBoundary": "Check the installed API and await documented v14 operations; do not invent removed helpers."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Test a pure arithmetic utility with no mobile or async boundary.",
+          "expectedMethodOrBoundary": "Use the repository's ordinary unit test workflow."
+        },
+        {
+          "kind": "boundary",
+          "request": "A waitFor callback presses repeatedly, and mocked storage is called proof of device persistence.",
+          "expectedMethodOrBoundary": "Move action before the wait, assert stable state and limit mock evidence to the component seam."
+        }
+      ],
+      "remainingUncertainty": "No React Native test or device session was executed. The version-aware instructions remain dependent on the actual installed library API.",
+      "baselineEntrypointSha256": "b3b258fca1636f5d401b27ac051851f002c88580aa4f237eef68ce0f530d0489",
+      "candidateEntrypointSha256": "0b2f0175201eae491d62bf868771bb9cd79352ebc8249c52b99f57898ab46227"
+    },
+    {
+      "id": "physics-constrained-numerical-validation",
+      "disposition": "refine",
+      "reason": "The original convergence step demanded mesh and timestep studies even for models without either, and the finish rule offered only pass/failure. The revision preserves convergence scrutiny for actual numerical controls and permits explicit inapplicability or unresolved evidence instead of invented studies.",
+      "retainedMechanisms": [
+        "Dimensions, conversions, sign/frame and physical/numerical assumptions bind every calculation.",
+        "Model-specific conservation, positivity, bounds, symmetry and limiting cases can falsify a plausible plot.",
+        "Convergence, conditioning and independent references separate discretization, model-form, parameter and measurement errors; solver stability is not physical truth."
+      ],
+      "changes": [
+        "product/skills/physics-constrained-numerical-validation/SKILL.md: bind convergence to controls the model actually has, explain coupled changes, and record omitted/unexecuted layers honestly without allowing them to pass."
+      ],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Validate a time-integrated numerical model against a known limiting case.",
+          "expectedMethodOrBoundary": "Check units/invariants, vary timestep and relevant tolerances, retain failed runs and compare the quantity of interest to independent evidence."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "This lumped algebraic model has no spatial grid. Must we invent a mesh study?",
+          "expectedMethodOrBoundary": "Study its actual solver/parameter controls and mark spatial discretization inapplicable, keeping other physical/numeric checks."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Convert a supplied distance from metres to centimetres.",
+          "expectedMethodOrBoundary": "Use a direct unit calculation rather than a simulation-validation program."
+        },
+        {
+          "kind": "boundary",
+          "request": "An iteration residual is small, but conservation fails and no physical reference is available.",
+          "expectedMethodOrBoundary": "Preserve the failed invariant and unresolved physical evidence; solver convergence cannot certify model validity."
+        }
+      ],
+      "remainingUncertainty": "No convergence study, solver run, independent experimental comparison or hardware certification was performed.",
+      "baselineEntrypointSha256": "83afefae2e0cb5fde9b7f719cc49e2bd6a80cad4a42591e212edf6799064cde1",
+      "candidateEntrypointSha256": "c5512e9c716c1ccf45e39d31373323b06703c8dd17038e26ddf17f554e036adb"
+    },
+    {
+      "id": "release-script-safety",
+      "disposition": "retain",
+      "reason": "Its ordered preflight, durable effect states and interruption recovery protect concrete publication hazards. Unlike generic coordination, dry-run and adapter tests are the method's purpose, so no removal of those checks is justified.",
+      "retainedMechanisms": [
+        "Pure preparation is separate from publish/tag/deploy adapters and hidden external effects.",
+        "Preflight binds artifact/version/source/target identity; dry-run enumerates effects without invoking them.",
+        "Operation state distinguishes partial/confirmed/unknown effects and requires reconciliation before retry; interrupted/repeated-run and rollback witnesses remain explicit."
+      ],
+      "changes": [],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Harden a release script that builds, tags and publishes through an external adapter.",
+          "expectedMethodOrBoundary": "Inventory effects, gate adapter invocation on identity/preflight, implement true dry-run and test malformed/stale/interrupted outcomes with stubs."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "A publish timed out and the local log has no success entry. Is rerun safe?",
+          "expectedMethodOrBoundary": "Reconcile authoritative remote operation/version state before retry; missing local log does not establish absence."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Write release notes from supplied commits without a release procedure change.",
+          "expectedMethodOrBoundary": "Use Herald/Logos rather than release adapter hardening."
+        },
+        {
+          "kind": "boundary",
+          "request": "A helper named prepare performs a registry call even in dry-run.",
+          "expectedMethodOrBoundary": "Treat it as an external-effect boundary violation; isolate/stub the adapter and retain effect uncertainty."
+        }
+      ],
+      "remainingUncertainty": "No release script, adapter, dry-run, remote publish or rollback was executed. The retained body supplies no credential or publication authority.",
+      "baselineEntrypointSha256": "c5efb81bb955cd91bb0636e7de517ea61c0c347224534014d787dd85b5206d57",
+      "candidateEntrypointSha256": "c5efb81bb955cd91bb0636e7de517ea61c0c347224534014d787dd85b5206d57"
+    },
+    {
+      "id": "robotics-test-ladder",
+      "disposition": "refine",
+      "reason": "The contract required actuator fields for every package and the ladder could be read as six mandatory stages. The revision selects tiers by defect and claim, conditions physical fields on motion/hardware, and distinguishes promised bitwise replay from numeric trajectory agreement.",
+      "retainedMechanisms": [
+        "Pure/unit, message integration, replay, simulation, HIL and field outcomes remain distinct evidence tiers.",
+        "Explicit event completion/deadlines replace sleeps; bounds, invalid sensors, unreachable goals and recovery stay testable.",
+        "HIL/field require calibration, firmware, safety envelope, operator/stop conditions and human safety review."
+      ],
+      "changes": [
+        "product/skills/robotics-test-ladder/SKILL.md: select the lowest defect-exposing and highest claim-required tiers; condition robot contract fields on the behavior; use repeat digests only for bitwise replay and otherwise predeclared numeric tolerances."
+      ],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Verify a robot trajectory controller through replay and seeded simulation without hardware authority.",
+          "expectedMethodOrBoundary": "Bind frames, motion limits, timing and fixtures, test failure behavior, and stop evidence at the exercised simulation tier."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "We fixed a message parser. Must we run actuators and a field trial?",
+          "expectedMethodOrBoundary": "Use deterministic parser/message evidence; no actuator contract or field tier unless the acceptance claim requires it."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Design a static non-robotics poster.",
+          "expectedMethodOrBoundary": "Use visual design, not a robotics verification program."
+        },
+        {
+          "kind": "boundary",
+          "request": "Replay matches within a declared tolerance; claim hardware safety and bitwise reproducibility.",
+          "expectedMethodOrBoundary": "Report numeric agreement only; bitwise and physical safety claims require their distinct observed evidence and authorized review."
+        }
+      ],
+      "remainingUncertainty": "No replay, simulator, HIL or field hardware was run. The instruction revision does not weaken any physical-test authority or safety gate.",
+      "baselineEntrypointSha256": "71950c00335d7b2a0d9220118b9332bee042615712111ff6f9aa2efd02358c2a",
+      "candidateEntrypointSha256": "e316f375d1ded3f3f8d44b60739eab1f503f0fe338d41720f49d972c79261600"
+    },
+    {
+      "id": "scientific-surrogate-validation",
+      "disposition": "retain",
+      "reason": "The current body has recently strengthened decision-time feature auditing, outer-holdout calibration separation and adaptive-pool missing-outcome accounting. These non-obvious scientific validation safeguards are already conditional and must not be diluted into a generic ML checklist.",
+      "retainedMechanisms": [
+        "Reject target-derived/post-outcome/future-only features before splits; rebuild contaminated estimates.",
+        "Group duplicates/correlated cases; learn transformations and select models inside training folds; freeze untouched outer scoring.",
+        "Fit uncertainty policy on training/calibration data and score it separately; shifted/adaptive populations do not inherit exchangeability.",
+        "Retain full adaptive candidate pools and selection/label mechanisms; unlabeled outcomes remain unknown and require representative audit or justified identification for full-pool claims."
+      ],
+      "changes": [],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Validate a scientific screening model with grouped structures and failed reference calculations.",
+          "expectedMethodOrBoundary": "Audit label/feature timing, group split and preprocessing, match simple baselines, and retain failures in the declared denominator."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "The outer test set selected interval width. Can we report its coverage as independent?",
+          "expectedMethodOrBoundary": "Withhold final uncertainty claim until an untouched estimate exists; separate calibration fit/selection from scoring."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Compare two agent prompts and tool harnesses.",
+          "expectedMethodOrBoundary": "Use counterbalanced-agent-evaluation rather than scientific predictor validation."
+        },
+        {
+          "kind": "boundary",
+          "request": "An active-learning campaign scored only selected labeled candidates; infer all-pool accuracy from unselected unknown labels.",
+          "expectedMethodOrBoundary": "Keep unlabeled outcomes unknown; require representative audit/weighting/selection identification or restrict conclusions to the observed subset."
+        }
+      ],
+      "remainingUncertainty": "No predictor, split, calibration or adaptive-pool study was executed. Stronger generalization and acquisition/deployment recommendations remain unsupported.",
+      "baselineEntrypointSha256": "bb13e6221b81e3dd20d182014314bbf5021940e80c5793ad5492f85bf0e62642",
+      "candidateEntrypointSha256": "bb13e6221b81e3dd20d182014314bbf5021940e80c5793ad5492f85bf0e62642"
+    },
+    {
+      "id": "sovereign-skill-refinery",
+      "disposition": "refine",
+      "reason": "The existing new-synthesis recipe did not clearly handle retention in an established pack and could force fresh prose, contracts and files without a defect. The revision adds explicit pack dispositions, exact reviewed-byte boundaries and case evidence states while retaining inert-source and independent-evaluation constraints.",
+      "retainedMechanisms": [
+        "Neutral outcome/effects/use-no-use contract and exact source identities with rights/license uncertainty.",
+        "Fresh independent synthesis does not copy source prose, execute third-party code, harvest traces or infer activation rights.",
+        "Authoring, structural checks, executed evaluation and certification remain distinct; scoped authorized implementation continues beyond a receipt."
+      ],
+      "changes": [
+        "product/skills/sovereign-skill-refinery/SKILL.md: reuse valid contracts/text; record retain/refine/merge/narrow dispositions without deleting IDs; preserve reviewed-resource bindings; label cases proposed/inspected/executed; allow one assessment to carry all needed evidence roles."
+      ],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Refine an existing skill cohort using exact baseline bodies and provenance, without acquisition or installation.",
+          "expectedMethodOrBoundary": "Inspect mechanisms, retain useful entries, author justified changes and record exact identities plus proposed cases within ownership."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "These skills were authored by a weaker model. Should they all be rewritten shorter?",
+          "expectedMethodOrBoundary": "Do not treat author/model tier or length as defect evidence; retain specific utility unless inspection establishes a problem."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Correct a typo in a settled skill description.",
+          "expectedMethodOrBoundary": "Use ordinary skill editing; no multi-source refinery pipeline is required."
+        },
+        {
+          "kind": "boundary",
+          "request": "A reviewed method needs altered bytes; reuse the old review and remove its released ID.",
+          "expectedMethodOrBoundary": "Honor the binding and applicable owner/review decision; changed bytes cannot inherit review and merge-candidate is not deletion authority."
+        }
+      ],
+      "remainingUncertainty": "The existing refinery method cards remain unchanged. This is author A's instruction refinement and proposed task set, not independent method qualification, source-rights clearance or runtime superiority.",
+      "baselineEntrypointSha256": "caac3fd18dd020810b8e67f0633773c430eba5a6fb4878209f73c0fc65b0306b",
+      "candidateEntrypointSha256": "3b129a831750723e0d42100d989ada2ed140481866ef8dc4e48865a7cea910c5"
+    },
+    {
+      "id": "structured-output-contracts",
+      "disposition": "retain",
+      "reason": "The current method already covers transport completion, duplicate keys, strict structure, semantic/source binding and actual consumer enforcement. Its constraints prevent parseable-but-wrong or mock results from triggering effects, so a rewrite would risk removing critical producer/consumer checks.",
+      "retainedMechanisms": [
+        "Consumer contract distinguishes missing/null/zero/false/empty/nonblank values and supported schema dialect.",
+        "Completion precedes bounded parse and strict structure; duplicate keys cannot disappear silently.",
+        "Semantic IDs/citations/counts/units and request revision precede consumer delivery; output confidence does not grant authority.",
+        "Bounded repair retains real failure categories, mock/degraded states require consumer enforcement, and duplicate delivery respects effect idempotency."
+      ],
+      "changes": [],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Build a validator for extracted records with IDs, units, unavailable state and a consumer action.",
+          "expectedMethodOrBoundary": "Separate transport/parse/schema/meaning/permission boundaries and test actual consumer blocking behavior."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "The JSON parses, but a cited record does not exist in this request revision.",
+          "expectedMethodOrBoundary": "Reject or abstain on semantic/source-binding failure; parse success is insufficient."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Edit a supplied static JSON field under a settled schema.",
+          "expectedMethodOrBoundary": "Use the direct file edit; no model-output repair loop or vocabulary audit is needed."
+        },
+        {
+          "kind": "boundary",
+          "request": "A truncated stream has a parseable prefix and a fallback mock marked success.",
+          "expectedMethodOrBoundary": "Wait for completion, classify truncation and enforce mock/degraded terminal state; do not trigger a real effect from that content."
+        }
+      ],
+      "remainingUncertainty": "The governed-vocabulary reference is unchanged. No validator, repair adapter, consuming application or external effect was executed.",
+      "baselineEntrypointSha256": "0650ce7e3aaa652071cc53df6bc8d882fdf1f2359c0543a1b9e3e7d8bdafb668",
+      "candidateEntrypointSha256": "0650ce7e3aaa652071cc53df6bc8d882fdf1f2359c0543a1b9e3e7d8bdafb668"
+    },
+    {
+      "id": "terrain-watershed-analysis",
+      "disposition": "refine",
+      "reason": "The original numbered route and output made hydrologic conditioning, streams and outlets appear mandatory for derivative or visibility work. The revision branches by output while retaining drainage sensitivity; the final acceptance sentence was also narrowed to drainage maps after parent identified its branch contradiction.",
+      "retainedMechanisms": [
+        "DTM/DSM/CHM meaning, horizontal/vertical units, alignment/nodata and effective resolution gate terrain outputs.",
+        "Hydrologic breach/fill/real-sink choices, flow algorithm, alternative stream thresholds and justified outlet snapping/displacement.",
+        "Slope units, circular aspect, curvature sign and neighborhood radius; visibility includes heights, surface, curvature/refraction and independent controls."
+      ],
+      "changes": [
+        "product/skills/terrain-watershed-analysis/SKILL.md: select derivative/drainage/visibility processing explicitly; attach branch-specific evidence to outputs; make the drainage-assumption acceptance sentence apply only to drainage maps."
+      ],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Delineate catchments from a DTM with a road embankment and uncertain stream threshold.",
+          "expectedMethodOrBoundary": "Preserve surface, compare justified conditioning/threshold choices, snap with declared radius, retain displacement and independently check outlets/areas."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "Produce a slope map from a compatible DTM; no watershed or streams are requested.",
+          "expectedMethodOrBoundary": "Check source/units/nodata and derivative method without sink filling, stream threshold or outlet requirements; accept against derivative checks."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Identify an unknown CRS or geoid datum before processing coordinates.",
+          "expectedMethodOrBoundary": "Use geospatial-coordinate-integrity; terrain analysis cannot invent reference meaning."
+        },
+        {
+          "kind": "boundary",
+          "request": "A bare-earth viewshed ignores buildings and trees, while the user wants actual visibility.",
+          "expectedMethodOrBoundary": "Keep surface/height omissions and unvalidated visibility explicit; drainage assumptions are irrelevant to this branch and cannot close it."
+        }
+      ],
+      "remainingUncertainty": "Terrain-operations reference remains byte-exact. No raster derivative, flow model, snap, viewshed or independent geographic control was executed.",
+      "baselineEntrypointSha256": "6ccbcc81b696b2050e8c6383b9a69eec0b2b3efbd0ed5f5b299db7981c0ebdea",
+      "candidateEntrypointSha256": "5e62dd5f892cb4fd8ed05b4be7bec099cc783cc92c3fd5aa5ce11a0d42dd9a96"
+    },
+    {
+      "id": "venture-falsification-and-planning",
+      "disposition": "refine",
+      "reason": "The finish rule required every existential assumption across a venture to have a disposition, even for one declared stage question. The revision focuses closure on assumptions controlling that decision while retaining untested limits on future stages.",
+      "retainedMechanisms": [
+        "Dated fact/assumption/forecast/unknown distinctions and ranked existential risks.",
+        "Stage-specific falsifiable experiment, precommitted metrics/guardrails/evidence/resource/kill rules and inconclusive outcomes.",
+        "Discovery/prototype/pilot/scale evidence does not transfer automatically; contact/spend/data access remain separate authority."
+      ],
+      "changes": [
+        "product/skills/venture-falsification-and-planning/SKILL.md: deliver a single bounded test for a narrow decision or maps/cards for venture-wide review; close on the declared stage's critical assumptions while keeping next-stage limits visible."
+      ],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Design a bounded demand test before committing to a paid pilot.",
+          "expectedMethodOrBoundary": "Identify the controlling buyer/value assumption, predeclare evidence and resource/kill limits, and separate prototype interest from viable demand."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "We need to decide whether one buyer assumption merits another week, not validate the entire company.",
+          "expectedMethodOrBoundary": "Use a single decision-relevant test and retain other assumptions as limits on later stage commitments."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Develop imaginative worlds and names without a commercial commitment decision.",
+          "expectedMethodOrBoundary": "Use concept development rather than venture falsification."
+        },
+        {
+          "kind": "boundary",
+          "request": "After an underpowered trial, change the success threshold and call enthusiastic comments product-market fit.",
+          "expectedMethodOrBoundary": "Keep the original prediction and inconclusive state, preserve denominators and obtain cheaper decisive evidence without inventing demand."
+        }
+      ],
+      "remainingUncertainty": "No customer contact, paid acquisition, test or market evidence refresh was executed. The narrowed finish rule does not approve future spending or scale.",
+      "baselineEntrypointSha256": "f465ba4b35d09b2cbd3c9a8b64d877f1230bbb4c3668a00100bc5763f41a0eff",
+      "candidateEntrypointSha256": "7b6b75a9f8a76f0101d58cc6fa91a57839c40163685a081af108ce8710f66a90"
+    },
+    {
+      "id": "web-performance-optimization",
+      "disposition": "retain",
+      "reason": "The body already treats one measured bottleneck, comparable warm/cache conditions, repeated distributions and functional/visual/access regressions as the contract. It is appropriately bounded and should keep causal isolation and field-versus-lab limits intact.",
+      "retainedMechanisms": [
+        "Freeze user flow, revision, device/browser/network/CPU/data/cache/auth and metric sampling.",
+        "Use traces and a counterfactual to isolate a dominant cost, change one bounded surface and rerun comparable conditions.",
+        "Compare distributions/tails and error/content/layout/input/accessibility behavior; field impact requires matched real-user evidence."
+      ],
+      "changes": [],
+      "cases": [
+        {
+          "kind": "direct",
+          "request": "Optimize a measured slow checkout interaction using supplied baseline traces.",
+          "expectedMethodOrBoundary": "Bind the actual flow/environment, isolate a dominant cost and compare repeated candidate samples with functional/visual/access checks."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "The mean improved but p95 latency and error rate worsened. Is the optimization accepted?",
+          "expectedMethodOrBoundary": "Preserve tail/guardrail regressions and accept/revert/inconclusive against the declared budget, not the attractive mean alone."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Restyle a landing page with no measured bottleneck.",
+          "expectedMethodOrBoundary": "Use visual/interface design; do not invent performance claims."
+        },
+        {
+          "kind": "boundary",
+          "request": "One synthetic score improved after caching/device conditions changed; claim deployed real-user gains.",
+          "expectedMethodOrBoundary": "Reject matched-condition and field claims without their evidence; keep lab, rollout and real-user outcomes separate."
+        }
+      ],
+      "remainingUncertainty": "No trace harness, browser flow, optimization, deployment or field telemetry comparison was executed.",
+      "baselineEntrypointSha256": "9ae95c2503cd3800a9ad0dacc7190e52f613eaf08d92d8d1b2431e0e24399100",
+      "candidateEntrypointSha256": "9ae95c2503cd3800a9ad0dacc7190e52f613eaf08d92d8d1b2431e0e24399100"
+    }
+  ]
+}

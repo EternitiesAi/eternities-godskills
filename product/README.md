@@ -13,6 +13,15 @@ design, science, games, writing, operations, marketing, audio, and more.
 4. Apply the method within the user's request and the host's permissions. Related
    skills are suggestions, not mandatory dependency chains.
 
+Use the skill to supply the missing method, not to replace capable judgment.
+For a small task, apply the relevant decision or check directly; do not manufacture
+a plan, ledger, reviewer chain or checkpoint report. For consequential work, expand
+only the parts needed to manage its actual uncertainty and effects. Keep a
+specialist's non-obvious failure checks even when its surrounding process can be
+shortened. Read another skill only when the next decision needs a different method;
+handoffs need the result, unresolved issue and relevant artifacts, not the full
+conversation. [Composition examples](RECIPES.md) show these boundaries in practice.
+
 Markdown is the product's baseline interface. It requires no API, vector database,
 network connection, installation script, special computer layout, or AI provider.
 Copy this entire folder anywhere, including a blank workspace. A coding agent can
@@ -36,86 +45,23 @@ node bin/godskills.mjs search "Say hello to the robotics team" --need none
 node bin/godskills.mjs route "Analyze the supplied report only; do not discover connected data" --input-scope supplied-only --connected-purpose none --discovery prohibited
 ```
 
-Search combines weighted terms, a small explicit synonym vocabulary, stable
-ties, and bounded lexical intent profiles. A profile requires several request
-cues and matching skill metadata; it does not identify a skill from an exact
-query lookup. Profiles currently cover written voice, interpersonal clarification,
-task-record recovery, delivery completeness, sustained-work reconciliation, and
-corroborated usability-observation synthesis, and learner-model explanation.
-The usability profile requires people
-performing a task, observed interaction, a findings action, and an interface or
-task artifact; isolated usability vocabulary is not enough. These are explicit
-lexical rules, not a general semantic classifier or applicability judgment.
-Search returns matched terms, profile reasons and related IDs, and never executes
-anything. The `offline-lexical-intent-phrases-v3` method is deterministic lexical
-retrieval, not a claim of semantic understanding or vector-search superiority.
-The agent still judges applicability against the actual task. A low-quality
-match is not an instruction to force a skill into the work.
+Search returns a few candidates with match reasons, not a selection or permission
+to act. It uses weighted terms and bounded lexical profiles, not a general semantic
+classifier. Scores are not confidence values and need not descend across request
+priority tiers. Read the complete selected entrypoint and check the actual task.
 
-The learner-model profile requires all five finite cue families: teaching purpose,
-a requested teaching/preparation action, an explanatory objective, an explorable
-representation, and manipulation or feedback. Matching owner metadata is also
-required. That corroborated request is ordered before incidental keyword hits;
-within each tier, the existing score and stable ID tie-break remain unchanged.
-Scores need not descend across tiers and are not confidence values. The reason
-reports this ordering. Category/task filters, anti-triggers and host no-need still
-apply. This profile alone omits balanced quoted material and recognized refusal
-or historical clauses; it is not general negation, discourse or multilingual
-understanding. Mere mentions of training or a model do not supply the request.
+Use `--need none` when the host established that no specialist method is needed;
+it returns no suggestions. `specialist` and the default `unknown` still require
+applicability review. A lexical hit never authorizes connected-source access.
+The optional `route` command holds that subroute until explicit task facts support
+consideration; supplied-only scope or a discovery prohibition rejects it while
+local analysis stays available. No command selects, activates or calls a provider.
 
-Both `search` and `route` accept `--need none|specialist|unknown`. The host owns
-this semantic judgment. `none` returns no suggestions; `specialist` asks for
-candidates to check; the default `unknown` allows lexical retrieval but reports
-`selection.state: review-required`. No option selects or activates a skill.
-The same fact is available to `searchCatalog` as `need` and to `routeTask` in
-its context. A no-need route holds connected-specialist eligibility without
-calling any source. This fixes a caller boundary, not arbitrary natural-language
-understanding: plain keyword search can still retrieve irrelevant matches.
-
-For explicit limited arithmetic, casing, counting, grammar or metaphor questions,
-and an explicit request to clarify before choosing a specialist, search can return
-no suggestions with an `abstentionReason`. These narrow English request rules do
-not solve arbitrary intent, quotation scope or negation. A request to build,
-design, implement or audit a workflow is not suppressed merely because it also
-mentions a literal operation. Absence of a rule match does not establish that a
-skill is necessary; the host still checks fit.
-
-An exact normalized phrase from a skill's declared anti-triggers suppresses that
-match. This is a limited negative-match rule, not general semantic negation or an
-authorization decision; the host still checks applicability and permission.
-Negated discovery words may still shortlist a broad skill such as Atlas, even
-when a supplied file makes connected-source discovery unnecessary. Read its
-entrypoint before choosing a subroute: a catalog hit is not permission to
-discover, load, or use connected data. Keep the skill's local-analysis route
-available when the user's supplied file actually needs analysis.
-
-The optional `route` command makes that host decision callable. Its Atlas
-`connectedSource` state is `rejected`, `hold`, or `candidate`; `candidate`
-means only that the connected-source *method* may be considered, not that any
-connector, metadata, probe, load, or credential use is authorized. The host
-must supply three explicit task facts: `--input-scope` (`supplied-only`,
-`sufficient`, `missing-input`, `open`, or `unknown`), `--connected-purpose` (`none`,
-`inventory`, `fill-missing`, `named-run`, or `unknown`), and `--discovery`
-(`prohibited`, `not-prohibited`, or `unknown`). `not-prohibited` is not a
-permission grant. `open` means the host established no supplied-only limit;
-it is not source access permission. Absent a decisive rejection, omitted,
-unknown, malformed, or contradictory facts hold;
-an explicit discovery prohibition or supplied-only scope rejects the connected
-subroute even if lexical search shortlists Atlas. Local Atlas analysis remains
-available. The command does not infer these facts from wording: a host must
-establish them from the user's task or ask when they are unclear. Neither
-`route` nor `search` calls a connector or observes a provider.
-
-No result means use ordinary agent competence, refine the query, or browse a
-category. Do not invent an installed capability or load the entire library.
-
-Some methods are narrower than their parent skills. The selected method directory
-gives direct conditional links, exclusions and two separate status axes. Its
-`METHODS.v1.json` metadata binds method bytes and any bundled review evidence;
-build/validate refuses stale method or review identities, including a changed
-method that tries to retain its old review. It is a selected navigation overlay,
-not an exhaustive method catalog or automatic semantic selector. Review records
-are optional evidence; do not load them as part of routine skill selection.
+No match means use ordinary competence, refine the query or browse a category—not
+invent a capability or load the library. The [selected method directory](METHODS.v1.md)
+can locate a narrower bundled method. Its status and exact evidence bindings are
+separate from skill-level maturity. Read [discovery details](DISCOVERY.md) only when
+integrating these tools or diagnosing retrieval, exclusions and evidence status.
 
 ## Thinking, expression and continuity
 

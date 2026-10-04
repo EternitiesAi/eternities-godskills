@@ -86,13 +86,26 @@ repairs the independently demonstrated teaching-request misses, contextual
 training false positive and refusal bug. Its explicit request-priority tier
 keeps incidental keyword hits from outranking a corroborated teaching activity,
 without changing existing score components or granting selection authority.
-The [current standalone ZIP](artifacts/releases/godskills-product-20261004-b3939c86.zip)
+The [learner-request standalone ZIP](artifacts/releases/godskills-product-20261004-b3939c86.zip)
 and [SHA-256 sidecar](artifacts/releases/godskills-product-20261004-b3939c86.zip.sha256)
 retain all 77 entrypoints and methods. Separate code review and fixed-case
 replication passed; all challenge cases are now revealed regressions, not
 held-out semantic superiority. Earlier failures and unfinished quarry remain explicit.
 The [separate installation and deployment audit](docs/learner-request-discovery-installation-20261004.md)
 records the verified backed-up upgrade and unchanged unrelated files.
+
+The [whole current-pack refinement](docs/current-pack-refinement-20261004.md)
+assesses all 77 entrypoints: 42 targeted improvements and 35 deliberate
+retentions, with independent cross-review and preserved specialist references.
+It removes unnecessary all-route work, corrects task-branch and completion
+contradictions, and adds tested native-frontmatter validation. Six bounded
+consumer tasks satisfy 29 predefined checks; the final full suite has 1,636
+passes, no failures and two existing Windows-specific skips. These are
+instruction/package qualifications, not universal raw-model superiority or
+whole-quarry completion. The [current 77-skill ZIP](artifacts/releases/godskills-product-20261004-f186d19e.zip)
+and [SHA-256 sidecar](artifacts/releases/godskills-product-20261004-f186d19e.zip.sha256)
+contain the complete portable pack. Detailed retrieval rules are optional
+[discovery documentation](product/DISCOVERY.md), not always-loaded policy.
 
 For a new computer, copy only `product/` or export its verified standalone ZIP:
 

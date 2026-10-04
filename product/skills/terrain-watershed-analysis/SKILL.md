@@ -12,6 +12,10 @@ reproducible under explicit surface, unit, conditioning and threshold choices.
 It does not classify raw point clouds, repair CRS identity, establish ecological
 causality, or certify flood, drainage, forestry, siting or engineering decisions.
 
+Select derivatives, drainage or visibility from the requested output. A slope
+map does not require sink filling, stream extraction or outlet snapping; a
+viewshed needs surface and height choices rather than a watershed pipeline.
+
 ## Bind the surface before calculating
 
 State the decision, area, scale and output units. Inspect the raster's source and
@@ -27,7 +31,12 @@ source resolution or acquisition accuracy supports. If raw points must first
 become a surface, stop here and name the missing point-cloud work; if only the
 coordinate interpretation is uncertain, use `geospatial-coordinate-integrity`.
 
-## Condition and derive in a recorded order
+## Choose the processing branch
+
+Preserve the input and record the relevant processing order. Steps for
+hydrologic conditioning, flow, streams and outlets apply only to drainage
+outputs. Derivative and visibility work can use the compatible source surface
+directly unless a justified correction is needed.
 
 1. Preserve the input and create a working surface. Record every edit to voids,
    cells or resolution.
@@ -64,9 +73,11 @@ For visibility, state observer and target height, surface type, earth curvature
 and refraction treatment, maximum distance and cell-size limits. A bare-earth
 viewshed can overstate visibility where vegetation or structures matter.
 
-Return the output surface or vectors, a parameter and decision record, source
-identity, threshold and conditioning sensitivity, outlet displacements,
-verification observations and unresolved limitations. A plausible map is not
+Return the requested surface or vectors, source identity, relevant parameters
+and decisions, verification observations and unresolved limitations. For
+drainage include threshold/conditioning sensitivity and outlet displacements;
+for derivatives include unit and neighborhood conventions; for visibility
+include the height and surface assumptions. A plausible drainage map is not
 acceptance if its drainage assumptions and checks are absent.
 
 Example: a filled DEM sends a stream across a road embankment. Compare a

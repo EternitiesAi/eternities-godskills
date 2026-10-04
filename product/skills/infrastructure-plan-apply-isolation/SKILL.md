@@ -14,14 +14,14 @@ Record the tool and provider versions, working directory, module inputs, workspa
 Separate three evidence lanes:
 
 - **Static and unit lane:** validate variables, defaults, types, preconditions, conditional resources, tags, naming, outputs, and expected validation failures. Use mocks only for assertions the supported test framework can actually make in plan mode.
-- **Plan lane:** run the narrowest plan that includes the intended module and inputs. Capture the planned additions, changes, destroys, unknown values, provider configuration, and any warnings. A plan with unexpected replacement, broad drift, or unresolved sensitive values is a stop signal.
+- **Plan lane:** run a plan over the complete declared dependency graph with the intended module and inputs. Capture planned additions, changes, destroys, unknown values, provider configuration, and warnings. Do not use resource targeting merely to hide unrelated drift or required dependencies; if targeting is justified for a bounded recovery, state the omitted graph and limits. Unexpected replacement, broad drift, or unresolved sensitive values is a stop signal.
 - **Apply lane:** use only when the user has authorized the state-changing operation. Reconfirm target workspace, state key, account, cost or quota envelope, dependencies, and rollback or cleanup path immediately before apply. Do not infer apply permission from permission to prepare a plan.
 
 ## Design the isolation
 
 Keep fast tests independent of credentials and remote state. Use mock providers or data only where they preserve the behavior under test; if a feature is unsupported in mocks, move that assertion to an isolated plan or integration run rather than weakening it. Test both the intended path and a deliberately invalid path: rejected variable values, mutually exclusive inputs, absent optional resources, changed defaults, and output contracts. For a module that creates dependent resources, assert dependency shape in the plan and apply a small representative graph only if the target environment is explicitly bounded.
 
-For an authorized apply, use a unique and declared state identity, a serialized run, and a narrow resource address when the tool permits it. Preserve the plan artifact, state identity, provider/tool versions, input digest, command mode, approval record, and cleanup result. Destroy or revert only within the same declared scope and in dependency-safe order. If apply fails halfway, preserve the error and actual state before attempting recovery; do not rerun blindly.
+For an authorized apply, use the declared state identity and serialized execution. Exploratory integration needs an isolated state identity; an existing deployment uses its verified intended state rather than silently creating another one. Apply the reviewed graph, using resource targeting only when the bounded operation justifies it and omitted dependencies are understood. Preserve the plan artifact, state identity, provider/tool versions, input digest, command mode, approval record, and cleanup result. Destroy or revert only within the same declared scope and in dependency-safe order. If apply fails halfway, preserve the error and actual state before attempting recovery; do not rerun blindly.
 
 ## Finish with evidence
 

@@ -1,0 +1,32 @@
+{
+  "schema": "godskills-consumer-forward-check-v1",
+  "consumer": "A",
+  "cohort": "B",
+  "qualificationPlan": {
+    "path": "C:/Users/Dom/.codex/operations/godskills-refinement-20261004/qualification-plan.json",
+    "sha256": "b7d6df5dd307a97f1f9000d2fee4d085e073d1689c372658184c458c0dfe85f2"
+  },
+  "candidateVectorSha256": "b6a5ef07b44a3d41e914cfbecfdabb2834015f6cf394d0d46802ad54cfd0a3a8",
+  "evaluationBoundary": "Two fixed forward applications in the host-native reviewer context, after independent document review. The full selected candidate entrypoints were read again before application. Reviewer inherited host instructions, authoring context and the qualification plan/checks. No randomized raw-agent or baseline/candidate comparison, other agent/model/provider, external acquisition, live action or runtime-superiority claim.",
+  "usageObservability": "Token/cost counters unavailable; no counter or performance estimate is invented.",
+  "cases": [
+    {
+      "id": "voice-meaning-preservation",
+      "selectedSkill": "voice-style-calibration",
+      "selectedEntrypoint": "product/skills/voice-style-calibration/SKILL.md",
+      "selectedEntrypointSha256": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b",
+      "request": "Adapt this incident note into a direct, warm team voice. The only supplied facts are: uploads were queued from 10:12 to 10:41 CT; no files were lost; investigation remains open. Write the note, not a style-analysis report. Avoid inventing a cause, worldwide restoration or approval.",
+      "literalOutput": "Hi team—uploads were queued from 10:12 to 10:41 CT. No files were lost. The investigation remains open."
+    },
+    {
+      "id": "imagination-causal-alternatives",
+      "selectedSkill": "imaginative-concept-development",
+      "selectedEntrypoint": "product/skills/imaginative-concept-development/SKILL.md",
+      "selectedEntrypointSha256": "5a1b550f7db546470d93a73106f972d59cf1cf4be21cc6e7c8d08cb7f9fd95c7",
+      "request": "Give two genuinely different concepts for a quiet seated library activity, one staff member, no screens or new equipment. The aim is connection without pressuring participants to perform. Give each concept's mechanism and one practical risk. Do not provide two palette/name variants or pretend storage/materials were confirmed.",
+      "literalOutput": "Two proposals, both using only the staff member's spoken invitation and participants' existing seats; no cards, books, storage or seat rearrangement are assumed.\n\n1. Shared attention, no turns\nThe staff member invites everyone to notice something accessible from their seat—a sound, a shape or a small detail—and allows a quiet pause. Nobody is called on, asked to signal, or expected to describe what they noticed; joining the pause is optional.\nMechanism: joint attention and a shared rhythm offer a small experience of being together without personal disclosure or an individual performance. The analogy is a shared pulse, not a relay in which everyone must contribute.\nPractical risk: people may experience it as merely sitting in silence rather than connection. The invitation should name the shared purpose without claiming that anyone felt connected.\n\n2. Opt-in neighbor listening\nParticipants may choose a low-voice exchange with a willing person already within comfortable speaking distance, or remain in quiet company. The staff member offers one gentle prompt, such as \"What is something you've enjoyed noticing lately?\" Either person can answer, pass or stop; there is no report-back, teaching task or assigned partner. This option depends on existing seating allowing quiet conversation—it does not assume that the layout has been confirmed.\nMechanism: voluntary reciprocal attention lets two people recognize one another's interests, rather than connecting through a group-wide shared pause. Listening, not entertaining or impressing the group, is the contribution.\nPractical risk: an invitation to pair up can still feel like an obligation. The staff member should explicitly welcome solo quiet participation and never assign or chase partners."
+    }
+  ],
+  "outcomeBoundary": "These are produced text artifacts, not plans to produce them. Parent independently checks the literal outputs; no pass, superiority or deployment result is inferred from saving this record."
+}
+

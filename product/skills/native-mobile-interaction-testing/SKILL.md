@@ -21,7 +21,7 @@ Use user-event utilities for realistic press, type, clear, and focus flows when 
 
 ## Verify more than the happy path
 
-Cover disabled and loading controls, validation errors, empty and partial data, repeated taps, focus or keyboard transitions, cancellation, retry, and unmount while work is pending. Assert visible state and accessibility state, not only callback invocation. If native permissions, sensors, storage, or modules are mocked, name the seam and the behavior it does not cover. Run the relevant tests in the authorized repository, retain command, version, selected case, output, and changed-file evidence, and separate a passing unit/component result from an emulator or physical-device result.
+Choose cases that could falsify the changed interaction: disabled/loading controls, validation errors, empty/partial data, repeated taps, focus or keyboard transitions, cancellation, retry, or unmount with pending work. Include pending-work cleanup when the component owns asynchronous work; do not add unrelated cases merely to complete the list. Assert visible state and accessibility state, not only callback invocation. If native permissions, sensors, storage, or modules are mocked, name the seam and behavior it does not cover. Run the relevant tests in the authorized repository and retain command, version, selected case, output and changed-file evidence. Separate a passing unit/component result from an emulator or physical-device result.
 
 ## Common failure modes
 

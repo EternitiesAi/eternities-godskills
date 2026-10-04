@@ -51,9 +51,10 @@ test('natural connected-source and named-run questions surface Atlas', async () 
 
 test('supplied-only wording remains an applicability decision, not a discovery grant', async () => {
   const catalog = JSON.parse(await read('product/catalog.json'));
-  const [skill, readme] = await Promise.all([
+  const [skill, readme, discovery] = await Promise.all([
     read('product/skills/eternities-atlas/SKILL.md'),
     read('product/README.md'),
+    read('product/DISCOVERY.md'),
   ]);
   for (const prompt of suppliedOnlyPrompts) {
     const result = searchCatalog(catalog, prompt, {limit: 5});
@@ -67,10 +68,11 @@ test('supplied-only wording remains an applicability decision, not a discovery g
     assert.equal(result.authority, 'none');
     assert.equal(result.activation, 'none');
   }
-  assert.match(skill, /catalog match.*not.*connected.source.*route.*applies/is);
-  assert.match(skill, /explicitly disallows discovery.*skip.*route/is);
-  assert.match(readme, /negated discovery words.*may still shortlist.*skill/is);
-  assert.match(readme, /read.*entrypoint.*before choosing.*subroute/is);
+  assert.match(skill, /catalog match does not create a connected.source question/i);
+  assert.match(skill, /supplied inputs suffice or the user disallows discovery.*skip connected.source discovery/is);
+  assert.match(readme, /\[discovery details\]\(DISCOVERY\.md\)/i);
+  assert.match(discovery, /negated discovery words.*may still shortlist Atlas/is);
+  assert.match(readme, /read the complete selected entrypoint and check the actual task/i);
 });
 
 test('Atlas makes connected-source route conditional and distinguishes active from consumed', async () => {

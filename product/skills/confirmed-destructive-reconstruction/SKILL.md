@@ -9,7 +9,7 @@ Use this entrypoint for a repair that may overwrite or remove part of a local ar
 
 ## Resolve the target
 
-Display the absolute target only in the working receipt, then reduce it to a validated, bounded path and operation description. Reject roots, broad globs, unresolved variables, symlink escapes, and a target that changed after confirmation. Record the desired post-reconstruction state and the invariants that must remain true.
+Resolve the absolute target and bind authorization to its validated path and exact operation. Reject roots, broad globs, unresolved variables, symlink escapes, and a target that changed after confirmation. Record the desired post-reconstruction state and the invariants that must remain true. Existing authorization remains valid for the same target, state and consequences; ask again only when those materially change.
 
 Create or identify an independent backup outside the target. Verify its membership, bytes or digests, metadata needed for restoration, and available restore procedure. If the backup is incomplete, stale, on the same failure boundary, or cannot be restored without guessing, stop before mutation.
 

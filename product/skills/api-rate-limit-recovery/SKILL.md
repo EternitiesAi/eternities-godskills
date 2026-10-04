@@ -16,7 +16,7 @@ Before changing code, identify where concurrency is admitted and where a result 
 ## Implement the bounded path
 
 1. Classify only documented rate-limit responses as rate-limit events. Preserve the original response and correlation data in the trace.
-2. For a valid delay hint, apply the declared unit and a hard cap. For a missing hint, use a capped backoff policy with bounded jitter. A negative, non-finite, or malformed hint is a typed policy failure unless the contract explicitly defines a safe fallback.
+2. Parse a valid delay hint in its documented form: duration units or an HTTP date. Treat the requested wait as a minimum unless the provider contract says otherwise. If it exceeds the policy ceiling or remaining budget, return an exhausted/deferred outcome; do not shorten it and dispatch early. For a missing hint, use capped backoff with bounded jitter. A negative, non-finite, or malformed hint is a typed policy failure unless the contract explicitly defines a safe fallback. Convert a date using the declared clock/skew policy, then enforce the caller's budget with a monotonic clock.
 3. Reuse the same idempotency key for every attempt. Never create a fresh key merely because the first attempt was delayed. If the operation is not idempotent and has no deduplication boundary, stop before retrying.
 4. Check cancellation and the monotonic deadline before waiting and before dispatch. Do not let a sleep or a queued retry outlive the caller's budget.
 5. Bound concurrency per the actual identity that is limited. Coordinate workers so a burst does not turn one server rejection into a synchronized retry storm.
@@ -24,7 +24,7 @@ Before changing code, identify where concurrency is admitted and where a result 
 
 ## Evidence and finish
 
-Produce a retry trace containing attempt number, response class, delay source, capped delay, remaining budget, and a redacted idempotency-key reference. Exercise a successful retry, repeated rejection, malformed guidance, cancellation during the wait, deadline exhaustion, and concurrent duplicate submission. If a live endpoint is authorized, use its declared test contract; otherwise a deterministic transport stub is enough to verify client behavior, not provider performance.
+Produce a retry trace containing attempt number, response class, delay source, provider minimum when supplied, actual scheduled delay or exhausted/deferred decision, client-backoff cap when used, remaining budget, and a redacted idempotency-key reference. Exercise a successful retry, repeated rejection, malformed guidance, cancellation during the wait, deadline exhaustion, and concurrent duplicate submission. If a live endpoint is authorized, use its declared test contract; otherwise a deterministic transport stub is enough to verify client behavior, not provider performance.
 
 Finish when the implementation has no path beyond the attempt or time ceiling, preserves deduplication across retries, and leaves an inspectable terminal receipt. Do not call a green fixture proof that a remote service will honor an undocumented behavior.
 

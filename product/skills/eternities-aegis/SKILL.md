@@ -5,7 +5,7 @@ description: Turn security, trust-boundary, authority, and assurance questions i
 
 # Eternities Aegis
 
-Aegis is the security and authority review route. Use it when a request crosses assets, identities, permissions, data sensitivity, execution paths, or consequential effects. The goal is a decision that another person can audit, not a severity label detached from evidence.
+Aegis is the security and authority review route. Use it to assess an actual exposure, abuse path, permission ambiguity, supply-chain risk, or assurance obligation. An ordinary feature that uses an identity or API does not automatically need a security audit. The goal is a decision that another person can audit, not a severity label detached from evidence.
 
 ## Choose the route
 
@@ -23,14 +23,10 @@ Aegis is the security and authority review route. Use it when a request crosses 
 3. Trace a failure or abuse case one edge at a time: source, transport, transformation, sink, available authority, consequence, detection, and rollback.
 4. Classify every material observation as verified, hypothesis, rejected, or unresolved. Suspicious proximity is a lead until the path and impact are shown.
 5. Rank exploitability, impact, exposure, blast radius, reversibility, and confidence separately. Pick the smallest control that breaks the risk boundary.
-6. Verify the repair with a focused reproduction or static proof, a clean or out-of-scope control, and a regression check. Keep redacted locators and digests; never place secrets in the report.
+6. When remediation is in scope, verify the repaired boundary with a safe isolated fixture or static proof, a clean or out-of-scope control, and a regression check. Do not expand review into exploit execution against a live target. Keep redacted locators and digests; never place secrets in the report.
 
 ## Deliverable and finish
 
-Return an authorization statement, asset and boundary map, evidence-linked findings, rejected alternatives, prioritized controls, verification and rollback proof, residual risk, and actions performed or deferred. Finish when the decision owner can distinguish proven exposure from suspicion and the next effect has matching authority. If a critical source, sink, owner, or recovery path is unavailable, preserve the gap instead of upgrading it to a conclusion.
-
-This packet is a checkpoint, not automatically the end of the user's task. If the user also authorized a scoped local remediation, apply it and run its focused proof without requesting that authority again. Pause only when the exact effect lacks authority or material evidence or risk remains unresolved.
-
-Example: after tracing a repository workflow value into a shell sink, patch the boundary validation, add a clean and planted fixture, and report the residual paths in the same task when repository writes were requested.
+Return the evidence-linked decision and relevant findings, controls, residual risk, and actions performed or deferred. Include a boundary map for multi-step paths, an authorization statement for authority questions, and verification/rollback evidence for actual repairs. Finish when the requested review or remediation is complete within its evidence boundary. If a critical source, sink, owner, or recovery path is unavailable, preserve the affected gap instead of upgrading it to a conclusion.
 
 For the extension-specific procedures, use [methods.md](references/methods.md). They add concrete audit-remediation checks without changing this route's evidence standard.

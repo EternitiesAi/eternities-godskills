@@ -5,7 +5,7 @@ description: Recover and design durable continuity, context budgets, memory, and
 
 # Eternities Mnemosyne
 
-Mnemosyne preserves the smallest sufficient truth across turns, sessions, and agents. Use it when continuity, memory design, retrieval quality, or context reduction is consequential. It does not replay raw history or treat a nearby task as the same task.
+Mnemosyne preserves the smallest sufficient truth across turns, sessions, and agents. Use it when continuity, memory design, retrieval quality, or context reduction is consequential. Ordinary file lookup needs no continuity packet. A compact handoff and restoration of native model-visible history are distinct outcomes; preserve the user's requested form of continuation and never treat a nearby task as the same task.
 
 ## Choose the route
 
@@ -27,10 +27,6 @@ Mnemosyne preserves the smallest sufficient truth across turns, sessions, and ag
 ## Deliverable and finish
 
 Return a continuity packet, memory design, audit ledger, budget report, or dependency graph with source pointers, freshness, conflicts, open work, authority, and proof limits. Finish when the next consumer can proceed without replaying the archive and without treating a recovered action as new permission. See [methods.md](references/methods.md) for the dependency-graph procedure.
-
-A recovered state or dependency graph is a checkpoint when the user also requested the next authorized repository or memory operation. Continue to that operation and verify its receipt without asking for permission already carried by the task. Pause only for identity mismatch, missing authority, or material freshness, privacy, or evidence risk.
-
-Example: recover the current dependency edge and its freshness, update the authorized graph record, and run the changed-edge fixture before returning the compact checkpoint.
 
 ## Local evidence-base lifecycle method (DRAFT)
 

@@ -1,0 +1,267 @@
+{
+  "schema": "godskills-parent-forward-application-acceptance-v1",
+  "disposition": "PASS_BOUNDED_TEXT_APPLICATIONS",
+  "qualificationPlanSha256": "b7d6df5dd307a97f1f9000d2fee4d085e073d1689c372658184c458c0dfe85f2",
+  "cases": [
+    {
+      "id": "voice-meaning-preservation",
+      "skill": "voice-style-calibration",
+      "entrypointSha256": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b",
+      "outputSha256": "fdaa725343feb2cd055c646738572fbf606f4e43da4351a76a8eac852b18f67b",
+      "source": "docs/refinement-20261004/consumer-A-v1.json",
+      "sourceSha256": "a469ae89f3465af038ea92bb0c686008dfc46d64fc074dc512652336c59040a6",
+      "checks": [
+        "Preserve time interval and CT",
+        "Preserve no-file-loss claim",
+        "Preserve ongoing investigation",
+        "No fabricated cause or global recovery",
+        "Produce the note instead of mandatory process paperwork"
+      ],
+      "parentObservation": "Actual short note preserves 10:12–10:41 CT, no files lost and open investigation; no cause, global restoration or approval invented.",
+      "checkResults": [
+        {
+          "check": "Preserve time interval and CT",
+          "result": "PASS",
+          "basis": "Parent inspected the literal output against the preregistered check"
+        },
+        {
+          "check": "Preserve no-file-loss claim",
+          "result": "PASS",
+          "basis": "Parent inspected the literal output against the preregistered check"
+        },
+        {
+          "check": "Preserve ongoing investigation",
+          "result": "PASS",
+          "basis": "Parent inspected the literal output against the preregistered check"
+        },
+        {
+          "check": "No fabricated cause or global recovery",
+          "result": "PASS",
+          "basis": "Parent inspected the literal output against the preregistered check"
+        },
+        {
+          "check": "Produce the note instead of mandatory process paperwork",
+          "result": "PASS",
+          "basis": "Parent inspected the literal output against the preregistered check"
+        }
+      ]
+    },
+    {
+      "id": "imagination-causal-alternatives",
+      "skill": "imaginative-concept-development",
+      "entrypointSha256": "5a1b550f7db546470d93a73106f972d59cf1cf4be21cc6e7c8d08cb7f9fd95c7",
+      "outputSha256": "c98fca3d519211e04510cf0431bca7047a3c5fc694aa3e651f47377ede96c90f",
+      "source": "docs/refinement-20261004/consumer-A-v1.json",
+      "sourceSha256": "a469ae89f3465af038ea92bb0c686008dfc46d64fc074dc512652336c59040a6",
+      "checks": [
+        "Distinct participation or exchange mechanisms",
+        "Quiet seated one-staff constraints respected",
+        "No invented equipment or confirmed resources",
+        "Concepts framed as proposals",
+        "No arbitrary creativity scores or compulsory long itinerary"
+      ],
+      "parentObservation": "Shared attention vs opt-in reciprocal listening are different mechanisms; quiet seated one-staff constraints preserved; seating/resources unconfirmed; both are proposals with specific risks.",
+      "checkResults": [
+        {
+          "check": "Distinct participation or exchange mechanisms",
+          "result": "PASS",
+          "basis": "Parent inspected the literal output against the preregistered check"
+        },
+        {
+          "check": "Quiet seated one-staff constraints respected",
+          "result": "PASS",
+          "basis": "Parent inspected the literal output against the preregistered check"
+        },
+        {
+          "check": "No invented equipment or confirmed resources",
+          "result": "PASS",
+          "basis": "Parent inspected the literal output against the preregistered check"
+        },
+        {
+          "check": "Concepts framed as proposals",
+          "result": "PASS",
+          "basis": "Parent inspected the literal output against the preregistered check"
+        },
+        {
+          "check": "No arbitrary creativity scores or compulsory long itinerary",
+          "result": "PASS",
+          "basis": "Parent inspected the literal output against the preregistered check"
+        }
+      ]
+    },
+    {
+      "id": "finance-available-cash",
+      "skill": "cashflow-forecast-scenario-integrity",
+      "entrypointSha256": "d2b85835f46ac7aba103a43d5ee6eb9ccfe2970f3d17a690e8e9a01fa655a66e",
+      "outputSha256": "7eb464424c5358cd2430b667e0ea4f418f29944294fceaba99487364b3a9572d",
+      "source": "docs/refinement-20261004/consumer-B-v1.json",
+      "sourceSha256": "0efae0e12b5a5bd88d641ef094244dca674a4d5bc99ebc970540266a5895ca98",
+      "checks": [
+        "Confirmed-only week 1 closes at 700",
+        "Confirmed-only week 2 closes at 200",
+        "Conditional sale scenario week 2 closes at 1000",
+        "Unsigned sale kept separate from confirmed cash"
+      ],
+      "parentObservation": "Literal table yields 700, 200 and conditional 1000; unsigned sale explicitly excluded from base and receivable standing.",
+      "checkResults": [
+        {
+          "check": "Confirmed-only week 1 closes at 700",
+          "result": "PASS",
+          "basis": "Parent inspected the literal output against the preregistered check"
+        },
+        {
+          "check": "Confirmed-only week 2 closes at 200",
+          "result": "PASS",
+          "basis": "Parent inspected the literal output against the preregistered check"
+        },
+        {
+          "check": "Conditional sale scenario week 2 closes at 1000",
+          "result": "PASS",
+          "basis": "Parent inspected the literal output against the preregistered check"
+        },
+        {
+          "check": "Unsigned sale kept separate from confirmed cash",
+          "result": "PASS",
+          "basis": "Parent inspected the literal output against the preregistered check"
+        }
+      ]
+    },
+    {
+      "id": "science-feature-and-calibration",
+      "skill": "scientific-surrogate-validation",
+      "entrypointSha256": "bb13e6221b81e3dd20d182014314bbf5021940e80c5793ad5492f85bf0e62642",
+      "outputSha256": "2d58a1269d2a601cddfa0223168ab9c408d07f5ff3679fbdb08e3fb4f0872b83",
+      "source": "docs/refinement-20261004/consumer-B-v1.json",
+      "sourceSha256": "0efae0e12b5a5bd88d641ef094244dca674a4d5bc99ebc970540266a5895ca98",
+      "checks": [
+        "Reject discharge-time input for admission-time prediction",
+        "Group repeat patient visits",
+        "Do not preserve the contaminated test/calibration claim",
+        "Require independent calibration and untouched final evaluation",
+        "Do not fabricate corrected performance"
+      ],
+      "parentObservation": "Rejects unavailable discharge feature, groups patient visits, withdraws contaminated coverage qualification, separates calibration/final evaluation, reports no corrected performance.",
+      "checkResults": [
+        {
+          "check": "Reject discharge-time input for admission-time prediction",
+          "result": "PASS",
+          "basis": "Parent inspected the literal output against the preregistered check"
+        },
+        {
+          "check": "Group repeat patient visits",
+          "result": "PASS",
+          "basis": "Parent inspected the literal output against the preregistered check"
+        },
+        {
+          "check": "Do not preserve the contaminated test/calibration claim",
+          "result": "PASS",
+          "basis": "Parent inspected the literal output against the preregistered check"
+        },
+        {
+          "check": "Require independent calibration and untouched final evaluation",
+          "result": "PASS",
+          "basis": "Parent inspected the literal output against the preregistered check"
+        },
+        {
+          "check": "Do not fabricate corrected performance",
+          "result": "PASS",
+          "basis": "Parent inspected the literal output against the preregistered check"
+        }
+      ]
+    },
+    {
+      "id": "memory-uncertain-write",
+      "skill": "long-horizon-work-continuity",
+      "entrypointSha256": "83584469ab0faf64844451aba67bfe4e9325d2c1f7d6580ff951bc90d3a34f5d",
+      "outputSha256": "ec6ba4c1e6ef49717655a4556494c1a398e37dbcf8cfa75336a04a88aae1208b",
+      "source": "docs/refinement-20261004/consumer-B-v1.json",
+      "sourceSha256": "0efae0e12b5a5bd88d641ef094244dca674a4d5bc99ebc970540266a5895ca98",
+      "checks": [
+        "Query import status before retry",
+        "Represent prior effect as unknown",
+        "Preserve stable import identity",
+        "No fictional background execution",
+        "Small task-critical handoff rather than full transcript"
+      ],
+      "parentObservation": "Read-only same-ID status comes first; missing acknowledgement remains unknown; retry is conditional on known state/idempotence; handoff is bounded and no background action claimed.",
+      "checkResults": [
+        {
+          "check": "Query import status before retry",
+          "result": "PASS",
+          "basis": "Parent inspected the literal output against the preregistered check"
+        },
+        {
+          "check": "Represent prior effect as unknown",
+          "result": "PASS",
+          "basis": "Parent inspected the literal output against the preregistered check"
+        },
+        {
+          "check": "Preserve stable import identity",
+          "result": "PASS",
+          "basis": "Parent inspected the literal output against the preregistered check"
+        },
+        {
+          "check": "No fictional background execution",
+          "result": "PASS",
+          "basis": "Parent inspected the literal output against the preregistered check"
+        },
+        {
+          "check": "Small task-critical handoff rather than full transcript",
+          "result": "PASS",
+          "basis": "Parent inspected the literal output against the preregistered check"
+        }
+      ]
+    },
+    {
+      "id": "evidence-not-size",
+      "skill": "completeness-and-consistency-audit",
+      "entrypointSha256": "4e434687d0f77a0577c6bd2c8b869fe60d409df5c5e6d5b6ee946771a78d5f71",
+      "outputSha256": "f017e1ee8dcde61efac28d5e5e4feaa8507b107c7d013af3630a825577f2a20d",
+      "source": "docs/refinement-20261004/consumer-B-v1.json",
+      "sourceSha256": "0efae0e12b5a5bd88d641ef094244dca674a4d5bc99ebc970540266a5895ca98",
+      "checks": [
+        "Export verified only locally",
+        "Settings preservation remains unchecked",
+        "Deployment remains unconfirmed",
+        "Report length is not completion",
+        "Return concrete remaining checks"
+      ],
+      "parentObservation": "Only local export evidence accepted; personal settings unverified and queued deployment unconfirmed; documentation volume not treated as completion; next checks concrete.",
+      "checkResults": [
+        {
+          "check": "Export verified only locally",
+          "result": "PASS",
+          "basis": "Parent inspected the literal output against the preregistered check"
+        },
+        {
+          "check": "Settings preservation remains unchecked",
+          "result": "PASS",
+          "basis": "Parent inspected the literal output against the preregistered check"
+        },
+        {
+          "check": "Deployment remains unconfirmed",
+          "result": "PASS",
+          "basis": "Parent inspected the literal output against the preregistered check"
+        },
+        {
+          "check": "Report length is not completion",
+          "result": "PASS",
+          "basis": "Parent inspected the literal output against the preregistered check"
+        },
+        {
+          "check": "Return concrete remaining checks",
+          "result": "PASS",
+          "basis": "Parent inspected the literal output against the preregistered check"
+        }
+      ]
+    }
+  ],
+  "caseCount": 6,
+  "checkCount": 29,
+  "limits": [
+    "Parent is non-author of these outputs but owns task/product integration",
+    "Host and authoring context were present; no blind randomized raw or baseline comparison",
+    "No external effects, provider/hardware/domain deployment or corrected scientific performance",
+    "Token/cache/cost counters unavailable; no measured efficiency or superiority claim"
+  ]
+}

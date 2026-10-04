@@ -7,9 +7,11 @@ description: Use when an interface must support locale-aware content, formatting
 
 Use this entrypoint when localization is an interface behavior change rather than a string replacement. The work covers locale data, layout direction, controls, formatting, assets, and reviewable visual and interaction evidence.
 
+Select checks from the affected locale surface; expand them when a shared direction or fallback boundary changes. A mechanical RTL repair can be completed and tested while language-review status remains separately open.
+
 ## Separate content from behavior
 
-Inventory routes, components, message keys, fallback rules, locale data, formatting calls, persisted values, and screenshots or acceptance examples. Keep translatable content out of code and give each message a stable key. Decide how missing translations, plural categories, gender or select forms, dates, numbers, currencies, time zones, and user-generated text behave.
+Inventory the affected routes, components, message keys, fallback rules, locale data, formatting calls, persisted values, and acceptance examples. Keep translatable content out of code and give each message a stable key. Specify missing translations, plural categories, gender/select forms, dates, numbers, currencies, time zones and user-generated text where those behaviors occur; expand the inventory when a shared locale or direction boundary changes.
 
 Declare the target locales, scripts, direction, supported browsers or devices, and human language reviewers. Machine-generated text can be a draft, but publication-quality wording and culturally sensitive choices need named human review. Keep source text, translation, reviewer status, and revision separate so a language change can be audited.
 
@@ -26,7 +28,7 @@ If the task includes implementation, fix the localized component and rerun the s
 
 ## Evidence and finish
 
-Deliver a locale matrix, translation review ledger, formatting checks, LTR/RTL screenshots, keyboard and assistive-technology observations, and unresolved language or cultural questions. Finish when content keys, fallback behavior, direction, mixed text, controls, accessibility, and human review are all explicit. Passing a screenshot suite does not certify cultural appropriateness or every assistive technology.
+Deliver the localized change with relevant formatting, rendered and interaction evidence, language-review status and unresolved cultural questions. Use a route/locale/state matrix for several surfaces; a focused repair can report the affected component and checks directly. Finish when the requested behavior is checked and content keys, fallback, direction, mixed text, controls, accessibility and human review have explicit relevant dispositions. Unreviewed wording remains in review state. Passing a screenshot suite does not certify cultural appropriateness or every assistive technology.
 
 ## Common failure modes
 

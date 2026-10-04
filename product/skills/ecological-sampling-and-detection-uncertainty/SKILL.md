@@ -40,7 +40,10 @@ Do not rename them occupancy, density or abundance. A zero is evidence about the
 survey process; absence or non-use requires design and detection evidence.
 
 The observation templates are in
-[sampling and detection records](references/sampling-and-detection-records.md).
+[sampling and detection records](references/sampling-and-detection-records.md);
+use the event ledger only when records are grouped into events. Existing
+occasion-level data still need effort and missing-visit checks, without
+inventing a raw-image processing stage.
 
 ## Plan inference and uncertainty at the claim support
 
@@ -58,16 +61,19 @@ of an aggregated plot, field or project mean.
 Report parameter uncertainty, design uncertainty, missingness and sensitivity
 to material event, effort and model choices. Where two substantively different
 models are plausible, compare their spread instead of presenting only a
-within-model interval. Use `diagnostic-statistical-model-inference` for fit and
-specification checks and `eternities-athena` for causal or study-validity limits.
+within-model interval. Add `diagnostic-statistical-model-inference` when fit or
+specification is unresolved and `eternities-athena` when causal or study-validity
+judgment is needed; these are conditional companions, not required pipelines.
 For a crop intervention trial, use `agricultural-observation-and-trial` first and
 add these detection checks conditionally.
 
 ## Deliver and finish
 
-Return the sampling contract, raw-to-event ledger, effort table, detection or
-observation matrix, exclusions, analysis assumptions, uncertainty at the claimed
-support, sensitivity results and strongest supported statement. Finish when a
+Return the strongest supported statement with the relevant sampling definition,
+effort, detection or observation matrix, exclusions, analysis assumptions,
+uncertainty at the claimed support and sensitivity results. Include raw-to-event
+records when event derivation affects the result; use existing tables rather
+than requiring a separate artifact for each role. Finish when a
 reader can distinguish observed detections, surveyed non-detections, missing
 surveys, model estimates and unsupported extensions.
 

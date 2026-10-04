@@ -16,10 +16,13 @@ visual art direction or technical UI checks with evidence of human usability.
 1. Name the product decision, current uncertainty and observation that could
    change it. Pick a method that addresses that uncertainty, not a fashionable
    survey or fixed sample-size recipe.
-2. Define relevant participant variation, selection boundaries, recruitment
-   assumptions, consent, accessibility and how sensitive information is handled.
-   Synthetic personas and agent walkthroughs are fixtures, not participants.
-3. Build a neutral guide. For interviews ask about a specific recent experience
+2. For study planning, define relevant participant variation, selection boundaries,
+   recruitment assumptions, consent, accessibility and sensitive-data handling.
+   For supplied observations, recover those conditions where available and label
+   missing context; do not invent recruitment or consent evidence. Synthetic
+   personas and agent walkthroughs are fixtures, not participants.
+3. When a guide or new study is requested, build a neutral guide. For interviews
+   ask about a specific recent experience
    before presenting a concept. For usability give a realistic goal without
    teaching the interface or naming the controls under test. Pilot the guide.
 4. Observe authorized sessions or supplied recordings/notes. Separate action,

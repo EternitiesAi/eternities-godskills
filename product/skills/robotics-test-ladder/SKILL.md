@@ -7,9 +7,11 @@ description: Use when robot perception, planning, control, or message behavior n
 
 Use this entrypoint to build a robotics verification program that spends realism where it matters. It supports implementation and execution of authorized tests, while keeping a unit or simulation result distinct from hardware and field behavior.
 
+Select the lowest tier that can expose the suspected failure and the highest tier required by the claim. A parser repair can finish with deterministic tests; an actuator timing or field-reliability claim needs corresponding evidence. The ladder is a choice of evidence tiers, not a requirement to run all six for every change.
+
 ## Declare the robot contract
 
-For each package or behavior, record node and message interfaces, topic or service names, schema versions, clock and timing bounds, coordinate frames, parameter ranges, joint limits, velocity or acceleration bounds, collision envelope, success criteria, simulator or hardware revision, seed, and owner for any physical test. Keep fixture data and calibration revisions identifiable.
+For the affected package or behavior, bind interfaces, schema revisions, success criteria and fixture identity. Add clock/timing bounds for timed interactions; coordinate frames and calibration for spatial behavior; joint, velocity, acceleration and collision limits for motion; simulator/hardware revision and physical-test owner for those tiers. Keep the relevant parameter ranges and seed identifiable rather than requiring actuator fields for a message parser.
 
 ## Climb the ladder
 
@@ -24,7 +26,7 @@ Use many lower-tier tests and fewer expensive upper-tier tests. Keep failures at
 
 ## Evidence and finish
 
-Return a ladder matrix with tier, package/revision, fixture or hardware identity, seed, timing method, expected result, observed result, logs, trajectory or collision evidence, and unresolved differences. A valuable deterministic check includes a repeat-run witness: the same replay should produce the same trajectory digest, an invalid parameter should be rejected, and an integration event should complete within its declared deadline.
+Return the exercised tier, package/revision, fixture or hardware identity, relevant seed and timing method, expected/observed result and unresolved differences. Use a ladder matrix for a multi-tier program. Preserve logs and trajectory or collision evidence when they bear on the claim. For deterministic replay, compare repeated trajectories by digest when bitwise replay is promised, or by a predeclared numeric tolerance when that is the contract. Test invalid-parameter rejection and integration deadlines where those interfaces exist; replay agreement alone does not establish physical validity.
 
 Finish at the highest tier actually exercised. Do not call authored fixtures evidence of real agent performance, hardware safety, or field reliability. Those claims require the corresponding executed evidence and human safety review.
 

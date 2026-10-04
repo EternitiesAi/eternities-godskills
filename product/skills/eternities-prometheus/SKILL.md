@@ -21,14 +21,10 @@ Prometheus turns supplied evidence into one bounded product-operations decision 
 
 1. Bind the objective, target scope, source inventory, as-of dates, evidence class, policy identifiers, decision horizon, and acceptance condition.
 2. Label observed, supplied, derived, estimated, heuristic, assumed, proposed, and unresolved claims. Preserve transformations, conflicts, and gaps.
-3. Keep one route and one scope in charge. Make outreach, commitments, pricing changes, procurement, account actions, private-data acquisition, publication, and remote mutation separate effects.
+3. Choose the lens that answers the current decision. A question spanning commercial, customer and delivery concerns may need several linked analyses; keep their inputs, denominators and conclusions distinct rather than forcing them into one score. Use a specialist when its method adds value, without requiring a handoff for a calculation or plan this route can complete. Make outreach, commitments, pricing changes, procurement, account actions, private-data acquisition, publication, and remote mutation separate effects.
 4. For prioritization, compare evidence-backed value, uncertainty, effort, constraints, reversibility, and decision horizon. Prefer a cheap discriminating test over a confident but unsupported ranking.
 5. Return calculations with formulas and units, plans with owners and dependencies, and handoffs with the exact specialist outcome, evidence, authority, and acceptance needed next.
 
 ## Deliverable and finish
 
 Return one route-owned artifact with evidence inventory, calculations or transformations, assumptions, confidence, conflicts, performed effects, proposed effects, authority, owner, and next decision. Finish when the next action is bounded and no claim or commitment exceeds its evidence. The product-discovery method is in [methods.md](references/methods.md).
-
-Prioritization or planning is a checkpoint when the user also requested an authorized local delivery slice. Continue into the selected change and its verification without asking for permission already supplied. Pause only for missing authority or material customer, privacy, commercial, or evidence risk.
-
-Example: rank two onboarding opportunities with a reversible test, choose the supported slice, implement the local change, and record the next observation rather than ending at the priority ledger.

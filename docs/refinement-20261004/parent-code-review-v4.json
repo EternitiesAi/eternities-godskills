@@ -1,0 +1,318 @@
+{
+  "schema": "godskills-parent-code-review-v4",
+  "reviewer": "author-B",
+  "relationship": "independent non-author review of the nine parent input files; B-authored Beacon and Hermes dependencies are not independently certified by this report",
+  "disposition": "READY",
+  "baselineCommit": "dc704536875cda166f7ab784bce28f3c2b54ae0c",
+  "inputManifest": {
+    "path": "C:/Users/Dom/.codex/operations/godskills-refinement-20261004/parent-review-input-v4.json",
+    "sha256": "ddad15aafd0ca876d8367bd244cee1188e72a7396ca66e8c329de25fd8484692"
+  },
+  "inputs": [
+    {
+      "path": "product/README.md",
+      "expectedSha256": "8ca22c4e26ec43fa32880704eb1aaf016f786a0b4586517ebbc38ffb5363fdb5",
+      "observedSha256": "8ca22c4e26ec43fa32880704eb1aaf016f786a0b4586517ebbc38ffb5363fdb5",
+      "verified": true,
+      "fullCandidateRead": true,
+      "baselineAndPriorReviewCompared": true,
+      "intakeAndFinalHashVerified": true
+    },
+    {
+      "path": "product/DISCOVERY.md",
+      "expectedSha256": "06ec8454d56e8c5cac80e018be5320faa7efad09648d0d28398d37e6f6de936c",
+      "observedSha256": "06ec8454d56e8c5cac80e018be5320faa7efad09648d0d28398d37e6f6de936c",
+      "verified": true,
+      "fullCandidateRead": true,
+      "baselineAndPriorReviewCompared": true,
+      "intakeAndFinalHashVerified": true
+    },
+    {
+      "path": "product/lib/product.mjs",
+      "expectedSha256": "3698153faa2b0d64b518dc807309ec6c3b32d6e03eb9d2114ccde68d4900fdb2",
+      "observedSha256": "3698153faa2b0d64b518dc807309ec6c3b32d6e03eb9d2114ccde68d4900fdb2",
+      "verified": true,
+      "fullCandidateRead": true,
+      "baselineAndPriorReviewCompared": true,
+      "intakeAndFinalHashVerified": true
+    },
+    {
+      "path": "product/lib/skill-frontmatter.mjs",
+      "expectedSha256": "66bfc5b6b56688d2996689f774b5b904ce517a3fda1ec35d4d567cbd63e3a96d",
+      "observedSha256": "66bfc5b6b56688d2996689f774b5b904ce517a3fda1ec35d4d567cbd63e3a96d",
+      "verified": true,
+      "fullCandidateRead": true,
+      "baselineAndPriorReviewCompared": true,
+      "intakeAndFinalHashVerified": true
+    },
+    {
+      "path": "tests/product-frontmatter-discovery.test.mjs",
+      "expectedSha256": "b41ee250fcdcb0e38fda8aa952e5fd7c4c8a1f36a55b41ca5a9d288f1a402364",
+      "observedSha256": "b41ee250fcdcb0e38fda8aa952e5fd7c4c8a1f36a55b41ca5a9d288f1a402364",
+      "verified": true,
+      "fullCandidateRead": true,
+      "baselineAndPriorReviewCompared": true,
+      "intakeAndFinalHashVerified": true
+    },
+    {
+      "path": "tests/universal-wave27-atlas-connector-discovery.test.mjs",
+      "expectedSha256": "41c3698c41c6912c1ca407bedf53566b3f831220698de811e7a098c0c3b2feaa",
+      "observedSha256": "41c3698c41c6912c1ca407bedf53566b3f831220698de811e7a098c0c3b2feaa",
+      "verified": true,
+      "fullCandidateRead": true,
+      "baselineAndPriorReviewCompared": true,
+      "intakeAndFinalHashVerified": true
+    },
+    {
+      "path": "tests/conditional-method-regression.test.mjs",
+      "expectedSha256": "d039f40a8a65655034cae41f0d2b8c52942d53521cebecb624cd3b6b9278adae",
+      "observedSha256": "d039f40a8a65655034cae41f0d2b8c52942d53521cebecb624cd3b6b9278adae",
+      "verified": true,
+      "fullCandidateRead": true,
+      "baselineAndPriorReviewCompared": true,
+      "intakeAndFinalHashVerified": true
+    },
+    {
+      "path": "tests/proportionate-creative-methods.test.mjs",
+      "expectedSha256": "2ff0628612a0fe9c921a16ca55ea990b7e5db6b0cc3fd17a1ce86cb16b4f0af5",
+      "observedSha256": "2ff0628612a0fe9c921a16ca55ea990b7e5db6b0cc3fd17a1ce86cb16b4f0af5",
+      "verified": true,
+      "fullCandidateRead": true,
+      "baselineAndPriorReviewCompared": true,
+      "intakeAndFinalHashVerified": true
+    },
+    {
+      "path": "tests/fixtures/hermes-pre-refinement-20261004.md",
+      "expectedSha256": "435d81f1cfaeea64ebb85ad9cd00d1dae22e8bde77edeaa9e009c315e7ce69ba",
+      "observedSha256": "435d81f1cfaeea64ebb85ad9cd00d1dae22e8bde77edeaa9e009c315e7ce69ba",
+      "verified": true,
+      "fullCandidateRead": true,
+      "baselineAndPriorReviewCompared": true,
+      "intakeAndFinalHashVerified": true
+    }
+  ],
+  "supportingInputs": [
+    {
+      "path": "product/skills/eternities-beacon/SKILL.md",
+      "sha256": "381ae1f0ffee855b14c8c2bda226bb57aa9147be1e7f9a68f94b231fb869a030"
+    },
+    {
+      "path": "product/skills/eternities-hermes/SKILL.md",
+      "sha256": "fd626d425723be905c9375502c6b6fe480df645f057aee00c9517fdcb5257c8c"
+    },
+    {
+      "path": "product/skills/eternities-atlas/SKILL.md",
+      "sha256": "46b06bdd11e52ca6288b32bd720a77715035b5e77a2b52ba1b986a071df18700"
+    },
+    {
+      "path": "product/skills/eternities-atlas/references/connector-discovery.md",
+      "sha256": "97c83c5bb00914211d05eb784e1ff42efe5efa24cd1e4f1d9ec21d793c26a003"
+    },
+    {
+      "path": "tests/core2260-catalog.json",
+      "sha256": "57d47c0a9692dc21caa0e7909ee6c557cd5ef5cc4e09b968df079cc81f86aecf"
+    },
+    {
+      "path": "product/release.json",
+      "sha256": "dc7ba439437a2dc12785ac89b6c6ceb46d26ff10073379394be6471fa38eb89b"
+    },
+    {
+      "path": "product/catalog.json",
+      "sha256": "bf90582e8a23a3d50a6997cfba5f97d022f4619024f8459e364423f269e10eca"
+    }
+  ],
+  "candidateVector": {
+    "path": "C:/Users/Dom/.codex/operations/godskills-refinement-20261004/candidate-v2-vector.json",
+    "sha256": "059812b3765e061169eb4bf3e95f8b3a5296f6fa0ac178142038a49757a3f3e5"
+  },
+  "priorReviews": [
+    {
+      "path": "docs/refinement-20261004/parent-code-review-v1.md",
+      "sha256": "c548852b624eb76d71f93a03458003540a411ce1ff534e04dbae74632782a23a",
+      "bytesPreserved": true,
+      "originalDispositionNotRewritten": true
+    },
+    {
+      "path": "docs/refinement-20261004/parent-code-review-v1.json",
+      "sha256": "ba1f7b5eaae9e4bacb2f2aea2ab1c8b7b3b49fe5ce2289344b35c5e8b9d4949f",
+      "bytesPreserved": true,
+      "originalDispositionNotRewritten": true
+    },
+    {
+      "path": "docs/refinement-20261004/parent-code-review-v2-addendum.md",
+      "sha256": "c96473fd4b279543505397bd9fee418c0e0af20e9dce606378d8f6a950d2bdf8",
+      "bytesPreserved": true,
+      "originalDispositionNotRewritten": true
+    },
+    {
+      "path": "docs/refinement-20261004/parent-code-review-v2-addendum.json",
+      "sha256": "13c8d0f2fe0fe362c9e9006fb23318971c3959802feb0732f3c4f045f832a3fd",
+      "bytesPreserved": true,
+      "originalDispositionNotRewritten": true
+    }
+  ],
+  "report": {
+    "path": "docs/refinement-20261004/parent-code-review-v4.md",
+    "sha256": "7edcc2ff22fe54701b366b80532440708e6cc8eb73d00d0c1ef45034a3223314"
+  },
+  "findings": [],
+  "findingCounts": {
+    "critical": 0,
+    "important": 0,
+    "minor": 0
+  },
+  "findingResolutions": [
+    {
+      "id": "PARENT-FM-001",
+      "originalSeverity": "important",
+      "disposition": "resolved-in-v4",
+      "priorNegativeReceiptsPreserved": true,
+      "mechanism": "The conservative bare top-level key contract rejects quoted, merge-style and other unconsumed alternate root syntax; required keys are counted exactly once.",
+      "evidence": [
+        "Full repaired parser read and static trace",
+        "Real-builder negative fixtures for mixed quoted/bare name and description keys, merge key and unconsumed root content",
+        "Focused candidate test run passed"
+      ],
+      "limit": "Conservative key rejection, not normalization or general YAML support."
+    },
+    {
+      "id": "PARENT-FM-002",
+      "originalSeverity": "important",
+      "disposition": "resolved-in-v4",
+      "priorNegativeReceiptsPreserved": true,
+      "mechanism": "The required plain-string subset rejects tested non-string and colon-space forms; quoted and plain forms share following-line consumption checks; block indentation respects the first nonempty line.",
+      "evidence": [
+        "Full repaired parser read and static trace",
+        "Real-builder negative fixtures for hexadecimal, exponent, special numeric and boolean forms, colon-space scalars, quoted continuations and inconsistent block indentation",
+        "Positive quoted-colon, meaningful-block and nested optional-metadata cases remain accepted",
+        "Focused candidate test run passed"
+      ],
+      "limit": "Documented required-string subset only; optional metadata and general YAML/native-loader interoperability are not validated."
+    }
+  ],
+  "contractAssessments": [
+    {
+      "paths": [
+        "product/README.md",
+        "product/DISCOVERY.md"
+      ],
+      "disposition": "READY",
+      "reason": "Progressive disclosure and proportionate composition retain the full-entrypoint requirement, conditional reference selection, prior tool limitations, lexical-profile uncertainty, local-only applicability, source/rights boundaries and status/provenance distinctions without creating new authority. DISCOVERY explicitly excludes general YAML and optional-metadata validation."
+    },
+    {
+      "paths": [
+        "product/lib/product.mjs",
+        "product/lib/skill-frontmatter.mjs"
+      ],
+      "disposition": "READY",
+      "reason": "The builder invokes the conservative inspector instead of the two former regex checks. The documented bare-key/required-string subset resolves both prior defects without changing search ranking, scoring, installation, rollback or activation authority."
+    },
+    {
+      "paths": [
+        "tests/product-frontmatter-discovery.test.mjs"
+      ],
+      "disposition": "READY",
+      "reason": "36 real-builder cases (26 negative, 10 positive) exercise ambiguity rejection and supported portability; positive cases also verify the built product and catalog entry. The expanded cases detect the earlier structural failures rather than checking prose alone."
+    },
+    {
+      "paths": [
+        "tests/universal-wave27-atlas-connector-discovery.test.mjs"
+      ],
+      "disposition": "READY",
+      "reason": "Executable routing prompts and authority expectations are unchanged. Updated prose assertions preserve supplied-only/prohibited-source exclusions, catalog-match non-authority, and the README-to-DISCOVERY limitation link; full Atlas and connector text were inspected."
+    },
+    {
+      "paths": [
+        "tests/proportionate-creative-methods.test.mjs"
+      ],
+      "disposition": "READY",
+      "reason": "Beacon reporting requirements are distinct from prospective-experiment requirements; attribution, denominators, windows and missingness remain required when relevant, and experiments retain baseline/intervention/primary metric/guardrails/confounders/stop/learning decisions. Muse and Arcadia tests are not weakened.",
+      "independenceLimit": "Beacon body is B-authored; this reviews the parent test adjustment, not independent body certification."
+    },
+    {
+      "paths": [
+        "tests/conditional-method-regression.test.mjs",
+        "tests/fixtures/hermes-pre-refinement-20261004.md"
+      ],
+      "disposition": "READY",
+      "reason": "The original Hermes expected hash remains on an independently byte-verified baseline-minus-conditional-section historical fixture. Current semantic assertions preserve owner/scheduler, observable running state, bounded resources, stop-state and wanted-session boundaries. Existing frozen resource/review identities, method checks, scoring projection and exclusion cases remain unchanged.",
+      "tradeoff": "The current owner body is no longer treated as byte-immutable. Historical fixture identity plus current semantic checks are not equivalent to historical independent review of every new current-body sentence.",
+      "independenceLimit": "Hermes body is B-authored; independent B-cohort review/rereview remains separate."
+    }
+  ],
+  "historicalFixture": {
+    "path": "tests/fixtures/hermes-pre-refinement-20261004.md",
+    "sha256": "435d81f1cfaeea64ebb85ad9cd00d1dae22e8bde77edeaa9e009c315e7ce69ba",
+    "baselineMinusConditionalSha256": "435d81f1cfaeea64ebb85ad9cd00d1dae22e8bde77edeaa9e009c315e7ce69ba",
+    "byteEqual": true,
+    "derivation": {
+      "source": "git show dc704536875cda166f7ab784bce28f3c2b54ae0c:product/skills/eternities-hermes/SKILL.md",
+      "removedSection": "Only the Conditional method references section preceding Working method",
+      "comparison": "UTF-8 byte equality and SHA-256"
+    }
+  },
+  "executedChecks": [
+    {
+      "kind": "focused-real-test-run",
+      "command": "node --test tests/product-frontmatter-discovery.test.mjs tests/universal-wave27-atlas-connector-discovery.test.mjs tests/conditional-method-regression.test.mjs tests/proportionate-creative-methods.test.mjs",
+      "workingDirectory": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003",
+      "node": "v24.18.0",
+      "exitCode": 0,
+      "tests": 76,
+      "pass": 76,
+      "fail": 0,
+      "cancelled": 0,
+      "skipped": 0,
+      "todo": 0,
+      "durationMilliseconds": 748.878,
+      "breakdown": [
+        {
+          "file": "tests/product-frontmatter-discovery.test.mjs",
+          "tests": 36,
+          "negativeFixtures": 26,
+          "positiveFixtures": 10
+        },
+        {
+          "file": "tests/universal-wave27-atlas-connector-discovery.test.mjs",
+          "tests": 4
+        },
+        {
+          "file": "tests/conditional-method-regression.test.mjs",
+          "tests": 33
+        },
+        {
+          "file": "tests/proportionate-creative-methods.test.mjs",
+          "tests": 3
+        }
+      ],
+      "literalOutput": "✔ the immutable core2260 fixture is exact and all 68 scoring, relation, specialization, and maturity projections remain ordered (4.8738ms)\n✔ historical paths remain exact, named optional owner references are admitted, and only Omnibus is revised (7.3865ms)\n✔ Hermes and Math retain frontmatter; historical Hermes bytes and current close-out boundaries remain explicit (0.725ms)\n✔ conditional method links remain with their owners and B04 is not a Hermes resource (0.6533ms)\n✔ the selected-method directory binds exactly the four new owner methods and their exclusions (9.5773ms)\n✔ Daedalus owns optional model scenarios without weakening deterministic required checks (0.5457ms)\n✔ frozen Hermes body case C01 retains its declared conformance boundary (0.4702ms)\n✔ frozen Hermes body case C02 retains its declared conformance boundary (0.109ms)\n✔ frozen Hermes body case C03 retains its declared conformance boundary (0.2992ms)\n✔ frozen Hermes body case C04 retains its declared conformance boundary (0.2176ms)\n✔ frozen Hermes body case C05 retains its declared conformance boundary (0.3479ms)\n✔ frozen Hermes body case C06 retains its declared conformance boundary (0.246ms)\n✔ frozen Hermes body case C07 retains its declared conformance boundary (0.056ms)\n✔ frozen Hermes body case C08 retains its declared conformance boundary (0.319ms)\n✔ frozen Hermes body case R01 retains its declared conformance boundary (0.1797ms)\n✔ frozen Hermes body case R02 retains its declared conformance boundary (0.2815ms)\n✔ frozen Hermes body case L01 retains its declared conformance boundary (0.1666ms)\n✔ frozen Hermes body case L02 retains its declared conformance boundary (0.1109ms)\n✔ frozen Hermes body case L03 retains its declared conformance boundary (0.1865ms)\n✔ frozen Hermes body case L04 retains its declared conformance boundary (0.1169ms)\n✔ frozen Hermes body case L05 retains its declared conformance boundary (0.1654ms)\n✔ frozen Hermes body case L06 retains its declared conformance boundary (0.3312ms)\n✔ frozen Hermes body case L07 retains its declared conformance boundary (0.1141ms)\n✔ frozen Hermes body case E01 retains its declared conformance boundary (0.1781ms)\n✔ Daedalus optional CI placement contract: default path (0.1457ms)\n✔ Daedalus optional CI placement contract: separate merge lane (0.1667ms)\n✔ Daedalus optional CI placement contract: behavior-based classification (0.0922ms)\n✔ Daedalus optional CI placement contract: bounded and attributable run (0.114ms)\n✔ Daedalus optional CI placement contract: separate result states (0.2363ms)\n✔ Daedalus optional CI placement contract: uncertain request recovery (0.1169ms)\n✔ Daedalus optional CI placement contract: no duplicate policy and exact selection audit (0.0379ms)\n✔ Daedalus optional CI placement contract: evidence limits (0.1615ms)\n✔ frozen candidate validates locally without executing its scenarios (663.3783ms)\n✔ pack build refuses empty description instead of manufacturing discoverability (18.8219ms)\n✔ pack build refuses duplicate description instead of manufacturing discoverability (12.1831ms)\n✔ pack build refuses duplicate name instead of manufacturing discoverability (10.9411ms)\n✔ pack build refuses empty folded description instead of manufacturing discoverability (9.1456ms)\n✔ pack build refuses boolean description instead of manufacturing discoverability (9.0928ms)\n✔ pack build refuses commented boolean description instead of manufacturing discoverability (9.7892ms)\n✔ pack build refuses commented null description instead of manufacturing discoverability (10.8553ms)\n✔ pack build refuses alias description instead of manufacturing discoverability (10.2354ms)\n✔ pack build refuses object description instead of manufacturing discoverability (11.0935ms)\n✔ pack build refuses tagged description instead of manufacturing discoverability (9.6616ms)\n✔ pack build refuses plain continuation instead of manufacturing discoverability (9.1486ms)\n✔ pack build refuses unclosed quotation instead of manufacturing discoverability (8.5506ms)\n✔ pack build refuses double-quoted name duplicate instead of manufacturing discoverability (10.473ms)\n✔ pack build refuses single-quoted name duplicate instead of manufacturing discoverability (9.3204ms)\n✔ pack build refuses double-quoted description duplicate instead of manufacturing discoverability (9.7402ms)\n✔ pack build refuses single-quoted description duplicate instead of manufacturing discoverability (8.7929ms)\n✔ pack build refuses hexadecimal description instead of manufacturing discoverability (9.9938ms)\n✔ pack build refuses exponent description instead of manufacturing discoverability (10.711ms)\n✔ pack build refuses nonfinite description instead of manufacturing discoverability (9.4336ms)\n✔ pack build refuses legacy boolean description instead of manufacturing discoverability (10.1226ms)\n✔ pack build refuses colon-space plain description instead of manufacturing discoverability (8.8531ms)\n✔ pack build refuses double-quoted continuation instead of manufacturing discoverability (8.8392ms)\n✔ pack build refuses single-quoted continuation instead of manufacturing discoverability (8.2125ms)\n✔ pack build refuses unconsumed root content instead of manufacturing discoverability (8.4013ms)\n✔ pack build refuses merge-key metadata instead of manufacturing discoverability (8.4744ms)\n✔ pack build refuses inconsistent block indentation instead of manufacturing discoverability (8.8273ms)\n✔ plain, quoted and meaningful block descriptions remain portable (29.7591ms)\n✔ plain, quoted and meaningful block descriptions remain portable (28.8423ms)\n✔ plain, quoted and meaningful block descriptions remain portable (28.6486ms)\n✔ plain, quoted and meaningful block descriptions remain portable (29.9622ms)\n✔ plain, quoted and meaningful block descriptions remain portable (30.8055ms)\n✔ plain, quoted and meaningful block descriptions remain portable (29.5649ms)\n✔ plain, quoted and meaningful block descriptions remain portable (30.3828ms)\n✔ plain, quoted and meaningful block descriptions remain portable (27.8387ms)\n✔ plain, quoted and meaningful block descriptions remain portable (31.4781ms)\n✔ plain, quoted and meaningful block descriptions remain portable (33.1353ms)\n✔ Beacon gates experimental machinery on a measurement question, not ordinary copy (3.2848ms)\n✔ Muse scales acceptance without substituting a proxy for direct viewing (0.6974ms)\n✔ Arcadia lifecycle cases correspond to real features; absent required behavior stays a gap (0.5582ms)\n✔ connected-source discovery routes to Atlas without authorizing a load (14.5132ms)\n✔ natural connected-source and named-run questions surface Atlas (7.3113ms)\n✔ supplied-only wording remains an applicability decision, not a discovery grant (15.8548ms)\n✔ Atlas makes connected-source route conditional and distinguishes active from consumed (1.001ms)\nℹ tests 76\nℹ suites 0\nℹ pass 76\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 748.878\n",
+      "scope": "Candidate focused test run only. Frontmatter helpers build temporary test products; reviewer did not regenerate shared catalogs. The conditional current-product validation/verification case passed."
+    }
+  ],
+  "parentReportedHistoricalEvidence": [
+    {
+      "source": "User parent repair update",
+      "statement": "14 new real-builder fixtures failed before the parser repair; repaired focused tests passed.",
+      "independentlyReexecutedBeforeRepair": false
+    },
+    {
+      "source": "parent-review-input-v4.json negative field",
+      "statement": "Full-suite-v1 registered 1638 tests: 1634 passed, 2 failed, 2 skipped; failures were Beacon prose and the Hermes current whole-owner pin.",
+      "independentlyExecutedFullSuite": false
+    }
+  ],
+  "reviewWrites": [
+    "docs/refinement-20261004/parent-code-review-v4.md",
+    "docs/refinement-20261004/parent-code-review-v4.json"
+  ],
+  "limits": [
+    "READY is limited to the exact nine parent inputs and supports parent integration, not release certification.",
+    "No full suite, pre-repair test rerun, shared catalog regeneration, install, commit or product/test edit was performed by this reviewer.",
+    "The inspector implements a documented conservative required-key/string subset, not general YAML, optional-metadata validation or every native-loader contract.",
+    "Static review and finite fixtures do not prove absence of every possible ambiguity.",
+    "No skill runtime-superiority, universal capability, domain-outcome, usage, cost or performance claim.",
+    "Atlas/Beacon/Hermes dependency inspection checks the substantive parent test contracts; independently authored skill-body reviews remain separate.",
+    "Generated catalog/release supporting hashes describe observed focused-test inputs, not installation, deployment or final release state."
+  ],
+  "requiredNextStep": "Parent owns candidate-v2 build, full-suite verification, integration and release. A independently rereviews the three repaired B bodies. No further product writes by B."
+}

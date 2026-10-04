@@ -17,7 +17,7 @@ Define the canonical representation before comparing records. State how insertio
 
 1. Validate contig existence, coordinate bounds, reference allele agreement, and orientation before normalization.
 2. Normalize equivalent representations using the declared reference sequence. Detect a representation that is equivalent only under a different build or strand.
-3. Perform a bounded liftover or assembly transformation with a named chain or mapping revision. Record source coordinate, destination coordinate, mapping status, and transformation digest.
+3. Only when an assembly conversion is requested or required, perform a bounded liftover with a named chain or mapping revision. Same-assembly normalization does not need liftover. Record source coordinate, destination coordinate, mapping status, and transformation digest; validate the destination reference allele and representation because coordinate mapping alone does not establish allele equivalence.
 4. Reject or quarantine nonunique, partial, out-of-bounds, reference-inconsistent, and ambiguous mappings. Never choose one mapping because it is convenient.
 5. Reconcile duplicates and conflicts after normalization, not before. Preserve whether two records were identical, equivalent, contradictory, or unassessed.
 6. Run independent checks on a sample or all records as the workload allows: round-trip mappings, known reference variants, coordinate boundary cases, and allele-complement cases.

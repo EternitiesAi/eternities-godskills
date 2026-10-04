@@ -1,0 +1,2028 @@
+{
+  "schema": "godskills-cohort-independent-review-v1",
+  "cohort": "A",
+  "reviewer": "author-B",
+  "reviewerRole": "independent non-author of A; non-blinded host-native document review",
+  "baselineCommit": "dc704536875cda166f7ab784bce28f3c2b54ae0c",
+  "baselineProduct": "C:/Users/Dom/.codex/operations/godskills-refinement-20261004/baseline-product",
+  "disposition": "READY",
+  "scope": "Instruction-level integration readiness, not runtime/domain/rights/performance certification",
+  "inputs": [
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-refinement-20261004/assignments.json",
+      "sha256": "38ba5d09506716698585f879ffa334eb3044c9a0ff9bfea3ecd4527d26c571fa"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-refinement-20261004/candidate-v1-vector.json",
+      "sha256": "b6a5ef07b44a3d41e914cfbecfdabb2834015f6cf394d0d46802ad54cfd0a3a8"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-refinement-20261004/assessments-v1-check.json",
+      "sha256": "86041d395b230721181ba1781dfba3f5236fb88e57d97677f9da9406fcac88b0"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-refinement-20261004/qualification-plan.json",
+      "sha256": "b7d6df5dd307a97f1f9000d2fee4d085e073d1689c372658184c458c0dfe85f2"
+    }
+  ],
+  "authorAssessment": {
+    "path": "docs/refinement-20261004/cohort-A-assessment.json",
+    "sha256": "5f185b19aae3b7ad5d74bb057aa0f3facfe4d5865da9a0593f47445010df1fdd"
+  },
+  "report": {
+    "path": "docs/refinement-20261004/cohort-A-independent-review-v1.md",
+    "sha256": "a19f8a7e525eed47aa2831425509840ae356afea76777d0526ea5173f8cb1d6a"
+  },
+  "checkedIds": [
+    "agricultural-observation-and-trial",
+    "app-store-discovery-experiments",
+    "audio-dsp-integrity-review",
+    "bounded-service-shutdown",
+    "cashflow-forecast-scenario-integrity",
+    "completeness-and-consistency-audit",
+    "counterbalanced-agent-evaluation",
+    "diagnostic-statistical-model-inference",
+    "ecological-sampling-and-detection-uncertainty",
+    "eternities-agora",
+    "eternities-architect",
+    "eternities-atlas",
+    "eternities-chorus",
+    "eternities-forge",
+    "eternities-herald",
+    "eternities-logos",
+    "eternities-muse",
+    "eternities-oracle",
+    "eternities-phoenix",
+    "evidence-linked-learning-design",
+    "financial-statement-reconciliation",
+    "fp-ts-functional-refactoring",
+    "geospatial-coordinate-integrity",
+    "infrastructure-plan-apply-isolation",
+    "interface-localization-and-bidirectionality",
+    "invariant-guard",
+    "landscape-connectivity-analysis",
+    "long-horizon-work-continuity",
+    "memory-retention-and-recovery",
+    "native-mobile-interaction-testing",
+    "physics-constrained-numerical-validation",
+    "release-script-safety",
+    "robotics-test-ladder",
+    "scientific-surrogate-validation",
+    "sovereign-skill-refinery",
+    "structured-output-contracts",
+    "terrain-watershed-analysis",
+    "venture-falsification-and-planning",
+    "web-performance-optimization"
+  ],
+  "counts": {
+    "checked": 39,
+    "refine": 23,
+    "retain": 16,
+    "critical": 0,
+    "important": 0,
+    "minor": 0
+  },
+  "skills": [
+    {
+      "id": "agricultural-observation-and-trial",
+      "authorDisposition": "retain",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "dad70e81edda0d52ada7e726b7e19375dc2a1f3251435be295d9a92992304f2d",
+      "candidateEntrypointSha256": "dad70e81edda0d52ada7e726b7e19375dc2a1f3251435be295d9a92992304f2d",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": false,
+      "retainedByteIdentity": true,
+      "reviewReason": "Retention is justified by method/depth-specific soil interpretation, matched unaffected plots and local trial confounding; no generic rewrite would improve these checks.",
+      "retainedMechanisms": [
+        "Extraction/depth/unit comparability",
+        "Matched spatial observations and predeclared control/replication",
+        "Current local restrictions before intervention"
+      ],
+      "referencesRead": [],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/agricultural-observation-and-trial/skill.json",
+          "sha256": "ee6e741e16650be93fcb245c8e2f75edf135d2ea79bdef29dfe184c56cdb933f",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "app-store-discovery-experiments",
+      "authorDisposition": "refine",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "b25dbdf93508f20f8135253d129419a2de958350156fdf3692afce4668cacd3a",
+      "candidateEntrypointSha256": "43beef20c43bea5046f722e6b5d5fabd76a770a747bc1cf60eb2a598fd97c46c",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": true,
+      "retainedByteIdentity": null,
+      "reviewReason": "The audit/experiment split and identifiable factorial exception change a listing-specific decision, while bundled edits still cannot receive single-field causal attribution.",
+      "retainedMechanisms": [
+        "Storefront/locale/version/date binding",
+        "Exposure denominators, stopping rules and confounders",
+        "Prepared/submitted/published and rollback distinction"
+      ],
+      "referencesRead": [],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/app-store-discovery-experiments/skill.json",
+          "sha256": "339762bee9feb3a7c55db745b80dd68b819be86fe036abb3e67736d4bef3e757",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "audio-dsp-integrity-review",
+      "authorDisposition": "refine",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "425578dda01d430310f6626e2658ee35c5358d952a03ad59220bb1940dab2b23",
+      "candidateEntrypointSha256": "f26dba4612e8a749a289f1df66f1481dd752d6db0aff63c1240d4b768269b7f2",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": true,
+      "retainedByteIdentity": null,
+      "reviewReason": "Lane selection now permits offline numeric review without clearing callback scheduling; maps still expand along edges that affect the finding.",
+      "retainedMechanisms": [
+        "Finite callback bounds and platform atomic evidence",
+        "Denormals/NaN/state/coefficient/feedback checks",
+        "Parallel latency, sidechain and summing contracts"
+      ],
+      "referencesRead": [],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/audio-dsp-integrity-review/skill.json",
+          "sha256": "c7f05ff43b354c2a79812ee8cbca9c833bfa9db7fe92ffdc2e4eca4d724adec9",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "bounded-service-shutdown",
+      "authorDisposition": "retain",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "5257e79b7ac4b30738f54320a80f36adfbf49d0a57087a230de5c4cf2905c41e",
+      "candidateEntrypointSha256": "5257e79b7ac4b30738f54320a80f36adfbf49d0a57087a230de5c4cf2905c41e",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": false,
+      "retainedByteIdentity": true,
+      "reviewReason": "The retained order is technically necessary: admission closes before drain, settlement determines completion, and late work cannot overwrite published exit status.",
+      "retainedMechanisms": [
+        "Idempotent transition and monotonic grace deadline",
+        "All ingress paths and settlement-based counters",
+        "Dependency cleanup and forced/late outcomes"
+      ],
+      "referencesRead": [],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/bounded-service-shutdown/skill.json",
+          "sha256": "5e8d0f21e8d996087b573e53cbbd7ca3ff4e06fdadb0c7b276bc0e5da2a75f97",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "cashflow-forecast-scenario-integrity",
+      "authorDisposition": "retain",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "d2b85835f46ac7aba103a43d5ee6eb9ccfe2970f3d17a690e8e9a01fa655a66e",
+      "candidateEntrypointSha256": "d2b85835f46ac7aba103a43d5ee6eb9ccfe2970f3d17a690e8e9a01fa655a66e",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": false,
+      "retainedByteIdentity": true,
+      "reviewReason": "Retention preserves a genuinely specialized settlement method; fixed-base timing/collectibility scenarios and availability definitions already avoid unnecessary full models.",
+      "retainedMechanisms": [
+        "Invoice/collection deduplication and outstanding balances",
+        "Bucket continuity without balancing plugs",
+        "Movement versus cumulative scenario deltas"
+      ],
+      "referencesRead": [],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/cashflow-forecast-scenario-integrity/skill.json",
+          "sha256": "6792423b54ff667e97bbe3acb6e7825f1c522a37fe9507f29f86fed926dc8bac",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "completeness-and-consistency-audit",
+      "authorDisposition": "retain",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "4e434687d0f77a0577c6bd2c8b869fe60d409df5c5e6d5b6ee946771a78d5f71",
+      "candidateEntrypointSha256": "4e434687d0f77a0577c6bd2c8b869fe60d409df5c5e6d5b6ee946771a78d5f71",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": false,
+      "retainedByteIdentity": true,
+      "reviewReason": "The retained body and worked examples distinguish coverage from topic mentions and reopen dependent evidence after repair; the bounded denominator is concrete.",
+      "retainedMechanisms": [
+        "Explicit/derived/proposed obligation standing",
+        "Presence/agreement/support separated",
+        "Falsifying seams and dependency reopening"
+      ],
+      "referencesRead": [
+        "product/skills/completeness-and-consistency-audit/references/coverage-template.md",
+        "product/skills/completeness-and-consistency-audit/references/worked-audits.md"
+      ],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/completeness-and-consistency-audit/references/coverage-template.md",
+          "sha256": "afb14dd68fe0735479deead5dcfb8dc4d71d6f4d8a36a5e7246afa73fea21340",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/completeness-and-consistency-audit/references/worked-audits.md",
+          "sha256": "dc8977704eb24d273dbc010a7ae1ea800efaa2c2df63622996a185fab6b906da",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/completeness-and-consistency-audit/skill.json",
+          "sha256": "da1004f5dc182e69ecf6b0324c29e3c2734639269be7f583814a6da0afc911ed",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "counterbalanced-agent-evaluation",
+      "authorDisposition": "retain",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "ad8e45793f5ec79ab577789d505893e2a0a7fbf97dfcde7542cb828aee985a88",
+      "candidateEntrypointSha256": "ad8e45793f5ec79ab577789d505893e2a0a7fbf97dfcde7542cb828aee985a88",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": false,
+      "retainedByteIdentity": true,
+      "reviewReason": "The existing text appropriately separates host-native from raw runs and retains failed arms, task dependence and revised comparisons; no shortening is warranted.",
+      "retainedMechanisms": [
+        "Arm isolation and matched permitted inputs",
+        "Held-out criteria and retry symmetry",
+        "Observed resource costs and unknown counters"
+      ],
+      "referencesRead": [],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/counterbalanced-agent-evaluation/skill.json",
+          "sha256": "e9e1963c49e735a281788279bf6cb5cc89c76b414e04b59fab79be25b33ef6bf",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "diagnostic-statistical-model-inference",
+      "authorDisposition": "retain",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "a65995b8649d28dc9e9ccd0bdfeb56799435c0eedb143b70590fb3f8b398c367",
+      "candidateEntrypointSha256": "a65995b8649d28dc9e9ccd0bdfeb56799435c0eedb143b70590fb3f8b398c367",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": false,
+      "retainedByteIdentity": true,
+      "reviewReason": "Its existing model-appropriate diagnostics and plausible-specification sensitivity already supply conditional depth without hiding causal identification gaps.",
+      "retainedMechanisms": [
+        "Estimand and identification class",
+        "Selection/missingness/dependence/influence diagnostics",
+        "Sign and threshold instability across specifications"
+      ],
+      "referencesRead": [],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/diagnostic-statistical-model-inference/skill.json",
+          "sha256": "e458a6c1db05c5aebcd1d34ec224d57ac8b2501ee54589e9880cfc452a822022",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "ecological-sampling-and-detection-uncertainty",
+      "authorDisposition": "refine",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "396fc469613b35fc2bc67ea34c8458d8d262d0cd312867526bc60ef38dd30c1c",
+      "candidateEntrypointSha256": "772099d13ca1371df4ba772315dc5691ec02f12a9f5f62f83b1431ed8972adf3",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": true,
+      "retainedByteIdentity": null,
+      "reviewReason": "Event derivation is correctly conditional for occasion-level inputs; effort and missing visits remain required and aggregate uncertainty is not replaced by point accuracy.",
+      "retainedMechanisms": [
+        "Surveyed zeros versus missing/unusable visits",
+        "Downtime and event-definition sensitivity",
+        "State/detection separation and temporal/aggregate error"
+      ],
+      "referencesRead": [
+        "product/skills/ecological-sampling-and-detection-uncertainty/references/sampling-and-detection-records.md"
+      ],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/ecological-sampling-and-detection-uncertainty/references/sampling-and-detection-records.md",
+          "sha256": "5726960dd5072aa93919e1a600898bec7b16b06b3fb38cd89fd6fb0d8cddca5f",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/ecological-sampling-and-detection-uncertainty/skill.json",
+          "sha256": "b99dad708acef989811c6315532284ca70b1f1fa44d7c4473e7004f310d7a18c",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "eternities-agora",
+      "authorDisposition": "refine",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "d69a26a4d974228729f25f2d5b5835c175a151a29d9da7d2974ccbc23ebc5a7d",
+      "candidateEntrypointSha256": "763bae5c52442699d9422e08ad68fdeb7466638f5bba5cbd6dfa04e1754da9ac",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": true,
+      "retainedByteIdentity": null,
+      "reviewReason": "The output correction tracks actual routes rather than demanding identities and score dimensions for every report; unchanged cards retain independent document and action gates.",
+      "retainedMechanisms": [
+        "Reversible independent identity reconciliation",
+        "Effective scoring denominator and partial coverage",
+        "Fact/definition/date consistency and proposal criteria"
+      ],
+      "referencesRead": [
+        "product/skills/eternities-agora/references/business-decision-evidence.md",
+        "product/skills/eternities-agora/references/methods.md",
+        "product/skills/eternities-agora/references/research-funding-proposal.md"
+      ],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/eternities-agora/references/business-decision-evidence.md",
+          "sha256": "9effd0372e4be72da4d9fdcd454e5b4c3ea313764f118f429b175e103f4ec188",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/eternities-agora/references/methods.md",
+          "sha256": "a2df40b3388c5c4565c1d11276af478cf4e2b432a1551dcda5a94977f3daf1af",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/eternities-agora/references/research-funding-proposal.md",
+          "sha256": "6bd7d41a9af3b40dc041ffeab73b8f692aba16910f4c72253e090ba451eee322",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/eternities-agora/skill.json",
+          "sha256": "a59a8eee96b38029b3df31f564fb312b39f44a0716ad0b44f4fbdbaa89a8393f",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "eternities-architect",
+      "authorDisposition": "refine",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "351269b25eb0a26b06e51abe774f0bb6a92d23953592196f48d70651dff2fb11",
+      "candidateEntrypointSha256": "50d0524c2bbdb64eb8f3a7a82586e7989ffa4002ede3c3deda7ac757f4a660c5",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": true,
+      "retainedByteIdentity": null,
+      "reviewReason": "The bounded model and reopen triggers replace an unrealistic permanent-closure promise without removing affected trust, migration or compatibility obligations.",
+      "retainedMechanisms": [
+        "Actual implementation versus intent",
+        "Matched alternatives and critical constraint acceptance",
+        "Semantic producer/consumer propagation audit"
+      ],
+      "referencesRead": [
+        "product/skills/eternities-architect/references/methods.md"
+      ],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/eternities-architect/references/methods.md",
+          "sha256": "1873d742426d274e5b78bd10d24bdb67003e725e641dd4789766bfb0ca234b73",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/eternities-architect/skill.json",
+          "sha256": "8952a21e1bf43fe6e64498c17c9400bfeb8d5e8be9f8913d9dda6e4a84108a13",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "eternities-atlas",
+      "authorDisposition": "refine",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "35e819e37a97923cc2ae3e9b6d5c35a32843fab2bbe7dd373f483213e9a385ad",
+      "candidateEntrypointSha256": "46b06bdd11e52ca6288b32bd720a77715035b5e77a2b52ba1b986a071df18700",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": true,
+      "retainedByteIdentity": null,
+      "reviewReason": "The external-owner HOLD is correctly attached to consequential frontier use; full connected-source text still prevents discovery preflight from a lexical match.",
+      "retainedMechanisms": [
+        "Frontier is not a winner; independent checker and external evidence review",
+        "Metadata/probe/load/active-input/consumption authority distinctions",
+        "Decision-time ranking features, eligibility and observed exposure"
+      ],
+      "referencesRead": [
+        "product/skills/eternities-atlas/references/connector-discovery.md",
+        "product/skills/eternities-atlas/references/methods.md",
+        "product/skills/eternities-atlas/references/pareto-frontier-decision.md",
+        "product/skills/eternities-atlas/references/serving-time-ranking-decision-trace.md",
+        "product/skills/eternities-atlas/references/simulation-artifact-handoff.md"
+      ],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/eternities-atlas/references/connector-discovery.md",
+          "sha256": "97c83c5bb00914211d05eb784e1ff42efe5efa24cd1e4f1d9ec21d793c26a003",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/eternities-atlas/references/methods.md",
+          "sha256": "1a6fa9ab8a21ce37de2c9dd909f4156889510faf08292a583fe577a7fdb79d14",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/eternities-atlas/references/pareto-frontier-decision.md",
+          "sha256": "5323c0c99785866c3552c6131dab44d46459d1cd955f3acea66bb918b3439e2e",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/eternities-atlas/references/serving-time-ranking-decision-trace.md",
+          "sha256": "4a4ed718c0879126b1d30cf9c2f2c5f469cbe730e72d4103e9784ee5a7c5a496",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/eternities-atlas/references/simulation-artifact-handoff.md",
+          "sha256": "449846960aef9c0b59b7671b3e39a30541e48447d4cf023d607747a3587679b0",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/eternities-atlas/resources/pareto/example-input.json",
+          "sha256": "4c15e7742b85489884ed9863b16f8c5ccc5db24043ecfeaa7d6b6ab7b1879ed8",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/eternities-atlas/resources/pareto/frozen-independent-fixtures.json",
+          "sha256": "62460bdc01a6e808a09463795178a9f6ff7abfc619e436897dddc60d38c75add",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/eternities-atlas/resources/pareto/oracle.test.mjs",
+          "sha256": "50168e3406ecd3dce4130eaf55b40283d3ef2a25acc67a5819a0e4542d699c7f",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/eternities-atlas/resources/pareto/package-self-containment.test.mjs",
+          "sha256": "6711b15d4cf2272822a19ba0c44c392add025a001861e8e6b75950c153bd8c46",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/eternities-atlas/resources/pareto/pareto-gate.mjs",
+          "sha256": "0a2a3988fe59b5b3d2ae19e5fd5f22314b4111533b7ea28365c6e5c4a7ff8806",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/eternities-atlas/resources/pareto/pareto-oracle.mjs",
+          "sha256": "c8688c5c9f2f607c8f024851a74933f784dc6b25db7d81456a24c5951999c18f",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/eternities-atlas/resources/pareto/restrict-sibling-reads.mjs",
+          "sha256": "418a042717c522ed7a6577ace0da21329f0bec79f5bbf4c2e4ddac9d18d1960d",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/eternities-atlas/resources/pareto/verify-output-v1.mjs",
+          "sha256": "46d3029e3ddb19818e16d46011baa70a6c0c65500fb42cf6774a9a9739b1b4ca",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/eternities-atlas/resources/pareto/verify-output-v1.test.mjs",
+          "sha256": "bb0ec9748eacc9ea2061466cb33d132f105ceb299423010956d3265915615306",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/eternities-atlas/skill.json",
+          "sha256": "c270415abbe6769fdc5ce7362c5569735ba907bfffb5a2f0da304a1e839de77d",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "eternities-chorus",
+      "authorDisposition": "refine",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "34814474ccd29d642c87f50ebed24b56cef572cd6e6869d4ce8ca427c0eae5dc",
+      "candidateEntrypointSha256": "f1e0d8964acb8dc267b8f3e51a3fbfde3b5b0c8a91aeebfb8517f1b068998d95",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": true,
+      "retainedByteIdentity": null,
+      "reviewReason": "Claim support remains inspectable without forcing epistemic tags into recipient copy, consistent with the unchanged stakeholder-update method.",
+      "retainedMechanisms": [
+        "Exact metric/denominator/caveat preservation",
+        "Accessible equivalent access",
+        "Draft/review/schedule/publication and sensitive human ownership"
+      ],
+      "referencesRead": [
+        "product/skills/eternities-chorus/references/methods.md",
+        "product/skills/eternities-chorus/references/stakeholder-updates.md"
+      ],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/eternities-chorus/references/methods.md",
+          "sha256": "18c1463e075a373f09e1dd6b6279ba33a44d6108a0ffb51786721e4d1b9174e7",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/eternities-chorus/references/stakeholder-updates.md",
+          "sha256": "02abdb2d7e61dc08579003d4f6b2f48bb6f4b0aacd16e4eaaa81abc5d3e6554f",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/eternities-chorus/skill.json",
+          "sha256": "a282595b4593847fdd9a7c7e4ddc426a5da17095fbadec4065c39102efa6fe91",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "eternities-forge",
+      "authorDisposition": "refine",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "69dd108e325f48ccb2fe2833018f721e31f1725b109da9919faa89c93503267f",
+      "candidateEntrypointSha256": "96a5bf285a89bb9189064d65880d461683830e314e00a98bce2e45a97f2c0e5b",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": true,
+      "retainedByteIdentity": null,
+      "reviewReason": "Reversible probes can resolve implementation-relevant ambiguity, and multiple distinguishing checks may serve one slice; delegation now explicitly requires authority.",
+      "retainedMechanisms": [
+        "Disjoint path claims and live integration state",
+        "Baseline and claim-to-evidence slices",
+        "Failure preservation and scoped effect/rollback preconditions"
+      ],
+      "referencesRead": [
+        "product/skills/eternities-forge/references/methods.md"
+      ],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/eternities-forge/references/methods.md",
+          "sha256": "4e25671091310043e92358182918bfa32eefe08b34508f6d1cd6e4418ac45db5",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/eternities-forge/skill.json",
+          "sha256": "af03b86ab49cac6e9ae4fd2f13bc7bfca9b563e66a6dcaded46d118ef8713fec",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "eternities-herald",
+      "authorDisposition": "refine",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "3cd991e0e9539c9b40703b8ca39bd7c1a80d51f7cd6c4968e5c8299ed485445e",
+      "candidateEntrypointSha256": "a1b0419458774b0777aa5ad5fb51cc293509e6df7b1872cc5166b7784bc96b64",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": true,
+      "retainedByteIdentity": null,
+      "reviewReason": "Documentation and dependency screening no longer inherit a whole-release reproducibility finish gate; package qualification itself still requires the strongest checks.",
+      "retainedMechanisms": [
+        "Actual graph and cache invalidation witnesses",
+        "Clean package/export/tarball/dependency checks",
+        "Component release rows, rollback and human go/no-go"
+      ],
+      "referencesRead": [
+        "product/skills/eternities-herald/references/methods.md"
+      ],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/eternities-herald/references/methods.md",
+          "sha256": "ed5209dafb316cc67b213f1babdfb03d24642bedc59ad83e88512304175fa7f4",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/eternities-herald/skill.json",
+          "sha256": "7f2e25ea6b271272e2be463f2ae8322137f72266e937cf452c5abd38e23944d7",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "eternities-logos",
+      "authorDisposition": "refine",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "c7e7121ebe2e61eaf4ff646cd2a1bb3d8215403af060bb41b14938888c44961a",
+      "candidateEntrypointSha256": "f5c84a715a574c350c06b8dc6ee485e43846c2cabd12f39e94cc8ae8cf07b5ba",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": true,
+      "retainedByteIdentity": null,
+      "reviewReason": "Inline source notes can replace a separate ledger for a small artifact without altering the detailed conversion or literature evidence boundaries.",
+      "retainedMechanisms": [
+        "Source/canon/inference/creative distinctions",
+        "Four independent conversion-fidelity lanes",
+        "Claim-to-region synthesis and contrary evidence"
+      ],
+      "referencesRead": [
+        "product/skills/eternities-logos/references/methods.md",
+        "product/skills/eternities-logos/references/staged-literature-synthesis.md"
+      ],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/eternities-logos/references/methods.md",
+          "sha256": "a79d6f724763afab227f6d9d347b2dad51031eefa1303284466df2eda8492ce3",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/eternities-logos/references/staged-literature-synthesis.md",
+          "sha256": "ce55918cf0966beab0c4103a8cc2de69c517c7581c22320bfa2009d86b145c78",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/eternities-logos/skill.json",
+          "sha256": "f086c026d19a06946e5b84d7642c98bd43dc7acd72bcb4b274f8ca9263902d4e",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "eternities-muse",
+      "authorDisposition": "refine",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "b7097258366a53f645d2d1a52a6492a691f933c2cc535fd32beae452f398f374",
+      "candidateEntrypointSha256": "838da70f041be41d0d28fa9e735241c303240b4355f1770dba5b7b7998afc05b",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": true,
+      "retainedByteIdentity": null,
+      "reviewReason": "Forensic or accessibility repair need not invent a new visual law; art direction still does, while formal acceptance retains rejectable observed evidence.",
+      "retainedMechanisms": [
+        "Async focus/announcement/cancellation/stale-response state machine",
+        "Rendered geometry and temporal/state controls",
+        "Prototype versus formal acceptance and accessibility limits"
+      ],
+      "referencesRead": [
+        "product/skills/eternities-muse/references/methods.md"
+      ],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/eternities-muse/references/methods.md",
+          "sha256": "44cdaae8e34b83f69c8253f1cb61b4ed3c1af5548e58ef59d4f7e28df7e46b89",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/eternities-muse/skill.json",
+          "sha256": "640b33587d3f648552be317b1f436e1ce26ccb7a78c40bed507c33d7dd795a2a",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "eternities-oracle",
+      "authorDisposition": "retain",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "796145f66a4f5d9cacadd55319e541234db9b7ac3b4d704f8b7411c949fce4cd",
+      "candidateEntrypointSha256": "796145f66a4f5d9cacadd55319e541234db9b7ac3b4d704f8b7411c949fce4cd",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": false,
+      "retainedByteIdentity": true,
+      "reviewReason": "Retention protects unusually precise artifact-role evidence: permission to inspect, create or distribute cannot become approval of the selected version.",
+      "retainedMechanisms": [
+        "Local/current/hybrid evidence separation",
+        "Bounded negative and comparative claims",
+        "Actor/action/object/version approval test"
+      ],
+      "referencesRead": [
+        "product/skills/eternities-oracle/references/methods.md"
+      ],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/eternities-oracle/references/methods.md",
+          "sha256": "ab1f3e8a23fa5929bcf8d25c119e25a275ffc752a119eb37cc9e9da78d339950",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/eternities-oracle/skill.json",
+          "sha256": "ca73ebc6b2b8d7c1adcc00f74aa2fb28ad3705c4f1b7727024656dffcd5c23b0",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "eternities-phoenix",
+      "authorDisposition": "refine",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "8a522e555beb8e605b3b3751f7ffeb5cf6e924c85f8e0950620ab85899fbe111",
+      "candidateEntrypointSha256": "d2be7f2ba4ec16d25e6a44084624bae2d01e416089c5d79cb85b0af1e543a284",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": true,
+      "retainedByteIdentity": null,
+      "reviewReason": "The narrow finish correction closes the requested diagnosis or verified repair, rather than treating any bounded handoff as completion; case discovery remains a different route.",
+      "retainedMechanisms": [
+        "Reproduction, falsifiers and durable eliminated hypotheses",
+        "Authoritative reconciliation before uncertain external retry",
+        "Development versus held-out interaction-case evidence"
+      ],
+      "referencesRead": [
+        "product/skills/eternities-phoenix/references/methods.md",
+        "product/skills/eternities-phoenix/references/reproducible-bug-packets.md",
+        "product/skills/eternities-phoenix/references/trace-to-evaluation-cases.md"
+      ],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/eternities-phoenix/references/methods.md",
+          "sha256": "aa9a1fefeb9e0ca5107f0b5fb3e3a97cf647c748b91922e3b3303c8bc90c8ebc",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/eternities-phoenix/references/reproducible-bug-packets.md",
+          "sha256": "74059bb30b6af5289b661e93deac1ca7cd9d89bbc4ad0362d8c01b39d7333120",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/eternities-phoenix/references/trace-to-evaluation-cases.md",
+          "sha256": "57fe450be2791fe0e697663b49df5c6ed1c22ea6f8a94d9efa84cead1d2e1560",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/eternities-phoenix/skill.json",
+          "sha256": "13613f7882a7c7295945c73f9dac1609496d4391987697e581272b827805838c",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "evidence-linked-learning-design",
+      "authorDisposition": "refine",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "9bb3d11902abeb745ca82ccda0b9886b0ff2b86944666f9ee795442e06bfd76b",
+      "candidateEntrypointSha256": "ca165d7209df55696719f58dbad0042a41bfe6164408099cf8ab0dc90e85d160",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": true,
+      "retainedByteIdentity": null,
+      "reviewReason": "Goal count and diagnostic selection now follow the actual lesson, and optional scaffold reduction is explicitly separated from protected access.",
+      "retainedMechanisms": [
+        "Objective-to-practice-to-assessment evidence",
+        "Learner choice and immediate restore of optional aids",
+        "Separate learner binding, instructional state and verified persistence",
+        "Microsimulation invariants/coupled ordering/sampler checks"
+      ],
+      "referencesRead": [
+        "product/skills/evidence-linked-learning-design/references/educational-microsimulation.md",
+        "product/skills/evidence-linked-learning-design/references/handoffs-and-reporting.md",
+        "product/skills/evidence-linked-learning-design/references/support-transition.md"
+      ],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/evidence-linked-learning-design/references/educational-microsimulation.md",
+          "sha256": "4f42471a7b33b9af45203a54eb82a3c95c6c19106446e0b9097006daff2f3b2e",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/evidence-linked-learning-design/references/handoffs-and-reporting.md",
+          "sha256": "8722eaf7532007db27228e1b699fc0835cf46229a605801fb5cdc154924e870c",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/evidence-linked-learning-design/references/support-transition.md",
+          "sha256": "470484b186df4978ec4c5e817990d25c0a2ad200dbf6ef1bea6441f43372d954",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/evidence-linked-learning-design/skill.json",
+          "sha256": "d822c1a6d8c83f1c2fc1538b75982087dc1325540b11e099d7b8e7427766f75c",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "financial-statement-reconciliation",
+      "authorDisposition": "refine",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "9a82b733d54f8e8f594f93ecb6f6304d229bba99ba71b810f3a908146a7e5230",
+      "candidateEntrypointSha256": "cfcb104de4c4ae024e5f95c1202db98d3cd3b1bbdb51ec37549cc368e67d7346",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": true,
+      "retainedByteIdentity": null,
+      "reviewReason": "Single-driver sensitivity can remain single-driver, and historical reconciliation need not invent scenarios; unexplained driver components now remain unknown.",
+      "retainedMechanisms": [
+        "Balance sheet and income/cash ties",
+        "Period/perimeter/currency/ratio denominator definitions",
+        "Fixed-base scenarios and liquidity timing/restrictions"
+      ],
+      "referencesRead": [],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/financial-statement-reconciliation/skill.json",
+          "sha256": "b642f8dfe7feca2f4ee412af16fe78f4d546cfe3c00acd2f292cd7c66e14b68f",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "fp-ts-functional-refactoring",
+      "authorDisposition": "retain",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "65ed967d0043c3bddc61508f6ee16870b2e56b7d6ba425922f91f1e28e919539",
+      "candidateEntrypointSha256": "65ed967d0043c3bddc61508f6ee16870b2e56b7d6ba425922f91f1e28e919539",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": false,
+      "retainedByteIdentity": true,
+      "reviewReason": "The retained method already prefers the smallest meaningful seam and permits imperative code when abstractions obscure behavior.",
+      "retainedMechanisms": [
+        "Error identity and effect order",
+        "Framework lifecycle timing and cancellation",
+        "Characterization/type checks with actual behavior cases"
+      ],
+      "referencesRead": [],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/fp-ts-functional-refactoring/skill.json",
+          "sha256": "53ecbd37e67e9fef211bb354da67e0b4114eda737f900792d1361facc0a85ae9",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "geospatial-coordinate-integrity",
+      "authorDisposition": "retain",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "ef14fd4bc877408a1acb6c24efb09557a4a02d65a6688fd22e3dfe893ce65ce0",
+      "candidateEntrypointSha256": "ef14fd4bc877408a1acb6c24efb09557a4a02d65a6688fd22e3dfe893ce65ce0",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": false,
+      "retainedByteIdentity": true,
+      "reviewReason": "Retention keeps assign/transform/measure, vertical comparability and saved-output verification distinct, with concrete asymmetric axis and grid checks.",
+      "retainedMechanisms": [
+        "Known asymmetric axis-order controls",
+        "Vertical datum/geoid/height-type and error budget",
+        "Nodata/resampling/topology and reopened output metadata"
+      ],
+      "referencesRead": [
+        "product/skills/geospatial-coordinate-integrity/references/vertical-and-surface-comparability.md"
+      ],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/geospatial-coordinate-integrity/references/vertical-and-surface-comparability.md",
+          "sha256": "31b73d5ff157bd1d32a729d442ad0d6d6400cb5d4c0d6c5736c4e2cde8961d62",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/geospatial-coordinate-integrity/skill.json",
+          "sha256": "ff7a9264006771ae6d4cb3e1d0a25a94bd7aea39dd5433ccf70c0c4b2371b318",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "infrastructure-plan-apply-isolation",
+      "authorDisposition": "refine",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "282241cb6fac6159779682b1b6853d90f0a43f60835922ea8e63ec868b05fc3b",
+      "candidateEntrypointSha256": "5a77c8f4e48c23fc8d37548cbf15b5970e941173e514873acdd4e64adb7f896e",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": true,
+      "retainedByteIdentity": null,
+      "reviewReason": "The revised state rule prevents creating a second deployment accidentally; graph coverage and justified targeting are stronger than an unconditional narrow-address recipe.",
+      "retainedMechanisms": [
+        "Mock/static/plan/apply evidence lanes",
+        "Complete declared dependency graph and drift stop",
+        "Verified state/account/input identity before authorized apply"
+      ],
+      "referencesRead": [],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/infrastructure-plan-apply-isolation/skill.json",
+          "sha256": "b29076c87709fad9c6cf0219b0f3650e14c4728d8fff0a5f6a2ebe3ccfffaecb",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "interface-localization-and-bidirectionality",
+      "authorDisposition": "refine",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "7fa41cd4576a01d82f8507cf2d207ab13f2eb0f2a2e2d61d87d39e4c7afc5458",
+      "candidateEntrypointSha256": "130843a1f8e9291ddec993bc7b110ce3bafd1d12f7e61773f44dcd635e9d54f4",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": true,
+      "retainedByteIdentity": null,
+      "reviewReason": "Mechanical RTL acceptance and unreviewed language remain separate, while changes to a shared direction/fallback boundary expand checks rather than silently limiting them.",
+      "retainedMechanisms": [
+        "Logical layout and mixed-direction isolation",
+        "Semantic mirroring and accessible interaction",
+        "Locale/revision/human wording-review state"
+      ],
+      "referencesRead": [],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/interface-localization-and-bidirectionality/skill.json",
+          "sha256": "3e927eae13bb5d25370f6291478a6b3aa5d4c10566462ac036a0333ad4bedf03",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "invariant-guard",
+      "authorDisposition": "retain",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "660357745a6d16fb81b5a98d12c3361a5d22a826a29858be0dbc9020b24f593f",
+      "candidateEntrypointSha256": "660357745a6d16fb81b5a98d12c3361a5d22a826a29858be0dbc9020b24f593f",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": false,
+      "retainedByteIdentity": true,
+      "reviewReason": "Independent bounded oracles, constrained tolerances and minimized retained counterexamples justify keeping the full existing method.",
+      "retainedMechanisms": [
+        "Candidate-independent expected results",
+        "Execution invariants and boundary/adversarial coverage",
+        "Shrinking and preserved failing regressions"
+      ],
+      "referencesRead": [],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/invariant-guard/skill.json",
+          "sha256": "77e8ffe06ad0ef408e40f7bd2eaf21fa8a670d6886bd3b2a2a7e73ea4aaec35f",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "landscape-connectivity-analysis",
+      "authorDisposition": "refine",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "3ac3320e31f833962123acd1174ccc6a8031e3b3a777044d66beb21740541e97",
+      "candidateEntrypointSha256": "eb672da289c1623e024d2f79008e2b37c1ecbc186939e1c1805a90b01103ec07",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": true,
+      "retainedByteIdentity": null,
+      "reviewReason": "Patch-only importance no longer implies corridor work; actual corridor claims still require a justified method and resistance/threshold sensitivity.",
+      "retainedMechanisms": [
+        "Area alongside patch importance",
+        "Resistance provenance and graph construction",
+        "Modeled proxy versus observed movement"
+      ],
+      "referencesRead": [
+        "product/skills/landscape-connectivity-analysis/references/connectivity-operations.md"
+      ],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/landscape-connectivity-analysis/references/connectivity-operations.md",
+          "sha256": "dcf15931b1588968bcd707b278124815acd30ef4b2c5be3785ea07137b568425",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/landscape-connectivity-analysis/skill.json",
+          "sha256": "0038f2d442ecaea04d8fcb82fdd4bb2634b2142dd5a5c1c5ad843b7bd79a9882",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "long-horizon-work-continuity",
+      "authorDisposition": "retain",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "83584469ab0faf64844451aba67bfe4e9325d2c1f7d6580ff951bc90d3a34f5d",
+      "candidateEntrypointSha256": "83584469ab0faf64844451aba67bfe4e9325d2c1f7d6580ff951bc90d3a34f5d",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": false,
+      "retainedByteIdentity": true,
+      "reviewReason": "The existing body already provides compact live ownership and operation reconciliation without inventing a scheduler; its retained uncertain-effect table is essential.",
+      "retainedMechanisms": [
+        "Retained scope/resources and live owner refresh",
+        "Operation identity and authoritative status before retry",
+        "Checkpoint/store/runner/background distinctions"
+      ],
+      "referencesRead": [
+        "product/skills/long-horizon-work-continuity/references/continuity-packet.md",
+        "product/skills/long-horizon-work-continuity/references/interruption-cases.md",
+        "product/skills/long-horizon-work-continuity/references/uncertain-effect-recovery.md"
+      ],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/long-horizon-work-continuity/references/continuity-packet.md",
+          "sha256": "224245f7beb6f1ab8266a68636e47723926ab760886771d47df49e1e70e33311",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/long-horizon-work-continuity/references/interruption-cases.md",
+          "sha256": "a922ecdc7620b3df8c7270ec0ec7e736e315af9a1582e6ed880c30276e702cc6",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/long-horizon-work-continuity/references/uncertain-effect-recovery.md",
+          "sha256": "a12fcc1b51a85bcaa392fbc534ba3be74bd6aef184019ca78774e6615d8f8f7f",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/long-horizon-work-continuity/skill.json",
+          "sha256": "5fa7b436fa35069441e9d690c3cd82b4e8ecc16e6aa72c8661d5c0cd79d273d2",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "memory-retention-and-recovery",
+      "authorDisposition": "retain",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "36c14c3b62bdf72c2b12bf4678ec44223bd0c3064528a7f1b34d7df4fcc966e7",
+      "candidateEntrypointSha256": "36c14c3b62bdf72c2b12bf4678ec44223bd0c3064528a7f1b34d7df4fcc966e7",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": false,
+      "retainedByteIdentity": true,
+      "reviewReason": "The retained persistence outcomes distinguish rejected saves from unknown writes, and later notes cannot silently supersede exact target evidence.",
+      "retainedMechanisms": [
+        "Task binding and freshness/source reopening",
+        "Conflicting/superseded records with dependency invalidation",
+        "Not persisted versus persistence unknown versus verified retention"
+      ],
+      "referencesRead": [
+        "product/skills/memory-retention-and-recovery/references/examples.md"
+      ],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/memory-retention-and-recovery/references/examples.md",
+          "sha256": "e85739b8e8e517545d5862200f78e442dc23f59284f2e74751c7c39af8e5ece2",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/memory-retention-and-recovery/skill.json",
+          "sha256": "d430c9842dc5a3c604ebd7afda911edfb6a37ead8b631e54de4b3c4c7054bacd",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "native-mobile-interaction-testing",
+      "authorDisposition": "refine",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "b3b258fca1636f5d401b27ac051851f002c88580aa4f237eef68ce0f530d0489",
+      "candidateEntrypointSha256": "0b2f0175201eae491d62bf868771bb9cd79352ebc8249c52b99f57898ab46227",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": true,
+      "retainedByteIdentity": null,
+      "reviewReason": "The chosen cases must falsify the affected interaction, with pending-work cleanup retained for async owners; installed-major API checks are unchanged.",
+      "retainedMechanisms": [
+        "Version-specific async render/event semantics",
+        "Accessible queries and side-effect-free waitFor",
+        "Mock/native/device evidence boundaries"
+      ],
+      "referencesRead": [],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/native-mobile-interaction-testing/skill.json",
+          "sha256": "f5618e9d35e18810edf177733af7e9088fe3bfc7c0e569ff79f22f526e178325",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "physics-constrained-numerical-validation",
+      "authorDisposition": "refine",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "83afefae2e0cb5fde9b7f719cc49e2bd6a80cad4a42591e212edf6799064cde1",
+      "candidateEntrypointSha256": "c5512e9c716c1ccf45e39d31373323b06703c8dd17038e26ddf17f554e036adb",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": true,
+      "retainedByteIdentity": null,
+      "reviewReason": "Only controls actually present require convergence studies; omitted or unexecuted layers receive explicit gaps, not invented passes.",
+      "retainedMechanisms": [
+        "Units/sign/frame and invariants/limiting cases",
+        "Independent control convergence and coupled attribution limits",
+        "Model-form/discretization/measurement and physical evidence separation"
+      ],
+      "referencesRead": [],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/physics-constrained-numerical-validation/skill.json",
+          "sha256": "0448c1bd34edb10c530c38fab790c68526b2e7d20a02669171dba189dff1dfd1",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "release-script-safety",
+      "authorDisposition": "retain",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "c5efb81bb955cd91bb0636e7de517ea61c0c347224534014d787dd85b5206d57",
+      "candidateEntrypointSha256": "c5efb81bb955cd91bb0636e7de517ea61c0c347224534014d787dd85b5206d57",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": false,
+      "retainedByteIdentity": true,
+      "reviewReason": "Retention is appropriate because preflight ordering, dry-run effect enumeration and partial/unknown recovery are the specific purpose, not generic ritual.",
+      "retainedMechanisms": [
+        "Pure preparation versus external adapters",
+        "Durable idempotent operation states",
+        "Interrupted/repeated/rollback witnesses and reconciliation"
+      ],
+      "referencesRead": [],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/release-script-safety/skill.json",
+          "sha256": "e0c7914cd7783812a7364b8a598bf19deac12f74b2f3c9afcea6882ad4c3a3f8",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "robotics-test-ladder",
+      "authorDisposition": "refine",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "71950c00335d7b2a0d9220118b9332bee042615712111ff6f9aa2efd02358c2a",
+      "candidateEntrypointSha256": "e316f375d1ded3f3f8d44b60739eab1f503f0fe338d41720f49d972c79261600",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": true,
+      "retainedByteIdentity": null,
+      "reviewReason": "Tier choice follows the defect and claim; numeric replay tolerance is allowed only as the declared contract, not as a substitute for promised bitwise replay.",
+      "retainedMechanisms": [
+        "Event-based message deadlines and invalid inputs",
+        "Replay/simulation/HIL/field evidence separation",
+        "Physical calibration/envelope/stop and human safety review"
+      ],
+      "referencesRead": [],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/robotics-test-ladder/skill.json",
+          "sha256": "f7e1bcd259ffd7d99af8980bfd51f6170033cf4242a4a0de6ed6c1d61772ab5e",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "scientific-surrogate-validation",
+      "authorDisposition": "retain",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "bb13e6221b81e3dd20d182014314bbf5021940e80c5793ad5492f85bf0e62642",
+      "candidateEntrypointSha256": "bb13e6221b81e3dd20d182014314bbf5021940e80c5793ad5492f85bf0e62642",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": false,
+      "retainedByteIdentity": true,
+      "reviewReason": "The unchanged method already rejects unavailable-at-decision features, isolates final evaluation from model/calibration selection and accounts for adaptive missing labels.",
+      "retainedMechanisms": [
+        "Feature origin/time before split",
+        "Grouped correlated cases and training-only transformations",
+        "Dedicated calibration and untouched outer scoring",
+        "Full adaptive-pool selection/observation accounting"
+      ],
+      "referencesRead": [],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/scientific-surrogate-validation/skill.json",
+          "sha256": "3b6a994dec49b0c90e2c9cb463c8d75ca3ffb297c2f6294eb0d85cf9824b5e23",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "sovereign-skill-refinery",
+      "authorDisposition": "refine",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "caac3fd18dd020810b8e67f0633773c430eba5a6fb4878209f73c0fc65b0306b",
+      "candidateEntrypointSha256": "3b129a831750723e0d42100d989ada2ed140481866ef8dc4e48865a7cea910c5",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": true,
+      "retainedByteIdentity": null,
+      "reviewReason": "The new established-pack route permits meaningful retention without erasing inert-source, rights or independent-review requirements; proposed cases stay proposed.",
+      "retainedMechanisms": [
+        "Neutral mechanism/use-no-use contract",
+        "Exact provenance and reviewed-resource binding",
+        "Separate proposed/inspected/executed evidence and adoption"
+      ],
+      "referencesRead": [
+        "product/skills/sovereign-skill-refinery/references/methods.md"
+      ],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/sovereign-skill-refinery/references/methods.md",
+          "sha256": "a27941002823eb36b462e93b73dfe45d14c91205b18a48366b50e5b3abc46a85",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/sovereign-skill-refinery/skill.json",
+          "sha256": "74312faea90f51a56aefdc6b6261afc4e350adf16cdbba2d199623dbce955e0f",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "structured-output-contracts",
+      "authorDisposition": "retain",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "0650ce7e3aaa652071cc53df6bc8d882fdf1f2359c0543a1b9e3e7d8bdafb668",
+      "candidateEntrypointSha256": "0650ce7e3aaa652071cc53df6bc8d882fdf1f2359c0543a1b9e3e7d8bdafb668",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": false,
+      "retainedByteIdentity": true,
+      "reviewReason": "Retention keeps parseable prefixes, duplicate keys, schema compliance and source-grounded meaning from being conflated with actual consumer acceptance.",
+      "retainedMechanisms": [
+        "Transport completion and bounded duplicate-aware parse",
+        "Strict types and source/request revision semantics",
+        "Bounded repair, enforced degraded state and idempotent effects"
+      ],
+      "referencesRead": [
+        "product/skills/structured-output-contracts/references/governed-vocabulary-validation.md"
+      ],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/structured-output-contracts/references/governed-vocabulary-validation.md",
+          "sha256": "e1b4f1a4b4cc9489dc665ae34e144531fda3b615d9eab5412a343817a6e962b2",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/structured-output-contracts/skill.json",
+          "sha256": "875a67254ad63a647885d210e14828b365a08bf99a7829f7e68063fb241a953e",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "terrain-watershed-analysis",
+      "authorDisposition": "refine",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "6ccbcc81b696b2050e8c6383b9a69eec0b2b3efbd0ed5f5b299db7981c0ebdea",
+      "candidateEntrypointSha256": "5e62dd5f892cb4fd8ed05b4be7bec099cc783cc92c3fd5aa5ce11a0d42dd9a96",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": true,
+      "retainedByteIdentity": null,
+      "reviewReason": "The branch clauses and corrected drainage-only acceptance sentence consistently permit slope or viewshed work without forcing sink/stream/outlet processing.",
+      "retainedMechanisms": [
+        "DTM/DSM/CHM meaning and compatible units/grid",
+        "Conditioning/stream threshold/outlet displacement sensitivity",
+        "Circular aspect, curvature/radius and visibility height/curvature controls"
+      ],
+      "referencesRead": [
+        "product/skills/terrain-watershed-analysis/references/terrain-operations.md"
+      ],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/terrain-watershed-analysis/references/terrain-operations.md",
+          "sha256": "e1d10f927d52154bdbf0963e479bb567856aeffabb3817df8a9689c481e10704",
+          "equalBaseline": true
+        },
+        {
+          "path": "product/skills/terrain-watershed-analysis/skill.json",
+          "sha256": "078e2c0fea4f018546e0072c5c02f6f62305fa8768ff7e480fd3e5bc49d00cd5",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "venture-falsification-and-planning",
+      "authorDisposition": "refine",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "f465ba4b35d09b2cbd3c9a8b64d877f1230bbb4c3668a00100bc5763f41a0eff",
+      "candidateEntrypointSha256": "7b6b75a9f8a76f0101d58cc6fa91a57839c40163685a081af108ce8710f66a90",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": true,
+      "retainedByteIdentity": null,
+      "reviewReason": "Stage closure now concerns assumptions that control the declared decision, while untested next-stage risks remain visible and spending/contact authority is unchanged.",
+      "retainedMechanisms": [
+        "Dated evidence and ranked existential assumptions",
+        "Precommitted metrics, guardrails and null/inconclusive outcomes",
+        "Discovery/prototype/pilot/scale and human decision boundaries"
+      ],
+      "referencesRead": [],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/venture-falsification-and-planning/skill.json",
+          "sha256": "de985b2f08d7d56888c7e529756c019ecc72e6bc83a25145bb779e948ec0f17b",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "web-performance-optimization",
+      "authorDisposition": "retain",
+      "reviewDisposition": "READY",
+      "baselineEntrypointSha256": "9ae95c2503cd3800a9ad0dacc7190e52f613eaf08d92d8d1b2431e0e24399100",
+      "candidateEntrypointSha256": "9ae95c2503cd3800a9ad0dacc7190e52f613eaf08d92d8d1b2431e0e24399100",
+      "baselineCommitAndSnapshotMatch": true,
+      "assessmentAndVectorMatch": true,
+      "completeCandidateRead": true,
+      "baselineDiffInspected": false,
+      "retainedByteIdentity": true,
+      "reviewReason": "Retention keeps measured bottleneck isolation, warm/cache comparability, repeated distributions and real-flow regressions; a lab result still cannot become a field claim.",
+      "retainedMechanisms": [
+        "Trace/counterfactual bounded change",
+        "Tail budgets and preserved failed samples",
+        "Functional/visual/accessibility plus separate rollout evidence"
+      ],
+      "referencesRead": [],
+      "metadataResourceMembershipEqual": true,
+      "metadataResources": [
+        {
+          "path": "product/skills/web-performance-optimization/skill.json",
+          "sha256": "157c41109e4fd8e0a727fb11a193d57f987f10eed40a0235a66be563c69ae433",
+          "equalBaseline": true
+        }
+      ],
+      "findings": []
+    }
+  ],
+  "canonicalNonEntrypointVerification": [
+    {
+      "path": "product/skills/agricultural-observation-and-trial/skill.json",
+      "sha256": "ee6e741e16650be93fcb245c8e2f75edf135d2ea79bdef29dfe184c56cdb933f",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/app-store-discovery-experiments/skill.json",
+      "sha256": "339762bee9feb3a7c55db745b80dd68b819be86fe036abb3e67736d4bef3e757",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/audio-dsp-integrity-review/skill.json",
+      "sha256": "c7f05ff43b354c2a79812ee8cbca9c833bfa9db7fe92ffdc2e4eca4d724adec9",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/bounded-service-shutdown/skill.json",
+      "sha256": "5e8d0f21e8d996087b573e53cbbd7ca3ff4e06fdadb0c7b276bc0e5da2a75f97",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/cashflow-forecast-scenario-integrity/skill.json",
+      "sha256": "6792423b54ff667e97bbe3acb6e7825f1c522a37fe9507f29f86fed926dc8bac",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/completeness-and-consistency-audit/references/coverage-template.md",
+      "sha256": "afb14dd68fe0735479deead5dcfb8dc4d71d6f4d8a36a5e7246afa73fea21340",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/completeness-and-consistency-audit/references/worked-audits.md",
+      "sha256": "dc8977704eb24d273dbc010a7ae1ea800efaa2c2df63622996a185fab6b906da",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/completeness-and-consistency-audit/skill.json",
+      "sha256": "da1004f5dc182e69ecf6b0324c29e3c2734639269be7f583814a6da0afc911ed",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/counterbalanced-agent-evaluation/skill.json",
+      "sha256": "e9e1963c49e735a281788279bf6cb5cc89c76b414e04b59fab79be25b33ef6bf",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/diagnostic-statistical-model-inference/skill.json",
+      "sha256": "e458a6c1db05c5aebcd1d34ec224d57ac8b2501ee54589e9880cfc452a822022",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/ecological-sampling-and-detection-uncertainty/references/sampling-and-detection-records.md",
+      "sha256": "5726960dd5072aa93919e1a600898bec7b16b06b3fb38cd89fd6fb0d8cddca5f",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/ecological-sampling-and-detection-uncertainty/skill.json",
+      "sha256": "b99dad708acef989811c6315532284ca70b1f1fa44d7c4473e7004f310d7a18c",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-agora/references/business-decision-evidence.md",
+      "sha256": "9effd0372e4be72da4d9fdcd454e5b4c3ea313764f118f429b175e103f4ec188",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-agora/references/methods.md",
+      "sha256": "a2df40b3388c5c4565c1d11276af478cf4e2b432a1551dcda5a94977f3daf1af",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-agora/references/research-funding-proposal.md",
+      "sha256": "6bd7d41a9af3b40dc041ffeab73b8f692aba16910f4c72253e090ba451eee322",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-agora/skill.json",
+      "sha256": "a59a8eee96b38029b3df31f564fb312b39f44a0716ad0b44f4fbdbaa89a8393f",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-architect/references/methods.md",
+      "sha256": "1873d742426d274e5b78bd10d24bdb67003e725e641dd4789766bfb0ca234b73",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-architect/skill.json",
+      "sha256": "8952a21e1bf43fe6e64498c17c9400bfeb8d5e8be9f8913d9dda6e4a84108a13",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-atlas/references/connector-discovery.md",
+      "sha256": "97c83c5bb00914211d05eb784e1ff42efe5efa24cd1e4f1d9ec21d793c26a003",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-atlas/references/methods.md",
+      "sha256": "1a6fa9ab8a21ce37de2c9dd909f4156889510faf08292a583fe577a7fdb79d14",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-atlas/references/pareto-frontier-decision.md",
+      "sha256": "5323c0c99785866c3552c6131dab44d46459d1cd955f3acea66bb918b3439e2e",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-atlas/references/serving-time-ranking-decision-trace.md",
+      "sha256": "4a4ed718c0879126b1d30cf9c2f2c5f469cbe730e72d4103e9784ee5a7c5a496",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-atlas/references/simulation-artifact-handoff.md",
+      "sha256": "449846960aef9c0b59b7671b3e39a30541e48447d4cf023d607747a3587679b0",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-atlas/resources/pareto/example-input.json",
+      "sha256": "4c15e7742b85489884ed9863b16f8c5ccc5db24043ecfeaa7d6b6ab7b1879ed8",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-atlas/resources/pareto/frozen-independent-fixtures.json",
+      "sha256": "62460bdc01a6e808a09463795178a9f6ff7abfc619e436897dddc60d38c75add",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-atlas/resources/pareto/oracle.test.mjs",
+      "sha256": "50168e3406ecd3dce4130eaf55b40283d3ef2a25acc67a5819a0e4542d699c7f",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-atlas/resources/pareto/package-self-containment.test.mjs",
+      "sha256": "6711b15d4cf2272822a19ba0c44c392add025a001861e8e6b75950c153bd8c46",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-atlas/resources/pareto/pareto-gate.mjs",
+      "sha256": "0a2a3988fe59b5b3d2ae19e5fd5f22314b4111533b7ea28365c6e5c4a7ff8806",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-atlas/resources/pareto/pareto-oracle.mjs",
+      "sha256": "c8688c5c9f2f607c8f024851a74933f784dc6b25db7d81456a24c5951999c18f",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-atlas/resources/pareto/restrict-sibling-reads.mjs",
+      "sha256": "418a042717c522ed7a6577ace0da21329f0bec79f5bbf4c2e4ddac9d18d1960d",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-atlas/resources/pareto/verify-output-v1.mjs",
+      "sha256": "46d3029e3ddb19818e16d46011baa70a6c0c65500fb42cf6774a9a9739b1b4ca",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-atlas/resources/pareto/verify-output-v1.test.mjs",
+      "sha256": "bb0ec9748eacc9ea2061466cb33d132f105ceb299423010956d3265915615306",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-atlas/skill.json",
+      "sha256": "c270415abbe6769fdc5ce7362c5569735ba907bfffb5a2f0da304a1e839de77d",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-chorus/references/methods.md",
+      "sha256": "18c1463e075a373f09e1dd6b6279ba33a44d6108a0ffb51786721e4d1b9174e7",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-chorus/references/stakeholder-updates.md",
+      "sha256": "02abdb2d7e61dc08579003d4f6b2f48bb6f4b0aacd16e4eaaa81abc5d3e6554f",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-chorus/skill.json",
+      "sha256": "a282595b4593847fdd9a7c7e4ddc426a5da17095fbadec4065c39102efa6fe91",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-forge/references/methods.md",
+      "sha256": "4e25671091310043e92358182918bfa32eefe08b34508f6d1cd6e4418ac45db5",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-forge/skill.json",
+      "sha256": "af03b86ab49cac6e9ae4fd2f13bc7bfca9b563e66a6dcaded46d118ef8713fec",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-herald/references/methods.md",
+      "sha256": "ed5209dafb316cc67b213f1babdfb03d24642bedc59ad83e88512304175fa7f4",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-herald/skill.json",
+      "sha256": "7f2e25ea6b271272e2be463f2ae8322137f72266e937cf452c5abd38e23944d7",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-logos/references/methods.md",
+      "sha256": "a79d6f724763afab227f6d9d347b2dad51031eefa1303284466df2eda8492ce3",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-logos/references/staged-literature-synthesis.md",
+      "sha256": "ce55918cf0966beab0c4103a8cc2de69c517c7581c22320bfa2009d86b145c78",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-logos/skill.json",
+      "sha256": "f086c026d19a06946e5b84d7642c98bd43dc7acd72bcb4b274f8ca9263902d4e",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-muse/references/methods.md",
+      "sha256": "44cdaae8e34b83f69c8253f1cb61b4ed3c1af5548e58ef59d4f7e28df7e46b89",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-muse/skill.json",
+      "sha256": "640b33587d3f648552be317b1f436e1ce26ccb7a78c40bed507c33d7dd795a2a",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-oracle/references/methods.md",
+      "sha256": "ab1f3e8a23fa5929bcf8d25c119e25a275ffc752a119eb37cc9e9da78d339950",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-oracle/skill.json",
+      "sha256": "ca73ebc6b2b8d7c1adcc00f74aa2fb28ad3705c4f1b7727024656dffcd5c23b0",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-phoenix/references/methods.md",
+      "sha256": "aa9a1fefeb9e0ca5107f0b5fb3e3a97cf647c748b91922e3b3303c8bc90c8ebc",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-phoenix/references/reproducible-bug-packets.md",
+      "sha256": "74059bb30b6af5289b661e93deac1ca7cd9d89bbc4ad0362d8c01b39d7333120",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-phoenix/references/trace-to-evaluation-cases.md",
+      "sha256": "57fe450be2791fe0e697663b49df5c6ed1c22ea6f8a94d9efa84cead1d2e1560",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/eternities-phoenix/skill.json",
+      "sha256": "13613f7882a7c7295945c73f9dac1609496d4391987697e581272b827805838c",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/references/educational-microsimulation.md",
+      "sha256": "4f42471a7b33b9af45203a54eb82a3c95c6c19106446e0b9097006daff2f3b2e",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/references/handoffs-and-reporting.md",
+      "sha256": "8722eaf7532007db27228e1b699fc0835cf46229a605801fb5cdc154924e870c",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/references/support-transition.md",
+      "sha256": "470484b186df4978ec4c5e817990d25c0a2ad200dbf6ef1bea6441f43372d954",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/skill.json",
+      "sha256": "d822c1a6d8c83f1c2fc1538b75982087dc1325540b11e099d7b8e7427766f75c",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/financial-statement-reconciliation/skill.json",
+      "sha256": "b642f8dfe7feca2f4ee412af16fe78f4d546cfe3c00acd2f292cd7c66e14b68f",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/fp-ts-functional-refactoring/skill.json",
+      "sha256": "53ecbd37e67e9fef211bb354da67e0b4114eda737f900792d1361facc0a85ae9",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/geospatial-coordinate-integrity/references/vertical-and-surface-comparability.md",
+      "sha256": "31b73d5ff157bd1d32a729d442ad0d6d6400cb5d4c0d6c5736c4e2cde8961d62",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/geospatial-coordinate-integrity/skill.json",
+      "sha256": "ff7a9264006771ae6d4cb3e1d0a25a94bd7aea39dd5433ccf70c0c4b2371b318",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/infrastructure-plan-apply-isolation/skill.json",
+      "sha256": "b29076c87709fad9c6cf0219b0f3650e14c4728d8fff0a5f6a2ebe3ccfffaecb",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/interface-localization-and-bidirectionality/skill.json",
+      "sha256": "3e927eae13bb5d25370f6291478a6b3aa5d4c10566462ac036a0333ad4bedf03",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/invariant-guard/skill.json",
+      "sha256": "77e8ffe06ad0ef408e40f7bd2eaf21fa8a670d6886bd3b2a2a7e73ea4aaec35f",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/landscape-connectivity-analysis/references/connectivity-operations.md",
+      "sha256": "dcf15931b1588968bcd707b278124815acd30ef4b2c5be3785ea07137b568425",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/landscape-connectivity-analysis/skill.json",
+      "sha256": "0038f2d442ecaea04d8fcb82fdd4bb2634b2142dd5a5c1c5ad843b7bd79a9882",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/references/continuity-packet.md",
+      "sha256": "224245f7beb6f1ab8266a68636e47723926ab760886771d47df49e1e70e33311",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/references/interruption-cases.md",
+      "sha256": "a922ecdc7620b3df8c7270ec0ec7e736e315af9a1582e6ed880c30276e702cc6",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/references/uncertain-effect-recovery.md",
+      "sha256": "a12fcc1b51a85bcaa392fbc534ba3be74bd6aef184019ca78774e6615d8f8f7f",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/skill.json",
+      "sha256": "5fa7b436fa35069441e9d690c3cd82b4e8ecc16e6aa72c8661d5c0cd79d273d2",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/references/examples.md",
+      "sha256": "e85739b8e8e517545d5862200f78e442dc23f59284f2e74751c7c39af8e5ece2",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/skill.json",
+      "sha256": "d430c9842dc5a3c604ebd7afda911edfb6a37ead8b631e54de4b3c4c7054bacd",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/native-mobile-interaction-testing/skill.json",
+      "sha256": "f5618e9d35e18810edf177733af7e9088fe3bfc7c0e569ff79f22f526e178325",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/physics-constrained-numerical-validation/skill.json",
+      "sha256": "0448c1bd34edb10c530c38fab790c68526b2e7d20a02669171dba189dff1dfd1",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/release-script-safety/skill.json",
+      "sha256": "e0c7914cd7783812a7364b8a598bf19deac12f74b2f3c9afcea6882ad4c3a3f8",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/robotics-test-ladder/skill.json",
+      "sha256": "f7e1bcd259ffd7d99af8980bfd51f6170033cf4242a4a0de6ed6c1d61772ab5e",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/scientific-surrogate-validation/skill.json",
+      "sha256": "3b6a994dec49b0c90e2c9cb463c8d75ca3ffb297c2f6294eb0d85cf9824b5e23",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/sovereign-skill-refinery/references/methods.md",
+      "sha256": "a27941002823eb36b462e93b73dfe45d14c91205b18a48366b50e5b3abc46a85",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/sovereign-skill-refinery/skill.json",
+      "sha256": "74312faea90f51a56aefdc6b6261afc4e350adf16cdbba2d199623dbce955e0f",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/structured-output-contracts/references/governed-vocabulary-validation.md",
+      "sha256": "e1b4f1a4b4cc9489dc665ae34e144531fda3b615d9eab5412a343817a6e962b2",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/structured-output-contracts/skill.json",
+      "sha256": "875a67254ad63a647885d210e14828b365a08bf99a7829f7e68063fb241a953e",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/terrain-watershed-analysis/references/terrain-operations.md",
+      "sha256": "e1d10f927d52154bdbf0963e479bb567856aeffabb3817df8a9689c481e10704",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/terrain-watershed-analysis/skill.json",
+      "sha256": "078e2c0fea4f018546e0072c5c02f6f62305fa8768ff7e480fd3e5bc49d00cd5",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/venture-falsification-and-planning/skill.json",
+      "sha256": "de985b2f08d7d56888c7e529756c019ecc72e6bc83a25145bb779e948ec0f17b",
+      "equalCommit": true
+    },
+    {
+      "path": "product/skills/web-performance-optimization/skill.json",
+      "sha256": "157c41109e4fd8e0a727fb11a193d57f987f10eed40a0235a66be563c69ae433",
+      "equalCommit": true
+    }
+  ],
+  "methodAndReviewBindings": [
+    {
+      "path": "product/METHODS.v1.json",
+      "sha256": "412b4272987b119ba3edf1a9df44aeb75d6b372a90f1bdeabe92c5834bd5265d",
+      "equalBaseline": true
+    },
+    {
+      "path": "product/skills/eternities-hermes/references/cursor-paged-task-messages.md",
+      "sha256": "b3135e20f4ff67b3ac5593536eb4b14b59ff3d96608dc26090a6181862e6e2da",
+      "equalBaseline": true
+    },
+    {
+      "path": "product/evidence/method-reviews/conditional-v1/receipt.json",
+      "sha256": "4b9860fa7d8020d819a0d522303194e8f8b593fd02794469b16799ba162d630b",
+      "equalBaseline": true
+    },
+    {
+      "path": "product/evidence/method-reviews/conditional-v1/review.md",
+      "sha256": "f6662e866e788e8a99c398d4632dd2e8e582fb606908bf57353e49ad5e9c57fd",
+      "equalBaseline": true
+    },
+    {
+      "path": "product/skills/eternities-hermes/references/truthful-cli-progress.md",
+      "sha256": "d9bd1ebfd44178a4d33f0d1150b460aa4d6fa564177ea0ded1577ce4123c936c",
+      "equalBaseline": true
+    },
+    {
+      "path": "product/skills/symbolic-mathematics-python/references/source-grounded-math-specification.md",
+      "sha256": "edbbb063b3550619cfe216db64a96611c14839fcf61e2f24f13ca9d2ecebdb20",
+      "equalBaseline": true
+    },
+    {
+      "path": "product/skills/eternities-daedalus/references/optional-model-scenarios-ci.md",
+      "sha256": "982db0a3b6811f7b7fde0fa6b31e06e3df0ed86bbf9dc9826209dc52877b61d8",
+      "equalBaseline": true
+    },
+    {
+      "path": "product/evidence/method-reviews/daedalus-v1/receipt.json",
+      "sha256": "a0b2a8ac4611c327a40517cc588079d79cb4402416b14fd8c7f512cab6b373b0",
+      "equalBaseline": true
+    },
+    {
+      "path": "product/evidence/method-reviews/daedalus-v1/review.md",
+      "sha256": "4e945d60805c10be19a8d0a8e8f974e7d75a3968a9dd7dc60e13a820e6ae10ed",
+      "equalBaseline": true
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/game-state-to-audio-cue.md",
+      "sha256": "f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f",
+      "equalBaseline": true
+    },
+    {
+      "path": "product/evidence/method-reviews/arcadia-v2/receipt.json",
+      "sha256": "fceb06922f496de2e2861725f25a3e9d3e24a5840cbe9c68e613099d9b2fed57",
+      "equalBaseline": true
+    },
+    {
+      "path": "product/evidence/method-reviews/arcadia-v2/review.md",
+      "sha256": "150a4011cdec776e5a25268d413bf18381a6a13bb770bc3cb630fe4c55c5f5ff",
+      "equalBaseline": true
+    },
+    {
+      "path": "product/skills/eternities-atlas/references/serving-time-ranking-decision-trace.md",
+      "sha256": "4a4ed718c0879126b1d30cf9c2f2c5f469cbe730e72d4103e9784ee5a7c5a496",
+      "equalBaseline": true
+    },
+    {
+      "path": "product/evidence/method-reviews/atlas-v3/receipt.json",
+      "sha256": "d6acb24533810b956f05ef8aa9f72ca9caba40a83e5ac5992b97664cdff9ffa4",
+      "equalBaseline": true
+    },
+    {
+      "path": "product/evidence/method-reviews/atlas-v3/review.md",
+      "sha256": "92c5232b86ff42e4ffe20da76da5e9f42cc102234fee015b2decf1c5e484210c",
+      "equalBaseline": true
+    },
+    {
+      "path": "product/skills/eternities-oracle/references/methods.md",
+      "sha256": "ab1f3e8a23fa5929bcf8d25c119e25a275ffc752a119eb37cc9e9da78d339950",
+      "equalBaseline": true
+    },
+    {
+      "path": "product/skills/eternities-mnemosyne/references/methods.md",
+      "sha256": "9b3bff3a805b833a4e3d72495382efab8b99e31a0719178a17f03ed4aca02d86",
+      "equalBaseline": true
+    }
+  ],
+  "protectedFiles": [
+    {
+      "path": "src/adaptive-activation.mjs",
+      "sha256": "9844aee1147f7129f3e37067424ccebb88ff478de1b7a9a9fb7306d5f2fdbd82",
+      "expectedSha256": "9844aee1147f7129f3e37067424ccebb88ff478de1b7a9a9fb7306d5f2fdbd82",
+      "verified": true
+    },
+    {
+      "path": "policies/adaptive-activation.v1.json",
+      "sha256": "b87bbfaddecb42417e57202173220bf240204d27b7de5fffc9e609eb18138939",
+      "expectedSha256": "b87bbfaddecb42417e57202173220bf240204d27b7de5fffc9e609eb18138939",
+      "verified": true
+    },
+    {
+      "path": "artifacts/adaptive-activation/evidence.v1.json",
+      "sha256": "b55a5cb4f7ff039cc7f4027c165b2f151bad723d9030913076a4225342fbe8c5",
+      "expectedSha256": "b55a5cb4f7ff039cc7f4027c165b2f151bad723d9030913076a4225342fbe8c5",
+      "verified": true
+    }
+  ],
+  "completeReferenceReads": [
+    "product/skills/completeness-and-consistency-audit/references/coverage-template.md",
+    "product/skills/completeness-and-consistency-audit/references/worked-audits.md",
+    "product/skills/ecological-sampling-and-detection-uncertainty/references/sampling-and-detection-records.md",
+    "product/skills/eternities-agora/references/business-decision-evidence.md",
+    "product/skills/eternities-agora/references/methods.md",
+    "product/skills/eternities-agora/references/research-funding-proposal.md",
+    "product/skills/eternities-architect/references/methods.md",
+    "product/skills/eternities-atlas/references/connector-discovery.md",
+    "product/skills/eternities-atlas/references/methods.md",
+    "product/skills/eternities-atlas/references/pareto-frontier-decision.md",
+    "product/skills/eternities-atlas/references/serving-time-ranking-decision-trace.md",
+    "product/skills/eternities-atlas/references/simulation-artifact-handoff.md",
+    "product/skills/eternities-chorus/references/methods.md",
+    "product/skills/eternities-chorus/references/stakeholder-updates.md",
+    "product/skills/eternities-forge/references/methods.md",
+    "product/skills/eternities-herald/references/methods.md",
+    "product/skills/eternities-logos/references/methods.md",
+    "product/skills/eternities-logos/references/staged-literature-synthesis.md",
+    "product/skills/eternities-muse/references/methods.md",
+    "product/skills/eternities-oracle/references/methods.md",
+    "product/skills/eternities-phoenix/references/methods.md",
+    "product/skills/eternities-phoenix/references/reproducible-bug-packets.md",
+    "product/skills/eternities-phoenix/references/trace-to-evaluation-cases.md",
+    "product/skills/evidence-linked-learning-design/references/educational-microsimulation.md",
+    "product/skills/evidence-linked-learning-design/references/handoffs-and-reporting.md",
+    "product/skills/evidence-linked-learning-design/references/support-transition.md",
+    "product/skills/geospatial-coordinate-integrity/references/vertical-and-surface-comparability.md",
+    "product/skills/landscape-connectivity-analysis/references/connectivity-operations.md",
+    "product/skills/long-horizon-work-continuity/references/continuity-packet.md",
+    "product/skills/long-horizon-work-continuity/references/interruption-cases.md",
+    "product/skills/long-horizon-work-continuity/references/uncertain-effect-recovery.md",
+    "product/skills/memory-retention-and-recovery/references/examples.md",
+    "product/skills/sovereign-skill-refinery/references/methods.md",
+    "product/skills/structured-output-contracts/references/governed-vocabulary-validation.md",
+    "product/skills/terrain-watershed-analysis/references/terrain-operations.md"
+  ],
+  "findings": [],
+  "blockedResourceChanges": [],
+  "testsExecuted": [],
+  "limits": [
+    "All39 bodies and35 text references inspected;83 other files exact against snapshot and canonical commit.",
+    "Existing Pareto code and tests hash-preserved, not newly executed or code-qualified.",
+    "No proposed author cases or profile-wide routing evaluation executed in this document review.",
+    "No claims of domain validity, source-rights clearance, deployment or universal runtime superiority.",
+    "Host instructions and prior authoring context persist; review is not blind/raw/matched.",
+    "Parent owns integration and release. No product, metadata, tests or historical evidence edits."
+  ]
+}

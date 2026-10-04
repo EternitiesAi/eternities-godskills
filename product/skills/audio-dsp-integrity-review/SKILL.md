@@ -7,9 +7,11 @@ description: Use when supplied audio DSP code or a signal graph needs evidence-l
 
 Use this entrypoint for a structured review of an audio callback, plugin processing path, render graph, filter, feedback network, or sidechain. Keep deadline safety, numeric integrity, and signal-graph integrity as separate evidence lanes; a finding in one lane does not close another.
 
+Select lanes from the acceptance question and the reachable path. A suspected sidechain latency error needs graph and timing evidence; an offline coefficient check need not become a realtime scheduling audit. Record unassessed lanes when reporting broader integrity. Ordinary clip editing, composition or subjective listening does not require this code-review method.
+
 ## Establish the boundary
 
-Record the realtime or render entrypoint, reachable source scope, sample rate, frames per buffer, channel layout, host assumptions, block contract, and acceptance question. Compute the nominal callback interval from the supplied rate and buffer size, but label it as a budget rather than measured headroom. Build a transitive call map and a directed graph from sources through processors, routers, controls, and sinks. Mark missing code, dynamic dispatch, host compensation, undocumented edges, and unknown threading as unresolved.
+Record the realtime or render entrypoint, reachable source scope, sample rate, frames per buffer, channel layout, host assumptions, block contract, and acceptance question. For deadline review, compute the nominal callback interval from the supplied rate and buffer size, labeling it as a budget rather than measured headroom, and trace transitive calls. For routing, latency or feedback review, map the relevant directed signal graph from sources through processors, routers, controls and sinks. Expand either map when an edge can affect the finding. Mark missing code, dynamic dispatch, host compensation, undocumented edges, and unknown threading as unresolved.
 
 ## Inspect the three lanes
 
@@ -19,7 +21,7 @@ Record the realtime or render entrypoint, reachable source scope, sample rate, f
 
 ## Findings and finish
 
-For every finding return lane, severity, status (confirmed, conditional, or unresolved), exact file/line/call/edge evidence, violated contract, consequence, smallest safe remedy or implementation handoff, and verification needed to close it. End with one verdict per lane, a remediation order, residual uncertainty, and a proof boundary.
+For each material finding return lane, severity, status (confirmed, conditional, or unresolved), exact file/line/call/edge evidence, violated contract, consequence, smallest safe remedy or implementation handoff, and verification needed to close it. Give a verdict for each assessed lane and identify omitted lanes; order remediation when findings interact. A narrow finding can use a short review note rather than a separate ledger.
 
 Static review can guide an authorized code change, but it does not silently mutate code, prove glitch-free execution, prove audible quality, or certify a DAW, driver, device, plugin format, or production host. Close the review when all reachable evidence is classified or missing source prevents further analysis.
 

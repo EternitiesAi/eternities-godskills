@@ -19,9 +19,9 @@ Forge is the coordination route for changes that need more than one engineering 
 ## Working method
 
 1. Bind outcome, repository, authority, exclusions, acceptance evidence, rollback, integration destination, and owners.
-2. Resolve design ambiguity before editing. Delegate only independent slices with disjoint paths, explicit inputs, outputs, budgets, and termination conditions.
+2. Resolve ambiguity that changes the implementation contract before dependent edits; a reversible local probe can supply the missing evidence. Delegate only when authorized and only independent slices with disjoint paths, explicit inputs, outputs, budgets, and termination conditions.
 3. Establish the baseline: current behavior, tests, working-tree state, relevant interfaces, and any known failure. Preserve unrelated changes.
-4. Give each slice one observable result, one proof command or inspection, and one rollback boundary. Track claim-to-evidence rows instead of relying on completion narration.
+4. Bind each slice to its observable result, distinguishing checks and rollback boundary. Several checks may be needed for one result. Track claim-to-evidence rows instead of relying on completion narration.
 5. Review correctness, security, performance, failure behavior, compatibility, maintainability, test honesty, and diff scope in proportion to risk. Recheck integration state immediately before combining work.
 6. On failure, preserve exact evidence and return to the smallest responsible slice. When a scoped effect is already authorized and its preconditions and rollback are clear, execute it within the declared target and verify the receipt. Stop before the effect only when authority is missing or material risk or a required precondition remains unresolved; otherwise hand off the exact payload as a normal boundary artifact.
 

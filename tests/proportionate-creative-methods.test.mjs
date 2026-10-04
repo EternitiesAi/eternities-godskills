@@ -6,8 +6,10 @@ const read = path => readFile(new URL('../product/skills/' + path, import.meta.u
 
 test('Beacon gates experimental machinery on a measurement question, not ordinary copy', async () => {
   const body = await read('eternities-beacon/SKILL.md');
-  assert.match(body, /For measurement, experiment, optimization, or market-performance decisions/);
-  assert.match(body, /Ordinary factual copy or positioning needs a claim ledger, not an invented experiment/);
+  assert.match(body, /For measurement or market.performance interpretation, define metrics, eligible populations, denominators, windows, missingness, and attribution limits/);
+  assert.match(body, /For a prospective intervention or optimization test, also predeclare baseline, intervention, primary and guardrail metrics, confounders, stop rule, and learning decision/);
+  assert.match(body, /Existing cohort reporting need not invent an experiment/);
+  assert.match(body, /Ordinary factual copy or positioning needs traceable claims/);
   assert.match(body, /metric definitions when applicable/);
   assert.match(body, /Never fill a sparse record with invented customer language/);
 });

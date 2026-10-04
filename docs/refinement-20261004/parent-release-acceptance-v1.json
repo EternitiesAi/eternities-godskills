@@ -1,0 +1,39 @@
+{
+  "schema": "godskills-parent-release-acceptance-v1",
+  "releaseId": "f186d19e06bd54bca3d71e1844866ac181c0bdfc3720a5e6037295402e6cc744",
+  "scope": "All 77 current portable entrypoints, supporting methods, discovery and composition; not source-quarry completion",
+  "reviews": [
+    {
+      "kind": "A",
+      "path": "docs/refinement-20261004/cohort-A-independent-review-v1.json",
+      "sha256": "beb461427f452d0023192f7c595e83f13508bcc69579a9b99ba3bf9b0e007b87"
+    },
+    {
+      "kind": "B",
+      "path": "docs/refinement-20261004/cohort-B-independent-review-v2.json",
+      "sha256": "12e0370daf37a584a6b09d869af1584757a92e0b1a3ef1e5a45632bdeac66293"
+    },
+    {
+      "kind": "code",
+      "path": "docs/refinement-20261004/parent-code-review-v4.json",
+      "sha256": "56a3cfd80c8426d34a9a53353142ca2e4dc94d709d88438cf2a67ef38eb68f0b"
+    }
+  ],
+  "reviewedEntrypoints": 77,
+  "reviewedParentInputs": 9,
+  "reviewBindingStatus": "exact-current-bytes",
+  "fullSuite": {
+    "registered": 1638,
+    "passed": 1636,
+    "failed": 0,
+    "skipped": 2,
+    "logSha256": "b378c15cf143283081df0da27ad2f7821bab8bddbe3f730dc51cd3952ea6c845"
+  },
+  "consumerTasks": 6,
+  "consumerChecks": 29,
+  "limits": [
+    "Non-blinded instruction/code reviews and bounded text applications, not a matched raw-agent performance trial",
+    "No new domain outcome, fresh-OS, native-UI enumeration, token/cache or latency certification",
+    "Frozen source-quarry R10 remains unapplied: 49514 open obligations and 163 conflicts"
+  ]
+}

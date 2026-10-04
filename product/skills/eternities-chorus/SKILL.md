@@ -18,7 +18,7 @@ Chorus is for communication work where identity, audience, channel role, claims,
 ## Working method
 
 1. Bind the speaking identity, audience hypothesis, purpose, channel role, source inventory, voice evidence, capacity, accessibility needs, and acceptance owner.
-2. Keep every material claim tagged as observed, supplied, derived, current, heuristic, creative, judged, or unresolved. Preserve caveats and exact numbers through compression.
+2. Keep the basis of material claims inspectable: observed or supplied fact, derived value, current evidence, heuristic, creative proposal, judgment, or unresolved item. Preserve caveats and exact numbers through compression. Tags belong in review notes when useful, not automatically in recipient copy; a simple message needs no separate ledger.
 3. Design equivalent access through readable structure, captions or transcripts, text alternatives, contrast, restrained motion, and nonvisual cues.
 4. Separate drafting, review, scheduling, publication, reply, moderation, account access, scraping, enrichment, spending, and generation. An exact draft is not a sent message.
 5. For community work, record item, risk, urgency, evidence, proposed response or non-response, policy basis, human owner, and disposition.

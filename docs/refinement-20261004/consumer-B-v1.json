@@ -1,0 +1,156 @@
+{
+  "schema": "godskills-consuming-application-v1",
+  "consumer": "author-B applying cohort-A skills",
+  "baselineCommit": "dc704536875cda166f7ab784bce28f3c2b54ae0c",
+  "qualificationPlan": {
+    "path": "C:/Users/Dom/.codex/operations/godskills-refinement-20261004/qualification-plan.json",
+    "sha256": "b7d6df5dd307a97f1f9000d2fee4d085e073d1689c372658184c458c0dfe85f2"
+  },
+  "cohortReview": {
+    "path": "docs/refinement-20261004/cohort-A-independent-review-v1.md",
+    "sha256": "a19f8a7e525eed47aa2831425509840ae356afea76777d0526ea5173f8cb1d6a"
+  },
+  "cases": [
+    {
+      "id": "finance-available-cash",
+      "skill": "cashflow-forecast-scenario-integrity",
+      "entrypointPath": "product/skills/cashflow-forecast-scenario-integrity/SKILL.md",
+      "entrypointSha256": "d2b85835f46ac7aba103a43d5ee6eb9ccfe2970f3d17a690e8e9a01fa655a66e",
+      "completeEntrypointRead": true,
+      "request": "Build a two-week cash forecast in USD. Opening cash is 1000. Week 1 includes a confirmed customer payment of 600 and payroll of 900. An unsigned 800 sale may pay in week 2; confirmed week-2 rent is 500. Show confirmed-only closing cash and an explicitly conditional scenario. Do not turn the unsigned sale into a receivable or silently include it in the base case.",
+      "literalOutput": "Confirmed-only closing cash is USD 700 after week 1 and USD 200 after week 2. These are cash balances from the supplied events; no credit facility, reserve policy or restriction has been assumed.\n\n| Scenario | Week | Opening cash | Cash receipts | Cash payments | Closing cash |\n| --- | --- | ---: | ---: | ---: | ---: |\n| Confirmed only | 1 | 1,000 | 600 customer payment | 900 payroll | 700 |\n| Confirmed only | 2 | 700 | 0 confirmed receipts | 500 rent | 200 |\n| Conditional sale collected | 1 | 1,000 | 600 customer payment | 900 payroll | 700 |\n| Conditional sale collected | 2 | 700 | 800 conditional collection | 500 rent | 1,000 |\n\nThe conditional scenario assumes the unsigned opportunity becomes a sale and its full USD 800 is actually collected in week 2. It is not a receivable, confirmed cash or part of the base forecast. If that collection does not occur, the confirmed-only closing balance remains USD 200.\n\nThe sole scenario change is the week-2 USD 800 receipt: week-2 net cash movement changes from −500 to +300, and week-2 closing cash rises by 800. Week 1 is unchanged. Exact intraweek dates and cash restrictions were not supplied, so this weekly ladder does not establish daily timing or unrestricted liquidity.",
+      "executionMode": "host-native forward consuming application",
+      "checks": [
+        {
+          "check": "Confirmed-only week 1 closes at 700",
+          "observation": "Addressed in the literal output; author inspection, not independent scoring"
+        },
+        {
+          "check": "Confirmed-only week 2 closes at 200",
+          "observation": "Addressed in the literal output; author inspection, not independent scoring"
+        },
+        {
+          "check": "Conditional sale scenario week 2 closes at 1000",
+          "observation": "Addressed in the literal output; author inspection, not independent scoring"
+        },
+        {
+          "check": "Unsigned sale kept separate from confirmed cash",
+          "observation": "Addressed in the literal output; author inspection, not independent scoring"
+        }
+      ],
+      "externalActionsExecuted": false
+    },
+    {
+      "id": "science-feature-and-calibration",
+      "skill": "scientific-surrogate-validation",
+      "entrypointPath": "product/skills/scientific-surrogate-validation/SKILL.md",
+      "entrypointSha256": "bb13e6221b81e3dd20d182014314bbf5021940e80c5793ad5492f85bf0e62642",
+      "completeEntrypointRead": true,
+      "request": "Review this scientific prediction claim, without training anything: a predictor at trial admission uses severity measured at discharge; random row split puts repeat visits from one patient in both train and test; interval width was selected by looking at that same test set. The authors report 95% coverage. Tell them which claim is invalid, what can still be reported, and the smallest valid redesign.",
+      "literalOutput": "The claim of valid admission-time predictive performance with independently established 95% interval coverage is unsupported by this evaluation. There are three distinct failures:\n\n1. Discharge severity is unavailable at trial admission. Using it is look-ahead leakage even if it exists in every row. The admission-time estimate must be rebuilt without it; a different post-discharge task would need its own declared target and evaluation.\n2. Repeat visits from one patient cross the random train/test split. This defeats an independent-patient test and can leak patient-specific information. Keep all correlated visits for a patient together; if the intended claim is about future admissions, also respect the relevant time boundary.\n3. Interval width was selected using the final test outcomes. That set is now selection/calibration data, not untouched final evidence. Its 95% figure cannot establish independent coverage or be reused as the corrected estimate.\n\nThe authors may report the protocol, patient/visit counts if actually known, and their reported 95% coverage as a descriptive result on the contaminated, interval-tuned sample, prominently stating all three limitations. It is not validated coverage for new patients at admission, a calibration guarantee or deployment evidence. The supplied summary gives no denominator or raw results to verify.\n\nSmallest valid redesign: freeze the admission-time target and admissible feature recipe; remove discharge/future-derived features; split by patient for the intended population, with temporal separation if needed. Fit transformations and choose the predictor only within the training partition. Use a separate calibration partition of patients to fit/select interval width and policy, then freeze it. Score once on genuinely untouched final patients, using only features available at admission. Because the old test informed interval selection, it cannot remain the final untouched set. If data cannot support these independent partitions, report that limitation instead of a generalization claim.\n\nCompare against a simple matched baseline and report final patient/visit counts, errors, interval coverage and width, assumptions and uncertainty. No training or corrected performance has been produced here.",
+      "executionMode": "host-native forward consuming application",
+      "checks": [
+        {
+          "check": "Reject discharge-time input for admission-time prediction",
+          "observation": "Addressed in the literal output; author inspection, not independent scoring"
+        },
+        {
+          "check": "Group repeat patient visits",
+          "observation": "Addressed in the literal output; author inspection, not independent scoring"
+        },
+        {
+          "check": "Do not preserve the contaminated test/calibration claim",
+          "observation": "Addressed in the literal output; author inspection, not independent scoring"
+        },
+        {
+          "check": "Require independent calibration and untouched final evaluation",
+          "observation": "Addressed in the literal output; author inspection, not independent scoring"
+        },
+        {
+          "check": "Do not fabricate corrected performance",
+          "observation": "Addressed in the literal output; author inspection, not independent scoring"
+        }
+      ],
+      "externalActionsExecuted": false
+    },
+    {
+      "id": "memory-uncertain-write",
+      "skill": "long-horizon-work-continuity",
+      "entrypointPath": "product/skills/long-horizon-work-continuity/SKILL.md",
+      "entrypointSha256": "83584469ab0faf64844451aba67bfe4e9325d2c1f7d6580ff951bc90d3a34f5d",
+      "completeEntrypointRead": true,
+      "request": "Continue a project after an interruption. Saved notes say invoice import succeeded, but the process log ends after request dispatch and has no acknowledgement. The database has a read-only status query keyed by import ID; the same import ID can be retried idempotently after status is known. Draft the next three actions and a minimal handoff. Do not resend the import immediately or claim work continues in the background.",
+      "literalOutput": "Next three actions:\n\n1. Recover the existing import ID and exact target/payload identity from the dispatch evidence, then use the read-only database status query for that same ID. Until it answers authoritatively, classify the import effect as unknown: the saved success note is unsupported, while missing acknowledgement is not proof of failure. Do not resend.\n2. Reconcile the returned state with that ID and the intended invoice import. If committed, verify the imported result and record completion without retrying. If queued/running, retain the ID and hold duplicate dispatch. If absent/failed/partial, establish what actually applied and the status query's meaning. Conflicting or inconclusive status remains unknown.\n3. Only after status is known, and retained authority plus the supplied idempotent retry contract cover the exact same target/payload, resume any remaining import with the same import ID. Do not mint another ID or replay completed work. Verify the resulting acknowledgement and authoritative completion/output; otherwise preserve the open gate. If status remains unknown, hand off instead of retrying.\n\nMinimal handoff:\n\n- Objective: complete and verify the intended invoice import.\n- Import ID: use the existing dispatch ID; its literal value was not supplied here.\n- Evidence: saved notes claim success; process log shows dispatch but no acknowledgement.\n- Current effect: unknown; neither success nor absence established.\n- Next safe action: read-only status query by the existing ID, then verify target/payload and imported output.\n- Retry gate: known status plus retained authority and same-ID idempotency for the same payload; completed work must not be repeated.\n- Execution state: these are drafted actions, not performed queries or retries. No running worker, scheduler or background continuation is established.",
+      "executionMode": "host-native forward consuming application",
+      "checks": [
+        {
+          "check": "Query import status before retry",
+          "observation": "Addressed in the literal output; author inspection, not independent scoring"
+        },
+        {
+          "check": "Represent prior effect as unknown",
+          "observation": "Addressed in the literal output; author inspection, not independent scoring"
+        },
+        {
+          "check": "Preserve stable import identity",
+          "observation": "Addressed in the literal output; author inspection, not independent scoring"
+        },
+        {
+          "check": "No fictional background execution",
+          "observation": "Addressed in the literal output; author inspection, not independent scoring"
+        },
+        {
+          "check": "Small task-critical handoff rather than full transcript",
+          "observation": "Addressed in the literal output; author inspection, not independent scoring"
+        }
+      ],
+      "externalActionsExecuted": false
+    },
+    {
+      "id": "evidence-not-size",
+      "skill": "completeness-and-consistency-audit",
+      "entrypointPath": "product/skills/completeness-and-consistency-audit/SKILL.md",
+      "entrypointSha256": "4e434687d0f77a0577c6bd2c8b869fe60d409df5c5e6d5b6ee946771a78d5f71",
+      "completeEntrypointRead": true,
+      "request": "Audit a delivery whose contract requires working export, preserved personal settings, and deployment confirmation. The supplied record has a 70-page report and screenshots; a local export test passed; personal settings were not checked; deployment request was queued with no outcome. State what is done and what remains, without treating length, screenshots or queued status as completion.",
+      "literalOutput": "The delivery is incomplete on the supplied evidence.\n\n| Contract obligation | What is established | What remains |\n| --- | --- | --- |\n| Working export | A local export test passed, within that test's environment and cases. | Identify its revision and checked export behavior; verify the contract-relevant cases and target environment if the contract requires more than the local result. |\n| Preserved personal settings | Not checked. Preservation is unknown, not met. | Compare the relevant pre-change and current settings, including saved values and a reload/restart check, without overwriting personal data. |\n| Deployment confirmation | The deployment request was queued. Completion and deployed identity are unconfirmed. | Read authoritative status for that same request, confirm the intended artifact/target, and perform the required live confirmation. Do not submit another deployment merely because the outcome is missing. |\n\nThe report and screenshots are delivered documentation/visible-state artifacts, not proof of export behavior, settings preservation or deployment completion. Their length does not change those dispositions.\n\nWhat is done is the reported local export check and preparation of the documentation. Full contract acceptance remains open until the required export scope, settings-preservation evidence and actual deployment confirmation are supported. None of the remaining checks or external actions has been performed in this audit.",
+      "executionMode": "host-native forward consuming application",
+      "checks": [
+        {
+          "check": "Export verified only locally",
+          "observation": "Addressed in the literal output; author inspection, not independent scoring"
+        },
+        {
+          "check": "Settings preservation remains unchecked",
+          "observation": "Addressed in the literal output; author inspection, not independent scoring"
+        },
+        {
+          "check": "Deployment remains unconfirmed",
+          "observation": "Addressed in the literal output; author inspection, not independent scoring"
+        },
+        {
+          "check": "Report length is not completion",
+          "observation": "Addressed in the literal output; author inspection, not independent scoring"
+        },
+        {
+          "check": "Return concrete remaining checks",
+          "observation": "Addressed in the literal output; author inspection, not independent scoring"
+        }
+      ],
+      "externalActionsExecuted": false
+    }
+  ],
+  "observedArithmetic": {
+    "confirmedWeek1": 700,
+    "confirmedWeek2": 200,
+    "conditionalWeek2": 1000
+  },
+  "limits": [
+    "Literal requested outputs generated in this host using full selected entrypoints, not only proposed test plans.",
+    "Prior authoring and review context and higher-priority host guidance persist; not a raw/matched randomized experiment.",
+    "No training, database import, deployment, financial transaction or external acquisition performed; those cases ask for reviews/drafts.",
+    "Output inspection is not independent outcome scoring or proof of the skill's isolated contribution.",
+    "Token usage, cached-input usage, actual charge and runtime comparative costs unavailable, not zero.",
+    "No universal capability, performance, superiority or domain certification claim."
+  ]
+}

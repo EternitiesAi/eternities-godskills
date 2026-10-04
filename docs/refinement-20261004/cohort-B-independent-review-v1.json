@@ -1,0 +1,2270 @@
+{
+  "schema": "godskills-cohort-independent-review-v1",
+  "cohort": "B",
+  "reviewer": "A",
+  "author": "Volta",
+  "baselineCommit": "dc704536875cda166f7ab784bce28f3c2b54ae0c",
+  "baselineProductRoot": "C:/Users/Dom/.codex/operations/godskills-refinement-20261004/baseline-product",
+  "candidateWorkspace": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003",
+  "branch": "feat/godskills-completion-20261003",
+  "reviewStatus": "REPAIR",
+  "decision": "37 READY; eternities-athena REPAIR for an unconditional final confounding-map requirement that conflicts with its descriptive branch. Two additional minor, non-blocking wording findings.",
+  "inputHashes": [
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-refinement-20261004/assignments.json",
+      "sha256": "38ba5d09506716698585f879ffa334eb3044c9a0ff9bfea3ecd4527d26c571fa"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-refinement-20261004/assessments-v1-check.json",
+      "sha256": "86041d395b230721181ba1781dfba3f5236fb88e57d97677f9da9406fcac88b0"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-refinement-20261004/candidate-v1-vector.json",
+      "sha256": "b6a5ef07b44a3d41e914cfbecfdabb2834015f6cf394d0d46802ad54cfd0a3a8"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-refinement-20261004/qualification-plan.json",
+      "sha256": "b7d6df5dd307a97f1f9000d2fee4d085e073d1689c372658184c458c0dfe85f2"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/docs/refinement-20261004/cohort-B-assessment.json",
+      "sha256": "55e6a602cc7077c6bbc6b653fb67c8076fc699017e5be4469dc3a100796c41dc"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/docs/current-pack-refinement-20261004-plan.md",
+      "sha256": "3705a7dd9544d8d384e7dc7c83d7805f3acc45f9e9771ae43161973ee4f8e567"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/METHODS.v1.json",
+      "sha256": "412b4272987b119ba3edf1a9df44aeb75d6b372a90f1bdeabe92c5834bd5265d"
+    }
+  ],
+  "coverage": {
+    "assignedIds": 38,
+    "checkedIds": [
+      "api-rate-limit-recovery",
+      "approval-bound-private-session-mining",
+      "bounded-parametric-design-iteration",
+      "bounded-verified-object-ingestion",
+      "columnar-ingestion-rollup-and-query-layout-design",
+      "confirmed-destructive-reconstruction",
+      "customer-support-triage-and-resolution",
+      "docx-package-redline-and-render-verification",
+      "eternities-aegis",
+      "eternities-arcadia",
+      "eternities-athena",
+      "eternities-beacon",
+      "eternities-daedalus",
+      "eternities-hephaestus",
+      "eternities-hermes",
+      "eternities-mnemosyne",
+      "eternities-omnibus",
+      "eternities-orpheus",
+      "eternities-prometheus",
+      "experiment-artifact-lineage",
+      "formula-preserving-workbook-engineering",
+      "genomic-coordinate-assembly-and-variant-gates",
+      "imaginative-concept-development",
+      "interatomic-model-validation",
+      "interpersonal-understanding-and-dialogue",
+      "jurisdiction-aware-contract-review",
+      "lazy-tabular-transformation-and-validation",
+      "measured-paid-creative-iteration",
+      "molecular-observable-integrity",
+      "performance-release-gating",
+      "portable-speech-chunk-alignment",
+      "retrieval-grounded-answering",
+      "scene-continuity-and-coverage",
+      "semantic-implementation-diff",
+      "structured-hiring-evaluation",
+      "symbolic-mathematics-python",
+      "user-research-and-usability-study",
+      "voice-style-calibration"
+    ],
+    "fullCandidateBodiesRead": 38,
+    "fullSupportingReferenceBodiesRead": 28,
+    "authorRefined": 19,
+    "authorRetained": 19,
+    "ready": 37,
+    "repair": 1,
+    "findingsBySeverity": {
+      "critical": 0,
+      "important": 1,
+      "minor": 2
+    }
+  },
+  "identityChecks": {
+    "vectorAndAssessmentMatches": 38,
+    "baselineFilesCompared": 104,
+    "changedEntrypoints": 19,
+    "unchangedEntrypoints": 19,
+    "unchangedNonEntrypointFiles": 66,
+    "unchangedMetadataFiles": 38,
+    "unchangedReferenceFiles": 28,
+    "addedPaths": [],
+    "missingPaths": [],
+    "protectedFileMismatches": [],
+    "methodBindings": [
+      {
+        "id": "hermes-running-task-message-checkpoint",
+        "owner": "eternities-hermes",
+        "resource": "skills/eternities-hermes/references/cursor-paged-task-messages.md",
+        "declaredSha256": "b3135e20f4ff67b3ac5593536eb4b14b59ff3d96608dc26090a6181862e6e2da",
+        "actualSha256": "b3135e20f4ff67b3ac5593536eb4b14b59ff3d96608dc26090a6181862e6e2da",
+        "baselineSha256": "b3135e20f4ff67b3ac5593536eb4b14b59ff3d96608dc26090a6181862e6e2da",
+        "exact": true,
+        "documentStatus": "independently-document-reviewed",
+        "outcomeStatus": "not-performance-qualified",
+        "review": {
+          "scope": "Exact documented DRAFT method and conditional complete-owner fit under selected Markdown discovery; not global automatic routing, runtime, domain correctness or performance.",
+          "receipt": "evidence/method-reviews/conditional-v1/receipt.json",
+          "receiptSha256": "4b9860fa7d8020d819a0d522303194e8f8b593fd02794469b16799ba162d630b",
+          "report": "evidence/method-reviews/conditional-v1/review.md",
+          "reportSha256": "f6662e866e788e8a99c398d4632dd2e8e582fb606908bf57353e49ad5e9c57fd",
+          "resourceBinding": {
+            "pathPointer": "/methodBindings/0/path",
+            "sha256Pointer": "/methodBindings/0/sha256"
+          }
+        }
+      },
+      {
+        "id": "hermes-authorized-local-process-observation",
+        "owner": "eternities-hermes",
+        "resource": "skills/eternities-hermes/references/truthful-cli-progress.md",
+        "declaredSha256": "d9bd1ebfd44178a4d33f0d1150b460aa4d6fa564177ea0ded1577ce4123c936c",
+        "actualSha256": "d9bd1ebfd44178a4d33f0d1150b460aa4d6fa564177ea0ded1577ce4123c936c",
+        "baselineSha256": "d9bd1ebfd44178a4d33f0d1150b460aa4d6fa564177ea0ded1577ce4123c936c",
+        "exact": true,
+        "documentStatus": "independently-document-reviewed",
+        "outcomeStatus": "not-performance-qualified",
+        "review": {
+          "scope": "Exact documented DRAFT method and conditional complete-owner fit under selected Markdown discovery; not global automatic routing, runtime, domain correctness or performance.",
+          "receipt": "evidence/method-reviews/conditional-v1/receipt.json",
+          "receiptSha256": "4b9860fa7d8020d819a0d522303194e8f8b593fd02794469b16799ba162d630b",
+          "report": "evidence/method-reviews/conditional-v1/review.md",
+          "reportSha256": "f6662e866e788e8a99c398d4632dd2e8e582fb606908bf57353e49ad5e9c57fd",
+          "resourceBinding": {
+            "pathPointer": "/methodBindings/1/path",
+            "sha256Pointer": "/methodBindings/1/sha256"
+          }
+        }
+      },
+      {
+        "id": "math-supplied-prose-specification-draft",
+        "owner": "symbolic-mathematics-python",
+        "resource": "skills/symbolic-mathematics-python/references/source-grounded-math-specification.md",
+        "declaredSha256": "edbbb063b3550619cfe216db64a96611c14839fcf61e2f24f13ca9d2ecebdb20",
+        "actualSha256": "edbbb063b3550619cfe216db64a96611c14839fcf61e2f24f13ca9d2ecebdb20",
+        "baselineSha256": "edbbb063b3550619cfe216db64a96611c14839fcf61e2f24f13ca9d2ecebdb20",
+        "exact": true,
+        "documentStatus": "independently-document-reviewed",
+        "outcomeStatus": "not-performance-qualified",
+        "review": {
+          "scope": "Exact documented DRAFT method and conditional complete-owner fit under selected Markdown discovery; not global automatic routing, runtime, domain correctness or performance.",
+          "receipt": "evidence/method-reviews/conditional-v1/receipt.json",
+          "receiptSha256": "4b9860fa7d8020d819a0d522303194e8f8b593fd02794469b16799ba162d630b",
+          "report": "evidence/method-reviews/conditional-v1/review.md",
+          "reportSha256": "f6662e866e788e8a99c398d4632dd2e8e582fb606908bf57353e49ad5e9c57fd",
+          "resourceBinding": {
+            "pathPointer": "/methodBindings/2/path",
+            "sha256Pointer": "/methodBindings/2/sha256"
+          }
+        }
+      },
+      {
+        "id": "daedalus-optional-model-scenario-ci",
+        "owner": "eternities-daedalus",
+        "resource": "skills/eternities-daedalus/references/optional-model-scenarios-ci.md",
+        "declaredSha256": "982db0a3b6811f7b7fde0fa6b31e06e3df0ed86bbf9dc9826209dc52877b61d8",
+        "actualSha256": "982db0a3b6811f7b7fde0fa6b31e06e3df0ed86bbf9dc9826209dc52877b61d8",
+        "baselineSha256": "982db0a3b6811f7b7fde0fa6b31e06e3df0ed86bbf9dc9826209dc52877b61d8",
+        "exact": true,
+        "documentStatus": "independently-document-reviewed",
+        "outcomeStatus": "not-performance-qualified",
+        "review": {
+          "scope": "Exact documented DRAFT optional-scenario selection and conditional owner handoff; not live CI, provider execution or redesign of a required acceptance gate.",
+          "receipt": "evidence/method-reviews/daedalus-v1/receipt.json",
+          "receiptSha256": "a0b2a8ac4611c327a40517cc588079d79cb4402416b14fd8c7f512cab6b373b0",
+          "report": "evidence/method-reviews/daedalus-v1/review.md",
+          "reportSha256": "4e945d60805c10be19a8d0a8e8f974e7d75a3968a9dd7dc60e13a820e6ae10ed",
+          "resourceBinding": {
+            "pathPointer": "/methodBindings/0/path",
+            "sha256Pointer": "/methodBindings/0/sha256"
+          }
+        }
+      },
+      {
+        "id": "arcadia-game-state-audio-cues",
+        "owner": "eternities-arcadia",
+        "resource": "skills/eternities-arcadia/references/game-state-to-audio-cue.md",
+        "declaredSha256": "f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f",
+        "actualSha256": "f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f",
+        "baselineSha256": "f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f",
+        "exact": true,
+        "documentStatus": "independently-document-reviewed",
+        "outcomeStatus": "not-performance-qualified",
+        "review": {
+          "scope": "Exact documented DRAFT game-state cue design and acceptance-planning method; not play, audibility, accessibility or runtime qualification.",
+          "receipt": "evidence/method-reviews/arcadia-v2/receipt.json",
+          "receiptSha256": "fceb06922f496de2e2861725f25a3e9d3e24a5840cbe9c68e613099d9b2fed57",
+          "report": "evidence/method-reviews/arcadia-v2/review.md",
+          "reportSha256": "150a4011cdec776e5a25268d413bf18381a6a13bb770bc3cb630fe4c55c5f5ff",
+          "resourceBinding": {
+            "pathPointer": "/candidateIdentity/methodPath",
+            "sha256Pointer": "/candidateIdentity/methodSha256"
+          }
+        }
+      },
+      {
+        "id": "mnemosyne-local-evidence-lifecycle",
+        "owner": "eternities-mnemosyne",
+        "resource": "skills/eternities-mnemosyne/references/methods.md",
+        "declaredSha256": "9b3bff3a805b833a4e3d72495382efab8b99e31a0719178a17f03ed4aca02d86",
+        "actualSha256": "9b3bff3a805b833a4e3d72495382efab8b99e31a0719178a17f03ed4aca02d86",
+        "baselineSha256": "9b3bff3a805b833a4e3d72495382efab8b99e31a0719178a17f03ed4aca02d86",
+        "exact": true,
+        "documentStatus": "not-assessed-by-this-overlay",
+        "outcomeStatus": "not-performance-qualified",
+        "review": null
+      }
+    ],
+    "historicalIdentityChecks": [
+      {
+        "path": "evidence/method-reviews/arcadia-v2/receipt.json",
+        "candidateSha256": "fceb06922f496de2e2861725f25a3e9d3e24a5840cbe9c68e613099d9b2fed57",
+        "baselineSha256": "fceb06922f496de2e2861725f25a3e9d3e24a5840cbe9c68e613099d9b2fed57",
+        "declaredHashes": [
+          "fceb06922f496de2e2861725f25a3e9d3e24a5840cbe9c68e613099d9b2fed57"
+        ],
+        "exact": true
+      },
+      {
+        "path": "evidence/method-reviews/arcadia-v2/review.md",
+        "candidateSha256": "150a4011cdec776e5a25268d413bf18381a6a13bb770bc3cb630fe4c55c5f5ff",
+        "baselineSha256": "150a4011cdec776e5a25268d413bf18381a6a13bb770bc3cb630fe4c55c5f5ff",
+        "declaredHashes": [
+          "150a4011cdec776e5a25268d413bf18381a6a13bb770bc3cb630fe4c55c5f5ff"
+        ],
+        "exact": true
+      },
+      {
+        "path": "evidence/method-reviews/conditional-v1/receipt.json",
+        "candidateSha256": "4b9860fa7d8020d819a0d522303194e8f8b593fd02794469b16799ba162d630b",
+        "baselineSha256": "4b9860fa7d8020d819a0d522303194e8f8b593fd02794469b16799ba162d630b",
+        "declaredHashes": [
+          "4b9860fa7d8020d819a0d522303194e8f8b593fd02794469b16799ba162d630b"
+        ],
+        "exact": true
+      },
+      {
+        "path": "evidence/method-reviews/conditional-v1/review.md",
+        "candidateSha256": "f6662e866e788e8a99c398d4632dd2e8e582fb606908bf57353e49ad5e9c57fd",
+        "baselineSha256": "f6662e866e788e8a99c398d4632dd2e8e582fb606908bf57353e49ad5e9c57fd",
+        "declaredHashes": [
+          "f6662e866e788e8a99c398d4632dd2e8e582fb606908bf57353e49ad5e9c57fd"
+        ],
+        "exact": true
+      },
+      {
+        "path": "evidence/method-reviews/daedalus-v1/receipt.json",
+        "candidateSha256": "a0b2a8ac4611c327a40517cc588079d79cb4402416b14fd8c7f512cab6b373b0",
+        "baselineSha256": "a0b2a8ac4611c327a40517cc588079d79cb4402416b14fd8c7f512cab6b373b0",
+        "declaredHashes": [
+          "a0b2a8ac4611c327a40517cc588079d79cb4402416b14fd8c7f512cab6b373b0"
+        ],
+        "exact": true
+      },
+      {
+        "path": "evidence/method-reviews/daedalus-v1/review.md",
+        "candidateSha256": "4e945d60805c10be19a8d0a8e8f974e7d75a3968a9dd7dc60e13a820e6ae10ed",
+        "baselineSha256": "4e945d60805c10be19a8d0a8e8f974e7d75a3968a9dd7dc60e13a820e6ae10ed",
+        "declaredHashes": [
+          "4e945d60805c10be19a8d0a8e8f974e7d75a3968a9dd7dc60e13a820e6ae10ed"
+        ],
+        "exact": true
+      }
+    ]
+  },
+  "findings": [
+    {
+      "id": "B-01",
+      "severity": "important",
+      "skillId": "eternities-athena",
+      "path": "product/skills/eternities-athena/SKILL.md",
+      "line": 29,
+      "status": "open",
+      "blocking": true,
+      "title": "Final deliverable reinstates an unconditional confounding map",
+      "evidence": "Step 4 at line 22 explicitly says a purely descriptive question need not acquire a causal diagram; line 29 nevertheless requires an evidence table/design packet with a bias and confounding map without an applicability qualifier. The candidate newly introduces the descriptive exemption but leaves the old completion list unchanged.",
+      "consequence": "A consumer following the completion list can still add causal/confounding paperwork to a descriptive appraisal, defeating the refined branch boundary. This is an instruction-scope conflict, not evidence of a lost scientific control or measured runtime failure.",
+      "repair": "Qualify the final confounding-map requirement to causal or adjusted associative claims; retain bias/validity review appropriate to descriptive designs and preserve the causal branch's causes/mediators/colliders/selection checks. Change only the entrypoint sentence; no supporting resource needs repair.",
+      "followUpCheck": "Read/apply a descriptive prevalence-estimate appraisal and confirm sampling, measurement, missingness and uncertainty are inspected without requiring a causal/confounding diagram; separately inspect a causal/adjusted association request to confirm the map remains required. Proposed follow-up, not executed here."
+    },
+    {
+      "id": "B-02",
+      "severity": "minor",
+      "skillId": "api-rate-limit-recovery",
+      "path": "product/skills/api-rate-limit-recovery/SKILL.md",
+      "line": 27,
+      "status": "open",
+      "blocking": false,
+      "title": "Trace field still says capped delay after provider-minimum correction",
+      "evidence": "The refined step 2 forbids shortening a valid provider wait and defers/exhausts when it exceeds policy/budget. The unchanged evidence list still calls the trace field capped delay.",
+      "consequence": "The receipt vocabulary may suggest a clipped provider delay even though the operative step correctly forbids early redispatch. It does not override the more specific step, so this is non-blocking.",
+      "repair": "Describe actual scheduled wait/delay disposition and identify any client-generated backoff cap separately; keep the existing minimum-wait, monotonic budget and cancellation rules.",
+      "followUpCheck": "Inspect a provider hint longer than the client policy ceiling: the outcome should defer/exhaust with no early attempt and the receipt should distinguish the requested minimum from any backoff cap. Proposed follow-up, not executed here."
+    },
+    {
+      "id": "B-03",
+      "severity": "minor",
+      "skillId": "bounded-parametric-design-iteration",
+      "path": "product/skills/bounded-parametric-design-iteration/SKILL.md",
+      "line": 3,
+      "status": "open",
+      "blocking": false,
+      "title": "Discovery description remains narrower than the bounded joint-candidate branch",
+      "evidence": "Description says one bounded parameter change, while step 1 explicitly permits coupled parameters or a declared optimization step with attribution to the joint candidate. The old body already admitted several parameters; this is a carryover discovery ambiguity made more visible by the refinement.",
+      "consequence": "A coupled-parameter iteration may be overlooked before the otherwise correct body is read. It is not a weakened solver or attribution check.",
+      "repair": "If changing the description, refer to one bounded candidate change or bounded parameter iteration while retaining solved-baseline, solver, constraint and accept/rollback semantic cues. Do not alter protected skill.json triggers or invocation policy for this note.",
+      "followUpCheck": "Compare direct single-parameter and declared coupled-candidate requests against description/body fit; preserve same-solver evidence, hard constraints and joint attribution. Proposed follow-up, not executed here."
+    }
+  ],
+  "blockedResourceChanges": [],
+  "skills": [
+    {
+      "id": "api-rate-limit-recovery",
+      "authorDisposition": "refine",
+      "status": "READY",
+      "baselineEntrypointSha256": "442c4db00b70ab29349c62f196ed7a3bb8d92ac8720e8d2caa4079049ab974db",
+      "candidateEntrypointSha256": "3a7a9406e09c721cdea21a698d83b55324105653e52e9fc151d0537a57c85a6f",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "all changed hunks against immutable baseline",
+        "resources": [],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "minimum provider delay vs policy exhaustion",
+        "same idempotency key",
+        "monotonic deadline and cancellation",
+        "limiter identity and duplicate tests"
+      ],
+      "independentReason": "The added delay/date logic fixes early redispatch after capping a provider minimum; it does not relax retry eligibility or deduplication.",
+      "applicabilityAndExclusion": "Documented quota recovery for an authorized operation; not quota evasion, automatic retry of an uncertain mutation, or a fresh-key duplicate.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [
+        "B-02"
+      ],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "d44cb783cf5c2144327ec2e2946c964b5ff667d164437a1b711dda2851c40387",
+          "candidateSha256": "d44cb783cf5c2144327ec2e2946c964b5ff667d164437a1b711dda2851c40387",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "442c4db00b70ab29349c62f196ed7a3bb8d92ac8720e8d2caa4079049ab974db",
+          "candidateSha256": "3a7a9406e09c721cdea21a698d83b55324105653e52e9fc151d0537a57c85a6f",
+          "exact": false
+        }
+      ]
+    },
+    {
+      "id": "approval-bound-private-session-mining",
+      "authorDisposition": "refine",
+      "status": "READY",
+      "baselineEntrypointSha256": "70aec16ea25798d6916294cedf654ae66eba3aa54d0ec2a1f2249199e30d02e1",
+      "candidateEntrypointSha256": "b73c8bf7c81d781e56600316afa4e0ef9181dd1c7ffd2a6cc1b2cbe891ac79ce",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "all changed hunks against immutable baseline",
+        "resources": [],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "approved purpose and exact source set",
+        "pre-corpus secret redaction",
+        "direct/inferred source locators with chronology",
+        "revocation of derived findings"
+      ],
+      "independentReason": "Inline exclusions and a supplied fixed source list remove extra files without removing minimization or retention controls.",
+      "applicabilityAndExclusion": "Named-question analysis of an explicitly approved fixed export; not ambient history search, cross-user profiling, or retention after revocation.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "0521f0687700ec2e74d70ab89995a681447a7fce3b9b69e40f274c0760c495ba",
+          "candidateSha256": "0521f0687700ec2e74d70ab89995a681447a7fce3b9b69e40f274c0760c495ba",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "70aec16ea25798d6916294cedf654ae66eba3aa54d0ec2a1f2249199e30d02e1",
+          "candidateSha256": "b73c8bf7c81d781e56600316afa4e0ef9181dd1c7ffd2a6cc1b2cbe891ac79ce",
+          "exact": false
+        }
+      ]
+    },
+    {
+      "id": "bounded-parametric-design-iteration",
+      "authorDisposition": "refine",
+      "status": "READY",
+      "baselineEntrypointSha256": "641fa8f5caf0c59e8d6b400476f4f8bd1a2b8cb9d3796cd0d9fcd2bbbdfc51d0",
+      "candidateEntrypointSha256": "7693ec64c07ccb885e6384372ab26547a056d12335700361771bc19a85e42180",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "all changed hunks against immutable baseline",
+        "resources": [],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "solved baseline and credibility tier",
+        "declared bounded joint mutation",
+        "same solver/setup metrics and hard constraints",
+        "rollback on stale or incomparable results"
+      ],
+      "independentReason": "Joint attribution is explicit rather than pretending individual causality; solver and hard-constraint checks remain.",
+      "applicabilityAndExclusion": "Existing solved editable model with a declared bounded candidate; not new geometry, an unchanged-simulation audit, or physical certification.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [
+        "B-03"
+      ],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "cdd8b652379f4c3bee95a8452f6352c86ee930baabc0f2af91e87b51854ecf77",
+          "candidateSha256": "cdd8b652379f4c3bee95a8452f6352c86ee930baabc0f2af91e87b51854ecf77",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "641fa8f5caf0c59e8d6b400476f4f8bd1a2b8cb9d3796cd0d9fcd2bbbdfc51d0",
+          "candidateSha256": "7693ec64c07ccb885e6384372ab26547a056d12335700361771bc19a85e42180",
+          "exact": false
+        }
+      ]
+    },
+    {
+      "id": "bounded-verified-object-ingestion",
+      "authorDisposition": "retain",
+      "status": "READY",
+      "baselineEntrypointSha256": "cf69c9340313bd2f01c8abc4fbf39a82234062bb2a8b933e30997a31d647301c",
+      "candidateEntrypointSha256": "cf69c9340313bd2f01c8abc4fbf39a82234062bb2a8b933e30997a31d647301c",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "exact unchanged full-body identity",
+        "resources": [],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "manifest revision and canonical/source digest distinction",
+        "one reconciled status per item",
+        "same-ID different-byte conflict",
+        "staging, quarantine and replay ledger"
+      ],
+      "independentReason": "Retention is justified: the body distinguishes membership, identity, semantic safety and durable effects rather than reducing ingestion to count matching.",
+      "applicabilityAndExclusion": "Exact declared set ingestion with recoverable destination effects; not discovery, source deletion, migration or publication.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "26da1859217d796aded8fb89a4a9ca43555921726a0db1534b4808c02eeb9c5a",
+          "candidateSha256": "26da1859217d796aded8fb89a4a9ca43555921726a0db1534b4808c02eeb9c5a",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "cf69c9340313bd2f01c8abc4fbf39a82234062bb2a8b933e30997a31d647301c",
+          "candidateSha256": "cf69c9340313bd2f01c8abc4fbf39a82234062bb2a8b933e30997a31d647301c",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "id": "columnar-ingestion-rollup-and-query-layout-design",
+      "authorDisposition": "retain",
+      "status": "READY",
+      "baselineEntrypointSha256": "8cba00eced7f2e84de01c0304aab9e59fed548ae1515bbbc164f568f17951626",
+      "candidateEntrypointSha256": "8cba00eced7f2e84de01c0304aab9e59fed548ae1515bbbc164f568f17951626",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "exact unchanged full-body identity",
+        "resources": [],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "workload cardinality/skew and pruning",
+        "authoritative raw vs rollup layers",
+        "late-data watermark and replay",
+        "correctness plus comparable query distribution"
+      ],
+      "independentReason": "Retained layout choices are workload-driven and preserve late corrections, deletion and schema evolution; no mandatory vendor or production migration.",
+      "applicabilityAndExclusion": "Measured analytical layout and late-data decisions; not vendor-fashion selection or an unmeasured production migration.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "5876f8733d4590b7ceb5975865e06e6dba222b4e73885cf13af945a6991bb513",
+          "candidateSha256": "5876f8733d4590b7ceb5975865e06e6dba222b4e73885cf13af945a6991bb513",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "8cba00eced7f2e84de01c0304aab9e59fed548ae1515bbbc164f568f17951626",
+          "candidateSha256": "8cba00eced7f2e84de01c0304aab9e59fed548ae1515bbbc164f568f17951626",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "id": "confirmed-destructive-reconstruction",
+      "authorDisposition": "refine",
+      "status": "READY",
+      "baselineEntrypointSha256": "3ed45216a80c535253fd4fc88fec0c770d0c0aeeb81107090d66ca18a7a76436",
+      "candidateEntrypointSha256": "5faed22a58f2c63d9495bbe6bef0516b38fd6f30111a22709736f0ca90e03d78",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "all changed hunks against immutable baseline",
+        "resources": [],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "exact resolved target and operation",
+        "reject root/glob/symlink escape",
+        "independent restorable backup",
+        "pre-write recheck and independently verified rollback"
+      ],
+      "independentReason": "Existing authority is tied to unchanged target/state/consequences and immediate rechecking; removal of repeat-confirmation ritual does not license neighboring cleanup.",
+      "applicabilityAndExclusion": "Exact specifically authorized destructive local repair with independent restoration; not a vague fix request, changed target, broad cleanup or external-system safety.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "2481bd8ef1d83414cfbb05865de9bffd247b375e2708c37df9b7277f813f9016",
+          "candidateSha256": "2481bd8ef1d83414cfbb05865de9bffd247b375e2708c37df9b7277f813f9016",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "3ed45216a80c535253fd4fc88fec0c770d0c0aeeb81107090d66ca18a7a76436",
+          "candidateSha256": "5faed22a58f2c63d9495bbe6bef0516b38fd6f30111a22709736f0ca90e03d78",
+          "exact": false
+        }
+      ]
+    },
+    {
+      "id": "customer-support-triage-and-resolution",
+      "authorDisposition": "retain",
+      "status": "READY",
+      "baselineEntrypointSha256": "32f0615a91aa2ca3e5933c40e24aa80ae200b9b7394549bf37b42b1d1ba34be0",
+      "candidateEntrypointSha256": "32f0615a91aa2ca3e5933c40e24aa80ae200b9b7394549bf37b42b1d1ba34be0",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "exact unchanged full-body identity",
+        "resources": [
+          "references/methods.md"
+        ],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "reported vs reproduced vs cause",
+        "impact distinct from commercial priority",
+        "duplicate cases preserve unique evidence",
+        "uncertain external write reconciliation",
+        "local fix vs customer confirmation"
+      ],
+      "independentReason": "Both body and triage/closure resource keep missing policy, access and customer response unknown; a useful retain rather than a forced rewrite.",
+      "applicabilityAndExclusion": "Impact-based support investigation and closure; not a simple acknowledgment, invented SLA, unapproved billing/account mutation or customer-confirmed success without a reply.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "8dea394c14591bd7ffc35443dc6b254a15b443667c7aee13aad328488f2fb0ae",
+          "candidateSha256": "8dea394c14591bd7ffc35443dc6b254a15b443667c7aee13aad328488f2fb0ae",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "32f0615a91aa2ca3e5933c40e24aa80ae200b9b7394549bf37b42b1d1ba34be0",
+          "candidateSha256": "32f0615a91aa2ca3e5933c40e24aa80ae200b9b7394549bf37b42b1d1ba34be0",
+          "exact": true
+        },
+        {
+          "path": "references/methods.md",
+          "baselineSha256": "769d48d3ca673694ee2024d7c745818b7e263232d9b281cb606c7b70312239e2",
+          "candidateSha256": "769d48d3ca673694ee2024d7c745818b7e263232d9b281cb606c7b70312239e2",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "id": "docx-package-redline-and-render-verification",
+      "authorDisposition": "refine",
+      "status": "READY",
+      "baselineEntrypointSha256": "b69845bef0009396b5f1dde6c6bd50da75e211b7329fd08c8240ecab60f7e2de",
+      "candidateEntrypointSha256": "e90da766438c21f06cc718d2dbeefb1dff920bbcfef0402cd3a5e94be32bffb8",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "all changed hunks against immutable baseline",
+        "resources": [],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "package inventory and relationship classification",
+        "intentional tracked-change identities",
+        "semantic and inventory comparison",
+        "compatible-engine full-page render check",
+        "original and failed candidate retention"
+      ],
+      "independentReason": "The unknown-part stop is scoped to dependencies actually needed for an edit; external targets remain inspect-only and unexpected render changes still require investigation.",
+      "applicabilityAndExclusion": "Review-sensitive DOCX package edits and compatible rendering; not a plain text diff, automatic external-content fetch or legal approval.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "45fb23c86d2244350222c4842b2e6fdb1a276d603d8c26d960dad93132a409cd",
+          "candidateSha256": "45fb23c86d2244350222c4842b2e6fdb1a276d603d8c26d960dad93132a409cd",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "b69845bef0009396b5f1dde6c6bd50da75e211b7329fd08c8240ecab60f7e2de",
+          "candidateSha256": "e90da766438c21f06cc718d2dbeefb1dff920bbcfef0402cd3a5e94be32bffb8",
+          "exact": false
+        }
+      ]
+    },
+    {
+      "id": "eternities-aegis",
+      "authorDisposition": "refine",
+      "status": "READY",
+      "baselineEntrypointSha256": "5e10e632e79ca765ad6357c7ee34137eaadab0aca2336236729ea32265eb7c12",
+      "candidateEntrypointSha256": "49c1d4bf1d6b21794a8dd634679c0268ae99daa967515ee667d3e40788f5749b",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "all changed hunks against immutable baseline",
+        "resources": [
+          "references/methods.md"
+        ],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "source-to-sink causal boundary trace",
+        "evidence classes and independent risk dimensions",
+        "scope-specific authority",
+        "safe isolated/static repair proof with clean control and regression"
+      ],
+      "independentReason": "Activation narrows to security/authority intent rather than every API feature; conditional repair proof and route-owned evidence do not weaken actual exposure analysis.",
+      "applicabilityAndExclusion": "Actual security exposure, authority ambiguity or assurance decision; not every identity/API feature and not live exploit execution.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "8d703ca763191e5b9840000fc61e0c6619fdd66f9dc91624f96da0edc2e8c459",
+          "candidateSha256": "8d703ca763191e5b9840000fc61e0c6619fdd66f9dc91624f96da0edc2e8c459",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "5e10e632e79ca765ad6357c7ee34137eaadab0aca2336236729ea32265eb7c12",
+          "candidateSha256": "49c1d4bf1d6b21794a8dd634679c0268ae99daa967515ee667d3e40788f5749b",
+          "exact": false
+        },
+        {
+          "path": "references/methods.md",
+          "baselineSha256": "73d0f3b1f910f9a5ae2dbdf213a7d487e7ec23eb62718cfbe86bad8def566bd4",
+          "candidateSha256": "73d0f3b1f910f9a5ae2dbdf213a7d487e7ec23eb62718cfbe86bad8def566bd4",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "id": "eternities-arcadia",
+      "authorDisposition": "refine",
+      "status": "READY",
+      "baselineEntrypointSha256": "84023828419d63d0cdff7936d3c87d742a7ae58d07dd00f547ae8397584e47db",
+      "candidateEntrypointSha256": "2cbfec7e1e8fbc6e3d10321336224176ee5950d7895ac281d7849947c94c61c1",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "all changed hunks against immutable baseline",
+        "resources": [
+          "references/browser-runtime-lifecycle.md",
+          "references/game-state-to-audio-cue.md",
+          "references/methods.md",
+          "references/requirement-screen-state-traceability.md"
+        ],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "simulation/input/presentation/persistence ownership",
+        "versioned saves and recovery",
+        "human comfort vs machine evidence",
+        "browser lifetime and shared resource ownership",
+        "event authority/cue suppression/reconnect",
+        "bidirectional approved requirement binding"
+      ],
+      "independentReason": "Design-only work no longer forces a playable build, while an actual build request must deliver its slice; specialized lifecycle, audio and screen-state mechanisms remain intact.",
+      "applicabilityAndExclusion": "Requested game direction, build, experience or release question; a design-only request needs no prototype and a build request cannot stop at a handoff.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "5cf252421f40197a8c8c862c9f0e31fd3b7d6181baa112666afef8382c596c0c",
+          "candidateSha256": "5cf252421f40197a8c8c862c9f0e31fd3b7d6181baa112666afef8382c596c0c",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "84023828419d63d0cdff7936d3c87d742a7ae58d07dd00f547ae8397584e47db",
+          "candidateSha256": "2cbfec7e1e8fbc6e3d10321336224176ee5950d7895ac281d7849947c94c61c1",
+          "exact": false
+        },
+        {
+          "path": "references/browser-runtime-lifecycle.md",
+          "baselineSha256": "92f138939846c57ad5de1d36fd1c60d11341e29a91fcaecb03c942397ad93853",
+          "candidateSha256": "92f138939846c57ad5de1d36fd1c60d11341e29a91fcaecb03c942397ad93853",
+          "exact": true
+        },
+        {
+          "path": "references/game-state-to-audio-cue.md",
+          "baselineSha256": "f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f",
+          "candidateSha256": "f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f",
+          "exact": true
+        },
+        {
+          "path": "references/methods.md",
+          "baselineSha256": "57853439f2dbc6173e2b627b3d1cdd982c746f8376e86746b2745138b696dfc3",
+          "candidateSha256": "57853439f2dbc6173e2b627b3d1cdd982c746f8376e86746b2745138b696dfc3",
+          "exact": true
+        },
+        {
+          "path": "references/requirement-screen-state-traceability.md",
+          "baselineSha256": "e26439a9761aebd5fabd6ac65865744063c6ce0ae26aaaadcc7d7fdb93d1f34a",
+          "candidateSha256": "e26439a9761aebd5fabd6ac65865744063c6ce0ae26aaaadcc7d7fdb93d1f34a",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "id": "eternities-athena",
+      "authorDisposition": "refine",
+      "status": "REPAIR",
+      "baselineEntrypointSha256": "48474b519277446fb56c0555d9cb0545c684b29b39a29cef210187c260b58fdb",
+      "candidateEntrypointSha256": "65be19826aa672dcfb9f1c436aa7a141c622995a62a7dc8d7b1d3664dcb6cce7",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "all changed hunks against immutable baseline",
+        "resources": [
+          "references/methods.md",
+          "references/prospective-comparison-design.md"
+        ],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "claim class matched to estimand",
+        "relevant design-validity threats",
+        "collider/mediator/selection vs adjustment",
+        "heterogeneity and effect uncertainty",
+        "prospective units/exposure/denominators/amendment limits"
+      ],
+      "independentReason": "The refinement preserves required controls while removing causal-diagram machinery from descriptive claims.",
+      "applicabilityAndExclusion": "Appraise/design/synthesize evidence by inference class; a descriptive estimate needs sampling/measurement/bias review but should not acquire a causal/confounding diagram.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [
+        "B-01"
+      ],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "2f1ed1ac29658e26fc3aa7fc541bf6232c8993c59cb58a58bb8b77c058fa49ac",
+          "candidateSha256": "2f1ed1ac29658e26fc3aa7fc541bf6232c8993c59cb58a58bb8b77c058fa49ac",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "48474b519277446fb56c0555d9cb0545c684b29b39a29cef210187c260b58fdb",
+          "candidateSha256": "65be19826aa672dcfb9f1c436aa7a141c622995a62a7dc8d7b1d3664dcb6cce7",
+          "exact": false
+        },
+        {
+          "path": "references/methods.md",
+          "baselineSha256": "3518e5f333be18eded1799e62469d30be9b50133c87e8b243f38d3e48fb1cdce",
+          "candidateSha256": "3518e5f333be18eded1799e62469d30be9b50133c87e8b243f38d3e48fb1cdce",
+          "exact": true
+        },
+        {
+          "path": "references/prospective-comparison-design.md",
+          "baselineSha256": "f2ec1b06478248f9984c07d3a7399db4a5e36133826079afd28408e3e64749f7",
+          "candidateSha256": "f2ec1b06478248f9984c07d3a7399db4a5e36133826079afd28408e3e64749f7",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "id": "eternities-beacon",
+      "authorDisposition": "refine",
+      "status": "READY",
+      "baselineEntrypointSha256": "da29c9866d4558307ee183b9c524ee894bdd6bd960ab766a345783e11d395a7e",
+      "candidateEntrypointSha256": "381ae1f0ffee855b14c8c2bda226bb57aa9147be1e7f9a68f94b231fb869a030",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "all changed hunks against immutable baseline",
+        "resources": [
+          "references/creator-sponsorship-lifecycle.md",
+          "references/methods.md"
+        ],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "dated fact/forecast/hypothesis claim classes",
+        "denominators and attribution windows",
+        "prospective intervention/guardrail/stop contract",
+        "purpose-bound consent and distinct external effects",
+        "exact sponsorship rights/obligations chronology"
+      ],
+      "independentReason": "Observed cohort reporting is separated from intervention design; factual copy still needs traceable claims and external actions retain separate authority.",
+      "applicabilityAndExclusion": "Evidence-led market/offer/conversion/measurement work; observational reporting is not a prospective experiment and public availability is not contact consent.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "b92dd17b389a5cfb5b2213e6f4fdd26f44994aa50947601da9fdd7217734bdfd",
+          "candidateSha256": "b92dd17b389a5cfb5b2213e6f4fdd26f44994aa50947601da9fdd7217734bdfd",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "da29c9866d4558307ee183b9c524ee894bdd6bd960ab766a345783e11d395a7e",
+          "candidateSha256": "381ae1f0ffee855b14c8c2bda226bb57aa9147be1e7f9a68f94b231fb869a030",
+          "exact": false
+        },
+        {
+          "path": "references/creator-sponsorship-lifecycle.md",
+          "baselineSha256": "4063b7c5ce3e283fbe6975b7644ffde1bf8283ce499ca77dc293e60bb7ba0d5e",
+          "candidateSha256": "4063b7c5ce3e283fbe6975b7644ffde1bf8283ce499ca77dc293e60bb7ba0d5e",
+          "exact": true
+        },
+        {
+          "path": "references/methods.md",
+          "baselineSha256": "efe539cfe35bf9703869d43cdaddedd2b29edb14c72525a5c9645fcf2a0eb2ed",
+          "candidateSha256": "efe539cfe35bf9703869d43cdaddedd2b29edb14c72525a5c9645fcf2a0eb2ed",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "id": "eternities-daedalus",
+      "authorDisposition": "refine",
+      "status": "READY",
+      "baselineEntrypointSha256": "b1451db21752ad4f7f4fd3fa269b57e176191946aeb1701065e485327e89d0d8",
+      "candidateEntrypointSha256": "9c3271351a5d8234098a001fa079236ec9c8ea568603cacab3fa5f05e9ee0d23",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "all changed hunks against immutable baseline",
+        "resources": [
+          "references/configuration-lifecycle.md",
+          "references/methods.md",
+          "references/optional-model-scenarios-ci.md",
+          "references/test-design-and-evidence.md"
+        ],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "behavior-detecting probe vs mirrored test",
+        "route-specific performance/config/migration contracts",
+        "unfamiliar code remains unexecuted",
+        "partial-commit state matrices",
+        "required CI vs optional paid scenarios"
+      ],
+      "independentReason": "A new ledger or failing test is no longer demanded for every low-impact edit; real defects and new behavior retain observable checks and integration-sensitive widening.",
+      "applicabilityAndExclusion": "Authorized bounded engineering behavior and proof surface; a reversible low-impact edit can reuse sufficient checks, while defect/new behavior needs a detecting probe.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "a627727d097481928f009b478527f09d6c44f0c65a7afd3f15f7c1603fb1c1d7",
+          "candidateSha256": "a627727d097481928f009b478527f09d6c44f0c65a7afd3f15f7c1603fb1c1d7",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "b1451db21752ad4f7f4fd3fa269b57e176191946aeb1701065e485327e89d0d8",
+          "candidateSha256": "9c3271351a5d8234098a001fa079236ec9c8ea568603cacab3fa5f05e9ee0d23",
+          "exact": false
+        },
+        {
+          "path": "references/configuration-lifecycle.md",
+          "baselineSha256": "8809c3f901722ee7a19cd1ca62def13573290813969c2268b4ac243489907c40",
+          "candidateSha256": "8809c3f901722ee7a19cd1ca62def13573290813969c2268b4ac243489907c40",
+          "exact": true
+        },
+        {
+          "path": "references/methods.md",
+          "baselineSha256": "deec76d5357d3f5fb3758c0bd9c956d1638b1736d9f20e2dbf53fe6da618abbc",
+          "candidateSha256": "deec76d5357d3f5fb3758c0bd9c956d1638b1736d9f20e2dbf53fe6da618abbc",
+          "exact": true
+        },
+        {
+          "path": "references/optional-model-scenarios-ci.md",
+          "baselineSha256": "982db0a3b6811f7b7fde0fa6b31e06e3df0ed86bbf9dc9826209dc52877b61d8",
+          "candidateSha256": "982db0a3b6811f7b7fde0fa6b31e06e3df0ed86bbf9dc9826209dc52877b61d8",
+          "exact": true
+        },
+        {
+          "path": "references/test-design-and-evidence.md",
+          "baselineSha256": "276208dc309c3eb9058e0acf966b29ce2268876df48e36e0fe641d2a07534814",
+          "candidateSha256": "276208dc309c3eb9058e0acf966b29ce2268876df48e36e0fe641d2a07534814",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "id": "eternities-hephaestus",
+      "authorDisposition": "refine",
+      "status": "READY",
+      "baselineEntrypointSha256": "63e5a150ba0252bab36a12719c3c287ab76c815fb488a6a6fe486a3afb417a82",
+      "candidateEntrypointSha256": "5c31073206e35a113aeb7341fa643b2480b0e114b278c37df72260d9b8156f7b",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "all changed hunks against immutable baseline",
+        "resources": [
+          "references/methods.md"
+        ],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "unknown hard predicate cannot pass",
+        "matched model/runtime/workload identity",
+        "capacity overhead and headroom",
+        "quality plus variable timing distribution",
+        "unqualified specs shortlist and rejected-option ledger"
+      ],
+      "independentReason": "Energy/thermal/safety measures follow actual constraints rather than universal capture, while every hard predicate still needs evidence.",
+      "applicabilityAndExclusion": "Workload-specific compute qualification or an explicitly unqualified shortlist; no unknown hard predicate can qualify and a recommendation performs no purchase/routing.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "282187d90667fe52687c616933864b20926dc326afa529cfe432330afea7e030",
+          "candidateSha256": "282187d90667fe52687c616933864b20926dc326afa529cfe432330afea7e030",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "63e5a150ba0252bab36a12719c3c287ab76c815fb488a6a6fe486a3afb417a82",
+          "candidateSha256": "5c31073206e35a113aeb7341fa643b2480b0e114b278c37df72260d9b8156f7b",
+          "exact": false
+        },
+        {
+          "path": "references/methods.md",
+          "baselineSha256": "f342e20f3b2f482de86bc4f200b56f5a1fc6ad149f75b1c5752952bb8b86e553",
+          "candidateSha256": "f342e20f3b2f482de86bc4f200b56f5a1fc6ad149f75b1c5752952bb8b86e553",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "id": "eternities-hermes",
+      "authorDisposition": "refine",
+      "status": "READY",
+      "baselineEntrypointSha256": "f578fba0bc4d10af9221e2fbd980ee4d21b0de71bda26428d282dabdd9152f90",
+      "candidateEntrypointSha256": "fd626d425723be905c9375502c6b6fe480df645f057aee00c9517fdcb5257c8c",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "all changed hunks against immutable baseline",
+        "resources": [
+          "references/cursor-paged-task-messages.md",
+          "references/methods.md",
+          "references/truthful-cli-progress.md"
+        ],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "step effect classes and partial outcomes",
+        "stream framing and bounded buffers",
+        "degraded optional vs required integration",
+        "task-feed cursor durable progress",
+        "truthful CLI channels/validated progress",
+        "owned continuing work and stop policy"
+      ],
+      "independentReason": "Declared monitored work can remain running and user sessions can stay open; authorized ownership, observed state, resource limits and stop policy replace indiscriminate cleanup.",
+      "applicabilityAndExclusion": "Bounded automation/protocol work with classified effects; an authorized continuing observer may remain running, unlike an unowned loop or fictional background task.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "f36f49d7de25d8639a087c3d7884a9a90421ed2f481bfd3970a22bf9a712e04e",
+          "candidateSha256": "f36f49d7de25d8639a087c3d7884a9a90421ed2f481bfd3970a22bf9a712e04e",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "f578fba0bc4d10af9221e2fbd980ee4d21b0de71bda26428d282dabdd9152f90",
+          "candidateSha256": "fd626d425723be905c9375502c6b6fe480df645f057aee00c9517fdcb5257c8c",
+          "exact": false
+        },
+        {
+          "path": "references/cursor-paged-task-messages.md",
+          "baselineSha256": "b3135e20f4ff67b3ac5593536eb4b14b59ff3d96608dc26090a6181862e6e2da",
+          "candidateSha256": "b3135e20f4ff67b3ac5593536eb4b14b59ff3d96608dc26090a6181862e6e2da",
+          "exact": true
+        },
+        {
+          "path": "references/methods.md",
+          "baselineSha256": "3f0a33559aba81a728d7aa47ab6f5d5c9686490d8d7e68a83b1ddf3136747aa4",
+          "candidateSha256": "3f0a33559aba81a728d7aa47ab6f5d5c9686490d8d7e68a83b1ddf3136747aa4",
+          "exact": true
+        },
+        {
+          "path": "references/truthful-cli-progress.md",
+          "baselineSha256": "d9bd1ebfd44178a4d33f0d1150b460aa4d6fa564177ea0ded1577ce4123c936c",
+          "candidateSha256": "d9bd1ebfd44178a4d33f0d1150b460aa4d6fa564177ea0ded1577ce4123c936c",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "id": "eternities-mnemosyne",
+      "authorDisposition": "refine",
+      "status": "READY",
+      "baselineEntrypointSha256": "43f83b2332ca21e65fa6b640a8489fe03c7ee58b8d5e1f1435ae31b027e32988",
+      "candidateEntrypointSha256": "121f1d7db8183b2bc8cdb6acce8654aac92f76f4cae74ad1f823864cba4bf392",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "all changed hunks against immutable baseline",
+        "resources": [
+          "references/methods.md"
+        ],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "exact task/identity/time/authority scope",
+        "verified/stale/conflicted/unknown labels",
+        "cheap authoritative retrieval with no-match",
+        "source-labeled dependency invalidation",
+        "local evidence-base lifecycle and separate adoption"
+      ],
+      "independentReason": "Ordinary lookup is excluded and native history is not silently substituted with a summary; durable memory and rights boundaries remain.",
+      "applicabilityAndExclusion": "Consequential continuity/memory lifecycle; ordinary lookup is excluded, and native scrollback is not replaced by a nearby summary.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "9741df2de726741abf78a5383f54e74d72df0f3dd954330faede0f30637e5e14",
+          "candidateSha256": "9741df2de726741abf78a5383f54e74d72df0f3dd954330faede0f30637e5e14",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "43f83b2332ca21e65fa6b640a8489fe03c7ee58b8d5e1f1435ae31b027e32988",
+          "candidateSha256": "121f1d7db8183b2bc8cdb6acce8654aac92f76f4cae74ad1f823864cba4bf392",
+          "exact": false
+        },
+        {
+          "path": "references/methods.md",
+          "baselineSha256": "9b3bff3a805b833a4e3d72495382efab8b99e31a0719178a17f03ed4aca02d86",
+          "candidateSha256": "9b3bff3a805b833a4e3d72495382efab8b99e31a0719178a17f03ed4aca02d86",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "id": "eternities-omnibus",
+      "authorDisposition": "retain",
+      "status": "READY",
+      "baselineEntrypointSha256": "6009e4015f56b00cab8e7142a67273e7be6be2de8bb955e6d9383320b5107c4d",
+      "candidateEntrypointSha256": "6009e4015f56b00cab8e7142a67273e7be6be2de8bb955e6d9383320b5107c4d",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "exact unchanged full-body identity",
+        "resources": [
+          "references/methods.md"
+        ],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "host-owned need/none/unknown before lexical retrieval",
+        "pack-root resolution and manual-index boundary",
+        "actual method exclusions before full-body application",
+        "discovery is not activation or authority"
+      ],
+      "independentReason": "The retained entrypoint works with an intact pack or standalone metadata and does not mistake lexical ranking for semantic need; the optional CLI is not a dependency.",
+      "applicabilityAndExclusion": "Explicit catalog discovery or genuinely uncovered need; incidental words/routine edits may need none and retrieval grants no activation.",
+      "portability": "Host-root/manual-index fallback makes the optional offline CLI nonessential; no workstation path is required.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "d3064e97c1f25d87adef40c2fca4228a9ed0f35d13606db1ad2d193d689e059d",
+          "candidateSha256": "d3064e97c1f25d87adef40c2fca4228a9ed0f35d13606db1ad2d193d689e059d",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "6009e4015f56b00cab8e7142a67273e7be6be2de8bb955e6d9383320b5107c4d",
+          "candidateSha256": "6009e4015f56b00cab8e7142a67273e7be6be2de8bb955e6d9383320b5107c4d",
+          "exact": true
+        },
+        {
+          "path": "references/methods.md",
+          "baselineSha256": "b9f125b0b5b53d6a9875f8ae597b316db37523b10ef872d3dcf69366916a7f5a",
+          "candidateSha256": "b9f125b0b5b53d6a9875f8ae597b316db37523b10ef872d3dcf69366916a7f5a",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "id": "eternities-orpheus",
+      "authorDisposition": "retain",
+      "status": "READY",
+      "baselineEntrypointSha256": "083f4461cf7a28dd5a2b25bd3e2c2d05448b74b92aaa5d87b5daa50753c2c48e",
+      "candidateEntrypointSha256": "083f4461cf7a28dd5a2b25bd3e2c2d05448b74b92aaa5d87b5daa50753c2c48e",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "exact unchanged full-body identity",
+        "resources": [
+          "references/methods.md"
+        ],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "exact transcript vs labeled transformations",
+        "supplied speaker labels not identity proof",
+        "local word/segment uncertainty and overlaps",
+        "common-timebase timeline provenance and rights"
+      ],
+      "independentReason": "Retained media checks distinguish a local caption/timeline artifact from upload and from verified identity, consent or rights.",
+      "applicabilityAndExclusion": "Supplied media provenance/transcription/alignment/local timeline; synthesis, biometrics, identity or publication require separate rights/evidence.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "6ac5ac8cf81386e5a739f369056d7332fb33e722a8fa02a0efd60e030abc3235",
+          "candidateSha256": "6ac5ac8cf81386e5a739f369056d7332fb33e722a8fa02a0efd60e030abc3235",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "083f4461cf7a28dd5a2b25bd3e2c2d05448b74b92aaa5d87b5daa50753c2c48e",
+          "candidateSha256": "083f4461cf7a28dd5a2b25bd3e2c2d05448b74b92aaa5d87b5daa50753c2c48e",
+          "exact": true
+        },
+        {
+          "path": "references/methods.md",
+          "baselineSha256": "ee216cf993a7629868d4fc918d27d94815e9b9f765acf4f1ab06644068a480e7",
+          "candidateSha256": "ee216cf993a7629868d4fc918d27d94815e9b9f765acf4f1ab06644068a480e7",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "id": "eternities-prometheus",
+      "authorDisposition": "refine",
+      "status": "READY",
+      "baselineEntrypointSha256": "7b2cafacbe16e1e9a7e554d4848b17330ba2fb5aadec289b579312eae3c7ccd5",
+      "candidateEntrypointSha256": "3bdb3c567c215cee7552d846abdcfd87024e6a5787e394d6526799f24c008ab6",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "all changed hunks against immutable baseline",
+        "resources": [
+          "references/methods.md"
+        ],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "dated evidence classes and conflicts",
+        "linked analyses keep denominators and conclusions separate",
+        "formulas/units and owner/dependency plans",
+        "cheap discriminating prioritization test",
+        "external commercial effects separated"
+      ],
+      "independentReason": "Several lenses may answer a mixed decision without creating one score or unnecessary handoffs; no commercial commitment is inferred.",
+      "applicabilityAndExclusion": "Mixed product-operation decisions with linked evidence lenses; routine calculations need not force a specialist handoff or authorize commercial commitments.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "7d118ed0417e927c5da6ea91640e2fa907d3f3ceccaaa62e050fc04e668bf3d8",
+          "candidateSha256": "7d118ed0417e927c5da6ea91640e2fa907d3f3ceccaaa62e050fc04e668bf3d8",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "7b2cafacbe16e1e9a7e554d4848b17330ba2fb5aadec289b579312eae3c7ccd5",
+          "candidateSha256": "3bdb3c567c215cee7552d846abdcfd87024e6a5787e394d6526799f24c008ab6",
+          "exact": false
+        },
+        {
+          "path": "references/methods.md",
+          "baselineSha256": "6150efa2ad78e5ebc93b9dbde21893984428a9d5ac109c85f1966d2b3a815954",
+          "candidateSha256": "6150efa2ad78e5ebc93b9dbde21893984428a9d5ac109c85f1966d2b3a815954",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "id": "experiment-artifact-lineage",
+      "authorDisposition": "retain",
+      "status": "READY",
+      "baselineEntrypointSha256": "92da8b7ef85c7b308d7e4842e3ef3de02ce4b54061a9603e2338fa6d676682fe",
+      "candidateEntrypointSha256": "92da8b7ef85c7b308d7e4842e3ef3de02ce4b54061a9603e2338fa6d676682fe",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "exact unchanged full-body identity",
+        "resources": [],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "cache/resume/warm-start/evaluate contracts differ",
+        "dependency content vs location and actual split membership",
+        "optimizer/RNG/sampler/scaler/distributed state only when used",
+        "safe deserialization and atomic completed outputs",
+        "interruption plus real/irrelevant invalidation checks"
+      ],
+      "independentReason": "Retain: the body already avoids both weights-only false resume and excessive cache invalidation, with exact continuity and held-out fitting boundaries.",
+      "applicabilityAndExclusion": "Cache/reuse/resume/warm-start continuity claims; simple model selection is outside scope and verified paths/seeds alone do not prove exact resume.",
+      "portability": "Existing framework links illustrate safe resume/reproducibility but do not make PyTorch or a tracking vendor mandatory.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "0977e43f9ebfa31a432f3cb4ee8472df7cdb97d873947951440328c1106b4d47",
+          "candidateSha256": "0977e43f9ebfa31a432f3cb4ee8472df7cdb97d873947951440328c1106b4d47",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "92da8b7ef85c7b308d7e4842e3ef3de02ce4b54061a9603e2338fa6d676682fe",
+          "candidateSha256": "92da8b7ef85c7b308d7e4842e3ef3de02ce4b54061a9603e2338fa6d676682fe",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "id": "formula-preserving-workbook-engineering",
+      "authorDisposition": "retain",
+      "status": "READY",
+      "baselineEntrypointSha256": "69f701204ba80a60752567ceb646332714ff945f8bee9ab063ec3ef496d1d946",
+      "candidateEntrypointSha256": "69f701204ba80a60752567ceb646332714ff945f8bee9ab063ec3ef496d1d946",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "exact unchanged full-body identity",
+        "resources": [],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "formulas distinct from cached values",
+        "shared/array formulas names and hidden dependencies",
+        "compatible-engine recalculation provenance",
+        "package part and relationship comparison",
+        "affected-sheet rendering and business-truth limit"
+      ],
+      "independentReason": "Retain: package, calculation and visual evidence are deliberately separate; unavailable external inputs do not become current reality.",
+      "applicabilityAndExclusion": "Computational-lineage workbook edits; cached display equality or library save is not formula preservation, current business truth or compatible rendering.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "14fd8f40e38f63256a84ddbe70fd9fd419261f0a506c9c5286314d27cfef4517",
+          "candidateSha256": "14fd8f40e38f63256a84ddbe70fd9fd419261f0a506c9c5286314d27cfef4517",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "69f701204ba80a60752567ceb646332714ff945f8bee9ab063ec3ef496d1d946",
+          "candidateSha256": "69f701204ba80a60752567ceb646332714ff945f8bee9ab063ec3ef496d1d946",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "id": "genomic-coordinate-assembly-and-variant-gates",
+      "authorDisposition": "refine",
+      "status": "READY",
+      "baselineEntrypointSha256": "d276703d60093ee3a3f346ad9afcaf453bf0bee6801975f93fdc816d3671e852",
+      "candidateEntrypointSha256": "ddd47cf59e9bc156fbf82478ffa14693882611f0f478f697f9aaa775eb96dedb",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "all changed hunks against immutable baseline",
+        "resources": [],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "assembly/contig/base/interval/strand identity",
+        "reference-bound trimming/left alignment and multiallelic policy",
+        "conditional liftover plus destination reference validation",
+        "nonunique/partial/inconsistent quarantine",
+        "post-normalization duplicate classification"
+      ],
+      "independentReason": "The added destination validation closes a real coordinate-versus-allele seam; same-build normalization no longer requires a meaningless conversion.",
+      "applicabilityAndExclusion": "Assembly-bound technical normalization; same-build work needs no liftover and technical concordance is not clinical interpretation.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "adc0cf6ef8d3cc823c56de2a6390979fb7a1e8341160feeedc84456c86c94ee7",
+          "candidateSha256": "adc0cf6ef8d3cc823c56de2a6390979fb7a1e8341160feeedc84456c86c94ee7",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "d276703d60093ee3a3f346ad9afcaf453bf0bee6801975f93fdc816d3671e852",
+          "candidateSha256": "ddd47cf59e9bc156fbf82478ffa14693882611f0f478f697f9aaa775eb96dedb",
+          "exact": false
+        }
+      ]
+    },
+    {
+      "id": "imaginative-concept-development",
+      "authorDisposition": "retain",
+      "status": "READY",
+      "baselineEntrypointSha256": "5a1b550f7db546470d93a73106f972d59cf1cf4be21cc6e7c8d08cb7f9fd95c7",
+      "candidateEntrypointSha256": "5a1b550f7db546470d93a73106f972d59cf1cf4be21cc6e7c8d08cb7f9fd95c7",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "exact unchanged full-body identity",
+        "resources": [],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "causal mechanism or participant experience defines distinctness",
+        "distant analogy extracts relation then tests failed transfer",
+        "hard constraints precede preference tradeoffs",
+        "proposals/canon/unknowns remain separate",
+        "no forced count/score/winner"
+      ],
+      "independentReason": "Retain: it already supports useful compact options and its library example explicitly holds storage/stewardship unconfirmed rather than treating materials as supplied.",
+      "applicabilityAndExclusion": "Open-ended consequential concept choice; not routine factual edits, surface renaming, canon revision or an invented material/storage assumption.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "90fed2e5797f81f5affb2a1119260a9b885dbe5f7868ade0d20f96abbf304eff",
+          "candidateSha256": "90fed2e5797f81f5affb2a1119260a9b885dbe5f7868ade0d20f96abbf304eff",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "5a1b550f7db546470d93a73106f972d59cf1cf4be21cc6e7c8d08cb7f9fd95c7",
+          "candidateSha256": "5a1b550f7db546470d93a73106f972d59cf1cf4be21cc6e7c8d08cb7f9fd95c7",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "id": "interatomic-model-validation",
+      "authorDisposition": "retain",
+      "status": "READY",
+      "baselineEntrypointSha256": "fa1e1443277a7ded60d3f4bca483695b53e7c1511d4b5878d296ebeabd878583",
+      "candidateEntrypointSha256": "fa1e1443277a7ded60d3f4bca483695b53e7c1511d4b5878d296ebeabd878583",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "exact unchanged full-body identity",
+        "resources": [],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "computational reference vs experimental truth",
+        "units/energy-zero/theory/convergence consistency",
+        "materials-specific independent groups",
+        "property-level checks beyond fit score",
+        "base/adapted retained-domain comparison and separate uncertainties"
+      ],
+      "independentReason": "Retain: specialized reference and physical-property checks are not replaced by generic surrogate metrics; companion ownership and no-training/HPC effects remain explicit.",
+      "applicabilityAndExclusion": "One declared atomistic material/property/domain claim; general predictors route elsewhere and no training, reference-label generation, HPC job or universal physical truth is inferred.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "34ec8e35b224bba26150e8b2128f734f214a0ecfc4215ef5c8ce61172e744972",
+          "candidateSha256": "34ec8e35b224bba26150e8b2128f734f214a0ecfc4215ef5c8ce61172e744972",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "fa1e1443277a7ded60d3f4bca483695b53e7c1511d4b5878d296ebeabd878583",
+          "candidateSha256": "fa1e1443277a7ded60d3f4bca483695b53e7c1511d4b5878d296ebeabd878583",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "id": "interpersonal-understanding-and-dialogue",
+      "authorDisposition": "retain",
+      "status": "READY",
+      "baselineEntrypointSha256": "dfa4af05ca5b68aa6db7252d70dc0d2b57a610f4fa0f49104fe3b07eb1cacc74",
+      "candidateEntrypointSha256": "dfa4af05ca5b68aa6db7252d70dc0d2b57a610f4fa0f49104fe3b07eb1cacc74",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "exact unchanged full-body identity",
+        "resources": [
+          "references/examples.md"
+        ],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "observable words/actions vs motive hypotheses",
+        "only action-relevant alternative readings",
+        "needs vs positions with decline/pause possible",
+        "specific repair without forgiveness barter",
+        "conflicting agreement and silence examples"
+      ],
+      "independentReason": "Retain: evidence and tentative perspective shape the actual message without diagnosing, stereotyping or coercing the recipient.",
+      "applicabilityAndExclusion": "A real misunderstanding, preference, negotiation or repair; not diagnosing motives, treating silence as anger, coercion or routine small talk.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "a582d6717d1eccc2516d787b987ffebe16f704d98a12f64b3cfe2feb31c71101",
+          "candidateSha256": "a582d6717d1eccc2516d787b987ffebe16f704d98a12f64b3cfe2feb31c71101",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "dfa4af05ca5b68aa6db7252d70dc0d2b57a610f4fa0f49104fe3b07eb1cacc74",
+          "candidateSha256": "dfa4af05ca5b68aa6db7252d70dc0d2b57a610f4fa0f49104fe3b07eb1cacc74",
+          "exact": true
+        },
+        {
+          "path": "references/examples.md",
+          "baselineSha256": "c1593449b397d952b3d0c60d7bca728201be79e5715af0a0ba1b35adae590bec",
+          "candidateSha256": "c1593449b397d952b3d0c60d7bca728201be79e5715af0a0ba1b35adae590bec",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "id": "jurisdiction-aware-contract-review",
+      "authorDisposition": "retain",
+      "status": "READY",
+      "baselineEntrypointSha256": "c600a5c1b47f652f435c4b0a1cb8d71ee043de7b801eff34aeb25a2b04c43303",
+      "candidateEntrypointSha256": "c600a5c1b47f652f435c4b0a1cb8d71ee043de7b801eff34aeb25a2b04c43303",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "exact unchanged full-body identity",
+        "resources": [],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "whole agreement with definitions/precedence/attachments",
+        "actor/action/trigger/deadline/exception/consequence map",
+        "cross-clause liability/retention/payment conflicts",
+        "document fact vs business tradeoff vs current-law question",
+        "no signing/sending/filing authority"
+      ],
+      "independentReason": "Retain: basic extraction can proceed without a guessed jurisdiction; enforceability questions stay unverified until current authority and qualified review are available.",
+      "applicabilityAndExclusion": "Source-linked agreement review and counsel preparation; extraction can keep jurisdiction unknown but enforceability cannot be invented, and no signing or sending follows.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "3cc4bb731582cb173b4f13fd500316003bb97aa39cab6c84e2d2aefe8f764158",
+          "candidateSha256": "3cc4bb731582cb173b4f13fd500316003bb97aa39cab6c84e2d2aefe8f764158",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "c600a5c1b47f652f435c4b0a1cb8d71ee043de7b801eff34aeb25a2b04c43303",
+          "candidateSha256": "c600a5c1b47f652f435c4b0a1cb8d71ee043de7b801eff34aeb25a2b04c43303",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "id": "lazy-tabular-transformation-and-validation",
+      "authorDisposition": "retain",
+      "status": "READY",
+      "baselineEntrypointSha256": "848d222b70cf24d9ef86af68a4ec6bfeacf889c8f75f36a3facfabf66a7b1c77",
+      "candidateEntrypointSha256": "848d222b70cf24d9ef86af68a4ec6bfeacf889c8f75f36a3facfabf66a7b1c77",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "exact unchanged full-body identity",
+        "resources": [],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "schema keys/nulls/units/row invariants",
+        "logical plus physical pushdown/pruning plan inspection",
+        "bounded materialization before collection",
+        "join multiplication and independent invariant oracle",
+        "sample diagnosis not completeness and staged writes"
+      ],
+      "independentReason": "Retain: laziness is observed execution behavior rather than a label, and sampled or partitioned checks preserve coverage limits.",
+      "applicabilityAndExclusion": "Deferred table workflow with a named resource boundary; not a label masking eager collection or sampled evidence promoted to full completeness.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "7d4c7db142249ba397c8614dc2f36f0d746c923becaab1876e935b623558442d",
+          "candidateSha256": "7d4c7db142249ba397c8614dc2f36f0d746c923becaab1876e935b623558442d",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "848d222b70cf24d9ef86af68a4ec6bfeacf889c8f75f36a3facfabf66a7b1c77",
+          "candidateSha256": "848d222b70cf24d9ef86af68a4ec6bfeacf889c8f75f36a3facfabf66a7b1c77",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "id": "measured-paid-creative-iteration",
+      "authorDisposition": "refine",
+      "status": "READY",
+      "baselineEntrypointSha256": "9873f4d79ee04683267e8dff34264a033189a50a8b813873f3699ac9e250dfe5",
+      "candidateEntrypointSha256": "769e7fb4b916bcf989f9458e9f23912a110d39be0f8bcf0a502f9ddc86b136e3",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "all changed hunks against immutable baseline",
+        "resources": [],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "aggregate placement/audience/window comparability",
+        "small causal creative contrast",
+        "denominators attribution guardrails and paid owner limits",
+        "prelaunch fixed-window or supported sequential error control",
+        "posthoc changes exploratory"
+      ],
+      "independentReason": "A supported sequential rule replaces the universal wait-until-end recipe without allowing first-day peeking or retroactive confirmation.",
+      "applicabilityAndExclusion": "Aggregate campaign evidence to falsifiable variants; supported sequential monitoring is allowed only when specified before launch and no spending authority comes from the skill.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "ef42b77e2179937767e4bab624272e2b26c5c71d52cad7f20247c95bc9e7a99b",
+          "candidateSha256": "ef42b77e2179937767e4bab624272e2b26c5c71d52cad7f20247c95bc9e7a99b",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "9873f4d79ee04683267e8dff34264a033189a50a8b813873f3699ac9e250dfe5",
+          "candidateSha256": "769e7fb4b916bcf989f9458e9f23912a110d39be0f8bcf0a502f9ddc86b136e3",
+          "exact": false
+        }
+      ]
+    },
+    {
+      "id": "molecular-observable-integrity",
+      "authorDisposition": "retain",
+      "status": "READY",
+      "baselineEntrypointSha256": "b12a8fb9fe39291b289eac55ee81f11df7baf274e088d5cb843fbc44256f7149",
+      "candidateEntrypointSha256": "b12a8fb9fe39291b289eac55ee81f11df7baf274e088d5cb843fbc44256f7149",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "exact unchanged full-body identity",
+        "resources": [],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "atom/time/unit identity",
+        "minimum image vs whole-molecule vs continuous displacement",
+        "RMSD fit/measurement/weight/COM conventions",
+        "sparse crossings and deforming cell ambiguity",
+        "observable equilibration and correlation-aware effective information"
+      ],
+      "independentReason": "Retain: correct representation is chosen by the actual observable and statistical precision is not confused with physical truth or reproducibility.",
+      "applicabilityAndExclusion": "Observable-specific simulation analysis; nonperiodic inputs need no box invention, driven responses need no false equilibrium requirement, and specialized reactive/reweighting estimators stay separate.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "9818b45f8980c54581dfebf5cc8a7931606980d358e15b93206a0cdaca771557",
+          "candidateSha256": "9818b45f8980c54581dfebf5cc8a7931606980d358e15b93206a0cdaca771557",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "b12a8fb9fe39291b289eac55ee81f11df7baf274e088d5cb843fbc44256f7149",
+          "candidateSha256": "b12a8fb9fe39291b289eac55ee81f11df7baf274e088d5cb843fbc44256f7149",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "id": "performance-release-gating",
+      "authorDisposition": "refine",
+      "status": "READY",
+      "baselineEntrypointSha256": "60becfbc3da18a97434b5b876d4ff420316cc838632c68e4560a4b70f72af6ba",
+      "candidateEntrypointSha256": "e96f776e506d9eb98eb32df919a64c3c30520d99a5317f9b0f5eb1cb6db42de5",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "all changed hunks against immutable baseline",
+        "resources": [],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "frozen workload/cache/environment/order distributions",
+        "outliers and GC/thermal interruptions retained",
+        "functional/error/tail budgets",
+        "absolute budget vs comparative gain vs inconclusive",
+        "lab proof separated from rollout"
+      ],
+      "independentReason": "The revised decision rule correctly permits an absolute-budget pass without a speedup while retaining failure on real budget/functional breaches.",
+      "applicabilityAndExclusion": "A bounded authorized performance gate; absolute budget pass is not a speedup claim, overlapping gain evidence is inconclusive when gain is required, and lab pass is not deployment.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "3f8c6b2f9ce4983eb271b553f6369d117f27487e163017d3ea6adcb1b5cb48ff",
+          "candidateSha256": "3f8c6b2f9ce4983eb271b553f6369d117f27487e163017d3ea6adcb1b5cb48ff",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "60becfbc3da18a97434b5b876d4ff420316cc838632c68e4560a4b70f72af6ba",
+          "candidateSha256": "e96f776e506d9eb98eb32df919a64c3c30520d99a5317f9b0f5eb1cb6db42de5",
+          "exact": false
+        }
+      ]
+    },
+    {
+      "id": "portable-speech-chunk-alignment",
+      "authorDisposition": "retain",
+      "status": "READY",
+      "baselineEntrypointSha256": "93283ef9cf5b93a365d1fb7da970efb0c7afc2961385631909320856b9178166",
+      "candidateEntrypointSha256": "93283ef9cf5b93a365d1fb7da970efb0c7afc2961385631909320856b9178166",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "exact unchanged full-body identity",
+        "resources": [],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "source/render text span lineage and offset units",
+        "grapheme/protected-pronunciation boundaries",
+        "renderer budget basis and unknown fit",
+        "stable chunk vs attempt/revision identities",
+        "conditioning vs emitted overlap and partial/cancel states"
+      ],
+      "independentReason": "Retain: text preparation remains useful without fake audio evidence; output timing, seam quality and pronunciation require their own observations.",
+      "applicabilityAndExclusion": "Traceable multilingual narration preparation/chunk/seam work; a phrase needs no full packet, provisional text planning proves no render fit or audio quality.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "16c8807d79d165f96d92237de04f4d7583a71363f89161aa4aeee619edbe5df1",
+          "candidateSha256": "16c8807d79d165f96d92237de04f4d7583a71363f89161aa4aeee619edbe5df1",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "93283ef9cf5b93a365d1fb7da970efb0c7afc2961385631909320856b9178166",
+          "candidateSha256": "93283ef9cf5b93a365d1fb7da970efb0c7afc2961385631909320856b9178166",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "id": "retrieval-grounded-answering",
+      "authorDisposition": "retain",
+      "status": "READY",
+      "baselineEntrypointSha256": "9699b65853adf21b4e285c2b357295ea401822b0dbda46eb168510cb1d654236",
+      "candidateEntrypointSha256": "9699b65853adf21b4e285c2b357295ea401822b0dbda46eb168510cb1d654236",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "exact unchanged full-body identity",
+        "resources": [],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "source ID/version/location/access on each unit",
+        "lexical baseline before optional vectors/reranking",
+        "held-out questions and reference evidence",
+        "access filter before model context with tenant caches",
+        "stage diagnosis and revision/revocation invalidation"
+      ],
+      "independentReason": "Retain: ordinary supplied-document answers are excluded from indexing and observed assembled context, not search-score optimism, determines support.",
+      "applicabilityAndExclusion": "Build/repair source-grounded QA; directly supplied-document answers need no index, unauthorized sources never enter model context, and no-match stays unanswered.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "18cd6faec3f22d9d541d16577c2478b8443b0f762c18fa4fa3f97232d9e2cffd",
+          "candidateSha256": "18cd6faec3f22d9d541d16577c2478b8443b0f762c18fa4fa3f97232d9e2cffd",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "9699b65853adf21b4e285c2b357295ea401822b0dbda46eb168510cb1d654236",
+          "candidateSha256": "9699b65853adf21b4e285c2b357295ea401822b0dbda46eb168510cb1d654236",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "id": "scene-continuity-and-coverage",
+      "authorDisposition": "retain",
+      "status": "READY",
+      "baselineEntrypointSha256": "78237dfcd4e7b71f5d16742cc47364ed3bad51774ab8bd9ab7f1da215f5359e8",
+      "candidateEntrypointSha256": "78237dfcd4e7b71f5d16742cc47364ed3bad51774ab8bd9ab7f1da215f5359e8",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "exact unchanged full-body identity",
+        "resources": [],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "one world clock vs camera coverage/edit clock",
+        "pre/post event and cut state",
+        "camera translation vs turning/focal changes",
+        "temporal observation beyond matching endpoints",
+        "gap-only reshoot/regeneration preserves accepted takes"
+      ],
+      "independentReason": "Retain: distinct action/world/edit timelines prevent replayed handoffs; expressive motion and local repairs remain allowed without a fixed production apparatus.",
+      "applicabilityAndExclusion": "Scene coverage or local continuity repair; single-image/minor caption work often needs none, settled action is preserved, and endpoint stills do not establish motion.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "99f454dac581983bd60c1f97a4a8fc9a8d908f857b0c7a4690796d5278173426",
+          "candidateSha256": "99f454dac581983bd60c1f97a4a8fc9a8d908f857b0c7a4690796d5278173426",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "78237dfcd4e7b71f5d16742cc47364ed3bad51774ab8bd9ab7f1da215f5359e8",
+          "candidateSha256": "78237dfcd4e7b71f5d16742cc47364ed3bad51774ab8bd9ab7f1da215f5359e8",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "id": "semantic-implementation-diff",
+      "authorDisposition": "retain",
+      "status": "READY",
+      "baselineEntrypointSha256": "9d790f26786f711482d0b2cb6b460d80d56099492a60e9686092b73f7553ab77",
+      "candidateEntrypointSha256": "9d790f26786f711482d0b2cb6b460d80d56099492a60e9686092b73f7553ab77",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "exact unchanged full-body identity",
+        "resources": [],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "revisions/environment/normalization frozen",
+        "outputs plus error/state/order/cancel/write/resource observations",
+        "equivalent/divergent/unobserved classification",
+        "minimized input and state history",
+        "independent property/compatibility decisions and sandbox limits"
+      ],
+      "independentReason": "Retain: observable semantics and unrun regions remain explicit rather than interpreting a textual or mocked-away comparison as equivalence.",
+      "applicabilityAndExclusion": "Bounded comparison of observable semantics; no unrun branch, changed mocked-away dependency or fixture agreement becomes universal equivalence.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "f6273fe925468bf892e410556f830b91703ba91fd823a6862449608916c92a66",
+          "candidateSha256": "f6273fe925468bf892e410556f830b91703ba91fd823a6862449608916c92a66",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "9d790f26786f711482d0b2cb6b460d80d56099492a60e9686092b73f7553ab77",
+          "candidateSha256": "9d790f26786f711482d0b2cb6b460d80d56099492a60e9686092b73f7553ab77",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "id": "structured-hiring-evaluation",
+      "authorDisposition": "refine",
+      "status": "READY",
+      "baselineEntrypointSha256": "48b97d61aac129857abafacd7d84fec63611ff04bdb064c62b17c8e0e82d7ed4",
+      "candidateEntrypointSha256": "06d362d9881ccdbafa57994e1b3710793b3478e3eb316d537505da834096079b",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "all changed hunks against immutable baseline",
+        "resources": [
+          "references/methods.md"
+        ],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "job-related anchors and unknown not failure",
+        "independent pre-debrief evidence",
+        "common core with accommodations",
+        "person vs application cohort/stage denominators",
+        "pending aging distinct from completed transitions and human decisions"
+      ],
+      "independentReason": "Mode selection removes forced funnel or interview redesign from an unrelated request while the scorecard and stage-accounting resource preserves fair comparison.",
+      "applicabilityAndExclusion": "Role design, candidate scoring, debrief or funnel diagnosis as requested; missing evidence is not failure and analysis does not automate hiring or grant outreach.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "4fae2efd6db75899da73a899b69a3b3faeb87f0f6962299e7b879ccdbc45229c",
+          "candidateSha256": "4fae2efd6db75899da73a899b69a3b3faeb87f0f6962299e7b879ccdbc45229c",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "48b97d61aac129857abafacd7d84fec63611ff04bdb064c62b17c8e0e82d7ed4",
+          "candidateSha256": "06d362d9881ccdbafa57994e1b3710793b3478e3eb316d537505da834096079b",
+          "exact": false
+        },
+        {
+          "path": "references/methods.md",
+          "baselineSha256": "ba4089a688da40f37f05b50dab20c110a5469e146eac98e833d30390d36bd685",
+          "candidateSha256": "ba4089a688da40f37f05b50dab20c110a5469e146eac98e833d30390d36bd685",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "id": "symbolic-mathematics-python",
+      "authorDisposition": "retain",
+      "status": "READY",
+      "baselineEntrypointSha256": "ad82634d58c4cbd2901b31e2475017f60c8cbfa820c9b929a76a4bc7b9d09a86",
+      "candidateEntrypointSha256": "ad82634d58c4cbd2901b31e2475017f60c8cbfa820c9b929a76a4bc7b9d09a86",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "exact unchanged full-body identity",
+        "resources": [
+          "references/source-grounded-math-specification.md"
+        ],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "explicit domain/units/assumptions/equality notion",
+        "unsimplified branches and singular exclusions",
+        "independent precision/near-exception checks not proof",
+        "cited-prose extraction anti-trigger for declared equations",
+        "exact source rights HOLD and independent domain review"
+      ],
+      "independentReason": "Retain: DRAFT prose extraction has an explicit no-solve stop, and the existing symbolic route keeps branch, domain and numerical-evidence limitations.",
+      "applicabilityAndExclusion": "Declared equation uses symbolic workflow; authorized cited prose uses DRAFT specification only, with exact rights HOLD and no solving or source-truth verdict.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "f1d10d6425f86a0750496530ca184f07386231b4eb52be4d1b2d8262b5abf2ce",
+          "candidateSha256": "f1d10d6425f86a0750496530ca184f07386231b4eb52be4d1b2d8262b5abf2ce",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "ad82634d58c4cbd2901b31e2475017f60c8cbfa820c9b929a76a4bc7b9d09a86",
+          "candidateSha256": "ad82634d58c4cbd2901b31e2475017f60c8cbfa820c9b929a76a4bc7b9d09a86",
+          "exact": true
+        },
+        {
+          "path": "references/source-grounded-math-specification.md",
+          "baselineSha256": "edbbb063b3550619cfe216db64a96611c14839fcf61e2f24f13ca9d2ecebdb20",
+          "candidateSha256": "edbbb063b3550619cfe216db64a96611c14839fcf61e2f24f13ca9d2ecebdb20",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "id": "user-research-and-usability-study",
+      "authorDisposition": "refine",
+      "status": "READY",
+      "baselineEntrypointSha256": "e8cb2d363b9baf41790c11a6625688646d550a75bbecd9169af885e7cdd2ed39",
+      "candidateEntrypointSha256": "5b97406753e8b00a746db1e99b7d36ebc93bb8b708454a9dba265c09234363d4",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "all changed hunks against immutable baseline",
+        "resources": [
+          "references/accessible-user-study.md",
+          "references/experience-mapping.md",
+          "references/methods.md"
+        ],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "decision-linked method selection and neutral goals",
+        "supplied-note synthesis distinct from new study planning",
+        "action/report/interpretation/assistance/missingness",
+        "participant/opportunity denominators and recurrence not prevalence",
+        "access/data-use hold with earlier-data disposition separate",
+        "field/link evidence for experience transitions"
+      ],
+      "independentReason": "Supplied observations no longer force recruitment or a new guide; consent/context gaps remain visible and specialized access/journey resources still constrain eligible evidence.",
+      "applicabilityAndExclusion": "Decision-linked study or authorized-note synthesis; supplied notes need no new guide/recruitment, synthetic personas are not participants, and endpoint evidence is not a journey handoff.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "38f70d71e8f0824737279e1b2cf7f041c07f5397258cee2429860567c9fe7ee4",
+          "candidateSha256": "38f70d71e8f0824737279e1b2cf7f041c07f5397258cee2429860567c9fe7ee4",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "e8cb2d363b9baf41790c11a6625688646d550a75bbecd9169af885e7cdd2ed39",
+          "candidateSha256": "5b97406753e8b00a746db1e99b7d36ebc93bb8b708454a9dba265c09234363d4",
+          "exact": false
+        },
+        {
+          "path": "references/accessible-user-study.md",
+          "baselineSha256": "a2d5726407966adc2846b21ac9174ee0d21014769a6739a1cd876413fa58de0a",
+          "candidateSha256": "a2d5726407966adc2846b21ac9174ee0d21014769a6739a1cd876413fa58de0a",
+          "exact": true
+        },
+        {
+          "path": "references/experience-mapping.md",
+          "baselineSha256": "bb7906daefa5d06a255c50b217ddafcd8a5db8b58d99d17ae16a345bc2132812",
+          "candidateSha256": "bb7906daefa5d06a255c50b217ddafcd8a5db8b58d99d17ae16a345bc2132812",
+          "exact": true
+        },
+        {
+          "path": "references/methods.md",
+          "baselineSha256": "e7d644a31a71e085fda0f6ff3c23879be0c3e1e22f4b62ff778af039d892985d",
+          "candidateSha256": "e7d644a31a71e085fda0f6ff3c23879be0c3e1e22f4b62ff778af039d892985d",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "id": "voice-style-calibration",
+      "authorDisposition": "retain",
+      "status": "READY",
+      "baselineEntrypointSha256": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b",
+      "candidateEntrypointSha256": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b",
+      "identity": {
+        "vectorMatch": true,
+        "assessmentCheckerMatch": true,
+        "assessmentEntrypointMatch": true,
+        "assessmentFileMatch": true
+      },
+      "checked": {
+        "candidateEntrypoint": "full body",
+        "baselineComparison": "exact unchanged full-body identity",
+        "resources": [],
+        "resourceInspection": "full bodies for all declared local references; none required for self-contained entries",
+        "metadata": "byte-exact skill.json; identity/maturity/provenance/resources/invocation cues unchanged"
+      },
+      "retainedMechanisms": [
+        "recurring traits vs context register vs anti-features",
+        "sparse evidence provisional and current direction controls",
+        "meaning skeleton facts/quantities/modal/uncertainty/attribution",
+        "independent semantic and register checks",
+        "authorized draft vs false authorship/publication"
+      ],
+      "independentReason": "Retain: trait-level direction can yield the actual incident note while absent samples do not license a confident author profile, new cause or restoration claim.",
+      "applicabilityAndExclusion": "Authorized recurring written voice or trait-level direction with meaning preservation; not deceptive attribution, speech synthesis, a fabricated profile from sparse evidence or a sent/approved note.",
+      "portability": "No new mandatory provider, workstation path, numerical quota or additional pipeline/file was introduced; task-specific evidence and relevant in-pack companions remain conditional.",
+      "findings": [],
+      "fileIdentity": [
+        {
+          "path": "skill.json",
+          "baselineSha256": "853cce581a0f216c3650f1f857bfae0fa1f78ef93dfc398fbfd350b74eacf6d3",
+          "candidateSha256": "853cce581a0f216c3650f1f857bfae0fa1f78ef93dfc398fbfd350b74eacf6d3",
+          "exact": true
+        },
+        {
+          "path": "SKILL.md",
+          "baselineSha256": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b",
+          "candidateSha256": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b",
+          "exact": true
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Independent of Volta's authorship, but reviewer A authored cohort A and shares the host instructions, plan and author-assessment context; this is not blinded/raw-agent evaluation.",
+    "READY means no blocking document finding within this bounded review. REPAIR means an open important or critical instruction defect. Minor findings are recorded even when non-blocking; none is silently repaired.",
+    "All 38 complete candidate entrypoints, all 28 declared supporting reference bodies, author dispositions/cases and changed entrypoint hunks were inspected. Retained entrypoints and all supporting files were compared byte-for-byte to the immutable baseline; unchanged byte identity avoids inventing a regression.",
+    "Author assessment cases were reviewed as proposals, not executed outcomes. The two fixed consumer tasks are recorded separately in consumer-A-v1.json; they are forward applications, not randomized baseline/candidate comparisons.",
+    "No domain solver, workbook/document engine, private corpus, live service, clinical/legal decision, campaign, GPU/HPC job, game/audio runtime, research participant or production target was exercised.",
+    "No catalogs were built, product files edited, tests/full suite run, integration/release/install performed, external material acquired, or other agent/model/provider used.",
+    "Existing external documentation links were not fetched or freshly qualified; relevant local mechanism/resource consistency was the review boundary.",
+    "Historical method receipt/report bytes and directory bindings were checked for identity, not re-adjudicated as new domain or runtime certification. Existing DRAFT, instruction-reviewed and not-performance-qualified meanings remain distinct.",
+    "Token, cost and timing-performance counters are unavailable. No efficiency or runtime-superiority claim is made.",
+    "Parent retains discovery/package verification, confirmed repairs routed to their author, integration and release decisions."
+  ]
+}
+

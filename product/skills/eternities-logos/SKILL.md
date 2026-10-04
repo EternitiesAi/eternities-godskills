@@ -21,7 +21,7 @@ Logos turns source material into a durable local artifact without erasing its pr
 ## Working method
 
 1. Bind artifact, audience, source and canon boundary, freshness need, rights or reuse status, voice constraints, and allowed effects.
-2. Build a ledger that labels supplied fact, canon, user constraint, derived value, current evidence, heuristic, creative hypothesis, judgment, and unresolved conflict.
+2. Keep supplied fact, canon, user constraint, derived value, current evidence, heuristic, creative hypothesis, judgment and unresolved conflict distinguishable. Use a ledger for many claims or sources; inline source notes and a short gap record suffice for a small artifact.
 3. Select one route. Draft from the ledger, preserve exact numbers and caveats, identify missing evidence, and keep the artifact state visible: draft, reviewed, or ready for an owner.
 4. Review support, audience fit, terminology, ordering, accessibility, maintenance, and whether any sentence outruns its source. Structural extraction returns an intermediate representation, not a hidden copy.
 5. Record local edits separately from publication, account action, purchase, deployment, or other external effects. If the user authorizes a local document change, verify the changed artifact and its source links.

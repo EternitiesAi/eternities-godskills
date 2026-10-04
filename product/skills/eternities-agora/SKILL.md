@@ -27,7 +27,7 @@ Agora turns messy service evidence into a bounded artifact. It is useful when id
 
 ## Deliverable and finish
 
-Return one route-owned packet: target and scope, evidence inventory, identity state, dimensions or account state, findings, assumptions, gaps, conflicts, recommendations, performed local effects, proposed effects, owner, and acceptance state. Finish when the artifact is useful without hiding uncertainty and the next owner knows exactly what remains. Use [methods.md](references/methods.md) for the research-proposal extension.
+Deliver the requested assessment, report, proposal or account reconstruction with the evidence and unresolved decisions it needs. Include identity state for reconciliation, dimensions and effective denominators for scoring, and criterion coverage for proposals; do not manufacture those sections for unrelated routes. Keep assumptions, conflicts, actual versus proposed effects and any next owner visible, using notes beside the artifact when sufficient. Use [methods.md](references/methods.md) for the research-proposal extension.
 
 For mixed evidence-room, pipeline, customer-health, metric, or escalation decisions, use [business-decision-evidence.md](references/business-decision-evidence.md). Track document availability, freshness, access, and validation separately; select only the evidence lanes the decision needs.
 

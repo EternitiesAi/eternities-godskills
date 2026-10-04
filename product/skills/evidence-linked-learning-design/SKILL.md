@@ -17,14 +17,14 @@ For a learner-controlled change to one optional instructional aid across session
 
 Recover the topic, audience, duration, prerequisites, teaching setting, available materials and accessibility needs from context. Ask only for missing details that would change the design. If a curriculum or credential standard matters, use the supplied authoritative version or retrieve the current official source. Record its jurisdiction and version; never manufacture standard identifiers. Without verified standards, provide a useful provisional lesson and mark alignment unverified.
 
-Write one to three outcomes as actions a learner can demonstrate. Decide what evidence would show each outcome before filling the lesson with activities. Match the challenge to the outcome: recognition questions do not establish the ability to design, explain or troubleshoot.
+Write the smallest set of outcomes the requested lesson or unit needs, as actions a learner can demonstrate. Decide what evidence would show each outcome before selecting activities. Match the challenge to the outcome: recognition questions do not establish the ability to design, explain or troubleshoot.
 
 ## Build the experience
 
-1. Use a brief diagnostic to reveal the prerequisite understanding and likely misconception. Specify what changes if the diagnostic shows a gap.
+1. When prerequisite understanding is unknown or could change the lesson, use a brief diagnostic and specify what changes if it reveals a gap. Reuse current supplied evidence when sufficient.
 2. Sequence explanation, a worked example or investigation, supported practice, and independent application. Choose the sequence for the content; do not force one teaching ideology onto every subject.
 3. Make the important reasoning visible in the example. Include a plausible wrong answer and a prompt that helps distinguish the misconception from a careless error.
-4. Provide a scaffold that can be removed, an extension that deepens the same outcome, and alternative accessible ways to participate. Preserve intellectual challenge when changing presentation or response format.
+4. Offer scaffolds and extensions when learner variation or the task calls for them, while providing equivalent accessible participation. Keep access accommodations available; only optional instructional aids can be reduced, with an appropriate learner choice and restore path. Preserve intellectual challenge when changing presentation or response format.
 5. Budget the full time, including transitions, setup and reflection. List actual materials and a low-resource fallback. Avoid a plan that requires an unprovided account or paid classroom service.
 6. Give the facilitator a check-for-understanding point and a concrete decision: advance, revisit with a different representation, or give targeted practice.
 

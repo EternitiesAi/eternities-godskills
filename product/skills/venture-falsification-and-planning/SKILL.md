@@ -25,7 +25,7 @@ If the authorized task includes building or running the experiment, execute only
 
 ## Finish and limits
 
-Return a thesis map, assumption ledger, ranked risks, experiment cards, resource and kill criteria, decision record, and unresolved evidence gaps. Finish when every existential assumption is supported, bounded for testing, or explicitly accepted as uncertainty with an owner. Forecasts remain forecasts until matched to observed evidence.
+Return the thesis or assumption under examination, decisive evidence, ranked risks relevant to the stage, the bounded test and resource/kill criteria, and a decision or explicit evidence gap. Use an assumption map and multiple experiment cards for a venture-wide review; one decision can use a single test card. Finish when the assumptions required by the declared stage decision are supported, bounded for testing or explicitly accepted as uncertainty with an owner. Other untested assumptions remain visible when they limit the next stage. Forecasts remain forecasts until matched to observed evidence.
 
 ## Common failure modes
 

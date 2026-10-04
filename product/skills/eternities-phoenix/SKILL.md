@@ -29,7 +29,7 @@ For case discovery, follow [the case-discovery method](references/trace-to-evalu
 
 ## Deliverable and finish
 
-For diagnosis and recovery, return route, scope, impact, evidence, hypothesis ledger, checks and results, uncertainty, proposed or performed effect, rollback, owner, and acceptance state. Finish after one bounded diagnosis, repair, recovery plan, refusal, or handoff. The durable elimination pattern is in [methods.md](references/methods.md).
+For diagnosis and recovery, return route, scope, impact, evidence, hypothesis ledger, checks and results, uncertainty, proposed or performed effect, rollback, owner, and acceptance state. Finish at the requested diagnosis or verified repair boundary, or name the evidence/authority gap that prevents it. The durable elimination pattern is in [methods.md](references/methods.md).
 
 If reproduction is unavailable, return the smallest fixture or observation needed to obtain it and stop the affected conclusion at unknown. Do not substitute urgency, a familiar symptom, or a successful restart for causal evidence.
 

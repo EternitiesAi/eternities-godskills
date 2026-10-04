@@ -9,7 +9,7 @@ Use this entrypoint for a bounded analysis of private session exports that the u
 
 ## Freeze the question and source set
 
-Write the question in one sentence and record the approved purpose, owner, date or file range, permitted output, retention rule, and revocation instruction. Build a manifest of the exact files or export records before reading broadly. Preserve source identifiers and byte or content digests where available, but do not copy private content into a manifest unnecessarily.
+Identify the named question and the approved purpose, owner, date or file range, permitted output, retention rule, and revocation instruction. Use an exact source list or manifest before reading broadly; an already supplied fixed export need not generate another file. Preserve source identifiers and byte or content digests where available, but do not copy private content into a manifest unnecessarily.
 
 If ownership, approval, retention, or the boundary between relevant and unrelated material is ambiguous, stop and report the missing fact. A broad statement such as “use my history” does not silently authorize another person's transcript, an unrelated project, or a new purpose.
 
@@ -19,7 +19,7 @@ If ownership, approval, retention, or the boundary between relevant and unrelate
 2. Redact credentials, tokens, private contact details, precise secrets, and unrelated personal traits before creating a working corpus. Keep the redaction category and source locator, not the secret.
 3. For each finding, record a source locator, a short minimized statement, whether it is directly stated or inferred, confidence, and the reason it answers the question. Keep multiple contradictory source observations instead of resolving them by tone.
 4. Deduplicate repeated exports without erasing chronology. Mark edited, truncated, missing, or machine-generated portions as uncertainty.
-5. Maintain a separate exclusions and ambiguity ledger. This prevents a clean-looking summary from hiding that a conclusion depended on omitted or revoked material.
+5. Record exclusions and ambiguity alongside the findings or in a separate ledger when needed. Make visible any conclusion affected by omitted, conflicting, or revoked material; a tidy summary must not erase those limits.
 
 The useful artifact is usually a table with finding, source reference, evidence class, confidence, redactions, and permitted use. Include only the minimum excerpt needed to audit a claim. Do not transform a transcript into a profile when the question asks for a workflow pattern.
 

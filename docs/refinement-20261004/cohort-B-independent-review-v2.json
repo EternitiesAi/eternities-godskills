@@ -1,0 +1,1689 @@
+{
+  "schema": "godskills-cohort-independent-review-v2",
+  "cohort": "B",
+  "reviewer": "A",
+  "author": "Volta",
+  "baselineCommit": "dc704536875cda166f7ab784bce28f3c2b54ae0c",
+  "candidateWorkspace": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003",
+  "reviewStatus": "READY",
+  "combinedStatus": "READY",
+  "decision": "All three finding resolutions independently accepted at frozen v2 hashes; 35 exact unchanged READY outcomes carried from v1. Combined 38 READY, 0 REPAIR.",
+  "inputHashes": [
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-refinement-20261004/candidate-v2-vector.json",
+      "sha256": "059812b3765e061169eb4bf3e95f8b3a5296f6fa0ac178142038a49757a3f3e5"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-refinement-20261004/assessments-v2-check.json",
+      "sha256": "94cd35b5ef6ae3422e6d2a53f23e661a15ebd8889e7d1cddf85d2e3f0c2359aa"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-refinement-20261004/assignments.json",
+      "sha256": "38ba5d09506716698585f879ffa334eb3044c9a0ff9bfea3ecd4527d26c571fa"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/docs/refinement-20261004/cohort-B-assessment-v2.json",
+      "sha256": "641ef14aa79356fe49c502ff8150738298d16d995ee5a35653e020eb87e66ed5"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/docs/refinement-20261004/cohort-B-independent-review-v1.json",
+      "sha256": "2bbb1547198d8caf088bf693aa759cd01e300ca09ce416abdb78f3aa14602756"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/docs/refinement-20261004/cohort-B-independent-review-v1.md",
+      "sha256": "3f0ab53dabe20dae1cfd0882f680b128ceefd519b2ab314af62fe4ac4d743826"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/docs/refinement-20261004/cohort-B-assessment.json",
+      "sha256": "55e6a602cc7077c6bbc6b653fb67c8076fc699017e5be4469dc3a100796c41dc"
+    }
+  ],
+  "priorReview": {
+    "jsonPath": "docs/refinement-20261004/cohort-B-independent-review-v1.json",
+    "mdPath": "docs/refinement-20261004/cohort-B-independent-review-v1.md",
+    "status": "REPAIR",
+    "preserved": true
+  },
+  "coverage": {
+    "cohortIds": 38,
+    "rereviewed": 3,
+    "carriedForward": 35,
+    "fullBodiesReread": 3,
+    "relevantReferenceBodiesReread": 2,
+    "authorCasesCheckedForInstructionFit": 12,
+    "ready": 38,
+    "repair": 0
+  },
+  "findingResolutions": [
+    {
+      "id": "api-rate-limit-recovery",
+      "status": "READY",
+      "findingId": "B-02",
+      "priorSeverity": "minor",
+      "findingStatus": "resolved-at-v2",
+      "v1EntrypointSha256": "3a7a9406e09c721cdea21a698d83b55324105653e52e9fc151d0537a57c85a6f",
+      "currentEntrypointSha256": "8552e9991da80115e3be4473ea3676e79613260c5df4f6f4f961d251c8b4f2f3",
+      "diffEvidence": {
+        "id": "api-rate-limit-recovery",
+        "line": 27,
+        "oldText": "capped delay",
+        "newText": "provider minimum when supplied, actual scheduled delay or exhausted/deferred decision, client-backoff cap when used",
+        "occurrences": 1,
+        "inverseV1Sha256": "3a7a9406e09c721cdea21a698d83b55324105653e52e9fc151d0537a57c85a6f",
+        "expectedV1Sha256": "3a7a9406e09c721cdea21a698d83b55324105653e52e9fc151d0537a57c85a6f",
+        "exactSingleReplacement": true
+      },
+      "inspection": {
+        "completeCandidateBody": true,
+        "baselineDiff": true,
+        "relevantResources": [],
+        "resourceBodiesRead": "full; exact unchanged hashes verified",
+        "caseFitMethod": "document-semantic inspection of all four proposed author cases plus finding-specific seam; no runtime execution"
+      },
+      "resolution": "The trace now distinguishes provider minimum, actual scheduled delay or exhausted/deferred decision, and client-backoff cap. This agrees with the minimum-wait rule instead of implying a clipped provider delay. Same-key deduplication, cancellation, monotonic deadlines, limited-identity concurrency and malformed-guidance terminal states are unchanged.",
+      "semanticFit": "Authorized documented rate-limit recovery remains distinct from quota evasion and uncertain/non-idempotent mutation retries. The extra receipt fields describe a real scheduling decision and do not add a new pipeline or source of authority.",
+      "retainedMechanisms": [
+        "minimum provider delay vs policy exhaustion",
+        "same idempotency key",
+        "monotonic deadline and cancellation",
+        "limiter identity and duplicate tests"
+      ],
+      "caseFit": [
+        {
+          "kind": "direct",
+          "request": "Implement recovery for a documented 429 with Retry-After: 120 and a 30-second caller budget.",
+          "expectedMethodOrBoundary": "Return exhausted/deferred without a retry before 120 seconds; preserve idempotency and caller deadline.",
+          "judgment": "fits",
+          "reason": "The 120-second provider minimum with a 30-second caller budget yields exhausted/deferred, not an early request. The repaired trace can record minimum 120 and no scheduled retry instead of pretending a 30-second wait honored the server."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "Our workers all wake at once after quota errors. Make this client's recovery safe.",
+          "expectedMethodOrBoundary": "Coordinate at the provider's actual limited identity; bound jitter, concurrency, cancellation and elapsed budget.",
+          "judgment": "fits",
+          "reason": "The limited credential/route/tenant/resource identity and coordinated bounded jitter remain the means of addressing synchronized retry bursts."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Rotate identities to get past the provider's rejected quota.",
+          "expectedMethodOrBoundary": "Quota evasion is outside the recovery contract.",
+          "judgment": "fits",
+          "reason": "Rotating identities to evade rejected quota remains outside this contract."
+        },
+        {
+          "kind": "boundary",
+          "request": "A payment attempt timed out and we do not know whether it committed; retry it with a new key.",
+          "expectedMethodOrBoundary": "Reconcile authoritative commit state or stop; a new key cannot establish safe deduplication.",
+          "judgment": "fits",
+          "reason": "An uncertain payment effect is not made safe by a fresh key; authoritative reconciliation or stopping preserves deduplication and commit uncertainty."
+        }
+      ],
+      "findingSpecificSeam": "By instruction inspection, a valid provider hint beyond the remaining budget records exhaustion/deferral rather than a shortened minimum. For missing guidance, client-backoff cap remains meaningful and is separately labeled."
+    },
+    {
+      "id": "bounded-parametric-design-iteration",
+      "status": "READY",
+      "findingId": "B-03",
+      "priorSeverity": "minor",
+      "findingStatus": "resolved-at-v2",
+      "v1EntrypointSha256": "7693ec64c07ccb885e6384372ab26547a056d12335700361771bc19a85e42180",
+      "currentEntrypointSha256": "3ebf155034e8f23d095204f8fb82efff24f7988785252a0ad47a9a9d80e26a0c",
+      "diffEvidence": {
+        "id": "bounded-parametric-design-iteration",
+        "line": 3,
+        "oldText": "description: Use when an existing solved parametric design can be improved through one bounded parameter change, comparable solver evidence, constraint checks, and an accept-or-rollback decision.",
+        "newText": "description: Use when an existing solved parametric design can be improved through one bounded candidate change, comparable solver evidence, constraint checks, and an accept-or-rollback decision.",
+        "occurrences": 1,
+        "inverseV1Sha256": "7693ec64c07ccb885e6384372ab26547a056d12335700361771bc19a85e42180",
+        "expectedV1Sha256": "7693ec64c07ccb885e6384372ab26547a056d12335700361771bc19a85e42180",
+        "exactSingleReplacement": true
+      },
+      "inspection": {
+        "completeCandidateBody": true,
+        "baselineDiff": true,
+        "relevantResources": [],
+        "resourceBodiesRead": "full; exact unchanged hashes verified",
+        "caseFitMethod": "document-semantic inspection of all four proposed author cases plus finding-specific seam; no runtime execution"
+      },
+      "resolution": "The description now says one bounded candidate change, matching the explicit single-parameter and declared coupled-candidate branches. It retains solved-baseline, comparable solver evidence, constraints and accept/rollback cues; only the description changed in v2.",
+      "semanticFit": "This remains an iteration of an existing solved editable CAD/CAE model. It does not admit from-scratch geometry, widen the declared mutation, replace executed solver evidence with a surrogate, or equate a joint result with individual parameter causality.",
+      "retainedMechanisms": [
+        "solved baseline and credibility tier",
+        "declared bounded joint mutation",
+        "same solver/setup metrics and hard constraints",
+        "rollback on stale or incomparable results"
+      ],
+      "caseFit": [
+        {
+          "kind": "direct",
+          "request": "Improve this solved bracket by a bounded thickness change under the same loads and solver; displacement must not regress.",
+          "expectedMethodOrBoundary": "Freeze comparable baseline, preflight geometry, rerun solver and accept only under the declared gain and hard-constraint rule.",
+          "judgment": "fits",
+          "reason": "A bounded thickness step still needs unit/geometry/mesh preflight, the same problem definition and solver path, and a passing objective with no displacement hard-constraint regression."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "Two linked dimensions must move together to preserve the interface. Evaluate this finite candidate.",
+          "expectedMethodOrBoundary": "Record joint change and attribute gains to the candidate; keep bounds, identical problem setup and rollback.",
+          "judgment": "fits",
+          "reason": "Two linked dimensions fit the repaired description; step 1 attributes the result to the declared joint candidate rather than to either dimension alone."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Create a new assembly from scratch and certify it from a surrogate score.",
+          "expectedMethodOrBoundary": "New geometry and certification are outside this iteration method; surrogate cannot close solver evidence.",
+          "judgment": "fits",
+          "reason": "A new assembly and surrogate-only certification remain excluded, regardless of the broader word candidate."
+        },
+        {
+          "kind": "boundary",
+          "request": "Stress improves but displacement exceeds the hard constraint.",
+          "expectedMethodOrBoundary": "Reject/roll back despite the favorable objective, preserving solver evidence and uncertainty.",
+          "judgment": "fits",
+          "reason": "A favorable stress metric cannot override a hard displacement breach; reject/rollback and preserve the solver evidence."
+        }
+      ],
+      "findingSpecificSeam": "By instruction inspection, the discovery description and full body now agree on coupled candidates while the preflight, scope-abort, same-solver comparison and physical-validation limit are byte-unchanged."
+    },
+    {
+      "id": "eternities-athena",
+      "status": "READY",
+      "findingId": "B-01",
+      "priorSeverity": "important",
+      "findingStatus": "resolved-at-v2",
+      "v1EntrypointSha256": "65be19826aa672dcfb9f1c436aa7a141c622995a62a7dc8d7b1d3664dcb6cce7",
+      "currentEntrypointSha256": "3bb0ab1d455cb3738db5f1c7645c39fb794b4cfd906dbdcd5269a91269eaa968",
+      "diffEvidence": {
+        "id": "eternities-athena",
+        "line": 29,
+        "oldText": "validity judgments, bias and confounding map, statistical or causal reasoning",
+        "newText": "design-appropriate validity and bias judgments, a causal/confounding map for causal or adjusted associative claims, relevant statistical or causal reasoning",
+        "occurrences": 1,
+        "inverseV1Sha256": "65be19826aa672dcfb9f1c436aa7a141c622995a62a7dc8d7b1d3664dcb6cce7",
+        "expectedV1Sha256": "65be19826aa672dcfb9f1c436aa7a141c622995a62a7dc8d7b1d3664dcb6cce7",
+        "exactSingleReplacement": true
+      },
+      "inspection": {
+        "completeCandidateBody": true,
+        "baselineDiff": true,
+        "relevantResources": [
+          "references/methods.md",
+          "references/prospective-comparison-design.md"
+        ],
+        "resourceBodiesRead": "full; exact unchanged hashes verified",
+        "caseFitMethod": "document-semantic inspection of all four proposed author cases plus finding-specific seam; no runtime execution"
+      },
+      "resolution": "The final deliverable now requires design-appropriate validity and bias judgments, and a causal/confounding map only for causal or adjusted associative claims. It agrees with step 4's descriptive exemption without waiving relevant sampling, measurement, missingness, uncertainty or required controls.",
+      "semanticFit": "Descriptive appraisal no longer needs causal paperwork to finish. Causal/adjusted associative work still distinguishes causes, mediators, colliders, reverse causation and selection; adjustment remains insufficient by itself for identification. No clinical or regulated authority is added.",
+      "retainedMechanisms": [
+        "claim class matched to estimand",
+        "relevant design-validity threats",
+        "collider/mediator/selection vs adjustment",
+        "heterogeneity and effect uncertainty",
+        "prospective units/exposure/denominators/amendment limits"
+      ],
+      "caseFit": [
+        {
+          "kind": "direct",
+          "request": "Appraise a randomized comparison claiming durable benefit from a short proxy endpoint.",
+          "expectedMethodOrBoundary": "Inspect estimand, measurement, follow-up, attrition, multiplicity and uncertainty; qualify the unsupported durability extension.",
+          "judgment": "fits",
+          "reason": "A randomized short-proxy comparison still requires estimand, allocation/measurement, follow-up, attrition, multiplicity and uncertainty review; a durable-benefit extension remains unsupported without matching follow-up."
+        },
+        {
+          "kind": "paraphrase",
+          "request": "What does this descriptive sample actually tell us?",
+          "expectedMethodOrBoundary": "Assess sampling/measurement and supported population; no causal diagram or allocation ritual unless the claim needs one.",
+          "judgment": "fits",
+          "reason": "A descriptive sample can yield sampling/measurement/population/bias and uncertainty judgments without a causal diagram; the repaired final sentence no longer contradicts that branch."
+        },
+        {
+          "kind": "exclusion",
+          "request": "Give a personalized clinical treatment decision from one p-value.",
+          "expectedMethodOrBoundary": "The appraisal route does not supply regulated/personalized clinical authority.",
+          "judgment": "fits",
+          "reason": "A personalized treatment decision from one p-value remains outside the appraisal route's authority and evidence."
+        },
+        {
+          "kind": "boundary",
+          "request": "A study changed subgroup and stopping rules after favorable outcomes were visible.",
+          "expectedMethodOrBoundary": "Retain amendments and available outcome information; classify exploratory claims without retroactive confirmation.",
+          "judgment": "fits",
+          "reason": "The exact unchanged prospective-comparison reference preserves outcome-aware amendments, exploratory classification and no retroactive confirmation after changed subgroup/stopping rules."
+        }
+      ],
+      "findingSpecificSeam": "By instruction inspection, a descriptive estimate still gets relevant design-validity/bias checks; causal or adjusted associative appraisal still gets a confounding map. The generic evidence-table starter may record confounding as inapplicable rather than force a causal diagram. The prospective reference remains optional for ordinary completed-evidence appraisal, and its allocation/exposure/unit/denominator/error/stopping safeguards are unchanged."
+    }
+  ],
+  "openFindings": [],
+  "findingsBySeverity": {
+    "critical": 0,
+    "important": 0,
+    "minor": 0
+  },
+  "identityChecks": {
+    "matchedFrozenVector": 38,
+    "matchedAuthorAssessment": 38,
+    "matchedParentChecker": 38,
+    "unchangedCarriedEntrypoints": 35,
+    "unchangedMetadataFiles": 38,
+    "unchangedReferenceFiles": 28,
+    "fileMembershipUnchanged": true,
+    "exactSingleV2TextReplacements": [
+      {
+        "id": "api-rate-limit-recovery",
+        "line": 27,
+        "oldText": "capped delay",
+        "newText": "provider minimum when supplied, actual scheduled delay or exhausted/deferred decision, client-backoff cap when used",
+        "occurrences": 1,
+        "inverseV1Sha256": "3a7a9406e09c721cdea21a698d83b55324105653e52e9fc151d0537a57c85a6f",
+        "expectedV1Sha256": "3a7a9406e09c721cdea21a698d83b55324105653e52e9fc151d0537a57c85a6f",
+        "exactSingleReplacement": true
+      },
+      {
+        "id": "bounded-parametric-design-iteration",
+        "line": 3,
+        "oldText": "description: Use when an existing solved parametric design can be improved through one bounded parameter change, comparable solver evidence, constraint checks, and an accept-or-rollback decision.",
+        "newText": "description: Use when an existing solved parametric design can be improved through one bounded candidate change, comparable solver evidence, constraint checks, and an accept-or-rollback decision.",
+        "occurrences": 1,
+        "inverseV1Sha256": "7693ec64c07ccb885e6384372ab26547a056d12335700361771bc19a85e42180",
+        "expectedV1Sha256": "7693ec64c07ccb885e6384372ab26547a056d12335700361771bc19a85e42180",
+        "exactSingleReplacement": true
+      },
+      {
+        "id": "eternities-athena",
+        "line": 29,
+        "oldText": "validity judgments, bias and confounding map, statistical or causal reasoning",
+        "newText": "design-appropriate validity and bias judgments, a causal/confounding map for causal or adjusted associative claims, relevant statistical or causal reasoning",
+        "occurrences": 1,
+        "inverseV1Sha256": "65be19826aa672dcfb9f1c436aa7a141c622995a62a7dc8d7b1d3664dcb6cce7",
+        "expectedV1Sha256": "65be19826aa672dcfb9f1c436aa7a141c622995a62a7dc8d7b1d3664dcb6cce7",
+        "exactSingleReplacement": true
+      }
+    ],
+    "diffMethod": "Full candidate bodies and cumulative baseline diffs were read. To bind the narrow v1-to-v2 diff without writing reconstructed files, each exact v2 repair was inverted in memory once; its UTF-8 SHA-256 matched the prior review's v1 entrypoint digest. This demonstrates there were no other byte changes in those entrypoints.",
+    "protectedFiles": [
+      {
+        "id": "api-rate-limit-recovery",
+        "path": "skill.json",
+        "v1Sha256": "d44cb783cf5c2144327ec2e2946c964b5ff667d164437a1b711dda2851c40387",
+        "currentSha256": "d44cb783cf5c2144327ec2e2946c964b5ff667d164437a1b711dda2851c40387",
+        "unchanged": true
+      },
+      {
+        "id": "approval-bound-private-session-mining",
+        "path": "skill.json",
+        "v1Sha256": "0521f0687700ec2e74d70ab89995a681447a7fce3b9b69e40f274c0760c495ba",
+        "currentSha256": "0521f0687700ec2e74d70ab89995a681447a7fce3b9b69e40f274c0760c495ba",
+        "unchanged": true
+      },
+      {
+        "id": "bounded-parametric-design-iteration",
+        "path": "skill.json",
+        "v1Sha256": "cdd8b652379f4c3bee95a8452f6352c86ee930baabc0f2af91e87b51854ecf77",
+        "currentSha256": "cdd8b652379f4c3bee95a8452f6352c86ee930baabc0f2af91e87b51854ecf77",
+        "unchanged": true
+      },
+      {
+        "id": "bounded-verified-object-ingestion",
+        "path": "skill.json",
+        "v1Sha256": "26da1859217d796aded8fb89a4a9ca43555921726a0db1534b4808c02eeb9c5a",
+        "currentSha256": "26da1859217d796aded8fb89a4a9ca43555921726a0db1534b4808c02eeb9c5a",
+        "unchanged": true
+      },
+      {
+        "id": "columnar-ingestion-rollup-and-query-layout-design",
+        "path": "skill.json",
+        "v1Sha256": "5876f8733d4590b7ceb5975865e06e6dba222b4e73885cf13af945a6991bb513",
+        "currentSha256": "5876f8733d4590b7ceb5975865e06e6dba222b4e73885cf13af945a6991bb513",
+        "unchanged": true
+      },
+      {
+        "id": "confirmed-destructive-reconstruction",
+        "path": "skill.json",
+        "v1Sha256": "2481bd8ef1d83414cfbb05865de9bffd247b375e2708c37df9b7277f813f9016",
+        "currentSha256": "2481bd8ef1d83414cfbb05865de9bffd247b375e2708c37df9b7277f813f9016",
+        "unchanged": true
+      },
+      {
+        "id": "customer-support-triage-and-resolution",
+        "path": "skill.json",
+        "v1Sha256": "8dea394c14591bd7ffc35443dc6b254a15b443667c7aee13aad328488f2fb0ae",
+        "currentSha256": "8dea394c14591bd7ffc35443dc6b254a15b443667c7aee13aad328488f2fb0ae",
+        "unchanged": true
+      },
+      {
+        "id": "customer-support-triage-and-resolution",
+        "path": "references/methods.md",
+        "v1Sha256": "769d48d3ca673694ee2024d7c745818b7e263232d9b281cb606c7b70312239e2",
+        "currentSha256": "769d48d3ca673694ee2024d7c745818b7e263232d9b281cb606c7b70312239e2",
+        "unchanged": true
+      },
+      {
+        "id": "docx-package-redline-and-render-verification",
+        "path": "skill.json",
+        "v1Sha256": "45fb23c86d2244350222c4842b2e6fdb1a276d603d8c26d960dad93132a409cd",
+        "currentSha256": "45fb23c86d2244350222c4842b2e6fdb1a276d603d8c26d960dad93132a409cd",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-aegis",
+        "path": "skill.json",
+        "v1Sha256": "8d703ca763191e5b9840000fc61e0c6619fdd66f9dc91624f96da0edc2e8c459",
+        "currentSha256": "8d703ca763191e5b9840000fc61e0c6619fdd66f9dc91624f96da0edc2e8c459",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-aegis",
+        "path": "references/methods.md",
+        "v1Sha256": "73d0f3b1f910f9a5ae2dbdf213a7d487e7ec23eb62718cfbe86bad8def566bd4",
+        "currentSha256": "73d0f3b1f910f9a5ae2dbdf213a7d487e7ec23eb62718cfbe86bad8def566bd4",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-arcadia",
+        "path": "skill.json",
+        "v1Sha256": "5cf252421f40197a8c8c862c9f0e31fd3b7d6181baa112666afef8382c596c0c",
+        "currentSha256": "5cf252421f40197a8c8c862c9f0e31fd3b7d6181baa112666afef8382c596c0c",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-arcadia",
+        "path": "references/browser-runtime-lifecycle.md",
+        "v1Sha256": "92f138939846c57ad5de1d36fd1c60d11341e29a91fcaecb03c942397ad93853",
+        "currentSha256": "92f138939846c57ad5de1d36fd1c60d11341e29a91fcaecb03c942397ad93853",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-arcadia",
+        "path": "references/game-state-to-audio-cue.md",
+        "v1Sha256": "f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f",
+        "currentSha256": "f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-arcadia",
+        "path": "references/methods.md",
+        "v1Sha256": "57853439f2dbc6173e2b627b3d1cdd982c746f8376e86746b2745138b696dfc3",
+        "currentSha256": "57853439f2dbc6173e2b627b3d1cdd982c746f8376e86746b2745138b696dfc3",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-arcadia",
+        "path": "references/requirement-screen-state-traceability.md",
+        "v1Sha256": "e26439a9761aebd5fabd6ac65865744063c6ce0ae26aaaadcc7d7fdb93d1f34a",
+        "currentSha256": "e26439a9761aebd5fabd6ac65865744063c6ce0ae26aaaadcc7d7fdb93d1f34a",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-athena",
+        "path": "skill.json",
+        "v1Sha256": "2f1ed1ac29658e26fc3aa7fc541bf6232c8993c59cb58a58bb8b77c058fa49ac",
+        "currentSha256": "2f1ed1ac29658e26fc3aa7fc541bf6232c8993c59cb58a58bb8b77c058fa49ac",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-athena",
+        "path": "references/methods.md",
+        "v1Sha256": "3518e5f333be18eded1799e62469d30be9b50133c87e8b243f38d3e48fb1cdce",
+        "currentSha256": "3518e5f333be18eded1799e62469d30be9b50133c87e8b243f38d3e48fb1cdce",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-athena",
+        "path": "references/prospective-comparison-design.md",
+        "v1Sha256": "f2ec1b06478248f9984c07d3a7399db4a5e36133826079afd28408e3e64749f7",
+        "currentSha256": "f2ec1b06478248f9984c07d3a7399db4a5e36133826079afd28408e3e64749f7",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-beacon",
+        "path": "skill.json",
+        "v1Sha256": "b92dd17b389a5cfb5b2213e6f4fdd26f44994aa50947601da9fdd7217734bdfd",
+        "currentSha256": "b92dd17b389a5cfb5b2213e6f4fdd26f44994aa50947601da9fdd7217734bdfd",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-beacon",
+        "path": "references/creator-sponsorship-lifecycle.md",
+        "v1Sha256": "4063b7c5ce3e283fbe6975b7644ffde1bf8283ce499ca77dc293e60bb7ba0d5e",
+        "currentSha256": "4063b7c5ce3e283fbe6975b7644ffde1bf8283ce499ca77dc293e60bb7ba0d5e",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-beacon",
+        "path": "references/methods.md",
+        "v1Sha256": "efe539cfe35bf9703869d43cdaddedd2b29edb14c72525a5c9645fcf2a0eb2ed",
+        "currentSha256": "efe539cfe35bf9703869d43cdaddedd2b29edb14c72525a5c9645fcf2a0eb2ed",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-daedalus",
+        "path": "skill.json",
+        "v1Sha256": "a627727d097481928f009b478527f09d6c44f0c65a7afd3f15f7c1603fb1c1d7",
+        "currentSha256": "a627727d097481928f009b478527f09d6c44f0c65a7afd3f15f7c1603fb1c1d7",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-daedalus",
+        "path": "references/configuration-lifecycle.md",
+        "v1Sha256": "8809c3f901722ee7a19cd1ca62def13573290813969c2268b4ac243489907c40",
+        "currentSha256": "8809c3f901722ee7a19cd1ca62def13573290813969c2268b4ac243489907c40",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-daedalus",
+        "path": "references/methods.md",
+        "v1Sha256": "deec76d5357d3f5fb3758c0bd9c956d1638b1736d9f20e2dbf53fe6da618abbc",
+        "currentSha256": "deec76d5357d3f5fb3758c0bd9c956d1638b1736d9f20e2dbf53fe6da618abbc",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-daedalus",
+        "path": "references/optional-model-scenarios-ci.md",
+        "v1Sha256": "982db0a3b6811f7b7fde0fa6b31e06e3df0ed86bbf9dc9826209dc52877b61d8",
+        "currentSha256": "982db0a3b6811f7b7fde0fa6b31e06e3df0ed86bbf9dc9826209dc52877b61d8",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-daedalus",
+        "path": "references/test-design-and-evidence.md",
+        "v1Sha256": "276208dc309c3eb9058e0acf966b29ce2268876df48e36e0fe641d2a07534814",
+        "currentSha256": "276208dc309c3eb9058e0acf966b29ce2268876df48e36e0fe641d2a07534814",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-hephaestus",
+        "path": "skill.json",
+        "v1Sha256": "282187d90667fe52687c616933864b20926dc326afa529cfe432330afea7e030",
+        "currentSha256": "282187d90667fe52687c616933864b20926dc326afa529cfe432330afea7e030",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-hephaestus",
+        "path": "references/methods.md",
+        "v1Sha256": "f342e20f3b2f482de86bc4f200b56f5a1fc6ad149f75b1c5752952bb8b86e553",
+        "currentSha256": "f342e20f3b2f482de86bc4f200b56f5a1fc6ad149f75b1c5752952bb8b86e553",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-hermes",
+        "path": "skill.json",
+        "v1Sha256": "f36f49d7de25d8639a087c3d7884a9a90421ed2f481bfd3970a22bf9a712e04e",
+        "currentSha256": "f36f49d7de25d8639a087c3d7884a9a90421ed2f481bfd3970a22bf9a712e04e",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-hermes",
+        "path": "references/cursor-paged-task-messages.md",
+        "v1Sha256": "b3135e20f4ff67b3ac5593536eb4b14b59ff3d96608dc26090a6181862e6e2da",
+        "currentSha256": "b3135e20f4ff67b3ac5593536eb4b14b59ff3d96608dc26090a6181862e6e2da",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-hermes",
+        "path": "references/methods.md",
+        "v1Sha256": "3f0a33559aba81a728d7aa47ab6f5d5c9686490d8d7e68a83b1ddf3136747aa4",
+        "currentSha256": "3f0a33559aba81a728d7aa47ab6f5d5c9686490d8d7e68a83b1ddf3136747aa4",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-hermes",
+        "path": "references/truthful-cli-progress.md",
+        "v1Sha256": "d9bd1ebfd44178a4d33f0d1150b460aa4d6fa564177ea0ded1577ce4123c936c",
+        "currentSha256": "d9bd1ebfd44178a4d33f0d1150b460aa4d6fa564177ea0ded1577ce4123c936c",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-mnemosyne",
+        "path": "skill.json",
+        "v1Sha256": "9741df2de726741abf78a5383f54e74d72df0f3dd954330faede0f30637e5e14",
+        "currentSha256": "9741df2de726741abf78a5383f54e74d72df0f3dd954330faede0f30637e5e14",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-mnemosyne",
+        "path": "references/methods.md",
+        "v1Sha256": "9b3bff3a805b833a4e3d72495382efab8b99e31a0719178a17f03ed4aca02d86",
+        "currentSha256": "9b3bff3a805b833a4e3d72495382efab8b99e31a0719178a17f03ed4aca02d86",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-omnibus",
+        "path": "skill.json",
+        "v1Sha256": "d3064e97c1f25d87adef40c2fca4228a9ed0f35d13606db1ad2d193d689e059d",
+        "currentSha256": "d3064e97c1f25d87adef40c2fca4228a9ed0f35d13606db1ad2d193d689e059d",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-omnibus",
+        "path": "references/methods.md",
+        "v1Sha256": "b9f125b0b5b53d6a9875f8ae597b316db37523b10ef872d3dcf69366916a7f5a",
+        "currentSha256": "b9f125b0b5b53d6a9875f8ae597b316db37523b10ef872d3dcf69366916a7f5a",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-orpheus",
+        "path": "skill.json",
+        "v1Sha256": "6ac5ac8cf81386e5a739f369056d7332fb33e722a8fa02a0efd60e030abc3235",
+        "currentSha256": "6ac5ac8cf81386e5a739f369056d7332fb33e722a8fa02a0efd60e030abc3235",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-orpheus",
+        "path": "references/methods.md",
+        "v1Sha256": "ee216cf993a7629868d4fc918d27d94815e9b9f765acf4f1ab06644068a480e7",
+        "currentSha256": "ee216cf993a7629868d4fc918d27d94815e9b9f765acf4f1ab06644068a480e7",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-prometheus",
+        "path": "skill.json",
+        "v1Sha256": "7d118ed0417e927c5da6ea91640e2fa907d3f3ceccaaa62e050fc04e668bf3d8",
+        "currentSha256": "7d118ed0417e927c5da6ea91640e2fa907d3f3ceccaaa62e050fc04e668bf3d8",
+        "unchanged": true
+      },
+      {
+        "id": "eternities-prometheus",
+        "path": "references/methods.md",
+        "v1Sha256": "6150efa2ad78e5ebc93b9dbde21893984428a9d5ac109c85f1966d2b3a815954",
+        "currentSha256": "6150efa2ad78e5ebc93b9dbde21893984428a9d5ac109c85f1966d2b3a815954",
+        "unchanged": true
+      },
+      {
+        "id": "experiment-artifact-lineage",
+        "path": "skill.json",
+        "v1Sha256": "0977e43f9ebfa31a432f3cb4ee8472df7cdb97d873947951440328c1106b4d47",
+        "currentSha256": "0977e43f9ebfa31a432f3cb4ee8472df7cdb97d873947951440328c1106b4d47",
+        "unchanged": true
+      },
+      {
+        "id": "formula-preserving-workbook-engineering",
+        "path": "skill.json",
+        "v1Sha256": "14fd8f40e38f63256a84ddbe70fd9fd419261f0a506c9c5286314d27cfef4517",
+        "currentSha256": "14fd8f40e38f63256a84ddbe70fd9fd419261f0a506c9c5286314d27cfef4517",
+        "unchanged": true
+      },
+      {
+        "id": "genomic-coordinate-assembly-and-variant-gates",
+        "path": "skill.json",
+        "v1Sha256": "adc0cf6ef8d3cc823c56de2a6390979fb7a1e8341160feeedc84456c86c94ee7",
+        "currentSha256": "adc0cf6ef8d3cc823c56de2a6390979fb7a1e8341160feeedc84456c86c94ee7",
+        "unchanged": true
+      },
+      {
+        "id": "imaginative-concept-development",
+        "path": "skill.json",
+        "v1Sha256": "90fed2e5797f81f5affb2a1119260a9b885dbe5f7868ade0d20f96abbf304eff",
+        "currentSha256": "90fed2e5797f81f5affb2a1119260a9b885dbe5f7868ade0d20f96abbf304eff",
+        "unchanged": true
+      },
+      {
+        "id": "interatomic-model-validation",
+        "path": "skill.json",
+        "v1Sha256": "34ec8e35b224bba26150e8b2128f734f214a0ecfc4215ef5c8ce61172e744972",
+        "currentSha256": "34ec8e35b224bba26150e8b2128f734f214a0ecfc4215ef5c8ce61172e744972",
+        "unchanged": true
+      },
+      {
+        "id": "interpersonal-understanding-and-dialogue",
+        "path": "skill.json",
+        "v1Sha256": "a582d6717d1eccc2516d787b987ffebe16f704d98a12f64b3cfe2feb31c71101",
+        "currentSha256": "a582d6717d1eccc2516d787b987ffebe16f704d98a12f64b3cfe2feb31c71101",
+        "unchanged": true
+      },
+      {
+        "id": "interpersonal-understanding-and-dialogue",
+        "path": "references/examples.md",
+        "v1Sha256": "c1593449b397d952b3d0c60d7bca728201be79e5715af0a0ba1b35adae590bec",
+        "currentSha256": "c1593449b397d952b3d0c60d7bca728201be79e5715af0a0ba1b35adae590bec",
+        "unchanged": true
+      },
+      {
+        "id": "jurisdiction-aware-contract-review",
+        "path": "skill.json",
+        "v1Sha256": "3cc4bb731582cb173b4f13fd500316003bb97aa39cab6c84e2d2aefe8f764158",
+        "currentSha256": "3cc4bb731582cb173b4f13fd500316003bb97aa39cab6c84e2d2aefe8f764158",
+        "unchanged": true
+      },
+      {
+        "id": "lazy-tabular-transformation-and-validation",
+        "path": "skill.json",
+        "v1Sha256": "7d4c7db142249ba397c8614dc2f36f0d746c923becaab1876e935b623558442d",
+        "currentSha256": "7d4c7db142249ba397c8614dc2f36f0d746c923becaab1876e935b623558442d",
+        "unchanged": true
+      },
+      {
+        "id": "measured-paid-creative-iteration",
+        "path": "skill.json",
+        "v1Sha256": "ef42b77e2179937767e4bab624272e2b26c5c71d52cad7f20247c95bc9e7a99b",
+        "currentSha256": "ef42b77e2179937767e4bab624272e2b26c5c71d52cad7f20247c95bc9e7a99b",
+        "unchanged": true
+      },
+      {
+        "id": "molecular-observable-integrity",
+        "path": "skill.json",
+        "v1Sha256": "9818b45f8980c54581dfebf5cc8a7931606980d358e15b93206a0cdaca771557",
+        "currentSha256": "9818b45f8980c54581dfebf5cc8a7931606980d358e15b93206a0cdaca771557",
+        "unchanged": true
+      },
+      {
+        "id": "performance-release-gating",
+        "path": "skill.json",
+        "v1Sha256": "3f8c6b2f9ce4983eb271b553f6369d117f27487e163017d3ea6adcb1b5cb48ff",
+        "currentSha256": "3f8c6b2f9ce4983eb271b553f6369d117f27487e163017d3ea6adcb1b5cb48ff",
+        "unchanged": true
+      },
+      {
+        "id": "portable-speech-chunk-alignment",
+        "path": "skill.json",
+        "v1Sha256": "16c8807d79d165f96d92237de04f4d7583a71363f89161aa4aeee619edbe5df1",
+        "currentSha256": "16c8807d79d165f96d92237de04f4d7583a71363f89161aa4aeee619edbe5df1",
+        "unchanged": true
+      },
+      {
+        "id": "retrieval-grounded-answering",
+        "path": "skill.json",
+        "v1Sha256": "18cd6faec3f22d9d541d16577c2478b8443b0f762c18fa4fa3f97232d9e2cffd",
+        "currentSha256": "18cd6faec3f22d9d541d16577c2478b8443b0f762c18fa4fa3f97232d9e2cffd",
+        "unchanged": true
+      },
+      {
+        "id": "scene-continuity-and-coverage",
+        "path": "skill.json",
+        "v1Sha256": "99f454dac581983bd60c1f97a4a8fc9a8d908f857b0c7a4690796d5278173426",
+        "currentSha256": "99f454dac581983bd60c1f97a4a8fc9a8d908f857b0c7a4690796d5278173426",
+        "unchanged": true
+      },
+      {
+        "id": "semantic-implementation-diff",
+        "path": "skill.json",
+        "v1Sha256": "f6273fe925468bf892e410556f830b91703ba91fd823a6862449608916c92a66",
+        "currentSha256": "f6273fe925468bf892e410556f830b91703ba91fd823a6862449608916c92a66",
+        "unchanged": true
+      },
+      {
+        "id": "structured-hiring-evaluation",
+        "path": "skill.json",
+        "v1Sha256": "4fae2efd6db75899da73a899b69a3b3faeb87f0f6962299e7b879ccdbc45229c",
+        "currentSha256": "4fae2efd6db75899da73a899b69a3b3faeb87f0f6962299e7b879ccdbc45229c",
+        "unchanged": true
+      },
+      {
+        "id": "structured-hiring-evaluation",
+        "path": "references/methods.md",
+        "v1Sha256": "ba4089a688da40f37f05b50dab20c110a5469e146eac98e833d30390d36bd685",
+        "currentSha256": "ba4089a688da40f37f05b50dab20c110a5469e146eac98e833d30390d36bd685",
+        "unchanged": true
+      },
+      {
+        "id": "symbolic-mathematics-python",
+        "path": "skill.json",
+        "v1Sha256": "f1d10d6425f86a0750496530ca184f07386231b4eb52be4d1b2d8262b5abf2ce",
+        "currentSha256": "f1d10d6425f86a0750496530ca184f07386231b4eb52be4d1b2d8262b5abf2ce",
+        "unchanged": true
+      },
+      {
+        "id": "symbolic-mathematics-python",
+        "path": "references/source-grounded-math-specification.md",
+        "v1Sha256": "edbbb063b3550619cfe216db64a96611c14839fcf61e2f24f13ca9d2ecebdb20",
+        "currentSha256": "edbbb063b3550619cfe216db64a96611c14839fcf61e2f24f13ca9d2ecebdb20",
+        "unchanged": true
+      },
+      {
+        "id": "user-research-and-usability-study",
+        "path": "skill.json",
+        "v1Sha256": "38f70d71e8f0824737279e1b2cf7f041c07f5397258cee2429860567c9fe7ee4",
+        "currentSha256": "38f70d71e8f0824737279e1b2cf7f041c07f5397258cee2429860567c9fe7ee4",
+        "unchanged": true
+      },
+      {
+        "id": "user-research-and-usability-study",
+        "path": "references/accessible-user-study.md",
+        "v1Sha256": "a2d5726407966adc2846b21ac9174ee0d21014769a6739a1cd876413fa58de0a",
+        "currentSha256": "a2d5726407966adc2846b21ac9174ee0d21014769a6739a1cd876413fa58de0a",
+        "unchanged": true
+      },
+      {
+        "id": "user-research-and-usability-study",
+        "path": "references/experience-mapping.md",
+        "v1Sha256": "bb7906daefa5d06a255c50b217ddafcd8a5db8b58d99d17ae16a345bc2132812",
+        "currentSha256": "bb7906daefa5d06a255c50b217ddafcd8a5db8b58d99d17ae16a345bc2132812",
+        "unchanged": true
+      },
+      {
+        "id": "user-research-and-usability-study",
+        "path": "references/methods.md",
+        "v1Sha256": "e7d644a31a71e085fda0f6ff3c23879be0c3e1e22f4b62ff778af039d892985d",
+        "currentSha256": "e7d644a31a71e085fda0f6ff3c23879be0c3e1e22f4b62ff778af039d892985d",
+        "unchanged": true
+      },
+      {
+        "id": "voice-style-calibration",
+        "path": "skill.json",
+        "v1Sha256": "853cce581a0f216c3650f1f857bfae0fa1f78ef93dfc398fbfd350b74eacf6d3",
+        "currentSha256": "853cce581a0f216c3650f1f857bfae0fa1f78ef93dfc398fbfd350b74eacf6d3",
+        "unchanged": true
+      }
+    ]
+  },
+  "skills": [
+    {
+      "id": "api-rate-limit-recovery",
+      "status": "READY",
+      "reviewMode": "rereviewed",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "3a7a9406e09c721cdea21a698d83b55324105653e52e9fc151d0537a57c85a6f",
+      "currentEntrypointSha256": "8552e9991da80115e3be4473ea3676e79613260c5df4f6f4f961d251c8b4f2f3",
+      "unchangedEntrypoint": false,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "The trace now distinguishes provider minimum, actual scheduled delay or exhausted/deferred decision, and client-backoff cap. This agrees with the minimum-wait rule instead of implying a clipped provider delay. Same-key deduplication, cancellation, monotonic deadlines, limited-identity concurrency and malformed-guidance terminal states are unchanged.",
+      "priorMechanismRecord": [
+        "minimum provider delay vs policy exhaustion",
+        "same idempotency key",
+        "monotonic deadline and cancellation",
+        "limiter identity and duplicate tests"
+      ],
+      "priorIndependentReason": "The added delay/date logic fixes early redispatch after capping a provider minimum; it does not relax retry eligibility or deduplication.",
+      "resolvedFindingId": "B-02"
+    },
+    {
+      "id": "approval-bound-private-session-mining",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "b73c8bf7c81d781e56600316afa4e0ef9181dd1c7ffd2a6cc1b2cbe891ac79ce",
+      "currentEntrypointSha256": "b73c8bf7c81d781e56600316afa4e0ef9181dd1c7ffd2a6cc1b2cbe891ac79ce",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "approved purpose and exact source set",
+        "pre-corpus secret redaction",
+        "direct/inferred source locators with chronology",
+        "revocation of derived findings"
+      ],
+      "priorIndependentReason": "Inline exclusions and a supplied fixed source list remove extra files without removing minimization or retention controls.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "bounded-parametric-design-iteration",
+      "status": "READY",
+      "reviewMode": "rereviewed",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "7693ec64c07ccb885e6384372ab26547a056d12335700361771bc19a85e42180",
+      "currentEntrypointSha256": "3ebf155034e8f23d095204f8fb82efff24f7988785252a0ad47a9a9d80e26a0c",
+      "unchangedEntrypoint": false,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "The description now says one bounded candidate change, matching the explicit single-parameter and declared coupled-candidate branches. It retains solved-baseline, comparable solver evidence, constraints and accept/rollback cues; only the description changed in v2.",
+      "priorMechanismRecord": [
+        "solved baseline and credibility tier",
+        "declared bounded joint mutation",
+        "same solver/setup metrics and hard constraints",
+        "rollback on stale or incomparable results"
+      ],
+      "priorIndependentReason": "Joint attribution is explicit rather than pretending individual causality; solver and hard-constraint checks remain.",
+      "resolvedFindingId": "B-03"
+    },
+    {
+      "id": "bounded-verified-object-ingestion",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "cf69c9340313bd2f01c8abc4fbf39a82234062bb2a8b933e30997a31d647301c",
+      "currentEntrypointSha256": "cf69c9340313bd2f01c8abc4fbf39a82234062bb2a8b933e30997a31d647301c",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "manifest revision and canonical/source digest distinction",
+        "one reconciled status per item",
+        "same-ID different-byte conflict",
+        "staging, quarantine and replay ledger"
+      ],
+      "priorIndependentReason": "Retention is justified: the body distinguishes membership, identity, semantic safety and durable effects rather than reducing ingestion to count matching.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "columnar-ingestion-rollup-and-query-layout-design",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "8cba00eced7f2e84de01c0304aab9e59fed548ae1515bbbc164f568f17951626",
+      "currentEntrypointSha256": "8cba00eced7f2e84de01c0304aab9e59fed548ae1515bbbc164f568f17951626",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "workload cardinality/skew and pruning",
+        "authoritative raw vs rollup layers",
+        "late-data watermark and replay",
+        "correctness plus comparable query distribution"
+      ],
+      "priorIndependentReason": "Retained layout choices are workload-driven and preserve late corrections, deletion and schema evolution; no mandatory vendor or production migration.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "confirmed-destructive-reconstruction",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "5faed22a58f2c63d9495bbe6bef0516b38fd6f30111a22709736f0ca90e03d78",
+      "currentEntrypointSha256": "5faed22a58f2c63d9495bbe6bef0516b38fd6f30111a22709736f0ca90e03d78",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "exact resolved target and operation",
+        "reject root/glob/symlink escape",
+        "independent restorable backup",
+        "pre-write recheck and independently verified rollback"
+      ],
+      "priorIndependentReason": "Existing authority is tied to unchanged target/state/consequences and immediate rechecking; removal of repeat-confirmation ritual does not license neighboring cleanup.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "customer-support-triage-and-resolution",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "32f0615a91aa2ca3e5933c40e24aa80ae200b9b7394549bf37b42b1d1ba34be0",
+      "currentEntrypointSha256": "32f0615a91aa2ca3e5933c40e24aa80ae200b9b7394549bf37b42b1d1ba34be0",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "reported vs reproduced vs cause",
+        "impact distinct from commercial priority",
+        "duplicate cases preserve unique evidence",
+        "uncertain external write reconciliation",
+        "local fix vs customer confirmation"
+      ],
+      "priorIndependentReason": "Both body and triage/closure resource keep missing policy, access and customer response unknown; a useful retain rather than a forced rewrite.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "docx-package-redline-and-render-verification",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "e90da766438c21f06cc718d2dbeefb1dff920bbcfef0402cd3a5e94be32bffb8",
+      "currentEntrypointSha256": "e90da766438c21f06cc718d2dbeefb1dff920bbcfef0402cd3a5e94be32bffb8",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "package inventory and relationship classification",
+        "intentional tracked-change identities",
+        "semantic and inventory comparison",
+        "compatible-engine full-page render check",
+        "original and failed candidate retention"
+      ],
+      "priorIndependentReason": "The unknown-part stop is scoped to dependencies actually needed for an edit; external targets remain inspect-only and unexpected render changes still require investigation.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "eternities-aegis",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "49c1d4bf1d6b21794a8dd634679c0268ae99daa967515ee667d3e40788f5749b",
+      "currentEntrypointSha256": "49c1d4bf1d6b21794a8dd634679c0268ae99daa967515ee667d3e40788f5749b",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "source-to-sink causal boundary trace",
+        "evidence classes and independent risk dimensions",
+        "scope-specific authority",
+        "safe isolated/static repair proof with clean control and regression"
+      ],
+      "priorIndependentReason": "Activation narrows to security/authority intent rather than every API feature; conditional repair proof and route-owned evidence do not weaken actual exposure analysis.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "eternities-arcadia",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "2cbfec7e1e8fbc6e3d10321336224176ee5950d7895ac281d7849947c94c61c1",
+      "currentEntrypointSha256": "2cbfec7e1e8fbc6e3d10321336224176ee5950d7895ac281d7849947c94c61c1",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "simulation/input/presentation/persistence ownership",
+        "versioned saves and recovery",
+        "human comfort vs machine evidence",
+        "browser lifetime and shared resource ownership",
+        "event authority/cue suppression/reconnect",
+        "bidirectional approved requirement binding"
+      ],
+      "priorIndependentReason": "Design-only work no longer forces a playable build, while an actual build request must deliver its slice; specialized lifecycle, audio and screen-state mechanisms remain intact.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "eternities-athena",
+      "status": "READY",
+      "reviewMode": "rereviewed",
+      "v1Status": "REPAIR",
+      "v1EntrypointSha256": "65be19826aa672dcfb9f1c436aa7a141c622995a62a7dc8d7b1d3664dcb6cce7",
+      "currentEntrypointSha256": "3bb0ab1d455cb3738db5f1c7645c39fb794b4cfd906dbdcd5269a91269eaa968",
+      "unchangedEntrypoint": false,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "The final deliverable now requires design-appropriate validity and bias judgments, and a causal/confounding map only for causal or adjusted associative claims. It agrees with step 4's descriptive exemption without waiving relevant sampling, measurement, missingness, uncertainty or required controls.",
+      "priorMechanismRecord": [
+        "claim class matched to estimand",
+        "relevant design-validity threats",
+        "collider/mediator/selection vs adjustment",
+        "heterogeneity and effect uncertainty",
+        "prospective units/exposure/denominators/amendment limits"
+      ],
+      "priorIndependentReason": "The refinement preserves required controls while removing causal-diagram machinery from descriptive claims.",
+      "resolvedFindingId": "B-01"
+    },
+    {
+      "id": "eternities-beacon",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "381ae1f0ffee855b14c8c2bda226bb57aa9147be1e7f9a68f94b231fb869a030",
+      "currentEntrypointSha256": "381ae1f0ffee855b14c8c2bda226bb57aa9147be1e7f9a68f94b231fb869a030",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "dated fact/forecast/hypothesis claim classes",
+        "denominators and attribution windows",
+        "prospective intervention/guardrail/stop contract",
+        "purpose-bound consent and distinct external effects",
+        "exact sponsorship rights/obligations chronology"
+      ],
+      "priorIndependentReason": "Observed cohort reporting is separated from intervention design; factual copy still needs traceable claims and external actions retain separate authority.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "eternities-daedalus",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "9c3271351a5d8234098a001fa079236ec9c8ea568603cacab3fa5f05e9ee0d23",
+      "currentEntrypointSha256": "9c3271351a5d8234098a001fa079236ec9c8ea568603cacab3fa5f05e9ee0d23",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "behavior-detecting probe vs mirrored test",
+        "route-specific performance/config/migration contracts",
+        "unfamiliar code remains unexecuted",
+        "partial-commit state matrices",
+        "required CI vs optional paid scenarios"
+      ],
+      "priorIndependentReason": "A new ledger or failing test is no longer demanded for every low-impact edit; real defects and new behavior retain observable checks and integration-sensitive widening.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "eternities-hephaestus",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "5c31073206e35a113aeb7341fa643b2480b0e114b278c37df72260d9b8156f7b",
+      "currentEntrypointSha256": "5c31073206e35a113aeb7341fa643b2480b0e114b278c37df72260d9b8156f7b",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "unknown hard predicate cannot pass",
+        "matched model/runtime/workload identity",
+        "capacity overhead and headroom",
+        "quality plus variable timing distribution",
+        "unqualified specs shortlist and rejected-option ledger"
+      ],
+      "priorIndependentReason": "Energy/thermal/safety measures follow actual constraints rather than universal capture, while every hard predicate still needs evidence.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "eternities-hermes",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "fd626d425723be905c9375502c6b6fe480df645f057aee00c9517fdcb5257c8c",
+      "currentEntrypointSha256": "fd626d425723be905c9375502c6b6fe480df645f057aee00c9517fdcb5257c8c",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "step effect classes and partial outcomes",
+        "stream framing and bounded buffers",
+        "degraded optional vs required integration",
+        "task-feed cursor durable progress",
+        "truthful CLI channels/validated progress",
+        "owned continuing work and stop policy"
+      ],
+      "priorIndependentReason": "Declared monitored work can remain running and user sessions can stay open; authorized ownership, observed state, resource limits and stop policy replace indiscriminate cleanup.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "eternities-mnemosyne",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "121f1d7db8183b2bc8cdb6acce8654aac92f76f4cae74ad1f823864cba4bf392",
+      "currentEntrypointSha256": "121f1d7db8183b2bc8cdb6acce8654aac92f76f4cae74ad1f823864cba4bf392",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "exact task/identity/time/authority scope",
+        "verified/stale/conflicted/unknown labels",
+        "cheap authoritative retrieval with no-match",
+        "source-labeled dependency invalidation",
+        "local evidence-base lifecycle and separate adoption"
+      ],
+      "priorIndependentReason": "Ordinary lookup is excluded and native history is not silently substituted with a summary; durable memory and rights boundaries remain.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "eternities-omnibus",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "6009e4015f56b00cab8e7142a67273e7be6be2de8bb955e6d9383320b5107c4d",
+      "currentEntrypointSha256": "6009e4015f56b00cab8e7142a67273e7be6be2de8bb955e6d9383320b5107c4d",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "host-owned need/none/unknown before lexical retrieval",
+        "pack-root resolution and manual-index boundary",
+        "actual method exclusions before full-body application",
+        "discovery is not activation or authority"
+      ],
+      "priorIndependentReason": "The retained entrypoint works with an intact pack or standalone metadata and does not mistake lexical ranking for semantic need; the optional CLI is not a dependency.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "eternities-orpheus",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "083f4461cf7a28dd5a2b25bd3e2c2d05448b74b92aaa5d87b5daa50753c2c48e",
+      "currentEntrypointSha256": "083f4461cf7a28dd5a2b25bd3e2c2d05448b74b92aaa5d87b5daa50753c2c48e",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "exact transcript vs labeled transformations",
+        "supplied speaker labels not identity proof",
+        "local word/segment uncertainty and overlaps",
+        "common-timebase timeline provenance and rights"
+      ],
+      "priorIndependentReason": "Retained media checks distinguish a local caption/timeline artifact from upload and from verified identity, consent or rights.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "eternities-prometheus",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "3bdb3c567c215cee7552d846abdcfd87024e6a5787e394d6526799f24c008ab6",
+      "currentEntrypointSha256": "3bdb3c567c215cee7552d846abdcfd87024e6a5787e394d6526799f24c008ab6",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "dated evidence classes and conflicts",
+        "linked analyses keep denominators and conclusions separate",
+        "formulas/units and owner/dependency plans",
+        "cheap discriminating prioritization test",
+        "external commercial effects separated"
+      ],
+      "priorIndependentReason": "Several lenses may answer a mixed decision without creating one score or unnecessary handoffs; no commercial commitment is inferred.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "experiment-artifact-lineage",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "92da8b7ef85c7b308d7e4842e3ef3de02ce4b54061a9603e2338fa6d676682fe",
+      "currentEntrypointSha256": "92da8b7ef85c7b308d7e4842e3ef3de02ce4b54061a9603e2338fa6d676682fe",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "cache/resume/warm-start/evaluate contracts differ",
+        "dependency content vs location and actual split membership",
+        "optimizer/RNG/sampler/scaler/distributed state only when used",
+        "safe deserialization and atomic completed outputs",
+        "interruption plus real/irrelevant invalidation checks"
+      ],
+      "priorIndependentReason": "Retain: the body already avoids both weights-only false resume and excessive cache invalidation, with exact continuity and held-out fitting boundaries.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "formula-preserving-workbook-engineering",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "69f701204ba80a60752567ceb646332714ff945f8bee9ab063ec3ef496d1d946",
+      "currentEntrypointSha256": "69f701204ba80a60752567ceb646332714ff945f8bee9ab063ec3ef496d1d946",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "formulas distinct from cached values",
+        "shared/array formulas names and hidden dependencies",
+        "compatible-engine recalculation provenance",
+        "package part and relationship comparison",
+        "affected-sheet rendering and business-truth limit"
+      ],
+      "priorIndependentReason": "Retain: package, calculation and visual evidence are deliberately separate; unavailable external inputs do not become current reality.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "genomic-coordinate-assembly-and-variant-gates",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "ddd47cf59e9bc156fbf82478ffa14693882611f0f478f697f9aaa775eb96dedb",
+      "currentEntrypointSha256": "ddd47cf59e9bc156fbf82478ffa14693882611f0f478f697f9aaa775eb96dedb",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "assembly/contig/base/interval/strand identity",
+        "reference-bound trimming/left alignment and multiallelic policy",
+        "conditional liftover plus destination reference validation",
+        "nonunique/partial/inconsistent quarantine",
+        "post-normalization duplicate classification"
+      ],
+      "priorIndependentReason": "The added destination validation closes a real coordinate-versus-allele seam; same-build normalization no longer requires a meaningless conversion.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "imaginative-concept-development",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "5a1b550f7db546470d93a73106f972d59cf1cf4be21cc6e7c8d08cb7f9fd95c7",
+      "currentEntrypointSha256": "5a1b550f7db546470d93a73106f972d59cf1cf4be21cc6e7c8d08cb7f9fd95c7",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "causal mechanism or participant experience defines distinctness",
+        "distant analogy extracts relation then tests failed transfer",
+        "hard constraints precede preference tradeoffs",
+        "proposals/canon/unknowns remain separate",
+        "no forced count/score/winner"
+      ],
+      "priorIndependentReason": "Retain: it already supports useful compact options and its library example explicitly holds storage/stewardship unconfirmed rather than treating materials as supplied.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "interatomic-model-validation",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "fa1e1443277a7ded60d3f4bca483695b53e7c1511d4b5878d296ebeabd878583",
+      "currentEntrypointSha256": "fa1e1443277a7ded60d3f4bca483695b53e7c1511d4b5878d296ebeabd878583",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "computational reference vs experimental truth",
+        "units/energy-zero/theory/convergence consistency",
+        "materials-specific independent groups",
+        "property-level checks beyond fit score",
+        "base/adapted retained-domain comparison and separate uncertainties"
+      ],
+      "priorIndependentReason": "Retain: specialized reference and physical-property checks are not replaced by generic surrogate metrics; companion ownership and no-training/HPC effects remain explicit.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "interpersonal-understanding-and-dialogue",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "dfa4af05ca5b68aa6db7252d70dc0d2b57a610f4fa0f49104fe3b07eb1cacc74",
+      "currentEntrypointSha256": "dfa4af05ca5b68aa6db7252d70dc0d2b57a610f4fa0f49104fe3b07eb1cacc74",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "observable words/actions vs motive hypotheses",
+        "only action-relevant alternative readings",
+        "needs vs positions with decline/pause possible",
+        "specific repair without forgiveness barter",
+        "conflicting agreement and silence examples"
+      ],
+      "priorIndependentReason": "Retain: evidence and tentative perspective shape the actual message without diagnosing, stereotyping or coercing the recipient.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "jurisdiction-aware-contract-review",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "c600a5c1b47f652f435c4b0a1cb8d71ee043de7b801eff34aeb25a2b04c43303",
+      "currentEntrypointSha256": "c600a5c1b47f652f435c4b0a1cb8d71ee043de7b801eff34aeb25a2b04c43303",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "whole agreement with definitions/precedence/attachments",
+        "actor/action/trigger/deadline/exception/consequence map",
+        "cross-clause liability/retention/payment conflicts",
+        "document fact vs business tradeoff vs current-law question",
+        "no signing/sending/filing authority"
+      ],
+      "priorIndependentReason": "Retain: basic extraction can proceed without a guessed jurisdiction; enforceability questions stay unverified until current authority and qualified review are available.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "lazy-tabular-transformation-and-validation",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "848d222b70cf24d9ef86af68a4ec6bfeacf889c8f75f36a3facfabf66a7b1c77",
+      "currentEntrypointSha256": "848d222b70cf24d9ef86af68a4ec6bfeacf889c8f75f36a3facfabf66a7b1c77",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "schema keys/nulls/units/row invariants",
+        "logical plus physical pushdown/pruning plan inspection",
+        "bounded materialization before collection",
+        "join multiplication and independent invariant oracle",
+        "sample diagnosis not completeness and staged writes"
+      ],
+      "priorIndependentReason": "Retain: laziness is observed execution behavior rather than a label, and sampled or partitioned checks preserve coverage limits.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "measured-paid-creative-iteration",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "769e7fb4b916bcf989f9458e9f23912a110d39be0f8bcf0a502f9ddc86b136e3",
+      "currentEntrypointSha256": "769e7fb4b916bcf989f9458e9f23912a110d39be0f8bcf0a502f9ddc86b136e3",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "aggregate placement/audience/window comparability",
+        "small causal creative contrast",
+        "denominators attribution guardrails and paid owner limits",
+        "prelaunch fixed-window or supported sequential error control",
+        "posthoc changes exploratory"
+      ],
+      "priorIndependentReason": "A supported sequential rule replaces the universal wait-until-end recipe without allowing first-day peeking or retroactive confirmation.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "molecular-observable-integrity",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "b12a8fb9fe39291b289eac55ee81f11df7baf274e088d5cb843fbc44256f7149",
+      "currentEntrypointSha256": "b12a8fb9fe39291b289eac55ee81f11df7baf274e088d5cb843fbc44256f7149",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "atom/time/unit identity",
+        "minimum image vs whole-molecule vs continuous displacement",
+        "RMSD fit/measurement/weight/COM conventions",
+        "sparse crossings and deforming cell ambiguity",
+        "observable equilibration and correlation-aware effective information"
+      ],
+      "priorIndependentReason": "Retain: correct representation is chosen by the actual observable and statistical precision is not confused with physical truth or reproducibility.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "performance-release-gating",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "e96f776e506d9eb98eb32df919a64c3c30520d99a5317f9b0f5eb1cb6db42de5",
+      "currentEntrypointSha256": "e96f776e506d9eb98eb32df919a64c3c30520d99a5317f9b0f5eb1cb6db42de5",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "frozen workload/cache/environment/order distributions",
+        "outliers and GC/thermal interruptions retained",
+        "functional/error/tail budgets",
+        "absolute budget vs comparative gain vs inconclusive",
+        "lab proof separated from rollout"
+      ],
+      "priorIndependentReason": "The revised decision rule correctly permits an absolute-budget pass without a speedup while retaining failure on real budget/functional breaches.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "portable-speech-chunk-alignment",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "93283ef9cf5b93a365d1fb7da970efb0c7afc2961385631909320856b9178166",
+      "currentEntrypointSha256": "93283ef9cf5b93a365d1fb7da970efb0c7afc2961385631909320856b9178166",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "source/render text span lineage and offset units",
+        "grapheme/protected-pronunciation boundaries",
+        "renderer budget basis and unknown fit",
+        "stable chunk vs attempt/revision identities",
+        "conditioning vs emitted overlap and partial/cancel states"
+      ],
+      "priorIndependentReason": "Retain: text preparation remains useful without fake audio evidence; output timing, seam quality and pronunciation require their own observations.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "retrieval-grounded-answering",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "9699b65853adf21b4e285c2b357295ea401822b0dbda46eb168510cb1d654236",
+      "currentEntrypointSha256": "9699b65853adf21b4e285c2b357295ea401822b0dbda46eb168510cb1d654236",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "source ID/version/location/access on each unit",
+        "lexical baseline before optional vectors/reranking",
+        "held-out questions and reference evidence",
+        "access filter before model context with tenant caches",
+        "stage diagnosis and revision/revocation invalidation"
+      ],
+      "priorIndependentReason": "Retain: ordinary supplied-document answers are excluded from indexing and observed assembled context, not search-score optimism, determines support.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "scene-continuity-and-coverage",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "78237dfcd4e7b71f5d16742cc47364ed3bad51774ab8bd9ab7f1da215f5359e8",
+      "currentEntrypointSha256": "78237dfcd4e7b71f5d16742cc47364ed3bad51774ab8bd9ab7f1da215f5359e8",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "one world clock vs camera coverage/edit clock",
+        "pre/post event and cut state",
+        "camera translation vs turning/focal changes",
+        "temporal observation beyond matching endpoints",
+        "gap-only reshoot/regeneration preserves accepted takes"
+      ],
+      "priorIndependentReason": "Retain: distinct action/world/edit timelines prevent replayed handoffs; expressive motion and local repairs remain allowed without a fixed production apparatus.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "semantic-implementation-diff",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "9d790f26786f711482d0b2cb6b460d80d56099492a60e9686092b73f7553ab77",
+      "currentEntrypointSha256": "9d790f26786f711482d0b2cb6b460d80d56099492a60e9686092b73f7553ab77",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "revisions/environment/normalization frozen",
+        "outputs plus error/state/order/cancel/write/resource observations",
+        "equivalent/divergent/unobserved classification",
+        "minimized input and state history",
+        "independent property/compatibility decisions and sandbox limits"
+      ],
+      "priorIndependentReason": "Retain: observable semantics and unrun regions remain explicit rather than interpreting a textual or mocked-away comparison as equivalence.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "structured-hiring-evaluation",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "06d362d9881ccdbafa57994e1b3710793b3478e3eb316d537505da834096079b",
+      "currentEntrypointSha256": "06d362d9881ccdbafa57994e1b3710793b3478e3eb316d537505da834096079b",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "job-related anchors and unknown not failure",
+        "independent pre-debrief evidence",
+        "common core with accommodations",
+        "person vs application cohort/stage denominators",
+        "pending aging distinct from completed transitions and human decisions"
+      ],
+      "priorIndependentReason": "Mode selection removes forced funnel or interview redesign from an unrelated request while the scorecard and stage-accounting resource preserves fair comparison.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "symbolic-mathematics-python",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "ad82634d58c4cbd2901b31e2475017f60c8cbfa820c9b929a76a4bc7b9d09a86",
+      "currentEntrypointSha256": "ad82634d58c4cbd2901b31e2475017f60c8cbfa820c9b929a76a4bc7b9d09a86",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "explicit domain/units/assumptions/equality notion",
+        "unsimplified branches and singular exclusions",
+        "independent precision/near-exception checks not proof",
+        "cited-prose extraction anti-trigger for declared equations",
+        "exact source rights HOLD and independent domain review"
+      ],
+      "priorIndependentReason": "Retain: DRAFT prose extraction has an explicit no-solve stop, and the existing symbolic route keeps branch, domain and numerical-evidence limitations.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "user-research-and-usability-study",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "5b97406753e8b00a746db1e99b7d36ebc93bb8b708454a9dba265c09234363d4",
+      "currentEntrypointSha256": "5b97406753e8b00a746db1e99b7d36ebc93bb8b708454a9dba265c09234363d4",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "decision-linked method selection and neutral goals",
+        "supplied-note synthesis distinct from new study planning",
+        "action/report/interpretation/assistance/missingness",
+        "participant/opportunity denominators and recurrence not prevalence",
+        "access/data-use hold with earlier-data disposition separate",
+        "field/link evidence for experience transitions"
+      ],
+      "priorIndependentReason": "Supplied observations no longer force recruitment or a new guide; consent/context gaps remain visible and specialized access/journey resources still constrain eligible evidence.",
+      "resolvedFindingId": null
+    },
+    {
+      "id": "voice-style-calibration",
+      "status": "READY",
+      "reviewMode": "carried-forward",
+      "v1Status": "READY",
+      "v1EntrypointSha256": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b",
+      "currentEntrypointSha256": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b",
+      "unchangedEntrypoint": true,
+      "vectorMatch": true,
+      "authorAssessmentMatch": true,
+      "parentCheckerMatch": true,
+      "parentCheckerAssessmentFileMatch": true,
+      "fileMembershipUnchanged": true,
+      "decisionBasis": "Carry forward the existing v1 READY document outcome only: entrypoint SHA-256, supporting-resource/metadata bytes and membership match the reviewed v1 identities. No new semantic inspection or runtime outcome is claimed.",
+      "priorMechanismRecord": [
+        "recurring traits vs context register vs anti-features",
+        "sparse evidence provisional and current direction controls",
+        "meaning skeleton facts/quantities/modal/uncertainty/attribution",
+        "independent semantic and register checks",
+        "authorized draft vs false authorship/publication"
+      ],
+      "priorIndependentReason": "Retain: trait-level direction can yield the actual incident note while absent samples do not license a confident author profile, new cause or restoration claim.",
+      "resolvedFindingId": null
+    }
+  ],
+  "limits": [
+    "This is a bounded independent document rereview of three repaired IDs, not a repeat whole-cohort review. The other 35 outcomes are carried from v1 only after exact unchanged entrypoint hashes, metadata/resources and file membership were confirmed.",
+    "Reviewer A is independent of Volta's B authorship, but shares host instructions, authoring context, the prior review and repair assessment; this is not blinded/raw-agent evaluation.",
+    "The twelve author case definitions and finding-specific seams were checked for instruction fit, not executed against a client, CAD solver, dataset or study. No domain correctness, runtime behavior, numerical benefit or performance superiority is established.",
+    "V1 remains REPAIR with its original open findings; v2 closes those findings only at these current hashes. V1 author/review bytes are preserved, not retroactively relabeled.",
+    "Consumer-A-v1.json is not rerun or rewritten. Parent reported both consumer tasks pass; no usage or performance claim is inferred here.",
+    "No product edits, catalog/build/full-suite operations, integration, installation, other agent/model/provider calls or external acquisition were performed. Parent builds and performs release/package checks separately.",
+    "No installed-deployment audit has yet been performed in this review. Installation identity, preservation, routing and rollback remain for the next assigned audit.",
+    "Token/cost counters remain unavailable; no counters or efficiency claims are fabricated."
+  ]
+}
+

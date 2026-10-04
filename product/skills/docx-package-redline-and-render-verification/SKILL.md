@@ -25,7 +25,7 @@ If the requested edit is legally or contractually consequential, return the redl
 
 ## Finish and failure handling
 
-Finish when package integrity, relationship safety, requested review semantics, and rendered-page checks all have evidence. Stop if an external relationship escapes scope, a package part cannot be interpreted, or a render changes unexpectedly. Keep the original and failed candidate available for comparison or rollback.
+Finish when package integrity, relationship safety, requested review semantics, and rendered-page checks all have evidence. Inspect relationship targets without fetching external content. Preserve opaque unrelated parts byte-exact when the editing path supports that; stop if a part needed for the requested edit cannot be interpreted or preserved, or if an external dependency is necessary but outside scope. Investigate unexpected render changes before accepting the candidate. Keep the original and failed candidate available for comparison or rollback.
 
 ## Common failure modes
 

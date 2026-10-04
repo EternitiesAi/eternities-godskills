@@ -19,9 +19,9 @@ Architect handles decisions that affect more than one component, durable interfa
 1. Frame the outcome, scope, excluded concerns, decision owner, evidence needed, and the difference between stated intent and observed behavior.
 2. Recover reality from exact local evidence. Mark facts as verified, intent, assumption, or unknown; documentation cannot silently override implementation.
 3. State functional and non-functional constraints such as latency, scale, consistency, privacy, cost, operability, portability, authority, and migration effort. Use ranges or unknowns instead of invented targets.
-4. Model components, data flow, trust boundaries, state ownership, public interfaces, failure and recovery, observability, compatibility, and rollback.
+4. Model the affected components, data flow and boundaries. Include trust, state ownership, public interfaces, failure/recovery, observability, compatibility and rollback where the choice changes them. A focused decision can use a small diagram or interface contract; a new system needs the wider model.
 5. Compare the conservative baseline with viable alternatives on the same dimensions. Choose only when critical requirements map to design elements and acceptance signals, then name the strongest counterargument.
-6. Hand off ordered dependency slices, interfaces, proof obligations, unresolved questions, and reversal strategy. A design is complete when implementation can begin without reopening the architecture.
+6. Hand off dependency slices, interfaces, proof obligations, unresolved questions, and reversal strategy. The decision is usable when critical constraints have a supported route and implementation can begin; specify observations that would reopen it rather than promising the architecture will never change.
 
 ## Deliverable and finish
 

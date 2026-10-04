@@ -19,7 +19,7 @@ Write one hypothesis in a falsifiable form: a specific creative change, for a st
 2. Define primary, secondary, and guardrail metrics with denominators, attribution windows, minimum observation period, and a decision threshold. Include quality or complaint signals where conversion alone could reward a harmful outcome.
 3. Set the budget ceiling, launch owner, audience scope, test duration, stopping rules, and treatment of early or incomplete data. A precommitted rule should say what happens for win, null, loss, underpowered, and instrumentation-failure outcomes.
 4. Prepare the creative variants, naming scheme, evidence links, measurement template, and approval handoff. If the user has authorized the actual experiment, execute only the declared variants and window; otherwise leave the packet ready for that decision.
-5. Read results at the end of the declared window. Do not declare a winner because of a first-day fluctuation, an unbalanced split, or a metric that was changed after launch.
+5. Apply the predeclared fixed-window or statistically supported sequential decision rule. Under a fixed-window design, wait for that window and relevant follow-up; a sequential design must specify its monitoring and error control before launch. Do not declare a winner because of a first-day fluctuation, an unbalanced split, or a metric that was changed after launch. Outcome-informed changes remain exploratory rather than retroactive confirmation.
 
 ## Finish and limits
 

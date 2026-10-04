@@ -4,6 +4,7 @@ import { resolve, relative, join, dirname, parse, isAbsolute } from 'node:path';
 import {inspectMethodDirectory, renderMethodDirectory} from './method-directory.mjs';
 import {lexicalQueryEvidence, lexicalIntentMatch} from './discovery.mjs';
 import {lexicalSelectionBoundary} from './selection-boundary.mjs';
+import {inspectSkillFrontmatter} from './skill-frontmatter.mjs';
 
 const cmp=(a,b)=>a<b?-1:a>b?1:0;
 const idPattern=/^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$/;
@@ -65,9 +66,7 @@ async function inspectCatalog(root) {
     const files=await inventory(dir);
     check(Object.keys(files).length<=100,`Too many files: ${meta.id}`);
     const skill=await readFile(join(dir,'SKILL.md'),'utf8');
-    const front=/^---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/.exec(skill);
-    check(front&&new RegExp(`^name: ["']?${meta.id}["']?\\s*$`,'m').test(front[1]),`Frontmatter name mismatch: ${meta.id}`);
-    check(/^description:\s*\S/m.test(front[1]),`Missing description: ${meta.id}`);
+    inspectSkillFrontmatter(skill,meta.id);
     for(const resource of meta.resources)check(safeRel(resource)&&Object.hasOwn(files,resource),`Missing or escaping resource: ${meta.id}/${resource}`);
     for(const file of Object.keys(files)){
       if(!/\.(md|json)$/i.test(file))continue;

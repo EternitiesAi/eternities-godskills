@@ -19,13 +19,13 @@ Herald owns release-facing reasoning before an external release effect. It can p
 
 1. Establish repository scope, source revisions, evidence freshness, authority, migration state, health signals, rollback trigger, and acceptance owner.
 2. Separate source facts, derived checks, inferences, proposals, and human judgments. A command exit code without relevant assertions is not proof.
-3. For a release graph, derive actual workspace and artifact dependencies, list cache inputs, and test changed dependency, unchanged dependency, and invalidation cases.
-4. For a package, inspect the manifest and export surface, build from a clean fixture, enumerate tarball bytes and metadata, check dependency closure, and compare install behavior.
+3. When graph order or caching is in question, derive actual workspace and artifact dependencies, list cache inputs, and test changed dependency, unchanged dependency, and invalidation cases.
+4. When qualifying a package or its reproducibility, inspect the manifest and export surface, build from a clean fixture, enumerate tarball bytes and metadata, check dependency closure, and compare install behavior. Existing receipts can support a narrower documentation question only at their exact artifact identity and scope.
 5. Record local actions separately from tagging, pushing, publishing, installing, credential use, deployment, or external writes. Missing evidence or authority keeps the item unready.
 
 ## Deliverable and finish
 
-Return one route-owned release artifact, readiness packet, dependency decision, or typed handoff with evidence ledger, rollback reference, unresolved gates, and human decision owner. Finish when the release unit is reproducible and every remaining external effect is explicit. The graph and package methods are in [methods.md](references/methods.md).
+Deliver the requested release artifact, readiness assessment, dependency decision or handoff with evidence, relevant rollback reference, unresolved gates and human decision owner. Finish at the declared route's acceptance condition: supported change notes, screened dependency identity, reproducible release unit, or explicit readiness gates. Keep every remaining external effect explicit. The graph and package methods are in [methods.md](references/methods.md).
 
 For a multi-component release, keep one manifest row per component with version, dependency closure, verification evidence, rollback reference, and owner. A missing row is an unresolved release gate rather than an implicit pass.
 

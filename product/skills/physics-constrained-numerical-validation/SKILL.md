@@ -15,7 +15,7 @@ Record equations, units, sign conventions, coordinate system, initial and bounda
 
 1. Check dimensions and conversions through inputs, intermediate state, outputs, and reported metrics. A numerically finite result with inconsistent units is a failure.
 2. Test conservation, positivity, bounds, symmetry, monotonicity, and other invariants that the model should preserve. Include invalid and limiting cases such as zero input, steady state, small parameter, or known asymptote.
-3. Run mesh, timestep, solver-tolerance, and iteration convergence studies. Change one numerical resolution variable at a time where possible and report whether the quantity of interest stabilizes.
+3. Study convergence in the numerical controls present: mesh for spatial discretization, timestep for time integration, solver tolerance and iteration limit for iterative solves. Vary each relevant control independently where possible and report whether the quantity of interest stabilizes. If controls must change together, explain the coupling and attribution limit. Do not invent a mesh or timestep study for a model with neither.
 4. Examine stability, residuals, conditioning, and sensitivity to initial state or solver choice. Do not tune tolerances until a plot looks plausible while omitting failed runs.
 5. Compare with an independent reference and separate errors from discretization, model form, parameter uncertainty, measurement uncertainty, and implementation defects.
 
@@ -23,7 +23,7 @@ If the model is changed, retain the old configuration and rerun the same checks.
 
 ## Evidence and finish
 
-Return a validation matrix containing each check, expected behavior, observed result, resolution or tolerance, and status. Include failed or inconclusive runs and the strongest claim the evidence supports. Finish when units, invariants, limits, convergence, stability, and proof boundaries are recorded with pass or failure.
+Return the checks, expected behavior, observed results, resolution or tolerance and status, using a matrix when several layers need comparison. Include failed or inconclusive runs and the strongest claim supported. Give units, invariants, limits, convergence and stability an observed disposition or explicit inapplicability/evidence gap; an unexecuted check cannot pass. Keep numerical, model-form and physical-evidence limits visible.
 
 Numerical agreement with one reference point does not prove global accuracy. Stable iteration does not prove that the equations describe the physical system.
 

@@ -37,8 +37,4 @@ The cursor-paged task-message and local CLI-progress cards are DRAFTs. Hermes's 
 
 ## Deliverable and finish
 
-Return a route-owned implementation, workflow, matrix, refusal, or handoff with status, evidence, assumptions, performed local effects, proposed effects, and cleanup. Finish at the declared close-out state; do not leave an unattended browser, remote test, or background loop.
-
-A workflow design or integration matrix is a checkpoint when the user also requested an authorized local implementation. Continue into the adapter, fixture, and close-out verification without requesting permission already granted. Pause only for missing authority or material credential, safety, target, or evidence risk.
-
-Example: define a retry-safe local CLI adapter, implement its schema and error mapping, run malformed/timeout/duplicate fixtures, and leave no session open.
+Return the requested implementation, workflow, matrix, refusal, or handoff with status, evidence, assumptions, performed effects, and cleanup. Finish at the declared close-out state. A deliberately continuing task needs an authorized owner or scheduler, observable running state, bounded resources, and a stop policy; never imply background work from a plan or leave an unowned loop. Preserve sessions the user wants to keep and report any cleanup still unresolved.

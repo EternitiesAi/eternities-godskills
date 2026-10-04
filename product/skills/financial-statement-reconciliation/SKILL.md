@@ -19,8 +19,8 @@ Keep the original figures intact. Store normalizations and adjustments as visibl
 2. Reconcile income to operating cash flow using the supplied adjustments. Separate operating, investing and financing movements; a financing inflow is not evidence of profitable operations.
 3. Compare periods on a consistent perimeter and basis. Isolate acquisitions, currency effects, policy changes and one-off items where evidence supports doing so.
 4. For each ratio, state numerator, denominator, unit, period and source. Handle a zero or negative denominator explicitly. Choose beginning, ending or average balances deliberately; do not silently substitute whichever number is available.
-5. Build a driver bridge for changes that matter to the user's question. Distinguish price, volume, mix, cost and working-capital explanations from untested hypotheses.
-6. If forecasting, separate assumptions from formulas. Show base, downside and upside cases plus sensitivity to the largest uncertain drivers. Do not assign scenario probabilities without a basis.
+5. Build a driver bridge for changes that matter to the user's question. Distinguish price, volume, mix, cost and working-capital explanations from untested hypotheses; leave unidentifiable components unresolved rather than inventing a decomposition.
+6. If forecasting, separate assumptions from formulas. Start from a fixed base and vary the material uncertain drivers relevant to the decision. Use downside and upside cases when those ranges are defensible; a requested single-driver sensitivity need not become a three-scenario model. Do not assign scenario probabilities without a basis.
 
 ## Review the interpretation
 
@@ -30,6 +30,6 @@ For liquidity, consider timing, restrictions, commitments and funding access rat
 
 ## Output and finish
 
-Deliver a source table, reconciliation exceptions, formula definitions, adjustment log, scenario results, and a concise account of supported conclusions and unanswered questions. Where a workbook is requested, preserve formulas and provide a visible check sheet.
+Deliver the requested analysis with source locators, material reconciliation exceptions, formula definitions, visible adjustments and supported conclusions or open questions. Include scenario results only when forecasting or sensitivity is in scope. Where a workbook is requested, preserve formulas and make its reconciliation checks visible.
 
 Finish when a reviewer can trace every material number, reproduce the calculations, identify open discrepancies and see which assumptions would change the conclusion. Label an analytical review as an analytical review—not an audit, certification, personalized investment recommendation or promise of return.

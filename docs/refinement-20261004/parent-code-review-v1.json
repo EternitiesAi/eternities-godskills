@@ -1,0 +1,116 @@
+{
+  "schema": "godskills-parent-code-review-v1",
+  "reviewer": "author-B",
+  "relationship": "non-author review of parent-owned files",
+  "disposition": "REPAIR",
+  "baselineCommit": "dc704536875cda166f7ab784bce28f3c2b54ae0c",
+  "inputManifest": {
+    "path": "C:/Users/Dom/.codex/operations/godskills-refinement-20261004/parent-review-input-v1.json",
+    "sha256": "3abd7781094e30e829366579f962c71a386ce1972da6532325ee667ad4e23034"
+  },
+  "inputs": [
+    {
+      "path": "product/README.md",
+      "expectedSha256": "8ca22c4e26ec43fa32880704eb1aaf016f786a0b4586517ebbc38ffb5363fdb5",
+      "observedSha256": "8ca22c4e26ec43fa32880704eb1aaf016f786a0b4586517ebbc38ffb5363fdb5",
+      "verified": true
+    },
+    {
+      "path": "product/DISCOVERY.md",
+      "expectedSha256": "370eb38c83229ab619ab8809253beb24bf69da398ea211ed360b2d37dc865956",
+      "observedSha256": "370eb38c83229ab619ab8809253beb24bf69da398ea211ed360b2d37dc865956",
+      "verified": true
+    },
+    {
+      "path": "product/lib/product.mjs",
+      "expectedSha256": "3698153faa2b0d64b518dc807309ec6c3b32d6e03eb9d2114ccde68d4900fdb2",
+      "observedSha256": "3698153faa2b0d64b518dc807309ec6c3b32d6e03eb9d2114ccde68d4900fdb2",
+      "verified": true
+    },
+    {
+      "path": "product/lib/skill-frontmatter.mjs",
+      "expectedSha256": "9d65d727f3c74db6a81bb6198ff12d34f61d43dc01d4ac84ae6332cdfe151ddd",
+      "observedSha256": "9d65d727f3c74db6a81bb6198ff12d34f61d43dc01d4ac84ae6332cdfe151ddd",
+      "verified": true
+    },
+    {
+      "path": "tests/product-frontmatter-discovery.test.mjs",
+      "expectedSha256": "c16a262d1c633f4bd42b760273d3b3fcb400b2d0b9c39ed55ee8fad8a13a0e46",
+      "observedSha256": "c16a262d1c633f4bd42b760273d3b3fcb400b2d0b9c39ed55ee8fad8a13a0e46",
+      "verified": true
+    }
+  ],
+  "report": {
+    "path": "docs/refinement-20261004/parent-code-review-v1.md",
+    "sha256": "c548852b624eb76d71f93a03458003540a411ce1ff534e04dbae74632782a23a"
+  },
+  "findings": [
+    {
+      "id": "PARENT-FM-001",
+      "severity": "important",
+      "title": "Quoted duplicate keys evade uniqueness validation",
+      "path": "product/lib/skill-frontmatter.mjs",
+      "start": 36,
+      "end": 38,
+      "evidenceClass": "confirmed-static-trace",
+      "additionalCasesExecuted": false,
+      "mechanism": "Only bare key spellings are counted; quoted duplicate identities/descriptions are ignored.",
+      "impact": "Internal build/verify can accept native metadata with duplicate semantic keys and differing identity/description.",
+      "repair": "Reject unsupported key syntax or normalize supported keys before duplicate checking; add mixed quoted/bare duplicate real-build fixtures."
+    },
+    {
+      "id": "PARENT-FM-002",
+      "severity": "important",
+      "title": "Plain fallback and unconsumed structure do not fail closed",
+      "path": "product/lib/skill-frontmatter.mjs",
+      "start": 16,
+      "end": 29,
+      "evidenceClass": "confirmed-static-trace",
+      "additionalCasesExecuted": false,
+      "mechanism": "0x10 and colon-space plain values evade the scalar rejection list; quoted branches return without validating trailing indentation.",
+      "impact": "A verified portable pack can contain non-string or invalid native metadata despite the stated conservative contract.",
+      "repair": "Constrain supported plain grammar and validate complete scalar/header structure consistently; add real-build rejection cases while preserving current portable positives."
+    }
+  ],
+  "findingCounts": {
+    "critical": 0,
+    "important": 2,
+    "minor": 0
+  },
+  "executedChecks": [
+    {
+      "command": "node --test tests/product-frontmatter-discovery.test.mjs",
+      "runtime": "Node v24.18.0",
+      "exitCode": 0,
+      "tests": 19,
+      "passed": 19,
+      "failed": 0,
+      "skipped": 0,
+      "cancelled": 0,
+      "todo": 0,
+      "evidence": "12 rejection and 7 positive fixtures execute buildProduct in isolated temporary packs; positives also verifyProduct. Additional finding examples are static traces, not executed cases."
+    }
+  ],
+  "documentation": {
+    "disposition": "READY-within-document-review-scope",
+    "recipeUnchanged": true,
+    "preserved": [
+      "No-skill and lazy reference use",
+      "Related/composed skills remain optional",
+      "Bounded lexical profiles and narrow negation/quotation limits",
+      "Caller-owned need and review-required selection",
+      "Connected source candidate is not permission; unknown facts hold and supplied-only/prohibited rejects",
+      "No connector/provider calls, activation or new authority",
+      "Exact method/review bindings and DRAFT/performance/provenance limits"
+    ],
+    "limitation": "DISCOVERY native-frontmatter wording exceeds the current validator contract until findings are repaired."
+  },
+  "limits": [
+    "Only the supplied focused frontmatter tests were executed.",
+    "No added adversarial/native-loader tests or full suite were run.",
+    "No product/test/catalog/installation edits were made by this reviewer.",
+    "No universal portability, capability or performance claim.",
+    "Review binds these input bytes; revised parent code/tests require a fresh manifest."
+  ],
+  "requiredNextStep": "Parent repairs the two static validation gaps, adds focused coverage and freezes revised inputs for independent review."
+}

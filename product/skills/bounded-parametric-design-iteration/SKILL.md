@@ -1,6 +1,6 @@
 ---
 name: bounded-parametric-design-iteration
-description: Use when an existing solved parametric design can be improved through one bounded parameter change, comparable solver evidence, constraint checks, and an accept-or-rollback decision.
+description: Use when an existing solved parametric design can be improved through one bounded candidate change, comparable solver evidence, constraint checks, and an accept-or-rollback decision.
 ---
 
 # Bounded parametric design iteration
@@ -13,7 +13,7 @@ Record the exact model, parameter values and units, solver and setup, mesh polic
 
 ## Run a finite iteration
 
-1. Select one change. State the hypothesis, parameter, old and proposed values, safe bounds, dependency scope, expected metric direction, constraints at risk, and remaining iteration budget. If several parameters must move together, declare that attribution is weaker.
+1. Select one bounded candidate change. State the hypothesis, parameter values and units, safe bounds, dependency scope, expected metric direction, constraints at risk, and remaining iteration budget. Prefer a single parameter when isolating its effect matters. For coupled parameters or a declared optimization step, record the joint change and attribute the result to that candidate rather than claiming an individual parameter caused it.
 2. Preflight units, parameter ownership, dependent geometry, interfaces, topology, manufacturability signals, mesh readiness, solver settings, approval state, and rollback availability.
 3. Apply only the declared mutation. Reinspect the model before solving. Abort or restore the baseline when the change creates invalid geometry, changes the problem definition, or leaves the declared parameter scope.
 4. Rerun the same evidence-producing solver path. Preserve logs, convergence state, result files, extraction code, and credibility tier. A surrogate can prioritize candidates but cannot close the iteration.
@@ -24,7 +24,7 @@ If the task includes an authorized solver or model write, use that authority onl
 
 ## Evidence and limits
 
-Each iteration receipt should include baseline and change digests, approvals, preflight checks, solver/result digests, metric delta, uncertainty, constraint verdict, accept/rollback decision, and remaining budget. Stop on target met, budget exhausted, denied approval, stale or incomparable evidence, nonconvergence, invalid geometry, unsafe bounds, or missing rollback.
+Keep baseline and change identity, applicable approvals, solver/result evidence, metric delta, uncertainty, constraint verdict, accept/rollback decision, and remaining budget in the existing design record. Stop on target met, budget exhausted, denied approval, stale or incomparable evidence, nonconvergence, invalid geometry, unsafe bounds, or missing rollback.
 
 The result is an evidence-backed design iteration, not proof of optimality, manufacturability, physical safety, or certification. Hardware claims require representative physical validation and a separate release decision.
 

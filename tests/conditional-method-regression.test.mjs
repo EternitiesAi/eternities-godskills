@@ -240,7 +240,7 @@ test("historical paths remain exact, named optional owner references are admitte
   }
 });
 
-test("Hermes and Math retain canonical-main frontmatter and Hermes ordinary workflow body", async () => {
+test("Hermes and Math retain frontmatter; historical Hermes bytes and current close-out boundaries remain explicit", async () => {
   const canonicalHermesFrontmatter = [
     "---",
     "name: eternities-hermes",
@@ -258,15 +258,19 @@ test("Hermes and Math retain canonical-main frontmatter and Hermes ordinary work
   assert.equal(extractFrontmatter(hermesText), canonicalHermesFrontmatter);
   assert.equal(extractFrontmatter(mathText), canonicalMathFrontmatter);
 
-  const withoutConditionalAddition = hermesText.replace(
-    /\n## Conditional method references\n[\s\S]*?(?=## Working method)/,
-    "\n",
-  );
+  // The all-pack October4 refinement intentionally changes Hermes close-out.
+  // Keep the old exact expectation on an immutable historical fixture rather
+  // than rehashing that history or forbidding every independently reviewed edit.
+  const historicalHermes = await readFile(new URL('./fixtures/hermes-pre-refinement-20261004.md', import.meta.url));
   assert.equal(
-    sha256(Buffer.from(withoutConditionalAddition, "utf8")),
+    sha256(historicalHermes),
     "435d81f1cfaeea64ebb85ad9cd00d1dae22e8bde77edeaa9e009c315e7ce69ba",
-    "removing only the conditional section must recover the canonical 55f Hermes entrypoint byte-for-byte",
+    "the historical canonical 55f Hermes body remains byte-for-byte",
   );
+  assert.match(hermesText, /Finish at the declared close.out state/);
+  assert.match(hermesText, /authorized owner or scheduler, observable running state, bounded resources, and a stop policy/);
+  assert.match(hermesText, /never imply background work from a plan or leave an unowned loop/);
+  assert.match(hermesText, /Preserve sessions the user wants to keep/);
 });
 
 test("conditional method links remain with their owners and B04 is not a Hermes resource", async () => {

@@ -58,7 +58,7 @@
       "specializes": "eternities-daedalus",
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/api-rate-limit-recovery/SKILL.md",
-      "entrypointSha256": "442c4db00b70ab29349c62f196ed7a3bb8d92ac8720e8d2caa4079049ab974db",
+      "entrypointSha256": "8552e9991da80115e3be4473ea3676e79613260c5df4f6f4f961d251c8b4f2f3",
       "resources": []
     },
     {
@@ -93,7 +93,7 @@
       "specializes": "eternities-beacon",
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/app-store-discovery-experiments/SKILL.md",
-      "entrypointSha256": "b25dbdf93508f20f8135253d129419a2de958350156fdf3692afce4668cacd3a",
+      "entrypointSha256": "43beef20c43bea5046f722e6b5d5fabd76a770a747bc1cf60eb2a598fd97c46c",
       "resources": []
     },
     {
@@ -124,7 +124,7 @@
       "specializes": "eternities-mnemosyne",
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/approval-bound-private-session-mining/SKILL.md",
-      "entrypointSha256": "70aec16ea25798d6916294cedf654ae66eba3aa54d0ec2a1f2249199e30d02e1",
+      "entrypointSha256": "b73c8bf7c81d781e56600316afa4e0ef9181dd1c7ffd2a6cc1b2cbe891ac79ce",
       "resources": []
     },
     {
@@ -156,7 +156,7 @@
       "specializes": "eternities-orpheus",
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/audio-dsp-integrity-review/SKILL.md",
-      "entrypointSha256": "425578dda01d430310f6626e2658ee35c5358d952a03ad59220bb1940dab2b23",
+      "entrypointSha256": "f26dba4612e8a749a289f1df66f1481dd752d6db0aff63c1240d4b768269b7f2",
       "resources": []
     },
     {
@@ -189,7 +189,7 @@
       "specializes": "eternities-forge",
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/bounded-parametric-design-iteration/SKILL.md",
-      "entrypointSha256": "641fa8f5caf0c59e8d6b400476f4f8bd1a2b8cb9d3796cd0d9fcd2bbbdfc51d0",
+      "entrypointSha256": "3ebf155034e8f23d095204f8fb82efff24f7988785252a0ad47a9a9d80e26a0c",
       "resources": []
     },
     {
@@ -384,7 +384,7 @@
       "specializes": "eternities-phoenix",
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/confirmed-destructive-reconstruction/SKILL.md",
-      "entrypointSha256": "3ed45216a80c535253fd4fc88fec0c770d0c0aeeb81107090d66ca18a7a76436",
+      "entrypointSha256": "5faed22a58f2c63d9495bbe6bef0516b38fd6f30111a22709736f0ca90e03d78",
       "resources": []
     },
     {
@@ -518,7 +518,7 @@
       "specializes": "eternities-logos",
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/docx-package-redline-and-render-verification/SKILL.md",
-      "entrypointSha256": "b69845bef0009396b5f1dde6c6bd50da75e211b7329fd08c8240ecab60f7e2de",
+      "entrypointSha256": "e90da766438c21f06cc718d2dbeefb1dff920bbcfef0402cd3a5e94be32bffb8",
       "resources": []
     },
     {
@@ -551,7 +551,7 @@
       "specializes": "eternities-athena",
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/ecological-sampling-and-detection-uncertainty/SKILL.md",
-      "entrypointSha256": "396fc469613b35fc2bc67ea34c8458d8d262d0cd312867526bc60ef38dd30c1c",
+      "entrypointSha256": "772099d13ca1371df4ba772315dc5691ec02f12a9f5f62f83b1431ed8972adf3",
       "resources": [
         {
           "path": "skills/ecological-sampling-and-detection-uncertainty/references/sampling-and-detection-records.md",
@@ -590,7 +590,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-aegis/SKILL.md",
-      "entrypointSha256": "5e10e632e79ca765ad6357c7ee34137eaadab0aca2336236729ea32265eb7c12",
+      "entrypointSha256": "49c1d4bf1d6b21794a8dd634679c0268ae99daa967515ee667d3e40788f5749b",
       "resources": [
         {
           "path": "skills/eternities-aegis/references/methods.md",
@@ -635,7 +635,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-agora/SKILL.md",
-      "entrypointSha256": "d69a26a4d974228729f25f2d5b5835c175a151a29d9da7d2974ccbc23ebc5a7d",
+      "entrypointSha256": "763bae5c52442699d9422e08ad68fdeb7466638f5bba5cbd6dfa04e1754da9ac",
       "resources": [
         {
           "path": "skills/eternities-agora/references/methods.md",
@@ -688,7 +688,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-arcadia/SKILL.md",
-      "entrypointSha256": "84023828419d63d0cdff7936d3c87d742a7ae58d07dd00f547ae8397584e47db",
+      "entrypointSha256": "2cbfec7e1e8fbc6e3d10321336224176ee5950d7895ac281d7849947c94c61c1",
       "resources": [
         {
           "path": "skills/eternities-arcadia/references/methods.md",
@@ -738,7 +738,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-architect/SKILL.md",
-      "entrypointSha256": "351269b25eb0a26b06e51abe774f0bb6a92d23953592196f48d70651dff2fb11",
+      "entrypointSha256": "50d0524c2bbdb64eb8f3a7a82586e7989ffa4002ede3c3deda7ac757f4a660c5",
       "resources": [
         {
           "path": "skills/eternities-architect/references/methods.md",
@@ -777,7 +777,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-athena/SKILL.md",
-      "entrypointSha256": "48474b519277446fb56c0555d9cb0545c684b29b39a29cef210187c260b58fdb",
+      "entrypointSha256": "3bb0ab1d455cb3738db5f1c7645c39fb794b4cfd906dbdcd5269a91269eaa968",
       "resources": [
         {
           "path": "skills/eternities-athena/references/methods.md",
@@ -841,7 +841,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-atlas/SKILL.md",
-      "entrypointSha256": "35e819e37a97923cc2ae3e9b6d5c35a32843fab2bbe7dd373f483213e9a385ad",
+      "entrypointSha256": "46b06bdd11e52ca6288b32bd720a77715035b5e77a2b52ba1b986a071df18700",
       "resources": [
         {
           "path": "skills/eternities-atlas/references/methods.md",
@@ -936,7 +936,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-beacon/SKILL.md",
-      "entrypointSha256": "da29c9866d4558307ee183b9c524ee894bdd6bd960ab766a345783e11d395a7e",
+      "entrypointSha256": "381ae1f0ffee855b14c8c2bda226bb57aa9147be1e7f9a68f94b231fb869a030",
       "resources": [
         {
           "path": "skills/eternities-beacon/references/methods.md",
@@ -983,7 +983,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-chorus/SKILL.md",
-      "entrypointSha256": "34814474ccd29d642c87f50ebed24b56cef572cd6e6869d4ce8ca427c0eae5dc",
+      "entrypointSha256": "f1e0d8964acb8dc267b8f3e51a3fbfde3b5b0c8a91aeebfb8517f1b068998d95",
       "resources": [
         {
           "path": "skills/eternities-chorus/references/methods.md",
@@ -1041,7 +1041,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-daedalus/SKILL.md",
-      "entrypointSha256": "b1451db21752ad4f7f4fd3fa269b57e176191946aeb1701065e485327e89d0d8",
+      "entrypointSha256": "9c3271351a5d8234098a001fa079236ec9c8ea568603cacab3fa5f05e9ee0d23",
       "resources": [
         {
           "path": "skills/eternities-daedalus/references/methods.md",
@@ -1095,7 +1095,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-forge/SKILL.md",
-      "entrypointSha256": "69dd108e325f48ccb2fe2833018f721e31f1725b109da9919faa89c93503267f",
+      "entrypointSha256": "96a5bf285a89bb9189064d65880d461683830e314e00a98bce2e45a97f2c0e5b",
       "resources": [
         {
           "path": "skills/eternities-forge/references/methods.md",
@@ -1135,7 +1135,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-hephaestus/SKILL.md",
-      "entrypointSha256": "63e5a150ba0252bab36a12719c3c287ab76c815fb488a6a6fe486a3afb417a82",
+      "entrypointSha256": "5c31073206e35a113aeb7341fa643b2480b0e114b278c37df72260d9b8156f7b",
       "resources": [
         {
           "path": "skills/eternities-hephaestus/references/methods.md",
@@ -1175,7 +1175,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-herald/SKILL.md",
-      "entrypointSha256": "3cd991e0e9539c9b40703b8ca39bd7c1a80d51f7cd6c4968e5c8299ed485445e",
+      "entrypointSha256": "a1b0419458774b0777aa5ad5fb51cc293509e6df7b1872cc5166b7784bc96b64",
       "resources": [
         {
           "path": "skills/eternities-herald/references/methods.md",
@@ -1219,7 +1219,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-hermes/SKILL.md",
-      "entrypointSha256": "f578fba0bc4d10af9221e2fbd980ee4d21b0de71bda26428d282dabdd9152f90",
+      "entrypointSha256": "fd626d425723be905c9375502c6b6fe480df645f057aee00c9517fdcb5257c8c",
       "resources": [
         {
           "path": "skills/eternities-hermes/references/methods.md",
@@ -1274,7 +1274,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-logos/SKILL.md",
-      "entrypointSha256": "c7e7121ebe2e61eaf4ff646cd2a1bb3d8215403af060bb41b14938888c44961a",
+      "entrypointSha256": "f5c84a715a574c350c06b8dc6ee485e43846c2cabd12f39e94cc8ae8cf07b5ba",
       "resources": [
         {
           "path": "skills/eternities-logos/references/methods.md",
@@ -1319,7 +1319,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-mnemosyne/SKILL.md",
-      "entrypointSha256": "43f83b2332ca21e65fa6b640a8489fe03c7ee58b8d5e1f1435ae31b027e32988",
+      "entrypointSha256": "121f1d7db8183b2bc8cdb6acce8654aac92f76f4cae74ad1f823864cba4bf392",
       "resources": [
         {
           "path": "skills/eternities-mnemosyne/references/methods.md",
@@ -1367,7 +1367,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-muse/SKILL.md",
-      "entrypointSha256": "b7097258366a53f645d2d1a52a6492a691f933c2cc535fd32beae452f398f374",
+      "entrypointSha256": "838da70f041be41d0d28fa9e735241c303240b4355f1770dba5b7b7998afc05b",
       "resources": [
         {
           "path": "skills/eternities-muse/references/methods.md",
@@ -1532,7 +1532,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-phoenix/SKILL.md",
-      "entrypointSha256": "8a522e555beb8e605b3b3751f7ffeb5cf6e924c85f8e0950620ab85899fbe111",
+      "entrypointSha256": "d2be7f2ba4ec16d25e6a44084624bae2d01e416089c5d79cb85b0af1e543a284",
       "resources": [
         {
           "path": "skills/eternities-phoenix/references/methods.md",
@@ -1580,7 +1580,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-prometheus/SKILL.md",
-      "entrypointSha256": "7b2cafacbe16e1e9a7e554d4848b17330ba2fb5aadec289b579312eae3c7ccd5",
+      "entrypointSha256": "3bdb3c567c215cee7552d846abdcfd87024e6a5787e394d6526799f24c008ab6",
       "resources": [
         {
           "path": "skills/eternities-prometheus/references/methods.md",
@@ -1615,7 +1615,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/evidence-linked-learning-design/SKILL.md",
-      "entrypointSha256": "9bb3d11902abeb745ca82ccda0b9886b0ff2b86944666f9ee795442e06bfd76b",
+      "entrypointSha256": "ca165d7209df55696719f58dbad0042a41bfe6164408099cf8ab0dc90e85d160",
       "resources": [
         {
           "path": "skills/evidence-linked-learning-design/references/handoffs-and-reporting.md",
@@ -1687,7 +1687,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/financial-statement-reconciliation/SKILL.md",
-      "entrypointSha256": "9a82b733d54f8e8f594f93ecb6f6304d229bba99ba71b810f3a908146a7e5230",
+      "entrypointSha256": "cfcb104de4c4ae024e5f95c1202db98d3cd3b1bbdb51ec37549cc368e67d7346",
       "resources": []
     },
     {
@@ -1782,7 +1782,7 @@
       "specializes": "eternities-athena",
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/genomic-coordinate-assembly-and-variant-gates/SKILL.md",
-      "entrypointSha256": "d276703d60093ee3a3f346ad9afcaf453bf0bee6801975f93fdc816d3671e852",
+      "entrypointSha256": "ddd47cf59e9bc156fbf82478ffa14693882611f0f478f697f9aaa775eb96dedb",
       "resources": []
     },
     {
@@ -1885,7 +1885,7 @@
       "specializes": "eternities-herald",
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/infrastructure-plan-apply-isolation/SKILL.md",
-      "entrypointSha256": "282241cb6fac6159779682b1b6853d90f0a43f60835922ea8e63ec868b05fc3b",
+      "entrypointSha256": "5a77c8f4e48c23fc8d37548cbf15b5970e941173e514873acdd4e64adb7f896e",
       "resources": []
     },
     {
@@ -1949,7 +1949,7 @@
       "specializes": "eternities-muse",
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/interface-localization-and-bidirectionality/SKILL.md",
-      "entrypointSha256": "7fa41cd4576a01d82f8507cf2d207ab13f2eb0f2a2e2d61d87d39e4c7afc5458",
+      "entrypointSha256": "130843a1f8e9291ddec993bc7b110ce3bafd1d12f7e61773f44dcd635e9d54f4",
       "resources": []
     },
     {
@@ -2083,7 +2083,7 @@
       "specializes": "eternities-athena",
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/landscape-connectivity-analysis/SKILL.md",
-      "entrypointSha256": "3ac3320e31f833962123acd1174ccc6a8031e3b3a777044d66beb21740541e97",
+      "entrypointSha256": "eb672da289c1623e024d2f79008e2b37c1ecbc186939e1c1805a90b01103ec07",
       "resources": [
         {
           "path": "skills/landscape-connectivity-analysis/references/connectivity-operations.md",
@@ -2199,7 +2199,7 @@
       "specializes": "eternities-beacon",
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/measured-paid-creative-iteration/SKILL.md",
-      "entrypointSha256": "9873f4d79ee04683267e8dff34264a033189a50a8b813873f3699ac9e250dfe5",
+      "entrypointSha256": "769e7fb4b916bcf989f9458e9f23912a110d39be0f8bcf0a502f9ddc86b136e3",
       "resources": []
     },
     {
@@ -2299,7 +2299,7 @@
       "specializes": "eternities-daedalus",
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/native-mobile-interaction-testing/SKILL.md",
-      "entrypointSha256": "b3b258fca1636f5d401b27ac051851f002c88580aa4f237eef68ce0f530d0489",
+      "entrypointSha256": "0b2f0175201eae491d62bf868771bb9cd79352ebc8249c52b99f57898ab46227",
       "resources": []
     },
     {
@@ -2331,7 +2331,7 @@
       "specializes": "eternities-herald",
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/performance-release-gating/SKILL.md",
-      "entrypointSha256": "60becfbc3da18a97434b5b876d4ff420316cc838632c68e4560a4b70f72af6ba",
+      "entrypointSha256": "e96f776e506d9eb98eb32df919a64c3c30520d99a5317f9b0f5eb1cb6db42de5",
       "resources": []
     },
     {
@@ -2364,7 +2364,7 @@
       "specializes": "eternities-athena",
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/physics-constrained-numerical-validation/SKILL.md",
-      "entrypointSha256": "83afefae2e0cb5fde9b7f719cc49e2bd6a80cad4a42591e212edf6799064cde1",
+      "entrypointSha256": "c5512e9c716c1ccf45e39d31373323b06703c8dd17038e26ddf17f554e036adb",
       "resources": []
     },
     {
@@ -2491,7 +2491,7 @@
       "specializes": "eternities-daedalus",
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/robotics-test-ladder/SKILL.md",
-      "entrypointSha256": "71950c00335d7b2a0d9220118b9332bee042615712111ff6f9aa2efd02358c2a",
+      "entrypointSha256": "e316f375d1ded3f3f8d44b60739eab1f503f0fe338d41720f49d972c79261600",
       "resources": []
     },
     {
@@ -2620,7 +2620,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/sovereign-skill-refinery/SKILL.md",
-      "entrypointSha256": "caac3fd18dd020810b8e67f0633773c430eba5a6fb4878209f73c0fc65b0306b",
+      "entrypointSha256": "3b129a831750723e0d42100d989ada2ed140481866ef8dc4e48865a7cea910c5",
       "resources": [
         {
           "path": "skills/sovereign-skill-refinery/references/methods.md",
@@ -2660,7 +2660,7 @@
       "specializes": "eternities-prometheus",
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/structured-hiring-evaluation/SKILL.md",
-      "entrypointSha256": "48b97d61aac129857abafacd7d84fec63611ff04bdb064c62b17c8e0e82d7ed4",
+      "entrypointSha256": "06d362d9881ccdbafa57994e1b3710793b3478e3eb316d537505da834096079b",
       "resources": [
         {
           "path": "skills/structured-hiring-evaluation/references/methods.md",
@@ -2775,7 +2775,7 @@
       "specializes": "geospatial-coordinate-integrity",
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/terrain-watershed-analysis/SKILL.md",
-      "entrypointSha256": "6ccbcc81b696b2050e8c6383b9a69eec0b2b3efbd0ed5f5b299db7981c0ebdea",
+      "entrypointSha256": "5e62dd5f892cb4fd8ed05b4be7bec099cc783cc92c3fd5aa5ce11a0d42dd9a96",
       "resources": [
         {
           "path": "skills/terrain-watershed-analysis/references/terrain-operations.md",
@@ -2817,7 +2817,7 @@
       "specializes": "eternities-prometheus",
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/user-research-and-usability-study/SKILL.md",
-      "entrypointSha256": "e8cb2d363b9baf41790c11a6625688646d550a75bbecd9169af885e7cdd2ed39",
+      "entrypointSha256": "5b97406753e8b00a746db1e99b7d36ebc93bb8b708454a9dba265c09234363d4",
       "resources": [
         {
           "path": "skills/user-research-and-usability-study/references/methods.md",
@@ -2863,7 +2863,7 @@
       "specializes": "eternities-prometheus",
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/venture-falsification-and-planning/SKILL.md",
-      "entrypointSha256": "f465ba4b35d09b2cbd3c9a8b64d877f1230bbb4c3668a00100bc5763f41a0eff",
+      "entrypointSha256": "7b6b75a9f8a76f0101d58cc6fa91a57839c40163685a081af108ce8710f66a90",
       "resources": []
     },
     {

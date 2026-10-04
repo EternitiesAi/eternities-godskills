@@ -12,6 +12,10 @@ movement assumptions, resistance values, graph construction and scale. It does
 not infer observed animal movement from a graph, prescribe conservation action,
 value land, or replace species expertise and field evidence.
 
+A coordinate repair, a slope calculation or a species detection history needs
+its focused method instead. Select this route when connectivity assumptions or
+their sensitivity are the unresolved analytical question.
+
 ## Define the movement question
 
 Identify the taxon or movement process, life stage, season, spatial extent,
@@ -49,8 +53,11 @@ The detailed record is in [connectivity operations](references/connectivity-oper
 ## Verify and delimit the claim
 
 Test habitat classification uncertainty, alternative resistance tables,
-movement thresholds, graph construction and at least one corridor method where
-the decision warrants it. Check that isolated patches, unreachable nodes,
+movement thresholds and graph construction that can change the requested
+result. A corridor claim needs a justified corridor method and sensitivity;
+an independent alternative method is useful when method choice could reverse
+the decision, without forcing a corridor analysis for a patch-only question.
+Check that isolated patches, unreachable nodes,
 boundary clipping and narrow graph bridges are real model features rather than
 resolution artifacts. Compare candidate corridors with independent barriers,
 telemetry, field observations or expert review when available; otherwise say

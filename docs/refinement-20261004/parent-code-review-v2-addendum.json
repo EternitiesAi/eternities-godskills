@@ -1,0 +1,77 @@
+{
+  "schema": "godskills-parent-code-review-v2-addendum",
+  "reviewer": "author-B, independent non-author of parent changes",
+  "baselineCommit": "dc704536875cda166f7ab784bce28f3c2b54ae0c",
+  "inputManifest": {
+    "path": "C:/Users/Dom/.codex/operations/godskills-refinement-20261004/parent-review-input-v2.json",
+    "sha256": "80138ad1883a74728f1ab410bf0c8c304d294bbff9ec00825af9cdec31ec5236"
+  },
+  "inputVerification": [
+    {
+      "path": "product/README.md",
+      "expectedSha256": "8ca22c4e26ec43fa32880704eb1aaf016f786a0b4586517ebbc38ffb5363fdb5",
+      "observedSha256": "8ca22c4e26ec43fa32880704eb1aaf016f786a0b4586517ebbc38ffb5363fdb5",
+      "verified": true
+    },
+    {
+      "path": "product/DISCOVERY.md",
+      "expectedSha256": "370eb38c83229ab619ab8809253beb24bf69da398ea211ed360b2d37dc865956",
+      "observedSha256": "370eb38c83229ab619ab8809253beb24bf69da398ea211ed360b2d37dc865956",
+      "verified": true
+    },
+    {
+      "path": "product/lib/product.mjs",
+      "expectedSha256": "3698153faa2b0d64b518dc807309ec6c3b32d6e03eb9d2114ccde68d4900fdb2",
+      "observedSha256": "3698153faa2b0d64b518dc807309ec6c3b32d6e03eb9d2114ccde68d4900fdb2",
+      "verified": true
+    },
+    {
+      "path": "product/lib/skill-frontmatter.mjs",
+      "expectedSha256": "9d65d727f3c74db6a81bb6198ff12d34f61d43dc01d4ac84ae6332cdfe151ddd",
+      "observedSha256": "9d65d727f3c74db6a81bb6198ff12d34f61d43dc01d4ac84ae6332cdfe151ddd",
+      "verified": true
+    },
+    {
+      "path": "tests/product-frontmatter-discovery.test.mjs",
+      "expectedSha256": "c16a262d1c633f4bd42b760273d3b3fcb400b2d0b9c39ed55ee8fad8a13a0e46",
+      "observedSha256": "c16a262d1c633f4bd42b760273d3b3fcb400b2d0b9c39ed55ee8fad8a13a0e46",
+      "verified": true
+    },
+    {
+      "path": "tests/universal-wave27-atlas-connector-discovery.test.mjs",
+      "expectedSha256": "41c3698c41c6912c1ca407bedf53566b3f831220698de811e7a098c0c3b2feaa",
+      "observedSha256": "41c3698c41c6912c1ca407bedf53566b3f831220698de811e7a098c0c3b2feaa",
+      "verified": true
+    }
+  ],
+  "verificationTiming": "Verified against v2 before the later v3 parent repair; preserved historical receipt, not a claim these files still equal v2.",
+  "priorReview": {
+    "path": "docs/refinement-20261004/parent-code-review-v1.json",
+    "sha256": "ba1f7b5eaae9e4bacb2f2aea2ab1c8b7b3b49fe5ce2289344b35c5e8b9d4949f"
+  },
+  "report": {
+    "path": "docs/refinement-20261004/parent-code-review-v2-addendum.md",
+    "sha256": "c96473fd4b279543505397bd9fee418c0e0af20e9dce606378d8f6a950d2bdf8"
+  },
+  "deltaDisposition": "READY",
+  "cumulativeDisposition": "REPAIR",
+  "remainingFindings": [
+    "PARENT-FM-001",
+    "PARENT-FM-002"
+  ],
+  "newFindings": [],
+  "atlas": {
+    "entrypointSha256": "46b06bdd11e52ca6288b32bd720a77715035b5e77a2b52ba1b986a071df18700",
+    "connectorReferenceSha256": "97c83c5bb00914211d05eb784e1ff42efe5efa24cd1e4f1d9ec21d793c26a003",
+    "contract": "Supplied-only and user-prohibited discovery skip preserved; catalog match grants no discovery/load authority; metadata/probe/load/active-input/consumption/rights distinctions preserved."
+  },
+  "testExecution": {
+    "atlas": "not executed in v2 review; only focused frontmatter execution was authorized",
+    "frontmatter": "19/19 passed as recorded in v1"
+  },
+  "limits": [
+    "Static contract review of the exact test delta, not merely replacement regex matching.",
+    "No native-loader, general YAML, runtime superiority or universal routing claim.",
+    "No product or test edits."
+  ]
+}
