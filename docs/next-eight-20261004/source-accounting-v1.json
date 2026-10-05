@@ -1,0 +1,191 @@
+{
+  "schema": "next-eight-pattern-source-accounting-v1",
+  "sourceManifestSha256": "0c4bf7164443cbc6e97bc4b09178369ca82e07338a19b32d91562654d183114b",
+  "repositories": [
+    {
+      "repo": "sickn33/agentic-awesome-skills",
+      "head": "10cc257b2409cc8a2f3724d02f40353661f7c1be",
+      "licenses": [
+        {
+          "name": "LICENSE",
+          "sha256": "58828f766a612f3225002ede8e5df95844b1c07c43a75c6a614dade71716891a"
+        },
+        {
+          "name": "LICENSE-CONTENT",
+          "sha256": "41bc0a9fcd5fca2b7a37ff1941624fe9d883734e70e7abdd4eae716c13f3ea38"
+        }
+      ],
+      "rightsBoundary": "Observed notices are signals, not source-specific legal clearance. Keep attribution; original synthesis, no wholesale copying or executable adoption."
+    },
+    {
+      "repo": "msitarzewski/agency-agents",
+      "head": "ad9264e309bd5e5422c04784372d7841b1e5d604",
+      "licenses": [
+        {
+          "name": "LICENSE",
+          "sha256": "45c861c1178a99178033b61302af7610e870082e874981b57519c2a1369299c0"
+        }
+      ],
+      "rightsBoundary": "Observed notices are signals, not source-specific legal clearance. Keep attribution; original synthesis, no wholesale copying or executable adoption."
+    },
+    {
+      "repo": "alirezarezvani/claude-skills",
+      "head": "19392f7a08264ed00486a251f5b2098321771f94",
+      "licenses": [
+        {
+          "name": "LICENSE",
+          "sha256": "a766b0f999956536273c8303de3557876e044ea27451bc5d4143be673d2ac641"
+        }
+      ],
+      "rightsBoundary": "Observed notices are signals, not source-specific legal clearance. Keep attribution; original synthesis, no wholesale copying or executable adoption."
+    }
+  ],
+  "sources": [
+    {
+      "skill": "accessibility-audit-and-remediation",
+      "source": "sickn33/agentic-awesome-skills@10cc257b2409cc8a2f3724d02f40353661f7c1be:skills/fixing-accessibility/SKILL.md",
+      "sha256": "a8ce24b32859364f84711837468c70999297241e8a895f0395475c48e09a4af0",
+      "bytes": 5770,
+      "workingFileStatus": "clean",
+      "disposition": "inert-pattern-reference-for-original-specialist-writing",
+      "terminalQuarryDisposition": false
+    },
+    {
+      "skill": "accessibility-audit-and-remediation",
+      "source": "msitarzewski/agency-agents@ad9264e309bd5e5422c04784372d7841b1e5d604:testing/testing-accessibility-auditor.md",
+      "sha256": "982a14c0d0a9b30834ecd6e04811e4f900baf7950e18c68cc97142354cc803e7",
+      "bytes": 15300,
+      "workingFileStatus": "clean",
+      "disposition": "inert-pattern-reference-for-original-specialist-writing",
+      "terminalQuarryDisposition": false
+    },
+    {
+      "skill": "service-observability-and-slo-design",
+      "source": "sickn33/agentic-awesome-skills@10cc257b2409cc8a2f3724d02f40353661f7c1be:skills/observability-monitoring-slo-implement/SKILL.md",
+      "sha256": "d923fab5f9df04a65a1d87099538a0af031450a879b8cf39b16628cd987a165f",
+      "bytes": 2314,
+      "workingFileStatus": "clean",
+      "disposition": "inert-pattern-reference-for-original-specialist-writing",
+      "terminalQuarryDisposition": false
+    },
+    {
+      "skill": "service-observability-and-slo-design",
+      "source": "sickn33/agentic-awesome-skills@10cc257b2409cc8a2f3724d02f40353661f7c1be:skills/observability-monitoring-slo-implement/resources/implementation-playbook.md",
+      "sha256": "3d4f2b100a25ab8f3eb5ca9ae14a8b28813a1eb0001688a035810ed2aadcb8f0",
+      "bytes": 37345,
+      "workingFileStatus": "clean",
+      "disposition": "inert-pattern-reference-for-original-specialist-writing",
+      "terminalQuarryDisposition": false
+    },
+    {
+      "skill": "service-observability-and-slo-design",
+      "source": "msitarzewski/agency-agents@ad9264e309bd5e5422c04784372d7841b1e5d604:engineering/engineering-sre.md",
+      "sha256": "85b305e495506913f50c7cb28de42444a85fbc4898cd3ad4e1dc9b358b4ab5e8",
+      "bytes": 3882,
+      "workingFileStatus": "clean",
+      "disposition": "inert-pattern-reference-for-original-specialist-writing",
+      "terminalQuarryDisposition": false
+    },
+    {
+      "skill": "schema-migration-and-backfill-safety",
+      "source": "sickn33/agentic-awesome-skills@10cc257b2409cc8a2f3724d02f40353661f7c1be:skills/database-migration/SKILL.md",
+      "sha256": "9a1d59484253caaba61d67e2c62c55f1fd9c30ed99bf185b77100a78cb3a41c0",
+      "bytes": 11833,
+      "workingFileStatus": "clean",
+      "disposition": "inert-pattern-reference-for-original-specialist-writing",
+      "terminalQuarryDisposition": false
+    },
+    {
+      "skill": "dependency-supply-chain-integrity",
+      "source": "sickn33/agentic-awesome-skills@10cc257b2409cc8a2f3724d02f40353661f7c1be:skills/supply-chain-security/SKILL.md",
+      "sha256": "ec7790f836cb24e3c0e9c69b0fafb9d66ab5d24ccc7da2a22e52d5083661552f",
+      "bytes": 6177,
+      "workingFileStatus": "clean",
+      "disposition": "inert-pattern-reference-for-original-specialist-writing",
+      "terminalQuarryDisposition": false
+    },
+    {
+      "skill": "dependency-supply-chain-integrity",
+      "source": "sickn33/agentic-awesome-skills@10cc257b2409cc8a2f3724d02f40353661f7c1be:skills/supply-chain-security/references/sbom-sca-methodology.md",
+      "sha256": "d0afd051f6e38f47613f1451e5e7aae23ab74032690dc8786708a53daa89e5f5",
+      "bytes": 2120,
+      "workingFileStatus": "clean",
+      "disposition": "inert-pattern-reference-for-original-specialist-writing",
+      "terminalQuarryDisposition": false
+    },
+    {
+      "skill": "dependency-supply-chain-integrity",
+      "source": "sickn33/agentic-awesome-skills@10cc257b2409cc8a2f3724d02f40353661f7c1be:skills/dependency-management-deps-audit/SKILL.md",
+      "sha256": "793aacb82793ec84b5cbce654de7fb23d0a811361810c5c680edb77ff42d8146",
+      "bytes": 2223,
+      "workingFileStatus": "clean",
+      "disposition": "inert-pattern-reference-for-original-specialist-writing",
+      "terminalQuarryDisposition": false
+    },
+    {
+      "skill": "procedural-world-generation-and-validation",
+      "source": "msitarzewski/agency-agents@ad9264e309bd5e5422c04784372d7841b1e5d604:game-development/level-designer.md",
+      "sha256": "79c1d41b7dfc477f6f364ba8b6dec02dc0c081235fe8f8b61c8b062b5dc3b344",
+      "bytes": 10340,
+      "workingFileStatus": "clean",
+      "disposition": "inert-pattern-reference-for-original-specialist-writing",
+      "terminalQuarryDisposition": false
+    },
+    {
+      "skill": "procedural-world-generation-and-validation",
+      "source": "msitarzewski/agency-agents@ad9264e309bd5e5422c04784372d7841b1e5d604:game-development/unreal-engine/unreal-world-builder.md",
+      "sha256": "7d2bf21ac77089b99f1fa36f6102fa938c9014c3107e9dcb9069b896e2b4001e",
+      "bytes": 14011,
+      "workingFileStatus": "clean",
+      "disposition": "inert-pattern-reference-for-original-specialist-writing",
+      "terminalQuarryDisposition": false
+    },
+    {
+      "skill": "operating-cadence-and-decision-accountability",
+      "source": "msitarzewski/agency-agents@ad9264e309bd5e5422c04784372d7841b1e5d604:specialized/operations-manager.md",
+      "sha256": "3c133a31ae1542922444d77d7c8f9964127704ba94638dde12e37a9ad0fd35bd",
+      "bytes": 19209,
+      "workingFileStatus": "clean",
+      "disposition": "inert-pattern-reference-for-original-specialist-writing",
+      "terminalQuarryDisposition": false
+    },
+    {
+      "skill": "operating-cadence-and-decision-accountability",
+      "source": "alirezarezvani/claude-skills@19392f7a08264ed00486a251f5b2098321771f94:c-level-advisor/skills/coo-advisor/SKILL.md",
+      "sha256": "fc0b3c2aab98bc207481b4f6ee6beb09efb39972a7e006016cde7075f4a6f99f",
+      "bytes": 6589,
+      "workingFileStatus": "clean",
+      "disposition": "inert-pattern-reference-for-original-specialist-writing",
+      "terminalQuarryDisposition": false
+    },
+    {
+      "skill": "pricing-and-packaging-experimentation",
+      "source": "alirezarezvani/claude-skills@19392f7a08264ed00486a251f5b2098321771f94:commercial/skills/pricing-strategist/SKILL.md",
+      "sha256": "e70273dee7d1d1c65bbf0f993b0a8790e424e7efa08edaa2251d69178bf67b64",
+      "bytes": 9480,
+      "workingFileStatus": "clean",
+      "disposition": "inert-pattern-reference-for-original-specialist-writing",
+      "terminalQuarryDisposition": false
+    },
+    {
+      "skill": "pricing-and-packaging-experimentation",
+      "source": "alirezarezvani/claude-skills@19392f7a08264ed00486a251f5b2098321771f94:commercial/skills/pricing-strategist/references/packaging_anti_patterns.md",
+      "sha256": "9c4b193521e2a5f857c340294adae592e1a83f87077b9cb7378258ede999ea49",
+      "bytes": 6279,
+      "workingFileStatus": "clean",
+      "disposition": "inert-pattern-reference-for-original-specialist-writing",
+      "terminalQuarryDisposition": false
+    },
+    {
+      "skill": "narrative-structure-and-revision",
+      "source": "msitarzewski/agency-agents@ad9264e309bd5e5422c04784372d7841b1e5d604:game-development/narrative-designer.md",
+      "sha256": "7a5489c7b0502aa167030018137e3f349d2c32505c0ad7b9ec1de066a9a93f0d",
+      "bytes": 13160,
+      "workingFileStatus": "clean",
+      "disposition": "inert-pattern-reference-for-original-specialist-writing",
+      "terminalQuarryDisposition": false
+    }
+  ],
+  "sourceExecution": false,
+  "scope": "Selected16 exact documents only, not full source quarry. Observed notices and attribution do not imply blanket source-specific legal clearance."
+}

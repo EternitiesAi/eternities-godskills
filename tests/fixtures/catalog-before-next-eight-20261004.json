@@ -4,44 +4,6 @@
   "activation": "none",
   "skills": [
     {
-      "id": "accessibility-audit-and-remediation",
-      "category": "design",
-      "summary": "Audit and repair complete interface journeys with keyboard, assistive-technology, focus, error recovery, adaptation and motion evidence.",
-      "triggers": [
-        "journey accessibility audit",
-        "keyboard trap or focus restoration defect",
-        "screen reader error and status feedback",
-        "reduced motion and reflow remediation",
-        "accessible dialog or form repair"
-      ],
-      "antiTriggers": [
-        "routine cosmetic edit",
-        "general interface art direction",
-        "legal accessibility determination",
-        "whole-product accessibility certification"
-      ],
-      "taskTypes": [
-        "plan",
-        "build",
-        "verify"
-      ],
-      "related": [
-        "eternities-daedalus",
-        "interface-localization-and-bidirectionality",
-        "native-mobile-interaction-testing"
-      ],
-      "specializes": "eternities-muse",
-      "maturity": "instruction-reviewed",
-      "entrypoint": "skills/accessibility-audit-and-remediation/SKILL.md",
-      "entrypointSha256": "01bf60db9e2da9a7f1d36505d9fa60f9b925217ba362a522a4093c87dd5e73e9",
-      "resources": [
-        {
-          "path": "skills/accessibility-audit-and-remediation/references/methods.md",
-          "sha256": "71d0f6cc2dfb5f0ff2d2f7f811c799ae6a3379d0b2673e2d2446d5f0685abafa"
-        }
-      ]
-    },
-    {
       "id": "agricultural-observation-and-trial",
       "category": "agriculture",
       "summary": "Organize crop and soil observations into locally grounded hypotheses and small measurable trials, without universal amendment prescriptions.",
@@ -493,45 +455,6 @@
         {
           "path": "skills/customer-support-triage-and-resolution/references/methods.md",
           "sha256": "769d48d3ca673694ee2024d7c745818b7e263232d9b281cb606c7b70312239e2"
-        }
-      ]
-    },
-    {
-      "id": "dependency-supply-chain-integrity",
-      "category": "security",
-      "summary": "Reconcile consumed dependency artifacts, lockfile drift, inventory coverage, provenance and exposure, then verify bounded repairs.",
-      "triggers": [
-        "resolved dependency integrity audit",
-        "build and runtime SBOM reconciliation",
-        "lockfile origin or transitive drift",
-        "artifact signature and attestation verification",
-        "dependency advisory triage and remediation"
-      ],
-      "antiTriggers": [
-        "general source trust review",
-        "credential or account administration",
-        "active exploit execution",
-        "legal license determination"
-      ],
-      "taskTypes": [
-        "research",
-        "plan",
-        "build",
-        "verify"
-      ],
-      "related": [
-        "eternities-daedalus",
-        "experiment-artifact-lineage",
-        "release-script-safety"
-      ],
-      "specializes": "eternities-aegis",
-      "maturity": "instruction-reviewed",
-      "entrypoint": "skills/dependency-supply-chain-integrity/SKILL.md",
-      "entrypointSha256": "ba4807f2bdb4ec52eb9e2e96a669fab6c82e6b376afe5aa353fa6aa122cf121f",
-      "resources": [
-        {
-          "path": "skills/dependency-supply-chain-integrity/references/methods.md",
-          "sha256": "e47b643b7d5031474ff1329500de5de4217ab9b80bad84594e857096b255e4f4"
         }
       ]
     },
@@ -2347,46 +2270,6 @@
       "resources": []
     },
     {
-      "id": "narrative-structure-and-revision",
-      "category": "writing",
-      "summary": "Write and revise fiction through particular desires, scene turns, voice and imagery, preserving canon, reader promise, and consequential interactive states.",
-      "triggers": [
-        "write or revise a fictional scene",
-        "story structure and earned character choices",
-        "dialogue subtext and character knowledge",
-        "interactive narrative branch consequences",
-        "continuity revision preserving artistic intent"
-      ],
-      "antiTriggers": [
-        "factual status or research report",
-        "brand voice profile from writing samples",
-        "isolated grammar correction",
-        "mandatory plot formula",
-        "silently rewrite established canon"
-      ],
-      "taskTypes": [
-        "create",
-        "plan",
-        "build",
-        "verify"
-      ],
-      "related": [
-        "eternities-arcadia",
-        "imaginative-concept-development",
-        "voice-style-calibration"
-      ],
-      "specializes": "eternities-logos",
-      "maturity": "instruction-reviewed",
-      "entrypoint": "skills/narrative-structure-and-revision/SKILL.md",
-      "entrypointSha256": "78f2055cd08ca31fccdd779865267d939ba7763b1402e0133cd0ddb1a3d203ba",
-      "resources": [
-        {
-          "path": "skills/narrative-structure-and-revision/references/methods.md",
-          "sha256": "c3b81b2943fe88c72d8d821fc1037209f288c5d9ba2ac1fbf833414c5602567d"
-        }
-      ]
-    },
-    {
       "id": "native-mobile-interaction-testing",
       "category": "engineering",
       "summary": "Author and run version-aware React Native interaction tests with accessible queries, explicit async behavior, and clear device-evidence boundaries.",
@@ -2418,50 +2301,6 @@
       "entrypoint": "skills/native-mobile-interaction-testing/SKILL.md",
       "entrypointSha256": "0b2f0175201eae491d62bf868771bb9cd79352ebc8249c52b99f57898ab46227",
       "resources": []
-    },
-    {
-      "id": "operating-cadence-and-decision-accountability",
-      "category": "business",
-      "summary": "Design operating rules for founder or executive approval queues, scoped delegation, effective capacity, work-in-progress limits, and accountable exceptions.",
-      "triggers": [
-        "operating rhythm with accountable decisions",
-        "founder approval bottlenecks",
-        "delegating decision rights within an authority boundary",
-        "exception delegation with an owner and expiry",
-        "work in progress limits and intake capacity",
-        "aging cross-team decision queue",
-        "capacity and WIP intake policy",
-        "repeated priority exceptions",
-        "reviews that produce no owned actions"
-      ],
-      "antiTriggers": [
-        "ordinary status update",
-        "personal productivity coaching",
-        "generic corporate strategy",
-        "employment or vendor negotiation",
-        "emergency incident response"
-      ],
-      "taskTypes": [
-        "plan",
-        "create",
-        "build",
-        "verify"
-      ],
-      "related": [
-        "eternities-agora",
-        "eternities-forge",
-        "structured-hiring-evaluation"
-      ],
-      "specializes": "eternities-prometheus",
-      "maturity": "instruction-reviewed",
-      "entrypoint": "skills/operating-cadence-and-decision-accountability/SKILL.md",
-      "entrypointSha256": "a03d89234106b30da8e99ffe6e738f58408e03727d2909431a119aca6b5c56c1",
-      "resources": [
-        {
-          "path": "skills/operating-cadence-and-decision-accountability/references/methods.md",
-          "sha256": "32ddd3dfe2b8085e6ded14aa562e47761fb2d47f085154bcc9409ad49fff5f7d"
-        }
-      ]
     },
     {
       "id": "performance-release-gating",
@@ -2559,87 +2398,6 @@
       "entrypoint": "skills/portable-speech-chunk-alignment/SKILL.md",
       "entrypointSha256": "93283ef9cf5b93a365d1fb7da970efb0c7afc2961385631909320856b9178166",
       "resources": []
-    },
-    {
-      "id": "pricing-and-packaging-experimentation",
-      "category": "business",
-      "summary": "Design price offers, charging units and package tiers; run pricing experiments and compare eligible pricing cohorts, contribution margin, and renewal effects.",
-      "triggers": [
-        "pricing model and value unit selection",
-        "price tier and package redesign experiments",
-        "pricing experiments with eligible offer cohorts",
-        "usage overage and contribution margin",
-        "discount expiry and renewal pricing rollout"
-      ],
-      "antiTriggers": [
-        "prospect qualification or account scoring for buying intent",
-        "per-deal discount approval",
-        "positioning or marketing copy alone",
-        "regulated financial advice",
-        "optimal price from unsupported benchmarks",
-        "change customer charges without authority"
-      ],
-      "taskTypes": [
-        "plan",
-        "create",
-        "build",
-        "verify"
-      ],
-      "related": [
-        "cashflow-forecast-scenario-integrity",
-        "eternities-prometheus",
-        "user-research-and-usability-study",
-        "venture-falsification-and-planning"
-      ],
-      "specializes": "eternities-beacon",
-      "maturity": "instruction-reviewed",
-      "entrypoint": "skills/pricing-and-packaging-experimentation/SKILL.md",
-      "entrypointSha256": "d8faaa71a46cf3e95f5e6e27f8990138c2b0abf97ef921f6fb5162549ce82418",
-      "resources": [
-        {
-          "path": "skills/pricing-and-packaging-experimentation/references/methods.md",
-          "sha256": "7d32ccdbf5daef4c2c04b871d7fee1ea47e9e9c4247953085bb5d6aaf98cc144"
-        }
-      ]
-    },
-    {
-      "id": "procedural-world-generation-and-validation",
-      "category": "games",
-      "summary": "Build reproducible procedural worlds with chunk boundary contracts, state-aware progression checks, persistent overlays, and bounded generation recovery.",
-      "triggers": [
-        "procedural dungeon key-door solvability",
-        "deterministic world seed replay",
-        "chunk order independence and terrain seams",
-        "generated world retry exhaustion",
-        "procedural map persistence across reload"
-      ],
-      "antiTriggers": [
-        "ordinary handcrafted level layout",
-        "asset dressing without generation rules",
-        "isolated rendering optimization",
-        "fun certification from reachability alone"
-      ],
-      "taskTypes": [
-        "plan",
-        "build",
-        "verify",
-        "create"
-      ],
-      "related": [
-        "imaginative-concept-development",
-        "invariant-guard",
-        "performance-release-gating"
-      ],
-      "specializes": "eternities-arcadia",
-      "maturity": "instruction-reviewed",
-      "entrypoint": "skills/procedural-world-generation-and-validation/SKILL.md",
-      "entrypointSha256": "1da065a061c15a19112eadce6efc5a018be76a8663c2280ae946e14a30c55da3",
-      "resources": [
-        {
-          "path": "skills/procedural-world-generation-and-validation/references/methods.md",
-          "sha256": "0c177b8ff767044ed412992becb1c78e908efb28b33d2ca7d45a759858381725"
-        }
-      ]
     },
     {
       "id": "release-script-safety",
@@ -2766,47 +2524,6 @@
       "resources": []
     },
     {
-      "id": "schema-migration-and-backfill-safety",
-      "category": "data",
-      "summary": "Migrate database schemas and transform live rows across mixed app versions, with resumable backfills, concurrent-write protection and recovery checks.",
-      "triggers": [
-        "database migration across mixed app versions",
-        "compatible application readers and writers across schema changes",
-        "transforming database rows during live schema changes",
-        "resumable data backfill",
-        "concurrent writer backfill conflict",
-        "expand contract schema transition",
-        "migration recovery and contraction validation"
-      ],
-      "antiTriggers": [
-        "ordinary query tuning",
-        "schema sketch without migration",
-        "backup administration alone",
-        "database engine upgrade without schema transition"
-      ],
-      "taskTypes": [
-        "plan",
-        "build",
-        "verify",
-        "recover"
-      ],
-      "related": [
-        "bounded-verified-object-ingestion",
-        "eternities-daedalus",
-        "release-script-safety"
-      ],
-      "specializes": "eternities-atlas",
-      "maturity": "instruction-reviewed",
-      "entrypoint": "skills/schema-migration-and-backfill-safety/SKILL.md",
-      "entrypointSha256": "6fad6670b742088afd1d4f4b3b7d5cc4715f18f235673e71f8c97c969c4fca65",
-      "resources": [
-        {
-          "path": "skills/schema-migration-and-backfill-safety/references/methods.md",
-          "sha256": "447c04e85675287f4e04471121120a8e29a40b3bbf302d4090ae56253341ae40"
-        }
-      ]
-    },
-    {
       "id": "scientific-surrogate-validation",
       "category": "science",
       "summary": "Validate scientific surrogate claims using decision-time-available features, leakage-resistant grouped evaluation, matched baselines, separately fitted uncertainty calibration, and complete adaptive-pool accounting.",
@@ -2869,44 +2586,6 @@
       "entrypoint": "skills/semantic-implementation-diff/SKILL.md",
       "entrypointSha256": "9d790f26786f711482d0b2cb6b460d80d56099492a60e9686092b73f7553ab77",
       "resources": []
-    },
-    {
-      "id": "service-observability-and-slo-design",
-      "category": "engineering",
-      "summary": "Design and implement event-correct reliability indicators, telemetry coverage, error budgets and actionable burn alerts.",
-      "triggers": [
-        "service reliability indicator or SLO design",
-        "error budget and burn alert implementation",
-        "weighted service success aggregation",
-        "missing telemetry versus no traffic",
-        "latency distribution aggregation audit"
-      ],
-      "antiTriggers": [
-        "dashboard cosmetic edit",
-        "active incident recovery",
-        "isolated performance benchmark",
-        "contractual SLA determination"
-      ],
-      "taskTypes": [
-        "plan",
-        "build",
-        "verify"
-      ],
-      "related": [
-        "eternities-atlas",
-        "eternities-phoenix",
-        "performance-release-gating"
-      ],
-      "specializes": "eternities-daedalus",
-      "maturity": "instruction-reviewed",
-      "entrypoint": "skills/service-observability-and-slo-design/SKILL.md",
-      "entrypointSha256": "6de3cf2118becf3082c2364dc60eded63a0b17bc5dabf37c42535b01c5c7a95b",
-      "resources": [
-        {
-          "path": "skills/service-observability-and-slo-design/references/methods.md",
-          "sha256": "f184dbde00a72f80be35c5fbb3e9184f125fc4ada4facc9f1d8e15b0c655f543"
-        }
-      ]
     },
     {
       "id": "sovereign-skill-refinery",

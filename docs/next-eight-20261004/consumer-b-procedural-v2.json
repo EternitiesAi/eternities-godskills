@@ -1,0 +1,37 @@
+{
+  "schema": "godskills-consuming-output-v2",
+  "cohort": "b",
+  "revision": 2,
+  "scope": "Fresh bounded procedural application only; other three v1 consuming outputs remain unchanged.",
+  "priorEvidence": {
+    "path": "consumer-b-v1.json",
+    "sha256": "f71a52de5ae87190d2a2f62e64dd340f60c85a3c73116abc44d571129e02fd10"
+  },
+  "outputs": [
+    {
+      "skillId": "procedural-world-generation-and-validation",
+      "entrypoint": {
+        "path": "product/skills/procedural-world-generation-and-validation/SKILL.md",
+        "sha256": "1da065a061c15a19112eadce6efc5a018be76a8663c2280ae946e14a30c55da3"
+      },
+      "method": {
+        "path": "product/skills/procedural-world-generation-and-validation/references/methods.md",
+        "sha256": "0c177b8ff767044ed412992becb1c78e908efb28b33d2ca7d45a759858381725"
+      },
+      "metadata": {
+        "path": "product/skills/procedural-world-generation-and-validation/skill.json",
+        "sha256": "d833d6b1a067112f8d98f21f2ae73af530bfab3b3978839fc1f0bfd6ffd7a815"
+      },
+      "request": "A seeded dungeon passes screenshots but chunk load order changes door positions, negative coordinate chunks have seams, and the key sometimes spawns behind its own locked door. Generation retries until valid with no cap. Specify a portable repair and test strategy; no engine run is available.",
+      "requestSha256": "47ae4d132340a20c17a4d3422e8ed8d2057757715d3bf1401804fb10d771c0f2",
+      "requestHashEncoding": "UTF-8, exact request string, no BOM or added newline",
+      "answer": "Repair four separate contracts: reproducible placement, signed coordinates, progression validity, and bounded failure. Screenshots do not establish any of them. With no engine available, this is an implementation and test specification, not a claim that the dungeon is repaired.\n\nFirst make generation order-independent. Record seed, generator/content versions, parameters, random algorithm, coordinate convention, and attempt index. Derive independent random streams from structured, stable region and purpose identities; decoration draws must not shift door or key draws. Sort candidates and resolve ties consistently. Each neighboring pair shares one canonical edge identity and connector contract, with orientation interpreted by each side. Corners also share an identity. Door position, width, clearance, and entity ownership come from that contract, not whichever chunk loads first. Regenerating an interior must retain committed boundaries; changing a boundary requires coordinated regeneration of its affected region while preserving player-state overlays.\n\nUse floor decomposition on every chunked axis: for positive width L, chunk = floor(world/L), local = world - chunk*L. As an integer fixture with L=16, world -17 gives chunk -2/local 15; -16 gives -1/0; -1 gives -1/15; zero gives 0/0; 15 gives 0/15; 16 gives 1/0. Every result must satisfy 0 <= local < L and reconstruct world as chunk*L+local. Truncation toward zero fails the negative cases. Generation, collision, navigation, and save lookup must use the same convention. For continuous coordinates, choose representable offsets appropriate to the supported precision and test immediately below, at, and above -L, zero, and +L; do not promise bit-identical geometry across unspecified runtimes.\n\nValidate progression with a state-transition search, not an unlocked geometric flood fill. State contains location, inventory/key counts, opened doors, switches, and irreversible flags needed by the actual rules. Opening a door must check requirements, consume keys where applicable, and persist its opened state. Reject an instance where the necessary key is reachable only beyond its own inaccessible lock. Test competing locks sharing one consumable key and one-way routes. Declare whether merely one winning route suffices or permitted player choices must remain recoverable. Return a witness path, a demonstrated counterexample, or inconclusive when the model/search is incomplete. Future engine verification must replay the witness through actual movement and collision.\n\nReplace unlimited retries with separate attempt, elapsed-time, and solver-work caps chosen for the generation context. Derive each attempt from the original identity and attempt index; retain rejection reasons and failing states. Record time-budget exhaustion separately from a proven invalid layout. Stop rather than accepting the final invalid candidate. A fallback must satisfy the same progression, movement, and committed-boundary contracts; if none does, return a generation failure without silently overwriting an existing world.\n\nKeep the reported seed as a regression case. Compare connector contracts and progression placement under forward/reverse neighbor order, different schedules, and unload/reload. Cover signed-boundary round trips, shared corners, duplicate spanning objects, key-behind-lock, and cap exhaustion. Later runtime tests must traverse seams and verify clearance and persistent opened/removed objects. Compare rejection cost and seed-set diversity after repair: flattening all interesting branches is not a neutral fix. Deliver the generation identity, boundary rules, bounded-failure policy, fixtures, and witness/counterexample records; playable feel remains unobserved.",
+      "wordCount": 509
+    }
+  ],
+  "limits": [
+    "Non-blinded text application; no engine run, live domain validation, implementation claim or superiority result.",
+    "The earlier accidental acceptance-field exposure is preserved as a limitation; this pass read only the procedural request and did not self-grade against acceptance.",
+    "Parent assesses this fresh application; the other three original applications are not rewritten."
+  ]
+}

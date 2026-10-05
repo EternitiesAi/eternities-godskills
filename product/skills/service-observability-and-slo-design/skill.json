@@ -1,0 +1,18 @@
+{
+  "id": "service-observability-and-slo-design",
+  "category": "engineering",
+  "summary": "Design and implement event-correct reliability indicators, telemetry coverage, error budgets and actionable burn alerts.",
+  "triggers": ["service reliability indicator or SLO design", "error budget and burn alert implementation", "weighted service success aggregation", "missing telemetry versus no traffic", "latency distribution aggregation audit"],
+  "antiTriggers": ["dashboard cosmetic edit", "active incident recovery", "isolated performance benchmark", "contractual SLA determination"],
+  "taskTypes": ["plan", "build", "verify"],
+  "specializes": "eternities-daedalus",
+  "related": ["eternities-atlas", "eternities-phoenix", "performance-release-gating"],
+  "resources": ["references/methods.md"],
+  "maturity": "instruction-reviewed",
+  "provenance": [
+    {"kind":"pattern-reference","source":"sickn33/agentic-awesome-skills@10cc257b2409cc8a2f3724d02f40353661f7c1be:skills/observability-monitoring-slo-implement/SKILL.md","note":"Exact body SHA-256 d923fab5f9df04a65a1d87099538a0af031450a879b8cf39b16628cd987a165f. User-centered indicators and error-budget decisions informed original writing. Missing telemetry as a reason to reject design work and generic mandatory clarification were rejected. Root MIT and CC BY 4.0 content notices observed, not source-specific legal clearance."},
+    {"kind":"pattern-reference","source":"sickn33/agentic-awesome-skills@10cc257b2409cc8a2f3724d02f40353661f7c1be:skills/observability-monitoring-slo-implement/resources/implementation-playbook.md","note":"Exact body SHA-256 3d4f2b100a25ab8f3eb5ca9ae14a8b28813a1eb0001688a035810ed2aadcb8f0. Event ratios, compatible histograms and paired burn windows informed fresh methods. Unweighted success averages, percentiles-of-percentiles, flawed downtime consumption arithmetic, inconsistent burn projections, reversed window names and fixed vendor thresholds were rejected; no code or templates copied. Root MIT and CC BY 4.0 content notices are signals, not legal clearance."},
+    {"kind":"pattern-reference","source":"msitarzewski/agency-agents@ad9264e309bd5e5422c04784372d7841b1e5d604:engineering/engineering-sre.md","note":"Exact body SHA-256 85b305e495506913f50c7cb28de42444a85fbc4898cd3ad4e1dc9b358b4ab5e8. Diagnostic traffic, latency, errors and saturation plus response ownership informed the method. Persona, unsupported cost/risk claims, automatic shipping from budget and mandatory rollout or automation recipes were rejected. Root MIT notice observed; source-specific rights are not legally cleared."},
+    {"kind":"authoring","source":"product/skills/service-observability-and-slo-design/","note":"Original specialist procedure extends Daedalus telemetry and integration methods with eligible populations, weighted arithmetic, missing-data states and alert verification procedures. Product maturity does not imply measured live reliability."}
+  ]
+}

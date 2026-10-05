@@ -1,0 +1,17 @@
+{
+  "id": "accessibility-audit-and-remediation",
+  "category": "design",
+  "summary": "Audit and repair complete interface journeys with keyboard, assistive-technology, focus, error recovery, adaptation and motion evidence.",
+  "triggers": ["journey accessibility audit", "keyboard trap or focus restoration defect", "screen reader error and status feedback", "reduced motion and reflow remediation", "accessible dialog or form repair"],
+  "antiTriggers": ["routine cosmetic edit", "general interface art direction", "legal accessibility determination", "whole-product accessibility certification"],
+  "taskTypes": ["plan", "build", "verify"],
+  "specializes": "eternities-muse",
+  "related": ["eternities-daedalus", "native-mobile-interaction-testing", "interface-localization-and-bidirectionality"],
+  "resources": ["references/methods.md"],
+  "maturity": "instruction-reviewed",
+  "provenance": [
+    {"kind":"pattern-reference","source":"sickn33/agentic-awesome-skills@10cc257b2409cc8a2f3724d02f40353661f7c1be:skills/fixing-accessibility/SKILL.md","note":"Exact body SHA-256 a8ce24b32859364f84711837468c70999297241e8a895f0395475c48e09a4af0. Native semantics, field relationships and focus repair informed fresh prose. Universal tab-stop and heading rules, fixed severity ordering and conversation-wide activation were rejected. Root MIT and CC BY 4.0 content notices and embedded upstream MIT attribution are observed signals, not source-specific legal clearance."},
+    {"kind":"pattern-reference","source":"msitarzewski/agency-agents@ad9264e309bd5e5422c04784372d7841b1e5d604:testing/testing-accessibility-auditor.md","note":"Exact body SHA-256 982a14c0d0a9b30834ecd6e04811e4f900baf7950e18c68cc97142354cc803e7. Journey testing, real assistive-technology observation and adaptation coverage informed the method. Persona, templates, unsupported detection percentages, presumed defects and automatic conformance claims were rejected. Root MIT notice observed; source-specific rights are not legally cleared."},
+    {"kind":"authoring","source":"product/skills/accessibility-audit-and-remediation/","note":"Original specialist procedure extends Muse's broad accessibility and async-state routes with journey evidence, focus successors and remediation closure. No source prose, templates or code copied. Product maturity does not certify runtime utility or accessibility."}
+  ]
+}

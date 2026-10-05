@@ -7,7 +7,7 @@ optional consumers, not prerequisites.
 
 ## Portable product
 
-The self-contained pack is in **[product/](product/README.md)**: 77 refined
+The self-contained pack is in **[product/](product/README.md)**: 85 refined
 skill entrypoints organized into 21 primary domains, with the 26 existing owner
 extensions folded into relevant methods. It includes broad and specialist
 discovery, a compact relationship catalog, explainable offline search, an exact
@@ -27,11 +27,11 @@ contain the same 74 skill bodies and references, with the reviewed routing fixes
 
 The [October 3 professional-gap release](docs/godskills-professional-gap-release-20261003.md)
 adds structured hiring evaluation, customer-support resolution, and user research
-and usability studies, bringing the current pack to 77 entrypoints. Its
+and usability studies, bringing that snapshot to 77 entrypoints. Its
 [installation record](docs/godskills-professional-gap-installation-20261003.md)
 separately records the verified local upgrade and rollback backup. The older
 74-entrypoint ZIPs above remain historical snapshots, not exports of the current
-pack. Use the export command below for the current verified content.
+pack. Use the latest reviewed snapshot below or export current verified content.
 
 The [configuration and usability-discovery refinement](docs/product-configuration-discovery-refinement-20261003.md)
 adds a conditional durable-settings method and a reviewed lexical discovery
@@ -102,12 +102,25 @@ contradictions, and adds tested native-frontmatter validation. Six bounded
 consumer tasks satisfy 29 predefined checks; the final full suite has 1,636
 passes, no failures and two existing Windows-specific skips. These are
 instruction/package qualifications, not universal raw-model superiority or
-whole-quarry completion. The [current 77-skill ZIP](artifacts/releases/godskills-product-20261004-f186d19e.zip)
+whole-quarry completion. The [refined 77-skill snapshot ZIP](artifacts/releases/godskills-product-20261004-f186d19e.zip)
 and [SHA-256 sidecar](artifacts/releases/godskills-product-20261004-f186d19e.zip.sha256)
 contain the complete portable pack. Detailed retrieval rules are optional
 [discovery documentation](product/DISCOVERY.md), not always-loaded policy.
 The [installation closeout](docs/current-pack-refinement-installation-20261004.md)
 records the fresh exact recovery backup and separately accepted deployment audit.
+
+The [eight-specialist extension](docs/next-eight-godskills-20261004.md) adds
+accessibility remediation, service reliability/SLOs, concurrent schema migration,
+dependency supply-chain integrity, procedural worlds, company operating cadence,
+pricing/packaging experiments and narrative craft. These focused methods deepen
+existing owners without changing the previous 77 skill payloads or making every
+task load a larger workflow. Its qualification and exact release evidence are
+recorded separately; portable use remains independent of Codex, a provider,
+Godagents, Keel or a local repository warehouse.
+The current [85-skill standalone ZIP](artifacts/releases/godskills-product-20261004-add50d29.zip)
+and [SHA-256 sidecar](artifacts/releases/godskills-product-20261004-add50d29.zip.sha256)
+include all eight reviewed additions. Earlier exports above remain exact historical
+snapshots, not the current pack.
 
 For a new computer, copy only `product/` or export its verified standalone ZIP:
 

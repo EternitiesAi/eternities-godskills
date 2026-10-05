@@ -1,0 +1,16 @@
+{
+  "id": "narrative-structure-and-revision",
+  "category": "writing",
+  "summary": "Write and revise fiction through particular desires, scene turns, voice and imagery, preserving canon, reader promise, and consequential interactive states.",
+  "triggers": ["write or revise a fictional scene", "story structure and earned character choices", "dialogue subtext and character knowledge", "interactive narrative branch consequences", "continuity revision preserving artistic intent"],
+  "antiTriggers": ["factual status or research report", "brand voice profile from writing samples", "isolated grammar correction", "mandatory plot formula", "silently rewrite established canon"],
+  "taskTypes": ["create", "plan", "build", "verify"],
+  "specializes": "eternities-logos",
+  "related": ["voice-style-calibration", "imaginative-concept-development", "eternities-arcadia"],
+  "resources": ["references/methods.md"],
+  "maturity": "instruction-reviewed",
+  "provenance": [
+    {"kind":"pattern-reference","source":"msitarzewski/agency-agents@ad9264e309bd5e5422c04784372d7841b1e5d604:game-development/narrative-designer.md","note":"Full frozen body SHA-256 7a5489c7b0502aa167030018137e3f349d2c32505c0ad7b9ec1de066a9a93f0d. Character intent and subtext, consequence state, layered revelation, and canon continuity informed original craft guidance. Forced convergence, universal naturalistic dialogue, fixed consequence timing and comprehension percentages, mandatory prewriting maps, lore tiers, and engine formats were rejected. Root MIT signal observed, not source-specific legal clearance."},
+    {"kind":"authoring","source":"product/skills/narrative-structure-and-revision/","note":"Fresh fiction and revision procedure, invented craft illustration, and branch/knowledge checks. No source prose, templates, code, character examples, or persona copied. Artistic quality is not certified by structural checks."}
+  ]
+}

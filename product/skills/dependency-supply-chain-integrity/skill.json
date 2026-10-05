@@ -1,0 +1,18 @@
+{
+  "id": "dependency-supply-chain-integrity",
+  "category": "security",
+  "summary": "Reconcile consumed dependency artifacts, lockfile drift, inventory coverage, provenance and exposure, then verify bounded repairs.",
+  "triggers": ["resolved dependency integrity audit", "build and runtime SBOM reconciliation", "lockfile origin or transitive drift", "artifact signature and attestation verification", "dependency advisory triage and remediation"],
+  "antiTriggers": ["general source trust review", "credential or account administration", "active exploit execution", "legal license determination"],
+  "taskTypes": ["research", "plan", "build", "verify"],
+  "specializes": "eternities-aegis",
+  "related": ["eternities-daedalus", "release-script-safety", "experiment-artifact-lineage"],
+  "resources": ["references/methods.md"],
+  "maturity": "instruction-reviewed",
+  "provenance": [
+    {"kind":"pattern-reference","source":"sickn33/agentic-awesome-skills@10cc257b2409cc8a2f3724d02f40353661f7c1be:skills/supply-chain-security/SKILL.md","note":"Exact body SHA-256 ec7790f836cb24e3c0e9c69b0fafb9d66ab5d24ccc7da2a22e52d5083661552f. Component inventory, consumed artifact integrity, build boundaries and exposure triage informed fresh prose. Unsupported reachable-alert percentages, fixed severity/maintenance rules, mandatory exploit/tool execution and signatures as trust guarantees were rejected. Root MIT and CC BY 4.0 content notices plus embedded upstream MIT attribution are observed signals, not source-specific legal clearance."},
+    {"kind":"pattern-reference","source":"sickn33/agentic-awesome-skills@10cc257b2409cc8a2f3724d02f40353661f7c1be:skills/supply-chain-security/references/sbom-sca-methodology.md","note":"Exact body SHA-256 d0afd051f6e38f47613f1451e5e7aae23ab74032690dc8786708a53daa89e5f5. Exact version confirmation and inventory/advisory separation informed the method. Fixed priority formulas, dated vendor capability tables, exploit acquisition and unsolicited recurring scans were rejected. Root MIT and CC BY 4.0 content notices observed, not source-specific legal clearance."},
+    {"kind":"pattern-reference","source":"sickn33/agentic-awesome-skills@10cc257b2409cc8a2f3724d02f40353661f7c1be:skills/dependency-management-deps-audit/SKILL.md","note":"Exact body SHA-256 793aacb82793ec84b5cbce654de7fb23d0a811361810c5c680edb77ff42d8146. Direct/transitive inventory and compatibility-aware remediation informed fresh writing. Lack of manifests or upgrade authority as a reason to reject an audit, automatic fixes and scanner results as license clearance were rejected. Root MIT and CC BY 4.0 content notices observed, not source-specific legal clearance."},
+    {"kind":"authoring","source":"product/skills/dependency-supply-chain-integrity/","note":"Original specialist procedure extends Aegis source/sink and inert-source review with declared/resolved/build/runtime reconciliation and subject-bound integrity evidence. No source prose, commands, templates or code copied. Product maturity does not certify security, license compliance or artifact completeness."}
+  ]
+}

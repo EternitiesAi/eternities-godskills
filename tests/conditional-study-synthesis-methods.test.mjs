@@ -16,7 +16,9 @@ for(const [owner,resource,label] of additions){
   const meta=await json(`skills/${owner}/skill.json`),catalog=await json('catalog.json');
   assert(meta.resources.includes(resource));
   assert((await text(`skills/${owner}/SKILL.md`)).includes(`[${label}](${resource})`));
-  assert.equal(catalog.skills.length,77);
+  // Pack-wide membership is owned by the exact admitted-ID regression. This
+  // test rejects promotion of these conditional references into entrypoints.
+  assert(!catalog.skills.some(x=>['accessible-user-study','staged-literature-synthesis'].includes(x.id)));
   assert(catalog.skills.find(x=>x.id===owner).resources.some(x=>x.path===`skills/${owner}/${resource}`));
   assert(!catalog.skills.some(x=>x.entrypoint===`skills/${owner}/${resource}`));
  });

@@ -1,0 +1,123 @@
+{
+  "schema": "next-eight-candidate-check-v1",
+  "status": "verified-content-and-preservation",
+  "releaseId": "add50d29355b55df1b4f33ac63bff3fe86dfc06433653e67989398f68ec66cb5",
+  "skillCount": 85,
+  "addedIds": [
+    "accessibility-audit-and-remediation",
+    "service-observability-and-slo-design",
+    "schema-migration-and-backfill-safety",
+    "dependency-supply-chain-integrity",
+    "procedural-world-generation-and-validation",
+    "operating-cadence-and-decision-accountability",
+    "pricing-and-packaging-experimentation",
+    "narrative-structure-and-revision"
+  ],
+  "addedFiles": [
+    {
+      "path": "skills/accessibility-audit-and-remediation/SKILL.md",
+      "sha256": "01bf60db9e2da9a7f1d36505d9fa60f9b925217ba362a522a4093c87dd5e73e9"
+    },
+    {
+      "path": "skills/accessibility-audit-and-remediation/references/methods.md",
+      "sha256": "71d0f6cc2dfb5f0ff2d2f7f811c799ae6a3379d0b2673e2d2446d5f0685abafa"
+    },
+    {
+      "path": "skills/accessibility-audit-and-remediation/skill.json",
+      "sha256": "34832196f4d2fe6e0269d89af9213a46bc8cd4717712c525a39e48a1777902f4"
+    },
+    {
+      "path": "skills/dependency-supply-chain-integrity/SKILL.md",
+      "sha256": "ba4807f2bdb4ec52eb9e2e96a669fab6c82e6b376afe5aa353fa6aa122cf121f"
+    },
+    {
+      "path": "skills/dependency-supply-chain-integrity/references/methods.md",
+      "sha256": "e47b643b7d5031474ff1329500de5de4217ab9b80bad84594e857096b255e4f4"
+    },
+    {
+      "path": "skills/dependency-supply-chain-integrity/skill.json",
+      "sha256": "4c4fba9b868f0da8a0fec249d512d2c0e981151d342f2a48a198a5f1463a00f9"
+    },
+    {
+      "path": "skills/narrative-structure-and-revision/SKILL.md",
+      "sha256": "78f2055cd08ca31fccdd779865267d939ba7763b1402e0133cd0ddb1a3d203ba"
+    },
+    {
+      "path": "skills/narrative-structure-and-revision/references/methods.md",
+      "sha256": "c3b81b2943fe88c72d8d821fc1037209f288c5d9ba2ac1fbf833414c5602567d"
+    },
+    {
+      "path": "skills/narrative-structure-and-revision/skill.json",
+      "sha256": "f83a4ebcde567544f6f961283c2fc9b8cb736363f256c386ff875b33d002694d"
+    },
+    {
+      "path": "skills/operating-cadence-and-decision-accountability/SKILL.md",
+      "sha256": "a03d89234106b30da8e99ffe6e738f58408e03727d2909431a119aca6b5c56c1"
+    },
+    {
+      "path": "skills/operating-cadence-and-decision-accountability/references/methods.md",
+      "sha256": "32ddd3dfe2b8085e6ded14aa562e47761fb2d47f085154bcc9409ad49fff5f7d"
+    },
+    {
+      "path": "skills/operating-cadence-and-decision-accountability/skill.json",
+      "sha256": "59cf6450920fce4e5fc1ef3f77d0055bc7d7dfda81a58d109646f553e3ca1792"
+    },
+    {
+      "path": "skills/pricing-and-packaging-experimentation/SKILL.md",
+      "sha256": "d8faaa71a46cf3e95f5e6e27f8990138c2b0abf97ef921f6fb5162549ce82418"
+    },
+    {
+      "path": "skills/pricing-and-packaging-experimentation/references/methods.md",
+      "sha256": "7d32ccdbf5daef4c2c04b871d7fee1ea47e9e9c4247953085bb5d6aaf98cc144"
+    },
+    {
+      "path": "skills/pricing-and-packaging-experimentation/skill.json",
+      "sha256": "ca11c48c8c80bb8ace9b0df7e8e49d553d2dc9a089ac9991407e08342eade0d7"
+    },
+    {
+      "path": "skills/procedural-world-generation-and-validation/SKILL.md",
+      "sha256": "1da065a061c15a19112eadce6efc5a018be76a8663c2280ae946e14a30c55da3"
+    },
+    {
+      "path": "skills/procedural-world-generation-and-validation/references/methods.md",
+      "sha256": "0c177b8ff767044ed412992becb1c78e908efb28b33d2ca7d45a759858381725"
+    },
+    {
+      "path": "skills/procedural-world-generation-and-validation/skill.json",
+      "sha256": "d833d6b1a067112f8d98f21f2ae73af530bfab3b3978839fc1f0bfd6ffd7a815"
+    },
+    {
+      "path": "skills/schema-migration-and-backfill-safety/SKILL.md",
+      "sha256": "6fad6670b742088afd1d4f4b3b7d5cc4715f18f235673e71f8c97c969c4fca65"
+    },
+    {
+      "path": "skills/schema-migration-and-backfill-safety/references/methods.md",
+      "sha256": "447c04e85675287f4e04471121120a8e29a40b3bbf302d4090ae56253341ae40"
+    },
+    {
+      "path": "skills/schema-migration-and-backfill-safety/skill.json",
+      "sha256": "bf45aeeffa8ea55e83506b45f9ac06f19d0e078bfbf8a7fdab6549f1247565bb"
+    },
+    {
+      "path": "skills/service-observability-and-slo-design/SKILL.md",
+      "sha256": "6de3cf2118becf3082c2364dc60eded63a0b17bc5dabf37c42535b01c5c7a95b"
+    },
+    {
+      "path": "skills/service-observability-and-slo-design/references/methods.md",
+      "sha256": "f184dbde00a72f80be35c5fbb3e9184f125fc4ada4facc9f1d8e15b0c655f543"
+    },
+    {
+      "path": "skills/service-observability-and-slo-design/skill.json",
+      "sha256": "6ce505c93b5b8d803d1cabf8438942952fe3d9a65cb6e7134578c1f2b0736b10"
+    }
+  ],
+  "preservedPayloadFiles": 257,
+  "preservedOldSkillFiles": 226,
+  "protectedFiles": {
+    "src/adaptive-activation.mjs": "9844aee1147f7129f3e37067424ccebb88ff478de1b7a9a9fb7306d5f2fdbd82",
+    "policies/adaptive-activation.v1.json": "b87bbfaddecb42417e57202173220bf240204d27b7de5fffc9e609eb18138939",
+    "artifacts/adaptive-activation/evidence.v1.json": "b55a5cb4f7ff039cc7f4027c165b2f151bad723d9030913076a4225342fbe8c5"
+  },
+  "sourceManifestSha256": "0c4bf7164443cbc6e97bc4b09178369ca82e07338a19b32d91562654d183114b",
+  "limits": "Mechanical content/provenance binding, not independent semantic review, domain runtime validation or R10 application."
+}

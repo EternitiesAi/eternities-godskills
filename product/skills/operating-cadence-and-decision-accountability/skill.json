@@ -1,0 +1,17 @@
+{
+  "id": "operating-cadence-and-decision-accountability",
+  "category": "business",
+  "summary": "Design operating rules for founder or executive approval queues, scoped delegation, effective capacity, work-in-progress limits, and accountable exceptions.",
+  "triggers": ["operating rhythm with accountable decisions", "founder approval bottlenecks", "delegating decision rights within an authority boundary", "exception delegation with an owner and expiry", "work in progress limits and intake capacity", "aging cross-team decision queue", "capacity and WIP intake policy", "repeated priority exceptions", "reviews that produce no owned actions"],
+  "antiTriggers": ["ordinary status update", "personal productivity coaching", "generic corporate strategy", "employment or vendor negotiation", "emergency incident response"],
+  "taskTypes": ["plan", "create", "build", "verify"],
+  "specializes": "eternities-prometheus",
+  "related": ["eternities-agora", "eternities-forge", "structured-hiring-evaluation"],
+  "resources": ["references/methods.md"],
+  "maturity": "instruction-reviewed",
+  "provenance": [
+    {"kind":"pattern-reference","source":"msitarzewski/agency-agents@ad9264e309bd5e5422c04784372d7841b1e5d604:specialized/operations-manager.md","note":"Full frozen body SHA-256 3c133a31ae1542922444d77d7c8f9964127704ba94638dde12e37a9ad0fd35bd. End-to-end flow, capacity reconciliation, rework, and pilot feedback informed fresh procedures. Mandatory Lean/Six Sigma, fixed history and utilization targets, vendor scores, meeting schedules, and standardize-before-improve absolutes were rejected. Root MIT signal observed, not legal clearance."},
+    {"kind":"pattern-reference","source":"alirezarezvani/claude-skills@19392f7a08264ed00486a251f5b2098321771f94:c-level-advisor/skills/coo-advisor/SKILL.md","note":"Full frozen body SHA-256 fc0b3c2aab98bc207481b4f6ee6beb09efb39972a7e006016cde7075f4a6f99f. Decision bottlenecks and cross-functional ownership informed original writing. Fixed OKR cascades, growth-stage thresholds, numerical targets, role hierarchy, source scripts, and mandatory multi-role review protocol were not adopted. Root MIT signal observed, not legal clearance."},
+    {"kind":"authoring","source":"product/skills/operating-cadence-and-decision-accountability/","note":"Original queue-age, decision-rights, effective-capacity, and bounded-exception method. No source prose, templates, code, or identity copied. Instruction review does not establish operational outcomes."}
+  ]
+}

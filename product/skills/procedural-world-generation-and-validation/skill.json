@@ -1,0 +1,17 @@
+{
+  "id": "procedural-world-generation-and-validation",
+  "category": "games",
+  "summary": "Build reproducible procedural worlds with chunk boundary contracts, state-aware progression checks, persistent overlays, and bounded generation recovery.",
+  "triggers": ["procedural dungeon key-door solvability", "deterministic world seed replay", "chunk order independence and terrain seams", "generated world retry exhaustion", "procedural map persistence across reload"],
+  "antiTriggers": ["ordinary handcrafted level layout", "asset dressing without generation rules", "isolated rendering optimization", "fun certification from reachability alone"],
+  "taskTypes": ["plan", "build", "verify", "create"],
+  "specializes": "eternities-arcadia",
+  "related": ["invariant-guard", "performance-release-gating", "imaginative-concept-development"],
+  "resources": ["references/methods.md"],
+  "maturity": "instruction-reviewed",
+  "provenance": [
+    {"kind":"pattern-reference","source":"msitarzewski/agency-agents@ad9264e309bd5e5422c04784372d7841b1e5d604:game-development/level-designer.md","note":"Full frozen body SHA-256 79c1d41b7dfc477f6f364ba8b6dec02dc0c081235fe8f8b61c8b062b5dc3b344. Authored anchors, generation grammar, key-door validation, and play observations informed fresh methods. Universal readable junctions, fixed tactical counts, success percentages, and phase locks were rejected. Root MIT signal observed, not source-specific legal clearance."},
+    {"kind":"pattern-reference","source":"msitarzewski/agency-agents@ad9264e309bd5e5422c04784372d7841b1e5d604:game-development/unreal-engine/unreal-world-builder.md","note":"Full frozen body SHA-256 7d2bf21ac77089b99f1fa36f6102fa938c9014c3107e9dcb9069b896e2b4001e. Streaming ownership, exclusion regions, and target-budget checks informed engine-neutral writing. Engine commands, technology mandates, numeric cell/layer/LOD limits, and hardware guarantees were not adopted. Root MIT signal observed, not legal clearance."},
+    {"kind":"authoring","source":"product/skills/procedural-world-generation-and-validation/","note":"Original chunk-identity, state-transition, retry, and persistence procedures; no source prose, templates, code, or persona copied. Instruction review does not establish runtime correctness or play quality."}
+  ]
+}

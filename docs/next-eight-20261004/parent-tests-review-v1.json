@@ -1,0 +1,128 @@
+{
+  "schema": "next-eight-parent-inputs-independent-review-v1",
+  "outcome": "READY_INSTRUCTION",
+  "scope": "Independent review of the exact nine parent-owned compatibility, test and documentation inputs; no product edits.",
+  "candidateReleaseId": "a8e10fe8c34687e08fabeb334ee623ffd7951c745cfe2adbf765eeb1955320cb",
+  "inputFiles": [
+    {
+      "path": "tests/next-eight-discovery.test.mjs",
+      "sha256": "529767c813c4dcdf72ca1525f53f66ffcfb87f844675be0191ff2811724d308b"
+    },
+    {
+      "path": "tests/conditional-method-regression.test.mjs",
+      "sha256": "6a90b929930bcbd824a01737b2db6958385c32f59cae5af3db24e293fb94f5cf"
+    },
+    {
+      "path": "tests/conditional-study-synthesis-methods.test.mjs",
+      "sha256": "9aa28d068a7282ab131744bd27b9b81e6b7edfdf27d19b231ba064ac00578eb5"
+    },
+    {
+      "path": "tests/universal-wave29-arcadia-audio-state-cue.test.mjs",
+      "sha256": "367818144ccb049cacb9900c72ef1e0a63610cef666fa95357836915f8ceb9a2"
+    },
+    {
+      "path": "tests/educational-discovery-revealed-v2.test.mjs",
+      "sha256": "7dfffbb5b185d6be21bc10e8a5bf981ecc60683a3e35325c69530f212e5698de"
+    },
+    {
+      "path": "tests/quality-evaluation-harness.test.mjs",
+      "sha256": "67571ca61b736649a5560499fcfde4f1041b1402bce9667787e950758d322e49"
+    },
+    {
+      "path": "tests/fixtures/catalog-before-next-eight-20261004.json",
+      "sha256": "bf90582e8a23a3d50a6997cfba5f97d022f4619024f8459e364423f269e10eca"
+    },
+    {
+      "path": "README.md",
+      "sha256": "7ed2d6abb1985546d85321848460d17cd9b28ff213cb957bdd9993ce60d9d00b"
+    },
+    {
+      "path": "docs/next-eight-godskills-20261004.md",
+      "sha256": "ae47473e16b8a3869f70eaebcea1854d2508de19d51a07dece0f3738d15c2961"
+    }
+  ],
+  "inputFindings": [
+    {
+      "path": "tests/next-eight-discovery.test.mjs",
+      "disposition": "ACCEPT",
+      "reason": "Eight exact specialist IDs, each with native/resource integrity, direct and paraphrase top-three checks and host-authority abstention; exact distinct membership/coexistence assertion. All 33 checks passed against current85. B metadata repair did not require altered queries or search code."
+    },
+    {
+      "path": "tests/conditional-method-regression.test.mjs",
+      "disposition": "ACCEPT",
+      "reason": "Explicit new eight-ID allowlist is added to the existing six cognitive and three professional additions. Exact immutable core2260 hash, ordered 68 scoring/relation/specialization/maturity records and historical resource boundaries remain asserted; no generalized count-only admission."
+    },
+    {
+      "path": "tests/conditional-study-synthesis-methods.test.mjs",
+      "disposition": "ACCEPT",
+      "reason": "Replaces stale pack count with the test's actual obligations: conditional methods are not entrypoints or promoted IDs, remain linked/resources under their existing owners and retain exact payload/provenance checks. Pack-wide membership is independently exact in the core regression."
+    },
+    {
+      "path": "tests/universal-wave29-arcadia-audio-state-cue.test.mjs",
+      "disposition": "ACCEPT",
+      "reason": "Only the specific interface accessibility prompt's expected route changes from Muse to its accessibility specialist. Arcadia's conditional DRAFT cue, game routing, media/DSP ownership and no-authority behavior remain checked."
+    },
+    {
+      "path": "tests/educational-discovery-revealed-v2.test.mjs",
+      "disposition": "ACCEPT",
+      "reason": "Literal historical scoring gold alone runs on exact prior77 input, because changed candidate populations affect weights. Every current semantic, eligibility, intent, refusal, filtering and authority assertion still uses current85. Historical fixture hash/count and each unchanged historical record are asserted; old negatives are not silently rewritten."
+    },
+    {
+      "path": "tests/quality-evaluation-harness.test.mjs",
+      "disposition": "ACCEPT",
+      "reason": "Uses the pre-existing waitForSecondExec barrier before the invalid-stream batch so both intended in-flight executions dispatch before either invalid stream. Exactly two statuses are required; invalid statuses (empty retains outcome) and no replay calls remain required. Separate first-invalid/global-halt tests still permit and assert legitimate not-dispatched peers. No production scheduling/settlement rule is relaxed."
+    },
+    {
+      "path": "tests/fixtures/catalog-before-next-eight-20261004.json",
+      "disposition": "ACCEPT",
+      "reason": "Full JSON parsed and all historical records compared. Its bytes are exact baseline565d53f product/catalog.json; SHA-256 bf90582e8a23a3d50a6997cfba5f97d022f4619024f8459e364423f269e10eca; all77 records equal current catalog records. This is a historical scoring input, not the current product population."
+    },
+    {
+      "path": "README.md",
+      "disposition": "ACCEPT",
+      "reason": "Current portable pack is85; previous77 ZIP is explicitly a refined snapshot, not the current ZIP. New specialties are described as owner depth and qualification/release evidence separate from runtime or deployment acceptance. Historical77 evidence remains historical."
+    },
+    {
+      "path": "docs/next-eight-godskills-20261004.md",
+      "disposition": "ACCEPT",
+      "reason": "Bounded scope, eight owner mappings, source-body/rights limits, non-blinded text application and preserved77/activation/R10 boundaries are explicit. In-progress independent qualification is not asserted as completed release or install acceptance."
+    }
+  ],
+  "issues": [],
+  "verification": {
+    "packValidation": {
+      "status": "verified-content",
+      "skillCount": 85,
+      "releaseId": "a8e10fe8c34687e08fabeb334ee623ffd7951c745cfe2adbf765eeb1955320cb"
+    },
+    "offlineTests": {
+      "command": "node --test tests/next-eight-discovery.test.mjs tests/conditional-method-regression.test.mjs tests/conditional-study-synthesis-methods.test.mjs tests/universal-wave29-arcadia-audio-state-cue.test.mjs tests/educational-discovery-revealed-v2.test.mjs tests/quality-evaluation-harness.test.mjs",
+      "pass": 176,
+      "fail": 0,
+      "skipped": 0,
+      "durationMs": 12462.4393
+    },
+    "historicalFixture": {
+      "fixtureSha256": "bf90582e8a23a3d50a6997cfba5f97d022f4619024f8459e364423f269e10eca",
+      "baselineSha256": "bf90582e8a23a3d50a6997cfba5f97d022f4619024f8459e364423f269e10eca",
+      "exactBaselineBytes": true,
+      "historicalCount": 77,
+      "currentCount": 85,
+      "changedHistoricalRecords": []
+    },
+    "productionChanges": "Read-only git diff/status checks found no production search, product CLI/library or quality-evaluation-harness edits.",
+    "finalInputHashCheck": {
+      "checkedAtUtc": "2026-10-05T04:31:18.900Z",
+      "status": "unchanged",
+      "inputFiles": 9
+    }
+  },
+  "limits": [
+    "Reviewed the exact nine inputs fully, with the large historical fixture parsed as data and byte-/record-compared, rather than dumping unrelated catalog text.",
+    "The helper's existing dispatch barrier was inspected as supporting context; no new helper or harness was created or modified. Offline harness tests used synthetic subprocess/VM fixtures, not real models/providers or acquired source execution.",
+    "176 focused tests were independently run. Parent's reported full-suite1670/0/2,257 preserved payloads and284-member .NET ZIP check were not independently rerun in this bounded review.",
+    "Accepts these compatibility repairs and instruction/package assertions, not production domain behavior, superiority, independent release/install acceptance or quarry terminal outcomes."
+  ],
+  "sealedAtUtc": "2026-10-05T04:31:18.900Z"
+}
+

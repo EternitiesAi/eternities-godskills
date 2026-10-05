@@ -1,0 +1,17 @@
+{
+  "id": "pricing-and-packaging-experimentation",
+  "category": "business",
+  "summary": "Design price offers, charging units and package tiers; run pricing experiments and compare eligible pricing cohorts, contribution margin, and renewal effects.",
+  "triggers": ["pricing model and value unit selection", "price tier and package redesign experiments", "pricing experiments with eligible offer cohorts", "usage overage and contribution margin", "discount expiry and renewal pricing rollout"],
+  "antiTriggers": ["prospect qualification or account scoring for buying intent", "per-deal discount approval", "positioning or marketing copy alone", "regulated financial advice", "optimal price from unsupported benchmarks", "change customer charges without authority"],
+  "taskTypes": ["plan", "create", "build", "verify"],
+  "specializes": "eternities-beacon",
+  "related": ["eternities-prometheus", "user-research-and-usability-study", "venture-falsification-and-planning", "cashflow-forecast-scenario-integrity"],
+  "resources": ["references/methods.md"],
+  "maturity": "instruction-reviewed",
+  "provenance": [
+    {"kind":"pattern-reference","source":"alirezarezvani/claude-skills@19392f7a08264ed00486a251f5b2098321771f94:commercial/skills/pricing-strategist/SKILL.md","note":"Full frozen body SHA-256 e70273dee7d1d1c65bbf0f993b0a8790e424e7efa08edaa2251d69178bf67b64. Charging-unit fit, segmented customer evidence, and survey-as-direction concepts informed fresh writing. Named scripts, mandatory three tiers, numerical fit rules, source statistical claims and sample minimums were not adopted or independently verified. Specific test prices are allowed as bounded proposals. Root MIT signal observed, not legal clearance."},
+    {"kind":"pattern-reference","source":"alirezarezvani/claude-skills@19392f7a08264ed00486a251f5b2098321771f94:commercial/skills/pricing-strategist/references/packaging_anti_patterns.md","note":"Full frozen body SHA-256 9c4b193521e2a5f857c340294adae592e1a83f87077b9cb7378258ede999ea49. Bill transparency, upgrade rationale, and cost-to-serve exposure informed independent methods. Feature-count value proxies, price ratios, automatic loss-leader limits, tier-mix priors, uplift statistics, and universal enterprise price anchors were rejected; empirical assertions remain unverified. Root MIT signal observed, not legal clearance."},
+    {"kind":"authoring","source":"product/skills/pricing-and-packaging-experimentation/","note":"Original causal-comparison, contribution, renewal, implementation-check, and rollout procedures. No source text, templates, code, or persona copied. The method does not establish optimal prices, statistical guarantees, or commercial outcomes."}
+  ]
+}

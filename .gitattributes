@@ -5,3 +5,5 @@ artifacts/catalog801-continuation-20260922-c/admission-refusals/*.json -text
 artifacts/catalog801-continuation-20260922-c/receipts/*.json -text
 artifacts/catalog801-continuation-20260922-c/diagnostic-retry.json -text
 artifacts/sprint-20261002/conditional-method-full-suite-v1.tap -text
+# Immutable next-eight receipts retain their original line endings and EOF.
+docs/next-eight-20261004/* -text whitespace=-blank-at-eof,cr-at-eol

@@ -1,0 +1,515 @@
+{
+  "schema": "next-eight-parent-release-acceptance-v1",
+  "status": "accepted-instruction-and-package-candidate-not-yet-installed",
+  "releaseId": "add50d29355b55df1b4f33ac63bff3fe86dfc06433653e67989398f68ec66cb5",
+  "skillCount": 85,
+  "newSkills": [
+    "accessibility-audit-and-remediation",
+    "service-observability-and-slo-design",
+    "schema-migration-and-backfill-safety",
+    "dependency-supply-chain-integrity",
+    "procedural-world-generation-and-validation",
+    "operating-cadence-and-decision-accountability",
+    "pricing-and-packaging-experimentation",
+    "narrative-structure-and-revision"
+  ],
+  "reviewRecords": [
+    {
+      "path": "docs/next-eight-20261004/review-a-v1.json",
+      "sha256": "54aff97f367fb09ffdccd1f37cd759555901d3ea3557f97da6a7b9f041729181",
+      "outcome": "READY_INSTRUCTION",
+      "inputFiles": [
+        {
+          "path": "product/skills/accessibility-audit-and-remediation/SKILL.md",
+          "sha256": "01bf60db9e2da9a7f1d36505d9fa60f9b925217ba362a522a4093c87dd5e73e9"
+        },
+        {
+          "path": "product/skills/accessibility-audit-and-remediation/skill.json",
+          "sha256": "34832196f4d2fe6e0269d89af9213a46bc8cd4717712c525a39e48a1777902f4"
+        },
+        {
+          "path": "product/skills/accessibility-audit-and-remediation/references/methods.md",
+          "sha256": "71d0f6cc2dfb5f0ff2d2f7f811c799ae6a3379d0b2673e2d2446d5f0685abafa"
+        },
+        {
+          "path": "product/skills/eternities-muse/SKILL.md",
+          "sha256": "838da70f041be41d0d28fa9e735241c303240b4355f1770dba5b7b7998afc05b"
+        },
+        {
+          "path": "product/skills/eternities-muse/skill.json",
+          "sha256": "640b33587d3f648552be317b1f436e1ce26ccb7a78c40bed507c33d7dd795a2a"
+        },
+        {
+          "path": "product/skills/eternities-muse/references/methods.md",
+          "sha256": "44cdaae8e34b83f69c8253f1cb61b4ed3c1af5548e58ef59d4f7e28df7e46b89"
+        },
+        {
+          "path": "product/skills/service-observability-and-slo-design/SKILL.md",
+          "sha256": "6de3cf2118becf3082c2364dc60eded63a0b17bc5dabf37c42535b01c5c7a95b"
+        },
+        {
+          "path": "product/skills/service-observability-and-slo-design/skill.json",
+          "sha256": "6ce505c93b5b8d803d1cabf8438942952fe3d9a65cb6e7134578c1f2b0736b10"
+        },
+        {
+          "path": "product/skills/service-observability-and-slo-design/references/methods.md",
+          "sha256": "f184dbde00a72f80be35c5fbb3e9184f125fc4ada4facc9f1d8e15b0c655f543"
+        },
+        {
+          "path": "product/skills/eternities-daedalus/SKILL.md",
+          "sha256": "9c3271351a5d8234098a001fa079236ec9c8ea568603cacab3fa5f05e9ee0d23"
+        },
+        {
+          "path": "product/skills/eternities-daedalus/skill.json",
+          "sha256": "a627727d097481928f009b478527f09d6c44f0c65a7afd3f15f7c1603fb1c1d7"
+        },
+        {
+          "path": "product/skills/eternities-daedalus/references/methods.md",
+          "sha256": "deec76d5357d3f5fb3758c0bd9c956d1638b1736d9f20e2dbf53fe6da618abbc"
+        },
+        {
+          "path": "product/skills/schema-migration-and-backfill-safety/SKILL.md",
+          "sha256": "6fad6670b742088afd1d4f4b3b7d5cc4715f18f235673e71f8c97c969c4fca65"
+        },
+        {
+          "path": "product/skills/schema-migration-and-backfill-safety/skill.json",
+          "sha256": "bf45aeeffa8ea55e83506b45f9ac06f19d0e078bfbf8a7fdab6549f1247565bb"
+        },
+        {
+          "path": "product/skills/schema-migration-and-backfill-safety/references/methods.md",
+          "sha256": "447c04e85675287f4e04471121120a8e29a40b3bbf302d4090ae56253341ae40"
+        },
+        {
+          "path": "product/skills/eternities-atlas/SKILL.md",
+          "sha256": "46b06bdd11e52ca6288b32bd720a77715035b5e77a2b52ba1b986a071df18700"
+        },
+        {
+          "path": "product/skills/eternities-atlas/skill.json",
+          "sha256": "c270415abbe6769fdc5ce7362c5569735ba907bfffb5a2f0da304a1e839de77d"
+        },
+        {
+          "path": "product/skills/eternities-atlas/references/methods.md",
+          "sha256": "1a6fa9ab8a21ce37de2c9dd909f4156889510faf08292a583fe577a7fdb79d14"
+        },
+        {
+          "path": "product/skills/dependency-supply-chain-integrity/SKILL.md",
+          "sha256": "ba4807f2bdb4ec52eb9e2e96a669fab6c82e6b376afe5aa353fa6aa122cf121f"
+        },
+        {
+          "path": "product/skills/dependency-supply-chain-integrity/skill.json",
+          "sha256": "4c4fba9b868f0da8a0fec249d512d2c0e981151d342f2a48a198a5f1463a00f9"
+        },
+        {
+          "path": "product/skills/dependency-supply-chain-integrity/references/methods.md",
+          "sha256": "e47b643b7d5031474ff1329500de5de4217ab9b80bad84594e857096b255e4f4"
+        },
+        {
+          "path": "product/skills/eternities-aegis/SKILL.md",
+          "sha256": "49c1d4bf1d6b21794a8dd634679c0268ae99daa967515ee667d3e40788f5749b"
+        },
+        {
+          "path": "product/skills/eternities-aegis/skill.json",
+          "sha256": "8d703ca763191e5b9840000fc61e0c6619fdd66f9dc91624f96da0edc2e8c459"
+        },
+        {
+          "path": "product/skills/eternities-aegis/references/methods.md",
+          "sha256": "73d0f3b1f910f9a5ae2dbdf213a7d487e7ec23eb62718cfbe86bad8def566bd4"
+        }
+      ]
+    },
+    {
+      "path": "docs/next-eight-20261004/review-b-v2.json",
+      "sha256": "a112bd7ae77200c38a679fff5de7f0755826a29b554f30b74f1a6e99c45fdfc6",
+      "outcome": "READY_INSTRUCTION",
+      "inputFiles": [
+        {
+          "path": "product/skills/procedural-world-generation-and-validation/SKILL.md",
+          "sha256": "1da065a061c15a19112eadce6efc5a018be76a8663c2280ae946e14a30c55da3"
+        },
+        {
+          "path": "product/skills/procedural-world-generation-and-validation/skill.json",
+          "sha256": "d833d6b1a067112f8d98f21f2ae73af530bfab3b3978839fc1f0bfd6ffd7a815"
+        },
+        {
+          "path": "product/skills/procedural-world-generation-and-validation/references/methods.md",
+          "sha256": "0c177b8ff767044ed412992becb1c78e908efb28b33d2ca7d45a759858381725"
+        },
+        {
+          "path": "product/skills/eternities-arcadia/SKILL.md",
+          "sha256": "2cbfec7e1e8fbc6e3d10321336224176ee5950d7895ac281d7849947c94c61c1"
+        },
+        {
+          "path": "product/skills/eternities-arcadia/references/methods.md",
+          "sha256": "57853439f2dbc6173e2b627b3d1cdd982c746f8376e86746b2745138b696dfc3"
+        },
+        {
+          "path": "product/skills/operating-cadence-and-decision-accountability/SKILL.md",
+          "sha256": "a03d89234106b30da8e99ffe6e738f58408e03727d2909431a119aca6b5c56c1"
+        },
+        {
+          "path": "product/skills/operating-cadence-and-decision-accountability/skill.json",
+          "sha256": "59cf6450920fce4e5fc1ef3f77d0055bc7d7dfda81a58d109646f553e3ca1792"
+        },
+        {
+          "path": "product/skills/operating-cadence-and-decision-accountability/references/methods.md",
+          "sha256": "32ddd3dfe2b8085e6ded14aa562e47761fb2d47f085154bcc9409ad49fff5f7d"
+        },
+        {
+          "path": "product/skills/eternities-prometheus/SKILL.md",
+          "sha256": "3bdb3c567c215cee7552d846abdcfd87024e6a5787e394d6526799f24c008ab6"
+        },
+        {
+          "path": "product/skills/eternities-prometheus/references/methods.md",
+          "sha256": "6150efa2ad78e5ebc93b9dbde21893984428a9d5ac109c85f1966d2b3a815954"
+        },
+        {
+          "path": "product/skills/pricing-and-packaging-experimentation/SKILL.md",
+          "sha256": "d8faaa71a46cf3e95f5e6e27f8990138c2b0abf97ef921f6fb5162549ce82418"
+        },
+        {
+          "path": "product/skills/pricing-and-packaging-experimentation/skill.json",
+          "sha256": "ca11c48c8c80bb8ace9b0df7e8e49d553d2dc9a089ac9991407e08342eade0d7"
+        },
+        {
+          "path": "product/skills/pricing-and-packaging-experimentation/references/methods.md",
+          "sha256": "7d32ccdbf5daef4c2c04b871d7fee1ea47e9e9c4247953085bb5d6aaf98cc144"
+        },
+        {
+          "path": "product/skills/eternities-beacon/SKILL.md",
+          "sha256": "381ae1f0ffee855b14c8c2bda226bb57aa9147be1e7f9a68f94b231fb869a030"
+        },
+        {
+          "path": "product/skills/eternities-beacon/references/methods.md",
+          "sha256": "efe539cfe35bf9703869d43cdaddedd2b29edb14c72525a5c9645fcf2a0eb2ed"
+        },
+        {
+          "path": "product/skills/narrative-structure-and-revision/SKILL.md",
+          "sha256": "78f2055cd08ca31fccdd779865267d939ba7763b1402e0133cd0ddb1a3d203ba"
+        },
+        {
+          "path": "product/skills/narrative-structure-and-revision/skill.json",
+          "sha256": "f83a4ebcde567544f6f961283c2fc9b8cb736363f256c386ff875b33d002694d"
+        },
+        {
+          "path": "product/skills/narrative-structure-and-revision/references/methods.md",
+          "sha256": "c3b81b2943fe88c72d8d821fc1037209f288c5d9ba2ac1fbf833414c5602567d"
+        },
+        {
+          "path": "product/skills/eternities-logos/SKILL.md",
+          "sha256": "f5c84a715a574c350c06b8dc6ee485e43846c2cabd12f39e94cc8ae8cf07b5ba"
+        },
+        {
+          "path": "product/skills/eternities-logos/references/methods.md",
+          "sha256": "a79d6f724763afab227f6d9d347b2dad51031eefa1303284466df2eda8492ce3"
+        }
+      ]
+    },
+    {
+      "path": "docs/next-eight-20261004/parent-tests-review-v1.json",
+      "sha256": "9d52ed5f2e5c58671c43814edc4974cd34392ab56c3f545260976510fa941c97",
+      "outcome": "READY_INSTRUCTION",
+      "inputFiles": [
+        {
+          "path": "tests/next-eight-discovery.test.mjs",
+          "sha256": "529767c813c4dcdf72ca1525f53f66ffcfb87f844675be0191ff2811724d308b"
+        },
+        {
+          "path": "tests/conditional-method-regression.test.mjs",
+          "sha256": "6a90b929930bcbd824a01737b2db6958385c32f59cae5af3db24e293fb94f5cf"
+        },
+        {
+          "path": "tests/conditional-study-synthesis-methods.test.mjs",
+          "sha256": "9aa28d068a7282ab131744bd27b9b81e6b7edfdf27d19b231ba064ac00578eb5"
+        },
+        {
+          "path": "tests/universal-wave29-arcadia-audio-state-cue.test.mjs",
+          "sha256": "367818144ccb049cacb9900c72ef1e0a63610cef666fa95357836915f8ceb9a2"
+        },
+        {
+          "path": "tests/educational-discovery-revealed-v2.test.mjs",
+          "sha256": "7dfffbb5b185d6be21bc10e8a5bf981ecc60683a3e35325c69530f212e5698de"
+        },
+        {
+          "path": "tests/quality-evaluation-harness.test.mjs",
+          "sha256": "67571ca61b736649a5560499fcfde4f1041b1402bce9667787e950758d322e49"
+        },
+        {
+          "path": "tests/fixtures/catalog-before-next-eight-20261004.json",
+          "sha256": "bf90582e8a23a3d50a6997cfba5f97d022f4619024f8459e364423f269e10eca"
+        },
+        {
+          "path": "README.md",
+          "sha256": "7ed2d6abb1985546d85321848460d17cd9b28ff213cb957bdd9993ce60d9d00b"
+        },
+        {
+          "path": "docs/next-eight-godskills-20261004.md",
+          "sha256": "ae47473e16b8a3869f70eaebcea1854d2508de19d51a07dece0f3738d15c2961"
+        }
+      ]
+    }
+  ],
+  "consumingCases": [
+    {
+      "skillId": "accessibility-audit-and-remediation",
+      "outcome": "parent-accepted-text-application",
+      "checks": [
+        {
+          "requirement": "native actionable control and keyboard behavior",
+          "result": "satisfied",
+          "rationale": "Native Pay button and one submit path; Enter/Space and duplicate submission behavior specified."
+        },
+        {
+          "requirement": "initial and contained focus plus safe fallback restoration when trigger disappears",
+          "result": "satisfied",
+          "rationale": "Focus enters and remains in active modal; surviving summary or meaningful control replaces deleted trigger."
+        },
+        {
+          "requirement": "associated field error and non-color-only status with nonduplicated announcement",
+          "result": "satisfied",
+          "rationale": "Persistent label, associated invalid/error text, non-color status and stable announcement region; duplicate announcements explicitly tested."
+        },
+        {
+          "requirement": "no claimed observed assistive-technology pass",
+          "result": "satisfied",
+          "rationale": "All browser and assistive-technology checks remain unperformed; no conformance/pass claimed."
+        }
+      ]
+    },
+    {
+      "skillId": "service-observability-and-slo-design",
+      "outcome": "parent-accepted-text-application",
+      "checks": [
+        {
+          "requirement": "9909/10010 about98.991%, not mean99%and90%",
+          "result": "satisfied",
+          "rationale": "Uses 9909/10010 =98.99100899%, not an unweighted average."
+        },
+        {
+          "requirement": "known allowed bad100.1, observed101, consumption about100.899%",
+          "result": "satisfied",
+          "rationale": "Known allowance100.10, observed bad101, remaining-0.90, consumption100.8991%; not downtime units."
+        },
+        {
+          "requirement": "missing hour prevents full-day compliance claim",
+          "result": "satisfied",
+          "rationale": "Missing hour prevents daily compliance/budget claim; independent eligible count would bound outcomes."
+        },
+        {
+          "requirement": "burn/low-volume/missing-data behavior and owner action explicit",
+          "result": "satisfied",
+          "rationale": "Separate telemetry-owner gap alert and service-owner recent/sustained budget alert; sparse/zero traffic and recovery tests; no deployment."
+        }
+      ]
+    },
+    {
+      "skillId": "schema-migration-and-backfill-safety",
+      "outcome": "parent-accepted-text-application",
+      "checks": [
+        {
+          "requirement": "mixed-version compatibility and source-of-truth explicit",
+          "result": "satisfied",
+          "rationale": "display_name remains authoritative; topology and future old-writer synchronization precede target-only reads."
+        },
+        {
+          "requirement": "conditional version check or equivalent safe concurrency mechanism retries changed rows",
+          "result": "satisfied",
+          "rationale": "Atomic source-version7 condition rejects writer-version8 race; reread/recompute bounded retry; null-only update explicitly insufficient."
+        },
+        {
+          "requirement": "durable idempotent checkpoint plus failed-row reconciliation",
+          "result": "satisfied",
+          "rationale": "Committed stable ranges, transformation identity, conflict/invalid ledger and uncertain commit reconciliation; late inserts/deletes accounted."
+        },
+        {
+          "requirement": "cutover validates ongoing writes and contraction separated from reversible rollback",
+          "result": "satisfied",
+          "rationale": "Cutover requires continuing write synchronization and semantic coverage; later contraction distinct from reversible reversion and data recovery."
+        }
+      ]
+    },
+    {
+      "skillId": "dependency-supply-chain-integrity",
+      "outcome": "parent-accepted-text-application",
+      "checks": [
+        {
+          "requirement": "inventory differences scoped by artifact/transitive/platform semantics before conclusions",
+          "result": "satisfied",
+          "rationale": "101/120 mapping is conditional on exact ecosystem/version/platform identities; OS/base/vendored/plugin roles may explain differences."
+        },
+        {
+          "requirement": "signature not proof of safe content or build provenance",
+          "result": "satisfied",
+          "rationale": "Image subject/signer evidence is separate from benignness, builder identity/materials and reproducibility."
+        },
+        {
+          "requirement": "missing19 identities and provenance unresolved not clean",
+          "result": "satisfied",
+          "rationale": "19 unmatched identities, parser coverage, provenance and unavailable advisories remain explicit gaps, not clean status."
+        },
+        {
+          "requirement": "safe exact resolution/hash/install-hook/build-path investigation",
+          "result": "satisfied",
+          "rationale": "Bounded supplied/local origin/digest/lock/build record investigation; no package fetch, hook execution or release approval."
+        }
+      ]
+    },
+    {
+      "skillId": "procedural-world-generation-and-validation",
+      "outcome": "parent-accepted-text-application",
+      "checks": [
+        {
+          "requirement": "versioned seed plus coordinate-derived random streams/order invariance",
+          "result": "satisfied",
+          "rationale": "Versioned structured seed/region/purpose streams, canonical edges/corners and ordering prevent load-order placement drift."
+        },
+        {
+          "requirement": "global-coordinate seam/negative-coordinate cases",
+          "result": "satisfied",
+          "rationale": "Explicit floor decomposition with L16 fixtures -17,-16,-1,0,15,16; signed boundaries, inverse round trips, shared corners and runtime conventions."
+        },
+        {
+          "requirement": "state-aware key-door solvability rather than plain connectivity",
+          "result": "satisfied",
+          "rationale": "Transition search includes key counts, consumption, opened doors and irreversible flags; self-locked key and competing-lock tests, witnesses/inconclusive results."
+        },
+        {
+          "requirement": "bounded retries/fallback and failure distribution, no claimed playtest",
+          "result": "satisfied",
+          "rationale": "Separate attempt/time/search caps and compatible validated fallback or failure; diversity/rejection cost retained; no engine/playtest claim."
+        }
+      ]
+    },
+    {
+      "skillId": "operating-cadence-and-decision-accountability",
+      "outcome": "parent-accepted-text-application",
+      "checks": [
+        {
+          "requirement": "backlog grows2/week; distinguish queue age and service capacity from headcount",
+          "result": "satisfied",
+          "rationale": "Eight arrivals minus six completions grows queue by2/week; headcount is not capacity and12/6 is not a stable-flow lead-time forecast."
+        },
+        {
+          "requirement": "bounded urgency/WIP policy and bottleneck evidence",
+          "result": "satisfied",
+          "rationale": "Original/stage age, blocked reasons, bounded provisional WIP, displacement and verified urgency policy identify actual bottleneck."
+        },
+        {
+          "requirement": "named decision rights/delegate limits plus exceptional escalation fallback",
+          "result": "satisfied",
+          "rationale": "Duty owner/alternate, business delegate envelope and founder-reserved decisions; absent authority means preauthorized work and existing escalation only."
+        },
+        {
+          "requirement": "measured pilot and no guaranteed productivity gain or mandatory meeting theater",
+          "result": "satisfied",
+          "rationale": "Comparable measured pilot with queue reconciliation, handling effort, rework/demand/staffing limits; no accounts/messages or gain guarantee."
+        }
+      ]
+    },
+    {
+      "skillId": "pricing-and-packaging-experimentation",
+      "outcome": "parent-accepted-text-application",
+      "checks": [
+        {
+          "requirement": "A revenue200 contribution60; B360 contribution72; pervisitor0.30vs0.36",
+          "result": "satisfied",
+          "rationale": "A revenue200/cost140/contribution60/visitor0.30; B360/288/72/0.36. Both contribution6/order; B margin percentage is lower."
+        },
+        {
+          "requirement": "confounded promotion/time, no causal winner or statistical-certainty claim",
+          "result": "satisfied",
+          "rationale": "Different weeks and B-only promotion confound comparisons; no causal winner, optimal price or statistical certainty."
+        },
+        {
+          "requirement": "value metric/tier hypothesis plus balanced eligible cohorts and margin/retention guardrails",
+          "result": "satisfied",
+          "rationale": "Candidate value unit and buyer-job tiers, complete bills/cost scenarios, concurrent persistent comparable eligible cohorts and contribution/refund/service guardrails."
+        },
+        {
+          "requirement": "explicit bounded rollout/renewal/discount authority, no auto publication",
+          "result": "satisfied",
+          "rationale": "Discount expiry, commitments and comparable renewal follow-up; bounded retain/revise/stop/rollout rules remain proposals with public prices unchanged."
+        }
+      ]
+    },
+    {
+      "skillId": "narrative-structure-and-revision",
+      "outcome": "parent-accepted-text-application",
+      "checks": [
+        {
+          "requirement": "actual compelling scene with causal choice/consequence not only a plan",
+          "result": "satisfied",
+          "rationale": "Literal scene uses spoon, boot, cold register and constrained action rather than substituting a planning checklist."
+        },
+        {
+          "requirement": "promise versus city conflict and fixed-tower/physical-destruction canon preserved",
+          "result": "satisfied",
+          "rationale": "Burning physically destroys records/breaks promise/saves city; refusal preserves name/loses city; tower stays fixed and no saving-both loophole."
+        },
+        {
+          "requirement": "two choices differ in consequences and record branch state",
+          "result": "satisfied",
+          "rationale": "Choice, archive, city, promise and witnessed knowledge recorded; incompatible later scenes forbidden and permanent divergence allowed."
+        },
+        {
+          "requirement": "revision criteria preserve mystery/voice without invented factual autobiography",
+          "result": "satisfied",
+          "rationale": "Revision preserves images, unequal silences, voice and withheld explanation; fictional drafting not personal-history or runtime/reader verdict."
+        }
+      ]
+    }
+  ],
+  "satisfiedChecks": 32,
+  "applications": 8,
+  "applicationLimits": "Non-blinded author/reviewer-context text applications. B initial selection accidentally exposed acceptance fields; disclosed, not blinded/held-out/raw-model superiority. No live domain validation.",
+  "fullSuite": {
+    "registered": 1672,
+    "passed": 1670,
+    "failed": 0,
+    "skipped": 2,
+    "skipScope": "existing Windows platform cases",
+    "logs": {
+      "full-suite-v1.log": "4b8be59a863ced52de7e2a47e8fb98dde4f9c944ebd9ffbea300e1c428332fc4",
+      "full-suite-v2.log": "cb70f46e25d81a32288903545bec783f001dac89d57d533059867d684df8075e",
+      "full-suite-v3.log": "fa06a9239b0b441ff49eae135db4c7fe460bfbee6e3607914655afccf8a8c2a6"
+    }
+  },
+  "independentFocusedTests": {
+    "passed": 176,
+    "failed": 0,
+    "skipped": 0,
+    "receipt": "parent-tests-review-v1.json"
+  },
+  "archive": {
+    "schema": "next-eight-secondary-archive-check-v1",
+    "releaseId": "add50d29355b55df1b4f33ac63bff3fe86dfc06433653e67989398f68ec66cb5",
+    "archiveSha256": "cce66800067186da8969aa42f3e771c135f100fcda5843e0db93095c3a63391e",
+    "members": 284,
+    "allMemberHashesExact": true,
+    "reader": "System.IO.Compression.ZipFile",
+    "extractedValidation": {
+      "status": "verified-content",
+      "releaseId": "add50d29355b55df1b4f33ac63bff3fe86dfc06433653e67989398f68ec66cb5",
+      "skillCount": 85
+    },
+    "queryIds": [
+      "procedural-world-generation-and-validation",
+      "accessibility-audit-and-remediation",
+      "eternities-muse"
+    ],
+    "noNeedAbstained": true,
+    "freshOS": false,
+    "nativeUiEnumeration": false,
+    "executedRollback": false,
+    "quarryApplication": false
+  },
+  "preservation": {
+    "priorPayloads": 257,
+    "oldNativeFiles": 226,
+    "protectedFiles": 3,
+    "quarryApplication": false
+  },
+  "parentReviewedDocuments": "README and release draft are reviewed here at pre-closeout hashes; later publication-only changes require separate closeout/deployment review.",
+  "sourceAccountingSha256": "b23cbfd5586a9079080fa362cafd723fc6bded366b88e922ce8faee09304eb6a",
+  "preregisteredCasesSha256": "2b147649de78d734dfd2145e2284e88abdb4e4a3ca97367519bfce8c6afa060f",
+  "limits": "Finite eight-skill extension. R10 actual49,514/163 remains unapplied; no general semantic-determinism, domain-runtime, native-UI or fresh-OS certification."
+}

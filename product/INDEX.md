@@ -31,6 +31,8 @@ For smaller bundled methods and their separate review/execution states, use the 
 - [customer-support-triage-and-resolution](skills/customer-support-triage-and-resolution/SKILL.md): Handle support issues through evidence-based triage, safe troubleshooting, truthful customer updates, focused escalation and explicit resolution states. Specialist of eternities-agora.
 - [eternities-agora](skills/eternities-agora/SKILL.md): Traceable prospect, account, service, proposal, and client-report artifacts from reconciled evidence.
 - [eternities-prometheus](skills/eternities-prometheus/SKILL.md): Route product-operations questions into evidence-led growth, analytics, customer insight, learning, planning, and delivery artifacts.
+- [operating-cadence-and-decision-accountability](skills/operating-cadence-and-decision-accountability/SKILL.md): Design operating rules for founder or executive approval queues, scoped delegation, effective capacity, work-in-progress limits, and accountable exceptions. Specialist of eternities-prometheus.
+- [pricing-and-packaging-experimentation](skills/pricing-and-packaging-experimentation/SKILL.md): Design price offers, charging units and package tiers; run pricing experiments and compare eligible pricing cohorts, contribution margin, and renewal effects. Specialist of eternities-beacon.
 - [structured-hiring-evaluation](skills/structured-hiring-evaluation/SKILL.md): Design role-specific hiring assessments, compare independent candidate evidence and diagnose dated recruiting funnels without proxy-based judgments. Specialist of eternities-prometheus.
 - [venture-falsification-and-planning](skills/venture-falsification-and-planning/SKILL.md): Turn a venture thesis into source-labeled assumptions, staged falsification experiments, resource bounds, kill criteria, and decision records. Specialist of eternities-prometheus.
 
@@ -42,10 +44,12 @@ For smaller bundled methods and their separate review/execution states, use the 
 - [formula-preserving-workbook-engineering](skills/formula-preserving-workbook-engineering/SKILL.md): Change spreadsheet packages while preserving formula lineage, names, links, calculation behavior, package structure, and rendered sheets. Specialist of eternities-daedalus.
 - [geospatial-coordinate-integrity](skills/geospatial-coordinate-integrity/SKILL.md): Identify horizontal and vertical reference meaning, transform coordinates, and verify map alignment, distance units, height comparability and spatial output integrity. Specialist of eternities-atlas.
 - [lazy-tabular-transformation-and-validation](skills/lazy-tabular-transformation-and-validation/SKILL.md): Build and validate lazy tabular plans with explicit schemas, invariants, inspected execution, bounded collection, and resource evidence. Specialist of eternities-atlas.
+- [schema-migration-and-backfill-safety](skills/schema-migration-and-backfill-safety/SKILL.md): Migrate database schemas and transform live rows across mixed app versions, with resumable backfills, concurrent-write protection and recovery checks. Specialist of eternities-atlas.
 - [terrain-watershed-analysis](skills/terrain-watershed-analysis/SKILL.md): Select elevation surfaces and verify terrain derivatives, hydrologic conditioning, stream thresholds, catchments and viewsheds with explicit unit and sensitivity evidence. Specialist of geospatial-coordinate-integrity.
 
 ## design
 
+- [accessibility-audit-and-remediation](skills/accessibility-audit-and-remediation/SKILL.md): Audit and repair complete interface journeys with keyboard, assistive-technology, focus, error recovery, adaptation and motion evidence. Specialist of eternities-muse.
 - [bounded-parametric-design-iteration](skills/bounded-parametric-design-iteration/SKILL.md): Improve an existing solved parametric design through isolated changes, solver-backed comparison, hard-constraint checks, and finite accept-or-rollback evidence. Specialist of eternities-forge.
 - [eternities-muse](skills/eternities-muse/SKILL.md): Direct visual forensics, interface direction, operational data views, motion, accessibility, and rendered acceptance through coherent evidence.
 - [imaginative-concept-development](skills/imaginative-concept-development/SKILL.md): Explore and develop distinct concept mechanisms under constraints, then select by declared criteria without confusing invention with fact.
@@ -71,6 +75,7 @@ For smaller bundled methods and their separate review/execution states, use the 
 - [native-mobile-interaction-testing](skills/native-mobile-interaction-testing/SKILL.md): Author and run version-aware React Native interaction tests with accessible queries, explicit async behavior, and clear device-evidence boundaries. Specialist of eternities-daedalus.
 - [robotics-test-ladder](skills/robotics-test-ladder/SKILL.md): Build a staged robotics verification ladder from deterministic unit and property checks through replay, simulation, HIL, and field evidence. Specialist of eternities-daedalus.
 - [semantic-implementation-diff](skills/semantic-implementation-diff/SKILL.md): Compare bounded implementations through normalized contracts, traces, state and effect observations, minimized divergences, and explicit unknowns. Specialist of eternities-daedalus.
+- [service-observability-and-slo-design](skills/service-observability-and-slo-design/SKILL.md): Design and implement event-correct reliability indicators, telemetry coverage, error budgets and actionable burn alerts. Specialist of eternities-daedalus.
 - [web-performance-optimization](skills/web-performance-optimization/SKILL.md): Reduce a reproducible web bottleneck through repeated baselines, causal isolation, one bounded change, and functional, visual, and variance checks. Specialist of eternities-daedalus.
 
 ## finance
@@ -81,6 +86,7 @@ For smaller bundled methods and their separate review/execution states, use the 
 ## games
 
 - [eternities-arcadia](skills/eternities-arcadia/SKILL.md): Connect game direction, runtime systems, player experience, accessibility, performance, and human release evidence.
+- [procedural-world-generation-and-validation](skills/procedural-world-generation-and-validation/SKILL.md): Build reproducible procedural worlds with chunk boundary contracts, state-aware progression checks, persistent overlays, and bounded generation recovery. Specialist of eternities-arcadia.
 
 ## legal
 
@@ -131,6 +137,7 @@ For smaller bundled methods and their separate review/execution states, use the 
 
 ## security
 
+- [dependency-supply-chain-integrity](skills/dependency-supply-chain-integrity/SKILL.md): Reconcile consumed dependency artifacts, lockfile drift, inventory coverage, provenance and exposure, then verify bounded repairs. Specialist of eternities-aegis.
 - [eternities-aegis](skills/eternities-aegis/SKILL.md): Evidence-linked security, trust-boundary, authority, workflow, and residual-risk decisions.
 
 ## social
@@ -142,4 +149,5 @@ For smaller bundled methods and their separate review/execution states, use the 
 
 - [docx-package-redline-and-render-verification](skills/docx-package-redline-and-render-verification/SKILL.md): Edit DOCX packages with minimal relationship-safe changes and verify review markup, package integrity, external targets, and rendered pagination. Specialist of eternities-logos.
 - [eternities-logos](skills/eternities-logos/SKILL.md): Create precise technical, editorial, documentation, reporting, narrative, extraction, and structural-review artifacts from supplied evidence.
+- [narrative-structure-and-revision](skills/narrative-structure-and-revision/SKILL.md): Write and revise fiction through particular desires, scene turns, voice and imagery, preserving canon, reader promise, and consequential interactive states. Specialist of eternities-logos.
 - [voice-style-calibration](skills/voice-style-calibration/SKILL.md): Infer and apply an evidence-based written voice across contexts while preserving meaning, attribution, and register distinctions. Specialist of eternities-logos.

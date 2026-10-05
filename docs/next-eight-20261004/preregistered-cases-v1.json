@@ -1,0 +1,145 @@
+{
+  "schema": "next-eight-forward-case-contract-v1",
+  "basis": "Frozen before authoring; expected checks are parent judgment, not supplied consumer instructions",
+  "skills": [
+    {
+      "id": "accessibility-audit-and-remediation",
+      "cohort": "a",
+      "owner": "eternities-muse",
+      "category": "design",
+      "gap": "Journey-level assistive-technology, focus restoration, dynamic errors and motion remediation with observed versus untested outcomes; more depth than Muse's broad visual route."
+    },
+    {
+      "id": "service-observability-and-slo-design",
+      "cohort": "a",
+      "owner": "eternities-daedalus",
+      "category": "engineering",
+      "gap": "Eligible-event denominators, missing telemetry, weighted aggregation, error budgets and actionable burn alerts; not a monitoring vendor template or incident recovery."
+    },
+    {
+      "id": "schema-migration-and-backfill-safety",
+      "cohort": "a",
+      "owner": "eternities-atlas",
+      "category": "data",
+      "gap": "Mixed-version writers, concurrent-update-safe resumable backfills, validation and irreversible contract transitions; deepens Atlas's staged-schema sketch."
+    },
+    {
+      "id": "dependency-supply-chain-integrity",
+      "cohort": "a",
+      "owner": "eternities-aegis",
+      "category": "security",
+      "gap": "Resolved artifacts versus declared dependencies, build/runtime inventory coverage, lockfile integrity and bounded provenance claims; not general source trust review."
+    },
+    {
+      "id": "procedural-world-generation-and-validation",
+      "cohort": "b",
+      "owner": "eternities-arcadia",
+      "category": "games",
+      "gap": "Deterministic versioned seeds, chunk-order/seam contracts, key-door reachability and bounded rejection sampling; not a general level-design checklist."
+    },
+    {
+      "id": "operating-cadence-and-decision-accountability",
+      "cohort": "b",
+      "owner": "eternities-prometheus",
+      "category": "business",
+      "gap": "Decision rights, queue age, effective capacity, WIP limits and exception ownership; not mandatory meetings or generic strategy."
+    },
+    {
+      "id": "pricing-and-packaging-experimentation",
+      "cohort": "b",
+      "owner": "eternities-beacon",
+      "category": "business",
+      "gap": "Value-unit/tier design, cohort-comparable commercial tests, contribution margin, renewal/discount implications and explicit rollout decisions; not a price oracle."
+    },
+    {
+      "id": "narrative-structure-and-revision",
+      "cohort": "b",
+      "owner": "eternities-logos",
+      "category": "writing",
+      "gap": "Causal scene turns, character choices, canon and branch-state consistency, revision preserving artistic intent; fiction and interactive craft distinct from factual reporting or voice calibration."
+    }
+  ],
+  "cases": [
+    {
+      "id": "accessibility-audit-and-remediation",
+      "request": "A supplied checkout dialog uses a div click handler for Pay, opens with focus behind the modal, closes by deleting its trigger, and displays an unassociated red-only card error after an async retry. Write the smallest actionable remediation and verification plan. No browser or screen reader was run.",
+      "acceptance": [
+        "native actionable control and keyboard behavior",
+        "initial and contained focus plus safe fallback restoration when trigger disappears",
+        "associated field error and non-color-only status with nonduplicated announcement",
+        "no claimed observed assistive-technology pass"
+      ]
+    },
+    {
+      "id": "service-observability-and-slo-design",
+      "request": "For a request-based 99% daily SLO, daytime has 10000 eligible requests with 9900 good, nighttime 10 eligible with 9 good. Another hour's counters are missing. Calculate the known-data ratio and budget, say what cannot be concluded, and propose an actionable alert without deploying it.",
+      "acceptance": [
+        "9909/10010 about98.991%, not mean99%and90%",
+        "known allowed bad100.1, observed101, consumption about100.899%",
+        "missing hour prevents full-day compliance claim",
+        "burn/low-volume/missing-data behavior and owner action explicit"
+      ]
+    },
+    {
+      "id": "schema-migration-and-backfill-safety",
+      "request": "An old app writes display_name while a new app reads normalized_name. A backfill reads row version7, a live writer updates it to8, then backfill writes its stale value. Half the table is done before interruption. Design the staged migration, restart and cutover; do not execute or drop anything.",
+      "acceptance": [
+        "mixed-version compatibility and source-of-truth explicit",
+        "conditional version check or equivalent safe concurrency mechanism retries changed rows",
+        "durable idempotent checkpoint plus failed-row reconciliation",
+        "cutover validates ongoing writes and contraction separated from reversible rollback"
+      ]
+    },
+    {
+      "id": "dependency-supply-chain-integrity",
+      "request": "The checked-in lockfile resolves101 components; a runtime image inventory has120 including19 not matched to it. A valid image signature exists but no builder provenance. Review release evidence and the next bounded checks, without fetching or executing packages.",
+      "acceptance": [
+        "inventory differences scoped by artifact/transitive/platform semantics before conclusions",
+        "signature not proof of safe content or build provenance",
+        "missing19 identities and provenance unresolved not clean",
+        "safe exact resolution/hash/install-hook/build-path investigation"
+      ]
+    },
+    {
+      "id": "procedural-world-generation-and-validation",
+      "request": "A seeded dungeon passes screenshots but chunk load order changes door positions, negative coordinate chunks have seams, and the key sometimes spawns behind its own locked door. Generation retries until valid with no cap. Specify a portable repair and test strategy; no engine run is available.",
+      "acceptance": [
+        "versioned seed plus coordinate-derived random streams/order invariance",
+        "global-coordinate seam/negative-coordinate cases",
+        "state-aware key-door solvability rather than plain connectivity",
+        "bounded retries/fallback and failure distribution, no claimed playtest"
+      ]
+    },
+    {
+      "id": "operating-cadence-and-decision-accountability",
+      "request": "A five-person company receives8 support escalations/week, closes6/week, has12 waiting items, and all exceptions await the founder who is away for three days. Sales claims everything is urgent. Design a lean operating change, decision rights and measurement; do not change accounts or message staff.",
+      "acceptance": [
+        "backlog grows2/week; distinguish queue age and service capacity from headcount",
+        "bounded urgency/WIP policy and bottleneck evidence",
+        "named decision rights/delegate limits plus exceptional escalation fallback",
+        "measured pilot and no guaranteed productivity gain or mandatory meeting theater"
+      ]
+    },
+    {
+      "id": "pricing-and-packaging-experimentation",
+      "request": "OfferA:200 eligible visitors,10 purchases at20 with14 variable cost/order. OfferB:200 eligible,12 purchases at30 with24 variable cost/order. Cohorts ran different weeks with a promotion only inB. Compare contribution, identify inference limits, and propose a fair packaging experiment; do not change public prices.",
+      "acceptance": [
+        "A revenue200 contribution60; B360 contribution72; pervisitor0.30vs0.36",
+        "confounded promotion/time, no causal winner or statistical-certainty claim",
+        "value metric/tier hypothesis plus balanced eligible cohorts and margin/retention guardrails",
+        "explicit bounded rollout/renewal/discount authority, no auto publication"
+      ]
+    },
+    {
+      "id": "narrative-structure-and-revision",
+      "request": "Write a short scene and two materially different choices: a lighthouse keeper promised never to erase a sailor's name; saving the city requires destroying the archive. Canon says the tower cannot move and names vanish only through physical destruction. Preserve the impossible choice, avoid exposition, and show how branch continuity would be checked.",
+      "acceptance": [
+        "actual compelling scene with causal choice/consequence not only a plan",
+        "promise versus city conflict and fixed-tower/physical-destruction canon preserved",
+        "two choices differ in consequences and record branch state",
+        "revision criteria preserve mystery/voice without invented factual autobiography"
+      ]
+    }
+  ],
+  "limits": "Non-blinded text applications, not raw-matched trials, human acceptance, live domain deployment or whole-quarry refinement"
+}

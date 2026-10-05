@@ -1,0 +1,23 @@
+{
+  "schema": "next-eight-secondary-archive-check-v1",
+  "releaseId": "add50d29355b55df1b4f33ac63bff3fe86dfc06433653e67989398f68ec66cb5",
+  "archiveSha256": "cce66800067186da8969aa42f3e771c135f100fcda5843e0db93095c3a63391e",
+  "members": 284,
+  "allMemberHashesExact": true,
+  "reader": "System.IO.Compression.ZipFile",
+  "extractedValidation": {
+    "status": "verified-content",
+    "releaseId": "add50d29355b55df1b4f33ac63bff3fe86dfc06433653e67989398f68ec66cb5",
+    "skillCount": 85
+  },
+  "queryIds": [
+    "procedural-world-generation-and-validation",
+    "accessibility-audit-and-remediation",
+    "eternities-muse"
+  ],
+  "noNeedAbstained": true,
+  "freshOS": false,
+  "nativeUiEnumeration": false,
+  "executedRollback": false,
+  "quarryApplication": false
+}

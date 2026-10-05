@@ -1,0 +1,16 @@
+{
+  "id": "schema-migration-and-backfill-safety",
+  "category": "data",
+  "summary": "Migrate database schemas and transform live rows across mixed app versions, with resumable backfills, concurrent-write protection and recovery checks.",
+  "triggers": ["database migration across mixed app versions", "compatible application readers and writers across schema changes", "transforming database rows during live schema changes", "resumable data backfill", "concurrent writer backfill conflict", "expand contract schema transition", "migration recovery and contraction validation"],
+  "antiTriggers": ["ordinary query tuning", "schema sketch without migration", "backup administration alone", "database engine upgrade without schema transition"],
+  "taskTypes": ["plan", "build", "verify", "recover"],
+  "specializes": "eternities-atlas",
+  "related": ["eternities-daedalus", "release-script-safety", "bounded-verified-object-ingestion"],
+  "resources": ["references/methods.md"],
+  "maturity": "instruction-reviewed",
+  "provenance": [
+    {"kind":"pattern-reference","source":"sickn33/agentic-awesome-skills@10cc257b2409cc8a2f3724d02f40353661f7c1be:skills/database-migration/SKILL.md","note":"Exact body SHA-256 9a1d59484253caaba61d67e2c62c55f1fd9c30ed99bf185b77100a78cb3a41c0. Staged additive transitions, compatibility and failure tests informed original prose. Unbounded table updates, unsafe null-only backfills, destructive down methods, lossy inverses, table recreation as recovery and cross-engine transaction assumptions were rejected. Root MIT and CC BY 4.0 content notices observed, not source-specific legal clearance; source code and templates were not copied."},
+    {"kind":"authoring","source":"product/skills/schema-migration-and-backfill-safety/","note":"Original specialist procedure extends Atlas staged-schema guidance with writer topology, atomic conflict checks, committed range progress, late-write reconciliation and contraction gates. Product maturity does not prove live migration safety or lossless rollback."}
+  ]
+}

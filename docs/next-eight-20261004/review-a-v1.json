@@ -1,0 +1,307 @@
+{
+  "schema": "next-eight-independent-instruction-review-v1",
+  "cohort": "a",
+  "reviewerCohort": "b",
+  "outcome": "READY_INSTRUCTION",
+  "reviewType": "Independent counterpart instruction review; not independent runtime qualification",
+  "candidateReleaseId": "a8e10fe8c34687e08fabeb334ee623ffd7951c745cfe2adbf765eeb1955320cb",
+  "inputFiles": [
+    {
+      "path": "product/skills/accessibility-audit-and-remediation/SKILL.md",
+      "sha256": "01bf60db9e2da9a7f1d36505d9fa60f9b925217ba362a522a4093c87dd5e73e9"
+    },
+    {
+      "path": "product/skills/accessibility-audit-and-remediation/skill.json",
+      "sha256": "34832196f4d2fe6e0269d89af9213a46bc8cd4717712c525a39e48a1777902f4"
+    },
+    {
+      "path": "product/skills/accessibility-audit-and-remediation/references/methods.md",
+      "sha256": "71d0f6cc2dfb5f0ff2d2f7f811c799ae6a3379d0b2673e2d2446d5f0685abafa"
+    },
+    {
+      "path": "product/skills/eternities-muse/SKILL.md",
+      "sha256": "838da70f041be41d0d28fa9e735241c303240b4355f1770dba5b7b7998afc05b"
+    },
+    {
+      "path": "product/skills/eternities-muse/skill.json",
+      "sha256": "640b33587d3f648552be317b1f436e1ce26ccb7a78c40bed507c33d7dd795a2a"
+    },
+    {
+      "path": "product/skills/eternities-muse/references/methods.md",
+      "sha256": "44cdaae8e34b83f69c8253f1cb61b4ed3c1af5548e58ef59d4f7e28df7e46b89"
+    },
+    {
+      "path": "product/skills/service-observability-and-slo-design/SKILL.md",
+      "sha256": "6de3cf2118becf3082c2364dc60eded63a0b17bc5dabf37c42535b01c5c7a95b"
+    },
+    {
+      "path": "product/skills/service-observability-and-slo-design/skill.json",
+      "sha256": "6ce505c93b5b8d803d1cabf8438942952fe3d9a65cb6e7134578c1f2b0736b10"
+    },
+    {
+      "path": "product/skills/service-observability-and-slo-design/references/methods.md",
+      "sha256": "f184dbde00a72f80be35c5fbb3e9184f125fc4ada4facc9f1d8e15b0c655f543"
+    },
+    {
+      "path": "product/skills/eternities-daedalus/SKILL.md",
+      "sha256": "9c3271351a5d8234098a001fa079236ec9c8ea568603cacab3fa5f05e9ee0d23"
+    },
+    {
+      "path": "product/skills/eternities-daedalus/skill.json",
+      "sha256": "a627727d097481928f009b478527f09d6c44f0c65a7afd3f15f7c1603fb1c1d7"
+    },
+    {
+      "path": "product/skills/eternities-daedalus/references/methods.md",
+      "sha256": "deec76d5357d3f5fb3758c0bd9c956d1638b1736d9f20e2dbf53fe6da618abbc"
+    },
+    {
+      "path": "product/skills/schema-migration-and-backfill-safety/SKILL.md",
+      "sha256": "6fad6670b742088afd1d4f4b3b7d5cc4715f18f235673e71f8c97c969c4fca65"
+    },
+    {
+      "path": "product/skills/schema-migration-and-backfill-safety/skill.json",
+      "sha256": "bf45aeeffa8ea55e83506b45f9ac06f19d0e078bfbf8a7fdab6549f1247565bb"
+    },
+    {
+      "path": "product/skills/schema-migration-and-backfill-safety/references/methods.md",
+      "sha256": "447c04e85675287f4e04471121120a8e29a40b3bbf302d4090ae56253341ae40"
+    },
+    {
+      "path": "product/skills/eternities-atlas/SKILL.md",
+      "sha256": "46b06bdd11e52ca6288b32bd720a77715035b5e77a2b52ba1b986a071df18700"
+    },
+    {
+      "path": "product/skills/eternities-atlas/skill.json",
+      "sha256": "c270415abbe6769fdc5ce7362c5569735ba907bfffb5a2f0da304a1e839de77d"
+    },
+    {
+      "path": "product/skills/eternities-atlas/references/methods.md",
+      "sha256": "1a6fa9ab8a21ce37de2c9dd909f4156889510faf08292a583fe577a7fdb79d14"
+    },
+    {
+      "path": "product/skills/dependency-supply-chain-integrity/SKILL.md",
+      "sha256": "ba4807f2bdb4ec52eb9e2e96a669fab6c82e6b376afe5aa353fa6aa122cf121f"
+    },
+    {
+      "path": "product/skills/dependency-supply-chain-integrity/skill.json",
+      "sha256": "4c4fba9b868f0da8a0fec249d512d2c0e981151d342f2a48a198a5f1463a00f9"
+    },
+    {
+      "path": "product/skills/dependency-supply-chain-integrity/references/methods.md",
+      "sha256": "e47b643b7d5031474ff1329500de5de4217ab9b80bad84594e857096b255e4f4"
+    },
+    {
+      "path": "product/skills/eternities-aegis/SKILL.md",
+      "sha256": "49c1d4bf1d6b21794a8dd634679c0268ae99daa967515ee667d3e40788f5749b"
+    },
+    {
+      "path": "product/skills/eternities-aegis/skill.json",
+      "sha256": "8d703ca763191e5b9840000fc61e0c6619fdd66f9dc91624f96da0edc2e8c459"
+    },
+    {
+      "path": "product/skills/eternities-aegis/references/methods.md",
+      "sha256": "73d0f3b1f910f9a5ae2dbdf213a7d487e7ec23eb62718cfbe86bad8def566bd4"
+    }
+  ],
+  "skillFindings": [
+    {
+      "skill": "accessibility-audit-and-remediation",
+      "outcome": "READY_INSTRUCTION",
+      "owner": "eternities-muse",
+      "distinction": "Muse covers broad visual/accessibility and async-state direction. This specialist owns complete journeys, separate source/scan/keyboard/actual-AT evidence, composite-widget navigation, removed-trigger successors and remediation closure.",
+      "mechanics": "Active-only modal containment; meaningful focus successor; cancelled/late-response checks; persistent labels/help/error relationships, stable repeated announcements, correction/resubmission and adaptation-specific regression.",
+      "failureHandling": "Untested announcements stay untested; unreproduced scan findings stay candidates; new traps or blocked recovery require revised repairs.",
+      "tradeoffs": "Preserves design and orientation rather than eliminating motion indiscriminately; selects representative shared/unique transitions and high-impact task barriers without equating issue counts to coverage.",
+      "guarantees": "No automatic conformance/legal certification, universal numeric rules or real-AT claims from DOM assertions.",
+      "issues": []
+    },
+    {
+      "skill": "service-observability-and-slo-design",
+      "outcome": "READY_INSTRUCTION",
+      "owner": "eternities-daedalus",
+      "distinction": "Daedalus has general telemetry/integration and expected-event ledger methods. This specialist owns eligible logical events versus attempts, event-weighted aggregation, coverage uncertainty, request-budget units and actionable burn behavior.",
+      "mechanics": "Summed compatible counters, reset treatment, compatible histogram aggregation, independently known unknown-outcome bounds, undefined zero-traffic ratios, zero-allowance 100% handling and recent/sustained alert windows.",
+      "failureHandling": "Collector/query failure distinct from service failure; incomplete windows cannot certify a whole period; sparse traffic, resets, gaps, late correction and recovery are explicit test cases.",
+      "tradeoffs": "A small outcome-focused indicator set and bounded cardinality preserve operability; alert windows/thresholds follow traffic, budget consumption and response capacity rather than a universal recipe.",
+      "guarantees": "Arithmetic is correctly scoped to one complete population; no event-to-downtime conversion, automatic release authority or live reliability claim from fixtures.",
+      "issues": []
+    },
+    {
+      "skill": "schema-migration-and-backfill-safety",
+      "outcome": "READY_INSTRUCTION",
+      "owner": "eternities-atlas",
+      "distinction": "Atlas sketches staged schemas. This specialist adds mixed reader/writer topology, source-version and target-state atomic conflict checks, future old-writer synchronization, committed range progress and phase-specific recovery.",
+      "mechanics": "Expand/compatible writers/backfill/read switch/contract; reread or bounded reconciliation on conflicts; CDC position/order/delete/lag obligations; stable ranges plus late insert/conflict ledger; semantic and count validation.",
+      "failureHandling": "Unknown commits are reconciled before replay; checkpoint exhaustion cannot close unresolved/late work; limits stop affected batches; lossy contraction retains originals and separate reversion/restore boundaries.",
+      "tradeoffs": "Bounded batch rows/time, short transactions and measured lock/lag throttling trade speed for live capacity; a coordinated pause remains an honest alternative to unsupported zero downtime.",
+      "guarantees": "Neither null-only updates nor one successful CAS solve future writes; no generic transactional-DDL, lossless down or table-copy restore guarantee.",
+      "issues": []
+    },
+    {
+      "skill": "dependency-supply-chain-integrity",
+      "outcome": "READY_INSTRUCTION",
+      "owner": "eternities-aegis",
+      "distinction": "Aegis covers general source/sink trust and inert-source review. This specialist reconciles declared/resolved/build/runtime component identities and binds integrity, origin, build provenance, exposure and repair to consumed artifacts.",
+      "mechanics": "Exact version/origin/digest and build/runtime roles; base/platform/vendored/plugin coverage; digest subject and expected identity/policy checks; advisory date/platform/path evidence; complete resolution diff and repair regression.",
+      "failureHandling": "Unknown inventory/provenance/advisory coverage is retained; origin/digest mismatch stops affected consumption without blocking independent analysis; prohibited hook execution cannot be silently introduced.",
+      "tradeoffs": "Uses supplied artifacts and approved tools without mandatory scanner installation; richer inventories cost effort but remain bounded by the actual consumption surface. Static reachability and authenticated signatures are useful evidence, not absolutes.",
+      "guarantees": "Hashes are reference-relative; signatures do not establish benign code, complete inventories or reproducibility; root license signals are not legal clearance.",
+      "issues": []
+    }
+  ],
+  "issues": [],
+  "sourceBindingChecks": [
+    {
+      "skill": "accessibility-audit-and-remediation",
+      "source": "sickn33/agentic-awesome-skills@10cc257b2409cc8a2f3724d02f40353661f7c1be:skills/fixing-accessibility/SKILL.md",
+      "snapshot": "source-bodies/01.md",
+      "sha256": "a8ce24b32859364f84711837468c70999297241e8a895f0395475c48e09a4af0",
+      "bytes": 5770,
+      "hashMatches": true,
+      "bytesMatch": true,
+      "identityConsistent": true,
+      "metadataSourceAndBodyHashMatch": true,
+      "read": "full frozen body",
+      "useful": "Native controls, field/error association, accessible names and focus behavior.",
+      "rejected": "Conversation-wide activation, universal individual tab stops, universal heading rules and fixed severity order."
+    },
+    {
+      "skill": "accessibility-audit-and-remediation",
+      "source": "msitarzewski/agency-agents@ad9264e309bd5e5422c04784372d7841b1e5d604:testing/testing-accessibility-auditor.md",
+      "snapshot": "source-bodies/02.md",
+      "sha256": "982a14c0d0a9b30834ecd6e04811e4f900baf7950e18c68cc97142354cc803e7",
+      "bytes": 15300,
+      "hashMatches": true,
+      "bytesMatch": true,
+      "identityConsistent": true,
+      "metadataSourceAndBodyHashMatch": true,
+      "read": "relevant frozen passages on keyboard/focus, assistive-technology observation, forms/adaptation, testing and unsupported detection percentages",
+      "useful": "Journey-level keyboard and actual assistive-technology testing, adaptation and reproduction evidence.",
+      "rejected": "Persona and templates, assumed defects, scanner/manual percentage claims and blanket conformance from incomplete observation."
+    },
+    {
+      "skill": "service-observability-and-slo-design",
+      "source": "sickn33/agentic-awesome-skills@10cc257b2409cc8a2f3724d02f40353661f7c1be:skills/observability-monitoring-slo-implement/SKILL.md",
+      "snapshot": "source-bodies/03.md",
+      "sha256": "d923fab5f9df04a65a1d87099538a0af031450a879b8cf39b16628cd987a165f",
+      "bytes": 2314,
+      "hashMatches": true,
+      "bytesMatch": true,
+      "identityConsistent": true,
+      "metadataSourceAndBodyHashMatch": true,
+      "read": "full frozen body",
+      "useful": "User-outcome SLIs and error-budget decisions.",
+      "rejected": "Missing telemetry as a ban on useful measurement design; mandatory clarification without material uncertainty."
+    },
+    {
+      "skill": "service-observability-and-slo-design",
+      "source": "sickn33/agentic-awesome-skills@10cc257b2409cc8a2f3724d02f40353661f7c1be:skills/observability-monitoring-slo-implement/resources/implementation-playbook.md",
+      "snapshot": "source-bodies/04.md",
+      "sha256": "3d4f2b100a25ab8f3eb5ca9ae14a8b28813a1eb0001688a035810ed2aadcb8f0",
+      "bytes": 37345,
+      "hashMatches": true,
+      "bytesMatch": true,
+      "identityConsistent": true,
+      "metadataSourceAndBodyHashMatch": true,
+      "read": "relevant frozen passages on request ratios, histogram aggregation, budget arithmetic, paired alert windows and illustrative constants",
+      "useful": "Summed event counts, compatible distributions, recent plus sustained burn observations.",
+      "rejected": "Expected-uptime-minus-actual arithmetic as budget consumption, consumed-fraction-as-rate projections, reversed window names and universal vendor constants; executable templates were not adopted."
+    },
+    {
+      "skill": "service-observability-and-slo-design",
+      "source": "msitarzewski/agency-agents@ad9264e309bd5e5422c04784372d7841b1e5d604:engineering/engineering-sre.md",
+      "snapshot": "source-bodies/05.md",
+      "sha256": "85b305e495506913f50c7cb28de42444a85fbc4898cd3ad4e1dc9b358b4ab5e8",
+      "bytes": 3882,
+      "hashMatches": true,
+      "bytesMatch": true,
+      "identityConsistent": true,
+      "metadataSourceAndBodyHashMatch": true,
+      "read": "full frozen body",
+      "useful": "Traffic, latency, errors, saturation and response ownership.",
+      "rejected": "Persona, universal cost/risk multipliers, automatic shipping from budget and fixed automation/rollout recipes."
+    },
+    {
+      "skill": "schema-migration-and-backfill-safety",
+      "source": "sickn33/agentic-awesome-skills@10cc257b2409cc8a2f3724d02f40353661f7c1be:skills/database-migration/SKILL.md",
+      "snapshot": "source-bodies/06.md",
+      "sha256": "9a1d59484253caaba61d67e2c62c55f1fd9c30ed99bf185b77100a78cb3a41c0",
+      "bytes": 11833,
+      "hashMatches": true,
+      "bytesMatch": true,
+      "identityConsistent": true,
+      "metadataSourceAndBodyHashMatch": true,
+      "read": "relevant frozen passages on transactions, additive migration, bulk transformation, backup-table restore and universal down/rollback advice",
+      "useful": "Staged compatibility and failure testing.",
+      "rejected": "Bulk/unchecked transformation, destructive table recreation as restoration, always-invertible down methods and assumed cross-engine transaction behavior."
+    },
+    {
+      "skill": "dependency-supply-chain-integrity",
+      "source": "sickn33/agentic-awesome-skills@10cc257b2409cc8a2f3724d02f40353661f7c1be:skills/supply-chain-security/SKILL.md",
+      "snapshot": "source-bodies/07.md",
+      "sha256": "ec7790f836cb24e3c0e9c69b0fafb9d66ab5d24ccc7da2a22e52d5083661552f",
+      "bytes": 6177,
+      "hashMatches": true,
+      "bytesMatch": true,
+      "identityConsistent": true,
+      "metadataSourceAndBodyHashMatch": true,
+      "read": "relevant frozen passages on component inventory, artifacts, build integrity, exposure and tool/priority recipes",
+      "useful": "Dependency inventory across build boundaries, consumed artifact integrity and exposure triage.",
+      "rejected": "Fixed percentages/priorities, mandatory tool or exploit execution and signature-as-trust guarantee."
+    },
+    {
+      "skill": "dependency-supply-chain-integrity",
+      "source": "sickn33/agentic-awesome-skills@10cc257b2409cc8a2f3724d02f40353661f7c1be:skills/supply-chain-security/references/sbom-sca-methodology.md",
+      "snapshot": "source-bodies/08.md",
+      "sha256": "d0afd051f6e38f47613f1451e5e7aae23ab74032690dc8786708a53daa89e5f5",
+      "bytes": 2120,
+      "hashMatches": true,
+      "bytesMatch": true,
+      "identityConsistent": true,
+      "metadataSourceAndBodyHashMatch": true,
+      "read": "full frozen body",
+      "useful": "Exact-version confirmation and separating inventory from advisory analysis.",
+      "rejected": "Dated vendor tables, fixed risk formulas, exploit acquisition and unsolicited recurring scans."
+    },
+    {
+      "skill": "dependency-supply-chain-integrity",
+      "source": "sickn33/agentic-awesome-skills@10cc257b2409cc8a2f3724d02f40353661f7c1be:skills/dependency-management-deps-audit/SKILL.md",
+      "snapshot": "source-bodies/09.md",
+      "sha256": "793aacb82793ec84b5cbce654de7fb23d0a811361810c5c680edb77ff42d8146",
+      "bytes": 2223,
+      "hashMatches": true,
+      "bytesMatch": true,
+      "identityConsistent": true,
+      "metadataSourceAndBodyHashMatch": true,
+      "read": "full frozen body",
+      "useful": "Direct/transitive inventory and compatibility-aware repair.",
+      "rejected": "Absence of manifests or upgrade permission as a reason to reject audit; automatic fixes and scanner-derived license clearance."
+    }
+  ],
+  "verification": {
+    "packValidation": {
+      "status": "verified-content",
+      "skillCount": 85,
+      "releaseId": "a8e10fe8c34687e08fabeb334ee623ffd7951c745cfe2adbf765eeb1955320cb"
+    },
+    "focusedOfflineTests": {
+      "pass": 176,
+      "fail": 0,
+      "skipped": 0
+    },
+    "finalInputHashCheck": {
+      "checkedAtUtc": "2026-10-05T04:31:18.900Z",
+      "status": "unchanged",
+      "inputFiles": 24,
+      "sourceBodies": 9
+    }
+  },
+  "limits": [
+    "Read all four current entrypoints, metadata and methods fully; compared all four current owner entrypoints, metadata and methods fully. Frozen sources were inert research DATA; source read coverage is specified per body.",
+    "No product changes during review; no acquisition, providers, agent descendants, third-party source execution, installation, commits or accounts/security changes.",
+    "Counterpart authorship is distinct from reviewer authorship; review is not blinded. These are instruction/package judgments, not live browser/AT, service, database or build/runtime validation, superiority, certification or release/deployment acceptance.",
+    "Provenance checks establish bindings to the frozen manifest, not source-specific legal clearance, exhaustive originality proof or warehouse/source terminal disposition. R10 outcomes were not inferred."
+  ],
+  "sealedAtUtc": "2026-10-05T04:31:18.900Z"
+}
+

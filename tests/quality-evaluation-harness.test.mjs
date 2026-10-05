@@ -141,6 +141,10 @@ test('first invalid execution stops new dispatch while in-flight work settles', 
 for (const mode of ['malformed', 'error', 'started-tool', 'completed-tool', 'empty', 'nonfinal', 'mismatch', 'missing-final', 'extra-turn', 'after-terminal']) {
   test(`execution retains invalid ${mode} stream and refuses replay`, () => {
     const result = probe((async lab => {
+      // Both intended in-flight executions must reach dispatch before either
+      // emits its invalid stream. Otherwise a slower peer may correctly become
+      // not-dispatched, making an all-invalid assertion depend on host load.
+      lab.control.waitForSecondExec = true;
       const start = [{type:'thread.started',thread_id:'synthetic'}, {type:'turn.started'}];
       const answer = {type:'item.completed',item:{id:'answer',type:'agent_message',text:'SYNTHETIC RESPONSE'}};
       const end = {type:'turn.completed',usage:{input_tokens:12,output_tokens:3}};
@@ -162,7 +166,7 @@ for (const mode of ['malformed', 'error', 'started-tool', 'completed-tool', 'emp
       return {error,statuses:summary.results.map(x=>x.status),replay,newCalls:lab.calls.length-before};
     }).toString().replaceAll('mode', JSON.stringify(mode)));
     assert.match(result.error ?? '', /invalid|uncertain/i);
-    assert.ok(result.statuses.length > 0);
+    assert.equal(result.statuses.length, 2);
     assert.ok(result.statuses.every(status => status === (mode === 'empty' ? 'retained-outcome' : 'invalid')));
     assert.match(result.replay ?? '', /reconcile/i);
     assert.equal(result.newCalls, 0);

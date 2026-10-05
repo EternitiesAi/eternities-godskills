@@ -14,8 +14,8 @@ const productRoot = resolve(
 const baselineCatalogUrl = new URL("./core2260-catalog.json", import.meta.url);
 const frozenCoreCatalogSha256 = "57d47c0a9692dc21caa0e7909ee6c557cd5ef5cc4e09b968df079cc81f86aecf";
 // Preserve the exact historical 68-skill projection while explicitly admitting
-// only the cognitive batch and the explicitly scoped October3 professional
-// additions. Historical fixture bytes and all 68 core scoring fields stay exact.
+// only the cognitive, October3 professional and reviewed next-eight additions.
+// Historical fixture bytes and all 68 core scoring fields stay exact.
 const cognitiveSkillIds = [
   "completeness-and-consistency-audit",
   "imaginative-concept-development",
@@ -29,7 +29,17 @@ const professionalSkillIds = [
   "structured-hiring-evaluation",
   "user-research-and-usability-study",
 ];
-const admittedAdditionIds = [...cognitiveSkillIds, ...professionalSkillIds].sort();
+const nextEightSkillIds = [
+  "accessibility-audit-and-remediation",
+  "dependency-supply-chain-integrity",
+  "narrative-structure-and-revision",
+  "operating-cadence-and-decision-accountability",
+  "pricing-and-packaging-experimentation",
+  "procedural-world-generation-and-validation",
+  "schema-migration-and-backfill-safety",
+  "service-observability-and-slo-design",
+];
+const admittedAdditionIds = [...cognitiveSkillIds, ...professionalSkillIds, ...nextEightSkillIds].sort();
 const intentionalDiscoveryResource = {
   owner: "eternities-omnibus",
   path: "skills/eternities-omnibus/references/methods.md",
@@ -186,7 +196,7 @@ test("the immutable core2260 fixture is exact and all 68 scoring, relation, spec
   assert.deepEqual(
     liveCatalog.skills.filter((skill) => !baselineIds.has(skill.id)).map((skill) => skill.id),
     admittedAdditionIds,
-    "only the six cognitive and three scoped professional IDs are outside the frozen core",
+    "only the six cognitive, three professional and eight newly scoped IDs are outside the frozen core",
   );
   assert.deepEqual(
     liveCore.map((skill) => skill.id),

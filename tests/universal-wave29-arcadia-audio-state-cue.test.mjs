@@ -21,7 +21,7 @@ const specialistPrompts = [
     query: 'Review supplied audio plugin callback code for realtime allocation, feedback stability, and channel routing.',
   },
   {
-    owner: 'eternities-muse',
+    owner: 'accessibility-audit-and-remediation',
     query: 'Audit keyboard focus, screen-reader labels, contrast, and reduced motion for a pause menu.',
   },
 ];
