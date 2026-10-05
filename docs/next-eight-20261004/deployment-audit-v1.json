@@ -1,0 +1,648 @@
+{
+  "schema": "next-eight-independent-deployment-audit-v1",
+  "outcome": "READY_NARROW_DEPLOYMENT",
+  "reviewedAtUtc": "2026-10-05T04:56:06.6642769Z",
+  "scope": "Final bounded independent deployment audit of canonical release85, installed native/runtime state and saved recovery payload. Parent installation checked independently by cohort-A seat; prior authorship is disclosed, author/body qualification is not reopened.",
+  "canonicalRoot": "C:/dev/eternities-godskills",
+  "releaseId": "add50d29355b55df1b4f33ac63bff3fe86dfc06433653e67989398f68ec66cb5",
+  "skillCount": 85,
+  "localMainAndOriginMain": "6a94ec7951a34f3c7876f6759752181ea1dfb564",
+  "inputFiles": [
+    {
+      "path": "C:/dev/eternities-godskills/docs/next-eight-godskills-installation-20261004.md",
+      "sha256": "863b54b7d22ae65fc250024f7d5b67024af2ca7b12e1a33ef7279a041944e62e"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-next-eight-20261004/install-before-v1.json",
+      "sha256": "38c4a00d491be3b8ac5091e26db8112b6bffe137cb99d326c9285c0011e2c5fd"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-next-eight-20261004/install-after-v1.json",
+      "sha256": "213947ec899f0f62c139c71f27f2aa3c0ec3dcc260d0f18f5fea81147430dbd5"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-next-eight-20261004/install-backup-v1/install-receipt.json",
+      "sha256": "1bb5bfe3a49109a105abd5540def6345ee186fba9031381c30c102b62e19a184"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-next-eight-20261004/baseline.json",
+      "sha256": "dfa35c35c18e506079e87ad765968363c557ae86bc4b057f482cdc8e8957bcdf"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/product/release.json",
+      "sha256": "9914d4a3f9f8a5dd05a258a629ac6b4b70e2a974292ac734918e7713e73462d5"
+    },
+    {
+      "path": "C:/Users/Dom/.agents/godskills/release.json",
+      "sha256": "9914d4a3f9f8a5dd05a258a629ac6b4b70e2a974292ac734918e7713e73462d5"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/docs/next-eight-20261004/publication-review-v2.json",
+      "sha256": "ed0611376bde761ea0db220ea833f2c12ad782109341339b39ea97c7dc0923e6"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-next-eight-20261004/publication-review-v2.json",
+      "sha256": "ed0611376bde761ea0db220ea833f2c12ad782109341339b39ea97c7dc0923e6"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-next-eight-20261004/archive-secondary-v2.json",
+      "sha256": "38eeaad697fb5d6675f00a9bccd6975182f3713d33aef5b4c034409100e774f9"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.git/refs/heads/main",
+      "sha256": "a46127651aa7189ba01230d9423265e9e3320e2ab4a225bffcd17ccf1be0578c"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.git/refs/remotes/origin/main",
+      "sha256": "a46127651aa7189ba01230d9423265e9e3320e2ab4a225bffcd17ccf1be0578c"
+    },
+    {
+      "path": "C:/Users/Dom/.agents/godskills/INDEX.md",
+      "sha256": "6e504bc009dab839dc08c49b705212535eaa3457d4184def2e126422e3fa9c3c"
+    },
+    {
+      "path": "C:/Users/Dom/.agents/godskills/catalog.json",
+      "sha256": "00d049a8c93879f896ccab47b63ce091050903adf7787c5608d518f9fb58ddb7"
+    },
+    {
+      "path": "C:/Users/Dom/.agents/godskills/bin/godskills.mjs",
+      "sha256": "cd2b01f504fb89efee54e0b70dcc08631842e03305d5c35be67777d88a0718d4"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/artifacts/releases/godskills-product-20261004-add50d29.zip",
+      "sha256": "cce66800067186da8969aa42f3e771c135f100fcda5843e0db93095c3a63391e"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/artifacts/releases/godskills-product-20261004-add50d29.zip.sha256",
+      "sha256": "8a11d8c36602c002a1f62e9a59be9a2b375bf27ef1932a5ee2097b155d478784"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/docs/next-eight-20261004/archive-secondary-v2.json",
+      "sha256": "38eeaad697fb5d6675f00a9bccd6975182f3713d33aef5b4c034409100e774f9"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/src/adaptive-activation.mjs",
+      "sha256": "9844aee1147f7129f3e37067424ccebb88ff478de1b7a9a9fb7306d5f2fdbd82"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/policies/adaptive-activation.v1.json",
+      "sha256": "b87bbfaddecb42417e57202173220bf240204d27b7de5fffc9e609eb18138939"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/artifacts/adaptive-activation/evidence.v1.json",
+      "sha256": "b55a5cb4f7ff039cc7f4027c165b2f151bad723d9030913076a4225342fbe8c5"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-next-eight-20261004/review-a-v1.json",
+      "sha256": "54aff97f367fb09ffdccd1f37cd759555901d3ea3557f97da6a7b9f041729181"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-next-eight-20261004/review-a-v1.md",
+      "sha256": "8e969716135c66dfd678ac53ed1b8b797188226403fbbe6d7d701b4b4c092b3f"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-next-eight-20261004/parent-tests-review-v1.json",
+      "sha256": "9d52ed5f2e5c58671c43814edc4974cd34392ab56c3f545260976510fa941c97"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-next-eight-20261004/parent-tests-review-v1.md",
+      "sha256": "597ea0be0e4d4d488e65dcae5e4652dbd295c5b22fb56df7ef19d7a35945d0b1"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-next-eight-20261004/review-b-v1.json",
+      "sha256": "44e6babf155c10faea1e03c79d7cf48b1ffc8ec60f7c924dfc51cd67837fe072"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-next-eight-20261004/review-b-v1.md",
+      "sha256": "076dfa2838307bdadd4c7a9b680bee3d2c69da27dbcc967a129b85d47355e22d"
+    }
+  ],
+  "actualSnapshots": {
+    "checkedAtUtc": "2026-10-05T04:54:18.0159292Z",
+    "digestEncoding": "SHA256 of UTF-8 without BOM: case-sensitive path-sorted lines of relative-path + TAB + lowercase SHA256 + LF, including final LF. Inventory includes hidden files (-Force).",
+    "surfaces": [
+      {
+        "surface": "native",
+        "root": "C:/Users/Dom/.agents/skills",
+        "files": 306,
+        "membershipAndHashDigest": "5eabff48b7121ef71b63bc23e7d6743ba784ea772a2cd810b5760fdd78b3d7cd"
+      },
+      {
+        "surface": "runtime",
+        "root": "C:/Users/Dom/.agents/godskills",
+        "files": 284,
+        "membershipAndHashDigest": "cf42378cf05d3a7ac6ab20b127e2ae6db9459ca03d0d17bd6091fdd9e573704d"
+      },
+      {
+        "surface": "backupNative",
+        "root": "C:/Users/Dom/.codex/operations/godskills-next-eight-20261004/install-backup-v1/previous-skills",
+        "files": 226,
+        "membershipAndHashDigest": "94ce224d9eb30b32277c5a5bf60ba26350969a8cc308de03eefee310dd21058e"
+      },
+      {
+        "surface": "backupRuntime",
+        "root": "C:/Users/Dom/.codex/operations/godskills-next-eight-20261004/install-backup-v1/previous-runtime",
+        "files": 260,
+        "membershipAndHashDigest": "682d0ef743556dc56a777ed8d77a5d8360d8b278fe7a03a960108cf2fd45e404"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "id": "D01",
+      "obligation": "Bind pending-closeout installation document and three installer receipts",
+      "evidence": {
+        "installationDocumentSha256": "863b54b7d22ae65fc250024f7d5b67024af2ca7b12e1a33ef7279a041944e62e",
+        "receiptDigests": {
+          "install-before-v1.json": "38c4a00d491be3b8ac5091e26db8112b6bffe137cb99d326c9285c0011e2c5fd",
+          "install-after-v1.json": "213947ec899f0f62c139c71f27f2aa3c0ec3dcc260d0f18f5fea81147430dbd5",
+          "install-backup-v1/install-receipt.json": "1bb5bfe3a49109a105abd5540def6345ee186fba9031381c30c102b62e19a184"
+        },
+        "documentState": "parent verification complete; independent installed-state audit pending at bound document revision",
+        "disposition": "Pending wording is intentional pre-closeout state; parent owns updating the document after this independent result."
+      },
+      "disposition": "met"
+    },
+    {
+      "id": "D02",
+      "obligation": "Current canonical/installed release85 identity",
+      "evidence": {
+        "releaseId": "add50d29355b55df1b4f33ac63bff3fe86dfc06433653e67989398f68ec66cb5",
+        "skillCount": 85,
+        "manifestPayloads": 283,
+        "canonicalInstalledManifestSha256": "9914d4a3f9f8a5dd05a258a629ac6b4b70e2a974292ac734918e7713e73462d5",
+        "localMainAndOriginMain": "6a94ec7951a34f3c7876f6759752181ea1dfb564",
+        "refObservation": "Direct local ref-file reads only; no Git command or live remote probe."
+      },
+      "disposition": "met"
+    },
+    {
+      "id": "D03",
+      "obligation": "Exact current managed native membership and hashes",
+      "evidence": {
+        "skills": 85,
+        "managedFiles": 250,
+        "totalNativeFiles": 306,
+        "comparisonIds": [
+          "native-after-receipt",
+          "native-release",
+          "native-installer-receipt"
+        ]
+      },
+      "disposition": "met"
+    },
+    {
+      "id": "D04",
+      "obligation": "Exact installed standalone runtime membership and hashes",
+      "evidence": {
+        "files": 284,
+        "composition": "283 release payloads plus release.json",
+        "comparisonIds": [
+          "runtime-after-receipt",
+          "runtime-release"
+        ]
+      },
+      "disposition": "met"
+    },
+    {
+      "id": "D05",
+      "obligation": "All prior77 skills preserved byte-for-byte",
+      "evidence": {
+        "skills": 77,
+        "files": 226,
+        "comparisonIds": [
+          "old77-native-before",
+          "old77-native-baseline"
+        ],
+        "scope": "All files belonging to the original 77 skill directories, not merely entrypoints."
+      },
+      "disposition": "met"
+    },
+    {
+      "id": "D06",
+      "obligation": "Exact saved native recovery payload",
+      "evidence": {
+        "files": 226,
+        "comparisonIds": [
+          "backup-native-before",
+          "backup-native-installer-receipt"
+        ],
+        "executedRollback": false
+      },
+      "disposition": "met"
+    },
+    {
+      "id": "D07",
+      "obligation": "Exact saved runtime recovery payload and previous manifest",
+      "evidence": {
+        "files": 260,
+        "previousSkillCount": 77,
+        "previousReleaseId": "f186d19e06bd54bca3d71e1844866ac181c0bdfc3720a5e6037295402e6cc744",
+        "manifestMatchesBaseline": true,
+        "comparisonIds": [
+          "backup-runtime-before",
+          "backup-runtime-installer-receipt"
+        ],
+        "executedRollback": false
+      },
+      "disposition": "met"
+    },
+    {
+      "id": "D08",
+      "obligation": "Unrelated native files unchanged, without added membership",
+      "evidence": {
+        "files": 56,
+        "comparisonIds": [
+          "unrelated-before",
+          "unrelated-after"
+        ]
+      },
+      "disposition": "met"
+    },
+    {
+      "id": "D09",
+      "obligation": "Three protected activation files unchanged",
+      "evidence": [
+        {
+          "path": "src/adaptive-activation.mjs",
+          "expected": "9844aee1147f7129f3e37067424ccebb88ff478de1b7a9a9fb7306d5f2fdbd82",
+          "actual": "9844aee1147f7129f3e37067424ccebb88ff478de1b7a9a9fb7306d5f2fdbd82",
+          "exact": true
+        },
+        {
+          "path": "policies/adaptive-activation.v1.json",
+          "expected": "b87bbfaddecb42417e57202173220bf240204d27b7de5fffc9e609eb18138939",
+          "actual": "b87bbfaddecb42417e57202173220bf240204d27b7de5fffc9e609eb18138939",
+          "exact": true
+        },
+        {
+          "path": "artifacts/adaptive-activation/evidence.v1.json",
+          "expected": "b55a5cb4f7ff039cc7f4027c165b2f151bad723d9030913076a4225342fbe8c5",
+          "actual": "b55a5cb4f7ff039cc7f4027c165b2f151bad723d9030913076a4225342fbe8c5",
+          "exact": true
+        }
+      ],
+      "disposition": "met"
+    },
+    {
+      "id": "D10",
+      "obligation": "All eight new IDs present in installed INDEX/catalog and both installation surfaces",
+      "evidence": [
+        {
+          "id": "accessibility-audit-and-remediation",
+          "catalogOccurrences": 1,
+          "indexLinkPresent": true,
+          "nativeEntrypointExists": true,
+          "runtimeEntrypointExists": true
+        },
+        {
+          "id": "dependency-supply-chain-integrity",
+          "catalogOccurrences": 1,
+          "indexLinkPresent": true,
+          "nativeEntrypointExists": true,
+          "runtimeEntrypointExists": true
+        },
+        {
+          "id": "narrative-structure-and-revision",
+          "catalogOccurrences": 1,
+          "indexLinkPresent": true,
+          "nativeEntrypointExists": true,
+          "runtimeEntrypointExists": true
+        },
+        {
+          "id": "operating-cadence-and-decision-accountability",
+          "catalogOccurrences": 1,
+          "indexLinkPresent": true,
+          "nativeEntrypointExists": true,
+          "runtimeEntrypointExists": true
+        },
+        {
+          "id": "pricing-and-packaging-experimentation",
+          "catalogOccurrences": 1,
+          "indexLinkPresent": true,
+          "nativeEntrypointExists": true,
+          "runtimeEntrypointExists": true
+        },
+        {
+          "id": "procedural-world-generation-and-validation",
+          "catalogOccurrences": 1,
+          "indexLinkPresent": true,
+          "nativeEntrypointExists": true,
+          "runtimeEntrypointExists": true
+        },
+        {
+          "id": "schema-migration-and-backfill-safety",
+          "catalogOccurrences": 1,
+          "indexLinkPresent": true,
+          "nativeEntrypointExists": true,
+          "runtimeEntrypointExists": true
+        },
+        {
+          "id": "service-observability-and-slo-design",
+          "catalogOccurrences": 1,
+          "indexLinkPresent": true,
+          "nativeEntrypointExists": true,
+          "runtimeEntrypointExists": true
+        }
+      ],
+      "disposition": "met"
+    },
+    {
+      "id": "D11",
+      "obligation": "Installed CLI validates current release",
+      "evidence": {
+        "command": "node C:/Users/Dom/.agents/godskills/bin/godskills.mjs validate",
+        "exitCode": 0,
+        "output": {
+          "status": "verified-content",
+          "releaseId": "add50d29355b55df1b4f33ac63bff3fe86dfc06433653e67989398f68ec66cb5",
+          "skillCount": 85
+        }
+      },
+      "disposition": "met"
+    },
+    {
+      "id": "D12",
+      "obligation": "One bounded new-specialist discovery query",
+      "evidence": {
+        "command": "node C:/Users/Dom/.agents/godskills/bin/godskills.mjs search \"Keep old and new app versions compatible while transforming live database rows\" --limit 3 --need specialist",
+        "exitCode": 0,
+        "query": "Keep old and new app versions compatible while transforming live database rows",
+        "rankedIds": [
+          "schema-migration-and-backfill-safety",
+          "app-store-discovery-experiments",
+          "eternities-daedalus"
+        ],
+        "firstEntrypointSha256": "6fad6670b742088afd1d4f4b3b7d5cc4715f18f235673e71f8c97c969c4fca65",
+        "authority": "none",
+        "activation": "none",
+        "selection": {
+          "state": "review-required",
+          "basis": "host-requested-specialist-candidates"
+        }
+      },
+      "disposition": "met"
+    },
+    {
+      "id": "D13",
+      "obligation": "Explicit --need none abstention on the same positive query",
+      "evidence": {
+        "command": "node C:/Users/Dom/.agents/godskills/bin/godskills.mjs search \"Keep old and new app versions compatible while transforming live database rows\" --limit 3 --need none",
+        "exitCode": 0,
+        "output": {
+          "schema": "eternities-godskills-discovery-v1",
+          "authority": "none",
+          "activation": "none",
+          "method": "offline-lexical-intent-phrases-v3",
+          "query": "Keep old and new app versions compatible while transforming live database rows",
+          "results": [],
+          "abstentionReason": "host-supplied-no-need",
+          "selection": {
+            "state": "abstain",
+            "basis": "host-supplied-no-need"
+          }
+        }
+      },
+      "disposition": "met"
+    },
+    {
+      "id": "D14",
+      "obligation": "Public archive/sidecar/repaired secondary receipt match publication review; prior reviews preserved",
+      "evidence": {
+        "bindings": [
+          {
+            "path": "product/release.json",
+            "expected": "9914d4a3f9f8a5dd05a258a629ac6b4b70e2a974292ac734918e7713e73462d5",
+            "actual": "9914d4a3f9f8a5dd05a258a629ac6b4b70e2a974292ac734918e7713e73462d5",
+            "exact": true
+          },
+          {
+            "path": "artifacts/releases/godskills-product-20261004-add50d29.zip",
+            "expected": "cce66800067186da8969aa42f3e771c135f100fcda5843e0db93095c3a63391e",
+            "actual": "cce66800067186da8969aa42f3e771c135f100fcda5843e0db93095c3a63391e",
+            "exact": true
+          },
+          {
+            "path": "artifacts/releases/godskills-product-20261004-add50d29.zip.sha256",
+            "expected": "8a11d8c36602c002a1f62e9a59be9a2b375bf27ef1932a5ee2097b155d478784",
+            "actual": "8a11d8c36602c002a1f62e9a59be9a2b375bf27ef1932a5ee2097b155d478784",
+            "exact": true
+          },
+          {
+            "path": "docs/next-eight-20261004/archive-secondary-v2.json",
+            "expected": "38eeaad697fb5d6675f00a9bccd6975182f3713d33aef5b4c034409100e774f9",
+            "actual": "38eeaad697fb5d6675f00a9bccd6975182f3713d33aef5b4c034409100e774f9",
+            "exact": true
+          }
+        ],
+        "secondaryPrivateSha256": "38eeaad697fb5d6675f00a9bccd6975182f3713d33aef5b4c034409100e774f9",
+        "secondaryPublicPrivateExact": true,
+        "sidecar": "cce66800067186da8969aa42f3e771c135f100fcda5843e0db93095c3a63391e  godskills-product-20261004-add50d29.zip",
+        "priorReviews": [
+          {
+            "path": "review-a-v1.json",
+            "expected": "54aff97f367fb09ffdccd1f37cd759555901d3ea3557f97da6a7b9f041729181",
+            "actual": "54aff97f367fb09ffdccd1f37cd759555901d3ea3557f97da6a7b9f041729181",
+            "exact": true
+          },
+          {
+            "path": "review-a-v1.md",
+            "expected": "8e969716135c66dfd678ac53ed1b8b797188226403fbbe6d7d701b4b4c092b3f",
+            "actual": "8e969716135c66dfd678ac53ed1b8b797188226403fbbe6d7d701b4b4c092b3f",
+            "exact": true
+          },
+          {
+            "path": "parent-tests-review-v1.json",
+            "expected": "9d52ed5f2e5c58671c43814edc4974cd34392ab56c3f545260976510fa941c97",
+            "actual": "9d52ed5f2e5c58671c43814edc4974cd34392ab56c3f545260976510fa941c97",
+            "exact": true
+          },
+          {
+            "path": "parent-tests-review-v1.md",
+            "expected": "597ea0be0e4d4d488e65dcae5e4652dbd295c5b22fb56df7ef19d7a35945d0b1",
+            "actual": "597ea0be0e4d4d488e65dcae5e4652dbd295c5b22fb56df7ef19d7a35945d0b1",
+            "exact": true
+          },
+          {
+            "path": "review-b-v1.json",
+            "expected": "44e6babf155c10faea1e03c79d7cf48b1ffc8ec60f7c924dfc51cd67837fe072",
+            "actual": "44e6babf155c10faea1e03c79d7cf48b1ffc8ec60f7c924dfc51cd67837fe072",
+            "exact": true
+          },
+          {
+            "path": "review-b-v1.md",
+            "expected": "076dfa2838307bdadd4c7a9b680bee3d2c69da27dbcc967a129b85d47355e22d",
+            "actual": "076dfa2838307bdadd4c7a9b680bee3d2c69da27dbcc967a129b85d47355e22d",
+            "exact": true
+          }
+        ],
+        "archiveMembership": "Historical exact 284-member secondary validation remains publication evidence; ZIP bytes rehashed here, no new extraction."
+      },
+      "disposition": "met"
+    },
+    {
+      "id": "D15",
+      "obligation": "Bound audit inputs stable at sealing checkpoint",
+      "evidence": {
+        "checkedAt": "2026-10-05T04:56:06.6642769Z",
+        "inputCount": 27,
+        "drift": [],
+        "newFilesAlreadyExist": []
+      },
+      "disposition": "met"
+    }
+  ],
+  "actualComparisons": [
+    {
+      "id": "native-after-receipt",
+      "expectedCount": 306,
+      "actualCount": 306,
+      "missing": [],
+      "extra": [],
+      "hashDifferences": [],
+      "exact": true
+    },
+    {
+      "id": "native-release",
+      "expectedCount": 250,
+      "actualCount": 250,
+      "missing": [],
+      "extra": [],
+      "hashDifferences": [],
+      "exact": true
+    },
+    {
+      "id": "native-installer-receipt",
+      "expectedCount": 250,
+      "actualCount": 250,
+      "missing": [],
+      "extra": [],
+      "hashDifferences": [],
+      "exact": true
+    },
+    {
+      "id": "runtime-after-receipt",
+      "expectedCount": 284,
+      "actualCount": 284,
+      "missing": [],
+      "extra": [],
+      "hashDifferences": [],
+      "exact": true
+    },
+    {
+      "id": "runtime-release",
+      "expectedCount": 284,
+      "actualCount": 284,
+      "missing": [],
+      "extra": [],
+      "hashDifferences": [],
+      "exact": true
+    },
+    {
+      "id": "old77-native-before",
+      "expectedCount": 226,
+      "actualCount": 226,
+      "missing": [],
+      "extra": [],
+      "hashDifferences": [],
+      "exact": true
+    },
+    {
+      "id": "old77-native-baseline",
+      "expectedCount": 226,
+      "actualCount": 226,
+      "missing": [],
+      "extra": [],
+      "hashDifferences": [],
+      "exact": true
+    },
+    {
+      "id": "backup-native-before",
+      "expectedCount": 226,
+      "actualCount": 226,
+      "missing": [],
+      "extra": [],
+      "hashDifferences": [],
+      "exact": true
+    },
+    {
+      "id": "backup-native-installer-receipt",
+      "expectedCount": 226,
+      "actualCount": 226,
+      "missing": [],
+      "extra": [],
+      "hashDifferences": [],
+      "exact": true
+    },
+    {
+      "id": "backup-runtime-before",
+      "expectedCount": 260,
+      "actualCount": 260,
+      "missing": [],
+      "extra": [],
+      "hashDifferences": [],
+      "exact": true
+    },
+    {
+      "id": "backup-runtime-installer-receipt",
+      "expectedCount": 260,
+      "actualCount": 260,
+      "missing": [],
+      "extra": [],
+      "hashDifferences": [],
+      "exact": true
+    },
+    {
+      "id": "unrelated-before",
+      "expectedCount": 56,
+      "actualCount": 56,
+      "missing": [],
+      "extra": [],
+      "hashDifferences": [],
+      "exact": true
+    },
+    {
+      "id": "unrelated-after",
+      "expectedCount": 56,
+      "actualCount": 56,
+      "missing": [],
+      "extra": [],
+      "hashDifferences": [],
+      "exact": true
+    }
+  ],
+  "issues": [],
+  "summary": {
+    "requiredChecks": 15,
+    "met": 15,
+    "missingFiles": 0,
+    "unexpectedFiles": 0,
+    "hashDifferences": 0,
+    "managedNativeFiles": 250,
+    "runtimeFiles": 284,
+    "preservedPriorSkills": 77,
+    "preservedPriorSkillFiles": 226,
+    "backupNativeFiles": 226,
+    "backupRuntimeFiles": 260,
+    "unrelatedFiles": 56,
+    "protectedActivationFiles": 3,
+    "newIds": 8,
+    "requestedCliChecks": 3
+  },
+  "diagnostics": [
+    {
+      "command": "node C:/Users/Dom/.agents/godskills/bin/godskills.mjs --help",
+      "observation": "Preliminary usage probe printed usage as an error because --help is not a supported command. It is not one of the fifteen required checks; all three requested CLI invocations completed with exit 0."
+    }
+  ],
+  "limits": [
+    "Snapshot-level exact membership/hash and bounded first-party CLI observations on this existing Windows installation; not fresh-OS, native app skill enumeration, live domain validation or comparative superiority.",
+    "Saved recovery payload hashes and membership were checked; rollback was not executed, and operational recovery is not inferred solely from backup presence.",
+    "The installed CLI was run only for validate, one specialist search and explicit no-need abstention (plus the preliminary unsupported usage probe). No full suite, body re-review, helpers/harness files, providers, descendants, web/source acquisition, third-party source execution, product edits, installs or rollback.",
+    "Local main/origin refs were read directly as files. No Git command, network remote-state verification, account/security change, or automation action occurred.",
+    "The ZIP and sidecar/secondary-receipt bytes match publication-review-v2, including public/private repaired receipt identity. Existing 284-member ZIP verification is carried historical publication evidence; no new extraction or archive rebuild.",
+    "Only deployment-audit-v1.json/md are newly written. Prior review receipts remain immutable. Parent owns closeout-document updates, integration and any release/installation actions.",
+    "R10 is not re-audited or applied. The bound document reports 49,514 open obligations and 163 conflicts; source obligations are not converted into terminal outcomes. Paused automation status was not freshly inspected and no automation action was taken.",
+    "The canonical installation document is bound in its explicitly pending-independent-audit revision. READY_NARROW_DEPLOYMENT is this independent observed-state result, not a claim that the parent's later closeout publication has already occurred."
+  ]
+}

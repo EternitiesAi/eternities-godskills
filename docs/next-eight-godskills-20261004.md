@@ -108,9 +108,9 @@ activation files remain exact. The
 notices and obligations remain. The portable release contains only the product,
 not the repository's author/review transcripts or private source snapshots.
 
-Installation is a separate gate recorded in the local installation closeout
-after a fresh backup and exact before/after verification. This release record
-alone is not proof of installation.
+The [separate installation closeout](next-eight-godskills-installation-20261004.md)
+records the fresh backup, exact before/after manifests and independently accepted
+15-check installed-state audit. This release record alone is not proof of installation.
 
 ## Remaining boundaries
 

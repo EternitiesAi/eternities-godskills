@@ -121,6 +121,8 @@ The current [85-skill standalone ZIP](artifacts/releases/godskills-product-20261
 and [SHA-256 sidecar](artifacts/releases/godskills-product-20261004-add50d29.zip.sha256)
 include all eight reviewed additions. Earlier exports above remain exact historical
 snapshots, not the current pack.
+The [installation closeout](docs/next-eight-godskills-installation-20261004.md)
+records the exact backed-up local upgrade and separate deployment audit.
 
 For a new computer, copy only `product/` or export its verified standalone ZIP:
 
