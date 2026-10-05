@@ -1,0 +1,288 @@
+{
+  "schema": "next-eight-publication-review-v2",
+  "outcome": "READY_PUBLICATION",
+  "reviewedAtUtc": "2026-10-05T04:44:18.579Z",
+  "scope": "Narrow final publication claim/link review of three current documents plus the receipt-only .gitattributes change. No whole-pack/body re-review.",
+  "releaseId": "add50d29355b55df1b4f33ac63bff3fe86dfc06433653e67989398f68ec66cb5",
+  "inputFiles": [
+    {
+      "path": "README.md",
+      "sha256": "04ca37521dc0b7615e41ffbb49fada3090d30bed517e3e861bf678f9f600c58d"
+    },
+    {
+      "path": "docs/next-eight-godskills-20261004.md",
+      "sha256": "868a0c84ec5f3cf29d1a3c2836fd5d53262479f50d46e2435bd39e184ba4e50c"
+    },
+    {
+      "path": "docs/next-eight-20261004/parent-release-acceptance-v1.json",
+      "sha256": "37eea02a3bd2dcab71d6ba105615f53fadf5bde079ea668c206ef1127c59cdff"
+    },
+    {
+      "path": ".gitattributes",
+      "sha256": "a775cd98d4c689bf0a3a67fd145ff88ded90bfde6b6c41f53ac80d11105dacbf"
+    }
+  ],
+  "documentFindings": [
+    {
+      "path": "README.md",
+      "disposition": "ACCEPT",
+      "reason": "Current85 ZIP/sidecar are distinguished from historical77 exports. Instruction/package qualification is not universal superiority, installation or whole-quarry completion; the new release links resolve."
+    },
+    {
+      "path": "docs/next-eight-godskills-20261004.md",
+      "disposition": "ACCEPT",
+      "reason": "A24/B20 current review bindings, B minor precision repair/re-review, eight non-blinded literal applications and32 parent checks,33 discovery checks,23 initial failures, final1670/0/2 and same-host archive limits are supported by bound evidence. Historical procedural output is explicitly supplemented by a fresh current-method application. Pre-closeout parent document review is not misrepresented as review of changed publication bytes."
+    },
+    {
+      "path": "docs/next-eight-20261004/parent-release-acceptance-v1.json",
+      "disposition": "ACCEPT",
+      "reason": "Public review records retain exact hashes/outcomes/input arrays; their44 product bindings equal the current manifest. Parent32 criteria exactly equal preregistered criteria. Release, archive and preservation figures match the supporting records; status remains candidate-not-yet-installed."
+    },
+    {
+      "path": ".gitattributes",
+      "disposition": "ACCEPT",
+      "reason": "Exactly two added lines relative to baseline565d53f: comment plus receipt-directory rule. Actual rule includes cr-at-eol as well as -blank-at-eof. -text preserves receipt line endings; the whitespace exceptions are confined to the new receipt directory, not ordinary code or product files."
+    }
+  ],
+  "issues": [],
+  "evidenceBindings": [
+    {
+      "path": "docs/next-eight-20261004/review-a-v1.json",
+      "sha256": "54aff97f367fb09ffdccd1f37cd759555901d3ea3557f97da6a7b9f041729181"
+    },
+    {
+      "path": "docs/next-eight-20261004/review-b-v2.json",
+      "sha256": "a112bd7ae77200c38a679fff5de7f0755826a29b554f30b74f1a6e99c45fdfc6"
+    },
+    {
+      "path": "docs/next-eight-20261004/parent-tests-review-v1.json",
+      "sha256": "9d52ed5f2e5c58671c43814edc4974cd34392ab56c3f545260976510fa941c97"
+    },
+    {
+      "path": "docs/next-eight-20261004/review-b-v1.json",
+      "sha256": "44e6babf155c10faea1e03c79d7cf48b1ffc8ec60f7c924dfc51cd67837fe072"
+    },
+    {
+      "path": "docs/next-eight-20261004/consumer-a-v1.json",
+      "sha256": "6c5b047710f716b4543607473511e2bbd875dd2fbb14e701a1b6b4b530bf754c"
+    },
+    {
+      "path": "docs/next-eight-20261004/consumer-b-v1.json",
+      "sha256": "f71a52de5ae87190d2a2f62e64dd340f60c85a3c73116abc44d571129e02fd10"
+    },
+    {
+      "path": "docs/next-eight-20261004/consumer-b-procedural-v2.json",
+      "sha256": "d012f7a325d572a0a3cbef00d9fc80f90a8d08a21c1fd66d5d98a9e9fe6f460c"
+    },
+    {
+      "path": "product/release.json",
+      "sha256": "9914d4a3f9f8a5dd05a258a629ac6b4b70e2a974292ac734918e7713e73462d5"
+    },
+    {
+      "path": "docs/next-eight-20261004/archive-secondary-v2.json",
+      "sha256": "38eeaad697fb5d6675f00a9bccd6975182f3713d33aef5b4c034409100e774f9"
+    },
+    {
+      "path": "docs/next-eight-20261004/source-accounting-v1.json",
+      "sha256": "b23cbfd5586a9079080fa362cafd723fc6bded366b88e922ce8faee09304eb6a"
+    },
+    {
+      "path": "docs/next-eight-20261004/preregistered-cases-v1.json",
+      "sha256": "2b147649de78d734dfd2145e2284e88abdb4e4a3ca97367519bfce8c6afa060f"
+    },
+    {
+      "path": "artifacts/releases/godskills-product-20261004-add50d29.zip",
+      "sha256": "cce66800067186da8969aa42f3e771c135f100fcda5843e0db93095c3a63391e"
+    },
+    {
+      "path": "artifacts/releases/godskills-product-20261004-add50d29.zip.sha256",
+      "sha256": "8a11d8c36602c002a1f62e9a59be9a2b375bf27ef1932a5ee2097b155d478784"
+    }
+  ],
+  "checks": {
+    "reviewRecords": [
+      {
+        "path": "docs/next-eight-20261004/review-a-v1.json",
+        "sha256": "54aff97f367fb09ffdccd1f37cd759555901d3ea3557f97da6a7b9f041729181",
+        "outcome": "READY_INSTRUCTION",
+        "hashMatches": true,
+        "inputArraysMatch": true,
+        "manifestBindings": 24,
+        "allManifestBindingsMatch": true
+      },
+      {
+        "path": "docs/next-eight-20261004/review-b-v2.json",
+        "sha256": "a112bd7ae77200c38a679fff5de7f0755826a29b554f30b74f1a6e99c45fdfc6",
+        "outcome": "READY_INSTRUCTION",
+        "hashMatches": true,
+        "inputArraysMatch": true,
+        "manifestBindings": 20,
+        "allManifestBindingsMatch": true
+      },
+      {
+        "path": "docs/next-eight-20261004/parent-tests-review-v1.json",
+        "sha256": "9d52ed5f2e5c58671c43814edc4974cd34392ab56c3f545260976510fa941c97",
+        "outcome": "READY_INSTRUCTION",
+        "hashMatches": true,
+        "inputArraysMatch": true,
+        "manifestBindings": 0,
+        "allManifestBindingsMatch": true
+      }
+    ],
+    "applications": {
+      "tasks": 8,
+      "predefinedChecks": 32,
+      "predefinedCriteriaMatch": true,
+      "applicationCopiesMatchPrivate": true,
+      "currentEntrypointAndMethodBindingsMatch": true,
+      "historicalException": "consumer-b-v1 procedural method hash154500d3 is historical. Explicit consumer-b-procedural-v2 replacement binds current method0c177b8f; other seven task applications retain current bindings.",
+      "preregisteredRequestHashesMatch": true,
+      "nonBlinded": true,
+      "initialBAcceptanceExposureDisclosed": true,
+      "liveDomainValidation": false
+    },
+    "testFixtureInputs": [
+      {
+        "path": "tests/next-eight-discovery.test.mjs",
+        "sha256": "529767c813c4dcdf72ca1525f53f66ffcfb87f844675be0191ff2811724d308b",
+        "unchanged": true
+      },
+      {
+        "path": "tests/conditional-method-regression.test.mjs",
+        "sha256": "6a90b929930bcbd824a01737b2db6958385c32f59cae5af3db24e293fb94f5cf",
+        "unchanged": true
+      },
+      {
+        "path": "tests/conditional-study-synthesis-methods.test.mjs",
+        "sha256": "9aa28d068a7282ab131744bd27b9b81e6b7edfdf27d19b231ba064ac00578eb5",
+        "unchanged": true
+      },
+      {
+        "path": "tests/universal-wave29-arcadia-audio-state-cue.test.mjs",
+        "sha256": "367818144ccb049cacb9900c72ef1e0a63610cef666fa95357836915f8ceb9a2",
+        "unchanged": true
+      },
+      {
+        "path": "tests/educational-discovery-revealed-v2.test.mjs",
+        "sha256": "7dfffbb5b185d6be21bc10e8a5bf981ecc60683a3e35325c69530f212e5698de",
+        "unchanged": true
+      },
+      {
+        "path": "tests/quality-evaluation-harness.test.mjs",
+        "sha256": "67571ca61b736649a5560499fcfde4f1041b1402bce9667787e950758d322e49",
+        "unchanged": true
+      },
+      {
+        "path": "tests/fixtures/catalog-before-next-eight-20261004.json",
+        "sha256": "bf90582e8a23a3d50a6997cfba5f97d022f4619024f8459e364423f269e10eca",
+        "unchanged": true
+      }
+    ],
+    "archive": {
+      "releaseId": "add50d29355b55df1b4f33ac63bff3fe86dfc06433653e67989398f68ec66cb5",
+      "skillCount": 85,
+      "manifestPayloads": 283,
+      "expectedMembersIncludingReleaseManifest": 284,
+      "zipSha256": "cce66800067186da8969aa42f3e771c135f100fcda5843e0db93095c3a63391e",
+      "sidecarAgrees": true,
+      "secondaryPublicPrivateBytesAgree": true,
+      "acceptanceArchiveFieldsAgree": true,
+      "freshOS": false,
+      "nativeUiEnumeration": false,
+      "executedRollback": false
+    },
+    "logs": {
+      "recordedFirstRun": {
+        "tests": 1671,
+        "pass": 1646,
+        "fail": 23,
+        "skipped": 2
+      },
+      "recordedFinalRun": {
+        "tests": 1672,
+        "pass": 1670,
+        "fail": 0,
+        "skipped": 2
+      },
+      "allThreeRecordedLogHashesMatch": true,
+      "fullSuiteRerun": false,
+      "independentFocused176Evidence": "Carried exact parent-tests-review-v1 receipt; not rerun in this publication review."
+    },
+    "sources": {
+      "documents": 16,
+      "repositories": 3,
+      "publicIdentitiesMatchFrozenManifest": true,
+      "sourceManifestHashMatches": true,
+      "sourceExecution": false,
+      "legalClearance": false,
+      "quarryDisposition": false
+    },
+    "links": {
+      "newReleaseEvidenceLinksChecked": 12,
+      "newReadmeReleaseLinksChecked": 3,
+      "allResolve": true
+    },
+    "attributes": {
+      "exactAddedLines": [
+        "# Immutable next-eight receipts retain their original line endings and EOF.",
+        "docs/next-eight-20261004/* -text whitespace=-blank-at-eof,cr-at-eol"
+      ],
+      "verifiedBy": "git diff 565d53f -- .gitattributes and git check-attr text whitespace",
+      "receiptFiles": {
+        "text": "unset",
+        "whitespace": "-blank-at-eof,cr-at-eol"
+      },
+      "outsideReceiptDirectory": {
+        "sampledFiles": [
+          "README.md",
+          "tests/quality-evaluation-harness.test.mjs",
+          "product/skills/procedural-world-generation-and-validation/references/methods.md"
+        ],
+        "text": "auto",
+        "whitespace": "unspecified"
+      },
+      "sharedGitConfigChanged": false
+    },
+    "stability": {
+      "checkedAtUtc": "2026-10-05T04:44:18.579Z",
+      "publicationInputsUnchanged": true,
+      "sevenTestFixtureInputsUnchanged": true,
+      "supportingEvidenceUnchanged": true,
+      "priorPrivateReceiptBytesUnchanged": true
+    }
+  },
+  "preservedPriorReceipts": [
+    {
+      "path": "review-a-v1.json",
+      "sha256": "54aff97f367fb09ffdccd1f37cd759555901d3ea3557f97da6a7b9f041729181"
+    },
+    {
+      "path": "review-a-v1.md",
+      "sha256": "8e969716135c66dfd678ac53ed1b8b797188226403fbbe6d7d701b4b4c092b3f"
+    },
+    {
+      "path": "parent-tests-review-v1.json",
+      "sha256": "9d52ed5f2e5c58671c43814edc4974cd34392ab56c3f545260976510fa941c97"
+    },
+    {
+      "path": "parent-tests-review-v1.md",
+      "sha256": "597ea0be0e4d4d488e65dcae5e4652dbd295c5b22fb56df7ef19d7a35945d0b1"
+    },
+    {
+      "path": "review-b-v1.json",
+      "sha256": "44e6babf155c10faea1e03c79d7cf48b1ffc8ec60f7c924dfc51cd67837fe072"
+    },
+    {
+      "path": "review-b-v1.md",
+      "sha256": "076dfa2838307bdadd4c7a9b680bee3d2c69da27dbcc967a129b85d47355e22d"
+    }
+  ],
+  "limits": [
+    "Publication readiness applies only to the four bound input hashes and stated supporting evidence. It does not authorize push, commit, install or configuration changes.",
+    "Manifest bindings and archive receipt were compared; ZIP/sidecar hashes were checked. No entire product/body re-review, fresh archive-member extraction or full test suite was performed.",
+    "Parent preservation257/226/3 and qualification claims were checked against bound records, not independently re-executed here. Old v1 candidate IDs/pre-closeout document hashes remain historical; this v2 binds the current publication bytes.",
+    "Literal task answers and needed evidence passages were inspected.32 checks remain parent-accepted non-blinded text application, not held-out/matched superiority or live domain validation; B's initial exposure remains disclosed.",
+    "No product/document/receipt rewrite, helpers, harnesses, providers, agent descendants, acquisition, third-party source execution, Git config change, commits or installation. R10 remains unapplied."
+  ]
+}
+
