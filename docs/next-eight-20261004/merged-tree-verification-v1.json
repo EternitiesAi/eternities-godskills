@@ -1,0 +1,31 @@
+{
+  "schema": "next-eight-merged-tree-verification-v1",
+  "contentCommit": "51461425bc5439ee229495a6cf9cc1dedb018aab",
+  "releaseId": "add50d29355b55df1b4f33ac63bff3fe86dfc06433653e67989398f68ec66cb5",
+  "firstMergedRun": {
+    "passed": 1668,
+    "failed": 2,
+    "skipped": 2,
+    "logSha256": "8411c9f5c02541cad32176bf3dbfa6f510aacb65ff08b8a2e53f81472e7fcfeb",
+    "failures": "Athena and attested-continuity exact archived-source git-show reads exceeded their existing 10000ms child deadline; SIGTERM, no returned blob. These were failed checks, not evidence of bad or absent source bytes."
+  },
+  "boundedDiagnosis": {
+    "command": "node --test --test-concurrency=1 tests/athena-godskill.test.mjs tests/attested-continuity-certification.test.mjs",
+    "passed": 8,
+    "failed": 0,
+    "skipped": 0,
+    "durationMs": 295.9881,
+    "logSha256": "b7aaa8eabf777adf0e5dffd75dee4f6320193cc62b00da0d14824e6356b25ebd"
+  },
+  "completeMergedRun": {
+    "command": "node --test --test-concurrency=4",
+    "registered": 1672,
+    "passed": 1670,
+    "failed": 0,
+    "skipped": 2,
+    "durationMs": 40921.4398,
+    "logSha256": "926cc1dafa7ecd8ab5b677bcc5b511cad1c9115c3736a7ecf67a09968152ecf0"
+  },
+  "remediation": "Only runner concurrency changed between merged runs. No assertion, archived source, ten-second integrity deadline, production code or skill bytes changed. Resolution is consistent with parallel resource contention; disk-controller cause was not independently measured.",
+  "limits": "Merged local instruction/package verification, not installed-state or live-domain acceptance. Historical failures remain failed records. Existing unrelated untracked creative-method experiment was preserved."
+}
