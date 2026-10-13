@@ -7,13 +7,41 @@ optional consumers, not prerequisites.
 
 ## Portable product
 
-The self-contained pack is in **[product/](product/README.md)**: 91 refined
+The self-contained pack is in **[product/](product/README.md)**: 93 refined
 skill entrypoints organized into 21 primary domains, with the 26 existing owner
 extensions folded into relevant methods. It includes broad and specialist
 discovery, a compact relationship catalog, explainable offline search, an exact
 file manifest, and a backed-up installer with rollback. Markdown use requires no
 Node, API, warehouse, personal folder, Keel, or Godagents installation. The
 optional CLI uses Node built-ins only.
+
+### Start using the pack
+
+Download the current [93-skill standalone ZIP](artifacts/releases/godskills-product-20261013-27152ee2.zip)
+with its [SHA-256 sidecar](artifacts/releases/godskills-product-20261013-27152ee2.zip.sha256),
+or copy the complete [product folder](product/README.md). Give an agent the
+[skill directory](product/INDEX.md); it can choose a relevant method and open
+only the references that task needs. Markdown use needs no installation.
+
+The optional CLI provides offline discovery and validation:
+
+```text
+node product/bin/godskills.mjs search "plan a product roadmap" --limit 3
+node product/bin/godskills.mjs validate
+```
+
+See the [installation guide](product/README.md#hand-the-pack-to-another-computer)
+for portable copies and native host installation. Search suggests candidates;
+the agent checks their fit. The [latest verification record](docs/api-vendor-release-20261013.md)
+states the checks, rollback evidence and remaining limits.
+
+The latest additions cover **API contract evolution** and **vendor evaluation
+and exit planning**: preserve mixed-version clients and safe mutation semantics;
+or compare suppliers without letting low prices hide failed requirements,
+unavoidable commitments or unusable exports. Both have optional deeper methods.
+
+<details>
+<summary>Release history and qualification records</summary>
 
 The October 2 reviewed snapshot is available as a [standalone ZIP](artifacts/releases/godskills-product-20261002-f6d71194.zip), with its [SHA-256 sidecar](artifacts/releases/godskills-product-20261002-f6d71194.zip.sha256). It includes a [selected smaller-method directory](product/METHODS.v1.md): discover a useful method from ordinary task descriptions and exclusions, then read its complete owner and matching reference. The directory does not activate skills or replace agent judgment. See the [snapshot verification record](docs/product-release-20261002-finalization.md) for exact checks, review scopes and remaining limits.
 
@@ -152,7 +180,7 @@ planning applications passed their state/capacity checks; a real isolated Git
 exercise also preserved the original mixed checkout and integrated only its
 owned feature into an advanced local branch.
 
-The current [91-skill standalone ZIP](artifacts/releases/godskills-product-20261013-213c0d21.zip)
+The previous [91-skill standalone ZIP](artifacts/releases/godskills-product-20261013-213c0d21.zip)
 and [SHA-256 sidecar](artifacts/releases/godskills-product-20261013-213c0d21.zip.sha256)
 contain the portable pack, without the warehouse, private continuity or provider
 dependencies. Detailed references load only for the selected task. These are
@@ -162,6 +190,8 @@ The [installation closeout](docs/workflow-product-knowledge-installation-2026101
 records exact deployed/rollback bytes, unchanged unrelated skills, and the
 preserved main-path timing failure alongside successful same-commit isolated
 verification. Installation is not an agent UI/cache reload claim.
+
+</details>
 
 For a new computer, copy only `product/` or export its verified standalone ZIP:
 
@@ -199,7 +229,7 @@ v1 release.** the routing and integrity machinery has substantial local test
 coverage. actual agent-outcome evidence is limited and mixed. selection is not
 proof of improvement, and a skill never grants authority.
 
-## start here
+## Research and development history
 
 - [801-repository catalog skill intake, deduplication, and partial Jev classification](docs/quarry-intakes/2026-09-21-catalog801.md)
 - [Additive Jev continuation: 16 metadata judgments and the preserved pacing refusal](artifacts/catalog801-continuation-20260922/README.md)

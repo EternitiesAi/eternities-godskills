@@ -27,9 +27,9 @@
 
 **Vendor contract:** Compare a declared requirement set, mandatory eligibility, documented performance, uncertain evidence, costs across one horizon, renewal deadlines, switching and exit feasibility. Keep hard constraints distinct from weighted preferences; missing facts remain explicit. Avoid invented prices or probabilities and avoid allowing sunk costs to distort prospective choice. Output a defensible comparison and reversible trial/renewal/exit decision with named unresolved inputs.
 
-- [ ] Each author reads current neighboring owners plus two exact source bodies and applicable notices, recording hashes and available revision identity.
-- [ ] Each author writes original methods and metadata within its sole assigned skill folder; no shared generation or edits to existing owners.
-- [ ] Each author provides a concise mechanism comparison, rejected source recipes and draft limits.
+- [x] Each author reads current neighboring owners plus two exact source bodies and applicable notices, recording hashes and available revision identity.
+- [x] Each author writes original methods and metadata within its sole assigned skill folder; no shared generation or edits to existing owners.
+- [x] Each author provides a concise mechanism comparison, rejected source recipes and draft limits.
 
 ## Task 2: Concrete routing and consumer checks
 
@@ -37,15 +37,15 @@
 
 **Routing interface:** `searchCatalog(catalog, query, {limit:3})`; require target skill among candidates for literal and paraphrased task requests. `need:'none'` must abstain. Existing schema migration, rate recovery, pricing and contract-review routes remain candidates for their own tasks. Preserve frozen score/resource expectations.
 
-- [ ] Before author drafts are built, run failing new-skill discovery cases against the existing catalog; preserve output.
-- [ ] Prepare API change examples with old/new clients, uncertain mutation, key collision, concurrent writes and mutable-page traversal; prepare vendor choices with uneven contract terms, mandatory exclusions, exit costs and an unresolved input that changes the decision.
-- [ ] Build with `node product/bin/godskills.mjs build`, validate, then run `node --test tests/api-vendor-discovery.test.mjs` and relevant package regressions.
-- [ ] Different reviewer applies the opposite author's instructions to the bounded case and compares actual output with parent expectations. Run deterministic checks over supplied cost arithmetic and contract examples as appropriate; label plans and real executions separately.
+- [x] Before author drafts are built, run failing new-skill discovery cases against the existing catalog; preserve output.
+- [x] Prepare API change examples with old/new clients, uncertain mutation, key collision, concurrent writes and mutable-page traversal; prepare vendor choices with uneven contract terms, mandatory exclusions, exit costs and an unresolved input that changes the decision.
+- [x] Build with `node product/bin/godskills.mjs build`, validate, then run `node --test tests/api-vendor-discovery.test.mjs` and relevant package regressions.
+- [x] Different reviewer applies the opposite author's instructions to the bounded case and parent compares actual output with its preregistered expectations. Deterministic supplied-cost checks passed; API service checks remain proposed.
 
 ## Task 3: Review, release and installation
 
-- [ ] Cross-review actual content, references, metadata, provenance and task outputs; repair confirmed defects and get fresh review of changed bytes.
-- [ ] Run the required full suite once with one test worker in the isolated checkout; broaden only for changes or failures. Preserve negative outputs.
+- [x] Cross-review actual content, references, metadata, provenance and task outputs; repair confirmed defects and get fresh review of changed bytes.
+- [x] Run the required full suite once with one test worker in the isolated checkout; broaden only for changes or failures. First run found a metadata regression; preserved failure, repaired triggers, then 1736 passed / zero failed / two existing skips.
 - [ ] Validate/export the complete product, verify manifest and independent package checks; reconcile current main and remote before committing and publishing the accepted candidate.
 - [ ] Install through the existing journaled installer using a fresh rollback directory; compare actual before/after/backup contents, preserve unrelated native content, and run installed validation and discovery.
 - [ ] Record the exact release and practical evidence limits, seal the milestone and stop with automation paused.
