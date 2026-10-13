@@ -74,8 +74,8 @@
       "summary": "Design and evolve API contracts with directional consumer/provider compatibility, presence and null semantics, behavioral errors, scoped replay, concurrent writes, cursor consistency, and migration evidence.",
       "triggers": [
         "API contract design and evolution",
-        "old clients new server backward compatibility request response contract",
-        "new consumer old provider rolling deployment interface compatibility",
+        "prior-version clients upgraded server backward compatibility request response contract",
+        "upgraded consumer prior-version provider rolling deployment interface compatibility",
         "optional request field absent null default response enum unknown variant",
         "schema compatible API change breaks consumer behavior",
         "API error contract timeout after commit retry uncertain outcome",
