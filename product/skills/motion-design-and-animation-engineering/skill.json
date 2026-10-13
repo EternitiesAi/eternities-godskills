@@ -1,0 +1,17 @@
+{
+  "id": "motion-design-and-animation-engineering",
+  "category": "design",
+  "summary": "Build purposeful interactive motion with easing, spring choreography, gesture retargeting, responsive layout, cancellation and reduced-motion acceptance.",
+  "triggers": ["interactive animation spring choreography drag gesture layout", "drawer reverse smoothly tapped twice keyboard focus reduced motion", "staggered UI transitions easing cancellation targets change", "responsive entrance exit motion timing state feedback"],
+  "antiTriggers": ["simple one-property CSS transition", "ordinary graphics debugging", "encoded video only", "general art direction without animation"],
+  "taskTypes": ["plan", "build", "create", "verify"],
+  "specializes": "eternities-muse",
+  "related": ["eternities-daedalus", "accessibility-audit-and-remediation", "deterministic-video-composition-and-rendering", "scene-continuity-and-coverage"],
+  "resources": ["references/methods.md"],
+  "maturity": "instruction-reviewed",
+  "provenance": [
+    {"kind":"pattern-reference","source":"LottieFiles/motion-design-skill@f9a8a041b85185ee4881b3471d3415e939aac772:skills/motion-design/SKILL.md","note":"Observed working-body SHA-256 0fa7bd378776e776a9af528db040e5144127834c461ba7fb6805f47d13bc293d. Purpose, visual hierarchy, property/timing selection and choreography informed independent writing. Fixed duration tables, mandatory layers, universal nonlinear motion and archetype defaults were not adopted. Root MIT notice observed; no source prose, code or assets copied."},
+    {"kind":"pattern-reference","source":"199-biotechnologies/motion-dev-animations-skill@3feedfb4dba8adae40fc9a5f9a23e3dda2121205:SKILL.md","note":"Observed working-body SHA-256 97135f60be1b6299427fc3125ac3fc22ae368938fc44054b9db4c65cfbe9e709. Gesture, spring, layout and reduced-motion concerns informed neutral methods. Framework installation, copied templates, fixed spring parameters, frame-rate/GPU guarantees and claimed token savings were rejected. Root MIT notice observed; source dependency licenses do not transfer."},
+    {"kind":"authoring","source":"product/skills/motion-design-and-animation-engineering/","note":"Original focused specialist supplements Muse without rewriting its broad routes. Retargeting ownership, cleanup, coordinate and temporal checks are independently authored. Structural and instruction review do not establish device performance or aesthetic superiority."}
+  ]
+}

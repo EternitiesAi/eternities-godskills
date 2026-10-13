@@ -18,6 +18,7 @@ For smaller bundled methods and their separate review/execution states, use the 
 ## audio
 
 - [audio-dsp-integrity-review](skills/audio-dsp-integrity-review/SKILL.md): Review audio DSP across realtime deadline, numeric, and signal-graph lanes with exact findings, remediation, verification, and proof boundaries. Specialist of eternities-orpheus.
+- [deterministic-video-composition-and-rendering](skills/deterministic-video-composition-and-rendering/SKILL.md): Compose and render seekable frame-based video with frozen fonts and assets, exact cue clocks, recoverable jobs and verification of the encoded artifact. Specialist of eternities-orpheus.
 - [eternities-orpheus](skills/eternities-orpheus/SKILL.md): Create provenance, transcription, alignment, timeline, and reviewable local media artifacts from supplied audio.
 - [portable-speech-chunk-alignment](skills/portable-speech-chunk-alignment/SKILL.md): Prepare multilingual speech chunks with pronunciation decisions, Unicode-safe boundaries and traceable text-to-audio lineage, including partial or cancelled output. Specialist of eternities-orpheus.
 
@@ -54,6 +55,7 @@ For smaller bundled methods and their separate review/execution states, use the 
 - [eternities-muse](skills/eternities-muse/SKILL.md): Direct visual forensics, interface direction, operational data views, motion, accessibility, and rendered acceptance through coherent evidence.
 - [imaginative-concept-development](skills/imaginative-concept-development/SKILL.md): Explore and develop distinct concept mechanisms under constraints, then select by declared criteria without confusing invention with fact.
 - [interface-localization-and-bidirectionality](skills/interface-localization-and-bidirectionality/SKILL.md): Implement and verify locale-aware content, formatting, RTL/LTR layout, mixed-direction text, controls, accessibility, and human translation review. Specialist of eternities-muse.
+- [motion-design-and-animation-engineering](skills/motion-design-and-animation-engineering/SKILL.md): Build purposeful interactive motion with easing, spring choreography, gesture retargeting, responsive layout, cancellation and reduced-motion acceptance. Specialist of eternities-muse.
 - [scene-continuity-and-coverage](skills/scene-continuity-and-coverage/SKILL.md): Design storyboards and camera coverage on a shared scene timeline with expressive motion, coherent geography and continuity across edits. Specialist of eternities-muse.
 - [user-research-and-usability-study](skills/user-research-and-usability-study/SKILL.md): Plan neutral interviews and usability studies, preserve real participant observations and turn bounded findings into testable product improvements. Specialist of eternities-prometheus.
 

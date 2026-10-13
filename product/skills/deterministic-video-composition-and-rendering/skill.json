@@ -1,0 +1,17 @@
+{
+  "id": "deterministic-video-composition-and-rendering",
+  "category": "audio",
+  "summary": "Compose and render seekable frame-based video with frozen fonts and assets, exact cue clocks, recoverable jobs and verification of the encoded artifact.",
+  "triggers": ["render data driven MP4 seekable frame based composition jobs", "export scene random order seeks exact cue timing frozen fonts playback", "verify encoded programmatic video first transition final frames synchronized audio", "video composition timebase clip offsets overlaps render cache"],
+  "antiTriggers": ["transcription only", "live interface animation only", "storyboard only without rendering", "manual editing only"],
+  "taskTypes": ["plan", "build", "create", "verify", "recover"],
+  "specializes": "eternities-orpheus",
+  "related": ["eternities-muse", "motion-design-and-animation-engineering", "scene-continuity-and-coverage", "portable-speech-chunk-alignment", "experiment-artifact-lineage"],
+  "resources": ["references/methods.md"],
+  "maturity": "instruction-reviewed",
+  "provenance": [
+    {"kind":"pattern-reference","source":"iart-ai/motion-design-skills@3c129f769d90a1328c209c386492333c9ac62312:skills/remotion-video/SKILL.md","note":"Observed working-body SHA-256 07aa5f8ac9a28a271735ae163c9d41249b756c5826eff7b59723cbd9e6de2ce6. Frame-driven evaluation, local sequence clocks, asset readiness, data-driven compositions and output inspection informed original methods. Framework-specific APIs, code, commands and an automatic determinism guarantee were not copied. Root MIT notice observed; renderer/asset licensing remains separate."},
+    {"kind":"pattern-reference","source":"AbubakrChan/product-launch-motion@951d6149d2748a15058f79dcf8e8c4bf00824121:SKILL.md","note":"Observed working-body SHA-256 b00c82b13fc2b0c8e5fa6ca5e655a7ee9d47ae913acea443c1adeaf9162e309b. Source-truth, measured cue synchronization, delivered-file inspection, versioned iteration and brief-derived visual identity informed fresh writing. Fixed fourteen-step pipeline, mandatory voiceover/three directions, palette/shot laws, mastering numbers, templates and scripts were rejected. Root MIT notice observed."},
+    {"kind":"authoring","source":"product/skills/deterministic-video-composition-and-rendering/","note":"Independent renderer-neutral specialist supplements Orpheus without replacing transcription or scene-coverage owners. Rational time bases, source-trim arithmetic, nonsequential evaluation, cache ownership and recovery conditions are original synthesis. A verified instruction package is not a performed video render or universal determinism proof."}
+  ]
+}

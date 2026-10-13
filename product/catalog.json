@@ -536,6 +536,47 @@
       ]
     },
     {
+      "id": "deterministic-video-composition-and-rendering",
+      "category": "audio",
+      "summary": "Compose and render seekable frame-based video with frozen fonts and assets, exact cue clocks, recoverable jobs and verification of the encoded artifact.",
+      "triggers": [
+        "render data driven MP4 seekable frame based composition jobs",
+        "export scene random order seeks exact cue timing frozen fonts playback",
+        "verify encoded programmatic video first transition final frames synchronized audio",
+        "video composition timebase clip offsets overlaps render cache"
+      ],
+      "antiTriggers": [
+        "transcription only",
+        "live interface animation only",
+        "storyboard only without rendering",
+        "manual editing only"
+      ],
+      "taskTypes": [
+        "plan",
+        "build",
+        "create",
+        "verify",
+        "recover"
+      ],
+      "related": [
+        "eternities-muse",
+        "experiment-artifact-lineage",
+        "motion-design-and-animation-engineering",
+        "portable-speech-chunk-alignment",
+        "scene-continuity-and-coverage"
+      ],
+      "specializes": "eternities-orpheus",
+      "maturity": "instruction-reviewed",
+      "entrypoint": "skills/deterministic-video-composition-and-rendering/SKILL.md",
+      "entrypointSha256": "ba96605ba3dda38c5fb4334ff8833a3d2083dddb387071c4e250d7bd42ef6a94",
+      "resources": [
+        {
+          "path": "skills/deterministic-video-composition-and-rendering/references/methods.md",
+          "sha256": "aca6a4f916089d708eb4ef3ed8d63eee3f2b24847f766221b559ea861b360fb7"
+        }
+      ]
+    },
+    {
       "id": "diagnostic-statistical-model-inference",
       "category": "science",
       "summary": "Diagnose fit, assumptions, influence, uncertainty, and specification sensitivity before making descriptive, predictive, or causal claims.",
@@ -2345,6 +2386,45 @@
       "entrypoint": "skills/molecular-observable-integrity/SKILL.md",
       "entrypointSha256": "b12a8fb9fe39291b289eac55ee81f11df7baf274e088d5cb843fbc44256f7149",
       "resources": []
+    },
+    {
+      "id": "motion-design-and-animation-engineering",
+      "category": "design",
+      "summary": "Build purposeful interactive motion with easing, spring choreography, gesture retargeting, responsive layout, cancellation and reduced-motion acceptance.",
+      "triggers": [
+        "interactive animation spring choreography drag gesture layout",
+        "drawer reverse smoothly tapped twice keyboard focus reduced motion",
+        "staggered UI transitions easing cancellation targets change",
+        "responsive entrance exit motion timing state feedback"
+      ],
+      "antiTriggers": [
+        "simple one-property CSS transition",
+        "ordinary graphics debugging",
+        "encoded video only",
+        "general art direction without animation"
+      ],
+      "taskTypes": [
+        "plan",
+        "build",
+        "create",
+        "verify"
+      ],
+      "related": [
+        "accessibility-audit-and-remediation",
+        "deterministic-video-composition-and-rendering",
+        "eternities-daedalus",
+        "scene-continuity-and-coverage"
+      ],
+      "specializes": "eternities-muse",
+      "maturity": "instruction-reviewed",
+      "entrypoint": "skills/motion-design-and-animation-engineering/SKILL.md",
+      "entrypointSha256": "9f9f17e2bf49fa039f11239bbbc0adf9e98df12e21f1c1f8a8f3343d282719ea",
+      "resources": [
+        {
+          "path": "skills/motion-design-and-animation-engineering/references/methods.md",
+          "sha256": "8ce10c1e39145b619ef2e692a7dc501711173f2601fba34131a7f58d3399387b"
+        }
+      ]
     },
     {
       "id": "narrative-structure-and-revision",

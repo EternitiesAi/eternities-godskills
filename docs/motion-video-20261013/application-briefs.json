@@ -1,0 +1,51 @@
+{
+  "scope": "Two synthetic planning applications; no browser, GPU, encoder or provider execution requested.",
+  "applications": [
+    {
+      "id": "interrupted-modal-drawer",
+      "skill": "motion-design-and-animation-engineering",
+      "request": "Apply the method to a fixture plan for a modal drawer. Explain the state/ownership results, not just a generic checklist.",
+      "input": {
+        "coordinateUnit": "CSS px",
+        "closedTarget": 0,
+        "openTarget": 100,
+        "openingRequest": 1,
+        "closeRequest": 2,
+        "latestReopenRequest": 3,
+        "poseAtCloseRequest": 40,
+        "velocityAtCloseRequest": 75,
+        "velocityUnit": "CSS px/second",
+        "lateCompletionRequest": 2,
+        "currentRequestWhenLateCompletionArrives": 3,
+        "reducedMotionBecomesEnabledWhileRequest3IsOpening": true,
+        "initialFocus": "open-button",
+        "focusAfterLatestReopen": "first-control-in-drawer"
+      },
+      "outputFields": ["id", "retargetFrom", "newCloseTarget", "lateCompletionMayCommit", "stateAfterReducedMotion", "focusAfterLateCompletion", "cleanup", "boundaryCases", "evidenceLimits"]
+    },
+    {
+      "id": "fractional-rate-programmatic-clip",
+      "skill": "deterministic-video-composition-and-rendering",
+      "request": "Apply the method to an explicit timeline/render-recovery planning fixture. Compute all frame and cue values from the supplied data; identify blockers and evidence boundaries.",
+      "input": {
+        "fpsNumerator": 24000,
+        "fpsDenominator": 1001,
+        "intervalConvention": "half-open",
+        "clipA": [0, 72],
+        "clipB": [54, 150],
+        "cueInBSourceSeconds": 1.05,
+        "sourceTrimSeconds": 0.3,
+        "cueRounding": "nearest integer, positive half ties upward",
+        "requestedFrameOrder": [149, 0, 72, 72, 54],
+        "requiredFontReady": false,
+        "fontSubstitutionAuthorized": false,
+        "renderSegments": [
+          {"range": [0, 50], "state": "confirmed complete with matching dependencies"},
+          {"range": [50, 100], "state": "dispatch outcome unknown"},
+          {"range": [100, 150], "state": "confirmed failed"}
+        ]
+      },
+      "outputFields": ["id", "overlapFrames", "compositionFrames", "lastFrame", "durationSeconds", "cueClipSeconds", "cueLocalFrame", "cueGlobalFrame", "cueGlobalFrameSeconds", "quantizationErrorSeconds", "localBFrameAtGlobal72", "seekContract", "encodeReady", "recovery", "evidenceLimits"]
+    }
+  ]
+}
