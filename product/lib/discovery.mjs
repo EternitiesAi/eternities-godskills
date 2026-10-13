@@ -37,7 +37,41 @@ function learnerRequestText(query) {
     .join(' ');
 }
 
+// A finite requested-output boundary for frame-based media methods. Quoted
+// instructions and explicitly refused production clauses are source material,
+// not a request to render. This is not general English scope inference.
+function videoRequestText(query) {
+  return query.replace(quotedRequestMaterial, ' ')
+    .split(/[.!?;]+|\b(?:but|instead)\b/iu)
+    .filter(clause => {
+      const text = normalize(clause);
+      return !/\b(?:do not|don t|never|no need to|avoid)\s+(?:render\w*|encod\w*|export\w*|compos\w*|produc\w*)\b/.test(text) &&
+        !/\b(?:manual (?:video )?editor|by hand|no (?:code driven|programmatic) composition)\b/.test(text);
+    })
+    .join(' ');
+}
+
 const profiles = [
+  {
+    name: 'requested frame-based video output',
+    requireRequestedCues: true,
+    prepare: videoRequestText,
+    cues: [
+      ['video or seekable scene artifact', /\b(?:video|film|mp4|webm|gif|encode\w*|clips?|scene)\b/],
+      ['production, inspection or seek action', /\b(?:render\w*|export\w*|encod\w*|compos\w*|create|design|build|make|verify|check|recover|reconcile|seek\w*|scrub\w*|assemble|produce|batch)\b/],
+      ['frame, timeline or programmatic dependency', /\b(?:frames?|seek\w*|scrub\w*|timeline|programmatic|cues?|fonts?|assets?|props|chunks?|timebase|time base|clip offsets)\b/],
+    ],
+    metadata: [/\bseekable\b/, /\bframe based\b/, /\b(?:programmatic video|video composition|encoded artifact)\b/],
+  },
+  {
+    name: 'interactive motion continuity',
+    cues: [
+      ['interface object', /\b(?:panels?|cards?|drawers?|modals?|menus?|interface|ui)\b/],
+      ['motion action', /\b(?:animate\w*|fling\w*|drag\w*|open|close|retarget\w*|remeasure\w*)\b/],
+      ['continuity or geometry change', /\b(?:position|speed|velocity|destination|scroll\w*|resiz\w*|geometry|web font|layout)\b/],
+    ],
+    metadata: [/\binteractive motion\b/, /\bgesture retargeting\b/, /\bresponsive layout\b/],
+  },
   {
     name: 'learner-model explanation',
     // A corroborated requested activity takes precedence over incidental topic
@@ -140,6 +174,7 @@ export function lexicalQueryEvidence(query) {
 export function lexicalIntentMatch(item, evidence) {
   const text = normalize(`${item.summary} ${item.triggers.join(' ')}`);
   const matched = evidence.intents.filter(profile => profile.metadata.every(pattern => pattern.test(text)));
+  const required = profiles.filter(profile => profile.requireRequestedCues && profile.metadata.every(pattern => pattern.test(text)));
   // Preserve the capped score component. The narrowly corroborated teaching
   // request has a separate ordering tier so arbitrary keyword overlap cannot
   // defeat it. Neither the tier nor score proves semantic applicability.
@@ -147,5 +182,6 @@ export function lexicalIntentMatch(item, evidence) {
     score: matched.length ? 60 : 0,
     prioritizeRequestedActivity: matched.some(profile => profile.prioritizeRequestedActivity),
     reasons: matched.map(profile => `Lexical intent: ${profile.name}; cues: ${profile.cues.map(([name]) => name).join(', ')}${profile.prioritizeRequestedActivity ? '; ordering: corroborated teaching request before incidental keyword matches' : ''}`),
+    ...(required.length ? {eligible:required.every(profile=>evidence.intents.includes(profile))} : {}),
   };
 }

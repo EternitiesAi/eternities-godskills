@@ -11,7 +11,8 @@ ties, and bounded lexical intent profiles. A profile requires several request
 cues and matching skill metadata; it does not identify a skill from an exact
 query lookup. Profiles cover written voice, interpersonal clarification,
 task-record recovery, delivery completeness, sustained-work reconciliation,
-corroborated usability-observation synthesis, and learner-model explanation.
+corroborated usability-observation synthesis, learner-model explanation,
+interactive motion continuity, and requested frame-based video output.
 
 The usability profile requires people performing a task, observed interaction,
 a findings action, and an interface or task artifact. Isolated usability words
@@ -34,9 +35,24 @@ each tier, the existing score and stable ID tie-break remain unchanged. Scores
 need not descend across tiers and are not confidence values. The reason reports
 this ordering. Category/task filters, anti-triggers and host no-need still apply.
 
-This profile alone omits balanced quoted material and recognized refusal or
+This learner profile omits balanced quoted material and recognized refusal or
 historical clauses. It is not general negation, discourse or multilingual
 understanding. Merely mentioning training or a model does not supply a request.
+
+## Requested media and interactive motion
+
+The frame-based video profile requires an artifact/encode purpose, a production,
+inspection or recovery action, and a frame/timeline/dependency cue. Meaning-bearing
+metadata binds this requirement to seekable frame-based video methods, not a
+hard-coded skill ID. Shared game-audio cue words alone cannot admit that method.
+Balanced quoted material and finite refused-production/manual-editing clauses
+are omitted for this profile. An exact skill ID remains addressable for inspection.
+
+The motion-continuity bonus requires an interface object, motion action and
+position/speed or geometry-change cue, with matching motion metadata. These are
+finite English retrieval rules, not a general language model: unsupported
+negation, mixed purposes or multilingual wording still require host judgment.
+Neither profile selects a skill, installs an engine or grants action authority.
 
 ## Need and narrow exclusions
 

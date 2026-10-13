@@ -172,7 +172,9 @@ export function searchCatalog(catalog,query,{limit=5,category,taskType,need='unk
     let score=0;const matched=new Set();
     for(const field of doc.fields){const tokens=new Set(words(field.text));for(const term of expanded)if(tokens.has(term)){const direct=base.includes(term);score+=field.weight*(direct?1:0.25)*Math.log(1+docs.length/(1+(frequency.get(term)||0)));matched.add(term);}}
     if(query.trim().toLowerCase()===item.id){score+=100;matched.add(item.id);}
-    const intent=lexicalIntentMatch(item,evidence);score+=intent.score;
+    const intent=lexicalIntentMatch(item,evidence);
+    if(intent.eligible===false&&normalizedQuery!==item.id)continue;
+    score+=intent.score;
     if(!score)continue;
     const candidate={id:item.id,category:item.category,entrypoint:item.entrypoint,entrypointSha256:item.entrypointSha256,summary:item.summary,maturity:item.maturity,taskTypes:item.taskTypes,antiTriggers:item.antiTriggers,score:Math.round(score*1000)/1000,reasons:[...(matched.size?[`Matched: ${[...matched].sort(cmp).join(', ')}`]:[]),...intent.reasons],related:item.related,...(item.specializes?{specializes:item.specializes}:{})};
     candidates.push(candidate);requestPriority.set(candidate,intent.prioritizeRequestedActivity?1:0);

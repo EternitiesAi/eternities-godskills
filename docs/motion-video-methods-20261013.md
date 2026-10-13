@@ -1,6 +1,6 @@
 # Motion and video method refinement, 2026-10-13
 
-Status: **candidate; independent review and consuming applications pending**. This document is not a published-release or installation claim.
+Status: **repaired candidate; v2 independent review and release checks pending**. This document is not a published-release or installation claim.
 
 Dom resumed Godskills development after the verified 85-entrypoint milestone at
 `43f6dd19742639ea06f79df3662fa5002b1a565e`, portable release
@@ -61,3 +61,24 @@ Current ownership remains parent integration and installation. Existing saved
 automations stay paused. No acquired source execution, new web acquisition,
 paid provider invocation, account/security change, R10 application or unrelated
 project is authorized by this milestone.
+
+## Preserved v1 review and bounded repair
+
+Independent v1 review of `79f1a2e76e2ef290d775672e481668e0a1b71e07`
+returned REPAIR: shared audio/cue/overlap terms displaced the established game
+owner despite no requested video. The original report and exact-input receipts
+are preserved. Three paraphrase misses and a manual-only false positive were
+recorded as nonblocking retrieval limitations, not concealed or relabeled.
+
+The repair requires affirmative frame-based media applicability, adds a narrow
+interactive-motion continuity bonus, and keeps exact ID inspection available.
+The four revealed reviewer challenges are now development regressions, not
+held-out tests. All 63 affected local checks passed after repair; a fresh full
+suite and separate repaired-tree review are still required. The historical
+68-entry fixture remains exact; its addition whitelist admits only the previous
+17 specialists and these two new IDs, rather than weakening preservation checks.
+
+A separate consumer completed two non-blinded text/planning applications using
+the original four instruction/reference files and a frozen synthetic brief.
+The parent has not yet recorded its acceptance. No live interface, encoded
+artifact, device performance, aesthetics or universal superiority follows.

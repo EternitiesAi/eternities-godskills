@@ -14,7 +14,7 @@ const productRoot = resolve(
 const baselineCatalogUrl = new URL("./core2260-catalog.json", import.meta.url);
 const frozenCoreCatalogSha256 = "57d47c0a9692dc21caa0e7909ee6c557cd5ef5cc4e09b968df079cc81f86aecf";
 // Preserve the exact historical 68-skill projection while explicitly admitting
-// only the cognitive, October3 professional and reviewed next-eight additions.
+// only the cognitive, October3 professional, next-eight and motion/video additions.
 // Historical fixture bytes and all 68 core scoring fields stay exact.
 const cognitiveSkillIds = [
   "completeness-and-consistency-audit",
@@ -39,7 +39,11 @@ const nextEightSkillIds = [
   "schema-migration-and-backfill-safety",
   "service-observability-and-slo-design",
 ];
-const admittedAdditionIds = [...cognitiveSkillIds, ...professionalSkillIds, ...nextEightSkillIds].sort();
+const motionVideoSkillIds = [
+  "deterministic-video-composition-and-rendering",
+  "motion-design-and-animation-engineering",
+];
+const admittedAdditionIds = [...cognitiveSkillIds, ...professionalSkillIds, ...nextEightSkillIds, ...motionVideoSkillIds].sort();
 const intentionalDiscoveryResource = {
   owner: "eternities-omnibus",
   path: "skills/eternities-omnibus/references/methods.md",
