@@ -1,0 +1,45 @@
+{
+  "schema": "godskills-independent-review-artifact-sha256-v2",
+  "status": "frozen-review-output",
+  "verdict": "REPAIR",
+  "candidate": "ade33b36490dd9b5ac02860dacf25853fe334773",
+  "priorCandidate": "79f1a2e76e2ef290d775672e481668e0a1b71e07",
+  "baseline": "43f6dd19742639ea06f79df3662fa5002b1a565e",
+  "observedUtc": "2026-10-13T06:42:18.449Z",
+  "reviewedInputManifestSha256": "b23a9dbaa8c1592c31c54093b10a03d78268d4ed493d7f847afe7e293fbb81ca",
+  "sealingVerification": {
+    "count": 27,
+    "mismatches": [],
+    "head": "ade33b36490dd9b5ac02860dacf25853fe334773",
+    "porcelain": "",
+    "observedUtc": "2026-10-13T06:40:14.580Z"
+  },
+  "artifacts": [
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v2/report.md",
+      "bytes": 12163,
+      "sha256": "b909617c0a520d97f1cb40569fb16a27c5a7ee525e0d52bb73ba88d56cfed351"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v2/reviewed-input-sha256.json",
+      "bytes": 21359,
+      "sha256": "06cb27c0f3ce9742702e889ab39f70886b88ceb52b7ff9938eeda0cff5d38fda"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v2/checks-v2.json",
+      "bytes": 26127,
+      "sha256": "81e91a73b5fce0d6fcd0e11330cc46c41ba8f923b007b88c8c7347e574cd5b8d"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v2/focused-tests.txt",
+      "bytes": 7652,
+      "sha256": "39ce85a4e4990655fb67e29614df442118d32024173abf3c35f38db01607d90f"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v2/audio-only-and-sealing.json",
+      "bytes": 1489,
+      "sha256": "db4455b1e4a0f23abf8416a11192cbae6fad3eefd5c4a6374fb13f091550caf6"
+    }
+  ],
+  "immutability": "V1 and v2 are preserved review snapshots. Future repair/review must use a new versioned directory; no filesystem read-only attribute or cryptographic signature is claimed."
+}

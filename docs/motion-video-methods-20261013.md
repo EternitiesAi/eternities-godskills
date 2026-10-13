@@ -1,6 +1,8 @@
 # Motion and video method refinement, 2026-10-13
 
-Status: **repaired candidate; v3 independent review and release checks pending**. This document is not a published-release or installation claim.
+Status: **instruction/package milestone qualified; installation pending**.
+The reviewed implementation is `0ef769c45ed059f1db7a8117e8447acc40fe907d`.
+Publication/integration and local installation are separate actions below.
 
 Dom resumed Godskills development after the verified 85-entrypoint milestone at
 `43f6dd19742639ea06f79df3662fa5002b1a565e`, portable release
@@ -93,3 +95,53 @@ corroborates scene use, restores plurals and out-of-order scene evaluation, and
 records the revealed cases as development controls. No general semantic intent
 or arbitrary-negation claim follows. The previous85 payloads and six new skill
 files remain exact through these code-only repairs.
+
+## Accepted qualification and portable export
+
+The final v3 independent code/instruction review returned READY:72 focused
+checks and9 exact affected-query replays passed. Parent verified all32 addressed
+input hashes and output receipts before publication. All250 prior skill files,
+six new payloads, historical fixture and three protected activation files remain
+exact. The original independent [v1 REPAIR](motion-video-20261013/qualification/review-v1.md),
+[v2 REPAIR](motion-video-20261013/qualification/review-v2.md) and
+[v3 READY](motion-video-20261013/qualification/review-v3.md) reports are retained.
+
+The final complete suite registered1708 tests:1706 passed,0 failed,2 skipped.
+The existing Windows skips are unavailable symbolic-link creation and the
+different-volume installation control. Full candidate log SHA-256:
+`bb86d51fffe71dfaf8e82d0392650e55b783b708fcc75463e3c25f44aa090ed5`.
+That suite is parent evidence; the reviewer did not repeat or certify it.
+
+The separate [portable audit](motion-video-20261013/qualification/portable-v3.md)
+accepted all290 ZIP/extracted files and9 CLI checks from an empty unrelated
+working directory on the existing host. Relative to v2,287 files are unchanged;
+only discovery guidance, its module and release manifest changed. A resolved
+audit-output capture failure remains preserved, not overwritten or confused with
+a product failure. This is not a fresh operating-system installation or agent UI
+discovery test.
+
+Exact portable release ID:
+`87654db51a9f9fd6419c8d0105ab768682e1e7516c7737059cf7880b6c91fa0a`.
+The [87-entrypoint ZIP](../artifacts/releases/godskills-product-20261013-87654db5.zip)
+has SHA-256 `59b0789f9368de925de9a2575b94580f9b6a349dc408128d74dbfbd413095fd7`.
+The ZIP contains only the standalone product, not local source copies, provider
+credentials, Keel continuity, native backups or research-worktree material.
+
+The [synthetic consuming applications](motion-video-20261013/qualification/application-results.json)
+and [parent acceptance](motion-video-20261013/qualification/parent-application-acceptance.json)
+retain24 required fields and exact input identities. Their discrete motion state,
+cue arithmetic, missing-font hold and uncertain-dispatch policy were checked.
+No browser, encoded film, GPU/device trace, comparative raw-agent result or human
+aesthetic acceptance was produced. The existing unit-speed cue example remains
+correct for that assumption; retimed/reversed/ramped sources need their declared
+source-to-clip mapping. It is not a universal playback-rate formula.
+
+## Integration and installation boundary
+
+Integration requires current-main reconciliation, unchanged product identity and
+passing merged verification. Local installation uses a new journaled rollback
+backup and exact before/after native/runtime inventories, preserving unrelated
+skills. Do not infer either completed action from the review verdict or this
+qualification document. A separate installation closeout will record observed
+deployment, if completed. Saved automations remain paused and no R10/source
+terminal outcomes follow from this87-entrypoint release.

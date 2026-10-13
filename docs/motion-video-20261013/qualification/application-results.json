@@ -1,0 +1,671 @@
+{
+  "applications": [
+    {
+      "id": "interrupted-modal-drawer",
+      "skill": "motion-design-and-animation-engineering",
+      "retargetFrom": {
+        "pose": 40,
+        "velocity": 75,
+        "coordinateUnit": "CSS px",
+        "velocityUnit": "CSS px/second",
+        "newRequest": 2,
+        "supersededRequest": 1
+      },
+      "newCloseTarget": 0,
+      "lateCompletionMayCommit": false,
+      "stateAfterReducedMotion": "open",
+      "focusAfterLateCompletion": "first-control-in-drawer",
+      "cleanup": {
+        "ownership": "One writer owns the drawer pose. Its completion token contains request identity, mount generation and effect generation; cancellation invalidates the effect token.",
+        "onCloseRequest2": "Supersede request 1, capture pose 40 and trustworthy velocity +75, and retarget to 0. Preserve that positive velocity rather than restarting at 100 or forcing an instantaneous sign reversal.",
+        "onReopenRequest3": "Supersede request 2 and capture the then-current pose and velocity. Their numeric values are not supplied. The latest target is 100, and focus moves to first-control-in-drawer without waiting for animation completion.",
+        "onLateRequest2Completion": "Reject the callback before any pose, semantic state, focus, content-removal or announcement write. It cannot release the current modal's focus containment.",
+        "onReducedMotionEnabled": "Cancel the current motion loop and invalidate its completion token; settle the current request 3 directly at pose 100 with velocity 0. Preserve its open semantics and focus. Do not replay requests 1 or 2.",
+        "onUnmount": "Invalidate the mount generation, cancel scheduled frames/timelines, and dispose owned listeners, observers and temporary rendering hints. Callbacks from that generation cannot act on a later remount.",
+        "onVisibilityOrGeometryChange": "Pause and deliberately rebase elapsed time/geometry. Recompute the current target when layout changes; bound elapsed-time steps if a numerical integrator is used.",
+        "resourceObservation": "These are required cleanup outcomes in the fixture plan; resource disposal has not been observed in a running application."
+      },
+      "boundaryCases": [
+        {
+          "case": "rapid open-close-open",
+          "expected": "Current request is 3, target is 100, focus is first-control-in-drawer. Request 2 cannot commit even if it reports successful arrival at 0."
+        },
+        {
+          "case": "close while still moving toward open",
+          "expected": "Request 2 begins at pose 40 and velocity +75 CSS px/second. Reversing the target does not itself negate the captured velocity."
+        },
+        {
+          "case": "late completion before or after the preference change",
+          "expected": "Request 2 fails request ownership in either order; no closed-state, focus-return or content-removal effect is permitted."
+        },
+        {
+          "case": "old request 3 callback after reduced-motion settlement",
+          "expected": "Matching request identity alone is insufficient: its cancelled effect generation is invalid. It cannot overwrite or repeat the already-settled open result."
+        },
+        {
+          "case": "duplicate activation/completion",
+          "expected": "Use idempotent semantic commits. Repeated open activation targets 100; repeating an already-consumed completion token cannot repeat focus or announcements."
+        },
+        {
+          "case": "unmount then remount with a reused request number",
+          "expected": "An old callback still fails the mount-generation check; do not treat reused request identity as ownership."
+        },
+        {
+          "case": "large elapsed-time step after hidden-tab resume",
+          "expected": "Apply a documented bounded-step/rebase policy. Preserve the latest meaningful state; no numerical explosion or stale completion is acceptable. No numerical limit is inferred from the brief."
+        },
+        {
+          "case": "resize/content change while moving",
+          "expected": "Measure in the declared CSS-pixel coordinate space and retarget from the current pose. Do not keep an obsolete layout target."
+        },
+        {
+          "case": "keyboard access during movement",
+          "expected": "Open semantics, usable controls, focus containment and announcements follow the latest requested meaningful state without depending on decorative arrival."
+        }
+      ],
+      "evidenceLimits": [
+        "Independent consuming application of visible candidate text to a supplied synthetic brief; this application is non-blinded.",
+        "Discrete state and ownership values are derived from the brief and the consumer's explicit contract. No production state machine, browser, spring engine or assistive technology was executed.",
+        "Pose and velocity at request 3's arrival are unspecified; the pre-preference trajectory, reversal time, overshoot and settling duration cannot be computed. Reduced-motion settlement has the derived endpoint pose 100 and velocity 0.",
+        "No mass, stiffness, damping, integration method or stopping tolerances are supplied. Physical tuning and elapsed-time stability remain unmeasured.",
+        "Focus and cleanup results are planned assertions, not observed DOM focus or resource traces. Smoothness, device performance, accessibility compliance and human aesthetic acceptance remain unmeasured."
+      ],
+      "stateAndOwnership": {
+        "coordinateUnit": "CSS px",
+        "timeBase": "seconds",
+        "positionWriterCount": 1,
+        "completionMayCommitRule": "token.request === currentRequest && token.mountGeneration === currentMountGeneration && token.effectGeneration === activeEffectGeneration && token.cancelled === false && token.consumed === false",
+        "lateCompletionCheck": {
+          "callbackRequest": 2,
+          "currentRequest": 3,
+          "requestMatches": false,
+          "mayCommit": false
+        },
+        "currentRequestAfterReducedMotion": 3,
+        "requestedTargetAfterReducedMotion": 100,
+        "poseAfterReducedMotion": 100,
+        "velocityAfterReducedMotion": 0,
+        "velocityUnit": "CSS px/second",
+        "motionPhaseAfterReducedMotion": "settled",
+        "desiredOpen": true,
+        "semanticState": "open",
+        "modalFocusContainment": "active while this drawer owns the open modal state",
+        "initialFocus": "open-button",
+        "focusAfterReopenAndAfterReducedMotion": "first-control-in-drawer",
+        "latestReopenPoseBeforeReducedMotion": null,
+        "latestReopenVelocityBeforeReducedMotion": null,
+        "unknownReason": "No elapsed time or intermediate trajectory is supplied between requests 2 and 3.",
+        "additionalConsumerChoice": "Effect-generation invalidation supplements the method's request and mount ownership so a preference change can cancel motion without inventing request 4."
+      },
+      "fixturePlan": [
+        {
+          "step": 1,
+          "trigger": "opening request 1",
+          "suppliedState": {
+            "closedTarget": 0,
+            "openTarget": 100,
+            "initialFocus": "open-button"
+          },
+          "expected": {
+            "currentRequest": 1,
+            "target": 100
+          },
+          "observation": "Record request, lifecycle/effect tokens, pose, velocity, semantic state and focus; do not invent an opening duration."
+        },
+        {
+          "step": 2,
+          "trigger": "close request 2",
+          "suppliedState": {
+            "pose": 40,
+            "velocity": 75
+          },
+          "expected": {
+            "currentRequest": 2,
+            "target": 0,
+            "initialPose": 40,
+            "initialVelocity": 75
+          },
+          "observation": "Assert continuity at retarget and revoke request 1's completion authority."
+        },
+        {
+          "step": 3,
+          "trigger": "reopen request 3",
+          "suppliedState": {
+            "focusAfterLatestReopen": "first-control-in-drawer"
+          },
+          "expected": {
+            "currentRequest": 3,
+            "target": 100,
+            "focus": "first-control-in-drawer"
+          },
+          "observation": "Capture the real current pose/velocity if this plan is implemented; those values are unknown in this text fixture."
+        },
+        {
+          "step": 4,
+          "trigger": "late completion from request 2",
+          "suppliedState": {
+            "lateCompletionRequest": 2,
+            "currentRequest": 3
+          },
+          "expected": {
+            "mayCommit": false,
+            "desiredOpen": true,
+            "focus": "first-control-in-drawer"
+          },
+          "observation": "Assert zero stale writes to semantic state, focus, content lifetime and announcements."
+        },
+        {
+          "step": 5,
+          "trigger": "reduced motion becomes enabled during request 3",
+          "suppliedState": {
+            "currentRequest": 3,
+            "reducedMotion": true
+          },
+          "expected": {
+            "currentRequest": 3,
+            "semanticState": "open",
+            "pose": 100,
+            "velocity": 0,
+            "focus": "first-control-in-drawer"
+          },
+          "observation": "Cancel the effect token and settle the latest request immediately; test the stale request 2 callback on both sides of this event."
+        },
+        {
+          "step": 6,
+          "trigger": "cleanup and callbacks after disposal",
+          "expected": {
+            "liveMotionLoops": 0,
+            "ownedListenersAndObservers": 0,
+            "staleCallbackWrites": 0
+          },
+          "observation": "These zero counts are fixture acceptance targets, not measurements from a runtime."
+        }
+      ]
+    },
+    {
+      "id": "fractional-rate-programmatic-clip",
+      "skill": "deterministic-video-composition-and-rendering",
+      "overlapFrames": 18,
+      "compositionFrames": 150,
+      "lastFrame": 149,
+      "durationSeconds": 6.25625,
+      "cueClipSeconds": 0.75,
+      "cueLocalFrame": 18,
+      "cueGlobalFrame": 72,
+      "cueGlobalFrameSeconds": 3.003,
+      "quantizationErrorSeconds": 0.00075,
+      "localBFrameAtGlobal72": 18,
+      "seekContract": {
+        "frameDomain": {
+          "kind": "integer",
+          "minimum": 0,
+          "maximumInclusive": 149,
+          "interval": [
+            0,
+            150
+          ],
+          "intervalConvention": "half-open"
+        },
+        "evaluation": "Evaluate a requested global frame from immutable scene inputs and the declared rational clock; no prior frame, wall clock or playback-order dependence.",
+        "localClock": "For active B, localBFrame = globalFrame - 54. For active A, localAFrame = globalFrame. Use timeSeconds = frame * 1001 / 24000.",
+        "requestedFrameOrder": [
+          149,
+          0,
+          72,
+          72,
+          54
+        ],
+        "derivedClockAndMembership": [
+          {
+            "requestIndex": 0,
+            "globalFrame": 149,
+            "globalSeconds": 6.214541666666666,
+            "globalSecondsExact": "149149/24000",
+            "activeA": false,
+            "localAFrame": null,
+            "activeB": true,
+            "localBFrame": 95
+          },
+          {
+            "requestIndex": 1,
+            "globalFrame": 0,
+            "globalSeconds": 0,
+            "globalSecondsExact": "0/1",
+            "activeA": true,
+            "localAFrame": 0,
+            "activeB": false,
+            "localBFrame": null
+          },
+          {
+            "requestIndex": 2,
+            "globalFrame": 72,
+            "globalSeconds": 3.003,
+            "globalSecondsExact": "3003/1000",
+            "activeA": false,
+            "localAFrame": null,
+            "activeB": true,
+            "localBFrame": 18
+          },
+          {
+            "requestIndex": 3,
+            "globalFrame": 72,
+            "globalSeconds": 3.003,
+            "globalSecondsExact": "3003/1000",
+            "activeA": false,
+            "localAFrame": null,
+            "activeB": true,
+            "localBFrame": 18
+          },
+          {
+            "requestIndex": 4,
+            "globalFrame": 54,
+            "globalSeconds": 2.25225,
+            "globalSecondsExact": "9009/4000",
+            "activeA": true,
+            "localAFrame": 54,
+            "activeB": true,
+            "localBFrame": 0
+          }
+        ],
+        "repeatedFrame72": {
+          "occurrencesAtRequestIndices": [
+            2,
+            3
+          ],
+          "localBFrame": 18,
+          "globalSeconds": 3.003,
+          "requiredResult": "Same canonical scene values for both requests under the same frozen dependency identity."
+        },
+        "comparisonContract": {
+          "sceneValues": "Require exact equality of canonical scene values for the same frame under frozen inputs/configuration.",
+          "decodedImages": "A separate rendered-image contract must specify environment and pixel tolerance; none is evaluated here.",
+          "encodedBytes": "No byte-identity assertion across encoders, devices or renderers."
+        },
+        "randomness": "If needed, derive randomness from a frozen seed plus stable object/frame identity; never advance shared randomness according to seek order.",
+        "fontPolicy": "The exact required font must be ready. Fail or remain blocked while it is unavailable; font substitution is unauthorized.",
+        "plannedOrderChecks": [
+          "ascending",
+          "descending",
+          "repeated",
+          "supplied shuffled order"
+        ],
+        "executedEvidence": "The listed clocks and membership were calculated in this text application. No scene evaluator or rendered-image comparison ran."
+      },
+      "encodeReady": false,
+      "recovery": {
+        "readinessBlocker": {
+          "requiredFontReady": false,
+          "fontSubstitutionAuthorized": false,
+          "action": "Hold encode and any new rendering that depends on the required font. Do not replace it silently.",
+          "currentDispatchAuthorized": false
+        },
+        "ownership": {
+          "ranges": [
+            [
+              0,
+              50
+            ],
+            [
+              50,
+              100
+            ],
+            [
+              100,
+              150
+            ]
+          ],
+          "rangeConvention": "half-open",
+          "nonoverlapping": true,
+          "contiguous": true,
+          "plannedCoveredFrames": 150,
+          "eachSegmentFrames": 50,
+          "firstMissingOutputFrame": 50,
+          "confirmedCompletedFrames": 50,
+          "unknownDispatchFrames": 50,
+          "confirmedFailedFrames": 50,
+          "actualCompleteFilmEstablished": false
+        },
+        "segments": [
+          {
+            "range": [
+              0,
+              50
+            ],
+            "suppliedState": "confirmed complete with matching dependencies",
+            "action": "Reuse the existing matching output and retain its receipt; do not render it again merely to restart the batch.",
+            "reuseEligible": true,
+            "retryNow": false,
+            "evidence": "Completion and dependency match are supplied brief facts, not independently inspected render outputs."
+          },
+          {
+            "range": [
+              50,
+              100
+            ],
+            "suppliedState": "dispatch outcome unknown",
+            "action": "Reconcile the original job/dispatch receipt before deciding whether another attempt is safe; preserve UNKNOWN while evidence is missing.",
+            "reuseEligible": null,
+            "retryNow": false,
+            "reconcileBranches": {
+              "confirmedCompleteAndMatching": "Adopt the original output and receipt.",
+              "confirmedRunning": "Continue waiting under that job's ownership.",
+              "confirmedFailedOrAuthoritativelyAbsent": "A retry becomes eligible after required dependencies are ready.",
+              "stillUnknown": "Hold; do not create duplicate work."
+            }
+          },
+          {
+            "range": [
+              100,
+              150
+            ],
+            "suppliedState": "confirmed failed",
+            "action": "Retain the failure receipt. Retry only this failed range once readiness and the frozen job identity are established, using a distinct attempt/output destination.",
+            "reuseEligible": false,
+            "retryEligibleAfterReadiness": true,
+            "retryNow": false
+          }
+        ],
+        "jobIdentityFields": [
+          "scene/source revision",
+          "props/data",
+          "seed if used",
+          "asset and exact font digests",
+          "24000/1001 time base",
+          "half-open segment range",
+          "output dimensions",
+          "renderer configuration",
+          "encoder/container/audio configuration"
+        ],
+        "cachePolicy": "Match relevant dependencies for each frame/audio/encode cache. Readiness failure alone does not contradict the brief's prior matching-cache fact; a changed font identity, cue, trim or caption requires relevant invalidation.",
+        "assemblyGate": "Require accepted outputs for exactly [0,150), matching declared dependencies, a defined codec/container and audio-continuity contract, and verification of the assembled artifact. Segment success alone does not establish a correct film.",
+        "destinationPolicy": "Retain completed and failed historical artifacts; new attempts use versioned or staged destinations. No filesystem render destination was created by this application.",
+        "actualRecoveryOperationsPerformed": []
+      },
+      "evidenceLimits": [
+        "Non-blinded text/planning application, with integer/rational arithmetic performed by consumer-authored calculations; no candidate or upstream code was executed.",
+        "Cue and segment values come from the synthetic brief. No source audio, font files, rendered frames, job receipts or encoded film were supplied or inspected.",
+        "Required font unreadiness is an explicit blocker to encoding, and substitution is unauthorized. This does not prevent completion of the requested planning fixture.",
+        "Output dimensions, asset/font identities, props/seed, renderer/encoder settings, audio policy and visual overlap/blending direction are not supplied. They must be bound before a real render job, but are unnecessary for the derived timeline arithmetic.",
+        "Seekability, image equivalence, resource use, assembled-film integrity, timing of real speech and creative acceptance remain unmeasured.",
+        "No browser, GPU, encoder, provider, paid invocation, comparative performance evaluation or whole-product readiness certification was performed."
+      ],
+      "clockDerivations": {
+        "fps": {
+          "numerator": 24000,
+          "denominator": 1001,
+          "decimal": 23.976023976023978
+        },
+        "frameDurationSecondsExact": "1001/24000",
+        "clipA": {
+          "range": [
+            0,
+            72
+          ],
+          "activeFrames": "0 through 71",
+          "frameCount": 72
+        },
+        "clipB": {
+          "range": [
+            54,
+            150
+          ],
+          "activeFrames": "54 through 149",
+          "frameCount": 96
+        },
+        "overlap": {
+          "range": [
+            54,
+            72
+          ],
+          "formula": "max(0, min(72,150) - max(0,54))",
+          "frames": 18
+        },
+        "composition": {
+          "range": [
+            0,
+            150
+          ],
+          "formula": "max(72,150) - 0",
+          "frames": 150,
+          "durationSecondsExact": "1001/160",
+          "lastFrameTimestampSeconds": 6.214541666666666,
+          "lastFrameTimestampSecondsExact": "149149/24000"
+        },
+        "sourceCueSeconds": 1.05,
+        "sourceTrimSeconds": 0.3,
+        "cueClipSecondsFormula": "1.05 - 0.3 = 3/4 second",
+        "cueClipSecondsExact": "3/4",
+        "cueLocalFrameUnroundedExact": "18000/1001",
+        "cueLocalFrameUnrounded": 17.982017982017982,
+        "rounding": "For this positive cue, floor(unroundedFrame + 1/2); positive half ties round upward.",
+        "cueLocalFrameFormula": "round((3/4) * (24000/1001)) = round(18000/1001) = 18",
+        "cueGlobalFrameFormula": "54 + 18 = 72",
+        "cueGlobalFrameSecondsFormula": "72 * 1001 / 24000 = 3003/1000",
+        "cueGlobalFrameSecondsExact": "3003/1000",
+        "idealGlobalCueSeconds": 3.00225,
+        "idealGlobalCueSecondsExact": "12009/4000",
+        "quantizationErrorDefinition": "Quantized global frame timestamp minus ideal global cue timestamp; positive means the quantized cue is late.",
+        "quantizationErrorSecondsExact": "3/4000",
+        "quantizationErrorMilliseconds": 0.75,
+        "roundingToleranceSeconds": 0.020854166666666667,
+        "roundingToleranceSecondsExact": "1001/48000",
+        "quantizationWithinHalfFrame": true,
+        "note": "The half-frame bound follows from the chosen rounding rule; it is not a measured speech-alignment or audience-acceptance tolerance."
+      },
+      "fixturePlan": [
+        {
+          "case": "overlap boundaries",
+          "expected": [
+            {
+              "globalFrame": 53,
+              "activeA": true,
+              "localAFrame": 53,
+              "activeB": false,
+              "localBFrame": null
+            },
+            {
+              "globalFrame": 54,
+              "activeA": true,
+              "localAFrame": 54,
+              "activeB": true,
+              "localBFrame": 0
+            },
+            {
+              "globalFrame": 71,
+              "activeA": true,
+              "localAFrame": 71,
+              "activeB": true,
+              "localBFrame": 17
+            },
+            {
+              "globalFrame": 72,
+              "activeA": false,
+              "localAFrame": null,
+              "activeB": true,
+              "localBFrame": 18
+            }
+          ],
+          "acceptance": "Exactly 18 overlap frames, 54 through 71. A is inactive at 72; no extra transition frame is appended.",
+          "limit": "The brief does not choose blend weights, layer order or caption reading order. Bind those choices before judging appearance."
+        },
+        {
+          "case": "first/final and invalid frames",
+          "expected": {
+            "firstFrame": 0,
+            "lastFrame": 149,
+            "lastLocalBFrame": 95,
+            "rejectFrames": [
+              -1,
+              150
+            ],
+            "rejectNonIntegerFrame": 72.5
+          },
+          "acceptance": "Reject out-of-domain seeks rather than adding frame 150. Timeline duration is 6.25625 seconds, while the final frame's start timestamp is 149149/24000 seconds."
+        },
+        {
+          "case": "cue after trim and rounding",
+          "expected": {
+            "clipSeconds": 0.75,
+            "localFrame": 18,
+            "globalFrame": 72,
+            "globalSeconds": 3.003,
+            "errorSeconds": 0.00075
+          },
+          "acceptance": "Keep source, clip-local and global clocks distinct. Positive unrounded frame 17.5 rounds to 18."
+        },
+        {
+          "case": "cue out of clip range",
+          "expected": {
+            "rejectNegativeClipTime": true,
+            "rejectLocalFrameAtOrBeyond96": true
+          },
+          "acceptance": "Reject cues before the trim or at/after the clip end. If rounding a near-end cue produces frame 96, reject rather than silently clamp or extend the clip."
+        },
+        {
+          "case": "seek order",
+          "expectedGlobalFrames": [
+            149,
+            0,
+            72,
+            72,
+            54
+          ],
+          "acceptance": "Compare canonical scene values for repeated frame 72 and equivalent ascending/descending/shuffled seeks under frozen dependencies. Only clock and membership calculations are delivered here."
+        },
+        {
+          "case": "missing required font",
+          "expected": {
+            "encodeReady": false,
+            "substituteFontAllowed": false,
+            "newDependentRenderDispatches": 0
+          },
+          "acceptance": "Surface a named missing-font boundary. Do not claim a completed film or quietly draw with a fallback font."
+        },
+        {
+          "case": "segment boundaries and coverage",
+          "expected": {
+            "frame49Owner": "[0,50)",
+            "frame50Owner": "[50,100)",
+            "frame99Owner": "[50,100)",
+            "frame100Owner": "[100,150)",
+            "frame149Owner": "[100,150)",
+            "frame150Owner": null
+          },
+          "acceptance": "The declared ranges partition 150 frames once each; actual film completeness is not established by range arithmetic."
+        },
+        {
+          "case": "recovery decisions",
+          "expected": {
+            "reuseComplete": true,
+            "retryUnknown": false,
+            "reconcileUnknown": true,
+            "failedRangeRetryEligible": true,
+            "retryFailedNow": false
+          },
+          "acceptance": "Reconcile [50,100) without duplication; after readiness, retry only a confirmed failed/absent range. Assemble only after complete matching outputs and delivery checks."
+        },
+        {
+          "case": "future delivered-film checks",
+          "plannedSamples": [
+            0,
+            53,
+            54,
+            71,
+            72,
+            149
+          ],
+          "acceptance": "If a real render is later authorized, inspect decoded boundary frames and moving intervals, glyphs, data, streams, duration and frame count. This planning report supplies none of that live evidence."
+        }
+      ]
+    }
+  ],
+  "receipt": {
+    "kind": "input-sha256-and-scope-receipt",
+    "generatedAtUtc": "2026-10-13T06:12:59Z",
+    "evaluationMode": "non-blinded independent consuming text/planning application",
+    "candidateWorkspace": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003",
+    "baselineCommit": "43f6dd19742639ea06f79df3662fa5002b1a565e",
+    "baselineExistenceChecked": true,
+    "candidateCommit": "79f1a2e76e2ef290d775672e481668e0a1b71e07",
+    "observedHeadAtInitialAndPreWriteChecks": "79f1a2e76e2ef290d775672e481668e0a1b71e07",
+    "observedWorktreeChangesAtInitialAndPreWriteChecks": [],
+    "baselineContentComparisonPerformed": false,
+    "inputHashAlgorithm": "sha256",
+    "inputs": [
+      {
+        "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/docs/motion-video-20261013/application-briefs.json",
+        "role": "supplied application requests, values and required output fields",
+        "readExtent": "complete",
+        "sha256": "9ab061886d5b96dfe3d1aef73f322df31a31bfe0af9d71d7ba9e08df997e377f"
+      },
+      {
+        "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/skills/motion-design-and-animation-engineering/SKILL.md",
+        "role": "complete motion method entrypoint",
+        "readExtent": "complete",
+        "sha256": "9f9f17e2bf49fa039f11239bbbc0adf9e98df12e21f1c1f8a8f3343d282719ea"
+      },
+      {
+        "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/skills/motion-design-and-animation-engineering/references/methods.md",
+        "role": "complete motion reference; retargeting/lifecycle and temporal acceptance used",
+        "readExtent": "complete",
+        "sha256": "8ce10c1e39145b619ef2e692a7dc501711173f2601fba34131a7f58d3399387b"
+      },
+      {
+        "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/skills/deterministic-video-composition-and-rendering/SKILL.md",
+        "role": "complete composition method entrypoint",
+        "readExtent": "complete",
+        "sha256": "ba96605ba3dda38c5fb4334ff8833a3d2083dddb387071c4e250d7bd42ef6a94"
+      },
+      {
+        "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/skills/deterministic-video-composition-and-rendering/references/methods.md",
+        "role": "complete composition reference; time bases, stateless evaluation, readiness and recovery used",
+        "readExtent": "complete",
+        "sha256": "aca6a4f916089d708eb4ef3ed8d63eee3f2b24847f766221b559ea861b360fb7"
+      }
+    ],
+    "inputHashesRepeatedAndUnchangedBeforeWrite": true,
+    "auxiliaryRead": {
+      "path": "C:/Users/Dom/.codex/skills/keel-wake/SKILL.md",
+      "sha256": "2f5298c660b45f8e91a12d6f549c4162e3b68601d84fe4c81421717279e9faf9",
+      "purpose": "General session-continuity routing only; not a qualification input. No Keel engine or continuity write was invoked under this task's output-only restriction."
+    },
+    "excludedEvidenceRead": false,
+    "excludedEvidenceCategories": [
+      "parent acceptance files",
+      "application-expectations.json",
+      "discovery tests",
+      "source-disposition report",
+      "reviewer reports",
+      "previous consumer answers"
+    ],
+    "executionScope": {
+      "inline": true,
+      "descendants": 0,
+      "newProviders": 0,
+      "networkAcquisitions": 0,
+      "upstreamCodeExecutions": 0,
+      "installs": 0,
+      "liveRenders": 0,
+      "browserExecutions": 0,
+      "encoderExecutions": 0,
+      "paidOrProviderInvocations": 0,
+      "publicationActions": 0,
+      "candidateCheckoutMutations": 0,
+      "canonicalMainWrites": 0,
+      "r10Changes": 0,
+      "securityOrAccountChanges": 0
+    },
+    "actualCalculationMethod": "Consumer-authored integer/BigInt rational arithmetic in the host tool runtime; no candidate executable was loaded or run.",
+    "actualOutputWriteMethod": "apply_patch",
+    "authorizedOutputFiles": [
+      "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/consumer-v1/application-results.json",
+      "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/consumer-v1/method-use-note.md"
+    ],
+    "missingInputConstraints": {
+      "planningMilestoneBlocked": false,
+      "drawerTrajectory": "Request 3's starting pose/velocity and physical parameters are absent; intermediate motion is explicitly unknown.",
+      "liveEncoding": "The required font is not ready and substitution is unauthorized. Exact media dependencies and render configuration are also absent from this synthetic planning brief.",
+      "wholeProductReadinessAssessed": false
+    }
+  }
+}

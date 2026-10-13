@@ -1,0 +1,33 @@
+{
+  "schema": "godskills-independent-review-artifact-sha256-v1",
+  "candidate": "79f1a2e76e2ef290d775672e481668e0a1b71e07",
+  "verdict": "REPAIR",
+  "observedUtc": "2026-10-13T06:22:32.190Z",
+  "reviewedInputRechecks": 54,
+  "reviewedInputMismatches": [],
+  "manifestSha256": "7190f32cf8e5c8712855f552df984a31e57b26cadce4f720d48d33e24c458367",
+  "candidateHead": "79f1a2e76e2ef290d775672e481668e0a1b71e07",
+  "candidatePorcelain": "?? tests/motion-video-applicability.test.mjs\n",
+  "artifacts": [
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v1/report.md",
+      "bytes": 18616,
+      "sha256": "f32ba4e54af8db350e734d803789a468a6484cb32e3fbceec515d3281fd1e96f"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v1/reviewed-input-sha256.json",
+      "bytes": 29019,
+      "sha256": "59c2ea5ebeb1f65ca4a13acfedbafcd53ca5272736b596d05e45aac4ce7aa37a"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v1/checks-v1.json",
+      "bytes": 19490,
+      "sha256": "420815ac0f20ba139c59ac698055d1a941112c840806e1b06fccc3843b112eb4"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v1/arcadia-focused-failure.txt",
+      "bytes": 1643,
+      "sha256": "17855ff5b7bfccf33b61ded0efd7d165713b124da70b65b17582484773a29533"
+    }
+  ]
+}

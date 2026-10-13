@@ -1,0 +1,52 @@
+{
+  "status": "accepted-text-planning-only",
+  "observedUtc": "2026-10-13T06:35:46.947Z",
+  "consumerCandidate": "79f1a2e76e2ef290d775672e481668e0a1b71e07",
+  "repairedCandidate": "ade33b36490dd9b5ac02860dacf25853fe334773",
+  "checks": [
+    "all five exact consumer inputs unchanged in repaired candidate",
+    "all24 required application fields present",
+    "current-pose retarget, latest request, focus and cleanup",
+    "rational cue/frame values recomputed from supplied data",
+    "no unknown dispatch duplication or unsupported encode claim"
+  ],
+  "inputHashes": [
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/docs/motion-video-20261013/application-briefs.json",
+      "role": "supplied application requests, values and required output fields",
+      "readExtent": "complete",
+      "sha256": "9ab061886d5b96dfe3d1aef73f322df31a31bfe0af9d71d7ba9e08df997e377f"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/skills/motion-design-and-animation-engineering/SKILL.md",
+      "role": "complete motion method entrypoint",
+      "readExtent": "complete",
+      "sha256": "9f9f17e2bf49fa039f11239bbbc0adf9e98df12e21f1c1f8a8f3343d282719ea"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/skills/motion-design-and-animation-engineering/references/methods.md",
+      "role": "complete motion reference; retargeting/lifecycle and temporal acceptance used",
+      "readExtent": "complete",
+      "sha256": "8ce10c1e39145b619ef2e692a7dc501711173f2601fba34131a7f58d3399387b"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/skills/deterministic-video-composition-and-rendering/SKILL.md",
+      "role": "complete composition method entrypoint",
+      "readExtent": "complete",
+      "sha256": "ba96605ba3dda38c5fb4334ff8833a3d2083dddb387071c4e250d7bd42ef6a94"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/skills/deterministic-video-composition-and-rendering/references/methods.md",
+      "role": "complete composition reference; time bases, stateless evaluation, readiness and recovery used",
+      "readExtent": "complete",
+      "sha256": "aca6a4f916089d708eb4ef3ed8d63eee3f2b24847f766221b559ea861b360fb7"
+    }
+  ],
+  "consumerOutputSha256": "f4882d609b8173bf6745e3f161a3626d5a1b57170d625f115daa0280e76f01c6",
+  "expectationsSha256": "d38e9809a204a440afed9a344a7d9a18186946d5e56b2c3c0f49bcd0cfe07afc",
+  "limits": [
+    "Synthetic non-blinded planning applications; no raw comparison or held-out superiority claim",
+    "No browser/DOM/device runtime, encoder, live job recovery or delivered video tested",
+    "Carry forward only because all five qualification inputs remain byte-identical"
+  ]
+}

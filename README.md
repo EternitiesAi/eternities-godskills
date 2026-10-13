@@ -7,7 +7,7 @@ optional consumers, not prerequisites.
 
 ## Portable product
 
-The self-contained pack is in **[product/](product/README.md)**: 85 refined
+The self-contained pack is in **[product/](product/README.md)**: 87 refined
 skill entrypoints organized into 21 primary domains, with the 26 existing owner
 extensions folded into relevant methods. It includes broad and specialist
 discovery, a compact relationship catalog, explainable offline search, an exact
@@ -117,12 +117,26 @@ existing owners without changing the previous 77 skill payloads or making every
 task load a larger workflow. Its qualification and exact release evidence are
 recorded separately; portable use remains independent of Codex, a provider,
 Godagents, Keel or a local repository warehouse.
-The current [85-skill standalone ZIP](artifacts/releases/godskills-product-20261004-add50d29.zip)
+The historical [85-skill standalone ZIP](artifacts/releases/godskills-product-20261004-add50d29.zip)
 and [SHA-256 sidecar](artifacts/releases/godskills-product-20261004-add50d29.zip.sha256)
 include all eight reviewed additions. Earlier exports above remain exact historical
 snapshots, not the current pack.
 The [installation closeout](docs/next-eight-godskills-installation-20261004.md)
 records the exact backed-up local upgrade and separate deployment audit.
+
+The [motion and programmatic-video upgrade](docs/motion-video-methods-20261013.md)
+adds interrupted UI choreography, property/clock ownership, meaningful reduced
+motion, seekable frame evaluation, rational cue timing and recoverable rendering.
+All previous85 skill payloads remain exact. Independent review accepted the
+repaired discovery boundary, and two bounded agent planning applications passed
+their predefined state/timing checks; those are not live visual or encode results.
+
+The current [87-skill standalone ZIP](artifacts/releases/godskills-product-20261013-87654db5.zip)
+and [SHA-256 sidecar](artifacts/releases/godskills-product-20261013-87654db5.zip.sha256)
+contain the complete portable pack. Earlier exports remain exact historical
+snapshots. Finite English discovery still needs host judgment, and the research
+quarry remains unfinished;87 useful entrypoints do not mean all acquired sources
+have been fully refined.
 
 For a new computer, copy only `product/` or export its verified standalone ZIP:
 

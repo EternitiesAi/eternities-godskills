@@ -1,0 +1,42 @@
+{
+  "schema": "godskills-independent-review-artifact-sha256-v3",
+  "status": "frozen-review-output",
+  "verdict": "READY",
+  "candidate": "0ef769c45ed059f1db7a8117e8447acc40fe907d",
+  "priorCandidates": [
+    "79f1a2e76e2ef290d775672e481668e0a1b71e07",
+    "ade33b36490dd9b5ac02860dacf25853fe334773"
+  ],
+  "baseline": "43f6dd19742639ea06f79df3662fa5002b1a565e",
+  "observedUtc": "2026-10-13T06:51:05.808Z",
+  "reviewedInputManifestSha256": "5e9ea4076fc93dd1ce308afcf6913220b640b35042f515ce25b65b0557d52f99",
+  "sealingVerification": {
+    "inputCount": 32,
+    "inputMismatches": [],
+    "head": "0ef769c45ed059f1db7a8117e8447acc40fe907d",
+    "porcelain": ""
+  },
+  "artifacts": [
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v3/report.md",
+      "bytes": 8999,
+      "sha256": "c34ea23baac149d45f1ca73023ab838c159af9e2d4e301a8925607d752bbc925"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v3/reviewed-input-sha256.json",
+      "bytes": 23177,
+      "sha256": "a826405c15cd63b23e04c573b037e37d565aa1ed48c09fb939fe25675c765926"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v3/checks-v3.json",
+      "bytes": 8707,
+      "sha256": "8264dcd6c4fcc8597ae7438c8bfe335fa8e575ba347914d05bcb0fb4d8b17ffb"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v3/focused-tests.txt",
+      "bytes": 9096,
+      "sha256": "e86d3f6651ba4979baf2fce9217339112a2788f3af6307ef369aa4954a64a30b"
+    }
+  ],
+  "immutability": "Preserved versioned review snapshots with exact hash receipts; no filesystem read-only attribute or cryptographic signature claimed. Future changes/review require a new versioned output."
+}

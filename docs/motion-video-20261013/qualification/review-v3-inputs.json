@@ -1,0 +1,436 @@
+{
+  "schema": "godskills-independent-reviewed-inputs-v3",
+  "observedUtc": "2026-10-13T06:48:57.163Z",
+  "baseline": "43f6dd19742639ea06f79df3662fa5002b1a565e",
+  "priorCandidates": [
+    "79f1a2e76e2ef290d775672e481668e0a1b71e07",
+    "ade33b36490dd9b5ac02860dacf25853fe334773"
+  ],
+  "candidate": "0ef769c45ed059f1db7a8117e8447acc40fe907d",
+  "workspace": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003",
+  "hashAlgorithm": "SHA-256 over raw filesystem bytes; no newline normalization",
+  "manifestConvention": "listed-order absolute path + TAB + sha256 + LF, UTF-8",
+  "manifestSha256": "5e9ea4076fc93dd1ce308afcf6913220b640b35042f515ce25b65b0557d52f99",
+  "inputs": [
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003/product/lib/discovery.mjs",
+      "relativePath": "product/lib/discovery.mjs",
+      "inspection": "full current file and full v2-to-v3 diff",
+      "bytes": 13385,
+      "sha256": "7dde5dd30ab85cc3f00395eccef56ac97ef727497c6b9cb360496c53e92e8753"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003/product/DISCOVERY.md",
+      "relativePath": "product/DISCOVERY.md",
+      "inspection": "full current file and full changed diff",
+      "bytes": 7372,
+      "sha256": "e2ebb13f497353b23f3d515eb21d8dcce596a7cf18004ccc845ebacac232f018"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003/tests/motion-video-applicability.test.mjs",
+      "relativePath": "tests/motion-video-applicability.test.mjs",
+      "inspection": "full current file and changed diff; focused execution",
+      "bytes": 4550,
+      "sha256": "b2bab06e14e81c707dae848d1ae85d04c61900bc6942bea80f0b040b665db71c"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003/docs/motion-video-methods-20261013.md",
+      "relativePath": "docs/motion-video-methods-20261013.md",
+      "inspection": "full current file and changed diff; parent application/full-suite claims not independently adopted",
+      "bytes": 6012,
+      "sha256": "31b32ab3236ff11f6dbe57cdf9c895a58fcc770706b4e09542b62ba73d598eef"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003/product/release.json",
+      "relativePath": "product/release.json",
+      "inspection": "changed diff and portable validator manifest input",
+      "bytes": 36317,
+      "sha256": "33b19f134d75c5382dd576bf8623e74579c4b3ecf061ce51b5041fe03a1518f7"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003/product/lib/product.mjs",
+      "relativePath": "product/lib/product.mjs",
+      "inspection": "unchanged since v2; focused imported verifier/search execution; hash compared",
+      "bytes": 23970,
+      "sha256": "c779ed4ee93c38b50af970ca746f20c0225a96b761449a8c779e3a28c00e800f"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003/tests/motion-video-discovery.test.mjs",
+      "relativePath": "tests/motion-video-discovery.test.mjs",
+      "inspection": "unchanged v1-reviewed source; focused execution",
+      "bytes": 3174,
+      "sha256": "1c8694764b247ff6c1a575910076609bbb5d927d6497e54dccc4360474c99fbf"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003/tests/universal-wave29-arcadia-audio-state-cue.test.mjs",
+      "relativePath": "tests/universal-wave29-arcadia-audio-state-cue.test.mjs",
+      "inspection": "unchanged v1-reviewed source; focused execution",
+      "bytes": 2874,
+      "sha256": "367818144ccb049cacb9900c72ef1e0a63610cef666fa95357836915f8ceb9a2"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003/tests/conditional-method-regression.test.mjs",
+      "relativePath": "tests/conditional-method-regression.test.mjs",
+      "inspection": "unchanged v2 whitelist source; focused execution",
+      "bytes": 28403,
+      "sha256": "13c07033d39a06562e9fa269bc3f8762f76bd90aae7ab8a49d7eba89db00f494"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003/product/catalog.json",
+      "relativePath": "product/catalog.json",
+      "inspection": "actual parsed query and validator input",
+      "bytes": 130424,
+      "sha256": "92b9c9dafe147e080c2a3e343ceec76aab148751ed821270a85fe238db11b3ba"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003/src/adaptive-activation.mjs",
+      "relativePath": "src/adaptive-activation.mjs",
+      "inspection": "raw-byte preservation comparison only; original instruction review remains v1 evidence",
+      "bytes": 8386,
+      "sha256": "9844aee1147f7129f3e37067424ccebb88ff478de1b7a9a9fb7306d5f2fdbd82"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003/policies/adaptive-activation.v1.json",
+      "relativePath": "policies/adaptive-activation.v1.json",
+      "inspection": "raw-byte preservation comparison only; original instruction review remains v1 evidence",
+      "bytes": 849,
+      "sha256": "b87bbfaddecb42417e57202173220bf240204d27b7de5fffc9e609eb18138939"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003/artifacts/adaptive-activation/evidence.v1.json",
+      "relativePath": "artifacts/adaptive-activation/evidence.v1.json",
+      "inspection": "raw-byte preservation comparison only; original instruction review remains v1 evidence",
+      "bytes": 1910,
+      "sha256": "b55a5cb4f7ff039cc7f4027c165b2f151bad723d9030913076a4225342fbe8c5"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003/tests/core2260-catalog.json",
+      "relativePath": "tests/core2260-catalog.json",
+      "inspection": "raw-byte preservation comparison only; original instruction review remains v1 evidence",
+      "bytes": 99289,
+      "sha256": "57d47c0a9692dc21caa0e7909ee6c557cd5ef5cc4e09b968df079cc81f86aecf"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003/docs/motion-video-20261013/application-briefs.json",
+      "relativePath": "docs/motion-video-20261013/application-briefs.json",
+      "inspection": "raw-byte preservation comparison only; original instruction review remains v1 evidence",
+      "bytes": 2483,
+      "sha256": "9ab061886d5b96dfe3d1aef73f322df31a31bfe0af9d71d7ba9e08df997e377f"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003/product/skills/motion-design-and-animation-engineering/SKILL.md",
+      "relativePath": "product/skills/motion-design-and-animation-engineering/SKILL.md",
+      "inspection": "raw-byte preservation comparison only; original instruction review remains v1 evidence",
+      "bytes": 3914,
+      "sha256": "9f9f17e2bf49fa039f11239bbbc0adf9e98df12e21f1c1f8a8f3343d282719ea"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003/product/skills/motion-design-and-animation-engineering/skill.json",
+      "relativePath": "product/skills/motion-design-and-animation-engineering/skill.json",
+      "inspection": "raw-byte preservation comparison only; original instruction review remains v1 evidence",
+      "bytes": 2452,
+      "sha256": "81e8e2b2ea872cc9460bc867e9383997574af711a9a08fda72e340a313efeea0"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003/product/skills/motion-design-and-animation-engineering/references/methods.md",
+      "relativePath": "product/skills/motion-design-and-animation-engineering/references/methods.md",
+      "inspection": "raw-byte preservation comparison only; original instruction review remains v1 evidence",
+      "bytes": 5122,
+      "sha256": "8ce10c1e39145b619ef2e692a7dc501711173f2601fba34131a7f58d3399387b"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003/product/skills/deterministic-video-composition-and-rendering/SKILL.md",
+      "relativePath": "product/skills/deterministic-video-composition-and-rendering/SKILL.md",
+      "inspection": "raw-byte preservation comparison only; original instruction review remains v1 evidence",
+      "bytes": 4078,
+      "sha256": "ba96605ba3dda38c5fb4334ff8833a3d2083dddb387071c4e250d7bd42ef6a94"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003/product/skills/deterministic-video-composition-and-rendering/skill.json",
+      "relativePath": "product/skills/deterministic-video-composition-and-rendering/skill.json",
+      "inspection": "raw-byte preservation comparison only; original instruction review remains v1 evidence",
+      "bytes": 2637,
+      "sha256": "4bef42d6dd7bda94a28ba939f013f7e9b9a6e62f1e3fe51ed9f03ad5e6056cbf"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003/product/skills/deterministic-video-composition-and-rendering/references/methods.md",
+      "relativePath": "product/skills/deterministic-video-composition-and-rendering/references/methods.md",
+      "inspection": "raw-byte preservation comparison only; original instruction review remains v1 evidence",
+      "bytes": 5630,
+      "sha256": "aca6a4f916089d708eb4ef3ed8d63eee3f2b24847f766221b559ea861b360fb7"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v1/report.md",
+      "inspection": "prior output raw hash comparison only",
+      "bytes": 18616,
+      "sha256": "f32ba4e54af8db350e734d803789a468a6484cb32e3fbceec515d3281fd1e96f"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v1/reviewed-input-sha256.json",
+      "inspection": "prior output raw hash comparison only",
+      "bytes": 29019,
+      "sha256": "59c2ea5ebeb1f65ca4a13acfedbafcd53ca5272736b596d05e45aac4ce7aa37a"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v1/checks-v1.json",
+      "inspection": "prior output raw hash comparison only",
+      "bytes": 19490,
+      "sha256": "420815ac0f20ba139c59ac698055d1a941112c840806e1b06fccc3843b112eb4"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v1/arcadia-focused-failure.txt",
+      "inspection": "prior output raw hash comparison only",
+      "bytes": 1643,
+      "sha256": "17855ff5b7bfccf33b61ded0efd7d165713b124da70b65b17582484773a29533"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v1/output-artifact-sha256.json",
+      "inspection": "full prior output receipt parsed; independently hashed",
+      "bytes": 1414,
+      "sha256": "5ec03ff310750dc0dd16a113cb6f53a9588a374bb02443137cbdcc1baae074a6"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v2/report.md",
+      "inspection": "targeted prior blocking findings/scope excerpts; immutable artifact hash check",
+      "bytes": 12163,
+      "sha256": "b909617c0a520d97f1cb40569fb16a27c5a7ee525e0d52bb73ba88d56cfed351"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v2/reviewed-input-sha256.json",
+      "inspection": "prior output raw hash comparison only",
+      "bytes": 21359,
+      "sha256": "06cb27c0f3ce9742702e889ab39f70886b88ceb52b7ff9938eeda0cff5d38fda"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v2/checks-v2.json",
+      "inspection": "prior output raw hash comparison only",
+      "bytes": 26127,
+      "sha256": "81e91a73b5fce0d6fcd0e11330cc46c41ba8f923b007b88c8c7347e574cd5b8d"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v2/focused-tests.txt",
+      "inspection": "prior output raw hash comparison only",
+      "bytes": 7652,
+      "sha256": "39ce85a4e4990655fb67e29614df442118d32024173abf3c35f38db01607d90f"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v2/audio-only-and-sealing.json",
+      "inspection": "prior output raw hash comparison only",
+      "bytes": 1489,
+      "sha256": "db4455b1e4a0f23abf8416a11192cbae6fad3eefd5c4a6374fb13f091550caf6"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v2/output-artifact-sha256.json",
+      "inspection": "full prior output receipt parsed; independently hashed",
+      "bytes": 1996,
+      "sha256": "baf0bf4a9d89337ab478cc2690df4fe3f2f0ca92729ed68c519de6e0311a5ea3"
+    }
+  ],
+  "preservation": {
+    "oldSkillCount": 85,
+    "oldFileCount": 250,
+    "oldPayloadManifestSha256": "272fb0399602222962f6d37892391f5d0f436fec81b6bbc4df9c25cdc59cb8d1",
+    "oldMismatches": [],
+    "unchanged": [
+      {
+        "path": "src/adaptive-activation.mjs",
+        "comparedTo": "43f6dd19742639ea06f79df3662fa5002b1a565e",
+        "expectedSha256": "9844aee1147f7129f3e37067424ccebb88ff478de1b7a9a9fb7306d5f2fdbd82",
+        "currentSha256": "9844aee1147f7129f3e37067424ccebb88ff478de1b7a9a9fb7306d5f2fdbd82"
+      },
+      {
+        "path": "policies/adaptive-activation.v1.json",
+        "comparedTo": "43f6dd19742639ea06f79df3662fa5002b1a565e",
+        "expectedSha256": "b87bbfaddecb42417e57202173220bf240204d27b7de5fffc9e609eb18138939",
+        "currentSha256": "b87bbfaddecb42417e57202173220bf240204d27b7de5fffc9e609eb18138939"
+      },
+      {
+        "path": "artifacts/adaptive-activation/evidence.v1.json",
+        "comparedTo": "43f6dd19742639ea06f79df3662fa5002b1a565e",
+        "expectedSha256": "b55a5cb4f7ff039cc7f4027c165b2f151bad723d9030913076a4225342fbe8c5",
+        "currentSha256": "b55a5cb4f7ff039cc7f4027c165b2f151bad723d9030913076a4225342fbe8c5"
+      },
+      {
+        "path": "tests/core2260-catalog.json",
+        "comparedTo": "43f6dd19742639ea06f79df3662fa5002b1a565e",
+        "expectedSha256": "57d47c0a9692dc21caa0e7909ee6c557cd5ef5cc4e09b968df079cc81f86aecf",
+        "currentSha256": "57d47c0a9692dc21caa0e7909ee6c557cd5ef5cc4e09b968df079cc81f86aecf"
+      },
+      {
+        "path": "docs/motion-video-20261013/application-briefs.json",
+        "comparedTo": "79f1a2e76e2ef290d775672e481668e0a1b71e07",
+        "expectedSha256": "9ab061886d5b96dfe3d1aef73f322df31a31bfe0af9d71d7ba9e08df997e377f",
+        "currentSha256": "9ab061886d5b96dfe3d1aef73f322df31a31bfe0af9d71d7ba9e08df997e377f"
+      },
+      {
+        "path": "product/lib/product.mjs",
+        "comparedTo": "ade33b36490dd9b5ac02860dacf25853fe334773",
+        "expectedSha256": "c779ed4ee93c38b50af970ca746f20c0225a96b761449a8c779e3a28c00e800f",
+        "currentSha256": "c779ed4ee93c38b50af970ca746f20c0225a96b761449a8c779e3a28c00e800f"
+      },
+      {
+        "path": "tests/conditional-method-regression.test.mjs",
+        "comparedTo": "ade33b36490dd9b5ac02860dacf25853fe334773",
+        "expectedSha256": "13c07033d39a06562e9fa269bc3f8762f76bd90aae7ab8a49d7eba89db00f494",
+        "currentSha256": "13c07033d39a06562e9fa269bc3f8762f76bd90aae7ab8a49d7eba89db00f494"
+      },
+      {
+        "path": "product/catalog.json",
+        "comparedTo": "ade33b36490dd9b5ac02860dacf25853fe334773",
+        "expectedSha256": "92b9c9dafe147e080c2a3e343ceec76aab148751ed821270a85fe238db11b3ba",
+        "currentSha256": "92b9c9dafe147e080c2a3e343ceec76aab148751ed821270a85fe238db11b3ba"
+      },
+      {
+        "path": "product/skills/motion-design-and-animation-engineering/SKILL.md",
+        "comparedTo": "79f1a2e76e2ef290d775672e481668e0a1b71e07",
+        "expectedSha256": "9f9f17e2bf49fa039f11239bbbc0adf9e98df12e21f1c1f8a8f3343d282719ea",
+        "currentSha256": "9f9f17e2bf49fa039f11239bbbc0adf9e98df12e21f1c1f8a8f3343d282719ea"
+      },
+      {
+        "path": "product/skills/motion-design-and-animation-engineering/skill.json",
+        "comparedTo": "79f1a2e76e2ef290d775672e481668e0a1b71e07",
+        "expectedSha256": "81e8e2b2ea872cc9460bc867e9383997574af711a9a08fda72e340a313efeea0",
+        "currentSha256": "81e8e2b2ea872cc9460bc867e9383997574af711a9a08fda72e340a313efeea0"
+      },
+      {
+        "path": "product/skills/motion-design-and-animation-engineering/references/methods.md",
+        "comparedTo": "79f1a2e76e2ef290d775672e481668e0a1b71e07",
+        "expectedSha256": "8ce10c1e39145b619ef2e692a7dc501711173f2601fba34131a7f58d3399387b",
+        "currentSha256": "8ce10c1e39145b619ef2e692a7dc501711173f2601fba34131a7f58d3399387b"
+      },
+      {
+        "path": "product/skills/deterministic-video-composition-and-rendering/SKILL.md",
+        "comparedTo": "79f1a2e76e2ef290d775672e481668e0a1b71e07",
+        "expectedSha256": "ba96605ba3dda38c5fb4334ff8833a3d2083dddb387071c4e250d7bd42ef6a94",
+        "currentSha256": "ba96605ba3dda38c5fb4334ff8833a3d2083dddb387071c4e250d7bd42ef6a94"
+      },
+      {
+        "path": "product/skills/deterministic-video-composition-and-rendering/skill.json",
+        "comparedTo": "79f1a2e76e2ef290d775672e481668e0a1b71e07",
+        "expectedSha256": "4bef42d6dd7bda94a28ba939f013f7e9b9a6e62f1e3fe51ed9f03ad5e6056cbf",
+        "currentSha256": "4bef42d6dd7bda94a28ba939f013f7e9b9a6e62f1e3fe51ed9f03ad5e6056cbf"
+      },
+      {
+        "path": "product/skills/deterministic-video-composition-and-rendering/references/methods.md",
+        "comparedTo": "79f1a2e76e2ef290d775672e481668e0a1b71e07",
+        "expectedSha256": "aca6a4f916089d708eb4ef3ed8d63eee3f2b24847f766221b559ea861b360fb7",
+        "currentSha256": "aca6a4f916089d708eb4ef3ed8d63eee3f2b24847f766221b559ea861b360fb7"
+      }
+    ],
+    "inputMismatches": [],
+    "priorArtifacts": [
+      {
+        "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v1/report.md",
+        "bytes": 18616,
+        "sha256": "f32ba4e54af8db350e734d803789a468a6484cb32e3fbceec515d3281fd1e96f",
+        "version": "v1",
+        "currentSha256": "f32ba4e54af8db350e734d803789a468a6484cb32e3fbceec515d3281fd1e96f",
+        "unchanged": true
+      },
+      {
+        "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v1/reviewed-input-sha256.json",
+        "bytes": 29019,
+        "sha256": "59c2ea5ebeb1f65ca4a13acfedbafcd53ca5272736b596d05e45aac4ce7aa37a",
+        "version": "v1",
+        "currentSha256": "59c2ea5ebeb1f65ca4a13acfedbafcd53ca5272736b596d05e45aac4ce7aa37a",
+        "unchanged": true
+      },
+      {
+        "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v1/checks-v1.json",
+        "bytes": 19490,
+        "sha256": "420815ac0f20ba139c59ac698055d1a941112c840806e1b06fccc3843b112eb4",
+        "version": "v1",
+        "currentSha256": "420815ac0f20ba139c59ac698055d1a941112c840806e1b06fccc3843b112eb4",
+        "unchanged": true
+      },
+      {
+        "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v1/arcadia-focused-failure.txt",
+        "bytes": 1643,
+        "sha256": "17855ff5b7bfccf33b61ded0efd7d165713b124da70b65b17582484773a29533",
+        "version": "v1",
+        "currentSha256": "17855ff5b7bfccf33b61ded0efd7d165713b124da70b65b17582484773a29533",
+        "unchanged": true
+      },
+      {
+        "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v1/output-artifact-sha256.json",
+        "version": "v1",
+        "sha256": "5ec03ff310750dc0dd16a113cb6f53a9588a374bb02443137cbdcc1baae074a6",
+        "inspection": "immutable prior output receipt parsed and hashed, never written"
+      },
+      {
+        "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v2/report.md",
+        "bytes": 12163,
+        "sha256": "b909617c0a520d97f1cb40569fb16a27c5a7ee525e0d52bb73ba88d56cfed351",
+        "version": "v2",
+        "currentSha256": "b909617c0a520d97f1cb40569fb16a27c5a7ee525e0d52bb73ba88d56cfed351",
+        "unchanged": true
+      },
+      {
+        "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v2/reviewed-input-sha256.json",
+        "bytes": 21359,
+        "sha256": "06cb27c0f3ce9742702e889ab39f70886b88ceb52b7ff9938eeda0cff5d38fda",
+        "version": "v2",
+        "currentSha256": "06cb27c0f3ce9742702e889ab39f70886b88ceb52b7ff9938eeda0cff5d38fda",
+        "unchanged": true
+      },
+      {
+        "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v2/checks-v2.json",
+        "bytes": 26127,
+        "sha256": "81e91a73b5fce0d6fcd0e11330cc46c41ba8f923b007b88c8c7347e574cd5b8d",
+        "version": "v2",
+        "currentSha256": "81e91a73b5fce0d6fcd0e11330cc46c41ba8f923b007b88c8c7347e574cd5b8d",
+        "unchanged": true
+      },
+      {
+        "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v2/focused-tests.txt",
+        "bytes": 7652,
+        "sha256": "39ce85a4e4990655fb67e29614df442118d32024173abf3c35f38db01607d90f",
+        "version": "v2",
+        "currentSha256": "39ce85a4e4990655fb67e29614df442118d32024173abf3c35f38db01607d90f",
+        "unchanged": true
+      },
+      {
+        "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v2/audio-only-and-sealing.json",
+        "bytes": 1489,
+        "sha256": "db4455b1e4a0f23abf8416a11192cbae6fad3eefd5c4a6374fb13f091550caf6",
+        "version": "v2",
+        "currentSha256": "db4455b1e4a0f23abf8416a11192cbae6fad3eefd5c4a6374fb13f091550caf6",
+        "unchanged": true
+      },
+      {
+        "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/review-v2/output-artifact-sha256.json",
+        "version": "v2",
+        "sha256": "baf0bf4a9d89337ab478cc2690df4fe3f2f0ca92729ed68c519de6e0311a5ea3",
+        "inspection": "immutable prior output receipt parsed and hashed, never written"
+      }
+    ]
+  },
+  "repairDiff": {
+    "bytes": 9356,
+    "sha256": "f1fda38b1619fa753889c872f07215aa8da8758ecaf9ebc4e6eccc42a4e24409"
+  },
+  "validation": {
+    "status": "verified-content",
+    "releaseId": "87654db51a9f9fd6419c8d0105ab768682e1e7516c7737059cf7880b6c91fa0a",
+    "skillCount": 87
+  },
+  "state": {
+    "head": "0ef769c45ed059f1db7a8117e8447acc40fe907d",
+    "porcelain": ""
+  },
+  "verdict": "READY",
+  "scope": "Narrow independent v3 instruction/package applicability repair review; not full-product, application, live rendering, installation or publication acceptance",
+  "readBoundary": "32 explicit addressed inputs have inspection labels; 250 baseline skill files are hashed but not semantically rereviewed. Prior v1/v2 artifacts remain frozen. The validated release manifest binds indirect product validation/import inputs.",
+  "exclusions": [
+    "full suite",
+    "consumer outputs",
+    "private expectations",
+    "new challenge search",
+    "new source acquisition or acquired-code execution",
+    "descendants/providers/paid calls",
+    "candidate or main writes",
+    "install/publication",
+    "R10/global-policy/account/security changes"
+  ],
+  "optionalF4": "Retained optional unit-speed clarification; unchanged six instruction payloads; not a blocker"
+}
