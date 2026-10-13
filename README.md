@@ -7,7 +7,7 @@ optional consumers, not prerequisites.
 
 ## Portable product
 
-The self-contained pack is in **[product/](product/README.md)**: 87 refined
+The self-contained pack is in **[product/](product/README.md)**: 91 refined
 skill entrypoints organized into 21 primary domains, with the 26 existing owner
 extensions folded into relevant methods. It includes broad and specialist
 discovery, a compact relationship catalog, explainable offline search, an exact
@@ -131,7 +131,7 @@ All previous 85 skill payloads remain exact. Independent review accepted the
 repaired discovery boundary, and two bounded agent planning applications passed
 their predefined state/timing checks; those are not live visual or encode results.
 
-The current [87-skill standalone ZIP](artifacts/releases/godskills-product-20261013-87654db5.zip)
+The previous [87-skill standalone ZIP](artifacts/releases/godskills-product-20261013-87654db5.zip)
 and [SHA-256 sidecar](artifacts/releases/godskills-product-20261013-87654db5.zip.sha256)
 contain the complete portable pack. Earlier exports remain exact historical
 snapshots. Finite English discovery still needs host judgment, and the research
@@ -140,6 +140,24 @@ have been fully refined.
 The [installation closeout](docs/motion-video-installation-20261013.md) records
 the verified native/runtime upgrade, exact rollback backup and independent
 deployment audit, separately from instruction and package qualification.
+
+The [browser, Git, product and knowledge upgrade](docs/workflow-product-knowledge-methods-20261013.md)
+adds four focused specialists: durable browser state and uncertain-submit
+reconciliation; exact Git integration with staged/unstaged ownership; feasible
+product portfolios with shared prerequisites and learning gates; and knowledge
+collections with stable identities, aliases, permissions and incremental views.
+All previous 87 skill payloads remain exact. Independent content/delta reviews
+accepted the methods and repaired two revealed lexical misses. Four bounded
+planning applications passed their state/capacity checks; a real isolated Git
+exercise also preserved the original mixed checkout and integrated only its
+owned feature into an advanced local branch.
+
+The current [91-skill standalone ZIP](artifacts/releases/godskills-product-20261013-213c0d21.zip)
+and [SHA-256 sidecar](artifacts/releases/godskills-product-20261013-213c0d21.zip.sha256)
+contain the portable pack, without the warehouse, private continuity or provider
+dependencies. Detailed references load only for the selected task. These are
+bounded instruction/package and local-exercise results, not live-browser,
+customer-outcome, clean-OS or whole-quarry certification.
 
 For a new computer, copy only `product/` or export its verified standalone ZIP:
 
