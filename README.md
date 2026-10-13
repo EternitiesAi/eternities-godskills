@@ -17,31 +17,45 @@ optional CLI uses Node built-ins only.
 
 ### Start using the pack
 
-Download the current [93-skill standalone ZIP](artifacts/releases/godskills-product-20261013-27152ee2.zip)
-with its [SHA-256 sidecar](artifacts/releases/godskills-product-20261013-27152ee2.zip.sha256),
+Download the current [93-skill standalone ZIP](artifacts/releases/godskills-product-20261013-898ed912.zip)
+with its [SHA-256 sidecar](artifacts/releases/godskills-product-20261013-898ed912.zip.sha256),
 or copy the complete [product folder](product/README.md). Give an agent the
-[skill directory](product/INDEX.md); it can choose a relevant method and open
+[short capability map](product/START-HERE.md); it can choose a relevant method and open
 only the references that task needs. Markdown use needs no installation.
 
 The optional CLI provides offline discovery and validation:
 
 ```text
 node product/bin/godskills.mjs search "plan a product roadmap" --limit 3
+node product/bin/godskills.mjs browse
+node product/bin/godskills.mjs browse --category business
+node product/bin/godskills.mjs inspect vendor-evaluation-and-exit-planning
 node product/bin/godskills.mjs validate
 ```
 
 See the [installation guide](product/README.md#hand-the-pack-to-another-computer)
 for portable copies and native host installation. Search suggests candidates;
-the agent checks their fit. The [latest verification record](docs/api-vendor-release-20261013.md)
+the agent checks their fit. The [latest verification record](docs/product-navigation-release-20261013.md)
 states the checks, rollback evidence and remaining limits.
 
-The latest additions cover **API contract evolution** and **vendor evaluation
+The navigation upgrade preserves all 93 skills and adds compact domain browsing,
+paged category results and exact full-skill inspection. Optional references stay
+out of the response until needed. See the [product completion direction](docs/product-direction-20261013.md)
+for the distinction between a useful release, practical effectiveness and the
+unfinished research quarry.
+
+The recent specialist additions cover **API contract evolution** and **vendor evaluation
 and exit planning**: preserve mixed-version clients and safe mutation semantics;
 or compare suppliers without letting low prices hide failed requirements,
 unavoidable commitments or unusable exports. Both have optional deeper methods.
 
 <details>
 <summary>Release history and qualification records</summary>
+
+The [API/vendor release](docs/api-vendor-release-20261013.md) first delivered the
+current 93 skill payloads. Its [historical standalone ZIP](artifacts/releases/godskills-product-20261013-27152ee2.zip)
+and [SHA-256 sidecar](artifacts/releases/godskills-product-20261013-27152ee2.zip.sha256)
+remain available unchanged.
 
 The October 2 reviewed snapshot is available as a [standalone ZIP](artifacts/releases/godskills-product-20261002-f6d71194.zip), with its [SHA-256 sidecar](artifacts/releases/godskills-product-20261002-f6d71194.zip.sha256). It includes a [selected smaller-method directory](product/METHODS.v1.md): discover a useful method from ordinary task descriptions and exclusions, then read its complete owner and matching reference. The directory does not activate skills or replace agent judgment. See the [snapshot verification record](docs/product-release-20261002-finalization.md) for exact checks, review scopes and remaining limits.
 

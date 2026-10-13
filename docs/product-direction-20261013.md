@@ -28,6 +28,13 @@ finished. They let a usable release ship without pretending that tens of
 thousands of overlapping source obligations are installed skills. Research
 continues in a separate queue; it must not obscure the product's current state.
 
+The historical September 6 v1 plan described 44 directories, a Godagents
+adapter and a proposed 48-run pilot. Those are not retroactively passed by this
+portable 93-skill milestone. This is the current product-facing development
+direction under Dom's reassessment request, not a rewrite of that contract or
+its evidence. Adapter qualification and the old pilot remain unfulfilled unless
+separately demonstrated; the portable product does not require those consumers.
+
 ## Ordered priorities
 
 1. **Find and inspect the right method with little overhead.** The starting
