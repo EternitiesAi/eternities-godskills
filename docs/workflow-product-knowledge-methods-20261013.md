@@ -1,7 +1,9 @@
 # Browser, Git, product and knowledge upgrade, 2026-10-13
 
-**Instruction/discovery qualification accepted; publication and installation
-remain separate gates.** Original implementation: 8d354f0aa425cf562b8e5431282c9ec1a04cc600.
+**Instruction/discovery milestone accepted; merged, pushed and installed.**
+Publication and installation are separately recorded in the
+[installation closeout](workflow-product-knowledge-installation-20261013.md).
+Original implementation: 8d354f0aa425cf562b8e5431282c9ec1a04cc600.
 Reviewed repair: def365504cdeff51a61c02bfc0f46db0a2c841e7.
 Baseline main: 989f77b7dfbefa355ff1967f18f4adf6e1b9b1f1.
 
@@ -97,8 +99,9 @@ has 302 files, including 268 skill payload files; archive SHA-256:
 4574a94716ee7ff22cf8c8a640d1efa9a855ca08f220ce88431dd0918869d7fd.
 Parent verified every extracted hash and eight CLI calls from an empty unrelated
 cwd. All passed with unchanged package/cwd. This is isolated extraction on the
-existing host, not a clean OS or agent UI claim. Separate package/deployment
-acceptance is recorded when completed.
+existing host, not a clean OS or agent UI claim. Independent package acceptance,
+actual installation and the preserved canonical-run timing failure are recorded
+in the [closeout](workflow-product-knowledge-installation-20261013.md).
 
 Original exports, failures and receipts remain. Three protected activation
 files, physical sources, unrelated skills and the user experiment are preserved.

@@ -158,6 +158,10 @@ contain the portable pack, without the warehouse, private continuity or provider
 dependencies. Detailed references load only for the selected task. These are
 bounded instruction/package and local-exercise results, not live-browser,
 customer-outcome, clean-OS or whole-quarry certification.
+The [installation closeout](docs/workflow-product-knowledge-installation-20261013.md)
+records exact deployed/rollback bytes, unchanged unrelated skills, and the
+preserved main-path timing failure alongside successful same-commit isolated
+verification. Installation is not an agent UI/cache reload claim.
 
 For a new computer, copy only `product/` or export its verified standalone ZIP:
 
