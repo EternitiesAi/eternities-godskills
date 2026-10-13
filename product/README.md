@@ -5,7 +5,7 @@ design, science, games, writing, operations, marketing, audio, and more.
 
 ## Start here
 
-1. Read [the skill directory](INDEX.md), the [selected smaller-method directory](METHODS.v1.md), or search the compact `catalog.json` metadata.
+1. Start with [the short capability map](START-HERE.md), browse one domain, or search for the current task. The [full skill directory](INDEX.md) and [selected smaller-method directory](METHODS.v1.md) are available when needed; do not load the whole catalog by default.
 2. Decide whether a skill adds value to the actual action; ordinary competence
    is the right route for simple requests. Pick the smallest useful skill, not
    one triggered merely by domain vocabulary or a slash command.
@@ -27,7 +27,7 @@ network connection, installation script, special computer layout, or AI provider
 Copy this entire folder anywhere, including a blank workspace. A coding agent can
 read it immediately. The skills are equally usable outside Codex and Godagents.
 
-Without Node, give the agent this folder and ask it to use `INDEX.md`. To expose
+Without Node, give the agent this folder and ask it to use `START-HERE.md`. To expose
 skills through a host's native loader, copy the desired directories from `skills/`
 to that host's documented skill location, retaining their references. Preserve
 any existing versions first. The automated installer below is an optional safer
@@ -39,6 +39,9 @@ With Node.js 24 or newer, no dependency installation is needed:
 
 ```text
 node bin/godskills.mjs validate
+node bin/godskills.mjs browse
+node bin/godskills.mjs browse --category engineering
+node bin/godskills.mjs inspect api-contract-design-and-evolution
 node bin/godskills.mjs search "test audio DSP discontinuities" --limit 3
 node bin/godskills.mjs search "release readiness" --task verify
 node bin/godskills.mjs search "Say hello to the robotics team" --need none
@@ -49,6 +52,17 @@ Search returns a few candidates with match reasons, not a selection or permissio
 to act. It uses weighted terms and bounded lexical profiles, not a general semantic
 classifier. Scores are not confidence values and need not descend across request
 priority tiers. Read the complete selected entrypoint and check the actual task.
+
+`browse` lists compact category counts, or one category's skill summaries and
+exclusions in pages of five. Follow `nextOffset` with `--offset N`; use
+`--limit 1..20` for a different category-page size. `inspect ID` returns the exact complete entrypoint with optional
+reference pointers. It does not return those reference bodies or automatically
+include related skills. Integrity validation still reads files throughout the
+pack; selective output is a model-context benefit, not metadata-only disk I/O.
+Category membership is organizational, not a restriction
+on cross-domain usefulness. Unknown IDs/categories fail explicitly rather than
+silently choosing a different method. Both commands are read-only and verify
+the pack before returning results.
 
 Use `--need none` when the host established that no specialist method is needed;
 it returns no suggestions. `specialist` and the default `unknown` still require

@@ -4,6 +4,27 @@ This page is for hosts integrating the CLI or investigating a match. It is not
 required reading before ordinary skill use. Start with a compact capability
 question, inspect a few candidates, then read the selected complete SKILL.md.
 
+## Browse, then inspect
+
+When the domain is known but the method is not, `browse` returns sorted category
+counts without skill bodies. `browse --category NAME` returns just that primary
+category's skill summaries, use exclusions and relationships in deterministic
+ID order. The default page has five entries; `--limit 1..20` and `--offset N`
+control category pages. Follow `nextOffset` until it is null; keep the same
+release and category while paging. An out-of-range offset is an error.
+It is exact catalog
+navigation, not a semantic ranking or a statement that other domains are irrelevant.
+
+`inspect SKILL_ID` returns the complete selected entrypoint and its exact hash,
+plus declared optional resource pointers. It never truncates the entrypoint or
+automatically includes reference bodies in its output. The CLI validates the pack first and
+rechecks the selected body at read time. Integrity validation reads pack files;
+compact output does not mean metadata-only disk I/O. Library users of `inspectSkill` must
+also supply a freshly validated pack and catalog. IDs are exact normalized IDs,
+not user-supplied paths. Unknown categories/IDs and malformed commands are errors.
+The result still requires host applicability judgment; reading a method does not
+select or activate it, or prove that a consumer followed it.
+
 ## Retrieval, not selection
 
 Search combines weighted terms, a small explicit synonym vocabulary, stable
