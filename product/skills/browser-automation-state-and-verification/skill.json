@@ -1,0 +1,40 @@
+{
+  "id": "browser-automation-state-and-verification",
+  "category": "automation",
+  "summary": "Complete browser interactions with durable session identity, fresh target references, observable transitions, verified artifacts and uncertain-submission reconciliation.",
+  "triggers": [
+    "browser workflow across authenticated pages or resumed sessions",
+    "stale element references and ambiguous browser targets",
+    "conditional navigation waits and verified browser downloads",
+    "uncertain form submission and duplicate action prevention",
+    "browser session ownership and selective cleanup"
+  ],
+  "antiTriggers": [
+    "public information retrieval without browser interaction",
+    "browser installation or control-channel configuration",
+    "general application testing strategy",
+    "access-control evasion or unauthorized submission"
+  ],
+  "taskTypes": ["plan", "build", "verify", "recover"],
+  "specializes": "eternities-hermes",
+  "related": ["eternities-daedalus", "eternities-aegis", "api-rate-limit-recovery", "accessibility-audit-and-remediation"],
+  "resources": ["references/methods.md"],
+  "maturity": "instruction-reviewed",
+  "provenance": [
+    {
+      "kind": "pattern-reference",
+      "source": "claude-skills archived copy:engineering/skills/browser-automation/SKILL.md",
+      "note": "Full body read. repositoryRelative=engineering/skills/browser-automation/SKILL.md; bodySHA256=f4211364d10e3a28eb2051b201889be89b589f4613b822a3c1dd2ce6a30f8b59. Git HEAD null means archived identity unresolved, not an upstream commit. Full root LICENSE observed as MIT, copyright 2025 Alireza Rezvani; noticeSHA256=a20126646f93d32a8989c3cf4772d59194f405034f7babe7daebeac22b8ab151. Conditional observations and session checks informed original methods; stealth, credential arguments, blanket retries and assumed browser cleanup were rejected. Notice scope and source rights are not independently cleared."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "browser-use/browser-use@d8110c5ff87ccba887aaa726cdb780f2f84bef8d:browser_use/skills/browser-use/SKILL.md",
+      "note": "Full body read. repositoryRelative=browser_use/skills/browser-use/SKILL.md; bodySHA256=8124a4318791714523b1bc4702402c778bc387eef07c45f198145217d41fc4c6. HEAD is an observed local checkout identity, not verified upstream authenticity. Full root LICENSE observed as MIT, copyright 2024 Gregor Zunic; noticeSHA256=220696ee49f5174638dce85f658b5766623e636211cff77171d3dd458fece34f. Durable tab association and ownership informed original methods; provider commands, uninspected hooks, automatic launches, cloud recommendations and fixed coordinate defaults were rejected. No linked manual was inspected or activated."
+    },
+    {
+      "kind": "authoring",
+      "source": "product/skills/browser-automation-state-and-verification/",
+      "note": "Original portable specialist compared against the full current Hermes entrypoint and methods reference. No source prose, code or templates copied. Maturity denotes the authored-instruction stage; independent review, behavioral evaluation, host compatibility and final acceptance remain open. Original wording does not resolve source rights."
+    }
+  ]
+}

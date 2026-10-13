@@ -14,7 +14,7 @@ const productRoot = resolve(
 const baselineCatalogUrl = new URL("./core2260-catalog.json", import.meta.url);
 const frozenCoreCatalogSha256 = "57d47c0a9692dc21caa0e7909ee6c557cd5ef5cc4e09b968df079cc81f86aecf";
 // Preserve the exact historical 68-skill projection while explicitly admitting
-// only the cognitive, October3 professional, next-eight and motion/video additions.
+// only the explicitly enumerated cognitive, professional and specialist additions.
 // Historical fixture bytes and all 68 core scoring fields stay exact.
 const cognitiveSkillIds = [
   "completeness-and-consistency-audit",
@@ -43,7 +43,13 @@ const motionVideoSkillIds = [
   "deterministic-video-composition-and-rendering",
   "motion-design-and-animation-engineering",
 ];
-const admittedAdditionIds = [...cognitiveSkillIds, ...professionalSkillIds, ...nextEightSkillIds, ...motionVideoSkillIds].sort();
+const workflowProductKnowledgeSkillIds = [
+  "browser-automation-state-and-verification",
+  "git-change-integration-and-recovery",
+  "knowledge-base-architecture-and-maintenance",
+  "product-discovery-and-prioritization",
+];
+const admittedAdditionIds = [...cognitiveSkillIds, ...professionalSkillIds, ...nextEightSkillIds, ...motionVideoSkillIds, ...workflowProductKnowledgeSkillIds].sort();
 const intentionalDiscoveryResource = {
   owner: "eternities-omnibus",
   path: "skills/eternities-omnibus/references/methods.md",
@@ -200,7 +206,7 @@ test("the immutable core2260 fixture is exact and all 68 scoring, relation, spec
   assert.deepEqual(
     liveCatalog.skills.filter((skill) => !baselineIds.has(skill.id)).map((skill) => skill.id),
     admittedAdditionIds,
-    "only the six cognitive, three professional and eight newly scoped IDs are outside the frozen core",
+    "only the exact enumerated specialist additions are outside the frozen core",
   );
   assert.deepEqual(
     liveCore.map((skill) => skill.id),

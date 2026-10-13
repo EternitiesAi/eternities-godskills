@@ -293,6 +293,46 @@
       "resources": []
     },
     {
+      "id": "browser-automation-state-and-verification",
+      "category": "automation",
+      "summary": "Complete browser interactions with durable session identity, fresh target references, observable transitions, verified artifacts and uncertain-submission reconciliation.",
+      "triggers": [
+        "browser workflow across authenticated pages or resumed sessions",
+        "stale element references and ambiguous browser targets",
+        "conditional navigation waits and verified browser downloads",
+        "uncertain form submission and duplicate action prevention",
+        "browser session ownership and selective cleanup"
+      ],
+      "antiTriggers": [
+        "public information retrieval without browser interaction",
+        "browser installation or control-channel configuration",
+        "general application testing strategy",
+        "access-control evasion or unauthorized submission"
+      ],
+      "taskTypes": [
+        "plan",
+        "build",
+        "verify",
+        "recover"
+      ],
+      "related": [
+        "accessibility-audit-and-remediation",
+        "api-rate-limit-recovery",
+        "eternities-aegis",
+        "eternities-daedalus"
+      ],
+      "specializes": "eternities-hermes",
+      "maturity": "instruction-reviewed",
+      "entrypoint": "skills/browser-automation-state-and-verification/SKILL.md",
+      "entrypointSha256": "b6b9980be8506ac0405d811dc7cce0cd9ee794addfec5ef61ad647fcf1fa2cca",
+      "resources": [
+        {
+          "path": "skills/browser-automation-state-and-verification/references/methods.md",
+          "sha256": "dbb083349cf7a36a4e0e28c22719ba449517970a0b2b033b8429c123d83ec15e"
+        }
+      ]
+    },
+    {
       "id": "cashflow-forecast-scenario-integrity",
       "category": "finance",
       "summary": "Build time-bucketed cash forecasts with traceable settlement timing, explicit liquidity constraints and scenario changes tied to declared drivers.",
@@ -1943,6 +1983,46 @@
       ]
     },
     {
+      "id": "git-change-integration-and-recovery",
+      "category": "engineering",
+      "summary": "Integrate and recover Git changes while preserving hunk ownership, separating HEAD/index/worktree state, verifying the reviewed tree and detecting destination ref races.",
+      "triggers": [
+        "Git staging and partial hunk ownership in mixed working changes",
+        "merge rebase or cherry-pick conflict resolution",
+        "reviewed commit tree and working-tree verification mismatch",
+        "branch integration after upstream movement or concurrent ref updates",
+        "selective Git recovery across repositories worktrees and submodules"
+      ],
+      "antiTriggers": [
+        "ordinary file editing without Git state or integration concerns",
+        "release versioning or changelog planning alone",
+        "choosing a universal team branching policy",
+        "unauthorized destructive cleanup or history rewriting"
+      ],
+      "taskTypes": [
+        "plan",
+        "build",
+        "verify",
+        "recover"
+      ],
+      "related": [
+        "dependency-supply-chain-integrity",
+        "eternities-forge",
+        "eternities-herald",
+        "release-script-safety"
+      ],
+      "specializes": "eternities-daedalus",
+      "maturity": "instruction-reviewed",
+      "entrypoint": "skills/git-change-integration-and-recovery/SKILL.md",
+      "entrypointSha256": "21ce930065c0e9a3f8d8b00aa37a34325bb798b2c755bfbf2143598b6ab5c003",
+      "resources": [
+        {
+          "path": "skills/git-change-integration-and-recovery/references/methods.md",
+          "sha256": "95eb22e8b1b72b2e5a1c8a68d0c35f6f94fe0f184b01d36cd8b30b8dff642859"
+        }
+      ]
+    },
+    {
       "id": "imaginative-concept-development",
       "category": "design",
       "summary": "Explore and develop distinct concept mechanisms under constraints, then select by declared criteria without confusing invention with fact.",
@@ -2168,6 +2248,45 @@
       "entrypoint": "skills/jurisdiction-aware-contract-review/SKILL.md",
       "entrypointSha256": "c600a5c1b47f652f435c4b0a1cb8d71ee043de7b801eff34aeb25a2b04c43303",
       "resources": []
+    },
+    {
+      "id": "knowledge-base-architecture-and-maintenance",
+      "category": "memory",
+      "summary": "Organize and maintain knowledge collections with audience-led navigation, stable source and claim identities, authority and effective states, bounded reads, versioned derived views, and recoverable retirement.",
+      "triggers": [
+        "design or reorganize a knowledge base taxonomy, navigation, and stable record identities",
+        "maintain knowledge collection source lineage, canonical records, conflicts, and effective versions",
+        "repair knowledge-base aliases, links, incremental indexes, and stale derived views",
+        "retire, redirect, deduplicate, or recover knowledge records while preserving rights and access distinctions"
+      ],
+      "antiTriggers": [
+        "ordinary file lookup or answer from an already supplied document",
+        "standalone note edit with no collection architecture or lifecycle change",
+        "build or tune a question-answering retrieval and generation pipeline",
+        "acquire private transcript exports or persist session memory without source and write authorization"
+      ],
+      "taskTypes": [
+        "research",
+        "plan",
+        "create",
+        "recover",
+        "verify"
+      ],
+      "related": [
+        "completeness-and-consistency-audit",
+        "memory-retention-and-recovery",
+        "retrieval-grounded-answering"
+      ],
+      "specializes": "eternities-mnemosyne",
+      "maturity": "instruction-reviewed",
+      "entrypoint": "skills/knowledge-base-architecture-and-maintenance/SKILL.md",
+      "entrypointSha256": "c1fe39e77589ae5eb12b08543b834f195a1b1bba82d5fc3bf82322eb010820c1",
+      "resources": [
+        {
+          "path": "skills/knowledge-base-architecture-and-maintenance/references/methods.md",
+          "sha256": "07c643b37ea9ff2c4ff0ec43e7743e294629bf30cc519391f37aee7b651d375e"
+        }
+      ]
     },
     {
       "id": "landscape-connectivity-analysis",
@@ -2718,6 +2837,44 @@
         {
           "path": "skills/procedural-world-generation-and-validation/references/methods.md",
           "sha256": "0c177b8ff767044ed412992becb1c78e908efb28b33d2ca7d45a759858381725"
+        }
+      ]
+    },
+    {
+      "id": "product-discovery-and-prioritization",
+      "category": "business",
+      "summary": "Choose evidence-relevant product opportunities and feasible portfolios with prerequisite closure, remaining effort, scarce capacity, uncertainty, cheap tests, and honest roadmap commitments.",
+      "triggers": [
+        "product opportunity discovery and evidence-based prioritization",
+        "compare feature portfolios with shared prerequisites and limited skills or resources",
+        "reconsider a product backlog after feedback, capacity changes, or dependency delays",
+        "plan discovery experiments and conditional Now Next Later roadmap commitments"
+      ],
+      "antiTriggers": [
+        "routine roadmap status update with no priority or feasibility decision",
+        "write acceptance criteria for an already selected feature",
+        "answer an individual support request",
+        "redesign a delivery process or meeting cadence without choosing product opportunities"
+      ],
+      "taskTypes": [
+        "research",
+        "plan",
+        "create",
+        "verify"
+      ],
+      "related": [
+        "operating-cadence-and-decision-accountability",
+        "user-research-and-usability-study",
+        "venture-falsification-and-planning"
+      ],
+      "specializes": "eternities-prometheus",
+      "maturity": "instruction-reviewed",
+      "entrypoint": "skills/product-discovery-and-prioritization/SKILL.md",
+      "entrypointSha256": "4470f2f92b284dad9a577105c8c751ebc3beb8f08bd8982e942149529ac7be24",
+      "resources": [
+        {
+          "path": "skills/product-discovery-and-prioritization/references/methods.md",
+          "sha256": "e3a6811c38573c7403b74fc7f10216b8ffeadbdbf1c71e6c0bada0e9614f9619"
         }
       ]
     },

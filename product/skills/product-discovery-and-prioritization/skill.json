@@ -1,0 +1,43 @@
+{
+  "id": "product-discovery-and-prioritization",
+  "category": "business",
+  "summary": "Choose evidence-relevant product opportunities and feasible portfolios with prerequisite closure, remaining effort, scarce capacity, uncertainty, cheap tests, and honest roadmap commitments.",
+  "triggers": [
+    "product opportunity discovery and evidence-based prioritization",
+    "compare feature portfolios with shared prerequisites and limited skills or resources",
+    "reconsider a product backlog after feedback, capacity changes, or dependency delays",
+    "plan discovery experiments and conditional Now Next Later roadmap commitments"
+  ],
+  "antiTriggers": [
+    "routine roadmap status update with no priority or feasibility decision",
+    "write acceptance criteria for an already selected feature",
+    "answer an individual support request",
+    "redesign a delivery process or meeting cadence without choosing product opportunities"
+  ],
+  "taskTypes": ["research", "plan", "create", "verify"],
+  "specializes": "eternities-prometheus",
+  "related": ["operating-cadence-and-decision-accountability", "user-research-and-usability-study", "venture-falsification-and-planning"],
+  "resources": ["references/methods.md"],
+  "maturity": "instruction-reviewed",
+  "provenance": [
+    {
+      "kind": "pattern-reference",
+      "source": "anthropics/knowledge-work-plugins@5267cf7bff3031921d4474b8e8f86ad02d2b8f6d:product-management/skills/roadmap-update/SKILL.md",
+      "repositoryRelative": "product-management/skills/roadmap-update/SKILL.md",
+      "bodySHA": "9f6b6f62caec0a4f3724a8caf54d6db1b77489f11f1b49cfaf878146b4470d78",
+      "note": "Full local working body read; HEAD, origin, tracked body and no body diff observed locally, not an upstream attestation. Dependencies, changed constraints and displacement informed original methods. Fixed capacity allocations, default score scales, fixed horizon durations and automatic commitments were rejected. Root LICENSE SHA-256 1b1689d7864727a02a2682067f9c5328c891518db0a513663ef5a949052bd40b contains Apache-2.0 text plus an unexplained trailing fragment; nearer product-management/LICENSE SHA-256 3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5 contains Apache-2.0 text. Both read fully; rights applicability is not independently certified. Source treated as inert pattern data; no prose, code or templates copied. Fresh writing does not itself settle rights."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "archived claude-skills:product-team/agile-product-owner/skills/agile-product-owner/SKILL.md",
+      "repositoryRelative": "product-team/agile-product-owner/skills/agile-product-owner/SKILL.md",
+      "bodySHA": "b378f4d66707ac272f1840aed944b93b263183b8314b096028e0c9968b1b5cbd",
+      "note": "Full archived working body read. No root Git identity observed; HEAD and remote unresolved, with no upstream commit claim. Root MIT notice read fully, SHA-256 a20126646f93d32a8989c3cf4772d59194f405034f7babe7daebeac22b8ab151; archival origin and notice applicability remain unverified. Testable outcomes, remaining-work decomposition and availability constraints informed original writing. Scrum mandates, story-point thresholds, criterion counts, fixed weights, stretch allocation and numerical performance targets were rejected. No source prose, code or templates copied; writing anew does not resolve archival rights uncertainty."
+    },
+    {
+      "kind": "authoring",
+      "source": "product/skills/product-discovery-and-prioritization/",
+      "note": "Original specialist extends the current Prometheus discovery card with problem/opportunity/solution/experiment separation, horizon relevance, prerequisite closure, feasible portfolios, sensitivity and conditional commitments. Existing operating-cadence methods retain ownership of process and flow redesign. Maturity is the authored-instruction stage; independent review, behavior evaluation and parent acceptance remain pending."
+    }
+  ]
+}

@@ -24,6 +24,7 @@ For smaller bundled methods and their separate review/execution states, use the 
 
 ## automation
 
+- [browser-automation-state-and-verification](skills/browser-automation-state-and-verification/SKILL.md): Complete browser interactions with durable session identity, fresh target references, observable transitions, verified artifacts and uncertain-submission reconciliation. Specialist of eternities-hermes.
 - [eternities-hermes](skills/eternities-hermes/SKILL.md): Design and implement bounded automation, browser, protocol, CLI, and test integrations with explicit effect and close-out evidence.
 - [structured-output-contracts](skills/structured-output-contracts/SKILL.md): Validate machine-consumed records and model JSON with schemas, source-bound IDs, governed vocabularies, relationship checks and truthful failure states. Specialist of eternities-hermes.
 
@@ -34,6 +35,7 @@ For smaller bundled methods and their separate review/execution states, use the 
 - [eternities-prometheus](skills/eternities-prometheus/SKILL.md): Route product-operations questions into evidence-led growth, analytics, customer insight, learning, planning, and delivery artifacts.
 - [operating-cadence-and-decision-accountability](skills/operating-cadence-and-decision-accountability/SKILL.md): Design operating rules for founder or executive approval queues, scoped delegation, effective capacity, work-in-progress limits, and accountable exceptions. Specialist of eternities-prometheus.
 - [pricing-and-packaging-experimentation](skills/pricing-and-packaging-experimentation/SKILL.md): Design price offers, charging units and package tiers; run pricing experiments and compare eligible pricing cohorts, contribution margin, and renewal effects. Specialist of eternities-beacon.
+- [product-discovery-and-prioritization](skills/product-discovery-and-prioritization/SKILL.md): Choose evidence-relevant product opportunities and feasible portfolios with prerequisite closure, remaining effort, scarce capacity, uncertainty, cheap tests, and honest roadmap commitments. Specialist of eternities-prometheus.
 - [structured-hiring-evaluation](skills/structured-hiring-evaluation/SKILL.md): Design role-specific hiring assessments, compare independent candidate evidence and diagnose dated recruiting funnels without proxy-based judgments. Specialist of eternities-prometheus.
 - [venture-falsification-and-planning](skills/venture-falsification-and-planning/SKILL.md): Turn a venture thesis into source-labeled assumptions, staged falsification experiments, resource bounds, kill criteria, and decision records. Specialist of eternities-prometheus.
 
@@ -73,6 +75,7 @@ For smaller bundled methods and their separate review/execution states, use the 
 - [eternities-forge](skills/eternities-forge/SKILL.md): Coordinate bounded planning, implementation, review, verification, recovery, and integration across consequential engineering work.
 - [eternities-phoenix](skills/eternities-phoenix/SKILL.md): Diagnose failures, derive candidate evaluation cases from authorized interactions, and design reversible recovery with bounded evidence.
 - [fp-ts-functional-refactoring](skills/fp-ts-functional-refactoring/SKILL.md): Refactor TypeScript into explicit typed transformations and effect edges while retaining runtime behavior, error identity, ordering, and cancellation. Specialist of eternities-daedalus.
+- [git-change-integration-and-recovery](skills/git-change-integration-and-recovery/SKILL.md): Integrate and recover Git changes while preserving hunk ownership, separating HEAD/index/worktree state, verifying the reviewed tree and detecting destination ref races. Specialist of eternities-daedalus.
 - [invariant-guard](skills/invariant-guard/SKILL.md): Turn algorithm contracts into independent bounded oracles, invariant checks, adversarial cases, minimized counterexamples, and honest proof limits. Specialist of eternities-daedalus.
 - [native-mobile-interaction-testing](skills/native-mobile-interaction-testing/SKILL.md): Author and run version-aware React Native interaction tests with accessible queries, explicit async behavior, and clear device-evidence boundaries. Specialist of eternities-daedalus.
 - [robotics-test-ladder](skills/robotics-test-ladder/SKILL.md): Build a staged robotics verification ladder from deterministic unit and property checks through replay, simulation, HIL, and field evidence. Specialist of eternities-daedalus.
@@ -104,6 +107,7 @@ For smaller bundled methods and their separate review/execution states, use the 
 
 - [approval-bound-private-session-mining](skills/approval-bound-private-session-mining/SKILL.md): Extract source-labeled, minimized findings from an approved private transcript set while retaining scope, redaction, uncertainty, and revocation evidence. Specialist of eternities-mnemosyne.
 - [eternities-mnemosyne](skills/eternities-mnemosyne/SKILL.md): Recover task truth, design durable memory, reduce context, audit retrieval, and maintain reasoned dependency state.
+- [knowledge-base-architecture-and-maintenance](skills/knowledge-base-architecture-and-maintenance/SKILL.md): Organize and maintain knowledge collections with audience-led navigation, stable source and claim identities, authority and effective states, bounded reads, versioned derived views, and recoverable retirement. Specialist of eternities-mnemosyne.
 - [memory-retention-and-recovery](skills/memory-retention-and-recovery/SKILL.md): Retain and recover minimal task-critical decisions, evidence pointers, freshness, conflicts, and safe next actions.
 - [retrieval-grounded-answering](skills/retrieval-grounded-answering/SKILL.md): Build and test retrieval-grounded answers with evidence citations, permission filters, freshness and measured context cost. Specialist of eternities-mnemosyne.
 

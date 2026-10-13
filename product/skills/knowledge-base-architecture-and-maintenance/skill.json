@@ -1,0 +1,43 @@
+{
+  "id": "knowledge-base-architecture-and-maintenance",
+  "category": "memory",
+  "summary": "Organize and maintain knowledge collections with audience-led navigation, stable source and claim identities, authority and effective states, bounded reads, versioned derived views, and recoverable retirement.",
+  "triggers": [
+    "design or reorganize a knowledge base taxonomy, navigation, and stable record identities",
+    "maintain knowledge collection source lineage, canonical records, conflicts, and effective versions",
+    "repair knowledge-base aliases, links, incremental indexes, and stale derived views",
+    "retire, redirect, deduplicate, or recover knowledge records while preserving rights and access distinctions"
+  ],
+  "antiTriggers": [
+    "ordinary file lookup or answer from an already supplied document",
+    "standalone note edit with no collection architecture or lifecycle change",
+    "build or tune a question-answering retrieval and generation pipeline",
+    "acquire private transcript exports or persist session memory without source and write authorization"
+  ],
+  "taskTypes": ["research", "plan", "create", "recover", "verify"],
+  "specializes": "eternities-mnemosyne",
+  "related": ["retrieval-grounded-answering", "memory-retention-and-recovery", "completeness-and-consistency-audit"],
+  "resources": ["references/methods.md"],
+  "maturity": "instruction-reviewed",
+  "provenance": [
+    {
+      "kind": "pattern-reference",
+      "source": "wonderwhy-er/DesktopCommanderMCP@092ce0b841e86455f12e41f4dc36399a7522ecb5:plugins/claude/skills/knowledge-base/SKILL.md",
+      "repositoryRelative": "plugins/claude/skills/knowledge-base/SKILL.md",
+      "bodySHA": "c73610875a0c7102770331945863856d9e9ef0724fb58544f67cdb33825ff95c",
+      "note": "Full local working body read; HEAD, origin, tracked body and no body diff observed locally, not an upstream attestation. Stable identity, concise navigation, reasoned links and checked targets informed original methods. Fixed Markdown hierarchy, ID/date naming recipes, index-as-membership truth, automatic orphan archiving and unqualified duplicate merging were rejected. Root MIT notice read fully, SHA-256 0fac4e4dfbd64a2a616b9ae2e14c4a3a5635d2a5fc9c43177fb834059afa58e3; applicability to every embedded contribution is not independently attested. No source prose, code, schemas or templates copied. Personal/global memory writes, self-triggering updates and end-of-turn persistence are excluded; the assigned body does not establish authority for them."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "github/awesome-copilot@83561bd7d8a46fcda0581aedabdf8eac7cb196b6:skills/acquire-codebase-knowledge/SKILL.md",
+      "repositoryRelative": "skills/acquire-codebase-knowledge/SKILL.md",
+      "bodySHA": "7ca01711e1615171b26ce9e2729bedf041348d7fd0f24bc04e0d400dc93e41b9",
+      "note": "Full local working body read; HEAD, origin, tracked body and no body diff observed locally. Source-supported claims, intent-versus-observation separation and checking actual locators informed original writing. Mandatory scanner execution, exactly seven documents, fixed paths/templates, exhaustive focus-area work and universal churn heuristics were rejected. Body declares MIT; root MIT notice read fully, SHA-256 e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823. Local notices are evidence, not independently certified upstream rights. No source prose, code or templates copied; no bundled scripts run."
+    },
+    {
+      "kind": "authoring",
+      "source": "product/skills/knowledge-base-architecture-and-maintenance/",
+      "note": "Original collection specialist adds navigation/taxonomy, path-independent identity, source/claim/view lineage, independent conflict/canonical/effective/approval states, access-sensitive duplicates, coherent incremental generations and recovery. Mnemosyne retains broad continuity and lifecycle routes; retrieval-grounded answering retains QA pipeline ownership. Maturity denotes authored instructions; independent review, behavior evaluation, storage implementation and parent acceptance remain pending. Fresh writing does not itself resolve source-rights uncertainty."
+    }
+  ]
+}

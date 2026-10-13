@@ -1,0 +1,45 @@
+{
+  "id": "git-change-integration-and-recovery",
+  "category": "engineering",
+  "summary": "Integrate and recover Git changes while preserving hunk ownership, separating HEAD/index/worktree state, verifying the reviewed tree and detecting destination ref races.",
+  "triggers": [
+    "Git staging and partial hunk ownership in mixed working changes",
+    "merge rebase or cherry-pick conflict resolution",
+    "reviewed commit tree and working-tree verification mismatch",
+    "branch integration after upstream movement or concurrent ref updates",
+    "selective Git recovery across repositories worktrees and submodules"
+  ],
+  "antiTriggers": [
+    "ordinary file editing without Git state or integration concerns",
+    "release versioning or changelog planning alone",
+    "choosing a universal team branching policy",
+    "unauthorized destructive cleanup or history rewriting"
+  ],
+  "taskTypes": ["plan", "build", "verify", "recover"],
+  "specializes": "eternities-daedalus",
+  "related": ["eternities-forge", "eternities-herald", "release-script-safety", "dependency-supply-chain-integrity"],
+  "resources": ["references/methods.md"],
+  "maturity": "instruction-reviewed",
+  "provenance": [
+    {
+      "kind": "pattern-reference",
+      "source": "obra/superpowers@8ca22dba9a94f28898bbce59f2537ff4d87c747d:skills/using-git-worktrees/SKILL.md",
+      "note": "Full body read. repositoryRelative=skills/using-git-worktrees/SKILL.md; bodySHA256=8cfb86f121269e8f7f12361e6795c4f6738828340e28964c9229d365666c9edd. HEAD is observed local identity, not verified upstream authenticity. Full root LICENSE observed as MIT, copyright 2025 Jesse Vincent; noticeSHA256=0da33ed814ee87e72db078f489c4447af72f13d9f25d9e17476f32efd77705fc. Existing isolation and submodule checks informed original methods; fixed menus, automatic installs, ignore-file commits and assumed cleanup ownership were rejected."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "agent-skills archived copy:skills/git-workflow-and-versioning/SKILL.md",
+      "note": "Full body read. repositoryRelative=skills/git-workflow-and-versioning/SKILL.md; bodySHA256=51677cf03845dd29d08ea4d3125665057b720aea3dccc572f25d8b172409ece6. Git HEAD null means archived identity unresolved, not an upstream commit. Full root LICENSE observed as MIT, copyright 2025 Addy Osmani; noticeSHA256=6f202f8bd568cd730dbb2b0d1f8e243bc74c2fa1f64dbce9b2c7ea08bd5c9fd7. Coherent change selection and staged review informed original methods; universal activation, fixed timing/size targets, broad resets, automatic deletion and tag/version defaults were rejected. Source identity and notice scope remain uncertain."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "cursor/plugins@e31650eea443aaea1e84cc15d88c13f40080b275:cursor-team-kit/skills/fix-merge-conflicts/SKILL.md",
+      "note": "Full body read as data-only pattern evidence. repositoryRelative=cursor-team-kit/skills/fix-merge-conflicts/SKILL.md; bodySHA256=b77f260655f541345e2b8b7907ce0647c8df9190b8c396de92b30718390966f9. HEAD is observed local identity, not verified upstream authenticity. Full scoped cursor-team-kit/LICENSE observed as MIT, copyright 2026 Cursor; noticeSHA256=20a8168b1766bb40d27e168762cf2a6d9e83265f7aeb89c94924af80e9984130. Root license remains unknown. Conflict inspection and regeneration concerns informed original methods; compiling-side selection, unconditional both-side preservation and blanket staging were rejected. Scoped notice observation does not clear all rights."
+    },
+    {
+      "kind": "authoring",
+      "source": "product/skills/git-change-integration-and-recovery/",
+      "note": "Original portable specialist compared against the full current Daedalus and Forge entrypoints and methods references. No source prose, code or templates copied. Maturity denotes the authored-instruction stage; independent review, behavioral evaluation, discovery qualification and final acceptance remain open. Original wording does not resolve source rights."
+    }
+  ]
+}
