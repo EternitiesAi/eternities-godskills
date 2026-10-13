@@ -46,6 +46,6 @@
 
 - [x] Cross-review actual content, references, metadata, provenance and task outputs; repair confirmed defects and get fresh review of changed bytes.
 - [x] Run the required full suite once with one test worker in the isolated checkout; broaden only for changes or failures. First run found a metadata regression; preserved failure, repaired triggers, then 1736 passed / zero failed / two existing skips.
-- [ ] Validate/export the complete product, verify manifest and independent package checks; reconcile current main and remote before committing and publishing the accepted candidate.
-- [ ] Install through the existing journaled installer using a fresh rollback directory; compare actual before/after/backup contents, preserve unrelated native content, and run installed validation and discovery.
-- [ ] Record the exact release and practical evidence limits, seal the milestone and stop with automation paused.
+- [x] Validate/export the complete product and exact manifest; independent reviewers validated the pack while parent verified archive extraction. Reconciled upstream, merged/pushed accepted `22d1ece` and verified the remote. Same-commit post-merge isolated suite passed 1,736 with two existing skips.
+- [x] Installed through the journaled installer using a fresh rollback directory; exact before/after/backup contents verified, 81 unrelated records unchanged, installed validation and discovery passed.
+- [x] Recorded the exact release and practical evidence limits in docs/api-vendor-release-20261013.md. Automation remains paused; final private continuity seal closes this milestone, not the larger quarry.

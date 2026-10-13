@@ -2,7 +2,7 @@
 
 ## Scope
 
-This additive candidate grows the portable product from 91 to 93 entrypoints.
+This published and locally installed release grows the portable product from 91 to 93 entrypoints.
 It adds two focused methods without changing the previous 91 skill payloads:
 
 - **API contract design and evolution:** reason about consumer/provider version
@@ -16,7 +16,7 @@ Each entrypoint links deeper methods only when useful. The root README places
 the current download and setup before its collapsible release history. Neither
 method requires Codex, a provider, the warehouse, the Keel or Godagents.
 
-## Exact candidate and checks
+## Exact release and checks
 
 Baseline: `7c11bb315c1db73415ef468748bf67cec59f17a1`, release
 `213c0d2180e5613ba9b29dc0ea4732456f43e1a314874792e0f2e915014854c0`.
@@ -87,9 +87,33 @@ They do not establish live behavior or improvement over a raw model.
 
 ## Publication and local installation
 
-The exact content above is the accepted release candidate. Publication and local
-installation are separate operations; the final checkpoint records their actual
-commit, installed manifest and rollback verification after execution.
+Accepted integration commit `22d1ecedc50f1f9fef910eb7973d129f3ed9ab00` was
+fast-forwarded into main after upstream reconciliation, then pushed and confirmed
+as remote main. A second full run on that exact merged commit in the isolated
+checkout passed **1,736 tests, zero failures, two existing skips** in 127.8 seconds;
+TAP SHA-256 `06a4c6de05e0f128fc751be9abe96979609a30ccf33cc5c54088ec370af32cb6`.
+This does not claim a separate full run in the canonical checkout path. Exporting
+from canonical main reproduced the same archive hash as the reviewed worktree.
+
+The journaled installer then upgraded the local native skills and runtime to the
+exact 93-skill release. Parent before/after inventories verified **274 native
+skill files and 308 runtime files**, and all **81 unrelated file/directory/link
+records remained unchanged**. The fresh rollback backup matched the complete
+previous **91-skill / 268-native-file / 302-runtime-file** installation, including
+file membership and bytes. No material content was discarded.
+
+Actual installed CLI validation returned the accepted release and 93 skills;
+independently worded API and vendor requests selected their respective specialist
+first, and both the isolated-cue and explicit no-need checks returned no matches.
+The installer did not change model settings, global instructions or automation.
+The historical automation remained paused. The user experiment and protected
+activation files remained byte-exact. File installation and CLI discovery do not
+prove that an already-open agent refreshed its cached skill catalog.
+
+Subsequent closeout edits affect only documentation, not reviewed product bytes.
+Detailed private before/after manifests, rollback journal, review receipts,
+application artifacts and preserved negative TAP captures remain available to
+the task owner; none is represented as a public third-party deployment audit.
 
 ## Evidence boundaries
 
