@@ -1,6 +1,6 @@
 # Motion and video method refinement, 2026-10-13
 
-Status: **instruction/package milestone qualified; installation pending**.
+Status: **instruction/package milestone qualified; merged, pushed and installed**.
 The reviewed implementation is `0ef769c45ed059f1db7a8117e8447acc40fe907d`.
 Publication/integration and local installation are separate actions below.
 
@@ -138,10 +138,16 @@ source-to-clip mapping. It is not a universal playback-rate formula.
 
 ## Integration and installation boundary
 
-Integration requires current-main reconciliation, unchanged product identity and
-passing merged verification. Local installation uses a new journaled rollback
-backup and exact before/after native/runtime inventories, preserving unrelated
-skills. Do not infer either completed action from the review verdict or this
-qualification document. A separate installation closeout will record observed
-deployment, if completed. Saved automations remain paused and no R10/source
-terminal outcomes follow from this87-entrypoint release.
+The reviewed product was fast-forwarded into main at
+`fdc67d6d1833f495e85ee9ab9be67b87684a9ae0` after current-main reconciliation.
+Fresh merged verification again passed 1,706 tests with zero failures and the
+two existing Windows skips; the commit was pushed and its remote identity checked.
+Local installation completed with a new journaled rollback backup and exact
+before/after native/runtime inventories. A different read-only observer then
+accepted deployed bytes, backup and unrelated-file preservation.
+
+The [installation closeout](motion-video-installation-20261013.md) records these
+observed actions and their exact identities separately from instruction review.
+The later closeout changes documentation only, not the qualified product bytes.
+Saved automations were not restarted and no R10/source terminal outcomes follow
+from this 87-entrypoint release.

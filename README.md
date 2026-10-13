@@ -127,7 +127,7 @@ records the exact backed-up local upgrade and separate deployment audit.
 The [motion and programmatic-video upgrade](docs/motion-video-methods-20261013.md)
 adds interrupted UI choreography, property/clock ownership, meaningful reduced
 motion, seekable frame evaluation, rational cue timing and recoverable rendering.
-All previous85 skill payloads remain exact. Independent review accepted the
+All previous 85 skill payloads remain exact. Independent review accepted the
 repaired discovery boundary, and two bounded agent planning applications passed
 their predefined state/timing checks; those are not live visual or encode results.
 
@@ -135,8 +135,11 @@ The current [87-skill standalone ZIP](artifacts/releases/godskills-product-20261
 and [SHA-256 sidecar](artifacts/releases/godskills-product-20261013-87654db5.zip.sha256)
 contain the complete portable pack. Earlier exports remain exact historical
 snapshots. Finite English discovery still needs host judgment, and the research
-quarry remains unfinished;87 useful entrypoints do not mean all acquired sources
+quarry remains unfinished; 87 useful entrypoints do not mean all acquired sources
 have been fully refined.
+The [installation closeout](docs/motion-video-installation-20261013.md) records
+the verified native/runtime upgrade, exact rollback backup and independent
+deployment audit, separately from instruction and package qualification.
 
 For a new computer, copy only `product/` or export its verified standalone ZIP:
 

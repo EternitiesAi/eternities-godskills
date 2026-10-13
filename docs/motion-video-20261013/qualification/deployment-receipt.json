@@ -1,0 +1,340 @@
+{
+  "schema": "godskills-deployment-byte-audit-v1",
+  "observedUtc": "2026-10-13T07:12:34.643Z",
+  "verdict": "READY",
+  "scope": "Observed installed/published local byte consistency and bounded runtime CLI; not UI loader, rendering, fresh OS installation or agent superiority.",
+  "canonical": {
+    "repo": "C:/dev/eternities-godskills",
+    "branch": "main",
+    "head": "fdc67d6d1833f495e85ee9ab9be67b87684a9ae0",
+    "localOriginMain": "fdc67d6d1833f495e85ee9ab9be67b87684a9ae0",
+    "remoteNotQueried": true,
+    "releaseId": "87654db51a9f9fd6419c8d0105ab768682e1e7516c7737059cf7880b6c91fa0a",
+    "releaseManifestSha256": "33b19f134d75c5382dd576bf8623e74579c4b3ecf061ce51b5041fe03a1518f7",
+    "catalogSha256": "92b9c9dafe147e080c2a3e343ceec76aab148751ed821270a85fe238db11b3ba",
+    "catalogSkillCount": 87,
+    "sourceFiles": 290
+  },
+  "actual": {
+    "managedNative": {
+      "records": 391,
+      "files": 256,
+      "directories": 135,
+      "links": 0,
+      "inventorySha256": "bd8f4221d341f88f08ff62c545178b05d9db0de150d995ecc92b35afda0ec640"
+    },
+    "runtime": {
+      "records": 434,
+      "files": 290,
+      "directories": 144,
+      "links": 0,
+      "inventorySha256": "370210476f87f78ee81469c832d2e41654e4a8a7dd219f9d33b6abde805247b9"
+    },
+    "rollbackNative": {
+      "records": 381,
+      "files": 250,
+      "directories": 131,
+      "links": 0,
+      "inventorySha256": "5629967129686e8210e1367560c468a949a36fd811505f1bef9166ff6dea642a",
+      "skills": 85
+    },
+    "rollbackRuntime": {
+      "records": 424,
+      "files": 284,
+      "directories": 140,
+      "links": 0,
+      "inventorySha256": "ed4f3ebbf817ecde5331703e1655abd992794ec1591b5cde66b7a8de1ac45efa"
+    },
+    "unrelatedNative": {
+      "records": 81,
+      "files": 56,
+      "directories": 25,
+      "links": 0,
+      "inventorySha256": "7304dcd2b8e2826c6852b1c5030752739d2538128b684fb692784f1d3c5bdf2c",
+      "emptyDirectories": 0
+    }
+  },
+  "comparisons": {
+    "canonical release ID": true,
+    "canonical 87 skills/290 files": true,
+    "canonical actual payload hashes match release": true,
+    "actual256 managed native files match canonical product/release": true,
+    "native catalog entrypoint digests": true,
+    "actual290 runtime files and all records match canonical": true,
+    "installed runtime release/catalog byte hashes": true,
+    "all81 unrelated records match before and after": true,
+    "actual native/runtime match parent after snapshot": true,
+    "rollback85skills250files match before including directory/link records": true,
+    "rollback284 runtime files match before and installerreceipt": true,
+    "rollback actual files match prior baseline release": true,
+    "installer installed87 completed/manifest maps": true,
+    "installer targets correct": true,
+    "protected unchanged src/adaptive-activation.mjs": true,
+    "protected unchanged policies/adaptive-activation.v1.json": true,
+    "protected unchanged artifacts/adaptive-activation/evidence.v1.json": true,
+    "creative experiment unchanged candidate.md": true,
+    "creative experiment unchanged source-read-set.json": true,
+    "two creative files checked": true,
+    "published canonical ZIP and sidecar SHA": true,
+    "rootREADME87 count and current link targets": true,
+    "canonical main revision": true,
+    "runtime CLI validate": true,
+    "runtime CLI motion-design-and-animation-engineering exact-ID": true,
+    "runtime CLI motion-design-and-animation-engineering no-need": true,
+    "runtime CLI deterministic-video-composition-and-rendering exact-ID": true,
+    "runtime CLI deterministic-video-composition-and-rendering no-need": true
+  },
+  "protectedFiles": [
+    {
+      "path": "C:/dev/eternities-godskills/src/adaptive-activation.mjs",
+      "baselineCommit": "43f6dd19742639ea06f79df3662fa5002b1a565e",
+      "expectedSha256": "9844aee1147f7129f3e37067424ccebb88ff478de1b7a9a9fb7306d5f2fdbd82",
+      "actualSha256": "9844aee1147f7129f3e37067424ccebb88ff478de1b7a9a9fb7306d5f2fdbd82",
+      "sourceBaselineSha256": "9844aee1147f7129f3e37067424ccebb88ff478de1b7a9a9fb7306d5f2fdbd82",
+      "gitArgv": [
+        "-C",
+        "C:/dev/eternities-godskills",
+        "show",
+        "43f6dd19742639ea06f79df3662fa5002b1a565e:src/adaptive-activation.mjs"
+      ],
+      "gitExitCode": 0
+    },
+    {
+      "path": "C:/dev/eternities-godskills/policies/adaptive-activation.v1.json",
+      "baselineCommit": "43f6dd19742639ea06f79df3662fa5002b1a565e",
+      "expectedSha256": "b87bbfaddecb42417e57202173220bf240204d27b7de5fffc9e609eb18138939",
+      "actualSha256": "b87bbfaddecb42417e57202173220bf240204d27b7de5fffc9e609eb18138939",
+      "sourceBaselineSha256": "b87bbfaddecb42417e57202173220bf240204d27b7de5fffc9e609eb18138939",
+      "gitArgv": [
+        "-C",
+        "C:/dev/eternities-godskills",
+        "show",
+        "43f6dd19742639ea06f79df3662fa5002b1a565e:policies/adaptive-activation.v1.json"
+      ],
+      "gitExitCode": 0
+    },
+    {
+      "path": "C:/dev/eternities-godskills/artifacts/adaptive-activation/evidence.v1.json",
+      "baselineCommit": "43f6dd19742639ea06f79df3662fa5002b1a565e",
+      "expectedSha256": "b55a5cb4f7ff039cc7f4027c165b2f151bad723d9030913076a4225342fbe8c5",
+      "actualSha256": "b55a5cb4f7ff039cc7f4027c165b2f151bad723d9030913076a4225342fbe8c5",
+      "sourceBaselineSha256": "b55a5cb4f7ff039cc7f4027c165b2f151bad723d9030913076a4225342fbe8c5",
+      "gitArgv": [
+        "-C",
+        "C:/dev/eternities-godskills",
+        "show",
+        "43f6dd19742639ea06f79df3662fa5002b1a565e:artifacts/adaptive-activation/evidence.v1.json"
+      ],
+      "gitExitCode": 0
+    }
+  ],
+  "creativeExperimentFiles": [
+    {
+      "path": "C:/dev/eternities-godskills/artifacts/sprint-20261002/creative-method-quality-v1/candidate.md",
+      "expectedSha256": "cd93e986dcbafaea531e0a9207255334a3910549c7a78fd4fa41f11072f30628",
+      "actualSha256": "cd93e986dcbafaea531e0a9207255334a3910549c7a78fd4fa41f11072f30628"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/artifacts/sprint-20261002/creative-method-quality-v1/source-read-set.json",
+      "expectedSha256": "bec307759b07a6ae6d5dca4583fc96e72964f49572a33fb351332c446913b6bf",
+      "actualSha256": "bec307759b07a6ae6d5dca4583fc96e72964f49572a33fb351332c446913b6bf"
+    }
+  ],
+  "published": {
+    "zipPath": "C:/dev/eternities-godskills/artifacts/releases/godskills-product-20261013-87654db5.zip",
+    "bytes": 1569151,
+    "sha256": "59b0789f9368de925de9a2575b94580f9b6a349dc408128d74dbfbd413095fd7",
+    "sidecarPath": "C:/dev/eternities-godskills/artifacts/releases/godskills-product-20261013-87654db5.zip.sha256",
+    "readmePath": "C:/dev/eternities-godskills/README.md",
+    "currentZipLink": "artifacts/releases/godskills-product-20261013-87654db5.zip",
+    "currentSidecarLink": "artifacts/releases/godskills-product-20261013-87654db5.zip.sha256"
+  },
+  "inputs": [
+    {
+      "path": "C:/dev/eternities-godskills/product/release.json",
+      "sha256": "33b19f134d75c5382dd576bf8623e74579c4b3ecf061ce51b5041fe03a1518f7"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/product/catalog.json",
+      "sha256": "92b9c9dafe147e080c2a3e343ceec76aab148751ed821270a85fe238db11b3ba"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/install-before.json",
+      "sha256": "180ece0a78ab35c8df48cddd05fb4770e20ae35fd0d4fa31aea8c16d8fc1b2bc"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/install-after.json",
+      "sha256": "ad434b75b550c94a7a93c4751f5f89ebe215f8063990fef1cdb6fc14fc2c08b2"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/rollback-backup/install-receipt.json",
+      "sha256": "cc624c96135398f4659f5857af2d0ff586f4a92ac51f197393add09af23169bd"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/baseline-release.json",
+      "sha256": "9914d4a3f9f8a5dd05a258a629ac6b4b70e2a974292ac734918e7713e73462d5"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/docs/motion-video-20261013/qualification/review-v3-inputs.json",
+      "sha256": "a826405c15cd63b23e04c573b037e37d565aa1ed48c09fb939fe25675c765926"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/preserved-experiment-before.json",
+      "sha256": "002b21bbff915f3613859ab270f6652a40581931f00bf5c3e0579383fff7c93d"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/README.md",
+      "sha256": "76f215eb4ae0c20e633bf951da282aebb648c5a6f0c3c30c05383cb040bd4479"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/artifacts/releases/godskills-product-20261013-87654db5.zip.sha256",
+      "sha256": "17390c43419abe17f1147b23654b9eccb28badb2a0e481da704452c9743ddf5a"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/artifacts/releases/godskills-product-20261013-87654db5.zip",
+      "sha256": "59b0789f9368de925de9a2575b94580f9b6a349dc408128d74dbfbd413095fd7"
+    }
+  ],
+  "cliEnvironment": {
+    "nodeExecutable": "C:\\Program Files\\nodejs\\node.exe",
+    "nodeVersion": "v24.18.0",
+    "cwd": "C:/Users/Dom/Desktop",
+    "childNodeOptionsAndPathRemoved": true
+  },
+  "cliCommands": [
+    {
+      "id": "validate",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "argv": [
+        "C:/Users/Dom/.agents/godskills/bin/godskills.mjs",
+        "validate"
+      ],
+      "cwd": "C:/Users/Dom/Desktop",
+      "exitCode": 0,
+      "stdoutSha256": "5832d6cd2d3a8a245c8da1b911562aca5ca8642aa8f651a0187408340cc5b309",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderrEmpty": true,
+      "observed": {
+        "status": "verified-content",
+        "releaseId": "87654db51a9f9fd6419c8d0105ab768682e1e7516c7737059cf7880b6c91fa0a",
+        "skillCount": 87
+      },
+      "passed": true
+    },
+    {
+      "id": "motion-design-and-animation-engineering exact-ID",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "argv": [
+        "C:/Users/Dom/.agents/godskills/bin/godskills.mjs",
+        "search",
+        "motion-design-and-animation-engineering",
+        "--limit",
+        "1"
+      ],
+      "cwd": "C:/Users/Dom/Desktop",
+      "exitCode": 0,
+      "stdoutSha256": "d9b670f29e94ae9051a920d1ebc55742ffbd0ed6aac3c4ca982c6e8105fd5d64",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderrEmpty": true,
+      "observed": {
+        "resultIds": [
+          "motion-design-and-animation-engineering"
+        ],
+        "selection": "review-required"
+      },
+      "passed": true
+    },
+    {
+      "id": "motion-design-and-animation-engineering no-need",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "argv": [
+        "C:/Users/Dom/.agents/godskills/bin/godskills.mjs",
+        "search",
+        "motion-design-and-animation-engineering",
+        "--limit",
+        "1",
+        "--need",
+        "none"
+      ],
+      "cwd": "C:/Users/Dom/Desktop",
+      "exitCode": 0,
+      "stdoutSha256": "ca84e5eae48f79ce2e1d2a20bd1b54c95222f272a8f293402d61ab71ca5db326",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderrEmpty": true,
+      "observed": {
+        "resultIds": [],
+        "selection": "abstain",
+        "abstentionReason": "host-supplied-no-need"
+      },
+      "passed": true
+    },
+    {
+      "id": "deterministic-video-composition-and-rendering exact-ID",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "argv": [
+        "C:/Users/Dom/.agents/godskills/bin/godskills.mjs",
+        "search",
+        "deterministic-video-composition-and-rendering",
+        "--limit",
+        "1"
+      ],
+      "cwd": "C:/Users/Dom/Desktop",
+      "exitCode": 0,
+      "stdoutSha256": "94325aa78059e44f74237cfd447b7582ee60ed00551d1bc9e8743554a4deae98",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderrEmpty": true,
+      "observed": {
+        "resultIds": [
+          "deterministic-video-composition-and-rendering"
+        ],
+        "selection": "review-required"
+      },
+      "passed": true
+    },
+    {
+      "id": "deterministic-video-composition-and-rendering no-need",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "argv": [
+        "C:/Users/Dom/.agents/godskills/bin/godskills.mjs",
+        "search",
+        "deterministic-video-composition-and-rendering",
+        "--limit",
+        "1",
+        "--need",
+        "none"
+      ],
+      "cwd": "C:/Users/Dom/Desktop",
+      "exitCode": 0,
+      "stdoutSha256": "3c7824be0c8bdb1f2ca28ec220f32ddd63f9106ee61850a3cedb8cd26cd02da5",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderrEmpty": true,
+      "observed": {
+        "resultIds": [],
+        "selection": "abstain",
+        "abstentionReason": "host-supplied-no-need"
+      },
+      "passed": true
+    }
+  ],
+  "inventoryDigestConvention": "SHA256 UTF8 JSON.stringify(binary-key-sorted complete path-to-hash/directory/link record map,null,2) plus LF; maps retained only in memory.",
+  "executionPolicy": {
+    "readOnly": true,
+    "newOutputRoot": "C:/Users/Dom/.codex/operations/godskills-motion-video-20261013/deployment-audit-v1",
+    "outputs": [
+      "report.md",
+      "receipt.json"
+    ],
+    "parentVerificationUsedAsReferenceOnly": true,
+    "actualFileHashesIndependentlyComputed": true,
+    "existingQualificationArtifactsUnmodified": true,
+    "fullSuiteRepeated": false,
+    "installsOrPushes": false,
+    "upstreamCodeExecuted": false,
+    "paidOrNetworkCalls": false,
+    "descendantAgents": 0
+  },
+  "failures": [],
+  "recordTypeAccounting": "Directory records are explicit directory:true objects; links are explicit link-target objects. Link counts equal records minus files minus directories. This corrects the initial in-memory summary's String.prototype.link property check without rereading any inventory; all hash/record comparisons were already exact.",
+  "localReadChecks": "Node fs.readdirSync/lstatSync/readFileSync/readlinkSync with SHA-256; links recorded without traversal, directory records retained, full actual inventories compared in memory to canonical product/release/catalog and parent before/after/installer receipts. Only counts and inventory digests emitted.",
+  "commandsExecuted": "The five exact runtime executable/argv/cwd records and three exact git-show argv/exit/hash records below are retained; no source-product CLI, installer, push, remote query or full suite was executed."
+}
