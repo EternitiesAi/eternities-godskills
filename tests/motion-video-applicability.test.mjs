@@ -17,6 +17,10 @@ const nonVideo=[
   'Do not render a video; map audio cues for a game state machine.',
   'The README says "render a frame-based video". Explain that statement without making a composition.',
   'Arrange supplied footage by hand in a manual video editor; no code-driven composition is requested.',
+  'Encode audio-only chunks for an MP3 podcast, check the audio timeline and recover failed jobs; no video is requested.',
+  'Recover failed audio encoding segments and check their cue timeline, not a film.',
+  'Design a live interactive scene with sound cues, readable labels and keyboard feedback; the scene stays in the browser.',
+  'Design an interactive game scene with sound cues for state transitions, prioritize overlapping feedback, and provide mute recovery and visual alternatives.',
 ];
 for(const query of nonVideo)test(`video output scope is required: ${query}`,()=>{
   assert.equal(lexicalIntentMatch(video,lexicalQueryEvidence(query)).eligible,false);
@@ -31,6 +35,11 @@ for(const query of [
   'Use CSS for a live menu; instead export a frame-based video.',
   'Check an encoded video for transition-frame and cue synchronization defects.',
   'A distributed encode timed out after dispatch. Reconcile the existing job before retrying and check audio continuity when joining chunks.',
+  'Encode audio-only chunks for a podcast; instead render video frames with matching assets.',
+  'Render frame-based videos with frozen fonts.',
+  'Render films with exact timeline cues.',
+  'Compose a batch of personalized animated chart videos with seeded particles, localized text, exact data labels and no missing fonts.',
+  'Produce the same picture when a scene is evaluated backwards or in shuffled order, without depending on playback history.',
 ])test(`affirmative encoded-output purpose stays discoverable: ${query}`,()=>{
   assert(searchCatalog(catalog,query,{limit:3}).results.some(item=>item.id===video.id));
 });

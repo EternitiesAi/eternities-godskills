@@ -1,6 +1,6 @@
 # Motion and video method refinement, 2026-10-13
 
-Status: **repaired candidate; v2 independent review and release checks pending**. This document is not a published-release or installation claim.
+Status: **repaired candidate; v3 independent review and release checks pending**. This document is not a published-release or installation claim.
 
 Dom resumed Godskills development after the verified 85-entrypoint milestone at
 `43f6dd19742639ea06f79df3662fa5002b1a565e`, portable release
@@ -80,5 +80,16 @@ suite and separate repaired-tree review are still required. The historical
 
 A separate consumer completed two non-blinded text/planning applications using
 the original four instruction/reference files and a frozen synthetic brief.
-The parent has not yet recorded its acceptance. No live interface, encoded
+Parent acceptance checked all24 required fields, exact five input hashes and
+rational cue/state/recovery results. No live interface, encoded
 artifact, device performance, aesthetics or universal superiority follows.
+
+V2 `ade33b36490dd9b5ac02860dacf25853fe334773` passed the full suite
+(1697 passes,0 failures,2 existing Windows skips) but independent review still
+returned REPAIR. Audio-only encode requests and ambiguous live scenes passed
+the new gate; ordinary plural films/videos were wrongly rejected. Those failures
+and all prior artifacts remain immutable. V3 adds finite purpose exclusions,
+corroborates scene use, restores plurals and out-of-order scene evaluation, and
+records the revealed cases as development controls. No general semantic intent
+or arbitrary-negation claim follows. The previous85 payloads and six new skill
+files remain exact through these code-only repairs.

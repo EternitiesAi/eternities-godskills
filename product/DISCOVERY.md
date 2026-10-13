@@ -41,12 +41,15 @@ understanding. Merely mentioning training or a model does not supply a request.
 
 ## Requested media and interactive motion
 
-The frame-based video profile requires an artifact/encode purpose, a production,
+The frame-based video profile requires a media-artifact/encode purpose, a production,
 inspection or recovery action, and a frame/timeline/dependency cue. Meaning-bearing
 metadata binds this requirement to seekable frame-based video methods, not a
 hard-coded skill ID. Shared game-audio cue words alone cannot admit that method.
 Balanced quoted material and finite refused-production/manual-editing clauses
-are omitted for this profile. An exact skill ID remains addressable for inspection.
+and explicit audio-only clauses are omitted for this profile. Generic scene/cue
+words alone do not establish video purpose; a scene needs render/export/seek or
+nonsequential evaluation evidence. Singular and plural film/video forms are
+recognized. An exact skill ID remains addressable for inspection.
 
 The motion-continuity bonus requires an interface object, motion action and
 position/speed or geometry-change cue, with matching motion metadata. These are

@@ -46,7 +46,7 @@ function videoRequestText(query) {
     .filter(clause => {
       const text = normalize(clause);
       return !/\b(?:do not|don t|never|no need to|avoid)\s+(?:render\w*|encod\w*|export\w*|compos\w*|produc\w*)\b/.test(text) &&
-        !/\b(?:manual (?:video )?editor|by hand|no (?:code driven|programmatic) composition)\b/.test(text);
+        !/\b(?:manual (?:video )?editor|by hand|no (?:code driven|programmatic) composition|audio only|audio encod\w*|not (?:a )?(?:video|film)|no (?:video|film) (?:is )?(?:requested|needed|wanted))\b/.test(text);
     })
     .join(' ');
 }
@@ -57,9 +57,14 @@ const profiles = [
     requireRequestedCues: true,
     prepare: videoRequestText,
     cues: [
-      ['video or seekable scene artifact', /\b(?:video|film|mp4|webm|gif|encode\w*|clips?|scene)\b/],
+      ['video or seekable scene artifact', {test: text =>
+        /\b(?:videos?|films?|mp4|webm|gifs?|encode\w*|clips?)\b/.test(text) ||
+        (/\bscenes?\b/.test(text) &&
+         (/\b(?:render\w*|export\w*|seek\w*|scrub\w*)\b/.test(text) ||
+          (/\bevaluat\w*\b/.test(text) && /\b(?:backwards|shuffled|non sequential|playback history)\b/.test(text))))
+      }],
       ['production, inspection or seek action', /\b(?:render\w*|export\w*|encod\w*|compos\w*|create|design|build|make|verify|check|recover|reconcile|seek\w*|scrub\w*|assemble|produce|batch)\b/],
-      ['frame, timeline or programmatic dependency', /\b(?:frames?|seek\w*|scrub\w*|timeline|programmatic|cues?|fonts?|assets?|props|chunks?|timebase|time base|clip offsets)\b/],
+      ['frame, timeline or programmatic dependency', /\b(?:frames?|seek\w*|scrub\w*|timeline|programmatic|cues?|fonts?|assets?|props|chunks?|timebase|time base|clip offsets|backwards|shuffled|non sequential|playback history)\b/],
     ],
     metadata: [/\bseekable\b/, /\bframe based\b/, /\b(?:programmatic video|video composition|encoded artifact)\b/],
   },
