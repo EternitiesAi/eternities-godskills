@@ -83,8 +83,28 @@ mandatory agent context. This public summary is not their verbatim text.
 Review covered the exact product/implementation commit, not subsequent root
 publication prose. Parent checks cover that prose and the archive.
 
-Integration and backed-up installation remain to be recorded below; the checked
-candidate alone is not an installed-release claim.
+## Publication and installed upgrade
+
+The reviewed product was fast-forwarded into canonical main and pushed at
+`ce9c14aabf89f952b3f7a25bf5d479f93bea8e08`; authenticated GitHub main returned that
+same commit. Exporting from canonical main reproduced the exact archive SHA
+above. Later closeout prose does not change the checked product bytes.
+
+The local upgrade was installed with a new rollback backup and exact before/after
+manifests. Checks established:
+
+- 93 native skills, all 274 native skill payload files unchanged;
+- 310 runtime files, matching the published product release;
+- all 81 unrelated native records unchanged;
+- the backup exactly contains the previous 93-skill native set and 308-file
+  runtime; no material data was deleted;
+- the installed CLI validates and performs root browse, both business pages,
+  exact vendor inspection and host no-need from an unrelated working directory.
+
+The separate reviewers assessed the candidate. Parent verification assessed
+publication, fresh extraction and the actual local installation. No independent
+deployment-auditor or cached app-loader result is claimed. The prior automation
+remains paused; the completed workers were closed.
 
 ## Remaining work and meaning of completion
 
