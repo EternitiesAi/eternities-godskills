@@ -37,6 +37,7 @@ For smaller bundled methods and their separate review/execution states, use the 
 - [pricing-and-packaging-experimentation](skills/pricing-and-packaging-experimentation/SKILL.md): Design price offers, charging units and package tiers; run pricing experiments and compare eligible pricing cohorts, contribution margin, and renewal effects. Specialist of eternities-beacon.
 - [product-discovery-and-prioritization](skills/product-discovery-and-prioritization/SKILL.md): Choose evidence-relevant product opportunities and feasible portfolios with prerequisite closure, remaining effort, scarce capacity, uncertainty, cheap tests, and honest roadmap commitments. Specialist of eternities-prometheus.
 - [structured-hiring-evaluation](skills/structured-hiring-evaluation/SKILL.md): Design role-specific hiring assessments, compare independent candidate evidence and diagnose dated recruiting funnels without proxy-based judgments. Specialist of eternities-prometheus.
+- [vendor-evaluation-and-exit-planning](skills/vendor-evaluation-and-exit-planning/SKILL.md): Evaluate suppliers against mandatory requirements, observed performance and comparable total cost; plan vendor trials, contract renewal decisions, switching and credible exits. Specialist of eternities-prometheus.
 - [venture-falsification-and-planning](skills/venture-falsification-and-planning/SKILL.md): Turn a venture thesis into source-labeled assumptions, staged falsification experiments, resource bounds, kill criteria, and decision records. Specialist of eternities-prometheus.
 
 ## data
@@ -67,6 +68,7 @@ For smaller bundled methods and their separate review/execution states, use the 
 
 ## engineering
 
+- [api-contract-design-and-evolution](skills/api-contract-design-and-evolution/SKILL.md): Design and evolve API contracts with directional consumer/provider compatibility, presence and null semantics, behavioral errors, scoped replay, concurrent writes, cursor consistency, and migration evidence. Specialist of eternities-daedalus.
 - [api-rate-limit-recovery](skills/api-rate-limit-recovery/SKILL.md): Build protocol-aware retry behavior with idempotency, bounded backoff, cancellation, concurrency control, and terminal evidence. Specialist of eternities-daedalus.
 - [bounded-service-shutdown](skills/bounded-service-shutdown/SKILL.md): Implement an idempotent shutdown lifecycle with admission fencing, active-work accounting, bounded drain, cleanup ordering, and clean-versus-forced evidence. Specialist of eternities-daedalus.
 - [confirmed-destructive-reconstruction](skills/confirmed-destructive-reconstruction/SKILL.md): Stage and verify a recoverable destructive reconstruction with exact target binding, independent backup validation, postconditions, and rollback evidence. Specialist of eternities-phoenix.

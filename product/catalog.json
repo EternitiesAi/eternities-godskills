@@ -69,6 +69,50 @@
       "resources": []
     },
     {
+      "id": "api-contract-design-and-evolution",
+      "category": "engineering",
+      "summary": "Design and evolve API contracts with directional consumer/provider compatibility, presence and null semantics, behavioral errors, scoped replay, concurrent writes, cursor consistency, and migration evidence.",
+      "triggers": [
+        "API contract design and evolution",
+        "old clients new server backward compatibility request response contract",
+        "new consumer old provider rolling deployment interface compatibility",
+        "optional request field absent null default response enum unknown variant",
+        "schema compatible API change breaks consumer behavior",
+        "API error contract timeout after commit retry uncertain outcome",
+        "idempotency key scope collision payload lifetime concurrent duplicate requests",
+        "API cursor pagination consistency mutable list snapshot continuation expiry",
+        "API concurrent updates precondition revision lost write contract",
+        "API deprecation migration consumer usage removal evidence"
+      ],
+      "antiTriggers": [
+        "edit an already supplied static JSON value",
+        "only tune a client's backoff timer",
+        "evade a provider quota or access policy",
+        "only migrate an internal database schema"
+      ],
+      "taskTypes": [
+        "plan",
+        "build",
+        "verify"
+      ],
+      "related": [
+        "api-rate-limit-recovery",
+        "eternities-daedalus",
+        "eternities-hermes",
+        "structured-output-contracts"
+      ],
+      "specializes": "eternities-daedalus",
+      "maturity": "instruction-reviewed",
+      "entrypoint": "skills/api-contract-design-and-evolution/SKILL.md",
+      "entrypointSha256": "88e79f38ac417ddf49145ea2faee45182730632593dae5df0eb0a10f663714e4",
+      "resources": [
+        {
+          "path": "skills/api-contract-design-and-evolution/references/methods.md",
+          "sha256": "980b3b1dbdea764221dbe0d071dc325076e60b9daab1ecb17b0ce8ccd5c3a701"
+        }
+      ]
+    },
+    {
       "id": "api-rate-limit-recovery",
       "category": "engineering",
       "summary": "Build protocol-aware retry behavior with idempotency, bounded backoff, cancellation, concurrency control, and terminal evidence.",
@@ -3390,6 +3434,49 @@
         {
           "path": "skills/user-research-and-usability-study/references/experience-mapping.md",
           "sha256": "bb7906daefa5d06a255c50b217ddafcd8a5db8b58d99d17ae16a345bc2132812"
+        }
+      ]
+    },
+    {
+      "id": "vendor-evaluation-and-exit-planning",
+      "category": "business",
+      "summary": "Evaluate suppliers against mandatory requirements, observed performance and comparable total cost; plan vendor trials, contract renewal decisions, switching and credible exits.",
+      "triggers": [
+        "vendor evaluation and supplier comparison with mandatory requirement gates",
+        "renew or replace a vendor before an auto renewal notice deadline",
+        "compare vendor total cost of ownership across seats usage implementation and switching",
+        "review incumbent vendor performance against SLA and support promises",
+        "supplier concentration dependency access risk and vendor lock in",
+        "design a vendor trial and verify data export before choosing a supplier",
+        "vendor exit planning offboarding migration overlap and termination costs"
+      ],
+      "antiTriggers": [
+        "purchase services negotiate contracts or contact suppliers",
+        "specific legal financial or regulatory advice",
+        "design customer prices and package tiers rather than evaluate suppliers",
+        "prioritize product features or roadmap opportunities without a supplier decision",
+        "claim SLA credits or revoke vendor access without a separate authorized workflow",
+        "security certification or comprehensive third party compliance audit"
+      ],
+      "taskTypes": [
+        "research",
+        "plan",
+        "create",
+        "verify"
+      ],
+      "related": [
+        "eternities-agora",
+        "pricing-and-packaging-experimentation",
+        "product-discovery-and-prioritization"
+      ],
+      "specializes": "eternities-prometheus",
+      "maturity": "instruction-reviewed",
+      "entrypoint": "skills/vendor-evaluation-and-exit-planning/SKILL.md",
+      "entrypointSha256": "477ae4c9feede6cdd31f452c9d2f20064c8c99fe393377fa66e080c99e93db80",
+      "resources": [
+        {
+          "path": "skills/vendor-evaluation-and-exit-planning/references/methods.md",
+          "sha256": "7621f6add6d333dbd250d91ca48f6e9504ac1ba9a8f16e2bebbecfeecaf9c976"
         }
       ]
     },

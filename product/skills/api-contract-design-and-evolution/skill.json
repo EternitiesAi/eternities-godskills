@@ -1,0 +1,61 @@
+{
+  "id": "api-contract-design-and-evolution",
+  "category": "engineering",
+  "summary": "Design and evolve API contracts with directional consumer/provider compatibility, presence and null semantics, behavioral errors, scoped replay, concurrent writes, cursor consistency, and migration evidence.",
+  "triggers": [
+    "API contract design and evolution",
+    "old clients new server backward compatibility request response contract",
+    "new consumer old provider rolling deployment interface compatibility",
+    "optional request field absent null default response enum unknown variant",
+    "schema compatible API change breaks consumer behavior",
+    "API error contract timeout after commit retry uncertain outcome",
+    "idempotency key scope collision payload lifetime concurrent duplicate requests",
+    "API cursor pagination consistency mutable list snapshot continuation expiry",
+    "API concurrent updates precondition revision lost write contract",
+    "API deprecation migration consumer usage removal evidence"
+  ],
+  "antiTriggers": [
+    "edit an already supplied static JSON value",
+    "only tune a client's backoff timer",
+    "evade a provider quota or access policy",
+    "only migrate an internal database schema"
+  ],
+  "taskTypes": [
+    "plan",
+    "build",
+    "verify"
+  ],
+  "related": [
+    "eternities-daedalus",
+    "eternities-hermes",
+    "structured-output-contracts",
+    "api-rate-limit-recovery"
+  ],
+  "specializes": "eternities-daedalus",
+  "resources": [
+    "references/methods.md"
+  ],
+  "maturity": "instruction-reviewed",
+  "provenance": [
+    {
+      "kind": "pattern-reference",
+      "source": "addyosmani/agent-skills:skills/api-and-interface-design/SKILL.md",
+      "note": "Complete inert body inspected; SHA-256 293db2903b41316a5109a1e0ce3e1740eeafae31735bc1f9143dafbfd1187363. Separate input/output contracts, explicit partial updates, observable consumer dependencies, and evolution planning informed independent methods. Fixed naming, validation only at outer edges, a one-version rule, and unconditional additive-compatibility claims were rejected. The supplied non-Git copy has no Git metadata; its README identifies this upstream, but exact HEAD and actual remote are unavailable. Root MIT notice, copyright 2025 Addy Osmani, observed; notice SHA-256 6f202f8bd568cd730dbb2b0d1f8e243bc74c2fa1f64dbce9b2c7ea08bd5c9fd7. Notice applicability and revision provenance are observations, not legal clearance. No source prose, examples, or code imported."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "alirezarezvani/claude-skills:engineering/skills/api-design-reviewer/SKILL.md",
+      "note": "Complete inert body inspected; SHA-256 a4e61a67981d7cab02f479f959b9e83d032e705c17b72e763d07ef9a3247bf54. Before/after contract comparison, error-shape review, pagination alternatives, and idempotency questions informed independent methods. Source scripts, fixed score weights, preferred URL versioning, universal status-code recipes, and treating schema additions as sufficient compatibility evidence were rejected. The supplied non-Git copy has no Git metadata; its README identifies this upstream, but exact HEAD and actual remote are unavailable. Root MIT notice, copyright 2025 Alireza Rezvani, observed; notice SHA-256 a20126646f93d32a8989c3cf4772d59194f405034f7babe7daebeac22b8ab151. Notice applicability and revision provenance are observations, not legal clearance. No source prose, examples, or code imported."
+    },
+    {
+      "kind": "owner-comparison",
+      "source": "product/skills/eternities-daedalus/SKILL.md; product/skills/eternities-hermes/SKILL.md; product/skills/structured-output-contracts/SKILL.md; product/skills/api-rate-limit-recovery/SKILL.md",
+      "note": "Complete current entrypoints and relevant engineering/integration references inspected at product baseline 7c11bb315c1db73415ef468748bf67cec59f17a1. Existing implementation, integration, record-validation, feed-reader, and retry-recovery ownership retained. This specialist supplies directional API compatibility and provider contract decisions rather than duplicating those implementations."
+    },
+    {
+      "kind": "authoring",
+      "source": "product/skills/api-contract-design-and-evolution/SKILL.md; product/skills/api-contract-design-and-evolution/references/methods.md",
+      "note": "Independently authored portable instructions and first-party illustrations. Method selection and supplied source concepts do not establish runtime utility, compatibility with a live service, superiority, or certification."
+    }
+  ]
+}

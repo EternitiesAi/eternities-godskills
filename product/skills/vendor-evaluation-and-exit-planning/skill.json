@@ -1,0 +1,52 @@
+{
+  "id": "vendor-evaluation-and-exit-planning",
+  "category": "business",
+  "summary": "Evaluate suppliers against mandatory requirements, observed performance and comparable total cost; plan vendor trials, contract renewal decisions, switching and credible exits.",
+  "triggers": [
+    "vendor evaluation and supplier comparison with mandatory requirement gates",
+    "renew or replace a vendor before an auto renewal notice deadline",
+    "compare vendor total cost of ownership across seats usage implementation and switching",
+    "review incumbent vendor performance against SLA and support promises",
+    "supplier concentration dependency access risk and vendor lock in",
+    "design a vendor trial and verify data export before choosing a supplier",
+    "vendor exit planning offboarding migration overlap and termination costs"
+  ],
+  "antiTriggers": [
+    "purchase services negotiate contracts or contact suppliers",
+    "specific legal financial or regulatory advice",
+    "design customer prices and package tiers rather than evaluate suppliers",
+    "prioritize product features or roadmap opportunities without a supplier decision",
+    "claim SLA credits or revoke vendor access without a separate authorized workflow",
+    "security certification or comprehensive third party compliance audit"
+  ],
+  "taskTypes": ["research", "plan", "create", "verify"],
+  "specializes": "eternities-prometheus",
+  "related": [
+    "eternities-agora",
+    "pricing-and-packaging-experimentation",
+    "product-discovery-and-prioritization"
+  ],
+  "resources": ["references/methods.md"],
+  "maturity": "instruction-reviewed",
+  "provenance": [
+    {
+      "kind": "pattern-reference",
+      "source": "anthropics/knowledge-work-plugins@5267cf7bff3031921d4474b8e8f86ad02d2b8f6d:operations/skills/vendor-review/SKILL.md",
+      "repositoryRelative": "operations/skills/vendor-review/SKILL.md",
+      "bodySHA": "2233be4b53da05999bbf1f75e2be9287d5c1f3ed3e3530d845a9acdb3d1fb9d2",
+      "note": "Full 3274-byte local body read as inert evidence. Local Git HEAD and origin https://github.com/anthropics/knowledge-work-plugins.git observed; the body and root license had no reported HEAD diff. Lifecycle cost, documented performance, dependency and exit concerns informed original methods. Fixed one-year/three-year presentations, unsupported likelihood labels, connector dependencies, slash commands and procurement actions were rejected. Root LICENSE SHA-256 1b1689d7864727a02a2682067f9c5328c891518db0a513663ef5a949052bd40b read fully: Apache-2.0 text with an unexplained trailing fragment. No nearer license or notice observed along this body's directory chain. Rights applicability is not independently certified. No source prose, templates or code copied; original writing does not itself resolve rights uncertainty."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "archived claude-skills:business-operations/skills/vendor-management/SKILL.md",
+      "repositoryRelative": "business-operations/skills/vendor-management/SKILL.md",
+      "bodySHA": "57fb2f47bfef9f3475703d05c9734a4840d68c1197923d90d68fd88ad95cb6b4",
+      "note": "Full 11261-byte local archived body read as inert evidence. No local Git repository was available, so HEAD and remote are unresolved. Local README and plugin metadata claim https://github.com/alirezarezvani/claude-skills; this is not verified archive revision evidence. Root MIT notice, copyright Alireza Rezvani 2025, read fully, SHA-256 a20126646f93d32a8989c3cf4772d59194f405034f7babe7daebeac22b8ab151; archival origin and notice applicability remain unverified. Operational criticality, measured service performance, contingency and offboarding informed fresh writing. Scripts, fixed industry weights, score verdicts, generic credit eligibility, regulatory heuristics, mandatory review cadences and host-specific orchestration were rejected. No source prose, templates or code copied; source empirical and standards claims were not adopted as established facts."
+    },
+    {
+      "kind": "authoring",
+      "source": "product/skills/vendor-evaluation-and-exit-planning/",
+      "note": "Original specialist separates eligibility from preferences, vendor claims from relevant observations, prospective cost from sunk spending, service horizons from payment and commitment timing, and planned exit from verified portability. Current Prometheus, Agora, pricing-and-packaging and product-discovery owners were inspected to preserve their distinct scopes. Supplied-data decision support only; no external action, commercial outcome, legal clearance or runtime qualification is established by these instructions."
+    }
+  ]
+}

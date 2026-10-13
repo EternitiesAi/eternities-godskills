@@ -49,7 +49,11 @@ const workflowProductKnowledgeSkillIds = [
   "knowledge-base-architecture-and-maintenance",
   "product-discovery-and-prioritization",
 ];
-const admittedAdditionIds = [...cognitiveSkillIds, ...professionalSkillIds, ...nextEightSkillIds, ...motionVideoSkillIds, ...workflowProductKnowledgeSkillIds].sort();
+const apiVendorSkillIds = [
+  "api-contract-design-and-evolution",
+  "vendor-evaluation-and-exit-planning",
+];
+const admittedAdditionIds = [...cognitiveSkillIds, ...professionalSkillIds, ...nextEightSkillIds, ...motionVideoSkillIds, ...workflowProductKnowledgeSkillIds, ...apiVendorSkillIds].sort();
 const intentionalDiscoveryResource = {
   owner: "eternities-omnibus",
   path: "skills/eternities-omnibus/references/methods.md",
