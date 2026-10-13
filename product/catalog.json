@@ -2257,7 +2257,8 @@
         "design or reorganize a knowledge base taxonomy, navigation, and stable record identities",
         "maintain knowledge collection source lineage, canonical records, conflicts, and effective versions",
         "repair knowledge-base aliases, links, incremental indexes, and stale derived views",
-        "retire, redirect, deduplicate, or recover knowledge records while preserving rights and access distinctions"
+        "retire, redirect, deduplicate, or recover knowledge records while preserving rights and access distinctions",
+        "maintain handbook and documentation rename aliases, citation locations, maps and dependent caches"
       ],
       "antiTriggers": [
         "ordinary file lookup or answer from an already supplied document",
@@ -2848,7 +2849,8 @@
         "product opportunity discovery and evidence-based prioritization",
         "compare feature portfolios with shared prerequisites and limited skills or resources",
         "reconsider a product backlog after feedback, capacity changes, or dependency delays",
-        "plan discovery experiments and conditional Now Next Later roadmap commitments"
+        "plan discovery experiments and conditional Now Next Later roadmap commitments",
+        "evaluate requested feature benefits with learning before a build or implementation commitment"
       ],
       "antiTriggers": [
         "routine roadmap status update with no priority or feasibility decision",

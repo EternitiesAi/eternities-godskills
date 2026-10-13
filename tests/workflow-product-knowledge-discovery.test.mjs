@@ -12,13 +12,15 @@ const positives=[
  ['git-change-integration-and-recovery','Our remote branch moved after review. Reconcile Git history, recover safely and preserve worktree ownership before pushing.'],
  ['product-discovery-and-prioritization','Prioritize a product roadmap with opportunity hypotheses, capacity, prerequisite dependencies and cheap discovery experiments.'],
  ['product-discovery-and-prioritization','Choose a feasible feature portfolio without mistaking customer requests for validated outcomes or ignoring remaining effort.'],
+ ['product-discovery-and-prioritization','Five requesters want a feature but its benefit is untested; decide whether to learn first or build.'],
  ['knowledge-base-architecture-and-maintenance','Organize a knowledge base using stable document IDs, aliases, taxonomy, freshness and source-sensitive access scopes.'],
  ['knowledge-base-architecture-and-maintenance','Restructure our documentation graph; preserve renamed-page identity, reconcile conflicting versions and invalidate dependent indexes.'],
+ ['knowledge-base-architecture-and-maintenance','After a handbook rename, keep citations working and refresh only maps and caches that depend on it.'],
 ];
 for(const [id,query] of positives)test(`focused route available: ${id}: ${query}`,()=>{
  assert(searchCatalog(catalog,query,{limit:3}).results.some(s=>s.id===id));
 });
-for(const [id,query] of positives.filter((_,i)=>i%2===0))test(`host no-need overrides ${id}`,()=>{
+for(const [id,query] of ['browser-automation-state-and-verification','git-change-integration-and-recovery','product-discovery-and-prioritization','knowledge-base-architecture-and-maintenance'].map(id=>positives.find(x=>x[0]===id)))test(`host no-need overrides ${id}`,()=>{
  const result=searchCatalog(catalog,query,{need:'none',limit:3});
  assert.deepEqual(result.results,[]);assert.equal(result.selection.state,'abstain');
 });

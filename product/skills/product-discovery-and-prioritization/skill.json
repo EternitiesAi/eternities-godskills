@@ -6,7 +6,8 @@
     "product opportunity discovery and evidence-based prioritization",
     "compare feature portfolios with shared prerequisites and limited skills or resources",
     "reconsider a product backlog after feedback, capacity changes, or dependency delays",
-    "plan discovery experiments and conditional Now Next Later roadmap commitments"
+    "plan discovery experiments and conditional Now Next Later roadmap commitments",
+    "evaluate requested feature benefits with learning before a build or implementation commitment"
   ],
   "antiTriggers": [
     "routine roadmap status update with no priority or feasibility decision",
