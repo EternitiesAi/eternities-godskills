@@ -1,6 +1,6 @@
 ---
 name: eternities-arcadia
-description: Shape, build, and assess game systems by connecting player promise, runtime state, experience, accessibility, performance, and human acceptance.
+description: Shape, build, and assess games and interactive 3D scenes, connecting design intent, imported assets, runtime systems, player experience, performance, and human acceptance.
 ---
 
 # Eternities Arcadia
@@ -11,6 +11,7 @@ Arcadia is the game-development route for work that spans design intent and play
 
 - **Direction** settles the physical action, repeatable loop, session shape, failure, progression, pacing, narrative revelation, economy boundaries, platform, and anti-goals.
 - **Runtime systems** turns a settled direction into simulation time, input intents, persistence, authority ownership, non-player behavior, migration, reconnect behavior, and performance budgets.
+  - For imported meshes or models entering a game or interactive scene, use [real-time 3D asset integration](references/realtime-asset-integration.md) when transforms, materials, dependencies, collision, animation, or packaged behavior need checking. Select only the relevant checks; asset generation and offline rendering are different tasks.
 - **Player experience** aligns feedback, controls, motion, sound, visual language, access settings, and device cost so the player can understand what happened and what to do next.
   - For an approved UI need spanning multiple surfaces or states, use [UI requirement-to-screen/state traceability](references/requirement-screen-state-traceability.md) to inspect map coverage and declared flow paths. This is a method within player experience, not a new Arcadia route.
   - For a bounded proposal mapping named gameplay states or events to player-facing audio cues, use [DRAFT: game-state to audio-cue design](references/game-state-to-audio-cue.md). It is a lazy method within player experience, not an asset-rights grant, DSP review, accessibility certification, or play-quality verdict.

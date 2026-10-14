@@ -7,6 +7,7 @@ import { spawnSync } from "node:child_process";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { projectBeforeAtlasSuppliedDataRevision } from './helpers/atlas-discovery-revision.mjs';
+import { projectBeforeArcadiaAssetRevision, assetIntegrationResource } from './helpers/arcadia-asset-revision.mjs';
 
 const testDirectory = dirname(fileURLToPath(import.meta.url));
 const productRoot = resolve(
@@ -202,7 +203,7 @@ const fourNewResources = [
   },
 ];
 
-test("the immutable core2260 fixture is exact and core projections admit only the declared Atlas metadata revision", async () => {
+test("the immutable core2260 fixture is exact and core projections admit only the declared Atlas and Arcadia revisions", async () => {
   assert.equal(sha256(baselineBytes), frozenCoreCatalogSha256);
   const liveCatalog = JSON.parse(await readFile(join(productRoot, "catalog.json"), "utf8"));
   assert.equal(baselineCatalog.skills.length, 68);
@@ -220,7 +221,8 @@ test("the immutable core2260 fixture is exact and core projections admit only th
     "skill membership and array order",
   );
   const historicalAtlas = baselineCatalog.skills.find(skill => skill.id === 'eternities-atlas');
-  assert.deepEqual(scoringProjection(liveCore.map(skill => projectBeforeAtlasSuppliedDataRevision(skill, historicalAtlas))), scoringProjection(baselineCatalog.skills));
+  const historicalArcadia = baselineCatalog.skills.find(skill => skill.id === 'eternities-arcadia');
+  assert.deepEqual(scoringProjection(liveCore.map(skill => projectBeforeArcadiaAssetRevision(projectBeforeAtlasSuppliedDataRevision(skill, historicalAtlas), historicalArcadia))), scoringProjection(baselineCatalog.skills));
 });
 
 test("historical paths remain exact, named optional owner references are admitted, and only Omnibus is revised", async () => {
@@ -252,13 +254,13 @@ test("historical paths remain exact, named optional owner references are admitte
       const right = b.join("|");
       return left < right ? -1 : left > right ? 1 : 0;
     });
-  assert.deepEqual(sortResources(added), sortResources([...fourNewResources, intentionalConfigurationResource, intentionalResearchProposalResource, intentionalEducationalMicrosimulationResource, ...intentionalStudySynthesisResources, intentionalProspectiveDesignResource, intentionalSupportTransitionResource]));
+  assert.deepEqual(sortResources(added), sortResources([...fourNewResources, intentionalConfigurationResource, intentionalResearchProposalResource, intentionalEducationalMicrosimulationResource, ...intentionalStudySynthesisResources, intentionalProspectiveDesignResource, intentionalSupportTransitionResource, assetIntegrationResource]));
   assert.deepEqual(removed, []);
   assert.deepEqual(changed, [intentionalDiscoveryResource.owner + ":" + intentionalDiscoveryResource.path]);
   assert.equal(resourceIndex(liveById.get(intentionalDiscoveryResource.owner)).get(intentionalDiscoveryResource.path), intentionalDiscoveryResource.sha256);
   assert.equal(sha256(await readFile(join(productRoot, intentionalDiscoveryResource.path))), intentionalDiscoveryResource.sha256);
 
-  for (const resource of [...fourNewResources, intentionalConfigurationResource, intentionalResearchProposalResource, intentionalEducationalMicrosimulationResource, ...intentionalStudySynthesisResources, intentionalProspectiveDesignResource, intentionalSupportTransitionResource]) {
+  for (const resource of [...fourNewResources, intentionalConfigurationResource, intentionalResearchProposalResource, intentionalEducationalMicrosimulationResource, ...intentionalStudySynthesisResources, intentionalProspectiveDesignResource, intentionalSupportTransitionResource, assetIntegrationResource]) {
     const bytes = await readFile(join(productRoot, resource.path));
     assert.equal(sha256(bytes), resource.sha256, resource.path);
     const metadata = JSON.parse(await readFile(join(productRoot, "skills", resource.owner, "skill.json"), "utf8"));

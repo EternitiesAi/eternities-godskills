@@ -1,7 +1,7 @@
 {
   "id": "eternities-arcadia",
   "category": "games",
-  "summary": "Connect game direction, runtime systems, player experience, accessibility, performance, and human release evidence.",
+  "summary": "Connect game direction, imported 3D assets, runtime systems, player experience, accessibility, performance, and human release evidence.",
   "triggers": [
     "game direction",
     "playable prototype",
@@ -13,7 +13,11 @@
     "spatial interaction",
     "browser canvas resize pointer coordinates animation loops",
     "hidden tab simulation delta focus pressed keys input",
-    "scene teardown stale asset loading GPU resource ownership"
+    "scene teardown stale asset loading GPU resource ownership",
+    "integrate imported glTF FBX meshes and models into Three.js Unity Unreal interactive scenes",
+    "check mesh units scale coordinate axes pivot and material slots after import",
+    "verify textures UV channels normal maps collision rigs animation and root motion in a game",
+    "qualify model dependencies and decoder files in packaged builds beyond editor preview"
   ],
   "antiTriggers": [
     "routine isolated code edit",
@@ -37,10 +41,21 @@
     "references/methods.md",
     "references/game-state-to-audio-cue.md",
     "references/browser-runtime-lifecycle.md",
-    "references/requirement-screen-state-traceability.md"
+    "references/requirement-screen-state-traceability.md",
+    "references/realtime-asset-integration.md"
   ],
   "maturity": "instruction-reviewed",
   "provenance": [
+    {
+      "kind": "pattern-reference",
+      "source": "CloudAI-X/threejs-skills@b1c623076c661fc9b03dac19292e825a5d106823:skills/threejs-loaders/SKILL.md",
+      "note": "Exact entrypoint SHA-256 03e0d7319692bb7eaa13cfada5d27d39840c7520c5ddc3fc8cc07b645dcba2e9 read as inert research. Dependency and loader-readiness concerns informed original acceptance guidance, not copied code or prose. Root license not established. Blanket rescaling, hardcoded decoder endpoints and uniform texture handling were not adopted."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "quodsoler/unreal-engine-skills@f3742d7b688690810df369802b90430324e380b9:skills/ue-materials-rendering/SKILL.md",
+      "note": "Exact entrypoint SHA-256 ff708688124bffa3d92f4cd849255bc956f3da23ae96566f44c67b6491bbf0f6 read as inert research. Material ownership and target-renderer compatibility informed original portable guidance; no C++ or prose copied. Root MIT notice observed. Source version/header-verification claims were not independently certified or imported as product claims."
+    },
     {
       "kind": "pattern-reference",
       "source": "guiguiyan930-source/game-ui-design-workflow@1ec604638dd1a27198576206eb3e47632725a078:skills/game-ui-extension/SKILL.md",

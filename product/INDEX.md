@@ -92,7 +92,7 @@ For smaller bundled methods and their separate review/execution states, use the 
 
 ## games
 
-- [eternities-arcadia](skills/eternities-arcadia/SKILL.md): Connect game direction, runtime systems, player experience, accessibility, performance, and human release evidence.
+- [eternities-arcadia](skills/eternities-arcadia/SKILL.md): Connect game direction, imported 3D assets, runtime systems, player experience, accessibility, performance, and human release evidence.
 - [procedural-world-generation-and-validation](skills/procedural-world-generation-and-validation/SKILL.md): Build reproducible procedural worlds with chunk boundary contracts, state-aware progression checks, persistent overlays, and bounded generation recovery. Specialist of eternities-arcadia.
 
 ## legal

@@ -856,7 +856,7 @@
     {
       "id": "eternities-arcadia",
       "category": "games",
-      "summary": "Connect game direction, runtime systems, player experience, accessibility, performance, and human release evidence.",
+      "summary": "Connect game direction, imported 3D assets, runtime systems, player experience, accessibility, performance, and human release evidence.",
       "triggers": [
         "game direction",
         "playable prototype",
@@ -868,7 +868,11 @@
         "spatial interaction",
         "browser canvas resize pointer coordinates animation loops",
         "hidden tab simulation delta focus pressed keys input",
-        "scene teardown stale asset loading GPU resource ownership"
+        "scene teardown stale asset loading GPU resource ownership",
+        "integrate imported glTF FBX meshes and models into Three.js Unity Unreal interactive scenes",
+        "check mesh units scale coordinate axes pivot and material slots after import",
+        "verify textures UV channels normal maps collision rigs animation and root motion in a game",
+        "qualify model dependencies and decoder files in packaged builds beyond editor preview"
       ],
       "antiTriggers": [
         "routine isolated code edit",
@@ -890,7 +894,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-arcadia/SKILL.md",
-      "entrypointSha256": "2cbfec7e1e8fbc6e3d10321336224176ee5950d7895ac281d7849947c94c61c1",
+      "entrypointSha256": "9ec66ba0975124b95877f2ad0a852162008cfd624af2fe823d9752e478940c46",
       "resources": [
         {
           "path": "skills/eternities-arcadia/references/methods.md",
@@ -907,6 +911,10 @@
         {
           "path": "skills/eternities-arcadia/references/requirement-screen-state-traceability.md",
           "sha256": "e26439a9761aebd5fabd6ac65865744063c6ce0ae26aaaadcc7d7fdb93d1f34a"
+        },
+        {
+          "path": "skills/eternities-arcadia/references/realtime-asset-integration.md",
+          "sha256": "a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41"
         }
       ]
     },
