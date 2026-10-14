@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
-import {searchCatalog} from '../product/lib/product.mjs';
+import {searchCatalog, routeTask} from '../product/lib/product.mjs';
 
 const root = new URL('../', import.meta.url);
 const read = path => readFile(new URL(path, root), 'utf8');
@@ -57,11 +57,15 @@ test('supplied-only wording remains an applicability decision, not a discovery g
     read('product/DISCOVERY.md'),
   ]);
   for (const prompt of suppliedOnlyPrompts) {
-    const result = searchCatalog(catalog, prompt, {limit: 5});
-    assert.ok(!result.results.some(item => item.id === 'eternities-atlas'),
-      `${prompt}: ${result.results.map(item => item.id).join(', ')}`);
-    assert.equal(result.authority, 'none');
-    assert.equal(result.activation, 'none');
+    // A supplied-only boundary rejects the connected method, not the local
+    // analytics owner. Presence/absence in a lexical shortlist is not consent.
+    const result = routeTask(catalog, prompt, {
+      inputScope: 'supplied-only', connectedPurpose: 'none', discovery: 'prohibited',
+    }, {limit: 5});
+    assert.equal(result.atlas.connectedSource.state, 'rejected');
+    assert.equal(result.atlas.localAnalysisAvailable, true);
+    assert.equal(result.search.authority, 'none');
+    assert.equal(result.search.activation, 'none');
   }
   for (const prompt of novelSuppliedOnlyPrompts) {
     const result = searchCatalog(catalog, prompt, {limit: 5});

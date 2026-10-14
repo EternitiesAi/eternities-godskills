@@ -103,6 +103,15 @@ when a supplied file makes connected-source discovery unnecessary. A hit is not
 permission to discover, load or use connected data. Local analysis remains
 available when the supplied file actually needs analysis.
 
+Atlas's supplied-data metadata covers merging exports, column mapping,
+deduplication and row-rejection auditing. A request to work without a connected
+source is a restriction on that optional method, not an exclusion of the whole
+analytics skill. The catalog therefore does not use that restriction as an
+owner-wide anti-trigger. Genuine owner exclusions still apply, and the host
+must supply the connected-source facts below. These metadata terms improve
+ordinary-language retrieval; they do not parse arbitrary negation or authorize
+an operation, and incidental matches still require judgment.
+
 ## Connected-source eligibility
 
 The optional `route` command makes the host decision callable. Atlas's
