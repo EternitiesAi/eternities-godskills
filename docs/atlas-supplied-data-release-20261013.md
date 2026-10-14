@@ -1,9 +1,9 @@
 # Supplied-data discovery and executed utility — 2026-10-13
 
-Candidate implementation: `4c67e072511a5a8f4238cabc25100d88cc4f1f74`.
+Reviewed implementation: `4c67e072511a5a8f4238cabc25100d88cc4f1f74`.
 Content release: `6c8330b3b65e790e816b1ef9f5e107608ea5e5155880718d20c8aa116138b5f6`.
-Status: independently reviewed and verified release candidate; local installation
-is recorded separately below when completed.
+Status: reviewed, verified, published and installed. Initial publication commit:
+`e004ce4f8b2c461ecb80070270782952a8c67a2e`.
 
 ## Useful change
 
@@ -148,10 +148,40 @@ Full TAP SHA-256:
 No code or expectation changes were made while this final run was in flight.
 The package was independently exported twice with the exact ZIP hash above.
 
-Canonical integration and backed-up exact-manifest installation are the next
-delivery steps, not inferred from these checks. Local evidence is retained in the task's
+Canonical main was reconciled with origin and fast-forwarded to the publication
+commit. Its product/test tree remained exact to the reviewed and full-tested
+implementation. A fresh canonical validation passed; push succeeded and a
+separate remote ref read confirmed the published commit. Local evidence is retained in the task's
 `godskills-atlas-discovery-20261013` operation record; the digests here identify
 that evidence without publishing private machine paths or session transcripts.
+
+### Verified local upgrade
+
+Immediately before installation, native and runtime inventories still matched
+the saved old release `898ed9120d62d680c057aec9603a5c07278287bcea5e28f831965e7142e5ae60`.
+The existing installer created a new rollback directory and journal, backed up
+all 93 managed skill directories and the previous runtime, then installed the
+published pack. The parent independently compared every managed native/runtime
+hash and the complete rollback inventories to the before snapshot. All matched.
+The 81 unrelated native inventory records (files/directories, not 81 skills)
+were unchanged. Only `eternities-atlas/skill.json` differs among native payloads.
+
+The installed CLI was executed from an unrelated working directory with a
+minimal environment. Validation, original A2 first-ranked discovery, exact
+Atlas inspection, supplied-only connected-source rejection and host-no-need
+abstention all passed. Its release manifest equals canonical main. This does
+not assert refresh behavior in already-open native agent sessions.
+
+| Private evidence identity | SHA-256 |
+| --- | --- |
+| Before inventories | `859bc85be28d24160e0338f210d40f6849808dedd02f193619c576d49b974915` |
+| After inventories and exact rollback verification | `7c6348d8d3adcdf713d101a857ff3ecccc710e82e21e4025053b5be7f70cee51` |
+| Installer journal | `1c954d02ed738b7ec4b5125fc02338b16f7e1f7125e02cc072d20463e0f1b701` |
+| Installed CLI verification | `3cb17b29fa4ab509bcfebafbe56f2f496192d9103c1e8ce25db256a9825ead83` |
+
+The prior release, failed candidate evidence and unrelated local experiments
+remain intact. The rollback path is retained in the private operation record;
+no destructive cleanup or automation restart was performed.
 
 The [product direction](product-direction-20261013.md) still separates portable
 product delivery, practical effectiveness and source refinement. R10 remains
