@@ -54,12 +54,15 @@ function videoRequestText(query) {
 // Scope this bonus to live request clauses. This is deliberately finite English
 // handling, not a general permission, quotation or negation parser.
 function reconciliationRequestText(query) {
+  const request = normalize(query.replace(quotedRequestMaterial, ' '));
+  if (/\bno (?:data )?(?:transformation|reconciliation|merge) (?:is )?(?:requested|needed|wanted)\b/.test(request)) return '';
   return query.replace(quotedRequestMaterial, ' ')
     .split(/[.!?;]+|\b(?:but|instead)\b/iu)
     .filter(clause => {
       const text = normalize(clause);
-      return !/\b(?:do not|don t|never|no need to|avoid)\s+(?:merge\w*|combin\w*|join\w*|reconcil\w*|compar\w*|dedup\w*|consolidat\w*|collapse\w*|produce\w*)\b/.test(text) &&
-        !/\b(?:last (?:year|month|week)|previously|formerly|used to)\b.*\b(?:merged|combined|joined|reconciled|compared|deduplicated|consolidated)\b/.test(text);
+      return !/\b(?:do not|don t|never|no need to|avoid)\s+(?:(?:attempt to|try to|proceed to)\s+)?(?:merg\w*|combin\w*|join\w*|reconcil\w*|compar\w*|dedup\w*|consolidat\w*|collaps\w*|match\w*|produc\w*)\b/.test(text) &&
+        !/\b(?:last (?:year|month|week)|previously|formerly|used to)\b.*\b(?:merg\w*|combin\w*|join\w*|reconcil\w*|compar\w*|dedup\w*|consolidat\w*|collaps\w*|match\w*|produc\w*)\b/.test(text) &&
+        !/^(?:explain what|describe what|what is|what are|define|explain the meaning)\b/.test(text);
     }).join(' ');
 }
 
@@ -68,11 +71,16 @@ const profiles = [
     name: 'tabular reconciliation',
     prepare: reconciliationRequestText,
     cues: [
-      ['tabular input', /\b(?:exports?|extracts?|csvs?|tsvs?|tables?|spreadsheets?|workbooks?|datasets?|records?|lists?)\b/],
-      ['reconciliation action', /\b(?:merg\w*|combin\w*|join\w*|reconcil\w*|compar\w*|dedup\w*|consolidat\w*|collapse\w*|produce one)\b/],
-      ['structural discrepancy or identity', /\b(?:columns?|headers?|fields?|identifiers?|keys?|duplicates?|repeats?|mismatch\w*|disagree\w*|conflicts?|unmatched|missing|null|unknown|rejected|aliases|pairs?|provenance|lineage|each (?:chosen )?cell)\b/],
+      ['tabular input', {test: text =>
+        /\b(?:csvs?|tsvs?|tables?|spreadsheets?|workbooks?|datasets?)\b/.test(text) ||
+        (/\b(?:exports?|extracts?|lists?|records?)\b/.test(text) &&
+         /\b(?:rows?|columns?|headers?|identifiers?|ids?|keys?|aliases|quantities|units|amounts|hours|totals|serial numbers?|member numbers?|staff code|sku|fields?)\b/.test(text))
+      }],
+      ['reconciliation action', /\b(?:merg\w*|combin\w*|join\w*|reconcil\w*|compar\w*|dedup\w*|consolidat\w*|collaps\w*|match\w*|produce one)\b/],
+      ['structural discrepancy or identity', /\b(?:columns?|headers?|fields?|identifiers?|ids?|keys?|duplicates?|repeats?|mismatch\w*|disagree\w*|conflicts?|unmatched|missing|null|unknown|rejected|aliases|pairs?|provenance|lineage|each (?:chosen )?cell|source rows?)\b/],
     ],
-    metadata: [/\breconciliation\b/, /\bsupplied\b/, /\bcolumns\b/, /\bdeduplicate\b/],
+    exclude: /\b(?:git (?:branches|merge)|pull requests?|source code|table rendering)\b/,
+    metadata: [/\breconciliation\b/, /\bsupplied\b/, /\bcolumn\b/, /\bdeduplication\b/],
   },
   {
     name: 'requested frame-based video output',

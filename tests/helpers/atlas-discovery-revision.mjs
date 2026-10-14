@@ -8,11 +8,10 @@ export function projectBeforeAtlasSuppliedDataRevision(skill, before) {
   assert.equal(before.id, skill.id);
   const fields = ['summary', 'triggers', 'antiTriggers'];
   const expected = {
-    summary: 'Supplied export reconciliation: map columns, deduplicate records, and report rejected rows and conflicts. ' + before.summary,
+    summary: 'Supplied tabular export reconciliation with column mapping, record deduplication, null semantics and row lineage. ' + before.summary,
     triggers: [
       ...before.triggers.slice(0, 3),
-      'merge supplied exports', 'deduplicate records', 'column mapping',
-      'row rejection audit', 'combine tables', 'merge spreadsheets',
+      'tabular export reconciliation', 'column alias mapping', 'record deduplication',
       ...before.triggers.slice(3),
     ],
     antiTriggers: before.antiTriggers.filter(value => value !== 'without discovering or loading a connected source'),

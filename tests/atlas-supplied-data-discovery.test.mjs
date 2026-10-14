@@ -71,6 +71,37 @@ for (const query of [
   assert.ok(!lexicalQueryEvidence(query).intents.some(item => item.name === 'tabular reconciliation'));
 });
 
+// Separate review revealed these cross-domain and request-scope regressions.
+// Retain them as disclosed cases; do not call subsequent repairs held-out.
+for (const query of [
+  'Merge these Git branches and resolve conflicts in the table-rendering component. Preserve staged edits and concurrent work.',
+  'Recover my task records, reconcile stale decisions with current files, and identify missing context before resuming.',
+  'Diagnose duplicate push notifications. Compare retry records with broker acknowledgements and explain missing delivery receipts.',
+  'Explain what a join on customer keys means in a CSV table; no transformation is requested.',
+  'Do not attempt to merge these CSV exports on customer keys; tell me their filenames instead.',
+  'Last week we collapsed duplicate records by customer keys. Today draft a short invitation.',
+  'Join the team call and summarize its decisions. The agenda lists missing speakers.',
+]) test(`independent review: no tabular bonus for ${query}`, () => {
+  assert.ok(!lexicalQueryEvidence(query).intents.some(item => item.name === 'tabular reconciliation'));
+});
+
+test('supplied-data vocabulary does not steal document-completeness auditing', () => {
+  const result = searchCatalog(catalog, 'Audit this Word report for missing requirements and contradictions between its tables. Return a record of rejected claims.');
+  assert.equal(result.results[0].id, 'completeness-and-consistency-audit');
+});
+
+for (const query of [
+  'Combine the attached TSV extracts by invoice identifier. Flag unmatched invoices and retain the original source line for each value.',
+  'Align customer_id with clientNumber in these supplied CSVs, join matching accounts, and leave blank amounts unknown.',
+  'Collapse repeat entries in the two attached contact lists using email as the key, showing where conflicting phone numbers came from.',
+  'Compare the attached stock workbooks by SKU and warehouse. Explain missing items and disagreeing quantities, without reaching any live source.',
+  'Using only the uploaded files, join the two tables with null-aware keys and retain unmatched rows in a separate list.',
+  'Match the attached lists of orders by order number, report inconsistent totals, and preserve an audit trail to each source row.',
+]) test(`independent review: supplied-data positive ${query}`, () => {
+  const result = searchCatalog(catalog, query, {limit: 3});
+  assert.ok(result.results.some(item => item.id === 'eternities-atlas'), result.results.map(item => item.id).join(', '));
+});
+
 test('a local reconciliation candidate does not enable a connected-source method', () => {
   for (const context of [
     {inputScope: 'supplied-only', connectedPurpose: 'inventory', discovery: 'not-prohibited'},

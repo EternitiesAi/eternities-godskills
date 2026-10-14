@@ -113,9 +113,13 @@ must supply the connected-source facts below. These metadata terms improve
 ordinary-language retrieval. A bounded tabular-reconciliation bonus additionally
 requires a tabular input, a reconciliation action and a structural discrepancy
 or identity cue, corroborated by the owner's supplied-data/column/deduplication
-metadata. It uses the existing capped profile bonus, not an ID lookup or a new
-ordering tier. Balanced quoted material and recognized refused or historical
-reconciliation clauses are omitted for this profile. These finite English rules
+metadata. Generic records/lists/extracts need additional row, field, quantity or
+key evidence; an unrelated team call, task-memory record or retry log is not
+automatically tabular reconciliation. Recognized source-code merge contexts are
+excluded. It uses the existing capped profile bonus, not an ID lookup or a new
+ordering tier. Balanced quoted material, recognized concept-only questions and
+refused or historical reconciliation clauses are omitted for this profile.
+Explicit no-transformation requests do not gain the bonus. These finite English rules
 do not parse arbitrary negation or authorize an operation, and incidental
 matches still require judgment.
 
