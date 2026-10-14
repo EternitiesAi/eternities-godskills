@@ -115,8 +115,10 @@ requires a tabular input, a reconciliation action and a structural discrepancy
 or identity cue, corroborated by the owner's supplied-data/column/deduplication
 metadata. Generic records/lists/extracts need additional row, field, quantity or
 key evidence, shared with the structural-identity check. An action and tabular
-object must also occur in the same surviving request clause; unrelated sentences
-cannot supply them separately. An unrelated team call, task-memory record or retry log is not
+object must also occur in the same surviving request clause, or a direct action
+reference such as "combine them" must follow a live tabular clause immediately.
+Unrelated sentences, intervening topics and omitted historical/refused clauses
+cannot supply that reference. An unrelated team call, task-memory record or retry log is not
 automatically tabular reconciliation. Recognized source-code merge contexts are
 excluded. It uses the existing capped profile bonus, not an ID lookup or a new
 ordering tier. Balanced quoted material, recognized concept-only questions and

@@ -54,6 +54,7 @@ function videoRequestText(query) {
 // Scope this bonus to live request clauses. This is deliberately finite English
 // handling, not a general permission, quotation or negation parser.
 const reconciliationAction = /\b(?:merg\w*|combin\w*|join\w*|reconcil\w*|compar\w*|dedup\w*|consolidat\w*|collaps\w*|match\w*|produce one)\b/;
+const reconciliationReference = /\b(?:merg\w*|combin\w*|join\w*|reconcil\w*|compar\w*|dedup\w*|consolidat\w*|collaps\w*|match\w*)\s+(?:them|both|these|those)\b/;
 const tabularObject = /\b(?:csvs?|tsvs?|tables?|spreadsheets?|workbooks?|datasets?|exports?|extracts?|lists?|records?)\b/;
 const tabularFields = /\b(?:rows?|columns?|headers?|identifiers?|ids?|keys?|aliases|quantities|units|amounts|hours|totals|serial numbers?|member numbers?|staff code|sku|fields?)\b/;
 function reconciliationRequestText(query) {
@@ -61,17 +62,22 @@ function reconciliationRequestText(query) {
   if (/\bno (?:data )?(?:transformation|reconciliation|merge) (?:is )?(?:requested|needed|wanted)\b/.test(request)) return '';
   const clauses = query.replace(quotedRequestMaterial, ' ')
     .split(/[.!?;]+|\b(?:but|instead)\b/iu)
-    .filter(clause => {
-      const text = normalize(clause);
-      return !/\b(?:do not|don t|never|no need to|avoid)\s+(?:(?:attempt to|try to|proceed to)\s+)?(?:merg\w*|combin\w*|join\w*|reconcil\w*|compar\w*|dedup\w*|consolidat\w*|collaps\w*|match\w*|produc\w*)\b/.test(text) &&
+    .map(normalize)
+    .filter(Boolean)
+    .map(text => {
+      const live = !/\b(?:do not|don t|never|no need to|avoid)\s+(?:(?:attempt to|try to|proceed to)\s+)?(?:merg\w*|combin\w*|join\w*|reconcil\w*|compar\w*|dedup\w*|consolidat\w*|collaps\w*|match\w*|produc\w*)\b/.test(text) &&
         !/\b(?:last (?:year|month|week)|previously|formerly|used to)\b.*\b(?:merg\w*|combin\w*|join\w*|reconcil\w*|compar\w*|dedup\w*|consolidat\w*|collaps\w*|match\w*|produc\w*)\b/.test(text) &&
         !/^(?:explain what|describe what|what is|what are|define|explain the meaning)\b/.test(text);
+      // Keep a placeholder so a refused or historical clause cannot become an
+      // antecedent or be silently crossed by the immediate-reference rule.
+      return live ? text : '';
     });
   // An action in one sentence and an unrelated table in another are not a
-  // corroborated operation. Detailed key/conflict facts may follow that request.
-  if (!clauses.some(clause => {
-    const text = normalize(clause);
-    return reconciliationAction.test(text) && tabularObject.test(text);
+  // corroborated operation. Accept a direct "combine them/both" reference only
+  // to the immediately preceding live tabular clause. Detailed facts may follow.
+  if (!clauses.some((text, index) => {
+    return (reconciliationAction.test(text) && tabularObject.test(text)) ||
+      (reconciliationReference.test(text) && index > 0 && tabularObject.test(clauses[index - 1]));
   })) return '';
   return clauses.join(' ');
 }

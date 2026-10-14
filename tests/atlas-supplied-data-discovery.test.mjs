@@ -102,8 +102,19 @@ for (const query of [
 for (const query of [
   'Join the team call and summarize its decisions. The agenda table has missing speakers.',
   'Compare the proposals for the next meeting. The spreadsheet lists duplicate invitations.',
+  'The CSV table has duplicate customer keys. A few proposals arrived today. Compare them for the meeting.',
+  'Previously we merged the CSV exports by customer keys. Compare them now.',
+  'The spreadsheet has missing customer keys. Compare notes with them at the meeting.',
 ]) test(`request and tabular input must be associated: ${query}`, () => {
   assert.ok(!lexicalQueryEvidence(query).intents.some(item => item.name === 'tabular reconciliation'));
+});
+
+for (const query of [
+  'These two customer lists use email and email_address for the same field. Combine them and explain conflicting values.',
+  'Two supplied order tables have different column aliases. Reconcile both and retain missing values as unknown.',
+]) test(`an immediate explicit reference retains the tabular objects: ${query}`, () => {
+  assert.ok(lexicalQueryEvidence(query).intents.some(item => item.name === 'tabular reconciliation'));
+  assert.ok(searchCatalog(catalog, query, {limit: 3}).results.some(item => item.id === 'eternities-atlas'));
 });
 
 for (const query of [
