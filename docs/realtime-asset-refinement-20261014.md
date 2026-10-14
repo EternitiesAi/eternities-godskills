@@ -48,4 +48,24 @@ The candidate adds conditional asset-acceptance guidance without making every as
 
 All nine baseline evidence files and the two candidate source files were hash-verified. The candidate [evidence manifest](../artifacts/qualification/realtime-asset-20261014/qualification-candidate-v1/evidence-manifest.json) has SHA-256 `7325a61a98b3c7c3aeee65a041064311b02a230e7b8f223c3da30f98d2f435bc`. The evaluator did not independently verify release-container membership or reread the candidate's delegated lifecycle reference; parent packaging checks establish membership, and preservation checks establish that the previously read lifecycle reference is unchanged. These are distinct evidence scopes. Historical host paths in receipts identify the run; they are not product dependencies.
 
-Installation and remote publication are separate gates from the reviewed implementation and application. Their actual outcome will be recorded after integration; no installed-state claim follows from the tests alone.
+## Publication and installation close-out
+
+Publication commit `e42024e0a9aabc1613b07ed9e9b5a044512d541e` was fast-forwarded to canonical main, pushed, and verified against the remote main reference. Product and test trees remained exact to reviewed implementation `6a92adc968416e628cc662d730a213fdb60466ea`; later changes are documentation and evidence packaging. The standalone ZIP hash is unchanged. Git's initial text normalization of the PowerShell-produced portable receipt was detected before commit and corrected with a path-specific raw-byte attribute; its observed receipt bytes were preserved.
+
+On 2026-10-14, the installer upgraded the local native skills and standalone discovery runtime to release `16933f1098cf51b562543edbaa54df966ca22ce6c5c404d9238704889d421c8b`. Fresh pre-install manifests matched the earlier baseline. The installer created a new rollback backup; parent verification checked every previous managed skill and runtime file against that backup, then checked every installed managed payload against the new release. All 81 unrelated inventory records remained exact (records include files/directories, not 81 skills).
+
+Only `eternities-arcadia/SKILL.md` and `eternities-arcadia/skill.json` changed among native files, with `eternities-arcadia/references/realtime-asset-integration.md` added. The first post-install check incorrectly assumed an order for the two changed filenames; installation had succeeded. Correcting the comparison to use the same sorted exact set made the read-only check pass without rerunning installation or changing its acceptance set.
+
+The [installed CLI receipt](../artifacts/qualification/realtime-asset-20261014/installed.json) confirms validation of 93 skills, Arcadia first for the supplied glTF integration query, exact entrypoint inspection, explicit no-need abstention, and installed/canonical release equality from an unrelated working directory with a minimal environment. It does not establish cached app-loader refresh or real engine behavior.
+
+Private local rollback and full before/after manifests are retained at `C:/Users/Dom/.codex/operations/godskills-asset-qualification-20261014/`, outside the universal product. Their identities are:
+
+| Record | SHA-256 |
+| --- | --- |
+| `install-before.json` | `0f3a169787019d1cd25241d1fa47997ffe7401a5439c17b8e245aebcb276cc1a` |
+| `preinstall.json` | `f040b99e88b8c1ddab8c8c2ef379267d4eaaa5674a6c8f34e041e5f16210a1ab` |
+| `install-after.json` | `55741cbdd43e7bbd56fd6465239bf478b5c9dfaa7e6860287427161996fcbbc8` |
+| `installed.json` | `f2e8aa3cece35f3acea334f535690cd611b4df208d3a4423659231d5c031e399` |
+| `rollback-backup/install-receipt.json` | `5824db62f4dd88a54c529e53ab3003c7b12436ffc5f04ce4efad9d6910035e92` |
+
+This completes the bounded asset-method refinement and installed upgrade, not the whole source quarry, engine qualification or a general superiority claim.

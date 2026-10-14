@@ -1,0 +1,19 @@
+{
+  "phase": "installed",
+  "observedUtc": "2026-10-14T09:36:59.788Z",
+  "candidateRelease": "16933f1098cf51b562543edbaa54df966ca22ce6c5c404d9238704889d421c8b",
+  "status": "verified-installed-cli",
+  "validation": {
+    "status": "verified-content",
+    "releaseId": "16933f1098cf51b562543edbaa54df966ca22ce6c5c404d9238704889d421c8b",
+    "skillCount": 93
+  },
+  "top3": [
+    "eternities-arcadia",
+    "scene-continuity-and-coverage",
+    "narrative-structure-and-revision"
+  ],
+  "exactInspection": true,
+  "noNeed": "abstain",
+  "limits": "Same Windows host, unrelated cwd and minimal environment; not cached app-loader, engine-runtime or model superiority certification."
+}
