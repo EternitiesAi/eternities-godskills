@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {searchCatalog, routeTask} from '../product/lib/product.mjs';
+import {projectBeforeAtlasSuppliedDataRevision} from './helpers/atlas-discovery-revision.mjs';
 
 const catalog = JSON.parse(await readFile(new URL('../product/catalog.json', import.meta.url), 'utf8'));
 const requests = [
@@ -74,4 +75,18 @@ test('removing a method-scoped prohibition preserves genuine owner exclusions', 
     const result = searchCatalog(catalog, `${requests[0]} ${exclusion}`, {limit: 20});
     assert.ok(!result.results.some(item => item.id === atlas.id));
   }
+});
+
+test('the historical projection cannot hide unapproved Atlas metadata changes', async () => {
+  const oldCatalog = JSON.parse(await readFile(new URL('./core2260-catalog.json', import.meta.url), 'utf8'));
+  const before = oldCatalog.skills.find(item => item.id === 'eternities-atlas');
+  const current = catalog.skills.find(item => item.id === before.id);
+  for (const field of ['summary', 'triggers', 'antiTriggers']) {
+    const changed = structuredClone(current);
+    changed[field] = field === 'summary' ? 'Unapproved capability' : [];
+    assert.throws(() => projectBeforeAtlasSuppliedDataRevision(changed, before));
+  }
+  const changed = {...current, maturity: 'unapproved-maturity'};
+  assert.equal(projectBeforeAtlasSuppliedDataRevision(changed, before).maturity, 'unapproved-maturity',
+    'Other fields must remain visible to the historical comparison');
 });

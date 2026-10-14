@@ -1,7 +1,7 @@
 {
   "id": "eternities-atlas",
   "category": "data",
-  "summary": "Reconcile supplied exports, map columns, deduplicate records, and report rejected rows and conflicts. Build reproducible analytics, conditional connected-source evidence, finite trade-off frontiers, simulation-artifact handoffs, query planning, entity design and migration, synchronization, telemetry, experiment artifacts, and candidate eligibility, time-bound scorer revisions, and observed outcomes; the new extension remains DRAFT.",
+  "summary": "Supplied export reconciliation: map columns, deduplicate records, and report rejected rows and conflicts. Build reproducible analytics, conditional connected-source evidence, finite trade-off frontiers, simulation-artifact handoffs, query planning, entity design and migration, synchronization, telemetry, experiment artifacts, and candidate eligibility, time-bound scorer revisions, and observed outcomes; the new extension remains DRAFT.",
   "triggers": [
     "data analysis",
     "query performance",
@@ -11,7 +11,7 @@
     "column mapping",
     "row rejection audit",
     "combine tables",
-    "reconcile spreadsheets",
+    "merge spreadsheets",
     "schema design",
     "schema migration",
     "telemetry design",

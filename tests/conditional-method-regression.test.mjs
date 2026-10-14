@@ -6,6 +6,7 @@ import { createHash } from "node:crypto";
 import { spawnSync } from "node:child_process";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
+import { projectBeforeAtlasSuppliedDataRevision } from './helpers/atlas-discovery-revision.mjs';
 
 const testDirectory = dirname(fileURLToPath(import.meta.url));
 const productRoot = resolve(
@@ -15,7 +16,8 @@ const baselineCatalogUrl = new URL("./core2260-catalog.json", import.meta.url);
 const frozenCoreCatalogSha256 = "57d47c0a9692dc21caa0e7909ee6c557cd5ef5cc4e09b968df079cc81f86aecf";
 // Preserve the exact historical 68-skill projection while explicitly admitting
 // only the explicitly enumerated cognitive, professional and specialist additions.
-// Historical fixture bytes and all 68 core scoring fields stay exact.
+// Historical fixture bytes stay exact. The later Atlas supplied-data metadata
+// correction is checked literally before projecting only those fields back.
 const cognitiveSkillIds = [
   "completeness-and-consistency-audit",
   "imaginative-concept-development",
@@ -200,7 +202,7 @@ const fourNewResources = [
   },
 ];
 
-test("the immutable core2260 fixture is exact and all 68 scoring, relation, specialization, and maturity projections remain ordered", async () => {
+test("the immutable core2260 fixture is exact and core projections admit only the declared Atlas metadata revision", async () => {
   assert.equal(sha256(baselineBytes), frozenCoreCatalogSha256);
   const liveCatalog = JSON.parse(await readFile(join(productRoot, "catalog.json"), "utf8"));
   assert.equal(baselineCatalog.skills.length, 68);
@@ -217,7 +219,8 @@ test("the immutable core2260 fixture is exact and all 68 scoring, relation, spec
     baselineCatalog.skills.map((skill) => skill.id),
     "skill membership and array order",
   );
-  assert.deepEqual(scoringProjection(liveCore), scoringProjection(baselineCatalog.skills));
+  const historicalAtlas = baselineCatalog.skills.find(skill => skill.id === 'eternities-atlas');
+  assert.deepEqual(scoringProjection(liveCore.map(skill => projectBeforeAtlasSuppliedDataRevision(skill, historicalAtlas))), scoringProjection(baselineCatalog.skills));
 });
 
 test("historical paths remain exact, named optional owner references are admitted, and only Omnibus is revised", async () => {
