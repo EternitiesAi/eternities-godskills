@@ -91,6 +91,22 @@ test('supplied-data vocabulary does not steal document-completeness auditing', (
 });
 
 for (const query of [
+  'The two supplied CSVs disagree about the number of units for several SKU-and-location pairs. Make a joined inventory snapshot and a list of disagreements, using only these exports.',
+  'Combine these already-downloaded membership lists by club and member number. Collapse exact repeats, flag duplicate IDs with different values, and keep unmatched members in the result.',
+  'I have pasted two delivery tables below. Bring their differently named columns into the same schema, use the dispatch extract as the tie-breaker, and include an explanation for every rejected record.',
+  "Build a local merged view from these two warranty exports. Match on serial number plus country, retain both versions when values clash, and label records found on just one side; don't fetch anything else.",
+]) test(`retained qualification regression: ${query}`, () => {
+  assert.ok(searchCatalog(catalog, query, {limit: 3}).results.some(item => item.id === 'eternities-atlas'));
+});
+
+for (const query of [
+  'Join the team call and summarize its decisions. The agenda table has missing speakers.',
+  'Compare the proposals for the next meeting. The spreadsheet lists duplicate invitations.',
+]) test(`request and tabular input must be associated: ${query}`, () => {
+  assert.ok(!lexicalQueryEvidence(query).intents.some(item => item.name === 'tabular reconciliation'));
+});
+
+for (const query of [
   'Combine the attached TSV extracts by invoice identifier. Flag unmatched invoices and retain the original source line for each value.',
   'Align customer_id with clientNumber in these supplied CSVs, join matching accounts, and leave blank amounts unknown.',
   'Collapse repeat entries in the two attached contact lists using email as the key, showing where conflicting phone numbers came from.',

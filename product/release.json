@@ -1,10 +1,10 @@
 {
   "schema": "eternities-godskills-release-v1",
-  "releaseId": "a1dd767bc89e5f0b04464ed20ba31f3d33746f74cf9807d1969fbd8ef3070e60",
+  "releaseId": "07239c5e6c6355d264aa9b682985165f2f8dd10559b1d171dffe80390c5fbb2d",
   "skillCount": 93,
   "files": {
     "CORPUS-SCOPE.md": "9294897e1d8d392322a4ef4d7ee4b678b0adc3afd62442b932e5b9f49c2774fb",
-    "DISCOVERY.md": "de63bfe040c19b5a4caee7560e52794d941b7c3240b95de1115fb3d778098b3d",
+    "DISCOVERY.md": "c21e139870e8ecfc9780de5eb1047cafdf75bd608e37360ef6be99097bd442d8",
     "HOST-CAPABILITIES.md": "6faa40662c752bdfb3bbeb5509388f7399c99640283b958ecc56b3415f9f25c5",
     "INDEX.md": "98e2e7568d7b2f792299c4371c719e00faa1aa43331e1e11bcfca705e34fd3c2",
     "METHODS.v1.json": "412b4272987b119ba3edf1a9df44aeb75d6b372a90f1bdeabe92c5834bd5265d",
@@ -31,7 +31,7 @@
     "evidence/method-reviews/daedalus-v1/review.md": "4e945d60805c10be19a8d0a8e8f974e7d75a3968a9dd7dc60e13a820e6ae10ed",
     "evidence/method-reviews/daedalus-v1/task-plans.md": "0de3f7294e43179c4d4697a7f97ce01d364c8b0874c5353534f464c932f7ef99",
     "lib/archive.mjs": "62cb7442554233a93aa7a149e3336830ef02cdfaf905d944e8f2241b07ce0ba3",
-    "lib/discovery.mjs": "b8e15d2599d9dcf4a61f1ec3a64466719433dc3f2bbca15f913a3e8b734d3b08",
+    "lib/discovery.mjs": "60a1daa7984f04886c617ef1d12eaf637652389d082113564aaa1709f8051953",
     "lib/method-directory.mjs": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180",
     "lib/navigation.mjs": "937977fe6c338fb7a17f8bdddc132440f0c06ecb69b9c5b1424f7c1a06bfb777",
     "lib/product.mjs": "c779ed4ee93c38b50af970ca746f20c0225a96b761449a8c779e3a28c00e800f",
