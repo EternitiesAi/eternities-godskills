@@ -1,0 +1,136 @@
+{
+  "schema": "godskills-sidecar-b-candidate-evidence-v1",
+  "root": "C:/Users/Dom/.codex/operations/godskills-asset-qualification-20261014/qualification-candidate-v1",
+  "observed_utc": "2026-10-14T09:28:26.3503150Z",
+  "usability_judgment": "READY for bounded written asset-acceptance/repair authoring; both fictional full-task dispositions HOLD",
+  "assessment_kind": "same-evaluator nonblind repeated instruction application; no causal improvement, superiority, baseline failure or certification claim",
+  "rubric_rules": "RA/RB unchanged; RX2/RX3 baseline-only and not scored in candidate stage; RX1 upheld; RX4 actual byte checks PASS",
+  "candidate_application_word_count": 855,
+  "word_count_rule": "whitespace words containing letters/digits after stripping table/header/emphasis markup",
+  "candidate_assessment_word_count": 611,
+  "supplied_release_identifier": "16933f1098cf51b562543edbaa54df966ca22ce6c5c404d9238704889d421c8b",
+  "release_binding_limit": "supplied label retained; no release container or manifest read/computed; membership not independently verified",
+  "expected_method_sha256": "a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41",
+  "method_sha256_match": true,
+  "all_nine_baseline_files_unchanged": true,
+  "baseline_root": "C:/Users/Dom/.codex/operations/godskills-asset-qualification-20261014/qualification-baseline",
+  "baseline_file_checks": [
+    {
+      "file": "scenario-a.md",
+      "sha256": "fde5cff4a52dd6d66fd2ad4bc3588068f113913148396d8c555ec13a29ce98a1",
+      "byte_length": 7561,
+      "sha256_match": true,
+      "byte_length_match": true
+    },
+    {
+      "file": "scenario-b.md",
+      "sha256": "48e4e61294d042b0438a586aab96b0adc484dd5c5b1c7b64850f6a7872415316",
+      "byte_length": 9455,
+      "sha256_match": true,
+      "byte_length_match": true
+    },
+    {
+      "file": "manual-oracle.md",
+      "sha256": "50ed19f7b04ed9748cb0def370e9a93ad8a9f977729ba605b61b3d0079246555",
+      "byte_length": 10860,
+      "sha256_match": true,
+      "byte_length_match": true
+    },
+    {
+      "file": "rubric.md",
+      "sha256": "f08a61fab21b87649de63a34b40fc92ada24b4f85904794dc4372db17df37a12",
+      "byte_length": 7477,
+      "sha256_match": true,
+      "byte_length_match": true
+    },
+    {
+      "file": "canonical-source-receipt.md",
+      "sha256": "36f371aaa536693a32317715a7d5779c9b5f530437f94cdae937addcfb9ae831",
+      "byte_length": 2688,
+      "sha256_match": true,
+      "byte_length_match": true
+    },
+    {
+      "file": "freeze-manifest.json",
+      "sha256": "a86d34b51d024e6b147017dddd09c2b8338913fa81ad8fab652624cd6426dd5b",
+      "byte_length": 1703,
+      "sha256_match": true,
+      "byte_length_match": true
+    },
+    {
+      "file": "baseline-application.md",
+      "sha256": "8b5a11ff27d74a90f18f60982d4ae66ddb190459a95278c29021b7a1c3b11725",
+      "byte_length": 15424,
+      "sha256_match": true,
+      "byte_length_match": true
+    },
+    {
+      "file": "baseline-assessment.md",
+      "sha256": "1fc641bc5383d1b0181c31505014bbf124ebda94ceb0ddaf154eb81def6619ad",
+      "byte_length": 9552,
+      "sha256_match": true,
+      "byte_length_match": true
+    },
+    {
+      "file": "evidence-manifest.json",
+      "sha256": "ba82c98ee8cc3424d4532d4fbb3d46e77dc36559d47123d833890cb36a4439e0",
+      "byte_length": 3372,
+      "sha256_match": true,
+      "byte_length_match": true
+    }
+  ],
+  "baseline_source_receipts_verified_before_candidate_read": [
+    {
+      "path": "C:\\dev\\eternities-godskills\\product\\skills\\eternities-arcadia\\SKILL.md",
+      "sha256": "2cbfec7e1e8fbc6e3d10321336224176ee5950d7895ac281d7849947c94c61c1",
+      "sha256_match": true
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\product\\skills\\eternities-arcadia\\references\\methods.md",
+      "sha256": "57853439f2dbc6173e2b627b3d1cdd982c746f8376e86746b2745138b696dfc3",
+      "sha256_match": true
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\product\\skills\\eternities-arcadia\\references\\browser-runtime-lifecycle.md",
+      "sha256": "92f138939846c57ad5de1d36fd1c60d11341e29a91fcaecb03c942397ad93853",
+      "sha256_match": true
+    }
+  ],
+  "candidate_source_checks": [
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\product\\skills\\eternities-arcadia\\SKILL.md",
+      "byte_length": 4123,
+      "sha256": "9ec66ba0975124b95877f2ad0a852162008cfd624af2fe823d9752e478940c46",
+      "sha256_match": true,
+      "byte_length_match": true
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\product\\skills\\eternities-arcadia\\references\\realtime-asset-integration.md",
+      "byte_length": 7028,
+      "sha256": "a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41",
+      "sha256_match": true,
+      "byte_length_match": true
+    }
+  ],
+  "files": [
+    {
+      "file": "source-receipt.json",
+      "byte_length": 4052,
+      "sha256": "55d8f80f5892aeff7ce26bb328c9b9793fbbef5444b0befc67c63d60df01c8e4"
+    },
+    {
+      "file": "candidate-application.md",
+      "byte_length": 7364,
+      "sha256": "0efa311be199baf04f6763da558b880927d8e46bc7343f6c276f7d063fbb89a9"
+    },
+    {
+      "file": "candidate-assessment.md",
+      "byte_length": 5190,
+      "sha256": "4f65013e3800ebc6fc2c77915bfcd295ff096c387a88e62b33dc50c67fdd48e4"
+    }
+  ],
+  "self_hash": "excluded to avoid recursive self-hash; reported separately at final handoff",
+  "unperformed_claims": "no engine/GPU/browser/device, source/code/production/git/install, provider/network, new fixture/harness or subagent activity; no discovery-worker read",
+  "stop_condition": "authorized bounded candidate usability assessment complete; no additional stage started",
+  "preservation_rule": "preserve all baseline and candidate evidence bytes"
+}

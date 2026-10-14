@@ -1,0 +1,40 @@
+{
+  "schema": "godskills-sidecar-b-input-freeze-v1",
+  "observed_utc": "2026-10-14T09:13:56.7817597Z",
+  "sequence": "five-input-files-written-and-hashed; this-manifest-written-before-baseline-application",
+  "candidate_exposure": "none",
+  "baseline_response_at_freeze": "not-yet-written",
+  "oracle": "manual; independent-of-candidate; same-author-not-blinded-or-independently-reviewed",
+  "supplied_baseline_commit": "a0981f2c30cc5f558dd4f7051f32ce158e818997",
+  "commit_verification": "not-performed; current-source-byte-identities-in-canonical-source-receipt.md",
+  "root": "C:/Users/Dom/.codex/operations/godskills-asset-qualification-20261014/qualification-baseline",
+  "files": [
+    {
+      "file": "scenario-a.md",
+      "byte_length": 7561,
+      "sha256": "fde5cff4a52dd6d66fd2ad4bc3588068f113913148396d8c555ec13a29ce98a1"
+    },
+    {
+      "file": "scenario-b.md",
+      "byte_length": 9455,
+      "sha256": "48e4e61294d042b0438a586aab96b0adc484dd5c5b1c7b64850f6a7872415316"
+    },
+    {
+      "file": "manual-oracle.md",
+      "byte_length": 10860,
+      "sha256": "50ed19f7b04ed9748cb0def370e9a93ad8a9f977729ba605b61b3d0079246555"
+    },
+    {
+      "file": "rubric.md",
+      "byte_length": 7477,
+      "sha256": "f08a61fab21b87649de63a34b40fc92ada24b4f85904794dc4372db17df37a12"
+    },
+    {
+      "file": "canonical-source-receipt.md",
+      "byte_length": 2688,
+      "sha256": "36f371aaa536693a32317715a7d5779c9b5f530437f94cdae937addcfb9ae831"
+    }
+  ],
+  "immutability_rule": "do-not-edit-frozen-files; report-any-discrepancy; later-candidate-application-is-a-separate-stage",
+  "self_hash": "excluded-to-avoid-recursive-self-hash; final-evidence-manifest-will-cover-this-file"
+}

@@ -17,8 +17,8 @@ optional CLI uses Node built-ins only.
 
 ### Start using the pack
 
-Download the current [93-skill standalone ZIP](artifacts/releases/godskills-product-20261013-6c8330b3.zip)
-with its [SHA-256 sidecar](artifacts/releases/godskills-product-20261013-6c8330b3.zip.sha256),
+Download the current [93-skill standalone ZIP](artifacts/releases/godskills-product-20261014-16933f10.zip)
+with its [SHA-256 sidecar](artifacts/releases/godskills-product-20261014-16933f10.zip.sha256),
 or copy the complete [product folder](product/README.md). Give an agent the
 [short capability map](product/START-HERE.md); it can choose a relevant method and open
 only the references that task needs. Markdown use needs no installation.
@@ -35,15 +35,17 @@ node product/bin/godskills.mjs validate
 
 See the [installation guide](product/README.md#hand-the-pack-to-another-computer)
 for portable copies and native host installation. Search suggests candidates;
-the agent checks their fit. The [latest verification record](docs/atlas-supplied-data-release-20261013.md)
+the agent checks their fit. The [latest verification record](docs/realtime-asset-refinement-20261014.md)
 states the checks, rollback evidence and remaining limits.
 
-The latest refinement makes existing supplied-data reconciliation easier to find:
-merge two exports, map mismatched columns, retain conflicts and explain rejected
-rows. Discovery remains advisory, and supplied-only work does not enable a
-connected-source method. A separate executed synthetic exercise checks row
-accounting, null semantics and provenance; it is not a claim of universal agent
-superiority.
+The latest refinement adds [real-time 3D asset integration](product/skills/eternities-arcadia/references/realtime-asset-integration.md)
+under Arcadia: check a model's scale and pivot, material interpretation, relevant
+collision or rig behavior, and dependencies in the actual target build. It is
+engine-neutral, with version-specific lookup pointers for Three.js, Unity and
+Unreal. Static assets do not inherit animation checks; visual-only assets do not
+inherit physics checks. The extra detail loads only when the task needs it.
+Discovery remains advisory, and this release makes no engine-performance or
+universal agent-superiority claim.
 
 The navigation upgrade preserves all 93 skills and adds compact domain browsing,
 paged category results and exact full-skill inspection. Optional references stay
@@ -58,6 +60,12 @@ unavoidable commitments or unusable exports. Both have optional deeper methods.
 
 <details>
 <summary>Release history and qualification records</summary>
+
+The [supplied-data reconciliation release](docs/atlas-supplied-data-release-20261013.md)
+made column mapping, conflict-preserving merges and row lineage easier to find,
+while keeping connected-source authority separate. Its [historical ZIP](artifacts/releases/godskills-product-20261013-6c8330b3.zip)
+and [SHA-256 sidecar](artifacts/releases/godskills-product-20261013-6c8330b3.zip.sha256)
+remain unchanged.
 
 The [navigation release](docs/product-navigation-release-20261013.md) introduced
 domain browsing, pagination and exact inspection. Its [historical standalone ZIP](artifacts/releases/godskills-product-20261013-898ed912.zip)

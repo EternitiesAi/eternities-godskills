@@ -1,0 +1,14 @@
+{
+  "status": "parent-accepted-bounded-instruction-application",
+  "observedUtc": "2026-10-14T09:30:40.387Z",
+  "implementationCommit": "6a92adc968416e628cc662d730a213fdb60466ea",
+  "candidateEvidenceSha256": "7325a61a98b3c7c3aeee65a041064311b02a230e7b8f223c3da30f98d2f435bc",
+  "verifiedBaselineFiles": 9,
+  "verifiedCandidateOutputFiles": 3,
+  "verifiedCandidateSources": 2,
+  "verifiedBaselineGitSources": 3,
+  "stableTestedSources": true,
+  "manualReview": "Parent read both literal scenarios, frozen oracle/rubric, baseline application/assessment and candidate application/assessment. All17 RA/RB consequential decisions are represented without converting required unknowns into passes. Parent separately recalculated collider scale, pointer fractions, URI resolution and p95 threshold comparisons.",
+  "judgment": "Accept useful conditional method depth; baseline ordinary inference also passed. No causal improvement, raw-versus-guided, engine/device or superiority claim.",
+  "limits": "Nonblind repeated evaluator-authored synthetic cases; no real asset bytes or target execution. RX2/RX3 are correctly baseline-only, not falsely graded as passed by candidate exposure."
+}

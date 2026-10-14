@@ -1,0 +1,2270 @@
+{
+  "schema": "godskills-asset-independent-review-v1",
+  "status": "READY",
+  "statusScope": "Bounded method, metadata, generated identity and named historical compatibility patch. Does not certify generalization, engine behavior, publication or the parent full release gate.",
+  "candidate": {
+    "root": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003",
+    "branch": "feat/asset-qualification-20261014",
+    "baselineCommit": "a0981f2c30cc5f558dd4f7051f32ce158e818997",
+    "head": "a0981f2c30cc5f558dd4f7051f32ce158e818997",
+    "uncommittedCandidate": true,
+    "productReleaseId": "16933f1098cf51b562543edbaa54df966ca22ce6c5c404d9238704889d421c8b",
+    "skillCount": 93,
+    "authoredFiles": [
+      {
+        "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/skills/eternities-arcadia/SKILL.md",
+        "repositoryRelativePath": "product/skills/eternities-arcadia/SKILL.md",
+        "kind": "authored",
+        "bytes": 4123,
+        "sha256": "9ec66ba0975124b95877f2ad0a852162008cfd624af2fe823d9752e478940c46"
+      },
+      {
+        "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/skills/eternities-arcadia/skill.json",
+        "repositoryRelativePath": "product/skills/eternities-arcadia/skill.json",
+        "kind": "authored",
+        "bytes": 5937,
+        "sha256": "084fc6687838807b69d4b95239ea906b2f7c1d5a8e3fbc7f6390906296db352c"
+      },
+      {
+        "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/skills/eternities-arcadia/references/realtime-asset-integration.md",
+        "repositoryRelativePath": "product/skills/eternities-arcadia/references/realtime-asset-integration.md",
+        "kind": "authored",
+        "bytes": 7028,
+        "sha256": "a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41"
+      },
+      {
+        "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/realtime-asset-discovery.test.mjs",
+        "repositoryRelativePath": "tests/realtime-asset-discovery.test.mjs",
+        "kind": "authored",
+        "bytes": 2696,
+        "sha256": "021527a1f4c0f489932fbe37377a3e522cbc45879579b8d941b07b0cc3dde0f3"
+      },
+      {
+        "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/docs/realtime-asset-refinement-20261014.md",
+        "repositoryRelativePath": "docs/realtime-asset-refinement-20261014.md",
+        "kind": "authored",
+        "bytes": 3874,
+        "sha256": "4f6bf9409a15d38988bc6baed079955b978fbf442189fbfefc4c1fba479984c1"
+      },
+      {
+        "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/helpers/arcadia-asset-revision.mjs",
+        "repositoryRelativePath": "tests/helpers/arcadia-asset-revision.mjs",
+        "kind": "authored-compatibility",
+        "bytes": 1739,
+        "sha256": "3d49bc29b9d584e16edfbb279246bd6b81b7633182b297d80b515ac60b472db1"
+      },
+      {
+        "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/arcadia-asset-revision.test.mjs",
+        "repositoryRelativePath": "tests/arcadia-asset-revision.test.mjs",
+        "kind": "authored-compatibility",
+        "bytes": 1658,
+        "sha256": "651700679811376c1c5fb8ee179231066443d8ebe5bbc63504d4a7da7ca43b90"
+      },
+      {
+        "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/conditional-method-regression.test.mjs",
+        "repositoryRelativePath": "tests/conditional-method-regression.test.mjs",
+        "kind": "authored-compatibility",
+        "bytes": 29440,
+        "sha256": "0f3b3bb02a6df1d76d823e281e82fe07d74a642f66a38d29d4afd49a2eb9cd59"
+      },
+      {
+        "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/educational-discovery-revealed-v2.test.mjs",
+        "repositoryRelativePath": "tests/educational-discovery-revealed-v2.test.mjs",
+        "kind": "authored-compatibility",
+        "bytes": 4610,
+        "sha256": "242d9c517612614339d1b96788201f2df9920eac6bc608fe6f6d1f1a21b887ba"
+      }
+    ],
+    "generatedFiles": [
+      {
+        "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/INDEX.md",
+        "repositoryRelativePath": "product/INDEX.md",
+        "kind": "generated",
+        "bytes": 24509,
+        "sha256": "f0c9e65674673d21c1d46288dd5c1d02aaa3237423b63951cff5990c2861936e"
+      },
+      {
+        "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/catalog.json",
+        "repositoryRelativePath": "product/catalog.json",
+        "kind": "generated",
+        "bytes": 142721,
+        "sha256": "f20b17c989c188d439c84fa4a8cf5989ccafe550428b2b2577708ba072a39889"
+      },
+      {
+        "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/release.json",
+        "repositoryRelativePath": "product/release.json",
+        "kind": "generated",
+        "bytes": 39057,
+        "sha256": "62e88827552de643097f2d52f76da8525c87f8089586df8ba3582c6b948354cc"
+      }
+    ],
+    "apiLibraries": [
+      {
+        "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/lib/product.mjs",
+        "repositoryRelativePath": "product/lib/product.mjs",
+        "kind": "api-library",
+        "bytes": 23970,
+        "sha256": "c779ed4ee93c38b50af970ca746f20c0225a96b761449a8c779e3a28c00e800f"
+      },
+      {
+        "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/lib/method-directory.mjs",
+        "repositoryRelativePath": "product/lib/method-directory.mjs",
+        "kind": "api-library",
+        "bytes": 7836,
+        "sha256": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180"
+      },
+      {
+        "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/lib/discovery.mjs",
+        "repositoryRelativePath": "product/lib/discovery.mjs",
+        "kind": "api-library",
+        "bytes": 16602,
+        "sha256": "894d347eda269dbfe447d7a09d5ff10bf57b9c5e1f3f90ce398502f7b65fc7d5"
+      },
+      {
+        "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/lib/selection-boundary.mjs",
+        "repositoryRelativePath": "product/lib/selection-boundary.mjs",
+        "kind": "api-library",
+        "bytes": 1734,
+        "sha256": "792db2f120251de8c0d21985c10cb81a0fd1a5baa83978851e9eb16e10ca68be"
+      },
+      {
+        "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/lib/skill-frontmatter.mjs",
+        "repositoryRelativePath": "product/lib/skill-frontmatter.mjs",
+        "kind": "api-library",
+        "bytes": 2961,
+        "sha256": "66bfc5b6b56688d2996689f774b5b904ce517a3fda1ec35d4d567cbd63e3a96d"
+      }
+    ]
+  },
+  "baseline": {
+    "directory": "C:/Users/Dom/.codex/operations/godskills-asset-qualification-20261014/discovery-baseline",
+    "casesPath": "C:/Users/Dom/.codex/operations/godskills-asset-qualification-20261014/discovery-baseline/cases.frozen.json",
+    "casesSha256": "960956cea5f1e3360c1f612ad414f5d8414dd50fc9361f56f60babb1ded01f75",
+    "rawOutputsPath": "C:/Users/Dom/.codex/operations/godskills-asset-qualification-20261014/discovery-baseline/results.raw.json",
+    "rawOutputsSha256": "3b343c1f5cc0ac45fe65eb7ab8aa05abc9c346717b41e26bd8f2e52ace336864",
+    "preserved": true,
+    "caseSet": "Exactly the 12 disclosed frozen regressions; no new query, expectation or options",
+    "generalizationEvidence": false
+  },
+  "execution": {
+    "startedUtc": "2026-10-14T09:15:22.624Z",
+    "completedUtc": "2026-10-14T09:15:22.759Z",
+    "directSearchCatalogCalls": 14,
+    "routeTaskCalls": 12,
+    "internalRouteSearchCalls": 12,
+    "engineRuns": 0,
+    "fullSuiteRuns": 0,
+    "searchOptions": {
+      "limit": 20,
+      "need": "unknown"
+    },
+    "routeSearchOptions": {
+      "limit": 20
+    },
+    "routeContextCommon": {
+      "inputScope": "supplied-only",
+      "connectedPurpose": "none",
+      "discovery": "prohibited"
+    },
+    "apiSource": "Candidate libraries byte-identical to pinned baseline; local first-party APIs only; catalog supplied from hashed in-memory candidate snapshot",
+    "apiIdentity": [
+      {
+        "path": "product/lib/product.mjs",
+        "candidateSha256": "c779ed4ee93c38b50af970ca746f20c0225a96b761449a8c779e3a28c00e800f",
+        "baselineSha256": "c779ed4ee93c38b50af970ca746f20c0225a96b761449a8c779e3a28c00e800f"
+      },
+      {
+        "path": "product/lib/method-directory.mjs",
+        "candidateSha256": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180",
+        "baselineSha256": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180"
+      },
+      {
+        "path": "product/lib/discovery.mjs",
+        "candidateSha256": "894d347eda269dbfe447d7a09d5ff10bf57b9c5e1f3f90ce398502f7b65fc7d5",
+        "baselineSha256": "894d347eda269dbfe447d7a09d5ff10bf57b9c5e1f3f90ce398502f7b65fc7d5"
+      },
+      {
+        "path": "product/lib/selection-boundary.mjs",
+        "candidateSha256": "792db2f120251de8c0d21985c10cb81a0fd1a5baa83978851e9eb16e10ca68be",
+        "baselineSha256": "792db2f120251de8c0d21985c10cb81a0fd1a5baa83978851e9eb16e10ca68be"
+      },
+      {
+        "path": "product/lib/skill-frontmatter.mjs",
+        "candidateSha256": "66bfc5b6b56688d2996689f774b5b904ce517a3fda1ec35d4d567cbd63e3a96d",
+        "baselineSha256": "66bfc5b6b56688d2996689f774b5b904ce517a3fda1ec35d4d567cbd63e3a96d"
+      }
+    ],
+    "outputFormat": "Bounded top-three summaries, owner ranks within top twenty and exact JSON-output hashes. Candidate full outputs intentionally not printed or stored.",
+    "candidateArcadiaRanksRecoveredFromTop3": true
+  },
+  "checks": {
+    "summary": {
+      "skillCount": 93,
+      "membershipUnchanged": true,
+      "changedCatalogEntryIds": [
+        "eternities-arcadia"
+      ],
+      "positiveOwnerTop3": 6,
+      "adjacentOwnerTop3": 4,
+      "textNegativeAbstentions": 1,
+      "hostNegativeAbstentions": 2,
+      "allAuthorityActivationNone": true,
+      "anyConnectedCandidate": false
+    },
+    "releaseManifestDelta": {
+      "added": [
+        "skills/eternities-arcadia/references/realtime-asset-integration.md"
+      ],
+      "removed": [],
+      "changed": [
+        "INDEX.md",
+        "catalog.json",
+        "skills/eternities-arcadia/SKILL.md",
+        "skills/eternities-arcadia/skill.json"
+      ]
+    },
+    "boundedIntegrity": {
+      "catalogSummaryMatchesMetadata": true,
+      "catalogTriggersMatchMetadata": true,
+      "entrypointShaMatches": true,
+      "newMethodDeclared": true,
+      "newMethodShaMatches": true,
+      "releaseSkillCountMatches": true,
+      "changedProductFilesMatchRelease": {
+        "product/skills/eternities-arcadia/SKILL.md": true,
+        "product/skills/eternities-arcadia/skill.json": true,
+        "product/skills/eternities-arcadia/references/realtime-asset-integration.md": true,
+        "product/INDEX.md": true,
+        "product/catalog.json": true
+      },
+      "fixturesExact": true,
+      "releaseIdMatchesDeclaredManifest": true,
+      "manifestChangeSetExact": true
+    },
+    "fixtures": [
+      {
+        "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/fixtures/catalog-before-next-eight-20261004.json",
+        "repositoryRelativePath": "tests/fixtures/catalog-before-next-eight-20261004.json",
+        "sha256": "bf90582e8a23a3d50a6997cfba5f97d022f4619024f8459e364423f269e10eca",
+        "baselineSha256": "bf90582e8a23a3d50a6997cfba5f97d022f4619024f8459e364423f269e10eca",
+        "exactBaselineBytes": true,
+        "bytes": 115002
+      },
+      {
+        "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/fixtures/educational-discovery-revealed-v2.json",
+        "repositoryRelativePath": "tests/fixtures/educational-discovery-revealed-v2.json",
+        "sha256": "d45fe826ca59387cb0137955fa0fe0672ff2fbcae55a9d90606388f0cc711b24",
+        "baselineSha256": "d45fe826ca59387cb0137955fa0fe0672ff2fbcae55a9d90606388f0cc711b24",
+        "exactBaselineBytes": true,
+        "bytes": 46950
+      },
+      {
+        "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/fixtures/educational-discovery-revealed-v4.json",
+        "repositoryRelativePath": "tests/fixtures/educational-discovery-revealed-v4.json",
+        "sha256": "714897e05af3700b2ac54c130904afb10e2cb01b976e48bd71fa803644e68c1d",
+        "baselineSha256": "714897e05af3700b2ac54c130904afb10e2cb01b976e48bd71fa803644e68c1d",
+        "exactBaselineBytes": true,
+        "bytes": 12032
+      },
+      {
+        "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/core2260-catalog.json",
+        "repositoryRelativePath": "tests/core2260-catalog.json",
+        "sha256": "57d47c0a9692dc21caa0e7909ee6c557cd5ef5cc4e09b968df079cc81f86aecf",
+        "baselineSha256": "57d47c0a9692dc21caa0e7909ee6c557cd5ef5cc4e09b968df079cc81f86aecf",
+        "exactBaselineBytes": true,
+        "bytes": 99289
+      },
+      {
+        "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/fixtures/hermes-pre-refinement-20261004.md",
+        "repositoryRelativePath": "tests/fixtures/hermes-pre-refinement-20261004.md",
+        "sha256": "435d81f1cfaeea64ebb85ad9cd00d1dae22e8bde77edeaa9e009c315e7ce69ba",
+        "baselineSha256": "435d81f1cfaeea64ebb85ad9cd00d1dae22e8bde77edeaa9e009c315e7ce69ba",
+        "exactBaselineBytes": true,
+        "bytes": 3488
+      }
+    ],
+    "retainedExistingBodies": [
+      {
+        "path": "product/skills/eternities-arcadia/references/methods.md",
+        "sha256": "57853439f2dbc6173e2b627b3d1cdd982c746f8376e86746b2745138b696dfc3",
+        "unchangedAtBaseline": true
+      },
+      {
+        "path": "product/skills/eternities-arcadia/references/browser-runtime-lifecycle.md",
+        "sha256": "92f138939846c57ad5de1d36fd1c60d11341e29a91fcaecb03c942397ad93853",
+        "unchangedAtBaseline": true
+      },
+      {
+        "path": "product/skills/eternities-muse/SKILL.md",
+        "sha256": "838da70f041be41d0d28fa9e735241c303240b4355f1770dba5b7b7998afc05b",
+        "unchangedAtBaseline": true
+      },
+      {
+        "path": "product/skills/eternities-muse/references/methods.md",
+        "sha256": "44cdaae8e34b83f69c8253f1cb61b4ed3c1af5548e58ef59d4f7e28df7e46b89",
+        "unchangedAtBaseline": true
+      }
+    ],
+    "stability": {
+      "allSnapshottedCandidateFilesUnchanged": true,
+      "baselineCasesUnchanged": true,
+      "baselineRawUnchanged": true,
+      "headUnchanged": true,
+      "branchUnchanged": true,
+      "statusUnchangedDuringReplayAndPatchInspection": true
+    },
+    "gitBefore": {
+      "head": "a0981f2c30cc5f558dd4f7051f32ce158e818997",
+      "branch": "feat/asset-qualification-20261014",
+      "status": " M product/INDEX.md\n M product/catalog.json\n M product/release.json\n M product/skills/eternities-arcadia/SKILL.md\n M product/skills/eternities-arcadia/skill.json\n M tests/conditional-method-regression.test.mjs\n M tests/educational-discovery-revealed-v2.test.mjs\n?? artifacts/releases/godskills-product-20261013-454091b1.zip\n?? artifacts/releases/godskills-product-20261013-ca5d2adb.zip\n?? artifacts/releases/godskills-product-20261013-ca5d2adb.zip.sha256\n?? docs/realtime-asset-refinement-20261014.md\n?? product/skills/eternities-arcadia/references/realtime-asset-integration.md\n?? tests/arcadia-asset-revision.test.mjs\n?? tests/helpers/arcadia-asset-revision.mjs\n?? tests/realtime-asset-discovery.test.mjs\n"
+    },
+    "gitAfter": {
+      "head": "a0981f2c30cc5f558dd4f7051f32ce158e818997",
+      "branch": "feat/asset-qualification-20261014",
+      "status": " M product/INDEX.md\n M product/catalog.json\n M product/release.json\n M product/skills/eternities-arcadia/SKILL.md\n M product/skills/eternities-arcadia/skill.json\n M tests/conditional-method-regression.test.mjs\n M tests/educational-discovery-revealed-v2.test.mjs\n?? artifacts/releases/godskills-product-20261013-454091b1.zip\n?? artifacts/releases/godskills-product-20261013-ca5d2adb.zip\n?? artifacts/releases/godskills-product-20261013-ca5d2adb.zip.sha256\n?? docs/realtime-asset-refinement-20261014.md\n?? product/skills/eternities-arcadia/references/realtime-asset-integration.md\n?? tests/arcadia-asset-revision.test.mjs\n?? tests/helpers/arcadia-asset-revision.mjs\n?? tests/realtime-asset-discovery.test.mjs\n"
+    }
+  },
+  "findings": [
+    {
+      "id": "F01",
+      "severity": "nonblocking",
+      "kind": "discovery-collateral",
+      "paths": [
+        "product/skills/eternities-arcadia/skill.json:17"
+      ],
+      "cases": [
+        "N01",
+        "N02",
+        "N03",
+        "N04"
+      ],
+      "finding": "Expected adjacent owner stays first, but added Arcadia terms broaden incidental retrieval: GIS outside20 to rank3, interactive UI rank3 to2, encoded video rank4 to2, license obligations rank7 to3.",
+      "disposition": "No frozen owner/no-need regression introduced; preserve as collateral and do not describe this as unseen generalization or exclusive routing."
+    },
+    {
+      "id": "F02",
+      "severity": "nonblocking-inherited-limitation",
+      "kind": "negative-expectation-still-fails",
+      "case": "N06",
+      "finding": "The frozen text-only no-injected-intent expectation already failed at baseline and still fails; Arcadia rises from rank2 to1 on refused game work and quoted domain words. Both host need:none routes/search controls remain abstaining.",
+      "disposition": "Retain failed expectation exactly; no all12-pass claim. Runtime discovery code remains unchanged."
+    }
+  ],
+  "assessment": {
+    "conditionalInstructions": "Useful and proportionate: preserves source assets, selects relevant dimensions, skips nonexistent physics/rigging, tests actual packaged context, separates preview/static/synthetic evidence from runtime/device evidence, retains existing aesthetic and lifecycle ownership.",
+    "harmfulOverconstraintsOrUnsupportedRuntimeClaimsFound": false,
+    "provenance": "Body identities, source contributions and license uncertainty are explicitly qualified. Inert research is distinct from installed policy, activation, legal clearance and measured capability. Sources/rights/noncopying assertions and dated external reference checks were not independently recertified; no acquisitions were performed.",
+    "compatibilityPatch": {
+      "verdict": "READY",
+      "projectedFields": [
+        "summary",
+        "triggers",
+        "entrypointSha256",
+        "resources"
+      ],
+      "owner": "eternities-arcadia",
+      "currentEntrypointSha256": "9ec66ba0975124b95877f2ad0a852162008cfd624af2fe823d9752e478940c46",
+      "namedResource": {
+        "path": "skills/eternities-arcadia/references/realtime-asset-integration.md",
+        "sha256": "a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41"
+      },
+      "literalCurrentValuesRequiredBeforeProjection": true,
+      "unrelatedOwnerFieldsRetained": true,
+      "unrelatedOwnersUnmodified": true,
+      "fixtureBytesExact": true,
+      "liveBehavioralAssertionsRetained": true,
+      "blanketIdentitySkip": false,
+      "locators": [
+        "tests/helpers/arcadia-asset-revision.mjs:13",
+        "tests/helpers/arcadia-asset-revision.mjs:24",
+        "tests/conditional-method-regression.test.mjs:225",
+        "tests/conditional-method-regression.test.mjs:257",
+        "tests/conditional-method-regression.test.mjs:263",
+        "tests/educational-discovery-revealed-v2.test.mjs:21"
+      ]
+    },
+    "gateBoundary": "Parent-reported full-v1 and targeted totals are distinct from this reviewer independently running only the seven projection invariants. Parent owns the post-patch full gate."
+  },
+  "independentCompatibilityTest": {
+    "command": "node --test tests/arcadia-asset-revision.test.mjs",
+    "workingDirectory": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003",
+    "exitCode": 0,
+    "pass": 7,
+    "fail": 0,
+    "skip": 0,
+    "output": "✔ named Arcadia revision projects exactly to immutable historical input without mutation (2.422ms)\n✔ historical projection refuses extra trigger (1.8021ms)\n✔ historical projection refuses summary drift (0.4268ms)\n✔ historical projection refuses body drift (0.3767ms)\n✔ historical projection refuses resource drift (0.3309ms)\n✔ historical projection refuses unlisted resource (0.3971ms)\n✔ projection does not conceal unrelated owner fields (0.4036ms)\nℹ tests 7\nℹ suites 0\nℹ pass 7\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 96.0698\n"
+  },
+  "parentReportedVerification": {
+    "fullV1": {
+      "source": "User supplied parent verification; independently unverified by this reviewer",
+      "pass": 1797,
+      "fail": 3,
+      "skip": 2,
+      "failures": [
+        {
+          "path": "tests/conditional-method-regression.test.mjs",
+          "count": 2
+        },
+        {
+          "path": "tests/educational-discovery-revealed-v2.test.mjs",
+          "count": 1
+        }
+      ],
+      "stage": "Before the named Arcadia compatibility patch"
+    },
+    "targetedAfterPatch": {
+      "source": "User supplied parent verification; independently unverified by this reviewer",
+      "pass": 88,
+      "stableInputsReported": true
+    },
+    "fullGateAfterPatch": {
+      "owner": "parent",
+      "state": "not observed by this reviewer",
+      "fullSuiteRerunByReviewer": false
+    }
+  },
+  "toolingIncidents": [
+    {
+      "kind": "ephemeral-review-script-parse-error",
+      "productOrQueryExecution": false,
+      "correction": "Corrected extra closing parenthesis before execution"
+    },
+    {
+      "kind": "node-repl-process-binding-unavailable",
+      "apiQueryExecution": false,
+      "correction": "Used git --no-optional-locks directly; no provider or shell writes"
+    }
+  ],
+  "perCaseComparisons": [
+    {
+      "id": "A01",
+      "group": "realtime3d",
+      "query": "Integrate an imported glTF prop into our browser game. If the player leaves while it loads, the old scene must not attach the prop; remounting must release owned textures and leave shared assets usable.",
+      "expectation": {
+        "kind": "owner-top3",
+        "owner": "eternities-arcadia",
+        "hostNeed": "specialist",
+        "basis": [
+          "product/skills/eternities-arcadia/SKILL.md: browser-hosted games conditional lifecycle route",
+          "product/skills/eternities-arcadia/references/browser-runtime-lifecycle.md: asynchronous work belongs to a scene lifetime; exclusive versus shared resources"
+        ],
+        "depth": "Existing lifecycle method directly addresses the requested integration hazards. Import-format support itself remains unspecified."
+      },
+      "baseline": {
+        "intendedOwnerRankWithin20": 1,
+        "search": {
+          "selection": {
+            "state": "review-required",
+            "basis": "lexical-candidates-only"
+          },
+          "abstentionReason": null,
+          "authority": "none",
+          "activation": "none",
+          "top3": [
+            {
+              "id": "eternities-arcadia",
+              "score": 144.446,
+              "reasons": [
+                "Matched: browser, game, player, release, scene"
+              ]
+            },
+            {
+              "id": "scene-continuity-and-coverage",
+              "score": 103.34,
+              "reasons": [
+                "Matched: prop, scene, shared"
+              ]
+            },
+            {
+              "id": "release-script-safety",
+              "score": 67.405,
+              "reasons": [
+                "Matched: deploy, must, publish, release"
+              ]
+            }
+          ],
+          "outputSha256": "d5ed12c3fa506903f1f4253ad4bac84bc354c652513b0dd3821aa8edb5148a0d"
+        },
+        "route": {
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          },
+          "abstentionReason": null,
+          "intendedOwnerRankWithin20": 1,
+          "authority": "none",
+          "activation": "none",
+          "atlas": {
+            "shortlisted": false,
+            "localAnalysisAvailable": true,
+            "connectedSource": {
+              "state": "rejected",
+              "reason": "discovery-prohibited"
+            }
+          },
+          "searchOutputSha256": "295145023572ce9ac659392c039a84d84a2affab8813deb85656729989903b31",
+          "outputSha256": "bc8aa4cc0a4fe4c78f43f2f037a64b9796535c5003a609a45383bf70341737bb"
+        },
+        "hostNoNeedSearch": null
+      },
+      "candidate": {
+        "intendedOwnerRankWithin20": 1,
+        "search": {
+          "selection": {
+            "state": "review-required",
+            "basis": "lexical-candidates-only"
+          },
+          "abstentionReason": null,
+          "authority": "none",
+          "activation": "none",
+          "top3": [
+            {
+              "id": "eternities-arcadia",
+              "score": 284.509,
+              "reasons": [
+                "Matched: assets, browser, game, gltf, imported, integrate, into, player, release, scene, textures"
+              ]
+            },
+            {
+              "id": "scene-continuity-and-coverage",
+              "score": 103.34,
+              "reasons": [
+                "Matched: prop, scene, shared"
+              ]
+            },
+            {
+              "id": "release-script-safety",
+              "score": 67.405,
+              "reasons": [
+                "Matched: deploy, must, publish, release"
+              ]
+            }
+          ],
+          "outputSha256": "026d800298ef3428923053eea247a9ae36db882f5515585eec05e0149b07a111"
+        },
+        "route": {
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          },
+          "abstentionReason": null,
+          "intendedOwnerRankWithin20": 1,
+          "authority": "none",
+          "activation": "none",
+          "atlas": {
+            "shortlisted": false,
+            "localAnalysisAvailable": true,
+            "connectedSource": {
+              "state": "rejected",
+              "reason": "discovery-prohibited"
+            }
+          },
+          "searchOutputSha256": "85936654f167dd6590ed470e89e16f26737a2a86cec02b0ecfcc504bd6bad6a2",
+          "outputSha256": "9586e600bea612ea63fb491ab3b6121923003a8264106b174f071b700cb897e6"
+        },
+        "hostNoNeedSearch": null
+      },
+      "expectationResults": {
+        "baseline": {
+          "ownerTop3": true,
+          "routeOwnerTop3": true
+        },
+        "candidate": {
+          "ownerTop3": true,
+          "routeOwnerTop3": true
+        }
+      },
+      "deltas": {
+        "ownerRankChange": 0,
+        "ownerTop3Lost": false,
+        "textAbstentionChanged": false,
+        "routeAbstentionChanged": false,
+        "top3IdsChanged": false
+      },
+      "arcadiaRank": {
+        "baselineWithin20": 1,
+        "candidateWithin20": 1
+      },
+      "authorityAndActivationRemainNone": true
+    },
+    {
+      "id": "A02",
+      "group": "realtime3d",
+      "query": "Review the imported PBR materials in our real-time 3D game against the approved look. Freeze the camera and lighting, inspect washed-out colors and inverted normal-map detail, and record rendered acceptance evidence.",
+      "expectation": {
+        "kind": "owner-top3",
+        "owner": "eternities-muse",
+        "acceptableSupportingOwners": [
+          "eternities-arcadia"
+        ],
+        "hostNeed": "specialist",
+        "basis": [
+          "product/skills/eternities-muse/SKILL.md: visual acceptance freezes camera, content, timing and configuration",
+          "product/skills/eternities-muse/references/methods.md: rendered spatial measurement and adjudication"
+        ],
+        "depth": "Muse owns visual acceptance, but the read bodies do not explain PBR channels, texture color interpretation or normal-map convention qualification."
+      },
+      "baseline": {
+        "intendedOwnerRankWithin20": 3,
+        "search": {
+          "selection": {
+            "state": "review-required",
+            "basis": "lexical-candidates-only"
+          },
+          "abstentionReason": null,
+          "authority": "none",
+          "activation": "none",
+          "top3": [
+            {
+              "id": "eternities-arcadia",
+              "score": 80.646,
+              "reasons": [
+                "Matched: approved, evidence, game, map"
+              ]
+            },
+            {
+              "id": "eternities-logos",
+              "score": 69.564,
+              "reasons": [
+                "Matched: evidence, map, rendered, review"
+              ]
+            },
+            {
+              "id": "eternities-muse",
+              "score": 67.527,
+              "reasons": [
+                "Matched: acceptance, evidence, rendered"
+              ]
+            }
+          ],
+          "outputSha256": "0aa572532ce3fc0ad98d0abc601c7da5a2aa80e28639cf8b3c8dbb4ab18d967e"
+        },
+        "route": {
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          },
+          "abstentionReason": null,
+          "intendedOwnerRankWithin20": 3,
+          "authority": "none",
+          "activation": "none",
+          "atlas": {
+            "shortlisted": true,
+            "localAnalysisAvailable": true,
+            "connectedSource": {
+              "state": "rejected",
+              "reason": "discovery-prohibited"
+            }
+          },
+          "searchOutputSha256": "1afde4e110196fba05125d4929ed74b654f954c5b6ac67366354f4b697473cc3",
+          "outputSha256": "a1ebe97e324c583c6db6195642a09bda198b25f038c3f294255b075e5b3652cd"
+        },
+        "hostNoNeedSearch": null
+      },
+      "candidate": {
+        "intendedOwnerRankWithin20": 3,
+        "search": {
+          "selection": {
+            "state": "review-required",
+            "basis": "lexical-candidates-only"
+          },
+          "abstentionReason": null,
+          "authority": "none",
+          "activation": "none",
+          "top3": [
+            {
+              "id": "eternities-arcadia",
+              "score": 157.861,
+              "reasons": [
+                "Matched: 3d, approved, evidence, game, imported, map, normal"
+              ]
+            },
+            {
+              "id": "eternities-logos",
+              "score": 69.564,
+              "reasons": [
+                "Matched: evidence, map, rendered, review"
+              ]
+            },
+            {
+              "id": "eternities-muse",
+              "score": 67.527,
+              "reasons": [
+                "Matched: acceptance, evidence, rendered"
+              ]
+            }
+          ],
+          "outputSha256": "5350f0e94ebf26041ef7bd4ca4a11f894942a694ea1380b6af4a9596e5d61bbd"
+        },
+        "route": {
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          },
+          "abstentionReason": null,
+          "intendedOwnerRankWithin20": 3,
+          "authority": "none",
+          "activation": "none",
+          "atlas": {
+            "shortlisted": true,
+            "localAnalysisAvailable": true,
+            "connectedSource": {
+              "state": "rejected",
+              "reason": "discovery-prohibited"
+            }
+          },
+          "searchOutputSha256": "2b087a50e5acc8eec5d49ea1bbf92994c69a3e8673d03c59df4e60a4461d064c",
+          "outputSha256": "09899d588a08166d5e17da41b542bc33f6d92f722c3b82ea1f0ac25a4e7760ab"
+        },
+        "hostNoNeedSearch": null
+      },
+      "expectationResults": {
+        "baseline": {
+          "ownerTop3": true,
+          "routeOwnerTop3": true
+        },
+        "candidate": {
+          "ownerTop3": true,
+          "routeOwnerTop3": true
+        }
+      },
+      "deltas": {
+        "ownerRankChange": 0,
+        "ownerTop3Lost": false,
+        "textAbstentionChanged": false,
+        "routeAbstentionChanged": false,
+        "top3IdsChanged": false
+      },
+      "arcadiaRank": {
+        "baselineWithin20": 1,
+        "candidateWithin20": 1
+      },
+      "authorityAndActivationRemainNone": true
+    },
+    {
+      "id": "A03",
+      "group": "realtime3d",
+      "query": "Our imported model is sideways and a hundred times too large in the game scene. Check authoring units, up axis, handedness and pivot, then verify that placement and player interaction use the intended coordinates.",
+      "expectation": {
+        "kind": "owner-top3",
+        "owner": "eternities-arcadia",
+        "hostNeed": "specialist",
+        "basis": [
+          "product/skills/eternities-arcadia/SKILL.md: runtime systems and player experience",
+          "product/skills/eternities-arcadia/references/methods.md: object scale, spatial interaction and relevant correctness fixtures"
+        ],
+        "depth": "Arcadia is the broad game owner. The read references do not supply an import convention, transform-order or pivot qualification procedure; GIS reference transformation is a different domain."
+      },
+      "baseline": {
+        "intendedOwnerRankWithin20": 1,
+        "search": {
+          "selection": {
+            "state": "review-required",
+            "basis": "lexical-candidates-only"
+          },
+          "abstentionReason": null,
+          "authority": "none",
+          "activation": "none",
+          "top3": [
+            {
+              "id": "eternities-arcadia",
+              "score": 136.46,
+              "reasons": [
+                "Matched: coordinates, game, interaction, player, scene, verify"
+              ]
+            },
+            {
+              "id": "geospatial-coordinate-integrity",
+              "score": 116.4,
+              "reasons": [
+                "Matched: axis, coordinates, units, up, verify"
+              ]
+            },
+            {
+              "id": "native-mobile-interaction-testing",
+              "score": 64.306,
+              "reasons": [
+                "Matched: interaction, test, testing, tests, verify"
+              ]
+            }
+          ],
+          "outputSha256": "0ef858f99c525d3ceb25f5308f3b5317f032eff2d75eefb96b1aa4d0403e2f3c"
+        },
+        "route": {
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          },
+          "abstentionReason": null,
+          "intendedOwnerRankWithin20": 1,
+          "authority": "none",
+          "activation": "none",
+          "atlas": {
+            "shortlisted": false,
+            "localAnalysisAvailable": true,
+            "connectedSource": {
+              "state": "rejected",
+              "reason": "discovery-prohibited"
+            }
+          },
+          "searchOutputSha256": "1bf6198de9ab8fcb0408b07305a5ceca539a2315da63459128c75a9299c17daf",
+          "outputSha256": "e74eb8a3a58d6e4328af94206ae75ba7c216ae2a7cac84c947050ff5663a0df7"
+        },
+        "hostNoNeedSearch": null
+      },
+      "candidate": {
+        "intendedOwnerRankWithin20": 1,
+        "search": {
+          "selection": {
+            "state": "review-required",
+            "basis": "lexical-candidates-only"
+          },
+          "abstentionReason": null,
+          "authority": "none",
+          "activation": "none",
+          "top3": [
+            {
+              "id": "eternities-arcadia",
+              "score": 259.123,
+              "reasons": [
+                "Matched: check, coordinates, game, imported, interaction, model, pivot, player, scene, units, verify"
+              ]
+            },
+            {
+              "id": "geospatial-coordinate-integrity",
+              "score": 114.678,
+              "reasons": [
+                "Matched: axis, coordinates, units, up, verify"
+              ]
+            },
+            {
+              "id": "native-mobile-interaction-testing",
+              "score": 64.306,
+              "reasons": [
+                "Matched: interaction, test, testing, tests, verify"
+              ]
+            }
+          ],
+          "outputSha256": "6732b842afb21d2ee210c78a6df224a5178d5f13ae0a84cf0b3883788c295c9a"
+        },
+        "route": {
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          },
+          "abstentionReason": null,
+          "intendedOwnerRankWithin20": 1,
+          "authority": "none",
+          "activation": "none",
+          "atlas": {
+            "shortlisted": false,
+            "localAnalysisAvailable": true,
+            "connectedSource": {
+              "state": "rejected",
+              "reason": "discovery-prohibited"
+            }
+          },
+          "searchOutputSha256": "91313927a0e6cf173b2fb94bf8af43298320ad3bde79e244b5a09e649cc195c7",
+          "outputSha256": "798cdd057452e355dcb685f86beeebbdc0dd35a4b92dc987a78a638847364b3e"
+        },
+        "hostNoNeedSearch": null
+      },
+      "expectationResults": {
+        "baseline": {
+          "ownerTop3": true,
+          "routeOwnerTop3": true
+        },
+        "candidate": {
+          "ownerTop3": true,
+          "routeOwnerTop3": true
+        }
+      },
+      "deltas": {
+        "ownerRankChange": 0,
+        "ownerTop3Lost": false,
+        "textAbstentionChanged": false,
+        "routeAbstentionChanged": false,
+        "top3IdsChanged": false
+      },
+      "arcadiaRank": {
+        "baselineWithin20": 1,
+        "candidateWithin20": 1
+      },
+      "authorityAndActivationRemainNone": true
+    },
+    {
+      "id": "A04",
+      "group": "realtime3d",
+      "query": "Qualify collision for a newly imported game prop. The player falls through it from one side and gets snagged near a doorway; compare the visible mesh with the collision proxy and exercise movement at different frame rates.",
+      "expectation": {
+        "kind": "owner-top3",
+        "owner": "eternities-arcadia",
+        "hostNeed": "specialist",
+        "basis": [
+          "product/skills/eternities-arcadia/SKILL.md: runtime game systems and measurable budgets",
+          "product/skills/eternities-arcadia/references/methods.md: fixed-step simulation, interaction query and correctness outputs"
+        ],
+        "depth": "Broad runtime ownership exists. The read references do not specify collision proxy generation, shape suitability or visual-to-collision correspondence checks."
+      },
+      "baseline": {
+        "intendedOwnerRankWithin20": 2,
+        "search": {
+          "selection": {
+            "state": "review-required",
+            "basis": "lexical-candidates-only"
+          },
+          "abstentionReason": null,
+          "authority": "none",
+          "activation": "none",
+          "top3": [
+            {
+              "id": "imaginative-concept-development",
+              "score": 85.145,
+              "reasons": [
+                "Matched: compare, different, game, one"
+              ]
+            },
+            {
+              "id": "eternities-arcadia",
+              "score": 73.265,
+              "reasons": [
+                "Matched: game, player"
+              ]
+            },
+            {
+              "id": "bounded-parametric-design-iteration",
+              "score": 42.088,
+              "reasons": [
+                "Matched: one, through"
+              ]
+            }
+          ],
+          "outputSha256": "fd2e7669147a90880aa751d36b04a0ceb35ad50860a922df7905fdb89995f81e"
+        },
+        "route": {
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          },
+          "abstentionReason": null,
+          "intendedOwnerRankWithin20": 2,
+          "authority": "none",
+          "activation": "none",
+          "atlas": {
+            "shortlisted": false,
+            "localAnalysisAvailable": true,
+            "connectedSource": {
+              "state": "rejected",
+              "reason": "discovery-prohibited"
+            }
+          },
+          "searchOutputSha256": "bff7cb2902c52833910b084d02cc34cda7702a7e7d60bb1e2a3ac660eb8812ad",
+          "outputSha256": "cd1653f7b01bb9abe55996319f70e8b64256b0e2c3768718fa97d969c84cbf75"
+        },
+        "hostNoNeedSearch": null
+      },
+      "candidate": {
+        "intendedOwnerRankWithin20": 1,
+        "search": {
+          "selection": {
+            "state": "review-required",
+            "basis": "lexical-candidates-only"
+          },
+          "abstentionReason": null,
+          "authority": "none",
+          "activation": "none",
+          "top3": [
+            {
+              "id": "eternities-arcadia",
+              "score": 187.417,
+              "reasons": [
+                "Matched: collision, game, imported, mesh, player, qualify"
+              ]
+            },
+            {
+              "id": "imaginative-concept-development",
+              "score": 85.145,
+              "reasons": [
+                "Matched: compare, different, game, one"
+              ]
+            },
+            {
+              "id": "bounded-parametric-design-iteration",
+              "score": 42.088,
+              "reasons": [
+                "Matched: one, through"
+              ]
+            }
+          ],
+          "outputSha256": "71dd31c06d33702d0a839a76a721ec95f030720377ce3ede9ef672591a2d1cf9"
+        },
+        "route": {
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          },
+          "abstentionReason": null,
+          "intendedOwnerRankWithin20": 1,
+          "authority": "none",
+          "activation": "none",
+          "atlas": {
+            "shortlisted": false,
+            "localAnalysisAvailable": true,
+            "connectedSource": {
+              "state": "rejected",
+              "reason": "discovery-prohibited"
+            }
+          },
+          "searchOutputSha256": "5da8a6c3a765d9df7ed79b63e6783a0dc64622ce98f2f40e9c210face0387da2",
+          "outputSha256": "f257151a6b10f86bebc1a9da6a9b0d557146729644cf72d19040cb516b02cf64"
+        },
+        "hostNoNeedSearch": null
+      },
+      "expectationResults": {
+        "baseline": {
+          "ownerTop3": true,
+          "routeOwnerTop3": true
+        },
+        "candidate": {
+          "ownerTop3": true,
+          "routeOwnerTop3": true
+        }
+      },
+      "deltas": {
+        "ownerRankChange": -1,
+        "ownerTop3Lost": false,
+        "textAbstentionChanged": false,
+        "routeAbstentionChanged": false,
+        "top3IdsChanged": true
+      },
+      "arcadiaRank": {
+        "baselineWithin20": 2,
+        "candidateWithin20": 1
+      },
+      "authorityAndActivationRemainNone": true
+    },
+    {
+      "id": "A05",
+      "group": "realtime3d",
+      "query": "Check an imported character for our real-time game: the walk clip twists the skeleton, root motion moves it twice, and blending to idle pops. Validate the bind pose, clip tracks, transition behavior and gameplay motion ownership.",
+      "expectation": {
+        "kind": "owner-top3",
+        "owner": "eternities-arcadia",
+        "hostNeed": "specialist",
+        "basis": [
+          "product/skills/eternities-arcadia/SKILL.md: runtime state, simulation and presentation contracts",
+          "product/skills/motion-design-and-animation-engineering/SKILL.md: fit is interactive UI choreography and layout transitions, not a skeletal import method"
+        ],
+        "depth": "Arcadia owns game runtime integration, but the read bodies lack skeletal bind-pose, clip-binding and root-motion qualification. The motion specialist's documented fit is adjacent UI motion."
+      },
+      "baseline": {
+        "intendedOwnerRankWithin20": 3,
+        "search": {
+          "selection": {
+            "state": "review-required",
+            "basis": "lexical-candidates-only"
+          },
+          "abstentionReason": null,
+          "authority": "none",
+          "activation": "none",
+          "top3": [
+            {
+              "id": "scientific-surrogate-validation",
+              "score": 80.254,
+              "reasons": [
+                "Matched: check, time, validate"
+              ]
+            },
+            {
+              "id": "motion-design-and-animation-engineering",
+              "score": 68.683,
+              "reasons": [
+                "Matched: motion, twice"
+              ]
+            },
+            {
+              "id": "eternities-arcadia",
+              "score": 53.272,
+              "reasons": [
+                "Matched: game, ownership"
+              ]
+            }
+          ],
+          "outputSha256": "8ada9fda2876c6a031ff7adfa7c5856f550856390de43aa0af59f72856332d4e"
+        },
+        "route": {
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          },
+          "abstentionReason": null,
+          "intendedOwnerRankWithin20": 3,
+          "authority": "none",
+          "activation": "none",
+          "atlas": {
+            "shortlisted": true,
+            "localAnalysisAvailable": true,
+            "connectedSource": {
+              "state": "rejected",
+              "reason": "discovery-prohibited"
+            }
+          },
+          "searchOutputSha256": "a0728596b8986a086640dbb12974564f7f236ee10439e6cd3a44523a05224a0f",
+          "outputSha256": "5aaacd6eaffee2ac628110b847dcd5b24ecd00a4d0c30f30a2f123f202573590"
+        },
+        "hostNoNeedSearch": null
+      },
+      "candidate": {
+        "intendedOwnerRankWithin20": 1,
+        "search": {
+          "selection": {
+            "state": "review-required",
+            "basis": "lexical-candidates-only"
+          },
+          "abstentionReason": null,
+          "authority": "none",
+          "activation": "none",
+          "top3": [
+            {
+              "id": "eternities-arcadia",
+              "score": 156.278,
+              "reasons": [
+                "Matched: check, game, imported, motion, ownership, root"
+              ]
+            },
+            {
+              "id": "scientific-surrogate-validation",
+              "score": 79.389,
+              "reasons": [
+                "Matched: check, time, validate"
+              ]
+            },
+            {
+              "id": "motion-design-and-animation-engineering",
+              "score": 66.272,
+              "reasons": [
+                "Matched: motion, twice"
+              ]
+            }
+          ],
+          "outputSha256": "d686b9fb54e64fad8ce74b66173e4c5751aa74dc18bae1bd1ccb0491b0969739"
+        },
+        "route": {
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          },
+          "abstentionReason": null,
+          "intendedOwnerRankWithin20": 1,
+          "authority": "none",
+          "activation": "none",
+          "atlas": {
+            "shortlisted": true,
+            "localAnalysisAvailable": true,
+            "connectedSource": {
+              "state": "rejected",
+              "reason": "discovery-prohibited"
+            }
+          },
+          "searchOutputSha256": "0797ce5f49f39edbcc4ee1a893333d57a9b993351c6a89bfd489a88076646eca",
+          "outputSha256": "d7a40b5306edd78534ad3802641f02c0ff1afe5c490ae3701c41c4a64d6aedd0"
+        },
+        "hostNoNeedSearch": null
+      },
+      "expectationResults": {
+        "baseline": {
+          "ownerTop3": true,
+          "routeOwnerTop3": true
+        },
+        "candidate": {
+          "ownerTop3": true,
+          "routeOwnerTop3": true
+        }
+      },
+      "deltas": {
+        "ownerRankChange": -2,
+        "ownerTop3Lost": false,
+        "textAbstentionChanged": false,
+        "routeAbstentionChanged": false,
+        "top3IdsChanged": true
+      },
+      "arcadiaRank": {
+        "baselineWithin20": 3,
+        "candidateWithin20": 1
+      },
+      "authorityAndActivationRemainNone": true
+    },
+    {
+      "id": "A06",
+      "group": "realtime3d",
+      "query": "The asset works in the editor but the packaged game has missing textures and no collision. Verify the shipped asset paths, target-platform import settings and representative-device frame and memory budgets before calling this build ready.",
+      "expectation": {
+        "kind": "owner-top3",
+        "owner": "eternities-arcadia",
+        "acceptableSupportingOwners": [
+          "performance-release-gating"
+        ],
+        "hostNeed": "specialist",
+        "basis": [
+          "product/skills/eternities-arcadia/SKILL.md: proof and release freezes build identity and representative-device conditions",
+          "product/skills/eternities-arcadia/references/browser-runtime-lifecycle.md: shipped relative asset paths at intended hosting base",
+          "product/skills/performance-release-gating/SKILL.md: bounded target/workload and functional performance gate"
+        ],
+        "depth": "Release identity, path and device-budget checks exist. The read bodies lack engine packaging/cook inclusion and platform-specific asset import qualification."
+      },
+      "baseline": {
+        "intendedOwnerRankWithin20": 1,
+        "search": {
+          "selection": {
+            "state": "review-required",
+            "basis": "lexical-candidates-only"
+          },
+          "abstentionReason": null,
+          "authority": "none",
+          "activation": "none",
+          "top3": [
+            {
+              "id": "eternities-arcadia",
+              "score": 63.394,
+              "reasons": [
+                "Matched: asset, build, game, verify"
+              ]
+            },
+            {
+              "id": "native-mobile-interaction-testing",
+              "score": 62.258,
+              "reasons": [
+                "Matched: build, device, test, testing, tests, verify"
+              ]
+            },
+            {
+              "id": "service-observability-and-slo-design",
+              "score": 58.687,
+              "reasons": [
+                "Matched: budgets, build, missing, no, verify"
+              ]
+            }
+          ],
+          "outputSha256": "a26df6db55e9ce8d9407c17f7466a6b23c524a7b6e51d005c2fd76d869435195"
+        },
+        "route": {
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          },
+          "abstentionReason": null,
+          "intendedOwnerRankWithin20": 1,
+          "authority": "none",
+          "activation": "none",
+          "atlas": {
+            "shortlisted": false,
+            "localAnalysisAvailable": true,
+            "connectedSource": {
+              "state": "rejected",
+              "reason": "discovery-prohibited"
+            }
+          },
+          "searchOutputSha256": "07419fc9784a1493ae8f195484255b92c572335f9d030153aaa487018a3cd651",
+          "outputSha256": "6ff5d91ad7d0576b87df338c85860bd04589beea3643586c0297be7d846d682c"
+        },
+        "hostNoNeedSearch": null
+      },
+      "candidate": {
+        "intendedOwnerRankWithin20": 1,
+        "search": {
+          "selection": {
+            "state": "review-required",
+            "basis": "lexical-candidates-only"
+          },
+          "abstentionReason": null,
+          "authority": "none",
+          "activation": "none",
+          "top3": [
+            {
+              "id": "eternities-arcadia",
+              "score": 200.722,
+              "reasons": [
+                "Matched: asset, build, collision, editor, game, import, packaged, textures, verify"
+              ]
+            },
+            {
+              "id": "native-mobile-interaction-testing",
+              "score": 62.258,
+              "reasons": [
+                "Matched: build, device, test, testing, tests, verify"
+              ]
+            },
+            {
+              "id": "service-observability-and-slo-design",
+              "score": 58.687,
+              "reasons": [
+                "Matched: budgets, build, missing, no, verify"
+              ]
+            }
+          ],
+          "outputSha256": "afdd5bdc63b236f2006631f847a7ba5042efe217dafd96160b3a71e35a353977"
+        },
+        "route": {
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          },
+          "abstentionReason": null,
+          "intendedOwnerRankWithin20": 1,
+          "authority": "none",
+          "activation": "none",
+          "atlas": {
+            "shortlisted": false,
+            "localAnalysisAvailable": true,
+            "connectedSource": {
+              "state": "rejected",
+              "reason": "discovery-prohibited"
+            }
+          },
+          "searchOutputSha256": "5c9e9a0b62c36808068f28f41be4f4e4f3252d9b51a02a7e073e3318ad25e999",
+          "outputSha256": "48e93a3c2b9a553abd10af4c3f2246d60f22def16a8598b91b6ba6237289d125"
+        },
+        "hostNoNeedSearch": null
+      },
+      "expectationResults": {
+        "baseline": {
+          "ownerTop3": true,
+          "routeOwnerTop3": true
+        },
+        "candidate": {
+          "ownerTop3": true,
+          "routeOwnerTop3": true
+        }
+      },
+      "deltas": {
+        "ownerRankChange": 0,
+        "ownerTop3Lost": false,
+        "textAbstentionChanged": false,
+        "routeAbstentionChanged": false,
+        "top3IdsChanged": false
+      },
+      "arcadiaRank": {
+        "baselineWithin20": 1,
+        "candidateWithin20": 1
+      },
+      "authorityAndActivationRemainNone": true
+    },
+    {
+      "id": "N01",
+      "group": "adjacent-or-negative",
+      "query": "Repair a GIS layer whose longitude and latitude columns were swapped. Establish the source CRS and transform it into the documented projected units, then check independent control points.",
+      "expectation": {
+        "kind": "owner-top3",
+        "owner": "geospatial-coordinate-integrity",
+        "hostNeed": "specialist",
+        "noInjectedIntent": "real-time 3D model or game-asset qualification",
+        "basis": [
+          "product/skills/geospatial-coordinate-integrity/SKILL.md: source CRS, axis order, units, assign/transform/measure and independent controls"
+        ],
+        "depth": "Existing GIS coordinate method directly covers the request."
+      },
+      "baseline": {
+        "intendedOwnerRankWithin20": 1,
+        "search": {
+          "selection": {
+            "state": "review-required",
+            "basis": "lexical-candidates-only"
+          },
+          "abstentionReason": null,
+          "authority": "none",
+          "activation": "none",
+          "top3": [
+            {
+              "id": "geospatial-coordinate-integrity",
+              "score": 94.203,
+              "reasons": [
+                "Matched: crs, gis, transform, units"
+              ]
+            },
+            {
+              "id": "symbolic-mathematics-python",
+              "score": 54.163,
+              "reasons": [
+                "Matched: check, independent, units"
+              ]
+            },
+            {
+              "id": "confirmed-destructive-reconstruction",
+              "score": 43.972,
+              "reasons": [
+                "Matched: check, independent, repair"
+              ]
+            }
+          ],
+          "outputSha256": "8c51c82c63ba066538c40b695bbaa1d63f3b795758cf31f2991d3b982c1506f2"
+        },
+        "route": {
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          },
+          "abstentionReason": null,
+          "intendedOwnerRankWithin20": 1,
+          "authority": "none",
+          "activation": "none",
+          "atlas": {
+            "shortlisted": true,
+            "localAnalysisAvailable": true,
+            "connectedSource": {
+              "state": "rejected",
+              "reason": "discovery-prohibited"
+            }
+          },
+          "searchOutputSha256": "d05a88330eb895cdcb0666af1a6d4a1b01fccc5ed938d001c6b161b0f2bd0e7b",
+          "outputSha256": "ca1d22bd85fd698731f8d52fb14f75257fc20ad56ffabe96c4717b8a309d0745"
+        },
+        "hostNoNeedSearch": null
+      },
+      "candidate": {
+        "intendedOwnerRankWithin20": 1,
+        "search": {
+          "selection": {
+            "state": "review-required",
+            "basis": "lexical-candidates-only"
+          },
+          "abstentionReason": null,
+          "authority": "none",
+          "activation": "none",
+          "top3": [
+            {
+              "id": "geospatial-coordinate-integrity",
+              "score": 92.481,
+              "reasons": [
+                "Matched: crs, gis, transform, units"
+              ]
+            },
+            {
+              "id": "symbolic-mathematics-python",
+              "score": 52.587,
+              "reasons": [
+                "Matched: check, independent, units"
+              ]
+            },
+            {
+              "id": "eternities-arcadia",
+              "score": 52.063,
+              "reasons": [
+                "Matched: check, into, units"
+              ]
+            }
+          ],
+          "outputSha256": "a63d55fef1b7e7ba71412e5d4b1fdd680514fc6c3c505145353ef6358a50ae4f"
+        },
+        "route": {
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          },
+          "abstentionReason": null,
+          "intendedOwnerRankWithin20": 1,
+          "authority": "none",
+          "activation": "none",
+          "atlas": {
+            "shortlisted": true,
+            "localAnalysisAvailable": true,
+            "connectedSource": {
+              "state": "rejected",
+              "reason": "discovery-prohibited"
+            }
+          },
+          "searchOutputSha256": "94ba302bb1c2973cefb48cbff6b3e683e74dfe5eef0690813ec842e0e5a6cb01",
+          "outputSha256": "0e3439497585ff141c44904f9443b0b02a5dd85d42aa3896ae845c85873f1e1b"
+        },
+        "hostNoNeedSearch": null
+      },
+      "expectationResults": {
+        "baseline": {
+          "ownerTop3": true,
+          "routeOwnerTop3": true
+        },
+        "candidate": {
+          "ownerTop3": true,
+          "routeOwnerTop3": true
+        }
+      },
+      "deltas": {
+        "ownerRankChange": 0,
+        "ownerTop3Lost": false,
+        "textAbstentionChanged": false,
+        "routeAbstentionChanged": false,
+        "top3IdsChanged": true
+      },
+      "arcadiaRank": {
+        "baselineWithin20": null,
+        "candidateWithin20": 3
+      },
+      "authorityAndActivationRemainNone": true
+    },
+    {
+      "id": "N02",
+      "group": "adjacent-or-negative",
+      "query": "Fix an interactive drawer animation that jumps when a user reverses the drag midway. Preserve current position and velocity when the target changes, handle resize, and provide the reduced-motion transition.",
+      "expectation": {
+        "kind": "owner-top3",
+        "owner": "motion-design-and-animation-engineering",
+        "hostNeed": "specialist",
+        "noInjectedIntent": "skeletal animation import or game-asset qualification",
+        "basis": [
+          "product/skills/motion-design-and-animation-engineering/SKILL.md: interruptible drawers, gestures and retargeting",
+          "product/skills/motion-design-and-animation-engineering/references/methods.md: current pose/velocity, lifecycle, resize and reduced motion"
+        ],
+        "depth": "Existing interactive-motion method directly covers the request."
+      },
+      "baseline": {
+        "intendedOwnerRankWithin20": 1,
+        "search": {
+          "selection": {
+            "state": "review-required",
+            "basis": "lexical-candidates-only"
+          },
+          "abstentionReason": null,
+          "authority": "none",
+          "activation": "none",
+          "top3": [
+            {
+              "id": "motion-design-and-animation-engineering",
+              "score": 263.145,
+              "reasons": [
+                "Matched: animation, drag, drawer, interactive, motion, reduced",
+                "Lexical intent: interactive motion continuity; cues: interface object, motion action, continuity or geometry change"
+              ]
+            },
+            {
+              "id": "accessibility-audit-and-remediation",
+              "score": 54.015,
+              "reasons": [
+                "Matched: motion, reduced"
+              ]
+            },
+            {
+              "id": "eternities-arcadia",
+              "score": 51.285,
+              "reasons": [
+                "Matched: animation, resize"
+              ]
+            }
+          ],
+          "outputSha256": "e4a334cf9e9318465ead1657f834f88c2113985374c477b1b9b7a5c4860d0169"
+        },
+        "route": {
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          },
+          "abstentionReason": null,
+          "intendedOwnerRankWithin20": 1,
+          "authority": "none",
+          "activation": "none",
+          "atlas": {
+            "shortlisted": false,
+            "localAnalysisAvailable": true,
+            "connectedSource": {
+              "state": "rejected",
+              "reason": "discovery-prohibited"
+            }
+          },
+          "searchOutputSha256": "6f10b1621a9a42757eaa477bae2eb9873b9baf68431778657d5b3d5a5f7cf7bd",
+          "outputSha256": "0fa066bac7c32874deb4e16cc9cf4a8a56282c07dc440e95e967ad202fdfb568"
+        },
+        "hostNoNeedSearch": null
+      },
+      "candidate": {
+        "intendedOwnerRankWithin20": 1,
+        "search": {
+          "selection": {
+            "state": "review-required",
+            "basis": "lexical-candidates-only"
+          },
+          "abstentionReason": null,
+          "authority": "none",
+          "activation": "none",
+          "top3": [
+            {
+              "id": "motion-design-and-animation-engineering",
+              "score": 257.962,
+              "reasons": [
+                "Matched: animation, drag, drawer, interactive, motion, reduced",
+                "Lexical intent: interactive motion continuity; cues: interface object, motion action, continuity or geometry change"
+              ]
+            },
+            {
+              "id": "eternities-arcadia",
+              "score": 93.228,
+              "reasons": [
+                "Matched: animation, interactive, motion, resize"
+              ]
+            },
+            {
+              "id": "accessibility-audit-and-remediation",
+              "score": 52.294,
+              "reasons": [
+                "Matched: motion, reduced"
+              ]
+            }
+          ],
+          "outputSha256": "643c643ba2fbdee1e0cb2f2bdf39ec0771b0483dadf87bd7e177bcc12ce28d6b"
+        },
+        "route": {
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          },
+          "abstentionReason": null,
+          "intendedOwnerRankWithin20": 1,
+          "authority": "none",
+          "activation": "none",
+          "atlas": {
+            "shortlisted": false,
+            "localAnalysisAvailable": true,
+            "connectedSource": {
+              "state": "rejected",
+              "reason": "discovery-prohibited"
+            }
+          },
+          "searchOutputSha256": "971143aa5ea1970bb64855b3f2ec9025e7a22a7df4b07bb84da357fbe6a10efe",
+          "outputSha256": "6cfd313345cde9b78115fa1bea0a9768134b75d68e7c696c3662e83d63b0100d"
+        },
+        "hostNoNeedSearch": null
+      },
+      "expectationResults": {
+        "baseline": {
+          "ownerTop3": true,
+          "routeOwnerTop3": true
+        },
+        "candidate": {
+          "ownerTop3": true,
+          "routeOwnerTop3": true
+        }
+      },
+      "deltas": {
+        "ownerRankChange": 0,
+        "ownerTop3Lost": false,
+        "textAbstentionChanged": false,
+        "routeAbstentionChanged": false,
+        "top3IdsChanged": true
+      },
+      "arcadiaRank": {
+        "baselineWithin20": 3,
+        "candidateWithin20": 2
+      },
+      "authorityAndActivationRemainNone": true
+    },
+    {
+      "id": "N03",
+      "group": "adjacent-or-negative",
+      "query": "Render a 20-second encoded video from a seekable frame-based composition. Freeze the asset and font inputs, align the sound cues to exact frames, and check the exported file's duration and first and last frames.",
+      "expectation": {
+        "kind": "owner-top3",
+        "owner": "deterministic-video-composition-and-rendering",
+        "hostNeed": "specialist",
+        "noInjectedIntent": "playable game runtime or 3D asset qualification",
+        "basis": [
+          "product/skills/deterministic-video-composition-and-rendering/SKILL.md: seekable scene evaluation, frozen inputs and checks on encoded delivery"
+        ],
+        "depth": "Existing encoded-video method directly covers the request."
+      },
+      "baseline": {
+        "intendedOwnerRankWithin20": 1,
+        "search": {
+          "selection": {
+            "state": "review-required",
+            "basis": "lexical-candidates-only"
+          },
+          "abstentionReason": null,
+          "authority": "none",
+          "activation": "none",
+          "top3": [
+            {
+              "id": "deterministic-video-composition-and-rendering",
+              "score": 413.728,
+              "reasons": [
+                "Matched: audio, based, composition, encoded, exact, first, frame, frames, render, seekable, video",
+                "Lexical intent: requested frame-based video output; cues: video or seekable scene artifact, production, inspection or seek action, frame, timeline or programmatic dependency"
+              ]
+            },
+            {
+              "id": "molecular-observable-integrity",
+              "score": 32.238,
+              "reasons": [
+                "Matched: check, frames"
+              ]
+            },
+            {
+              "id": "confirmed-destructive-reconstruction",
+              "score": 27.541,
+              "reasons": [
+                "Matched: check, exact"
+              ]
+            }
+          ],
+          "outputSha256": "eb1d13fcc9c18cd25fff32ab126305446c6ffaba0419c7cb83fd30ed3b14e55b"
+        },
+        "route": {
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          },
+          "abstentionReason": null,
+          "intendedOwnerRankWithin20": 1,
+          "authority": "none",
+          "activation": "none",
+          "atlas": {
+            "shortlisted": true,
+            "localAnalysisAvailable": true,
+            "connectedSource": {
+              "state": "rejected",
+              "reason": "discovery-prohibited"
+            }
+          },
+          "searchOutputSha256": "8065aab2391c6adbec15f422f18876c0cf082ba8fdb5e34358650914b6b7748a",
+          "outputSha256": "7bc6245597ca545b201fef7576c4b84e3f5c57a066e10a4f62856828366cf45d"
+        },
+        "hostNoNeedSearch": null
+      },
+      "candidate": {
+        "intendedOwnerRankWithin20": 1,
+        "search": {
+          "selection": {
+            "state": "review-required",
+            "basis": "lexical-candidates-only"
+          },
+          "abstentionReason": null,
+          "authority": "none",
+          "activation": "none",
+          "top3": [
+            {
+              "id": "deterministic-video-composition-and-rendering",
+              "score": 413.728,
+              "reasons": [
+                "Matched: audio, based, composition, encoded, exact, first, frame, frames, render, seekable, video",
+                "Lexical intent: requested frame-based video output; cues: video or seekable scene artifact, production, inspection or seek action, frame, timeline or programmatic dependency"
+              ]
+            },
+            {
+              "id": "eternities-arcadia",
+              "score": 44.775,
+              "reasons": [
+                "Matched: asset, check"
+              ]
+            },
+            {
+              "id": "molecular-observable-integrity",
+              "score": 31.867,
+              "reasons": [
+                "Matched: check, frames"
+              ]
+            }
+          ],
+          "outputSha256": "e3b69fff807ad912692b4695684a7d504382ac774adb1a98e48b0b6f3b0daa18"
+        },
+        "route": {
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          },
+          "abstentionReason": null,
+          "intendedOwnerRankWithin20": 1,
+          "authority": "none",
+          "activation": "none",
+          "atlas": {
+            "shortlisted": true,
+            "localAnalysisAvailable": true,
+            "connectedSource": {
+              "state": "rejected",
+              "reason": "discovery-prohibited"
+            }
+          },
+          "searchOutputSha256": "4ef99516cd1bf7d1771e6fe78243f54c93b904a3747f05a6eef3aef0b7949ed9",
+          "outputSha256": "73bc7de48342b1663ca14beb6f6df75fb80a71b325a9294f4e1f220bdf3bde5c"
+        },
+        "hostNoNeedSearch": null
+      },
+      "expectationResults": {
+        "baseline": {
+          "ownerTop3": true,
+          "routeOwnerTop3": true
+        },
+        "candidate": {
+          "ownerTop3": true,
+          "routeOwnerTop3": true
+        }
+      },
+      "deltas": {
+        "ownerRankChange": 0,
+        "ownerTop3Lost": false,
+        "textAbstentionChanged": false,
+        "routeAbstentionChanged": false,
+        "top3IdsChanged": true
+      },
+      "arcadiaRank": {
+        "baselineWithin20": 4,
+        "candidateWithin20": 2
+      },
+      "authorityAndActivationRemainNone": true
+    },
+    {
+      "id": "N04",
+      "group": "adjacent-or-negative",
+      "query": "Review the supplied 3D asset license agreement. Extract redistribution and attribution obligations, termination triggers and liability clauses with document locators; leave jurisdiction-dependent legal conclusions as open questions.",
+      "expectation": {
+        "kind": "owner-top3",
+        "owner": "jurisdiction-aware-contract-review",
+        "hostNeed": "specialist",
+        "noInjectedIntent": "asset acquisition, activation, technical import or legal approval",
+        "basis": [
+          "product/skills/jurisdiction-aware-contract-review/SKILL.md: source-linked obligation map and separation of document facts and legal questions"
+        ],
+        "depth": "Existing contract extraction method covers the requested review; no actual agreement is being reviewed in this discovery audit."
+      },
+      "baseline": {
+        "intendedOwnerRankWithin20": 1,
+        "search": {
+          "selection": {
+            "state": "review-required",
+            "basis": "lexical-candidates-only"
+          },
+          "abstentionReason": null,
+          "authority": "none",
+          "activation": "none",
+          "top3": [
+            {
+              "id": "jurisdiction-aware-contract-review",
+              "score": 303.918,
+              "reasons": [
+                "Matched: agreement, clauses, conclusions, dependent, document, extract, jurisdiction, legal, liability, obligations, review, termination"
+              ]
+            },
+            {
+              "id": "eternities-logos",
+              "score": 46.333,
+              "reasons": [
+                "Matched: review, supplied"
+              ]
+            },
+            {
+              "id": "bounded-service-shutdown",
+              "score": 36.137,
+              "reasons": [
+                "Matched: review, termination"
+              ]
+            }
+          ],
+          "outputSha256": "eff5ccd30383c9f068aad951f94a252cfcc065b9f1bf8dcbc9cd4fad25b7efb3"
+        },
+        "route": {
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          },
+          "abstentionReason": null,
+          "intendedOwnerRankWithin20": 1,
+          "authority": "none",
+          "activation": "none",
+          "atlas": {
+            "shortlisted": false,
+            "localAnalysisAvailable": true,
+            "connectedSource": {
+              "state": "rejected",
+              "reason": "discovery-prohibited"
+            }
+          },
+          "searchOutputSha256": "2d37ad3755847dcb9763bbbcb2a12c188c781ee35bda2fd7dbf7c6d401b2b757",
+          "outputSha256": "4f86c4558e5adbb13a7b14ebf71e5330cb588366d79db652c6e7b70396716888"
+        },
+        "hostNoNeedSearch": null
+      },
+      "candidate": {
+        "intendedOwnerRankWithin20": 1,
+        "search": {
+          "selection": {
+            "state": "review-required",
+            "basis": "lexical-candidates-only"
+          },
+          "abstentionReason": null,
+          "authority": "none",
+          "activation": "none",
+          "top3": [
+            {
+              "id": "jurisdiction-aware-contract-review",
+              "score": 303.918,
+              "reasons": [
+                "Matched: agreement, clauses, conclusions, dependent, document, extract, jurisdiction, legal, liability, obligations, review, termination"
+              ]
+            },
+            {
+              "id": "eternities-logos",
+              "score": 46.333,
+              "reasons": [
+                "Matched: review, supplied"
+              ]
+            },
+            {
+              "id": "eternities-arcadia",
+              "score": 38.607,
+              "reasons": [
+                "Matched: 3d, asset"
+              ]
+            }
+          ],
+          "outputSha256": "4c9c8c10cb3929aa1830d423b1beaeb70b4eb488661251b3a9dc4feb920bef14"
+        },
+        "route": {
+          "selection": {
+            "state": "review-required",
+            "basis": "host-requested-specialist-candidates"
+          },
+          "abstentionReason": null,
+          "intendedOwnerRankWithin20": 1,
+          "authority": "none",
+          "activation": "none",
+          "atlas": {
+            "shortlisted": false,
+            "localAnalysisAvailable": true,
+            "connectedSource": {
+              "state": "rejected",
+              "reason": "discovery-prohibited"
+            }
+          },
+          "searchOutputSha256": "49e3f3e4fa9ca9270a24af2bc7083c164a18cccb2c0302139095a688fbf5b4f2",
+          "outputSha256": "414baf4d9e9d75e2d84c544ae15f0b43a05e8f1c5e53cd517e980333145369ca"
+        },
+        "hostNoNeedSearch": null
+      },
+      "expectationResults": {
+        "baseline": {
+          "ownerTop3": true,
+          "routeOwnerTop3": true
+        },
+        "candidate": {
+          "ownerTop3": true,
+          "routeOwnerTop3": true
+        }
+      },
+      "deltas": {
+        "ownerRankChange": 0,
+        "ownerTop3Lost": false,
+        "textAbstentionChanged": false,
+        "routeAbstentionChanged": false,
+        "top3IdsChanged": true
+      },
+      "arcadiaRank": {
+        "baselineWithin20": 7,
+        "candidateWithin20": 3
+      },
+      "authorityAndActivationRemainNone": true
+    },
+    {
+      "id": "N05",
+      "group": "adjacent-or-negative",
+      "query": "Give only the result: lowercase the literal text \"PBR MATERIAL COLLISION ANIMATION PACKAGED BUILD\".",
+      "expectation": {
+        "kind": "no-injected-intent",
+        "hostNeed": "none",
+        "expectTextSearchAbstention": true,
+        "basis": [
+          "product/skills/eternities-omnibus/SKILL.md: literal transformations do not by themselves need a workflow",
+          "product/DISCOVERY.md: explicit limited casing can abstain; host owns need"
+        ],
+        "depth": "Literal text is data, not an asset workflow."
+      },
+      "baseline": {
+        "intendedOwnerRankWithin20": null,
+        "search": {
+          "selection": {
+            "state": "abstain",
+            "basis": "bounded-lexical-exclusion"
+          },
+          "abstentionReason": "explicit-limited-micro-task",
+          "authority": "none",
+          "activation": "none",
+          "top3": [],
+          "outputSha256": "8cbe91b450bd9e2d14482ba14360b626b8ab1da30fbe7c710f8cbc463626ced6"
+        },
+        "route": {
+          "selection": {
+            "state": "abstain",
+            "basis": "host-supplied-no-need"
+          },
+          "abstentionReason": "host-supplied-no-need",
+          "intendedOwnerRankWithin20": null,
+          "authority": "none",
+          "activation": "none",
+          "atlas": {
+            "shortlisted": false,
+            "localAnalysisAvailable": true,
+            "connectedSource": {
+              "state": "hold",
+              "reason": "no-specialist-route-selected"
+            }
+          },
+          "searchOutputSha256": "004dc59f0d72affaa659d4d48bc8859fa95fe1b848ee9503e641e3a7105afebe",
+          "outputSha256": "268404e57156c5a2d2f02c16a311fb5021db14bdedaae3c452dfa9727769c731"
+        },
+        "hostNoNeedSearch": {
+          "selection": {
+            "state": "abstain",
+            "basis": "host-supplied-no-need"
+          },
+          "abstentionReason": "host-supplied-no-need",
+          "outputSha256": "004dc59f0d72affaa659d4d48bc8859fa95fe1b848ee9503e641e3a7105afebe"
+        }
+      },
+      "candidate": {
+        "intendedOwnerRankWithin20": null,
+        "search": {
+          "selection": {
+            "state": "abstain",
+            "basis": "bounded-lexical-exclusion"
+          },
+          "abstentionReason": "explicit-limited-micro-task",
+          "authority": "none",
+          "activation": "none",
+          "top3": [],
+          "outputSha256": "8cbe91b450bd9e2d14482ba14360b626b8ab1da30fbe7c710f8cbc463626ced6"
+        },
+        "route": {
+          "selection": {
+            "state": "abstain",
+            "basis": "host-supplied-no-need"
+          },
+          "abstentionReason": "host-supplied-no-need",
+          "intendedOwnerRankWithin20": null,
+          "authority": "none",
+          "activation": "none",
+          "atlas": {
+            "shortlisted": false,
+            "localAnalysisAvailable": true,
+            "connectedSource": {
+              "state": "hold",
+              "reason": "no-specialist-route-selected"
+            }
+          },
+          "searchOutputSha256": "004dc59f0d72affaa659d4d48bc8859fa95fe1b848ee9503e641e3a7105afebe",
+          "outputSha256": "268404e57156c5a2d2f02c16a311fb5021db14bdedaae3c452dfa9727769c731"
+        },
+        "hostNoNeedSearch": {
+          "selection": {
+            "state": "abstain",
+            "basis": "host-supplied-no-need"
+          },
+          "abstentionReason": "host-supplied-no-need",
+          "outputSha256": "004dc59f0d72affaa659d4d48bc8859fa95fe1b848ee9503e641e3a7105afebe"
+        }
+      },
+      "expectationResults": {
+        "baseline": {
+          "textOnlyNoInjectedIntent": true,
+          "hostRouteNoInjectedIntent": true,
+          "hostSearchNoInjectedIntent": true
+        },
+        "candidate": {
+          "textOnlyNoInjectedIntent": true,
+          "hostRouteNoInjectedIntent": true,
+          "hostSearchNoInjectedIntent": true
+        }
+      },
+      "deltas": {
+        "ownerRankChange": null,
+        "ownerTop3Lost": false,
+        "textAbstentionChanged": false,
+        "routeAbstentionChanged": false,
+        "top3IdsChanged": false
+      },
+      "arcadiaRank": {
+        "baselineWithin20": null,
+        "candidateWithin20": null
+      },
+      "authorityAndActivationRemainNone": true
+    },
+    {
+      "id": "N06",
+      "group": "adjacent-or-negative",
+      "query": "Do not audit the game assets or qualify a packaged build. Count the words in \"material coordinate collision animation\"; give only the number.",
+      "expectation": {
+        "kind": "no-injected-intent",
+        "hostNeed": "none",
+        "expectTextSearchAbstention": true,
+        "basis": [
+          "product/skills/eternities-omnibus/SKILL.md: incidental domain words and literal counting do not need a workflow",
+          "product/DISCOVERY.md: narrow exclusions are limited English rules; host no-need returns no suggestions"
+        ],
+        "depth": "Refused game work must not be injected. A text-only lexical shortlist would be a retrieval limitation; host-supplied no-need must still abstain."
+      },
+      "baseline": {
+        "intendedOwnerRankWithin20": null,
+        "search": {
+          "selection": {
+            "state": "review-required",
+            "basis": "lexical-candidates-only"
+          },
+          "abstentionReason": null,
+          "authority": "none",
+          "activation": "none",
+          "top3": [
+            {
+              "id": "geospatial-coordinate-integrity",
+              "score": 60.757,
+              "reasons": [
+                "Matched: build, coordinate, not"
+              ]
+            },
+            {
+              "id": "eternities-arcadia",
+              "score": 59.919,
+              "reasons": [
+                "Matched: animation, build, game"
+              ]
+            },
+            {
+              "id": "motion-design-and-animation-engineering",
+              "score": 42.129,
+              "reasons": [
+                "Matched: animation, build"
+              ]
+            }
+          ],
+          "outputSha256": "0339919a9fdc69c1ce80b845627734eb83ccc3e764c11057a8b832ce9267d57d"
+        },
+        "route": {
+          "selection": {
+            "state": "abstain",
+            "basis": "host-supplied-no-need"
+          },
+          "abstentionReason": "host-supplied-no-need",
+          "intendedOwnerRankWithin20": null,
+          "authority": "none",
+          "activation": "none",
+          "atlas": {
+            "shortlisted": false,
+            "localAnalysisAvailable": true,
+            "connectedSource": {
+              "state": "hold",
+              "reason": "no-specialist-route-selected"
+            }
+          },
+          "searchOutputSha256": "c0a53596cdf4b628080ce64b9179086e960c7c1a9c7b7b3c877f604a31cea52a",
+          "outputSha256": "30a7c8291b688a0bf268b3628abd2599b41a0840fbef423615aa6d9ec17344ee"
+        },
+        "hostNoNeedSearch": {
+          "selection": {
+            "state": "abstain",
+            "basis": "host-supplied-no-need"
+          },
+          "abstentionReason": "host-supplied-no-need",
+          "outputSha256": "c0a53596cdf4b628080ce64b9179086e960c7c1a9c7b7b3c877f604a31cea52a"
+        }
+      },
+      "candidate": {
+        "intendedOwnerRankWithin20": null,
+        "search": {
+          "selection": {
+            "state": "review-required",
+            "basis": "lexical-candidates-only"
+          },
+          "abstentionReason": null,
+          "authority": "none",
+          "activation": "none",
+          "top3": [
+            {
+              "id": "eternities-arcadia",
+              "score": 187.804,
+              "reasons": [
+                "Matched: animation, assets, build, collision, coordinate, game, material, packaged, qualify"
+              ]
+            },
+            {
+              "id": "geospatial-coordinate-integrity",
+              "score": 58.864,
+              "reasons": [
+                "Matched: build, coordinate, not"
+              ]
+            },
+            {
+              "id": "motion-design-and-animation-engineering",
+              "score": 42.129,
+              "reasons": [
+                "Matched: animation, build"
+              ]
+            }
+          ],
+          "outputSha256": "e39c146838549fb8d8046dcfb034188980c5de25871ad6a3fc1284a831d0b71f"
+        },
+        "route": {
+          "selection": {
+            "state": "abstain",
+            "basis": "host-supplied-no-need"
+          },
+          "abstentionReason": "host-supplied-no-need",
+          "intendedOwnerRankWithin20": null,
+          "authority": "none",
+          "activation": "none",
+          "atlas": {
+            "shortlisted": false,
+            "localAnalysisAvailable": true,
+            "connectedSource": {
+              "state": "hold",
+              "reason": "no-specialist-route-selected"
+            }
+          },
+          "searchOutputSha256": "c0a53596cdf4b628080ce64b9179086e960c7c1a9c7b7b3c877f604a31cea52a",
+          "outputSha256": "30a7c8291b688a0bf268b3628abd2599b41a0840fbef423615aa6d9ec17344ee"
+        },
+        "hostNoNeedSearch": {
+          "selection": {
+            "state": "abstain",
+            "basis": "host-supplied-no-need"
+          },
+          "abstentionReason": "host-supplied-no-need",
+          "outputSha256": "c0a53596cdf4b628080ce64b9179086e960c7c1a9c7b7b3c877f604a31cea52a"
+        }
+      },
+      "expectationResults": {
+        "baseline": {
+          "textOnlyNoInjectedIntent": false,
+          "hostRouteNoInjectedIntent": true,
+          "hostSearchNoInjectedIntent": true
+        },
+        "candidate": {
+          "textOnlyNoInjectedIntent": false,
+          "hostRouteNoInjectedIntent": true,
+          "hostSearchNoInjectedIntent": true
+        }
+      },
+      "deltas": {
+        "ownerRankChange": null,
+        "ownerTop3Lost": false,
+        "textAbstentionChanged": false,
+        "routeAbstentionChanged": false,
+        "top3IdsChanged": true
+      },
+      "arcadiaRank": {
+        "baselineWithin20": 2,
+        "candidateWithin20": 1
+      },
+      "authorityAndActivationRemainNone": true
+    }
+  ],
+  "outputBoundary": {
+    "directory": "C:/Users/Dom/.codex/operations/godskills-asset-qualification-20261014/review-v1",
+    "files": [
+      "review.md",
+      "receipt.json"
+    ],
+    "onlyApplyPatchWrites": true,
+    "noProductTestGitGlobalOrBaselineWrites": true,
+    "noAcquisitionsProvidersInstallsSubagentsOrOtherWorkerOutcomeReads": true
+  },
+  "verificationLimits": [
+    "12 cases are disclosed regressions, not held-out cases",
+    "No engine/device import or packaging execution",
+    "No independent recertification of cited third-party bodies, rights, or primary-page date checks",
+    "No reviewer full-suite run or observation of parent full gate",
+    "Only declared changed files and manifest delta checked; no exhaustive reread/revalidation of all product bodies"
+  ],
+  "auditSkill": "C:/Users/Dom/.agents/skills/completeness-and-consistency-audit/SKILL.md"
+}

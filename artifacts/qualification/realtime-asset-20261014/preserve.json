@@ -1,0 +1,22 @@
+{
+  "phase": "preserve",
+  "observedUtc": "2026-10-14T09:15:50.455Z",
+  "candidateRelease": "16933f1098cf51b562543edbaa54df966ca22ce6c5c404d9238704889d421c8b",
+  "status": "preserved",
+  "baseline": "a0981f2c30cc5f558dd4f7051f32ce158e818997",
+  "changedPayloadFiles": [
+    "INDEX.md",
+    "catalog.json",
+    "skills/eternities-arcadia/SKILL.md",
+    "skills/eternities-arcadia/skill.json"
+  ],
+  "addedPayloadFiles": [
+    "skills/eternities-arcadia/references/realtime-asset-integration.md"
+  ],
+  "unchangedSkillPayloads": 272,
+  "protectedHashes": {
+    "src/adaptive-activation.mjs": "9844aee1147f7129f3e37067424ccebb88ff478de1b7a9a9fb7306d5f2fdbd82",
+    "policies/adaptive-activation.v1.json": "b87bbfaddecb42417e57202173220bf240204d27b7de5fffc9e609eb18138939",
+    "artifacts/adaptive-activation/evidence.v1.json": "b55a5cb4f7ff039cc7f4027c165b2f151bad723d9030913076a4225342fbe8c5"
+  }
+}

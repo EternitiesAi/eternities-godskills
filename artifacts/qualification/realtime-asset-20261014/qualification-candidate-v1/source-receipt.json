@@ -1,0 +1,81 @@
+{
+  "schema": "godskills-sidecar-b-candidate-source-binding-v1",
+  "stage": "candidate-v1",
+  "observed_utc": "2026-10-14T09:24:13.5826212Z",
+  "root": "C:/Users/Dom/.codex/operations/godskills-asset-qualification-20261014/qualification-candidate-v1",
+  "authorization": "after-baseline-complete-and-frozen; apply-two-named-candidate-files-to-same-frozen-inputs",
+  "supplied_release_identifier": "16933f1098cf51b562543edbaa54df966ca22ce6c5c404d9238704889d421c8b",
+  "release_binding_limit": "supplied label retained; no release container or manifest read/computed; membership not independently verified",
+  "expected_method_sha256": "a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41",
+  "method_sha256_match": true,
+  "candidate_source_files": [
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\product\\skills\\eternities-arcadia\\SKILL.md",
+      "byte_length": 4123,
+      "sha256": "9ec66ba0975124b95877f2ad0a852162008cfd624af2fe823d9752e478940c46"
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\product\\skills\\eternities-arcadia\\references\\realtime-asset-integration.md",
+      "byte_length": 7028,
+      "sha256": "a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41"
+    }
+  ],
+  "baseline_root": "C:/Users/Dom/.codex/operations/godskills-asset-qualification-20261014/qualification-baseline",
+  "baseline_complete_before_candidate_read": true,
+  "baseline_files": [
+    {
+      "file": "scenario-a.md",
+      "byte_length": 7561,
+      "sha256": "fde5cff4a52dd6d66fd2ad4bc3588068f113913148396d8c555ec13a29ce98a1"
+    },
+    {
+      "file": "scenario-b.md",
+      "byte_length": 9455,
+      "sha256": "48e4e61294d042b0438a586aab96b0adc484dd5c5b1c7b64850f6a7872415316"
+    },
+    {
+      "file": "manual-oracle.md",
+      "byte_length": 10860,
+      "sha256": "50ed19f7b04ed9748cb0def370e9a93ad8a9f977729ba605b61b3d0079246555"
+    },
+    {
+      "file": "rubric.md",
+      "byte_length": 7477,
+      "sha256": "f08a61fab21b87649de63a34b40fc92ada24b4f85904794dc4372db17df37a12"
+    },
+    {
+      "file": "canonical-source-receipt.md",
+      "byte_length": 2688,
+      "sha256": "36f371aaa536693a32317715a7d5779c9b5f530437f94cdae937addcfb9ae831"
+    },
+    {
+      "file": "freeze-manifest.json",
+      "byte_length": 1703,
+      "sha256": "a86d34b51d024e6b147017dddd09c2b8338913fa81ad8fab652624cd6426dd5b"
+    },
+    {
+      "file": "baseline-application.md",
+      "byte_length": 15424,
+      "sha256": "8b5a11ff27d74a90f18f60982d4ae66ddb190459a95278c29021b7a1c3b11725"
+    },
+    {
+      "file": "baseline-assessment.md",
+      "byte_length": 9552,
+      "sha256": "1fc641bc5383d1b0181c31505014bbf124ebda94ceb0ddaf154eb81def6619ad"
+    },
+    {
+      "file": "evidence-manifest.json",
+      "byte_length": 3372,
+      "sha256": "ba82c98ee8cc3424d4532d4fbb3d46e77dc36559d47123d833890cb36a4439e0"
+    }
+  ],
+  "candidate_complete_content_readset": [
+    "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\product\\skills\\eternities-arcadia\\SKILL.md",
+    "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\product\\skills\\eternities-arcadia\\references\\realtime-asset-integration.md"
+  ],
+  "prior_evaluator_context": "current canonical three guidance files and full scenarios/manual oracle/rubric/baseline application already known; same evaluator nonblind",
+  "unread_candidate_dependencies": "candidate copies of browser-runtime-lifecycle.md, methods.md and other references; external documentation links; release container; discovery workers",
+  "assessment_rules": "RA/RB unchanged; RX2/RX3 and no-candidate protocol are baseline-only and are not claimed satisfied in candidate stage; RX1/RX4 remain meaningful",
+  "effects": "local evidence writes only via apply_patch; no source/code/production/git/install mutation, engine/GPU/browser execution, provider/network calls, new fixtures/harness or subagents",
+  "candidate_output_preexisting": false
+}

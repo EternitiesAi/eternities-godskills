@@ -1,0 +1,98 @@
+{
+  "schema": "godskills-sidecar-b-baseline-evidence-v1",
+  "root": "C:/Users/Dom/.codex/operations/godskills-asset-qualification-20261014/qualification-baseline",
+  "baseline_complete_and_frozen_before_candidate_read": true,
+  "observed_utc": "2026-10-14T09:23:34.0526231Z",
+  "candidate_exposure": "none-through-baseline-completion",
+  "all_frozen_inputs_and_sources_match": true,
+  "rx4_result": "PASS: actual SHA-256 and byte-length comparisons matched",
+  "rubric_assessment": "same-author nonblind written-response assessment; no method certification or causal inference",
+  "frozen_input_checks": [
+    {
+      "file": "scenario-a.md",
+      "sha256_match": true,
+      "byte_length_match": true
+    },
+    {
+      "file": "scenario-b.md",
+      "sha256_match": true,
+      "byte_length_match": true
+    },
+    {
+      "file": "manual-oracle.md",
+      "sha256_match": true,
+      "byte_length_match": true
+    },
+    {
+      "file": "rubric.md",
+      "sha256_match": true,
+      "byte_length_match": true
+    },
+    {
+      "file": "canonical-source-receipt.md",
+      "sha256_match": true,
+      "byte_length_match": true
+    }
+  ],
+  "canonical_source_checks": [
+    {
+      "path": "C:\\dev\\eternities-godskills\\product\\skills\\eternities-arcadia\\SKILL.md",
+      "sha256": "2cbfec7e1e8fbc6e3d10321336224176ee5950d7895ac281d7849947c94c61c1",
+      "sha256_match": true
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\product\\skills\\eternities-arcadia\\references\\methods.md",
+      "sha256": "57853439f2dbc6173e2b627b3d1cdd982c746f8376e86746b2745138b696dfc3",
+      "sha256_match": true
+    },
+    {
+      "path": "C:\\dev\\eternities-godskills\\product\\skills\\eternities-arcadia\\references\\browser-runtime-lifecycle.md",
+      "sha256": "92f138939846c57ad5de1d36fd1c60d11341e29a91fcaecb03c942397ad93853",
+      "sha256_match": true
+    }
+  ],
+  "files": [
+    {
+      "file": "scenario-a.md",
+      "byte_length": 7561,
+      "sha256": "fde5cff4a52dd6d66fd2ad4bc3588068f113913148396d8c555ec13a29ce98a1"
+    },
+    {
+      "file": "scenario-b.md",
+      "byte_length": 9455,
+      "sha256": "48e4e61294d042b0438a586aab96b0adc484dd5c5b1c7b64850f6a7872415316"
+    },
+    {
+      "file": "manual-oracle.md",
+      "byte_length": 10860,
+      "sha256": "50ed19f7b04ed9748cb0def370e9a93ad8a9f977729ba605b61b3d0079246555"
+    },
+    {
+      "file": "rubric.md",
+      "byte_length": 7477,
+      "sha256": "f08a61fab21b87649de63a34b40fc92ada24b4f85904794dc4372db17df37a12"
+    },
+    {
+      "file": "canonical-source-receipt.md",
+      "byte_length": 2688,
+      "sha256": "36f371aaa536693a32317715a7d5779c9b5f530437f94cdae937addcfb9ae831"
+    },
+    {
+      "file": "freeze-manifest.json",
+      "byte_length": 1703,
+      "sha256": "a86d34b51d024e6b147017dddd09c2b8338913fa81ad8fab652624cd6426dd5b"
+    },
+    {
+      "file": "baseline-application.md",
+      "byte_length": 15424,
+      "sha256": "8b5a11ff27d74a90f18f60982d4ae66ddb190459a95278c29021b7a1c3b11725"
+    },
+    {
+      "file": "baseline-assessment.md",
+      "byte_length": 9552,
+      "sha256": "1fc641bc5383d1b0181c31505014bbf124ebda94ceb0ddaf154eb81def6619ad"
+    }
+  ],
+  "self_hash": "excluded; separately bind this manifest in the authorized candidate-stage receipt",
+  "preservation_rule": "preserve all listed files and this manifest exactly; no later baseline edits"
+}

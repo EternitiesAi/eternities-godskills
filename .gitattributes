@@ -9,3 +9,5 @@ artifacts/sprint-20261002/conditional-method-full-suite-v1.tap -text
 docs/next-eight-20261004/* -text whitespace=-blank-at-eof,cr-at-eol
 # Exact motion/video qualification records retain observed raw bytes.
 docs/motion-video-20261013/qualification/* -text whitespace=-blank-at-eof,cr-at-eol
+# Preserve this PowerShell-produced portable receipt byte-for-byte.
+artifacts/qualification/realtime-asset-20261014/portable-acceptance-v1.json -text whitespace=cr-at-eol

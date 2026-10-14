@@ -1,0 +1,246 @@
+{
+  "schema": "godskills-bounded-discovery-baseline-cases-v1",
+  "baseline": {
+    "repository": "C:/dev/eternities-godskills",
+    "commit": "a0981f2c30cc5f558dd4f7051f32ce158e818997",
+    "expectedSkillCount": 93
+  },
+  "freeze": {
+    "phase": "before any searchCatalog or routeTask execution",
+    "immutable": true,
+    "expectationsDerivedFrom": "Pinned product entrypoint bodies and only task-relevant references; no candidate worktree inspection.",
+    "orderingExpectation": "Intended owner must occur in top 3. No exact ordering is required for supporting results.",
+    "negativeExpectation": "Adjacent tasks retain their own owner and do not become real-time 3D asset qualification. Explicit microtasks have no injected specialist intent."
+  },
+  "execution": {
+    "searchOptions": {
+      "limit": 20,
+      "need": "unknown"
+    },
+    "routeSearchOptions": {
+      "limit": 20
+    },
+    "routeContextCommon": {
+      "inputScope": "supplied-only",
+      "connectedPurpose": "none",
+      "discovery": "prohibited"
+    },
+    "hostNoNeedSearchForExplicitNegatives": true
+  },
+  "cases": [
+    {
+      "id": "A01",
+      "group": "realtime3d",
+      "topic": "asset integration and scene lifetime",
+      "query": "Integrate an imported glTF prop into our browser game. If the player leaves while it loads, the old scene must not attach the prop; remounting must release owned textures and leave shared assets usable.",
+      "expectation": {
+        "kind": "owner-top3",
+        "owner": "eternities-arcadia",
+        "hostNeed": "specialist",
+        "basis": [
+          "product/skills/eternities-arcadia/SKILL.md: browser-hosted games conditional lifecycle route",
+          "product/skills/eternities-arcadia/references/browser-runtime-lifecycle.md: asynchronous work belongs to a scene lifetime; exclusive versus shared resources"
+        ],
+        "depth": "Existing lifecycle method directly addresses the requested integration hazards. Import-format support itself remains unspecified."
+      }
+    },
+    {
+      "id": "A02",
+      "group": "realtime3d",
+      "topic": "material appearance and visual acceptance",
+      "query": "Review the imported PBR materials in our real-time 3D game against the approved look. Freeze the camera and lighting, inspect washed-out colors and inverted normal-map detail, and record rendered acceptance evidence.",
+      "expectation": {
+        "kind": "owner-top3",
+        "owner": "eternities-muse",
+        "acceptableSupportingOwners": [
+          "eternities-arcadia"
+        ],
+        "hostNeed": "specialist",
+        "basis": [
+          "product/skills/eternities-muse/SKILL.md: visual acceptance freezes camera, content, timing and configuration",
+          "product/skills/eternities-muse/references/methods.md: rendered spatial measurement and adjudication"
+        ],
+        "depth": "Muse owns visual acceptance, but the read bodies do not explain PBR channels, texture color interpretation or normal-map convention qualification."
+      }
+    },
+    {
+      "id": "A03",
+      "group": "realtime3d",
+      "topic": "coordinate conventions",
+      "query": "Our imported model is sideways and a hundred times too large in the game scene. Check authoring units, up axis, handedness and pivot, then verify that placement and player interaction use the intended coordinates.",
+      "expectation": {
+        "kind": "owner-top3",
+        "owner": "eternities-arcadia",
+        "hostNeed": "specialist",
+        "basis": [
+          "product/skills/eternities-arcadia/SKILL.md: runtime systems and player experience",
+          "product/skills/eternities-arcadia/references/methods.md: object scale, spatial interaction and relevant correctness fixtures"
+        ],
+        "depth": "Arcadia is the broad game owner. The read references do not supply an import convention, transform-order or pivot qualification procedure; GIS reference transformation is a different domain."
+      }
+    },
+    {
+      "id": "A04",
+      "group": "realtime3d",
+      "topic": "collision qualification",
+      "query": "Qualify collision for a newly imported game prop. The player falls through it from one side and gets snagged near a doorway; compare the visible mesh with the collision proxy and exercise movement at different frame rates.",
+      "expectation": {
+        "kind": "owner-top3",
+        "owner": "eternities-arcadia",
+        "hostNeed": "specialist",
+        "basis": [
+          "product/skills/eternities-arcadia/SKILL.md: runtime game systems and measurable budgets",
+          "product/skills/eternities-arcadia/references/methods.md: fixed-step simulation, interaction query and correctness outputs"
+        ],
+        "depth": "Broad runtime ownership exists. The read references do not specify collision proxy generation, shape suitability or visual-to-collision correspondence checks."
+      }
+    },
+    {
+      "id": "A05",
+      "group": "realtime3d",
+      "topic": "skeletal animation import",
+      "query": "Check an imported character for our real-time game: the walk clip twists the skeleton, root motion moves it twice, and blending to idle pops. Validate the bind pose, clip tracks, transition behavior and gameplay motion ownership.",
+      "expectation": {
+        "kind": "owner-top3",
+        "owner": "eternities-arcadia",
+        "hostNeed": "specialist",
+        "basis": [
+          "product/skills/eternities-arcadia/SKILL.md: runtime state, simulation and presentation contracts",
+          "product/skills/motion-design-and-animation-engineering/SKILL.md: fit is interactive UI choreography and layout transitions, not a skeletal import method"
+        ],
+        "depth": "Arcadia owns game runtime integration, but the read bodies lack skeletal bind-pose, clip-binding and root-motion qualification. The motion specialist's documented fit is adjacent UI motion."
+      }
+    },
+    {
+      "id": "A06",
+      "group": "realtime3d",
+      "topic": "packaged build",
+      "query": "The asset works in the editor but the packaged game has missing textures and no collision. Verify the shipped asset paths, target-platform import settings and representative-device frame and memory budgets before calling this build ready.",
+      "expectation": {
+        "kind": "owner-top3",
+        "owner": "eternities-arcadia",
+        "acceptableSupportingOwners": [
+          "performance-release-gating"
+        ],
+        "hostNeed": "specialist",
+        "basis": [
+          "product/skills/eternities-arcadia/SKILL.md: proof and release freezes build identity and representative-device conditions",
+          "product/skills/eternities-arcadia/references/browser-runtime-lifecycle.md: shipped relative asset paths at intended hosting base",
+          "product/skills/performance-release-gating/SKILL.md: bounded target/workload and functional performance gate"
+        ],
+        "depth": "Release identity, path and device-budget checks exist. The read bodies lack engine packaging/cook inclusion and platform-specific asset import qualification."
+      }
+    },
+    {
+      "id": "N01",
+      "group": "adjacent-or-negative",
+      "topic": "GIS coordinates",
+      "query": "Repair a GIS layer whose longitude and latitude columns were swapped. Establish the source CRS and transform it into the documented projected units, then check independent control points.",
+      "expectation": {
+        "kind": "owner-top3",
+        "owner": "geospatial-coordinate-integrity",
+        "hostNeed": "specialist",
+        "noInjectedIntent": "real-time 3D model or game-asset qualification",
+        "basis": [
+          "product/skills/geospatial-coordinate-integrity/SKILL.md: source CRS, axis order, units, assign/transform/measure and independent controls"
+        ],
+        "depth": "Existing GIS coordinate method directly covers the request."
+      }
+    },
+    {
+      "id": "N02",
+      "group": "adjacent-or-negative",
+      "topic": "interactive UI motion",
+      "query": "Fix an interactive drawer animation that jumps when a user reverses the drag midway. Preserve current position and velocity when the target changes, handle resize, and provide the reduced-motion transition.",
+      "expectation": {
+        "kind": "owner-top3",
+        "owner": "motion-design-and-animation-engineering",
+        "hostNeed": "specialist",
+        "noInjectedIntent": "skeletal animation import or game-asset qualification",
+        "basis": [
+          "product/skills/motion-design-and-animation-engineering/SKILL.md: interruptible drawers, gestures and retargeting",
+          "product/skills/motion-design-and-animation-engineering/references/methods.md: current pose/velocity, lifecycle, resize and reduced motion"
+        ],
+        "depth": "Existing interactive-motion method directly covers the request."
+      }
+    },
+    {
+      "id": "N03",
+      "group": "adjacent-or-negative",
+      "topic": "encoded video",
+      "query": "Render a 20-second encoded video from a seekable frame-based composition. Freeze the asset and font inputs, align the sound cues to exact frames, and check the exported file's duration and first and last frames.",
+      "expectation": {
+        "kind": "owner-top3",
+        "owner": "deterministic-video-composition-and-rendering",
+        "hostNeed": "specialist",
+        "noInjectedIntent": "playable game runtime or 3D asset qualification",
+        "basis": [
+          "product/skills/deterministic-video-composition-and-rendering/SKILL.md: seekable scene evaluation, frozen inputs and checks on encoded delivery"
+        ],
+        "depth": "Existing encoded-video method directly covers the request."
+      }
+    },
+    {
+      "id": "N04",
+      "group": "adjacent-or-negative",
+      "topic": "asset license agreement",
+      "query": "Review the supplied 3D asset license agreement. Extract redistribution and attribution obligations, termination triggers and liability clauses with document locators; leave jurisdiction-dependent legal conclusions as open questions.",
+      "expectation": {
+        "kind": "owner-top3",
+        "owner": "jurisdiction-aware-contract-review",
+        "hostNeed": "specialist",
+        "noInjectedIntent": "asset acquisition, activation, technical import or legal approval",
+        "basis": [
+          "product/skills/jurisdiction-aware-contract-review/SKILL.md: source-linked obligation map and separation of document facts and legal questions"
+        ],
+        "depth": "Existing contract extraction method covers the requested review; no actual agreement is being reviewed in this discovery audit."
+      }
+    },
+    {
+      "id": "N05",
+      "group": "adjacent-or-negative",
+      "topic": "literal transformation",
+      "query": "Give only the result: lowercase the literal text \"PBR MATERIAL COLLISION ANIMATION PACKAGED BUILD\".",
+      "expectation": {
+        "kind": "no-injected-intent",
+        "hostNeed": "none",
+        "expectTextSearchAbstention": true,
+        "basis": [
+          "product/skills/eternities-omnibus/SKILL.md: literal transformations do not by themselves need a workflow",
+          "product/DISCOVERY.md: explicit limited casing can abstain; host owns need"
+        ],
+        "depth": "Literal text is data, not an asset workflow."
+      }
+    },
+    {
+      "id": "N06",
+      "group": "adjacent-or-negative",
+      "topic": "explicit refusal plus word count",
+      "query": "Do not audit the game assets or qualify a packaged build. Count the words in \"material coordinate collision animation\"; give only the number.",
+      "expectation": {
+        "kind": "no-injected-intent",
+        "hostNeed": "none",
+        "expectTextSearchAbstention": true,
+        "basis": [
+          "product/skills/eternities-omnibus/SKILL.md: incidental domain words and literal counting do not need a workflow",
+          "product/DISCOVERY.md: narrow exclusions are limited English rules; host no-need returns no suggestions"
+        ],
+        "depth": "Refused game work must not be injected. A text-only lexical shortlist would be a retrieval limitation; host-supplied no-need must still abstain."
+      }
+    }
+  ],
+  "readset": [
+    "product/skills/eternities-arcadia/SKILL.md",
+    "product/skills/eternities-arcadia/references/methods.md",
+    "product/skills/eternities-arcadia/references/browser-runtime-lifecycle.md",
+    "product/skills/eternities-muse/SKILL.md",
+    "product/skills/eternities-muse/references/methods.md",
+    "product/skills/motion-design-and-animation-engineering/SKILL.md",
+    "product/skills/motion-design-and-animation-engineering/references/methods.md",
+    "product/skills/geospatial-coordinate-integrity/SKILL.md",
+    "product/skills/deterministic-video-composition-and-rendering/SKILL.md",
+    "product/skills/jurisdiction-aware-contract-review/SKILL.md",
+    "product/skills/performance-release-gating/SKILL.md",
+    "product/DISCOVERY.md"
+  ]
+}
