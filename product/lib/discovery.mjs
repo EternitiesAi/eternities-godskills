@@ -51,7 +51,29 @@ function videoRequestText(query) {
     .join(' ');
 }
 
+// Scope this bonus to live request clauses. This is deliberately finite English
+// handling, not a general permission, quotation or negation parser.
+function reconciliationRequestText(query) {
+  return query.replace(quotedRequestMaterial, ' ')
+    .split(/[.!?;]+|\b(?:but|instead)\b/iu)
+    .filter(clause => {
+      const text = normalize(clause);
+      return !/\b(?:do not|don t|never|no need to|avoid)\s+(?:merge\w*|combin\w*|join\w*|reconcil\w*|compar\w*|dedup\w*|consolidat\w*|collapse\w*|produce\w*)\b/.test(text) &&
+        !/\b(?:last (?:year|month|week)|previously|formerly|used to)\b.*\b(?:merged|combined|joined|reconciled|compared|deduplicated|consolidated)\b/.test(text);
+    }).join(' ');
+}
+
 const profiles = [
+  {
+    name: 'tabular reconciliation',
+    prepare: reconciliationRequestText,
+    cues: [
+      ['tabular input', /\b(?:exports?|extracts?|csvs?|tsvs?|tables?|spreadsheets?|workbooks?|datasets?|records?|lists?)\b/],
+      ['reconciliation action', /\b(?:merg\w*|combin\w*|join\w*|reconcil\w*|compar\w*|dedup\w*|consolidat\w*|collapse\w*|produce one)\b/],
+      ['structural discrepancy or identity', /\b(?:columns?|headers?|fields?|identifiers?|keys?|duplicates?|repeats?|mismatch\w*|disagree\w*|conflicts?|unmatched|missing|null|unknown|rejected|aliases|pairs?|provenance|lineage|each (?:chosen )?cell)\b/],
+    ],
+    metadata: [/\breconciliation\b/, /\bsupplied\b/, /\bcolumns\b/, /\bdeduplicate\b/],
+  },
   {
     name: 'requested frame-based video output',
     requireRequestedCues: true,

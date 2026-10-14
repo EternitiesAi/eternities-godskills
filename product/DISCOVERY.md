@@ -33,7 +33,8 @@ cues and matching skill metadata; it does not identify a skill from an exact
 query lookup. Profiles cover written voice, interpersonal clarification,
 task-record recovery, delivery completeness, sustained-work reconciliation,
 corroborated usability-observation synthesis, learner-model explanation,
-interactive motion continuity, and requested frame-based video output.
+interactive motion continuity, requested frame-based video output, and tabular
+reconciliation.
 
 The usability profile requires people performing a task, observed interaction,
 a findings action, and an interface or task artifact. Isolated usability words
@@ -109,8 +110,14 @@ source is a restriction on that optional method, not an exclusion of the whole
 analytics skill. The catalog therefore does not use that restriction as an
 owner-wide anti-trigger. Genuine owner exclusions still apply, and the host
 must supply the connected-source facts below. These metadata terms improve
-ordinary-language retrieval; they do not parse arbitrary negation or authorize
-an operation, and incidental matches still require judgment.
+ordinary-language retrieval. A bounded tabular-reconciliation bonus additionally
+requires a tabular input, a reconciliation action and a structural discrepancy
+or identity cue, corroborated by the owner's supplied-data/column/deduplication
+metadata. It uses the existing capped profile bonus, not an ID lookup or a new
+ordering tier. Balanced quoted material and recognized refused or historical
+reconciliation clauses are omitted for this profile. These finite English rules
+do not parse arbitrary negation or authorize an operation, and incidental
+matches still require judgment.
 
 ## Connected-source eligibility
 
