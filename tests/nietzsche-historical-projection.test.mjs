@@ -2,8 +2,9 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {cohesiveRevision,projectBeforeCohesiveProduct20261015,assertSelectedDirectoryEvolution,projectDiscoveryV4ToHistoricalV3,expectedEducationalLiteralAfterRuntimeAdmissionV4,rendererAdmissionReasonV4,assertMaintainedScopePackageRevision} from './helpers/nietzsche-historical-compatibility.mjs';
+import {projectCatalogBeforeUsefulnessRelease20261016,projectDirectoryBeforeUsefulnessRelease20261016} from './helpers/usefulness-historical-compatibility.mjs';
 const load=p=>JSON.parse(readFileSync(new URL(p,import.meta.url)));
-const catalog=load('../product/catalog.json');
+const catalog=projectCatalogBeforeUsefulnessRelease20261016(load('../product/catalog.json'));
 
 test('Nietzsche named cohort projection retains all unlisted fields and rejects declared-field tampering',()=>{
   for(const revision of cohesiveRevision.changes){
@@ -24,7 +25,7 @@ test('Nietzsche named cohort projection retains all unlisted fields and rejects 
 });
 
 test('Nietzsche selected directory rejects original-row drift, changed added bindings, missing reviews and unknown rows',()=>{
-  const directory=load('../product/METHODS.v1.json');assertSelectedDirectoryEvolution(directory);
+  const directory=projectDirectoryBeforeUsefulnessRelease20261016(load('../product/METHODS.v1.json'));assertSelectedDirectoryEvolution(directory);
   for(const mutate of [
     d=>d.methods[0].tasks.push('UNREVIEWED'),
     d=>d.methods.shift(),

@@ -1,0 +1,117 @@
+Exit: 1
+✔ positive-01: Screen these prospects for our service proposal using dated account evidence; expose partial assessment scores and unresolved identities before recommending a client shortlist. (10.4471ms)
+✔ positive-02: Our founder approval queue keeps aging while teams start more work. Design intake capacity and WIP limits, decision rights, and an exception owner with an expiry. (3.7299ms)
+✔ positive-03: Prepare learner practice on choosing a denominator: include contrasting worked examples, a misconception check, feedback for another attempt, and a fresh transfer task. (3.157ms)
+✔ positive-04: Fix the WebGL shader in our browser game so the interactive crystal reads correctly from the gameplay camera; check GPU resource ownership after scene teardown. (2.9218ms)
+✔ positive-05: Make the drawer reverse smoothly when tapped twice, retarget from its current position and velocity after a resize, and preserve keyboard focus with reduced motion. (2.7312ms)
+✔ positive-06: Decide whether this release candidate clears its measured latency and resource budgets against the baseline under the same workload; retain variance, failed functional checks and an inconclusive outcome. (3.0525ms)
+✔ adjacent-01: Triage this support ticket after the workaround failed; establish customer impact, draft a truthful update, and prepare an escalation handoff without claiming resolution. (2.783ms)
+✔ adjacent-02: Investigate the web checkout bottleneck using repeated browser traces of long tasks and layout shifts; isolate one loading change and check visual and accessibility regressions. (2.2941ms)
+✔ adjacent-03: Design a classroom activity where students move fraction tiles, predict why the totals stay equal, and explain their reasoning after changing the arrangement. (3.4992ms)
+✔ adjacent-04: Render a programmatic MP4 with seekable scenes, exact frame cues and frozen fonts; inspect the encoded first, transition and last frames rather than a live interface. (3.3021ms)
+✖ exclusion-01: Do not fix the shader in the browser game; write a brief postponement notice for the team. (2.9769ms)
+✖ exclusion-02: Don't debug the browser game's simulation loop today. Draft a short scheduling update instead. (2.474ms)
+✔ exclusion-03: The incident note says “fix the shader in the browser game”; draft a scheduling update about postponing that work. (3.5316ms)
+✔ exclusion-04: Extract the redistribution and attribution clauses from this WebGL shader license for our legal reviewer. (1.9283ms)
+✔ exclusion-05: Say thanks to the customer support and game simulation teams for their help with the release. (0.4667ms)
+✔ exclusion-06: Fix the WebGL shader in a browser game; this is a routine isolated code edit. (2.3807ms)
+✔ ordinary-01: Calculate 12.5 plus 7.25. Give only the result. (0.3847ms)
+✔ ordinary-02: Uppercase the literal text “debug the game shader”. Give only the text. (0.1524ms)
+✔ ordinary-03: Do not audit the support records. Count the words in “the customer found a workaround”. Give only the count. (0.0418ms)
+✔ ordinary-04: I need help with recovery. Ask one clarifying question before choosing a workflow. (0.0229ms)
+✖ repair control: Avoid fixing the shader in our browser game; prepare a scheduling note. (3.2948ms)
+✖ repair control: Never debug the game simulation loop; write a postponement note. (2.8147ms)
+✔ repair control: Fix the shader in our browser game. (2.3343ms)
+✔ repair control: Debug the game simulation loop. (2.27ms)
+✔ repair control: Do not fix the shader, but debug the simulation loop in our browser game. (2.348ms)
+✔ repair control: Don't debug the game simulation loop; fix the shader in our browser game. (2.1519ms)
+✔ repair control: Debug the game simulation loop, but do not fix the shader. (2.6708ms)
+✔ repair control: Fix the game shader, do not debug the simulation loop. (1.9436ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 24
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 135.4084
+
+✖ failing tests:
+
+test at tests\usefulness-discovery.test.mjs:13:3
+✖ exclusion-01: Do not fix the shader in the browser game; write a brief postponement notice for the team. (2.9769ms)
+  AssertionError [ERR_ASSERTION]: Excluded eternities-arcadia: eternities-arcadia, imaginative-concept-development, browser-automation-state-and-verification, narrative-structure-and-revision, voice-style-calibration, eternities-logos, eternities-chorus, eternities-hermes, geospatial-coordinate-integrity, operating-cadence-and-decision-accountability, vendor-evaluation-and-exit-planning, api-contract-design-and-evolution, eternities-daedalus, schema-migration-and-backfill-safety, eternities-orpheus, sovereign-skill-refinery, lazy-tabular-transformation-and-validation, eternities-atlas, docx-package-redline-and-render-verification
+      at TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/usefulness-discovery.test.mjs:17:59)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\usefulness-discovery.test.mjs:13:3
+✖ exclusion-02: Don't debug the browser game's simulation loop today. Draft a short scheduling update instead. (2.474ms)
+  AssertionError [ERR_ASSERTION]: Excluded eternities-arcadia: eternities-arcadia, eternities-chorus, browser-automation-state-and-verification, eternities-logos, eternities-atlas, voice-style-calibration, robotics-test-ladder, eternities-hermes, eternities-daedalus, eternities-forge, imaginative-concept-development, customer-support-triage-and-resolution, eternities-agora, sovereign-skill-refinery, narrative-structure-and-revision, physics-constrained-numerical-validation, eternities-phoenix, confirmed-destructive-reconstruction, eternities-orpheus, api-contract-design-and-evolution
+      at TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/usefulness-discovery.test.mjs:17:59)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\usefulness-discovery.test.mjs:43:3
+✖ repair control: Avoid fixing the shader in our browser game; prepare a scheduling note. (3.2948ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  true !== false
+  
+      at TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/usefulness-discovery.test.mjs:45:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\usefulness-discovery.test.mjs:43:3
+✖ repair control: Never debug the game simulation loop; write a postponement note. (2.8147ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  true !== false
+  
+      at TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/usefulness-discovery.test.mjs:45:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

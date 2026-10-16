@@ -16,6 +16,8 @@ Agora turns messy service evidence into a bounded artifact. It is useful when id
 - **Cross-route handoff** ends the current route with a typed packet when the next operation belongs to another domain.
 - **Cross-artifact fact consistency** maps stable facts to assertions in a named deck, memo, model summary, or update set without turning a later number into automatic authority; use [business-decision-evidence.md](references/business-decision-evidence.md).
 
+For a prospect whose next commercial step depends on an unresolved fact, use [decision-changing discovery](references/commercial-discovery-v1.md) to choose questions and fit tests by the actions their answers would change.
+
 ## Working method
 
 1. Define the outcome, represented identities, date boundary, source roots, audience, claim classes, and acceptance checks.

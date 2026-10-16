@@ -1,0 +1,62 @@
+{
+  "schema": "independent-discovery-review-runs-v1",
+  "runs": [
+    {
+      "command": "node --test tests/usefulness-discovery.test.mjs",
+      "exitCode": 0,
+      "tests": 28,
+      "passed": 28,
+      "failed": 0
+    },
+    {
+      "command": "node --test tests/discovery-selection-boundary-20261003.test.mjs tests/cohesive-discovery-runtime-repair.test.mjs",
+      "exitCode": 0,
+      "tests": 39,
+      "passed": 39,
+      "failed": 0
+    },
+    {
+      "command": "node --experimental-vm-modules artifacts/qualification/usefulness-20261016/review-discovery-v1/review-probe.mjs",
+      "attempt": 1,
+      "processExit": 0,
+      "collector": "FAILED: output truncated from 110997 tokens; JSON parsing failed. No complete machine-readable receipt retained from this attempt.",
+      "repair": "Remove full per-case API objects from stdout; retain all returned IDs, Arcadia hit/score/reasons, request clauses, selection/authority state, and full-output hashes."
+    },
+    {
+      "command": "node --experimental-vm-modules artifacts/qualification/usefulness-20261016/review-discovery-v1/review-probe.mjs",
+      "attempt": 2,
+      "processExit": 0,
+      "collector": "FAILED: pretty-printed output remained 27741 tokens and exceeded 25000-token capture; JSON parsing failed.",
+      "repair": "Emit compact JSON; keep control inputs and result fields unchanged."
+    },
+    {
+      "command": "node --experimental-vm-modules artifacts/qualification/usefulness-20261016/review-discovery-v1/review-probe.mjs",
+      "attempt": 3,
+      "processExit": 0,
+      "collector": "PASS: complete JSON parsed and retained as results.json.",
+      "runtimeNotice": "Node v24.18.0 prints ExperimentalWarning for vm modules; no runtime assertion failed.",
+      "summary": {
+        "frozenBaselinePass": 18,
+        "frozenCandidatePass": 20,
+        "freshScored": 30,
+        "freshCandidatePass": 24,
+        "regressions": [
+          "fixate-prefix",
+          "fixating-prefix",
+          "fixed-adjective",
+          "fixtures-noun",
+          "debugger-noun",
+          "debugger-prefix"
+        ],
+        "diagnosticOnly": [
+          "and-separator-limit",
+          "unsupported-not-to",
+          "negated-avoid"
+        ]
+      }
+    }
+  ],
+  "scope": "Only deterministic local review harness rerun after output capture repairs. No uncertain or paid work duplicated, no original controls revised.",
+  "independence": "Review performed by separate reviewer from the discovery author. Reviewer previously authored frozen lane A, which is unrelated to this runtime change. Parent rerun was not used as verification."
+}
+

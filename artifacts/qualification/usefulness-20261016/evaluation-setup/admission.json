@@ -1,0 +1,26 @@
+{
+  "schema": "godskills-usefulness-admission-recommendation-v1",
+  "disposition": "HOLD",
+  "liveAdmission": false,
+  "reason": "Known inherited mandatory skill-read requirement conflicts with the frozen no-tools contract, at least for control. Do not dispatch and count predictable protocol violations.",
+  "acceptableComparisonLabelIfConflictResolved": "host-native explicit published-guidance augmentation",
+  "rawIsolationEstablished": false,
+  "ruleEvidence": {
+    "source": "C:/Users/Dom/.codex/AGENTS.md",
+    "line": 27,
+    "sha256": "46c7861436bd7cbd45aafd1b0049443b2565bbc9611337ea0812f38b3b3a948b",
+    "sourceBytes": 8304,
+    "quote": "Select relevant skills by task intent; follow host routing, read the chosen SKILL.md fully, then only needed references.",
+    "inference": "All four tasks fit available skills. The control packet supplies no selected skill body, so complying requires a file read. Treatment includes selected bodies inline; that cannot remove the control conflict.",
+    "boundary": "The prior preflight proves an inherited agents_md.instructions block and skill catalog survived. This is the current global source rule, not a claim that its file bytes equal the 8360-byte wrapped preflight block. No new debug or model probe was run to resolve the conflict."
+  },
+  "portabilityRepair": {
+    "preservedFreeze": "freeze-pre-portability-repair.json",
+    "preservedFreezeSha256": "0b2bcf5fe0b659837b09db2242623d13d32c916814eb0b18b9ba6134fed22b44",
+    "repositoryTests": "Only repository bytes plus explicitly injected controlled CLI/release/guidance fixtures; no real user private paths needed.",
+    "hostAdmissionChecks": "Explicit pilot.mjs verify/packet/commands still hash the exact real CLI and published pack; no mock CLI options.",
+    "invariants": "Task, criterion, supplied fixture and counterbalanced order identities unchanged. Final freeze binds repaired utility/test/protocol bytes."
+  },
+  "remainingGate": "Parent resolves the host instruction/contract conflict and verifies actual tool/prompt conditions before any live admission; no safeguard/config bypass proposed.",
+  "liveModelCalls": 0
+}

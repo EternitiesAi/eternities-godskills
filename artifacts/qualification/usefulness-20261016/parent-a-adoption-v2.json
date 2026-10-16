@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "status": "DRAFT pending exact independent closure",
+  "correction": {
+    "prior": "Use a recent problem instance, contrast with non-problem instances, and make next-step fit explicit.",
+    "replacement": "Use concrete problem examples, root-cause inquiry and explicit fit/no-fit decisions. Comparison with a non-problem occasion and answer-to-action question selection are original author synthesis, not attributed to this source."
+  },
+  "originalsPreserved": true,
+  "priorReview": "artifacts/qualification/usefulness-20261016/review-a-v1/receipt.json",
+  "correctedEvidence": "artifacts/qualification/usefulness-20261016/lane-a-v2/evidence.json",
+  "correctedProposals": "artifacts/qualification/usefulness-20261016/lane-a-v2/proposals.json",
+  "methodBindings": [
+    {
+      "id": "A1",
+      "path": "product/skills/eternities-agora/references/commercial-discovery-v1.md",
+      "sha256": "5ad6fcff45efc590e44e048a4eebced2c1313b89d9ad125644d0661d8db3c588"
+    },
+    {
+      "path": "product/skills/eternities-agora/SKILL.md",
+      "sha256": "f3e34757a3ff8ac8b067e29101ca05f458c9372fd537ded4cbc2392dce98533c"
+    },
+    {
+      "path": "product/skills/eternities-agora/skill.json",
+      "sha256": "68b96b25b5399917d54dcc21008bcafc422da99f8765fc4c6c00936da473f860"
+    },
+    {
+      "id": "A2",
+      "path": "product/skills/eternities-beacon/references/customer-onboarding-v1.md",
+      "sha256": "1dbd93629607568a717e05d63d1ea6b6c378ca6907d2363b8cb9bee9997fcb01"
+    },
+    {
+      "path": "product/skills/eternities-beacon/SKILL.md",
+      "sha256": "8fcac4ef90fabc44873d90c61ed60d4e1cf8da799889ab39da00199ae40aa1f6"
+    },
+    {
+      "path": "product/skills/eternities-beacon/skill.json",
+      "sha256": "38757281da51fad93073c6d2ba401fcb4bf354996454dbe0ce63277f9ea0cd01"
+    },
+    {
+      "id": "A3",
+      "path": "product/skills/operating-cadence-and-decision-accountability/references/constraint-diagnosis-v1.md",
+      "sha256": "70bbb61d77eb77638375d8368a341583fb6c5660828456b5ab69cf2b477f59e1"
+    },
+    {
+      "path": "product/skills/operating-cadence-and-decision-accountability/SKILL.md",
+      "sha256": "ba3541137a4c61729c58562133889cc5872d54d212dfe587f71ceed0532a2afd"
+    },
+    {
+      "path": "product/skills/operating-cadence-and-decision-accountability/skill.json",
+      "sha256": "b3a0e4316165bdfd173fc711788ba17653fff0666aff2c367a869301d955a38d"
+    },
+    {
+      "id": "A4",
+      "path": "product/skills/evidence-linked-learning-design/references/adaptive-practice-v1.md",
+      "sha256": "fd59e825efd7e27718ce02518ed17d011e0d4993b90c7ea93665a825069d9b10"
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/SKILL.md",
+      "sha256": "22d21b5fcc6a168aa51f00046ae1200c7f04ddea9e4930a9351779df6722f0d0"
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/skill.json",
+      "sha256": "1a235272a124bc511ffda9e958b5336602f962854efb11615f87cb1ebc3993b5"
+    }
+  ],
+  "parentExpressionAssessment": "Adopt only independently written methods. The separate reviewer compared the actual educational wording, examples and organization with both pinned sources and identified no copied or closely adapted source-specific expression. Parent read the resulting methods and accepts this bounded original-synthesis finding. No upstream body is redistributed, no compatibility certification or source-ledger hold is cleared; source identities and CC BY-SA notices remain recorded.",
+  "limits": "Document integration only, not efficacy, retention, legal clearance or whole-quarry completion."
+}

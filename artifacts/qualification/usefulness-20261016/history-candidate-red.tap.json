@@ -1,0 +1,35 @@
+{
+  "schema": "usefulness-maintained-check-v1",
+  "label": "history-candidate-red",
+  "start": "2026-10-16T07:48:32.608Z",
+  "finished": "2026-10-16T07:48:33.571Z",
+  "command": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "--test",
+    "--test-concurrency=1",
+    "--test-reporter=tap",
+    "tests/conditional-method-regression.test.mjs"
+  ],
+  "exitCode": 1,
+  "error": null,
+  "stableSources": true,
+  "counters": {
+    "tests": 33,
+    "pass": 30,
+    "fail": 3,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "duration_ms": 882.4229
+  },
+  "failedLines": [
+    "not ok 1 - the immutable core2260 fixture is exact through the named cohesive, Atlas and Arcadia projections",
+    "not ok 2 - historical paths remain exact through the named cohesion projection and prior optional-reference admissions",
+    "not ok 5 - selected-method directory preserves original rows and independently binds the admitted new methods"
+  ],
+  "outputSha256": "628f2155d42dd153949f693f0c54238e5b23c1ed463b26ba5e3990f6b4e7730a",
+  "privateReceiptSha256": "b67b14b963f35f1f0277782c866f51e3bff5b49ca723e59ae94cf9c959f31496",
+  "sourceInventorySha256": "4c8238d4f4f7ff6670eecfab1350871a384f9c41080bd7dfdabb4061749f606a",
+  "afterInventorySha256": "4c8238d4f4f7ff6670eecfab1350871a384f9c41080bd7dfdabb4061749f606a",
+  "limits": "Original TAP and exact before/after inventories retained in the operation directory; this is a compact receipt."
+}

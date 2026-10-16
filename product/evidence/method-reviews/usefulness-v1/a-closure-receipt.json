@@ -1,0 +1,484 @@
+{
+  "schemaVersion": "usefulness-review-a-v2",
+  "date": "2026-10-16",
+  "verdict": "READY",
+  "scope": "Narrow R1 provenance correction and exact additive lane-A document integration; not lane-B review",
+  "baseline": "7c7f2ac98a282ccb2e59c3a4c0424802a4dd72b5",
+  "observedHead": "7c7f2ac98a282ccb2e59c3a4c0424802a4dd72b5",
+  "branch": "feat/usefulness-release-20261016",
+  "portableSkillDirectories": 93,
+  "closedFindings": [
+    {
+      "id": "review-a-v1/R1",
+      "result": "CLOSED",
+      "evidence": "Only three declared attribution replacements across versioned evidence/proposals; same corrected attribution in current Agora provenance."
+    }
+  ],
+  "newFindings": [],
+  "methodBindings": [
+    {
+      "path": "product/skills/eternities-agora/references/commercial-discovery-v1.md",
+      "kind": "integrated-product",
+      "sha256": "5ad6fcff45efc590e44e048a4eebced2c1313b89d9ad125644d0661d8db3c588"
+    },
+    {
+      "path": "product/skills/eternities-agora/SKILL.md",
+      "kind": "integrated-product",
+      "sha256": "f3e34757a3ff8ac8b067e29101ca05f458c9372fd537ded4cbc2392dce98533c"
+    },
+    {
+      "path": "product/skills/eternities-agora/skill.json",
+      "kind": "integrated-product",
+      "sha256": "68b96b25b5399917d54dcc21008bcafc422da99f8765fc4c6c00936da473f860"
+    },
+    {
+      "path": "product/skills/eternities-beacon/references/customer-onboarding-v1.md",
+      "kind": "integrated-product",
+      "sha256": "1dbd93629607568a717e05d63d1ea6b6c378ca6907d2363b8cb9bee9997fcb01"
+    },
+    {
+      "path": "product/skills/eternities-beacon/SKILL.md",
+      "kind": "integrated-product",
+      "sha256": "8fcac4ef90fabc44873d90c61ed60d4e1cf8da799889ab39da00199ae40aa1f6"
+    },
+    {
+      "path": "product/skills/eternities-beacon/skill.json",
+      "kind": "integrated-product",
+      "sha256": "38757281da51fad93073c6d2ba401fcb4bf354996454dbe0ce63277f9ea0cd01"
+    },
+    {
+      "path": "product/skills/operating-cadence-and-decision-accountability/references/constraint-diagnosis-v1.md",
+      "kind": "integrated-product",
+      "sha256": "70bbb61d77eb77638375d8368a341583fb6c5660828456b5ab69cf2b477f59e1"
+    },
+    {
+      "path": "product/skills/operating-cadence-and-decision-accountability/SKILL.md",
+      "kind": "integrated-product",
+      "sha256": "ba3541137a4c61729c58562133889cc5872d54d212dfe587f71ceed0532a2afd"
+    },
+    {
+      "path": "product/skills/operating-cadence-and-decision-accountability/skill.json",
+      "kind": "integrated-product",
+      "sha256": "b3a0e4316165bdfd173fc711788ba17653fff0666aff2c367a869301d955a38d"
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/references/adaptive-practice-v1.md",
+      "kind": "integrated-product",
+      "sha256": "fd59e825efd7e27718ce02518ed17d011e0d4993b90c7ea93665a825069d9b10"
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/SKILL.md",
+      "kind": "integrated-product",
+      "sha256": "22d21b5fcc6a168aa51f00046ae1200c7f04ddea9e4930a9351779df6722f0d0"
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/skill.json",
+      "kind": "integrated-product",
+      "sha256": "1a235272a124bc511ffda9e958b5336602f962854efb11615f87cb1ebc3993b5"
+    }
+  ],
+  "bindings": [
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-a/adaptive-practice.md",
+      "kind": "preserved-author-v1",
+      "sha256": "fd59e825efd7e27718ce02518ed17d011e0d4993b90c7ea93665a825069d9b10"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-a/commercial-discovery.md",
+      "kind": "preserved-author-v1",
+      "sha256": "5ad6fcff45efc590e44e048a4eebced2c1313b89d9ad125644d0661d8db3c588"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-a/customer-onboarding.md",
+      "kind": "preserved-author-v1",
+      "sha256": "1dbd93629607568a717e05d63d1ea6b6c378ca6907d2363b8cb9bee9997fcb01"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-a/evidence.json",
+      "kind": "preserved-author-v1",
+      "sha256": "7cda98699fb1a0a1041543abf5391da6769f9dbeb15f7685db2cfd18e4386dd0"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-a/operational-bottleneck.md",
+      "kind": "preserved-author-v1",
+      "sha256": "70bbb61d77eb77638375d8368a341583fb6c5660828456b5ab69cf2b477f59e1"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-a/proposals.json",
+      "kind": "preserved-author-v1",
+      "sha256": "8334178f939ec211d0f89297f8ec5913c31177fdee133cbf678f31756ce8b918"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-a/verification.md",
+      "kind": "preserved-author-v1",
+      "sha256": "2332bb3df5e51f9b8766d393400e277d5b09eed8b4380c9ef3dfeaf1a7bb29ac"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-a-v1/receipt.json",
+      "kind": "prior-independent-review",
+      "sha256": "4f22e4674f5fec8519960a231185ddeb989dc539ba7bfb0a699f4b367d0051c6"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-a-v1/transfer-cases.md",
+      "kind": "prior-independent-review",
+      "sha256": "95b19954f164a51ca25dc1c58fadf5e154a1688c70bed3adebb86f26106c3c6b"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-a-v1/bindings.json",
+      "kind": "prior-independent-review",
+      "sha256": "7cc65b6ceb98c67b0b1e005457799ae3d2f05bd3a621b4a507523b4e9d497187"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-a-v1/review.md",
+      "kind": "prior-independent-review",
+      "sha256": "71e31fb87c2829ac719de71256159984674d42f450318f17952dc277745ca733"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-a-v2/evidence.json",
+      "kind": "corrected-author-v2",
+      "sha256": "6bdeb1cc0f19789e4a306bf268ebd0231101109b8c5b59655c9dd1ac5ae54544"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-a-v2/proposals.json",
+      "kind": "corrected-author-v2",
+      "sha256": "5ac8f0cd5ef96b1f36faf811d956929b583491ef9c6233d0d124598b8583fdd4"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/parent-a-adoption-v2.json",
+      "kind": "parent-adoption",
+      "sha256": "5da3daf76dbd72bfea4047c2aabff841a6e90609ebc11165385359ba504a5881"
+    },
+    {
+      "path": "product/skills/eternities-prometheus/SKILL.md",
+      "kind": "preserved-other-owner-coverage",
+      "sha256": "70d043541b328a6bfebd6cd75840aaca8ed94fc22cc10165d1be444f4662fc06"
+    },
+    {
+      "path": "product/skills/eternities-prometheus/skill.json",
+      "kind": "preserved-other-owner-coverage",
+      "sha256": "76034d608abd5282b879011c7d03b03c698850b6f422ada4d394f0000c50722a"
+    },
+    {
+      "path": "product/skills/eternities-agora/references/methods.md",
+      "kind": "preserved-other-owner-coverage",
+      "sha256": "a2df40b3388c5c4565c1d11276af478cf4e2b432a1551dcda5a94977f3daf1af"
+    },
+    {
+      "path": "product/skills/eternities-agora/references/business-decision-evidence.md",
+      "kind": "preserved-other-owner-coverage",
+      "sha256": "9effd0372e4be72da4d9fdcd454e5b4c3ea313764f118f429b175e103f4ec188"
+    },
+    {
+      "path": "product/skills/eternities-prometheus/references/methods.md",
+      "kind": "preserved-other-owner-coverage",
+      "sha256": "6150efa2ad78e5ebc93b9dbde21893984428a9d5ac109c85f1966d2b3a815954"
+    },
+    {
+      "path": "product/skills/eternities-prometheus/references/commercial-driver-diagnosis-v1.md",
+      "kind": "preserved-other-owner-coverage",
+      "sha256": "bdd16ac74bb01c88864e6d76080fd05d833eb9be1324322f27aaaec8350165f2"
+    },
+    {
+      "path": "product/skills/eternities-beacon/references/methods.md",
+      "kind": "preserved-other-owner-coverage",
+      "sha256": "efe539cfe35bf9703869d43cdaddedd2b29edb14c72525a5c9645fcf2a0eb2ed"
+    },
+    {
+      "path": "product/skills/eternities-beacon/references/positioning-to-message-v1.md",
+      "kind": "preserved-other-owner-coverage",
+      "sha256": "57da15f76572e5af9dde41cf4c5703d83f045cbb701b0284dfcd45d8e46c94d8"
+    },
+    {
+      "path": "product/skills/operating-cadence-and-decision-accountability/references/methods.md",
+      "kind": "preserved-other-owner-coverage",
+      "sha256": "32ddd3dfe2b8085e6ded14aa562e47761fb2d47f085154bcc9409ad49fff5f7d"
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/references/practice-and-transfer-v1.md",
+      "kind": "preserved-other-owner-coverage",
+      "sha256": "8625e567db5d4f68c267bd4743e555885115fabcbd253b67f768e2031826aa9f"
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/references/support-transition.md",
+      "kind": "preserved-other-owner-coverage",
+      "sha256": "470484b186df4978ec4c5e817990d25c0a2ad200dbf6ef1bea6441f43372d954"
+    },
+    {
+      "path": "D:\\03-ARSENAL\\warehouse\\catalog-c\\agent-skills\\agency-agents\\sales\\sales-discovery-coach.md",
+      "kind": "source",
+      "sha256": "8244a25e5b8785058b19ef92dca9e543a2c990e4dde1166d194f14514e3ae278"
+    },
+    {
+      "path": "D:\\03-ARSENAL\\warehouse\\catalog-c\\agent-skills\\agency-agents\\specialized\\operations-manager.md",
+      "kind": "source",
+      "sha256": "3c133a31ae1542922444d77d7c8f9964127704ba94638dde12e37a9ad0fd35bd"
+    },
+    {
+      "path": "D:\\03-ARSENAL\\warehouse\\hunt\\exa-skills-2026-09-20\\jeremylongworth-source__AgentSkills\\skills\\ops-bottleneck-review\\SKILL.md",
+      "kind": "source",
+      "sha256": "f51b261e9e83abcc1e3b6a8b23148ad1b191740ed343b747454a98effdbb24dd"
+    },
+    {
+      "path": "D:\\03-ARSENAL\\warehouse\\hunt\\exa-skills-2026-09-20\\jeremylongworth-source__AgentSkills\\skills\\ops-bottleneck-review\\references\\ops-bottleneck-review-checklist.md",
+      "kind": "source",
+      "sha256": "a1c5095936564c241b2df7ed66b3232e1c5f92c80294a737ff9181a88470dc62"
+    },
+    {
+      "path": "D:\\03-ARSENAL\\warehouse\\from-stars\\GarethManning__education-agent-skills\\skills\\explicit-instruction\\practice-problem-sequence-designer\\SKILL.md",
+      "kind": "source",
+      "sha256": "3bcf66d76461040cf92e325f4466aef34d4c675eae4d2d4c61950e6dc79654e2"
+    },
+    {
+      "path": "D:\\03-ARSENAL\\warehouse\\from-stars\\GarethManning__education-agent-skills\\skills\\ai-learning-science\\adaptive-hint-sequence-designer\\SKILL.md",
+      "kind": "source",
+      "sha256": "4f59e3a5e681dbeb72db4c703a96f1dc53c44c4c9ec18df534071fcd7972882a"
+    },
+    {
+      "path": "D:\\03-ARSENAL\\warehouse\\catalog-c\\agent-skills\\marketingskills\\skills\\onboarding\\SKILL.md",
+      "kind": "source",
+      "sha256": "ca219e0ba8f931888e2a634624ab927206f8ef26aeca2250399c3c48da0341e0"
+    },
+    {
+      "path": "D:\\03-ARSENAL\\warehouse\\catalog-c\\agent-skills\\marketingskills\\skills\\onboarding\\references\\minimum-path-to-value.md",
+      "kind": "source",
+      "sha256": "c2b7c71b8436a1456888a26b9c8892c33cd9e1b1bf758f6fd7282c00f87dcdc3"
+    },
+    {
+      "path": "D:\\03-ARSENAL\\warehouse\\catalog-c\\agent-skills\\marketingskills\\skills\\onboarding\\references\\activation-models.md",
+      "kind": "source",
+      "sha256": "a13e82d8e3ebf810a0f0fb51fe91bbe349d8175baee5a97a85934fa20f63a8f7"
+    },
+    {
+      "path": "D:\\03-ARSENAL\\warehouse\\catalog-c\\agent-skills\\agency-agents\\LICENSE",
+      "kind": "notice",
+      "sha256": "45c861c1178a99178033b61302af7610e870082e874981b57519c2a1369299c0"
+    },
+    {
+      "path": "D:\\03-ARSENAL\\warehouse\\hunt\\exa-skills-2026-09-20\\jeremylongworth-source__AgentSkills\\LICENSE",
+      "kind": "notice",
+      "sha256": "11f5e60786b82e616ba07f5abe671291f23916f60d197babde5ea46353c441a3"
+    },
+    {
+      "path": "D:\\03-ARSENAL\\warehouse\\from-stars\\GarethManning__education-agent-skills\\LICENSE",
+      "kind": "notice",
+      "sha256": "f952182df4eb7dd43335fbb429388dbb0b101c944c734a8dc05643b189cb87b7"
+    },
+    {
+      "path": "D:\\03-ARSENAL\\warehouse\\catalog-c\\agent-skills\\marketingskills\\LICENSE",
+      "kind": "notice",
+      "sha256": "3bb73920cd10a04b0ce3f28b84bada69e9286d0c33cf654ff10c279409791aa9"
+    },
+    {
+      "path": "product/METHODS.v1.json",
+      "kind": "method-directory",
+      "sha256": "40560641ee6df2617de5cd9624be66edf3867755cbdb2a2b82522e5b51eaa854"
+    },
+    {
+      "path": "product/METHODS.v1.md",
+      "kind": "method-directory",
+      "sha256": "54431450c8dd189dbbcef135137a3761e126cde4f0a8161db3855d2f22aad9e6"
+    }
+  ],
+  "sourceMappings": [
+    {
+      "candidate": "A1",
+      "sourceId": "discovery",
+      "identity": "msitarzewski/agency-agents@ad9264e309bd5e5422c04784372d7841b1e5d604:sales/sales-discovery-coach.md",
+      "sha256": "8244a25e5b8785058b19ef92dca9e543a2c990e4dde1166d194f14514e3ae278",
+      "authorDisposition": "pattern-reference",
+      "metadataPath": "product/skills/eternities-agora/skill.json",
+      "mapping": "new-record",
+      "metadataKind": "pattern-reference"
+    },
+    {
+      "candidate": "A2",
+      "sourceId": "onboarding",
+      "identity": "coreyhaines31/marketingskills@dda3841f0b294e01e93b1541486beefbfab0915e:skills/onboarding/SKILL.md",
+      "sha256": "ca219e0ba8f931888e2a634624ab927206f8ef26aeca2250399c3c48da0341e0",
+      "authorDisposition": "pattern-reference",
+      "metadataPath": "product/skills/eternities-beacon/skill.json",
+      "mapping": "new-record",
+      "metadataKind": "pattern-reference"
+    },
+    {
+      "candidate": "A2",
+      "sourceId": "minimum-path",
+      "identity": "coreyhaines31/marketingskills@dda3841f0b294e01e93b1541486beefbfab0915e:skills/onboarding/references/minimum-path-to-value.md",
+      "sha256": "c2b7c71b8436a1456888a26b9c8892c33cd9e1b1bf758f6fd7282c00f87dcdc3",
+      "authorDisposition": "pattern-reference",
+      "metadataPath": "product/skills/eternities-beacon/skill.json",
+      "mapping": "new-record",
+      "metadataKind": "pattern-reference"
+    },
+    {
+      "candidate": "A2",
+      "sourceId": "activation-models",
+      "identity": "coreyhaines31/marketingskills@dda3841f0b294e01e93b1541486beefbfab0915e:skills/onboarding/references/activation-models.md",
+      "sha256": "a13e82d8e3ebf810a0f0fb51fe91bbe349d8175baee5a97a85934fa20f63a8f7",
+      "authorDisposition": "rejected",
+      "metadataPath": "product/skills/eternities-beacon/skill.json",
+      "mapping": "new-record",
+      "metadataKind": "pattern-reference"
+    },
+    {
+      "candidate": "A3",
+      "sourceId": "operations",
+      "identity": "msitarzewski/agency-agents@ad9264e309bd5e5422c04784372d7841b1e5d604:specialized/operations-manager.md",
+      "sha256": "3c133a31ae1542922444d77d7c8f9964127704ba94638dde12e37a9ad0fd35bd",
+      "authorDisposition": "pattern-reference",
+      "metadataPath": "product/skills/operating-cadence-and-decision-accountability/skill.json",
+      "mapping": "existing-record-reused",
+      "metadataKind": "pattern-reference"
+    },
+    {
+      "candidate": "A3",
+      "sourceId": "bottleneck",
+      "identity": "jeremylongworth-source/AgentSkills@ebf24796e884b9196bdb47373d53dcc547466730:skills/ops-bottleneck-review/SKILL.md",
+      "sha256": "f51b261e9e83abcc1e3b6a8b23148ad1b191740ed343b747454a98effdbb24dd",
+      "authorDisposition": "rejected",
+      "metadataPath": "product/skills/operating-cadence-and-decision-accountability/skill.json",
+      "mapping": "new-record",
+      "metadataKind": "pattern-reference"
+    },
+    {
+      "candidate": "A3",
+      "sourceId": "bottleneck-checklist",
+      "identity": "jeremylongworth-source/AgentSkills@ebf24796e884b9196bdb47373d53dcc547466730:skills/ops-bottleneck-review/references/ops-bottleneck-review-checklist.md",
+      "sha256": "a1c5095936564c241b2df7ed66b3232e1c5f92c80294a737ff9181a88470dc62",
+      "authorDisposition": "rejected",
+      "metadataPath": "product/skills/operating-cadence-and-decision-accountability/skill.json",
+      "mapping": "new-record",
+      "metadataKind": "pattern-reference"
+    },
+    {
+      "candidate": "A4",
+      "sourceId": "practice",
+      "identity": "GarethManning/education-agent-skills@6bbbce418f82e11044009c9f3b7373a354de5bd0:skills/explicit-instruction/practice-problem-sequence-designer/SKILL.md",
+      "sha256": "3bcf66d76461040cf92e325f4466aef34d4c675eae4d2d4c61950e6dc79654e2",
+      "authorDisposition": "pattern-reference",
+      "metadataPath": "product/skills/evidence-linked-learning-design/skill.json",
+      "mapping": "new-record",
+      "metadataKind": "pattern-reference"
+    },
+    {
+      "candidate": "A4",
+      "sourceId": "hints",
+      "identity": "GarethManning/education-agent-skills@6bbbce418f82e11044009c9f3b7373a354de5bd0:skills/ai-learning-science/adaptive-hint-sequence-designer/SKILL.md",
+      "sha256": "4f59e3a5e681dbeb72db4c703a96f1dc53c44c4c9ec18df534071fcd7972882a",
+      "authorDisposition": "pattern-reference",
+      "metadataPath": "product/skills/evidence-linked-learning-design/skill.json",
+      "mapping": "new-record",
+      "metadataKind": "pattern-reference"
+    }
+  ],
+  "methodDirectory": {
+    "baselineRows": 21,
+    "currentRows": 29,
+    "preservedBaselineRows": 21,
+    "laneARows": [
+      {
+        "id": "usefulness-commercial-discovery-v1",
+        "title": "Commercial discovery and qualification",
+        "owner": "eternities-agora",
+        "resource": "skills/eternities-agora/references/commercial-discovery-v1.md",
+        "resourceSha256": "5ad6fcff45efc590e44e048a4eebced2c1313b89d9ad125644d0661d8db3c588",
+        "tasks": [
+          "Recent-event contrast plus answer-to-action question selection and a bounded fit test; no new qualification score."
+        ],
+        "exclusions": [
+          "Routine account summary or a settled stage calculation"
+        ],
+        "documentStatus": "not-assessed-by-this-overlay",
+        "executionEvidence": "Author procedure with a separate reviewer worked transfer case; exact adoption review pending.",
+        "outcomeStatus": "not-performance-qualified"
+      },
+      {
+        "id": "usefulness-customer-onboarding-v1",
+        "title": "Customer onboarding",
+        "owner": "eternities-beacon",
+        "resource": "skills/eternities-beacon/references/customer-onboarding-v1.md",
+        "resourceSha256": "1dbd93629607568a717e05d63d1ea6b6c378ca6907d2363b8cb9bee9997fcb01",
+        "tasks": [
+          "Backward dependency path from an accepted first result; classify stalled transition and preserve cohort opportunity windows."
+        ],
+        "exclusions": [
+          "Signup copy edit, employee induction or a settled activation report"
+        ],
+        "documentStatus": "not-assessed-by-this-overlay",
+        "executionEvidence": "Author procedure with a separate reviewer worked transfer case; exact adoption review pending.",
+        "outcomeStatus": "not-performance-qualified"
+      },
+      {
+        "id": "usefulness-constraint-diagnosis-v1",
+        "title": "Operational bottleneck analysis",
+        "owner": "operating-cadence-and-decision-accountability",
+        "resource": "skills/operating-cadence-and-decision-accountability/references/constraint-diagnosis-v1.md",
+        "resourceSha256": "70bbb61d77eb77638375d8368a341583fb6c5660828456b5ab69cf2b477f59e1",
+        "tasks": [
+          "Class-specific resource reconciliation, observed ready/blocked states, and a simple assumption-bound counterfactual ceiling before intervention."
+        ],
+        "exclusions": [
+          "Status update or a known limiting dependency and remedy"
+        ],
+        "documentStatus": "not-assessed-by-this-overlay",
+        "executionEvidence": "Author procedure with a separate reviewer worked transfer case; exact adoption review pending.",
+        "outcomeStatus": "not-performance-qualified"
+      },
+      {
+        "id": "usefulness-adaptive-practice-v1",
+        "title": "Adaptive practice",
+        "owner": "evidence-linked-learning-design",
+        "resource": "skills/evidence-linked-learning-design/references/adaptive-practice-v1.md",
+        "resourceSha256": "fd59e825efd7e27718ce02518ed17d011e0d4993b90c7ea93665a825069d9b10",
+        "tasks": [
+          "Response-collision probe with prewritten branch actions, independently checked answer key, fresh items, and bounded uncertainty."
+        ],
+        "exclusions": [
+          "Fixed worksheet, certification or automated learner ranking"
+        ],
+        "documentStatus": "not-assessed-by-this-overlay",
+        "executionEvidence": "Author procedure with a separate reviewer worked transfer case; exact adoption review pending.",
+        "outcomeStatus": "not-performance-qualified"
+      }
+    ],
+    "scope": "A content only; four intervening B rows counted for position, not self-reviewed",
+    "statusPromotionApplied": false
+  },
+  "checks": {
+    "toolReceipt": "b4c3f9",
+    "staticAssertions": 532,
+    "result": "PASS",
+    "authorV1Hashes": 7,
+    "reviewV1Hashes": 4,
+    "versionedTextReplacementCounts": {
+      "evidence": 1,
+      "proposals": 2
+    },
+    "exactMethodCopies": 4,
+    "baselineConditionalInsertions": 4,
+    "semanticallyAdditiveOwnerMetadata": 4,
+    "otherCoverageHashesPreserved": 11,
+    "exactSourceMappings": 9,
+    "reusedExistingSourceRecords": 1,
+    "sourceBytesRehashed": 9,
+    "noticeBytesRehashed": 4,
+    "scopeNotes": "Static assertions include repeated array/line preservation checks; not new behavioral trials. Source bodies not reread. Prior independent transfer/expressive comparison retained under exact-byte identity.",
+    "orchestrationRepairs": "Two pre-dispatch JavaScript string-construction failures; no shell or file effects; corrected before passing checks."
+  },
+  "rightsBoundary": "Parent accepts prior original-expression assessment for unchanged education methods. CC BY-SA notices, unreviewed index labels and source holds retained. No legal clearance or global source-ledger audit.",
+  "notPerformed": [
+    "product edits",
+    "product build",
+    "repository/source script execution",
+    "providers",
+    "descendants",
+    "web",
+    "commit",
+    "install",
+    "new transfer trials",
+    "lane-B self-review",
+    "evaluator reads",
+    "global source-ledger audit"
+  ],
+  "closure": "READY for these exact document changes. Provisional METHOD rows are not promoted by this receipt. No performance or release qualification."
+}

@@ -1,0 +1,37 @@
+Exit: 0
+✔ positive-01: Screen these prospects for our service proposal using dated account evidence; expose partial assessment scores and unresolved identities before recommending a client shortlist. (10.5148ms)
+✔ positive-02: Our founder approval queue keeps aging while teams start more work. Design intake capacity and WIP limits, decision rights, and an exception owner with an expiry. (3.5426ms)
+✔ positive-03: Prepare learner practice on choosing a denominator: include contrasting worked examples, a misconception check, feedback for another attempt, and a fresh transfer task. (3.2209ms)
+✔ positive-04: Fix the WebGL shader in our browser game so the interactive crystal reads correctly from the gameplay camera; check GPU resource ownership after scene teardown. (2.9901ms)
+✔ positive-05: Make the drawer reverse smoothly when tapped twice, retarget from its current position and velocity after a resize, and preserve keyboard focus with reduced motion. (2.922ms)
+✔ positive-06: Decide whether this release candidate clears its measured latency and resource budgets against the baseline under the same workload; retain variance, failed functional checks and an inconclusive outcome. (2.8825ms)
+✔ adjacent-01: Triage this support ticket after the workaround failed; establish customer impact, draft a truthful update, and prepare an escalation handoff without claiming resolution. (2.7151ms)
+✔ adjacent-02: Investigate the web checkout bottleneck using repeated browser traces of long tasks and layout shifts; isolate one loading change and check visual and accessibility regressions. (2.114ms)
+✔ adjacent-03: Design a classroom activity where students move fraction tiles, predict why the totals stay equal, and explain their reasoning after changing the arrangement. (3.2742ms)
+✔ adjacent-04: Render a programmatic MP4 with seekable scenes, exact frame cues and frozen fonts; inspect the encoded first, transition and last frames rather than a live interface. (2.6777ms)
+✔ exclusion-01: Do not fix the shader in the browser game; write a brief postponement notice for the team. (2.3427ms)
+✔ exclusion-02: Don't debug the browser game's simulation loop today. Draft a short scheduling update instead. (2.2755ms)
+✔ exclusion-03: The incident note says “fix the shader in the browser game”; draft a scheduling update about postponing that work. (3.4451ms)
+✔ exclusion-04: Extract the redistribution and attribution clauses from this WebGL shader license for our legal reviewer. (1.9208ms)
+✔ exclusion-05: Say thanks to the customer support and game simulation teams for their help with the release. (0.45ms)
+✔ exclusion-06: Fix the WebGL shader in a browser game; this is a routine isolated code edit. (2.136ms)
+✔ ordinary-01: Calculate 12.5 plus 7.25. Give only the result. (0.3843ms)
+✔ ordinary-02: Uppercase the literal text “debug the game shader”. Give only the text. (0.1496ms)
+✔ ordinary-03: Do not audit the support records. Count the words in “the customer found a workaround”. Give only the count. (0.0316ms)
+✔ ordinary-04: I need help with recovery. Ask one clarifying question before choosing a workflow. (0.0225ms)
+✔ repair control: Avoid fixing the shader in our browser game; prepare a scheduling note. (2.3915ms)
+✔ repair control: Never debug the game simulation loop; write a postponement note. (2.4627ms)
+✔ repair control: Fix the shader in our browser game. (2.0572ms)
+✔ repair control: Debug the game simulation loop. (2.2648ms)
+✔ repair control: Do not fix the shader, but debug the simulation loop in our browser game. (2.4339ms)
+✔ repair control: Don't debug the game simulation loop; fix the shader in our browser game. (2.3899ms)
+✔ repair control: Debug the game simulation loop, but do not fix the shader. (2.6505ms)
+✔ repair control: Fix the game shader, do not debug the simulation loop. (2.0467ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 134.3771

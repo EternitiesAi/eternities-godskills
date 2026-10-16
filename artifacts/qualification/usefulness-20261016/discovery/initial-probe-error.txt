@@ -1,0 +1,8 @@
+Command: node artifacts/qualification/usefulness-20261016/discovery/probe.mjs
+Exit: 1
+Node: v24.18.0
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\dev\eternities-godskills\.worktrees\product\lib\product.mjs' imported from C:\dev\eternities-godskills\.worktrees\quality-qualification-20261003\artifacts\qualification\usefulness-20261016\discovery\probe.mjs
+
+Cause: the new lane-only probe used five parent traversals instead of four.
+No discovery query ran and no runtime file changed. Repaired the probe imports
+and root URL using apply_patch. Frozen queries and expectations remain unchanged.

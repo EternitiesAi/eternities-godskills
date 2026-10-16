@@ -27,6 +27,14 @@ Choose by the actual task and exclusions, not by a match score. Discovery grants
 | Bind the estimand and available comparison to the assignment process before fitting a causal model | [diagnostic-statistical-model-inference](skills/diagnostic-statistical-model-inference/SKILL.md) | [Choose causal design before estimation](skills/diagnostic-statistical-model-inference/references/causal-design-before-estimation-v1.md) | independently-document-reviewed | not-performance-qualified |
 | Distinguish observed series, possible combinations and churn while retaining required diagnostic queries | [service-observability-and-slo-design](skills/service-observability-and-slo-design/SKILL.md) | [Budget telemetry cardinality without losing the question](skills/service-observability-and-slo-design/references/telemetry-cardinality-budget-v1.md) | independently-document-reviewed | not-performance-qualified |
 | Revise actual passages by separating world facts, viewpoint beliefs and information available to the reader | [narrative-structure-and-revision](skills/narrative-structure-and-revision/SKILL.md) | [Revise reader knowledge and reveals](skills/narrative-structure-and-revision/references/reader-knowledge-and-reveal-revision-v1.md) | independently-document-reviewed | not-performance-qualified |
+| Construct a bounded interactive shader/effect and isolate wrong or missing output. | [eternities-arcadia](skills/eternities-arcadia/SKILL.md) | [Shader/effect construction and fault isolation](skills/eternities-arcadia/references/shader-effect-construction.md) | independently-document-reviewed | not-performance-qualified |
+| Separate a lighting/environment defect from material response and calibrate the relevant parameter against the intended game view. | [eternities-arcadia](skills/eternities-arcadia/SKILL.md) | [Separating lighting from material response](skills/eternities-arcadia/references/lighting-material-calibration.md) | independently-document-reviewed | not-performance-qualified |
+| Resolve gameplay-event authorization, layered pose and displacement when a skeletal action is interrupted. | [eternities-arcadia](skills/eternities-arcadia/SKILL.md) | [Gameplay events and movement during animation interruption](skills/eternities-arcadia/references/animation-interruption-transitions.md) | independently-document-reviewed | not-performance-qualified |
+| Determine which work or wait causes missed interactive frame intervals and choose a falsifiable probe. | [eternities-arcadia](skills/eternities-arcadia/SKILL.md) | [Locating a missed interactive frame budget](skills/eternities-arcadia/references/frame-budget-diagnosis.md) | independently-document-reviewed | not-performance-qualified |
+| Recent-event contrast plus answer-to-action question selection and a bounded fit test; no new qualification score. | [eternities-agora](skills/eternities-agora/SKILL.md) | [Commercial discovery and qualification](skills/eternities-agora/references/commercial-discovery-v1.md) | independently-document-reviewed | not-performance-qualified |
+| Backward dependency path from an accepted first result; classify stalled transition and preserve cohort opportunity windows. | [eternities-beacon](skills/eternities-beacon/SKILL.md) | [Customer onboarding](skills/eternities-beacon/references/customer-onboarding-v1.md) | independently-document-reviewed | not-performance-qualified |
+| Class-specific resource reconciliation, observed ready/blocked states, and a simple assumption-bound counterfactual ceiling before intervention. | [operating-cadence-and-decision-accountability](skills/operating-cadence-and-decision-accountability/SKILL.md) | [Operational bottleneck analysis](skills/operating-cadence-and-decision-accountability/references/constraint-diagnosis-v1.md) | independently-document-reviewed | not-performance-qualified |
+| Response-collision probe with prewritten branch actions, independently checked answer key, fresh items, and bounded uncertainty. | [evidence-linked-learning-design](skills/evidence-linked-learning-design/SKILL.md) | [Adaptive practice](skills/evidence-linked-learning-design/references/adaptive-practice-v1.md) | independently-document-reviewed | not-performance-qualified |
 
 ## Review and execution are separate
 
@@ -239,3 +247,83 @@ These are publisher evidence statements. Digests bind bytes, not publisher authe
 - Outcome axis: not-performance-qualified.
 - Reviewed scope: Exact conditional method and owner integration reviewed separately from execution, adoption and performance.
 - Optional independent [report](evidence/method-reviews/cohesive-v1/report.md) and [receipt](evidence/method-reviews/cohesive-v1/receipt.json); receipt SHA-256: `08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527`.
+
+### Shader/effect construction and fault isolation
+
+- Exclusions: Routine material slot or import repair; Aesthetic direction without a rendered effect mechanism.
+- Exact method resource SHA-256: `a2ecfad39a1b3d5cb2bc98baea4539dc411fe39294de55a7c09962ca74cbadb1`.
+- Document axis: independently-document-reviewed.
+- Execution evidence: Separate non-author document review, exact integration closure and a different worked fictional transfer case. No live-domain, renderer or matched-agent performance result.
+- Outcome axis: not-performance-qualified.
+- Reviewed scope: Exact conditional method and additive owner integration; independent review is separate from real-world execution and outcome.
+- Optional independent [report](evidence/method-reviews/usefulness-v1/report.md) and [receipt](evidence/method-reviews/usefulness-v1/receipt.json); receipt SHA-256: `0332153084e7b6445feda1fa163430595dc9679f6215b7caae721bf928eb56d8`.
+
+### Separating lighting from material response
+
+- Exclusions: Routine import encoding/channel repair already diagnosed; Physical reflectance certification or an unrequested realism conversion.
+- Exact method resource SHA-256: `068379b7ca96da9ce2bb9e281acb66af47cd0c750fb4984139db06679c848e5f`.
+- Document axis: independently-document-reviewed.
+- Execution evidence: Separate non-author document review, exact integration closure and a different worked fictional transfer case. No live-domain, renderer or matched-agent performance result.
+- Outcome axis: not-performance-qualified.
+- Reviewed scope: Exact conditional method and additive owner integration; independent review is separate from real-world execution and outcome.
+- Optional independent [report](evidence/method-reviews/usefulness-v1/report.md) and [receipt](evidence/method-reviews/usefulness-v1/receipt.json); receipt SHA-256: `0332153084e7b6445feda1fa163430595dc9679f6215b7caae721bf928eb56d8`.
+
+### Gameplay events and movement during animation interruption
+
+- Exclusions: Interruptible drawers, dialogs or layout transitions served by the motion specialist; Routine clip import or deformation-only diagnosis.
+- Exact method resource SHA-256: `5c43f1e601b2b814346e3b6519e1e8419bd6b89d6270e8ffdad82364e0693411`.
+- Document axis: independently-document-reviewed.
+- Execution evidence: Separate non-author document review, exact integration closure and a different worked fictional transfer case. No live-domain, renderer or matched-agent performance result.
+- Outcome axis: not-performance-qualified.
+- Reviewed scope: Exact conditional method and additive owner integration; independent review is separate from real-world execution and outcome.
+- Optional independent [report](evidence/method-reviews/usefulness-v1/report.md) and [receipt](evidence/method-reviews/usefulness-v1/receipt.json); receipt SHA-256: `0332153084e7b6445feda1fa163430595dc9679f6215b7caae721bf928eb56d8`.
+
+### Locating a missed interactive frame budget
+
+- Exclusions: An already characterized candidate needs only a repeatable release gate; Network latency, ordinary page loading or offline render throughput.
+- Exact method resource SHA-256: `d7e348fe98bcac368c4f8bf5dc8d18b039050d2c746608a50f3a42f63b89672b`.
+- Document axis: independently-document-reviewed.
+- Execution evidence: Separate non-author document review, exact integration closure and a different worked fictional transfer case. No live-domain, renderer or matched-agent performance result.
+- Outcome axis: not-performance-qualified.
+- Reviewed scope: Exact conditional method and additive owner integration; independent review is separate from real-world execution and outcome.
+- Optional independent [report](evidence/method-reviews/usefulness-v1/report.md) and [receipt](evidence/method-reviews/usefulness-v1/receipt.json); receipt SHA-256: `0332153084e7b6445feda1fa163430595dc9679f6215b7caae721bf928eb56d8`.
+
+### Commercial discovery and qualification
+
+- Exclusions: Routine account summary or a settled stage calculation.
+- Exact method resource SHA-256: `5ad6fcff45efc590e44e048a4eebced2c1313b89d9ad125644d0661d8db3c588`.
+- Document axis: independently-document-reviewed.
+- Execution evidence: Separate non-author document review, exact integration closure and a different worked fictional transfer case. No live-domain, renderer or matched-agent performance result.
+- Outcome axis: not-performance-qualified.
+- Reviewed scope: Exact conditional method and additive owner integration; independent review is separate from real-world execution and outcome.
+- Optional independent [report](evidence/method-reviews/usefulness-v1/report.md) and [receipt](evidence/method-reviews/usefulness-v1/receipt.json); receipt SHA-256: `0332153084e7b6445feda1fa163430595dc9679f6215b7caae721bf928eb56d8`.
+
+### Customer onboarding
+
+- Exclusions: Signup copy edit, employee induction or a settled activation report.
+- Exact method resource SHA-256: `1dbd93629607568a717e05d63d1ea6b6c378ca6907d2363b8cb9bee9997fcb01`.
+- Document axis: independently-document-reviewed.
+- Execution evidence: Separate non-author document review, exact integration closure and a different worked fictional transfer case. No live-domain, renderer or matched-agent performance result.
+- Outcome axis: not-performance-qualified.
+- Reviewed scope: Exact conditional method and additive owner integration; independent review is separate from real-world execution and outcome.
+- Optional independent [report](evidence/method-reviews/usefulness-v1/report.md) and [receipt](evidence/method-reviews/usefulness-v1/receipt.json); receipt SHA-256: `0332153084e7b6445feda1fa163430595dc9679f6215b7caae721bf928eb56d8`.
+
+### Operational bottleneck analysis
+
+- Exclusions: Status update or a known limiting dependency and remedy.
+- Exact method resource SHA-256: `70bbb61d77eb77638375d8368a341583fb6c5660828456b5ab69cf2b477f59e1`.
+- Document axis: independently-document-reviewed.
+- Execution evidence: Separate non-author document review, exact integration closure and a different worked fictional transfer case. No live-domain, renderer or matched-agent performance result.
+- Outcome axis: not-performance-qualified.
+- Reviewed scope: Exact conditional method and additive owner integration; independent review is separate from real-world execution and outcome.
+- Optional independent [report](evidence/method-reviews/usefulness-v1/report.md) and [receipt](evidence/method-reviews/usefulness-v1/receipt.json); receipt SHA-256: `0332153084e7b6445feda1fa163430595dc9679f6215b7caae721bf928eb56d8`.
+
+### Adaptive practice
+
+- Exclusions: Fixed worksheet, certification or automated learner ranking.
+- Exact method resource SHA-256: `fd59e825efd7e27718ce02518ed17d011e0d4993b90c7ea93665a825069d9b10`.
+- Document axis: independently-document-reviewed.
+- Execution evidence: Separate non-author document review, exact integration closure and a different worked fictional transfer case. No live-domain, renderer or matched-agent performance result.
+- Outcome axis: not-performance-qualified.
+- Reviewed scope: Exact conditional method and additive owner integration; independent review is separate from real-world execution and outcome.
+- Optional independent [report](evidence/method-reviews/usefulness-v1/report.md) and [receipt](evidence/method-reviews/usefulness-v1/receipt.json); receipt SHA-256: `0332153084e7b6445feda1fa163430595dc9679f6215b7caae721bf928eb56d8`.

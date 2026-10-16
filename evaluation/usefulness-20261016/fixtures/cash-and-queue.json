@@ -1,0 +1,31 @@
+{
+  "synthetic": true,
+  "currency": "USD",
+  "units": "whole dollars",
+  "cutoff": "before D1; D1-D5 are consecutive business days",
+  "openingCash": {"unrestricted": 9000, "restrictedGrant": 2000, "grantMayFundOperations": false},
+  "minimumUnrestrictedCash": 1500,
+  "events": [
+    {"id": "V", "kind": "payment", "amount": 4000, "settles": "D1", "status": "contracted"},
+    {"id": "P", "kind": "payment", "amount": 8000, "settles": "D2", "status": "contracted"},
+    {"id": "A", "kind": "receipt", "amount": 12000, "settles": "D3", "status": "customer-confirmed forecast"},
+    {"id": "R", "kind": "payment", "amount": 3000, "settles": "D4", "status": "contracted"},
+    {"id": "B", "kind": "invoice", "amount": 5000, "settles": null, "status": "invoice issued; no collection date"},
+    {"id": "N", "kind": "noncash depreciation", "amount": 600, "recognized": "D2"}
+  ],
+  "scenario": "Delay only A to D5; change no amount and assume no new borrowing or action implementation.",
+  "operations": {
+    "newCasesPerWeek": 14,
+    "buildCapacityPerWeek": 20,
+    "reviewHoursScheduled": 10,
+    "reviewHoursAbsent": 2,
+    "reviewRecurringAdminHours": 2,
+    "reviewHoursPerCase": 1,
+    "hoursOverlap": false,
+    "reviewQueue": 9,
+    "oldestCaseAgeDaysFromIntake": 11,
+    "oldestCaseAgeDaysInReview": 4,
+    "owners": {"intake": "Mira", "reviewDecision": "Ren", "priorityChanges": "Sam"},
+    "allowedPilot": "Sam may limit starts and reprioritize existing cases; Mira may update the board. Ren's staffing cannot be changed this week. No service-time improvement has been observed."
+  }
+}

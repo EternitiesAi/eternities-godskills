@@ -1,0 +1,26 @@
+{
+  "schema": "godskills-review-b-v2-delivery-manifest-v1",
+  "decision": "READY",
+  "recordedAt": "2026-10-16T07:43:08.764Z",
+  "baselineCommit": "7c7f2ac98a282ccb2e59c3a4c0424802a4dd72b5",
+  "scope": "Exact integrated document/provenance delta: six Arcadia files plus four appended provisional METHODS.v1.json rows. Not release, installed runtime, engine/API or performance qualification.",
+  "finalInputIdentitiesReconfirmed": 11,
+  "unhashedSelfPath": "artifacts/qualification/usefulness-20261016/review-b-v2/file-manifest.json",
+  "files": [
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-b-v2/REVIEW.md",
+      "bytes": 6439,
+      "sha256": "c5888167a66e86c1f51e4cec3f90dbe96a8526d953e2d7407f61a2476f0f055f"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-b-v2/closure-checks.json",
+      "bytes": 21565,
+      "sha256": "b6688af8292607a360097600b23d098f738c0dceb5a6d8efe3095e7ab6651352"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-b-v2/decisions.json",
+      "bytes": 17398,
+      "sha256": "87681d5787e0c2f0fc109a7b95337ffe703f974666317c197833c221e5cb97a5"
+    }
+  ]
+}

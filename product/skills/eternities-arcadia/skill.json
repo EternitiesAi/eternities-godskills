@@ -20,7 +20,11 @@
     "verify textures UV channels normal maps collision rigs animation and root motion in a game",
     "qualify model dependencies and decoder files in packaged builds beyond editor preview",
     "character silhouette and readability at the gameplay camera",
-    "camera-critical game asset iteration and motion revision consistency"
+    "camera-critical game asset iteration and motion revision consistency",
+    "construct or debug an interactive shader effect, mask, transparency or postprocess pass",
+    "separate lighting environment from material roughness or reflection response in an interactive scene",
+    "skeletal attack interrupted during blend leaves damage notify or root motion active",
+    "diagnose missed frame budget GPU CPU render thread pacing first-use hitch"
   ],
   "antiTriggers": [
     "routine isolated code edit",
@@ -47,7 +51,11 @@
     "references/browser-runtime-lifecycle.md",
     "references/requirement-screen-state-traceability.md",
     "references/realtime-asset-integration.md",
-    "references/camera-driven-asset-iteration-v1.md"
+    "references/camera-driven-asset-iteration-v1.md",
+    "references/shader-effect-construction.md",
+    "references/lighting-material-calibration.md",
+    "references/animation-interruption-transitions.md",
+    "references/frame-budget-diagnosis.md"
   ],
   "maturity": "instruction-reviewed",
   "provenance": [
@@ -130,6 +138,71 @@
       "kind": "authoring",
       "source": "product/skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md",
       "note": "Original portable synthesis and worked example. Source-level dispositions and notices are retained in the October 15 cohort evidence. Separate release review does not certify campaign, runtime, causal, operational-cost or reader outcomes."
+    },
+    {
+      "kind": "authoring",
+      "source": "product/skills/eternities-arcadia/references/shader-effect-construction.md",
+      "note": "Original portable conditional method; source identities follow in this metadata. October16 v1 proposal and independent REPAIR remain in repository evidence; this portable-footer repair requires its own exact changed-tree review. No engine/API or performance qualification."
+    },
+    {
+      "kind": "authoring",
+      "source": "product/skills/eternities-arcadia/references/lighting-material-calibration.md",
+      "note": "Original portable conditional method; source identities follow in this metadata. October16 v1 proposal and independent REPAIR remain in repository evidence; this portable-footer repair requires its own exact changed-tree review. No engine/API or performance qualification."
+    },
+    {
+      "kind": "authoring",
+      "source": "product/skills/eternities-arcadia/references/animation-interruption-transitions.md",
+      "note": "Original portable conditional method; source identities follow in this metadata. October16 v1 proposal and independent REPAIR remain in repository evidence; this portable-footer repair requires its own exact changed-tree review. No engine/API or performance qualification."
+    },
+    {
+      "kind": "authoring",
+      "source": "product/skills/eternities-arcadia/references/frame-budget-diagnosis.md",
+      "note": "Original portable conditional method; source identities follow in this metadata. October16 v1 proposal and independent REPAIR remain in repository evidence; this portable-footer repair requires its own exact changed-tree review. No engine/API or performance qualification."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "mrdoob/three.js@d2ac59a15620ff8696dd55983c1f411c0a3f92ce:manual/pages/debugging-glsl.html",
+      "note": "Inert working-body SHA-256 66ccad7ff3f1e46ae4411b2192dc8838146ec0e2633e175c032d32792f5bfed8. Constant-output and basic-material substitutions; diagnostic input visualization. Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied. Do not install the suggested browser extension; unchanged opaque output does not rule out depth or later-pass failure. Root MIT notice observed for Copyright © 2010-2026 three.js authors; not rights clearance or a copied-material license grant."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "mrdoob/three.js@d2ac59a15620ff8696dd55983c1f411c0a3f92ce:manual/pages/color-management.html",
+      "note": "Inert working-body SHA-256 1631497a3fade74ee423887f5a339fa580cda8fdeba4b5c9d90d47b93e8f5e5e. Input/working/output color roles; non-color channels; duplicate output conversion failure. Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied. No external viewers, images or diagrams acquired; no latest-version or gamut-support claim adopted. Root MIT notice observed for Copyright © 2010-2026 three.js authors; not rights clearance or a copied-material license grant."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "mrdoob/three.js@d2ac59a15620ff8696dd55983c1f411c0a3f92ce:manual/pages/animation-system.html",
+      "note": "Inert working-body SHA-256 02415166a204d96c68402c6c8396354a4c4aed4d341177a4d26e6f834c3c7842. Clips/tracks versus mixer/actions; independent weight and time controls. Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied. No play-all-clips example copied; overview does not implement interruption arbitration; dated exporter claims not adopted. Root MIT notice observed for Copyright © 2010-2026 three.js authors; not rights clearance or a copied-material license grant."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "mrdoob/three.js@d2ac59a15620ff8696dd55983c1f411c0a3f92ce:manual/pages/post-processing.html",
+      "note": "Inert working-body SHA-256 777a324f30f000687b1b5c9ed7e476166b8b09cf13e1d63ee84d89a0071dabcf. Ordered image passes, separate read/write buffers, output transform, sizing and time inputs. Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied. No bloom recipe or fixed pass list adopted; APIs remain snapshot-specific and no examples executed. Root MIT notice observed for Copyright © 2010-2026 three.js authors; not rights clearance or a copied-material license grant."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "mrdoob/three.js@d2ac59a15620ff8696dd55983c1f411c0a3f92ce:manual/pages/materials.html",
+      "note": "Inert working-body SHA-256 3c7426afff45f8ffd1b299308e9026c8fb733ad3f691705ac6efac50136c99fb. Unlit/normal controls; PBR roughness/metalness and a material-response comparison grid. Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied. No universal speed ranking, physical calibration claim or Phong-to-PBR numerical conversion adopted. Root MIT notice observed for Copyright © 2010-2026 three.js authors; not rights clearance or a copied-material license grant."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "quodsoler/unreal-engine-skills@f3742d7b688690810df369802b90430324e380b9:skills/ue-animation-system/SKILL.md",
+      "note": "Inert working-body SHA-256 908909e0d765382ae496741c9e1b9a8980c19ef089c0a2f879f5ecb87b57ac26. Blend-out/end distinction, interrupted playback, layered poses and root-motion ownership. Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied. UE 5.8 header/signature verification is an upstream claim, not independently established; no engine code or plugin instructions imported. Root MIT notice observed for Copyright (c) 2025 quodsoler; not rights clearance or a copied-material license grant."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "quodsoler/unreal-engine-skills@f3742d7b688690810df369802b90430324e380b9:skills/ue-testing-debugging/SKILL.md",
+      "note": "Inert working-body SHA-256 a486848b5f88095f4b1e649ad1ffb73f17ab80b51f9a3afa4886629c0e7cfdd6. Stage-specific profiling and active/waiting timeline investigation. Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied. No tests, profiler commands, shipping flags, console tools or plugins activated; UE 5.8 claims unverified. Root MIT notice observed for Copyright (c) 2025 quodsoler; not rights clearance or a copied-material license grant."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "quodsoler/unreal-engine-skills@f3742d7b688690810df369802b90430324e380b9:skills/ue-testing-debugging/references/profiling-commands.md",
+      "note": "Inert working-body SHA-256 ebd53693a9fabb0012f22ec62a220f0ff7a7d83af5b52504160875cf9d64d506. Game/Draw/RHIT/GPU triage, per-pass capture and first-use/steady-state evidence. Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied. Reject rising-count-equals-leak and one-baseline-proves-improvement shortcuts; no command executed or trace acquired. Root MIT notice observed for Copyright (c) 2025 quodsoler; not rights clearance or a copied-material license grant."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "lovecatisgood-sudo/3d-asset-generation-blender-unity-game-development-skills@00221bb0a8ffcb8eb577daf5ddf9e8d8edcdbc98:skills/unity-mcp-game-development/SKILL.md",
+      "note": "Inert working-body SHA-256 d380f5c275d1c0db18275f308e04b4e04650cb1c00579d8d318a16c98b8c33a9. Installed engine/render-pipeline binding, gameplay truth separate from presentation, target-build profiling. Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied. General workflow only; precise Animator/Shader Graph/profiler APIs deferred; no MCP connection, setup or security action. Root MIT notice observed for Copyright (c) 2026 Siamese Cat Dev and Mr A; not rights clearance or a copied-material license grant."
     }
   ]
 }

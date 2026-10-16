@@ -1,0 +1,70 @@
+{
+  "schema": "godskills-usefulness-freeze-v1",
+  "revision": "setup-v2-portable-tests-before-model-outputs",
+  "baselineCommit": "7c7f2ac98a282ccb2e59c3a4c0424802a4dd72b5",
+  "branchObserved": "feat/usefulness-release-20261016",
+  "executionStatus": "NOT_RUN; HOLD mandatory skill-read/no-tools conflict",
+  "comparisonLabel": "host-native explicit published-guidance augmentation",
+  "rawIsolationEstablished": false,
+  "model": "gpt-6.1-sol",
+  "provider": "openai",
+  "reasoning": "xhigh",
+  "servedModel": "UNKNOWN; no live calls",
+  "sourcePack": "C:/Users/Dom/.codex/operations/godskills-usefulness-20261016/baseline-export/godskills",
+  "publishedRelease": "368d5a716bd3b8069ba5ba858f8db8f7fba8b19c36aa373fc62c19d8a2b55efb",
+  "parentReportedArchiveSha256": "d5e71e9f3be0ea4d654963c9a47a8858247226e695585a2b672dd76eae864ad8",
+  "sourceReleaseFileSha256": "752e4596352499e2d601833c30a6c9149fa5ebe5ef7e31f11949d57f4251785e",
+  "cliVersion": "0.162.0-alpha.17.2",
+  "cliSha256": "e98c516f1c8935789aabe9122ee7e05ec4c3efd1ba6acf179242e031c495b99e",
+  "files": {
+    "protocol.md": "0f9cf0703014361f63979e6ebfae3ee7b051a5e7a1b9bdc5ac84f46904ea0b81",
+    "tasks.json": "71f34b73542537241c5d9c70c43112b878aadc149fa9a4b8f0129021454e9bd8",
+    "criteria.json": "01489ab9233e0d5ed919d7f1dda20472a719cce1bdd45a93830976a9d2777c22",
+    "checks.test.mjs": "3a49b23d17d6b3396e605ff5d4917649e3398a81f8e4a14bf8054d3a98e0f13c",
+    "pilot.mjs": "22ae3272e42098afee6f0c4591ea502dbcfc79c87debc8d7de0e31f8a7c479b7",
+    "isolation-probe.mjs": "b0c6b5cffa2a0af8d056531f2d5a156ab081d508426cfb48831774ff81b57daf",
+    "fixtures/cash-and-queue.json": "5f2de0d6f9636878ee312f208b61d9bf4a2e0a1a6368256098f7cd4948f2ba81",
+    "fixtures/recovery.json": "ba05769acd117e5d5fe1cfec8fcec653b1af11f8e0306736285ff74bf231d941",
+    "fixtures/drawer.json": "6d7fc010889ce0c23321890f2f4bc72465ed928c990f06843c95ea7a04ea2a0c",
+    "fixtures/lesson.json": "9c8d7df8598787430a5dbe2f8f69ffe054afe1c3f0ea1c722e68ab1fda8fc40c"
+  },
+  "guidance": {
+    "u01-cash-and-queue": [
+      {"path":"skills/cashflow-forecast-scenario-integrity/SKILL.md","sha256":"d2b85835f46ac7aba103a43d5ee6eb9ccfe2970f3d17a690e8e9a01fa655a66e"},
+      {"path":"skills/operating-cadence-and-decision-accountability/SKILL.md","sha256":"a03d89234106b30da8e99ffe6e738f58408e03727d2909431a119aca6b5c56c1"},
+      {"path":"skills/operating-cadence-and-decision-accountability/references/methods.md","sha256":"32ddd3dfe2b8085e6ded14aa562e47761fb2d47f085154bcc9409ad49fff5f7d"}
+    ],
+    "u02-uncertain-recovery": [
+      {"path":"skills/api-rate-limit-recovery/SKILL.md","sha256":"8552e9991da80115e3be4473ea3676e79613260c5df4f6f4f961d251c8b4f2f3"},
+      {"path":"skills/long-horizon-work-continuity/SKILL.md","sha256":"d0487cb608de140f11305ffcd63f837fbe56c018b029ccd70f0da04c97a51a0b"}
+    ],
+    "u03-interrupted-drawer": [
+      {"path":"skills/motion-design-and-animation-engineering/SKILL.md","sha256":"9f9f17e2bf49fa039f11239bbbc0adf9e98df12e21f1c1f8a8f3343d282719ea"},
+      {"path":"skills/motion-design-and-animation-engineering/references/methods.md","sha256":"8ce10c1e39145b619ef2e692a7dc501711173f2601fba34131a7f58d3399387b"},
+      {"path":"skills/performance-release-gating/SKILL.md","sha256":"e96f776e506d9eb98eb32df919a64c3c30520d99a5317f9b0f5eb1cb6db42de5"}
+    ],
+    "u04-reservoir-lesson": [
+      {"path":"skills/evidence-linked-learning-design/SKILL.md","sha256":"a91d5ffe526e92ed72c541816d6c0310f5ab2d56b82f2c5f91960b778bbed606"},
+      {"path":"skills/evidence-linked-learning-design/references/practice-and-transfer-v1.md","sha256":"8625e567db5d4f68c267bd4743e555885115fabcbd253b67f768e2031826aa9f"},
+      {"path":"skills/narrative-structure-and-revision/SKILL.md","sha256":"ff8a28893c1d2ba20b0d72bef4597d4e18b4bf5db2a93594b2bd04bd8e6d483d"}
+    ]
+  },
+  "order": [
+    {"slot":1,"taskId":"u01-cash-and-queue","arm":"control","blindLabel":"J9","presentFirst":true},
+    {"slot":2,"taskId":"u01-cash-and-queue","arm":"guidance","blindLabel":"M2","presentFirst":false},
+    {"slot":3,"taskId":"u02-uncertain-recovery","arm":"guidance","blindLabel":"C4","presentFirst":true},
+    {"slot":4,"taskId":"u02-uncertain-recovery","arm":"control","blindLabel":"P7","presentFirst":false},
+    {"slot":5,"taskId":"u03-interrupted-drawer","arm":"guidance","blindLabel":"F8","presentFirst":false},
+    {"slot":6,"taskId":"u03-interrupted-drawer","arm":"control","blindLabel":"R1","presentFirst":true},
+    {"slot":7,"taskId":"u04-reservoir-lesson","arm":"control","blindLabel":"B6","presentFirst":false},
+    {"slot":8,"taskId":"u04-reservoir-lesson","arm":"guidance","blindLabel":"V3","presentFirst":true}
+  ],
+  "evidence": [
+    {"path":"docs/superpowers/specs/2026-10-16-usefulness-release.md","sha256":"28ee0ac82aeecb44c5bd689744b0cbbb6bd137452f9077f02122459d7dab0d07"},
+    {"path":"docs/superpowers/plans/2026-10-16-usefulness-release.md","sha256":"1956bee1ecef37c98fcae93edcc5da092a31d63ba203344be3203da07d95d3ff"},
+    {"path":"evaluation/quality-20261003/preregistration.md","sha256":"2d3db1d45d48b0da42e2fdc4eaf38f6acbbeabf467bba8827ee3298fb90857e5"},
+    {"path":"evaluation/quality-20261003/launcher-amendment-v2-20261003.md","sha256":"2d96abbec9503be1b60e18c0d901c4a9bf788913434e5ae2f3b34bf1a8850ea8"},
+    {"path":"evaluation/quality-20261003/schema.test.mjs","sha256":"f17bac56dba698a954a3a6ac6acdbdab9c286fbe0ab271bb69b15172de1438ae"},
+    {"path":"scripts/quality-evaluation-harness.mjs","sha256":"24736713cab1205891d8f466c82076f36c93536ca19c2e8af2bea9576359365e"}
+  ]
+}

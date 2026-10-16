@@ -1,0 +1,3 @@
+Command: node product/bin/godskills.mjs search 'Do not fix the shader in the browser game; write a brief postponement notice for the team.' --limit 3
+Exit: 1
+{"error":"Release file digest changed"}

@@ -1,0 +1,106 @@
+{
+  "schema": "godskills-discovery-delivery-manifest-v1",
+  "recordedAt": "2026-10-16T07:21:27.966Z",
+  "worktree": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003",
+  "branch": "feat/usefulness-release-20261016",
+  "baselineCommit": "7c7f2ac98a282ccb2e59c3a4c0424802a4dd72b5",
+  "unhashedSelfPath": "artifacts/qualification/usefulness-20261016/discovery/file-manifest.json",
+  "files": [
+    {
+      "path": "product/lib/request-scope.mjs",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/lib/request-scope.mjs",
+      "bytes": 1330,
+      "sha256": "cc4dd37aa161acbb56d5e7ff19b484e762d4290fb0bdc4716acf964932dc64fb"
+    },
+    {
+      "path": "tests/usefulness-discovery.test.mjs",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/usefulness-discovery.test.mjs",
+      "bytes": 2980,
+      "sha256": "4554b56aa59aed16c9c53bd22a6c441ed09e7c22d2a4127f1d977e6b189bb30b"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/discovery/REPORT.md",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/usefulness-20261016/discovery/REPORT.md",
+      "bytes": 7594,
+      "sha256": "c71d10010936a5648dc0c0f3d84175c51bde6d45ae760d5b4fc01a9f6bc92a8e"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/discovery/baseline-validation.txt",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/usefulness-20261016/discovery/baseline-validation.txt",
+      "bytes": 146,
+      "sha256": "517af4ce564399ac97d5a9ca80cc369eaf36470a6b10114247893e5c25699920"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/discovery/baseline.json",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/usefulness-20261016/discovery/baseline.json",
+      "bytes": 164704,
+      "sha256": "402050c5ea586913086ad20f7591d11a6c423abfe5a6d5b5578dc28524de79eb"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/discovery/candidate-cli-integrity-gate.txt",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/usefulness-20261016/discovery/candidate-cli-integrity-gate.txt",
+      "bytes": 198,
+      "sha256": "cf050d48e0091a2709cb8e2d6a78d969c8cdaa7e14afd6bcb28c7ae0db11f4e9"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/discovery/candidate.json",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/usefulness-20261016/discovery/candidate.json",
+      "bytes": 162187,
+      "sha256": "541832e16a6e938d6d6a6e9d32a369ba82ea3cf82ce1dc3739464757c5630c74"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/discovery/diagnosis.md",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/usefulness-20261016/discovery/diagnosis.md",
+      "bytes": 2092,
+      "sha256": "915901d63a31f7d9c11f4fb1ba444169e66e771547b5d4c7ca1e7f161d428d92"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/discovery/focused-tests.txt",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/usefulness-20261016/discovery/focused-tests.txt",
+      "bytes": 30461,
+      "sha256": "85b3a87f594ecea54c013c4b84a4770026eec0faa972b7ecd862588729ec0794"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/discovery/frozen-cases.json",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/usefulness-20261016/discovery/frozen-cases.json",
+      "bytes": 9761,
+      "sha256": "4fb39b46fb15239c0cf29136c3c82846d1f1275c904467412b569b9b50d93691"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/discovery/green-tests.txt",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/usefulness-20261016/discovery/green-tests.txt",
+      "bytes": 4017,
+      "sha256": "7a6b72af63f56388a65a2d810c0274ad81adca3803a44c23b65ea2b03b3f10a4"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/discovery/initial-probe-error.txt",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/usefulness-20261016/discovery/initial-probe-error.txt",
+      "bytes": 601,
+      "sha256": "40a597caf404562540327bbd71eedd195a28d87236deceabdbcee3ad0c069412"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/discovery/probe.mjs",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/usefulness-20261016/discovery/probe.mjs",
+      "bytes": 4100,
+      "sha256": "d2a96083ef61135e93f1c1d4948ce144250c9e8ccd65eb7fe1441ca9297fab72"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/discovery/protocol.md",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/usefulness-20261016/discovery/protocol.md",
+      "bytes": 3060,
+      "sha256": "c91397ee6d3f937f3de9ce5a4f968ac960a44c3afd3248e600d7dcc56a7f6f7d"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/discovery/red-tests-with-controls.txt",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/usefulness-20261016/discovery/red-tests-with-controls.txt",
+      "bytes": 8877,
+      "sha256": "b6247a04025d32c08924712541b8cb46d5792de16d32d456576b0f3c20b9361e"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/discovery/red-tests.txt",
+      "absolutePath": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/usefulness-20261016/discovery/red-tests.txt",
+      "bytes": 6279,
+      "sha256": "613c605533f12b976529643baf577c863a32d4769a9e7c5adbdb03d1b2f21cc2"
+    }
+  ]
+}

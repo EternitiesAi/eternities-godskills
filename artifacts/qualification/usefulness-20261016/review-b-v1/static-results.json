@@ -1,0 +1,87 @@
+{
+  "schema": "godskills-review-b-static-arithmetic-v1",
+  "evidence": "synthetic reviewer arithmetic; no upstream execution, renderer or measurement",
+  "passed": 8,
+  "checks": [
+    {
+      "id": "pulse-aspect",
+      "horizontalRho": 0.20000000000000007,
+      "verticalRho": 0.19999999999999996,
+      "projectedRadiusPx": 180
+    },
+    {
+      "id": "pulse-band",
+      "radii": [
+        0.2,
+        0.175,
+        0.225,
+        0.22
+      ],
+      "masks": [
+        1,
+        0,
+        0,
+        0.5000000000000016
+      ]
+    },
+    {
+      "id": "pulse-thin-band",
+      "centerline": 0.6479999999999999,
+      "interpretation": "Visible but not opaque; the draft promises visibility, not unit alpha for every thickness."
+    },
+    {
+      "id": "transfer-shader-alpha",
+      "premultiplied": [
+        0.2,
+        0.05,
+        0.025
+      ],
+      "correct": [
+        0.275,
+        0.125,
+        0.1
+      ],
+      "doubleMultiplied": [
+        0.125,
+        0.08750000000000001,
+        0.08125000000000002
+      ]
+    },
+    {
+      "id": "author-exclusive-weights",
+      "weights": [
+        0.3,
+        0.2,
+        0.5
+      ]
+    },
+    {
+      "id": "transfer-animation-layers",
+      "exclusiveWeights": [
+        0.15000000000000002,
+        0.6000000000000001,
+        0.25
+      ],
+      "separateAdditiveWeight": 0.4,
+      "interpretation": "No normalization across exclusive and additive layers; no quaternion/pose interpolation is simulated."
+    },
+    {
+      "id": "transfer-animation-travel",
+      "rootBeforeHandoff": 0.24,
+      "controllerAfterHandoff": 0.24000000000000005,
+      "correctTravel": 0.48000000000000004,
+      "doubleAppliedTravel": 0.6400000000000001
+    },
+    {
+      "id": "transfer-frame-limiting-stage",
+      "budgetMs": 11.11111111111111,
+      "pixelCostMs": 7.2,
+      "fixedCostMs": 6.3999999999999995,
+      "sixteenthPixelsGpuMs": 6.85,
+      "fullPresentMs": 22.22222222222222,
+      "quarterPixelsPresentMs": 11.11111111111111,
+      "sixteenthPixelsPresentMs": 11.11111111111111,
+      "interpretation": "CPU becomes limiting after first resolution probe; further pixel reduction does not improve stipulated cadence."
+    }
+  ]
+}

@@ -58,8 +58,8 @@ test("the prospect paraphrase does not promote Atlas over the existing route", (
   const results = search(prompt).results;
   const atlasRank = rankOf(results, "eternities-atlas");
 
-  // Agora owns prospect assessment, though canonical main does not currently
-  // make Agora the top result for this particular lexical paraphrase.
+  // Agora owns prospect assessment. This test retains its separate historical
+  // purpose: an account-ranking request must not promote the serving-trace owner.
   assert.notEqual(results[0]?.id, "eternities-atlas", prompt);
   assert.ok(atlasRank < 0 || atlasRank >= 3, `${prompt}\nAtlas rank: ${atlasRank + 1}`);
 });

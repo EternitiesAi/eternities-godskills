@@ -30,6 +30,8 @@ When the task needs actual practice items, use [practice and transfer](reference
 5. Budget the full time, including transitions, setup and reflection. List actual materials and a low-resource fallback. Avoid a plan that requires an unprovided account or paid classroom service.
 6. Give the facilitator a check-for-understanding point and a concrete decision: advance, revisit with a different representation, or give targeted practice.
 
+When recent learner work leaves competing explanations that imply different next practice, use [adaptive practice](references/adaptive-practice-v1.md) to design one discriminating probe and its next-item branches. This does not change support or retention authority.
+
 ## Deliver and validate
 
 Return the learner-facing goal, success criteria, timed sequence, facilitator cues, practice task, assessment with scoring guidance, supports and extension. For a course, add a prerequisite map and a cumulative assessment rather than repeating isolated lessons.

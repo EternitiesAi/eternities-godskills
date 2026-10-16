@@ -1,0 +1,267 @@
+{
+  "schemaVersion": "usefulness-review-a-v1",
+  "reviewDate": "2026-10-16",
+  "verdict": "REPAIR",
+  "scope": "Independent review of lane A only after lane B sealed",
+  "requiredRepairs": [
+    {
+      "id": "R1",
+      "kind": "source-attribution",
+      "candidate": "A1",
+      "locations": [
+        "lane-a/evidence.json:25",
+        "lane-a/proposals.json:51",
+        "lane-a/proposals.json:106"
+      ],
+      "action": "Label non-problem-occasion comparison as author synthesis, not an upstream discovery mechanism. Rebind after authorized repair.",
+      "methodBodyChangeRequired": false
+    }
+  ],
+  "methods": [
+    {
+      "id": "A1",
+      "instructionReview": "READY",
+      "transferApplication": "PASS",
+      "realUserOutcome": "NOT_MEASURED"
+    },
+    {
+      "id": "A2",
+      "instructionReview": "READY",
+      "transferApplication": "PASS",
+      "realUserOutcome": "NOT_MEASURED"
+    },
+    {
+      "id": "A3",
+      "instructionReview": "READY",
+      "transferApplication": "PASS",
+      "realUserOutcome": "NOT_MEASURED"
+    },
+    {
+      "id": "A4",
+      "instructionReview": "READY",
+      "transferApplication": "PASS",
+      "realUserOutcome": "NOT_MEASURED"
+    }
+  ],
+  "checks": [
+    {
+      "name": "final author/current binding and review-file check",
+      "receipt": "213e0a",
+      "result": "PASS",
+      "unchangedLaneAAndCurrentFiles": 28,
+      "reviewFiles": 4,
+      "reviewJsonParsed": 2,
+      "adoptionTargetsStillAbsent": 4,
+      "anchorsStillUnique": 4,
+      "branchAndHeadUnchanged": true,
+      "conflictAndTrailingWhitespaceScan": "PASS on four review files"
+    },
+    {
+      "name": "bound identity check",
+      "receipt": "d95c8a",
+      "result": "PASS",
+      "laneAFiles": 7,
+      "currentFilesCompared": 21,
+      "sourceBodiesCompared": 9,
+      "sourceHeadAndBlobComparisons": true,
+      "rootNoticesCompared": 4,
+      "embeddedNoticesExact": true,
+      "warehouseIndexCompared": true
+    },
+    {
+      "name": "adoption guards",
+      "result": "PASS",
+      "ownerPairs": 4,
+      "anchorsUnique": true,
+      "targetsAbsent": true,
+      "metadataOperationsAdditive": true,
+      "applied": false
+    },
+    {
+      "name": "literal expression screen",
+      "receipt": "67fe71",
+      "result": "PASS",
+      "pairings": 9,
+      "tokenLengths": [
+        5,
+        8
+      ],
+      "matches": 0,
+      "details": [
+        {
+          "candidate": "A1",
+          "source": "discovery",
+          "overlaps": [
+            {
+              "tokenLength": 5,
+              "uniqueMatchingSpans": 0,
+              "matches": []
+            },
+            {
+              "tokenLength": 8,
+              "uniqueMatchingSpans": 0,
+              "matches": []
+            }
+          ]
+        },
+        {
+          "candidate": "A2",
+          "source": "onboarding",
+          "overlaps": [
+            {
+              "tokenLength": 5,
+              "uniqueMatchingSpans": 0,
+              "matches": []
+            },
+            {
+              "tokenLength": 8,
+              "uniqueMatchingSpans": 0,
+              "matches": []
+            }
+          ]
+        },
+        {
+          "candidate": "A2",
+          "source": "minimum-path",
+          "overlaps": [
+            {
+              "tokenLength": 5,
+              "uniqueMatchingSpans": 0,
+              "matches": []
+            },
+            {
+              "tokenLength": 8,
+              "uniqueMatchingSpans": 0,
+              "matches": []
+            }
+          ]
+        },
+        {
+          "candidate": "A2",
+          "source": "activation-models",
+          "overlaps": [
+            {
+              "tokenLength": 5,
+              "uniqueMatchingSpans": 0,
+              "matches": []
+            },
+            {
+              "tokenLength": 8,
+              "uniqueMatchingSpans": 0,
+              "matches": []
+            }
+          ]
+        },
+        {
+          "candidate": "A3",
+          "source": "operations",
+          "overlaps": [
+            {
+              "tokenLength": 5,
+              "uniqueMatchingSpans": 0,
+              "matches": []
+            },
+            {
+              "tokenLength": 8,
+              "uniqueMatchingSpans": 0,
+              "matches": []
+            }
+          ]
+        },
+        {
+          "candidate": "A3",
+          "source": "bottleneck",
+          "overlaps": [
+            {
+              "tokenLength": 5,
+              "uniqueMatchingSpans": 0,
+              "matches": []
+            },
+            {
+              "tokenLength": 8,
+              "uniqueMatchingSpans": 0,
+              "matches": []
+            }
+          ]
+        },
+        {
+          "candidate": "A3",
+          "source": "bottleneck-checklist",
+          "overlaps": [
+            {
+              "tokenLength": 5,
+              "uniqueMatchingSpans": 0,
+              "matches": []
+            },
+            {
+              "tokenLength": 8,
+              "uniqueMatchingSpans": 0,
+              "matches": []
+            }
+          ]
+        },
+        {
+          "candidate": "A4",
+          "source": "practice",
+          "overlaps": [
+            {
+              "tokenLength": 5,
+              "uniqueMatchingSpans": 0,
+              "matches": []
+            },
+            {
+              "tokenLength": 8,
+              "uniqueMatchingSpans": 0,
+              "matches": []
+            }
+          ]
+        },
+        {
+          "candidate": "A4",
+          "source": "hints",
+          "overlaps": [
+            {
+              "tokenLength": 5,
+              "uniqueMatchingSpans": 0,
+              "matches": []
+            },
+            {
+              "tokenLength": 8,
+              "uniqueMatchingSpans": 0,
+              "matches": []
+            }
+          ]
+        }
+      ],
+      "limits": "Exact-span screen only; manual structure/example assessment in review.md. Not a plagiarism or legal certificate."
+    },
+    {
+      "name": "transfer and author arithmetic",
+      "receipt": "1556f9",
+      "result": "26 assertions passed",
+      "transferAssertions": 15,
+      "authorAssertions": 11,
+      "sourceExecution": false
+    },
+    {
+      "name": "absent output directory diagnostic",
+      "receipt": "a44526",
+      "result": "Test-Path false, exit 0",
+      "prior": "1556f9 appended missing-directory listing exited 1 after successful arithmetic; explicit absence check resolved diagnostic before creating new output."
+    }
+  ],
+  "expressionFinding": "No copied or closely adapted source-specific prose, examples or template structure identified in four candidate methods. Verbatim root notices preserved in evidence. Generic-method synthesis assessment only.",
+  "rights": "CC BY-SA notice/attribution preserved, index unreviewed and source holds retained; compatibility/adaptation/distribution decision unresolved. No legal clearance.",
+  "skillsInfluence": "sovereign-skill-refinery kept existing owners and source mechanisms distinct; skill-creator kept conditional routing and concise usable steps. Neither authorized integration or source activation.",
+  "limits": [
+    "No product integration",
+    "No full suite or application runtime",
+    "No source execution",
+    "No providers, web or descendants",
+    "No real customer or learner study",
+    "No legal clearance",
+    "No lane-B self-review",
+    "No evaluator/reviewer-output reads",
+    "No installed activation digest revalidation"
+  ]
+}

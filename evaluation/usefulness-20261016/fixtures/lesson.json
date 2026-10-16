@@ -1,0 +1,13 @@
+{
+  "synthetic": true,
+  "audience": "12-year-old learners; prerequisite division is uncertain",
+  "durationMinutes": 9,
+  "setting": "paper, pencil, two labeled drawings; no device, accounts or poured water",
+  "outcome": "Choose and justify which differently sized container reaches half capacity first, using amount and rate rather than comparing rates alone.",
+  "misconception": "The larger liters-per-minute rate always reaches halfway sooner.",
+  "reservoirs": [{"id": "A", "capacityLiters": 60, "initialLiters": 0, "inflowLitersPerMinute": 6}, {"id": "B", "capacityLiters": 120, "initialLiters": 0, "inflowLitersPerMinute": 9}],
+  "storyDirection": "Two young keepers at an orbital greenhouse must choose which half-full reservoir can water a fragile seedling first. A prediction should change what one keeper chooses to do. Keep the quiet speculative tone; do not turn the story into a list of teaching objectives. No dangerous actions or new facts about flow rates.",
+  "transferConstraint": "Use a different surface context involving a quantity, a rate and a fractional target. Change the relationship so copying the reservoir winner does not work. Supply all numbers, a reasoned answer and scoring guidance in the facilitator portion.",
+  "access": "Printed large text and optional spoken or drawn reasoning are available throughout; neither depends on a diagnostic score. Multiplication table is an optional instructional aid. Do not create learner profiles.",
+  "ordinaryQuestion": "What does liters per minute mean?"
+}

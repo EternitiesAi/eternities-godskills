@@ -21,3 +21,6 @@ product/skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md
 product/skills/eternities-beacon/references/creator-slate-feasibility-v1.md -text whitespace=-blank-at-eof
 product/skills/narrative-structure-and-revision/references/reader-knowledge-and-reveal-revision-v1.md -text whitespace=-blank-at-eof
 product/skills/service-observability-and-slo-design/references/telemetry-cardinality-budget-v1.md -text whitespace=-blank-at-eof
+# Preserve this release's exact independent-review and failure evidence.
+artifacts/qualification/usefulness-20261016/** -text whitespace=-blank-at-eof,-blank-at-eol,cr-at-eol
+product/evidence/method-reviews/usefulness-v1/** -text whitespace=-blank-at-eof,-blank-at-eol,cr-at-eol

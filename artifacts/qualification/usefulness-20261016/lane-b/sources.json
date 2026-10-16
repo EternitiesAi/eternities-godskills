@@ -1,0 +1,347 @@
+{
+  "schema": "godskills-usefulness-lane-b-source-ledger-v1",
+  "createdDate": "2026-10-16",
+  "baseline": "7c7f2ac98a282ccb2e59c3a4c0424802a4dd72b5",
+  "warehouseIndex": {
+    "id": "D:/03-ARSENAL/warehouse/REPOSITORY-INDEX.json",
+    "path": "D:/03-ARSENAL/warehouse/REPOSITORY-INDEX.json",
+    "sha256": "8a7444815944c5bc6acca5d6d77d760fe25298f1b07889744e7d0f3a7b12dc54"
+  },
+  "search": {
+    "fields": [
+      "id",
+      "full_name",
+      "name"
+    ],
+    "terms": [
+      "three.js",
+      "Unity",
+      "Unreal",
+      "graphics",
+      "shader",
+      "animation",
+      "render",
+      "Babylon",
+      "Filament",
+      "LearnOpenGL"
+    ],
+    "scope": "Existing warehouse index only; targeted directory inventories thereafter.",
+    "fullMethodOrDocumentReadCount": 10,
+    "maximum": 12,
+    "licenseReadCount": 3,
+    "unselected": "Babylon.js and other graphics/Unreal candidates were identified but not read as source bodies; no claim of quarry completeness."
+  },
+  "sources": [
+    {
+      "id": "three-debug",
+      "repositoryId": "mrdoob/three.js",
+      "warehousePath": "D:/03-ARSENAL/warehouse/catalog-c/games/3d/three-js",
+      "relativePath": "manual/pages/debugging-glsl.html",
+      "indexHead": "d2ac59a15620ff8696dd55983c1f411c0a3f92ce",
+      "observedHead": "d2ac59a15620ff8696dd55983c1f411c0a3f92ce",
+      "sha256": "66ccad7ff3f1e46ae4411b2192dc8838146ec0e2633e175c032d32792f5bfed8",
+      "readStatus": "complete-inert-text-read",
+      "selectedPathGitStatus": "no changes reported",
+      "authority": "bundled upstream Three.js manual snapshot",
+      "licenseRecord": "three-license",
+      "disposition": "pattern-reference",
+      "mechanism": "Constant-output and basic-material substitutions; diagnostic input visualization.",
+      "excludedOrUnverified": "Do not install the suggested browser extension; unchanged opaque output does not rule out depth or later-pass failure.",
+      "originalDelta": "Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied."
+    },
+    {
+      "id": "three-color",
+      "repositoryId": "mrdoob/three.js",
+      "warehousePath": "D:/03-ARSENAL/warehouse/catalog-c/games/3d/three-js",
+      "relativePath": "manual/pages/color-management.html",
+      "indexHead": "d2ac59a15620ff8696dd55983c1f411c0a3f92ce",
+      "observedHead": "d2ac59a15620ff8696dd55983c1f411c0a3f92ce",
+      "sha256": "1631497a3fade74ee423887f5a339fa580cda8fdeba4b5c9d90d47b93e8f5e5e",
+      "readStatus": "complete-inert-text-read",
+      "selectedPathGitStatus": "no changes reported",
+      "authority": "bundled upstream Three.js manual snapshot",
+      "licenseRecord": "three-license",
+      "disposition": "pattern-reference",
+      "mechanism": "Input/working/output color roles; non-color channels; duplicate output conversion failure.",
+      "excludedOrUnverified": "No external viewers, images or diagrams acquired; no latest-version or gamut-support claim adopted.",
+      "originalDelta": "Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied."
+    },
+    {
+      "id": "three-animation",
+      "repositoryId": "mrdoob/three.js",
+      "warehousePath": "D:/03-ARSENAL/warehouse/catalog-c/games/3d/three-js",
+      "relativePath": "manual/pages/animation-system.html",
+      "indexHead": "d2ac59a15620ff8696dd55983c1f411c0a3f92ce",
+      "observedHead": "d2ac59a15620ff8696dd55983c1f411c0a3f92ce",
+      "sha256": "02415166a204d96c68402c6c8396354a4c4aed4d341177a4d26e6f834c3c7842",
+      "readStatus": "complete-inert-text-read",
+      "selectedPathGitStatus": "no changes reported",
+      "authority": "bundled upstream Three.js manual snapshot",
+      "licenseRecord": "three-license",
+      "disposition": "pattern-reference",
+      "mechanism": "Clips/tracks versus mixer/actions; independent weight and time controls.",
+      "excludedOrUnverified": "No play-all-clips example copied; overview does not implement interruption arbitration; dated exporter claims not adopted.",
+      "originalDelta": "Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied."
+    },
+    {
+      "id": "three-post",
+      "repositoryId": "mrdoob/three.js",
+      "warehousePath": "D:/03-ARSENAL/warehouse/catalog-c/games/3d/three-js",
+      "relativePath": "manual/pages/post-processing.html",
+      "indexHead": "d2ac59a15620ff8696dd55983c1f411c0a3f92ce",
+      "observedHead": "d2ac59a15620ff8696dd55983c1f411c0a3f92ce",
+      "sha256": "777a324f30f000687b1b5c9ed7e476166b8b09cf13e1d63ee84d89a0071dabcf",
+      "readStatus": "complete-inert-text-read",
+      "selectedPathGitStatus": "no changes reported",
+      "authority": "bundled upstream Three.js manual snapshot",
+      "licenseRecord": "three-license",
+      "disposition": "pattern-reference",
+      "mechanism": "Ordered image passes, separate read/write buffers, output transform, sizing and time inputs.",
+      "excludedOrUnverified": "No bloom recipe or fixed pass list adopted; APIs remain snapshot-specific and no examples executed.",
+      "originalDelta": "Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied."
+    },
+    {
+      "id": "three-materials",
+      "repositoryId": "mrdoob/three.js",
+      "warehousePath": "D:/03-ARSENAL/warehouse/catalog-c/games/3d/three-js",
+      "relativePath": "manual/pages/materials.html",
+      "indexHead": "d2ac59a15620ff8696dd55983c1f411c0a3f92ce",
+      "observedHead": "d2ac59a15620ff8696dd55983c1f411c0a3f92ce",
+      "sha256": "3c7426afff45f8ffd1b299308e9026c8fb733ad3f691705ac6efac50136c99fb",
+      "readStatus": "complete-inert-text-read",
+      "selectedPathGitStatus": "no changes reported",
+      "authority": "bundled upstream Three.js manual snapshot",
+      "licenseRecord": "three-license",
+      "disposition": "pattern-reference",
+      "mechanism": "Unlit/normal controls; PBR roughness/metalness and a material-response comparison grid.",
+      "excludedOrUnverified": "No universal speed ranking, physical calibration claim or Phong-to-PBR numerical conversion adopted.",
+      "originalDelta": "Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied."
+    },
+    {
+      "id": "ue-animation",
+      "repositoryId": "quodsoler/unreal-engine-skills",
+      "warehousePath": "D:/03-ARSENAL/warehouse/from-stars/quodsoler__unreal-engine-skills",
+      "relativePath": "skills/ue-animation-system/SKILL.md",
+      "indexHead": "f3742d7b688690810df369802b90430324e380b9",
+      "observedHead": "f3742d7b688690810df369802b90430324e380b9",
+      "sha256": "908909e0d765382ae496741c9e1b9a8980c19ef089c0a2f879f5ecb87b57ac26",
+      "readStatus": "complete-inert-text-read",
+      "selectedPathGitStatus": "no changes reported",
+      "authority": "third-party workflow; not engine documentation",
+      "licenseRecord": "ue-license",
+      "disposition": "pattern-reference",
+      "mechanism": "Blend-out/end distinction, interrupted playback, layered poses and root-motion ownership.",
+      "excludedOrUnverified": "UE 5.8 header/signature verification is an upstream claim, not independently established; no engine code or plugin instructions imported.",
+      "originalDelta": "Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied."
+    },
+    {
+      "id": "ue-materials",
+      "repositoryId": "quodsoler/unreal-engine-skills",
+      "warehousePath": "D:/03-ARSENAL/warehouse/from-stars/quodsoler__unreal-engine-skills",
+      "relativePath": "skills/ue-materials-rendering/SKILL.md",
+      "indexHead": "f3742d7b688690810df369802b90430324e380b9",
+      "observedHead": "f3742d7b688690810df369802b90430324e380b9",
+      "sha256": "ff708688124bffa3d92f4cd849255bc956f3da23ae96566f44c67b6491bbf0f6",
+      "readStatus": "complete-inert-text-read",
+      "selectedPathGitStatus": "no changes reported",
+      "authority": "third-party workflow; not engine documentation",
+      "licenseRecord": "ue-license",
+      "disposition": "pattern-reference",
+      "mechanism": "Per-instance versus shared parameters; static permutations; postprocess override ownership; extra scene renders and readback cost.",
+      "excludedOrUnverified": "No C++ copied; claimed UE 5.8 API correctness, renderer defaults and performance not certified.",
+      "originalDelta": "Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied."
+    },
+    {
+      "id": "ue-testing",
+      "repositoryId": "quodsoler/unreal-engine-skills",
+      "warehousePath": "D:/03-ARSENAL/warehouse/from-stars/quodsoler__unreal-engine-skills",
+      "relativePath": "skills/ue-testing-debugging/SKILL.md",
+      "indexHead": "f3742d7b688690810df369802b90430324e380b9",
+      "observedHead": "f3742d7b688690810df369802b90430324e380b9",
+      "sha256": "a486848b5f88095f4b1e649ad1ffb73f17ab80b51f9a3afa4886629c0e7cfdd6",
+      "readStatus": "complete-inert-text-read",
+      "selectedPathGitStatus": "no changes reported",
+      "authority": "third-party workflow; not engine documentation",
+      "licenseRecord": "ue-license",
+      "disposition": "pattern-reference",
+      "mechanism": "Stage-specific profiling and active/waiting timeline investigation.",
+      "excludedOrUnverified": "No tests, profiler commands, shipping flags, console tools or plugins activated; UE 5.8 claims unverified.",
+      "originalDelta": "Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied."
+    },
+    {
+      "id": "ue-profiling",
+      "repositoryId": "quodsoler/unreal-engine-skills",
+      "warehousePath": "D:/03-ARSENAL/warehouse/from-stars/quodsoler__unreal-engine-skills",
+      "relativePath": "skills/ue-testing-debugging/references/profiling-commands.md",
+      "indexHead": "f3742d7b688690810df369802b90430324e380b9",
+      "observedHead": "f3742d7b688690810df369802b90430324e380b9",
+      "sha256": "ebd53693a9fabb0012f22ec62a220f0ff7a7d83af5b52504160875cf9d64d506",
+      "readStatus": "complete-inert-text-read",
+      "selectedPathGitStatus": "no changes reported",
+      "authority": "third-party workflow; not engine documentation",
+      "licenseRecord": "ue-license",
+      "disposition": "pattern-reference",
+      "mechanism": "Game/Draw/RHIT/GPU triage, per-pass capture and first-use/steady-state evidence.",
+      "excludedOrUnverified": "Reject rising-count-equals-leak and one-baseline-proves-improvement shortcuts; no command executed or trace acquired.",
+      "originalDelta": "Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied."
+    },
+    {
+      "id": "unity-workflow",
+      "repositoryId": "lovecatisgood-sudo/3d-asset-generation-blender-unity-game-development-skills",
+      "warehousePath": "D:/03-ARSENAL/warehouse/hunt/exa-skills-2026-09-20/lovecatisgood-sudo__3d-asset-generation-blender-unity-game-development-skills",
+      "relativePath": "skills/unity-mcp-game-development/SKILL.md",
+      "indexHead": "00221bb0a8ffcb8eb577daf5ddf9e8d8edcdbc98",
+      "observedHead": "00221bb0a8ffcb8eb577daf5ddf9e8d8edcdbc98",
+      "sha256": "d380f5c275d1c0db18275f308e04b4e04650cb1c00579d8d318a16c98b8c33a9",
+      "readStatus": "complete-inert-text-read",
+      "selectedPathGitStatus": "no changes reported",
+      "authority": "third-party workflow; not engine documentation",
+      "licenseRecord": "unity-license",
+      "disposition": "pattern-reference",
+      "mechanism": "Installed engine/render-pipeline binding, gameplay truth separate from presentation, target-build profiling.",
+      "excludedOrUnverified": "General workflow only; precise Animator/Shader Graph/profiler APIs deferred; no MCP connection, setup or security action.",
+      "originalDelta": "Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied."
+    }
+  ],
+  "licenses": [
+    {
+      "id": "three-license",
+      "repositoryId": "mrdoob/three.js",
+      "path": "D:/03-ARSENAL/warehouse/catalog-c/games/3d/three-js/LICENSE",
+      "sha256": "5d5dad8147523d59bc15cca838ae0bdaae7075230ec49132c551a1d18e7b3412",
+      "observedNotice": "MIT License",
+      "copyright": "Copyright © 2010-2026 three.js authors",
+      "indexLicenseClass": "permissive",
+      "rightsNote": "Root notice inspected in full and preserved in place. Retain copyright and permission notice with any future copied substantial portion; source dependencies, linked examples and external images are not cleared by this observation. Only independent synthesis is proposed."
+    },
+    {
+      "id": "ue-license",
+      "repositoryId": "quodsoler/unreal-engine-skills",
+      "path": "D:/03-ARSENAL/warehouse/from-stars/quodsoler__unreal-engine-skills/LICENSE",
+      "sha256": "5ab97d29a2c68d17b1a9400283b85836b5e3759dd893f377b6622dc732a3f357",
+      "observedNotice": "MIT License",
+      "copyright": "Copyright (c) 2025 quodsoler",
+      "indexLicenseClass": "unreviewed",
+      "rightsNote": "Root notice inspected in full and preserved in place. Retain copyright and permission notice with any future copied substantial portion; source dependencies, linked examples and external images are not cleared by this observation. Only independent synthesis is proposed."
+    },
+    {
+      "id": "unity-license",
+      "repositoryId": "lovecatisgood-sudo/3d-asset-generation-blender-unity-game-development-skills",
+      "path": "D:/03-ARSENAL/warehouse/hunt/exa-skills-2026-09-20/lovecatisgood-sudo__3d-asset-generation-blender-unity-game-development-skills/LICENSE",
+      "sha256": "9f91d52a762cabe2a697fa60b0f4ee2bc5d2ec4f5e0c4193ded193b1058964a2",
+      "observedNotice": "MIT License",
+      "copyright": "Copyright (c) 2026 Siamese Cat Dev and Mr A",
+      "indexLicenseClass": "permissive",
+      "rightsNote": "Root notice inspected in full and preserved in place. Retain copyright and permission notice with any future copied substantial portion; source dependencies, linked examples and external images are not cleared by this observation. Only independent synthesis is proposed."
+    }
+  ],
+  "currentCoverageReadset": [
+    {
+      "path": "product/skills/eternities-arcadia/SKILL.md",
+      "sha256": "ac0ef2950f34981c72dad4143ad3752b289d3f95877ee68aa464195c8818b282",
+      "readStatus": "complete"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/skill.json",
+      "sha256": "eeaefbc6c4c89338b38664002a266cf54c9530e610f44874386bf7284e67933e",
+      "readStatus": "complete"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/methods.md",
+      "sha256": "57853439f2dbc6173e2b627b3d1cdd982c746f8376e86746b2745138b696dfc3",
+      "readStatus": "complete"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/realtime-asset-integration.md",
+      "sha256": "a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41",
+      "readStatus": "complete"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md",
+      "sha256": "a1b65d62b70a689b3e7b1c06871588e4763a04d3987b9d5c833d5b3c7b6da52a",
+      "readStatus": "complete"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/browser-runtime-lifecycle.md",
+      "sha256": "92f138939846c57ad5de1d36fd1c60d11341e29a91fcaecb03c942397ad93853",
+      "readStatus": "complete"
+    },
+    {
+      "path": "product/skills/eternities-muse/SKILL.md",
+      "sha256": "34fccadc01b49dcb8097641a6a6153dabd119dd55ba9f31781c7bfa4c4c1ac73",
+      "readStatus": "complete"
+    },
+    {
+      "path": "product/skills/eternities-muse/skill.json",
+      "sha256": "3c768d293aeda7c7c7b414dc428612185cfbd77ff7526fc8a05bae36bf4a3821",
+      "readStatus": "complete"
+    },
+    {
+      "path": "product/skills/eternities-muse/references/methods.md",
+      "sha256": "44cdaae8e34b83f69c8253f1cb61b4ed3c1af5548e58ef59d4f7e28df7e46b89",
+      "readStatus": "complete"
+    },
+    {
+      "path": "product/skills/performance-release-gating/SKILL.md",
+      "sha256": "e96f776e506d9eb98eb32df919a64c3c30520d99a5317f9b0f5eb1cb6db42de5",
+      "readStatus": "complete"
+    },
+    {
+      "path": "product/skills/performance-release-gating/skill.json",
+      "sha256": "3f8c6b2f9ce4983eb271b553f6369d117f27487e163017d3ea6adcb1b5cb48ff",
+      "readStatus": "complete"
+    },
+    {
+      "path": "product/lib/method-directory.mjs",
+      "sha256": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180",
+      "readStatus": "complete"
+    },
+    {
+      "path": "product/skills/motion-design-and-animation-engineering/SKILL.md",
+      "sha256": "9f9f17e2bf49fa039f11239bbbc0adf9e98df12e21f1c1f8a8f3343d282719ea",
+      "readStatus": "complete"
+    },
+    {
+      "path": "product/skills/motion-design-and-animation-engineering/references/methods.md",
+      "sha256": "8ce10c1e39145b619ef2e692a7dc501711173f2601fba34131a7f58d3399387b",
+      "readStatus": "complete"
+    },
+    {
+      "path": "product/skills/motion-design-and-animation-engineering/skill.json",
+      "sha256": "81e8e2b2ea872cc9460bc867e9383997574af711a9a08fda72e340a313efeea0",
+      "readStatus": "complete"
+    }
+  ],
+  "taskContractReadset": [
+    {
+      "path": "docs/superpowers/specs/2026-10-16-usefulness-release.md",
+      "sha256": "28ee0ac82aeecb44c5bd689744b0cbbb6bd137452f9077f02122459d7dab0d07",
+      "readStatus": "complete"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-16-usefulness-release.md",
+      "sha256": "1956bee1ecef37c98fcae93edcc5da092a31d63ba203344be3203da07d95d3ff",
+      "readStatus": "complete"
+    }
+  ],
+  "guidanceReadset": [
+    {
+      "path": "C:/Users/Dom/.agents/skills/sovereign-skill-refinery/SKILL.md",
+      "sha256": "3b129a831750723e0d42100d989ada2ed140481866ef8dc4e48865a7cea910c5",
+      "readStatus": "complete"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/skills/.system/skill-creator/SKILL.md",
+      "sha256": "cccd291077ec57c6f50ca6529f0f3fb93212da09473effb2fcec808e81b21288",
+      "readStatus": "complete"
+    }
+  ],
+  "limits": [
+    "Working-file digests identify the exact read bytes; HEAD alone is not the byte identity.",
+    "One initial multi-file tool response truncated; omitted ranges were subsequently read before authoring completed.",
+    "No external hyperlinks opened; no source code or HTML scripts executed; no engine or renderer launched.",
+    "UE workflow claims and Unity APIs are not authoritative current-engine verification.",
+    "No evaluation/usefulness-20261016 or other lane bodies read.",
+    "Local source rights observations are not legal clearance or a license change."
+  ]
+}

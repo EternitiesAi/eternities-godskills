@@ -1,0 +1,36 @@
+{
+  "schema": "usefulness-maintained-check-v1",
+  "label": "full-maintained-v1",
+  "start": "2026-10-16T07:58:57.350Z",
+  "finished": "2026-10-16T08:01:14.018Z",
+  "command": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "--test",
+    "--test-concurrency=1",
+    "--test-reporter=tap",
+    "tests/**/*.test.mjs",
+    "examples/**/*.test.mjs",
+    "evaluation/**/*.test.mjs",
+    "product/**/*.test.mjs"
+  ],
+  "exitCode": 1,
+  "error": null,
+  "stableSources": true,
+  "counters": {
+    "tests": 1951,
+    "pass": 1948,
+    "fail": 1,
+    "cancelled": 0,
+    "skipped": 2,
+    "todo": 0,
+    "duration_ms": 136569.0354
+  },
+  "failedLines": [
+    "not ok 1888 - Atlas metadata does not displace delivery, offline-validation, schema, causal, or prospect routes"
+  ],
+  "outputSha256": "17946230c45c87651e0083551b47e697496b533a1df9f1cc5704e1b57df062ae",
+  "privateReceiptSha256": "59d9cd8b4c2c7cc7a57f2516e6da157a1e6846968f26126ff6ebdb5b7e2322f7",
+  "sourceInventorySha256": "832b9c76ea5ec3d1a7a5c68db6b44b88e29fd6a2c1c0fbecee08209b1bb6425a",
+  "afterInventorySha256": "832b9c76ea5ec3d1a7a5c68db6b44b88e29fd6a2c1c0fbecee08209b1bb6425a",
+  "limits": "Original TAP and exact before/after inventories retained in the operation directory; this is a compact receipt."
+}

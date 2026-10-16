@@ -48,6 +48,8 @@ An ordinary status update does not require a cadence redesign.
    agreed scope; compare throughput, queue age, rework, and decision latency with
    the baseline while preserving changes in demand and staffing.
 
+When several queues compete for attention, use [constraint diagnosis](references/constraint-diagnosis-v1.md) to separate ready-work overload, missing inputs, downstream blocking and rework before choosing a capacity or flow intervention.
+
 ## Deliverable and finish
 
 Deliver the revised flow and decision rules, capacity assumptions, WIP and intake

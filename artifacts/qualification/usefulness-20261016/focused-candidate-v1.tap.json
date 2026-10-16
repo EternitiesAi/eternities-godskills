@@ -1,0 +1,33 @@
+{
+  "schema": "usefulness-maintained-check-v1",
+  "label": "focused-candidate-v1",
+  "start": "2026-10-16T07:47:25.181Z",
+  "finished": "2026-10-16T07:47:25.702Z",
+  "command": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "--test",
+    "--test-concurrency=1",
+    "--test-reporter=tap",
+    "tests/usefulness-discovery.test.mjs",
+    "tests/usefulness-refusal-transfer.test.mjs",
+    "evaluation/usefulness-20261016/checks.test.mjs"
+  ],
+  "exitCode": 0,
+  "error": null,
+  "stableSources": true,
+  "counters": {
+    "tests": 73,
+    "pass": 73,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "duration_ms": 436.2342
+  },
+  "failedLines": [],
+  "outputSha256": "c0b1f6049223b3bc58e08a2bcb74f12cdca3f0ac5ef942958faa49ac8daab1aa",
+  "privateReceiptSha256": "12c8d424a75de791d5607610274a2972b5c685e033044eb95746c7dac90ef59d",
+  "sourceInventorySha256": "4c8238d4f4f7ff6670eecfab1350871a384f9c41080bd7dfdabb4061749f606a",
+  "afterInventorySha256": "4c8238d4f4f7ff6670eecfab1350871a384f9c41080bd7dfdabb4061749f606a",
+  "limits": "Original TAP and exact before/after inventories retained in the operation directory; this is a compact receipt."
+}

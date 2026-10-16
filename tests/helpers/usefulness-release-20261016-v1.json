@@ -1,0 +1,643 @@
+{
+  "schema": "usefulness-historical-transition-20261016-v1",
+  "baseline": {
+    "revision": "7c7f2ac98a282ccb2e59c3a4c0424802a4dd72b5",
+    "releaseId": "368d5a716bd3b8069ba5ba858f8db8f7fba8b19c36aa373fc62c19d8a2b55efb",
+    "catalogSha256": "adfa5cfed9ac1c6a3ca8db26522e322aa5106ca031884a4de1d8a61dc1a41b36",
+    "catalogValueSha256": "dee02b51eb99bcab3db19b58d855af0309bdc88fb41beab64b7bbb8e6de66487",
+    "methodDirectorySha256": "902f8fca34b3e1fcc11eefcb10e463360f1a39d33ea0e6bb5265c06d63c3cbcb",
+    "methodDirectoryValueSha256": "bd1636751f4c1d773af26c17d6c2e2948f917b28c25da8ca1e09a66947cd99d9",
+    "methodCount": 21
+  },
+  "changes": [
+    {
+      "id": "eternities-agora",
+      "fields": {
+        "triggers": {
+          "before": [
+            "prospect assessment",
+            "account reconstruction",
+            "client report",
+            "service proposal",
+            "portfolio pipeline",
+            "research proposal",
+            "data room checklist document freshness restricted validation",
+            "customer health signals pipeline stage exit evidence",
+            "escalation decision packet contradictory account signals",
+            "conflicting raise figures across pitch deck memo investor update fact register",
+            "cross artifact business claim consistency and assertion map"
+          ],
+          "after": [
+            "prospect assessment",
+            "account reconstruction",
+            "client report",
+            "service proposal",
+            "portfolio pipeline",
+            "research proposal",
+            "data room checklist document freshness restricted validation",
+            "customer health signals pipeline stage exit evidence",
+            "escalation decision packet contradictory account signals",
+            "conflicting raise figures across pitch deck memo investor update fact register",
+            "cross artifact business claim consistency and assertion map",
+            "commercial discovery questions that distinguish problem fit and adoption feasibility"
+          ]
+        },
+        "entrypointSha256": {
+          "before": "763bae5c52442699d9422e08ad68fdeb7466638f5bba5cbd6dfa04e1754da9ac",
+          "after": "f3e34757a3ff8ac8b067e29101ca05f458c9372fd537ded4cbc2392dce98533c"
+        },
+        "resources": {
+          "before": [
+            {
+              "path": "skills/eternities-agora/references/methods.md",
+              "sha256": "a2df40b3388c5c4565c1d11276af478cf4e2b432a1551dcda5a94977f3daf1af"
+            },
+            {
+              "path": "skills/eternities-agora/references/business-decision-evidence.md",
+              "sha256": "9effd0372e4be72da4d9fdcd454e5b4c3ea313764f118f429b175e103f4ec188"
+            },
+            {
+              "path": "skills/eternities-agora/references/research-funding-proposal.md",
+              "sha256": "6bd7d41a9af3b40dc041ffeab73b8f692aba16910f4c72253e090ba451eee322"
+            }
+          ],
+          "after": [
+            {
+              "path": "skills/eternities-agora/references/methods.md",
+              "sha256": "a2df40b3388c5c4565c1d11276af478cf4e2b432a1551dcda5a94977f3daf1af"
+            },
+            {
+              "path": "skills/eternities-agora/references/business-decision-evidence.md",
+              "sha256": "9effd0372e4be72da4d9fdcd454e5b4c3ea313764f118f429b175e103f4ec188"
+            },
+            {
+              "path": "skills/eternities-agora/references/research-funding-proposal.md",
+              "sha256": "6bd7d41a9af3b40dc041ffeab73b8f692aba16910f4c72253e090ba451eee322"
+            },
+            {
+              "path": "skills/eternities-agora/references/commercial-discovery-v1.md",
+              "sha256": "5ad6fcff45efc590e44e048a4eebced2c1313b89d9ad125644d0661d8db3c588"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "eternities-arcadia",
+      "fields": {
+        "triggers": {
+          "before": [
+            "game direction",
+            "playable prototype",
+            "runtime game system",
+            "player experience",
+            "map approved player-facing requirements to game screens, states, and reachable flows",
+            "game accessibility",
+            "game release proof",
+            "spatial interaction",
+            "design interactive WebGL shader and particle effects with camera controls",
+            "browser canvas resize pointer coordinates animation loops",
+            "hidden tab simulation delta focus pressed keys input",
+            "scene teardown stale asset loading GPU resource ownership",
+            "integrate imported glTF FBX meshes and models into Three.js Unity Unreal interactive scenes",
+            "check mesh units scale coordinate axes pivot and material slots after import",
+            "verify textures UV channels normal maps collision rigs animation and root motion in a game",
+            "qualify model dependencies and decoder files in packaged builds beyond editor preview",
+            "character silhouette and readability at the gameplay camera",
+            "camera-critical game asset iteration and motion revision consistency"
+          ],
+          "after": [
+            "game direction",
+            "playable prototype",
+            "runtime game system",
+            "player experience",
+            "map approved player-facing requirements to game screens, states, and reachable flows",
+            "game accessibility",
+            "game release proof",
+            "spatial interaction",
+            "design interactive WebGL shader and particle effects with camera controls",
+            "browser canvas resize pointer coordinates animation loops",
+            "hidden tab simulation delta focus pressed keys input",
+            "scene teardown stale asset loading GPU resource ownership",
+            "integrate imported glTF FBX meshes and models into Three.js Unity Unreal interactive scenes",
+            "check mesh units scale coordinate axes pivot and material slots after import",
+            "verify textures UV channels normal maps collision rigs animation and root motion in a game",
+            "qualify model dependencies and decoder files in packaged builds beyond editor preview",
+            "character silhouette and readability at the gameplay camera",
+            "camera-critical game asset iteration and motion revision consistency",
+            "construct or debug an interactive shader effect, mask, transparency or postprocess pass",
+            "separate lighting environment from material roughness or reflection response in an interactive scene",
+            "skeletal attack interrupted during blend leaves damage notify or root motion active",
+            "diagnose missed frame budget GPU CPU render thread pacing first-use hitch"
+          ]
+        },
+        "entrypointSha256": {
+          "before": "ac0ef2950f34981c72dad4143ad3752b289d3f95877ee68aa464195c8818b282",
+          "after": "845c2af02029493164d7f939d2a46ead4137e8b8ee8d4f73ff0b3e15883d966e"
+        },
+        "resources": {
+          "before": [
+            {
+              "path": "skills/eternities-arcadia/references/core-loop-playtest-v1.md",
+              "sha256": "305e082e9e3d57729fe10e4ad9865b1468333e661f7530469ef17a70fc07490a"
+            },
+            {
+              "path": "skills/eternities-arcadia/references/methods.md",
+              "sha256": "57853439f2dbc6173e2b627b3d1cdd982c746f8376e86746b2745138b696dfc3"
+            },
+            {
+              "path": "skills/eternities-arcadia/references/game-state-to-audio-cue.md",
+              "sha256": "f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f"
+            },
+            {
+              "path": "skills/eternities-arcadia/references/browser-runtime-lifecycle.md",
+              "sha256": "92f138939846c57ad5de1d36fd1c60d11341e29a91fcaecb03c942397ad93853"
+            },
+            {
+              "path": "skills/eternities-arcadia/references/requirement-screen-state-traceability.md",
+              "sha256": "e26439a9761aebd5fabd6ac65865744063c6ce0ae26aaaadcc7d7fdb93d1f34a"
+            },
+            {
+              "path": "skills/eternities-arcadia/references/realtime-asset-integration.md",
+              "sha256": "a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41"
+            },
+            {
+              "path": "skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md",
+              "sha256": "a1b65d62b70a689b3e7b1c06871588e4763a04d3987b9d5c833d5b3c7b6da52a"
+            }
+          ],
+          "after": [
+            {
+              "path": "skills/eternities-arcadia/references/core-loop-playtest-v1.md",
+              "sha256": "305e082e9e3d57729fe10e4ad9865b1468333e661f7530469ef17a70fc07490a"
+            },
+            {
+              "path": "skills/eternities-arcadia/references/methods.md",
+              "sha256": "57853439f2dbc6173e2b627b3d1cdd982c746f8376e86746b2745138b696dfc3"
+            },
+            {
+              "path": "skills/eternities-arcadia/references/game-state-to-audio-cue.md",
+              "sha256": "f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f"
+            },
+            {
+              "path": "skills/eternities-arcadia/references/browser-runtime-lifecycle.md",
+              "sha256": "92f138939846c57ad5de1d36fd1c60d11341e29a91fcaecb03c942397ad93853"
+            },
+            {
+              "path": "skills/eternities-arcadia/references/requirement-screen-state-traceability.md",
+              "sha256": "e26439a9761aebd5fabd6ac65865744063c6ce0ae26aaaadcc7d7fdb93d1f34a"
+            },
+            {
+              "path": "skills/eternities-arcadia/references/realtime-asset-integration.md",
+              "sha256": "a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41"
+            },
+            {
+              "path": "skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md",
+              "sha256": "a1b65d62b70a689b3e7b1c06871588e4763a04d3987b9d5c833d5b3c7b6da52a"
+            },
+            {
+              "path": "skills/eternities-arcadia/references/shader-effect-construction.md",
+              "sha256": "a2ecfad39a1b3d5cb2bc98baea4539dc411fe39294de55a7c09962ca74cbadb1"
+            },
+            {
+              "path": "skills/eternities-arcadia/references/lighting-material-calibration.md",
+              "sha256": "068379b7ca96da9ce2bb9e281acb66af47cd0c750fb4984139db06679c848e5f"
+            },
+            {
+              "path": "skills/eternities-arcadia/references/animation-interruption-transitions.md",
+              "sha256": "5c43f1e601b2b814346e3b6519e1e8419bd6b89d6270e8ffdad82364e0693411"
+            },
+            {
+              "path": "skills/eternities-arcadia/references/frame-budget-diagnosis.md",
+              "sha256": "d7e348fe98bcac368c4f8bf5dc8d18b039050d2c746608a50f3a42f63b89672b"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "eternities-beacon",
+      "fields": {
+        "triggers": {
+          "before": [
+            "market positioning",
+            "positioning and landing page copy against buyer alternatives and existing workarounds",
+            "homepage value proposition and product promise with proof against the customer's current workaround",
+            "offer design",
+            "discoverability audit",
+            "go to market",
+            "conversion funnel",
+            "retention recovery",
+            "growth measurement",
+            "creator sponsorship obligation tracking with dated evidence",
+            "creator campaign slate feasibility with quoted usage fees and deliverable coverage"
+          ],
+          "after": [
+            "market positioning",
+            "positioning and landing page copy against buyer alternatives and existing workarounds",
+            "homepage value proposition and product promise with proof against the customer's current workaround",
+            "offer design",
+            "discoverability audit",
+            "go to market",
+            "conversion funnel",
+            "retention recovery",
+            "growth measurement",
+            "creator sponsorship obligation tracking with dated evidence",
+            "creator campaign slate feasibility with quoted usage fees and deliverable coverage",
+            "customer onboarding blocked before first useful outcome"
+          ]
+        },
+        "entrypointSha256": {
+          "before": "0456fd877c1d18c3c717998f4eb2b4264a6911f62a1362df6e3356948b9af222",
+          "after": "8fcac4ef90fabc44873d90c61ed60d4e1cf8da799889ab39da00199ae40aa1f6"
+        },
+        "resources": {
+          "before": [
+            {
+              "path": "skills/eternities-beacon/references/positioning-to-message-v1.md",
+              "sha256": "57da15f76572e5af9dde41cf4c5703d83f045cbb701b0284dfcd45d8e46c94d8"
+            },
+            {
+              "path": "skills/eternities-beacon/references/methods.md",
+              "sha256": "efe539cfe35bf9703869d43cdaddedd2b29edb14c72525a5c9645fcf2a0eb2ed"
+            },
+            {
+              "path": "skills/eternities-beacon/references/creator-sponsorship-lifecycle.md",
+              "sha256": "4063b7c5ce3e283fbe6975b7644ffde1bf8283ce499ca77dc293e60bb7ba0d5e"
+            },
+            {
+              "path": "skills/eternities-beacon/references/creator-slate-feasibility-v1.md",
+              "sha256": "b1ab3ac4a2570311de7139e605e23cb8bfe122d89d578578288c1b1c8ed34dc1"
+            }
+          ],
+          "after": [
+            {
+              "path": "skills/eternities-beacon/references/positioning-to-message-v1.md",
+              "sha256": "57da15f76572e5af9dde41cf4c5703d83f045cbb701b0284dfcd45d8e46c94d8"
+            },
+            {
+              "path": "skills/eternities-beacon/references/methods.md",
+              "sha256": "efe539cfe35bf9703869d43cdaddedd2b29edb14c72525a5c9645fcf2a0eb2ed"
+            },
+            {
+              "path": "skills/eternities-beacon/references/creator-sponsorship-lifecycle.md",
+              "sha256": "4063b7c5ce3e283fbe6975b7644ffde1bf8283ce499ca77dc293e60bb7ba0d5e"
+            },
+            {
+              "path": "skills/eternities-beacon/references/creator-slate-feasibility-v1.md",
+              "sha256": "b1ab3ac4a2570311de7139e605e23cb8bfe122d89d578578288c1b1c8ed34dc1"
+            },
+            {
+              "path": "skills/eternities-beacon/references/customer-onboarding-v1.md",
+              "sha256": "1dbd93629607568a717e05d63d1ea6b6c378ca6907d2363b8cb9bee9997fcb01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "evidence-linked-learning-design",
+      "fields": {
+        "triggers": {
+          "before": [
+            "lesson planning curriculum course training",
+            "learning outcomes teaching assessment",
+            "differentiate instruction for varied prior knowledge",
+            "substitute teacher facilitator handoff classroom cover notes",
+            "student report comments teacher observations achievement judgments",
+            "contrastive learner practice feedback and transfer tasks"
+          ],
+          "after": [
+            "lesson planning curriculum course training",
+            "learning outcomes teaching assessment",
+            "differentiate instruction for varied prior knowledge",
+            "substitute teacher facilitator handoff classroom cover notes",
+            "student report comments teacher observations achievement judgments",
+            "contrastive learner practice feedback and transfer tasks",
+            "choose next practice item from ambiguous learner response and competing explanations"
+          ]
+        },
+        "entrypointSha256": {
+          "before": "a91d5ffe526e92ed72c541816d6c0310f5ab2d56b82f2c5f91960b778bbed606",
+          "after": "22d21b5fcc6a168aa51f00046ae1200c7f04ddea9e4930a9351779df6722f0d0"
+        },
+        "resources": {
+          "before": [
+            {
+              "path": "skills/evidence-linked-learning-design/references/handoffs-and-reporting.md",
+              "sha256": "8722eaf7532007db27228e1b699fc0835cf46229a605801fb5cdc154924e870c"
+            },
+            {
+              "path": "skills/evidence-linked-learning-design/references/educational-microsimulation.md",
+              "sha256": "4f42471a7b33b9af45203a54eb82a3c95c6c19106446e0b9097006daff2f3b2e"
+            },
+            {
+              "path": "skills/evidence-linked-learning-design/references/support-transition.md",
+              "sha256": "470484b186df4978ec4c5e817990d25c0a2ad200dbf6ef1bea6441f43372d954"
+            },
+            {
+              "path": "skills/evidence-linked-learning-design/references/practice-and-transfer-v1.md",
+              "sha256": "8625e567db5d4f68c267bd4743e555885115fabcbd253b67f768e2031826aa9f"
+            }
+          ],
+          "after": [
+            {
+              "path": "skills/evidence-linked-learning-design/references/handoffs-and-reporting.md",
+              "sha256": "8722eaf7532007db27228e1b699fc0835cf46229a605801fb5cdc154924e870c"
+            },
+            {
+              "path": "skills/evidence-linked-learning-design/references/educational-microsimulation.md",
+              "sha256": "4f42471a7b33b9af45203a54eb82a3c95c6c19106446e0b9097006daff2f3b2e"
+            },
+            {
+              "path": "skills/evidence-linked-learning-design/references/support-transition.md",
+              "sha256": "470484b186df4978ec4c5e817990d25c0a2ad200dbf6ef1bea6441f43372d954"
+            },
+            {
+              "path": "skills/evidence-linked-learning-design/references/practice-and-transfer-v1.md",
+              "sha256": "8625e567db5d4f68c267bd4743e555885115fabcbd253b67f768e2031826aa9f"
+            },
+            {
+              "path": "skills/evidence-linked-learning-design/references/adaptive-practice-v1.md",
+              "sha256": "fd59e825efd7e27718ce02518ed17d011e0d4993b90c7ea93665a825069d9b10"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "operating-cadence-and-decision-accountability",
+      "fields": {
+        "triggers": {
+          "before": [
+            "operating rhythm with accountable decisions",
+            "founder approval bottlenecks",
+            "delegating decision rights within an authority boundary",
+            "exception delegation with an owner and expiry",
+            "work in progress limits and intake capacity",
+            "aging cross-team decision queue",
+            "capacity and WIP intake policy",
+            "repeated priority exceptions",
+            "reviews that produce no owned actions"
+          ],
+          "after": [
+            "operating rhythm with accountable decisions",
+            "founder approval bottlenecks",
+            "delegating decision rights within an authority boundary",
+            "exception delegation with an owner and expiry",
+            "work in progress limits and intake capacity",
+            "aging cross-team decision queue",
+            "capacity and WIP intake policy",
+            "repeated priority exceptions",
+            "reviews that produce no owned actions",
+            "identify throughput constraint versus largest queue and shared resource load"
+          ]
+        },
+        "entrypointSha256": {
+          "before": "a03d89234106b30da8e99ffe6e738f58408e03727d2909431a119aca6b5c56c1",
+          "after": "ba3541137a4c61729c58562133889cc5872d54d212dfe587f71ceed0532a2afd"
+        },
+        "resources": {
+          "before": [
+            {
+              "path": "skills/operating-cadence-and-decision-accountability/references/methods.md",
+              "sha256": "32ddd3dfe2b8085e6ded14aa562e47761fb2d47f085154bcc9409ad49fff5f7d"
+            }
+          ],
+          "after": [
+            {
+              "path": "skills/operating-cadence-and-decision-accountability/references/methods.md",
+              "sha256": "32ddd3dfe2b8085e6ded14aa562e47761fb2d47f085154bcc9409ad49fff5f7d"
+            },
+            {
+              "path": "skills/operating-cadence-and-decision-accountability/references/constraint-diagnosis-v1.md",
+              "sha256": "70bbb61d77eb77638375d8368a341583fb6c5660828456b5ab69cf2b477f59e1"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "newMethods": [
+    {
+      "id": "shader-effect-construction",
+      "title": "Shader/effect construction and fault isolation",
+      "owner": "eternities-arcadia",
+      "resource": "skills/eternities-arcadia/references/shader-effect-construction.md",
+      "resourceSha256": "a2ecfad39a1b3d5cb2bc98baea4539dc411fe39294de55a7c09962ca74cbadb1",
+      "tasks": [
+        "Construct a bounded interactive shader/effect and isolate wrong or missing output."
+      ],
+      "exclusions": [
+        "Routine material slot or import repair",
+        "Aesthetic direction without a rendered effect mechanism"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Separate non-author document review, exact integration closure and a different worked fictional transfer case. No live-domain, renderer or matched-agent performance result.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact conditional method and additive owner integration; independent review is separate from real-world execution and outcome.",
+        "receipt": "evidence/method-reviews/usefulness-v1/receipt.json",
+        "receiptSha256": "0332153084e7b6445feda1fa163430595dc9679f6215b7caae721bf928eb56d8",
+        "report": "evidence/method-reviews/usefulness-v1/report.md",
+        "reportSha256": "5a4a9f2cf6c23f5daba9d1cc0abea3ba63913baba1b9cfc6d76df588154a6772",
+        "resourceBinding": {
+          "pathPointer": "/methodBindings/0/path",
+          "sha256Pointer": "/methodBindings/0/sha256"
+        }
+      }
+    },
+    {
+      "id": "lighting-material-calibration",
+      "title": "Separating lighting from material response",
+      "owner": "eternities-arcadia",
+      "resource": "skills/eternities-arcadia/references/lighting-material-calibration.md",
+      "resourceSha256": "068379b7ca96da9ce2bb9e281acb66af47cd0c750fb4984139db06679c848e5f",
+      "tasks": [
+        "Separate a lighting/environment defect from material response and calibrate the relevant parameter against the intended game view."
+      ],
+      "exclusions": [
+        "Routine import encoding/channel repair already diagnosed",
+        "Physical reflectance certification or an unrequested realism conversion"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Separate non-author document review, exact integration closure and a different worked fictional transfer case. No live-domain, renderer or matched-agent performance result.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact conditional method and additive owner integration; independent review is separate from real-world execution and outcome.",
+        "receipt": "evidence/method-reviews/usefulness-v1/receipt.json",
+        "receiptSha256": "0332153084e7b6445feda1fa163430595dc9679f6215b7caae721bf928eb56d8",
+        "report": "evidence/method-reviews/usefulness-v1/report.md",
+        "reportSha256": "5a4a9f2cf6c23f5daba9d1cc0abea3ba63913baba1b9cfc6d76df588154a6772",
+        "resourceBinding": {
+          "pathPointer": "/methodBindings/1/path",
+          "sha256Pointer": "/methodBindings/1/sha256"
+        }
+      }
+    },
+    {
+      "id": "animation-interruption-transitions",
+      "title": "Gameplay events and movement during animation interruption",
+      "owner": "eternities-arcadia",
+      "resource": "skills/eternities-arcadia/references/animation-interruption-transitions.md",
+      "resourceSha256": "5c43f1e601b2b814346e3b6519e1e8419bd6b89d6270e8ffdad82364e0693411",
+      "tasks": [
+        "Resolve gameplay-event authorization, layered pose and displacement when a skeletal action is interrupted."
+      ],
+      "exclusions": [
+        "Interruptible drawers, dialogs or layout transitions served by the motion specialist",
+        "Routine clip import or deformation-only diagnosis"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Separate non-author document review, exact integration closure and a different worked fictional transfer case. No live-domain, renderer or matched-agent performance result.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact conditional method and additive owner integration; independent review is separate from real-world execution and outcome.",
+        "receipt": "evidence/method-reviews/usefulness-v1/receipt.json",
+        "receiptSha256": "0332153084e7b6445feda1fa163430595dc9679f6215b7caae721bf928eb56d8",
+        "report": "evidence/method-reviews/usefulness-v1/report.md",
+        "reportSha256": "5a4a9f2cf6c23f5daba9d1cc0abea3ba63913baba1b9cfc6d76df588154a6772",
+        "resourceBinding": {
+          "pathPointer": "/methodBindings/2/path",
+          "sha256Pointer": "/methodBindings/2/sha256"
+        }
+      }
+    },
+    {
+      "id": "frame-budget-diagnosis",
+      "title": "Locating a missed interactive frame budget",
+      "owner": "eternities-arcadia",
+      "resource": "skills/eternities-arcadia/references/frame-budget-diagnosis.md",
+      "resourceSha256": "d7e348fe98bcac368c4f8bf5dc8d18b039050d2c746608a50f3a42f63b89672b",
+      "tasks": [
+        "Determine which work or wait causes missed interactive frame intervals and choose a falsifiable probe."
+      ],
+      "exclusions": [
+        "An already characterized candidate needs only a repeatable release gate",
+        "Network latency, ordinary page loading or offline render throughput"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Separate non-author document review, exact integration closure and a different worked fictional transfer case. No live-domain, renderer or matched-agent performance result.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact conditional method and additive owner integration; independent review is separate from real-world execution and outcome.",
+        "receipt": "evidence/method-reviews/usefulness-v1/receipt.json",
+        "receiptSha256": "0332153084e7b6445feda1fa163430595dc9679f6215b7caae721bf928eb56d8",
+        "report": "evidence/method-reviews/usefulness-v1/report.md",
+        "reportSha256": "5a4a9f2cf6c23f5daba9d1cc0abea3ba63913baba1b9cfc6d76df588154a6772",
+        "resourceBinding": {
+          "pathPointer": "/methodBindings/3/path",
+          "sha256Pointer": "/methodBindings/3/sha256"
+        }
+      }
+    },
+    {
+      "id": "usefulness-commercial-discovery-v1",
+      "title": "Commercial discovery and qualification",
+      "owner": "eternities-agora",
+      "resource": "skills/eternities-agora/references/commercial-discovery-v1.md",
+      "resourceSha256": "5ad6fcff45efc590e44e048a4eebced2c1313b89d9ad125644d0661d8db3c588",
+      "tasks": [
+        "Recent-event contrast plus answer-to-action question selection and a bounded fit test; no new qualification score."
+      ],
+      "exclusions": [
+        "Routine account summary or a settled stage calculation"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Separate non-author document review, exact integration closure and a different worked fictional transfer case. No live-domain, renderer or matched-agent performance result.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact conditional method and additive owner integration; independent review is separate from real-world execution and outcome.",
+        "receipt": "evidence/method-reviews/usefulness-v1/receipt.json",
+        "receiptSha256": "0332153084e7b6445feda1fa163430595dc9679f6215b7caae721bf928eb56d8",
+        "report": "evidence/method-reviews/usefulness-v1/report.md",
+        "reportSha256": "5a4a9f2cf6c23f5daba9d1cc0abea3ba63913baba1b9cfc6d76df588154a6772",
+        "resourceBinding": {
+          "pathPointer": "/methodBindings/4/path",
+          "sha256Pointer": "/methodBindings/4/sha256"
+        }
+      }
+    },
+    {
+      "id": "usefulness-customer-onboarding-v1",
+      "title": "Customer onboarding",
+      "owner": "eternities-beacon",
+      "resource": "skills/eternities-beacon/references/customer-onboarding-v1.md",
+      "resourceSha256": "1dbd93629607568a717e05d63d1ea6b6c378ca6907d2363b8cb9bee9997fcb01",
+      "tasks": [
+        "Backward dependency path from an accepted first result; classify stalled transition and preserve cohort opportunity windows."
+      ],
+      "exclusions": [
+        "Signup copy edit, employee induction or a settled activation report"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Separate non-author document review, exact integration closure and a different worked fictional transfer case. No live-domain, renderer or matched-agent performance result.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact conditional method and additive owner integration; independent review is separate from real-world execution and outcome.",
+        "receipt": "evidence/method-reviews/usefulness-v1/receipt.json",
+        "receiptSha256": "0332153084e7b6445feda1fa163430595dc9679f6215b7caae721bf928eb56d8",
+        "report": "evidence/method-reviews/usefulness-v1/report.md",
+        "reportSha256": "5a4a9f2cf6c23f5daba9d1cc0abea3ba63913baba1b9cfc6d76df588154a6772",
+        "resourceBinding": {
+          "pathPointer": "/methodBindings/5/path",
+          "sha256Pointer": "/methodBindings/5/sha256"
+        }
+      }
+    },
+    {
+      "id": "usefulness-constraint-diagnosis-v1",
+      "title": "Operational bottleneck analysis",
+      "owner": "operating-cadence-and-decision-accountability",
+      "resource": "skills/operating-cadence-and-decision-accountability/references/constraint-diagnosis-v1.md",
+      "resourceSha256": "70bbb61d77eb77638375d8368a341583fb6c5660828456b5ab69cf2b477f59e1",
+      "tasks": [
+        "Class-specific resource reconciliation, observed ready/blocked states, and a simple assumption-bound counterfactual ceiling before intervention."
+      ],
+      "exclusions": [
+        "Status update or a known limiting dependency and remedy"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Separate non-author document review, exact integration closure and a different worked fictional transfer case. No live-domain, renderer or matched-agent performance result.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact conditional method and additive owner integration; independent review is separate from real-world execution and outcome.",
+        "receipt": "evidence/method-reviews/usefulness-v1/receipt.json",
+        "receiptSha256": "0332153084e7b6445feda1fa163430595dc9679f6215b7caae721bf928eb56d8",
+        "report": "evidence/method-reviews/usefulness-v1/report.md",
+        "reportSha256": "5a4a9f2cf6c23f5daba9d1cc0abea3ba63913baba1b9cfc6d76df588154a6772",
+        "resourceBinding": {
+          "pathPointer": "/methodBindings/6/path",
+          "sha256Pointer": "/methodBindings/6/sha256"
+        }
+      }
+    },
+    {
+      "id": "usefulness-adaptive-practice-v1",
+      "title": "Adaptive practice",
+      "owner": "evidence-linked-learning-design",
+      "resource": "skills/evidence-linked-learning-design/references/adaptive-practice-v1.md",
+      "resourceSha256": "fd59e825efd7e27718ce02518ed17d011e0d4993b90c7ea93665a825069d9b10",
+      "tasks": [
+        "Response-collision probe with prewritten branch actions, independently checked answer key, fresh items, and bounded uncertainty."
+      ],
+      "exclusions": [
+        "Fixed worksheet, certification or automated learner ranking"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Separate non-author document review, exact integration closure and a different worked fictional transfer case. No live-domain, renderer or matched-agent performance result.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact conditional method and additive owner integration; independent review is separate from real-world execution and outcome.",
+        "receipt": "evidence/method-reviews/usefulness-v1/receipt.json",
+        "receiptSha256": "0332153084e7b6445feda1fa163430595dc9679f6215b7caae721bf928eb56d8",
+        "report": "evidence/method-reviews/usefulness-v1/report.md",
+        "reportSha256": "5a4a9f2cf6c23f5daba9d1cc0abea3ba63913baba1b9cfc6d76df588154a6772",
+        "resourceBinding": {
+          "pathPointer": "/methodBindings/7/path",
+          "sha256Pointer": "/methodBindings/7/sha256"
+        }
+      }
+    }
+  ]
+}

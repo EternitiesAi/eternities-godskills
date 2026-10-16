@@ -1,0 +1,399 @@
+{
+  "observedAt": "2026-10-16T07:17:55.0393062Z",
+  "root": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003",
+  "baseline": "7c7f2ac98a282ccb2e59c3a4c0424802a4dd72b5",
+  "branch": "feat/usefulness-release-20261016",
+  "index": {
+    "path": "D:/03-ARSENAL/warehouse/REPOSITORY-INDEX.json",
+    "sha256": "8a7444815944c5bc6acca5d6d77d760fe25298f1b07889744e7d0f3a7b12dc54"
+  },
+  "sources": [
+    {
+      "id": "discovery",
+      "repository": "msitarzewski/agency-agents",
+      "repositoryPath": "D:\\03-ARSENAL\\warehouse\\catalog-c\\agent-skills\\agency-agents",
+      "relativePath": "sales/sales-discovery-coach.md",
+      "indexHead": "ad9264e309bd5e5422c04784372d7841b1e5d604",
+      "observedHead": "ad9264e309bd5e5422c04784372d7841b1e5d604",
+      "sha256": "8244a25e5b8785058b19ef92dca9e543a2c990e4dde1166d194f14514e3ae278",
+      "bytes": 13591,
+      "headBlob": "76b82c89c7a3f90d784d8ae2e893d914b1d6dc7b",
+      "observedBlob": "76b82c89c7a3f90d784d8ae2e893d914b1d6dc7b",
+      "indexLicenseClass": "permissive",
+      "indexLicenseEvidence": "local root license heuristic; not compatibility certification",
+      "disposition": "pattern-reference",
+      "selectedOrRetainedMechanism": "Use a recent problem instance, contrast with non-problem instances, and make next-step fit explicit.",
+      "excludedOrWeakMechanism": "Reject persona, claimed experience, fixed timing/ratios, unsupported objection frequencies and pressure to deepen personal pain. Question-to-action branches are original refinement.",
+      "readStatus": "full-body-inspected-as-inert-evidence",
+      "licenseNoticeRef": "licenses[repository=msitarzewski/agency-agents]",
+      "licenseObserved": "MIT root notice",
+      "rightsBoundary": "Root notice is evidence, not broader compatibility or rights certification.",
+      "identity": "msitarzewski/agency-agents@ad9264e309bd5e5422c04784372d7841b1e5d604:sales/sales-discovery-coach.md",
+      "matchesHeadBytes": true
+    },
+    {
+      "id": "operations",
+      "repository": "msitarzewski/agency-agents",
+      "repositoryPath": "D:\\03-ARSENAL\\warehouse\\catalog-c\\agent-skills\\agency-agents",
+      "relativePath": "specialized/operations-manager.md",
+      "indexHead": "ad9264e309bd5e5422c04784372d7841b1e5d604",
+      "observedHead": "ad9264e309bd5e5422c04784372d7841b1e5d604",
+      "sha256": "3c133a31ae1542922444d77d7c8f9964127704ba94638dde12e37a9ad0fd35bd",
+      "bytes": 19209,
+      "headBlob": "c4ff42a209ca1e5ef4717bc1183a7e6fd3128fb7",
+      "observedBlob": "c4ff42a209ca1e5ef4717bc1183a7e6fd3128fb7",
+      "indexLicenseClass": "permissive",
+      "indexLicenseEvidence": "local root license heuristic; not compatibility certification",
+      "disposition": "pattern-reference",
+      "selectedOrRetainedMechanism": "Existing owner's recorded source; retain its system-wide constraint and rework awareness.",
+      "excludedOrWeakMechanism": "Existing capacity/cadence mechanisms are adequate. New writing makes ready/blocked/shared-resource counterfactuals explicit; no imported utilization targets or framework mandate.",
+      "readStatus": "full-body-inspected-as-inert-evidence",
+      "licenseNoticeRef": "licenses[repository=msitarzewski/agency-agents]",
+      "licenseObserved": "MIT root notice",
+      "rightsBoundary": "Root notice is evidence, not broader compatibility or rights certification.",
+      "identity": "msitarzewski/agency-agents@ad9264e309bd5e5422c04784372d7841b1e5d604:specialized/operations-manager.md",
+      "matchesHeadBytes": true
+    },
+    {
+      "id": "bottleneck",
+      "repository": "jeremylongworth-source/AgentSkills",
+      "repositoryPath": "D:\\03-ARSENAL\\warehouse\\hunt\\exa-skills-2026-09-20\\jeremylongworth-source__AgentSkills",
+      "relativePath": "skills/ops-bottleneck-review/SKILL.md",
+      "indexHead": "ebf24796e884b9196bdb47373d53dcc547466730",
+      "observedHead": "ebf24796e884b9196bdb47373d53dcc547466730",
+      "sha256": "f51b261e9e83abcc1e3b6a8b23148ad1b191740ed343b747454a98effdbb24dd",
+      "bytes": 1602,
+      "headBlob": "2da60187361947e7f51ce70560d853ffd012dc2a",
+      "observedBlob": "2da60187361947e7f51ce70560d853ffd012dc2a",
+      "indexLicenseClass": "permissive",
+      "indexLicenseEvidence": "local root license heuristic; not compatibility certification",
+      "disposition": "rejected",
+      "selectedOrRetainedMechanism": "Generic symptom/hypothesis/constraint separation is already adequately covered.",
+      "excludedOrWeakMechanism": "No extra skill or generic bottleneck map justified by this source; refine specific diagnosis under existing owner instead.",
+      "readStatus": "full-body-inspected-as-inert-evidence",
+      "licenseNoticeRef": "licenses[repository=jeremylongworth-source/AgentSkills]",
+      "licenseObserved": "MIT root notice",
+      "rightsBoundary": "Root notice is evidence, not broader compatibility or rights certification.",
+      "identity": "jeremylongworth-source/AgentSkills@ebf24796e884b9196bdb47373d53dcc547466730:skills/ops-bottleneck-review/SKILL.md",
+      "matchesHeadBytes": true
+    },
+    {
+      "id": "bottleneck-checklist",
+      "repository": "jeremylongworth-source/AgentSkills",
+      "repositoryPath": "D:\\03-ARSENAL\\warehouse\\hunt\\exa-skills-2026-09-20\\jeremylongworth-source__AgentSkills",
+      "relativePath": "skills/ops-bottleneck-review/references/ops-bottleneck-review-checklist.md",
+      "indexHead": "ebf24796e884b9196bdb47373d53dcc547466730",
+      "observedHead": "ebf24796e884b9196bdb47373d53dcc547466730",
+      "sha256": "a1c5095936564c241b2df7ed66b3232e1c5f92c80294a737ff9181a88470dc62",
+      "bytes": 390,
+      "headBlob": "eee1537390991fa143d0271036988f33cb082452",
+      "observedBlob": "eee1537390991fa143d0271036988f33cb082452",
+      "indexLicenseClass": "permissive",
+      "indexLicenseEvidence": "local root license heuristic; not compatibility certification",
+      "disposition": "rejected",
+      "selectedOrRetainedMechanism": "Checklist categories and action fields duplicate existing coverage.",
+      "excludedOrWeakMechanism": "No copied checklist or extra required paperwork.",
+      "readStatus": "full-body-inspected-as-inert-evidence",
+      "licenseNoticeRef": "licenses[repository=jeremylongworth-source/AgentSkills]",
+      "licenseObserved": "MIT root notice",
+      "rightsBoundary": "Root notice is evidence, not broader compatibility or rights certification.",
+      "identity": "jeremylongworth-source/AgentSkills@ebf24796e884b9196bdb47373d53dcc547466730:skills/ops-bottleneck-review/references/ops-bottleneck-review-checklist.md",
+      "matchesHeadBytes": true
+    },
+    {
+      "id": "practice",
+      "repository": "GarethManning/education-agent-skills",
+      "repositoryPath": "D:\\03-ARSENAL\\warehouse\\from-stars\\GarethManning__education-agent-skills",
+      "relativePath": "skills/explicit-instruction/practice-problem-sequence-designer/SKILL.md",
+      "indexHead": "6bbbce418f82e11044009c9f3b7373a354de5bd0",
+      "observedHead": "6bbbce418f82e11044009c9f3b7373a354de5bd0",
+      "sha256": "3bcf66d76461040cf92e325f4466aef34d4c675eae4d2d4c61950e6dc79654e2",
+      "bytes": 19960,
+      "headBlob": "ace870ea5e6423f6e731fb0e376dc2d6364a64c8",
+      "observedBlob": "ace870ea5e6423f6e731fb0e376dc2d6364a64c8",
+      "indexLicenseClass": "unreviewed",
+      "indexLicenseEvidence": "local root license heuristic; not compatibility certification",
+      "disposition": "pattern-reference",
+      "selectedOrRetainedMechanism": "Contrasting problems expose what a response can and cannot distinguish; current practice/transfer reference already covers most of this.",
+      "excludedOrWeakMechanism": "Retain existing contrast/transfer method. Reject automatic fading, assumed prior teaching, fixed problem positions, success thresholds, learner labels and unverified research-strength claims.",
+      "readStatus": "full-body-inspected-as-inert-evidence",
+      "licenseNoticeRef": "licenses[repository=GarethManning/education-agent-skills]",
+      "licenseObserved": "CC-BY-SA-4.0 human-readable root notice; index remains unreviewed",
+      "rightsBoundary": "Compatibility and whether proposed independent writing constitutes adaptation require parent/reviewer determination before adoption; no source hold cleared.",
+      "identity": "GarethManning/education-agent-skills@6bbbce418f82e11044009c9f3b7373a354de5bd0:skills/explicit-instruction/practice-problem-sequence-designer/SKILL.md",
+      "matchesHeadBytes": true
+    },
+    {
+      "id": "hints",
+      "repository": "GarethManning/education-agent-skills",
+      "repositoryPath": "D:\\03-ARSENAL\\warehouse\\from-stars\\GarethManning__education-agent-skills",
+      "relativePath": "skills/ai-learning-science/adaptive-hint-sequence-designer/SKILL.md",
+      "indexHead": "6bbbce418f82e11044009c9f3b7373a354de5bd0",
+      "observedHead": "6bbbce418f82e11044009c9f3b7373a354de5bd0",
+      "sha256": "4f59e3a5e681dbeb72db4c703a96f1dc53c44c4c9ec18df534071fcd7972882a",
+      "bytes": 21878,
+      "headBlob": "d1c3edc56d21b047ee063cc5e9c00bafeed84b8d",
+      "observedBlob": "d1c3edc56d21b047ee063cc5e9c00bafeed84b8d",
+      "indexLicenseClass": "unreviewed",
+      "indexLicenseEvidence": "local root license heuristic; not compatibility certification",
+      "disposition": "pattern-reference",
+      "selectedOrRetainedMechanism": "Error-specific branching and prerequisite checks inform a bounded next-item decision; source's own limitations acknowledge linear-cascade weakness.",
+      "excludedOrWeakMechanism": "Reject timed escalation, learner-profile labels, forced help delay and automatic aid withdrawal. Source example treats divide-first algebra as erroneous; candidate explicitly accepts equivalent transformations. No source research claims are adopted.",
+      "readStatus": "full-body-inspected-as-inert-evidence",
+      "licenseNoticeRef": "licenses[repository=GarethManning/education-agent-skills]",
+      "licenseObserved": "CC-BY-SA-4.0 human-readable root notice; index remains unreviewed",
+      "rightsBoundary": "Compatibility and whether proposed independent writing constitutes adaptation require parent/reviewer determination before adoption; no source hold cleared.",
+      "identity": "GarethManning/education-agent-skills@6bbbce418f82e11044009c9f3b7373a354de5bd0:skills/ai-learning-science/adaptive-hint-sequence-designer/SKILL.md",
+      "matchesHeadBytes": true
+    },
+    {
+      "id": "onboarding",
+      "repository": "coreyhaines31/marketingskills",
+      "repositoryPath": "D:\\03-ARSENAL\\warehouse\\catalog-c\\agent-skills\\marketingskills",
+      "relativePath": "skills/onboarding/SKILL.md",
+      "indexHead": "dda3841f0b294e01e93b1541486beefbfab0915e",
+      "observedHead": "dda3841f0b294e01e93b1541486beefbfab0915e",
+      "sha256": "ca219e0ba8f931888e2a634624ab927206f8ef26aeca2250399c3c48da0341e0",
+      "bytes": 10234,
+      "headBlob": "e5bfebe9e380888ab09816e00dc94ca45b3eed06",
+      "observedBlob": "e5bfebe9e380888ab09816e00dc94ca45b3eed06",
+      "indexLicenseClass": "permissive",
+      "indexLicenseEvidence": "local root license heuristic; not compatibility certification",
+      "disposition": "pattern-reference",
+      "selectedOrRetainedMechanism": "Define customer value and inspect the transitions from setup to a usable result.",
+      "excludedOrWeakMechanism": "Reject universal benchmarks, retention horizons, pressure, unverified lift and automatic outreach. Add dependency-specific diagnosis and honest pending cohorts.",
+      "readStatus": "full-body-inspected-as-inert-evidence",
+      "licenseNoticeRef": "licenses[repository=coreyhaines31/marketingskills]",
+      "licenseObserved": "MIT root notice",
+      "rightsBoundary": "Root notice is evidence, not broader compatibility or rights certification.",
+      "identity": "coreyhaines31/marketingskills@dda3841f0b294e01e93b1541486beefbfab0915e:skills/onboarding/SKILL.md",
+      "matchesHeadBytes": true
+    },
+    {
+      "id": "minimum-path",
+      "repository": "coreyhaines31/marketingskills",
+      "repositoryPath": "D:\\03-ARSENAL\\warehouse\\catalog-c\\agent-skills\\marketingskills",
+      "relativePath": "skills/onboarding/references/minimum-path-to-value.md",
+      "indexHead": "dda3841f0b294e01e93b1541486beefbfab0915e",
+      "observedHead": "dda3841f0b294e01e93b1541486beefbfab0915e",
+      "sha256": "c2b7c71b8436a1456888a26b9c8892c33cd9e1b1bf758f6fd7282c00f87dcdc3",
+      "bytes": 3152,
+      "headBlob": "1af868cc7bb9463909ad95ffae2211c0462979b3",
+      "observedBlob": "1af868cc7bb9463909ad95ffae2211c0462979b3",
+      "indexLicenseClass": "permissive",
+      "indexLicenseEvidence": "local root license heuristic; not compatibility certification",
+      "disposition": "pattern-reference",
+      "selectedOrRetainedMechanism": "Inspect each setup prerequisite against a concrete first result.",
+      "excludedOrWeakMechanism": "Reject removal as default for required controls, named-product numerical benchmarks and abandonment percentages.",
+      "readStatus": "full-body-inspected-as-inert-evidence",
+      "licenseNoticeRef": "licenses[repository=coreyhaines31/marketingskills]",
+      "licenseObserved": "MIT root notice",
+      "rightsBoundary": "Root notice is evidence, not broader compatibility or rights certification.",
+      "identity": "coreyhaines31/marketingskills@dda3841f0b294e01e93b1541486beefbfab0915e:skills/onboarding/references/minimum-path-to-value.md",
+      "matchesHeadBytes": true
+    },
+    {
+      "id": "activation-models",
+      "repository": "coreyhaines31/marketingskills",
+      "repositoryPath": "D:\\03-ARSENAL\\warehouse\\catalog-c\\agent-skills\\marketingskills",
+      "relativePath": "skills/onboarding/references/activation-models.md",
+      "indexHead": "dda3841f0b294e01e93b1541486beefbfab0915e",
+      "observedHead": "dda3841f0b294e01e93b1541486beefbfab0915e",
+      "sha256": "a13e82d8e3ebf810a0f0fb51fe91bbe349d8175baee5a97a85934fa20f63a8f7",
+      "bytes": 3258,
+      "headBlob": "a6b2c954cf815d532783a5ea9661adbd7adfb58f",
+      "observedBlob": "a6b2c954cf815d532783a5ea9661adbd7adfb58f",
+      "indexLicenseClass": "permissive",
+      "indexLicenseEvidence": "local root license heuristic; not compatibility certification",
+      "disposition": "rejected",
+      "selectedOrRetainedMechanism": "Commercial access-model selection is distinct from onboarding an existing eligible customer.",
+      "excludedOrWeakMechanism": "Reject automatic pricing/trial model changes, conversion multipliers, historical company claims and engineered dissatisfaction; no additional mechanism adopted.",
+      "readStatus": "full-body-inspected-as-inert-evidence",
+      "licenseNoticeRef": "licenses[repository=coreyhaines31/marketingskills]",
+      "licenseObserved": "MIT root notice",
+      "rightsBoundary": "Root notice is evidence, not broader compatibility or rights certification.",
+      "identity": "coreyhaines31/marketingskills@dda3841f0b294e01e93b1541486beefbfab0915e:skills/onboarding/references/activation-models.md",
+      "matchesHeadBytes": true
+    }
+  ],
+  "licenses": [
+    {
+      "repository": "msitarzewski/agency-agents",
+      "path": "D:\\03-ARSENAL\\warehouse\\catalog-c\\agent-skills\\agency-agents\\LICENSE",
+      "sha256": "45c861c1178a99178033b61302af7610e870082e874981b57519c2a1369299c0",
+      "bytes": 1100,
+      "notice": "MIT License\r\n\r\nCopyright (c) 2025 AgentLand Contributors\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE.\r\n"
+    },
+    {
+      "repository": "jeremylongworth-source/AgentSkills",
+      "path": "D:\\03-ARSENAL\\warehouse\\hunt\\exa-skills-2026-09-20\\jeremylongworth-source__AgentSkills\\LICENSE",
+      "sha256": "11f5e60786b82e616ba07f5abe671291f23916f60d197babde5ea46353c441a3",
+      "bytes": 1073,
+      "notice": "MIT License\n\nCopyright (c) 2026 Jeremy Longworth\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+    },
+    {
+      "repository": "GarethManning/education-agent-skills",
+      "path": "D:\\03-ARSENAL\\warehouse\\from-stars\\GarethManning__education-agent-skills\\LICENSE",
+      "sha256": "f952182df4eb7dd43335fbb429388dbb0b101c944c734a8dc05643b189cb87b7",
+      "bytes": 1230,
+      "notice": "Creative Commons Attribution-ShareAlike 4.0 International\n\nCopyright (c) 2026 Gareth Manning\n\nThe educational skills, documentation, examples, and curriculum materials in\nthis repository are licensed under the Creative Commons\nAttribution-ShareAlike 4.0 International licence (CC BY-SA 4.0).\n\nYou are free to:\n\n  Share — copy and redistribute the material in any medium or format for\n  any purpose, even commercially.\n\n  Adapt — remix, transform, and build upon the material for any purpose,\n  even commercially.\n\nUnder the following terms:\n\n  Attribution — You must give appropriate credit, provide a link to the\n  licence, and indicate if changes were made. You may do so in any\n  reasonable manner, but not in any way that suggests the licensor\n  endorses you or your use.\n\n  ShareAlike — If you remix, transform, or build upon the material, you\n  must distribute your contributions under the same licence as the\n  original.\n\n  No additional restrictions — You may not apply legal terms or\n  technological measures that legally restrict others from doing anything\n  the licence permits.\n\nThis is a human-readable notice. The full legal terms are available at:\nhttps://creativecommons.org/licenses/by-sa/4.0/legalcode\n"
+    },
+    {
+      "repository": "coreyhaines31/marketingskills",
+      "path": "D:\\03-ARSENAL\\warehouse\\catalog-c\\agent-skills\\marketingskills\\LICENSE",
+      "sha256": "3bb73920cd10a04b0ce3f28b84bada69e9286d0c33cf654ff10c279409791aa9",
+      "bytes": 1090,
+      "notice": "MIT License\r\n\r\nCopyright (c) 2025 Corey Haines\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE.\r\n"
+    }
+  ],
+  "current": [
+    {
+      "path": "product/skills/eternities-agora/SKILL.md",
+      "sha256": "763bae5c52442699d9422e08ad68fdeb7466638f5bba5cbd6dfa04e1754da9ac",
+      "bytes": 4292
+    },
+    {
+      "path": "product/skills/eternities-agora/skill.json",
+      "sha256": "a59a8eee96b38029b3df31f564fb312b39f44a0716ad0b44f4fbdbaa89a8393f",
+      "bytes": 3977
+    },
+    {
+      "path": "product/skills/eternities-prometheus/SKILL.md",
+      "sha256": "70d043541b328a6bfebd6cd75840aaca8ed94fc22cc10165d1be444f4662fc06",
+      "bytes": 3265
+    },
+    {
+      "path": "product/skills/eternities-prometheus/skill.json",
+      "sha256": "76034d608abd5282b879011c7d03b03c698850b6f422ada4d394f0000c50722a",
+      "bytes": 2492
+    },
+    {
+      "path": "product/skills/eternities-beacon/SKILL.md",
+      "sha256": "0456fd877c1d18c3c717998f4eb2b4264a6911f62a1362df6e3356948b9af222",
+      "bytes": 4272
+    },
+    {
+      "path": "product/skills/eternities-beacon/skill.json",
+      "sha256": "64b3dbde0cfd6f0d658d4baa125f1920b54723ed6911ad42bdb087d40d6cc303",
+      "bytes": 6331
+    },
+    {
+      "path": "product/skills/operating-cadence-and-decision-accountability/SKILL.md",
+      "sha256": "a03d89234106b30da8e99ffe6e738f58408e03727d2909431a119aca6b5c56c1",
+      "bytes": 3714
+    },
+    {
+      "path": "product/skills/operating-cadence-and-decision-accountability/skill.json",
+      "sha256": "59cf6450920fce4e5fc1ef3f77d0055bc7d7dfda81a58d109646f553e3ca1792",
+      "bytes": 2507
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/SKILL.md",
+      "sha256": "a91d5ffe526e92ed72c541816d6c0310f5ab2d56b82f2c5f91960b778bbed606",
+      "bytes": 4937
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/skill.json",
+      "sha256": "950b371148ed06e650a5d0f9b887d88b904f45febfb4ebadceb0a6d0e54ab473",
+      "bytes": 5210
+    },
+    {
+      "path": "product/skills/eternities-agora/references/methods.md",
+      "sha256": "a2df40b3388c5c4565c1d11276af478cf4e2b432a1551dcda5a94977f3daf1af",
+      "bytes": 1637
+    },
+    {
+      "path": "product/skills/eternities-agora/references/business-decision-evidence.md",
+      "sha256": "9effd0372e4be72da4d9fdcd454e5b4c3ea313764f118f429b175e103f4ec188",
+      "bytes": 6287
+    },
+    {
+      "path": "product/skills/eternities-prometheus/references/methods.md",
+      "sha256": "6150efa2ad78e5ebc93b9dbde21893984428a9d5ac109c85f1966d2b3a815954",
+      "bytes": 1018
+    },
+    {
+      "path": "product/skills/eternities-prometheus/references/commercial-driver-diagnosis-v1.md",
+      "sha256": "bdd16ac74bb01c88864e6d76080fd05d833eb9be1324322f27aaaec8350165f2",
+      "bytes": 3881
+    },
+    {
+      "path": "product/skills/eternities-beacon/references/methods.md",
+      "sha256": "efe539cfe35bf9703869d43cdaddedd2b29edb14c72525a5c9645fcf2a0eb2ed",
+      "bytes": 1279
+    },
+    {
+      "path": "product/skills/eternities-beacon/references/positioning-to-message-v1.md",
+      "sha256": "57da15f76572e5af9dde41cf4c5703d83f045cbb701b0284dfcd45d8e46c94d8",
+      "bytes": 3439
+    },
+    {
+      "path": "product/skills/operating-cadence-and-decision-accountability/references/methods.md",
+      "sha256": "32ddd3dfe2b8085e6ded14aa562e47761fb2d47f085154bcc9409ad49fff5f7d",
+      "bytes": 4662
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/references/practice-and-transfer-v1.md",
+      "sha256": "8625e567db5d4f68c267bd4743e555885115fabcbd253b67f768e2031826aa9f",
+      "bytes": 3408
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/references/support-transition.md",
+      "sha256": "470484b186df4978ec4c5e817990d25c0a2ad200dbf6ef1bea6441f43372d954",
+      "bytes": 25006
+    },
+    {
+      "path": "docs/superpowers/specs/2026-10-16-usefulness-release.md",
+      "sha256": "28ee0ac82aeecb44c5bd689744b0cbbb6bd137452f9077f02122459d7dab0d07",
+      "bytes": 3661
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-16-usefulness-release.md",
+      "sha256": "1956bee1ecef37c98fcae93edcc5da092a31d63ba203344be3203da07d95d3ff",
+      "bytes": 6248
+    }
+  ],
+  "schemaVersion": 1,
+  "scope": "Lane A author evidence only; no evaluator tasks or other lane content read.",
+  "baselinePortable": {
+    "entrypoints": 93,
+    "installedContentSha256": "368d5a716bd3b8069ba5ba858f8db8f7fba8b19c36aa373fc62c19d8a2b55efb",
+    "verification": "Declared in fully read release spec; installed pack was not inspected or modified by this lane."
+  },
+  "readBoundary": {
+    "currentOwnerEntrypointsReadInFull": 5,
+    "warehouseEntrypointsReadInFull": 6,
+    "warehouseSupportingReferencesReadInFull": 3,
+    "totalComparativeEntrypoints": 11,
+    "maximumWarehouseEntrypoints": 12,
+    "instructionsReadInFull": [
+      "C:/Users/Dom/.agents/skills/sovereign-skill-refinery/SKILL.md",
+      "C:/Users/Dom/.codex/skills/.system/skill-creator/SKILL.md"
+    ],
+    "notRead": [
+      "evaluation/usefulness-20261016/**",
+      "artifacts/qualification/usefulness-20261016/lane-b/**",
+      "other usefulness lanes",
+      "unrelated source entrypoints"
+    ],
+    "unrelatedCurrentReferencesNotRead": [
+      "Agora research-funding-proposal.md",
+      "Beacon creator sponsorship/slate references",
+      "education handoffs-and-reporting.md and educational-microsimulation.md"
+    ],
+    "note": "Complete current owner bodies and decision-relevant references were inspected before drafting. Instruction guidance is not included in comparative-source count."
+  },
+  "provenanceLimits": [
+    "All four repositories were already recorded in current owner metadata; this does not mean every selected body was previously reviewed.",
+    "Source SHA-256 covers observed working-tree bytes; HEAD blob comparison covers each selected exact path, not repository-wide cleanliness.",
+    "No acquired source instructions, commands, dependencies, templates, identity, research claims or numerical performance claims were activated.",
+    "Original candidate prose is newly authored; source notices remain exact in the licenses array. No product license has been assigned by this lane.",
+    "Parent owns adoption, independent review, metadata merge, regression, release and installation. Existing reviewed bytes cannot confer review on proposed new bytes."
+  ],
+  "readRepairs": [
+    "Initial root AGENTS.md probe found no file; supplied scoped task instructions govern.",
+    "Combined tool output truncated some full reads; affected current/source bodies were subsequently read in complete bounded calls or contiguous portions before drafting.",
+    "Obsolete skills/onboarding-cro/SKILL.md was absent; filename-only lookup resolved skills/onboarding/SKILL.md and exact bytes were read and hashed.",
+    "An unnecessary remaining filename scan for another onboarding source was interrupted after the selected onboarding source was found; no additional body was used."
+  ]
+}

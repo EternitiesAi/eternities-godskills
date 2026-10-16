@@ -1,0 +1,40 @@
+{
+  "schema": "usefulness-portable-repair-v2",
+  "status": "DRAFT awaiting independent closure review",
+  "methods": [
+    {
+      "id": "shader-effect-construction",
+      "source": "artifacts/qualification/usefulness-20261016/lane-b/shader-effect-construction.md",
+      "sourceSha256": "3dadf6801d00479d886dd49605bd73608e3ff27f4ff140d8481a573f0462823d",
+      "path": "product/skills/eternities-arcadia/references/shader-effect-construction.md",
+      "sha256": "a2ecfad39a1b3d5cb2bc98baea4539dc411fe39294de55a7c09962ca74cbadb1",
+      "repair": "Replace unshipped alias-ledger reference with relative owner metadata; preserve all method-specific synthesis/rejection text."
+    },
+    {
+      "id": "lighting-material-calibration",
+      "source": "artifacts/qualification/usefulness-20261016/lane-b/lighting-material-calibration.md",
+      "sourceSha256": "b5fc4b218b27422c32f3048fec007ec6267a480d57f34a4685b850ccfe89aadb",
+      "path": "product/skills/eternities-arcadia/references/lighting-material-calibration.md",
+      "sha256": "068379b7ca96da9ce2bb9e281acb66af47cd0c750fb4984139db06679c848e5f",
+      "repair": "Replace unshipped alias-ledger reference with relative owner metadata; preserve all method-specific synthesis/rejection text."
+    },
+    {
+      "id": "animation-interruption-transitions",
+      "source": "artifacts/qualification/usefulness-20261016/lane-b/animation-interruption-transitions.md",
+      "sourceSha256": "c52ddfa5c2a0fdbfa0f566ca4b16fb997ee1534e530016f006fa4725896ee722",
+      "path": "product/skills/eternities-arcadia/references/animation-interruption-transitions.md",
+      "sha256": "5c43f1e601b2b814346e3b6519e1e8419bd6b89d6270e8ffdad82364e0693411",
+      "repair": "Replace unshipped alias-ledger reference with relative owner metadata; preserve all method-specific synthesis/rejection text."
+    },
+    {
+      "id": "frame-budget-diagnosis",
+      "source": "artifacts/qualification/usefulness-20261016/lane-b/frame-budget-diagnosis.md",
+      "sourceSha256": "ea504b2fb3d0319a4fffc727c8e3b4b33d20ea564ca08185c458ce72f6db764e",
+      "path": "product/skills/eternities-arcadia/references/frame-budget-diagnosis.md",
+      "sha256": "d7e348fe98bcac368c4f8bf5dc8d18b039050d2c746608a50f3a42f63b89672b",
+      "repair": "Replace unshipped alias-ledger reference with relative owner metadata; preserve all method-specific synthesis/rejection text."
+    }
+  ],
+  "priorReview": "artifacts/qualification/usefulness-20261016/review-b-v1/decisions.json",
+  "limits": "Product working-tree candidate only. No build, release, installation or inherited review claim."
+}

@@ -822,7 +822,8 @@
         "customer health signals pipeline stage exit evidence",
         "escalation decision packet contradictory account signals",
         "conflicting raise figures across pitch deck memo investor update fact register",
-        "cross artifact business claim consistency and assertion map"
+        "cross artifact business claim consistency and assertion map",
+        "commercial discovery questions that distinguish problem fit and adoption feasibility"
       ],
       "antiTriggers": [
         "routine lookup",
@@ -844,7 +845,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-agora/SKILL.md",
-      "entrypointSha256": "763bae5c52442699d9422e08ad68fdeb7466638f5bba5cbd6dfa04e1754da9ac",
+      "entrypointSha256": "f3e34757a3ff8ac8b067e29101ca05f458c9372fd537ded4cbc2392dce98533c",
       "resources": [
         {
           "path": "skills/eternities-agora/references/methods.md",
@@ -857,6 +858,10 @@
         {
           "path": "skills/eternities-agora/references/research-funding-proposal.md",
           "sha256": "6bd7d41a9af3b40dc041ffeab73b8f692aba16910f4c72253e090ba451eee322"
+        },
+        {
+          "path": "skills/eternities-agora/references/commercial-discovery-v1.md",
+          "sha256": "5ad6fcff45efc590e44e048a4eebced2c1313b89d9ad125644d0661d8db3c588"
         }
       ]
     },
@@ -882,7 +887,11 @@
         "verify textures UV channels normal maps collision rigs animation and root motion in a game",
         "qualify model dependencies and decoder files in packaged builds beyond editor preview",
         "character silhouette and readability at the gameplay camera",
-        "camera-critical game asset iteration and motion revision consistency"
+        "camera-critical game asset iteration and motion revision consistency",
+        "construct or debug an interactive shader effect, mask, transparency or postprocess pass",
+        "separate lighting environment from material roughness or reflection response in an interactive scene",
+        "skeletal attack interrupted during blend leaves damage notify or root motion active",
+        "diagnose missed frame budget GPU CPU render thread pacing first-use hitch"
       ],
       "antiTriggers": [
         "routine isolated code edit",
@@ -904,7 +913,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-arcadia/SKILL.md",
-      "entrypointSha256": "ac0ef2950f34981c72dad4143ad3752b289d3f95877ee68aa464195c8818b282",
+      "entrypointSha256": "845c2af02029493164d7f939d2a46ead4137e8b8ee8d4f73ff0b3e15883d966e",
       "resources": [
         {
           "path": "skills/eternities-arcadia/references/core-loop-playtest-v1.md",
@@ -933,6 +942,22 @@
         {
           "path": "skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md",
           "sha256": "a1b65d62b70a689b3e7b1c06871588e4763a04d3987b9d5c833d5b3c7b6da52a"
+        },
+        {
+          "path": "skills/eternities-arcadia/references/shader-effect-construction.md",
+          "sha256": "a2ecfad39a1b3d5cb2bc98baea4539dc411fe39294de55a7c09962ca74cbadb1"
+        },
+        {
+          "path": "skills/eternities-arcadia/references/lighting-material-calibration.md",
+          "sha256": "068379b7ca96da9ce2bb9e281acb66af47cd0c750fb4984139db06679c848e5f"
+        },
+        {
+          "path": "skills/eternities-arcadia/references/animation-interruption-transitions.md",
+          "sha256": "5c43f1e601b2b814346e3b6519e1e8419bd6b89d6270e8ffdad82364e0693411"
+        },
+        {
+          "path": "skills/eternities-arcadia/references/frame-budget-diagnosis.md",
+          "sha256": "d7e348fe98bcac368c4f8bf5dc8d18b039050d2c746608a50f3a42f63b89672b"
         }
       ]
     },
@@ -1146,7 +1171,8 @@
         "retention recovery",
         "growth measurement",
         "creator sponsorship obligation tracking with dated evidence",
-        "creator campaign slate feasibility with quoted usage fees and deliverable coverage"
+        "creator campaign slate feasibility with quoted usage fees and deliverable coverage",
+        "customer onboarding blocked before first useful outcome"
       ],
       "antiTriggers": [
         "routine copy editing",
@@ -1169,7 +1195,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-beacon/SKILL.md",
-      "entrypointSha256": "0456fd877c1d18c3c717998f4eb2b4264a6911f62a1362df6e3356948b9af222",
+      "entrypointSha256": "8fcac4ef90fabc44873d90c61ed60d4e1cf8da799889ab39da00199ae40aa1f6",
       "resources": [
         {
           "path": "skills/eternities-beacon/references/positioning-to-message-v1.md",
@@ -1186,6 +1212,10 @@
         {
           "path": "skills/eternities-beacon/references/creator-slate-feasibility-v1.md",
           "sha256": "b1ab3ac4a2570311de7139e605e23cb8bfe122d89d578578288c1b1c8ed34dc1"
+        },
+        {
+          "path": "skills/eternities-beacon/references/customer-onboarding-v1.md",
+          "sha256": "1dbd93629607568a717e05d63d1ea6b6c378ca6907d2363b8cb9bee9997fcb01"
         }
       ]
     },
@@ -1860,7 +1890,8 @@
         "differentiate instruction for varied prior knowledge",
         "substitute teacher facilitator handoff classroom cover notes",
         "student report comments teacher observations achievement judgments",
-        "contrastive learner practice feedback and transfer tasks"
+        "contrastive learner practice feedback and transfer tasks",
+        "choose next practice item from ambiguous learner response and competing explanations"
       ],
       "antiTriggers": [
         "Professional certification or guaranteed outcomes without appropriate evidence and qualified review"
@@ -1878,7 +1909,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/evidence-linked-learning-design/SKILL.md",
-      "entrypointSha256": "a91d5ffe526e92ed72c541816d6c0310f5ab2d56b82f2c5f91960b778bbed606",
+      "entrypointSha256": "22d21b5fcc6a168aa51f00046ae1200c7f04ddea9e4930a9351779df6722f0d0",
       "resources": [
         {
           "path": "skills/evidence-linked-learning-design/references/handoffs-and-reporting.md",
@@ -1895,6 +1926,10 @@
         {
           "path": "skills/evidence-linked-learning-design/references/practice-and-transfer-v1.md",
           "sha256": "8625e567db5d4f68c267bd4743e555885115fabcbd253b67f768e2031826aa9f"
+        },
+        {
+          "path": "skills/evidence-linked-learning-design/references/adaptive-practice-v1.md",
+          "sha256": "fd59e825efd7e27718ce02518ed17d011e0d4993b90c7ea93665a825069d9b10"
         }
       ]
     },
@@ -2747,7 +2782,8 @@
         "aging cross-team decision queue",
         "capacity and WIP intake policy",
         "repeated priority exceptions",
-        "reviews that produce no owned actions"
+        "reviews that produce no owned actions",
+        "identify throughput constraint versus largest queue and shared resource load"
       ],
       "antiTriggers": [
         "ordinary status update",
@@ -2770,11 +2806,15 @@
       "specializes": "eternities-prometheus",
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/operating-cadence-and-decision-accountability/SKILL.md",
-      "entrypointSha256": "a03d89234106b30da8e99ffe6e738f58408e03727d2909431a119aca6b5c56c1",
+      "entrypointSha256": "ba3541137a4c61729c58562133889cc5872d54d212dfe587f71ceed0532a2afd",
       "resources": [
         {
           "path": "skills/operating-cadence-and-decision-accountability/references/methods.md",
           "sha256": "32ddd3dfe2b8085e6ded14aa562e47761fb2d47f085154bcc9409ad49fff5f7d"
+        },
+        {
+          "path": "skills/operating-cadence-and-decision-accountability/references/constraint-diagnosis-v1.md",
+          "sha256": "70bbb61d77eb77638375d8368a341583fb6c5660828456b5ab69cf2b477f59e1"
         }
       ]
     },

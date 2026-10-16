@@ -1,0 +1,73 @@
+{
+  "schema": "godskills-review-b-delivery-manifest-v1",
+  "recordedAt": "2026-10-16T07:35:53.076Z",
+  "decision": "REPAIR",
+  "worktree": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003",
+  "baselineCommit": "7c7f2ac98a282ccb2e59c3a4c0424802a4dd72b5",
+  "verified": {
+    "preservedOriginalInputs": 6,
+    "metadataAndDraftsStable": true,
+    "currentOwnerAndTaskIdentities": 17,
+    "methods": 4,
+    "workedTransferCases": 4,
+    "staticArithmeticGroups": 8
+  },
+  "unhashedSelfPath": "artifacts/qualification/usefulness-20261016/review-b-v1/file-manifest.json",
+  "files": [
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-b-v1/REVIEW.md",
+      "bytes": 11748,
+      "sha256": "ec4fe300dd59008af6c97545c1e3e23737031dd11b55ccf2dd4cff4ce5ef2813"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-b-v1/decisions.json",
+      "bytes": 10541,
+      "sha256": "7b4b2ad9bb2591bcfc8e6d6aac0b6fb38e31fa3f69f277d01037071a60664fe8"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-b-v1/inputs-after.json",
+      "bytes": 16279,
+      "sha256": "a4fd47be5a7802c976a8e6a76fca4e297432e072259b8b1a94377c3bf8e6041a"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-b-v1/inputs-before.json",
+      "bytes": 16279,
+      "sha256": "81ef720861d5ab0d3ee06cc6e10bb11fa6bcb2210b2620615535728f12cd1ec5"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-b-v1/protocol.md",
+      "bytes": 3031,
+      "sha256": "5f1354c38bd6b95e39322cb8c73ac8405a9a40ec385f2e9f86a4649b088bf7b4"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-b-v1/provenance-repair.json",
+      "bytes": 12189,
+      "sha256": "f5cc9cc9f95f348c133eeed8e0534c267dccd58d0f88995ce462000b18d940a7"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-b-v1/reviewed-input-bytes.json",
+      "bytes": 135664,
+      "sha256": "d9bf1b21c89a8eeca968bd9baf05237f8123e87ea39b0f1c0a9654903cdf6156"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-b-v1/static-checks.mjs",
+      "bytes": 4361,
+      "sha256": "517618c9f07ff83c7813ef95ec71a5e6a0fec8e7f6cca10f84ec29118c3b854d"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-b-v1/static-results.json",
+      "bytes": 2212,
+      "sha256": "9fecc559aff93f64e3a03325539a358cd836940638c2740f45d4cb2987f33e6d"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-b-v1/transfer-cases.md",
+      "bytes": 8549,
+      "sha256": "4516b3ca750e4f128d0f2eee8b353e43992a33c6485797ff28f0cf38464341fa"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-b-v1/verify-inputs.mjs",
+      "bytes": 4990,
+      "sha256": "f34714b7c59469eff0240014a005252408f47a0810511d94b1d22533763996be"
+    }
+  ]
+}

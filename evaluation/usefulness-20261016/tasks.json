@@ -1,0 +1,78 @@
+{
+  "schema": "godskills-usefulness-tasks-v1",
+  "baselineCommit": "7c7f2ac98a282ccb2e59c3a4c0424802a4dd72b5",
+  "outputContract": {
+    "format": "one JSON object, no Markdown fences",
+    "maxWords": 1800,
+    "timeoutSeconds": 600,
+    "toolsAllowed": false,
+    "externalEffectsAllowed": false,
+    "sourceExecutionAllowed": false
+  },
+  "tasks": [
+    {
+      "id": "u01-cash-and-queue",
+      "family": "business forecasting and operations",
+      "prompt": "Prepare a decision artifact for a fictional repair cooperative's next five business days using cash-and-queue.json. Show a daily cash ladder for base and delayed-A scenarios, dated breaches of the stated reserve, and an explicit treatment of the incomplete B receipt. Reconcile cash rather than invoiced revenue, show which events support each number, and identify the process constraint and one practicable change with an owner and next observation. Do not move money or claim the change was implemented. The supervisor also asks for a two-sentence status note using the available evidence; supply that note without redesigning their reporting system. Return the contracted JSON object, at most 1800 words. No tools, execution or external actions.",
+      "suppliedFiles": ["fixtures/cash-and-queue.json"],
+      "outputContract": {
+        "taskId": "u01-cash-and-queue",
+        "base": [{"day": "D1 through D5", "opening": "number", "receipts": "number", "payments": "number", "closing": "number", "reserveGap": "number", "eventIds": ["event ID"]}],
+        "delayedA": "same five-row shape as base",
+        "unresolved": [{"eventId": "string", "reason": "string", "includedInBase": "boolean"}],
+        "operations": {"reviewCapacityPerWeek": "number", "constraint": "string", "change": "string", "owner": "string", "nextObservation": "string"},
+        "statusNote": "two sentences",
+        "limits": ["string"]
+      },
+      "skillIds": ["cashflow-forecast-scenario-integrity", "operating-cadence-and-decision-accountability"]
+    },
+    {
+      "id": "u02-uncertain-recovery",
+      "family": "uncertain-outcome agent recovery",
+      "prompt": "You inherit an interrupted agent's inert export journal in recovery.json. Return a bounded recovery decision for each operation: what is known, its terminal label now, exact permitted next observations, and what must not be repeated. Respect the request's remaining time and spending authority. An empty local output folder and a lagged status response need explicit interpretation. Distinguish the unrelated documented rate-limit case and the already completed ordinary request. Give enough state for a later authorized operator to resume without confusing a queued command with a delivered export. Do not query or launch anything. Return the contracted JSON object, at most 1800 words. No tools, execution or external actions.",
+      "suppliedFiles": ["fixtures/recovery.json"],
+      "outputContract": {
+        "taskId": "u02-uncertain-recovery",
+        "cases": [{"id": "export, read or done", "outcome": "SUCCESS, UNKNOWN, DEFERRED or FAILED", "submitAgain": "boolean", "observations": [{"atSecondsFromNow": "number", "action": "string", "stopRule": "string"}], "preservedRefs": ["string"], "reason": "string"}],
+        "handoff": "string",
+        "claimsOfExecution": "boolean"
+      },
+      "skillIds": ["api-rate-limit-recovery", "long-horizon-work-continuity"]
+    },
+    {
+      "id": "u03-interrupted-drawer",
+      "family": "interactive-runtime engineering",
+      "prompt": "Repair the fictional drawer controller described in drawer.json. Deliver JavaScript source as a JSON string, implementing createController({render,schedule,cancel,setExpanded,restoreFocus}) with request(open, nowMs), tick(nowMs), complete(epoch), reducedMotion(enabled, nowMs), and unmount(). Use only this supplied interface; do not install a library. Include a predicted event trace for every supplied event and a conclusion from the supplied frame observations. The trace must report alpha, semantic expanded state, active animation handles and mounted state. Explain what remains unmeasured. Code is an artifact for later review, and must not be executed here. Also answer the user's one-line hover-color question without applying the drawer design process to it. Return the contracted JSON object, at most 1800 words. No tools, execution or external actions.",
+      "suppliedFiles": ["fixtures/drawer.json"],
+      "outputContract": {
+        "taskId": "u03-interrupted-drawer",
+        "controllerSource": "JavaScript string",
+        "trace": [{"event": "event ID", "alpha": "number", "expanded": "boolean", "handles": "integer", "mounted": "boolean"}],
+        "performance": {"sampleCount": "integer", "p95Ms": "number", "overBudget": "integer", "gate": "pass, fail or inconclusive", "claimScope": "string"},
+        "hoverAnswer": "one sentence",
+        "limits": ["string"]
+      },
+      "skillIds": ["motion-design-and-animation-engineering", "performance-release-gating"]
+    },
+    {
+      "id": "u04-reservoir-lesson",
+      "family": "creative and learning reasoning",
+      "prompt": "Write a nine-minute facilitator-ready learning experience from lesson.json. Deliver the actual 90-130-word opening story, with a character making a consequential prediction, and use its reservoir problem to reveal the stated misconception. Supply timed segments including setup and transitions, a diagnostic with contingent feedback, supported practice, and a different-surface independent transfer item with its facilitator answer and scoring guidance. Keep learner prompts separate from facilitator answers in your output. Make the decision to advance or revisit depend on observable work, preserve access supports, and do not claim learning has occurred. A colleague separately asks for a one-sentence definition of liters per minute; answer that directly. Return the contracted JSON object, at most 1800 words. No tools, execution or external actions.",
+      "suppliedFiles": ["fixtures/lesson.json"],
+      "outputContract": {
+        "taskId": "u04-reservoir-lesson",
+        "story": "90-130 words",
+        "segments": [{"minutes": "positive number", "learnerActivity": "string", "facilitatorCue": "string"}],
+        "reservoirAnswer": {"first": "A, B or tie", "minutesA": "number", "minutesB": "number", "reason": "string"},
+        "diagnostic": {"prompt": "string", "likelyWrongAnswer": "string", "feedbackIfWrong": "string", "feedbackIfRight": "string"},
+        "practice": {"prompt": "string", "facilitatorAnswer": "string"},
+        "transfer": {"prompt": "string", "facilitatorAnswer": "string", "scoring": "string"},
+        "advanceRule": "string",
+        "accessSupports": ["string"],
+        "unitsAnswer": "one sentence",
+        "limits": ["string"]
+      },
+      "skillIds": ["evidence-linked-learning-design", "narrative-structure-and-revision"]
+    }
+  ]
+}

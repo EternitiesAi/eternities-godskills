@@ -13,7 +13,8 @@
     "customer health signals pipeline stage exit evidence",
     "escalation decision packet contradictory account signals",
     "conflicting raise figures across pitch deck memo investor update fact register",
-    "cross artifact business claim consistency and assertion map"
+    "cross artifact business claim consistency and assertion map",
+    "commercial discovery questions that distinguish problem fit and adoption feasibility"
   ],
   "antiTriggers": [
     "routine lookup",
@@ -36,7 +37,8 @@
   "resources": [
     "references/methods.md",
     "references/business-decision-evidence.md",
-    "references/research-funding-proposal.md"
+    "references/research-funding-proposal.md",
+    "references/commercial-discovery-v1.md"
   ],
   "maturity": "instruction-reviewed",
   "provenance": [
@@ -74,6 +76,16 @@
       "kind": "source-review",
       "source": "artifacts/universal-product-v1/wave17-collections-synthesis-luna6/",
       "note": "Fifteen exact collection bodies and current business owners were independently reviewed. The fact-to-assertion method is new wording; no upstream templates, copied prose, or financial advice was adopted."
+    },
+    {
+      "kind": "authoring",
+      "source": "product/skills/eternities-agora/references/commercial-discovery-v1.md",
+      "note": "Original conditional method. Exact source identities and observed notices are retained in this metadata; repository evidence preserves source bodies, independent review and versioned corrections. No source rights or performance status transfers to this method."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "msitarzewski/agency-agents@ad9264e309bd5e5422c04784372d7841b1e5d604:sales/sales-discovery-coach.md",
+      "note": "Observed body SHA-256 8244a25e5b8785058b19ef92dca9e543a2c990e4dde1166d194f14514e3ae278; MIT root notice. Use concrete problem examples, root-cause inquiry and explicit fit/no-fit decisions. Comparison with a non-problem occasion and answer-to-action question selection are original author synthesis, not attributed to this source. Root notice is evidence, not broader compatibility or rights certification. Source remains inert; prose, code and unsupported performance claims were not adopted."
     }
   ]
 }

@@ -1,0 +1,53 @@
+{
+  "schema": "independent-discovery-review-v1",
+  "decision": "REPAIR",
+  "baseline": "7c7f2ac98a282ccb2e59c3a4c0424802a4dd72b5",
+  "reviewedRequestScopeSha256": "cc4dd37aa161acbb56d5e7ff19b484e762d4290fb0bdc4716acf964932dc64fb",
+  "reviewedTestSha256": "4554b56aa59aed16c9c53bd22a6c441ed09e7c22d2a4127f1d977e6b189bb30b",
+  "findings": [
+    {
+      "priority": 2,
+      "file": "product/lib/request-scope.mjs",
+      "line": 5,
+      "title": "Unbounded fix/debug prefixes suppress live work after unrelated words",
+      "introduced": true,
+      "evidenceControls": [
+        "fixate-prefix",
+        "fixating-prefix",
+        "fixed-adjective",
+        "fixtures-noun",
+        "debugger-noun",
+        "debugger-prefix"
+      ],
+      "impact": "Arcadia was rank 1 or 2 on the exact baseline and is absent from the candidate's 20-result shortlist; all six candidate affirmative-clause arrays are empty.",
+      "repair": "Bound the refusal action forms without matching fixate/fixating/fixtures/debugger or adjective fixed as fix/debug refusals; retain genuine imperative/gerund refusals and mixed-clause positives.",
+      "verification": "Run unchanged author frozen cases and supplemental controls, focused neighbor tests and review controls after the author's repair."
+    }
+  ],
+  "limits": [
+    "No automatic activation or authority escalation found.",
+    "No full suite/build/CLI revalidation.",
+    "Finite-grammar observations remain unscored.",
+    "Reviewer cases are independent code-review controls, not blind performance evaluation."
+  ],
+  "summary": {
+    "frozenBaselinePass": 18,
+    "frozenCandidatePass": 20,
+    "freshScored": 30,
+    "freshCandidatePass": 24,
+    "regressions": [
+      "fixate-prefix",
+      "fixating-prefix",
+      "fixed-adjective",
+      "fixtures-noun",
+      "debugger-noun",
+      "debugger-prefix"
+    ],
+    "diagnosticOnly": [
+      "and-separator-limit",
+      "unsupported-not-to",
+      "negated-avoid"
+    ]
+  }
+}
+

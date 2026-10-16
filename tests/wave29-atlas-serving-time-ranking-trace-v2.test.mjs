@@ -56,9 +56,9 @@ test("Atlas metadata does not displace delivery, offline-validation, schema, cau
     },
     {
       prompt: "Score and prioritize prospective enterprise accounts by commercial fit and buying intent.",
-      // Canonical main already ranks Prometheus first and misses Agora here;
-      // this guard is specifically against the candidate's Atlas intrusion.
-      expected: "eternities-prometheus",
+      // Agora owns prospect scoring; the usefulness metadata now resolves
+      // the historical missed-owner paraphrase. Retain the Atlas exclusion.
+      expected: "eternities-agora",
     },
   ];
 

@@ -1,0 +1,471 @@
+{
+  "schema": "independent-discovery-controls-v1",
+  "baseline": "7c7f2ac98a282ccb2e59c3a4c0424802a4dd72b5",
+  "status": "frozen-before-first-fresh-control-execution",
+  "limits": "Reviewer authored after inspecting change and author development cases; independent code review, not blind held-out model evaluation. Null expectations are diagnostic observations, not scored controls.",
+  "controls": [
+    {
+      "id": "affirmative-fix",
+      "kind": "affirmative",
+      "query": "Fix player-camera clipping in the WebGL game and verify scene teardown.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": true,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "Documented finite live/refused/quoted scope and host no-need contract."
+    },
+    {
+      "id": "affirmative-debug",
+      "kind": "affirmative",
+      "query": "Debug lost keyboard input in our browser game after tab restoration.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": true,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "Documented finite live/refused/quoted scope and host no-need contract."
+    },
+    {
+      "id": "affirmative-unfamiliar",
+      "kind": "affirmative",
+      "query": "Investigate a frozen player camera in the game runtime.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": true,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "Documented finite live/refused/quoted scope and host no-need contract."
+    },
+    {
+      "id": "refuse-fix",
+      "kind": "negative",
+      "query": "Do not fix player-camera clipping in the WebGL game; draft a postponement message.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": false,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "Documented finite live/refused/quoted scope and host no-need contract."
+    },
+    {
+      "id": "refuse-debug",
+      "kind": "negative",
+      "query": "Do not debug lost input in the browser game; prepare tomorrow's agenda.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": false,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "Documented finite live/refused/quoted scope and host no-need contract."
+    },
+    {
+      "id": "refuse-fixing",
+      "kind": "negative",
+      "query": "Avoid fixing player collisions in our game; draft a handoff note.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": false,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "Documented finite live/refused/quoted scope and host no-need contract."
+    },
+    {
+      "id": "refuse-debugging",
+      "kind": "negative",
+      "query": "Avoid debugging the browser simulation loop; draft a handoff note.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": false,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "Documented finite live/refused/quoted scope and host no-need contract."
+    },
+    {
+      "id": "refuse-never",
+      "kind": "negative",
+      "query": "Never fix the game camera during this task; summarize the schedule.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": false,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "Documented finite live/refused/quoted scope and host no-need contract."
+    },
+    {
+      "id": "refuse-no-need",
+      "kind": "negative",
+      "query": "No need to debug the game runtime; summarize the schedule.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": false,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "Documented finite live/refused/quoted scope and host no-need contract."
+    },
+    {
+      "id": "refuse-curly-contraction",
+      "kind": "negative",
+      "query": "Don’t fix the WebGL game camera; write the handoff.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": false,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "Documented finite live/refused/quoted scope and host no-need contract."
+    },
+    {
+      "id": "refuse-straight-contraction",
+      "kind": "negative",
+      "query": "Don't debug player input in the game; write the handoff.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": false,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "Documented finite live/refused/quoted scope and host no-need contract."
+    },
+    {
+      "id": "mixed-semicolon",
+      "kind": "mixed",
+      "query": "Do not fix the camera; debug player input in the browser game.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": true,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "Documented finite live/refused/quoted scope and host no-need contract."
+    },
+    {
+      "id": "mixed-but",
+      "kind": "mixed",
+      "query": "Avoid debugging the camera, but fix player input in the browser game.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": true,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "Documented finite live/refused/quoted scope and host no-need contract."
+    },
+    {
+      "id": "mixed-instead",
+      "kind": "mixed",
+      "query": "Do not fix camera clipping; instead debug the game simulation loop.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": true,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "Documented finite live/refused/quoted scope and host no-need contract."
+    },
+    {
+      "id": "mixed-before",
+      "kind": "mixed",
+      "query": "Debug player input in the browser game, but do not fix camera clipping.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": true,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "Documented finite live/refused/quoted scope and host no-need contract."
+    },
+    {
+      "id": "mixed-sentence",
+      "kind": "mixed",
+      "query": "Do not debug player input. Fix the game camera clipping.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": true,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "Documented finite live/refused/quoted scope and host no-need contract."
+    },
+    {
+      "id": "quoted-double",
+      "kind": "quoted",
+      "query": "The ticket says \"debug player input in the browser game\"; write a postponement notice.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": false,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "Documented finite live/refused/quoted scope and host no-need contract."
+    },
+    {
+      "id": "quoted-curly",
+      "kind": "quoted",
+      "query": "The note says “fix the game camera”; write a scheduling note.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": false,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "Documented finite live/refused/quoted scope and host no-need contract."
+    },
+    {
+      "id": "quoted-single",
+      "kind": "quoted",
+      "query": "The note says 'debug the browser game'; write a scheduling note.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": false,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "Documented finite live/refused/quoted scope and host no-need contract."
+    },
+    {
+      "id": "quoted-backtick",
+      "kind": "quoted",
+      "query": "The label is `fix player input in the game`; write a scheduling note.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": false,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "Documented finite live/refused/quoted scope and host no-need contract."
+    },
+    {
+      "id": "quoted-refusal-live",
+      "kind": "quoted",
+      "query": "The old note says \"do not debug the game\"; fix player-camera clipping in our WebGL game.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": true,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "Documented finite live/refused/quoted scope and host no-need contract."
+    },
+    {
+      "id": "host-no-need",
+      "kind": "boundary",
+      "query": "Debug player input in the WebGL game.",
+      "options": {
+        "limit": 20,
+        "need": "none"
+      },
+      "expected": {
+        "arcadia": false,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "Documented finite live/refused/quoted scope and host no-need contract."
+    },
+    {
+      "id": "limited-after-refusal",
+      "kind": "boundary",
+      "query": "Do not fix the game camera. Uppercase the literal text \"launch soon\". Give only the text.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": false,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "Documented finite live/refused/quoted scope and host no-need contract."
+    },
+    {
+      "id": "ordinary-affirmative",
+      "kind": "boundary",
+      "query": "Uppercase the literal text \"fix player input in the game\". Give only the text.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": false,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "Documented finite live/refused/quoted scope and host no-need contract."
+    },
+    {
+      "id": "fixate-prefix",
+      "kind": "affirmative-prefix",
+      "query": "Do not fixate on naming while you debug player input in the browser game.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": true,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "A modifier/noun/other verb following refusal must not erase the live game work later in this clause. Baseline-to-candidate comparison determines whether regression is introduced."
+    },
+    {
+      "id": "fixating-prefix",
+      "kind": "affirmative-prefix",
+      "query": "Avoid fixating on shader naming while you debug our browser game.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": true,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "A modifier/noun/other verb following refusal must not erase the live game work later in this clause. Baseline-to-candidate comparison determines whether regression is introduced."
+    },
+    {
+      "id": "fixed-adjective",
+      "kind": "affirmative-prefix",
+      "query": "Avoid fixed camera angles when you design our browser game.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": true,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "A modifier/noun/other verb following refusal must not erase the live game work later in this clause. Baseline-to-candidate comparison determines whether regression is introduced."
+    },
+    {
+      "id": "fixtures-noun",
+      "kind": "affirmative-prefix",
+      "query": "Avoid fixtures from the old prototype when you build the browser game.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": true,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "A modifier/noun/other verb following refusal must not erase the live game work later in this clause. Baseline-to-candidate comparison determines whether regression is introduced."
+    },
+    {
+      "id": "debugger-noun",
+      "kind": "affirmative-prefix",
+      "query": "Avoid debugger breakpoints when you test the game simulation loop.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": true,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "A modifier/noun/other verb following refusal must not erase the live game work later in this clause. Baseline-to-candidate comparison determines whether regression is introduced."
+    },
+    {
+      "id": "debugger-prefix",
+      "kind": "affirmative-prefix",
+      "query": "Do not debugprint every frame when you build the browser game.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": true,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "A modifier/noun/other verb following refusal must not erase the live game work later in this clause. Baseline-to-candidate comparison determines whether regression is introduced."
+    },
+    {
+      "id": "and-separator-limit",
+      "kind": "documented-limit",
+      "query": "Do not fix the camera and debug the browser game simulation loop.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": null,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "Observation only: outside documented finite grammar; do not count as new regression merely because semantic intent differs."
+    },
+    {
+      "id": "unsupported-not-to",
+      "kind": "documented-limit",
+      "query": "I asked you not to debug the game simulation loop; write a postponement note.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": null,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "Observation only: outside documented finite grammar; do not count as new regression merely because semantic intent differs."
+    },
+    {
+      "id": "negated-avoid",
+      "kind": "documented-limit",
+      "query": "Do not avoid debugging the game simulation loop.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "arcadia": null,
+        "authority": "none",
+        "activation": "none"
+      },
+      "basis": "Observation only: outside documented finite grammar; do not count as new regression merely because semantic intent differs."
+    }
+  ]
+}

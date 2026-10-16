@@ -1,0 +1,14 @@
+{
+  "command": "node --test evaluation/usefulness-20261016/checks.test.mjs",
+  "exitCode": 1,
+  "tests": 13,
+  "passed": 12,
+  "failed": 1,
+  "skipped": 0,
+  "failedTest": "criteria match all tasks, sum to 100, and expose critical and independence rules",
+  "assertion": "assert.ok(c[key].length>8)",
+  "cause": "Checker incorrectly rejected valid eight-character criticality labels ordinary and critical; observable descriptions and scoring explanations are longer strings.",
+  "repair": "Validate criticality by explicit ordinary/critical label grammar, retaining description/scoring checks. No task, factual key, rubric points or acceptance threshold changed.",
+  "otherRepairedSetupFailure": "A read-only PowerShell hash inventory command had ParserError: An empty pipe element is not allowed. Reissued with a foreach result variable; no files or models were affected.",
+  "liveModelCalls": 0
+}

@@ -8,7 +8,8 @@
     "differentiate instruction for varied prior knowledge",
     "substitute teacher facilitator handoff classroom cover notes",
     "student report comments teacher observations achievement judgments",
-    "contrastive learner practice feedback and transfer tasks"
+    "contrastive learner practice feedback and transfer tasks",
+    "choose next practice item from ambiguous learner response and competing explanations"
   ],
   "antiTriggers": [
     "Professional certification or guaranteed outcomes without appropriate evidence and qualified review"
@@ -28,7 +29,8 @@
     "references/handoffs-and-reporting.md",
     "references/educational-microsimulation.md",
     "references/support-transition.md",
-    "references/practice-and-transfer-v1.md"
+    "references/practice-and-transfer-v1.md",
+    "references/adaptive-practice-v1.md"
   ],
   "maturity": "instruction-reviewed",
   "provenance": [
@@ -66,6 +68,21 @@
       "kind": "pattern-reference",
       "source": "easedup/educator-skills@8a6f3a22df5bdeb0d18d2edc5f46d6e2b61c62e1:skills/planning/casual-relief-plan/SKILL.md",
       "note": "Full entrypoint read, SHA-256 1b62d07e2039b64529de65325fa5bb72c31a9fcc969d8d1cbf6211708a30aa3e. Self-contained facilitator handoff informed independent writing. Country-specific emergency number, sample medication actions and assumed absence of alerts excluded. License unresolved; no source prose or implementation copied."
+    },
+    {
+      "kind": "authoring",
+      "source": "product/skills/evidence-linked-learning-design/references/adaptive-practice-v1.md",
+      "note": "Original conditional method. Exact source identities and observed notices are retained in this metadata; repository evidence preserves source bodies, independent review and versioned corrections. No source rights or performance status transfers to this method."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "GarethManning/education-agent-skills@6bbbce418f82e11044009c9f3b7373a354de5bd0:skills/explicit-instruction/practice-problem-sequence-designer/SKILL.md",
+      "note": "Observed body SHA-256 3bcf66d76461040cf92e325f4466aef34d4c675eae4d2d4c61950e6dc79654e2; CC-BY-SA-4.0 human-readable root notice; index remains unreviewed. Contrasting problems expose what a response can and cannot distinguish; current practice/transfer reference already covers most of this. Compatibility and whether proposed independent writing constitutes adaptation require parent/reviewer determination before adoption; no source hold cleared. Source remains inert; prose, code and unsupported performance claims were not adopted."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "GarethManning/education-agent-skills@6bbbce418f82e11044009c9f3b7373a354de5bd0:skills/ai-learning-science/adaptive-hint-sequence-designer/SKILL.md",
+      "note": "Observed body SHA-256 4f59e3a5e681dbeb72db4c703a96f1dc53c44c4c9ec18df534071fcd7972882a; CC-BY-SA-4.0 human-readable root notice; index remains unreviewed. Error-specific branching and prerequisite checks inform a bounded next-item decision; source's own limitations acknowledge linear-cascade weakness. Compatibility and whether proposed independent writing constitutes adaptation require parent/reviewer determination before adoption; no source hold cleared. Source remains inert; prose, code and unsupported performance claims were not adopted."
     }
   ]
 }

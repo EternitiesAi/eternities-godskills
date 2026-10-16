@@ -1,0 +1,77 @@
+{
+  "schema": "godskills-usefulness-setup-receipt-v1",
+  "disposition": "HOLD; setup complete, experiment not admitted or run",
+  "root": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003",
+  "branchObserved": "feat/usefulness-release-20261016",
+  "headObserved": "7c7f2ac98a282ccb2e59c3a4c0424802a4dd72b5",
+  "freezeSha256": "eee0af932a0fda2d85f32e247cb4bd761c318b7b74f0b50fbf1bc7e8aaf76458",
+  "publishedRelease": "368d5a716bd3b8069ba5ba858f8db8f7fba8b19c36aa373fc62c19d8a2b55efb",
+  "sourceReleaseFileSha256": "752e4596352499e2d601833c30a6c9149fa5ebe5ef7e31f11949d57f4251785e",
+  "parentReportedArchiveSha256": "d5e71e9f3be0ea4d654963c9a47a8858247226e695585a2b672dd76eae864ad8",
+  "sourceIdentityDetail": "freeze.json contains eleven selected published file paths/digests, the exact CLI identity and six historical spec/plan/protocol/harness evidence identities. Selected files and release were verified in the parent's relocated baseline export. Archive digest is parent-supplied; archive and private before.json were not opened.",
+  "invariantsChecked": {
+    "taskCriterionFixtureBytesUnchangedFromPreRepairFreeze": true,
+    "counterbalancedOrderUnchangedFromPreRepairFreeze": true,
+    "preRepairFreezeByteIdenticalCopy": true,
+    "realHostVerificationRetained": true,
+    "ordinaryTestsNeedNoRealPrivateRoots": true,
+    "liveModelCalls": 0,
+    "credentialsReadCopiedOrExposedByAuthor": false,
+    "newDiscoveryLaneOrLaneABContentsRead": false
+  },
+  "verification": [
+    {"command":"node --test evaluation/usefulness-20261016/checks.test.mjs","exitCode":0,"tests":15,"passed":15,"failed":0,"skipped":0,"scope":"Deterministic local fixtures, task projection, counterexamples, relocated copy and missing private roots. No real model/CLI execution in the test suite."},
+    {"command":"node --check evaluation/usefulness-20261016/pilot.mjs","exitCode":0},
+    {"command":"node --check evaluation/usefulness-20261016/checks.test.mjs","exitCode":0},
+    {"command":"node evaluation/usefulness-20261016/pilot.mjs verify-repository","exitCode":0,"hostPreflightPerformed":false},
+    {"command":"node evaluation/usefulness-20261016/pilot.mjs verify","exitCode":0,"hostInputsVerified":true,"liveAdmission":false},
+    {"command":"node evaluation/usefulness-20261016/pilot.mjs commands","exitCode":0,"commandsReturned":8,"modelCalls":0},
+    {"operation":"Explicit real host verification followed by packetWithInputs with the verified manifest and actual selected published-byte reader","result":"Eight prospective UTF-8 packets and argv identities assembled and hashed; no dispatch"}
+  ],
+  "prospectivePackets": [
+    {"slot":1,"taskId":"u01-cash-and-queue","arm":"control","promptBytes":4533,"promptSha256":"3f96b423242efc60717d5684d6794bbebf488a58308ab89ffc7e2c6c107a1492","commandSha256":"4f7ee024bf4e8b511dba60d28f668732183fa3150c84ef61df551de920665c69"},
+    {"slot":2,"taskId":"u01-cash-and-queue","arm":"guidance","promptBytes":17429,"promptSha256":"636f69e38ca935026378ceb7ee7d8ede5365a770f77e97edfc1e06468f7fed7a","commandSha256":"542cf03551329a3bef4c57dc2d86e9bbb61eabc7494ba17bdcb7db9d230621c0"},
+    {"slot":3,"taskId":"u02-uncertain-recovery","arm":"guidance","promptBytes":14343,"promptSha256":"fcec9c68c65806540d88aa0b3418cf535745ade15f16c0d6c3a66c129de4fafd","commandSha256":"00525de2a712ef921ac1e777d415c419c8ab6ccf91420baeb184f98aedd303dd"},
+    {"slot":4,"taskId":"u02-uncertain-recovery","arm":"control","promptBytes":3701,"promptSha256":"862187d185064218d28b80cbb3b02bb40b1a9cd339c9fbff4dcd79f6636a9b2a","commandSha256":"2275b7c849f9c2283aa21da06622fae5adf0096972a246c13bc2da9edf53b437"},
+    {"slot":5,"taskId":"u03-interrupted-drawer","arm":"guidance","promptBytes":16805,"promptSha256":"669f236913a4968baf7b5aaf7d7b170fd158baa71cb1aa6cb771c1fcf00adeb4","commandSha256":"ab761bee6e91ee390378aa44c97d6827e3f1c07061003e1812e1a09ecb5bcf09"},
+    {"slot":6,"taskId":"u03-interrupted-drawer","arm":"control","promptBytes":4526,"promptSha256":"edb2011bc876f367167b686c0608695851821726af2eeaf938f7ccd7c1e90052","commandSha256":"a4be1df8e57d227c12acb46e5351425aab8f01225a342f0549cc8fdff5f7ec14"},
+    {"slot":7,"taskId":"u04-reservoir-lesson","arm":"control","promptBytes":4228,"promptSha256":"11480d241d0a754bf682d9949d4c12dc0ec24262512edece9cf3445a5d0a8514","commandSha256":"f707adaac5a11b8265f015ac32f44a8a5d594de6702aefe51ef975d84ba5f77e"},
+    {"slot":8,"taskId":"u04-reservoir-lesson","arm":"guidance","promptBytes":16704,"promptSha256":"d650d29573687ca541c270b0abccb8b81f9fefea8c9bda6f5543510dc61247ce","commandSha256":"44a13daf4d7a620e490d1e5a26f176a7d4da3f978ca5a593576626c0bf7acc01"}
+  ],
+  "setupEvidenceSha256": {
+    "admission.json":"aa9680ab07f39c85900d75d84cc7def313d220698af6ad5d158252deda66af0e",
+    "freeze-pre-portability-repair.json":"0b2bcf5fe0b659837b09db2242623d13d32c916814eb0b18b9ba6134fed22b44",
+    "preflight.json":"fada40ba0e064fe115e4261c669d351daa5ad54247686c1d06f804ccc387b155",
+    "probe-initial-failure.json":"bc3f18d87fc77541e110c1d39396d3404d073f0c586bc260016b6f2286e3a7c4",
+    "probe-provider-override-failure.json":"9586d79a48ec8a5c6ae4b68ab251f83824f4f69f24e22f4f60da77d9eb8e0340",
+    "test-initial-failure.json":"f7254ba72f83ef740a1fc66a8d3f169e91fef8ecb498f1b62f20229b0b51ba57"
+  },
+  "newPaths": [
+    "evaluation/usefulness-20261016/protocol.md",
+    "evaluation/usefulness-20261016/tasks.json",
+    "evaluation/usefulness-20261016/criteria.json",
+    "evaluation/usefulness-20261016/freeze.json",
+    "evaluation/usefulness-20261016/pilot.mjs",
+    "evaluation/usefulness-20261016/isolation-probe.mjs",
+    "evaluation/usefulness-20261016/checks.test.mjs",
+    "evaluation/usefulness-20261016/fixtures/cash-and-queue.json",
+    "evaluation/usefulness-20261016/fixtures/recovery.json",
+    "evaluation/usefulness-20261016/fixtures/drawer.json",
+    "evaluation/usefulness-20261016/fixtures/lesson.json",
+    "artifacts/qualification/usefulness-20261016/evaluation-setup/preflight.json",
+    "artifacts/qualification/usefulness-20261016/evaluation-setup/probe-initial-failure.json",
+    "artifacts/qualification/usefulness-20261016/evaluation-setup/probe-provider-override-failure.json",
+    "artifacts/qualification/usefulness-20261016/evaluation-setup/test-initial-failure.json",
+    "artifacts/qualification/usefulness-20261016/evaluation-setup/freeze-pre-portability-repair.json",
+    "artifacts/qualification/usefulness-20261016/evaluation-setup/admission.json",
+    "artifacts/qualification/usefulness-20261016/evaluation-setup/setup.json"
+  ],
+  "limits": [
+    "No live model, independent quality assessment, controller execution, browser/device observation or learner observation. MOCK tests are checker-development evidence only.",
+    "No full npm test or shared catalog rebuild was run. The scoped relocation regression specifically verifies no private-root dependency in these tests.",
+    "Raw isolation not established; ambient mandatory skill reads create a known no-tools conflict. HOLD until parent resolves it without a safeguard bypass or changing the frozen experiment silently.",
+    "Actual served model, token cap, full tool schemas and internal provider retries remain unverified; no model dispatch attempted.",
+    "Published baseline guidance only; unseen candidate revisions require their own pre-result comparison binding and fresh transfer evidence if revised from these tasks."
+  ],
+  "ownership": "All author writes are new files within the two assigned directories. Other workers' request-scope/discovery edits, old archives, source files and activation bytes were not edited. Generated relocation-test copies were removed; original files were not deleted. No commit, branch switch, install, acquisition, global config/instruction edit or external write."
+}

@@ -1,0 +1,84 @@
+{
+  "checkedAt": "2026-10-16T07:34:48.7806669Z",
+  "inputHashesStillMatch": true,
+  "controlsFrozen": true,
+  "reviewFiles": [
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-discovery-v1/controls.json",
+      "bytes": 14656,
+      "sha256": "3ffff4867c26402842fac8215a9ef18f65ee0526734daca5578ff42a9c22361a"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-discovery-v1/focused-tests.txt",
+      "bytes": 9429,
+      "sha256": "d5a4abb477765065d109c5ffeae4c1ff025e332f854eccf0fe7741d9f1305f55"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-discovery-v1/REPORT.md",
+      "bytes": 9114,
+      "sha256": "4c2065b8bfbb0592cb39fadc441a8230a7b04b4d53dbe32b58e4c8dc8a64873a"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-discovery-v1/results.json",
+      "bytes": 110789,
+      "sha256": "23a30ed4e7d953e86e2d7e59031bf38dc4337e55a672ded2e91ae0868d30b726"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-discovery-v1/review-probe.mjs",
+      "bytes": 8466,
+      "sha256": "a5cfde9f0adc5d9b54390a0ebde38d8ec6b191472c2d3b81f6a353821ff68a0b"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-discovery-v1/review.json",
+      "bytes": 1978,
+      "sha256": "2719b561ab490608e0b0e25e43299223d09066de46b25fa6132dfa0f842c3858"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-discovery-v1/run-record.json",
+      "bytes": 2629,
+      "sha256": "4abd9f57015bd76af3a27ababda0ffd5d26e287119c3168c1c1b59784076f9f9"
+    }
+  ],
+  "laneA": [
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-a/adaptive-practice.md",
+      "sha256": "fd59e825efd7e27718ce02518ed17d011e0d4993b90c7ea93665a825069d9b10"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-a/commercial-discovery.md",
+      "sha256": "5ad6fcff45efc590e44e048a4eebced2c1313b89d9ad125644d0661d8db3c588"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-a/customer-onboarding.md",
+      "sha256": "1dbd93629607568a717e05d63d1ea6b6c378ca6907d2363b8cb9bee9997fcb01"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-a/evidence.json",
+      "sha256": "7cda98699fb1a0a1041543abf5391da6769f9dbeb15f7685db2cfd18e4386dd0"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-a/operational-bottleneck.md",
+      "sha256": "70bbb61d77eb77638375d8368a341583fb6c5660828456b5ab69cf2b477f59e1"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-a/proposals.json",
+      "sha256": "8334178f939ec211d0f89297f8ec5913c31177fdee133cbf678f31756ce8b918"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-a/verification.md",
+      "sha256": "2332bb3df5e51f9b8766d393400e277d5b09eed8b4380c9ef3dfeaf1a7bb29ac"
+    }
+  ],
+  "neighborTests": [
+    {
+      "path": "tests/discovery-selection-boundary-20261003.test.mjs",
+      "sha256": "bc5be6a4e3db861a616bd9402d4cc86a17546a751dd04c88b8b23508c2c2027f"
+    },
+    {
+      "path": "tests/cohesive-discovery-runtime-repair.test.mjs",
+      "sha256": "c2631a422675688a6b2a4d4391d8a3d425b3e8a1a9a5eda2b24c88b96dadd6a8"
+    }
+  ],
+  "laneAFrozenComparedWithPriorTurn": true,
+  "unhashedSelfPath": "artifacts/qualification/usefulness-20261016/review-discovery-v1/file-manifest.json"
+}

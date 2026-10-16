@@ -3,10 +3,11 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {projectBeforeArcadiaAssetRevision as projectAssetRevision} from './helpers/arcadia-asset-revision.mjs';
 import {projectBeforeCohesiveProduct20261015} from './helpers/nietzsche-historical-compatibility.mjs';
+import {projectCatalogBeforeUsefulnessRelease20261016} from './helpers/usefulness-historical-compatibility.mjs';
 const projectBeforeArcadiaAssetRevision=(skill,before)=>projectAssetRevision(projectBeforeCohesiveProduct20261015(skill),before);
 const load=async p=>JSON.parse(await readFile(new URL(p,import.meta.url),'utf8'));
 const before=(await load('./fixtures/catalog-before-next-eight-20261004.json')).skills.find(x=>x.id==='eternities-arcadia');
-const current=(await load('../product/catalog.json')).skills.find(x=>x.id===before.id);
+const current=projectCatalogBeforeUsefulnessRelease20261016(await load('../product/catalog.json')).skills.find(x=>x.id===before.id);
 test('named Arcadia revision projects exactly to immutable historical input without mutation',()=>{
   const saved=structuredClone(current);
   assert.deepEqual(projectBeforeArcadiaAssetRevision(current,before),before);

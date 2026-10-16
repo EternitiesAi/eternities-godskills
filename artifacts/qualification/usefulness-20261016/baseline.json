@@ -1,0 +1,31 @@
+{
+  "schema": "godskills-usefulness-baseline-v1",
+  "status": "FROZEN_VALIDATED_BASELINE",
+  "observedUtc": "2026-10-16T07:18:04.137Z",
+  "commit": "7c7f2ac98a282ccb2e59c3a4c0424802a4dd72b5",
+  "releaseId": "368d5a716bd3b8069ba5ba858f8db8f7fba8b19c36aa373fc62c19d8a2b55efb",
+  "skillCount": 93,
+  "manifestFiles": 337,
+  "archiveSha256": "d5e71e9f3be0ea4d654963c9a47a8858247226e695585a2b672dd76eae864ad8",
+  "installedBeforeInventorySha256": "6d6196142a5773a9582aa5f92a270e2bcba91c74cd352462be7636140b11e68b",
+  "protectedFiles": {
+    "src/adaptive-activation.mjs": "9844aee1147f7129f3e37067424ccebb88ff478de1b7a9a9fb7306d5f2fdbd82",
+    "policies/adaptive-activation.v1.json": "b87bbfaddecb42417e57202173220bf240204d27b7de5fffc9e609eb18138939",
+    "artifacts/adaptive-activation/evidence.v1.json": "b55a5cb4f7ff039cc7f4027c165b2f151bad723d9030913076a4225342fbe8c5"
+  },
+  "precedingSameSessionSuite": {
+    "commit": "253c55c00a80532d5a0fa5ec3ac5c946a3d98b9d",
+    "finishedUtc": "2026-10-16T06:30:04.405Z",
+    "counters": {
+      "tests": 1859,
+      "pass": 1857,
+      "fail": 0,
+      "cancelled": 0,
+      "skipped": 2,
+      "todo": 0,
+      "duration_ms": 139782.7313
+    },
+    "receipt": "artifacts/qualification/cohesive-product-20261015/merged-maintained.json"
+  },
+  "limits": "Pack and installed bytes frozen before this batch. Preceding unchanged suite is cited rather than mislabeled a new run. No new agent experiment or model quality result yet."
+}

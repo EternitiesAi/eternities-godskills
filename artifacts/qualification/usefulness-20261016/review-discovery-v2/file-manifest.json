@@ -1,0 +1,44 @@
+{
+  "schema": "discovery-v2-artifact-manifest",
+  "checkedAt": "2026-10-16T07:39:24.8262440Z",
+  "inputBindingsStillMatch": true,
+  "preservedV1Files": 8,
+  "unhashedSelfPath": "artifacts/qualification/usefulness-20261016/review-discovery-v2/file-manifest.json",
+  "files": [
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-discovery-v2/additional-controls.json",
+      "bytes": 1469,
+      "sha256": "e36089f07ac4af69879aac1ac21452f0b56e2f99b0c560f4217fbb79f08e288f"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-discovery-v2/closure-probe.mjs",
+      "bytes": 4706,
+      "sha256": "10d71c1537910ebfec82675748481a36541728575be431a41dafaf3e7008ba76"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-discovery-v2/focused-tests.txt",
+      "bytes": 5947,
+      "sha256": "f224640a94f30c9a473193b1b01fc12a0267cda9df75a352f4fc0ca86f74cc97"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-discovery-v2/input-bindings.json",
+      "bytes": 3349,
+      "sha256": "af30c46d0a394ff8105b8f8ecac1c210108ea18ac8d5f46da8e78cb45ef51ec7"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-discovery-v2/REPORT.md",
+      "bytes": 6367,
+      "sha256": "57c6026a4cfe114ded57d4d1c6841c6027f864a762fb4208b64ccc4ecd0967ba"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-discovery-v2/results.json",
+      "bytes": 59312,
+      "sha256": "8a845a1f96fb20946e394006bb5fcd20bb9e1b50fa00ce74710ea0466a9a13d7"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-discovery-v2/review.json",
+      "bytes": 3052,
+      "sha256": "9091b4ea32ff097466cd60d929663db66552327ac4887fce580a47a064abcc20"
+    }
+  ]
+}

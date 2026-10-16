@@ -1,0 +1,176 @@
+{
+  "schema": "godskills-usefulness-review-b-v1",
+  "decision": "REPAIR",
+  "reviewKind": "Independent document/source review and reviewer transfer reasoning; not engine execution or performance qualification",
+  "baselineCommit": "7c7f2ac98a282ccb2e59c3a4c0424802a4dd72b5",
+  "stableInputObservations": {
+    "before": "inputs-before.json",
+    "after": "inputs-after.json",
+    "allIdentityFieldsEqual": true
+  },
+  "metadata": [
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-b/proposals.json",
+      "sha256": "5bf8bed5a1da288a136f3d49904cecb9eff79e65bd35965aa003c96b3b598cfc"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-b/sources.json",
+      "sha256": "4a7bf735a90ca760dd3887588cda6c593edc54f5e8b0bea34390e71f2c7d1d15"
+    }
+  ],
+  "preservedOriginalBytes": "reviewed-input-bytes.json",
+  "sharedFinding": {
+    "id": "B1",
+    "priority": "P2",
+    "category": "portable-source-attribution",
+    "requiredBy": "User review request and parent portability spot check",
+    "finding": "All four method footers resolve source aliases through lane-only sources.json, while proposed portable provenance adds only the lane proposals authoring locator. Exact source identities are available in the ledger but are not carried by the proposed receiving-machine owner provenance.",
+    "requiredRepair": "Retain original drafts/metadata; replace dangling alias footer with owner-local provenance navigation, append or reuse exact repository@revision:path plus body-hash pattern references in owner skill.json, preserve notices and original-synthesis distinctions, update candidate/method digests and re-review changed bytes.",
+    "proposedRepairPacket": "provenance-repair.json",
+    "notApplied": true
+  },
+  "methods": [
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-b/shader-effect-construction.md",
+      "bytes": 6838,
+      "sha256": "3dadf6801d00479d886dd49605bd73608e3ff27f4ff140d8481a573f0462823d",
+      "modifiedAt": "2026-10-16T07:21:11.529Z",
+      "id": "shader-effect-construction",
+      "owner": "eternities-arcadia",
+      "target": "product/skills/eternities-arcadia/references/shader-effect-construction.md",
+      "decision": "REPAIR",
+      "blockingFindingIds": [
+        "B1"
+      ],
+      "technicalContent": "Supported within document/static-reasoning scope; no additional correctness blocker demonstrated",
+      "proposedTargetOwner": "eternities-arcadia",
+      "proposedTargetResource": "product/skills/eternities-arcadia/references/shader-effect-construction.md",
+      "distinctMechanism": "Incremental carrier/mask/motion/composition construction, pass-edge contracts, and compiler/draw/fragment/compositor fault isolation.",
+      "currentCoverageComparison": "Existing asset integration already owns import and color interpretation; browser lifecycle owns surface/resource lifetime. Neither supplies the staged construction/fault split.",
+      "correctness": "Pulse aspect, signed band and thin-band checks are consistent under declared units and positive edge width; premultiplied-alpha transfer discriminates a compositor seam.",
+      "transferCase": "T1",
+      "findingLocators": [
+        "artifacts/qualification/usefulness-20261016/lane-b/shader-effect-construction.md:41",
+        "proposals.json#/proposals/0/proposedMetadataAdditions/provenance"
+      ],
+      "sourceIds": [
+        "three-debug",
+        "three-color",
+        "three-post",
+        "ue-materials",
+        "unity-workflow"
+      ],
+      "conditionalUse": "Keep as a lazy Arcadia reference; retain import, Muse direction, motion and release-gating boundaries. No new entrypoint is warranted by this review."
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-b/lighting-material-calibration.md",
+      "bytes": 6280,
+      "sha256": "b5fc4b218b27422c32f3048fec007ec6267a480d57f34a4685b850ccfe89aadb",
+      "modifiedAt": "2026-10-16T07:21:11.529Z",
+      "id": "lighting-material-calibration",
+      "owner": "eternities-arcadia",
+      "target": "product/skills/eternities-arcadia/references/lighting-material-calibration.md",
+      "decision": "REPAIR",
+      "blockingFindingIds": [
+        "B1"
+      ],
+      "technicalContent": "Supported within document/static-reasoning scope; no additional correctness blocker demonstrated",
+      "proposedTargetOwner": "eternities-arcadia",
+      "proposedTargetResource": "product/skills/eternities-arcadia/references/lighting-material-calibration.md",
+      "distinctMechanism": "Cross reference/target materials with reference/intended illumination, then bracket one response parameter without mixing unknowns.",
+      "currentCoverageComparison": "Existing asset integration prescribes controlled light/diagnostic material; camera-driven iteration identifies surface readability. The crossed interaction decision adds a concrete operation.",
+      "correctness": "T2 has only the M1/L1 cell fail; it supports an interaction probe rather than a global-light or generally-broken-material conclusion. Reasoning only.",
+      "transferCase": "T2",
+      "findingLocators": [
+        "artifacts/qualification/usefulness-20261016/lane-b/lighting-material-calibration.md:40",
+        "proposals.json#/proposals/1/proposedMetadataAdditions/provenance"
+      ],
+      "sourceIds": [
+        "three-debug",
+        "three-color",
+        "three-materials",
+        "ue-materials",
+        "unity-workflow"
+      ],
+      "conditionalUse": "Keep as a lazy Arcadia reference; retain import, Muse direction, motion and release-gating boundaries. No new entrypoint is warranted by this review."
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-b/animation-interruption-transitions.md",
+      "bytes": 7042,
+      "sha256": "c52ddfa5c2a0fdbfa0f566ca4b16fb997ee1534e530016f006fa4725896ee722",
+      "modifiedAt": "2026-10-16T07:22:13.436Z",
+      "id": "animation-interruption-transitions",
+      "owner": "eternities-arcadia",
+      "target": "product/skills/eternities-arcadia/references/animation-interruption-transitions.md",
+      "decision": "REPAIR",
+      "blockingFindingIds": [
+        "B1"
+      ],
+      "technicalContent": "Supported within document/static-reasoning scope; no additional correctness blocker demonstrated",
+      "proposedTargetOwner": "eternities-arcadia",
+      "proposedTargetResource": "product/skills/eternities-arcadia/references/animation-interruption-transitions.md",
+      "distinctMechanism": "Separate gameplay authorization from fading skeletal pose, event windows, exclusive/additive layer meaning and displacement handoff.",
+      "currentCoverageComparison": "Generic current-state retargeting, request identity and stale completion are already covered by motion-design-and-animation-engineering and are not new. Skeletal gameplay-event/displacement arbitration is the distinct addition.",
+      "correctness": "Exclusive sum and endpoint algebra plus author weights are correct. Transfer preserves independent additive weight and distinguishes 0.48 m single-owner travel from 0.64 m double application in its alternate branch.",
+      "transferCase": "T3",
+      "findingLocators": [
+        "artifacts/qualification/usefulness-20261016/lane-b/animation-interruption-transitions.md:43",
+        "proposals.json#/proposals/2/proposedMetadataAdditions/provenance"
+      ],
+      "sourceIds": [
+        "three-animation",
+        "ue-animation",
+        "unity-workflow"
+      ],
+      "conditionalUse": "Keep as a lazy Arcadia reference; retain import, Muse direction, motion and release-gating boundaries. No new entrypoint is warranted by this review."
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-b/frame-budget-diagnosis.md",
+      "bytes": 7285,
+      "sha256": "ea504b2fb3d0319a4fffc727c8e3b4b33d20ea564ca08185c458ce72f6db764e",
+      "modifiedAt": "2026-10-16T07:21:11.530Z",
+      "id": "frame-budget-diagnosis",
+      "owner": "eternities-arcadia",
+      "target": "product/skills/eternities-arcadia/references/frame-budget-diagnosis.md",
+      "decision": "REPAIR",
+      "blockingFindingIds": [
+        "B1"
+      ],
+      "technicalContent": "Supported within document/static-reasoning scope; no additional correctness blocker demonstrated",
+      "proposedTargetOwner": "eternities-arcadia",
+      "proposedTargetResource": "product/skills/eternities-arcadia/references/frame-budget-diagnosis.md",
+      "distinctMechanism": "Locate active work versus waits with bounded pixel/pass/subsystem probes, confounds, pacing headroom and first-use separation.",
+      "currentCoverageComparison": "Arcadia already measures distributions and one-lever comparisons; performance-release-gating already owns the release decision. This is the preceding causal-localization procedure.",
+      "correctness": "90 Hz transfer fits fixed GPU cost 6.4 ms and pixel-sensitive cost 7.2 ms in the stipulated model; CPU becomes limiting after the first probe and another resolution cut does not improve cadence.",
+      "transferCase": "T4",
+      "findingLocators": [
+        "artifacts/qualification/usefulness-20261016/lane-b/frame-budget-diagnosis.md:42",
+        "proposals.json#/proposals/3/proposedMetadataAdditions/provenance"
+      ],
+      "sourceIds": [
+        "three-post",
+        "three-materials",
+        "ue-materials",
+        "ue-testing",
+        "ue-profiling",
+        "unity-workflow"
+      ],
+      "conditionalUse": "Keep as a lazy Arcadia reference; retain import, Muse direction, motion and release-gating boundaries. No new entrypoint is warranted by this review."
+    }
+  ],
+  "checks": {
+    "sourceBodiesCompletelyRead": 10,
+    "sourceNoticesCompletelyRead": 3,
+    "currentOwnerBodyOrMetadataFilesRead": 14,
+    "currentOwnerAndTaskIdentitiesVerified": 17,
+    "sourceRepositoriesHeadAndSelectedPathsVerified": 3,
+    "staticArithmeticGroupsPassed": 8,
+    "reviewerTransferCasesWorked": 4
+  },
+  "limits": [
+    "No renderer, engine, upstream command/code, device profiling, hidden evaluation or other lane contents were used.",
+    "Exact source bytes support snapshot provenance, not claimed current-version API correctness, rights clearance or rendered behavior.",
+    "Conditional links and proposed owner metadata are reviewed as text, not integrated product bytes; new integration bytes need their own bound checks.",
+    "No drafts/product modified; no commit, installation, acquisition, paid/provider call, descendants or model-roster change."
+  ]
+}

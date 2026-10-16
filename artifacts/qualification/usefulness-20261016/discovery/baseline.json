@@ -1,0 +1,4028 @@
+{
+  "schema": "godskills-usefulness-discovery-probe-v1",
+  "recordedAt": "2026-10-16T07:17:57.329Z",
+  "node": "v24.18.0",
+  "baselineCommit": "7c7f2ac98a282ccb2e59c3a4c0424802a4dd72b5",
+  "portableReleaseId": "368d5a716bd3b8069ba5ba858f8db8f7fba8b19c36aa373fc62c19d8a2b55efb",
+  "catalogSkillCount": 93,
+  "frozenCasesSha256": "4fb39b46fb15239c0cf29136c3c82846d1f1275c904467412b569b9b50d93691",
+  "sources": {
+    "docs/superpowers/specs/2026-10-16-usefulness-release.md": "28ee0ac82aeecb44c5bd689744b0cbbb6bd137452f9077f02122459d7dab0d07",
+    "docs/superpowers/plans/2026-10-16-usefulness-release.md": "1956bee1ecef37c98fcae93edcc5da092a31d63ba203344be3203da07d95d3ff",
+    "product/catalog.json": "adfa5cfed9ac1c6a3ca8db26522e322aa5106ca031884a4de1d8a61dc1a41b36",
+    "product/release.json": "752e4596352499e2d601833c30a6c9149fa5ebe5ef7e31f11949d57f4251785e",
+    "product/README.md": "792aeb93acb283a0d7698f4f7223da61759aa4239b547fe60a5d103d3521a8e2",
+    "product/DISCOVERY.md": "d9f03824a4b3fedc40c50c2fd11f061ca8f90b25cb1546d13b83a12d8676281c",
+    "product/lib/product.mjs": "afd5689a4120420478995bee762e67cc7ce640f9ce633ae6c6a4f497efcff9bf",
+    "product/lib/discovery.mjs": "5078f81b1f8a4bb00436a1cc50bfaacb8307e5a852a9820ac0badc9e292f4fd4",
+    "product/lib/request-scope.mjs": "e9055f1bfa2a913c1f73e93f5fa652588963e63dd9094e46713786fe400877f2",
+    "product/lib/selection-boundary.mjs": "a7b0ed0d0c9805e9a2b97a74c0321ce263c15609e98996144df90fc1b7f0e60e",
+    "product/skills/customer-support-triage-and-resolution/SKILL.md": "32f0615a91aa2ca3e5933c40e24aa80ae200b9b7394549bf37b42b1d1ba34be0",
+    "product/skills/customer-support-triage-and-resolution/skill.json": "8dea394c14591bd7ffc35443dc6b254a15b443667c7aee13aad328488f2fb0ae",
+    "product/skills/deterministic-video-composition-and-rendering/SKILL.md": "ba96605ba3dda38c5fb4334ff8833a3d2083dddb387071c4e250d7bd42ef6a94",
+    "product/skills/deterministic-video-composition-and-rendering/skill.json": "4bef42d6dd7bda94a28ba939f013f7e9b9a6e62f1e3fe51ed9f03ad5e6056cbf",
+    "product/skills/eternities-agora/SKILL.md": "763bae5c52442699d9422e08ad68fdeb7466638f5bba5cbd6dfa04e1754da9ac",
+    "product/skills/eternities-agora/skill.json": "a59a8eee96b38029b3df31f564fb312b39f44a0716ad0b44f4fbdbaa89a8393f",
+    "product/skills/eternities-arcadia/SKILL.md": "ac0ef2950f34981c72dad4143ad3752b289d3f95877ee68aa464195c8818b282",
+    "product/skills/eternities-arcadia/skill.json": "eeaefbc6c4c89338b38664002a266cf54c9530e610f44874386bf7284e67933e",
+    "product/skills/evidence-linked-learning-design/SKILL.md": "a91d5ffe526e92ed72c541816d6c0310f5ab2d56b82f2c5f91960b778bbed606",
+    "product/skills/evidence-linked-learning-design/skill.json": "950b371148ed06e650a5d0f9b887d88b904f45febfb4ebadceb0a6d0e54ab473",
+    "product/skills/motion-design-and-animation-engineering/SKILL.md": "9f9f17e2bf49fa039f11239bbbc0adf9e98df12e21f1c1f8a8f3343d282719ea",
+    "product/skills/motion-design-and-animation-engineering/skill.json": "81e8e2b2ea872cc9460bc867e9383997574af711a9a08fda72e340a313efeea0",
+    "product/skills/operating-cadence-and-decision-accountability/SKILL.md": "a03d89234106b30da8e99ffe6e738f58408e03727d2909431a119aca6b5c56c1",
+    "product/skills/operating-cadence-and-decision-accountability/skill.json": "59cf6450920fce4e5fc1ef3f77d0055bc7d7dfda81a58d109646f553e3ca1792",
+    "product/skills/performance-release-gating/SKILL.md": "e96f776e506d9eb98eb32df919a64c3c30520d99a5317f9b0f5eb1cb6db42de5",
+    "product/skills/performance-release-gating/skill.json": "3f8c6b2f9ce4983eb271b553f6369d117f27487e163017d3ea6adcb1b5cb48ff",
+    "product/skills/web-performance-optimization/SKILL.md": "9ae95c2503cd3800a9ad0dacc7190e52f613eaf08d92d8d1b2431e0e24399100",
+    "product/skills/web-performance-optimization/skill.json": "157c41109e4fd8e0a727fb11a193d57f987f10eed40a0235a66be563c69ae433",
+    "product/skills/evidence-linked-learning-design/references/practice-and-transfer-v1.md": "8625e567db5d4f68c267bd4743e555885115fabcbd253b67f768e2031826aa9f",
+    "artifacts/releases/godskills-product-20261013-454091b1.zip": "45f93085de85e65faa88f18cbf7ff23981fe17342d78ea3a715b910f9067878a",
+    "artifacts/releases/godskills-product-20261013-ca5d2adb.zip": "3ba929361a1823b36e9ff73509ff4cb5e0598092966e51f3c2cf5f7670eb0908",
+    "artifacts/releases/godskills-product-20261013-ca5d2adb.zip.sha256": "db1f06f43da1e915a3b308f3de77a65cad112ba600d05837ffcf59850c4589ec"
+  },
+  "summary": {
+    "total": 20,
+    "passed": 18,
+    "failed": [
+      {
+        "id": "exclusion-01",
+        "failures": [
+          "excluded owner present: eternities-arcadia"
+        ]
+      },
+      {
+        "id": "exclusion-02",
+        "failures": [
+          "excluded owner present: eternities-arcadia"
+        ]
+      }
+    ]
+  },
+  "cases": [
+    {
+      "id": "positive-01",
+      "kind": "positive",
+      "query": "Screen these prospects for our service proposal using dated account evidence; expose partial assessment scores and unresolved identities before recommending a client shortlist.",
+      "options": {
+        "limit": 3
+      },
+      "expected": {
+        "includes": [
+          "eternities-agora"
+        ]
+      },
+      "basis": "product/skills/eternities-agora/SKILL.md: prospect assessment and reversible identity reconciliation",
+      "failures": [],
+      "output": {
+        "schema": "eternities-godskills-discovery-v1",
+        "authority": "none",
+        "activation": "none",
+        "method": "offline-lexical-intent-phrases-v4",
+        "query": "Screen these prospects for our service proposal using dated account evidence; expose partial assessment scores and unresolved identities before recommending a client shortlist.",
+        "results": [
+          {
+            "id": "eternities-agora",
+            "category": "business",
+            "entrypoint": "skills/eternities-agora/SKILL.md",
+            "entrypointSha256": "763bae5c52442699d9422e08ad68fdeb7466638f5bba5cbd6dfa04e1754da9ac",
+            "summary": "Traceable prospect, account, service, proposal, and client-report artifacts from reconciled evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "plan",
+              "create",
+              "communicate"
+            ],
+            "antiTriggers": [
+              "routine lookup",
+              "regulated identity screening",
+              "legal or financial advice",
+              "external account mutation without target and authority"
+            ],
+            "score": 174.326,
+            "reasons": [
+              "Matched: account, assessment, client, evidence, proposal, service"
+            ],
+            "related": [
+              "eternities-athena",
+              "eternities-beacon",
+              "eternities-logos",
+              "eternities-prometheus"
+            ]
+          },
+          {
+            "id": "eternities-daedalus",
+            "category": "engineering",
+            "entrypoint": "skills/eternities-daedalus/SKILL.md",
+            "entrypointSha256": "1a26dfffe15ecfa2289aaa502e959c07f99eb518c9823ae930536a5c9f829e17",
+            "summary": "Implement, refactor, integrate, migrate, configure, optimize, and verify bounded engineering changes with direct evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify",
+              "recover"
+            ],
+            "antiTriggers": [
+              "external deployment without matching authority",
+              "destructive migration without rollback",
+              "unknown dependency behavior",
+              "unsafe generated code without review"
+            ],
+            "score": 46.262,
+            "reasons": [
+              "Matched: evidence, partial, service"
+            ],
+            "related": [
+              "api-rate-limit-recovery",
+              "eternities-architect",
+              "eternities-atlas",
+              "eternities-forge",
+              "eternities-muse",
+              "eternities-phoenix",
+              "release-script-safety"
+            ]
+          },
+          {
+            "id": "structured-hiring-evaluation",
+            "category": "business",
+            "entrypoint": "skills/structured-hiring-evaluation/SKILL.md",
+            "entrypointSha256": "06d362d9881ccdbafa57994e1b3710793b3478e3eb316d537505da834096079b",
+            "summary": "Design role-specific hiring assessments, compare independent candidate evidence and diagnose dated recruiting funnels without proxy-based judgments.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "verify",
+              "create"
+            ],
+            "antiTriggers": [
+              "simple job title edit",
+              "protected trait inference",
+              "background check",
+              "employment-law determination",
+              "unsolicited candidate scraping"
+            ],
+            "score": 41.625,
+            "reasons": [
+              "Matched: assessment, dated, evidence"
+            ],
+            "related": [
+              "eternities-agora",
+              "eternities-atlas",
+              "interpersonal-understanding-and-dialogue"
+            ],
+            "specializes": "eternities-prometheus"
+          }
+        ],
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        }
+      },
+      "diagnostics": {
+        "affirmativeClauses": [
+          "screen these prospects for our service proposal using dated account evidence",
+          "expose partial assessment scores and unresolved identities before recommending a client shortlist"
+        ],
+        "intents": [],
+        "runtimeDomainNavigation": false,
+        "arcadiaIntent": {
+          "score": 0,
+          "prioritizeRequestedActivity": false,
+          "reasons": [],
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "positive-02",
+      "kind": "positive",
+      "query": "Our founder approval queue keeps aging while teams start more work. Design intake capacity and WIP limits, decision rights, and an exception owner with an expiry.",
+      "options": {
+        "limit": 3
+      },
+      "expected": {
+        "includes": [
+          "operating-cadence-and-decision-accountability"
+        ]
+      },
+      "basis": "product/skills/operating-cadence-and-decision-accountability/SKILL.md: limiting handoff, effective capacity, intake policy and accountable exceptions",
+      "failures": [],
+      "output": {
+        "schema": "eternities-godskills-discovery-v1",
+        "authority": "none",
+        "activation": "none",
+        "method": "offline-lexical-intent-phrases-v4",
+        "query": "Our founder approval queue keeps aging while teams start more work. Design intake capacity and WIP limits, decision rights, and an exception owner with an expiry.",
+        "results": [
+          {
+            "id": "operating-cadence-and-decision-accountability",
+            "category": "business",
+            "entrypoint": "skills/operating-cadence-and-decision-accountability/SKILL.md",
+            "entrypointSha256": "a03d89234106b30da8e99ffe6e738f58408e03727d2909431a119aca6b5c56c1",
+            "summary": "Design operating rules for founder or executive approval queues, scoped delegation, effective capacity, work-in-progress limits, and accountable exceptions.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "create",
+              "build",
+              "verify"
+            ],
+            "antiTriggers": [
+              "ordinary status update",
+              "personal productivity coaching",
+              "generic corporate strategy",
+              "employment or vendor negotiation",
+              "emergency incident response"
+            ],
+            "score": 367.816,
+            "reasons": [
+              "Matched: aging, approval, capacity, decision, design, exception, expiry, founder, intake, limits, owner, queue, rights, wip"
+            ],
+            "related": [
+              "eternities-agora",
+              "eternities-forge",
+              "structured-hiring-evaluation"
+            ],
+            "specializes": "eternities-prometheus"
+          },
+          {
+            "id": "knowledge-base-architecture-and-maintenance",
+            "category": "memory",
+            "entrypoint": "skills/knowledge-base-architecture-and-maintenance/SKILL.md",
+            "entrypointSha256": "c1fe39e77589ae5eb12b08543b834f195a1b1bba82d5fc3bf82322eb010820c1",
+            "summary": "Organize and maintain knowledge collections with audience-led navigation, stable source and claim identities, authority and effective states, bounded reads, versioned derived views, and recoverable retirement.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "plan",
+              "create",
+              "recover",
+              "verify"
+            ],
+            "antiTriggers": [
+              "ordinary file lookup or answer from an already supplied document",
+              "standalone note edit with no collection architecture or lifecycle change",
+              "build or tune a question-answering retrieval and generation pipeline",
+              "acquire private transcript exports or persist session memory without source and write authorization"
+            ],
+            "score": 49.69,
+            "reasons": [
+              "Matched: design, rights, while"
+            ],
+            "related": [
+              "completeness-and-consistency-audit",
+              "memory-retention-and-recovery",
+              "retrieval-grounded-answering"
+            ],
+            "specializes": "eternities-mnemosyne"
+          },
+          {
+            "id": "api-contract-design-and-evolution",
+            "category": "engineering",
+            "entrypoint": "skills/api-contract-design-and-evolution/SKILL.md",
+            "entrypointSha256": "88e79f38ac417ddf49145ea2faee45182730632593dae5df0eb0a10f663714e4",
+            "summary": "Design and evolve API contracts with directional consumer/provider compatibility, presence and null semantics, behavioral errors, scoped replay, concurrent writes, cursor consistency, and migration evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify"
+            ],
+            "antiTriggers": [
+              "edit an already supplied static JSON value",
+              "only tune a client's backoff timer",
+              "evade a provider quota or access policy",
+              "only migrate an internal database schema"
+            ],
+            "score": 46.633,
+            "reasons": [
+              "Matched: design, expiry, interface"
+            ],
+            "related": [
+              "api-rate-limit-recovery",
+              "eternities-daedalus",
+              "eternities-hermes",
+              "structured-output-contracts"
+            ],
+            "specializes": "eternities-daedalus"
+          }
+        ],
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        }
+      },
+      "diagnostics": {
+        "affirmativeClauses": [
+          "our founder approval queue keeps aging while teams start more work",
+          "design intake capacity and wip limits, decision rights, and an exception owner with an expiry"
+        ],
+        "intents": [],
+        "runtimeDomainNavigation": false,
+        "arcadiaIntent": {
+          "score": 0,
+          "prioritizeRequestedActivity": false,
+          "reasons": [],
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "positive-03",
+      "kind": "positive",
+      "query": "Prepare learner practice on choosing a denominator: include contrasting worked examples, a misconception check, feedback for another attempt, and a fresh transfer task.",
+      "options": {
+        "limit": 3
+      },
+      "expected": {
+        "includes": [
+          "evidence-linked-learning-design"
+        ]
+      },
+      "basis": "product/skills/evidence-linked-learning-design/SKILL.md and references/practice-and-transfer-v1.md: actual practice, feedback and changed-context transfer",
+      "failures": [],
+      "output": {
+        "schema": "eternities-godskills-discovery-v1",
+        "authority": "none",
+        "activation": "none",
+        "method": "offline-lexical-intent-phrases-v4",
+        "query": "Prepare learner practice on choosing a denominator: include contrasting worked examples, a misconception check, feedback for another attempt, and a fresh transfer task.",
+        "results": [
+          {
+            "id": "evidence-linked-learning-design",
+            "category": "education",
+            "entrypoint": "skills/evidence-linked-learning-design/SKILL.md",
+            "entrypointSha256": "a91d5ffe526e92ed72c541816d6c0310f5ab2d56b82f2c5f91960b778bbed606",
+            "summary": "Design evidence-linked lessons, assessments, teaching handoffs and learner reports from observable goals and supplied achievement evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "create",
+              "verify",
+              "communicate"
+            ],
+            "antiTriggers": [
+              "Professional certification or guaranteed outcomes without appropriate evidence and qualified review"
+            ],
+            "score": 111.272,
+            "reasons": [
+              "Matched: feedback, learner, practice, transfer"
+            ],
+            "related": [
+              "eternities-athena",
+              "eternities-logos",
+              "eternities-muse"
+            ]
+          },
+          {
+            "id": "voice-style-calibration",
+            "category": "writing",
+            "entrypoint": "skills/voice-style-calibration/SKILL.md",
+            "entrypointSha256": "fb4a54b739b51d0e91df35d17e65fd684f7f43fd06575e58a3782d5040ad73c4",
+            "summary": "Infer and apply an evidence-based written voice across contexts while preserving meaning, attribution, and register distinctions.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "create",
+              "communicate",
+              "verify"
+            ],
+            "antiTriggers": [
+              "one-off tone adjustment with no sample-based profile needed",
+              "deceptive imitation or false attribution of a real person",
+              "speech synthesis, voice cloning, or likeness generation",
+              "send or publish a draft without a named target and authority"
+            ],
+            "score": 27.025,
+            "reasons": [
+              "Matched: examples"
+            ],
+            "related": [
+              "eternities-chorus"
+            ],
+            "specializes": "eternities-logos"
+          },
+          {
+            "id": "eternities-prometheus",
+            "category": "business",
+            "entrypoint": "skills/eternities-prometheus/SKILL.md",
+            "entrypointSha256": "70d043541b328a6bfebd6cd75840aaca8ed94fc22cc10165d1be444f4662fc06",
+            "summary": "Route product-operations questions into evidence-led growth, analytics, customer insight, learning, planning, and delivery artifacts.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "plan",
+              "create",
+              "communicate"
+            ],
+            "antiTriggers": [
+              "outreach, pricing, or procurement execution without target and authority",
+              "private-data acquisition",
+              "regulated or legal judgment"
+            ],
+            "score": 24.26,
+            "reasons": [
+              "Matched: choosing"
+            ],
+            "related": [
+              "eternities-agora",
+              "eternities-atlas",
+              "eternities-beacon",
+              "eternities-forge"
+            ]
+          }
+        ],
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        }
+      },
+      "diagnostics": {
+        "affirmativeClauses": [
+          "prepare learner practice on choosing a denominator: include contrasting worked examples, a misconception check, feedback for another attempt, and a fresh transfer task"
+        ],
+        "intents": [],
+        "runtimeDomainNavigation": false,
+        "arcadiaIntent": {
+          "score": 0,
+          "prioritizeRequestedActivity": false,
+          "reasons": [],
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "positive-04",
+      "kind": "positive",
+      "query": "Fix the WebGL shader in our browser game so the interactive crystal reads correctly from the gameplay camera; check GPU resource ownership after scene teardown.",
+      "options": {
+        "limit": 3
+      },
+      "expected": {
+        "includes": [
+          "eternities-arcadia"
+        ]
+      },
+      "basis": "product/skills/eternities-arcadia/SKILL.md: runtime, camera-readable assets and browser lifecycle",
+      "failures": [],
+      "output": {
+        "schema": "eternities-godskills-discovery-v1",
+        "authority": "none",
+        "activation": "none",
+        "method": "offline-lexical-intent-phrases-v4",
+        "query": "Fix the WebGL shader in our browser game so the interactive crystal reads correctly from the gameplay camera; check GPU resource ownership after scene teardown.",
+        "results": [
+          {
+            "id": "eternities-arcadia",
+            "category": "games",
+            "entrypoint": "skills/eternities-arcadia/SKILL.md",
+            "entrypointSha256": "ac0ef2950f34981c72dad4143ad3752b289d3f95877ee68aa464195c8818b282",
+            "summary": "Connect game direction, imported 3D assets, runtime systems, player experience, accessibility, performance, and human release evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify",
+              "create"
+            ],
+            "antiTriggers": [
+              "routine isolated code edit",
+              "asset generation without a design decision",
+              "store or commercial action without release authority",
+              "unsupported fun or release claim"
+            ],
+            "score": 327.731,
+            "reasons": [
+              "Matched: after, browser, camera, check, game, gameplay, gpu, interactive, ownership, resource, scene, shader, teardown, webgl",
+              "Lexical intent: game or real-time 3D runtime scope; cues: game or technical 3D context, independent work action or reported fault"
+            ],
+            "related": [
+              "eternities-architect",
+              "eternities-daedalus",
+              "eternities-muse",
+              "eternities-orpheus"
+            ]
+          },
+          {
+            "id": "scene-continuity-and-coverage",
+            "category": "design",
+            "entrypoint": "skills/scene-continuity-and-coverage/SKILL.md",
+            "entrypointSha256": "78237dfcd4e7b71f5d16742cc47364ed3bad51774ab8bd9ab7f1da215f5359e8",
+            "summary": "Design storyboards and camera coverage on a shared scene timeline with expressive motion, coherent geography and continuity across edits.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "create",
+              "verify"
+            ],
+            "antiTriggers": [
+              "minor caption edit"
+            ],
+            "score": 73.542,
+            "reasons": [
+              "Matched: camera, scene"
+            ],
+            "related": [
+              "eternities-logos",
+              "eternities-muse",
+              "eternities-orpheus",
+              "measured-paid-creative-iteration"
+            ],
+            "specializes": "eternities-muse"
+          },
+          {
+            "id": "browser-automation-state-and-verification",
+            "category": "automation",
+            "entrypoint": "skills/browser-automation-state-and-verification/SKILL.md",
+            "entrypointSha256": "b6b9980be8506ac0405d811dc7cce0cd9ee794addfec5ef61ad647fcf1fa2cca",
+            "summary": "Complete browser interactions with durable session identity, fresh target references, observable transitions, verified artifacts and uncertain-submission reconciliation.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify",
+              "recover"
+            ],
+            "antiTriggers": [
+              "public information retrieval without browser interaction",
+              "browser installation or control-channel configuration",
+              "general application testing strategy",
+              "access-control evasion or unauthorized submission"
+            ],
+            "score": 63.253,
+            "reasons": [
+              "Matched: browser, ownership"
+            ],
+            "related": [
+              "accessibility-audit-and-remediation",
+              "api-rate-limit-recovery",
+              "eternities-aegis",
+              "eternities-daedalus"
+            ],
+            "specializes": "eternities-hermes"
+          }
+        ],
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        }
+      },
+      "diagnostics": {
+        "affirmativeClauses": [
+          "fix the webgl shader in our browser game so the interactive crystal reads correctly from the gameplay camera",
+          "check gpu resource ownership after scene teardown"
+        ],
+        "intents": [
+          "game or real-time 3D runtime scope"
+        ],
+        "runtimeDomainNavigation": true,
+        "arcadiaIntent": {
+          "score": 0,
+          "prioritizeRequestedActivity": false,
+          "reasons": [
+            "Lexical intent: game or real-time 3D runtime scope; cues: game or technical 3D context, independent work action or reported fault"
+          ],
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "positive-05",
+      "kind": "positive",
+      "query": "Make the drawer reverse smoothly when tapped twice, retarget from its current position and velocity after a resize, and preserve keyboard focus with reduced motion.",
+      "options": {
+        "limit": 3
+      },
+      "expected": {
+        "includes": [
+          "motion-design-and-animation-engineering"
+        ]
+      },
+      "basis": "product/skills/motion-design-and-animation-engineering/SKILL.md: interruption, retargeting, responsive geometry and usable semantics",
+      "failures": [],
+      "output": {
+        "schema": "eternities-godskills-discovery-v1",
+        "authority": "none",
+        "activation": "none",
+        "method": "offline-lexical-intent-phrases-v4",
+        "query": "Make the drawer reverse smoothly when tapped twice, retarget from its current position and velocity after a resize, and preserve keyboard focus with reduced motion.",
+        "results": [
+          {
+            "id": "motion-design-and-animation-engineering",
+            "category": "design",
+            "entrypoint": "skills/motion-design-and-animation-engineering/SKILL.md",
+            "entrypointSha256": "9f9f17e2bf49fa039f11239bbbc0adf9e98df12e21f1c1f8a8f3343d282719ea",
+            "summary": "Build purposeful interactive motion with easing, spring choreography, gesture retargeting, responsive layout, cancellation and reduced-motion acceptance.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "create",
+              "verify"
+            ],
+            "antiTriggers": [
+              "simple one-property CSS transition",
+              "ordinary graphics debugging",
+              "encoded video only",
+              "general art direction without animation"
+            ],
+            "score": 313.668,
+            "reasons": [
+              "Matched: drawer, focus, keyboard, motion, reduced, reverse, smoothly, tapped, twice",
+              "Lexical intent: interactive motion continuity; cues: interface object, motion action, continuity or geometry change"
+            ],
+            "related": [
+              "accessibility-audit-and-remediation",
+              "deterministic-video-composition-and-rendering",
+              "eternities-daedalus",
+              "scene-continuity-and-coverage"
+            ],
+            "specializes": "eternities-muse"
+          },
+          {
+            "id": "accessibility-audit-and-remediation",
+            "category": "design",
+            "entrypoint": "skills/accessibility-audit-and-remediation/SKILL.md",
+            "entrypointSha256": "01bf60db9e2da9a7f1d36505d9fa60f9b925217ba362a522a4093c87dd5e73e9",
+            "summary": "Audit and repair complete interface journeys with keyboard, assistive-technology, focus, error recovery, adaptation and motion evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify"
+            ],
+            "antiTriggers": [
+              "routine cosmetic edit",
+              "general interface art direction",
+              "legal accessibility determination",
+              "whole-product accessibility certification"
+            ],
+            "score": 116.062,
+            "reasons": [
+              "Matched: focus, keyboard, motion, reduced"
+            ],
+            "related": [
+              "eternities-daedalus",
+              "interface-localization-and-bidirectionality",
+              "native-mobile-interaction-testing"
+            ],
+            "specializes": "eternities-muse"
+          },
+          {
+            "id": "eternities-muse",
+            "category": "design",
+            "entrypoint": "skills/eternities-muse/SKILL.md",
+            "entrypointSha256": "34fccadc01b49dcb8097641a6a6153dabd119dd55ba9f31781c7bfa4c4c1ac73",
+            "summary": "Direct visual forensics, interface direction, operational data views, motion, accessibility, and rendered acceptance through coherent evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "plan",
+              "create",
+              "verify"
+            ],
+            "antiTriggers": [
+              "routine spacing edit",
+              "direct final-image generation",
+              "ordinary graphics debugging",
+              "visual claim from one hero frame"
+            ],
+            "score": 43.217,
+            "reasons": [
+              "Matched: after, motion"
+            ],
+            "related": [
+              "eternities-arcadia",
+              "eternities-atlas",
+              "eternities-chorus",
+              "eternities-daedalus",
+              "eternities-hermes",
+              "eternities-orpheus",
+              "scene-continuity-and-coverage"
+            ]
+          }
+        ],
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        }
+      },
+      "diagnostics": {
+        "affirmativeClauses": [
+          "make the drawer reverse smoothly when tapped twice, retarget from its current position and velocity after a resize, and preserve keyboard focus with reduced motion"
+        ],
+        "intents": [
+          "interactive motion continuity"
+        ],
+        "runtimeDomainNavigation": false,
+        "arcadiaIntent": {
+          "score": 0,
+          "prioritizeRequestedActivity": false,
+          "reasons": [],
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "positive-06",
+      "kind": "positive",
+      "query": "Decide whether this release candidate clears its measured latency and resource budgets against the baseline under the same workload; retain variance, failed functional checks and an inconclusive outcome.",
+      "options": {
+        "limit": 3
+      },
+      "expected": {
+        "includes": [
+          "performance-release-gating"
+        ]
+      },
+      "basis": "product/skills/performance-release-gating/SKILL.md: bounded release decision from distributions, budgets and functional gates",
+      "failures": [],
+      "output": {
+        "schema": "eternities-godskills-discovery-v1",
+        "authority": "none",
+        "activation": "none",
+        "method": "offline-lexical-intent-phrases-v4",
+        "query": "Decide whether this release candidate clears its measured latency and resource budgets against the baseline under the same workload; retain variance, failed functional checks and an inconclusive outcome.",
+        "results": [
+          {
+            "id": "performance-release-gating",
+            "category": "release",
+            "entrypoint": "skills/performance-release-gating/SKILL.md",
+            "entrypointSha256": "e96f776e506d9eb98eb32df919a64c3c30520d99a5317f9b0f5eb1cb6db42de5",
+            "summary": "Compare a candidate with a declared baseline under repeatable workload, variance, resource, functional, and release-readiness gates.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "verify",
+              "orchestrate"
+            ],
+            "antiTriggers": [
+              "Generate unapproved load against an external or production target.",
+              "Deploy because one benchmark happened to pass.",
+              "Claim field impact or production capacity from a synthetic fixture."
+            ],
+            "score": 287.796,
+            "reasons": [
+              "Matched: baseline, budgets, candidate, functional, inconclusive, latency, measured, performance, release, resource, under, variance, workload"
+            ],
+            "related": [
+              "eternities-aegis",
+              "eternities-daedalus",
+              "eternities-herald",
+              "release-script-safety",
+              "web-performance-optimization"
+            ],
+            "specializes": "eternities-herald"
+          },
+          {
+            "id": "web-performance-optimization",
+            "category": "engineering",
+            "entrypoint": "skills/web-performance-optimization/SKILL.md",
+            "entrypointSha256": "9ae95c2503cd3800a9ad0dacc7190e52f613eaf08d92d8d1b2431e0e24399100",
+            "summary": "Reduce a reproducible web bottleneck through repeated baselines, causal isolation, one bounded change, and functional, visual, and variance checks.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "build",
+              "verify",
+              "plan"
+            ],
+            "antiTriggers": [
+              "Claim field improvement from one synthetic run.",
+              "Change production delivery without the task's release scope.",
+              "Improve a score by hiding content, errors, or accessibility defects."
+            ],
+            "score": 73.175,
+            "reasons": [
+              "Matched: against, checks, functional, performance, variance"
+            ],
+            "related": [
+              "eternities-aegis",
+              "eternities-daedalus",
+              "eternities-muse",
+              "interface-localization-and-bidirectionality",
+              "performance-release-gating"
+            ],
+            "specializes": "eternities-daedalus"
+          },
+          {
+            "id": "infrastructure-plan-apply-isolation",
+            "category": "release",
+            "entrypoint": "skills/infrastructure-plan-apply-isolation/SKILL.md",
+            "entrypointSha256": "5a77c8f4e48c23fc8d37548cbf15b5970e941173e514873acdd4e64adb7f896e",
+            "summary": "Isolate infrastructure tests and plans from authorized state-changing applies, preserving version, state, diff, and cleanup evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify",
+              "recover"
+            ],
+            "antiTriggers": [
+              "Apply infrastructure merely because a plan or mock test passed.",
+              "Use unsupported mock features as if they were provider or permission coverage.",
+              "Reuse broad shared state or expose credentials while testing."
+            ],
+            "score": 65.302,
+            "reasons": [
+              "Matched: release, resource, retain"
+            ],
+            "related": [
+              "bounded-service-shutdown",
+              "eternities-aegis",
+              "eternities-daedalus",
+              "eternities-herald",
+              "performance-release-gating",
+              "release-script-safety"
+            ],
+            "specializes": "eternities-herald"
+          }
+        ],
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        }
+      },
+      "diagnostics": {
+        "affirmativeClauses": [
+          "decide whether this release candidate clears its measured latency and resource budgets against the baseline under the same workload",
+          "retain variance, failed functional checks and an inconclusive outcome"
+        ],
+        "intents": [],
+        "runtimeDomainNavigation": false,
+        "arcadiaIntent": {
+          "score": 0,
+          "prioritizeRequestedActivity": false,
+          "reasons": [],
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "adjacent-01",
+      "kind": "adjacent",
+      "query": "Triage this support ticket after the workaround failed; establish customer impact, draft a truthful update, and prepare an escalation handoff without claiming resolution.",
+      "options": {
+        "limit": 3
+      },
+      "expected": {
+        "includes": [
+          "customer-support-triage-and-resolution"
+        ],
+        "precedesIfPresent": [
+          [
+            "customer-support-triage-and-resolution",
+            "eternities-agora"
+          ]
+        ]
+      },
+      "basis": "product/skills/customer-support-triage-and-resolution/SKILL.md: individual case troubleshooting and escalation; account-health strategy is adjacent",
+      "failures": [],
+      "output": {
+        "schema": "eternities-godskills-discovery-v1",
+        "authority": "none",
+        "activation": "none",
+        "method": "offline-lexical-intent-phrases-v4",
+        "query": "Triage this support ticket after the workaround failed; establish customer impact, draft a truthful update, and prepare an escalation handoff without claiming resolution.",
+        "results": [
+          {
+            "id": "customer-support-triage-and-resolution",
+            "category": "business",
+            "entrypoint": "skills/customer-support-triage-and-resolution/SKILL.md",
+            "entrypointSha256": "32f0615a91aa2ca3e5933c40e24aa80ae200b9b7394549bf37b42b1d1ba34be0",
+            "summary": "Handle support issues through evidence-based triage, safe troubleshooting, truthful customer updates, focused escalation and explicit resolution states.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "recover",
+              "verify",
+              "communicate",
+              "plan"
+            ],
+            "antiTriggers": [
+              "simple acknowledgment",
+              "unapproved account refund",
+              "clinical or legal advice",
+              "exploit reproduction",
+              "company-wide account health strategy"
+            ],
+            "score": 347.734,
+            "reasons": [
+              "Matched: after, customer, escalation, failed, handoff, resolution, support, ticket, triage, truthful, update, workaround"
+            ],
+            "related": [
+              "eternities-aegis",
+              "eternities-daedalus",
+              "eternities-phoenix",
+              "eternities-prometheus"
+            ],
+            "specializes": "eternities-agora"
+          },
+          {
+            "id": "eternities-agora",
+            "category": "business",
+            "entrypoint": "skills/eternities-agora/SKILL.md",
+            "entrypointSha256": "763bae5c52442699d9422e08ad68fdeb7466638f5bba5cbd6dfa04e1754da9ac",
+            "summary": "Traceable prospect, account, service, proposal, and client-report artifacts from reconciled evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "plan",
+              "create",
+              "communicate"
+            ],
+            "antiTriggers": [
+              "routine lookup",
+              "regulated identity screening",
+              "legal or financial advice",
+              "external account mutation without target and authority"
+            ],
+            "score": 65.194,
+            "reasons": [
+              "Matched: customer, escalation, update"
+            ],
+            "related": [
+              "eternities-athena",
+              "eternities-beacon",
+              "eternities-logos",
+              "eternities-prometheus"
+            ]
+          },
+          {
+            "id": "eternities-beacon",
+            "category": "marketing",
+            "entrypoint": "skills/eternities-beacon/SKILL.md",
+            "entrypointSha256": "0456fd877c1d18c3c717998f4eb2b4264a6911f62a1362df6e3356948b9af222",
+            "summary": "Turn market, offer, discoverability, conversion, lifecycle, and growth evidence into truthful measurable decisions.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "plan",
+              "create",
+              "communicate"
+            ],
+            "antiTriggers": [
+              "routine copy editing",
+              "personal-data enrichment",
+              "outreach or media spend without target, budget, and authority",
+              "unsupported current market claim",
+              "infer rights, disclosure, or media-use permission from generic wildcards, incomplete evidence, or an unreviewed broad-scope summary"
+            ],
+            "score": 52.44,
+            "reasons": [
+              "Matched: customer, truthful, workaround"
+            ],
+            "related": [
+              "eternities-agora",
+              "eternities-atlas",
+              "eternities-chorus",
+              "eternities-prometheus"
+            ]
+          }
+        ],
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        }
+      },
+      "diagnostics": {
+        "affirmativeClauses": [
+          "triage this support ticket after the workaround failed",
+          "establish customer impact, draft a truthful update, and prepare an escalation handoff without claiming resolution"
+        ],
+        "intents": [],
+        "runtimeDomainNavigation": false,
+        "arcadiaIntent": {
+          "score": 0,
+          "prioritizeRequestedActivity": false,
+          "reasons": [],
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "adjacent-02",
+      "kind": "adjacent",
+      "query": "Investigate the web checkout bottleneck using repeated browser traces of long tasks and layout shifts; isolate one loading change and check visual and accessibility regressions.",
+      "options": {
+        "limit": 3
+      },
+      "expected": {
+        "includes": [
+          "web-performance-optimization"
+        ],
+        "excludes": [
+          "eternities-arcadia"
+        ]
+      },
+      "basis": "product/skills/web-performance-optimization/SKILL.md: measured web-flow optimization; ordinary web rendering is not game-runtime work",
+      "failures": [],
+      "output": {
+        "schema": "eternities-godskills-discovery-v1",
+        "authority": "none",
+        "activation": "none",
+        "method": "offline-lexical-intent-phrases-v4",
+        "query": "Investigate the web checkout bottleneck using repeated browser traces of long tasks and layout shifts; isolate one loading change and check visual and accessibility regressions.",
+        "results": [
+          {
+            "id": "web-performance-optimization",
+            "category": "engineering",
+            "entrypoint": "skills/web-performance-optimization/SKILL.md",
+            "entrypointSha256": "9ae95c2503cd3800a9ad0dacc7190e52f613eaf08d92d8d1b2431e0e24399100",
+            "summary": "Reduce a reproducible web bottleneck through repeated baselines, causal isolation, one bounded change, and functional, visual, and variance checks.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "build",
+              "verify",
+              "plan"
+            ],
+            "antiTriggers": [
+              "Claim field improvement from one synthetic run.",
+              "Change production delivery without the task's release scope.",
+              "Improve a score by hiding content, errors, or accessibility defects."
+            ],
+            "score": 196.554,
+            "reasons": [
+              "Matched: accessibility, bottleneck, change, one, repeated, traces, visual, web"
+            ],
+            "related": [
+              "eternities-aegis",
+              "eternities-daedalus",
+              "eternities-muse",
+              "interface-localization-and-bidirectionality",
+              "performance-release-gating"
+            ],
+            "specializes": "eternities-daedalus"
+          },
+          {
+            "id": "eternities-muse",
+            "category": "design",
+            "entrypoint": "skills/eternities-muse/SKILL.md",
+            "entrypointSha256": "34fccadc01b49dcb8097641a6a6153dabd119dd55ba9f31781c7bfa4c4c1ac73",
+            "summary": "Direct visual forensics, interface direction, operational data views, motion, accessibility, and rendered acceptance through coherent evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "plan",
+              "create",
+              "verify"
+            ],
+            "antiTriggers": [
+              "routine spacing edit",
+              "direct final-image generation",
+              "ordinary graphics debugging",
+              "visual claim from one hero frame"
+            ],
+            "score": 84.532,
+            "reasons": [
+              "Matched: accessibility, design, interface, layout, visual"
+            ],
+            "related": [
+              "eternities-arcadia",
+              "eternities-atlas",
+              "eternities-chorus",
+              "eternities-daedalus",
+              "eternities-hermes",
+              "eternities-orpheus",
+              "scene-continuity-and-coverage"
+            ]
+          },
+          {
+            "id": "interface-localization-and-bidirectionality",
+            "category": "design",
+            "entrypoint": "skills/interface-localization-and-bidirectionality/SKILL.md",
+            "entrypointSha256": "130843a1f8e9291ddec993bc7b110ce3bafd1d12f7e61773f44dcd635e9d54f4",
+            "summary": "Implement and verify locale-aware content, formatting, RTL/LTR layout, mixed-direction text, controls, accessibility, and human translation review.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "build",
+              "verify",
+              "communicate"
+            ],
+            "antiTriggers": [
+              "Publish machine translation without human review.",
+              "Mirror directional icons or data semantics indiscriminately.",
+              "Assume one locale screenshot proves all language, width, or assistive states."
+            ],
+            "score": 45.789,
+            "reasons": [
+              "Matched: accessibility, design, interface, layout"
+            ],
+            "related": [
+              "eternities-aegis",
+              "eternities-daedalus",
+              "eternities-muse",
+              "native-mobile-interaction-testing"
+            ],
+            "specializes": "eternities-muse"
+          }
+        ],
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        }
+      },
+      "diagnostics": {
+        "affirmativeClauses": [
+          "investigate the web checkout bottleneck using repeated browser traces of long tasks and layout shifts",
+          "isolate one loading change and check visual and accessibility regressions"
+        ],
+        "intents": [],
+        "runtimeDomainNavigation": false,
+        "arcadiaIntent": {
+          "score": 0,
+          "prioritizeRequestedActivity": false,
+          "reasons": [],
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "adjacent-03",
+      "kind": "adjacent",
+      "query": "Design a classroom activity where students move fraction tiles, predict why the totals stay equal, and explain their reasoning after changing the arrangement.",
+      "options": {
+        "limit": 3
+      },
+      "expected": {
+        "includes": [
+          "evidence-linked-learning-design"
+        ],
+        "excludes": [
+          "eternities-arcadia"
+        ]
+      },
+      "basis": "product/skills/evidence-linked-learning-design/SKILL.md: explanatory manipulation and observable learning goals; physical teaching materials do not establish a game",
+      "failures": [],
+      "output": {
+        "schema": "eternities-godskills-discovery-v1",
+        "authority": "none",
+        "activation": "none",
+        "method": "offline-lexical-intent-phrases-v4",
+        "query": "Design a classroom activity where students move fraction tiles, predict why the totals stay equal, and explain their reasoning after changing the arrangement.",
+        "results": [
+          {
+            "id": "evidence-linked-learning-design",
+            "category": "education",
+            "entrypoint": "skills/evidence-linked-learning-design/SKILL.md",
+            "entrypointSha256": "a91d5ffe526e92ed72c541816d6c0310f5ab2d56b82f2c5f91960b778bbed606",
+            "summary": "Design evidence-linked lessons, assessments, teaching handoffs and learner reports from observable goals and supplied achievement evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "create",
+              "verify",
+              "communicate"
+            ],
+            "antiTriggers": [
+              "Professional certification or guaranteed outcomes without appropriate evidence and qualified review"
+            ],
+            "score": 96.729,
+            "reasons": [
+              "Matched: classroom, design",
+              "Lexical intent: learner-model explanation; cues: teaching purpose or learner goal, requested preparation or teaching action, causal or explanatory objective, model, lesson, or explorable representation, learner manipulation or feedback-bearing model; ordering: corroborated teaching request before incidental keyword matches"
+            ],
+            "related": [
+              "eternities-athena",
+              "eternities-logos",
+              "eternities-muse"
+            ]
+          },
+          {
+            "id": "api-contract-design-and-evolution",
+            "category": "engineering",
+            "entrypoint": "skills/api-contract-design-and-evolution/SKILL.md",
+            "entrypointSha256": "88e79f38ac417ddf49145ea2faee45182730632593dae5df0eb0a10f663714e4",
+            "summary": "Design and evolve API contracts with directional consumer/provider compatibility, presence and null semantics, behavioral errors, scoped replay, concurrent writes, cursor consistency, and migration evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify"
+            ],
+            "antiTriggers": [
+              "edit an already supplied static JSON value",
+              "only tune a client's backoff timer",
+              "evade a provider quota or access policy",
+              "only migrate an internal database schema"
+            ],
+            "score": 39.497,
+            "reasons": [
+              "Matched: after, design, interface"
+            ],
+            "related": [
+              "api-rate-limit-recovery",
+              "eternities-daedalus",
+              "eternities-hermes",
+              "structured-output-contracts"
+            ],
+            "specializes": "eternities-daedalus"
+          },
+          {
+            "id": "eternities-prometheus",
+            "category": "business",
+            "entrypoint": "skills/eternities-prometheus/SKILL.md",
+            "entrypointSha256": "70d043541b328a6bfebd6cd75840aaca8ed94fc22cc10165d1be444f4662fc06",
+            "summary": "Route product-operations questions into evidence-led growth, analytics, customer insight, learning, planning, and delivery artifacts.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "plan",
+              "create",
+              "communicate"
+            ],
+            "antiTriggers": [
+              "outreach, pricing, or procurement execution without target and authority",
+              "private-data acquisition",
+              "regulated or legal judgment"
+            ],
+            "score": 36.729,
+            "reasons": [
+              "Matched: design, explain"
+            ],
+            "related": [
+              "eternities-agora",
+              "eternities-atlas",
+              "eternities-beacon",
+              "eternities-forge"
+            ]
+          }
+        ],
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        }
+      },
+      "diagnostics": {
+        "affirmativeClauses": [
+          "design a classroom activity where students move fraction tiles, predict why the totals stay equal, and explain their reasoning after changing the arrangement"
+        ],
+        "intents": [
+          "learner-model explanation"
+        ],
+        "runtimeDomainNavigation": false,
+        "arcadiaIntent": {
+          "score": 0,
+          "prioritizeRequestedActivity": false,
+          "reasons": [],
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "adjacent-04",
+      "kind": "adjacent",
+      "query": "Render a programmatic MP4 with seekable scenes, exact frame cues and frozen fonts; inspect the encoded first, transition and last frames rather than a live interface.",
+      "options": {
+        "limit": 3
+      },
+      "expected": {
+        "includes": [
+          "deterministic-video-composition-and-rendering"
+        ],
+        "excludes": [
+          "eternities-arcadia"
+        ],
+        "precedesIfPresent": [
+          [
+            "deterministic-video-composition-and-rendering",
+            "motion-design-and-animation-engineering"
+          ]
+        ]
+      },
+      "basis": "product/skills/deterministic-video-composition-and-rendering/SKILL.md: encoded delivery and seekable evaluation; live interface motion is adjacent",
+      "failures": [],
+      "output": {
+        "schema": "eternities-godskills-discovery-v1",
+        "authority": "none",
+        "activation": "none",
+        "method": "offline-lexical-intent-phrases-v4",
+        "query": "Render a programmatic MP4 with seekable scenes, exact frame cues and frozen fonts; inspect the encoded first, transition and last frames rather than a live interface.",
+        "results": [
+          {
+            "id": "deterministic-video-composition-and-rendering",
+            "category": "audio",
+            "entrypoint": "skills/deterministic-video-composition-and-rendering/SKILL.md",
+            "entrypointSha256": "ba96605ba3dda38c5fb4334ff8833a3d2083dddb387071c4e250d7bd42ef6a94",
+            "summary": "Compose and render seekable frame-based video with frozen fonts and assets, exact cue clocks, recoverable jobs and verification of the encoded artifact.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "create",
+              "verify",
+              "recover"
+            ],
+            "antiTriggers": [
+              "transcription only",
+              "live interface animation only",
+              "storyboard only without rendering",
+              "manual editing only"
+            ],
+            "score": 440.33,
+            "reasons": [
+              "Matched: encoded, exact, first, fonts, frame, frames, frozen, mp4, programmatic, render, seekable, transition",
+              "Lexical intent: requested frame-based video output; cues: video or seekable scene artifact, production, inspection or seek action, frame, timeline or programmatic dependency"
+            ],
+            "related": [
+              "eternities-muse",
+              "experiment-artifact-lineage",
+              "motion-design-and-animation-engineering",
+              "portable-speech-chunk-alignment",
+              "scene-continuity-and-coverage"
+            ],
+            "specializes": "eternities-orpheus"
+          },
+          {
+            "id": "schema-migration-and-backfill-safety",
+            "category": "data",
+            "entrypoint": "skills/schema-migration-and-backfill-safety/SKILL.md",
+            "entrypointSha256": "6fad6670b742088afd1d4f4b3b7d5cc4715f18f235673e71f8c97c969c4fca65",
+            "summary": "Migrate database schemas and transform live rows across mixed app versions, with resumable backfills, concurrent-write protection and recovery checks.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify",
+              "recover"
+            ],
+            "antiTriggers": [
+              "ordinary query tuning",
+              "schema sketch without migration",
+              "backup administration alone",
+              "database engine upgrade without schema transition"
+            ],
+            "score": 58.918,
+            "reasons": [
+              "Matched: live, transition"
+            ],
+            "related": [
+              "bounded-verified-object-ingestion",
+              "eternities-daedalus",
+              "release-script-safety"
+            ],
+            "specializes": "eternities-atlas"
+          },
+          {
+            "id": "eternities-muse",
+            "category": "design",
+            "entrypoint": "skills/eternities-muse/SKILL.md",
+            "entrypointSha256": "34fccadc01b49dcb8097641a6a6153dabd119dd55ba9f31781c7bfa4c4c1ac73",
+            "summary": "Direct visual forensics, interface direction, operational data views, motion, accessibility, and rendered acceptance through coherent evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "plan",
+              "create",
+              "verify"
+            ],
+            "antiTriggers": [
+              "routine spacing edit",
+              "direct final-image generation",
+              "ordinary graphics debugging",
+              "visual claim from one hero frame"
+            ],
+            "score": 35.819,
+            "reasons": [
+              "Matched: design, interface, visual"
+            ],
+            "related": [
+              "eternities-arcadia",
+              "eternities-atlas",
+              "eternities-chorus",
+              "eternities-daedalus",
+              "eternities-hermes",
+              "eternities-orpheus",
+              "scene-continuity-and-coverage"
+            ]
+          }
+        ],
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        }
+      },
+      "diagnostics": {
+        "affirmativeClauses": [
+          "render a programmatic mp4 with seekable scenes, exact frame cues and frozen fonts",
+          "inspect the encoded first, transition and last frames rather than a live interface"
+        ],
+        "intents": [
+          "requested frame-based video output"
+        ],
+        "runtimeDomainNavigation": false,
+        "arcadiaIntent": {
+          "score": 0,
+          "prioritizeRequestedActivity": false,
+          "reasons": [],
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "exclusion-01",
+      "kind": "exclusion",
+      "query": "Do not fix the shader in the browser game; write a brief postponement notice for the team.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "excludes": [
+          "eternities-arcadia"
+        ]
+      },
+      "basis": "product/DISCOVERY.md: runtime admission uses surviving live request clauses and omits refused work; product/skills/eternities-arcadia/SKILL.md: actual runtime route required",
+      "failures": [
+        "excluded owner present: eternities-arcadia"
+      ],
+      "output": {
+        "schema": "eternities-godskills-discovery-v1",
+        "authority": "none",
+        "activation": "none",
+        "method": "offline-lexical-intent-phrases-v4",
+        "query": "Do not fix the shader in the browser game; write a brief postponement notice for the team.",
+        "results": [
+          {
+            "id": "eternities-arcadia",
+            "category": "games",
+            "entrypoint": "skills/eternities-arcadia/SKILL.md",
+            "entrypointSha256": "ac0ef2950f34981c72dad4143ad3752b289d3f95877ee68aa464195c8818b282",
+            "summary": "Connect game direction, imported 3D assets, runtime systems, player experience, accessibility, performance, and human release evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify",
+              "create"
+            ],
+            "antiTriggers": [
+              "routine isolated code edit",
+              "asset generation without a design decision",
+              "store or commercial action without release authority",
+              "unsupported fun or release claim"
+            ],
+            "score": 84.001,
+            "reasons": [
+              "Matched: browser, game, shader",
+              "Lexical intent: game or real-time 3D runtime scope; cues: game or technical 3D context, independent work action or reported fault"
+            ],
+            "related": [
+              "eternities-architect",
+              "eternities-daedalus",
+              "eternities-muse",
+              "eternities-orpheus"
+            ]
+          },
+          {
+            "id": "imaginative-concept-development",
+            "category": "design",
+            "entrypoint": "skills/imaginative-concept-development/SKILL.md",
+            "entrypointSha256": "5a1b550f7db546470d93a73106f972d59cf1cf4be21cc6e7c8d08cb7f9fd95c7",
+            "summary": "Explore and develop distinct concept mechanisms under constraints, then select by declared criteria without confusing invention with fact.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "create",
+              "verify"
+            ],
+            "antiTriggers": [
+              "routine revision or settled implementation",
+              "fact research without a concept decision",
+              "request to present invented events as factual canon",
+              "fixed single-direction brief with no material uncertainty to explore"
+            ],
+            "score": 51.285,
+            "reasons": [
+              "Matched: brief, game"
+            ],
+            "related": [
+              "eternities-arcadia",
+              "eternities-muse"
+            ]
+          },
+          {
+            "id": "browser-automation-state-and-verification",
+            "category": "automation",
+            "entrypoint": "skills/browser-automation-state-and-verification/SKILL.md",
+            "entrypointSha256": "b6b9980be8506ac0405d811dc7cce0cd9ee794addfec5ef61ad647fcf1fa2cca",
+            "summary": "Complete browser interactions with durable session identity, fresh target references, observable transitions, verified artifacts and uncertain-submission reconciliation.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify",
+              "recover"
+            ],
+            "antiTriggers": [
+              "public information retrieval without browser interaction",
+              "browser installation or control-channel configuration",
+              "general application testing strategy",
+              "access-control evasion or unauthorized submission"
+            ],
+            "score": 44.638,
+            "reasons": [
+              "Matched: browser"
+            ],
+            "related": [
+              "accessibility-audit-and-remediation",
+              "api-rate-limit-recovery",
+              "eternities-aegis",
+              "eternities-daedalus"
+            ],
+            "specializes": "eternities-hermes"
+          },
+          {
+            "id": "narrative-structure-and-revision",
+            "category": "writing",
+            "entrypoint": "skills/narrative-structure-and-revision/SKILL.md",
+            "entrypointSha256": "ff8a28893c1d2ba20b0d72bef4597d4e18b4bf5db2a93594b2bd04bd8e6d483d",
+            "summary": "Write and revise fiction through particular desires, scene turns, voice and imagery, preserving canon, reader promise, and consequential interactive states.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "create",
+              "plan",
+              "build",
+              "verify"
+            ],
+            "antiTriggers": [
+              "factual status or research report",
+              "brand voice profile from writing samples",
+              "isolated grammar correction",
+              "mandatory plot formula",
+              "silently rewrite established canon"
+            ],
+            "score": 42.586,
+            "reasons": [
+              "Matched: canon, narrative, write, writing"
+            ],
+            "related": [
+              "eternities-arcadia",
+              "imaginative-concept-development",
+              "voice-style-calibration"
+            ],
+            "specializes": "eternities-logos"
+          },
+          {
+            "id": "voice-style-calibration",
+            "category": "writing",
+            "entrypoint": "skills/voice-style-calibration/SKILL.md",
+            "entrypointSha256": "fb4a54b739b51d0e91df35d17e65fd684f7f43fd06575e58a3782d5040ad73c4",
+            "summary": "Infer and apply an evidence-based written voice across contexts while preserving meaning, attribution, and register distinctions.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "create",
+              "communicate",
+              "verify"
+            ],
+            "antiTriggers": [
+              "one-off tone adjustment with no sample-based profile needed",
+              "deceptive imitation or false attribution of a real person",
+              "speech synthesis, voice cloning, or likeness generation",
+              "send or publish a draft without a named target and authority"
+            ],
+            "score": 41.139,
+            "reasons": [
+              "Matched: draft, drafting, team, writing"
+            ],
+            "related": [
+              "eternities-chorus"
+            ],
+            "specializes": "eternities-logos"
+          },
+          {
+            "id": "eternities-logos",
+            "category": "writing",
+            "entrypoint": "skills/eternities-logos/SKILL.md",
+            "entrypointSha256": "f5c84a715a574c350c06b8dc6ee485e43846c2cabd12f39e94cc8ae8cf07b5ba",
+            "summary": "Create precise technical, editorial, documentation, reporting, narrative, extraction, and structural-review artifacts from supplied evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "create",
+              "communicate",
+              "verify"
+            ],
+            "antiTriggers": [
+              "unsupported current claim",
+              "rights-sensitive reuse without authorization",
+              "publication or external write without target and approval",
+              "silent canon mutation"
+            ],
+            "score": 41.128,
+            "reasons": [
+              "Matched: article, canon, drafting, editorial, narrative, writing"
+            ],
+            "related": [
+              "eternities-agora",
+              "eternities-chorus",
+              "eternities-daedalus",
+              "eternities-muse",
+              "eternities-oracle"
+            ]
+          },
+          {
+            "id": "eternities-chorus",
+            "category": "social",
+            "entrypoint": "skills/eternities-chorus/SKILL.md",
+            "entrypointSha256": "f1e0d8964acb8dc267b8f3e51a3fbfde3b5b0c8a91aeebfb8517f1b068998d95",
+            "summary": "Create evidence-led communication, editorial, community, measurement, and share-preview artifacts with identity and access intact.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "create",
+              "verify",
+              "communicate"
+            ],
+            "antiTriggers": [
+              "routine isolated draft",
+              "scraping or personal-data enrichment",
+              "autonomous sensitive reply",
+              "autonomous public action without target and human owner"
+            ],
+            "score": 37.438,
+            "reasons": [
+              "Matched: draft, editorial, notice"
+            ],
+            "related": [
+              "eternities-beacon",
+              "eternities-logos",
+              "eternities-muse",
+              "eternities-oracle"
+            ]
+          },
+          {
+            "id": "eternities-hermes",
+            "category": "automation",
+            "entrypoint": "skills/eternities-hermes/SKILL.md",
+            "entrypointSha256": "a64957e27281ecd3b99a4bd3b2661d860ae0af8171ea630b3a9a01d5545c89cd",
+            "summary": "Design and implement bounded automation, browser, protocol, CLI, and test integrations with explicit effect and close-out evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify",
+              "orchestrate"
+            ],
+            "antiTriggers": [
+              "credential use without authority",
+              "untrusted command execution",
+              "remote mutation without a declared effect",
+              "unattended background automation"
+            ],
+            "score": 31.884,
+            "reasons": [
+              "Matched: browser"
+            ],
+            "related": [
+              "eternities-aegis",
+              "eternities-daedalus",
+              "eternities-herald",
+              "eternities-phoenix",
+              "structured-output-contracts"
+            ]
+          },
+          {
+            "id": "geospatial-coordinate-integrity",
+            "category": "data",
+            "entrypoint": "skills/geospatial-coordinate-integrity/SKILL.md",
+            "entrypointSha256": "ef14fd4bc877408a1acb6c24efb09557a4a02d65a6688fd22e3dfe893ce65ce0",
+            "summary": "Identify horizontal and vertical reference meaning, transform coordinates, and verify map alignment, distance units, height comparability and spatial output integrity.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "build",
+              "verify",
+              "recover",
+              "plan"
+            ],
+            "antiTriggers": [
+              "purely visual map style change",
+              "raw point-cloud classification or terrain derivative calculation"
+            ],
+            "score": 27.025,
+            "reasons": [
+              "Matched: not"
+            ],
+            "related": [
+              "eternities-athena",
+              "eternities-atlas",
+              "landscape-connectivity-analysis",
+              "physics-constrained-numerical-validation",
+              "terrain-watershed-analysis"
+            ],
+            "specializes": "eternities-atlas"
+          },
+          {
+            "id": "operating-cadence-and-decision-accountability",
+            "category": "business",
+            "entrypoint": "skills/operating-cadence-and-decision-accountability/SKILL.md",
+            "entrypointSha256": "a03d89234106b30da8e99ffe6e738f58408e03727d2909431a119aca6b5c56c1",
+            "summary": "Design operating rules for founder or executive approval queues, scoped delegation, effective capacity, work-in-progress limits, and accountable exceptions.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "create",
+              "build",
+              "verify"
+            ],
+            "antiTriggers": [
+              "ordinary status update",
+              "personal productivity coaching",
+              "generic corporate strategy",
+              "employment or vendor negotiation",
+              "emergency incident response"
+            ],
+            "score": 24.26,
+            "reasons": [
+              "Matched: team"
+            ],
+            "related": [
+              "eternities-agora",
+              "eternities-forge",
+              "structured-hiring-evaluation"
+            ],
+            "specializes": "eternities-prometheus"
+          },
+          {
+            "id": "vendor-evaluation-and-exit-planning",
+            "category": "business",
+            "entrypoint": "skills/vendor-evaluation-and-exit-planning/SKILL.md",
+            "entrypointSha256": "477ae4c9feede6cdd31f452c9d2f20064c8c99fe393377fa66e080c99e93db80",
+            "summary": "Evaluate suppliers against mandatory requirements, observed performance and comparable total cost; plan vendor trials, contract renewal decisions, switching and credible exits.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "plan",
+              "create",
+              "verify"
+            ],
+            "antiTriggers": [
+              "purchase services negotiate contracts or contact suppliers",
+              "specific legal financial or regulatory advice",
+              "design customer prices and package tiers rather than evaluate suppliers",
+              "prioritize product features or roadmap opportunities without a supplier decision",
+              "claim SLA credits or revoke vendor access without a separate authorized workflow",
+              "security certification or comprehensive third party compliance audit"
+            ],
+            "score": 24.26,
+            "reasons": [
+              "Matched: notice"
+            ],
+            "related": [
+              "eternities-agora",
+              "pricing-and-packaging-experimentation",
+              "product-discovery-and-prioritization"
+            ],
+            "specializes": "eternities-prometheus"
+          },
+          {
+            "id": "api-contract-design-and-evolution",
+            "category": "engineering",
+            "entrypoint": "skills/api-contract-design-and-evolution/SKILL.md",
+            "entrypointSha256": "88e79f38ac417ddf49145ea2faee45182730632593dae5df0eb0a10f663714e4",
+            "summary": "Design and evolve API contracts with directional consumer/provider compatibility, presence and null semantics, behavioral errors, scoped replay, concurrent writes, cursor consistency, and migration evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify"
+            ],
+            "antiTriggers": [
+              "edit an already supplied static JSON value",
+              "only tune a client's backoff timer",
+              "evade a provider quota or access policy",
+              "only migrate an internal database schema"
+            ],
+            "score": 20.829,
+            "reasons": [
+              "Matched: write"
+            ],
+            "related": [
+              "api-rate-limit-recovery",
+              "eternities-daedalus",
+              "eternities-hermes",
+              "structured-output-contracts"
+            ],
+            "specializes": "eternities-daedalus"
+          },
+          {
+            "id": "eternities-daedalus",
+            "category": "engineering",
+            "entrypoint": "skills/eternities-daedalus/SKILL.md",
+            "entrypointSha256": "1a26dfffe15ecfa2289aaa502e959c07f99eb518c9823ae930536a5c9f829e17",
+            "summary": "Implement, refactor, integrate, migrate, configure, optimize, and verify bounded engineering changes with direct evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify",
+              "recover"
+            ],
+            "antiTriggers": [
+              "external deployment without matching authority",
+              "destructive migration without rollback",
+              "unknown dependency behavior",
+              "unsafe generated code without review"
+            ],
+            "score": 20.829,
+            "reasons": [
+              "Matched: write"
+            ],
+            "related": [
+              "api-rate-limit-recovery",
+              "eternities-architect",
+              "eternities-atlas",
+              "eternities-forge",
+              "eternities-muse",
+              "eternities-phoenix",
+              "release-script-safety"
+            ]
+          },
+          {
+            "id": "schema-migration-and-backfill-safety",
+            "category": "data",
+            "entrypoint": "skills/schema-migration-and-backfill-safety/SKILL.md",
+            "entrypointSha256": "6fad6670b742088afd1d4f4b3b7d5cc4715f18f235673e71f8c97c969c4fca65",
+            "summary": "Migrate database schemas and transform live rows across mixed app versions, with resumable backfills, concurrent-write protection and recovery checks.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify",
+              "recover"
+            ],
+            "antiTriggers": [
+              "ordinary query tuning",
+              "schema sketch without migration",
+              "backup administration alone",
+              "database engine upgrade without schema transition"
+            ],
+            "score": 8.927,
+            "reasons": [
+              "Matched: write"
+            ],
+            "related": [
+              "bounded-verified-object-ingestion",
+              "eternities-daedalus",
+              "release-script-safety"
+            ],
+            "specializes": "eternities-atlas"
+          },
+          {
+            "id": "eternities-orpheus",
+            "category": "audio",
+            "entrypoint": "skills/eternities-orpheus/SKILL.md",
+            "entrypointSha256": "30bbab3230a9ecbb81ecec877db2036b591a46b0f4497cb61d94df3585bda3be",
+            "summary": "Create provenance, transcription, alignment, timeline, and reviewable local media artifacts from supplied audio.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "create",
+              "verify",
+              "communicate"
+            ],
+            "antiTriggers": [
+              "biometric inference",
+              "voice impersonation or cloning",
+              "live capture without consent",
+              "authenticity or publication claim without source and review evidence"
+            ],
+            "score": 5.58,
+            "reasons": [
+              "Matched: editorial"
+            ],
+            "related": [
+              "eternities-arcadia",
+              "eternities-chorus",
+              "eternities-logos",
+              "eternities-muse",
+              "portable-speech-chunk-alignment"
+            ]
+          },
+          {
+            "id": "sovereign-skill-refinery",
+            "category": "agent-workflows",
+            "entrypoint": "skills/sovereign-skill-refinery/SKILL.md",
+            "entrypointSha256": "3b129a831750723e0d42100d989ada2ed140481866ef8dc4e48865a7cea910c5",
+            "summary": "Synthesize workflow sources into independently authored, provenance-backed, structurally checked capabilities with honest disposition.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "plan",
+              "build",
+              "verify",
+              "orchestrate"
+            ],
+            "antiTriggers": [
+              "invoke an existing skill",
+              "simple repository search",
+              "unbounded source ingestion",
+              "automatic installation or activation"
+            ],
+            "score": 5.207,
+            "reasons": [
+              "Matched: draft"
+            ],
+            "related": [
+              "eternities-architect",
+              "eternities-daedalus",
+              "eternities-mnemosyne",
+              "eternities-oracle"
+            ]
+          },
+          {
+            "id": "lazy-tabular-transformation-and-validation",
+            "category": "data",
+            "entrypoint": "skills/lazy-tabular-transformation-and-validation/SKILL.md",
+            "entrypointSha256": "848d222b70cf24d9ef86af68a4ec6bfeacf889c8f75f36a3facfabf66a7b1c77",
+            "summary": "Build and validate lazy tabular plans with explicit schemas, invariants, inspected execution, bounded collection, and resource evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "build",
+              "verify"
+            ],
+            "antiTriggers": [
+              "Read arbitrary datasets outside the supplied scope.",
+              "Collect an unbounded plan into memory.",
+              "Call a sampled or partial result proof of full-data completeness."
+            ],
+            "score": 4.906,
+            "reasons": [
+              "Matched: writing"
+            ],
+            "related": [
+              "bounded-verified-object-ingestion",
+              "columnar-ingestion-rollup-and-query-layout-design",
+              "eternities-aegis",
+              "eternities-atlas",
+              "eternities-daedalus"
+            ],
+            "specializes": "eternities-atlas"
+          },
+          {
+            "id": "eternities-atlas",
+            "category": "data",
+            "entrypoint": "skills/eternities-atlas/SKILL.md",
+            "entrypointSha256": "46b06bdd11e52ca6288b32bd720a77715035b5e77a2b52ba1b986a071df18700",
+            "summary": "Supplied tabular export reconciliation with column mapping, record deduplication, null semantics and row lineage. Build reproducible analytics, conditional connected-source evidence, finite trade-off frontiers, simulation-artifact handoffs, query planning, entity design and migration, synchronization, telemetry, experiment artifacts, and candidate eligibility, time-bound scorer revisions, and observed outcomes; the new extension remains DRAFT.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "plan",
+              "build",
+              "verify"
+            ],
+            "antiTriggers": [
+              "production mutation without migration and rollback evidence",
+              "credential handling",
+              "unverified live-system reconciliation"
+            ],
+            "score": 2.232,
+            "reasons": [
+              "Matched: draft"
+            ],
+            "related": [
+              "eternities-aegis",
+              "eternities-architect",
+              "eternities-daedalus",
+              "eternities-prometheus",
+              "experiment-artifact-lineage",
+              "geospatial-coordinate-integrity"
+            ]
+          },
+          {
+            "id": "docx-package-redline-and-render-verification",
+            "category": "writing",
+            "entrypoint": "skills/docx-package-redline-and-render-verification/SKILL.md",
+            "entrypointSha256": "e90da766438c21f06cc718d2dbeefb1dff920bbcfef0402cd3a5e94be32bffb8",
+            "summary": "Edit DOCX packages with minimal relationship-safe changes and verify review markup, package integrity, external targets, and rendered pagination.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "build",
+              "verify",
+              "communicate"
+            ],
+            "antiTriggers": [
+              "Open or preserve unknown external links without inspection.",
+              "Treat a successful text diff or package open as layout proof.",
+              "Claim legal adequacy from package or rendering checks."
+            ],
+            "score": 0.701,
+            "reasons": [
+              "Matched: writing"
+            ],
+            "related": [
+              "eternities-aegis",
+              "eternities-logos",
+              "eternities-muse",
+              "formula-preserving-workbook-engineering"
+            ],
+            "specializes": "eternities-logos"
+          }
+        ],
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        }
+      },
+      "diagnostics": {
+        "affirmativeClauses": [
+          "do not fix the shader in the browser game",
+          "write a brief postponement notice for the team"
+        ],
+        "intents": [
+          "game or real-time 3D runtime scope"
+        ],
+        "runtimeDomainNavigation": true,
+        "arcadiaIntent": {
+          "score": 0,
+          "prioritizeRequestedActivity": false,
+          "reasons": [
+            "Lexical intent: game or real-time 3D runtime scope; cues: game or technical 3D context, independent work action or reported fault"
+          ],
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "exclusion-02",
+      "kind": "exclusion",
+      "query": "Don't debug the browser game's simulation loop today. Draft a short scheduling update instead.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "excludes": [
+          "eternities-arcadia"
+        ]
+      },
+      "basis": "product/DISCOVERY.md: recognized refusal must not supply runtime evidence; contraction is equivalent to do not",
+      "failures": [
+        "excluded owner present: eternities-arcadia"
+      ],
+      "output": {
+        "schema": "eternities-godskills-discovery-v1",
+        "authority": "none",
+        "activation": "none",
+        "method": "offline-lexical-intent-phrases-v4",
+        "query": "Don't debug the browser game's simulation loop today. Draft a short scheduling update instead.",
+        "results": [
+          {
+            "id": "eternities-arcadia",
+            "category": "games",
+            "entrypoint": "skills/eternities-arcadia/SKILL.md",
+            "entrypointSha256": "ac0ef2950f34981c72dad4143ad3752b289d3f95877ee68aa464195c8818b282",
+            "summary": "Connect game direction, imported 3D assets, runtime systems, player experience, accessibility, performance, and human release evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify",
+              "create"
+            ],
+            "antiTriggers": [
+              "routine isolated code edit",
+              "asset generation without a design decision",
+              "store or commercial action without release authority",
+              "unsupported fun or release claim"
+            ],
+            "score": 76.6,
+            "reasons": [
+              "Matched: browser, game, simulation",
+              "Lexical intent: game or real-time 3D runtime scope; cues: game or technical 3D context, independent work action or reported fault"
+            ],
+            "related": [
+              "eternities-architect",
+              "eternities-daedalus",
+              "eternities-muse",
+              "eternities-orpheus"
+            ]
+          },
+          {
+            "id": "eternities-chorus",
+            "category": "social",
+            "entrypoint": "skills/eternities-chorus/SKILL.md",
+            "entrypointSha256": "f1e0d8964acb8dc267b8f3e51a3fbfde3b5b0c8a91aeebfb8517f1b068998d95",
+            "summary": "Create evidence-led communication, editorial, community, measurement, and share-preview artifacts with identity and access intact.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "create",
+              "verify",
+              "communicate"
+            ],
+            "antiTriggers": [
+              "routine isolated draft",
+              "scraping or personal-data enrichment",
+              "autonomous sensitive reply",
+              "autonomous public action without target and human owner"
+            ],
+            "score": 51.119,
+            "reasons": [
+              "Matched: draft, editorial, update"
+            ],
+            "related": [
+              "eternities-beacon",
+              "eternities-logos",
+              "eternities-muse",
+              "eternities-oracle"
+            ]
+          },
+          {
+            "id": "browser-automation-state-and-verification",
+            "category": "automation",
+            "entrypoint": "skills/browser-automation-state-and-verification/SKILL.md",
+            "entrypointSha256": "b6b9980be8506ac0405d811dc7cce0cd9ee794addfec5ef61ad647fcf1fa2cca",
+            "summary": "Complete browser interactions with durable session identity, fresh target references, observable transitions, verified artifacts and uncertain-submission reconciliation.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify",
+              "recover"
+            ],
+            "antiTriggers": [
+              "public information retrieval without browser interaction",
+              "browser installation or control-channel configuration",
+              "general application testing strategy",
+              "access-control evasion or unauthorized submission"
+            ],
+            "score": 44.638,
+            "reasons": [
+              "Matched: browser"
+            ],
+            "related": [
+              "accessibility-audit-and-remediation",
+              "api-rate-limit-recovery",
+              "eternities-aegis",
+              "eternities-daedalus"
+            ],
+            "specializes": "eternities-hermes"
+          },
+          {
+            "id": "eternities-logos",
+            "category": "writing",
+            "entrypoint": "skills/eternities-logos/SKILL.md",
+            "entrypointSha256": "f5c84a715a574c350c06b8dc6ee485e43846c2cabd12f39e94cc8ae8cf07b5ba",
+            "summary": "Create precise technical, editorial, documentation, reporting, narrative, extraction, and structural-review artifacts from supplied evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "create",
+              "communicate",
+              "verify"
+            ],
+            "antiTriggers": [
+              "unsupported current claim",
+              "rights-sensitive reuse without authorization",
+              "publication or external write without target and approval",
+              "silent canon mutation"
+            ],
+            "score": 41.128,
+            "reasons": [
+              "Matched: article, canon, drafting, editorial, narrative, writing"
+            ],
+            "related": [
+              "eternities-agora",
+              "eternities-chorus",
+              "eternities-daedalus",
+              "eternities-muse",
+              "eternities-oracle"
+            ]
+          },
+          {
+            "id": "eternities-atlas",
+            "category": "data",
+            "entrypoint": "skills/eternities-atlas/SKILL.md",
+            "entrypointSha256": "46b06bdd11e52ca6288b32bd720a77715035b5e77a2b52ba1b986a071df18700",
+            "summary": "Supplied tabular export reconciliation with column mapping, record deduplication, null semantics and row lineage. Build reproducible analytics, conditional connected-source evidence, finite trade-off frontiers, simulation-artifact handoffs, query planning, entity design and migration, synchronization, telemetry, experiment artifacts, and candidate eligibility, time-bound scorer revisions, and observed outcomes; the new extension remains DRAFT.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "plan",
+              "build",
+              "verify"
+            ],
+            "antiTriggers": [
+              "production mutation without migration and rollback evidence",
+              "credential handling",
+              "unverified live-system reconciliation"
+            ],
+            "score": 36.96,
+            "reasons": [
+              "Matched: draft, simulation"
+            ],
+            "related": [
+              "eternities-aegis",
+              "eternities-architect",
+              "eternities-daedalus",
+              "eternities-prometheus",
+              "experiment-artifact-lineage",
+              "geospatial-coordinate-integrity"
+            ]
+          },
+          {
+            "id": "voice-style-calibration",
+            "category": "writing",
+            "entrypoint": "skills/voice-style-calibration/SKILL.md",
+            "entrypointSha256": "fb4a54b739b51d0e91df35d17e65fd684f7f43fd06575e58a3782d5040ad73c4",
+            "summary": "Infer and apply an evidence-based written voice across contexts while preserving meaning, attribution, and register distinctions.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "create",
+              "communicate",
+              "verify"
+            ],
+            "antiTriggers": [
+              "one-off tone adjustment with no sample-based profile needed",
+              "deceptive imitation or false attribution of a real person",
+              "speech synthesis, voice cloning, or likeness generation",
+              "send or publish a draft without a named target and authority"
+            ],
+            "score": 32.5,
+            "reasons": [
+              "Matched: draft, drafting, writing"
+            ],
+            "related": [
+              "eternities-chorus"
+            ],
+            "specializes": "eternities-logos"
+          },
+          {
+            "id": "robotics-test-ladder",
+            "category": "engineering",
+            "entrypoint": "skills/robotics-test-ladder/SKILL.md",
+            "entrypointSha256": "e316f375d1ded3f3f8d44b60739eab1f503f0fe338d41720f49d972c79261600",
+            "summary": "Build a staged robotics verification ladder from deterministic unit and property checks through replay, simulation, HIL, and field evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "build",
+              "verify",
+              "plan"
+            ],
+            "antiTriggers": [
+              "Treat unit, simulation, or authored fixture results as field or hardware certification.",
+              "Use fixed sleeps instead of event-driven bounded waits.",
+              "Run physical or field tests without an explicit safety and run scope."
+            ],
+            "score": 32.471,
+            "reasons": [
+              "Matched: failure, simulation"
+            ],
+            "related": [
+              "bounded-parametric-design-iteration",
+              "eternities-aegis",
+              "eternities-athena",
+              "eternities-daedalus",
+              "invariant-guard",
+              "physics-constrained-numerical-validation"
+            ],
+            "specializes": "eternities-daedalus"
+          },
+          {
+            "id": "eternities-hermes",
+            "category": "automation",
+            "entrypoint": "skills/eternities-hermes/SKILL.md",
+            "entrypointSha256": "a64957e27281ecd3b99a4bd3b2661d860ae0af8171ea630b3a9a01d5545c89cd",
+            "summary": "Design and implement bounded automation, browser, protocol, CLI, and test integrations with explicit effect and close-out evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify",
+              "orchestrate"
+            ],
+            "antiTriggers": [
+              "credential use without authority",
+              "untrusted command execution",
+              "remote mutation without a declared effect",
+              "unattended background automation"
+            ],
+            "score": 31.884,
+            "reasons": [
+              "Matched: browser"
+            ],
+            "related": [
+              "eternities-aegis",
+              "eternities-daedalus",
+              "eternities-herald",
+              "eternities-phoenix",
+              "structured-output-contracts"
+            ]
+          },
+          {
+            "id": "eternities-daedalus",
+            "category": "engineering",
+            "entrypoint": "skills/eternities-daedalus/SKILL.md",
+            "entrypointSha256": "1a26dfffe15ecfa2289aaa502e959c07f99eb518c9823ae930536a5c9f829e17",
+            "summary": "Implement, refactor, integrate, migrate, configure, optimize, and verify bounded engineering changes with direct evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify",
+              "recover"
+            ],
+            "antiTriggers": [
+              "external deployment without matching authority",
+              "destructive migration without rollback",
+              "unknown dependency behavior",
+              "unsafe generated code without review"
+            ],
+            "score": 29.268,
+            "reasons": [
+              "Matched: failure, simulation, write"
+            ],
+            "related": [
+              "api-rate-limit-recovery",
+              "eternities-architect",
+              "eternities-atlas",
+              "eternities-forge",
+              "eternities-muse",
+              "eternities-phoenix",
+              "release-script-safety"
+            ]
+          },
+          {
+            "id": "eternities-forge",
+            "category": "engineering",
+            "entrypoint": "skills/eternities-forge/SKILL.md",
+            "entrypointSha256": "41ed525d0b547973ed7c9752d47c7f2fd936196ca8b2edc3b2d3066266c9b597",
+            "summary": "Coordinate bounded planning, implementation, review, verification, recovery, and integration across consequential engineering work.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify",
+              "orchestrate",
+              "recover"
+            ],
+            "antiTriggers": [
+              "routine single-file edit",
+              "design-only question",
+              "unexplained failure before diagnosis",
+              "branch disposition only"
+            ],
+            "score": 27.025,
+            "reasons": [
+              "Matched: loop"
+            ],
+            "related": [
+              "eternities-architect",
+              "eternities-daedalus",
+              "eternities-herald",
+              "eternities-phoenix"
+            ]
+          },
+          {
+            "id": "imaginative-concept-development",
+            "category": "design",
+            "entrypoint": "skills/imaginative-concept-development/SKILL.md",
+            "entrypointSha256": "5a1b550f7db546470d93a73106f972d59cf1cf4be21cc6e7c8d08cb7f9fd95c7",
+            "summary": "Explore and develop distinct concept mechanisms under constraints, then select by declared criteria without confusing invention with fact.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "create",
+              "verify"
+            ],
+            "antiTriggers": [
+              "routine revision or settled implementation",
+              "fact research without a concept decision",
+              "request to present invented events as factual canon",
+              "fixed single-direction brief with no material uncertainty to explore"
+            ],
+            "score": 24.26,
+            "reasons": [
+              "Matched: game"
+            ],
+            "related": [
+              "eternities-arcadia",
+              "eternities-muse"
+            ]
+          },
+          {
+            "id": "customer-support-triage-and-resolution",
+            "category": "business",
+            "entrypoint": "skills/customer-support-triage-and-resolution/SKILL.md",
+            "entrypointSha256": "32f0615a91aa2ca3e5933c40e24aa80ae200b9b7394549bf37b42b1d1ba34be0",
+            "summary": "Handle support issues through evidence-based triage, safe troubleshooting, truthful customer updates, focused escalation and explicit resolution states.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "recover",
+              "verify",
+              "communicate",
+              "plan"
+            ],
+            "antiTriggers": [
+              "simple acknowledgment",
+              "unapproved account refund",
+              "clinical or legal advice",
+              "exploit reproduction",
+              "company-wide account health strategy"
+            ],
+            "score": 22.319,
+            "reasons": [
+              "Matched: update"
+            ],
+            "related": [
+              "eternities-aegis",
+              "eternities-daedalus",
+              "eternities-phoenix",
+              "eternities-prometheus"
+            ],
+            "specializes": "eternities-agora"
+          },
+          {
+            "id": "eternities-agora",
+            "category": "business",
+            "entrypoint": "skills/eternities-agora/SKILL.md",
+            "entrypointSha256": "763bae5c52442699d9422e08ad68fdeb7466638f5bba5cbd6dfa04e1754da9ac",
+            "summary": "Traceable prospect, account, service, proposal, and client-report artifacts from reconciled evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "plan",
+              "create",
+              "communicate"
+            ],
+            "antiTriggers": [
+              "routine lookup",
+              "regulated identity screening",
+              "legal or financial advice",
+              "external account mutation without target and authority"
+            ],
+            "score": 22.319,
+            "reasons": [
+              "Matched: update"
+            ],
+            "related": [
+              "eternities-athena",
+              "eternities-beacon",
+              "eternities-logos",
+              "eternities-prometheus"
+            ]
+          },
+          {
+            "id": "sovereign-skill-refinery",
+            "category": "agent-workflows",
+            "entrypoint": "skills/sovereign-skill-refinery/SKILL.md",
+            "entrypointSha256": "3b129a831750723e0d42100d989ada2ed140481866ef8dc4e48865a7cea910c5",
+            "summary": "Synthesize workflow sources into independently authored, provenance-backed, structurally checked capabilities with honest disposition.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "plan",
+              "build",
+              "verify",
+              "orchestrate"
+            ],
+            "antiTriggers": [
+              "invoke an existing skill",
+              "simple repository search",
+              "unbounded source ingestion",
+              "automatic installation or activation"
+            ],
+            "score": 20.829,
+            "reasons": [
+              "Matched: draft"
+            ],
+            "related": [
+              "eternities-architect",
+              "eternities-daedalus",
+              "eternities-mnemosyne",
+              "eternities-oracle"
+            ]
+          },
+          {
+            "id": "narrative-structure-and-revision",
+            "category": "writing",
+            "entrypoint": "skills/narrative-structure-and-revision/SKILL.md",
+            "entrypointSha256": "ff8a28893c1d2ba20b0d72bef4597d4e18b4bf5db2a93594b2bd04bd8e6d483d",
+            "summary": "Write and revise fiction through particular desires, scene turns, voice and imagery, preserving canon, reader promise, and consequential interactive states.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "create",
+              "plan",
+              "build",
+              "verify"
+            ],
+            "antiTriggers": [
+              "factual status or research report",
+              "brand voice profile from writing samples",
+              "isolated grammar correction",
+              "mandatory plot formula",
+              "silently rewrite established canon"
+            ],
+            "score": 20.27,
+            "reasons": [
+              "Matched: canon, narrative, write, writing"
+            ],
+            "related": [
+              "eternities-arcadia",
+              "imaginative-concept-development",
+              "voice-style-calibration"
+            ],
+            "specializes": "eternities-logos"
+          },
+          {
+            "id": "physics-constrained-numerical-validation",
+            "category": "science",
+            "entrypoint": "skills/physics-constrained-numerical-validation/SKILL.md",
+            "entrypointSha256": "c5512e9c716c1ccf45e39d31373323b06703c8dd17038e26ddf17f554e036adb",
+            "summary": "Validate numerical models through dimensional checks, invariants, limiting cases, convergence, stability, and independent references with explicit uncertainty boundaries.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "build",
+              "verify",
+              "research"
+            ],
+            "antiTriggers": [
+              "Claim hardware performance from simulation alone.",
+              "Run a model with undefined units, boundary conditions, or tolerances.",
+              "Tune away failed convergence or conservation without recording it."
+            ],
+            "score": 19.624,
+            "reasons": [
+              "Matched: simulation"
+            ],
+            "related": [
+              "bounded-parametric-design-iteration",
+              "eternities-aegis",
+              "eternities-athena",
+              "eternities-daedalus",
+              "invariant-guard",
+              "molecular-observable-integrity"
+            ],
+            "specializes": "eternities-athena"
+          },
+          {
+            "id": "eternities-phoenix",
+            "category": "engineering",
+            "entrypoint": "skills/eternities-phoenix/SKILL.md",
+            "entrypointSha256": "b9d28316b61929e5dd4303aa68f82f21632ba5a44b9a6880b0aed1020694787f",
+            "summary": "Diagnose failures, derive candidate evaluation cases from authorized interactions, and design reversible recovery with bounded evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "recover",
+              "verify",
+              "plan"
+            ],
+            "antiTriggers": [
+              "no diagnosis, recovery, performance, or interaction-to-evaluation-case objective",
+              "production mutation without authority",
+              "destructive repair without rollback",
+              "background monitoring"
+            ],
+            "score": 16.192,
+            "reasons": [
+              "Matched: diagnose, diagnosis, failure, failures"
+            ],
+            "related": [
+              "counterbalanced-agent-evaluation",
+              "eternities-aegis",
+              "eternities-atlas",
+              "eternities-daedalus",
+              "eternities-forge"
+            ]
+          },
+          {
+            "id": "confirmed-destructive-reconstruction",
+            "category": "engineering",
+            "entrypoint": "skills/confirmed-destructive-reconstruction/SKILL.md",
+            "entrypointSha256": "5faed22a58f2c63d9495bbe6bef0516b38fd6f30111a22709736f0ca90e03d78",
+            "summary": "Stage and verify a recoverable destructive reconstruction with exact target binding, independent backup validation, postconditions, and rollback evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "recover",
+              "build",
+              "verify"
+            ],
+            "antiTriggers": [
+              "Delete or overwrite an ambiguous path, root, or broad glob.",
+              "Proceed without a restorable independent backup.",
+              "Treat a vague repair request as authorization for adjacent cleanup."
+            ],
+            "score": 6.756,
+            "reasons": [
+              "Matched: broken"
+            ],
+            "related": [
+              "bounded-verified-object-ingestion",
+              "eternities-aegis",
+              "eternities-daedalus",
+              "eternities-phoenix",
+              "release-script-safety"
+            ],
+            "specializes": "eternities-phoenix"
+          },
+          {
+            "id": "eternities-orpheus",
+            "category": "audio",
+            "entrypoint": "skills/eternities-orpheus/SKILL.md",
+            "entrypointSha256": "30bbab3230a9ecbb81ecec877db2036b591a46b0f4497cb61d94df3585bda3be",
+            "summary": "Create provenance, transcription, alignment, timeline, and reviewable local media artifacts from supplied audio.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "create",
+              "verify",
+              "communicate"
+            ],
+            "antiTriggers": [
+              "biometric inference",
+              "voice impersonation or cloning",
+              "live capture without consent",
+              "authenticity or publication claim without source and review evidence"
+            ],
+            "score": 5.58,
+            "reasons": [
+              "Matched: editorial"
+            ],
+            "related": [
+              "eternities-arcadia",
+              "eternities-chorus",
+              "eternities-logos",
+              "eternities-muse",
+              "portable-speech-chunk-alignment"
+            ]
+          },
+          {
+            "id": "api-contract-design-and-evolution",
+            "category": "engineering",
+            "entrypoint": "skills/api-contract-design-and-evolution/SKILL.md",
+            "entrypointSha256": "88e79f38ac417ddf49145ea2faee45182730632593dae5df0eb0a10f663714e4",
+            "summary": "Design and evolve API contracts with directional consumer/provider compatibility, presence and null semantics, behavioral errors, scoped replay, concurrent writes, cursor consistency, and migration evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify"
+            ],
+            "antiTriggers": [
+              "edit an already supplied static JSON value",
+              "only tune a client's backoff timer",
+              "evade a provider quota or access policy",
+              "only migrate an internal database schema"
+            ],
+            "score": 5.207,
+            "reasons": [
+              "Matched: write"
+            ],
+            "related": [
+              "api-rate-limit-recovery",
+              "eternities-daedalus",
+              "eternities-hermes",
+              "structured-output-contracts"
+            ],
+            "specializes": "eternities-daedalus"
+          }
+        ],
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        }
+      },
+      "diagnostics": {
+        "affirmativeClauses": [
+          "don t debug the browser game s simulation loop today",
+          "draft a short scheduling update"
+        ],
+        "intents": [
+          "game or real-time 3D runtime scope"
+        ],
+        "runtimeDomainNavigation": true,
+        "arcadiaIntent": {
+          "score": 0,
+          "prioritizeRequestedActivity": false,
+          "reasons": [
+            "Lexical intent: game or real-time 3D runtime scope; cues: game or technical 3D context, independent work action or reported fault"
+          ],
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "exclusion-03",
+      "kind": "exclusion",
+      "query": "The incident note says “fix the shader in the browser game”; draft a scheduling update about postponing that work.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "excludes": [
+          "eternities-arcadia"
+        ]
+      },
+      "basis": "product/DISCOVERY.md: balanced quoted instructions are source material, not live runtime work",
+      "failures": [],
+      "output": {
+        "schema": "eternities-godskills-discovery-v1",
+        "authority": "none",
+        "activation": "none",
+        "method": "offline-lexical-intent-phrases-v4",
+        "query": "The incident note says “fix the shader in the browser game”; draft a scheduling update about postponing that work.",
+        "results": [
+          {
+            "id": "eternities-chorus",
+            "category": "social",
+            "entrypoint": "skills/eternities-chorus/SKILL.md",
+            "entrypointSha256": "f1e0d8964acb8dc267b8f3e51a3fbfde3b5b0c8a91aeebfb8517f1b068998d95",
+            "summary": "Create evidence-led communication, editorial, community, measurement, and share-preview artifacts with identity and access intact.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "create",
+              "verify",
+              "communicate"
+            ],
+            "antiTriggers": [
+              "routine isolated draft",
+              "scraping or personal-data enrichment",
+              "autonomous sensitive reply",
+              "autonomous public action without target and human owner"
+            ],
+            "score": 51.119,
+            "reasons": [
+              "Matched: draft, editorial, update"
+            ],
+            "related": [
+              "eternities-beacon",
+              "eternities-logos",
+              "eternities-muse",
+              "eternities-oracle"
+            ]
+          },
+          {
+            "id": "browser-automation-state-and-verification",
+            "category": "automation",
+            "entrypoint": "skills/browser-automation-state-and-verification/SKILL.md",
+            "entrypointSha256": "b6b9980be8506ac0405d811dc7cce0cd9ee794addfec5ef61ad647fcf1fa2cca",
+            "summary": "Complete browser interactions with durable session identity, fresh target references, observable transitions, verified artifacts and uncertain-submission reconciliation.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify",
+              "recover"
+            ],
+            "antiTriggers": [
+              "public information retrieval without browser interaction",
+              "browser installation or control-channel configuration",
+              "general application testing strategy",
+              "access-control evasion or unauthorized submission"
+            ],
+            "score": 44.638,
+            "reasons": [
+              "Matched: browser"
+            ],
+            "related": [
+              "accessibility-audit-and-remediation",
+              "api-rate-limit-recovery",
+              "eternities-aegis",
+              "eternities-daedalus"
+            ],
+            "specializes": "eternities-hermes"
+          },
+          {
+            "id": "eternities-logos",
+            "category": "writing",
+            "entrypoint": "skills/eternities-logos/SKILL.md",
+            "entrypointSha256": "f5c84a715a574c350c06b8dc6ee485e43846c2cabd12f39e94cc8ae8cf07b5ba",
+            "summary": "Create precise technical, editorial, documentation, reporting, narrative, extraction, and structural-review artifacts from supplied evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "create",
+              "communicate",
+              "verify"
+            ],
+            "antiTriggers": [
+              "unsupported current claim",
+              "rights-sensitive reuse without authorization",
+              "publication or external write without target and approval",
+              "silent canon mutation"
+            ],
+            "score": 41.128,
+            "reasons": [
+              "Matched: article, canon, drafting, editorial, narrative, writing"
+            ],
+            "related": [
+              "eternities-agora",
+              "eternities-chorus",
+              "eternities-daedalus",
+              "eternities-muse",
+              "eternities-oracle"
+            ]
+          },
+          {
+            "id": "voice-style-calibration",
+            "category": "writing",
+            "entrypoint": "skills/voice-style-calibration/SKILL.md",
+            "entrypointSha256": "fb4a54b739b51d0e91df35d17e65fd684f7f43fd06575e58a3782d5040ad73c4",
+            "summary": "Infer and apply an evidence-based written voice across contexts while preserving meaning, attribution, and register distinctions.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "create",
+              "communicate",
+              "verify"
+            ],
+            "antiTriggers": [
+              "one-off tone adjustment with no sample-based profile needed",
+              "deceptive imitation or false attribution of a real person",
+              "speech synthesis, voice cloning, or likeness generation",
+              "send or publish a draft without a named target and authority"
+            ],
+            "score": 32.5,
+            "reasons": [
+              "Matched: draft, drafting, writing"
+            ],
+            "related": [
+              "eternities-chorus"
+            ],
+            "specializes": "eternities-logos"
+          },
+          {
+            "id": "eternities-hermes",
+            "category": "automation",
+            "entrypoint": "skills/eternities-hermes/SKILL.md",
+            "entrypointSha256": "a64957e27281ecd3b99a4bd3b2661d860ae0af8171ea630b3a9a01d5545c89cd",
+            "summary": "Design and implement bounded automation, browser, protocol, CLI, and test integrations with explicit effect and close-out evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify",
+              "orchestrate"
+            ],
+            "antiTriggers": [
+              "credential use without authority",
+              "untrusted command execution",
+              "remote mutation without a declared effect",
+              "unattended background automation"
+            ],
+            "score": 31.884,
+            "reasons": [
+              "Matched: browser"
+            ],
+            "related": [
+              "eternities-aegis",
+              "eternities-daedalus",
+              "eternities-herald",
+              "eternities-phoenix",
+              "structured-output-contracts"
+            ]
+          },
+          {
+            "id": "eternities-phoenix",
+            "category": "engineering",
+            "entrypoint": "skills/eternities-phoenix/SKILL.md",
+            "entrypointSha256": "b9d28316b61929e5dd4303aa68f82f21632ba5a44b9a6880b0aed1020694787f",
+            "summary": "Diagnose failures, derive candidate evaluation cases from authorized interactions, and design reversible recovery with bounded evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "recover",
+              "verify",
+              "plan"
+            ],
+            "antiTriggers": [
+              "no diagnosis, recovery, performance, or interaction-to-evaluation-case objective",
+              "production mutation without authority",
+              "destructive repair without rollback",
+              "background monitoring"
+            ],
+            "score": 27.025,
+            "reasons": [
+              "Matched: incident"
+            ],
+            "related": [
+              "counterbalanced-agent-evaluation",
+              "eternities-aegis",
+              "eternities-atlas",
+              "eternities-daedalus",
+              "eternities-forge"
+            ]
+          },
+          {
+            "id": "imaginative-concept-development",
+            "category": "design",
+            "entrypoint": "skills/imaginative-concept-development/SKILL.md",
+            "entrypointSha256": "5a1b550f7db546470d93a73106f972d59cf1cf4be21cc6e7c8d08cb7f9fd95c7",
+            "summary": "Explore and develop distinct concept mechanisms under constraints, then select by declared criteria without confusing invention with fact.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "create",
+              "verify"
+            ],
+            "antiTriggers": [
+              "routine revision or settled implementation",
+              "fact research without a concept decision",
+              "request to present invented events as factual canon",
+              "fixed single-direction brief with no material uncertainty to explore"
+            ],
+            "score": 24.26,
+            "reasons": [
+              "Matched: game"
+            ],
+            "related": [
+              "eternities-arcadia",
+              "eternities-muse"
+            ]
+          },
+          {
+            "id": "customer-support-triage-and-resolution",
+            "category": "business",
+            "entrypoint": "skills/customer-support-triage-and-resolution/SKILL.md",
+            "entrypointSha256": "32f0615a91aa2ca3e5933c40e24aa80ae200b9b7394549bf37b42b1d1ba34be0",
+            "summary": "Handle support issues through evidence-based triage, safe troubleshooting, truthful customer updates, focused escalation and explicit resolution states.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "recover",
+              "verify",
+              "communicate",
+              "plan"
+            ],
+            "antiTriggers": [
+              "simple acknowledgment",
+              "unapproved account refund",
+              "clinical or legal advice",
+              "exploit reproduction",
+              "company-wide account health strategy"
+            ],
+            "score": 22.319,
+            "reasons": [
+              "Matched: update"
+            ],
+            "related": [
+              "eternities-aegis",
+              "eternities-daedalus",
+              "eternities-phoenix",
+              "eternities-prometheus"
+            ],
+            "specializes": "eternities-agora"
+          },
+          {
+            "id": "eternities-agora",
+            "category": "business",
+            "entrypoint": "skills/eternities-agora/SKILL.md",
+            "entrypointSha256": "763bae5c52442699d9422e08ad68fdeb7466638f5bba5cbd6dfa04e1754da9ac",
+            "summary": "Traceable prospect, account, service, proposal, and client-report artifacts from reconciled evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "plan",
+              "create",
+              "communicate"
+            ],
+            "antiTriggers": [
+              "routine lookup",
+              "regulated identity screening",
+              "legal or financial advice",
+              "external account mutation without target and authority"
+            ],
+            "score": 22.319,
+            "reasons": [
+              "Matched: update"
+            ],
+            "related": [
+              "eternities-athena",
+              "eternities-beacon",
+              "eternities-logos",
+              "eternities-prometheus"
+            ]
+          },
+          {
+            "id": "sovereign-skill-refinery",
+            "category": "agent-workflows",
+            "entrypoint": "skills/sovereign-skill-refinery/SKILL.md",
+            "entrypointSha256": "3b129a831750723e0d42100d989ada2ed140481866ef8dc4e48865a7cea910c5",
+            "summary": "Synthesize workflow sources into independently authored, provenance-backed, structurally checked capabilities with honest disposition.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "plan",
+              "build",
+              "verify",
+              "orchestrate"
+            ],
+            "antiTriggers": [
+              "invoke an existing skill",
+              "simple repository search",
+              "unbounded source ingestion",
+              "automatic installation or activation"
+            ],
+            "score": 20.829,
+            "reasons": [
+              "Matched: draft"
+            ],
+            "related": [
+              "eternities-architect",
+              "eternities-daedalus",
+              "eternities-mnemosyne",
+              "eternities-oracle"
+            ]
+          },
+          {
+            "id": "narrative-structure-and-revision",
+            "category": "writing",
+            "entrypoint": "skills/narrative-structure-and-revision/SKILL.md",
+            "entrypointSha256": "ff8a28893c1d2ba20b0d72bef4597d4e18b4bf5db2a93594b2bd04bd8e6d483d",
+            "summary": "Write and revise fiction through particular desires, scene turns, voice and imagery, preserving canon, reader promise, and consequential interactive states.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "create",
+              "plan",
+              "build",
+              "verify"
+            ],
+            "antiTriggers": [
+              "factual status or research report",
+              "brand voice profile from writing samples",
+              "isolated grammar correction",
+              "mandatory plot formula",
+              "silently rewrite established canon"
+            ],
+            "score": 20.27,
+            "reasons": [
+              "Matched: canon, narrative, write, writing"
+            ],
+            "related": [
+              "eternities-arcadia",
+              "imaginative-concept-development",
+              "voice-style-calibration"
+            ],
+            "specializes": "eternities-logos"
+          },
+          {
+            "id": "eternities-atlas",
+            "category": "data",
+            "entrypoint": "skills/eternities-atlas/SKILL.md",
+            "entrypointSha256": "46b06bdd11e52ca6288b32bd720a77715035b5e77a2b52ba1b986a071df18700",
+            "summary": "Supplied tabular export reconciliation with column mapping, record deduplication, null semantics and row lineage. Build reproducible analytics, conditional connected-source evidence, finite trade-off frontiers, simulation-artifact handoffs, query planning, entity design and migration, synchronization, telemetry, experiment artifacts, and candidate eligibility, time-bound scorer revisions, and observed outcomes; the new extension remains DRAFT.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "plan",
+              "build",
+              "verify"
+            ],
+            "antiTriggers": [
+              "production mutation without migration and rollback evidence",
+              "credential handling",
+              "unverified live-system reconciliation"
+            ],
+            "score": 8.927,
+            "reasons": [
+              "Matched: draft"
+            ],
+            "related": [
+              "eternities-aegis",
+              "eternities-architect",
+              "eternities-daedalus",
+              "eternities-prometheus",
+              "experiment-artifact-lineage",
+              "geospatial-coordinate-integrity"
+            ]
+          },
+          {
+            "id": "eternities-orpheus",
+            "category": "audio",
+            "entrypoint": "skills/eternities-orpheus/SKILL.md",
+            "entrypointSha256": "30bbab3230a9ecbb81ecec877db2036b591a46b0f4497cb61d94df3585bda3be",
+            "summary": "Create provenance, transcription, alignment, timeline, and reviewable local media artifacts from supplied audio.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "create",
+              "verify",
+              "communicate"
+            ],
+            "antiTriggers": [
+              "biometric inference",
+              "voice impersonation or cloning",
+              "live capture without consent",
+              "authenticity or publication claim without source and review evidence"
+            ],
+            "score": 5.58,
+            "reasons": [
+              "Matched: editorial"
+            ],
+            "related": [
+              "eternities-arcadia",
+              "eternities-chorus",
+              "eternities-logos",
+              "eternities-muse",
+              "portable-speech-chunk-alignment"
+            ]
+          },
+          {
+            "id": "api-contract-design-and-evolution",
+            "category": "engineering",
+            "entrypoint": "skills/api-contract-design-and-evolution/SKILL.md",
+            "entrypointSha256": "88e79f38ac417ddf49145ea2faee45182730632593dae5df0eb0a10f663714e4",
+            "summary": "Design and evolve API contracts with directional consumer/provider compatibility, presence and null semantics, behavioral errors, scoped replay, concurrent writes, cursor consistency, and migration evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify"
+            ],
+            "antiTriggers": [
+              "edit an already supplied static JSON value",
+              "only tune a client's backoff timer",
+              "evade a provider quota or access policy",
+              "only migrate an internal database schema"
+            ],
+            "score": 5.207,
+            "reasons": [
+              "Matched: write"
+            ],
+            "related": [
+              "api-rate-limit-recovery",
+              "eternities-daedalus",
+              "eternities-hermes",
+              "structured-output-contracts"
+            ],
+            "specializes": "eternities-daedalus"
+          },
+          {
+            "id": "eternities-daedalus",
+            "category": "engineering",
+            "entrypoint": "skills/eternities-daedalus/SKILL.md",
+            "entrypointSha256": "1a26dfffe15ecfa2289aaa502e959c07f99eb518c9823ae930536a5c9f829e17",
+            "summary": "Implement, refactor, integrate, migrate, configure, optimize, and verify bounded engineering changes with direct evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify",
+              "recover"
+            ],
+            "antiTriggers": [
+              "external deployment without matching authority",
+              "destructive migration without rollback",
+              "unknown dependency behavior",
+              "unsafe generated code without review"
+            ],
+            "score": 5.207,
+            "reasons": [
+              "Matched: write"
+            ],
+            "related": [
+              "api-rate-limit-recovery",
+              "eternities-architect",
+              "eternities-atlas",
+              "eternities-forge",
+              "eternities-muse",
+              "eternities-phoenix",
+              "release-script-safety"
+            ]
+          },
+          {
+            "id": "lazy-tabular-transformation-and-validation",
+            "category": "data",
+            "entrypoint": "skills/lazy-tabular-transformation-and-validation/SKILL.md",
+            "entrypointSha256": "848d222b70cf24d9ef86af68a4ec6bfeacf889c8f75f36a3facfabf66a7b1c77",
+            "summary": "Build and validate lazy tabular plans with explicit schemas, invariants, inspected execution, bounded collection, and resource evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "build",
+              "verify"
+            ],
+            "antiTriggers": [
+              "Read arbitrary datasets outside the supplied scope.",
+              "Collect an unbounded plan into memory.",
+              "Call a sampled or partial result proof of full-data completeness."
+            ],
+            "score": 4.906,
+            "reasons": [
+              "Matched: writing"
+            ],
+            "related": [
+              "bounded-verified-object-ingestion",
+              "columnar-ingestion-rollup-and-query-layout-design",
+              "eternities-aegis",
+              "eternities-atlas",
+              "eternities-daedalus"
+            ],
+            "specializes": "eternities-atlas"
+          },
+          {
+            "id": "schema-migration-and-backfill-safety",
+            "category": "data",
+            "entrypoint": "skills/schema-migration-and-backfill-safety/SKILL.md",
+            "entrypointSha256": "6fad6670b742088afd1d4f4b3b7d5cc4715f18f235673e71f8c97c969c4fca65",
+            "summary": "Migrate database schemas and transform live rows across mixed app versions, with resumable backfills, concurrent-write protection and recovery checks.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify",
+              "recover"
+            ],
+            "antiTriggers": [
+              "ordinary query tuning",
+              "schema sketch without migration",
+              "backup administration alone",
+              "database engine upgrade without schema transition"
+            ],
+            "score": 2.232,
+            "reasons": [
+              "Matched: write"
+            ],
+            "related": [
+              "bounded-verified-object-ingestion",
+              "eternities-daedalus",
+              "release-script-safety"
+            ],
+            "specializes": "eternities-atlas"
+          },
+          {
+            "id": "docx-package-redline-and-render-verification",
+            "category": "writing",
+            "entrypoint": "skills/docx-package-redline-and-render-verification/SKILL.md",
+            "entrypointSha256": "e90da766438c21f06cc718d2dbeefb1dff920bbcfef0402cd3a5e94be32bffb8",
+            "summary": "Edit DOCX packages with minimal relationship-safe changes and verify review markup, package integrity, external targets, and rendered pagination.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "build",
+              "verify",
+              "communicate"
+            ],
+            "antiTriggers": [
+              "Open or preserve unknown external links without inspection.",
+              "Treat a successful text diff or package open as layout proof.",
+              "Claim legal adequacy from package or rendering checks."
+            ],
+            "score": 0.701,
+            "reasons": [
+              "Matched: writing"
+            ],
+            "related": [
+              "eternities-aegis",
+              "eternities-logos",
+              "eternities-muse",
+              "formula-preserving-workbook-engineering"
+            ],
+            "specializes": "eternities-logos"
+          }
+        ],
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        }
+      },
+      "diagnostics": {
+        "affirmativeClauses": [
+          "the incident note says",
+          "draft a scheduling update about postponing that work"
+        ],
+        "intents": [],
+        "runtimeDomainNavigation": false,
+        "arcadiaIntent": {
+          "score": 0,
+          "prioritizeRequestedActivity": false,
+          "reasons": [],
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "exclusion-04",
+      "kind": "exclusion",
+      "query": "Extract the redistribution and attribution clauses from this WebGL shader license for our legal reviewer.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "excludes": [
+          "eternities-arcadia"
+        ]
+      },
+      "basis": "product/DISCOVERY.md: rights extraction supplies no runtime purpose; Arcadia body: runtime integration and experience routes",
+      "failures": [],
+      "output": {
+        "schema": "eternities-godskills-discovery-v1",
+        "authority": "none",
+        "activation": "none",
+        "method": "offline-lexical-intent-phrases-v4",
+        "query": "Extract the redistribution and attribution clauses from this WebGL shader license for our legal reviewer.",
+        "results": [
+          {
+            "id": "jurisdiction-aware-contract-review",
+            "category": "legal",
+            "entrypoint": "skills/jurisdiction-aware-contract-review/SKILL.md",
+            "entrypointSha256": "c600a5c1b47f652f435c4b0a1cb8d71ee043de7b801eff34aeb25a2b04c43303",
+            "summary": "Extract obligations and reconcile contract clauses against the user's goals while separating document facts from jurisdiction-dependent legal conclusions.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "verify",
+              "communicate"
+            ],
+            "antiTriggers": [
+              "Professional certification or guaranteed outcomes without appropriate evidence and qualified review"
+            ],
+            "score": 91.473,
+            "reasons": [
+              "Matched: clauses, extract, legal"
+            ],
+            "related": [
+              "docx-package-redline-and-render-verification",
+              "eternities-logos",
+              "eternities-oracle"
+            ]
+          },
+          {
+            "id": "eternities-chorus",
+            "category": "social",
+            "entrypoint": "skills/eternities-chorus/SKILL.md",
+            "entrypointSha256": "f1e0d8964acb8dc267b8f3e51a3fbfde3b5b0c8a91aeebfb8517f1b068998d95",
+            "summary": "Create evidence-led communication, editorial, community, measurement, and share-preview artifacts with identity and access intact.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "create",
+              "verify",
+              "communicate"
+            ],
+            "antiTriggers": [
+              "routine isolated draft",
+              "scraping or personal-data enrichment",
+              "autonomous sensitive reply",
+              "autonomous public action without target and human owner"
+            ],
+            "score": 27.025,
+            "reasons": [
+              "Matched: reviewer"
+            ],
+            "related": [
+              "eternities-beacon",
+              "eternities-logos",
+              "eternities-muse",
+              "eternities-oracle"
+            ]
+          },
+          {
+            "id": "bounded-parametric-design-iteration",
+            "category": "design",
+            "entrypoint": "skills/bounded-parametric-design-iteration/SKILL.md",
+            "entrypointSha256": "3ebf155034e8f23d095204f8fb82efff24f7988785252a0ad47a9a9d80e26a0c",
+            "summary": "Improve an existing solved parametric design through isolated changes, solver-backed comparison, hard-constraint checks, and finite accept-or-rollback evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify",
+              "recover"
+            ],
+            "antiTriggers": [
+              "Author a new multi-part model from scratch.",
+              "Compare surrogate or critique output directly with solver evidence.",
+              "Claim physical safety, manufacturability, or optimality from CAD or one simulation."
+            ],
+            "score": 22.319,
+            "reasons": [
+              "Matched: attribution"
+            ],
+            "related": [
+              "eternities-aegis",
+              "eternities-architect",
+              "eternities-forge",
+              "eternities-phoenix",
+              "physics-constrained-numerical-validation"
+            ],
+            "specializes": "eternities-forge"
+          },
+          {
+            "id": "eternities-hephaestus",
+            "category": "models",
+            "entrypoint": "skills/eternities-hephaestus/SKILL.md",
+            "entrypointSha256": "5c31073206e35a113aeb7341fa643b2480b0e114b278c37df72260d9b8156f7b",
+            "summary": "Qualify model, runtime, hardware, and serving choices against matched quality, capacity, operational, privacy, license, and cost evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "plan",
+              "verify"
+            ],
+            "antiTriggers": [
+              "simple model fact",
+              "purchase or provider account change",
+              "download or deployment",
+              "benchmark without comparable conditions"
+            ],
+            "score": 11.582,
+            "reasons": [
+              "Matched: license"
+            ],
+            "related": [
+              "eternities-architect",
+              "eternities-daedalus",
+              "eternities-herald",
+              "eternities-oracle",
+              "experiment-artifact-lineage"
+            ]
+          },
+          {
+            "id": "approval-bound-private-session-mining",
+            "category": "memory",
+            "entrypoint": "skills/approval-bound-private-session-mining/SKILL.md",
+            "entrypointSha256": "b73c8bf7c81d781e56600316afa4e0ef9181dd1c7ffd2a6cc1b2cbe891ac79ce",
+            "summary": "Extract source-labeled, minimized findings from an approved private transcript set while retaining scope, redaction, uncertainty, and revocation evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "verify",
+              "recover"
+            ],
+            "antiTriggers": [
+              "Monitor live conversations without a fixed approved scope.",
+              "Mine another person's sessions or infer identity secrets.",
+              "Reuse a private finding for a new purpose without renewed scope."
+            ],
+            "score": 10.397,
+            "reasons": [
+              "Matched: extract"
+            ],
+            "related": [
+              "bounded-verified-object-ingestion",
+              "eternities-aegis",
+              "eternities-mnemosyne",
+              "eternities-oracle"
+            ],
+            "specializes": "eternities-mnemosyne"
+          },
+          {
+            "id": "app-store-discovery-experiments",
+            "category": "marketing",
+            "entrypoint": "skills/app-store-discovery-experiments/SKILL.md",
+            "entrypointSha256": "43beef20c43bea5046f722e6b5d5fabd76a770a747bc1cf60eb2a598fd97c46c",
+            "summary": "Audit app-store discovery inputs and run bounded one-variable listing experiments with dated evidence, guardrails, and honest attribution limits.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "plan",
+              "build",
+              "verify",
+              "communicate"
+            ],
+            "antiTriggers": [
+              "Promise ranking, conversion, review, or install outcomes from listing edits.",
+              "Change multiple high-impact fields without acknowledging attribution loss.",
+              "Report a prepared packet, competitor observation, or synthetic fixture as a published or validated store result."
+            ],
+            "score": 9.565,
+            "reasons": [
+              "Matched: attribution"
+            ],
+            "related": [
+              "eternities-beacon",
+              "eternities-oracle",
+              "eternities-prometheus",
+              "interface-localization-and-bidirectionality",
+              "measured-paid-creative-iteration",
+              "venture-falsification-and-planning"
+            ],
+            "specializes": "eternities-beacon"
+          },
+          {
+            "id": "voice-style-calibration",
+            "category": "writing",
+            "entrypoint": "skills/voice-style-calibration/SKILL.md",
+            "entrypointSha256": "fb4a54b739b51d0e91df35d17e65fd684f7f43fd06575e58a3782d5040ad73c4",
+            "summary": "Infer and apply an evidence-based written voice across contexts while preserving meaning, attribution, and register distinctions.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "create",
+              "communicate",
+              "verify"
+            ],
+            "antiTriggers": [
+              "one-off tone adjustment with no sample-based profile needed",
+              "deceptive imitation or false attribution of a real person",
+              "speech synthesis, voice cloning, or likeness generation",
+              "send or publish a draft without a named target and authority"
+            ],
+            "score": 9.565,
+            "reasons": [
+              "Matched: attribution"
+            ],
+            "related": [
+              "eternities-chorus"
+            ],
+            "specializes": "eternities-logos"
+          }
+        ],
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        }
+      },
+      "diagnostics": {
+        "affirmativeClauses": [
+          "extract the redistribution and attribution clauses from this webgl shader license for our legal reviewer"
+        ],
+        "intents": [],
+        "runtimeDomainNavigation": false,
+        "arcadiaIntent": {
+          "score": 0,
+          "prioritizeRequestedActivity": false,
+          "reasons": [],
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "exclusion-05",
+      "kind": "exclusion",
+      "query": "Say thanks to the customer support and game simulation teams for their help with the release.",
+      "options": {
+        "limit": 20,
+        "need": "none"
+      },
+      "expected": {
+        "empty": true,
+        "abstentionReason": "host-supplied-no-need"
+      },
+      "basis": "product/README.md and product/DISCOVERY.md: host no-need facts suppress retrieval despite domain words",
+      "failures": [],
+      "output": {
+        "schema": "eternities-godskills-discovery-v1",
+        "authority": "none",
+        "activation": "none",
+        "method": "offline-lexical-intent-phrases-v4",
+        "query": "Say thanks to the customer support and game simulation teams for their help with the release.",
+        "results": [],
+        "abstentionReason": "host-supplied-no-need",
+        "selection": {
+          "state": "abstain",
+          "basis": "host-supplied-no-need"
+        }
+      },
+      "diagnostics": {
+        "affirmativeClauses": [
+          "say thanks to the customer support and game simulation teams for their help with the release"
+        ],
+        "intents": [],
+        "runtimeDomainNavigation": true,
+        "arcadiaIntent": {
+          "score": 0,
+          "prioritizeRequestedActivity": false,
+          "reasons": [],
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "exclusion-06",
+      "kind": "exclusion",
+      "query": "Fix the WebGL shader in a browser game; this is a routine isolated code edit.",
+      "options": {
+        "limit": 20
+      },
+      "expected": {
+        "excludes": [
+          "eternities-arcadia"
+        ]
+      },
+      "basis": "product/skills/eternities-arcadia/skill.json: literal routine isolated code edit anti-trigger takes precedence",
+      "failures": [],
+      "output": {
+        "schema": "eternities-godskills-discovery-v1",
+        "authority": "none",
+        "activation": "none",
+        "method": "offline-lexical-intent-phrases-v4",
+        "query": "Fix the WebGL shader in a browser game; this is a routine isolated code edit.",
+        "results": [
+          {
+            "id": "browser-automation-state-and-verification",
+            "category": "automation",
+            "entrypoint": "skills/browser-automation-state-and-verification/SKILL.md",
+            "entrypointSha256": "b6b9980be8506ac0405d811dc7cce0cd9ee794addfec5ef61ad647fcf1fa2cca",
+            "summary": "Complete browser interactions with durable session identity, fresh target references, observable transitions, verified artifacts and uncertain-submission reconciliation.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify",
+              "recover"
+            ],
+            "antiTriggers": [
+              "public information retrieval without browser interaction",
+              "browser installation or control-channel configuration",
+              "general application testing strategy",
+              "access-control evasion or unauthorized submission"
+            ],
+            "score": 44.638,
+            "reasons": [
+              "Matched: browser"
+            ],
+            "related": [
+              "accessibility-audit-and-remediation",
+              "api-rate-limit-recovery",
+              "eternities-aegis",
+              "eternities-daedalus"
+            ],
+            "specializes": "eternities-hermes"
+          },
+          {
+            "id": "eternities-hermes",
+            "category": "automation",
+            "entrypoint": "skills/eternities-hermes/SKILL.md",
+            "entrypointSha256": "a64957e27281ecd3b99a4bd3b2661d860ae0af8171ea630b3a9a01d5545c89cd",
+            "summary": "Design and implement bounded automation, browser, protocol, CLI, and test integrations with explicit effect and close-out evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify",
+              "orchestrate"
+            ],
+            "antiTriggers": [
+              "credential use without authority",
+              "untrusted command execution",
+              "remote mutation without a declared effect",
+              "unattended background automation"
+            ],
+            "score": 31.884,
+            "reasons": [
+              "Matched: browser"
+            ],
+            "related": [
+              "eternities-aegis",
+              "eternities-daedalus",
+              "eternities-herald",
+              "eternities-phoenix",
+              "structured-output-contracts"
+            ]
+          },
+          {
+            "id": "eternities-daedalus",
+            "category": "engineering",
+            "entrypoint": "skills/eternities-daedalus/SKILL.md",
+            "entrypointSha256": "1a26dfffe15ecfa2289aaa502e959c07f99eb518c9823ae930536a5c9f829e17",
+            "summary": "Implement, refactor, integrate, migrate, configure, optimize, and verify bounded engineering changes with direct evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify",
+              "recover"
+            ],
+            "antiTriggers": [
+              "external deployment without matching authority",
+              "destructive migration without rollback",
+              "unknown dependency behavior",
+              "unsafe generated code without review"
+            ],
+            "score": 27.025,
+            "reasons": [
+              "Matched: code"
+            ],
+            "related": [
+              "api-rate-limit-recovery",
+              "eternities-architect",
+              "eternities-atlas",
+              "eternities-forge",
+              "eternities-muse",
+              "eternities-phoenix",
+              "release-script-safety"
+            ]
+          },
+          {
+            "id": "eternities-orpheus",
+            "category": "audio",
+            "entrypoint": "skills/eternities-orpheus/SKILL.md",
+            "entrypointSha256": "30bbab3230a9ecbb81ecec877db2036b591a46b0f4497cb61d94df3585bda3be",
+            "summary": "Create provenance, transcription, alignment, timeline, and reviewable local media artifacts from supplied audio.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "create",
+              "verify",
+              "communicate"
+            ],
+            "antiTriggers": [
+              "biometric inference",
+              "voice impersonation or cloning",
+              "live capture without consent",
+              "authenticity or publication claim without source and review evidence"
+            ],
+            "score": 24.26,
+            "reasons": [
+              "Matched: edit"
+            ],
+            "related": [
+              "eternities-arcadia",
+              "eternities-chorus",
+              "eternities-logos",
+              "eternities-muse",
+              "portable-speech-chunk-alignment"
+            ]
+          },
+          {
+            "id": "imaginative-concept-development",
+            "category": "design",
+            "entrypoint": "skills/imaginative-concept-development/SKILL.md",
+            "entrypointSha256": "5a1b550f7db546470d93a73106f972d59cf1cf4be21cc6e7c8d08cb7f9fd95c7",
+            "summary": "Explore and develop distinct concept mechanisms under constraints, then select by declared criteria without confusing invention with fact.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "create",
+              "verify"
+            ],
+            "antiTriggers": [
+              "routine revision or settled implementation",
+              "fact research without a concept decision",
+              "request to present invented events as factual canon",
+              "fixed single-direction brief with no material uncertainty to explore"
+            ],
+            "score": 24.26,
+            "reasons": [
+              "Matched: game"
+            ],
+            "related": [
+              "eternities-arcadia",
+              "eternities-muse"
+            ]
+          },
+          {
+            "id": "bounded-parametric-design-iteration",
+            "category": "design",
+            "entrypoint": "skills/bounded-parametric-design-iteration/SKILL.md",
+            "entrypointSha256": "3ebf155034e8f23d095204f8fb82efff24f7988785252a0ad47a9a9d80e26a0c",
+            "summary": "Improve an existing solved parametric design through isolated changes, solver-backed comparison, hard-constraint checks, and finite accept-or-rollback evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify",
+              "recover"
+            ],
+            "antiTriggers": [
+              "Author a new multi-part model from scratch.",
+              "Compare surrogate or critique output directly with solver evidence.",
+              "Claim physical safety, manufacturability, or optimality from CAD or one simulation."
+            ],
+            "score": 10.397,
+            "reasons": [
+              "Matched: isolated"
+            ],
+            "related": [
+              "eternities-aegis",
+              "eternities-architect",
+              "eternities-forge",
+              "eternities-phoenix",
+              "physics-constrained-numerical-validation"
+            ],
+            "specializes": "eternities-forge"
+          },
+          {
+            "id": "counterbalanced-agent-evaluation",
+            "category": "science",
+            "entrypoint": "skills/counterbalanced-agent-evaluation/SKILL.md",
+            "entrypointSha256": "6242385832a491c290feeb636175210c839a75dcf6bd30526b5cf2f32c99fd7f",
+            "summary": "Compare raw and skill-enabled agents using isolated conditions, blinded counterbalanced review, held-out tasks and quality-cost evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "verify",
+              "research"
+            ],
+            "antiTriggers": [
+              "ordinary single bug regression test"
+            ],
+            "score": 10.397,
+            "reasons": [
+              "Matched: isolated"
+            ],
+            "related": [
+              "eternities-athena",
+              "eternities-atlas",
+              "eternities-omnibus",
+              "sovereign-skill-refinery"
+            ],
+            "specializes": "eternities-athena"
+          },
+          {
+            "id": "docx-package-redline-and-render-verification",
+            "category": "writing",
+            "entrypoint": "skills/docx-package-redline-and-render-verification/SKILL.md",
+            "entrypointSha256": "e90da766438c21f06cc718d2dbeefb1dff920bbcfef0402cd3a5e94be32bffb8",
+            "summary": "Edit DOCX packages with minimal relationship-safe changes and verify review markup, package integrity, external targets, and rendered pagination.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "build",
+              "verify",
+              "communicate"
+            ],
+            "antiTriggers": [
+              "Open or preserve unknown external links without inspection.",
+              "Treat a successful text diff or package open as layout proof.",
+              "Claim legal adequacy from package or rendering checks."
+            ],
+            "score": 10.397,
+            "reasons": [
+              "Matched: edit"
+            ],
+            "related": [
+              "eternities-aegis",
+              "eternities-logos",
+              "eternities-muse",
+              "formula-preserving-workbook-engineering"
+            ],
+            "specializes": "eternities-logos"
+          }
+        ],
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        }
+      },
+      "diagnostics": {
+        "affirmativeClauses": [
+          "fix the webgl shader in a browser game",
+          "this is a routine isolated code edit"
+        ],
+        "intents": [
+          "game or real-time 3D runtime scope"
+        ],
+        "runtimeDomainNavigation": true,
+        "arcadiaIntent": {
+          "score": 0,
+          "prioritizeRequestedActivity": false,
+          "reasons": [
+            "Lexical intent: game or real-time 3D runtime scope; cues: game or technical 3D context, independent work action or reported fault"
+          ],
+          "eligible": true
+        }
+      }
+    },
+    {
+      "id": "ordinary-01",
+      "kind": "ordinary",
+      "query": "Calculate 12.5 plus 7.25. Give only the result.",
+      "options": {
+        "limit": 3
+      },
+      "expected": {
+        "empty": true,
+        "abstentionReason": "explicit-limited-micro-task"
+      },
+      "basis": "product/DISCOVERY.md: explicit limited arithmetic uses ordinary competence",
+      "failures": [],
+      "output": {
+        "schema": "eternities-godskills-discovery-v1",
+        "authority": "none",
+        "activation": "none",
+        "method": "offline-lexical-intent-phrases-v4",
+        "query": "Calculate 12.5 plus 7.25. Give only the result.",
+        "results": [],
+        "abstentionReason": "explicit-limited-micro-task",
+        "selection": {
+          "state": "abstain",
+          "basis": "bounded-lexical-exclusion"
+        }
+      },
+      "diagnostics": {
+        "affirmativeClauses": [
+          "calculate 12.5 plus 7.25",
+          "give only the result"
+        ],
+        "intents": [],
+        "runtimeDomainNavigation": false,
+        "arcadiaIntent": {
+          "score": 0,
+          "prioritizeRequestedActivity": false,
+          "reasons": [],
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "ordinary-02",
+      "kind": "ordinary",
+      "query": "Uppercase the literal text “debug the game shader”. Give only the text.",
+      "options": {
+        "limit": 3
+      },
+      "expected": {
+        "empty": true,
+        "abstentionReason": "explicit-limited-micro-task"
+      },
+      "basis": "product/DISCOVERY.md: literal casing input is data, not a requested workflow",
+      "failures": [],
+      "output": {
+        "schema": "eternities-godskills-discovery-v1",
+        "authority": "none",
+        "activation": "none",
+        "method": "offline-lexical-intent-phrases-v4",
+        "query": "Uppercase the literal text “debug the game shader”. Give only the text.",
+        "results": [],
+        "abstentionReason": "explicit-limited-micro-task",
+        "selection": {
+          "state": "abstain",
+          "basis": "bounded-lexical-exclusion"
+        }
+      },
+      "diagnostics": {
+        "affirmativeClauses": [
+          "uppercase the literal text",
+          "give only the text"
+        ],
+        "intents": [],
+        "runtimeDomainNavigation": false,
+        "arcadiaIntent": {
+          "score": 0,
+          "prioritizeRequestedActivity": false,
+          "reasons": [],
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "ordinary-03",
+      "kind": "ordinary",
+      "query": "Do not audit the support records. Count the words in “the customer found a workaround”. Give only the count.",
+      "options": {
+        "limit": 3
+      },
+      "expected": {
+        "empty": true,
+        "abstentionReason": "explicit-limited-micro-task"
+      },
+      "basis": "product/DISCOVERY.md: refused audit cannot defeat a separate limited counting request",
+      "failures": [],
+      "output": {
+        "schema": "eternities-godskills-discovery-v1",
+        "authority": "none",
+        "activation": "none",
+        "method": "offline-lexical-intent-phrases-v4",
+        "query": "Do not audit the support records. Count the words in “the customer found a workaround”. Give only the count.",
+        "results": [],
+        "abstentionReason": "explicit-limited-micro-task",
+        "selection": {
+          "state": "abstain",
+          "basis": "bounded-lexical-exclusion"
+        }
+      },
+      "diagnostics": {
+        "affirmativeClauses": [
+          "count the words in",
+          "give only the count"
+        ],
+        "intents": [],
+        "runtimeDomainNavigation": false,
+        "arcadiaIntent": {
+          "score": 0,
+          "prioritizeRequestedActivity": false,
+          "reasons": [],
+          "eligible": false
+        }
+      }
+    },
+    {
+      "id": "ordinary-04",
+      "kind": "ordinary",
+      "query": "I need help with recovery. Ask one clarifying question before choosing a workflow.",
+      "options": {
+        "limit": 3
+      },
+      "expected": {
+        "empty": true,
+        "abstentionReason": "clarification-requested-before-selection"
+      },
+      "basis": "product/DISCOVERY.md: explicit request to clarify before specialist selection abstains",
+      "failures": [],
+      "output": {
+        "schema": "eternities-godskills-discovery-v1",
+        "authority": "none",
+        "activation": "none",
+        "method": "offline-lexical-intent-phrases-v4",
+        "query": "I need help with recovery. Ask one clarifying question before choosing a workflow.",
+        "results": [],
+        "abstentionReason": "clarification-requested-before-selection",
+        "selection": {
+          "state": "abstain",
+          "basis": "bounded-lexical-exclusion"
+        }
+      },
+      "diagnostics": {
+        "affirmativeClauses": [
+          "i need help with recovery",
+          "ask one clarifying question before choosing a workflow"
+        ],
+        "intents": [],
+        "runtimeDomainNavigation": false,
+        "arcadiaIntent": {
+          "score": 0,
+          "prioritizeRequestedActivity": false,
+          "reasons": [],
+          "eligible": false
+        }
+      }
+    }
+  ]
+}

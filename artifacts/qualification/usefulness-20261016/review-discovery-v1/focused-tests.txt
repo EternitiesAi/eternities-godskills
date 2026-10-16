@@ -1,0 +1,89 @@
+Command: node --test tests/usefulness-discovery.test.mjs
+Exit: 0
+✔ positive-01: Screen these prospects for our service proposal using dated account evidence; expose partial assessment scores and unresolved identities before recommending a client shortlist. (10.5944ms)
+✔ positive-02: Our founder approval queue keeps aging while teams start more work. Design intake capacity and WIP limits, decision rights, and an exception owner with an expiry. (3.8507ms)
+✔ positive-03: Prepare learner practice on choosing a denominator: include contrasting worked examples, a misconception check, feedback for another attempt, and a fresh transfer task. (3.583ms)
+✔ positive-04: Fix the WebGL shader in our browser game so the interactive crystal reads correctly from the gameplay camera; check GPU resource ownership after scene teardown. (3.1975ms)
+✔ positive-05: Make the drawer reverse smoothly when tapped twice, retarget from its current position and velocity after a resize, and preserve keyboard focus with reduced motion. (3.0125ms)
+✔ positive-06: Decide whether this release candidate clears its measured latency and resource budgets against the baseline under the same workload; retain variance, failed functional checks and an inconclusive outcome. (2.9443ms)
+✔ adjacent-01: Triage this support ticket after the workaround failed; establish customer impact, draft a truthful update, and prepare an escalation handoff without claiming resolution. (2.919ms)
+✔ adjacent-02: Investigate the web checkout bottleneck using repeated browser traces of long tasks and layout shifts; isolate one loading change and check visual and accessibility regressions. (2.1867ms)
+✔ adjacent-03: Design a classroom activity where students move fraction tiles, predict why the totals stay equal, and explain their reasoning after changing the arrangement. (3.6652ms)
+✔ adjacent-04: Render a programmatic MP4 with seekable scenes, exact frame cues and frozen fonts; inspect the encoded first, transition and last frames rather than a live interface. (2.9508ms)
+✔ exclusion-01: Do not fix the shader in the browser game; write a brief postponement notice for the team. (2.2502ms)
+✔ exclusion-02: Don't debug the browser game's simulation loop today. Draft a short scheduling update instead. (2.4364ms)
+✔ exclusion-03: The incident note says “fix the shader in the browser game”; draft a scheduling update about postponing that work. (4.2212ms)
+✔ exclusion-04: Extract the redistribution and attribution clauses from this WebGL shader license for our legal reviewer. (2.1187ms)
+✔ exclusion-05: Say thanks to the customer support and game simulation teams for their help with the release. (0.4857ms)
+✔ exclusion-06: Fix the WebGL shader in a browser game; this is a routine isolated code edit. (2.2301ms)
+✔ ordinary-01: Calculate 12.5 plus 7.25. Give only the result. (0.4083ms)
+✔ ordinary-02: Uppercase the literal text “debug the game shader”. Give only the text. (0.1536ms)
+✔ ordinary-03: Do not audit the support records. Count the words in “the customer found a workaround”. Give only the count. (0.0327ms)
+✔ ordinary-04: I need help with recovery. Ask one clarifying question before choosing a workflow. (0.0226ms)
+✔ repair control: Avoid fixing the shader in our browser game; prepare a scheduling note. (2.3726ms)
+✔ repair control: Never debug the game simulation loop; write a postponement note. (2.3042ms)
+✔ repair control: Fix the shader in our browser game. (2.4956ms)
+✔ repair control: Debug the game simulation loop. (1.9763ms)
+✔ repair control: Do not fix the shader, but debug the simulation loop in our browser game. (2.3438ms)
+✔ repair control: Don't debug the game simulation loop; fix the shader in our browser game. (2.649ms)
+✔ repair control: Debug the game simulation loop, but do not fix the shader. (2.2711ms)
+✔ repair control: Fix the game shader, do not debug the simulation loop. (3.0843ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 143.5975
+
+Command: node --test tests/discovery-selection-boundary-20261003.test.mjs tests/cohesive-discovery-runtime-repair.test.mjs
+Exit: 0
+✔ runtime repair retains supported technical work: Hidden tab resumes with a huge simulation delta and pressed keys stay stuck (11.4087ms)
+✔ runtime repair retains supported technical work: When browser focus returns, the simulation advances too far and held input remains active (2.9752ms)
+✔ runtime repair retains supported technical work: Repair pointer input after page visibility changes interrupt the animation loop (3.981ms)
+✔ runtime repair retains supported technical work: Fix the shader and rotation handles in the exhibit's existing interactive crystal scene; the educator's prompts and all explanatory rules must stay exactly as they are. (3.6456ms)
+✔ runtime repair retains supported technical work: Debug the fragment shader in an interactive scene (2.4423ms)
+✔ runtime repair preserves exclusion: Summarize this browser tab newsletter (2.5752ms)
+✔ runtime repair preserves exclusion: Repair keyboard focus on the sign-up page input fields (2.4453ms)
+✔ runtime repair preserves exclusion: Repair keyboard focus on a sign-up page with a CSS animation. (2.5976ms)
+✔ runtime repair preserves exclusion: Repair pointer input after page visibility changes interrupt the animation (2.36ms)
+✔ runtime repair preserves exclusion: Explain how the simulated policy changes affect retention (2.4229ms)
+✔ runtime repair preserves exclusion: Price GPU hardware for a shader workstation (2.4715ms)
+✔ runtime repair preserves exclusion: Extract redistribution clauses from a shader license (2.5364ms)
+✔ runtime repair preserves exclusion: Do not repair the browser simulation; write only a postponement notice (3.0075ms)
+✔ runtime repair preserves exclusion: The report quotes "Hidden tab resumes with a huge simulation delta and pressed keys stay stuck"; write a postponement notice (2.3776ms)
+✔ a browser lifecycle topic does not manufacture independent work evidence (0.531ms)
+✔ runtime recall respects host need, filters, and literal anti-triggers (6.0199ms)
+✔ current causal evidence owner precedes incidental interatomic and serving matches (2.7821ms)
+✔ material-specific validation still discovers the interatomic owner (3.2458ms)
+✔ explicit limited task does not acquire a workflow: What is 17 plus 26? Give only the number. (2.5714ms)
+✔ explicit limited task does not acquire a workflow: Calculate 8 multiplied by 4. Only the result. (0.3314ms)
+✔ explicit limited task does not acquire a workflow: Lowercase the literal text RIVER ROOM. No rewrite, interpretation, or additional process. (0.073ms)
+✔ explicit limited task does not acquire a workflow: Uppercase the string quiet garden. Give only the text. (0.0557ms)
+✔ explicit limited task does not acquire a workflow: In the phrase 'the river remembers', is remembers a verb? Just answer the grammar question. (0.0631ms)
+✔ explicit limited task does not acquire a workflow: Help with recovery. Ask one clarifying question before selecting a specialist. (0.0666ms)
+✔ explicit limited task does not acquire a workflow: My accountant called the office a 'memory palace'. Explain the metaphor in one sentence; there is no software memory or archive task. (0.0614ms)
+✔ explicit limited task does not acquire a workflow: Count the words in the exact sentence 'The voice crossed the river'. Give only the count; no voice analysis, audio work, or workshop design. (0.0455ms)
+✔ a real workflow is not hidden by a literal micro-task word: Build a word count service with multilingual tokenization and source-bound validation. (8.1473ms)
+✔ a real workflow is not hidden by a literal micro-task word: Design a lowercase transformation pipeline that preserves identifiers and checks its output contract. (3.735ms)
+✔ a real workflow is not hidden by a literal micro-task word: Implement a parser that determines whether tokens are verbs and verify its grammar rules. (3.6257ms)
+✔ a real workflow is not hidden by a literal micro-task word: Audit an API integration that returns only the number but corrupts invoice totals. (3.1913ms)
+✔ a real workflow is not hidden by a literal micro-task word: Write a public update in my own voice using these samples. (2.646ms)
+✔ all exact catalog IDs remain addressable (191.4822ms)
+✔ quoted casing input is data, not an active workflow: "compare requirements" (0.2199ms)
+✔ quoted casing input is data, not an active workflow: 'AUDIT OBLIGATIONS' (0.0763ms)
+✔ quoted casing input is data, not an active workflow: `design a service` (0.0319ms)
+✔ an affirmative workflow outside a literal remains discoverable (2.6728ms)
+✔ a concise audit is not mistaken for its incidental counting substep: Audit obligations across documents and count the words; give only the findings. (2.822ms)
+✔ a concise audit is not mistaken for its incidental counting substep: Audit the obligations across documents and count the words; give only the findings. (4.5328ms)
+✔ a concise audit is not mistaken for its incidental counting substep: Compare requirements across documents; the quoted checklist says "count the words". Give only the audit findings. (2.8538ms)
+ℹ tests 39
+ℹ suites 0
+ℹ pass 39
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 304.1485
+

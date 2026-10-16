@@ -1,0 +1,1785 @@
+{
+  "schema": "discovery-closure-results-v2",
+  "recordedAt": "2026-10-16T07:38:00.033Z",
+  "node": "v24.18.0",
+  "baseline": "7c7f2ac98a282ccb2e59c3a4c0424802a4dd72b5",
+  "baselineScopeSha256": "e9055f1bfa2a913c1f73e93f5fa652588963e63dd9094e46713786fe400877f2",
+  "candidateScopeSha256": "1e670b69ce90a275be081a93179b0295ef2bb97d830680582c6201b3d0f3f4f1",
+  "controlsSha256": "3ffff4867c26402842fac8215a9ef18f65ee0526734daca5578ff42a9c22361a",
+  "additionalControlsSha256": "e36089f07ac4af69879aac1ac21452f0b56e2f99b0c560f4217fbb79f08e288f",
+  "exactChange": "Baseline plus only |fix(?:ing)?|debug(?:ging)?; all prior families and other bytes unchanged.",
+  "summary": {
+    "unchangedScoredPass": 30,
+    "unscoredObservations": 3,
+    "additionalPass": 8,
+    "priorRegressionsClosed": 6,
+    "restoredBaselineOutputs": 6,
+    "otherV1OutputsUnchanged": 27,
+    "inputBindingsVerified": 17
+  },
+  "records": [
+    {
+      "id": "affirmative-fix",
+      "origin": "unchanged-v1",
+      "query": "Fix player-camera clipping in the WebGL game and verify scene teardown.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": true,
+      "scored": true,
+      "actualArcadia": true,
+      "rank": 1,
+      "returnedIds": [
+        "eternities-arcadia",
+        "scene-continuity-and-coverage",
+        "narrative-structure-and-revision",
+        "imaginative-concept-development",
+        "ecological-sampling-and-detection-uncertainty",
+        "native-mobile-interaction-testing",
+        "eternities-daedalus",
+        "infrastructure-plan-apply-isolation",
+        "robotics-test-ladder",
+        "eternities-hermes",
+        "venture-falsification-and-planning",
+        "lazy-tabular-transformation-and-validation",
+        "memory-retention-and-recovery",
+        "vendor-evaluation-and-exit-planning",
+        "agricultural-observation-and-trial",
+        "confirmed-destructive-reconstruction",
+        "fp-ts-functional-refactoring",
+        "schema-migration-and-backfill-safety",
+        "structured-output-contracts",
+        "symbolic-mathematics-python"
+      ],
+      "clauses": [
+        "fix player-camera clipping in the webgl game and verify scene teardown"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "f917fbb15af63e8feec91416ca1c7bb5d5d59c5767fe9daedaba68e1d6cefc77",
+      "v1Regression": false,
+      "matchesBaselineOutput": true,
+      "matchesV1CandidateOutput": true
+    },
+    {
+      "id": "affirmative-debug",
+      "origin": "unchanged-v1",
+      "query": "Debug lost keyboard input in our browser game after tab restoration.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": true,
+      "scored": true,
+      "actualArcadia": true,
+      "rank": 1,
+      "returnedIds": [
+        "eternities-arcadia",
+        "accessibility-audit-and-remediation",
+        "browser-automation-state-and-verification",
+        "api-contract-design-and-evolution",
+        "eternities-hermes",
+        "eternities-atlas",
+        "imaginative-concept-development",
+        "interface-localization-and-bidirectionality",
+        "motion-design-and-animation-engineering",
+        "eternities-daedalus",
+        "eternities-phoenix",
+        "bounded-verified-object-ingestion",
+        "customer-support-triage-and-resolution",
+        "eternities-muse",
+        "git-change-integration-and-recovery",
+        "interpersonal-understanding-and-dialogue",
+        "memory-retention-and-recovery",
+        "product-discovery-and-prioritization",
+        "web-performance-optimization",
+        "confirmed-destructive-reconstruction"
+      ],
+      "clauses": [
+        "debug lost keyboard input in our browser game after tab restoration"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "00e4dfbb2da246447193547a10e51e0ebeb5a1b5069b9870d9ac0e8c02d7d6a2",
+      "v1Regression": false,
+      "matchesBaselineOutput": true,
+      "matchesV1CandidateOutput": true
+    },
+    {
+      "id": "affirmative-unfamiliar",
+      "origin": "unchanged-v1",
+      "query": "Investigate a frozen player camera in the game runtime.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": true,
+      "scored": true,
+      "actualArcadia": true,
+      "rank": 1,
+      "returnedIds": [
+        "eternities-arcadia",
+        "scene-continuity-and-coverage",
+        "eternities-hephaestus",
+        "imaginative-concept-development",
+        "ecological-sampling-and-detection-uncertainty",
+        "dependency-supply-chain-integrity",
+        "eternities-oracle",
+        "fp-ts-functional-refactoring"
+      ],
+      "clauses": [
+        "investigate a frozen player camera in the game runtime"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "10e6e916a4a2a77057a533b260a932848cfa823e750e308cef5865240026ea3c",
+      "v1Regression": false,
+      "matchesBaselineOutput": true,
+      "matchesV1CandidateOutput": true
+    },
+    {
+      "id": "refuse-fix",
+      "origin": "unchanged-v1",
+      "query": "Do not fix player-camera clipping in the WebGL game; draft a postponement message.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": false,
+      "scored": true,
+      "actualArcadia": false,
+      "rank": null,
+      "returnedIds": [
+        "eternities-logos",
+        "voice-style-calibration",
+        "scene-continuity-and-coverage",
+        "eternities-chorus",
+        "geospatial-coordinate-integrity",
+        "robotics-test-ladder",
+        "imaginative-concept-development",
+        "ecological-sampling-and-detection-uncertainty",
+        "sovereign-skill-refinery",
+        "narrative-structure-and-revision",
+        "eternities-atlas",
+        "eternities-orpheus",
+        "api-contract-design-and-evolution",
+        "eternities-daedalus",
+        "lazy-tabular-transformation-and-validation",
+        "schema-migration-and-backfill-safety",
+        "docx-package-redline-and-render-verification"
+      ],
+      "clauses": [
+        "draft a postponement message"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "3dd8d356da7daac3bd421830de9920148ea3a2db6190b02d6fd7ff419cfb8a16",
+      "v1Regression": false,
+      "matchesBaselineOutput": false,
+      "matchesV1CandidateOutput": true
+    },
+    {
+      "id": "refuse-debug",
+      "origin": "unchanged-v1",
+      "query": "Do not debug lost input in the browser game; prepare tomorrow's agenda.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": false,
+      "scored": true,
+      "actualArcadia": false,
+      "rank": null,
+      "returnedIds": [
+        "browser-automation-state-and-verification",
+        "eternities-hermes",
+        "api-contract-design-and-evolution",
+        "geospatial-coordinate-integrity",
+        "eternities-atlas",
+        "imaginative-concept-development",
+        "eternities-phoenix",
+        "interpersonal-understanding-and-dialogue",
+        "portable-speech-chunk-alignment",
+        "confirmed-destructive-reconstruction",
+        "agricultural-observation-and-trial",
+        "eternities-prometheus",
+        "eternities-daedalus",
+        "fp-ts-functional-refactoring",
+        "robotics-test-ladder",
+        "diagnostic-statistical-model-inference",
+        "structured-hiring-evaluation",
+        "eternities-architect",
+        "release-script-safety",
+        "structured-output-contracts"
+      ],
+      "clauses": [
+        "prepare tomorrow s agenda"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "060ac18e76635611cb4ca0feb2976d607a717c1607cfecfbc565a71e9d34dc9e",
+      "v1Regression": false,
+      "matchesBaselineOutput": false,
+      "matchesV1CandidateOutput": true
+    },
+    {
+      "id": "refuse-fixing",
+      "origin": "unchanged-v1",
+      "query": "Avoid fixing player collisions in our game; draft a handoff note.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": false,
+      "scored": true,
+      "actualArcadia": false,
+      "rank": null,
+      "returnedIds": [
+        "eternities-logos",
+        "voice-style-calibration",
+        "eternities-atlas",
+        "eternities-chorus",
+        "robotics-test-ladder",
+        "imaginative-concept-development",
+        "customer-support-triage-and-resolution",
+        "evidence-linked-learning-design",
+        "memory-retention-and-recovery",
+        "sovereign-skill-refinery",
+        "narrative-structure-and-revision",
+        "eternities-orpheus",
+        "api-contract-design-and-evolution",
+        "eternities-daedalus",
+        "lazy-tabular-transformation-and-validation",
+        "schema-migration-and-backfill-safety",
+        "docx-package-redline-and-render-verification"
+      ],
+      "clauses": [
+        "draft a handoff note"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "aed6830d70bc80ea09d05188148cfe53e5c1aab89497093567dfa3a61c50ccbf",
+      "v1Regression": false,
+      "matchesBaselineOutput": false,
+      "matchesV1CandidateOutput": true
+    },
+    {
+      "id": "refuse-debugging",
+      "origin": "unchanged-v1",
+      "query": "Avoid debugging the browser simulation loop; draft a handoff note.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": false,
+      "scored": true,
+      "actualArcadia": false,
+      "rank": null,
+      "returnedIds": [
+        "eternities-atlas",
+        "browser-automation-state-and-verification",
+        "eternities-logos",
+        "voice-style-calibration",
+        "robotics-test-ladder",
+        "eternities-hermes",
+        "eternities-daedalus",
+        "eternities-chorus",
+        "eternities-forge",
+        "customer-support-triage-and-resolution",
+        "evidence-linked-learning-design",
+        "memory-retention-and-recovery",
+        "sovereign-skill-refinery",
+        "narrative-structure-and-revision",
+        "physics-constrained-numerical-validation",
+        "eternities-phoenix",
+        "confirmed-destructive-reconstruction",
+        "eternities-orpheus",
+        "api-contract-design-and-evolution",
+        "agricultural-observation-and-trial"
+      ],
+      "clauses": [
+        "draft a handoff note"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "d2c53fdfaebb61b53983353c778aba1bdd8824dc8831cbfb624a1f0f4c1b17df",
+      "v1Regression": false,
+      "matchesBaselineOutput": false,
+      "matchesV1CandidateOutput": true
+    },
+    {
+      "id": "refuse-never",
+      "origin": "unchanged-v1",
+      "query": "Never fix the game camera during this task; summarize the schedule.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": false,
+      "scored": true,
+      "actualArcadia": false,
+      "rank": null,
+      "returnedIds": [
+        "scene-continuity-and-coverage",
+        "schema-migration-and-backfill-safety",
+        "imaginative-concept-development",
+        "ecological-sampling-and-detection-uncertainty"
+      ],
+      "clauses": [
+        "summarize the schedule"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "fd2c97a40a84296598a20f7ac7911ba50f06605ca7edf436e44bc12f67dad3ae",
+      "v1Regression": false,
+      "matchesBaselineOutput": false,
+      "matchesV1CandidateOutput": true
+    },
+    {
+      "id": "refuse-no-need",
+      "origin": "unchanged-v1",
+      "query": "No need to debug the game runtime; summarize the schedule.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": false,
+      "scored": true,
+      "actualArcadia": false,
+      "rank": null,
+      "returnedIds": [
+        "eternities-hephaestus",
+        "imaginative-concept-development",
+        "operating-cadence-and-decision-accountability",
+        "service-observability-and-slo-design",
+        "dependency-supply-chain-integrity",
+        "eternities-phoenix",
+        "fp-ts-functional-refactoring",
+        "confirmed-destructive-reconstruction",
+        "agricultural-observation-and-trial",
+        "eternities-prometheus",
+        "eternities-daedalus",
+        "robotics-test-ladder",
+        "diagnostic-statistical-model-inference",
+        "structured-hiring-evaluation",
+        "eternities-architect",
+        "release-script-safety",
+        "structured-output-contracts"
+      ],
+      "clauses": [
+        "summarize the schedule"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "51c6b51aafbb5762bafd13f33a9272b136aa2318e8be9ca5d3dd20f6f4a22ac8",
+      "v1Regression": false,
+      "matchesBaselineOutput": false,
+      "matchesV1CandidateOutput": true
+    },
+    {
+      "id": "refuse-curly-contraction",
+      "origin": "unchanged-v1",
+      "query": "Don’t fix the WebGL game camera; write the handoff.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": false,
+      "scored": true,
+      "actualArcadia": false,
+      "rank": null,
+      "returnedIds": [
+        "narrative-structure-and-revision",
+        "eternities-logos",
+        "scene-continuity-and-coverage",
+        "imaginative-concept-development",
+        "eternities-atlas",
+        "ecological-sampling-and-detection-uncertainty",
+        "api-contract-design-and-evolution",
+        "customer-support-triage-and-resolution",
+        "eternities-daedalus",
+        "evidence-linked-learning-design",
+        "memory-retention-and-recovery",
+        "voice-style-calibration",
+        "eternities-chorus",
+        "schema-migration-and-backfill-safety",
+        "eternities-orpheus",
+        "sovereign-skill-refinery",
+        "lazy-tabular-transformation-and-validation",
+        "docx-package-redline-and-render-verification"
+      ],
+      "clauses": [
+        "write the handoff"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "c46523b6741ea6156930ab53ca7c5c5d071e38bc239fdfb7a52538f7e67592ec",
+      "v1Regression": false,
+      "matchesBaselineOutput": false,
+      "matchesV1CandidateOutput": true
+    },
+    {
+      "id": "refuse-straight-contraction",
+      "origin": "unchanged-v1",
+      "query": "Don't debug player input in the game; write the handoff.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": false,
+      "scored": true,
+      "actualArcadia": false,
+      "rank": null,
+      "returnedIds": [
+        "eternities-atlas",
+        "narrative-structure-and-revision",
+        "eternities-logos",
+        "eternities-daedalus",
+        "imaginative-concept-development",
+        "api-contract-design-and-evolution",
+        "customer-support-triage-and-resolution",
+        "evidence-linked-learning-design",
+        "memory-retention-and-recovery",
+        "voice-style-calibration",
+        "eternities-phoenix",
+        "eternities-chorus",
+        "schema-migration-and-backfill-safety",
+        "confirmed-destructive-reconstruction",
+        "eternities-orpheus",
+        "sovereign-skill-refinery",
+        "agricultural-observation-and-trial",
+        "eternities-prometheus",
+        "lazy-tabular-transformation-and-validation",
+        "fp-ts-functional-refactoring"
+      ],
+      "clauses": [
+        "write the handoff"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "161a60a875cea8ae7f93dc2e30db1ece098e60bc6782cdc85db02eac0a1d13f3",
+      "v1Regression": false,
+      "matchesBaselineOutput": false,
+      "matchesV1CandidateOutput": true
+    },
+    {
+      "id": "mixed-semicolon",
+      "origin": "unchanged-v1",
+      "query": "Do not fix the camera; debug player input in the browser game.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": true,
+      "scored": true,
+      "actualArcadia": true,
+      "rank": 1,
+      "returnedIds": [
+        "eternities-arcadia",
+        "browser-automation-state-and-verification",
+        "eternities-hermes",
+        "scene-continuity-and-coverage",
+        "geospatial-coordinate-integrity",
+        "eternities-atlas",
+        "imaginative-concept-development",
+        "ecological-sampling-and-detection-uncertainty",
+        "eternities-phoenix",
+        "confirmed-destructive-reconstruction",
+        "agricultural-observation-and-trial",
+        "eternities-prometheus",
+        "eternities-daedalus",
+        "fp-ts-functional-refactoring",
+        "robotics-test-ladder",
+        "diagnostic-statistical-model-inference",
+        "structured-hiring-evaluation",
+        "eternities-architect",
+        "release-script-safety",
+        "structured-output-contracts"
+      ],
+      "clauses": [
+        "debug player input in the browser game"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "444f54e46423355056f18c1eaea157ef0da635ca6e65473ae4652b49746cd206",
+      "v1Regression": false,
+      "matchesBaselineOutput": true,
+      "matchesV1CandidateOutput": true
+    },
+    {
+      "id": "mixed-but",
+      "origin": "unchanged-v1",
+      "query": "Avoid debugging the camera, but fix player input in the browser game.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": true,
+      "scored": true,
+      "actualArcadia": true,
+      "rank": 1,
+      "returnedIds": [
+        "eternities-arcadia",
+        "browser-automation-state-and-verification",
+        "eternities-hermes",
+        "scene-continuity-and-coverage",
+        "eternities-atlas",
+        "imaginative-concept-development",
+        "ecological-sampling-and-detection-uncertainty",
+        "eternities-phoenix",
+        "confirmed-destructive-reconstruction",
+        "agricultural-observation-and-trial",
+        "eternities-prometheus",
+        "eternities-daedalus",
+        "fp-ts-functional-refactoring",
+        "robotics-test-ladder",
+        "diagnostic-statistical-model-inference",
+        "structured-hiring-evaluation",
+        "eternities-architect",
+        "release-script-safety",
+        "structured-output-contracts"
+      ],
+      "clauses": [
+        "fix player input in the browser game"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "69d243a768361e2ba74fbe3cc993a00b709f2c97a1032facfefd1a90bb6f0394",
+      "v1Regression": false,
+      "matchesBaselineOutput": true,
+      "matchesV1CandidateOutput": true
+    },
+    {
+      "id": "mixed-instead",
+      "origin": "unchanged-v1",
+      "query": "Do not fix camera clipping; instead debug the game simulation loop.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": true,
+      "scored": true,
+      "actualArcadia": true,
+      "rank": 1,
+      "returnedIds": [
+        "eternities-arcadia",
+        "robotics-test-ladder",
+        "scene-continuity-and-coverage",
+        "eternities-atlas",
+        "eternities-forge",
+        "geospatial-coordinate-integrity",
+        "imaginative-concept-development",
+        "eternities-daedalus",
+        "ecological-sampling-and-detection-uncertainty",
+        "physics-constrained-numerical-validation",
+        "eternities-phoenix",
+        "confirmed-destructive-reconstruction",
+        "agricultural-observation-and-trial",
+        "eternities-prometheus",
+        "fp-ts-functional-refactoring",
+        "diagnostic-statistical-model-inference",
+        "structured-hiring-evaluation",
+        "eternities-architect",
+        "release-script-safety",
+        "structured-output-contracts"
+      ],
+      "clauses": [
+        "debug the game simulation loop"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "2de0f3c7a97e51f4eebb3f057c5fd696ba95601c94f841c662866430f0909ebd",
+      "v1Regression": false,
+      "matchesBaselineOutput": true,
+      "matchesV1CandidateOutput": true
+    },
+    {
+      "id": "mixed-before",
+      "origin": "unchanged-v1",
+      "query": "Debug player input in the browser game, but do not fix camera clipping.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": true,
+      "scored": true,
+      "actualArcadia": true,
+      "rank": 1,
+      "returnedIds": [
+        "eternities-arcadia",
+        "browser-automation-state-and-verification",
+        "eternities-hermes",
+        "scene-continuity-and-coverage",
+        "geospatial-coordinate-integrity",
+        "eternities-atlas",
+        "imaginative-concept-development",
+        "ecological-sampling-and-detection-uncertainty",
+        "eternities-phoenix",
+        "confirmed-destructive-reconstruction",
+        "agricultural-observation-and-trial",
+        "eternities-prometheus",
+        "eternities-daedalus",
+        "fp-ts-functional-refactoring",
+        "robotics-test-ladder",
+        "diagnostic-statistical-model-inference",
+        "structured-hiring-evaluation",
+        "eternities-architect",
+        "release-script-safety",
+        "structured-output-contracts"
+      ],
+      "clauses": [
+        "debug player input in the browser game,"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "98c96c4db59453e95168058e8aec842bed53ba98f4f98781f0ccfdb138aca3bb",
+      "v1Regression": false,
+      "matchesBaselineOutput": true,
+      "matchesV1CandidateOutput": true
+    },
+    {
+      "id": "mixed-sentence",
+      "origin": "unchanged-v1",
+      "query": "Do not debug player input. Fix the game camera clipping.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": true,
+      "scored": true,
+      "actualArcadia": true,
+      "rank": 1,
+      "returnedIds": [
+        "eternities-arcadia",
+        "scene-continuity-and-coverage",
+        "geospatial-coordinate-integrity",
+        "eternities-atlas",
+        "imaginative-concept-development",
+        "ecological-sampling-and-detection-uncertainty",
+        "eternities-phoenix",
+        "confirmed-destructive-reconstruction",
+        "agricultural-observation-and-trial",
+        "eternities-prometheus",
+        "eternities-daedalus",
+        "fp-ts-functional-refactoring",
+        "robotics-test-ladder",
+        "diagnostic-statistical-model-inference",
+        "structured-hiring-evaluation",
+        "eternities-architect",
+        "release-script-safety",
+        "structured-output-contracts"
+      ],
+      "clauses": [
+        "fix the game camera clipping"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "bf51e300346c0750ebc065baee3c49c1e177eef2128634b7af02d721b5fc00ea",
+      "v1Regression": false,
+      "matchesBaselineOutput": true,
+      "matchesV1CandidateOutput": true
+    },
+    {
+      "id": "quoted-double",
+      "origin": "unchanged-v1",
+      "query": "The ticket says \"debug player input in the browser game\"; write a postponement notice.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": false,
+      "scored": true,
+      "actualArcadia": false,
+      "rank": null,
+      "returnedIds": [
+        "browser-automation-state-and-verification",
+        "narrative-structure-and-revision",
+        "eternities-logos",
+        "eternities-chorus",
+        "eternities-hermes",
+        "customer-support-triage-and-resolution",
+        "eternities-atlas",
+        "eternities-daedalus",
+        "imaginative-concept-development",
+        "vendor-evaluation-and-exit-planning",
+        "api-contract-design-and-evolution",
+        "voice-style-calibration",
+        "eternities-phoenix",
+        "schema-migration-and-backfill-safety",
+        "confirmed-destructive-reconstruction",
+        "eternities-orpheus",
+        "sovereign-skill-refinery",
+        "agricultural-observation-and-trial",
+        "eternities-prometheus",
+        "lazy-tabular-transformation-and-validation"
+      ],
+      "clauses": [
+        "the ticket says",
+        "write a postponement notice"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "46914afd4784284530d453b8efe383655b4b908079af7517b3f3b917bf965492",
+      "v1Regression": false,
+      "matchesBaselineOutput": true,
+      "matchesV1CandidateOutput": true
+    },
+    {
+      "id": "quoted-curly",
+      "origin": "unchanged-v1",
+      "query": "The note says “fix the game camera”; write a scheduling note.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": false,
+      "scored": true,
+      "actualArcadia": false,
+      "rank": null,
+      "returnedIds": [
+        "narrative-structure-and-revision",
+        "eternities-logos",
+        "scene-continuity-and-coverage",
+        "imaginative-concept-development",
+        "ecological-sampling-and-detection-uncertainty",
+        "api-contract-design-and-evolution",
+        "eternities-daedalus",
+        "voice-style-calibration",
+        "eternities-chorus",
+        "schema-migration-and-backfill-safety",
+        "eternities-orpheus",
+        "sovereign-skill-refinery",
+        "lazy-tabular-transformation-and-validation",
+        "eternities-atlas",
+        "docx-package-redline-and-render-verification"
+      ],
+      "clauses": [
+        "the note says",
+        "write a scheduling note"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "b21fcb1503bc573dc580d44a6795fe47a6200b64162bee3ea8f20a85dd1b4c37",
+      "v1Regression": false,
+      "matchesBaselineOutput": true,
+      "matchesV1CandidateOutput": true
+    },
+    {
+      "id": "quoted-single",
+      "origin": "unchanged-v1",
+      "query": "The note says 'debug the browser game'; write a scheduling note.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": false,
+      "scored": true,
+      "actualArcadia": false,
+      "rank": null,
+      "returnedIds": [
+        "browser-automation-state-and-verification",
+        "narrative-structure-and-revision",
+        "eternities-logos",
+        "eternities-hermes",
+        "eternities-daedalus",
+        "imaginative-concept-development",
+        "api-contract-design-and-evolution",
+        "voice-style-calibration",
+        "eternities-phoenix",
+        "eternities-chorus",
+        "schema-migration-and-backfill-safety",
+        "confirmed-destructive-reconstruction",
+        "eternities-orpheus",
+        "sovereign-skill-refinery",
+        "agricultural-observation-and-trial",
+        "eternities-prometheus",
+        "lazy-tabular-transformation-and-validation",
+        "fp-ts-functional-refactoring",
+        "robotics-test-ladder",
+        "eternities-atlas"
+      ],
+      "clauses": [
+        "the note says",
+        "write a scheduling note"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "2a32d78e50d7e9638d0406dcc6128e85ac8ba73508e6f4c0ed843c57e5c2bdb2",
+      "v1Regression": false,
+      "matchesBaselineOutput": true,
+      "matchesV1CandidateOutput": true
+    },
+    {
+      "id": "quoted-backtick",
+      "origin": "unchanged-v1",
+      "query": "The label is `fix player input in the game`; write a scheduling note.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": false,
+      "scored": true,
+      "actualArcadia": false,
+      "rank": null,
+      "returnedIds": [
+        "narrative-structure-and-revision",
+        "eternities-logos",
+        "service-observability-and-slo-design",
+        "eternities-atlas",
+        "imaginative-concept-development",
+        "api-contract-design-and-evolution",
+        "eternities-daedalus",
+        "voice-style-calibration",
+        "eternities-chorus",
+        "schema-migration-and-backfill-safety",
+        "eternities-orpheus",
+        "sovereign-skill-refinery",
+        "lazy-tabular-transformation-and-validation",
+        "docx-package-redline-and-render-verification"
+      ],
+      "clauses": [
+        "the label is",
+        "write a scheduling note"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "c0c82943f43f7ef3bb73092ab4b163852b3fbc27e535c0370a8bceebb3d559f3",
+      "v1Regression": false,
+      "matchesBaselineOutput": true,
+      "matchesV1CandidateOutput": true
+    },
+    {
+      "id": "quoted-refusal-live",
+      "origin": "unchanged-v1",
+      "query": "The old note says \"do not debug the game\"; fix player-camera clipping in our WebGL game.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": true,
+      "scored": true,
+      "actualArcadia": true,
+      "rank": 1,
+      "returnedIds": [
+        "eternities-arcadia",
+        "scene-continuity-and-coverage",
+        "geospatial-coordinate-integrity",
+        "imaginative-concept-development",
+        "ecological-sampling-and-detection-uncertainty",
+        "eternities-phoenix",
+        "confirmed-destructive-reconstruction",
+        "agricultural-observation-and-trial",
+        "eternities-prometheus",
+        "eternities-daedalus",
+        "fp-ts-functional-refactoring",
+        "robotics-test-ladder",
+        "diagnostic-statistical-model-inference",
+        "structured-hiring-evaluation",
+        "eternities-architect",
+        "release-script-safety",
+        "structured-output-contracts"
+      ],
+      "clauses": [
+        "the old note says",
+        "fix player-camera clipping in our webgl game"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "9193f061557eda75365a57f5fdcd2d06c4d4e65d975f6b076ae5a46025c2682e",
+      "v1Regression": false,
+      "matchesBaselineOutput": true,
+      "matchesV1CandidateOutput": true
+    },
+    {
+      "id": "host-no-need",
+      "origin": "unchanged-v1",
+      "query": "Debug player input in the WebGL game.",
+      "options": {
+        "limit": 20,
+        "need": "none"
+      },
+      "expectedArcadia": false,
+      "scored": true,
+      "actualArcadia": false,
+      "rank": null,
+      "returnedIds": [],
+      "clauses": [
+        "debug player input in the webgl game"
+      ],
+      "selection": {
+        "state": "abstain",
+        "basis": "host-supplied-no-need"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "696bfca8b5f01cbb8bc1ae98839399fa03716dce8946276ca93e46f58278f4c9",
+      "v1Regression": false,
+      "matchesBaselineOutput": true,
+      "matchesV1CandidateOutput": true
+    },
+    {
+      "id": "limited-after-refusal",
+      "origin": "unchanged-v1",
+      "query": "Do not fix the game camera. Uppercase the literal text \"launch soon\". Give only the text.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": false,
+      "scored": true,
+      "actualArcadia": false,
+      "rank": null,
+      "returnedIds": [],
+      "clauses": [
+        "uppercase the literal text",
+        "give only the text"
+      ],
+      "selection": {
+        "state": "abstain",
+        "basis": "bounded-lexical-exclusion"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "bc80711f8db6d8042b4989d47d6d050e63a8981ea5fb58c2070c699b716a9555",
+      "v1Regression": false,
+      "matchesBaselineOutput": true,
+      "matchesV1CandidateOutput": true
+    },
+    {
+      "id": "ordinary-affirmative",
+      "origin": "unchanged-v1",
+      "query": "Uppercase the literal text \"fix player input in the game\". Give only the text.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": false,
+      "scored": true,
+      "actualArcadia": false,
+      "rank": null,
+      "returnedIds": [],
+      "clauses": [
+        "uppercase the literal text",
+        "give only the text"
+      ],
+      "selection": {
+        "state": "abstain",
+        "basis": "bounded-lexical-exclusion"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "426aecbd655f5e20ad65dca070fa99b25d7bd34f909e4e30a907255c9d3b9782",
+      "v1Regression": false,
+      "matchesBaselineOutput": true,
+      "matchesV1CandidateOutput": true
+    },
+    {
+      "id": "fixate-prefix",
+      "origin": "unchanged-v1",
+      "query": "Do not fixate on naming while you debug player input in the browser game.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": true,
+      "scored": true,
+      "actualArcadia": true,
+      "rank": 1,
+      "returnedIds": [
+        "eternities-arcadia",
+        "browser-automation-state-and-verification",
+        "eternities-hermes",
+        "geospatial-coordinate-integrity",
+        "eternities-atlas",
+        "imaginative-concept-development",
+        "eternities-phoenix",
+        "api-rate-limit-recovery",
+        "interpersonal-understanding-and-dialogue",
+        "knowledge-base-architecture-and-maintenance",
+        "service-observability-and-slo-design",
+        "fp-ts-functional-refactoring",
+        "confirmed-destructive-reconstruction",
+        "approval-bound-private-session-mining",
+        "formula-preserving-workbook-engineering",
+        "git-change-integration-and-recovery",
+        "jurisdiction-aware-contract-review",
+        "voice-style-calibration",
+        "agricultural-observation-and-trial",
+        "eternities-prometheus"
+      ],
+      "clauses": [
+        "do not fixate on naming while you debug player input in the browser game"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "c06d18c4b16069085121f18657d9964a9ed65212164ed7768dd80c895627cc97",
+      "v1Regression": true,
+      "matchesBaselineOutput": true,
+      "matchesV1CandidateOutput": false
+    },
+    {
+      "id": "fixating-prefix",
+      "origin": "unchanged-v1",
+      "query": "Avoid fixating on shader naming while you debug our browser game.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": true,
+      "scored": true,
+      "actualArcadia": true,
+      "rank": 1,
+      "returnedIds": [
+        "eternities-arcadia",
+        "browser-automation-state-and-verification",
+        "eternities-hermes",
+        "imaginative-concept-development",
+        "eternities-phoenix",
+        "api-rate-limit-recovery",
+        "interpersonal-understanding-and-dialogue",
+        "knowledge-base-architecture-and-maintenance",
+        "service-observability-and-slo-design",
+        "fp-ts-functional-refactoring",
+        "confirmed-destructive-reconstruction",
+        "approval-bound-private-session-mining",
+        "formula-preserving-workbook-engineering",
+        "git-change-integration-and-recovery",
+        "jurisdiction-aware-contract-review",
+        "voice-style-calibration",
+        "agricultural-observation-and-trial",
+        "eternities-prometheus",
+        "eternities-daedalus",
+        "robotics-test-ladder"
+      ],
+      "clauses": [
+        "avoid fixating on shader naming while you debug our browser game"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "e5bcebca00a62f658dbd05f521fecc3f4e340c64c8b1f20148eb2827604fe030",
+      "v1Regression": true,
+      "matchesBaselineOutput": true,
+      "matchesV1CandidateOutput": false
+    },
+    {
+      "id": "fixed-adjective",
+      "origin": "unchanged-v1",
+      "query": "Avoid fixed camera angles when you design our browser game.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": true,
+      "scored": true,
+      "actualArcadia": true,
+      "rank": 1,
+      "returnedIds": [
+        "eternities-arcadia",
+        "browser-automation-state-and-verification",
+        "scene-continuity-and-coverage",
+        "eternities-hermes",
+        "imaginative-concept-development",
+        "api-contract-design-and-evolution",
+        "ecological-sampling-and-detection-uncertainty",
+        "bounded-parametric-design-iteration",
+        "columnar-ingestion-rollup-and-query-layout-design",
+        "service-observability-and-slo-design",
+        "eternities-muse",
+        "eternities-architect",
+        "eternities-athena",
+        "eternities-atlas",
+        "eternities-mnemosyne",
+        "diagnostic-statistical-model-inference",
+        "eternities-beacon",
+        "eternities-daedalus",
+        "eternities-herald",
+        "eternities-prometheus"
+      ],
+      "clauses": [
+        "avoid fixed camera angles when you design our browser game"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "bee4a5db40d61fc5a8d64df9c23acba4bd557e257d58ea0421f22a5333e6c452",
+      "v1Regression": true,
+      "matchesBaselineOutput": true,
+      "matchesV1CandidateOutput": false
+    },
+    {
+      "id": "fixtures-noun",
+      "origin": "unchanged-v1",
+      "query": "Avoid fixtures from the old prototype when you build the browser game.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": true,
+      "scored": true,
+      "actualArcadia": true,
+      "rank": 1,
+      "returnedIds": [
+        "eternities-arcadia",
+        "browser-automation-state-and-verification",
+        "eternities-hermes",
+        "eternities-daedalus",
+        "imaginative-concept-development",
+        "dependency-supply-chain-integrity",
+        "product-discovery-and-prioritization",
+        "api-rate-limit-recovery",
+        "cashflow-forecast-scenario-integrity",
+        "eternities-atlas",
+        "lazy-tabular-transformation-and-validation",
+        "motion-design-and-animation-engineering",
+        "procedural-world-generation-and-validation",
+        "retrieval-grounded-answering",
+        "robotics-test-ladder",
+        "accessibility-audit-and-remediation",
+        "api-contract-design-and-evolution",
+        "app-store-discovery-experiments",
+        "bounded-parametric-design-iteration",
+        "bounded-service-shutdown"
+      ],
+      "clauses": [
+        "avoid fixtures from the old prototype when you build the browser game"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "d2382efa8c6e5bf19aea3669761605af2aa2e9a355ee271738a5a02915ed5a93",
+      "v1Regression": true,
+      "matchesBaselineOutput": true,
+      "matchesV1CandidateOutput": false
+    },
+    {
+      "id": "debugger-noun",
+      "origin": "unchanged-v1",
+      "query": "Avoid debugger breakpoints when you test the game simulation loop.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": true,
+      "scored": true,
+      "actualArcadia": true,
+      "rank": 2,
+      "returnedIds": [
+        "robotics-test-ladder",
+        "eternities-arcadia",
+        "eternities-daedalus",
+        "native-mobile-interaction-testing",
+        "eternities-atlas",
+        "eternities-forge",
+        "eternities-hermes",
+        "imaginative-concept-development",
+        "physics-constrained-numerical-validation",
+        "agricultural-observation-and-trial",
+        "infrastructure-plan-apply-isolation",
+        "financial-statement-reconciliation",
+        "retrieval-grounded-answering",
+        "venture-falsification-and-planning",
+        "lazy-tabular-transformation-and-validation",
+        "fp-ts-functional-refactoring",
+        "schema-migration-and-backfill-safety",
+        "structured-output-contracts",
+        "symbolic-mathematics-python",
+        "eternities-agora"
+      ],
+      "clauses": [
+        "avoid debugger breakpoints when you test the game simulation loop"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "d8cc3680b12f965756d77b60aaef0bbf77b0f7a5a922c8a5ff71d25c513cb8fd",
+      "v1Regression": true,
+      "matchesBaselineOutput": true,
+      "matchesV1CandidateOutput": false
+    },
+    {
+      "id": "debugger-prefix",
+      "origin": "unchanged-v1",
+      "query": "Do not debugprint every frame when you build the browser game.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": true,
+      "scored": true,
+      "actualArcadia": true,
+      "rank": 1,
+      "returnedIds": [
+        "eternities-arcadia",
+        "browser-automation-state-and-verification",
+        "eternities-hermes",
+        "geospatial-coordinate-integrity",
+        "imaginative-concept-development",
+        "dependency-supply-chain-integrity",
+        "product-discovery-and-prioritization",
+        "api-rate-limit-recovery",
+        "cashflow-forecast-scenario-integrity",
+        "eternities-atlas",
+        "lazy-tabular-transformation-and-validation",
+        "motion-design-and-animation-engineering",
+        "procedural-world-generation-and-validation",
+        "retrieval-grounded-answering",
+        "robotics-test-ladder",
+        "accessibility-audit-and-remediation",
+        "api-contract-design-and-evolution",
+        "app-store-discovery-experiments",
+        "bounded-parametric-design-iteration",
+        "bounded-service-shutdown"
+      ],
+      "clauses": [
+        "do not debugprint every frame when you build the browser game"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "91173af1d01ed12b487f57591130c57dbc80a921fcf618036dc0738f08df7306",
+      "v1Regression": true,
+      "matchesBaselineOutput": true,
+      "matchesV1CandidateOutput": false
+    },
+    {
+      "id": "and-separator-limit",
+      "origin": "unchanged-v1",
+      "query": "Do not fix the camera and debug the browser game simulation loop.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": null,
+      "scored": false,
+      "actualArcadia": false,
+      "rank": null,
+      "returnedIds": [
+        "browser-automation-state-and-verification",
+        "robotics-test-ladder",
+        "eternities-hermes",
+        "scene-continuity-and-coverage",
+        "eternities-atlas",
+        "eternities-forge",
+        "geospatial-coordinate-integrity",
+        "imaginative-concept-development",
+        "eternities-daedalus",
+        "ecological-sampling-and-detection-uncertainty",
+        "physics-constrained-numerical-validation",
+        "eternities-phoenix",
+        "confirmed-destructive-reconstruction",
+        "agricultural-observation-and-trial",
+        "eternities-prometheus",
+        "fp-ts-functional-refactoring",
+        "diagnostic-statistical-model-inference",
+        "structured-hiring-evaluation",
+        "eternities-architect",
+        "release-script-safety"
+      ],
+      "clauses": [],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "2b3a893eaa420476ff25bbf40d6afeb89f40463593a607ce8a2fd93b05823a21",
+      "v1Regression": false,
+      "matchesBaselineOutput": false,
+      "matchesV1CandidateOutput": true
+    },
+    {
+      "id": "unsupported-not-to",
+      "origin": "unchanged-v1",
+      "query": "I asked you not to debug the game simulation loop; write a postponement note.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": null,
+      "scored": false,
+      "actualArcadia": true,
+      "rank": 1,
+      "returnedIds": [
+        "eternities-arcadia",
+        "eternities-daedalus",
+        "narrative-structure-and-revision",
+        "eternities-logos",
+        "robotics-test-ladder",
+        "eternities-atlas",
+        "eternities-forge",
+        "geospatial-coordinate-integrity",
+        "imaginative-concept-development",
+        "api-contract-design-and-evolution",
+        "physics-constrained-numerical-validation",
+        "voice-style-calibration",
+        "eternities-phoenix",
+        "eternities-chorus",
+        "schema-migration-and-backfill-safety",
+        "confirmed-destructive-reconstruction",
+        "eternities-orpheus",
+        "sovereign-skill-refinery",
+        "agricultural-observation-and-trial",
+        "eternities-prometheus"
+      ],
+      "clauses": [
+        "i asked you not to debug the game simulation loop",
+        "write a postponement note"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "3eeff51549ca881b50878e988342bc457805610b917e42dd4f137fb8b9592e19",
+      "v1Regression": false,
+      "matchesBaselineOutput": true,
+      "matchesV1CandidateOutput": true
+    },
+    {
+      "id": "negated-avoid",
+      "origin": "unchanged-v1",
+      "query": "Do not avoid debugging the game simulation loop.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": null,
+      "scored": false,
+      "actualArcadia": false,
+      "rank": null,
+      "returnedIds": [
+        "robotics-test-ladder",
+        "eternities-atlas",
+        "eternities-forge",
+        "geospatial-coordinate-integrity",
+        "imaginative-concept-development",
+        "eternities-daedalus",
+        "physics-constrained-numerical-validation",
+        "eternities-phoenix",
+        "confirmed-destructive-reconstruction",
+        "agricultural-observation-and-trial",
+        "eternities-prometheus",
+        "fp-ts-functional-refactoring",
+        "diagnostic-statistical-model-inference",
+        "structured-hiring-evaluation",
+        "eternities-architect",
+        "release-script-safety",
+        "structured-output-contracts"
+      ],
+      "clauses": [
+        "do not"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "050680d0806250f503038485cff2a1ef3db6b2fd372c095490d8d28cccea37d6",
+      "v1Regression": false,
+      "matchesBaselineOutput": false,
+      "matchesV1CandidateOutput": true
+    },
+    {
+      "id": "uppercase-fix",
+      "origin": "v2-additional",
+      "query": "DO NOT FIX the WebGL player camera; write a handoff note.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": false,
+      "scored": true,
+      "actualArcadia": false,
+      "rank": null,
+      "returnedIds": [
+        "narrative-structure-and-revision",
+        "eternities-logos",
+        "scene-continuity-and-coverage",
+        "geospatial-coordinate-integrity",
+        "eternities-atlas",
+        "ecological-sampling-and-detection-uncertainty",
+        "api-contract-design-and-evolution",
+        "customer-support-triage-and-resolution",
+        "eternities-daedalus",
+        "evidence-linked-learning-design",
+        "memory-retention-and-recovery",
+        "voice-style-calibration",
+        "eternities-chorus",
+        "schema-migration-and-backfill-safety",
+        "eternities-orpheus",
+        "sovereign-skill-refinery",
+        "lazy-tabular-transformation-and-validation",
+        "docx-package-redline-and-render-verification"
+      ],
+      "clauses": [
+        "write a handoff note"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "7dcd22adf25edaeba326bf3957c81b4849f99274668554612854914aa575e963"
+    },
+    {
+      "id": "curly-uppercase-debug",
+      "origin": "v2-additional",
+      "query": "Don’t   DEBUG the game simulation loop; write a handoff note.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": false,
+      "scored": true,
+      "actualArcadia": false,
+      "rank": null,
+      "returnedIds": [
+        "eternities-atlas",
+        "eternities-daedalus",
+        "narrative-structure-and-revision",
+        "eternities-logos",
+        "robotics-test-ladder",
+        "eternities-forge",
+        "imaginative-concept-development",
+        "api-contract-design-and-evolution",
+        "customer-support-triage-and-resolution",
+        "evidence-linked-learning-design",
+        "memory-retention-and-recovery",
+        "physics-constrained-numerical-validation",
+        "voice-style-calibration",
+        "eternities-phoenix",
+        "eternities-chorus",
+        "schema-migration-and-backfill-safety",
+        "confirmed-destructive-reconstruction",
+        "eternities-orpheus",
+        "sovereign-skill-refinery",
+        "agricultural-observation-and-trial"
+      ],
+      "clauses": [
+        "write a handoff note"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "5557ac341c4c5d5124f2d4cbe71d8986fac57ad9adce4a75df31ad1308a2dd13"
+    },
+    {
+      "id": "uppercase-fixing",
+      "origin": "v2-additional",
+      "query": "Avoid FIXING the browser game input; prepare a scheduling note.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": false,
+      "scored": true,
+      "actualArcadia": false,
+      "rank": null,
+      "returnedIds": [
+        "browser-automation-state-and-verification",
+        "eternities-hermes",
+        "eternities-atlas",
+        "imaginative-concept-development",
+        "interpersonal-understanding-and-dialogue",
+        "portable-speech-chunk-alignment"
+      ],
+      "clauses": [
+        "prepare a scheduling note"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "aacb64610965f1bb672f39fdbfb99d7b63235ddf48807809a29f57d8803b7cc0"
+    },
+    {
+      "id": "uppercase-debugging",
+      "origin": "v2-additional",
+      "query": "Avoid DEBUGGING the browser game input; prepare a scheduling note.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": false,
+      "scored": true,
+      "actualArcadia": false,
+      "rank": null,
+      "returnedIds": [
+        "browser-automation-state-and-verification",
+        "eternities-hermes",
+        "eternities-atlas",
+        "imaginative-concept-development",
+        "eternities-phoenix",
+        "interpersonal-understanding-and-dialogue",
+        "portable-speech-chunk-alignment",
+        "confirmed-destructive-reconstruction",
+        "agricultural-observation-and-trial",
+        "eternities-prometheus",
+        "eternities-daedalus",
+        "fp-ts-functional-refactoring",
+        "robotics-test-ladder",
+        "diagnostic-statistical-model-inference",
+        "structured-hiring-evaluation",
+        "eternities-architect",
+        "release-script-safety",
+        "structured-output-contracts"
+      ],
+      "clauses": [
+        "prepare a scheduling note"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "3d4c8f97f949b9ba28bff713d6fffaa6517ebd07dc34ed09a693da12db0e91a1"
+    },
+    {
+      "id": "gerund-before-contrast",
+      "origin": "v2-additional",
+      "query": "Avoid fixing the camera, but debug player input in our WebGL game.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": true,
+      "scored": true,
+      "actualArcadia": true,
+      "rank": 1,
+      "returnedIds": [
+        "eternities-arcadia",
+        "scene-continuity-and-coverage",
+        "eternities-atlas",
+        "imaginative-concept-development",
+        "ecological-sampling-and-detection-uncertainty",
+        "eternities-phoenix",
+        "confirmed-destructive-reconstruction",
+        "agricultural-observation-and-trial",
+        "eternities-prometheus",
+        "eternities-daedalus",
+        "fp-ts-functional-refactoring",
+        "robotics-test-ladder",
+        "diagnostic-statistical-model-inference",
+        "structured-hiring-evaluation",
+        "eternities-architect",
+        "release-script-safety",
+        "structured-output-contracts"
+      ],
+      "clauses": [
+        "debug player input in our webgl game"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "66081eccaaf7cbca51f2cf0b00a91f35b0158c4dd4c5e99c1c03078807e92c3b"
+    },
+    {
+      "id": "gerund-after-live",
+      "origin": "v2-additional",
+      "query": "Fix player input in the browser game; avoid debugging camera clipping.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": true,
+      "scored": true,
+      "actualArcadia": true,
+      "rank": 1,
+      "returnedIds": [
+        "eternities-arcadia",
+        "browser-automation-state-and-verification",
+        "eternities-hermes",
+        "scene-continuity-and-coverage",
+        "eternities-atlas",
+        "imaginative-concept-development",
+        "ecological-sampling-and-detection-uncertainty",
+        "eternities-phoenix",
+        "confirmed-destructive-reconstruction",
+        "agricultural-observation-and-trial",
+        "eternities-prometheus",
+        "eternities-daedalus",
+        "fp-ts-functional-refactoring",
+        "robotics-test-ladder",
+        "diagnostic-statistical-model-inference",
+        "structured-hiring-evaluation",
+        "eternities-architect",
+        "release-script-safety",
+        "structured-output-contracts"
+      ],
+      "clauses": [
+        "fix player input in the browser game"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "967a821fad469b2392de09cb1444c8b9057e8b3efe91a7686c559d1a9b2a4cbb"
+    },
+    {
+      "id": "fixation-word-boundary",
+      "origin": "v2-additional",
+      "query": "Avoid fixation on one shader while you debug our browser game.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": true,
+      "scored": true,
+      "actualArcadia": true,
+      "rank": 1,
+      "returnedIds": [
+        "eternities-arcadia",
+        "browser-automation-state-and-verification",
+        "imaginative-concept-development",
+        "eternities-hermes",
+        "app-store-discovery-experiments",
+        "bounded-parametric-design-iteration",
+        "eternities-phoenix",
+        "api-rate-limit-recovery",
+        "interpersonal-understanding-and-dialogue",
+        "knowledge-base-architecture-and-maintenance",
+        "service-observability-and-slo-design",
+        "fp-ts-functional-refactoring",
+        "interatomic-model-validation",
+        "web-performance-optimization",
+        "confirmed-destructive-reconstruction",
+        "approval-bound-private-session-mining",
+        "formula-preserving-workbook-engineering",
+        "git-change-integration-and-recovery",
+        "jurisdiction-aware-contract-review",
+        "voice-style-calibration"
+      ],
+      "clauses": [
+        "avoid fixation on one shader while you debug our browser game"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "5737ea864ff900833fe45c70c2ad5a99e826c54b85fbb427965fefb4bcde0959"
+    },
+    {
+      "id": "debugging-suffix-boundary",
+      "origin": "v2-additional",
+      "query": "Avoid debuggingTools when you debug our browser game.",
+      "options": {
+        "limit": 20
+      },
+      "expectedArcadia": true,
+      "scored": true,
+      "actualArcadia": true,
+      "rank": 1,
+      "returnedIds": [
+        "eternities-arcadia",
+        "browser-automation-state-and-verification",
+        "eternities-hermes",
+        "imaginative-concept-development",
+        "eternities-phoenix",
+        "confirmed-destructive-reconstruction",
+        "agricultural-observation-and-trial",
+        "eternities-prometheus",
+        "eternities-daedalus",
+        "fp-ts-functional-refactoring",
+        "robotics-test-ladder",
+        "diagnostic-statistical-model-inference",
+        "structured-hiring-evaluation",
+        "eternities-architect",
+        "release-script-safety",
+        "structured-output-contracts"
+      ],
+      "clauses": [
+        "avoid debuggingtools when you debug our browser game"
+      ],
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      },
+      "authority": "none",
+      "activation": "none",
+      "completeOutputSha256": "bd2afe2c95c89216ae1eace141b321f3044c40656e39ce65cb7f1c1b40c3a48f"
+    }
+  ]
+}
+

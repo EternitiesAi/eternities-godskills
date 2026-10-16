@@ -2,7 +2,7 @@
 // Balanced, nonnested inline quotes are data. Apostrophes within words survive.
 // This does not parse arbitrary negation, historical context or quotation scope.
 const quoted=/“[^”]*”|‘[^’]*’|(?<![\p{L}\p{N}])'(?:\\.|[^'\\])*'(?![\p{L}\p{N}])|"(?:\\.|[^"\\])*"|`[^`]*`/gu;
-const refusedAction=/\b(?:do not|don t|never|no need to|avoid)\s+(?:build\w*|implement\w*|develop\w*|design\w*|audit\w*|migrat\w*|evaluat\w*|test\w*|verif\w*|repair\w*|compar\w*|qualif\w*|integrat\w*|import\w*|render\w*|encod\w*|export\w*|review\w*|calculat\w*|count\w*|lowercase|uppercase|capitalize)\b/u;
+const refusedAction=/\b(?:do not|don t|never|no need to|avoid)\s+(?:build\w*|implement\w*|develop\w*|design\w*|audit\w*|migrat\w*|evaluat\w*|test\w*|verif\w*|repair\w*|fix(?:ing)?|debug(?:ging)?|compar\w*|qualif\w*|integrat\w*|import\w*|render\w*|encod\w*|export\w*|review\w*|calculat\w*|count\w*|lowercase|uppercase|capitalize)\b/u;
 
 export function affirmativeRequestClauses(query){
   return query.replace(quoted,' ')

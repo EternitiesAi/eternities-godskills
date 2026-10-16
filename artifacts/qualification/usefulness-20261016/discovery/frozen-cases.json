@@ -1,0 +1,168 @@
+{
+  "schema": "godskills-usefulness-discovery-cases-v1",
+  "baselineCommit": "7c7f2ac98a282ccb2e59c3a4c0424802a4dd72b5",
+  "portableReleaseId": "368d5a716bd3b8069ba5ba858f8db8f7fba8b19c36aa373fc62c19d8a2b55efb",
+  "status": "development challenges frozen before probes and runtime edits; not independent held-out evaluation",
+  "cases": [
+    {
+      "id": "positive-01",
+      "kind": "positive",
+      "query": "Screen these prospects for our service proposal using dated account evidence; expose partial assessment scores and unresolved identities before recommending a client shortlist.",
+      "options": {"limit": 3},
+      "expected": {"includes": ["eternities-agora"]},
+      "basis": "product/skills/eternities-agora/SKILL.md: prospect assessment and reversible identity reconciliation"
+    },
+    {
+      "id": "positive-02",
+      "kind": "positive",
+      "query": "Our founder approval queue keeps aging while teams start more work. Design intake capacity and WIP limits, decision rights, and an exception owner with an expiry.",
+      "options": {"limit": 3},
+      "expected": {"includes": ["operating-cadence-and-decision-accountability"]},
+      "basis": "product/skills/operating-cadence-and-decision-accountability/SKILL.md: limiting handoff, effective capacity, intake policy and accountable exceptions"
+    },
+    {
+      "id": "positive-03",
+      "kind": "positive",
+      "query": "Prepare learner practice on choosing a denominator: include contrasting worked examples, a misconception check, feedback for another attempt, and a fresh transfer task.",
+      "options": {"limit": 3},
+      "expected": {"includes": ["evidence-linked-learning-design"]},
+      "basis": "product/skills/evidence-linked-learning-design/SKILL.md and references/practice-and-transfer-v1.md: actual practice, feedback and changed-context transfer"
+    },
+    {
+      "id": "positive-04",
+      "kind": "positive",
+      "query": "Fix the WebGL shader in our browser game so the interactive crystal reads correctly from the gameplay camera; check GPU resource ownership after scene teardown.",
+      "options": {"limit": 3},
+      "expected": {"includes": ["eternities-arcadia"]},
+      "basis": "product/skills/eternities-arcadia/SKILL.md: runtime, camera-readable assets and browser lifecycle"
+    },
+    {
+      "id": "positive-05",
+      "kind": "positive",
+      "query": "Make the drawer reverse smoothly when tapped twice, retarget from its current position and velocity after a resize, and preserve keyboard focus with reduced motion.",
+      "options": {"limit": 3},
+      "expected": {"includes": ["motion-design-and-animation-engineering"]},
+      "basis": "product/skills/motion-design-and-animation-engineering/SKILL.md: interruption, retargeting, responsive geometry and usable semantics"
+    },
+    {
+      "id": "positive-06",
+      "kind": "positive",
+      "query": "Decide whether this release candidate clears its measured latency and resource budgets against the baseline under the same workload; retain variance, failed functional checks and an inconclusive outcome.",
+      "options": {"limit": 3},
+      "expected": {"includes": ["performance-release-gating"]},
+      "basis": "product/skills/performance-release-gating/SKILL.md: bounded release decision from distributions, budgets and functional gates"
+    },
+    {
+      "id": "adjacent-01",
+      "kind": "adjacent",
+      "query": "Triage this support ticket after the workaround failed; establish customer impact, draft a truthful update, and prepare an escalation handoff without claiming resolution.",
+      "options": {"limit": 3},
+      "expected": {"includes": ["customer-support-triage-and-resolution"], "precedesIfPresent": [["customer-support-triage-and-resolution", "eternities-agora"]]},
+      "basis": "product/skills/customer-support-triage-and-resolution/SKILL.md: individual case troubleshooting and escalation; account-health strategy is adjacent"
+    },
+    {
+      "id": "adjacent-02",
+      "kind": "adjacent",
+      "query": "Investigate the web checkout bottleneck using repeated browser traces of long tasks and layout shifts; isolate one loading change and check visual and accessibility regressions.",
+      "options": {"limit": 3},
+      "expected": {"includes": ["web-performance-optimization"], "excludes": ["eternities-arcadia"]},
+      "basis": "product/skills/web-performance-optimization/SKILL.md: measured web-flow optimization; ordinary web rendering is not game-runtime work"
+    },
+    {
+      "id": "adjacent-03",
+      "kind": "adjacent",
+      "query": "Design a classroom activity where students move fraction tiles, predict why the totals stay equal, and explain their reasoning after changing the arrangement.",
+      "options": {"limit": 3},
+      "expected": {"includes": ["evidence-linked-learning-design"], "excludes": ["eternities-arcadia"]},
+      "basis": "product/skills/evidence-linked-learning-design/SKILL.md: explanatory manipulation and observable learning goals; physical teaching materials do not establish a game"
+    },
+    {
+      "id": "adjacent-04",
+      "kind": "adjacent",
+      "query": "Render a programmatic MP4 with seekable scenes, exact frame cues and frozen fonts; inspect the encoded first, transition and last frames rather than a live interface.",
+      "options": {"limit": 3},
+      "expected": {"includes": ["deterministic-video-composition-and-rendering"], "excludes": ["eternities-arcadia"], "precedesIfPresent": [["deterministic-video-composition-and-rendering", "motion-design-and-animation-engineering"]]},
+      "basis": "product/skills/deterministic-video-composition-and-rendering/SKILL.md: encoded delivery and seekable evaluation; live interface motion is adjacent"
+    },
+    {
+      "id": "exclusion-01",
+      "kind": "exclusion",
+      "query": "Do not fix the shader in the browser game; write a brief postponement notice for the team.",
+      "options": {"limit": 20},
+      "expected": {"excludes": ["eternities-arcadia"]},
+      "basis": "product/DISCOVERY.md: runtime admission uses surviving live request clauses and omits refused work; product/skills/eternities-arcadia/SKILL.md: actual runtime route required"
+    },
+    {
+      "id": "exclusion-02",
+      "kind": "exclusion",
+      "query": "Don't debug the browser game's simulation loop today. Draft a short scheduling update instead.",
+      "options": {"limit": 20},
+      "expected": {"excludes": ["eternities-arcadia"]},
+      "basis": "product/DISCOVERY.md: recognized refusal must not supply runtime evidence; contraction is equivalent to do not"
+    },
+    {
+      "id": "exclusion-03",
+      "kind": "exclusion",
+      "query": "The incident note says “fix the shader in the browser game”; draft a scheduling update about postponing that work.",
+      "options": {"limit": 20},
+      "expected": {"excludes": ["eternities-arcadia"]},
+      "basis": "product/DISCOVERY.md: balanced quoted instructions are source material, not live runtime work"
+    },
+    {
+      "id": "exclusion-04",
+      "kind": "exclusion",
+      "query": "Extract the redistribution and attribution clauses from this WebGL shader license for our legal reviewer.",
+      "options": {"limit": 20},
+      "expected": {"excludes": ["eternities-arcadia"]},
+      "basis": "product/DISCOVERY.md: rights extraction supplies no runtime purpose; Arcadia body: runtime integration and experience routes"
+    },
+    {
+      "id": "exclusion-05",
+      "kind": "exclusion",
+      "query": "Say thanks to the customer support and game simulation teams for their help with the release.",
+      "options": {"limit": 20, "need": "none"},
+      "expected": {"empty": true, "abstentionReason": "host-supplied-no-need"},
+      "basis": "product/README.md and product/DISCOVERY.md: host no-need facts suppress retrieval despite domain words"
+    },
+    {
+      "id": "exclusion-06",
+      "kind": "exclusion",
+      "query": "Fix the WebGL shader in a browser game; this is a routine isolated code edit.",
+      "options": {"limit": 20},
+      "expected": {"excludes": ["eternities-arcadia"]},
+      "basis": "product/skills/eternities-arcadia/skill.json: literal routine isolated code edit anti-trigger takes precedence"
+    },
+    {
+      "id": "ordinary-01",
+      "kind": "ordinary",
+      "query": "Calculate 12.5 plus 7.25. Give only the result.",
+      "options": {"limit": 3},
+      "expected": {"empty": true, "abstentionReason": "explicit-limited-micro-task"},
+      "basis": "product/DISCOVERY.md: explicit limited arithmetic uses ordinary competence"
+    },
+    {
+      "id": "ordinary-02",
+      "kind": "ordinary",
+      "query": "Uppercase the literal text “debug the game shader”. Give only the text.",
+      "options": {"limit": 3},
+      "expected": {"empty": true, "abstentionReason": "explicit-limited-micro-task"},
+      "basis": "product/DISCOVERY.md: literal casing input is data, not a requested workflow"
+    },
+    {
+      "id": "ordinary-03",
+      "kind": "ordinary",
+      "query": "Do not audit the support records. Count the words in “the customer found a workaround”. Give only the count.",
+      "options": {"limit": 3},
+      "expected": {"empty": true, "abstentionReason": "explicit-limited-micro-task"},
+      "basis": "product/DISCOVERY.md: refused audit cannot defeat a separate limited counting request"
+    },
+    {
+      "id": "ordinary-04",
+      "kind": "ordinary",
+      "query": "I need help with recovery. Ask one clarifying question before choosing a workflow.",
+      "options": {"limit": 3},
+      "expected": {"empty": true, "abstentionReason": "clarification-requested-before-selection"},
+      "basis": "product/DISCOVERY.md: explicit request to clarify before specialist selection abstains"
+    }
+  ]
+}

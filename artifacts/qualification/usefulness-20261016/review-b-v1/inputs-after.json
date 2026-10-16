@@ -1,0 +1,350 @@
+{
+  "schema": "godskills-review-b-inputs-v1",
+  "observedAt": "2026-10-16T07:32:22.072Z",
+  "repositoryHead": "7c7f2ac98a282ccb2e59c3a4c0424802a4dd72b5",
+  "metadata": [
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-b/proposals.json",
+      "bytes": 54278,
+      "sha256": "5bf8bed5a1da288a136f3d49904cecb9eff79e65bd35965aa003c96b3b598cfc",
+      "modifiedAt": "2026-10-16T07:25:34.673Z"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-b/sources.json",
+      "bytes": 18697,
+      "sha256": "4a7bf735a90ca760dd3887588cda6c593edc54f5e8b0bea34390e71f2c7d1d15",
+      "modifiedAt": "2026-10-16T07:23:21.720Z"
+    }
+  ],
+  "drafts": [
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-b/shader-effect-construction.md",
+      "bytes": 6838,
+      "sha256": "3dadf6801d00479d886dd49605bd73608e3ff27f4ff140d8481a573f0462823d",
+      "modifiedAt": "2026-10-16T07:21:11.529Z",
+      "id": "shader-effect-construction",
+      "owner": "eternities-arcadia",
+      "target": "product/skills/eternities-arcadia/references/shader-effect-construction.md"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-b/lighting-material-calibration.md",
+      "bytes": 6280,
+      "sha256": "b5fc4b218b27422c32f3048fec007ec6267a480d57f34a4685b850ccfe89aadb",
+      "modifiedAt": "2026-10-16T07:21:11.529Z",
+      "id": "lighting-material-calibration",
+      "owner": "eternities-arcadia",
+      "target": "product/skills/eternities-arcadia/references/lighting-material-calibration.md"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-b/animation-interruption-transitions.md",
+      "bytes": 7042,
+      "sha256": "c52ddfa5c2a0fdbfa0f566ca4b16fb997ee1534e530016f006fa4725896ee722",
+      "modifiedAt": "2026-10-16T07:22:13.436Z",
+      "id": "animation-interruption-transitions",
+      "owner": "eternities-arcadia",
+      "target": "product/skills/eternities-arcadia/references/animation-interruption-transitions.md"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-b/frame-budget-diagnosis.md",
+      "bytes": 7285,
+      "sha256": "ea504b2fb3d0319a4fffc727c8e3b4b33d20ea564ca08185c458ce72f6db764e",
+      "modifiedAt": "2026-10-16T07:21:11.530Z",
+      "id": "frame-budget-diagnosis",
+      "owner": "eternities-arcadia",
+      "target": "product/skills/eternities-arcadia/references/frame-budget-diagnosis.md"
+    }
+  ],
+  "sources": [
+    {
+      "path": "D:\\03-ARSENAL\\warehouse\\catalog-c\\games\\3d\\three-js\\manual\\pages\\debugging-glsl.html",
+      "bytes": 6920,
+      "sha256": "66ccad7ff3f1e46ae4411b2192dc8838146ec0e2633e175c032d32792f5bfed8",
+      "modifiedAt": "2026-08-06T00:12:56.402Z",
+      "id": "three-debug",
+      "portableLocator": "mrdoob/three.js@d2ac59a15620ff8696dd55983c1f411c0a3f92ce:manual/pages/debugging-glsl.html",
+      "authority": "bundled upstream Three.js manual snapshot",
+      "licenseRecord": "three-license",
+      "reviewerRead": "complete inert body; no linked source traversal or execution"
+    },
+    {
+      "path": "D:\\03-ARSENAL\\warehouse\\catalog-c\\games\\3d\\three-js\\manual\\pages\\color-management.html",
+      "bytes": 14707,
+      "sha256": "1631497a3fade74ee423887f5a339fa580cda8fdeba4b5c9d90d47b93e8f5e5e",
+      "modifiedAt": "2026-08-06T00:12:56.399Z",
+      "id": "three-color",
+      "portableLocator": "mrdoob/three.js@d2ac59a15620ff8696dd55983c1f411c0a3f92ce:manual/pages/color-management.html",
+      "authority": "bundled upstream Three.js manual snapshot",
+      "licenseRecord": "three-license",
+      "reviewerRead": "complete inert body; no linked source traversal or execution"
+    },
+    {
+      "path": "D:\\03-ARSENAL\\warehouse\\catalog-c\\games\\3d\\three-js\\manual\\pages\\animation-system.html",
+      "bytes": 6522,
+      "sha256": "02415166a204d96c68402c6c8396354a4c4aed4d341177a4d26e6f834c3c7842",
+      "modifiedAt": "2026-08-06T00:12:56.395Z",
+      "id": "three-animation",
+      "portableLocator": "mrdoob/three.js@d2ac59a15620ff8696dd55983c1f411c0a3f92ce:manual/pages/animation-system.html",
+      "authority": "bundled upstream Three.js manual snapshot",
+      "licenseRecord": "three-license",
+      "reviewerRead": "complete inert body; no linked source traversal or execution"
+    },
+    {
+      "path": "D:\\03-ARSENAL\\warehouse\\catalog-c\\games\\3d\\three-js\\manual\\pages\\post-processing.html",
+      "bytes": 17127,
+      "sha256": "777a324f30f000687b1b5c9ed7e476166b8b09cf13e1d63ee84d89a0071dabcf",
+      "modifiedAt": "2026-08-06T00:12:56.418Z",
+      "id": "three-post",
+      "portableLocator": "mrdoob/three.js@d2ac59a15620ff8696dd55983c1f411c0a3f92ce:manual/pages/post-processing.html",
+      "authority": "bundled upstream Three.js manual snapshot",
+      "licenseRecord": "three-license",
+      "reviewerRead": "complete inert body; no linked source traversal or execution"
+    },
+    {
+      "path": "D:\\03-ARSENAL\\warehouse\\catalog-c\\games\\3d\\three-js\\manual\\pages\\materials.html",
+      "bytes": 19298,
+      "sha256": "3c7426afff45f8ffd1b299308e9026c8fb733ad3f691705ac6efac50136c99fb",
+      "modifiedAt": "2026-08-06T00:12:56.412Z",
+      "id": "three-materials",
+      "portableLocator": "mrdoob/three.js@d2ac59a15620ff8696dd55983c1f411c0a3f92ce:manual/pages/materials.html",
+      "authority": "bundled upstream Three.js manual snapshot",
+      "licenseRecord": "three-license",
+      "reviewerRead": "complete inert body; no linked source traversal or execution"
+    },
+    {
+      "path": "D:\\03-ARSENAL\\warehouse\\from-stars\\quodsoler__unreal-engine-skills\\skills\\ue-animation-system\\SKILL.md",
+      "bytes": 27977,
+      "sha256": "908909e0d765382ae496741c9e1b9a8980c19ef089c0a2f879f5ecb87b57ac26",
+      "modifiedAt": "2026-10-14T02:01:44.706Z",
+      "id": "ue-animation",
+      "portableLocator": "quodsoler/unreal-engine-skills@f3742d7b688690810df369802b90430324e380b9:skills/ue-animation-system/SKILL.md",
+      "authority": "third-party workflow; not engine documentation",
+      "licenseRecord": "ue-license",
+      "reviewerRead": "complete inert body; no linked source traversal or execution"
+    },
+    {
+      "path": "D:\\03-ARSENAL\\warehouse\\from-stars\\quodsoler__unreal-engine-skills\\skills\\ue-materials-rendering\\SKILL.md",
+      "bytes": 32795,
+      "sha256": "ff708688124bffa3d92f4cd849255bc956f3da23ae96566f44c67b6491bbf0f6",
+      "modifiedAt": "2026-10-14T02:01:44.764Z",
+      "id": "ue-materials",
+      "portableLocator": "quodsoler/unreal-engine-skills@f3742d7b688690810df369802b90430324e380b9:skills/ue-materials-rendering/SKILL.md",
+      "authority": "third-party workflow; not engine documentation",
+      "licenseRecord": "ue-license",
+      "reviewerRead": "complete inert body; no linked source traversal or execution"
+    },
+    {
+      "path": "D:\\03-ARSENAL\\warehouse\\from-stars\\quodsoler__unreal-engine-skills\\skills\\ue-testing-debugging\\SKILL.md",
+      "bytes": 32599,
+      "sha256": "a486848b5f88095f4b1e649ad1ffb73f17ab80b51f9a3afa4886629c0e7cfdd6",
+      "modifiedAt": "2026-10-14T02:01:44.873Z",
+      "id": "ue-testing",
+      "portableLocator": "quodsoler/unreal-engine-skills@f3742d7b688690810df369802b90430324e380b9:skills/ue-testing-debugging/SKILL.md",
+      "authority": "third-party workflow; not engine documentation",
+      "licenseRecord": "ue-license",
+      "reviewerRead": "complete inert body; no linked source traversal or execution"
+    },
+    {
+      "path": "D:\\03-ARSENAL\\warehouse\\from-stars\\quodsoler__unreal-engine-skills\\skills\\ue-testing-debugging\\references\\profiling-commands.md",
+      "bytes": 16660,
+      "sha256": "ebd53693a9fabb0012f22ec62a220f0ff7a7d83af5b52504160875cf9d64d506",
+      "modifiedAt": "2026-10-14T02:01:44.876Z",
+      "id": "ue-profiling",
+      "portableLocator": "quodsoler/unreal-engine-skills@f3742d7b688690810df369802b90430324e380b9:skills/ue-testing-debugging/references/profiling-commands.md",
+      "authority": "third-party workflow; not engine documentation",
+      "licenseRecord": "ue-license",
+      "reviewerRead": "complete inert body; no linked source traversal or execution"
+    },
+    {
+      "path": "D:\\03-ARSENAL\\warehouse\\hunt\\exa-skills-2026-09-20\\lovecatisgood-sudo__3d-asset-generation-blender-unity-game-development-skills\\skills\\unity-mcp-game-development\\SKILL.md",
+      "bytes": 7450,
+      "sha256": "d380f5c275d1c0db18275f308e04b4e04650cb1c00579d8d318a16c98b8c33a9",
+      "modifiedAt": "2026-09-21T06:12:49.438Z",
+      "id": "unity-workflow",
+      "portableLocator": "lovecatisgood-sudo/3d-asset-generation-blender-unity-game-development-skills@00221bb0a8ffcb8eb577daf5ddf9e8d8edcdbc98:skills/unity-mcp-game-development/SKILL.md",
+      "authority": "third-party workflow; not engine documentation",
+      "licenseRecord": "unity-license",
+      "reviewerRead": "complete inert body; no linked source traversal or execution"
+    }
+  ],
+  "licenses": [
+    {
+      "path": "D:/03-ARSENAL/warehouse/catalog-c/games/3d/three-js/LICENSE",
+      "bytes": 1102,
+      "sha256": "5d5dad8147523d59bc15cca838ae0bdaae7075230ec49132c551a1d18e7b3412",
+      "modifiedAt": "2026-08-06T00:12:50.459Z",
+      "id": "three-license",
+      "observedNotice": "MIT License",
+      "copyright": "Copyright © 2010-2026 three.js authors"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/from-stars/quodsoler__unreal-engine-skills/LICENSE",
+      "bytes": 1066,
+      "sha256": "5ab97d29a2c68d17b1a9400283b85836b5e3759dd893f377b6622dc732a3f357",
+      "modifiedAt": "2026-10-14T02:01:44.696Z",
+      "id": "ue-license",
+      "observedNotice": "MIT License",
+      "copyright": "Copyright (c) 2025 quodsoler"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/hunt/exa-skills-2026-09-20/lovecatisgood-sudo__3d-asset-generation-blender-unity-game-development-skills/LICENSE",
+      "bytes": 1081,
+      "sha256": "9f91d52a762cabe2a697fa60b0f4ee2bc5d2ec4f5e0c4193ded193b1058964a2",
+      "modifiedAt": "2026-09-21T06:12:49.393Z",
+      "id": "unity-license",
+      "observedNotice": "MIT License",
+      "copyright": "Copyright (c) 2026 Siamese Cat Dev and Mr A"
+    }
+  ],
+  "repositories": [
+    {
+      "path": "D:/03-ARSENAL/warehouse/catalog-c/games/3d/three-js",
+      "head": "d2ac59a15620ff8696dd55983c1f411c0a3f92ce",
+      "selectedPathsStatus": "clean",
+      "scope": "selected source bodies and root LICENSE only"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/from-stars/quodsoler__unreal-engine-skills",
+      "head": "f3742d7b688690810df369802b90430324e380b9",
+      "selectedPathsStatus": "clean",
+      "scope": "selected source bodies and root LICENSE only"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/hunt/exa-skills-2026-09-20/lovecatisgood-sudo__3d-asset-generation-blender-unity-game-development-skills",
+      "head": "00221bb0a8ffcb8eb577daf5ddf9e8d8edcdbc98",
+      "selectedPathsStatus": "clean",
+      "scope": "selected source bodies and root LICENSE only"
+    }
+  ],
+  "currentCoverage": [
+    {
+      "path": "product/skills/eternities-arcadia/SKILL.md",
+      "bytes": 4642,
+      "sha256": "ac0ef2950f34981c72dad4143ad3752b289d3f95877ee68aa464195c8818b282",
+      "modifiedAt": "2026-10-16T05:10:21.281Z",
+      "reviewerRead": "complete body"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/skill.json",
+      "bytes": 9215,
+      "sha256": "eeaefbc6c4c89338b38664002a266cf54c9530e610f44874386bf7284e67933e",
+      "modifiedAt": "2026-10-16T05:32:35.800Z",
+      "reviewerRead": "complete body"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/methods.md",
+      "bytes": 1963,
+      "sha256": "57853439f2dbc6173e2b627b3d1cdd982c746f8376e86746b2745138b696dfc3",
+      "modifiedAt": "2026-10-03T09:26:03.840Z",
+      "reviewerRead": "complete body"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/realtime-asset-integration.md",
+      "bytes": 7028,
+      "sha256": "a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41",
+      "modifiedAt": "2026-10-14T09:05:57.748Z",
+      "reviewerRead": "complete body"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md",
+      "bytes": 4421,
+      "sha256": "a1b65d62b70a689b3e7b1c06871588e4763a04d3987b9d5c833d5b3c7b6da52a",
+      "modifiedAt": "2026-10-16T05:10:21.279Z",
+      "reviewerRead": "complete body"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/browser-runtime-lifecycle.md",
+      "bytes": 4043,
+      "sha256": "92f138939846c57ad5de1d36fd1c60d11341e29a91fcaecb03c942397ad93853",
+      "modifiedAt": "2026-10-03T09:26:03.839Z",
+      "reviewerRead": "complete body"
+    },
+    {
+      "path": "product/skills/eternities-muse/SKILL.md",
+      "bytes": 4458,
+      "sha256": "34fccadc01b49dcb8097641a6a6153dabd119dd55ba9f31781c7bfa4c4c1ac73",
+      "modifiedAt": "2026-10-16T05:03:24.750Z",
+      "reviewerRead": "complete body"
+    },
+    {
+      "path": "product/skills/eternities-muse/skill.json",
+      "bytes": 3158,
+      "sha256": "3c768d293aeda7c7c7b414dc428612185cfbd77ff7526fc8a05bae36bf4a3821",
+      "modifiedAt": "2026-10-16T05:24:36.361Z",
+      "reviewerRead": "complete body"
+    },
+    {
+      "path": "product/skills/eternities-muse/references/methods.md",
+      "bytes": 4991,
+      "sha256": "44cdaae8e34b83f69c8253f1cb61b4ed3c1af5548e58ef59d4f7e28df7e46b89",
+      "modifiedAt": "2026-10-03T09:26:03.880Z",
+      "reviewerRead": "complete body"
+    },
+    {
+      "path": "product/skills/performance-release-gating/SKILL.md",
+      "bytes": 3197,
+      "sha256": "e96f776e506d9eb98eb32df919a64c3c30520d99a5317f9b0f5eb1cb6db42de5",
+      "modifiedAt": "2026-10-04T07:07:14.096Z",
+      "reviewerRead": "complete body"
+    },
+    {
+      "path": "product/skills/performance-release-gating/skill.json",
+      "bytes": 1836,
+      "sha256": "3f8c6b2f9ce4983eb271b553f6369d117f27487e163017d3ea6adcb1b5cb48ff",
+      "modifiedAt": "2026-10-03T09:26:03.919Z",
+      "reviewerRead": "complete body"
+    },
+    {
+      "path": "product/lib/method-directory.mjs",
+      "bytes": 7836,
+      "sha256": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180",
+      "modifiedAt": "2026-10-03T09:26:03.642Z",
+      "reviewerRead": "hash only; not a method-coverage source"
+    },
+    {
+      "path": "product/skills/motion-design-and-animation-engineering/SKILL.md",
+      "bytes": 3914,
+      "sha256": "9f9f17e2bf49fa039f11239bbbc0adf9e98df12e21f1c1f8a8f3343d282719ea",
+      "modifiedAt": "2026-10-13T06:05:13.623Z",
+      "reviewerRead": "complete body"
+    },
+    {
+      "path": "product/skills/motion-design-and-animation-engineering/references/methods.md",
+      "bytes": 5122,
+      "sha256": "8ce10c1e39145b619ef2e692a7dc501711173f2601fba34131a7f58d3399387b",
+      "modifiedAt": "2026-10-13T06:05:13.631Z",
+      "reviewerRead": "complete body"
+    },
+    {
+      "path": "product/skills/motion-design-and-animation-engineering/skill.json",
+      "bytes": 2452,
+      "sha256": "81e8e2b2ea872cc9460bc867e9383997574af711a9a08fda72e340a313efeea0",
+      "modifiedAt": "2026-10-13T06:05:13.632Z",
+      "reviewerRead": "complete body"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-10-16-usefulness-release.md",
+      "bytes": 3661,
+      "sha256": "28ee0ac82aeecb44c5bd689744b0cbbb6bd137452f9077f02122459d7dab0d07",
+      "modifiedAt": "2026-10-16T07:13:00.451Z",
+      "reviewerRead": "complete body"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-16-usefulness-release.md",
+      "bytes": 6248,
+      "sha256": "1956bee1ecef37c98fcae93edcc5da092a31d63ba203344be3203da07d95d3ff",
+      "modifiedAt": "2026-10-16T07:13:00.451Z",
+      "reviewerRead": "complete body"
+    }
+  ],
+  "warehouseIndex": {
+    "path": "D:/03-ARSENAL/warehouse/REPOSITORY-INDEX.json",
+    "bytes": 3178158,
+    "sha256": "8a7444815944c5bc6acca5d6d77d760fe25298f1b07889744e7d0f3a7b12dc54",
+    "modifiedAt": "2026-10-16T05:21:39.235Z",
+    "reviewerRead": "digest only; no corpus search"
+  },
+  "limits": [
+    "Exact source bytes and selected git status do not verify current engine APIs.",
+    "Not a whole-repository cleanliness, rights-clearance, renderer or runtime verdict."
+  ]
+}

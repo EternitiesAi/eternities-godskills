@@ -1,0 +1,18 @@
+{
+  "schema": "usefulness-parent-integration-verification-v1",
+  "status": "PASS",
+  "observedUtc": "2026-10-16T07:55:24.059Z",
+  "releaseId": "6fa86b80b1a2bb015ea3d747f990da14c763b359912c3a7954499be66817d574",
+  "independentlyReviewedProductFiles": 18,
+  "historicalMethodRowsPreserved": 21,
+  "currentMethodRows": 29,
+  "historicalReferencesPreserved": 93,
+  "protectedFiles": {
+    "src/adaptive-activation.mjs": "9844aee1147f7129f3e37067424ccebb88ff478de1b7a9a9fb7306d5f2fdbd82",
+    "policies/adaptive-activation.v1.json": "b87bbfaddecb42417e57202173220bf240204d27b7de5fffc9e609eb18138939",
+    "artifacts/adaptive-activation/evidence.v1.json": "b55a5cb4f7ff039cc7f4027c165b2f151bad723d9030913076a4225342fbe8c5"
+  },
+  "reviewEvidenceFilesVerified": 8,
+  "oldRelease": "368d5a716bd3b8069ba5ba858f8db8f7fba8b19c36aa373fc62c19d8a2b55efb",
+  "limits": "Parent verification of actual independent document bindings and preservation; not an additional independent review or performance result."
+}

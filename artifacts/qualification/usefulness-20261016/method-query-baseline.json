@@ -1,0 +1,115 @@
+{
+  "label": "method-query-baseline",
+  "observedUtc": "2026-10-16T07:33:46.643Z",
+  "caseSha256": "5cf861a0fe736b824d253f70f8ec5253b2fec606e9900cb3f08bc301b7b10d50",
+  "catalogSha256": "adfa5cfed9ac1c6a3ca8db26522e322aa5106ca031884a4de1d8a61dc1a41b36",
+  "passed": 7,
+  "total": 8,
+  "results": [
+    {
+      "id": "qualification",
+      "owner": "eternities-agora",
+      "query": "Prepare commercial discovery for this prospect: decide whether a tailored demo is justified by the recent failed workflow and what evidence would change our qualification decision.",
+      "ids": [
+        "eternities-agora",
+        "app-store-discovery-experiments",
+        "eternities-daedalus"
+      ],
+      "pass": true,
+      "authority": "none",
+      "activation": "none"
+    },
+    {
+      "id": "onboarding",
+      "owner": "eternities-beacon",
+      "query": "Customer onboarding is stalled even though setup checklists are complete. Work out the dependencies for a first useful result and distinguish waiting customers from actual activation.",
+      "ids": [
+        "native-mobile-interaction-testing",
+        "customer-support-triage-and-resolution",
+        "eternities-hermes"
+      ],
+      "pass": false,
+      "authority": "none",
+      "activation": "none"
+    },
+    {
+      "id": "constraint",
+      "owner": "operating-cadence-and-decision-accountability",
+      "query": "Our operations team wants to hire for the largest backlog. Determine which shared resource really limits delivered work, including corrections and missing prerequisites.",
+      "ids": [
+        "product-discovery-and-prioritization",
+        "operating-cadence-and-decision-accountability",
+        "scene-continuity-and-coverage"
+      ],
+      "pass": true,
+      "authority": "none",
+      "activation": "none"
+    },
+    {
+      "id": "practice",
+      "owner": "evidence-linked-learning-design",
+      "query": "Choose the next practice question from ambiguous learner work: the answer was correct but may reflect a shortcut rather than the intended principle.",
+      "ids": [
+        "evidence-linked-learning-design",
+        "memory-retention-and-recovery",
+        "approval-bound-private-session-mining"
+      ],
+      "pass": true,
+      "authority": "none",
+      "activation": "none"
+    },
+    {
+      "id": "shader",
+      "owner": "eternities-arcadia",
+      "query": "Construct a scanning pulse shader in our interactive game and isolate why its opaque diagnostic works but the final transparent effect disappears.",
+      "ids": [
+        "eternities-arcadia",
+        "eternities-daedalus",
+        "diagnostic-statistical-model-inference"
+      ],
+      "pass": true,
+      "authority": "none",
+      "activation": "none"
+    },
+    {
+      "id": "lighting",
+      "owner": "eternities-arcadia",
+      "query": "Our game asset looks like charcoal in the gameplay camera. Separate material roughness from the lighting and reflection environment using controlled rendering comparisons.",
+      "ids": [
+        "eternities-arcadia",
+        "measured-paid-creative-iteration",
+        "interatomic-model-validation"
+      ],
+      "pass": true,
+      "authority": "none",
+      "activation": "none"
+    },
+    {
+      "id": "animation",
+      "owner": "eternities-arcadia",
+      "query": "Fix interrupted skeletal animation in the game: a cancelled attack still deals damage while a hit reaction blends in, and root motion doubles the travel.",
+      "ids": [
+        "eternities-arcadia",
+        "motion-design-and-animation-engineering",
+        "accessibility-audit-and-remediation"
+      ],
+      "pass": true,
+      "authority": "none",
+      "activation": "none"
+    },
+    {
+      "id": "frame-budget",
+      "owner": "eternities-arcadia",
+      "query": "Diagnose our game scene missing its frame budget. Distinguish active simulation, GPU image-pass cost, presentation waits and first-encounter hitches before reducing quality.",
+      "ids": [
+        "eternities-arcadia",
+        "eternities-daedalus",
+        "counterbalanced-agent-evaluation"
+      ],
+      "pass": true,
+      "authority": "none",
+      "activation": "none"
+    }
+  ],
+  "limits": "Frozen before product adoption; author-visible retrieval checks, not blind agent-performance evidence"
+}

@@ -12,8 +12,8 @@ required.
 
 ## Start in a minute
 
-Download the [current standalone pack](artifacts/releases/godskills-product-20261016-368d5a71.zip)
-and its [SHA-256](artifacts/releases/godskills-product-20261016-368d5a71.zip.sha256),
+Download the [current standalone pack](artifacts/releases/godskills-product-20261016-6fa86b80.zip)
+and its [SHA-256](artifacts/releases/godskills-product-20261016-6fa86b80.zip.sha256),
 or copy the complete [product folder](product/README.md). Give your agent
 [START-HERE.md](product/START-HERE.md) and your actual task.
 
@@ -50,6 +50,13 @@ Browse the [capability map](product/START-HERE.md) or [complete directory](produ
 These are working methods with explicit boundaries, not substitutes for tools,
 professional authority or live validation.
 
+The latest refinement adds eight conditional methods under existing owners:
+commercial qualification, first-value onboarding, operational constraints,
+adaptive practice, shader construction, lighting/material calibration,
+interrupted gameplay animation and frame-budget diagnosis. The
+[selected method directory](product/METHODS.v1.md) now exposes 29 deeper methods
+without adding compulsory entrypoints or loading them all into an agent's context.
+
 ## Three ways the pieces work together
 
 **Idea → working product.** For a repair-shop booking tool, identify the
@@ -74,7 +81,7 @@ Godskills supplies selected methods. Neither requires the other.
 
 ## What is actually qualified
 
-The [current release record](docs/cohesive-product-release-20261016.md) names
+The [current release record](docs/usefulness-product-release-20261016.md) names
 the exact bytes, independent review, tests, export and installation checks.
 Skill-level instruction review, package tests and bounded agent applications
 are different evidence. The library does **not** claim that every method
@@ -84,7 +91,7 @@ The product is separate from the source quarry. Thousands of overlapping
 source records are research material, not silently installed skills.
 [Corpus scope](product/CORPUS-SCOPE.md) preserves the unfinished source-review
 work, conflicts and negative findings. New intake does not turn those into
-completed refinement. The [current development plan](docs/cohesive-product-20261015-plan.md)
+completed refinement. The [current development plan](docs/superpowers/plans/2026-10-16-usefulness-release.md)
 states this release's concrete acceptance gates.
 
 ## Development and compatibility

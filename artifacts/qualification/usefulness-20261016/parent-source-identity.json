@@ -1,0 +1,166 @@
+{
+  "schema": "usefulness-parent-source-identity-v1",
+  "observedUtc": "2026-10-16T07:31:49.698Z",
+  "status": "PASS",
+  "sourceBodies": 19,
+  "noticeFiles": 7,
+  "records": [
+    {
+      "lane": "a",
+      "kind": "source",
+      "id": "discovery",
+      "sha256": "8244a25e5b8785058b19ef92dca9e543a2c990e4dde1166d194f14514e3ae278"
+    },
+    {
+      "lane": "a",
+      "kind": "source",
+      "id": "operations",
+      "sha256": "3c133a31ae1542922444d77d7c8f9964127704ba94638dde12e37a9ad0fd35bd"
+    },
+    {
+      "lane": "a",
+      "kind": "source",
+      "id": "bottleneck",
+      "sha256": "f51b261e9e83abcc1e3b6a8b23148ad1b191740ed343b747454a98effdbb24dd"
+    },
+    {
+      "lane": "a",
+      "kind": "source",
+      "id": "bottleneck-checklist",
+      "sha256": "a1c5095936564c241b2df7ed66b3232e1c5f92c80294a737ff9181a88470dc62"
+    },
+    {
+      "lane": "a",
+      "kind": "source",
+      "id": "practice",
+      "sha256": "3bcf66d76461040cf92e325f4466aef34d4c675eae4d2d4c61950e6dc79654e2"
+    },
+    {
+      "lane": "a",
+      "kind": "source",
+      "id": "hints",
+      "sha256": "4f59e3a5e681dbeb72db4c703a96f1dc53c44c4c9ec18df534071fcd7972882a"
+    },
+    {
+      "lane": "a",
+      "kind": "source",
+      "id": "onboarding",
+      "sha256": "ca219e0ba8f931888e2a634624ab927206f8ef26aeca2250399c3c48da0341e0"
+    },
+    {
+      "lane": "a",
+      "kind": "source",
+      "id": "minimum-path",
+      "sha256": "c2b7c71b8436a1456888a26b9c8892c33cd9e1b1bf758f6fd7282c00f87dcdc3"
+    },
+    {
+      "lane": "a",
+      "kind": "source",
+      "id": "activation-models",
+      "sha256": "a13e82d8e3ebf810a0f0fb51fe91bbe349d8175baee5a97a85934fa20f63a8f7"
+    },
+    {
+      "lane": "b",
+      "kind": "source",
+      "id": "three-debug",
+      "sha256": "66ccad7ff3f1e46ae4411b2192dc8838146ec0e2633e175c032d32792f5bfed8"
+    },
+    {
+      "lane": "b",
+      "kind": "source",
+      "id": "three-color",
+      "sha256": "1631497a3fade74ee423887f5a339fa580cda8fdeba4b5c9d90d47b93e8f5e5e"
+    },
+    {
+      "lane": "b",
+      "kind": "source",
+      "id": "three-animation",
+      "sha256": "02415166a204d96c68402c6c8396354a4c4aed4d341177a4d26e6f834c3c7842"
+    },
+    {
+      "lane": "b",
+      "kind": "source",
+      "id": "three-post",
+      "sha256": "777a324f30f000687b1b5c9ed7e476166b8b09cf13e1d63ee84d89a0071dabcf"
+    },
+    {
+      "lane": "b",
+      "kind": "source",
+      "id": "three-materials",
+      "sha256": "3c7426afff45f8ffd1b299308e9026c8fb733ad3f691705ac6efac50136c99fb"
+    },
+    {
+      "lane": "b",
+      "kind": "source",
+      "id": "ue-animation",
+      "sha256": "908909e0d765382ae496741c9e1b9a8980c19ef089c0a2f879f5ecb87b57ac26"
+    },
+    {
+      "lane": "b",
+      "kind": "source",
+      "id": "ue-materials",
+      "sha256": "ff708688124bffa3d92f4cd849255bc956f3da23ae96566f44c67b6491bbf0f6"
+    },
+    {
+      "lane": "b",
+      "kind": "source",
+      "id": "ue-testing",
+      "sha256": "a486848b5f88095f4b1e649ad1ffb73f17ab80b51f9a3afa4886629c0e7cfdd6"
+    },
+    {
+      "lane": "b",
+      "kind": "source",
+      "id": "ue-profiling",
+      "sha256": "ebd53693a9fabb0012f22ec62a220f0ff7a7d83af5b52504160875cf9d64d506"
+    },
+    {
+      "lane": "b",
+      "kind": "source",
+      "id": "unity-workflow",
+      "sha256": "d380f5c275d1c0db18275f308e04b4e04650cb1c00579d8d318a16c98b8c33a9"
+    },
+    {
+      "lane": "a",
+      "kind": "notice",
+      "repository": "msitarzewski/agency-agents",
+      "sha256": "45c861c1178a99178033b61302af7610e870082e874981b57519c2a1369299c0"
+    },
+    {
+      "lane": "a",
+      "kind": "notice",
+      "repository": "jeremylongworth-source/AgentSkills",
+      "sha256": "11f5e60786b82e616ba07f5abe671291f23916f60d197babde5ea46353c441a3"
+    },
+    {
+      "lane": "a",
+      "kind": "notice",
+      "repository": "GarethManning/education-agent-skills",
+      "sha256": "f952182df4eb7dd43335fbb429388dbb0b101c944c734a8dc05643b189cb87b7"
+    },
+    {
+      "lane": "a",
+      "kind": "notice",
+      "repository": "coreyhaines31/marketingskills",
+      "sha256": "3bb73920cd10a04b0ce3f28b84bada69e9286d0c33cf654ff10c279409791aa9"
+    },
+    {
+      "lane": "b",
+      "kind": "notice",
+      "repository": "mrdoob/three.js",
+      "sha256": "5d5dad8147523d59bc15cca838ae0bdaae7075230ec49132c551a1d18e7b3412"
+    },
+    {
+      "lane": "b",
+      "kind": "notice",
+      "repository": "quodsoler/unreal-engine-skills",
+      "sha256": "5ab97d29a2c68d17b1a9400283b85836b5e3759dd893f377b6622dc732a3f357"
+    },
+    {
+      "lane": "b",
+      "kind": "notice",
+      "repository": "lovecatisgood-sudo/3d-asset-generation-blender-unity-game-development-skills",
+      "sha256": "9f91d52a762cabe2a697fa60b0f4ee2bc5d2ec4f5e0c4193ded193b1058964a2"
+    }
+  ],
+  "limits": "Exact source and notice bytes only. This does not clear source rights, terminal corpus labels, operational results or review quality."
+}

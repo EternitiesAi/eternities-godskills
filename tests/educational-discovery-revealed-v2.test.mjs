@@ -7,6 +7,7 @@ import {searchCatalog} from '../product/lib/product.mjs';
 import {projectBeforeAtlasSuppliedDataRevision} from './helpers/atlas-discovery-revision.mjs';
 import {projectBeforeArcadiaAssetRevision} from './helpers/arcadia-asset-revision.mjs';
 import {projectBeforeCohesiveProduct20261015,projectDiscoveryV4ToHistoricalV3,expectedEducationalLiteralAfterRuntimeAdmissionV4} from './helpers/nietzsche-historical-compatibility.mjs';
+import {projectCatalogBeforeUsefulnessRelease20261016} from './helpers/usefulness-historical-compatibility.mjs';
 const fixture=JSON.parse(await readFile(new URL('./fixtures/educational-discovery-revealed-v2.json',import.meta.url),'utf8'));
 const followup=JSON.parse(await readFile(new URL('./fixtures/educational-discovery-revealed-v4.json',import.meta.url),'utf8'));
 const catalog=JSON.parse(await readFile(new URL('../product/catalog.json',import.meta.url),'utf8'));
@@ -19,7 +20,8 @@ const historicalCatalog=JSON.parse(historicalBytes);
 test('the literal educational projection keeps its exact prior catalog input',()=>{
  assert.equal(createHash('sha256').update(historicalBytes).digest('hex'),'bf90582e8a23a3d50a6997cfba5f97d022f4619024f8459e364423f269e10eca');
  assert.equal(historicalCatalog.skills.length,77);
- for(const before of historicalCatalog.skills)assert.deepEqual(projectBeforeArcadiaAssetRevision(projectBeforeAtlasSuppliedDataRevision(projectBeforeCohesiveProduct20261015(catalog.skills.find(x=>x.id===before.id)),before),before),before,'Existing77 catalog records changed outside the named cohesive, Atlas and Arcadia revisions');
+ const priorCatalog=projectCatalogBeforeUsefulnessRelease20261016(catalog);
+ for(const before of historicalCatalog.skills)assert.deepEqual(projectBeforeArcadiaAssetRevision(projectBeforeAtlasSuppliedDataRevision(projectBeforeCohesiveProduct20261015(priorCatalog.skills.find(x=>x.id===before.id)),before),before),before,'Existing77 catalog records changed outside the named cohesive, Atlas and Arcadia revisions');
 });
 const ownerId='evidence-linked-learning-design';
 const owner=catalog.skills.find(x=>x.id===ownerId);

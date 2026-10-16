@@ -17,6 +17,8 @@ Beacon handles growth questions where customer evidence, product claims, commerc
 - **Conversion and lifecycle** maps friction across acquisition, activation, onboarding, retention, expansion, referral, or recovery and designs reversible tests.
 - **Measurement and stewardship** defines metrics, cohorts, denominators, attribution limits, guardrails, anomaly handling, and scale-or-stop decisions.
 
+When customers complete setup but fail to reach a useful result, use [customer onboarding](references/customer-onboarding-v1.md) to map first-value dependencies, choose a blocker-specific intervention and measure mature versus pending cohorts.
+
 ## Working method
 
 1. State the objective, audience, market and time scope, product facts, source dates, consent or data basis, accessibility constraints, budget boundary, and decision owner.

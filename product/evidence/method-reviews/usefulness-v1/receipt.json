@@ -1,0 +1,98 @@
+{
+  "schema": "usefulness-method-review-collation-v1",
+  "scope": "Parent collation of separate non-author document and exact integration reviews; not an independent review itself.",
+  "reviewers": {
+    "a": "Cicero; not lane-A author",
+    "b": "Dewey; not lane-B author"
+  },
+  "methodBindings": [
+    {
+      "id": "shader-effect-construction",
+      "path": "product/skills/eternities-arcadia/references/shader-effect-construction.md",
+      "sha256": "a2ecfad39a1b3d5cb2bc98baea4539dc411fe39294de55a7c09962ca74cbadb1"
+    },
+    {
+      "id": "lighting-material-calibration",
+      "path": "product/skills/eternities-arcadia/references/lighting-material-calibration.md",
+      "sha256": "068379b7ca96da9ce2bb9e281acb66af47cd0c750fb4984139db06679c848e5f"
+    },
+    {
+      "id": "animation-interruption-transitions",
+      "path": "product/skills/eternities-arcadia/references/animation-interruption-transitions.md",
+      "sha256": "5c43f1e601b2b814346e3b6519e1e8419bd6b89d6270e8ffdad82364e0693411"
+    },
+    {
+      "id": "frame-budget-diagnosis",
+      "path": "product/skills/eternities-arcadia/references/frame-budget-diagnosis.md",
+      "sha256": "d7e348fe98bcac368c4f8bf5dc8d18b039050d2c746608a50f3a42f63b89672b"
+    },
+    {
+      "id": "usefulness-commercial-discovery-v1",
+      "path": "product/skills/eternities-agora/references/commercial-discovery-v1.md",
+      "sha256": "5ad6fcff45efc590e44e048a4eebced2c1313b89d9ad125644d0661d8db3c588"
+    },
+    {
+      "id": "usefulness-customer-onboarding-v1",
+      "path": "product/skills/eternities-beacon/references/customer-onboarding-v1.md",
+      "sha256": "1dbd93629607568a717e05d63d1ea6b6c378ca6907d2363b8cb9bee9997fcb01"
+    },
+    {
+      "id": "usefulness-constraint-diagnosis-v1",
+      "path": "product/skills/operating-cadence-and-decision-accountability/references/constraint-diagnosis-v1.md",
+      "sha256": "70bbb61d77eb77638375d8368a341583fb6c5660828456b5ab69cf2b477f59e1"
+    },
+    {
+      "id": "usefulness-adaptive-practice-v1",
+      "path": "product/skills/evidence-linked-learning-design/references/adaptive-practice-v1.md",
+      "sha256": "fd59e825efd7e27718ce02518ed17d011e0d4993b90c7ea93665a825069d9b10"
+    }
+  ],
+  "evidence": [
+    {
+      "source": "artifacts/qualification/usefulness-20261016/review-a-v1/review.md",
+      "bundled": "a-original-review.md",
+      "sha256": "71e31fb87c2829ac719de71256159984674d42f450318f17952dc277745ca733"
+    },
+    {
+      "source": "artifacts/qualification/usefulness-20261016/review-a-v1/transfer-cases.md",
+      "bundled": "a-transfer-cases.md",
+      "sha256": "95b19954f164a51ca25dc1c58fadf5e154a1688c70bed3adebb86f26106c3c6b"
+    },
+    {
+      "source": "artifacts/qualification/usefulness-20261016/review-a-v2/review.md",
+      "bundled": "a-closure-review.md",
+      "sha256": "d4c8872d8fdf530a0c9ab2fe411cc9e4befbeefff2b2e106db0aa45753afa89b"
+    },
+    {
+      "source": "artifacts/qualification/usefulness-20261016/review-a-v2/receipt.json",
+      "bundled": "a-closure-receipt.json",
+      "sha256": "82d845acfeab21a79bc77b8de4192912c19cc289e28fa94ec74186eb64557633"
+    },
+    {
+      "source": "artifacts/qualification/usefulness-20261016/review-b-v1/REVIEW.md",
+      "bundled": "b-original-review.md",
+      "sha256": "ec4fe300dd59008af6c97545c1e3e23737031dd11b55ccf2dd4cff4ce5ef2813"
+    },
+    {
+      "source": "artifacts/qualification/usefulness-20261016/review-b-v1/transfer-cases.md",
+      "bundled": "b-transfer-cases.md",
+      "sha256": "4516b3ca750e4f128d0f2eee8b353e43992a33c6485797ff28f0cf38464341fa"
+    },
+    {
+      "source": "artifacts/qualification/usefulness-20261016/review-b-v2/REVIEW.md",
+      "bundled": "b-closure-review.md",
+      "sha256": "c5888167a66e86c1f51e4cec3f90dbe96a8526d953e2d7407f61a2476f0f055f"
+    },
+    {
+      "source": "artifacts/qualification/usefulness-20261016/review-b-v2/decisions.json",
+      "bundled": "b-closure-receipt.json",
+      "sha256": "87681d5787e0c2f0fc109a7b95337ffe703f974666317c197833c221e5cb97a5"
+    }
+  ],
+  "limits": [
+    "Not performance-qualified",
+    "No live matched model comparison",
+    "No source-ledger terminal disposition",
+    "Digests bind bytes, not truth or reviewer identity"
+  ]
+}

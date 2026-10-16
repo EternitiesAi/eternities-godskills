@@ -1,0 +1,80 @@
+{
+  "schema": "independent-discovery-closure-v2",
+  "decision": "READY",
+  "scope": "Closure of v1 P2 prefix-collision finding for exact current bytes; ready for parent integration, not release/installation certification.",
+  "baseline": "7c7f2ac98a282ccb2e59c3a4c0424802a4dd72b5",
+  "fileBindings": [
+    {
+      "path": "product/lib/request-scope.mjs",
+      "bytes": 1341,
+      "sha256": "1e670b69ce90a275be081a93179b0295ef2bb97d830680582c6201b3d0f3f4f1"
+    },
+    {
+      "path": "product/catalog.json",
+      "bytes": 146817,
+      "sha256": "adfa5cfed9ac1c6a3ca8db26522e322aa5106ca031884a4de1d8a61dc1a41b36"
+    },
+    {
+      "path": "product/release.json",
+      "bytes": 42765,
+      "sha256": "752e4596352499e2d601833c30a6c9149fa5ebe5ef7e31f11949d57f4251785e"
+    },
+    {
+      "path": "tests/usefulness-discovery.test.mjs",
+      "bytes": 2980,
+      "sha256": "4554b56aa59aed16c9c53bd22a6c441ed09e7c22d2a4127f1d977e6b189bb30b"
+    },
+    {
+      "path": "tests/usefulness-refusal-transfer.test.mjs",
+      "bytes": 1075,
+      "sha256": "54e2e14b95adedd5d41c7ac8c2f52ab53e81abedbed27127541ea03116b4a124"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/discovery/frozen-cases.json",
+      "bytes": 9761,
+      "sha256": "4fb39b46fb15239c0cf29136c3c82846d1f1275c904467412b569b9b50d93691"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/review-discovery-v1/controls.json",
+      "bytes": 14656,
+      "sha256": "3ffff4867c26402842fac8215a9ef18f65ee0526734daca5578ff42a9c22361a"
+    }
+  ],
+  "closedFindings": [
+    {
+      "priorReview": "review-discovery-v1/review.json",
+      "priority": 2,
+      "file": "product/lib/request-scope.mjs",
+      "line": 5,
+      "status": "CLOSED",
+      "reason": "Only the two newly introduced refusal alternatives were narrowed; all six prefix-collision controls now reproduce exact baseline public-API output hashes."
+    }
+  ],
+  "openFindings": [],
+  "checks": {
+    "authorPlusTransfer": {
+      "tests": 58,
+      "passed": 58,
+      "failed": 0,
+      "skipped": 0
+    },
+    "independentDirectApi": {
+      "unchangedScoredPass": 30,
+      "unscoredObservations": 3,
+      "additionalPass": 8,
+      "priorRegressionsClosed": 6,
+      "restoredBaselineOutputs": 6,
+      "otherV1OutputsUnchanged": 27,
+      "inputBindingsVerified": 17
+    }
+  },
+  "limits": [
+    "The 30 v1 controls are now adopted transfer regressions, not fresh held-out evidence.",
+    "Three null observations remain unscored and unchanged; no wider negation grammar claim.",
+    "Eight new forms are bounded closure checks, not population-level coverage.",
+    "No full suite, build, CLI release validation, export or installation.",
+    "Release manifest remains unchanged from v1; READY applies only to this code-review scope."
+  ],
+  "parentEvidence": "Parent reported RED 24 pass / 6 fail in tool chunk 9f995f and GREEN 58 pass. That external tool chunk was not independently retrieved; this reviewer independently reran the current 58 tests and direct API checks."
+}
+

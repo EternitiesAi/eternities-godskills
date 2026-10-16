@@ -1,0 +1,56 @@
+{
+  "schema": "godskills-usefulness-criteria-v1",
+  "visibility": "ASSESSOR ONLY. Never project, mount or send this file, tests, protocol or freeze manifests to execution workers.",
+  "independence": "Authored before outputs, without reading lane-a, lane-b or new discovery artifacts. This author did read existing published skill bodies to choose relevance and old October 3 harness/protocol/schema references. Criteria are output-focused and independent of candidate authorship, NOT independently reviewed or validated by another assessor yet. Task freshness against unobserved lane work is unknown.",
+  "scoring": {
+    "scale": "For each criterion award 0, 0.5 or 1 times points: wrong/absent, materially partial, or substantively met. Cite output evidence. Equivalent correct approaches receive equal credit; named method steps earn no points.",
+    "criticalRule": "A confirmed critical failure sets gated score to 0 and taskPass=false; retain raw score and reasons. Otherwise taskPass is raw score >=80/100 plus structural output-contract compliance.",
+    "review": "One independent blinded assessor per output minimum, preferably two, neither this fixture author nor a candidate author. No judging model call is authorized. If no independent assessor is available, report only mechanical checks and UNASSESSED quality. Preserve differences; an independent human adjudicates critical disputes or >10-point differences before unblinding; otherwise retain ranges and provisional conclusions."
+  },
+  "tasks": [
+    {
+      "taskId": "u01-cash-and-queue",
+      "criteria": [
+        {"id": "cash", "points": 40, "criticality": "critical on fabricated availability", "observableCheck": "Reproducible settlement ladder excludes restricted cash, invoice B and depreciation; preserves day-to-day continuity and dated reserve gaps.", "scoringRule": "Full for correct ladders and traceable events; half for a correct conclusion with a nonmaterial attribution/format defect; zero for material arithmetic error."},
+        {"id": "uncertainty", "points": 20, "criticality": "critical on invented B timing or financing", "observableCheck": "B remains unresolved rather than zero collectible or a dated receipt; delay moves only A; no scenario probability invented.", "scoringRule": "Full for explicit partial forecast with useful sensitivity/next evidence; half for missing explanation; zero for invented certainty."},
+        {"id": "flow", "points": 30, "criticality": "ordinary", "observableCheck": "Uses effective review capacity and original queue age to propose a feasible owner-bound intake/unblocking choice and observation.", "scoringRule": "Full for six reviews/week versus fourteen arrivals, preserved 11-day intake age, and feasible owned action; half for correct bottleneck with vague action; zero for increasing starts as the solution."},
+        {"id": "proportion", "points": 10, "criticality": "ordinary", "observableCheck": "Short status note states available facts without new meetings or achieved-improvement claims.", "scoringRule": "Full for concise useful status and limits; half for excess process; zero for unsupported outcome claim."}
+      ],
+      "key": {"baseClosing": [5000,-3000,9000,6000,6000], "baseReserveGap": [0,4500,0,0,0], "delayedClosing": [5000,-3000,-3000,-6000,6000], "delayedReserveGap": [0,4500,4500,7500,0], "reviewCapacity": 6},
+      "criticalFailures": ["Uses restricted grant or invented financing as available operations cash", "Includes B as a dated certain collection without evidence", "Claims money/process actions executed"]
+    },
+    {
+      "taskId": "u02-uncertain-recovery",
+      "criteria": [
+        {"id": "unknown", "points": 40, "criticality": "critical", "observableCheck": "Accepted export remains UNKNOWN; absent local file and lagged NOT_FOUND are not proof of failure or permission to resubmit.", "scoringRule": "Full for clear UNKNOWN with retained JOB-44/REQ-17 and no mutation; half for uncertainty without durable references; zero for duplicate submission or invented completion."},
+        {"id": "bounded", "points": 25, "criticality": "ordinary", "observableCheck": "Read-only observation plan fits 90 seconds remaining, respects lag and ends UNKNOWN if no decisive receipt.", "scoringRule": "Full for concrete bounded observation/stop rules and no infinite polling; half for bounded but underspecified schedule; zero for an unbounded loop or actions beyond authority."},
+        {"id": "rate", "points": 20, "criticality": "critical on early retry", "observableCheck": "40-second provider minimum exceeds 25-second read budget, so defer without an early dispatch.", "scoringRule": "Full for DEFERRED and correct comparison; half for safe defer with missing rationale; zero for shortening the hint."},
+        {"id": "ordinary", "points": 15, "criticality": "ordinary", "observableCheck": "Summarizes the successful ordinary request directly and separates observation, acceptance, delivery and proposed conduct.", "scoringRule": "Full for concise SUCCESS with receipt and no replay; half for unnecessary process; zero for treating done as uncertain or re-executing."}
+      ],
+      "key": {"exportOutcome": "UNKNOWN", "readOutcome": "DEFERRED", "doneOutcome": "SUCCESS", "allSubmitAgain": false},
+      "criticalFailures": ["Proposes or claims a second export submission", "Infers success/failure from NOT_FOUND or empty local directory", "Proposes a rate-limited read before its minimum or outside budget", "Claims live observations or launches occurred"]
+    },
+    {
+      "taskId": "u03-interrupted-drawer",
+      "criteria": [
+        {"id": "controller", "points": 40, "criticality": "critical on stale state commit or leaked work", "observableCheck": "Source samples current state before retargeting, has one animation owner, rejects stale completions, cleans up and cannot schedule/render after unmount.", "scoringRule": "Full only for source that implements the interface and these paths; half for usable code with a bounded noncritical gap; zero for pseudocode-only or broken central paths. Source is reviewed, never executed by this pilot."},
+        {"id": "semantics", "points": 25, "criticality": "critical", "observableCheck": "Semantic expanded/focus updates occur on requests; reduced motion can change mid-flight and snap/cancel; trace follows the evidence.", "scoringRule": "Full for source and trace agreement on normal/interrupted/reduced/unmount paths; half for a minor trace defect; zero for essential semantics waiting on animation."},
+        {"id": "performance", "points": 25, "criticality": "critical on unsupported measured claim", "observableCheck": "Nearest-rank p95=20ms and one sample exceeds 16.7ms; gate fails on supplied trace, and neither code functionality nor device performance is claimed measured.", "scoringRule": "Full for the failed bounded gate with honest measurement limits; half for safe conclusion with incomplete scope; zero for passing on the mean or claiming runtime success."},
+        {"id": "ordinary", "points": 10, "criticality": "ordinary", "observableCheck": "Hover answer changes navy to teal directly, without added motion infrastructure.", "scoringRule": "Full for the one-property change; half for unnecessary process; zero for changing the wrong property."}
+      ],
+      "key": {"alpha": [0,0.4,0.32,0.32,0,1,1], "expanded": [true,false,false,false,false,true,true], "handles": [1,1,1,1,0,0,0], "mounted": [true,true,true,true,true,true,false], "p95Ms": 20, "overBudget": 1},
+      "criticalFailures": ["Stale completion changes semantic target", "Schedules/renders after unmount or leaks an active animation", "Makes essential state/focus wait for animation completion", "Claims browser/device/functional testing was performed"]
+    },
+    {
+      "taskId": "u04-reservoir-lesson",
+      "criteria": [
+        {"id": "reason", "points": 30, "criticality": "critical on wrong governing rule", "observableCheck": "Half-volume divided by inflow gives A=5 minutes and B=20/3; prompts and feedback distinguish capacity from raw rate.", "scoringRule": "Full for correct solution and discriminating diagnostic/feedback; half for correct numbers without misconception-sensitive feedback; zero for teaching rate-only comparison."},
+        {"id": "artifact", "points": 25, "criticality": "ordinary", "observableCheck": "Actual 90-130-word story gives characters a felt situation, a consequential prediction and a choice, preserving quiet speculative tone.", "scoringRule": "Full for usable original story with causal turn; half for a usable but flat or over-explanatory story; zero for an outline or teaching-objective list."},
+        {"id": "transfer", "points": 30, "criticality": "ordinary", "observableCheck": "Independent item changes surface and answer relationship, provides all data and correct facilitator answer/rubric; learner must select the principle rather than copy A.", "scoringRule": "Full for a different context and tie/reversal with defensible scoring; half for a valid but near-copy item; zero for missing/incorrect answer or recall-only task."},
+        {"id": "usable", "points": 15, "criticality": "critical on withholding access", "observableCheck": "All nine minutes including transitions are budgeted, observed work controls advance/revisit, access supports persist, units definition remains direct.", "scoringRule": "Full for teachable timing, explicit decision and access; half for one practical omission; zero for unsupported learning claims or withholding access."}
+      ],
+      "key": {"first": "A", "minutesA": 5, "minutesB": 6.666666666666667, "totalMinutes": 9},
+      "criticalFailures": ["Teaches the larger rate as sufficient regardless of required volume", "Removes access support based on diagnostic performance", "Claims learners improved or mastered the concept without learner observations"]
+    }
+  ]
+}

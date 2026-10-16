@@ -1,0 +1,10 @@
+{
+  "observedAt": "2026-10-16T07:18:03.747Z",
+  "operation": "offline codex debug prompt-input; no model call",
+  "exitCode": 1,
+  "stderr": "Error: model_providers contains reserved built-in provider IDs: `openai`. Built-in providers cannot be overridden. Rename your custom provider (for example, `openai-custom`).\nin `model_providers`\n",
+  "stderrSha256": "b8123a51971c14317c81e4786fab646630247e5ee6f456c415870eeb191c5268",
+  "stderrBytes": 197,
+  "repair": "Remove built-in provider retry overrides; do not create another provider. Client-internal retries remain unverified. No harness/model retry is allowed.",
+  "liveModelCalls": 0
+}

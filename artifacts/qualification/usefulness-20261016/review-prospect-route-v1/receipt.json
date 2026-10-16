@@ -1,0 +1,618 @@
+{
+  "schemaVersion": "prospect-route-disposition-v1",
+  "date": "2026-10-16",
+  "verdict": "READY",
+  "decision": "Update only v2 prospect expected owner to eternities-agora plus historical evidence comment. Preserve product and Atlas guard.",
+  "baselineCommit": "7c7f2ac98a282ccb2e59c3a4c0424802a4dd72b5",
+  "candidateReleaseId": "6fa86b80b1a2bb015ea3d747f990da14c763b359912c3a7954499be66817d574",
+  "node": "v24.18.0",
+  "catalogSha256": {
+    "baseline": "adfa5cfed9ac1c6a3ca8db26522e322aa5106ca031884a4de1d8a61dc1a41b36",
+    "candidate": "40a21bf6381051f605db8fa4bc8ccbdbb5700aa3ece7e51f15b4ab301cdab271"
+  },
+  "bindings": [
+    {
+      "path": "product/catalog.json",
+      "currentSha256": "40a21bf6381051f605db8fa4bc8ccbdbb5700aa3ece7e51f15b4ab301cdab271",
+      "baselineSha256": "adfa5cfed9ac1c6a3ca8db26522e322aa5106ca031884a4de1d8a61dc1a41b36"
+    },
+    {
+      "path": "product/release.json",
+      "currentSha256": "301c1f59284c1d8339cc19fd764bf8e651352b318e536bef0ae109990dda7867",
+      "baselineSha256": "752e4596352499e2d601833c30a6c9149fa5ebe5ef7e31f11949d57f4251785e"
+    },
+    {
+      "path": "product/lib/product.mjs",
+      "currentSha256": "afd5689a4120420478995bee762e67cc7ce640f9ce633ae6c6a4f497efcff9bf",
+      "baselineSha256": "afd5689a4120420478995bee762e67cc7ce640f9ce633ae6c6a4f497efcff9bf"
+    },
+    {
+      "path": "product/lib/discovery.mjs",
+      "currentSha256": "5078f81b1f8a4bb00436a1cc50bfaacb8307e5a852a9820ac0badc9e292f4fd4",
+      "baselineSha256": "5078f81b1f8a4bb00436a1cc50bfaacb8307e5a852a9820ac0badc9e292f4fd4"
+    },
+    {
+      "path": "product/lib/selection-boundary.mjs",
+      "currentSha256": "a7b0ed0d0c9805e9a2b97a74c0321ce263c15609e98996144df90fc1b7f0e60e",
+      "baselineSha256": "a7b0ed0d0c9805e9a2b97a74c0321ce263c15609e98996144df90fc1b7f0e60e"
+    },
+    {
+      "path": "product/lib/request-scope.mjs",
+      "currentSha256": "1e670b69ce90a275be081a93179b0295ef2bb97d830680582c6201b3d0f3f4f1",
+      "baselineSha256": "e9055f1bfa2a913c1f73e93f5fa652588963e63dd9094e46713786fe400877f2"
+    },
+    {
+      "path": "product/lib/method-directory.mjs",
+      "currentSha256": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180",
+      "baselineSha256": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180"
+    },
+    {
+      "path": "product/lib/skill-frontmatter.mjs",
+      "currentSha256": "66bfc5b6b56688d2996689f774b5b904ce517a3fda1ec35d4d567cbd63e3a96d",
+      "baselineSha256": "66bfc5b6b56688d2996689f774b5b904ce517a3fda1ec35d4d567cbd63e3a96d"
+    },
+    {
+      "path": "product/skills/eternities-agora/SKILL.md",
+      "currentSha256": "f3e34757a3ff8ac8b067e29101ca05f458c9372fd537ded4cbc2392dce98533c",
+      "baselineSha256": "763bae5c52442699d9422e08ad68fdeb7466638f5bba5cbd6dfa04e1754da9ac"
+    },
+    {
+      "path": "product/skills/eternities-agora/skill.json",
+      "currentSha256": "68b96b25b5399917d54dcc21008bcafc422da99f8765fc4c6c00936da473f860",
+      "baselineSha256": "a59a8eee96b38029b3df31f564fb312b39f44a0716ad0b44f4fbdbaa89a8393f"
+    },
+    {
+      "path": "product/skills/eternities-prometheus/SKILL.md",
+      "currentSha256": "70d043541b328a6bfebd6cd75840aaca8ed94fc22cc10165d1be444f4662fc06",
+      "baselineSha256": "70d043541b328a6bfebd6cd75840aaca8ed94fc22cc10165d1be444f4662fc06"
+    },
+    {
+      "path": "product/skills/eternities-prometheus/skill.json",
+      "currentSha256": "76034d608abd5282b879011c7d03b03c698850b6f422ada4d394f0000c50722a",
+      "baselineSha256": "76034d608abd5282b879011c7d03b03c698850b6f422ada4d394f0000c50722a"
+    },
+    {
+      "path": "tests/wave29-atlas-serving-time-ranking-trace.test.mjs",
+      "currentSha256": "c3b5fe30fb800110299aa009cc0e2450484d8c36f9b41c973bcdb35feedc225e",
+      "baselineSha256": "c3b5fe30fb800110299aa009cc0e2450484d8c36f9b41c973bcdb35feedc225e"
+    },
+    {
+      "path": "tests/wave29-atlas-serving-time-ranking-trace-v2.test.mjs",
+      "currentSha256": "542c066ac06b5cf89ae74ab582aec7afffb86e146ff6045afb0431e94acf47c3",
+      "baselineSha256": "542c066ac06b5cf89ae74ab582aec7afffb86e146ff6045afb0431e94acf47c3"
+    },
+    {
+      "path": "tests/wave29-atlas-serving-time-ranking-trace-v3.test.mjs",
+      "currentSha256": "b6de63423663dfc97e750b819f44e9c12fc862b8e30b656042d9dbe78648ffab",
+      "baselineSha256": "b6de63423663dfc97e750b819f44e9c12fc862b8e30b656042d9dbe78648ffab"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/full-maintained-v1.tap.json",
+      "currentSha256": "2b401d28a81c200e0a686fe00ed98c7b136d0e7b79356f3f7d9f8ba8042e1ade"
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/parent-integration.json",
+      "currentSha256": "ba6cb34363b6d06c7931967c290cc36273fecdaed3ceddfbf2e205cab2ef3621"
+    }
+  ],
+  "cause": {
+    "addedAgoraTriggers": [
+      "commercial discovery questions that distinguish problem fit and adoption feasibility"
+    ],
+    "baselineScore": 27.025,
+    "baselineReason": "Matched: commercial",
+    "candidateScore": 46.579,
+    "candidateReason": "Matched: commercial, fit",
+    "crossPairResult": "All nine fixture top results follow the catalog",
+    "ablationResult": "Removing only new Agora trigger restores historical miss for both changed prospect paraphrases",
+    "querySpecificOverride": false
+  },
+  "probe": {
+    "toolReceipt": "bc0452",
+    "fixtures": 9,
+    "configurations": 5,
+    "observations": 45,
+    "method": "Baseline Git blobs imported using in-memory data module URLs; catalog clones and trigger ablation in memory. searchCatalog only; no write/build APIs invoked.",
+    "allAuthorityNone": true,
+    "allActivationNone": true,
+    "atlasRankNullMeaning": "Absent from requested top ten",
+    "cases": [
+      {
+        "id": "historical-failure",
+        "query": "Score and prioritize prospective enterprise accounts by commercial fit and buying intent.",
+        "observations": {
+          "baseline": {
+            "topIds": [
+              "eternities-prometheus",
+              "interpersonal-understanding-and-dialogue",
+              "narrative-structure-and-revision"
+            ],
+            "atlasRank": null,
+            "selection": "review-required",
+            "abstentionReason": null
+          },
+          "candidate": {
+            "topIds": [
+              "eternities-agora",
+              "interpersonal-understanding-and-dialogue",
+              "narrative-structure-and-revision"
+            ],
+            "atlasRank": null,
+            "selection": "review-required",
+            "abstentionReason": null
+          },
+          "baselineRuntimeCurrentCatalog": {
+            "topIds": [
+              "eternities-agora",
+              "interpersonal-understanding-and-dialogue",
+              "narrative-structure-and-revision"
+            ],
+            "atlasRank": null,
+            "selection": "review-required",
+            "abstentionReason": null
+          },
+          "currentRuntimeBaselineCatalog": {
+            "topIds": [
+              "eternities-prometheus",
+              "interpersonal-understanding-and-dialogue",
+              "narrative-structure-and-revision"
+            ],
+            "atlasRank": null,
+            "selection": "review-required",
+            "abstentionReason": null
+          },
+          "candidateWithoutAddedAgoraTrigger": {
+            "topIds": [
+              "eternities-prometheus",
+              "interpersonal-understanding-and-dialogue",
+              "narrative-structure-and-revision"
+            ],
+            "atlasRank": null,
+            "selection": "review-required",
+            "abstentionReason": null
+          }
+        }
+      },
+      {
+        "id": "existing-direct-prospect",
+        "query": "Prepare a prospect assessment for an enterprise account using commercial fit and buying intent.",
+        "observations": {
+          "baseline": {
+            "topIds": [
+              "eternities-agora",
+              "eternities-prometheus",
+              "narrative-structure-and-revision"
+            ],
+            "atlasRank": null,
+            "selection": "review-required",
+            "abstentionReason": null
+          },
+          "candidate": {
+            "topIds": [
+              "eternities-agora",
+              "narrative-structure-and-revision",
+              "eternities-prometheus"
+            ],
+            "atlasRank": null,
+            "selection": "review-required",
+            "abstentionReason": null
+          },
+          "baselineRuntimeCurrentCatalog": {
+            "topIds": [
+              "eternities-agora",
+              "narrative-structure-and-revision",
+              "eternities-prometheus"
+            ],
+            "atlasRank": null,
+            "selection": "review-required",
+            "abstentionReason": null
+          },
+          "currentRuntimeBaselineCatalog": {
+            "topIds": [
+              "eternities-agora",
+              "eternities-prometheus",
+              "narrative-structure-and-revision"
+            ],
+            "atlasRank": null,
+            "selection": "review-required",
+            "abstentionReason": null
+          },
+          "candidateWithoutAddedAgoraTrigger": {
+            "topIds": [
+              "eternities-agora",
+              "eternities-prometheus",
+              "narrative-structure-and-revision"
+            ],
+            "atlasRank": null,
+            "selection": "review-required",
+            "abstentionReason": null
+          }
+        }
+      },
+      {
+        "id": "existing-weighted-prospect",
+        "query": "Score business prospects from account evidence with weighted dimensions and a denominator.",
+        "observations": {
+          "baseline": {
+            "topIds": [
+              "eternities-agora",
+              "service-observability-and-slo-design",
+              "eternities-prometheus"
+            ],
+            "atlasRank": null,
+            "selection": "review-required",
+            "abstentionReason": null
+          },
+          "candidate": {
+            "topIds": [
+              "eternities-agora",
+              "service-observability-and-slo-design",
+              "eternities-prometheus"
+            ],
+            "atlasRank": null,
+            "selection": "review-required",
+            "abstentionReason": null
+          },
+          "baselineRuntimeCurrentCatalog": {
+            "topIds": [
+              "eternities-agora",
+              "service-observability-and-slo-design",
+              "eternities-prometheus"
+            ],
+            "atlasRank": null,
+            "selection": "review-required",
+            "abstentionReason": null
+          },
+          "currentRuntimeBaselineCatalog": {
+            "topIds": [
+              "eternities-agora",
+              "service-observability-and-slo-design",
+              "eternities-prometheus"
+            ],
+            "atlasRank": null,
+            "selection": "review-required",
+            "abstentionReason": null
+          },
+          "candidateWithoutAddedAgoraTrigger": {
+            "topIds": [
+              "eternities-agora",
+              "service-observability-and-slo-design",
+              "eternities-prometheus"
+            ],
+            "atlasRank": null,
+            "selection": "review-required",
+            "abstentionReason": null
+          }
+        }
+      },
+      {
+        "id": "prospect-paraphrase",
+        "query": "Prioritize prospective enterprise accounts for sales discovery by commercial fit and buying intent.",
+        "observations": {
+          "baseline": {
+            "topIds": [
+              "app-store-discovery-experiments",
+              "product-discovery-and-prioritization",
+              "eternities-prometheus"
+            ],
+            "atlasRank": 7,
+            "selection": "review-required",
+            "abstentionReason": null
+          },
+          "candidate": {
+            "topIds": [
+              "eternities-agora",
+              "app-store-discovery-experiments",
+              "product-discovery-and-prioritization"
+            ],
+            "atlasRank": 8,
+            "selection": "review-required",
+            "abstentionReason": null
+          },
+          "baselineRuntimeCurrentCatalog": {
+            "topIds": [
+              "eternities-agora",
+              "app-store-discovery-experiments",
+              "product-discovery-and-prioritization"
+            ],
+            "atlasRank": 8,
+            "selection": "review-required",
+            "abstentionReason": null
+          },
+          "currentRuntimeBaselineCatalog": {
+            "topIds": [
+              "app-store-discovery-experiments",
+              "product-discovery-and-prioritization",
+              "eternities-prometheus"
+            ],
+            "atlasRank": 7,
+            "selection": "review-required",
+            "abstentionReason": null
+          },
+          "candidateWithoutAddedAgoraTrigger": {
+            "topIds": [
+              "app-store-discovery-experiments",
+              "product-discovery-and-prioritization",
+              "eternities-prometheus"
+            ],
+            "atlasRank": 7,
+            "selection": "review-required",
+            "abstentionReason": null
+          }
+        }
+      },
+      {
+        "id": "commercial-driver-adjacent",
+        "query": "Explain business metric movement before choosing action.",
+        "observations": {
+          "baseline": {
+            "topIds": [
+              "eternities-prometheus",
+              "vendor-evaluation-and-exit-planning",
+              "service-observability-and-slo-design"
+            ],
+            "atlasRank": null,
+            "selection": "review-required",
+            "abstentionReason": null
+          },
+          "candidate": {
+            "topIds": [
+              "eternities-prometheus",
+              "vendor-evaluation-and-exit-planning",
+              "service-observability-and-slo-design"
+            ],
+            "atlasRank": null,
+            "selection": "review-required",
+            "abstentionReason": null
+          },
+          "baselineRuntimeCurrentCatalog": {
+            "topIds": [
+              "eternities-prometheus",
+              "vendor-evaluation-and-exit-planning",
+              "service-observability-and-slo-design"
+            ],
+            "atlasRank": null,
+            "selection": "review-required",
+            "abstentionReason": null
+          },
+          "currentRuntimeBaselineCatalog": {
+            "topIds": [
+              "eternities-prometheus",
+              "vendor-evaluation-and-exit-planning",
+              "service-observability-and-slo-design"
+            ],
+            "atlasRank": null,
+            "selection": "review-required",
+            "abstentionReason": null
+          },
+          "candidateWithoutAddedAgoraTrigger": {
+            "topIds": [
+              "eternities-prometheus",
+              "vendor-evaluation-and-exit-planning",
+              "service-observability-and-slo-design"
+            ],
+            "atlasRank": null,
+            "selection": "review-required",
+            "abstentionReason": null
+          }
+        }
+      },
+      {
+        "id": "retrieval-adjacent",
+        "query": "Improve search result retrieval and rerank documents using query relevance, evidence coverage, and source attribution.",
+        "observations": {
+          "baseline": {
+            "topIds": [
+              "retrieval-grounded-answering",
+              "eternities-atlas",
+              "eternities-oracle"
+            ],
+            "atlasRank": 2,
+            "selection": "review-required",
+            "abstentionReason": null
+          },
+          "candidate": {
+            "topIds": [
+              "retrieval-grounded-answering",
+              "eternities-atlas",
+              "eternities-oracle"
+            ],
+            "atlasRank": 2,
+            "selection": "review-required",
+            "abstentionReason": null
+          },
+          "baselineRuntimeCurrentCatalog": {
+            "topIds": [
+              "retrieval-grounded-answering",
+              "eternities-atlas",
+              "eternities-oracle"
+            ],
+            "atlasRank": 2,
+            "selection": "review-required",
+            "abstentionReason": null
+          },
+          "currentRuntimeBaselineCatalog": {
+            "topIds": [
+              "retrieval-grounded-answering",
+              "eternities-atlas",
+              "eternities-oracle"
+            ],
+            "atlasRank": 2,
+            "selection": "review-required",
+            "abstentionReason": null
+          },
+          "candidateWithoutAddedAgoraTrigger": {
+            "topIds": [
+              "retrieval-grounded-answering",
+              "eternities-atlas",
+              "eternities-oracle"
+            ],
+            "atlasRank": 2,
+            "selection": "review-required",
+            "abstentionReason": null
+          }
+        }
+      },
+      {
+        "id": "serving-adjacent",
+        "query": "For request r-701, explain why the selected personalized recommendation collection differs from raw score order after applying the candidate cutoff and post-score diversity constraint.",
+        "observations": {
+          "baseline": {
+            "topIds": [
+              "eternities-atlas",
+              "counterbalanced-agent-evaluation",
+              "api-contract-design-and-evolution"
+            ],
+            "atlasRank": 1,
+            "selection": "review-required",
+            "abstentionReason": null
+          },
+          "candidate": {
+            "topIds": [
+              "eternities-atlas",
+              "counterbalanced-agent-evaluation",
+              "api-contract-design-and-evolution"
+            ],
+            "atlasRank": 1,
+            "selection": "review-required",
+            "abstentionReason": null
+          },
+          "baselineRuntimeCurrentCatalog": {
+            "topIds": [
+              "eternities-atlas",
+              "counterbalanced-agent-evaluation",
+              "api-contract-design-and-evolution"
+            ],
+            "atlasRank": 1,
+            "selection": "review-required",
+            "abstentionReason": null
+          },
+          "currentRuntimeBaselineCatalog": {
+            "topIds": [
+              "eternities-atlas",
+              "counterbalanced-agent-evaluation",
+              "api-contract-design-and-evolution"
+            ],
+            "atlasRank": 1,
+            "selection": "review-required",
+            "abstentionReason": null
+          },
+          "candidateWithoutAddedAgoraTrigger": {
+            "topIds": [
+              "eternities-atlas",
+              "counterbalanced-agent-evaluation",
+              "api-contract-design-and-evolution"
+            ],
+            "atlasRank": 1,
+            "selection": "review-required",
+            "abstentionReason": null
+          }
+        }
+      },
+      {
+        "id": "literal-no-skill",
+        "query": "Lowercase the literal text 'Commercial Fit and Buying Intent'. Give only the text.",
+        "observations": {
+          "baseline": {
+            "topIds": [],
+            "atlasRank": null,
+            "selection": "abstain",
+            "abstentionReason": "explicit-limited-micro-task"
+          },
+          "candidate": {
+            "topIds": [],
+            "atlasRank": null,
+            "selection": "abstain",
+            "abstentionReason": "explicit-limited-micro-task"
+          },
+          "baselineRuntimeCurrentCatalog": {
+            "topIds": [],
+            "atlasRank": null,
+            "selection": "abstain",
+            "abstentionReason": "explicit-limited-micro-task"
+          },
+          "currentRuntimeBaselineCatalog": {
+            "topIds": [],
+            "atlasRank": null,
+            "selection": "abstain",
+            "abstentionReason": "explicit-limited-micro-task"
+          },
+          "candidateWithoutAddedAgoraTrigger": {
+            "topIds": [],
+            "atlasRank": null,
+            "selection": "abstain",
+            "abstentionReason": "explicit-limited-micro-task"
+          }
+        }
+      },
+      {
+        "id": "explicit-no-skill",
+        "query": "Score and prioritize prospective enterprise accounts by commercial fit and buying intent.",
+        "need": "none",
+        "observations": {
+          "baseline": {
+            "topIds": [],
+            "atlasRank": null,
+            "selection": "abstain",
+            "abstentionReason": "host-supplied-no-need"
+          },
+          "candidate": {
+            "topIds": [],
+            "atlasRank": null,
+            "selection": "abstain",
+            "abstentionReason": "host-supplied-no-need"
+          },
+          "baselineRuntimeCurrentCatalog": {
+            "topIds": [],
+            "atlasRank": null,
+            "selection": "abstain",
+            "abstentionReason": "host-supplied-no-need"
+          },
+          "currentRuntimeBaselineCatalog": {
+            "topIds": [],
+            "atlasRank": null,
+            "selection": "abstain",
+            "abstentionReason": "host-supplied-no-need"
+          },
+          "candidateWithoutAddedAgoraTrigger": {
+            "topIds": [],
+            "atlasRank": null,
+            "selection": "abstain",
+            "abstentionReason": "host-supplied-no-need"
+          }
+        }
+      }
+    ]
+  },
+  "focusedTests": {
+    "toolReceipt": "f328c6",
+    "command": "node --test --test-concurrency=1 --test-reporter=tap --test-name-pattern='adjacent ranking tasks|Atlas metadata does not displace|prospect' tests/wave29-atlas-serving-time-ranking-trace.test.mjs tests/wave29-atlas-serving-time-ranking-trace-v2.test.mjs tests/wave29-atlas-serving-time-ranking-trace-v3.test.mjs",
+    "tests": 4,
+    "pass": 3,
+    "fail": 1,
+    "skip": 0,
+    "failedCase": "Exact prospect paraphrase: actual eternities-agora; historical expected eternities-prometheus",
+    "exitStatusNote": "TAP explicitly failed. Enclosing read command returned 0 after a subsequent successful Git diff; that shell status is not claimed as a passing test result."
+  },
+  "parentSuite": {
+    "receipt": "artifacts/qualification/usefulness-20261016/full-maintained-v1.tap.json",
+    "tests": 1951,
+    "pass": 1948,
+    "fail": 1,
+    "skip": 2,
+    "independentlyRerun": false
+  },
+  "identityResolution": "Initial Git lookup of 6fa86b80 failed; it is the release ID prefix, resolved through product/release.json and parent-integration.json.",
+  "editsApplied": {
+    "product": false,
+    "tests": false
+  },
+  "limits": [
+    "No green post-update test run; update not applied",
+    "No full suite rerun",
+    "Nine bounded lexical fixtures, not exhaustive semantic assurance",
+    "No source research or external actions",
+    "No providers or descendants",
+    "No evaluator task reads"
+  ]
+}

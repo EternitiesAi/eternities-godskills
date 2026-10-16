@@ -13,7 +13,8 @@
     "retention recovery",
     "growth measurement",
     "creator sponsorship obligation tracking with dated evidence",
-    "creator campaign slate feasibility with quoted usage fees and deliverable coverage"
+    "creator campaign slate feasibility with quoted usage fees and deliverable coverage",
+    "customer onboarding blocked before first useful outcome"
   ],
   "antiTriggers": [
     "routine copy editing",
@@ -38,7 +39,8 @@
     "references/positioning-to-message-v1.md",
     "references/methods.md",
     "references/creator-sponsorship-lifecycle.md",
-    "references/creator-slate-feasibility-v1.md"
+    "references/creator-slate-feasibility-v1.md",
+    "references/customer-onboarding-v1.md"
   ],
   "maturity": "instruction-reviewed",
   "provenance": [
@@ -101,6 +103,26 @@
       "kind": "pattern-reference",
       "source": "coreyhaines31/marketingskills@dda3841f0b294e01e93b1541486beefbfab0915e:skills/sales-enablement/SKILL.md",
       "note": "Exact body SHA-256 811a8bb462be4e04344a0ed43d485cf124f2a339e3a53f3e6749bc185081a274 informed only the defensible representative-claim pattern in creator-slate-feasibility-v1.md. Original synthesis; no deck/demo formats, host paths, integrations or source prose/code copied. Root MIT notice observed and retained, not broader rights clearance or a performance claim."
+    },
+    {
+      "kind": "authoring",
+      "source": "product/skills/eternities-beacon/references/customer-onboarding-v1.md",
+      "note": "Original conditional method. Exact source identities and observed notices are retained in this metadata; repository evidence preserves source bodies, independent review and versioned corrections. No source rights or performance status transfers to this method."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "coreyhaines31/marketingskills@dda3841f0b294e01e93b1541486beefbfab0915e:skills/onboarding/SKILL.md",
+      "note": "Observed body SHA-256 ca219e0ba8f931888e2a634624ab927206f8ef26aeca2250399c3c48da0341e0; MIT root notice. Define customer value and inspect the transitions from setup to a usable result. Root notice is evidence, not broader compatibility or rights certification. Source remains inert; prose, code and unsupported performance claims were not adopted."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "coreyhaines31/marketingskills@dda3841f0b294e01e93b1541486beefbfab0915e:skills/onboarding/references/minimum-path-to-value.md",
+      "note": "Observed body SHA-256 c2b7c71b8436a1456888a26b9c8892c33cd9e1b1bf758f6fd7282c00f87dcdc3; MIT root notice. Inspect each setup prerequisite against a concrete first result. Root notice is evidence, not broader compatibility or rights certification. Source remains inert; prose, code and unsupported performance claims were not adopted."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "coreyhaines31/marketingskills@dda3841f0b294e01e93b1541486beefbfab0915e:skills/onboarding/references/activation-models.md",
+      "note": "Observed body SHA-256 a13e82d8e3ebf810a0f0fb51fe91bbe349d8175baee5a97a85934fa20f63a8f7; MIT root notice. Commercial access-model selection is distinct from onboarding an existing eligible customer. Root notice is evidence, not broader compatibility or rights certification. Source remains inert; no source prose or code is redistributed."
     }
   ]
 }

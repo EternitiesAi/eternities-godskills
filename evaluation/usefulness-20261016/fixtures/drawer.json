@@ -1,0 +1,19 @@
+{
+  "synthetic": true,
+  "initial": {"alpha": 0, "expanded": false, "mounted": true, "epoch": 0, "reducedMotion": false},
+  "units": "alpha in [0,1], times and fixed duration in milliseconds",
+  "durationMs": 150,
+  "interpolation": "Linear from alpha at request time to new target over a fresh 150ms duration. Sample current animation at request time before retargeting. A stale complete(epoch) must do nothing, including no sampling. Every new request increments epoch once; enabling reduced motion invalidates prior work. schedule(callback) returns one cancelable handle; at most one active handle. render(alpha) changes appearance only. Semantic expanded changes immediately on request; closing restores focus then, not in a completion callback. No render or scheduling after unmount.",
+  "brokenBehavior": "Every request restarts alpha at an endpoint and leaves its old loop active. Every completion sets expanded=true. Reduced-motion only changes a CSS duration. Unmount leaves handles alive.",
+  "events": [
+    {"id": "e0", "time": 0, "call": "request(true,0)"},
+    {"id": "e1", "time": 60, "call": "request(false,60)"},
+    {"id": "e2", "time": 90, "call": "tick(90)"},
+    {"id": "e3", "time": 91, "call": "complete(1)"},
+    {"id": "e4", "time": 100, "call": "reducedMotion(true,100)"},
+    {"id": "e5", "time": 110, "call": "request(true,110)"},
+    {"id": "e6", "time": 120, "call": "unmount()"}
+  ],
+  "frameObservations": {"target": "one synthetic trace, not a device benchmark", "frameMs": [8,10,10,12,20], "budgetMs": 16.7, "statistic": "nearest-rank p95", "functionalGateObserved": false},
+  "ordinaryQuestion": "Existing CSS is .button:hover { color: navy; }. I only want the hover text color teal. What should change?"
+}

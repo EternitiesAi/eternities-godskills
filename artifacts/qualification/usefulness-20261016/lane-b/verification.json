@@ -1,0 +1,61 @@
+{
+  "schema": "godskills-usefulness-lane-b-author-verification-v1",
+  "date": "2026-10-16",
+  "scope": "Author-side structural and numerical validation only",
+  "result": "pass",
+  "toolReceiptChunkId": "70655a",
+  "assertions": 143,
+  "sha256Checks": 37,
+  "numericExampleAssertions": 8,
+  "checksPerformed": [
+    "Parsed proposals.json and sources.json as JSON.",
+    "Required proposal fields, four unique method IDs, candidate path containment and ten-source ceiling.",
+    "Four candidate hashes and proposed directory-row hash/status bindings.",
+    "Twenty application cases remain proposed-not-executed; inline source records match ledger identities.",
+    "Exact source, notice, current-coverage, task-contract, guidance and warehouse-index SHA-256 comparisons.",
+    "Current branch, baseline HEAD and 93 product skill directories.",
+    "Synthetic exclusive-layer weights 0.3/0.2/0.5 and sum one; 60 Hz frame interval; half-dimension pixel ratio; three ring-mask sample values.",
+    "Read-only Git selected-path status for the three source repositories reported no changes.",
+    "Six actual untracked files scanned for trailing whitespace and conflict markers; pass."
+  ],
+  "limitations": [
+    "No product code, source code, engine, HTML scripts or examples executed.",
+    "git diff --check was also issued but does not validate these untracked files; the actual-file scan is the relevant whitespace check.",
+    "No discovery or runtime tests; 20 proposed application checks have not been executed.",
+    "No independent document acceptance, comparison result, rendered frame, measured performance or human verdict.",
+    "Two early existence probes used nonexistent metadata.json/references paths; actual skill.json and resource arrays were then read. Performance-release-gating has no current references.",
+    "A truncated multi-source output was repaired with bounded follow-up reads; no truncated read was treated as complete."
+  ],
+  "frozenCandidateAndEvidenceManifest": [
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-b/animation-interruption-transitions.md",
+      "sha256": "c52ddfa5c2a0fdbfa0f566ca4b16fb997ee1534e530016f006fa4725896ee722",
+      "bytes": 7042
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-b/frame-budget-diagnosis.md",
+      "sha256": "ea504b2fb3d0319a4fffc727c8e3b4b33d20ea564ca08185c458ce72f6db764e",
+      "bytes": 7285
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-b/lighting-material-calibration.md",
+      "sha256": "b5fc4b218b27422c32f3048fec007ec6267a480d57f34a4685b850ccfe89aadb",
+      "bytes": 6280
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-b/proposals.json",
+      "sha256": "5bf8bed5a1da288a136f3d49904cecb9eff79e65bd35965aa003c96b3b598cfc",
+      "bytes": 54278
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-b/shader-effect-construction.md",
+      "sha256": "3dadf6801d00479d886dd49605bd73608e3ff27f4ff140d8481a573f0462823d",
+      "bytes": 6838
+    },
+    {
+      "path": "artifacts/qualification/usefulness-20261016/lane-b/sources.json",
+      "sha256": "4a7bf735a90ca760dd3887588cda6c593edc54f5e8b0bea34390e71f2c7d1d15",
+      "bytes": 18697
+    }
+  ]
+}

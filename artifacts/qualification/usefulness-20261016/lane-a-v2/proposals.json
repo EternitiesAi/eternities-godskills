@@ -1,0 +1,824 @@
+{
+  "schemaVersion": 1,
+  "contract": "2026-10-16-usefulness-release / Task 2",
+  "baseline": "7c7f2ac98a282ccb2e59c3a4c0424802a4dd72b5",
+  "branch": "feat/usefulness-release-20261016",
+  "lane": "lane-a",
+  "status": "draft-for-independent-instruction-review",
+  "evidencePath": "artifacts/qualification/usefulness-20261016/lane-a/evidence.json",
+  "sharedBoundary": "No product modifications, shared catalog rebuild, source execution, evaluation access, descendants, commits or installation. Parent-only adoption after independent review.",
+  "proposals": [
+    {
+      "id": "A1",
+      "owner": "eternities-agora",
+      "job": "Commercial discovery and qualification",
+      "disposition": "refine-existing-owner",
+      "status": "draft-for-independent-instruction-review",
+      "currentCoverageComparison": {
+        "retained": "Agora already separates recorded pipeline stage from evidence-supported stage, preserves gaps and chooses bounded actions. Prometheus already routes product discovery and cheap discriminating tests; Beacon already handles buyer alternatives and defensible positioning. None of the inspected methods spells out selecting a discovery question by its alternative answers and next-action consequences while independently testing problem, solution fit and adoption feasibility.",
+        "weakMechanism": "Generic evidence gathering can leave a polished qualification packet without a question that changes the next commercial action.",
+        "addedDecision": "Recent-event contrast plus answer-to-action question selection and a bounded fit test; no new qualification score.",
+        "readEvidencePaths": [
+          "product/skills/eternities-agora/SKILL.md",
+          "product/skills/eternities-agora/skill.json",
+          "product/skills/eternities-agora/references/methods.md",
+          "product/skills/eternities-agora/references/business-decision-evidence.md"
+        ],
+        "comparisonOwnerIds": [
+          "eternities-agora",
+          "eternities-prometheus",
+          "eternities-beacon",
+          "operating-cadence-and-decision-accountability",
+          "evidence-linked-learning-design"
+        ],
+        "evidenceIdentity": "artifacts/qualification/usefulness-20261016/lane-a/evidence.json#/current"
+      },
+      "exactSourceRecords": [
+        {
+          "id": "discovery",
+          "repository": "msitarzewski/agency-agents",
+          "repositoryPath": "D:\\03-ARSENAL\\warehouse\\catalog-c\\agent-skills\\agency-agents",
+          "relativePath": "sales/sales-discovery-coach.md",
+          "indexHead": "ad9264e309bd5e5422c04784372d7841b1e5d604",
+          "observedHead": "ad9264e309bd5e5422c04784372d7841b1e5d604",
+          "sha256": "8244a25e5b8785058b19ef92dca9e543a2c990e4dde1166d194f14514e3ae278",
+          "bytes": 13591,
+          "headBlob": "76b82c89c7a3f90d784d8ae2e893d914b1d6dc7b",
+          "observedBlob": "76b82c89c7a3f90d784d8ae2e893d914b1d6dc7b",
+          "indexLicenseClass": "permissive",
+          "indexLicenseEvidence": "local root license heuristic; not compatibility certification",
+          "disposition": "pattern-reference",
+          "selectedOrRetainedMechanism": "Use concrete problem examples, root-cause inquiry and explicit fit/no-fit decisions. Comparison with a non-problem occasion and answer-to-action question selection are original author synthesis, not attributed to this source.",
+          "excludedOrWeakMechanism": "Reject persona, claimed experience, fixed timing/ratios, unsupported objection frequencies and pressure to deepen personal pain. Question-to-action branches are original refinement.",
+          "readStatus": "full-body-inspected-as-inert-evidence",
+          "licenseNoticeRef": "licenses[repository=msitarzewski/agency-agents]",
+          "licenseObserved": "MIT root notice",
+          "rightsBoundary": "Root notice is evidence, not broader compatibility or rights certification.",
+          "identity": "msitarzewski/agency-agents@ad9264e309bd5e5422c04784372d7841b1e5d604:sales/sales-discovery-coach.md",
+          "matchesHeadBytes": true
+        }
+      ],
+      "candidateMarkdownPath": "artifacts/qualification/usefulness-20261016/lane-a/commercial-discovery.md",
+      "adoptionDelta": {
+        "owner": "eternities-agora",
+        "newEntrypoint": false,
+        "addResource": {
+          "source": "artifacts/qualification/usefulness-20261016/lane-a/commercial-discovery.md",
+          "target": "product/skills/eternities-agora/references/commercial-discovery-v1.md",
+          "operation": "copy-reviewed-candidate-only-after-acceptance"
+        },
+        "entrypoint": {
+          "path": "product/skills/eternities-agora/SKILL.md",
+          "expectedSha256": "763bae5c52442699d9422e08ad68fdeb7466638f5bba5cbd6dfa04e1754da9ac",
+          "operation": "insert-before-exact-anchor",
+          "anchor": "## Working method",
+          "text": "For a prospect whose next commercial step depends on an unresolved fact, use [decision-changing discovery](references/commercial-discovery-v1.md) to choose questions and fit tests by the actions their answers would change.\n\n"
+        },
+        "metadata": {
+          "path": "product/skills/eternities-agora/skill.json",
+          "expectedSha256": "a59a8eee96b38029b3df31f564fb312b39f44a0716ad0b44f4fbdbaa89a8393f",
+          "operations": [
+            {
+              "op": "add",
+              "path": "/resources/-",
+              "value": "references/commercial-discovery-v1.md"
+            },
+            {
+              "op": "add",
+              "path": "/triggers/-",
+              "value": "commercial discovery questions that distinguish problem fit and adoption feasibility"
+            },
+            {
+              "op": "add",
+              "path": "/provenance/-",
+              "value": {
+                "kind": "authoring",
+                "source": "artifacts/qualification/usefulness-20261016/lane-a/proposals.json#A1",
+                "note": "Original conditional commercial discovery and qualification refinement; exact inert sources and notices are recorded in lane-a/evidence.json. Candidate needs fresh independent instruction review; no observed performance, compatibility clearance or source terminal disposition."
+              }
+            },
+            {
+              "op": "add",
+              "path": "/provenance/-",
+              "value": {
+                "kind": "pattern-reference",
+                "source": "msitarzewski/agency-agents@ad9264e309bd5e5422c04784372d7841b1e5d604:sales/sales-discovery-coach.md",
+                "note": "Observed body SHA-256 8244a25e5b8785058b19ef92dca9e543a2c990e4dde1166d194f14514e3ae278; MIT root notice. Use concrete problem examples, root-cause inquiry and explicit fit/no-fit decisions. Comparison with a non-problem occasion and answer-to-action question selection are original author synthesis, not attributed to this source. Root notice is evidence, not broader compatibility or rights certification. Source remains inert; prose, code and unsupported performance claims were not adopted."
+              }
+            }
+          ],
+          "preserve": [
+            "id",
+            "category",
+            "summary",
+            "antiTriggers",
+            "taskTypes",
+            "related",
+            "specializes when present",
+            "maturity",
+            "all prior resources, triggers and provenance"
+          ]
+        },
+        "reviewGate": "Recheck owner/resource hashes, review exact changed bytes independently, exercise fresh transfer cases, resolve applicable rights boundaries, then let parent integrate additively. Old instruction-reviewed maturity does not review this delta.",
+        "rightsGate": "MIT root notices observed and retained in evidence.json. No broader compatibility clearance claimed.",
+        "applied": false
+      },
+      "freshApplicationChecks": [
+        {
+          "id": "A1-1",
+          "kind": "direct",
+          "prompt": "A facilities buyer reports repeated late visits, but supplied notes point to permit approval rather than travel routing. Draft the next discovery step.",
+          "observableDistinction": "Separate problem existence from offering fit; ask for a recent trace distinguishing permit wait from travel order, with different actions for each.",
+          "counterexample": "Generic discovery question list followed by the same demo regardless of answer.",
+          "status": "proposed-not-executed",
+          "independence": "Author-created transfer check; not hidden evaluator criteria or an independent evaluation."
+        },
+        {
+          "id": "A1-2",
+          "kind": "paraphrase",
+          "prompt": "A team likes our dispatch map, but we cannot tell whether to spend a week building its demo. The biggest complaint is delay.",
+          "observableDistinction": "Choose the uncertainty governing demo usefulness; bound a smaller fit check without manufacturing purchase intent.",
+          "counterexample": "Treat enthusiasm as qualification or require a complete buying committee before any useful local analysis.",
+          "status": "proposed-not-executed",
+          "independence": "Author-created transfer check; not hidden evaluator criteria or an independent evaluation."
+        },
+        {
+          "id": "A1-3",
+          "kind": "exclusion",
+          "prompt": "Summarize a dated account history using the supplied stage policy; no discovery is requested.",
+          "observableDistinction": "Use Agora's existing reconciliation route without imposing an interview.",
+          "counterexample": "Extra mandatory discovery framework.",
+          "status": "proposed-not-executed",
+          "independence": "Author-created transfer check; not hidden evaluator criteria or an independent evaluation."
+        },
+        {
+          "id": "A1-4",
+          "kind": "conflict",
+          "prompt": "The prospect explicitly requires an offline mode the offering does not provide, despite high stated urgency.",
+          "observableDistinction": "Expose a fit conflict and propose decline/narrowing under the owner's rules; do not inflate urgency into fit.",
+          "counterexample": "Automatic positive score from pain, budget or excitement.",
+          "status": "proposed-not-executed",
+          "independence": "Author-created transfer check; not hidden evaluator criteria or an independent evaluation."
+        },
+        {
+          "id": "A1-5",
+          "kind": "boundary",
+          "prompt": "Budget and approver are unknown but an authorized ten-minute sample replay could resolve technical fit.",
+          "observableDistinction": "Keep adoption unknown, permit a proposed limited fit check, and avoid declaring budget absence a universal disqualifier.",
+          "counterexample": "Invented hard qualification rule or forecast probability.",
+          "status": "proposed-not-executed",
+          "independence": "Author-created transfer check; not hidden evaluator criteria or an independent evaluation."
+        }
+      ],
+      "finishCondition": "Candidate Markdown, coverage comparison, exact source identities/notices, proposed owner/metadata delta, worked example and discriminating check descriptions are present. Adoption and outcome evidence remain separate.",
+      "remainingLimits": [
+        "No independent instruction review in this lane.",
+        "No live customer, learner or operations application.",
+        "No efficacy, sales lift, retention, throughput or causal outcome measured.",
+        "No discovery integration, regression suite, export or installation performed."
+      ]
+    },
+    {
+      "id": "A2",
+      "owner": "eternities-beacon",
+      "job": "Customer onboarding",
+      "disposition": "refine-existing-owner",
+      "status": "draft-for-independent-instruction-review",
+      "currentCoverageComparison": {
+        "retained": "Beacon already maps onboarding friction and supplies cohort/metric and experiment controls. Prometheus's commercial-driver diagnosis already distinguishes eligibility, telemetry, prerequisites and user difficulty. Agora already keeps health signals and document/stage evidence distinct. The inspected bodies do not provide a backward first-value dependency path with role-specific stalled-state actions, accepted real output versus preview, and a mature/pending outcome accounting example.",
+        "weakMechanism": "Optimizing checklist completion or adding reminders can leave the actual customer outcome blocked by another actor or by a failed operation.",
+        "addedDecision": "Backward dependency path from an accepted first result; classify stalled transition and preserve cohort opportunity windows.",
+        "readEvidencePaths": [
+          "product/skills/eternities-beacon/SKILL.md",
+          "product/skills/eternities-beacon/skill.json",
+          "product/skills/eternities-beacon/references/methods.md",
+          "product/skills/eternities-beacon/references/positioning-to-message-v1.md"
+        ],
+        "comparisonOwnerIds": [
+          "eternities-agora",
+          "eternities-prometheus",
+          "eternities-beacon",
+          "operating-cadence-and-decision-accountability",
+          "evidence-linked-learning-design"
+        ],
+        "evidenceIdentity": "artifacts/qualification/usefulness-20261016/lane-a/evidence.json#/current"
+      },
+      "exactSourceRecords": [
+        {
+          "id": "onboarding",
+          "repository": "coreyhaines31/marketingskills",
+          "repositoryPath": "D:\\03-ARSENAL\\warehouse\\catalog-c\\agent-skills\\marketingskills",
+          "relativePath": "skills/onboarding/SKILL.md",
+          "indexHead": "dda3841f0b294e01e93b1541486beefbfab0915e",
+          "observedHead": "dda3841f0b294e01e93b1541486beefbfab0915e",
+          "sha256": "ca219e0ba8f931888e2a634624ab927206f8ef26aeca2250399c3c48da0341e0",
+          "bytes": 10234,
+          "headBlob": "e5bfebe9e380888ab09816e00dc94ca45b3eed06",
+          "observedBlob": "e5bfebe9e380888ab09816e00dc94ca45b3eed06",
+          "indexLicenseClass": "permissive",
+          "indexLicenseEvidence": "local root license heuristic; not compatibility certification",
+          "disposition": "pattern-reference",
+          "selectedOrRetainedMechanism": "Define customer value and inspect the transitions from setup to a usable result.",
+          "excludedOrWeakMechanism": "Reject universal benchmarks, retention horizons, pressure, unverified lift and automatic outreach. Add dependency-specific diagnosis and honest pending cohorts.",
+          "readStatus": "full-body-inspected-as-inert-evidence",
+          "licenseNoticeRef": "licenses[repository=coreyhaines31/marketingskills]",
+          "licenseObserved": "MIT root notice",
+          "rightsBoundary": "Root notice is evidence, not broader compatibility or rights certification.",
+          "identity": "coreyhaines31/marketingskills@dda3841f0b294e01e93b1541486beefbfab0915e:skills/onboarding/SKILL.md",
+          "matchesHeadBytes": true
+        },
+        {
+          "id": "minimum-path",
+          "repository": "coreyhaines31/marketingskills",
+          "repositoryPath": "D:\\03-ARSENAL\\warehouse\\catalog-c\\agent-skills\\marketingskills",
+          "relativePath": "skills/onboarding/references/minimum-path-to-value.md",
+          "indexHead": "dda3841f0b294e01e93b1541486beefbfab0915e",
+          "observedHead": "dda3841f0b294e01e93b1541486beefbfab0915e",
+          "sha256": "c2b7c71b8436a1456888a26b9c8892c33cd9e1b1bf758f6fd7282c00f87dcdc3",
+          "bytes": 3152,
+          "headBlob": "1af868cc7bb9463909ad95ffae2211c0462979b3",
+          "observedBlob": "1af868cc7bb9463909ad95ffae2211c0462979b3",
+          "indexLicenseClass": "permissive",
+          "indexLicenseEvidence": "local root license heuristic; not compatibility certification",
+          "disposition": "pattern-reference",
+          "selectedOrRetainedMechanism": "Inspect each setup prerequisite against a concrete first result.",
+          "excludedOrWeakMechanism": "Reject removal as default for required controls, named-product numerical benchmarks and abandonment percentages.",
+          "readStatus": "full-body-inspected-as-inert-evidence",
+          "licenseNoticeRef": "licenses[repository=coreyhaines31/marketingskills]",
+          "licenseObserved": "MIT root notice",
+          "rightsBoundary": "Root notice is evidence, not broader compatibility or rights certification.",
+          "identity": "coreyhaines31/marketingskills@dda3841f0b294e01e93b1541486beefbfab0915e:skills/onboarding/references/minimum-path-to-value.md",
+          "matchesHeadBytes": true
+        },
+        {
+          "id": "activation-models",
+          "repository": "coreyhaines31/marketingskills",
+          "repositoryPath": "D:\\03-ARSENAL\\warehouse\\catalog-c\\agent-skills\\marketingskills",
+          "relativePath": "skills/onboarding/references/activation-models.md",
+          "indexHead": "dda3841f0b294e01e93b1541486beefbfab0915e",
+          "observedHead": "dda3841f0b294e01e93b1541486beefbfab0915e",
+          "sha256": "a13e82d8e3ebf810a0f0fb51fe91bbe349d8175baee5a97a85934fa20f63a8f7",
+          "bytes": 3258,
+          "headBlob": "a6b2c954cf815d532783a5ea9661adbd7adfb58f",
+          "observedBlob": "a6b2c954cf815d532783a5ea9661adbd7adfb58f",
+          "indexLicenseClass": "permissive",
+          "indexLicenseEvidence": "local root license heuristic; not compatibility certification",
+          "disposition": "rejected",
+          "selectedOrRetainedMechanism": "Commercial access-model selection is distinct from onboarding an existing eligible customer.",
+          "excludedOrWeakMechanism": "Reject automatic pricing/trial model changes, conversion multipliers, historical company claims and engineered dissatisfaction; no additional mechanism adopted.",
+          "readStatus": "full-body-inspected-as-inert-evidence",
+          "licenseNoticeRef": "licenses[repository=coreyhaines31/marketingskills]",
+          "licenseObserved": "MIT root notice",
+          "rightsBoundary": "Root notice is evidence, not broader compatibility or rights certification.",
+          "identity": "coreyhaines31/marketingskills@dda3841f0b294e01e93b1541486beefbfab0915e:skills/onboarding/references/activation-models.md",
+          "matchesHeadBytes": true
+        }
+      ],
+      "candidateMarkdownPath": "artifacts/qualification/usefulness-20261016/lane-a/customer-onboarding.md",
+      "adoptionDelta": {
+        "owner": "eternities-beacon",
+        "newEntrypoint": false,
+        "addResource": {
+          "source": "artifacts/qualification/usefulness-20261016/lane-a/customer-onboarding.md",
+          "target": "product/skills/eternities-beacon/references/customer-onboarding-v1.md",
+          "operation": "copy-reviewed-candidate-only-after-acceptance"
+        },
+        "entrypoint": {
+          "path": "product/skills/eternities-beacon/SKILL.md",
+          "expectedSha256": "0456fd877c1d18c3c717998f4eb2b4264a6911f62a1362df6e3356948b9af222",
+          "operation": "insert-before-exact-anchor",
+          "anchor": "## Working method",
+          "text": "When customers complete setup but fail to reach a useful result, use [customer onboarding](references/customer-onboarding-v1.md) to map first-value dependencies, choose a blocker-specific intervention and measure mature versus pending cohorts.\n\n"
+        },
+        "metadata": {
+          "path": "product/skills/eternities-beacon/skill.json",
+          "expectedSha256": "64b3dbde0cfd6f0d658d4baa125f1920b54723ed6911ad42bdb087d40d6cc303",
+          "operations": [
+            {
+              "op": "add",
+              "path": "/resources/-",
+              "value": "references/customer-onboarding-v1.md"
+            },
+            {
+              "op": "add",
+              "path": "/triggers/-",
+              "value": "customer onboarding blocked before first useful outcome"
+            },
+            {
+              "op": "add",
+              "path": "/provenance/-",
+              "value": {
+                "kind": "authoring",
+                "source": "artifacts/qualification/usefulness-20261016/lane-a/proposals.json#A2",
+                "note": "Original conditional customer onboarding refinement; exact inert sources and notices are recorded in lane-a/evidence.json. Candidate needs fresh independent instruction review; no observed performance, compatibility clearance or source terminal disposition."
+              }
+            },
+            {
+              "op": "add",
+              "path": "/provenance/-",
+              "value": {
+                "kind": "pattern-reference",
+                "source": "coreyhaines31/marketingskills@dda3841f0b294e01e93b1541486beefbfab0915e:skills/onboarding/SKILL.md",
+                "note": "Observed body SHA-256 ca219e0ba8f931888e2a634624ab927206f8ef26aeca2250399c3c48da0341e0; MIT root notice. Define customer value and inspect the transitions from setup to a usable result. Root notice is evidence, not broader compatibility or rights certification. Source remains inert; prose, code and unsupported performance claims were not adopted."
+              }
+            },
+            {
+              "op": "add",
+              "path": "/provenance/-",
+              "value": {
+                "kind": "pattern-reference",
+                "source": "coreyhaines31/marketingskills@dda3841f0b294e01e93b1541486beefbfab0915e:skills/onboarding/references/minimum-path-to-value.md",
+                "note": "Observed body SHA-256 c2b7c71b8436a1456888a26b9c8892c33cd9e1b1bf758f6fd7282c00f87dcdc3; MIT root notice. Inspect each setup prerequisite against a concrete first result. Root notice is evidence, not broader compatibility or rights certification. Source remains inert; prose, code and unsupported performance claims were not adopted."
+              }
+            }
+          ],
+          "preserve": [
+            "id",
+            "category",
+            "summary",
+            "antiTriggers",
+            "taskTypes",
+            "related",
+            "specializes when present",
+            "maturity",
+            "all prior resources, triggers and provenance"
+          ]
+        },
+        "reviewGate": "Recheck owner/resource hashes, review exact changed bytes independently, exercise fresh transfer cases, resolve applicable rights boundaries, then let parent integrate additively. Old instruction-reviewed maturity does not review this delta.",
+        "rightsGate": "MIT root notices observed and retained in evidence.json. No broader compatibility clearance claimed.",
+        "applied": false
+      },
+      "freshApplicationChecks": [
+        {
+          "id": "A2-1",
+          "kind": "direct",
+          "prompt": "A service reports 90% checklist completion but recipients have not accepted outputs; some operators lack administrator-provided inputs.",
+          "observableDistinction": "Define the real first result and map input/actor dependencies; choose an admin handoff instead of a universal tour.",
+          "counterexample": "Equate checklist completion or demo output with activation.",
+          "status": "proposed-not-executed",
+          "independence": "Author-created transfer check; not hidden evaluator criteria or an independent evaluation."
+        },
+        {
+          "id": "A2-2",
+          "kind": "paraphrase",
+          "prompt": "People create accounts and click through the wizard, then wait for their team. Give us an onboarding repair.",
+          "observableDistinction": "Locate the missing team action, ownership and completion evidence; preserve account-level identity rather than adding user event totals.",
+          "counterexample": "More tooltips without inspecting the role dependency.",
+          "status": "proposed-not-executed",
+          "independence": "Author-created transfer check; not hidden evaluator criteria or an independent evaluation."
+        },
+        {
+          "id": "A2-3",
+          "kind": "exclusion",
+          "prompt": "Rewrite one signup button without changing the flow.",
+          "observableDistinction": "Perform the copy task without a cohort audit or onboarding redesign.",
+          "counterexample": "Mandatory full lifecycle packet.",
+          "status": "proposed-not-executed",
+          "independence": "Author-created transfer check; not hidden evaluator criteria or an independent evaluation."
+        },
+        {
+          "id": "A2-4",
+          "kind": "conflict",
+          "prompt": "Product recommends skipping an essential consent or correctness prerequisite to shorten time to first output.",
+          "observableDistinction": "Retain the prerequisite and look for a legitimate sequencing or explanation improvement.",
+          "counterexample": "Delete required controls in pursuit of minimum steps.",
+          "status": "proposed-not-executed",
+          "independence": "Author-created transfer check; not hidden evaluator criteria or an independent evaluation."
+        },
+        {
+          "id": "A2-5",
+          "kind": "boundary",
+          "prompt": "Some accounts entered yesterday, others have completed the declared observation window, and one eligible mature account lacks telemetry.",
+          "observableDistinction": "Separate pending opportunity windows and unknown observations; keep mature unknowns in the eligible denominator.",
+          "counterexample": "Drop unknowns, count pending as churn, or report completer-only speed as total success.",
+          "status": "proposed-not-executed",
+          "independence": "Author-created transfer check; not hidden evaluator criteria or an independent evaluation."
+        }
+      ],
+      "finishCondition": "Candidate Markdown, coverage comparison, exact source identities/notices, proposed owner/metadata delta, worked example and discriminating check descriptions are present. Adoption and outcome evidence remain separate.",
+      "remainingLimits": [
+        "No independent instruction review in this lane.",
+        "No live customer, learner or operations application.",
+        "No efficacy, sales lift, retention, throughput or causal outcome measured.",
+        "No discovery integration, regression suite, export or installation performed."
+      ]
+    },
+    {
+      "id": "A3",
+      "owner": "operating-cadence-and-decision-accountability",
+      "job": "Operational bottleneck analysis",
+      "disposition": "refine-existing-owner",
+      "status": "draft-for-independent-instruction-review",
+      "currentCoverageComparison": {
+        "retained": "Current owner already has backlog conservation, age distributions, effective capacity without double subtraction, shared-reviewer caution, WIP/intake and downstream-pilot checks. Prometheus supplies prioritization and bounded operational routing. Retain those methods. Refine the missing operational decision: distinguishing ready-load saturation from starvation, downstream blocking and rework before predicting what one resource change can improve.",
+        "weakMechanism": "The largest queue can be mistaken for the throughput constraint, or the same specialist's capacity can be allocated to several stages independently.",
+        "addedDecision": "Class-specific resource reconciliation, observed ready/blocked states, and a simple assumption-bound counterfactual ceiling before intervention.",
+        "readEvidencePaths": [
+          "product/skills/operating-cadence-and-decision-accountability/SKILL.md",
+          "product/skills/operating-cadence-and-decision-accountability/skill.json",
+          "product/skills/operating-cadence-and-decision-accountability/references/methods.md"
+        ],
+        "comparisonOwnerIds": [
+          "eternities-agora",
+          "eternities-prometheus",
+          "eternities-beacon",
+          "operating-cadence-and-decision-accountability",
+          "evidence-linked-learning-design"
+        ],
+        "evidenceIdentity": "artifacts/qualification/usefulness-20261016/lane-a/evidence.json#/current"
+      },
+      "exactSourceRecords": [
+        {
+          "id": "operations",
+          "repository": "msitarzewski/agency-agents",
+          "repositoryPath": "D:\\03-ARSENAL\\warehouse\\catalog-c\\agent-skills\\agency-agents",
+          "relativePath": "specialized/operations-manager.md",
+          "indexHead": "ad9264e309bd5e5422c04784372d7841b1e5d604",
+          "observedHead": "ad9264e309bd5e5422c04784372d7841b1e5d604",
+          "sha256": "3c133a31ae1542922444d77d7c8f9964127704ba94638dde12e37a9ad0fd35bd",
+          "bytes": 19209,
+          "headBlob": "c4ff42a209ca1e5ef4717bc1183a7e6fd3128fb7",
+          "observedBlob": "c4ff42a209ca1e5ef4717bc1183a7e6fd3128fb7",
+          "indexLicenseClass": "permissive",
+          "indexLicenseEvidence": "local root license heuristic; not compatibility certification",
+          "disposition": "pattern-reference",
+          "selectedOrRetainedMechanism": "Existing owner's recorded source; retain its system-wide constraint and rework awareness.",
+          "excludedOrWeakMechanism": "Existing capacity/cadence mechanisms are adequate. New writing makes ready/blocked/shared-resource counterfactuals explicit; no imported utilization targets or framework mandate.",
+          "readStatus": "full-body-inspected-as-inert-evidence",
+          "licenseNoticeRef": "licenses[repository=msitarzewski/agency-agents]",
+          "licenseObserved": "MIT root notice",
+          "rightsBoundary": "Root notice is evidence, not broader compatibility or rights certification.",
+          "identity": "msitarzewski/agency-agents@ad9264e309bd5e5422c04784372d7841b1e5d604:specialized/operations-manager.md",
+          "matchesHeadBytes": true
+        },
+        {
+          "id": "bottleneck",
+          "repository": "jeremylongworth-source/AgentSkills",
+          "repositoryPath": "D:\\03-ARSENAL\\warehouse\\hunt\\exa-skills-2026-09-20\\jeremylongworth-source__AgentSkills",
+          "relativePath": "skills/ops-bottleneck-review/SKILL.md",
+          "indexHead": "ebf24796e884b9196bdb47373d53dcc547466730",
+          "observedHead": "ebf24796e884b9196bdb47373d53dcc547466730",
+          "sha256": "f51b261e9e83abcc1e3b6a8b23148ad1b191740ed343b747454a98effdbb24dd",
+          "bytes": 1602,
+          "headBlob": "2da60187361947e7f51ce70560d853ffd012dc2a",
+          "observedBlob": "2da60187361947e7f51ce70560d853ffd012dc2a",
+          "indexLicenseClass": "permissive",
+          "indexLicenseEvidence": "local root license heuristic; not compatibility certification",
+          "disposition": "rejected",
+          "selectedOrRetainedMechanism": "Generic symptom/hypothesis/constraint separation is already adequately covered.",
+          "excludedOrWeakMechanism": "No extra skill or generic bottleneck map justified by this source; refine specific diagnosis under existing owner instead.",
+          "readStatus": "full-body-inspected-as-inert-evidence",
+          "licenseNoticeRef": "licenses[repository=jeremylongworth-source/AgentSkills]",
+          "licenseObserved": "MIT root notice",
+          "rightsBoundary": "Root notice is evidence, not broader compatibility or rights certification.",
+          "identity": "jeremylongworth-source/AgentSkills@ebf24796e884b9196bdb47373d53dcc547466730:skills/ops-bottleneck-review/SKILL.md",
+          "matchesHeadBytes": true
+        },
+        {
+          "id": "bottleneck-checklist",
+          "repository": "jeremylongworth-source/AgentSkills",
+          "repositoryPath": "D:\\03-ARSENAL\\warehouse\\hunt\\exa-skills-2026-09-20\\jeremylongworth-source__AgentSkills",
+          "relativePath": "skills/ops-bottleneck-review/references/ops-bottleneck-review-checklist.md",
+          "indexHead": "ebf24796e884b9196bdb47373d53dcc547466730",
+          "observedHead": "ebf24796e884b9196bdb47373d53dcc547466730",
+          "sha256": "a1c5095936564c241b2df7ed66b3232e1c5f92c80294a737ff9181a88470dc62",
+          "bytes": 390,
+          "headBlob": "eee1537390991fa143d0271036988f33cb082452",
+          "observedBlob": "eee1537390991fa143d0271036988f33cb082452",
+          "indexLicenseClass": "permissive",
+          "indexLicenseEvidence": "local root license heuristic; not compatibility certification",
+          "disposition": "rejected",
+          "selectedOrRetainedMechanism": "Checklist categories and action fields duplicate existing coverage.",
+          "excludedOrWeakMechanism": "No copied checklist or extra required paperwork.",
+          "readStatus": "full-body-inspected-as-inert-evidence",
+          "licenseNoticeRef": "licenses[repository=jeremylongworth-source/AgentSkills]",
+          "licenseObserved": "MIT root notice",
+          "rightsBoundary": "Root notice is evidence, not broader compatibility or rights certification.",
+          "identity": "jeremylongworth-source/AgentSkills@ebf24796e884b9196bdb47373d53dcc547466730:skills/ops-bottleneck-review/references/ops-bottleneck-review-checklist.md",
+          "matchesHeadBytes": true
+        }
+      ],
+      "candidateMarkdownPath": "artifacts/qualification/usefulness-20261016/lane-a/operational-bottleneck.md",
+      "adoptionDelta": {
+        "owner": "operating-cadence-and-decision-accountability",
+        "newEntrypoint": false,
+        "addResource": {
+          "source": "artifacts/qualification/usefulness-20261016/lane-a/operational-bottleneck.md",
+          "target": "product/skills/operating-cadence-and-decision-accountability/references/constraint-diagnosis-v1.md",
+          "operation": "copy-reviewed-candidate-only-after-acceptance"
+        },
+        "entrypoint": {
+          "path": "product/skills/operating-cadence-and-decision-accountability/SKILL.md",
+          "expectedSha256": "a03d89234106b30da8e99ffe6e738f58408e03727d2909431a119aca6b5c56c1",
+          "operation": "insert-before-exact-anchor",
+          "anchor": "## Deliverable and finish",
+          "text": "When several queues compete for attention, use [constraint diagnosis](references/constraint-diagnosis-v1.md) to separate ready-work overload, missing inputs, downstream blocking and rework before choosing a capacity or flow intervention.\n\n"
+        },
+        "metadata": {
+          "path": "product/skills/operating-cadence-and-decision-accountability/skill.json",
+          "expectedSha256": "59cf6450920fce4e5fc1ef3f77d0055bc7d7dfda81a58d109646f553e3ca1792",
+          "operations": [
+            {
+              "op": "add",
+              "path": "/resources/-",
+              "value": "references/constraint-diagnosis-v1.md"
+            },
+            {
+              "op": "add",
+              "path": "/triggers/-",
+              "value": "identify throughput constraint versus largest queue and shared resource load"
+            },
+            {
+              "op": "add",
+              "path": "/provenance/-",
+              "value": {
+                "kind": "authoring",
+                "source": "artifacts/qualification/usefulness-20261016/lane-a/proposals.json#A3",
+                "note": "Original conditional operational bottleneck analysis refinement; exact inert sources and notices are recorded in lane-a/evidence.json. Candidate needs fresh independent instruction review; no observed performance, compatibility clearance or source terminal disposition."
+              }
+            },
+            {
+              "op": "add",
+              "path": "/provenance/-",
+              "value": {
+                "kind": "pattern-reference",
+                "source": "msitarzewski/agency-agents@ad9264e309bd5e5422c04784372d7841b1e5d604:specialized/operations-manager.md",
+                "note": "Observed body SHA-256 3c133a31ae1542922444d77d7c8f9964127704ba94638dde12e37a9ad0fd35bd; MIT root notice. Existing owner's recorded source; retain its system-wide constraint and rework awareness. Root notice is evidence, not broader compatibility or rights certification. Source remains inert; prose, code and unsupported performance claims were not adopted."
+              }
+            }
+          ],
+          "preserve": [
+            "id",
+            "category",
+            "summary",
+            "antiTriggers",
+            "taskTypes",
+            "related",
+            "specializes when present",
+            "maturity",
+            "all prior resources, triggers and provenance"
+          ]
+        },
+        "reviewGate": "Recheck owner/resource hashes, review exact changed bytes independently, exercise fresh transfer cases, resolve applicable rights boundaries, then let parent integrate additively. Old instruction-reviewed maturity does not review this delta.",
+        "rightsGate": "MIT root notices observed and retained in evidence.json. No broader compatibility clearance claimed.",
+        "applied": false
+      },
+      "freshApplicationChecks": [
+        {
+          "id": "A3-1",
+          "kind": "direct",
+          "prompt": "A large preparation queue and a smaller review queue compete for investment; reviews share one specialist across two work classes.",
+          "observableDistinction": "Reconcile total specialist load once and test the next-stage acceptance limit; do not rank only queue counts.",
+          "counterexample": "Allocate the full specialist week to each class or optimize the largest queue by default.",
+          "status": "proposed-not-executed",
+          "independence": "Author-created transfer check; not hidden evaluator criteria or an independent evaluation."
+        },
+        {
+          "id": "A3-2",
+          "kind": "paraphrase",
+          "prompt": "Every team is busy but shipping is flat. Which hour of effort would actually change deliveries?",
+          "observableDistinction": "Identify ready work, shared resources and the downstream acceptance condition before selecting a lever.",
+          "counterexample": "Local utilization increase assumed to improve delivered work.",
+          "status": "proposed-not-executed",
+          "independence": "Author-created transfer check; not hidden evaluator criteria or an independent evaluation."
+        },
+        {
+          "id": "A3-3",
+          "kind": "exclusion",
+          "prompt": "Publish the already-agreed weekly status summary.",
+          "observableDistinction": "Use existing records; no forced new process diagnosis.",
+          "counterexample": "Cadence redesign for routine reporting.",
+          "status": "proposed-not-executed",
+          "independence": "Author-created transfer check; not hidden evaluator criteria or an independent evaluation."
+        },
+        {
+          "id": "A3-4",
+          "kind": "conflict",
+          "prompt": "Two stages have equal limiting capacities; one receives more staff.",
+          "observableDistinction": "Show that the unchanged tied stage can preserve the old ceiling.",
+          "counterexample": "Claim the staffed stage's full gain becomes end-to-end gain.",
+          "status": "proposed-not-executed",
+          "independence": "Author-created transfer check; not hidden evaluator criteria or an independent evaluation."
+        },
+        {
+          "id": "A3-5",
+          "kind": "boundary",
+          "prompt": "Queue timestamps are missing and arrival mix changed sharply.",
+          "observableDistinction": "Keep delay attribution and steady-flow forecasts uncertain; propose a short scoped trace or class-specific range.",
+          "counterexample": "Treat missing waits as zero or use WIP/rate as a stable forecast despite growing backlog.",
+          "status": "proposed-not-executed",
+          "independence": "Author-created transfer check; not hidden evaluator criteria or an independent evaluation."
+        }
+      ],
+      "finishCondition": "Candidate Markdown, coverage comparison, exact source identities/notices, proposed owner/metadata delta, worked example and discriminating check descriptions are present. Adoption and outcome evidence remain separate.",
+      "remainingLimits": [
+        "No independent instruction review in this lane.",
+        "No live customer, learner or operations application.",
+        "No efficacy, sales lift, retention, throughput or causal outcome measured.",
+        "No discovery integration, regression suite, export or installation performed."
+      ]
+    },
+    {
+      "id": "A4",
+      "owner": "evidence-linked-learning-design",
+      "job": "Adaptive practice",
+      "disposition": "refine-existing-owner",
+      "status": "draft-for-independent-instruction-review",
+      "currentCoverageComparison": {
+        "retained": "Existing practice-and-transfer already distinguishes imitation, misconception, slip, ambiguous prompts, fresh attempts and later transfer. Existing support-transition already protects learner choice, access, binding and persistence. Prometheus only supplies broad learning routing. Retain these resources unchanged; add an explicit response-hypothesis-to-probe-to-next-item branch with valid alternative solution checks and an undecided/stop outcome.",
+        "weakMechanism": "A correct answer can fit both understanding and a shortcut; a linear difficulty or hint cascade may advance or correct without discriminating them.",
+        "addedDecision": "Response-collision probe with prewritten branch actions, independently checked answer key, fresh items, and bounded uncertainty.",
+        "readEvidencePaths": [
+          "product/skills/evidence-linked-learning-design/SKILL.md",
+          "product/skills/evidence-linked-learning-design/skill.json",
+          "product/skills/evidence-linked-learning-design/references/practice-and-transfer-v1.md",
+          "product/skills/evidence-linked-learning-design/references/support-transition.md"
+        ],
+        "comparisonOwnerIds": [
+          "eternities-agora",
+          "eternities-prometheus",
+          "eternities-beacon",
+          "operating-cadence-and-decision-accountability",
+          "evidence-linked-learning-design"
+        ],
+        "evidenceIdentity": "artifacts/qualification/usefulness-20261016/lane-a/evidence.json#/current"
+      },
+      "exactSourceRecords": [
+        {
+          "id": "practice",
+          "repository": "GarethManning/education-agent-skills",
+          "repositoryPath": "D:\\03-ARSENAL\\warehouse\\from-stars\\GarethManning__education-agent-skills",
+          "relativePath": "skills/explicit-instruction/practice-problem-sequence-designer/SKILL.md",
+          "indexHead": "6bbbce418f82e11044009c9f3b7373a354de5bd0",
+          "observedHead": "6bbbce418f82e11044009c9f3b7373a354de5bd0",
+          "sha256": "3bcf66d76461040cf92e325f4466aef34d4c675eae4d2d4c61950e6dc79654e2",
+          "bytes": 19960,
+          "headBlob": "ace870ea5e6423f6e731fb0e376dc2d6364a64c8",
+          "observedBlob": "ace870ea5e6423f6e731fb0e376dc2d6364a64c8",
+          "indexLicenseClass": "unreviewed",
+          "indexLicenseEvidence": "local root license heuristic; not compatibility certification",
+          "disposition": "pattern-reference",
+          "selectedOrRetainedMechanism": "Contrasting problems expose what a response can and cannot distinguish; current practice/transfer reference already covers most of this.",
+          "excludedOrWeakMechanism": "Retain existing contrast/transfer method. Reject automatic fading, assumed prior teaching, fixed problem positions, success thresholds, learner labels and unverified research-strength claims.",
+          "readStatus": "full-body-inspected-as-inert-evidence",
+          "licenseNoticeRef": "licenses[repository=GarethManning/education-agent-skills]",
+          "licenseObserved": "CC-BY-SA-4.0 human-readable root notice; index remains unreviewed",
+          "rightsBoundary": "Compatibility and whether proposed independent writing constitutes adaptation require parent/reviewer determination before adoption; no source hold cleared.",
+          "identity": "GarethManning/education-agent-skills@6bbbce418f82e11044009c9f3b7373a354de5bd0:skills/explicit-instruction/practice-problem-sequence-designer/SKILL.md",
+          "matchesHeadBytes": true
+        },
+        {
+          "id": "hints",
+          "repository": "GarethManning/education-agent-skills",
+          "repositoryPath": "D:\\03-ARSENAL\\warehouse\\from-stars\\GarethManning__education-agent-skills",
+          "relativePath": "skills/ai-learning-science/adaptive-hint-sequence-designer/SKILL.md",
+          "indexHead": "6bbbce418f82e11044009c9f3b7373a354de5bd0",
+          "observedHead": "6bbbce418f82e11044009c9f3b7373a354de5bd0",
+          "sha256": "4f59e3a5e681dbeb72db4c703a96f1dc53c44c4c9ec18df534071fcd7972882a",
+          "bytes": 21878,
+          "headBlob": "d1c3edc56d21b047ee063cc5e9c00bafeed84b8d",
+          "observedBlob": "d1c3edc56d21b047ee063cc5e9c00bafeed84b8d",
+          "indexLicenseClass": "unreviewed",
+          "indexLicenseEvidence": "local root license heuristic; not compatibility certification",
+          "disposition": "pattern-reference",
+          "selectedOrRetainedMechanism": "Error-specific branching and prerequisite checks inform a bounded next-item decision; source's own limitations acknowledge linear-cascade weakness.",
+          "excludedOrWeakMechanism": "Reject timed escalation, learner-profile labels, forced help delay and automatic aid withdrawal. Source example treats divide-first algebra as erroneous; candidate explicitly accepts equivalent transformations. No source research claims are adopted.",
+          "readStatus": "full-body-inspected-as-inert-evidence",
+          "licenseNoticeRef": "licenses[repository=GarethManning/education-agent-skills]",
+          "licenseObserved": "CC-BY-SA-4.0 human-readable root notice; index remains unreviewed",
+          "rightsBoundary": "Compatibility and whether proposed independent writing constitutes adaptation require parent/reviewer determination before adoption; no source hold cleared.",
+          "identity": "GarethManning/education-agent-skills@6bbbce418f82e11044009c9f3b7373a354de5bd0:skills/ai-learning-science/adaptive-hint-sequence-designer/SKILL.md",
+          "matchesHeadBytes": true
+        }
+      ],
+      "candidateMarkdownPath": "artifacts/qualification/usefulness-20261016/lane-a/adaptive-practice.md",
+      "adoptionDelta": {
+        "owner": "evidence-linked-learning-design",
+        "newEntrypoint": false,
+        "addResource": {
+          "source": "artifacts/qualification/usefulness-20261016/lane-a/adaptive-practice.md",
+          "target": "product/skills/evidence-linked-learning-design/references/adaptive-practice-v1.md",
+          "operation": "copy-reviewed-candidate-only-after-acceptance"
+        },
+        "entrypoint": {
+          "path": "product/skills/evidence-linked-learning-design/SKILL.md",
+          "expectedSha256": "a91d5ffe526e92ed72c541816d6c0310f5ab2d56b82f2c5f91960b778bbed606",
+          "operation": "insert-before-exact-anchor",
+          "anchor": "## Deliver and validate",
+          "text": "When recent learner work leaves competing explanations that imply different next practice, use [adaptive practice](references/adaptive-practice-v1.md) to design one discriminating probe and its next-item branches. This does not change support or retention authority.\n\n"
+        },
+        "metadata": {
+          "path": "product/skills/evidence-linked-learning-design/skill.json",
+          "expectedSha256": "950b371148ed06e650a5d0f9b887d88b904f45febfb4ebadceb0a6d0e54ab473",
+          "operations": [
+            {
+              "op": "add",
+              "path": "/resources/-",
+              "value": "references/adaptive-practice-v1.md"
+            },
+            {
+              "op": "add",
+              "path": "/triggers/-",
+              "value": "choose next practice item from ambiguous learner response and competing explanations"
+            },
+            {
+              "op": "add",
+              "path": "/provenance/-",
+              "value": {
+                "kind": "authoring",
+                "source": "artifacts/qualification/usefulness-20261016/lane-a/proposals.json#A4",
+                "note": "Original conditional adaptive practice refinement; exact inert sources and notices are recorded in lane-a/evidence.json. Candidate needs fresh independent instruction review; no observed performance, compatibility clearance or source terminal disposition."
+              }
+            },
+            {
+              "op": "add",
+              "path": "/provenance/-",
+              "value": {
+                "kind": "pattern-reference",
+                "source": "GarethManning/education-agent-skills@6bbbce418f82e11044009c9f3b7373a354de5bd0:skills/explicit-instruction/practice-problem-sequence-designer/SKILL.md",
+                "note": "Observed body SHA-256 3bcf66d76461040cf92e325f4466aef34d4c675eae4d2d4c61950e6dc79654e2; CC-BY-SA-4.0 human-readable root notice; index remains unreviewed. Contrasting problems expose what a response can and cannot distinguish; current practice/transfer reference already covers most of this. Compatibility and whether proposed independent writing constitutes adaptation require parent/reviewer determination before adoption; no source hold cleared. Source remains inert; prose, code and unsupported performance claims were not adopted."
+              }
+            },
+            {
+              "op": "add",
+              "path": "/provenance/-",
+              "value": {
+                "kind": "pattern-reference",
+                "source": "GarethManning/education-agent-skills@6bbbce418f82e11044009c9f3b7373a354de5bd0:skills/ai-learning-science/adaptive-hint-sequence-designer/SKILL.md",
+                "note": "Observed body SHA-256 4f59e3a5e681dbeb72db4c703a96f1dc53c44c4c9ec18df534071fcd7972882a; CC-BY-SA-4.0 human-readable root notice; index remains unreviewed. Error-specific branching and prerequisite checks inform a bounded next-item decision; source's own limitations acknowledge linear-cascade weakness. Compatibility and whether proposed independent writing constitutes adaptation require parent/reviewer determination before adoption; no source hold cleared. Source remains inert; prose, code and unsupported performance claims were not adopted."
+              }
+            }
+          ],
+          "preserve": [
+            "id",
+            "category",
+            "summary",
+            "antiTriggers",
+            "taskTypes",
+            "related",
+            "specializes when present",
+            "maturity",
+            "all prior resources, triggers and provenance"
+          ]
+        },
+        "reviewGate": "Recheck owner/resource hashes, review exact changed bytes independently, exercise fresh transfer cases, resolve applicable rights boundaries, then let parent integrate additively. Old instruction-reviewed maturity does not review this delta.",
+        "rightsGate": "CC-BY-SA-4.0 root notice observed; index remains unreviewed. Independent expression is author intent, not a license-compatibility ruling. Parent/reviewer must resolve whether adaptation obligations apply before product adoption. Existing holds stay intact.",
+        "applied": false
+      },
+      "freshApplicationChecks": [
+        {
+          "id": "A4-1",
+          "kind": "direct",
+          "prompt": "A learner answers a same-denominator fraction comparison correctly using a numerator-only explanation. Choose the next item.",
+          "observableDistinction": "Use a comparison on which principle and shortcut disagree; provide answer reasoning and differentiated next items.",
+          "counterexample": "Increase arithmetic difficulty just because the answer was correct.",
+          "status": "proposed-not-executed",
+          "independence": "Author-created transfer check; not hidden evaluator criteria or an independent evaluation."
+        },
+        {
+          "id": "A4-2",
+          "kind": "paraphrase",
+          "prompt": "Two learners got three of four right, but one used a revealed solution and the other made an arithmetic slip. Give each a useful next problem.",
+          "observableDistinction": "Use actual work and aid state; do not assign the same next difficulty solely by score.",
+          "counterexample": "Treat aggregate correctness as equivalent evidence or revealed work as independent.",
+          "status": "proposed-not-executed",
+          "independence": "Author-created transfer check; not hidden evaluator criteria or an independent evaluation."
+        },
+        {
+          "id": "A4-3",
+          "kind": "exclusion",
+          "prompt": "Produce a fixed five-item worksheet with solutions; no adaptive delivery is requested.",
+          "observableDistinction": "Use existing practice/transfer method without a mandatory learner-state model.",
+          "counterexample": "Persistent tracking or branching infrastructure added by default.",
+          "status": "proposed-not-executed",
+          "independence": "Author-created transfer check; not hidden evaluator criteria or an independent evaluation."
+        },
+        {
+          "id": "A4-4",
+          "kind": "conflict",
+          "prompt": "A learner divides every term of an equation on both sides before subtracting and obtains an equivalent equation.",
+          "observableDistinction": "Validate equivalence and accept the method; correct only an actual error.",
+          "counterexample": "Preferred solution order treated as the only valid order.",
+          "status": "proposed-not-executed",
+          "independence": "Author-created transfer check; not hidden evaluator criteria or an independent evaluation."
+        },
+        {
+          "id": "A4-5",
+          "kind": "boundary",
+          "prompt": "A learner requests help or cannot access the prompt; a prior answer is consistent with several explanations.",
+          "observableDistinction": "Provide help/access and retain uncertainty; no forced delay, profile inference or automatic aid removal.",
+          "counterexample": "Timeout used as a misconception diagnosis or help withheld to collect a probe.",
+          "status": "proposed-not-executed",
+          "independence": "Author-created transfer check; not hidden evaluator criteria or an independent evaluation."
+        }
+      ],
+      "finishCondition": "Candidate Markdown, coverage comparison, exact source identities/notices, proposed owner/metadata delta, worked example and discriminating check descriptions are present. Adoption and outcome evidence remain separate.",
+      "remainingLimits": [
+        "No independent instruction review in this lane.",
+        "No live customer, learner or operations application.",
+        "No efficacy, sales lift, retention, throughput or causal outcome measured.",
+        "No discovery integration, regression suite, export or installation performed."
+      ]
+    }
+  ]
+}

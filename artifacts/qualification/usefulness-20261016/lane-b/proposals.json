@@ -1,0 +1,850 @@
+{
+  "schema": "godskills-usefulness-lane-b-proposals-v1",
+  "date": "2026-10-16",
+  "branch": "feat/usefulness-release-20261016",
+  "baseline": "7c7f2ac98a282ccb2e59c3a4c0424802a4dd72b5",
+  "portableCoreEntrypointCountObserved": 93,
+  "installedContentIdentityFromSpec": "368d5a716bd3b8069ba5ba858f8db8f7fba8b19c36aa373fc62c19d8a2b55efb",
+  "installedContentVerification": "Spec identity only; no installed-tree access or change.",
+  "scope": "artifacts/qualification/usefulness-20261016/lane-b/**",
+  "sourceLedgerPath": "artifacts/qualification/usefulness-20261016/lane-b/sources.json",
+  "independentReview": "Pending separate reviewer; no reviewer outputs read. Author checks are not independent acceptance.",
+  "proposals": [
+    {
+      "id": "shader-effect-construction",
+      "owner": "eternities-arcadia",
+      "job": "Construct a bounded interactive shader/effect and isolate wrong or missing output.",
+      "disposition": "refine-existing-owner-with-conditional-reference",
+      "status": "draft-awaiting-independent-review",
+      "currentCoverageComparison": {
+        "readset": [
+          {
+            "path": "product/skills/eternities-arcadia/SKILL.md",
+            "sha256": "ac0ef2950f34981c72dad4143ad3752b289d3f95877ee68aa464195c8818b282"
+          },
+          {
+            "path": "product/skills/eternities-arcadia/skill.json",
+            "sha256": "eeaefbc6c4c89338b38664002a266cf54c9530e610f44874386bf7284e67933e"
+          },
+          {
+            "path": "product/skills/eternities-arcadia/references/realtime-asset-integration.md",
+            "sha256": "a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41"
+          },
+          {
+            "path": "product/skills/eternities-arcadia/references/browser-runtime-lifecycle.md",
+            "sha256": "92f138939846c57ad5de1d36fd1c60d11341e29a91fcaecb03c942397ad93853"
+          },
+          {
+            "path": "product/skills/eternities-muse/SKILL.md",
+            "sha256": "34fccadc01b49dcb8097641a6a6153dabd119dd55ba9f31781c7bfa4c4c1ac73"
+          }
+        ],
+        "finding": "Arcadia metadata already advertises interactive WebGL shader/effect work; its inspected bodies cover imports, texture interpretation and lifecycle. They do not give a carrier/mask/motion/composition construction or a compiler-to-draw-to-fragment-to-compositor fault split. Muse owns direction and visual acceptance and explicitly excludes ordinary graphics debugging in metadata.",
+        "retain": "Retain input/output color interpretation, imported asset checks, browser lifecycle and Muse direction; reference them by task rather than duplicate full workflows."
+      },
+      "sourceRecords": [
+        {
+          "id": "three-debug",
+          "repositoryId": "mrdoob/three.js",
+          "warehousePath": "D:/03-ARSENAL/warehouse/catalog-c/games/3d/three-js",
+          "relativePath": "manual/pages/debugging-glsl.html",
+          "indexHead": "d2ac59a15620ff8696dd55983c1f411c0a3f92ce",
+          "observedHead": "d2ac59a15620ff8696dd55983c1f411c0a3f92ce",
+          "sha256": "66ccad7ff3f1e46ae4411b2192dc8838146ec0e2633e175c032d32792f5bfed8",
+          "readStatus": "complete-inert-text-read",
+          "selectedPathGitStatus": "no changes reported",
+          "authority": "bundled upstream Three.js manual snapshot",
+          "licenseRecord": "three-license",
+          "disposition": "pattern-reference",
+          "mechanism": "Constant-output and basic-material substitutions; diagnostic input visualization.",
+          "excludedOrUnverified": "Do not install the suggested browser extension; unchanged opaque output does not rule out depth or later-pass failure.",
+          "originalDelta": "Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied."
+        },
+        {
+          "id": "three-post",
+          "repositoryId": "mrdoob/three.js",
+          "warehousePath": "D:/03-ARSENAL/warehouse/catalog-c/games/3d/three-js",
+          "relativePath": "manual/pages/post-processing.html",
+          "indexHead": "d2ac59a15620ff8696dd55983c1f411c0a3f92ce",
+          "observedHead": "d2ac59a15620ff8696dd55983c1f411c0a3f92ce",
+          "sha256": "777a324f30f000687b1b5c9ed7e476166b8b09cf13e1d63ee84d89a0071dabcf",
+          "readStatus": "complete-inert-text-read",
+          "selectedPathGitStatus": "no changes reported",
+          "authority": "bundled upstream Three.js manual snapshot",
+          "licenseRecord": "three-license",
+          "disposition": "pattern-reference",
+          "mechanism": "Ordered image passes, separate read/write buffers, output transform, sizing and time inputs.",
+          "excludedOrUnverified": "No bloom recipe or fixed pass list adopted; APIs remain snapshot-specific and no examples executed.",
+          "originalDelta": "Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied."
+        },
+        {
+          "id": "three-color",
+          "repositoryId": "mrdoob/three.js",
+          "warehousePath": "D:/03-ARSENAL/warehouse/catalog-c/games/3d/three-js",
+          "relativePath": "manual/pages/color-management.html",
+          "indexHead": "d2ac59a15620ff8696dd55983c1f411c0a3f92ce",
+          "observedHead": "d2ac59a15620ff8696dd55983c1f411c0a3f92ce",
+          "sha256": "1631497a3fade74ee423887f5a339fa580cda8fdeba4b5c9d90d47b93e8f5e5e",
+          "readStatus": "complete-inert-text-read",
+          "selectedPathGitStatus": "no changes reported",
+          "authority": "bundled upstream Three.js manual snapshot",
+          "licenseRecord": "three-license",
+          "disposition": "pattern-reference",
+          "mechanism": "Input/working/output color roles; non-color channels; duplicate output conversion failure.",
+          "excludedOrUnverified": "No external viewers, images or diagrams acquired; no latest-version or gamut-support claim adopted.",
+          "originalDelta": "Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied."
+        },
+        {
+          "id": "ue-materials",
+          "repositoryId": "quodsoler/unreal-engine-skills",
+          "warehousePath": "D:/03-ARSENAL/warehouse/from-stars/quodsoler__unreal-engine-skills",
+          "relativePath": "skills/ue-materials-rendering/SKILL.md",
+          "indexHead": "f3742d7b688690810df369802b90430324e380b9",
+          "observedHead": "f3742d7b688690810df369802b90430324e380b9",
+          "sha256": "ff708688124bffa3d92f4cd849255bc956f3da23ae96566f44c67b6491bbf0f6",
+          "readStatus": "complete-inert-text-read",
+          "selectedPathGitStatus": "no changes reported",
+          "authority": "third-party workflow; not engine documentation",
+          "licenseRecord": "ue-license",
+          "disposition": "pattern-reference",
+          "mechanism": "Per-instance versus shared parameters; static permutations; postprocess override ownership; extra scene renders and readback cost.",
+          "excludedOrUnverified": "No C++ copied; claimed UE 5.8 API correctness, renderer defaults and performance not certified.",
+          "originalDelta": "Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied."
+        },
+        {
+          "id": "unity-workflow",
+          "repositoryId": "lovecatisgood-sudo/3d-asset-generation-blender-unity-game-development-skills",
+          "warehousePath": "D:/03-ARSENAL/warehouse/hunt/exa-skills-2026-09-20/lovecatisgood-sudo__3d-asset-generation-blender-unity-game-development-skills",
+          "relativePath": "skills/unity-mcp-game-development/SKILL.md",
+          "indexHead": "00221bb0a8ffcb8eb577daf5ddf9e8d8edcdbc98",
+          "observedHead": "00221bb0a8ffcb8eb577daf5ddf9e8d8edcdbc98",
+          "sha256": "d380f5c275d1c0db18275f308e04b4e04650cb1c00579d8d318a16c98b8c33a9",
+          "readStatus": "complete-inert-text-read",
+          "selectedPathGitStatus": "no changes reported",
+          "authority": "third-party workflow; not engine documentation",
+          "licenseRecord": "unity-license",
+          "disposition": "pattern-reference",
+          "mechanism": "Installed engine/render-pipeline binding, gameplay truth separate from presentation, target-build profiling.",
+          "excludedOrUnverified": "General workflow only; precise Animator/Shader Graph/profiler APIs deferred; no MCP connection, setup or security action.",
+          "originalDelta": "Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied."
+        }
+      ],
+      "candidateMarkdownPath": "artifacts/qualification/usefulness-20261016/lane-b/shader-effect-construction.md",
+      "candidateSha256": "3dadf6801d00479d886dd49605bd73608e3ff27f4ff140d8481a573f0462823d",
+      "adoptionDelta": "Add an incremental effect construction, explicit pass-edge meaning, constant-output fault isolation and restoration of diagnostic state. The worked ring separates coordinate/aspect defects from alpha and postprocess defects.",
+      "proposedConditionalLink": {
+        "path": "product/skills/eternities-arcadia/SKILL.md",
+        "text": "For constructing an interactive shader/effect or isolating missing or wrong output, use [shader/effect construction and fault isolation](references/shader-effect-construction.md)."
+      },
+      "proposedMetadataAdditions": {
+        "path": "product/skills/eternities-arcadia/skill.json",
+        "appendResources": [
+          "references/shader-effect-construction.md"
+        ],
+        "appendTriggers": [
+          "construct or debug an interactive shader effect, mask, transparency or postprocess pass"
+        ],
+        "provenance": {
+          "kind": "authoring",
+          "source": "artifacts/qualification/usefulness-20261016/lane-b/proposals.json",
+          "note": "Original source-bound conditional method shader-effect-construction; resolve exact source records in sources.json. New bytes require independent review; no inherited maturity or performance claim."
+        },
+        "maturityChange": "none",
+        "removeOrReplaceExistingRows": []
+      },
+      "proposedMethodDirectoryRow": {
+        "id": "shader-effect-construction",
+        "title": "Shader/effect construction and fault isolation",
+        "owner": "eternities-arcadia",
+        "resource": "skills/eternities-arcadia/references/shader-effect-construction.md",
+        "resourceSha256": "3dadf6801d00479d886dd49605bd73608e3ff27f4ff140d8481a573f0462823d",
+        "tasks": [
+          "Construct a bounded interactive shader/effect and isolate wrong or missing output."
+        ],
+        "exclusions": [
+          "Routine material slot or import repair",
+          "Aesthetic direction without a rendered effect mechanism"
+        ],
+        "documentStatus": "not-assessed-by-this-overlay",
+        "executionEvidence": "Original author synthesis and synthetic examples only; no engine, renderer, device or independent application result.",
+        "outcomeStatus": "not-performance-qualified"
+      },
+      "integration": {
+        "targetMarkdownPath": "product/skills/eternities-arcadia/references/shader-effect-construction.md",
+        "authority": "parent only after acceptance",
+        "condition": "Review must bind candidate digest and any changed owner/metadata bytes; method-directory digest must match final adopted bytes. Preserve existing rows and activation bytes. No integration performed.",
+        "portableBoundary": "Portable core is independent of engine and local source paths. Adapter notes describe inspected snapshots only; verify installed engine/API before implementation. Source-ledger IDs are authoring provenance, not runtime dependencies."
+      },
+      "freshApplicationChecks": [
+        {
+          "id": "shader-effect-construction-1",
+          "kind": "direct",
+          "prompt": "An expanding ring becomes elliptical only after resizing a rectangular viewport.",
+          "observable": "Identify coordinate/aspect units, freeze the radius and inspect the mask before altering bloom; require target rendering for confirmation.",
+          "status": "proposed-not-executed",
+          "independent": false
+        },
+        {
+          "id": "shader-effect-construction-2",
+          "kind": "paraphrase",
+          "prompt": "The material builds, but my scan pulse vanishes after I turn transparency on.",
+          "observable": "Use opaque/alpha/compositor controls; compiler success cannot clear blend or depth behavior.",
+          "status": "proposed-not-executed",
+          "independent": false
+        },
+        {
+          "id": "shader-effect-construction-3",
+          "kind": "exclusion",
+          "prompt": "An approved GLB has the wrong material slot.",
+          "observable": "Retain existing real-time asset integration; do not prescribe a custom shader.",
+          "status": "proposed-not-executed",
+          "independent": false
+        },
+        {
+          "id": "shader-effect-construction-4",
+          "kind": "conflict",
+          "prompt": "The effect looks washed out with postprocessing; a suggested fix raises exposure and adds another output conversion.",
+          "observable": "Locate conversion ownership and compare a pass bypass with correct final output; reject compensating for a double conversion.",
+          "status": "proposed-not-executed",
+          "independent": false
+        },
+        {
+          "id": "shader-effect-construction-5",
+          "kind": "boundary",
+          "prompt": "Constant opaque output is still invisible, with no compile error.",
+          "observable": "Check reachability, transforms, culling, depth and later overwrite before blaming fragment arithmetic; a real draw remains required.",
+          "status": "proposed-not-executed",
+          "independent": false
+        }
+      ],
+      "remainingLimits": [
+        "Engine/renderer implementation and runtime checks unperformed.",
+        "No rendered frames, target-device timings or human aesthetic/play verdict.",
+        "No discovery selection test, independent acceptance or product integration claimed."
+      ]
+    },
+    {
+      "id": "lighting-material-calibration",
+      "owner": "eternities-arcadia",
+      "job": "Separate a lighting/environment defect from material response and calibrate the relevant parameter against the intended game view.",
+      "disposition": "refine-existing-owner-with-conditional-reference",
+      "status": "draft-awaiting-independent-review",
+      "currentCoverageComparison": {
+        "readset": [
+          {
+            "path": "product/skills/eternities-arcadia/references/realtime-asset-integration.md",
+            "sha256": "a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41"
+          },
+          {
+            "path": "product/skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md",
+            "sha256": "a1b65d62b70a689b3e7b1c06871588e4763a04d3987b9d5c833d5b3c7b6da52a"
+          },
+          {
+            "path": "product/skills/eternities-muse/SKILL.md",
+            "sha256": "34fccadc01b49dcb8097641a6a6153dabd119dd55ba9f31781c7bfa4c4c1ac73"
+          },
+          {
+            "path": "product/skills/eternities-muse/references/methods.md",
+            "sha256": "44cdaae8e34b83f69c8253f1cb61b4ed3c1af5548e58ef59d4f7e28df7e46b89"
+          }
+        ],
+        "finding": "Existing import guidance already prescribes controlled lighting, diagnostic materials and correct encoding; camera-driven iteration identifies a surface/readability branch. Those are retained. The inspected bodies do not supply the crossed reference/target material-by-light experiment or a response-bracketing procedure. Muse measures and judges supplied rendered evidence, but does not own engine material calibration.",
+        "retain": "Retain import interpretation and camera-driven asset iteration. Do not present a color-space checklist or a beauty acceptance gate as a new method."
+      },
+      "sourceRecords": [
+        {
+          "id": "three-color",
+          "repositoryId": "mrdoob/three.js",
+          "warehousePath": "D:/03-ARSENAL/warehouse/catalog-c/games/3d/three-js",
+          "relativePath": "manual/pages/color-management.html",
+          "indexHead": "d2ac59a15620ff8696dd55983c1f411c0a3f92ce",
+          "observedHead": "d2ac59a15620ff8696dd55983c1f411c0a3f92ce",
+          "sha256": "1631497a3fade74ee423887f5a339fa580cda8fdeba4b5c9d90d47b93e8f5e5e",
+          "readStatus": "complete-inert-text-read",
+          "selectedPathGitStatus": "no changes reported",
+          "authority": "bundled upstream Three.js manual snapshot",
+          "licenseRecord": "three-license",
+          "disposition": "pattern-reference",
+          "mechanism": "Input/working/output color roles; non-color channels; duplicate output conversion failure.",
+          "excludedOrUnverified": "No external viewers, images or diagrams acquired; no latest-version or gamut-support claim adopted.",
+          "originalDelta": "Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied."
+        },
+        {
+          "id": "three-materials",
+          "repositoryId": "mrdoob/three.js",
+          "warehousePath": "D:/03-ARSENAL/warehouse/catalog-c/games/3d/three-js",
+          "relativePath": "manual/pages/materials.html",
+          "indexHead": "d2ac59a15620ff8696dd55983c1f411c0a3f92ce",
+          "observedHead": "d2ac59a15620ff8696dd55983c1f411c0a3f92ce",
+          "sha256": "3c7426afff45f8ffd1b299308e9026c8fb733ad3f691705ac6efac50136c99fb",
+          "readStatus": "complete-inert-text-read",
+          "selectedPathGitStatus": "no changes reported",
+          "authority": "bundled upstream Three.js manual snapshot",
+          "licenseRecord": "three-license",
+          "disposition": "pattern-reference",
+          "mechanism": "Unlit/normal controls; PBR roughness/metalness and a material-response comparison grid.",
+          "excludedOrUnverified": "No universal speed ranking, physical calibration claim or Phong-to-PBR numerical conversion adopted.",
+          "originalDelta": "Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied."
+        },
+        {
+          "id": "three-debug",
+          "repositoryId": "mrdoob/three.js",
+          "warehousePath": "D:/03-ARSENAL/warehouse/catalog-c/games/3d/three-js",
+          "relativePath": "manual/pages/debugging-glsl.html",
+          "indexHead": "d2ac59a15620ff8696dd55983c1f411c0a3f92ce",
+          "observedHead": "d2ac59a15620ff8696dd55983c1f411c0a3f92ce",
+          "sha256": "66ccad7ff3f1e46ae4411b2192dc8838146ec0e2633e175c032d32792f5bfed8",
+          "readStatus": "complete-inert-text-read",
+          "selectedPathGitStatus": "no changes reported",
+          "authority": "bundled upstream Three.js manual snapshot",
+          "licenseRecord": "three-license",
+          "disposition": "pattern-reference",
+          "mechanism": "Constant-output and basic-material substitutions; diagnostic input visualization.",
+          "excludedOrUnverified": "Do not install the suggested browser extension; unchanged opaque output does not rule out depth or later-pass failure.",
+          "originalDelta": "Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied."
+        },
+        {
+          "id": "ue-materials",
+          "repositoryId": "quodsoler/unreal-engine-skills",
+          "warehousePath": "D:/03-ARSENAL/warehouse/from-stars/quodsoler__unreal-engine-skills",
+          "relativePath": "skills/ue-materials-rendering/SKILL.md",
+          "indexHead": "f3742d7b688690810df369802b90430324e380b9",
+          "observedHead": "f3742d7b688690810df369802b90430324e380b9",
+          "sha256": "ff708688124bffa3d92f4cd849255bc956f3da23ae96566f44c67b6491bbf0f6",
+          "readStatus": "complete-inert-text-read",
+          "selectedPathGitStatus": "no changes reported",
+          "authority": "third-party workflow; not engine documentation",
+          "licenseRecord": "ue-license",
+          "disposition": "pattern-reference",
+          "mechanism": "Per-instance versus shared parameters; static permutations; postprocess override ownership; extra scene renders and readback cost.",
+          "excludedOrUnverified": "No C++ copied; claimed UE 5.8 API correctness, renderer defaults and performance not certified.",
+          "originalDelta": "Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied."
+        },
+        {
+          "id": "unity-workflow",
+          "repositoryId": "lovecatisgood-sudo/3d-asset-generation-blender-unity-game-development-skills",
+          "warehousePath": "D:/03-ARSENAL/warehouse/hunt/exa-skills-2026-09-20/lovecatisgood-sudo__3d-asset-generation-blender-unity-game-development-skills",
+          "relativePath": "skills/unity-mcp-game-development/SKILL.md",
+          "indexHead": "00221bb0a8ffcb8eb577daf5ddf9e8d8edcdbc98",
+          "observedHead": "00221bb0a8ffcb8eb577daf5ddf9e8d8edcdbc98",
+          "sha256": "d380f5c275d1c0db18275f308e04b4e04650cb1c00579d8d318a16c98b8c33a9",
+          "readStatus": "complete-inert-text-read",
+          "selectedPathGitStatus": "no changes reported",
+          "authority": "third-party workflow; not engine documentation",
+          "licenseRecord": "unity-license",
+          "disposition": "pattern-reference",
+          "mechanism": "Installed engine/render-pipeline binding, gameplay truth separate from presentation, target-build profiling.",
+          "excludedOrUnverified": "General workflow only; precise Animator/Shader Graph/profiler APIs deferred; no MCP connection, setup or security action.",
+          "originalDelta": "Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied."
+        }
+      ],
+      "candidateMarkdownPath": "artifacts/qualification/usefulness-20261016/lane-b/lighting-material-calibration.md",
+      "candidateSha256": "b5fc4b218b27422c32f3048fec007ec6267a480d57f34a4685b850ccfe89aadb",
+      "adoptionDelta": "Add the crossed M0/M1 by L0/L1 experiment, illumination-versus-background distinction and one-variable roughness/light-response bracketing, including interaction and exposure-confound branches.",
+      "proposedConditionalLink": {
+        "path": "product/skills/eternities-arcadia/SKILL.md",
+        "text": "For an interactive asset whose finish could be wrong because of either lighting or material response, use [lighting/material calibration](references/lighting-material-calibration.md)."
+      },
+      "proposedMetadataAdditions": {
+        "path": "product/skills/eternities-arcadia/skill.json",
+        "appendResources": [
+          "references/lighting-material-calibration.md"
+        ],
+        "appendTriggers": [
+          "separate lighting environment from material roughness or reflection response in an interactive scene"
+        ],
+        "provenance": {
+          "kind": "authoring",
+          "source": "artifacts/qualification/usefulness-20261016/lane-b/proposals.json",
+          "note": "Original source-bound conditional method lighting-material-calibration; resolve exact source records in sources.json. New bytes require independent review; no inherited maturity or performance claim."
+        },
+        "maturityChange": "none",
+        "removeOrReplaceExistingRows": []
+      },
+      "proposedMethodDirectoryRow": {
+        "id": "lighting-material-calibration",
+        "title": "Separating lighting from material response",
+        "owner": "eternities-arcadia",
+        "resource": "skills/eternities-arcadia/references/lighting-material-calibration.md",
+        "resourceSha256": "b5fc4b218b27422c32f3048fec007ec6267a480d57f34a4685b850ccfe89aadb",
+        "tasks": [
+          "Separate a lighting/environment defect from material response and calibrate the relevant parameter against the intended game view."
+        ],
+        "exclusions": [
+          "Routine import encoding/channel repair already diagnosed",
+          "Physical reflectance certification or an unrequested realism conversion"
+        ],
+        "documentStatus": "not-assessed-by-this-overlay",
+        "executionEvidence": "Original author synthesis and synthetic examples only; no engine, renderer, device or independent application result.",
+        "outcomeStatus": "not-performance-qualified"
+      },
+      "integration": {
+        "targetMarkdownPath": "product/skills/eternities-arcadia/references/lighting-material-calibration.md",
+        "authority": "parent only after acceptance",
+        "condition": "Review must bind candidate digest and any changed owner/metadata bytes; method-directory digest must match final adopted bytes. Preserve existing rows and activation bytes. No integration performed.",
+        "portableBoundary": "Portable core is independent of engine and local source paths. Adapter notes describe inspected snapshots only; verify installed engine/API before implementation. Source-ledger IDs are authoring provenance, not runtime dependencies."
+      },
+      "freshApplicationChecks": [
+        {
+          "id": "lighting-material-calibration-1",
+          "kind": "direct",
+          "prompt": "A door's reference metal and target metal both lose reflections under the game light, while both reflect under the control light.",
+          "observable": "Investigate environment/source placement with fixed exposure before altering the target base color.",
+          "status": "proposed-not-executed",
+          "independent": false
+        },
+        {
+          "id": "lighting-material-calibration-2",
+          "kind": "paraphrase",
+          "prompt": "Everything is imported correctly, but I cannot tell whether my roughness or the studio rig makes this prop look plastic.",
+          "observable": "Use crossed reference/target comparisons and bracket a relevant parameter with the other layer held fixed.",
+          "status": "proposed-not-executed",
+          "independent": false
+        },
+        {
+          "id": "lighting-material-calibration-3",
+          "kind": "exclusion",
+          "prompt": "A roughness channel was imported as color data.",
+          "observable": "Use the existing import method; calibration cannot compensate for the interpretation defect.",
+          "status": "proposed-not-executed",
+          "independent": false
+        },
+        {
+          "id": "lighting-material-calibration-4",
+          "kind": "conflict",
+          "prompt": "The source recommends realistic PBR, but the approved game uses a two-tone unlit style.",
+          "observable": "Preserve the style; do not impose metallic/roughness calibration on an incompatible model.",
+          "status": "proposed-not-executed",
+          "independent": false
+        },
+        {
+          "id": "lighting-material-calibration-5",
+          "kind": "boundary",
+          "prompt": "Exposure changes between the four comparisons, or no renderer is available.",
+          "observable": "Mark the inference confounded or unobserved; no physical calibration or beauty judgment from the setup alone.",
+          "status": "proposed-not-executed",
+          "independent": false
+        }
+      ],
+      "remainingLimits": [
+        "Engine/renderer implementation and runtime checks unperformed.",
+        "No rendered frames, target-device timings or human aesthetic/play verdict.",
+        "No discovery selection test, independent acceptance or product integration claimed."
+      ]
+    },
+    {
+      "id": "animation-interruption-transitions",
+      "owner": "eternities-arcadia",
+      "job": "Resolve gameplay-event authorization, layered pose and displacement when a skeletal action is interrupted.",
+      "disposition": "refine-existing-owner-with-conditional-reference",
+      "status": "draft-awaiting-independent-review",
+      "currentCoverageComparison": {
+        "readset": [
+          {
+            "path": "product/skills/eternities-arcadia/references/realtime-asset-integration.md",
+            "sha256": "a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41"
+          },
+          {
+            "path": "product/skills/eternities-arcadia/references/browser-runtime-lifecycle.md",
+            "sha256": "92f138939846c57ad5de1d36fd1c60d11341e29a91fcaecb03c942397ad93853"
+          },
+          {
+            "path": "product/skills/eternities-muse/SKILL.md",
+            "sha256": "34fccadc01b49dcb8097641a6a6153dabd119dd55ba9f31781c7bfa4c4c1ac73"
+          },
+          {
+            "path": "product/skills/motion-design-and-animation-engineering/SKILL.md",
+            "sha256": "9f9f17e2bf49fa039f11239bbbc0adf9e98df12e21f1c1f8a8f3343d282719ea"
+          },
+          {
+            "path": "product/skills/motion-design-and-animation-engineering/references/methods.md",
+            "sha256": "8ce10c1e39145b619ef2e692a7dc501711173f2601fba34131a7f58d3399387b"
+          },
+          {
+            "path": "product/skills/motion-design-and-animation-engineering/skill.json",
+            "sha256": "81e8e2b2ea872cc9460bc867e9383997574af711a9a08fda72e340a313efeea0"
+          }
+        ],
+        "finding": "The current motion specialist already adequately handles current-state retargeting, stale completion, temporal tests and reduced-motion UI behavior. Retain it; generic animation-interruption authoring would duplicate it. Arcadia import guidance names root-motion ownership and clip transitions but does not define gameplay strike cancellation, exclusive/additive blend boundaries or playback-identity-safe event windows.",
+        "retain": "Retain the motion specialist intact, including retargeting and request-identity semantics. Retain browser lifecycle and routine clip import.",
+        "candidateReplacement": {
+          "originalCandidate": "generic animation-state interruption and transition behavior",
+          "adequatelyServedBy": "motion-design-and-animation-engineering",
+          "neighboringGap": "gameplay events and movement during interrupted skeletal layers"
+        }
+      },
+      "sourceRecords": [
+        {
+          "id": "three-animation",
+          "repositoryId": "mrdoob/three.js",
+          "warehousePath": "D:/03-ARSENAL/warehouse/catalog-c/games/3d/three-js",
+          "relativePath": "manual/pages/animation-system.html",
+          "indexHead": "d2ac59a15620ff8696dd55983c1f411c0a3f92ce",
+          "observedHead": "d2ac59a15620ff8696dd55983c1f411c0a3f92ce",
+          "sha256": "02415166a204d96c68402c6c8396354a4c4aed4d341177a4d26e6f834c3c7842",
+          "readStatus": "complete-inert-text-read",
+          "selectedPathGitStatus": "no changes reported",
+          "authority": "bundled upstream Three.js manual snapshot",
+          "licenseRecord": "three-license",
+          "disposition": "pattern-reference",
+          "mechanism": "Clips/tracks versus mixer/actions; independent weight and time controls.",
+          "excludedOrUnverified": "No play-all-clips example copied; overview does not implement interruption arbitration; dated exporter claims not adopted.",
+          "originalDelta": "Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied."
+        },
+        {
+          "id": "ue-animation",
+          "repositoryId": "quodsoler/unreal-engine-skills",
+          "warehousePath": "D:/03-ARSENAL/warehouse/from-stars/quodsoler__unreal-engine-skills",
+          "relativePath": "skills/ue-animation-system/SKILL.md",
+          "indexHead": "f3742d7b688690810df369802b90430324e380b9",
+          "observedHead": "f3742d7b688690810df369802b90430324e380b9",
+          "sha256": "908909e0d765382ae496741c9e1b9a8980c19ef089c0a2f879f5ecb87b57ac26",
+          "readStatus": "complete-inert-text-read",
+          "selectedPathGitStatus": "no changes reported",
+          "authority": "third-party workflow; not engine documentation",
+          "licenseRecord": "ue-license",
+          "disposition": "pattern-reference",
+          "mechanism": "Blend-out/end distinction, interrupted playback, layered poses and root-motion ownership.",
+          "excludedOrUnverified": "UE 5.8 header/signature verification is an upstream claim, not independently established; no engine code or plugin instructions imported.",
+          "originalDelta": "Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied."
+        },
+        {
+          "id": "unity-workflow",
+          "repositoryId": "lovecatisgood-sudo/3d-asset-generation-blender-unity-game-development-skills",
+          "warehousePath": "D:/03-ARSENAL/warehouse/hunt/exa-skills-2026-09-20/lovecatisgood-sudo__3d-asset-generation-blender-unity-game-development-skills",
+          "relativePath": "skills/unity-mcp-game-development/SKILL.md",
+          "indexHead": "00221bb0a8ffcb8eb577daf5ddf9e8d8edcdbc98",
+          "observedHead": "00221bb0a8ffcb8eb577daf5ddf9e8d8edcdbc98",
+          "sha256": "d380f5c275d1c0db18275f308e04b4e04650cb1c00579d8d318a16c98b8c33a9",
+          "readStatus": "complete-inert-text-read",
+          "selectedPathGitStatus": "no changes reported",
+          "authority": "third-party workflow; not engine documentation",
+          "licenseRecord": "unity-license",
+          "disposition": "pattern-reference",
+          "mechanism": "Installed engine/render-pipeline binding, gameplay truth separate from presentation, target-build profiling.",
+          "excludedOrUnverified": "General workflow only; precise Animator/Shader Graph/profiler APIs deferred; no MCP connection, setup or security action.",
+          "originalDelta": "Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied."
+        }
+      ],
+      "candidateMarkdownPath": "artifacts/qualification/usefulness-20261016/lane-b/animation-interruption-transitions.md",
+      "candidateSha256": "c52ddfa5c2a0fdbfa0f566ca4b16fb997ee1534e530016f006fa4725896ee722",
+      "adoptionDelta": "Replace the generic interruption candidate with the neighboring gameplay-specific gap: active gameplay authorization versus fading pose, cancellation of event windows, clip-reuse identity, exclusive-layer weight continuity and controller/root-motion handoff.",
+      "proposedConditionalLink": {
+        "path": "product/skills/eternities-arcadia/SKILL.md",
+        "text": "For interrupted skeletal actions whose gameplay events, pose layers or movement disagree, use [gameplay animation interruption](references/animation-interruption-transitions.md). General UI retargeting remains with motion-design-and-animation-engineering."
+      },
+      "proposedMetadataAdditions": {
+        "path": "product/skills/eternities-arcadia/skill.json",
+        "appendResources": [
+          "references/animation-interruption-transitions.md"
+        ],
+        "appendTriggers": [
+          "skeletal attack interrupted during blend leaves damage notify or root motion active"
+        ],
+        "provenance": {
+          "kind": "authoring",
+          "source": "artifacts/qualification/usefulness-20261016/lane-b/proposals.json",
+          "note": "Original source-bound conditional method animation-interruption-transitions; resolve exact source records in sources.json. New bytes require independent review; no inherited maturity or performance claim."
+        },
+        "maturityChange": "none",
+        "removeOrReplaceExistingRows": []
+      },
+      "proposedMethodDirectoryRow": {
+        "id": "animation-interruption-transitions",
+        "title": "Gameplay events and movement during animation interruption",
+        "owner": "eternities-arcadia",
+        "resource": "skills/eternities-arcadia/references/animation-interruption-transitions.md",
+        "resourceSha256": "c52ddfa5c2a0fdbfa0f566ca4b16fb997ee1534e530016f006fa4725896ee722",
+        "tasks": [
+          "Resolve gameplay-event authorization, layered pose and displacement when a skeletal action is interrupted."
+        ],
+        "exclusions": [
+          "Interruptible drawers, dialogs or layout transitions served by the motion specialist",
+          "Routine clip import or deformation-only diagnosis"
+        ],
+        "documentStatus": "not-assessed-by-this-overlay",
+        "executionEvidence": "Original author synthesis and synthetic examples only; no engine, renderer, device or independent application result.",
+        "outcomeStatus": "not-performance-qualified"
+      },
+      "integration": {
+        "targetMarkdownPath": "product/skills/eternities-arcadia/references/animation-interruption-transitions.md",
+        "authority": "parent only after acceptance",
+        "condition": "Review must bind candidate digest and any changed owner/metadata bytes; method-directory digest must match final adopted bytes. Preserve existing rows and activation bytes. No integration performed.",
+        "portableBoundary": "Portable core is independent of engine and local source paths. Adapter notes describe inspected snapshots only; verify installed engine/API before implementation. Source-ledger IDs are authoring provenance, not runtime dependencies."
+      },
+      "freshApplicationChecks": [
+        {
+          "id": "animation-interruption-transitions-1",
+          "kind": "direct",
+          "prompt": "Attack is interrupted at 100 ms, before its 140 ms strike; its old completion arrives during the hit reaction.",
+          "observable": "Cancel strike authorization and prevent the old completion from changing the new state; keep pose fading separate.",
+          "status": "proposed-not-executed",
+          "independent": false
+        },
+        {
+          "id": "animation-interruption-transitions-2",
+          "kind": "paraphrase",
+          "prompt": "The character stops swinging but still deals a hit, then snaps back to idle during a stagger.",
+          "observable": "Trace gameplay window, playback generation and completion ownership rather than only increasing crossfade duration.",
+          "status": "proposed-not-executed",
+          "independent": false
+        },
+        {
+          "id": "animation-interruption-transitions-3",
+          "kind": "exclusion",
+          "prompt": "A drawer must reverse smoothly when tapped twice.",
+          "observable": "Retain existing motion-design-and-animation-engineering; do not load skeletal/root-motion machinery.",
+          "status": "proposed-not-executed",
+          "independent": false
+        },
+        {
+          "id": "animation-interruption-transitions-4",
+          "kind": "conflict",
+          "prompt": "An additive aim layer is present alongside locomotion and a reaction; proposed code normalizes every layer to sum to one.",
+          "observable": "Reject global normalization; apply the example only to a declared exclusive layer and preserve additive/masked rules.",
+          "status": "proposed-not-executed",
+          "independent": false
+        },
+        {
+          "id": "animation-interruption-transitions-5",
+          "kind": "boundary",
+          "prompt": "The same attack clip is reused, an older instance completes late, and both controller and clip translate the actor.",
+          "observable": "Distinguish playback instances beyond clip identity and establish a displacement handoff; do not claim network or visual correctness without runtime observations.",
+          "status": "proposed-not-executed",
+          "independent": false
+        }
+      ],
+      "remainingLimits": [
+        "Engine/renderer implementation and runtime checks unperformed.",
+        "No rendered frames, target-device timings or human aesthetic/play verdict.",
+        "No discovery selection test, independent acceptance or product integration claimed."
+      ]
+    },
+    {
+      "id": "frame-budget-diagnosis",
+      "owner": "eternities-arcadia",
+      "job": "Determine which work or wait causes missed interactive frame intervals and choose a falsifiable probe.",
+      "disposition": "refine-existing-owner-with-conditional-reference",
+      "status": "draft-awaiting-independent-review",
+      "currentCoverageComparison": {
+        "readset": [
+          {
+            "path": "product/skills/eternities-arcadia/references/methods.md",
+            "sha256": "57853439f2dbc6173e2b627b3d1cdd982c746f8376e86746b2745138b696dfc3"
+          },
+          {
+            "path": "product/skills/eternities-arcadia/references/realtime-asset-integration.md",
+            "sha256": "a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41"
+          },
+          {
+            "path": "product/skills/performance-release-gating/SKILL.md",
+            "sha256": "e96f776e506d9eb98eb32df919a64c3c30520d99a5317f9b0f5eb1cb6db42de5"
+          },
+          {
+            "path": "product/skills/performance-release-gating/skill.json",
+            "sha256": "3f8c6b2f9ce4983eb271b553f6369d117f27487e163017d3ea6adcb1b5cb48ff"
+          }
+        ],
+        "finding": "Arcadia already requests frame distributions, scene/device identity and one-lever comparisons. Performance-release-gating already adequately defines workload control, variance, tails and pass/fail/inconclusive decisions. Retain those. The inspected bodies do not provide active-work versus wait diagnosis, CPU/GPU pipeline interpretation or a hypothesis/probe/confound matrix.",
+        "retain": "Retain performance-release-gating without changes; diagnosis is an Arcadia conditional method preceding a release gate only when that gate is requested."
+      },
+      "sourceRecords": [
+        {
+          "id": "ue-testing",
+          "repositoryId": "quodsoler/unreal-engine-skills",
+          "warehousePath": "D:/03-ARSENAL/warehouse/from-stars/quodsoler__unreal-engine-skills",
+          "relativePath": "skills/ue-testing-debugging/SKILL.md",
+          "indexHead": "f3742d7b688690810df369802b90430324e380b9",
+          "observedHead": "f3742d7b688690810df369802b90430324e380b9",
+          "sha256": "a486848b5f88095f4b1e649ad1ffb73f17ab80b51f9a3afa4886629c0e7cfdd6",
+          "readStatus": "complete-inert-text-read",
+          "selectedPathGitStatus": "no changes reported",
+          "authority": "third-party workflow; not engine documentation",
+          "licenseRecord": "ue-license",
+          "disposition": "pattern-reference",
+          "mechanism": "Stage-specific profiling and active/waiting timeline investigation.",
+          "excludedOrUnverified": "No tests, profiler commands, shipping flags, console tools or plugins activated; UE 5.8 claims unverified.",
+          "originalDelta": "Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied."
+        },
+        {
+          "id": "ue-profiling",
+          "repositoryId": "quodsoler/unreal-engine-skills",
+          "warehousePath": "D:/03-ARSENAL/warehouse/from-stars/quodsoler__unreal-engine-skills",
+          "relativePath": "skills/ue-testing-debugging/references/profiling-commands.md",
+          "indexHead": "f3742d7b688690810df369802b90430324e380b9",
+          "observedHead": "f3742d7b688690810df369802b90430324e380b9",
+          "sha256": "ebd53693a9fabb0012f22ec62a220f0ff7a7d83af5b52504160875cf9d64d506",
+          "readStatus": "complete-inert-text-read",
+          "selectedPathGitStatus": "no changes reported",
+          "authority": "third-party workflow; not engine documentation",
+          "licenseRecord": "ue-license",
+          "disposition": "pattern-reference",
+          "mechanism": "Game/Draw/RHIT/GPU triage, per-pass capture and first-use/steady-state evidence.",
+          "excludedOrUnverified": "Reject rising-count-equals-leak and one-baseline-proves-improvement shortcuts; no command executed or trace acquired.",
+          "originalDelta": "Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied."
+        },
+        {
+          "id": "ue-materials",
+          "repositoryId": "quodsoler/unreal-engine-skills",
+          "warehousePath": "D:/03-ARSENAL/warehouse/from-stars/quodsoler__unreal-engine-skills",
+          "relativePath": "skills/ue-materials-rendering/SKILL.md",
+          "indexHead": "f3742d7b688690810df369802b90430324e380b9",
+          "observedHead": "f3742d7b688690810df369802b90430324e380b9",
+          "sha256": "ff708688124bffa3d92f4cd849255bc956f3da23ae96566f44c67b6491bbf0f6",
+          "readStatus": "complete-inert-text-read",
+          "selectedPathGitStatus": "no changes reported",
+          "authority": "third-party workflow; not engine documentation",
+          "licenseRecord": "ue-license",
+          "disposition": "pattern-reference",
+          "mechanism": "Per-instance versus shared parameters; static permutations; postprocess override ownership; extra scene renders and readback cost.",
+          "excludedOrUnverified": "No C++ copied; claimed UE 5.8 API correctness, renderer defaults and performance not certified.",
+          "originalDelta": "Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied."
+        },
+        {
+          "id": "three-post",
+          "repositoryId": "mrdoob/three.js",
+          "warehousePath": "D:/03-ARSENAL/warehouse/catalog-c/games/3d/three-js",
+          "relativePath": "manual/pages/post-processing.html",
+          "indexHead": "d2ac59a15620ff8696dd55983c1f411c0a3f92ce",
+          "observedHead": "d2ac59a15620ff8696dd55983c1f411c0a3f92ce",
+          "sha256": "777a324f30f000687b1b5c9ed7e476166b8b09cf13e1d63ee84d89a0071dabcf",
+          "readStatus": "complete-inert-text-read",
+          "selectedPathGitStatus": "no changes reported",
+          "authority": "bundled upstream Three.js manual snapshot",
+          "licenseRecord": "three-license",
+          "disposition": "pattern-reference",
+          "mechanism": "Ordered image passes, separate read/write buffers, output transform, sizing and time inputs.",
+          "excludedOrUnverified": "No bloom recipe or fixed pass list adopted; APIs remain snapshot-specific and no examples executed.",
+          "originalDelta": "Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied."
+        },
+        {
+          "id": "three-materials",
+          "repositoryId": "mrdoob/three.js",
+          "warehousePath": "D:/03-ARSENAL/warehouse/catalog-c/games/3d/three-js",
+          "relativePath": "manual/pages/materials.html",
+          "indexHead": "d2ac59a15620ff8696dd55983c1f411c0a3f92ce",
+          "observedHead": "d2ac59a15620ff8696dd55983c1f411c0a3f92ce",
+          "sha256": "3c7426afff45f8ffd1b299308e9026c8fb733ad3f691705ac6efac50136c99fb",
+          "readStatus": "complete-inert-text-read",
+          "selectedPathGitStatus": "no changes reported",
+          "authority": "bundled upstream Three.js manual snapshot",
+          "licenseRecord": "three-license",
+          "disposition": "pattern-reference",
+          "mechanism": "Unlit/normal controls; PBR roughness/metalness and a material-response comparison grid.",
+          "excludedOrUnverified": "No universal speed ranking, physical calibration claim or Phong-to-PBR numerical conversion adopted.",
+          "originalDelta": "Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied."
+        },
+        {
+          "id": "unity-workflow",
+          "repositoryId": "lovecatisgood-sudo/3d-asset-generation-blender-unity-game-development-skills",
+          "warehousePath": "D:/03-ARSENAL/warehouse/hunt/exa-skills-2026-09-20/lovecatisgood-sudo__3d-asset-generation-blender-unity-game-development-skills",
+          "relativePath": "skills/unity-mcp-game-development/SKILL.md",
+          "indexHead": "00221bb0a8ffcb8eb577daf5ddf9e8d8edcdbc98",
+          "observedHead": "00221bb0a8ffcb8eb577daf5ddf9e8d8edcdbc98",
+          "sha256": "d380f5c275d1c0db18275f308e04b4e04650cb1c00579d8d318a16c98b8c33a9",
+          "readStatus": "complete-inert-text-read",
+          "selectedPathGitStatus": "no changes reported",
+          "authority": "third-party workflow; not engine documentation",
+          "licenseRecord": "unity-license",
+          "disposition": "pattern-reference",
+          "mechanism": "Installed engine/render-pipeline binding, gameplay truth separate from presentation, target-build profiling.",
+          "excludedOrUnverified": "General workflow only; precise Animator/Shader Graph/profiler APIs deferred; no MCP connection, setup or security action.",
+          "originalDelta": "Original procedures and synthetic examples; no upstream code, prose blocks, images or assets copied."
+        }
+      ],
+      "candidateMarkdownPath": "artifacts/qualification/usefulness-20261016/lane-b/frame-budget-diagnosis.md",
+      "candidateSha256": "ea504b2fb3d0319a4fffc727c8e3b4b33d20ea564ca08185c458ce72f6db764e",
+      "adoptionDelta": "Add stage/timeline triage, pixel-scaling and pass-bypass probes with confounds, presentation-cap headroom interpretation and separate first-use hitch diagnosis. No universal optimization list or second gate.",
+      "proposedConditionalLink": {
+        "path": "product/skills/eternities-arcadia/SKILL.md",
+        "text": "When an interactive frame budget is missed and the responsible work is unknown, use [frame-budget diagnosis](references/frame-budget-diagnosis.md). Keep release decisions with performance-release-gating."
+      },
+      "proposedMetadataAdditions": {
+        "path": "product/skills/eternities-arcadia/skill.json",
+        "appendResources": [
+          "references/frame-budget-diagnosis.md"
+        ],
+        "appendTriggers": [
+          "diagnose missed frame budget GPU CPU render thread pacing first-use hitch"
+        ],
+        "provenance": {
+          "kind": "authoring",
+          "source": "artifacts/qualification/usefulness-20261016/lane-b/proposals.json",
+          "note": "Original source-bound conditional method frame-budget-diagnosis; resolve exact source records in sources.json. New bytes require independent review; no inherited maturity or performance claim."
+        },
+        "maturityChange": "none",
+        "removeOrReplaceExistingRows": []
+      },
+      "proposedMethodDirectoryRow": {
+        "id": "frame-budget-diagnosis",
+        "title": "Locating a missed interactive frame budget",
+        "owner": "eternities-arcadia",
+        "resource": "skills/eternities-arcadia/references/frame-budget-diagnosis.md",
+        "resourceSha256": "ea504b2fb3d0319a4fffc727c8e3b4b33d20ea564ca08185c458ce72f6db764e",
+        "tasks": [
+          "Determine which work or wait causes missed interactive frame intervals and choose a falsifiable probe."
+        ],
+        "exclusions": [
+          "An already characterized candidate needs only a repeatable release gate",
+          "Network latency, ordinary page loading or offline render throughput"
+        ],
+        "documentStatus": "not-assessed-by-this-overlay",
+        "executionEvidence": "Original author synthesis and synthetic examples only; no engine, renderer, device or independent application result.",
+        "outcomeStatus": "not-performance-qualified"
+      },
+      "integration": {
+        "targetMarkdownPath": "product/skills/eternities-arcadia/references/frame-budget-diagnosis.md",
+        "authority": "parent only after acceptance",
+        "condition": "Review must bind candidate digest and any changed owner/metadata bytes; method-directory digest must match final adopted bytes. Preserve existing rows and activation bytes. No integration performed.",
+        "portableBoundary": "Portable core is independent of engine and local source paths. Adapter notes describe inspected snapshots only; verify installed engine/API before implementation. Source-ledger IDs are authoring provenance, not runtime dependencies."
+      },
+      "freshApplicationChecks": [
+        {
+          "id": "frame-budget-diagnosis-1",
+          "kind": "direct",
+          "prompt": "A 60 Hz scene has synthetic CPU 9 ms/GPU 24 ms; half dimensions yield GPU 12 ms and presentation caps near 16.7 ms.",
+          "observable": "Treat pixel-sensitive GPU work as supported, inspect pass cost, and retain visual checks; do not promise fourfold frame speedup.",
+          "status": "proposed-not-executed",
+          "independent": false
+        },
+        {
+          "id": "frame-budget-diagnosis-2",
+          "kind": "paraphrase",
+          "prompt": "The overlay says the game thread took 26 ms, but most of that interval is waiting for a readback.",
+          "observable": "Inspect wait dependency rather than equating elapsed scope duration with simulation work.",
+          "status": "proposed-not-executed",
+          "independent": false
+        },
+        {
+          "id": "frame-budget-diagnosis-3",
+          "kind": "exclusion",
+          "prompt": "A characterized build already has matched benchmark distributions and needs a release pass/fail decision.",
+          "observable": "Use the existing performance-release-gating owner without adding another gate.",
+          "status": "proposed-not-executed",
+          "independent": false
+        },
+        {
+          "id": "frame-budget-diagnosis-4",
+          "kind": "conflict",
+          "prompt": "A suggestion drops first-use 80 ms hitches and reports only warm FPS.",
+          "observable": "Keep first-use evidence separate and investigate compile/upload/load events; do not average the requirement away.",
+          "status": "proposed-not-executed",
+          "independent": false
+        },
+        {
+          "id": "frame-budget-diagnosis-5",
+          "kind": "boundary",
+          "prompt": "GPU timing is unavailable; CPU and GPU aggregates come from different intervals.",
+          "observable": "Return unresolved attribution with the missing aligned observation, not zero GPU cost or a sum of stage percentiles.",
+          "status": "proposed-not-executed",
+          "independent": false
+        }
+      ],
+      "remainingLimits": [
+        "Engine/renderer implementation and runtime checks unperformed.",
+        "No rendered frames, target-device timings or human aesthetic/play verdict.",
+        "No discovery selection test, independent acceptance or product integration claimed."
+      ]
+    }
+  ]
+}

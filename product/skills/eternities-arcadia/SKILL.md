@@ -34,3 +34,11 @@ For browser-hosted games or interactive 3D scenes, use [browser runtime lifecycl
 ## Conditional method
 
 For an authored asset that reads poorly from the intended gameplay camera, use [camera-driven asset iteration](references/camera-driven-asset-iteration-v1.md). It distinguishes shape, deformation, shading and runtime cost; routine import verification stays in the asset-integration method.
+
+For constructing an interactive shader/effect or isolating missing or wrong output, use [shader/effect construction and fault isolation](references/shader-effect-construction.md).
+
+For an interactive asset whose finish could be wrong because of either lighting or material response, use [lighting/material calibration](references/lighting-material-calibration.md).
+
+For interrupted skeletal actions whose gameplay events, pose layers or movement disagree, use [gameplay animation interruption](references/animation-interruption-transitions.md). General UI retargeting remains with motion-design-and-animation-engineering.
+
+When an interactive frame budget is missed and the responsible work is unknown, use [frame-budget diagnosis](references/frame-budget-diagnosis.md). Keep release decisions with performance-release-gating.

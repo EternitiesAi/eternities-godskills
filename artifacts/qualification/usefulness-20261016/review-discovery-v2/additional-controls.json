@@ -1,0 +1,47 @@
+{
+  "schema": "discovery-v2-additional-forms-v1",
+  "status": "frozen-before-execution",
+  "scope": "Only fix/debug imperative and gerund forms, case/contraction normalization, supported separators and immediate token boundaries.",
+  "cases": [
+    {
+      "id": "uppercase-fix",
+      "query": "DO NOT FIX the WebGL player camera; write a handoff note.",
+      "arcadia": false
+    },
+    {
+      "id": "curly-uppercase-debug",
+      "query": "Don’t   DEBUG the game simulation loop; write a handoff note.",
+      "arcadia": false
+    },
+    {
+      "id": "uppercase-fixing",
+      "query": "Avoid FIXING the browser game input; prepare a scheduling note.",
+      "arcadia": false
+    },
+    {
+      "id": "uppercase-debugging",
+      "query": "Avoid DEBUGGING the browser game input; prepare a scheduling note.",
+      "arcadia": false
+    },
+    {
+      "id": "gerund-before-contrast",
+      "query": "Avoid fixing the camera, but debug player input in our WebGL game.",
+      "arcadia": true
+    },
+    {
+      "id": "gerund-after-live",
+      "query": "Fix player input in the browser game; avoid debugging camera clipping.",
+      "arcadia": true
+    },
+    {
+      "id": "fixation-word-boundary",
+      "query": "Avoid fixation on one shader while you debug our browser game.",
+      "arcadia": true
+    },
+    {
+      "id": "debugging-suffix-boundary",
+      "query": "Avoid debuggingTools when you debug our browser game.",
+      "arcadia": true
+    }
+  ]
+}

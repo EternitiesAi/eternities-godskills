@@ -1,0 +1,446 @@
+{
+  "schema": "godskills-review-b-portable-v2-closure-checks-v1",
+  "observedAt": "2026-10-16T07:41:05.625Z",
+  "baselineCommit": "7c7f2ac98a282ccb2e59c3a4c0424802a4dd72b5",
+  "scope": "Six Arcadia files and four appended provisional method rows; no build or warehouse execution",
+  "results": {
+    "allAssertionsPassed": true,
+    "arcadiaFilesReviewed": 6,
+    "newResources": 4,
+    "previousOwnerResourcesPreserved": 7,
+    "previousProvenanceRowsPreserved": 16,
+    "previousMethodDirectoryRowsPreserved": 21,
+    "newMethodDirectoryRows": 4,
+    "sourceIdentitiesMapped": 10,
+    "reusedPriorExactSource": "ue-materials",
+    "historicalReviewFilesPreserved": 12,
+    "historicalDraftAndMetadataInputsPreserved": 6,
+    "ownerNonAppendFieldsUnchanged": true,
+    "onlyResourceFootersChanged": true,
+    "provisionalLabelsPreserved": true
+  },
+  "identities": [
+    {
+      "path": "artifacts/qualification/usefulness-20261016/parent-b-portable-repair-v2.json",
+      "sha256": "996d2ed35a67a308280c99f66178cf27ea07084e09f0539074b699969512c0c2",
+      "bytes": 2607
+    },
+    {
+      "path": "product/skills/eternities-arcadia/SKILL.md",
+      "sha256": "845c2af02029493164d7f939d2a46ead4137e8b8ee8d4f73ff0b3e15883d966e",
+      "bytes": 5470
+    },
+    {
+      "path": "product/skills/eternities-arcadia/skill.json",
+      "sha256": "5fb8a9b505a9cc00b216bb82e39a6e111024ef94d78a7a642c69275bdbfa9a22",
+      "bytes": 17859
+    },
+    {
+      "path": "product/METHODS.v1.json",
+      "sha256": "fa335fb15c026af0e0c79c2b842ee2909bfb4e0d63a450d899309395c9949d38",
+      "bytes": 35727
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/shader-effect-construction.md",
+      "sha256": "a2ecfad39a1b3d5cb2bc98baea4539dc411fe39294de55a7c09962ca74cbadb1",
+      "bytes": 6828
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/lighting-material-calibration.md",
+      "sha256": "068379b7ca96da9ce2bb9e281acb66af47cd0c750fb4984139db06679c848e5f",
+      "bytes": 6284
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/animation-interruption-transitions.md",
+      "sha256": "5c43f1e601b2b814346e3b6519e1e8419bd6b89d6270e8ffdad82364e0693411",
+      "bytes": 7030
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/frame-budget-diagnosis.md",
+      "sha256": "d7e348fe98bcac368c4f8bf5dc8d18b039050d2c746608a50f3a42f63b89672b",
+      "bytes": 7275
+    },
+    {
+      "path": "product/release.json",
+      "sha256": "752e4596352499e2d601833c30a6c9149fa5ebe5ef7e31f11949d57f4251785e",
+      "bytes": 42765
+    },
+    {
+      "path": "product/catalog.json",
+      "sha256": "adfa5cfed9ac1c6a3ca8db26522e322aa5106ca031884a4de1d8a61dc1a41b36",
+      "bytes": 146817
+    },
+    {
+      "path": "product/METHODS.v1.md",
+      "sha256": "212d8d993487700aa754a19aebd0c351de86ce8618b0849e727fac702d50897e",
+      "bytes": 27189
+    }
+  ],
+  "resources": [
+    {
+      "id": "shader-effect-construction",
+      "path": "product/skills/eternities-arcadia/references/shader-effect-construction.md",
+      "sha256": "a2ecfad39a1b3d5cb2bc98baea4539dc411fe39294de55a7c09962ca74cbadb1",
+      "oldDraftSha256": "3dadf6801d00479d886dd49605bd73608e3ff27f4ff140d8481a573f0462823d",
+      "change": "footer only; exact technical body and synthesis/caveat suffix preserved",
+      "owner": "eternities-arcadia",
+      "ownerMetadataPath": "product/skills/eternities-arcadia/skill.json",
+      "methodDirectoryIndex": 21,
+      "directoryRowSha256": "e6b29ab8e85a7e263b7f6353069ede7b5fb22ace5a71ee1566156bcf665c9977",
+      "directoryRow": {
+        "id": "shader-effect-construction",
+        "title": "Shader/effect construction and fault isolation",
+        "owner": "eternities-arcadia",
+        "resource": "skills/eternities-arcadia/references/shader-effect-construction.md",
+        "resourceSha256": "a2ecfad39a1b3d5cb2bc98baea4539dc411fe39294de55a7c09962ca74cbadb1",
+        "tasks": [
+          "Construct a bounded interactive shader/effect and isolate wrong or missing output."
+        ],
+        "exclusions": [
+          "Routine material slot or import repair",
+          "Aesthetic direction without a rendered effect mechanism"
+        ],
+        "documentStatus": "not-assessed-by-this-overlay",
+        "executionEvidence": "Original author synthesis and synthetic examples only; no engine, renderer, device or independent application result.",
+        "outcomeStatus": "not-performance-qualified"
+      },
+      "sourceMapping": [
+        {
+          "id": "three-debug",
+          "locator": "mrdoob/three.js@d2ac59a15620ff8696dd55983c1f411c0a3f92ce:manual/pages/debugging-glsl.html",
+          "sourceSha256": "66ccad7ff3f1e46ae4411b2192dc8838146ec0e2633e175c032d32792f5bfed8",
+          "ownerProvenanceIndex": 20,
+          "reusedPriorRecord": false
+        },
+        {
+          "id": "three-post",
+          "locator": "mrdoob/three.js@d2ac59a15620ff8696dd55983c1f411c0a3f92ce:manual/pages/post-processing.html",
+          "sourceSha256": "777a324f30f000687b1b5c9ed7e476166b8b09cf13e1d63ee84d89a0071dabcf",
+          "ownerProvenanceIndex": 23,
+          "reusedPriorRecord": false
+        },
+        {
+          "id": "three-color",
+          "locator": "mrdoob/three.js@d2ac59a15620ff8696dd55983c1f411c0a3f92ce:manual/pages/color-management.html",
+          "sourceSha256": "1631497a3fade74ee423887f5a339fa580cda8fdeba4b5c9d90d47b93e8f5e5e",
+          "ownerProvenanceIndex": 21,
+          "reusedPriorRecord": false
+        },
+        {
+          "id": "ue-materials",
+          "locator": "quodsoler/unreal-engine-skills@f3742d7b688690810df369802b90430324e380b9:skills/ue-materials-rendering/SKILL.md",
+          "sourceSha256": "ff708688124bffa3d92f4cd849255bc956f3da23ae96566f44c67b6491bbf0f6",
+          "ownerProvenanceIndex": 2,
+          "reusedPriorRecord": true
+        },
+        {
+          "id": "unity-workflow",
+          "locator": "lovecatisgood-sudo/3d-asset-generation-blender-unity-game-development-skills@00221bb0a8ffcb8eb577daf5ddf9e8d8edcdbc98:skills/unity-mcp-game-development/SKILL.md",
+          "sourceSha256": "d380f5c275d1c0db18275f308e04b4e04650cb1c00579d8d318a16c98b8c33a9",
+          "ownerProvenanceIndex": 28,
+          "reusedPriorRecord": false
+        }
+      ]
+    },
+    {
+      "id": "lighting-material-calibration",
+      "path": "product/skills/eternities-arcadia/references/lighting-material-calibration.md",
+      "sha256": "068379b7ca96da9ce2bb9e281acb66af47cd0c750fb4984139db06679c848e5f",
+      "oldDraftSha256": "b5fc4b218b27422c32f3048fec007ec6267a480d57f34a4685b850ccfe89aadb",
+      "change": "footer only; exact technical body and synthesis/caveat suffix preserved",
+      "owner": "eternities-arcadia",
+      "ownerMetadataPath": "product/skills/eternities-arcadia/skill.json",
+      "methodDirectoryIndex": 22,
+      "directoryRowSha256": "53f0b47a4d2452092c2d0f28edf88d223144aaa7ab3e8878adcafe823eccf093",
+      "directoryRow": {
+        "id": "lighting-material-calibration",
+        "title": "Separating lighting from material response",
+        "owner": "eternities-arcadia",
+        "resource": "skills/eternities-arcadia/references/lighting-material-calibration.md",
+        "resourceSha256": "068379b7ca96da9ce2bb9e281acb66af47cd0c750fb4984139db06679c848e5f",
+        "tasks": [
+          "Separate a lighting/environment defect from material response and calibrate the relevant parameter against the intended game view."
+        ],
+        "exclusions": [
+          "Routine import encoding/channel repair already diagnosed",
+          "Physical reflectance certification or an unrequested realism conversion"
+        ],
+        "documentStatus": "not-assessed-by-this-overlay",
+        "executionEvidence": "Original author synthesis and synthetic examples only; no engine, renderer, device or independent application result.",
+        "outcomeStatus": "not-performance-qualified"
+      },
+      "sourceMapping": [
+        {
+          "id": "three-color",
+          "locator": "mrdoob/three.js@d2ac59a15620ff8696dd55983c1f411c0a3f92ce:manual/pages/color-management.html",
+          "sourceSha256": "1631497a3fade74ee423887f5a339fa580cda8fdeba4b5c9d90d47b93e8f5e5e",
+          "ownerProvenanceIndex": 21,
+          "reusedPriorRecord": false
+        },
+        {
+          "id": "three-materials",
+          "locator": "mrdoob/three.js@d2ac59a15620ff8696dd55983c1f411c0a3f92ce:manual/pages/materials.html",
+          "sourceSha256": "3c7426afff45f8ffd1b299308e9026c8fb733ad3f691705ac6efac50136c99fb",
+          "ownerProvenanceIndex": 24,
+          "reusedPriorRecord": false
+        },
+        {
+          "id": "three-debug",
+          "locator": "mrdoob/three.js@d2ac59a15620ff8696dd55983c1f411c0a3f92ce:manual/pages/debugging-glsl.html",
+          "sourceSha256": "66ccad7ff3f1e46ae4411b2192dc8838146ec0e2633e175c032d32792f5bfed8",
+          "ownerProvenanceIndex": 20,
+          "reusedPriorRecord": false
+        },
+        {
+          "id": "ue-materials",
+          "locator": "quodsoler/unreal-engine-skills@f3742d7b688690810df369802b90430324e380b9:skills/ue-materials-rendering/SKILL.md",
+          "sourceSha256": "ff708688124bffa3d92f4cd849255bc956f3da23ae96566f44c67b6491bbf0f6",
+          "ownerProvenanceIndex": 2,
+          "reusedPriorRecord": true
+        },
+        {
+          "id": "unity-workflow",
+          "locator": "lovecatisgood-sudo/3d-asset-generation-blender-unity-game-development-skills@00221bb0a8ffcb8eb577daf5ddf9e8d8edcdbc98:skills/unity-mcp-game-development/SKILL.md",
+          "sourceSha256": "d380f5c275d1c0db18275f308e04b4e04650cb1c00579d8d318a16c98b8c33a9",
+          "ownerProvenanceIndex": 28,
+          "reusedPriorRecord": false
+        }
+      ]
+    },
+    {
+      "id": "animation-interruption-transitions",
+      "path": "product/skills/eternities-arcadia/references/animation-interruption-transitions.md",
+      "sha256": "5c43f1e601b2b814346e3b6519e1e8419bd6b89d6270e8ffdad82364e0693411",
+      "oldDraftSha256": "c52ddfa5c2a0fdbfa0f566ca4b16fb997ee1534e530016f006fa4725896ee722",
+      "change": "footer only; exact technical body and synthesis/caveat suffix preserved",
+      "owner": "eternities-arcadia",
+      "ownerMetadataPath": "product/skills/eternities-arcadia/skill.json",
+      "methodDirectoryIndex": 23,
+      "directoryRowSha256": "142002ba814054c6d42b249ef3f65f8f9a31a6b3b3a41dc32d6c2df3e7b45006",
+      "directoryRow": {
+        "id": "animation-interruption-transitions",
+        "title": "Gameplay events and movement during animation interruption",
+        "owner": "eternities-arcadia",
+        "resource": "skills/eternities-arcadia/references/animation-interruption-transitions.md",
+        "resourceSha256": "5c43f1e601b2b814346e3b6519e1e8419bd6b89d6270e8ffdad82364e0693411",
+        "tasks": [
+          "Resolve gameplay-event authorization, layered pose and displacement when a skeletal action is interrupted."
+        ],
+        "exclusions": [
+          "Interruptible drawers, dialogs or layout transitions served by the motion specialist",
+          "Routine clip import or deformation-only diagnosis"
+        ],
+        "documentStatus": "not-assessed-by-this-overlay",
+        "executionEvidence": "Original author synthesis and synthetic examples only; no engine, renderer, device or independent application result.",
+        "outcomeStatus": "not-performance-qualified"
+      },
+      "sourceMapping": [
+        {
+          "id": "three-animation",
+          "locator": "mrdoob/three.js@d2ac59a15620ff8696dd55983c1f411c0a3f92ce:manual/pages/animation-system.html",
+          "sourceSha256": "02415166a204d96c68402c6c8396354a4c4aed4d341177a4d26e6f834c3c7842",
+          "ownerProvenanceIndex": 22,
+          "reusedPriorRecord": false
+        },
+        {
+          "id": "ue-animation",
+          "locator": "quodsoler/unreal-engine-skills@f3742d7b688690810df369802b90430324e380b9:skills/ue-animation-system/SKILL.md",
+          "sourceSha256": "908909e0d765382ae496741c9e1b9a8980c19ef089c0a2f879f5ecb87b57ac26",
+          "ownerProvenanceIndex": 25,
+          "reusedPriorRecord": false
+        },
+        {
+          "id": "unity-workflow",
+          "locator": "lovecatisgood-sudo/3d-asset-generation-blender-unity-game-development-skills@00221bb0a8ffcb8eb577daf5ddf9e8d8edcdbc98:skills/unity-mcp-game-development/SKILL.md",
+          "sourceSha256": "d380f5c275d1c0db18275f308e04b4e04650cb1c00579d8d318a16c98b8c33a9",
+          "ownerProvenanceIndex": 28,
+          "reusedPriorRecord": false
+        }
+      ]
+    },
+    {
+      "id": "frame-budget-diagnosis",
+      "path": "product/skills/eternities-arcadia/references/frame-budget-diagnosis.md",
+      "sha256": "d7e348fe98bcac368c4f8bf5dc8d18b039050d2c746608a50f3a42f63b89672b",
+      "oldDraftSha256": "ea504b2fb3d0319a4fffc727c8e3b4b33d20ea564ca08185c458ce72f6db764e",
+      "change": "footer only; exact technical body and synthesis/caveat suffix preserved",
+      "owner": "eternities-arcadia",
+      "ownerMetadataPath": "product/skills/eternities-arcadia/skill.json",
+      "methodDirectoryIndex": 24,
+      "directoryRowSha256": "d1c95229fa963e1199cfdcc1381011d6c35bdf96e3ec56e221ccaa3a4f58c81b",
+      "directoryRow": {
+        "id": "frame-budget-diagnosis",
+        "title": "Locating a missed interactive frame budget",
+        "owner": "eternities-arcadia",
+        "resource": "skills/eternities-arcadia/references/frame-budget-diagnosis.md",
+        "resourceSha256": "d7e348fe98bcac368c4f8bf5dc8d18b039050d2c746608a50f3a42f63b89672b",
+        "tasks": [
+          "Determine which work or wait causes missed interactive frame intervals and choose a falsifiable probe."
+        ],
+        "exclusions": [
+          "An already characterized candidate needs only a repeatable release gate",
+          "Network latency, ordinary page loading or offline render throughput"
+        ],
+        "documentStatus": "not-assessed-by-this-overlay",
+        "executionEvidence": "Original author synthesis and synthetic examples only; no engine, renderer, device or independent application result.",
+        "outcomeStatus": "not-performance-qualified"
+      },
+      "sourceMapping": [
+        {
+          "id": "ue-testing",
+          "locator": "quodsoler/unreal-engine-skills@f3742d7b688690810df369802b90430324e380b9:skills/ue-testing-debugging/SKILL.md",
+          "sourceSha256": "a486848b5f88095f4b1e649ad1ffb73f17ab80b51f9a3afa4886629c0e7cfdd6",
+          "ownerProvenanceIndex": 26,
+          "reusedPriorRecord": false
+        },
+        {
+          "id": "ue-profiling",
+          "locator": "quodsoler/unreal-engine-skills@f3742d7b688690810df369802b90430324e380b9:skills/ue-testing-debugging/references/profiling-commands.md",
+          "sourceSha256": "ebd53693a9fabb0012f22ec62a220f0ff7a7d83af5b52504160875cf9d64d506",
+          "ownerProvenanceIndex": 27,
+          "reusedPriorRecord": false
+        },
+        {
+          "id": "ue-materials",
+          "locator": "quodsoler/unreal-engine-skills@f3742d7b688690810df369802b90430324e380b9:skills/ue-materials-rendering/SKILL.md",
+          "sourceSha256": "ff708688124bffa3d92f4cd849255bc956f3da23ae96566f44c67b6491bbf0f6",
+          "ownerProvenanceIndex": 2,
+          "reusedPriorRecord": true
+        },
+        {
+          "id": "three-post",
+          "locator": "mrdoob/three.js@d2ac59a15620ff8696dd55983c1f411c0a3f92ce:manual/pages/post-processing.html",
+          "sourceSha256": "777a324f30f000687b1b5c9ed7e476166b8b09cf13e1d63ee84d89a0071dabcf",
+          "ownerProvenanceIndex": 23,
+          "reusedPriorRecord": false
+        },
+        {
+          "id": "three-materials",
+          "locator": "mrdoob/three.js@d2ac59a15620ff8696dd55983c1f411c0a3f92ce:manual/pages/materials.html",
+          "sourceSha256": "3c7426afff45f8ffd1b299308e9026c8fb733ad3f691705ac6efac50136c99fb",
+          "ownerProvenanceIndex": 24,
+          "reusedPriorRecord": false
+        },
+        {
+          "id": "unity-workflow",
+          "locator": "lovecatisgood-sudo/3d-asset-generation-blender-unity-game-development-skills@00221bb0a8ffcb8eb577daf5ddf9e8d8edcdbc98:skills/unity-mcp-game-development/SKILL.md",
+          "sourceSha256": "d380f5c275d1c0db18275f308e04b4e04650cb1c00579d8d318a16c98b8c33a9",
+          "ownerProvenanceIndex": 28,
+          "reusedPriorRecord": false
+        }
+      ]
+    }
+  ],
+  "previousResources": [
+    {
+      "path": "product/skills/eternities-arcadia/references/browser-runtime-lifecycle.md",
+      "sha256": "92f138939846c57ad5de1d36fd1c60d11341e29a91fcaecb03c942397ad93853"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md",
+      "sha256": "a1b65d62b70a689b3e7b1c06871588e4763a04d3987b9d5c833d5b3c7b6da52a"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/core-loop-playtest-v1.md",
+      "sha256": "305e082e9e3d57729fe10e4ad9865b1468333e661f7530469ef17a70fc07490a"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/game-state-to-audio-cue.md",
+      "sha256": "f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/methods.md",
+      "sha256": "57853439f2dbc6173e2b627b3d1cdd982c746f8376e86746b2745138b696dfc3"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/realtime-asset-integration.md",
+      "sha256": "a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/requirement-screen-state-traceability.md",
+      "sha256": "e26439a9761aebd5fabd6ac65865744063c6ce0ae26aaaadcc7d7fdb93d1f34a"
+    }
+  ],
+  "sourceMapping": [
+    {
+      "id": "three-debug",
+      "locator": "mrdoob/three.js@d2ac59a15620ff8696dd55983c1f411c0a3f92ce:manual/pages/debugging-glsl.html",
+      "sourceSha256": "66ccad7ff3f1e46ae4411b2192dc8838146ec0e2633e175c032d32792f5bfed8",
+      "ownerProvenanceIndex": 20,
+      "reusedPriorRecord": false
+    },
+    {
+      "id": "three-color",
+      "locator": "mrdoob/three.js@d2ac59a15620ff8696dd55983c1f411c0a3f92ce:manual/pages/color-management.html",
+      "sourceSha256": "1631497a3fade74ee423887f5a339fa580cda8fdeba4b5c9d90d47b93e8f5e5e",
+      "ownerProvenanceIndex": 21,
+      "reusedPriorRecord": false
+    },
+    {
+      "id": "three-animation",
+      "locator": "mrdoob/three.js@d2ac59a15620ff8696dd55983c1f411c0a3f92ce:manual/pages/animation-system.html",
+      "sourceSha256": "02415166a204d96c68402c6c8396354a4c4aed4d341177a4d26e6f834c3c7842",
+      "ownerProvenanceIndex": 22,
+      "reusedPriorRecord": false
+    },
+    {
+      "id": "three-post",
+      "locator": "mrdoob/three.js@d2ac59a15620ff8696dd55983c1f411c0a3f92ce:manual/pages/post-processing.html",
+      "sourceSha256": "777a324f30f000687b1b5c9ed7e476166b8b09cf13e1d63ee84d89a0071dabcf",
+      "ownerProvenanceIndex": 23,
+      "reusedPriorRecord": false
+    },
+    {
+      "id": "three-materials",
+      "locator": "mrdoob/three.js@d2ac59a15620ff8696dd55983c1f411c0a3f92ce:manual/pages/materials.html",
+      "sourceSha256": "3c7426afff45f8ffd1b299308e9026c8fb733ad3f691705ac6efac50136c99fb",
+      "ownerProvenanceIndex": 24,
+      "reusedPriorRecord": false
+    },
+    {
+      "id": "ue-animation",
+      "locator": "quodsoler/unreal-engine-skills@f3742d7b688690810df369802b90430324e380b9:skills/ue-animation-system/SKILL.md",
+      "sourceSha256": "908909e0d765382ae496741c9e1b9a8980c19ef089c0a2f879f5ecb87b57ac26",
+      "ownerProvenanceIndex": 25,
+      "reusedPriorRecord": false
+    },
+    {
+      "id": "ue-materials",
+      "locator": "quodsoler/unreal-engine-skills@f3742d7b688690810df369802b90430324e380b9:skills/ue-materials-rendering/SKILL.md",
+      "sourceSha256": "ff708688124bffa3d92f4cd849255bc956f3da23ae96566f44c67b6491bbf0f6",
+      "ownerProvenanceIndex": 2,
+      "reusedPriorRecord": true
+    },
+    {
+      "id": "ue-testing",
+      "locator": "quodsoler/unreal-engine-skills@f3742d7b688690810df369802b90430324e380b9:skills/ue-testing-debugging/SKILL.md",
+      "sourceSha256": "a486848b5f88095f4b1e649ad1ffb73f17ab80b51f9a3afa4886629c0e7cfdd6",
+      "ownerProvenanceIndex": 26,
+      "reusedPriorRecord": false
+    },
+    {
+      "id": "ue-profiling",
+      "locator": "quodsoler/unreal-engine-skills@f3742d7b688690810df369802b90430324e380b9:skills/ue-testing-debugging/references/profiling-commands.md",
+      "sourceSha256": "ebd53693a9fabb0012f22ec62a220f0ff7a7d83af5b52504160875cf9d64d506",
+      "ownerProvenanceIndex": 27,
+      "reusedPriorRecord": false
+    },
+    {
+      "id": "unity-workflow",
+      "locator": "lovecatisgood-sudo/3d-asset-generation-blender-unity-game-development-skills@00221bb0a8ffcb8eb577daf5ddf9e8d8edcdbc98:skills/unity-mcp-game-development/SKILL.md",
+      "sourceSha256": "d380f5c275d1c0db18275f308e04b4e04650cb1c00579d8d318a16c98b8c33a9",
+      "ownerProvenanceIndex": 28,
+      "reusedPriorRecord": false
+    }
+  ],
+  "preservedMethodDirectoryPrefixSha256": "a7a7a937ff2703eb6990e42116fd0d0fe23e5f017bba5d2e21044d31924a335b",
+  "priorReviewManifestSha256": "edcdd76da2b68d9ea1d0e41eb5a825aaf23aab9d9139f77fdb307d9b6cbdf1b0",
+  "checksNotRun": [
+    "Product/shared build",
+    "Release manifest validation",
+    "Engine/renderer/device profiling",
+    "Warehouse body re-review",
+    "Evaluator reads"
+  ],
+  "inheritedEvidence": "The v1 four worked transfer cases and eight static arithmetic checks still apply to the byte-identical technical bodies; not rerun or relabeled as renderer evidence."
+}
