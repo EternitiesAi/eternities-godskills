@@ -1,0 +1,77 @@
+{
+  "schema": "executable-examples-relocated-v2",
+  "status": "PASS",
+  "observedUtc": "2026-10-16T08:55:12.138Z",
+  "releaseId": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "expectedRelease": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "verifiedFiles": 13,
+  "completeInventorySha256": "193129e2837ce239edff6b3bb0a29ffbe46e81401366c345001e8197b6a303f5",
+  "node": "v24.18.0",
+  "platform": "win32",
+  "environmentKeys": [
+    "PATH",
+    "SystemRoot"
+  ],
+  "pathEmpty": true,
+  "sourceChanged": false,
+  "filesystemAccessIsolated": false,
+  "limits": "Actual exported pack, minimal environment, unrelated working directory; original filesystem is still accessible. Dependency independence also requires source inspection. Linux if used is WSL on a mounted Windows extraction, not a fresh OS. Synthetic deterministic examples only; no renderer or actual company outcomes.",
+  "runs": [
+    {
+      "args": [
+        "<pack>\\bin\\godskills.mjs",
+        "validate"
+      ],
+      "stdoutSha256": "e20fe3e133fe519353b4f781287265b568959f2378299314256e9d301ffcc4a7",
+      "stdout": "{\"releaseId\":\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\",\"skillCount\":93}\n"
+    },
+    {
+      "args": [
+        "<pack>\\examples\\constraint-diagnosis\\demo.mjs"
+      ],
+      "stdoutSha256": "5dd522ae6c3a4d12fe656a7307bfb0e5eedf463c671dbae872b295c7ec5419cc",
+      "stdout": "{\"fictional\":true}\n"
+    },
+    {
+      "args": [
+        "--test",
+        "--test-reporter=tap",
+        "<pack>\\examples\\constraint-diagnosis\\index.test.mjs"
+      ],
+      "stdoutSha256": "69d94d6a512eb6d78a31b53af2af987b9256a29690e0017e2f6d418d63f4d236",
+      "stdout": "TAP version 13\n# Subtest: generated fixture only\nok 1 - generated fixture only\n  ---\n  duration_ms: 0.3728\n  type: 'test'\n  ...\n1..1\n# tests 1\n# suites 0\n# pass 1\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 55.4251\n"
+    },
+    {
+      "args": [
+        "<pack>\\examples\\onboarding-cohorts\\demo.mjs"
+      ],
+      "stdoutSha256": "5dd522ae6c3a4d12fe656a7307bfb0e5eedf463c671dbae872b295c7ec5419cc",
+      "stdout": "{\"fictional\":true}\n"
+    },
+    {
+      "args": [
+        "--test",
+        "--test-reporter=tap",
+        "<pack>\\examples\\onboarding-cohorts\\index.test.mjs"
+      ],
+      "stdoutSha256": "2613f890ec4f14ccb04b4bafd813ac0afc88b861961c92359df5421e4a610ad6",
+      "stdout": "TAP version 13\n# Subtest: generated fixture only\nok 1 - generated fixture only\n  ---\n  duration_ms: 0.441\n  type: 'test'\n  ...\n1..1\n# tests 1\n# suites 0\n# pass 1\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 56.7299\n"
+    },
+    {
+      "args": [
+        "<pack>\\examples\\animation-interruptions\\demo.mjs"
+      ],
+      "stdoutSha256": "5dd522ae6c3a4d12fe656a7307bfb0e5eedf463c671dbae872b295c7ec5419cc",
+      "stdout": "{\"fictional\":true}\n"
+    },
+    {
+      "args": [
+        "--test",
+        "--test-reporter=tap",
+        "<pack>\\examples\\animation-interruptions\\index.test.mjs"
+      ],
+      "stdoutSha256": "973a0a79ff86bb397de1b629065247568d33e1ed8d42abb4be6360e6a1a15ed5",
+      "stdout": "TAP version 13\n# Subtest: generated fixture only\nok 1 - generated fixture only\n  ---\n  duration_ms: 0.3857\n  type: 'test'\n  ...\n1..1\n# tests 1\n# suites 0\n# pass 1\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 53.8119\n"
+    }
+  ]
+}

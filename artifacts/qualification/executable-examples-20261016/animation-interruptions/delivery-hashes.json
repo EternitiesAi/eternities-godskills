@@ -1,0 +1,27 @@
+{
+  "algorithm": "sha256",
+  "date": "2026-10-16",
+  "nodeVersion": "v24.18.0",
+  "authorTests": { "pass": 48, "fail": 0, "exitCode": 0 },
+  "relocatedAuthorTests": { "pass": 48, "fail": 0, "exitCode": 0 },
+  "relocatedDemo": { "exitCode": 0, "stdoutJsonChecked": true },
+  "independentAcceptance": "pending; not performed by this author",
+  "files": [
+    {
+      "path": "product/examples/animation-interruptions/index.mjs",
+      "sha256": "835df153517390dff7c0459db1a1107ef1de380f4834c5f7b94e6fadac856b9e"
+    },
+    {
+      "path": "product/examples/animation-interruptions/index.test.mjs",
+      "sha256": "b22930012b99aca19f62a0e16ca1e65f2ce25971ab56150d154e9e3868fab2c2"
+    },
+    {
+      "path": "product/examples/animation-interruptions/demo.mjs",
+      "sha256": "6c877e96a378b745363261d07cf5576ba969d60eda7058598d331bab7232c244"
+    },
+    {
+      "path": "product/examples/animation-interruptions/README.md",
+      "sha256": "061cf1f4e9a4aee8a0822228af53df3bcb6056c4326cf8382e960a5166eabce8"
+    }
+  ]
+}

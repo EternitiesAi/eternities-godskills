@@ -1,0 +1,33 @@
+{
+  "schema": "packaging-review-source-identities-v1",
+  "sourceSnapshotObservedAt": "2026-10-16T03:48:40-05:00",
+  "repositoryRoot": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003",
+  "algorithm": "SHA256 over raw file bytes",
+  "reviewedFiles": [
+    { "path": "tests/executable-examples-portability.test.mjs", "sha256": "0e21bc519b5df8ae30430803766f89d6a0ae9cc4d58e41a1871d7f092329176b" },
+    { "path": "C:/Users/Dom/.codex/operations/godskills-executable-examples-20261016/delivery.mjs", "sha256": "34b50009efec10eeb75dcfe21ec936241262bc0ed874fd29dd50603ac5051684" },
+    { "path": "C:/Users/Dom/.codex/operations/godskills-executable-examples-20261016/verify-integration.mjs", "sha256": "b603d18b7ae1e7d9f8e5eb62c889c09a6269b238ea3de394978cc65a52def520" },
+    { "path": "C:/Users/Dom/.codex/operations/godskills-executable-examples-20261016/verify-relocated.mjs", "sha256": "43eb6b7826349be7b6975b7a0a7fa108b8e7430ee0c055444110f8c730d8037c" },
+    { "path": "C:/Users/Dom/.codex/operations/godskills-executable-examples-20261016/run-check.mjs", "sha256": "c4428249f0b7b382133835b0119447a440c057790ba5944fac5fdc35d725afb4" },
+    { "path": ".gitattributes", "sha256": "0f5b371842c0bc3b4e18f6006d80e6b1f91f8ede35aa80f18b8da12edb43e366" }
+  ],
+  "workflowResources": [
+    { "path": "C:/Users/Dom/.agents/skills/requesting-code-review/SKILL.md", "sha256": "089f881abeaf31cbf8fa182978ceea5d52682badbb0d592732205324301cfbe4", "use": "Inspected only; no delegation performed under explicit no-subagent constraint" },
+    { "path": "C:/Users/Dom/.agents/skills/release-script-safety/SKILL.md", "sha256": "c5efb81bb955cd91bb0636e7de517ea61c0c347224534014d787dd85b5206d57", "use": "Applied effect inventory, source binding, preservation and fail-closed review guidance" }
+  ],
+  "frozenAuthorFiles": [
+    { "path": "product/examples/constraint-diagnosis/index.mjs", "sha256": "4744a3e554facf5d0b0766ad97796d0388e50a69e4b6728f4522570e095eeb82" },
+    { "path": "product/examples/constraint-diagnosis/index.test.mjs", "sha256": "c3a95b94fbd55d17450217eb45c5428d806f5dd7dddf3d7380caf734a17c2db5" },
+    { "path": "product/examples/constraint-diagnosis/demo.mjs", "sha256": "2c5f9674a9cbd15f685a0ebe0c67d06e16fb267b24c264d9579079298ab12d8a" },
+    { "path": "product/examples/constraint-diagnosis/README.md", "sha256": "2aa5584a3f4420879d9d756e8ff310c441ae1e34b8d76dea6a3934c89aa8dc05" },
+    { "path": "artifacts/qualification/executable-examples-20261016/constraint-diagnosis/evidence.json", "sha256": "2e06df2ce5dad464c89b97cc40ac3d289f0638f2e5a4d7df1be254563380bc68" },
+    { "path": "artifacts/qualification/executable-examples-20261016/constraint-diagnosis/method-use.md", "sha256": "b72cf22ff22097801c6ca65ed78431fe0c3e311965064296af4172579d1c261c" }
+  ],
+  "reviewArtifacts": [
+    { "path": "artifacts/qualification/executable-examples-20261016/packaging-review-v1/review.md", "sha256": "c3ec6fe99fc1bbb4ec3ca3bc6a5d91646ca22d6d3cccfbd9b6cd7cbf4807733d" },
+    { "path": "artifacts/qualification/executable-examples-20261016/packaging-review-v1/reproduce.mjs", "sha256": "467c812ca520c881b2b5911cca828665d50e64923cfddacfac5c424aeeae3b56" },
+    { "path": "artifacts/qualification/executable-examples-20261016/packaging-review-v1/fixture-T05BJy/results.json", "sha256": "046ad22f5f9048310bdddf31b12816b86daf34981c94bafd230a5ec9b2e2a0f9" }
+  ],
+  "frozenAuthorFileChecks": "All six matched before review and after fixture replay; hash-only reads, no edits or executions",
+  "scope": "Read the named parent scripts, attribute file and relevant installed skill resources. No independent acceptance suite or other author bodies read. Only generated fixtures executed. No product mutation or installer execution."
+}

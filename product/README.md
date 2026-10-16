@@ -35,6 +35,11 @@ way to make and verify those backups.
 
 ## Optional offline tools
 
+For concrete applications, [three runnable method examples](examples/README.md)
+cover shared-capacity diagnosis, onboarding cohort measurement and interrupted
+animation state. They are optional, dependency-free illustrations with tests;
+ordinary Markdown skill use does not require running them.
+
 With Node.js 24 or newer, no dependency installation is needed:
 
 ```text

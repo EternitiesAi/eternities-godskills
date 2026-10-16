@@ -1,0 +1,50 @@
+{
+  "node": "v24.18.0",
+  "scratch": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\artifacts\\qualification\\executable-examples-20261016\\packaging-review-v1\\fixture-T05BJy",
+  "sources": {
+    "portability": [
+      "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/executable-examples-portability.test.mjs",
+      "0e21bc519b5df8ae30430803766f89d6a0ae9cc4d58e41a1871d7f092329176b"
+    ],
+    "relocated": [
+      "C:/Users/Dom/.codex/operations/godskills-executable-examples-20261016/verify-relocated.mjs",
+      "43eb6b7826349be7b6975b7a0a7fa108b8e7430ee0c055444110f8c730d8037c"
+    ],
+    "runCheck": [
+      "C:/Users/Dom/.codex/operations/godskills-executable-examples-20261016/run-check.mjs",
+      "c4428249f0b7b382133835b0119447a440c057790ba5944fac5fdc35d725afb4"
+    ]
+  },
+  "observations": {
+    "relocated": {
+      "status": "PASS",
+      "reportedSourceChanged": false,
+      "manifestBytesChanged": true,
+      "unlistedFileAdded": true,
+      "sourceTransform": "none; original script executed only on generated fixture files"
+    },
+    "runCheck": {
+      "exitCode": 0,
+      "reportedStableSources": true,
+      "protectedSourceFixtureChanged": true,
+      "protectedPolicyFixtureChanged": true,
+      "sourceTransform": "only hardcoded root and op constants redirected into this fixture"
+    },
+    "portability": {
+      "testsPassed": 3,
+      "testsFailed": 0,
+      "dependencyOutsideCopiedPack": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\artifacts\\qualification\\executable-examples-20261016\\packaging-review-v1\\fixture-T05BJy\\portability\\checkout-only.mjs",
+      "invalidManifestDigestsAccepted": 12,
+      "sourceTransform": "only product-root constant redirected; OS temp environment confined to fixture directory"
+    },
+    "attributes": {
+      "autocrlf": true,
+      "rawHash": "897b2fe4457c447e9c22d5ba6e6ff3977113505c",
+      "exampleHash": "897b2fe4457c447e9c22d5ba6e6ff3977113505c",
+      "qualificationHash": "897b2fe4457c447e9c22d5ba6e6ff3977113505c",
+      "controlHash": "cf32ba2203a895605826f8891fc3103b825c765a",
+      "exactBytesPreservedInBothNewScopes": true,
+      "unrelatedTestStillNormalizes": true
+    }
+  }
+}

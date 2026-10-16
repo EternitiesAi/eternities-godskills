@@ -1,0 +1,11 @@
+{
+  "phase": "preinstall",
+  "observedUtc": "2026-10-16T08:55:15.211Z",
+  "releaseId": "6fa86b80b1a2bb015ea3d747f990da14c763b359912c3a7954499be66817d574",
+  "native": {},
+  "runtime": {
+    "release.json": "7eb11d8df634c4f6b829ed69027efb9565ac7761bde9304871738862e50618c1"
+  },
+  "unrelatedRecords": 0,
+  "candidateRelease": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+}

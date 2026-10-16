@@ -1,0 +1,23 @@
+import {spawnSync} from 'node:child_process';
+import {readFileSync,writeFileSync,existsSync,readdirSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {join} from 'node:path';
+const root="C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\artifacts\\qualification\\executable-examples-20261016\\packaging-review-v1\\fixture-T05BJy\\run-check\\repo";
+const op="C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\artifacts\\qualification\\executable-examples-20261016\\packaging-review-v1\\fixture-T05BJy\\run-check\\receipts";
+const [label,...tests]=process.argv.slice(2);
+if(!/^[a-z][a-z0-9-]+$/.test(label??'')||!tests.length)throw new Error('Named run and test paths required');
+const file=op+'/'+label+'.tap';
+if(existsSync(file)||existsSync(file+'.json'))throw new Error('Preserve prior run');
+const hash=x=>createHash('sha256').update(x).digest('hex');
+function inventory(dir,prefix='',out={}){for(const e of readdirSync(join(dir,prefix),{withFileTypes:true}).sort((a,b)=>a.name<b.name?-1:a.name>b.name?1:0)){const p=prefix+e.name;if(e.isDirectory())inventory(dir,p+'/',out);else if(e.isFile())out[p]=hash(readFileSync(join(dir,p)));else throw new Error('Unsupported source entry');}return out;}
+const snapshot=()=>Object.fromEntries(['product','tests','evaluation','examples'].map(p=>[p,inventory(root+'/'+p)]));
+const before=snapshot(),args=['--test','--test-concurrency=1','--test-reporter=tap',...tests],start=new Date().toISOString();
+const env={...process.env};delete env.NODE_OPTIONS;delete env.NODE_PATH;
+const r=spawnSync(process.execPath,args,{cwd:root,encoding:'utf8',env,maxBuffer:60*1024*1024,timeout:900000,windowsHide:true});
+const after=snapshot(),stable=JSON.stringify(before)===JSON.stringify(after),output=(r.stdout??'')+(r.stderr??'');
+writeFileSync(file,output,{flag:'wx'});
+const counters=Object.fromEntries([...output.matchAll(/^# (tests|pass|fail|cancelled|skipped|todo|duration_ms) (.+)$/gm)].map(x=>[x[1],Number(x[2])]));
+const receipt={label,start,finished:new Date().toISOString(),command:[process.execPath,...args],cwd:root,exitCode:r.status,error:r.error?.message??null,stableSources:stable,before,after,counters,output:file,sha256:hash(output),failedLines:output.split(/\r?\n/).filter(x=>/^not ok/.test(x))};
+writeFileSync(file+'.json',JSON.stringify(receipt,null,2)+'\n',{flag:'wx'});
+console.log(JSON.stringify({label,exitCode:r.status,stableSources:stable,counters,failedLines:receipt.failedLines,receipt:file+'.json'},null,2));
+process.exitCode=stable?(r.status??1):2;

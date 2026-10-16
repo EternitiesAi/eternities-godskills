@@ -4,6 +4,10 @@ These are examples of composition, not mandatory stages. Select a method only
 when it resolves a current uncertainty. A task that needs one specialist should
 not pay for an entire orchestration stack.
 
+For three small implementations rather than conceptual flows, use the optional
+[runnable method examples](examples/README.md). They include fictional inputs,
+public APIs, demos and behavioral tests for capacity, onboarding and animation.
+
 ## From idea to a working product
 
 User: "Build a booking tool for my repair shop. Customers should pick available

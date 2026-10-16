@@ -1,0 +1,9 @@
+{
+  "schema":"executable-examples-linux-attempt-v1",
+  "status":"NOT_VERIFIED",
+  "command":["wsl.exe","-d","Ubuntu","--","/var/tmp/godskills-quality-20261003.3ItiK4/node-v24.18.0-linux-x64/bin/node","/mnt/c/Users/Dom/.codex/operations/godskills-executable-examples-20261016/verify-relocated.mjs","/mnt/c/Users/Dom/.codex/operations/godskills-executable-examples-20261016/exported-v1/godskills","/mnt/c/Users/Dom/.codex/operations/godskills-executable-examples-20261016/relocated-linux-v1.json"],
+  "unifiedSession":24821,
+  "exitCode":1,
+  "error":"The operation timed out because a response was not received from the virtual machine or container. Wsl/Service/CreateInstance/HCS_E_CONNECTION_TIMEOUT",
+  "limit":"No Linux result produced. The Windows relocated run passed; prior release Linux evidence is not promoted to this candidate. Do not restart shared WSL or change host settings to obtain a pass."
+}

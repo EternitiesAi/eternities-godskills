@@ -1,0 +1,31 @@
+# Independent preimplementation acceptance criteria
+
+Frozen from the fixed 2026-10-16 spec and matching plan, before opening any author solution, author test, author evidence, or shipped domain method. "Preimplementation" describes reviewer ordering, not a claim that concurrent authors have not started. Contract-guided host-native build evidence with synthetic data only; no raw model isolation, raw-agent comparison, attribution of gains to skills, skill-superiority inference, field outcomes, or real-engine validation.
+
+## Behavioral gate
+
+The suite has 45 named cases (13 constraint diagnosis, 16 onboarding, 16 animation). Expected values are literal hand calculations. It imports the real exports without mocks, checks only contracted fields, and tolerates additional output fields. Ordinary and deeply frozen inputs are checked for successful cases; rejection cases also check nonmutation. Floating animation weights allow absolute error of 1e-12. Error class/message and resource/strike output order are not prescribed.
+
+- Constraint diagnosis: shared capacity across classes; rework once even with no classes; blocked effort excluded from ready demand; distinct resources and fractional hours; empty lists; duplicate IDs, missing required fields, unknown references even with zero counts, unsafe/fractional counts, negative/nonfinite hours, and overflow. Hand oracles include ready 10 + rework 4 against capacity 12 => shortfall 2; blocked 11.75 does not consume present capacity.
+- Onboarding: all mature eligible outcomes remain in the denominator; late, pending and ineligible outcomes stay separately counted; exact deadline and maturity are inclusive; a millisecond changes classification; pending acceptance does not create a mature denominator; median uses mature in-window elapsed days only, including the even sample [0.5, 1.5, 3, 6] => 2.25. Reject malformed identity, eligibility, calendar/time zone, chronology, blocker and overflow. A setup-only extra field may be rejected or ignored, but cannot create acceptance. If ignored, documentation is a later review gate.
+- Animation: initial ownership/pose; 250ms attack and 100ms hit/completion blends; transitions from current mixed weights; immediate cancellation independent of residual pose; inclusive 140..200ms strike window and one acceptance per active attack; repeated action IDs cannot restart or revive authorization; stale events ignored; deterministic same-time arbitration under reversed unsorted input; input sample order preserved; distinct ambiguous actions, cross-type ID reuse, unknown/missing events and malformed/duplicate times rejected. Example at 150ms is [locomotion 0.3, attack 0.2, hit 0.5].
+
+## Scope and unresolved policies
+
+No implementation, method-resource, README, author-test or independent-test reads outside this lane have occurred. No domain-method contribution is attributed from the contract naming those methods. Later review must establish actual source hashes and contributions from author evidence and exact completed files.
+
+The spec does not prescribe output ordering for resources/strikes, exact validation messages, the activeId representation after completion, or rejection versus documented ignoring of additional onboarding fields. The suite avoids fixing those choices. It does not decide sparse effort-map semantics or whether a same-time suppressed attack reserves its ID. These are useful omissions, not acceptance of an undocumented conflicting policy. No ambiguity currently prevents the selected cases. Error tests expect synchronous rejection for these synchronous exported calculations; a materially different error-return convention would need parent contract clarification, not silent test adaptation.
+
+This is proportionate coverage, not exhaustive validation of every malformed field combination. Static no-network/subprocess/dependency restrictions, file completeness, portable imports, demo JSON and fictional labeling, README limits, acceptance-event semantics, downstream/readiness intervention cautions, rework double-count warnings, and exact file identity remain review/replay gates after handoff. Do not infer these from behavioral passes.
+
+## Running and evidence discipline
+
+`GODSKILLS_EXAMPLE_ROOT` is the absolute directory containing `constraint-diagnosis/`, `onboarding-cohorts/`, and `animation-interruptions/`. Omitted, it resolves to this checkout's `product/examples/` relative to the suite file, independent of current working directory. For the parent's second independent replay, set it to the extracted archive's `godskills/examples/` directory. Then run `node --test <absolute-path-to-acceptance.test.mjs>` using Node 24+. No machine-local paths are embedded in the suite.
+
+Before importing author outputs, record SHA256 of the suite and these criteria in `freeze.md`. Only parse-check the suite at this stage; do not run it while outputs are being edited. Wait for the parent to send exact completed author files. Later capture their hashes before execution, preserve the first actual failure (or first-pass result, without inventing a red run), review source/docs/limits, and report concise READY/REPAIR findings against those exact bytes. Parent owns shared integration, relocated replay, publication and installation. A frozen suite alone is not acceptance.
+
+## Installed skill contribution
+
+Read `test-driven-development/SKILL.md` and its required `writing-good-tests.md` fully. They contributed: name the specific break before each case; use literal independent expectations; exercise real exports without mocks; check mutations at public boundaries; preserve first failure and final checks. Their normal immediate red-run step is deferred by the explicit user instruction to freeze and wait. No production code is authored, and no red/green behavior is claimed yet. The generic workflow does not establish any domain skill's effectiveness.
+
+`keel-wake/SKILL.md` was also read as host routing guidance. No Keel command, history read, or shared/session write followed; it contributed no behavioral criterion. The current lane-only and no-inherited-history restrictions control this deliverable. No memory, research sweep, other authors, subagents, external provider, acquisition, shared manifest, global configuration, commit, merge, push, build or install is involved.

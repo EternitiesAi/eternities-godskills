@@ -1,0 +1,30 @@
+{
+  "label": "portability-red",
+  "exitCode": 1,
+  "error": null,
+  "counters": {
+    "tests": 2,
+    "pass": 0,
+    "fail": 2,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "duration_ms": 153.1378
+  },
+  "stableSampledSources": true,
+  "sampledScopes": [
+    "product",
+    "tests",
+    "evaluation",
+    "examples"
+  ],
+  "sourceSnapshotSha256": "1c381825b25b5f5d1b49c7a21ccf89b3bd8776034796b6b94cee5f24a6d9204a",
+  "afterSnapshotSha256": "1c381825b25b5f5d1b49c7a21ccf89b3bd8776034796b6b94cee5f24a6d9204a",
+  "rawOutputSha256": "494e2c4cbc997cff6ab68d8a37d3a6876babdb6d2ffa94cbc3e5da4b0ba18fa1",
+  "failedLines": [
+    "not ok 1 - shipped examples execute and test from an unrelated directory with a minimal environment",
+    "not ok 2 - release manifest binds every public runnable example entrypoint"
+  ],
+  "privateReceiptSha256": "6d77c5ca173771197b7eebd1afdf7829612975caa1ed94734101e64a5a220148",
+  "limits": "Old v1 sampled scope excludes protected src/policy; final integration verifies those separately. Post-review v2 includes explicit protected paths. This is an execution receipt, not all-platform or all-agent qualification."
+}

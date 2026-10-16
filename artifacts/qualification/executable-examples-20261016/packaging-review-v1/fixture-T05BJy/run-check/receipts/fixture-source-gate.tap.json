@@ -1,0 +1,44 @@
+{
+  "label": "fixture-source-gate",
+  "start": "2026-10-16T08:47:53.983Z",
+  "finished": "2026-10-16T08:47:54.082Z",
+  "command": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "--test",
+    "--test-concurrency=1",
+    "--test-reporter=tap",
+    "tests/mutate-omitted-files.test.mjs"
+  ],
+  "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\artifacts\\qualification\\executable-examples-20261016\\packaging-review-v1\\fixture-T05BJy\\run-check\\repo",
+  "exitCode": 0,
+  "error": null,
+  "stableSources": true,
+  "before": {
+    "product": {},
+    "tests": {
+      "mutate-omitted-files.test.mjs": "031df9ee690f7bfd63516c9b3e36d62e33d0fb831c4c34ecc7912d20fa7d396e"
+    },
+    "evaluation": {},
+    "examples": {}
+  },
+  "after": {
+    "product": {},
+    "tests": {
+      "mutate-omitted-files.test.mjs": "031df9ee690f7bfd63516c9b3e36d62e33d0fb831c4c34ecc7912d20fa7d396e"
+    },
+    "evaluation": {},
+    "examples": {}
+  },
+  "counters": {
+    "tests": 1,
+    "pass": 1,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "duration_ms": 51.132
+  },
+  "output": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\artifacts\\qualification\\executable-examples-20261016\\packaging-review-v1\\fixture-T05BJy\\run-check\\receipts/fixture-source-gate.tap",
+  "sha256": "a81315bf56723185806da69973e03e5589e0a701c7b54309d8e472c9e9e6137b",
+  "failedLines": []
+}

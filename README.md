@@ -12,8 +12,8 @@ required.
 
 ## Start in a minute
 
-Download the [current standalone pack](artifacts/releases/godskills-product-20261016-6fa86b80.zip)
-and its [SHA-256](artifacts/releases/godskills-product-20261016-6fa86b80.zip.sha256),
+Download the [current standalone pack](artifacts/releases/godskills-product-20261016-7f93176c.zip)
+and its [SHA-256](artifacts/releases/godskills-product-20261016-7f93176c.zip.sha256),
 or copy the complete [product folder](product/README.md). Give your agent
 [START-HERE.md](product/START-HERE.md) and your actual task.
 
@@ -56,6 +56,13 @@ adaptive practice, shader construction, lighting/material calibration,
 interrupted gameplay animation and frame-budget diagnosis. The
 [selected method directory](product/METHODS.v1.md) now exposes 29 deeper methods
 without adding compulsory entrypoints or loading them all into an agent's context.
+
+Three [runnable, dependency-free examples](product/examples/README.md) now apply
+those methods to shared-capacity calculations, honest onboarding cohorts, and
+interruption-safe animation state. Their code passed 45 separately authored
+acceptance cases. See the [application and delivery evidence](docs/executable-method-examples-20261016.md)
+for exact scope: synthetic task implementations, not business uplift, rendered
+quality, or a claim that skills outperform an unguided model.
 
 ## Three ways the pieces work together
 

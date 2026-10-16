@@ -24,3 +24,6 @@ product/skills/service-observability-and-slo-design/references/telemetry-cardina
 # Preserve this release's exact independent-review and failure evidence.
 artifacts/qualification/usefulness-20261016/** -text whitespace=-blank-at-eof,-blank-at-eol,cr-at-eol
 product/evidence/method-reviews/usefulness-v1/** -text whitespace=-blank-at-eof,-blank-at-eol,cr-at-eol
+# Preserve exact executed/reviewed examples and their independent evaluation evidence.
+product/examples/** -text whitespace=-blank-at-eof,cr-at-eol
+artifacts/qualification/executable-examples-20261016/** -text whitespace=-blank-at-eof,-blank-at-eol,cr-at-eol

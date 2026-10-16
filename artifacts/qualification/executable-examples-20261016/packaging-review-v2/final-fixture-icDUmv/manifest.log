@@ -1,0 +1,72 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Pack membership or bytes changed during execution
++ actual - expected
+... Skipped lines
+
+  {
+    'bin/': 'directory',
+    'bin/godskills.mjs': '8895b12f85700c8bd4f284c0d5ed634171000cb8372b4c6b4c519c54bda9cb52',
+    'examples/': 'directory',
+    'examples/animation-interruptions/': 'directory',
+...
+    'examples/onboarding-cohorts/index.test.mjs': '1bf45feddf2a4c3ca59d9d90b3564f6a8eb942642e9206a8a8ccb3537dce956b',
++   'release.json': '4b3aa0a79184f266429f9948f3d7420d86915da917dfecb38e8b93d8f660c5ba'
+-   'release.json': 'bff2ae2b07320aebc984470e6cc432f4c3d8966be76070c2797a56a55bec9c6f'
+  }
+
+    at file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/executable-examples-20261016/packaging-review-v2/final-fixture-icDUmv/verify-relocated.mjs:37:8
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:643:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: {
+    'bin/': 'directory',
+    'bin/godskills.mjs': '8895b12f85700c8bd4f284c0d5ed634171000cb8372b4c6b4c519c54bda9cb52',
+    'examples/': 'directory',
+    'examples/animation-interruptions/': 'directory',
+    'examples/animation-interruptions/README.md': '72c15a0bb5b38a63b63124168e01a5ccc6fdf5e85781a03259345d257fac1e6d',
+    'examples/animation-interruptions/demo.mjs': 'c92d65f8de61b4a6deb072acc1d5f4a1c02b2676e3000851c4161a9127330d4c',
+    'examples/animation-interruptions/index.mjs': 'ddf066ee341c060cca67ed6faa462602690b490d98c6fecdf607c447754e14bb',
+    'examples/animation-interruptions/index.test.mjs': '1bf45feddf2a4c3ca59d9d90b3564f6a8eb942642e9206a8a8ccb3537dce956b',
+    'examples/constraint-diagnosis/': 'directory',
+    'examples/constraint-diagnosis/README.md': '72c15a0bb5b38a63b63124168e01a5ccc6fdf5e85781a03259345d257fac1e6d',
+    'examples/constraint-diagnosis/demo.mjs': 'c92d65f8de61b4a6deb072acc1d5f4a1c02b2676e3000851c4161a9127330d4c',
+    'examples/constraint-diagnosis/index.mjs': 'ddf066ee341c060cca67ed6faa462602690b490d98c6fecdf607c447754e14bb',
+    'examples/constraint-diagnosis/index.test.mjs': '1bf45feddf2a4c3ca59d9d90b3564f6a8eb942642e9206a8a8ccb3537dce956b',
+    'examples/onboarding-cohorts/': 'directory',
+    'examples/onboarding-cohorts/README.md': '72c15a0bb5b38a63b63124168e01a5ccc6fdf5e85781a03259345d257fac1e6d',
+    'examples/onboarding-cohorts/demo.mjs': 'c92d65f8de61b4a6deb072acc1d5f4a1c02b2676e3000851c4161a9127330d4c',
+    'examples/onboarding-cohorts/index.mjs': 'ddf066ee341c060cca67ed6faa462602690b490d98c6fecdf607c447754e14bb',
+    'examples/onboarding-cohorts/index.test.mjs': '1bf45feddf2a4c3ca59d9d90b3564f6a8eb942642e9206a8a8ccb3537dce956b',
+    'release.json': '4b3aa0a79184f266429f9948f3d7420d86915da917dfecb38e8b93d8f660c5ba'
+  },
+  expected: {
+    'bin/': 'directory',
+    'bin/godskills.mjs': '8895b12f85700c8bd4f284c0d5ed634171000cb8372b4c6b4c519c54bda9cb52',
+    'examples/': 'directory',
+    'examples/animation-interruptions/': 'directory',
+    'examples/animation-interruptions/README.md': '72c15a0bb5b38a63b63124168e01a5ccc6fdf5e85781a03259345d257fac1e6d',
+    'examples/animation-interruptions/demo.mjs': 'c92d65f8de61b4a6deb072acc1d5f4a1c02b2676e3000851c4161a9127330d4c',
+    'examples/animation-interruptions/index.mjs': 'ddf066ee341c060cca67ed6faa462602690b490d98c6fecdf607c447754e14bb',
+    'examples/animation-interruptions/index.test.mjs': '1bf45feddf2a4c3ca59d9d90b3564f6a8eb942642e9206a8a8ccb3537dce956b',
+    'examples/constraint-diagnosis/': 'directory',
+    'examples/constraint-diagnosis/README.md': '72c15a0bb5b38a63b63124168e01a5ccc6fdf5e85781a03259345d257fac1e6d',
+    'examples/constraint-diagnosis/demo.mjs': 'c92d65f8de61b4a6deb072acc1d5f4a1c02b2676e3000851c4161a9127330d4c',
+    'examples/constraint-diagnosis/index.mjs': 'ddf066ee341c060cca67ed6faa462602690b490d98c6fecdf607c447754e14bb',
+    'examples/constraint-diagnosis/index.test.mjs': '1bf45feddf2a4c3ca59d9d90b3564f6a8eb942642e9206a8a8ccb3537dce956b',
+    'examples/onboarding-cohorts/': 'directory',
+    'examples/onboarding-cohorts/README.md': '72c15a0bb5b38a63b63124168e01a5ccc6fdf5e85781a03259345d257fac1e6d',
+    'examples/onboarding-cohorts/demo.mjs': 'c92d65f8de61b4a6deb072acc1d5f4a1c02b2676e3000851c4161a9127330d4c',
+    'examples/onboarding-cohorts/index.mjs': 'ddf066ee341c060cca67ed6faa462602690b490d98c6fecdf607c447754e14bb',
+    'examples/onboarding-cohorts/index.test.mjs': '1bf45feddf2a4c3ca59d9d90b3564f6a8eb942642e9206a8a8ccb3537dce956b',
+    'release.json': 'bff2ae2b07320aebc984470e6cc432f4c3d8966be76070c2797a56a55bec9c6f'
+  },
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.18.0

@@ -1,0 +1,49 @@
+{
+  "schema": "packaging-review-source-identities-v2",
+  "observedAt": "2026-10-16T03:59:03-05:00",
+  "repositoryRoot": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003",
+  "algorithm": "SHA256 over raw file bytes",
+  "currentReviewedFiles": [
+    { "path": "tests/executable-examples-portability.test.mjs", "sha256": "e8783e3257cd44b062c55cb55f6b9be52b36ebbd8281dc93bcc5cc8eaf019cf7" },
+    { "path": "C:/Users/Dom/.codex/operations/godskills-executable-examples-20261016/delivery.mjs", "sha256": "81471c67ff272477d1e026ec48680d055749e78f2897b0ab6ea40bcd9707f032" },
+    { "path": "C:/Users/Dom/.codex/operations/godskills-executable-examples-20261016/verify-integration.mjs", "sha256": "b603d18b7ae1e7d9f8e5eb62c889c09a6269b238ea3de394978cc65a52def520" },
+    { "path": "C:/Users/Dom/.codex/operations/godskills-executable-examples-20261016/verify-relocated.mjs", "sha256": "6fb6c84c2de62b04c811bbbb0e98315457901289b0d7484e40d07b90ac02c143" },
+    { "path": "C:/Users/Dom/.codex/operations/godskills-executable-examples-20261016/run-check.mjs", "sha256": "7e648e32587c6c4761f99079e88963f35b2daea933e0d533efe5348f8a38ca95" },
+    { "path": "C:/Users/Dom/.codex/operations/godskills-executable-examples-20261016/pin-candidate.mjs", "sha256": "08dbec1109cd844dfbdf67084ea00de6fa07aed386bef8b9099079894020f225" },
+    { "path": ".gitattributes", "sha256": "0f5b371842c0bc3b4e18f6006d80e6b1f91f8ede35aa80f18b8da12edb43e366" }
+  ],
+  "workflowResources": [
+    { "path": "C:/Users/Dom/.agents/skills/release-script-safety/SKILL.md", "sha256": "c5efb81bb955cd91bb0636e7de517ea61c0c347224534014d787dd85b5206d57", "use": "Bounded source/identity/failure-gate and preservation review; no publication or installation" }
+  ],
+  "frozenAuthorFiles": [
+    { "path": "product/examples/constraint-diagnosis/index.mjs", "sha256": "4744a3e554facf5d0b0766ad97796d0388e50a69e4b6728f4522570e095eeb82" },
+    { "path": "product/examples/constraint-diagnosis/index.test.mjs", "sha256": "c3a95b94fbd55d17450217eb45c5428d806f5dd7dddf3d7380caf734a17c2db5" },
+    { "path": "product/examples/constraint-diagnosis/demo.mjs", "sha256": "2c5f9674a9cbd15f685a0ebe0c67d06e16fb267b24c264d9579079298ab12d8a" },
+    { "path": "product/examples/constraint-diagnosis/README.md", "sha256": "2aa5584a3f4420879d9d756e8ff310c441ae1e34b8d76dea6a3934c89aa8dc05" },
+    { "path": "artifacts/qualification/executable-examples-20261016/constraint-diagnosis/evidence.json", "sha256": "2e06df2ce5dad464c89b97cc40ac3d289f0638f2e5a4d7df1be254563380bc68" },
+    { "path": "artifacts/qualification/executable-examples-20261016/constraint-diagnosis/method-use.md", "sha256": "b72cf22ff22097801c6ca65ed78431fe0c3e311965064296af4172579d1c261c" }
+  ],
+  "frozenV1ReviewFiles": [
+    { "path": "artifacts/qualification/executable-examples-20261016/packaging-review-v1/review.md", "sha256": "c3ec6fe99fc1bbb4ec3ca3bc6a5d91646ca22d6d3cccfbd9b6cd7cbf4807733d" },
+    { "path": "artifacts/qualification/executable-examples-20261016/packaging-review-v1/hashes.json", "sha256": "db4bd89ecccce127c967566c399fc3eb9d96fe40609d9709e4df4ab0c37abfdb" }
+  ],
+  "immutableV1Inventory": {
+    "entries": 88,
+    "inventoryJsonSha256": "fb89c078f571307410bf9d8cd4af5b0e57397f0e771ba5f4a26686e9b70ce1b1",
+    "unchanged": true,
+    "definition": "Recursive regular-file SHA256 plus directory membership, localeCompare name ordering, JSON.stringify; see final-replay.mjs"
+  },
+  "reviewArtifacts": [
+    { "path": "artifacts/qualification/executable-examples-20261016/packaging-review-v2/review.md", "sha256": "548a97eec78c224d808d4df30ab8bddd39aa2ece9d6fff216b5e37352aaee0ae" },
+    { "path": "artifacts/qualification/executable-examples-20261016/packaging-review-v2/reproduce.mjs", "sha256": "2b99dd8fbf28d1e737b49ab291efd071d4c9bd5e146d886b72d1d6a2f035d6a8", "role": "Preserved initial v2 harness; source guards bind initial revisions" },
+    { "path": "artifacts/qualification/executable-examples-20261016/packaging-review-v2/fixture-koS4bs/results.json", "sha256": "fd1a73ed658e9857ac936713e9694b65a069dcd9505a290ed961e59b354f4503", "role": "Seven unchanged-source probes retained; earlier six relocation probes superseded" },
+    { "path": "artifacts/qualification/executable-examples-20261016/packaging-review-v2/fixture-koS4bs/verify-relocated.mjs", "sha256": "3bd2b054eb627a1729d0d53aa2ca4683dfd10200dd475ac4028f744fc5f85ad9", "role": "Historical initial v2 source snapshot, not final reviewed source" },
+    { "path": "artifacts/qualification/executable-examples-20261016/packaging-review-v2/final-replay.mjs", "sha256": "5f3b535daf98c430615ddd0432c81b0f1ed56a98f2ab2dc18ebd44e28121b8e3" },
+    { "path": "artifacts/qualification/executable-examples-20261016/packaging-review-v2/final-fixture-icDUmv/results.json", "sha256": "ae04ae47ee9945f4210c73d530c7aa9c7fd4bc68b0df0623bc5b4dc7b5568176", "role": "Eight final-source relocation probes plus unchanged-source evidence binding" }
+  ],
+  "finalApplicableProbes": 15,
+  "cleanControlsPassed": 4,
+  "negativeCasesRejectedAsIntended": 11,
+  "remainingBlockingFindingsWithinScope": 0,
+  "limits": "Generated fixtures and source review only; no real pack, installer, rollback or independent example acceptance executed. No expansion beyond the four v1 findings."
+}

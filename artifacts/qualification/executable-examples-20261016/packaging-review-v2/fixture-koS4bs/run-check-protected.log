@@ -1,0 +1,16 @@
+{
+  "label": "fixture-protected",
+  "exitCode": 0,
+  "stableSources": false,
+  "counters": {
+    "tests": 1,
+    "pass": 1,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "duration_ms": 49.2692
+  },
+  "failedLines": [],
+  "receipt": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\artifacts\\qualification\\executable-examples-20261016\\packaging-review-v2\\fixture-koS4bs\\run-check\\receipts/fixture-protected.tap.json"
+}

@@ -1,0 +1,16 @@
+{
+  "label": "fixture-clean",
+  "exitCode": 0,
+  "stableSources": true,
+  "counters": {
+    "tests": 1,
+    "pass": 1,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "duration_ms": 51.5554
+  },
+  "failedLines": [],
+  "receipt": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\artifacts\\qualification\\executable-examples-20261016\\packaging-review-v2\\fixture-koS4bs\\run-check\\receipts/fixture-clean.tap.json"
+}

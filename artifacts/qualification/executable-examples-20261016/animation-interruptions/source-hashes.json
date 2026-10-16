@@ -1,0 +1,53 @@
+{
+  "algorithm": "sha256",
+  "date": "2026-10-16",
+  "repositoryHead": "594a4b7cd294eecfef8b5c9432416d7650ae4d92",
+  "branch": "feat/executable-method-examples-20261016",
+  "sources": [
+    {
+      "path": "product/skills/eternities-arcadia/SKILL.md",
+      "role": "shipped domain skill; read completely",
+      "sha256": "845c2af02029493164d7f939d2a46ead4137e8b8ee8d4f73ff0b3e15883d966e"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/animation-interruption-transitions.md",
+      "role": "shipped method; read completely and applied as detailed in evidence.md",
+      "sha256": "5c43f1e601b2b814346e3b6519e1e8419bd6b89d6270e8ffdad82364e0693411"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-10-16-executable-method-examples.md",
+      "role": "fixed API contract; read completely",
+      "sha256": "829fe018fc78a5ec245f754fc6f5b9782500d1005c0e190852478cc2c90eab0a"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-16-executable-method-examples.md",
+      "role": "matching plan; read completely; only the author lane is executed here",
+      "sha256": "e96900bb926a6119185497deb0d6e26de61e9f63f3e41ae94229287c91573135"
+    },
+    {
+      "path": "C:/Users/Dom/.agents/skills/eternities-arcadia/SKILL.md",
+      "role": "installed domain entrypoint; read completely; byte-identical to shipped entrypoint",
+      "sha256": "845c2af02029493164d7f939d2a46ead4137e8b8ee8d4f73ff0b3e15883d966e"
+    },
+    {
+      "path": "C:/Users/Dom/.agents/skills/test-driven-development/SKILL.md",
+      "role": "installed test-first workflow; read completely and used for red/green cycles",
+      "sha256": "13984d4cc6a0926d164f09e77e169d4d70dd6d3f62b0af2a34abadebb6cfc025"
+    },
+    {
+      "path": "C:/Users/Dom/.agents/skills/test-driven-development/writing-good-tests.md",
+      "role": "literal expectations and real behavior without mocks; read completely",
+      "sha256": "51471c853306ff92ca8bb41dcaea05f31c0e46b03651f8f3c99754b7172f4ae1"
+    },
+    {
+      "path": "C:/Users/Dom/.agents/skills/executing-plans/SKILL.md",
+      "role": "inline plan execution; read completely; parent retains integration",
+      "sha256": "04e740246d28c9583712605fbecf9d5bc6763692177c525c0e098f33bf02483f"
+    },
+    {
+      "path": "C:/Users/Dom/.agents/skills/verification-before-completion/SKILL.md",
+      "role": "check outputs before completion claims; read completely",
+      "sha256": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3"
+    }
+  ]
+}

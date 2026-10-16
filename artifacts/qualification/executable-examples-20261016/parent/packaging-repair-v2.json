@@ -1,0 +1,28 @@
+{
+  "label": "packaging-repair-v2",
+  "exitCode": 0,
+  "error": null,
+  "counters": {
+    "tests": 3,
+    "pass": 3,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "duration_ms": 568.015
+  },
+  "stableSampledSources": true,
+  "sampledScopes": [
+    "product",
+    "tests",
+    "evaluation",
+    "examples",
+    "protected"
+  ],
+  "sourceSnapshotSha256": "a7d38b4449ffaa1c76a71495fa1b39b2a02a4a695a08e6f2233eeb2f45cc4bf1",
+  "afterSnapshotSha256": "a7d38b4449ffaa1c76a71495fa1b39b2a02a4a695a08e6f2233eeb2f45cc4bf1",
+  "rawOutputSha256": "09b05b0f7db5e8f9ee9c113e712078416231227062181d5e045c168632d11970",
+  "failedLines": [],
+  "privateReceiptSha256": "3a0405dcd648fde0e3311c7ef72d2f76fc1909b5f0d806dbbdf3fe70728f47d3",
+  "limits": "Old v1 sampled scope excludes protected src/policy; final integration verifies those separately. Post-review v2 includes explicit protected paths. This is an execution receipt, not all-platform or all-agent qualification."
+}

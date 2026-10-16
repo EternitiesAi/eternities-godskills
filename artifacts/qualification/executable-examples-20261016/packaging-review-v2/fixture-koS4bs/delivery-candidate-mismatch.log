@@ -1,0 +1,20 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Candidate changed after independent acceptance
++ actual - expected
+
++ 'bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb'
+- 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+
+    at file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/executable-examples-20261016/packaging-review-v2/fixture-koS4bs/delivery.mjs:32:10 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: 'bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb',
+  expected: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.18.0

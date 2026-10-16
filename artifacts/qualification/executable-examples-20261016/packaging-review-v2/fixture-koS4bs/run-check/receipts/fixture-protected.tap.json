@@ -1,0 +1,56 @@
+{
+  "label": "fixture-protected",
+  "start": "2026-10-16T08:55:13.927Z",
+  "finished": "2026-10-16T08:55:14.024Z",
+  "command": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "--test",
+    "--test-concurrency=1",
+    "--test-reporter=tap",
+    "tests/mutate.test.mjs"
+  ],
+  "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\artifacts\\qualification\\executable-examples-20261016\\packaging-review-v2\\fixture-koS4bs\\run-check\\repo",
+  "exitCode": 0,
+  "error": null,
+  "stableSources": false,
+  "before": {
+    "product": {},
+    "tests": {
+      "clean.test.mjs": "1bf45feddf2a4c3ca59d9d90b3564f6a8eb942642e9206a8a8ccb3537dce956b",
+      "mutate.test.mjs": "0003d8d6339648f0607a5892286918554511fd7f7a9780447af37878e89ae74d"
+    },
+    "evaluation": {},
+    "examples": {},
+    "protected": {
+      "src/adaptive-activation.mjs": "a989e0006f777f039ff48323840547660752411977452125fbe8e2a88a160692",
+      "policies/adaptive-activation.v1.json": "a989e0006f777f039ff48323840547660752411977452125fbe8e2a88a160692",
+      "artifacts/adaptive-activation/evidence.v1.json": "a989e0006f777f039ff48323840547660752411977452125fbe8e2a88a160692"
+    }
+  },
+  "after": {
+    "product": {},
+    "tests": {
+      "clean.test.mjs": "1bf45feddf2a4c3ca59d9d90b3564f6a8eb942642e9206a8a8ccb3537dce956b",
+      "mutate.test.mjs": "0003d8d6339648f0607a5892286918554511fd7f7a9780447af37878e89ae74d"
+    },
+    "evaluation": {},
+    "examples": {},
+    "protected": {
+      "src/adaptive-activation.mjs": "ae1a509cb2c4b28c998eb3162c35f201b565d1666a8b58907b0af830d8801657",
+      "policies/adaptive-activation.v1.json": "ae1a509cb2c4b28c998eb3162c35f201b565d1666a8b58907b0af830d8801657",
+      "artifacts/adaptive-activation/evidence.v1.json": "ae1a509cb2c4b28c998eb3162c35f201b565d1666a8b58907b0af830d8801657"
+    }
+  },
+  "counters": {
+    "tests": 1,
+    "pass": 1,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "duration_ms": 49.2692
+  },
+  "output": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\artifacts\\qualification\\executable-examples-20261016\\packaging-review-v2\\fixture-koS4bs\\run-check\\receipts/fixture-protected.tap",
+  "sha256": "3d7fa10898af779a0469e1d561af168b8c2955f777d891288d705a1596c0ea55",
+  "failedLines": []
+}

@@ -1,0 +1,29 @@
+{
+  "fullSuite": {
+    "tests": 2120,
+    "pass": 2118,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 2,
+    "todo": 0,
+    "duration_ms": 146848.0021
+  },
+  "changedSinceFullSuite": [
+    {
+      "path": "tests/executable-examples-portability.test.mjs",
+      "fullRunSha256": "0e21bc519b5df8ae30430803766f89d6a0ae9cc4d58e41a1871d7f092329176b",
+      "currentSha256": "e8783e3257cd44b062c55cb55f6b9be52b36ebbd8281dc93bcc5cc8eaf019cf7"
+    }
+  ],
+  "postReviewTests": {
+    "tests": 3,
+    "pass": 3,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "duration_ms": 568.015
+  },
+  "otherSampledInputBytesUnchanged": true,
+  "limits": "Full suite was run before the parent packaging test was strengthened. Only that test changed, then its3cases passed. Original protected artifacts rechecked by integration; unchanged product bytes retain independent review."
+}

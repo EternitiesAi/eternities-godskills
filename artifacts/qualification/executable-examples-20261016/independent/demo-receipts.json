@@ -1,0 +1,318 @@
+[
+  {
+    "lane": "constraint-diagnosis",
+    "command": "node product/examples/constraint-diagnosis/demo.mjs",
+    "exitCode": 0,
+    "jsonParsed": true,
+    "literalChecksPassed": true,
+    "output": {
+      "fictional": true,
+      "period": "One fictional week; all counts and hours share this boundary.",
+      "baseline": {
+        "input": {
+          "resources": [
+            {
+              "id": "review",
+              "availableHours": 12,
+              "reworkHours": 4
+            },
+            {
+              "id": "acceptance",
+              "availableHours": 4,
+              "reworkHours": 0
+            }
+          ],
+          "classes": [
+            {
+              "id": "standard",
+              "readyCount": 4,
+              "blockedCount": 0,
+              "effortHours": {
+                "review": 1,
+                "acceptance": 0.5
+              }
+            },
+            {
+              "id": "complex",
+              "readyCount": 2,
+              "blockedCount": 0,
+              "effortHours": {
+                "review": 3,
+                "acceptance": 1
+              }
+            },
+            {
+              "id": "missing-inputs",
+              "readyCount": 0,
+              "blockedCount": 20,
+              "effortHours": {
+                "review": 1,
+                "acceptance": 0.5
+              }
+            }
+          ]
+        },
+        "result": {
+          "resources": [
+            {
+              "id": "review",
+              "readyHours": 10,
+              "blockedHours": 20,
+              "reworkHours": 4,
+              "requiredReadyHours": 14,
+              "shortfallHours": 2,
+              "spareHours": 0
+            },
+            {
+              "id": "acceptance",
+              "readyHours": 4,
+              "blockedHours": 10,
+              "reworkHours": 0,
+              "requiredReadyHours": 4,
+              "shortfallHours": 0,
+              "spareHours": 0
+            }
+          ]
+        }
+      },
+      "preventedRework": {
+        "input": {
+          "resources": [
+            {
+              "id": "review",
+              "availableHours": 12,
+              "reworkHours": 2
+            },
+            {
+              "id": "acceptance",
+              "availableHours": 4,
+              "reworkHours": 0
+            }
+          ],
+          "classes": [
+            {
+              "id": "standard",
+              "readyCount": 4,
+              "blockedCount": 0,
+              "effortHours": {
+                "review": 1,
+                "acceptance": 0.5
+              }
+            },
+            {
+              "id": "complex",
+              "readyCount": 2,
+              "blockedCount": 0,
+              "effortHours": {
+                "review": 3,
+                "acceptance": 1
+              }
+            },
+            {
+              "id": "missing-inputs",
+              "readyCount": 0,
+              "blockedCount": 20,
+              "effortHours": {
+                "review": 1,
+                "acceptance": 0.5
+              }
+            }
+          ]
+        },
+        "result": {
+          "resources": [
+            {
+              "id": "review",
+              "readyHours": 10,
+              "blockedHours": 20,
+              "reworkHours": 2,
+              "requiredReadyHours": 12,
+              "shortfallHours": 0,
+              "spareHours": 0
+            },
+            {
+              "id": "acceptance",
+              "readyHours": 4,
+              "blockedHours": 10,
+              "reworkHours": 0,
+              "requiredReadyHours": 4,
+              "shortfallHours": 0,
+              "spareHours": 0
+            }
+          ]
+        }
+      },
+      "interpretation": "Preventing two review rework hours removes the modeled two-hour review shortfall. The 20 blocked items are future effort, not presently ready demand. Acceptance has no modeled spare hours.",
+      "beforeIntervention": [
+        "Confirm the correction is preventable without reducing quality, and do not include it again in class effort.",
+        "Trace missing prerequisites and ready arrival times; blocked counts cannot explain where or why work waits.",
+        "Check downstream acceptance and release timestamps and capacity before expecting more completed work.",
+        "Choose an authorized owner, observation window, quality guardrail and reversal condition. If accepted completions do not improve, revisit the diagnosis."
+      ],
+      "limitation": "A synthetic effort reconciliation is not a throughput forecast, staffing recommendation or observed business improvement."
+    }
+  },
+  {
+    "lane": "onboarding-cohorts",
+    "command": "node product/examples/onboarding-cohorts/demo.mjs",
+    "exitCode": 0,
+    "jsonParsed": true,
+    "literalChecksPassed": true,
+    "output": {
+      "fictional": true,
+      "scenario": "An invented inventory service reports its first useful result.",
+      "outcomeDefinition": "A warehouse operator accepts a usable pick list from their account's own inventory. These fictional records illustrate that event; they are not evidence of customer activation.",
+      "cutoff": "2026-10-15T00:00:00Z",
+      "windowDays": 7,
+      "summary": {
+        "matureCount": 6,
+        "pendingCount": 2,
+        "ineligibleCount": 1,
+        "acceptedInWindowCount": 3,
+        "acceptedAfterWindowCount": 1,
+        "matureNonSuccessCount": 3,
+        "matureRate": 0.5,
+        "pendingAcceptedCount": 1,
+        "completedMedianDays": 3
+      },
+      "interpretation": [
+        "Three of six mature eligible accounts have an observed acceptance within seven fixed days.",
+        "One late acceptance stays outside the window-success numerator and its median.",
+        "The permission blocker and missing outcome stay in the mature denominator; neither proves abandonment.",
+        "Two eligible accounts are still pending, including one early acceptance. One account is ineligible.",
+        "A three-day median among successful completers does not describe all accounts or establish retention."
+      ]
+    }
+  },
+  {
+    "lane": "animation-interruptions",
+    "command": "node product/examples/animation-interruptions/demo.mjs",
+    "exitCode": 0,
+    "jsonParsed": true,
+    "literalChecksPassed": true,
+    "output": {
+      "scenario": "Fictional interrupted attack; illustrative state and weights only",
+      "timeUnit": "milliseconds",
+      "input": {
+        "events": [
+          {
+            "at": 0,
+            "type": "attack",
+            "id": "fictional-attack"
+          },
+          {
+            "at": 100,
+            "type": "hit",
+            "id": "fictional-hit"
+          },
+          {
+            "at": 140,
+            "type": "strike",
+            "id": "fictional-attack"
+          },
+          {
+            "at": 250,
+            "type": "complete",
+            "id": "fictional-attack"
+          },
+          {
+            "at": 300,
+            "type": "complete",
+            "id": "fictional-hit"
+          }
+        ],
+        "sampleTimes": [
+          0,
+          100,
+          150,
+          250,
+          300,
+          350,
+          400
+        ]
+      },
+      "result": {
+        "samples": [
+          {
+            "at": 0,
+            "activeId": "fictional-attack",
+            "state": "attack",
+            "weights": {
+              "locomotion": 1,
+              "attack": 0,
+              "hit": 0
+            },
+            "movementOwner": "controller"
+          },
+          {
+            "at": 100,
+            "activeId": "fictional-hit",
+            "state": "hit",
+            "weights": {
+              "locomotion": 0.6,
+              "attack": 0.4,
+              "hit": 0
+            },
+            "movementOwner": "controller"
+          },
+          {
+            "at": 150,
+            "activeId": "fictional-hit",
+            "state": "hit",
+            "weights": {
+              "locomotion": 0.3,
+              "attack": 0.2,
+              "hit": 0.5
+            },
+            "movementOwner": "controller"
+          },
+          {
+            "at": 250,
+            "activeId": "fictional-hit",
+            "state": "hit",
+            "weights": {
+              "locomotion": 0,
+              "attack": 0,
+              "hit": 1
+            },
+            "movementOwner": "controller"
+          },
+          {
+            "at": 300,
+            "activeId": null,
+            "state": "locomotion",
+            "weights": {
+              "locomotion": 0,
+              "attack": 0,
+              "hit": 1
+            },
+            "movementOwner": "controller"
+          },
+          {
+            "at": 350,
+            "activeId": null,
+            "state": "locomotion",
+            "weights": {
+              "locomotion": 0.5,
+              "attack": 0,
+              "hit": 0.5
+            },
+            "movementOwner": "controller"
+          },
+          {
+            "at": 400,
+            "activeId": null,
+            "state": "locomotion",
+            "weights": {
+              "locomotion": 1,
+              "attack": 0,
+              "hit": 0
+            },
+            "movementOwner": "controller"
+          }
+        ],
+        "acceptedStrikes": []
+      }
+    }
+  }
+]

@@ -1,0 +1,286 @@
+Immutable first independent behavioral run receipt. Do not overwrite.
+Command: node --test --test-reporter=tap artifacts/qualification/executable-examples-20261016/independent/acceptance.test.mjs
+GODSKILLS_EXAMPLE_ROOT=C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/examples
+Suite and inputs: see pre-run-hashes.md
+Exit code: 0
+
+TAP version 13
+# Subtest: A01 shared capacity and rework counted once across classes
+ok 1 - A01 shared capacity and rework counted once across classes
+  ---
+  duration_ms: 1.2392
+  type: 'test'
+  ...
+# Subtest: A02 blocked work is future demand; separate resources retain fractional spare
+ok 2 - A02 blocked work is future demand; separate resources retain fractional spare
+  ---
+  duration_ms: 0.2148
+  type: 'test'
+  ...
+# Subtest: A03 empty lists are valid when no references exist
+ok 3 - A03 empty lists are valid when no references exist
+  ---
+  duration_ms: 0.1208
+  type: 'test'
+  ...
+# Subtest: A04 rework remains demand with no classes and zero available capacity
+ok 4 - A04 rework remains demand with no classes and zero available capacity
+  ---
+  duration_ms: 0.1091
+  type: 'test'
+  ...
+# Subtest: A05 duplicate resource IDs are rejected
+ok 5 - A05 duplicate resource IDs are rejected
+  ---
+  duration_ms: 0.2265
+  type: 'test'
+  ...
+# Subtest: A06 duplicate class IDs are rejected
+ok 6 - A06 duplicate class IDs are rejected
+  ---
+  duration_ms: 0.099
+  type: 'test'
+  ...
+# Subtest: A07 unknown resource references cannot disappear with zero counts
+ok 7 - A07 unknown resource references cannot disappear with zero counts
+  ---
+  duration_ms: 0.089
+  type: 'test'
+  ...
+# Subtest: A08 a missing required rework field is not silently defaulted
+ok 8 - A08 a missing required rework field is not silently defaulted
+  ---
+  duration_ms: 0.0769
+  type: 'test'
+  ...
+# Subtest: A09 fractional ready counts are rejected
+ok 9 - A09 fractional ready counts are rejected
+  ---
+  duration_ms: 0.0868
+  type: 'test'
+  ...
+# Subtest: A10 unsafe blocked counts are rejected
+ok 10 - A10 unsafe blocked counts are rejected
+  ---
+  duration_ms: 0.1281
+  type: 'test'
+  ...
+# Subtest: A11 negative effort hours are rejected
+ok 11 - A11 negative effort hours are rejected
+  ---
+  duration_ms: 0.1044
+  type: 'test'
+  ...
+# Subtest: A12 nonfinite capacity is rejected
+ok 12 - A12 nonfinite capacity is rejected
+  ---
+  duration_ms: 0.0835
+  type: 'test'
+  ...
+# Subtest: A13 finite operands whose total demand overflows are rejected
+ok 13 - A13 finite operands whose total demand overflows are rejected
+  ---
+  duration_ms: 0.0848
+  type: 'test'
+  ...
+# Subtest: B01 missing and blocked mature outcomes stay in denominator; pending and ineligible stay out
+ok 14 - B01 missing and blocked mature outcomes stay in denominator; pending and ineligible stay out
+  ---
+  duration_ms: 0.5177
+  type: 'test'
+  ...
+# Subtest: B02 exact deadline is success and exact maturity is mature; one millisecond changes classification
+ok 15 - B02 exact deadline is success and exact maturity is mature; one millisecond changes classification
+  ---
+  duration_ms: 0.1177
+  type: 'test'
+  ...
+# Subtest: B03 zero mature denominator returns null rate and median despite pending acceptance
+ok 16 - B03 zero mature denominator returns null rate and median despite pending acceptance
+  ---
+  duration_ms: 0.0708
+  type: 'test'
+  ...
+# Subtest: B04 even median uses elapsed 24-hour days and only mature in-window successes
+ok 17 - B04 even median uses elapsed 24-hour days and only mature in-window successes
+  ---
+  duration_ms: 0.0758
+  type: 'test'
+  ...
+# Subtest: B05 duplicate IDs are invalid even when one row is ineligible
+ok 18 - B05 duplicate IDs are invalid even when one row is ineligible
+  ---
+  duration_ms: 0.0526
+  type: 'test'
+  ...
+# Subtest: B06 empty account ID is rejected
+ok 19 - B06 empty account ID is rejected
+  ---
+  duration_ms: 0.0435
+  type: 'test'
+  ...
+# Subtest: B07 eligibility is boolean rather than truthy coercion
+ok 20 - B07 eligibility is boolean rather than truthy coercion
+  ---
+  duration_ms: 0.0375
+  type: 'test'
+  ...
+# Subtest: B08 a zero observation window is invalid
+ok 21 - B08 a zero observation window is invalid
+  ---
+  duration_ms: 0.0344
+  type: 'test'
+  ...
+# Subtest: B09 timestamps must represent real calendar dates, including on ineligible rows
+ok 22 - B09 timestamps must represent real calendar dates, including on ineligible rows
+  ---
+  duration_ms: 0.0399
+  type: 'test'
+  ...
+# Subtest: B10 equivalent offset timestamps still fail the explicit-Z contract
+ok 23 - B10 equivalent offset timestamps still fail the explicit-Z contract
+  ---
+  duration_ms: 0.0574
+  type: 'test'
+  ...
+# Subtest: B11 entry after cutoff is invalid
+ok 24 - B11 entry after cutoff is invalid
+  ---
+  duration_ms: 0.0491
+  type: 'test'
+  ...
+# Subtest: B12 acceptance before entry is invalid
+ok 25 - B12 acceptance before entry is invalid
+  ---
+  duration_ms: 0.0433
+  type: 'test'
+  ...
+# Subtest: B13 acceptance after cutoff is invalid
+ok 26 - B13 acceptance after cutoff is invalid
+  ---
+  duration_ms: 0.0427
+  type: 'test'
+  ...
+# Subtest: B14 an empty blocker string is invalid
+ok 27 - B14 an empty blocker string is invalid
+  ---
+  duration_ms: 0.0545
+  type: 'test'
+  ...
+# Subtest: B15 a finite window that overflows elapsed milliseconds is invalid
+ok 28 - B15 a finite window that overflows elapsed milliseconds is invalid
+  ---
+  duration_ms: 0.0487
+  type: 'test'
+  ...
+# Subtest: B16 setup metadata must be rejected or ignored, never treated as acceptance
+ok 29 - B16 setup metadata must be rejected or ignored, never treated as acceptance
+  ---
+  duration_ms: 0.0801
+  type: 'test'
+  ...
+# Subtest: C01 initial pose is locomotion with controller ownership
+ok 30 - C01 initial pose is locomotion with controller ownership
+  ---
+  duration_ms: 0.3345
+  type: 'test'
+  ...
+# Subtest: C02 attack blends linearly for 250ms and does not auto-complete
+ok 31 - C02 attack blends linearly for 250ms and does not auto-complete
+  ---
+  duration_ms: 0.2401
+  type: 'test'
+  ...
+# Subtest: C03 hit cancels strike permission immediately while the previous attack pose remains
+ok 32 - C03 hit cancels strike permission immediately while the previous attack pose remains
+  ---
+  duration_ms: 0.1744
+  type: 'test'
+  ...
+# Subtest: C04 another transition starts from evaluated mixed weights, not a named pose
+ok 33 - C04 another transition starts from evaluated mixed weights, not a named pose
+  ---
+  duration_ms: 0.1355
+  type: 'test'
+  ...
+# Subtest: C05 repeated attack requests neither restart the clock nor revive a retired ID
+ok 34 - C05 repeated attack requests neither restart the clock nor revive a retired ID
+  ---
+  duration_ms: 0.1337
+  type: 'test'
+  ...
+# Subtest: C06 strikes accept 140ms and 200ms inclusively, reject 139ms and 201ms, and accept once
+ok 35 - C06 strikes accept 140ms and 200ms inclusively, reject 139ms and 201ms, and accept once
+  ---
+  duration_ms: 0.1185
+  type: 'test'
+  ...
+# Subtest: C07 matching completion blends to locomotion for 100ms; stale and unknown events cannot take ownership
+ok 36 - C07 matching completion blends to locomotion for 100ms; stale and unknown events cannot take ownership
+  ---
+  duration_ms: 0.0982
+  type: 'test'
+  ...
+# Subtest: C08 same-time hit beats attack and strike in either input order; samples follow all events
+ok 37 - C08 same-time hit beats attack and strike in either input order; samples follow all events
+  ---
+  duration_ms: 0.1437
+  type: 'test'
+  ...
+# Subtest: C09 a same-time strike precedes matching completion regardless of input order
+ok 38 - C09 a same-time strike precedes matching completion regardless of input order
+  ---
+  duration_ms: 0.0727
+  type: 'test'
+  ...
+# Subtest: C10 repeated hit requests coalesce without resetting the 100ms blend
+ok 39 - C10 repeated hit requests coalesce without resetting the 100ms blend
+  ---
+  duration_ms: 0.062
+  type: 'test'
+  ...
+# Subtest: C11 an action ID cannot be reused for another type
+ok 40 - C11 an action ID cannot be reused for another type
+  ---
+  duration_ms: 0.0471
+  type: 'test'
+  ...
+# Subtest: C12 distinct same-type same-time actions are ambiguous
+ok 41 - C12 distinct same-type same-time actions are ambiguous
+  ---
+  duration_ms: 0.0354
+  type: 'test'
+  ...
+# Subtest: C13 duplicate sample times fail rather than silently deduplicate
+ok 42 - C13 duplicate sample times fail rather than silently deduplicate
+  ---
+  duration_ms: 0.0325
+  type: 'test'
+  ...
+# Subtest: C14 unknown event types fail explicitly
+ok 43 - C14 unknown event types fail explicitly
+  ---
+  duration_ms: 0.0304
+  type: 'test'
+  ...
+# Subtest: C15 missing event IDs fail even on an otherwise stale completion
+ok 44 - C15 missing event IDs fail even on an otherwise stale completion
+  ---
+  duration_ms: 0.0346
+  type: 'test'
+  ...
+# Subtest: C16 malformed event and sample times are rejected, not coerced or dropped
+ok 45 - C16 malformed event and sample times are rejected, not coerced or dropped
+  ---
+  duration_ms: 0.1091
+  type: 'test'
+  ...
+1..45
+# tests 45
+# suites 0
+# pass 45
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 64.8173

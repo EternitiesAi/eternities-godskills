@@ -1,0 +1,215 @@
+{
+  "node": "v24.18.0",
+  "scratch": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\artifacts\\qualification\\executable-examples-20261016\\packaging-review-v2\\fixture-koS4bs",
+  "sources": {
+    "relocated": [
+      "C:/Users/Dom/.codex/operations/godskills-executable-examples-20261016/verify-relocated.mjs",
+      "3bd2b054eb627a1729d0d53aa2ca4683dfd10200dd475ac4028f744fc5f85ad9"
+    ],
+    "runCheck": [
+      "C:/Users/Dom/.codex/operations/godskills-executable-examples-20261016/run-check.mjs",
+      "7e648e32587c6c4761f99079e88963f35b2daea933e0d533efe5348f8a38ca95"
+    ],
+    "portability": [
+      "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/executable-examples-portability.test.mjs",
+      "e8783e3257cd44b062c55cb55f6b9be52b36ebbd8281dc93bcc5cc8eaf019cf7"
+    ],
+    "delivery": [
+      "C:/Users/Dom/.codex/operations/godskills-executable-examples-20261016/delivery.mjs",
+      "81471c67ff272477d1e026ec48680d055749e78f2897b0ab6ea40bcd9707f032"
+    ]
+  },
+  "approvedFixtureRelease": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "runs": [
+    {
+      "label": "relocated-clean",
+      "processExitCode": 0,
+      "error": null,
+      "requiredDiagnostic": null,
+      "outputSha256": "2039aed6e544614bec38cd0f43d4110492f97307bc750410e4dfd3d5abd6a797"
+    },
+    {
+      "label": "relocated-manifest",
+      "processExitCode": 1,
+      "error": null,
+      "requiredDiagnostic": "Pack membership or bytes changed during execution",
+      "outputSha256": "a6f059c975f407905c11ee8dda904baa1771248a099a50ec839e274e33db2138"
+    },
+    {
+      "label": "relocated-membership",
+      "processExitCode": 1,
+      "error": null,
+      "requiredDiagnostic": "Pack membership or bytes changed during execution",
+      "outputSha256": "fe2a4ad8085552b0884feac8724f325f61b5fff4bdab8ca81e116874ff09f760"
+    },
+    {
+      "label": "relocated-source",
+      "processExitCode": 1,
+      "error": null,
+      "requiredDiagnostic": "examples\\/constraint-diagnosis\\/index\\.mjs",
+      "outputSha256": "3643dea609d61bd89bdad8d23b1eda82595c5ad2c0c89240e52adb945daf1ca1"
+    },
+    {
+      "label": "relocated-inside-output",
+      "processExitCode": 1,
+      "error": null,
+      "requiredDiagnostic": "Output must be outside pack",
+      "outputSha256": "e258367cf5790212bf1685469cb8967f31d87387fdb303c7ccd8b351fcbbbb2e"
+    },
+    {
+      "label": "relocated-wrong-release",
+      "processExitCode": 1,
+      "error": null,
+      "requiredDiagnostic": "Pack differs from approved candidate",
+      "outputSha256": "7063eed0b07658d862a352b999c21741cdf2502b17d45f5be55fe83565016145"
+    },
+    {
+      "label": "run-check-clean",
+      "processExitCode": 0,
+      "error": null,
+      "requiredDiagnostic": null,
+      "outputSha256": "2a4e0fa3f43f5fe031d25edfb248a2171e4e0f04adc1d69dd3b25b20b11e58b2"
+    },
+    {
+      "label": "run-check-protected",
+      "processExitCode": 2,
+      "error": null,
+      "requiredDiagnostic": "\"stableSources\": false",
+      "outputSha256": "1218000541e3d3711e651a3fa84e75ad893e2829b6e27fce1574a9683af6edf0"
+    },
+    {
+      "label": "portability-clean",
+      "processExitCode": 0,
+      "error": null,
+      "requiredDiagnostic": "^# pass 3$",
+      "outputSha256": "c94ac8f4a50b7759143160e89c7afc45bf6b7a288be7060ffb8e62c668c5a4fa"
+    },
+    {
+      "label": "portability-digest",
+      "processExitCode": 1,
+      "error": null,
+      "requiredDiagnostic": "examples\\/constraint-diagnosis\\/index\\.mjs differs from manifest",
+      "outputSha256": "9965fc7fe2cdf9e934e4535623add684292acd7b897d0f77eebd49fe8ba1de3f"
+    },
+    {
+      "label": "delivery-preinstall-control",
+      "processExitCode": 0,
+      "error": null,
+      "requiredDiagnostic": null,
+      "outputSha256": "fb138d6f331669a523bdde28b54a30e5ce0cdcbf13370264d150659bcb0135ad"
+    },
+    {
+      "label": "delivery-candidate-mismatch",
+      "processExitCode": 1,
+      "error": null,
+      "requiredDiagnostic": "Candidate changed after independent acceptance",
+      "outputSha256": "4b39ac36ea463e6cb1e440f737a293a353efa718a91462941e9831e13a27ae8c"
+    },
+    {
+      "label": "delivery-preinstall-mismatch",
+      "processExitCode": 1,
+      "error": null,
+      "requiredDiagnostic": "Installed candidate differs from preinstall",
+      "outputSha256": "44ccc388735f825932800ecdadad2563e4002dccb4d9354e6577de66d90d44ff"
+    }
+  ],
+  "relocatedResults": [
+    {
+      "mode": "clean",
+      "label": "relocated-clean",
+      "processExitCode": 0,
+      "error": null,
+      "requiredDiagnostic": null,
+      "outputSha256": "2039aed6e544614bec38cd0f43d4110492f97307bc750410e4dfd3d5abd6a797",
+      "passReceiptWritten": true
+    },
+    {
+      "mode": "manifest",
+      "label": "relocated-manifest",
+      "processExitCode": 1,
+      "error": null,
+      "requiredDiagnostic": "Pack membership or bytes changed during execution",
+      "outputSha256": "a6f059c975f407905c11ee8dda904baa1771248a099a50ec839e274e33db2138",
+      "passReceiptWritten": false
+    },
+    {
+      "mode": "membership",
+      "label": "relocated-membership",
+      "processExitCode": 1,
+      "error": null,
+      "requiredDiagnostic": "Pack membership or bytes changed during execution",
+      "outputSha256": "fe2a4ad8085552b0884feac8724f325f61b5fff4bdab8ca81e116874ff09f760",
+      "passReceiptWritten": false
+    },
+    {
+      "mode": "source",
+      "label": "relocated-source",
+      "processExitCode": 1,
+      "error": null,
+      "requiredDiagnostic": "examples\\/constraint-diagnosis\\/index\\.mjs",
+      "outputSha256": "3643dea609d61bd89bdad8d23b1eda82595c5ad2c0c89240e52adb945daf1ca1",
+      "passReceiptWritten": false
+    },
+    {
+      "mode": "inside-output",
+      "label": "relocated-inside-output",
+      "processExitCode": 1,
+      "error": null,
+      "requiredDiagnostic": "Output must be outside pack",
+      "outputSha256": "e258367cf5790212bf1685469cb8967f31d87387fdb303c7ccd8b351fcbbbb2e",
+      "passReceiptWritten": false
+    },
+    {
+      "mode": "wrong-release",
+      "label": "relocated-wrong-release",
+      "processExitCode": 1,
+      "error": null,
+      "requiredDiagnostic": "Pack differs from approved candidate",
+      "outputSha256": "7063eed0b07658d862a352b999c21741cdf2502b17d45f5be55fe83565016145",
+      "passReceiptWritten": false
+    }
+  ],
+  "protectedPathsChecked": [
+    "src/adaptive-activation.mjs",
+    "policies/adaptive-activation.v1.json",
+    "artifacts/adaptive-activation/evidence.v1.json"
+  ],
+  "protectedMutation": {
+    "fixtureTestExit": 0,
+    "sourceGateProcessExit": 2,
+    "stableSources": false,
+    "changedProtectedPaths": 3
+  },
+  "digestCorruption": {
+    "changedDigests": 1,
+    "shapeValid": true,
+    "actualHashAssertionFailed": true,
+    "testsPassed": 2,
+    "testsFailed": 1
+  },
+  "isolationClaim": {
+    "filesystemAccessIsolated": false,
+    "generatedExternalDependencyStillAccessible": true,
+    "claimExplicitlyNarrowed": true
+  },
+  "transformations": {
+    "relocated": "none; original script and valid 64-hex expectedRelease argument for every case",
+    "runCheck": "only hardcoded root/op constants redirected; all three protected files present",
+    "portability": "only product-root constant redirected; OS temp writes kept inside fixture",
+    "delivery": "root/op/native/runtime redirected; verifyProduct replaced with a fixture JSON reader; all delivery assertions retained"
+  },
+  "immutable": {
+    "frozenAuthorFiles": {
+      "product/examples/constraint-diagnosis/index.mjs": "4744a3e554facf5d0b0766ad97796d0388e50a69e4b6728f4522570e095eeb82",
+      "product/examples/constraint-diagnosis/index.test.mjs": "c3a95b94fbd55d17450217eb45c5428d806f5dd7dddf3d7380caf734a17c2db5",
+      "product/examples/constraint-diagnosis/demo.mjs": "2c5f9674a9cbd15f685a0ebe0c67d06e16fb267b24c264d9579079298ab12d8a",
+      "product/examples/constraint-diagnosis/README.md": "2aa5584a3f4420879d9d756e8ff310c441ae1e34b8d76dea6a3934c89aa8dc05",
+      "artifacts/qualification/executable-examples-20261016/constraint-diagnosis/evidence.json": "2e06df2ce5dad464c89b97cc40ac3d289f0638f2e5a4d7df1be254563380bc68",
+      "artifacts/qualification/executable-examples-20261016/constraint-diagnosis/method-use.md": "b72cf22ff22097801c6ca65ed78431fe0c3e311965064296af4172579d1c261c"
+    },
+    "v1TreeSha256": "fb89c078f571307410bf9d8cd4af5b0e57397f0e771ba5f4a26686e9b70ce1b1",
+    "v1Entries": 88,
+    "unchanged": true
+  },
+  "limits": "Generated fixtures only; no real installer, rollback, archive export or acceptance suite executed. pin-candidate and verify-integration source-inspected only."
+}

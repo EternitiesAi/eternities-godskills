@@ -1,0 +1,48 @@
+{
+  "algorithm": "SHA256",
+  "date": "2026-10-16",
+  "baselineCommit": "594a4b7cd294eecfef8b5c9432416d7650ae4d92",
+  "branch": "feat/executable-method-examples-20261016",
+  "sources": [
+    {
+      "path": "docs/superpowers/specs/2026-10-16-executable-method-examples.md",
+      "role": "Fixed contract; read completely",
+      "sha256": "829FE018FC78A5EC245F754FC6F5B9782500D1005C0E190852478CC2C90EAB0A"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-16-executable-method-examples.md",
+      "role": "Matching plan; read completely; only author lane performed",
+      "sha256": "E96900BB926A6119185497DEB0D6E26DE61E9F63F3E41AE94229287C91573135"
+    },
+    {
+      "path": "product/skills/eternities-beacon/SKILL.md",
+      "role": "Exact shipped owner skill; read completely",
+      "sha256": "8FCAC4EF90FABC44873D90C61ED60D4E1CF8DA799889AB39DA00199AE40AA1F6"
+    },
+    {
+      "path": "product/skills/eternities-beacon/references/customer-onboarding-v1.md",
+      "role": "Exact shipped onboarding method; read completely",
+      "sha256": "1DBD93629607568A717E05D63D1EA6B6C378CA6907D2363B8CB9BEE9997FCB01"
+    },
+    {
+      "path": "C:/Users/Dom/.agents/skills/eternities-beacon/SKILL.md",
+      "role": "Task-relevant installed skill; read completely; identical to shipped owner",
+      "sha256": "8FCAC4EF90FABC44873D90C61ED60D4E1CF8DA799889AB39DA00199AE40AA1F6"
+    },
+    {
+      "path": "C:/Users/Dom/.agents/skills/test-driven-development/SKILL.md",
+      "role": "Installed implementation workflow; read completely",
+      "sha256": "13984D4CC6A0926D164F09E77E169D4D70DD6D3F62B0AF2A34ABADEBB6CFC025"
+    },
+    {
+      "path": "C:/Users/Dom/.agents/skills/test-driven-development/writing-good-tests.md",
+      "role": "Required test-design reference; read completely",
+      "sha256": "51471C853306FF92CA8BB41DCAEA05F31C0E46B03651F8F3C99754B7172F4AE1"
+    },
+    {
+      "path": "C:/Users/Dom/.agents/skills/verification-before-completion/SKILL.md",
+      "role": "Installed verification workflow; read completely",
+      "sha256": "2BEFE7FC55BCADAA3D97DD9E8EFEB633D2561C0EBE74C5A8B17C4D9E7E4520B3"
+    }
+  ]
+}

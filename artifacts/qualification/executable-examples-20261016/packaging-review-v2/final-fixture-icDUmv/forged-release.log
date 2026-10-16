@@ -1,0 +1,23 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Manifest does not reconstruct approved candidate identity
++ actual - expected
+
++ 'fa478772e2e76c68e32026ac6ac6f1a6df071fd089b22cbaf33d1b3d3fb6c4ec'
+- 'bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb'
+
+    at file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/executable-examples-20261016/packaging-review-v2/final-fixture-icDUmv/verify-relocated.mjs:21:8
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:643:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: 'fa478772e2e76c68e32026ac6ac6f1a6df071fd089b22cbaf33d1b3d3fb6c4ec',
+  expected: 'bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb',
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.18.0

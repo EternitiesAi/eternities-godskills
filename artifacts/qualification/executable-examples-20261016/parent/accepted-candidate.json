@@ -1,0 +1,69 @@
+{
+  "schema": "executable-examples-approved-candidate-v1",
+  "releaseId": "7f93176cf531b8c967e582d8a67ef993b70645d9c9cd2c6a446e44422f073ea7",
+  "reviewedFiles": [
+    {
+      "path": "product/examples/constraint-diagnosis/index.mjs",
+      "sha256": "4744a3e554facf5d0b0766ad97796d0388e50a69e4b6728f4522570e095eeb82"
+    },
+    {
+      "path": "product/examples/constraint-diagnosis/index.test.mjs",
+      "sha256": "c3a95b94fbd55d17450217eb45c5428d806f5dd7dddf3d7380caf734a17c2db5"
+    },
+    {
+      "path": "product/examples/constraint-diagnosis/demo.mjs",
+      "sha256": "2c5f9674a9cbd15f685a0ebe0c67d06e16fb267b24c264d9579079298ab12d8a"
+    },
+    {
+      "path": "product/examples/constraint-diagnosis/README.md",
+      "sha256": "2aa5584a3f4420879d9d756e8ff310c441ae1e34b8d76dea6a3934c89aa8dc05"
+    },
+    {
+      "path": "product/examples/onboarding-cohorts/index.mjs",
+      "sha256": "01318f3cd67a9d8464e55800235d951d877fba3945f0f8b26d9e0fcf4c5e8a50"
+    },
+    {
+      "path": "product/examples/onboarding-cohorts/index.test.mjs",
+      "sha256": "9d0f605c04b3602726aa8a78cd6dc2e0c322cc011182292c2b175d4c6192bbbe"
+    },
+    {
+      "path": "product/examples/onboarding-cohorts/demo.mjs",
+      "sha256": "64050314309569fed128dd1c98dc4578b5e7e72e5b2b73b71c552e50a7de9ee7"
+    },
+    {
+      "path": "product/examples/onboarding-cohorts/README.md",
+      "sha256": "047e0ebf8f7c4a571ad5835b8c1d227a4da6b52744c292342c2a3451551bd8d0"
+    },
+    {
+      "path": "product/examples/animation-interruptions/index.mjs",
+      "sha256": "835df153517390dff7c0459db1a1107ef1de380f4834c5f7b94e6fadac856b9e"
+    },
+    {
+      "path": "product/examples/animation-interruptions/index.test.mjs",
+      "sha256": "b22930012b99aca19f62a0e16ca1e65f2ce25971ab56150d154e9e3868fab2c2"
+    },
+    {
+      "path": "product/examples/animation-interruptions/demo.mjs",
+      "sha256": "6c877e96a378b745363261d07cf5576ba969d60eda7058598d331bab7232c244"
+    },
+    {
+      "path": "product/examples/animation-interruptions/README.md",
+      "sha256": "061cf1f4e9a4aee8a0822228af53df3bcb6056c4326cf8382e960a5166eabce8"
+    },
+    {
+      "path": "product/examples/README.md",
+      "sha256": "cc97178811d5f682ac510a730ae616c0029175a010fedfeef0d687518abd2a7d"
+    },
+    {
+      "path": "product/README.md",
+      "sha256": "a70d8736f1377698773565043e0bf0f9f3c8ba2e84f6152eef08c2803c7758a2"
+    },
+    {
+      "path": "product/RECIPES.md",
+      "sha256": "1fe659080a5250dd9b68aeac4fdc352b3a7835d2c43cbb85d4e36128998547fe"
+    }
+  ],
+  "reviewReceiptSha256": "3184fb6a077aa03c2cfd1721c876cf359de7508058114492b0a5c7460faab482",
+  "reviewReportSha256": "57ed68965f37012db175ea3c747f11c10f05bc7e27e781f454a9c1d5b7455ae1",
+  "archiveSha256": "4ac70675e5bf2f636fac16167e510c753747dbfd13ee5da94f5e2b0b2614262a"
+}

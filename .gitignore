@@ -1,4 +1,6 @@
 .worktrees/
 node_modules/
 *.tmp
+# Retain local generated relocation scratch without imposing Windows long paths on clones.
+artifacts/qualification/executable-examples-20261016/packaging-review-v*/**/temp/
 

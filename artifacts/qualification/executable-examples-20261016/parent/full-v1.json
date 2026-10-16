@@ -1,0 +1,27 @@
+{
+  "label": "full-v1",
+  "exitCode": 0,
+  "error": null,
+  "counters": {
+    "tests": 2120,
+    "pass": 2118,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 2,
+    "todo": 0,
+    "duration_ms": 146848.0021
+  },
+  "stableSampledSources": true,
+  "sampledScopes": [
+    "product",
+    "tests",
+    "evaluation",
+    "examples"
+  ],
+  "sourceSnapshotSha256": "2685d5d911e7d151cf7a1d00859c95d3a71a53d1aa9f0227232093248c3d1432",
+  "afterSnapshotSha256": "2685d5d911e7d151cf7a1d00859c95d3a71a53d1aa9f0227232093248c3d1432",
+  "rawOutputSha256": "f32a21af7338b6618e73038d7beef5b23351455ef1ec06349d5e06112cd598c3",
+  "failedLines": [],
+  "privateReceiptSha256": "d4ddef023625e820e15746ea2e6b23d3ef1e734bd96517c2128c5b7c6562f3c9",
+  "limits": "Old v1 sampled scope excludes protected src/policy; final integration verifies those separately. Post-review v2 includes explicit protected paths. This is an execution receipt, not all-platform or all-agent qualification."
+}

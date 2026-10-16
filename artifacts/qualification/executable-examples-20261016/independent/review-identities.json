@@ -1,0 +1,277 @@
+{
+  "observedAtUtc": "2026-10-16T08:47:39.9948273Z",
+  "sourceChecks": [
+    {
+      "packet": "artifacts/qualification/executable-examples-20261016/constraint-diagnosis/evidence.json",
+      "path": "docs/superpowers/specs/2026-10-16-executable-method-examples.md",
+      "sha256": "829fe018fc78a5ec245f754fc6f5b9782500d1005c0e190852478cc2c90eab0a",
+      "matchesAuthor": true
+    },
+    {
+      "packet": "artifacts/qualification/executable-examples-20261016/constraint-diagnosis/evidence.json",
+      "path": "docs/superpowers/plans/2026-10-16-executable-method-examples.md",
+      "sha256": "e96900bb926a6119185497deb0d6e26de61e9f63f3e41ae94229287c91573135",
+      "matchesAuthor": true
+    },
+    {
+      "packet": "artifacts/qualification/executable-examples-20261016/constraint-diagnosis/evidence.json",
+      "path": "product/skills/operating-cadence-and-decision-accountability/SKILL.md",
+      "sha256": "ba3541137a4c61729c58562133889cc5872d54d212dfe587f71ceed0532a2afd",
+      "matchesAuthor": true
+    },
+    {
+      "packet": "artifacts/qualification/executable-examples-20261016/constraint-diagnosis/evidence.json",
+      "path": "product/skills/operating-cadence-and-decision-accountability/references/constraint-diagnosis-v1.md",
+      "sha256": "70bbb61d77eb77638375d8368a341583fb6c5660828456b5ab69cf2b477f59e1",
+      "matchesAuthor": true
+    },
+    {
+      "packet": "artifacts/qualification/executable-examples-20261016/constraint-diagnosis/evidence.json",
+      "path": "C:/Users/Dom/.agents/skills/test-driven-development/SKILL.md",
+      "sha256": "13984d4cc6a0926d164f09e77e169d4d70dd6d3f62b0af2a34abadebb6cfc025",
+      "matchesAuthor": true
+    },
+    {
+      "packet": "artifacts/qualification/executable-examples-20261016/constraint-diagnosis/evidence.json",
+      "path": "C:/Users/Dom/.agents/skills/test-driven-development/writing-good-tests.md",
+      "sha256": "51471c853306ff92ca8bb41dcaea05f31c0e46b03651f8f3c99754b7172f4ae1",
+      "matchesAuthor": true
+    },
+    {
+      "packet": "artifacts/qualification/executable-examples-20261016/constraint-diagnosis/evidence.json",
+      "path": "C:/Users/Dom/.agents/skills/verification-before-completion/SKILL.md",
+      "sha256": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3",
+      "matchesAuthor": true
+    },
+    {
+      "packet": "artifacts/qualification/executable-examples-20261016/constraint-diagnosis/evidence.json",
+      "path": "C:/Users/Dom/.agents/skills/executing-plans/SKILL.md",
+      "sha256": "04e740246d28c9583712605fbecf9d5bc6763692177c525c0e098f33bf02483f",
+      "matchesAuthor": true
+    },
+    {
+      "packet": "artifacts/qualification/executable-examples-20261016/constraint-diagnosis/evidence.json",
+      "path": "C:/Users/Dom/.codex/skills/keel-wake/SKILL.md",
+      "sha256": "2f5298c660b45f8e91a12d6f549c4162e3b68601d84fe4c81421717279e9faf9",
+      "matchesAuthor": true
+    },
+    {
+      "packet": "artifacts/qualification/executable-examples-20261016/onboarding-cohorts/source-hashes.json",
+      "path": "docs/superpowers/specs/2026-10-16-executable-method-examples.md",
+      "sha256": "829fe018fc78a5ec245f754fc6f5b9782500d1005c0e190852478cc2c90eab0a",
+      "matchesAuthor": true
+    },
+    {
+      "packet": "artifacts/qualification/executable-examples-20261016/onboarding-cohorts/source-hashes.json",
+      "path": "docs/superpowers/plans/2026-10-16-executable-method-examples.md",
+      "sha256": "e96900bb926a6119185497deb0d6e26de61e9f63f3e41ae94229287c91573135",
+      "matchesAuthor": true
+    },
+    {
+      "packet": "artifacts/qualification/executable-examples-20261016/onboarding-cohorts/source-hashes.json",
+      "path": "product/skills/eternities-beacon/SKILL.md",
+      "sha256": "8fcac4ef90fabc44873d90c61ed60d4e1cf8da799889ab39da00199ae40aa1f6",
+      "matchesAuthor": true
+    },
+    {
+      "packet": "artifacts/qualification/executable-examples-20261016/onboarding-cohorts/source-hashes.json",
+      "path": "product/skills/eternities-beacon/references/customer-onboarding-v1.md",
+      "sha256": "1dbd93629607568a717e05d63d1ea6b6c378ca6907d2363b8cb9bee9997fcb01",
+      "matchesAuthor": true
+    },
+    {
+      "packet": "artifacts/qualification/executable-examples-20261016/onboarding-cohorts/source-hashes.json",
+      "path": "C:/Users/Dom/.agents/skills/eternities-beacon/SKILL.md",
+      "sha256": "8fcac4ef90fabc44873d90c61ed60d4e1cf8da799889ab39da00199ae40aa1f6",
+      "matchesAuthor": true
+    },
+    {
+      "packet": "artifacts/qualification/executable-examples-20261016/onboarding-cohorts/source-hashes.json",
+      "path": "C:/Users/Dom/.agents/skills/test-driven-development/SKILL.md",
+      "sha256": "13984d4cc6a0926d164f09e77e169d4d70dd6d3f62b0af2a34abadebb6cfc025",
+      "matchesAuthor": true
+    },
+    {
+      "packet": "artifacts/qualification/executable-examples-20261016/onboarding-cohorts/source-hashes.json",
+      "path": "C:/Users/Dom/.agents/skills/test-driven-development/writing-good-tests.md",
+      "sha256": "51471c853306ff92ca8bb41dcaea05f31c0e46b03651f8f3c99754b7172f4ae1",
+      "matchesAuthor": true
+    },
+    {
+      "packet": "artifacts/qualification/executable-examples-20261016/onboarding-cohorts/source-hashes.json",
+      "path": "C:/Users/Dom/.agents/skills/verification-before-completion/SKILL.md",
+      "sha256": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3",
+      "matchesAuthor": true
+    },
+    {
+      "packet": "artifacts/qualification/executable-examples-20261016/animation-interruptions/source-hashes.json",
+      "path": "product/skills/eternities-arcadia/SKILL.md",
+      "sha256": "845c2af02029493164d7f939d2a46ead4137e8b8ee8d4f73ff0b3e15883d966e",
+      "matchesAuthor": true
+    },
+    {
+      "packet": "artifacts/qualification/executable-examples-20261016/animation-interruptions/source-hashes.json",
+      "path": "product/skills/eternities-arcadia/references/animation-interruption-transitions.md",
+      "sha256": "5c43f1e601b2b814346e3b6519e1e8419bd6b89d6270e8ffdad82364e0693411",
+      "matchesAuthor": true
+    },
+    {
+      "packet": "artifacts/qualification/executable-examples-20261016/animation-interruptions/source-hashes.json",
+      "path": "docs/superpowers/specs/2026-10-16-executable-method-examples.md",
+      "sha256": "829fe018fc78a5ec245f754fc6f5b9782500d1005c0e190852478cc2c90eab0a",
+      "matchesAuthor": true
+    },
+    {
+      "packet": "artifacts/qualification/executable-examples-20261016/animation-interruptions/source-hashes.json",
+      "path": "docs/superpowers/plans/2026-10-16-executable-method-examples.md",
+      "sha256": "e96900bb926a6119185497deb0d6e26de61e9f63f3e41ae94229287c91573135",
+      "matchesAuthor": true
+    },
+    {
+      "packet": "artifacts/qualification/executable-examples-20261016/animation-interruptions/source-hashes.json",
+      "path": "C:/Users/Dom/.agents/skills/eternities-arcadia/SKILL.md",
+      "sha256": "845c2af02029493164d7f939d2a46ead4137e8b8ee8d4f73ff0b3e15883d966e",
+      "matchesAuthor": true
+    },
+    {
+      "packet": "artifacts/qualification/executable-examples-20261016/animation-interruptions/source-hashes.json",
+      "path": "C:/Users/Dom/.agents/skills/test-driven-development/SKILL.md",
+      "sha256": "13984d4cc6a0926d164f09e77e169d4d70dd6d3f62b0af2a34abadebb6cfc025",
+      "matchesAuthor": true
+    },
+    {
+      "packet": "artifacts/qualification/executable-examples-20261016/animation-interruptions/source-hashes.json",
+      "path": "C:/Users/Dom/.agents/skills/test-driven-development/writing-good-tests.md",
+      "sha256": "51471c853306ff92ca8bb41dcaea05f31c0e46b03651f8f3c99754b7172f4ae1",
+      "matchesAuthor": true
+    },
+    {
+      "packet": "artifacts/qualification/executable-examples-20261016/animation-interruptions/source-hashes.json",
+      "path": "C:/Users/Dom/.agents/skills/executing-plans/SKILL.md",
+      "sha256": "04e740246d28c9583712605fbecf9d5bc6763692177c525c0e098f33bf02483f",
+      "matchesAuthor": true
+    },
+    {
+      "packet": "artifacts/qualification/executable-examples-20261016/animation-interruptions/source-hashes.json",
+      "path": "C:/Users/Dom/.agents/skills/verification-before-completion/SKILL.md",
+      "sha256": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3",
+      "matchesAuthor": true
+    }
+  ],
+  "reviewEvidence": [
+    {
+      "path": "product/examples/README.md",
+      "sha256": "cc97178811d5f682ac510a730ae616c0029175a010fedfeef0d687518abd2a7d"
+    },
+    {
+      "path": "product/README.md",
+      "sha256": "a70d8736f1377698773565043e0bf0f9f3c8ba2e84f6152eef08c2803c7758a2"
+    },
+    {
+      "path": "product/RECIPES.md",
+      "sha256": "1fe659080a5250dd9b68aeac4fdc352b3a7835d2c43cbb85d4e36128998547fe"
+    },
+    {
+      "path": "artifacts/qualification/executable-examples-20261016/constraint-diagnosis/evidence.json",
+      "sha256": "2e06df2ce5dad464c89b97cc40ac3d289f0638f2e5a4d7df1be254563380bc68"
+    },
+    {
+      "path": "artifacts/qualification/executable-examples-20261016/constraint-diagnosis/method-use.md",
+      "sha256": "b72cf22ff22097801c6ca65ed78431fe0c3e311965064296af4172579d1c261c"
+    },
+    {
+      "path": "artifacts/qualification/executable-examples-20261016/onboarding-cohorts/EVIDENCE.md",
+      "sha256": "a0b36cbe91f29c6d353424552d7e62c2b8f2cb67e1f83afd76fbc827453bfc5d"
+    },
+    {
+      "path": "artifacts/qualification/executable-examples-20261016/onboarding-cohorts/source-hashes.json",
+      "sha256": "736398bb176189cc770b2ace0a027deba5db9679a0c7cad4717541bf33c41689"
+    },
+    {
+      "path": "artifacts/qualification/executable-examples-20261016/animation-interruptions/evidence.md",
+      "sha256": "0ea5f959df85251af1a4a3c0222285c056822473b6371efc172aed1005ab66bc"
+    },
+    {
+      "path": "artifacts/qualification/executable-examples-20261016/animation-interruptions/source-hashes.json",
+      "sha256": "293084929aad699fbe207246ed251eb46b8d12b5a7d4f12cf17ec4f2eabc0040"
+    },
+    {
+      "path": "artifacts/qualification/executable-examples-20261016/animation-interruptions/delivery-hashes.json",
+      "sha256": "a3e7a79a5419bdfefdac1ccaf8afd62ddd7b5517438e53e2e405e59f9842199a"
+    },
+    {
+      "path": "artifacts/qualification/executable-examples-20261016/independent/acceptance.test.mjs",
+      "sha256": "24c54b473d236de880b501610381507a4038e023baeb1521779caf9f3f609bb0"
+    },
+    {
+      "path": "artifacts/qualification/executable-examples-20261016/independent/criteria.md",
+      "sha256": "d72e72393e8fc582186a82c2b5df409342028c524636c557934e4a30d1db771c"
+    },
+    {
+      "path": "artifacts/qualification/executable-examples-20261016/independent/first-run.txt",
+      "sha256": "4e46bc41b5833b677c86e04dcd3cbed240da936a66587f5e586f3c95a692bdbf"
+    }
+  ],
+  "productFiles": [
+    {
+      "path": "product/examples/constraint-diagnosis/index.mjs",
+      "sha256": "4744a3e554facf5d0b0766ad97796d0388e50a69e4b6728f4522570e095eeb82",
+      "matchesPreRun": true
+    },
+    {
+      "path": "product/examples/constraint-diagnosis/index.test.mjs",
+      "sha256": "c3a95b94fbd55d17450217eb45c5428d806f5dd7dddf3d7380caf734a17c2db5",
+      "matchesPreRun": true
+    },
+    {
+      "path": "product/examples/constraint-diagnosis/demo.mjs",
+      "sha256": "2c5f9674a9cbd15f685a0ebe0c67d06e16fb267b24c264d9579079298ab12d8a",
+      "matchesPreRun": true
+    },
+    {
+      "path": "product/examples/constraint-diagnosis/README.md",
+      "sha256": "2aa5584a3f4420879d9d756e8ff310c441ae1e34b8d76dea6a3934c89aa8dc05",
+      "matchesPreRun": true
+    },
+    {
+      "path": "product/examples/onboarding-cohorts/index.mjs",
+      "sha256": "01318f3cd67a9d8464e55800235d951d877fba3945f0f8b26d9e0fcf4c5e8a50",
+      "matchesPreRun": true
+    },
+    {
+      "path": "product/examples/onboarding-cohorts/index.test.mjs",
+      "sha256": "9d0f605c04b3602726aa8a78cd6dc2e0c322cc011182292c2b175d4c6192bbbe",
+      "matchesPreRun": true
+    },
+    {
+      "path": "product/examples/onboarding-cohorts/demo.mjs",
+      "sha256": "64050314309569fed128dd1c98dc4578b5e7e72e5b2b73b71c552e50a7de9ee7",
+      "matchesPreRun": true
+    },
+    {
+      "path": "product/examples/onboarding-cohorts/README.md",
+      "sha256": "047e0ebf8f7c4a571ad5835b8c1d227a4da6b52744c292342c2a3451551bd8d0",
+      "matchesPreRun": true
+    },
+    {
+      "path": "product/examples/animation-interruptions/index.mjs",
+      "sha256": "835df153517390dff7c0459db1a1107ef1de380f4834c5f7b94e6fadac856b9e",
+      "matchesPreRun": true
+    },
+    {
+      "path": "product/examples/animation-interruptions/index.test.mjs",
+      "sha256": "b22930012b99aca19f62a0e16ca1e65f2ce25971ab56150d154e9e3868fab2c2",
+      "matchesPreRun": true
+    },
+    {
+      "path": "product/examples/animation-interruptions/demo.mjs",
+      "sha256": "6c877e96a378b745363261d07cf5576ba969d60eda7058598d331bab7232c244",
+      "matchesPreRun": true
+    },
+    {
+      "path": "product/examples/animation-interruptions/README.md",
+      "sha256": "061cf1f4e9a4aee8a0822228af53df3bcb6056c4326cf8382e960a5166eabce8",
+      "matchesPreRun": true
+    }
+  ]
+}
