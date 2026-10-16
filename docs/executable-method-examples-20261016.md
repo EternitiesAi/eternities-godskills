@@ -2,7 +2,7 @@
 
 This milestone adds three optional, offline worked examples to the portable pack,
 without adding entrypoint names or changing the reviewed instruction bodies.
-The candidate keeps **93 skills, 21 categories and 29 selected methods**.
+The published and installed pack keeps **93 skills, 21 categories and 29 selected methods**.
 
 ## What is useful now
 
@@ -94,5 +94,23 @@ The standalone archive is `artifacts/releases/godskills-product-20261016-7f93176
 2,288,852 bytes, 369 files including `release.json`. SHA256:
 `4ac70675e5bf2f636fac16167e510c753747dbfd13ee5da94f5e2b0b2614262a`.
 It exactly matches the archive used for relocated and independent acceptance runs.
-Publication and backed-up installation are not claimed until the final delivery
-record is appended after execution.
+Implementation commit `da7dd136ccc76cb2af5b07b3836de7a4dfef9d78` was fast-forwarded
+into canonical main and pushed; the remote main identity was independently read
+back. All 368 product files matched the verified manifest in the Git index and
+again in canonical validation. The 45 independent cases and three parent packaging
+cases also passed from canonical main.
+
+## Installed delivery
+
+The native skill directory and standalone runtime now match this release. Exact
+before/after comparisons verified that all 93 native skill directories are
+unchanged and all 81 unrelated installed records are preserved. The runtime adds
+the examples and updated guide links. All three installed demos ran successfully.
+The fresh previous-native/previous-runtime rollback copy matched its original
+inventories exactly; no rollback was executed and ACL/metadata restoration is not
+claimed. The private backup is
+`C:/Users/Dom/.codex/operations/godskills-executable-examples-20261016/rollback-backup`.
+See [delivery receipt](../artifacts/qualification/executable-examples-20261016/parent/delivery.json).
+
+All four workers are closed. No automation was started or resumed. This finite
+upgrade is delivered; the whole-quarry qualification remains explicitly unfinished.

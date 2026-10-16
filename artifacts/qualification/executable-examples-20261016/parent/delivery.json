@@ -1,0 +1,43 @@
+{
+  "schema": "executable-examples-delivery-v1",
+  "status": "installed-and-verified",
+  "observedUtc": "2026-10-16T09:06:00.299Z",
+  "implementationCommit": "da7dd136ccc76cb2af5b07b3836de7a4dfef9d78",
+  "releaseId": "7f93176cf531b8c967e582d8a67ef993b70645d9c9cd2c6a446e44422f073ea7",
+  "archiveSha256": "4ac70675e5bf2f636fac16167e510c753747dbfd13ee5da94f5e2b0b2614262a",
+  "skillCount": 93,
+  "categoryCount": 21,
+  "selectedMethods": 29,
+  "manifestFiles": 368,
+  "nativeSkillsUnchanged": true,
+  "unrelatedInstalledRecordsPreserved": 81,
+  "rollbackBackup": "C:/Users/Dom/.codex/operations/godskills-executable-examples-20261016/rollback-backup",
+  "backupVerified": true,
+  "installReceiptSha256": "39069b63f436a655062f6320b9857976bb7e66f6475ea32b7d714861a55beade",
+  "preinstallReceiptSha256": "37cc522deeb27fcd232b5c6a5aef8e7427661d97ae6d0df4837d968cede13a02",
+  "afterReceiptSha256": "61851f79b81a018e8eeabe40614f058fb36914a993751de836017248e2550a7e",
+  "installedDemos": [
+    {
+      "lane": "constraint-diagnosis",
+      "exitCode": 0,
+      "stdoutSha256": "bf503d5c36232527032ab64e67c3331842b58479d9fce0a80097e50c784e4c29"
+    },
+    {
+      "lane": "onboarding-cohorts",
+      "exitCode": 0,
+      "stdoutSha256": "1af90c34f144477ae82841c139f2407e1c56428d4ff32584ccd7b4ed7bb4de91"
+    },
+    {
+      "lane": "animation-interruptions",
+      "exitCode": 0,
+      "stdoutSha256": "b67bbd4c6ade0f76b446685d483410ac08c7c7a3bad87ee97b9f575fabaa840b"
+    }
+  ],
+  "canonicalFocusedReplay": {
+    "tests": 48,
+    "passed": 48,
+    "failed": 0,
+    "skipped": 0
+  },
+  "limits": "Managed and unrelated bytes verified, not ACL/metadata restoration or execution of a rollback. Existing open sessions may retain earlier catalog state; examples are reachable as runtime files. Whole source quarry not completed. Linux current-release attempt was not verified."
+}
