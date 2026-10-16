@@ -1,0 +1,639 @@
+TAP version 13
+# Subtest: R1 gameplay-camera silhouette authoring retains the metadata-supported owner
+not ok 1 - R1 gameplay-camera silhouette authoring retains the metadata-supported owner
+  ---
+  duration_ms: 10.7482
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\artifacts\\qualification\\cohesive-product-20261015\\review-c-avicenna\\camera-regression.test.mjs:9:1'
+  failureType: 'testCodeFailure'
+  error: 'Matched current metadata: baseline code ranks Arcadia first; candidate excludes it.'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/cohesive-product-20261015/review-c-avicenna/camera-regression.test.mjs:10:9)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.start (node:internal/test_runner/test:1191:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17)
+  ...
+# Subtest: control: adding scene makes the same supported camera work eligible
+ok 2 - control: adding scene makes the same supported camera work eligible
+  ---
+  duration_ms: 4.1719
+  type: 'test'
+  ...
+# Subtest: R1 ordinary game-controls implementation retains its existing game owner
+not ok 3 - R1 ordinary game-controls implementation retains its existing game owner
+  ---
+  duration_ms: 9.768
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\artifacts\\qualification\\cohesive-product-20261015\\review-c-avicenna\\review-regressions.test.mjs:8:1'
+  failureType: 'testCodeFailure'
+  error: 'Baseline owner rank 1; candidate must not remove the owner merely for omitting runtime jargon.'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/cohesive-product-20261015/review-c-avicenna/review-regressions.test.mjs:9:9)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.start (node:internal/test_runner/test:1191:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17)
+  ...
+# Subtest: R1 adding an accessibility modifier does not eliminate game creation
+not ok 4 - R1 adding an accessibility modifier does not eliminate game creation
+  ---
+  duration_ms: 6.6552
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\artifacts\\qualification\\cohesive-product-20261015\\review-c-avicenna\\review-regressions.test.mjs:11:1'
+  failureType: 'testCodeFailure'
+  error: 'Baseline owner rank 1; extra useful modifier is not a change of task.'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/cohesive-product-20261015/review-c-avicenna/review-regressions.test.mjs:13:9)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3)
+  ...
+# Subtest: R1 parent Three.js shader creation retains baseline owner recall
+not ok 5 - R1 parent Three.js shader creation retains baseline owner recall
+  ---
+  duration_ms: 3.1263
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\artifacts\\qualification\\cohesive-product-20261015\\review-c-avicenna\\review-regressions.test.mjs:15:1'
+  failureType: 'testCodeFailure'
+  error: 'Baseline owner rank 4, within default top5.'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/cohesive-product-20261015/review-c-avicenna/review-regressions.test.mjs:16:9)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: R2 a mesh licensing request does not itself establish runtime purpose
+not ok 6 - R2 a mesh licensing request does not itself establish runtime purpose
+  ---
+  duration_ms: 3.5774
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\artifacts\\qualification\\cohesive-product-20261015\\review-c-avicenna\\review-regressions.test.mjs:18:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Mesh is context, not independent evidence of a runtime operation.
+    
+    true !== false
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: false
+  actual: true
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/cohesive-product-20261015/review-c-avicenna/review-regressions.test.mjs:19:9)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: control: supported runtime asset work remains discoverable
+ok 7 - control: supported runtime asset work remains discoverable
+  ---
+  duration_ms: 2.3874
+  type: 'test'
+  ...
+# Subtest: control: explicit IDs and host no-need remain compatible
+ok 8 - control: explicit IDs and host no-need remain compatible
+  ---
+  duration_ms: 190.0761
+  type: 'test'
+  ...
+# Subtest: control: recognized refusal does not defeat a limited live microtask
+ok 9 - control: recognized refusal does not defeat a limited live microtask
+  ---
+  duration_ms: 0.547
+  type: 'test'
+  ...
+# Subtest: R1 supported game work survives without purpose jargon or modifier limits: Implement game controls.
+not ok 10 - R1 supported game work survives without purpose jargon or modifier limits: Implement game controls.
+  ---
+  duration_ms: 10.4295
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\cohesive-discovery-boundaries.test.mjs:26:3'
+  failureType: 'testCodeFailure'
+  error: 'Implement game controls.'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-boundaries.test.mjs:27:10)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.start (node:internal/test_runner/test:1191:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17)
+  ...
+# Subtest: R1 supported game work survives without purpose jargon or modifier limits: Implement player movement and camera controls for my game.
+not ok 11 - R1 supported game work survives without purpose jargon or modifier limits: Implement player movement and camera controls for my game.
+  ---
+  duration_ms: 3.6807
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\cohesive-discovery-boundaries.test.mjs:26:3'
+  failureType: 'testCodeFailure'
+  error: 'Implement player movement and camera controls for my game.'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-boundaries.test.mjs:27:10)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3)
+  ...
+# Subtest: R1 supported game work survives without purpose jargon or modifier limits: Balance combat difficulty in our game.
+not ok 12 - R1 supported game work survives without purpose jargon or modifier limits: Balance combat difficulty in our game.
+  ---
+  duration_ms: 2.8769
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\cohesive-discovery-boundaries.test.mjs:26:3'
+  failureType: 'testCodeFailure'
+  error: 'Balance combat difficulty in our game.'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-boundaries.test.mjs:27:10)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: R1 supported game work survives without purpose jargon or modifier limits: Add checkpoint saves to the game.
+not ok 13 - R1 supported game work survives without purpose jargon or modifier limits: Add checkpoint saves to the game.
+  ---
+  duration_ms: 3.1059
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\cohesive-discovery-boundaries.test.mjs:26:3'
+  failureType: 'testCodeFailure'
+  error: 'Add checkpoint saves to the game.'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-boundaries.test.mjs:27:10)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: R1 supported game work survives without purpose jargon or modifier limits: Debug Unity input handling.
+not ok 14 - R1 supported game work survives without purpose jargon or modifier limits: Debug Unity input handling.
+  ---
+  duration_ms: 2.6965
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\cohesive-discovery-boundaries.test.mjs:26:3'
+  failureType: 'testCodeFailure'
+  error: 'Debug Unity input handling.'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-boundaries.test.mjs:27:10)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: R1 supported game work survives without purpose jargon or modifier limits: Implement controller support for my game.
+not ok 15 - R1 supported game work survives without purpose jargon or modifier limits: Implement controller support for my game.
+  ---
+  duration_ms: 2.2364
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\cohesive-discovery-boundaries.test.mjs:26:3'
+  failureType: 'testCodeFailure'
+  error: 'Implement controller support for my game.'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-boundaries.test.mjs:27:10)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: R1 supported game work survives without purpose jargon or modifier limits: Improve game onboarding and feedback.
+not ok 16 - R1 supported game work survives without purpose jargon or modifier limits: Improve game onboarding and feedback.
+  ---
+  duration_ms: 2.1746
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\cohesive-discovery-boundaries.test.mjs:26:3'
+  failureType: 'testCodeFailure'
+  error: 'Improve game onboarding and feedback.'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-boundaries.test.mjs:27:10)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: R1 supported game work survives without purpose jargon or modifier limits: Make game controls accessible to players.
+ok 17 - R1 supported game work survives without purpose jargon or modifier limits: Make game controls accessible to players.
+  ---
+  duration_ms: 2.4039
+  type: 'test'
+  ...
+# Subtest: R1 supported game work survives without purpose jargon or modifier limits: Build an accessible cooperative puzzle game.
+not ok 18 - R1 supported game work survives without purpose jargon or modifier limits: Build an accessible cooperative puzzle game.
+  ---
+  duration_ms: 2.714
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\cohesive-discovery-boundaries.test.mjs:26:3'
+  failureType: 'testCodeFailure'
+  error: 'Build an accessible cooperative puzzle game.'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-boundaries.test.mjs:27:10)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: R1 supported game work survives without purpose jargon or modifier limits: Create a relaxing turn based strategy game.
+not ok 19 - R1 supported game work survives without purpose jargon or modifier limits: Create a relaxing turn based strategy game.
+  ---
+  duration_ms: 3.1317
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\cohesive-discovery-boundaries.test.mjs:26:3'
+  failureType: 'testCodeFailure'
+  error: 'Create a relaxing turn based strategy game.'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-boundaries.test.mjs:27:10)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: R1 supported game work survives without purpose jargon or modifier limits: Build a small accessible cooperative nonviolent exploration puzzle game for two people.
+not ok 20 - R1 supported game work survives without purpose jargon or modifier limits: Build a small accessible cooperative nonviolent exploration puzzle game for two people.
+  ---
+  duration_ms: 2.5623
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\cohesive-discovery-boundaries.test.mjs:26:3'
+  failureType: 'testCodeFailure'
+  error: 'Build a small accessible cooperative nonviolent exploration puzzle game for two people.'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-boundaries.test.mjs:27:10)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: R1 supported shader creation retains default-five recall
+not ok 21 - R1 supported shader creation retains default-five recall
+  ---
+  duration_ms: 5.085
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\cohesive-discovery-boundaries.test.mjs:30:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    The expression evaluated to a falsy value:
+    
+      assert.ok(searchCatalog(repairCatalog,query,{limit:5}).results.some(s=>s.id===runtime.id))
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-boundaries.test.mjs:32:10)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: R1 current metadata supports the gameplay-camera task without an added scene word
+not ok 22 - R1 current metadata supports the gameplay-camera task without an added scene word
+  ---
+  duration_ms: 2.8972
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\cohesive-discovery-boundaries.test.mjs:35:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    The expression evaluated to a falsy value:
+    
+      assert.ok(searchCatalog(repairCatalog,query,{limit:3}).results.some(s=>s.id===runtime.id))
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-boundaries.test.mjs:37:10)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: R2 non-runtime work cannot gain admission from its asset noun: Audit the license for this 3D mesh.
+not ok 23 - R2 non-runtime work cannot gain admission from its asset noun: Audit the license for this 3D mesh.
+  ---
+  duration_ms: 2.745
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\cohesive-discovery-boundaries.test.mjs:45:3'
+  failureType: 'testCodeFailure'
+  error: |-
+    The expression evaluated to a falsy value:
+    
+      assert.ok(!searchCatalog(repairCatalog,query,{limit:20}).results.some(s=>s.id===runtime.id))
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-boundaries.test.mjs:46:10)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: R2 non-runtime work cannot gain admission from its asset noun: Review the license obligations for these mesh assets.
+not ok 24 - R2 non-runtime work cannot gain admission from its asset noun: Review the license obligations for these mesh assets.
+  ---
+  duration_ms: 2.3325
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\cohesive-discovery-boundaries.test.mjs:45:3'
+  failureType: 'testCodeFailure'
+  error: |-
+    The expression evaluated to a falsy value:
+    
+      assert.ok(!searchCatalog(repairCatalog,query,{limit:20}).results.some(s=>s.id===runtime.id))
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-boundaries.test.mjs:46:10)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: R2 non-runtime work cannot gain admission from its asset noun: Extract attribution obligations for the textures.
+not ok 25 - R2 non-runtime work cannot gain admission from its asset noun: Extract attribution obligations for the textures.
+  ---
+  duration_ms: 2.2455
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\cohesive-discovery-boundaries.test.mjs:45:3'
+  failureType: 'testCodeFailure'
+  error: |-
+    The expression evaluated to a falsy value:
+    
+      assert.ok(!searchCatalog(repairCatalog,query,{limit:20}).results.some(s=>s.id===runtime.id))
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-boundaries.test.mjs:46:10)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: R2 non-runtime work cannot gain admission from its asset noun: Compare GPU prices for a workstation.
+not ok 26 - R2 non-runtime work cannot gain admission from its asset noun: Compare GPU prices for a workstation.
+  ---
+  duration_ms: 2.8119
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\cohesive-discovery-boundaries.test.mjs:45:3'
+  failureType: 'testCodeFailure'
+  error: |-
+    The expression evaluated to a falsy value:
+    
+      assert.ok(!searchCatalog(repairCatalog,query,{limit:20}).results.some(s=>s.id===runtime.id))
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-boundaries.test.mjs:46:10)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: R2 object-only navigation never claims corroborated runtime purpose
+not ok 27 - R2 object-only navigation never claims corroborated runtime purpose
+  ---
+  duration_ms: 2.6407
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\cohesive-discovery-boundaries.test.mjs:49:1'
+  failureType: 'testCodeFailure'
+  error: 'mesh'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-boundaries.test.mjs:52:12)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: R2 separate live runtime work survives a license or pricing clause
+ok 28 - R2 separate live runtime work survives a license or pricing clause
+  ---
+  duration_ms: 4.6785
+  type: 'test'
+  ...
+# Subtest: R1/R2 repaired admission follows renamed capability metadata
+not ok 29 - R1/R2 repaired admission follows renamed capability metadata
+  ---
+  duration_ms: 0.5949
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\cohesive-discovery-boundaries.test.mjs:63:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    + actual - expected
+    
+    + undefined
+    - 'playable-experience-method'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 'playable-experience-method'
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-boundaries.test.mjs:67:10)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: runtime eligibility follows capability metadata under a different ID
+ok 30 - runtime eligibility follows capability metadata under a different ID
+  ---
+  duration_ms: 0.9986
+  type: 'test'
+  ...
+# Subtest: runtime eligibility never keys on the published owner ID or generic asset overlap
+ok 31 - runtime eligibility never keys on the published owner ID or generic asset overlap
+  ---
+  duration_ms: 0.1415
+  type: 'test'
+  ...
+# Subtest: eligibility changes admission without inventing an extra ranking bonus
+ok 32 - eligibility changes admission without inventing an extra ranking bonus
+  ---
+  duration_ms: 0.1368
+  type: 'test'
+  ...
+# Subtest: quoted and refused runtime work cannot corroborate other live clauses
+ok 33 - quoted and refused runtime work cannot corroborate other live clauses
+  ---
+  duration_ms: 12.4911
+  type: 'test'
+  ...
+# Subtest: a contrast can introduce live runtime work after a refusal
+ok 34 - a contrast can introduce live runtime work after a refusal
+  ---
+  duration_ms: 2.2624
+  type: 'test'
+  ...
+# Subtest: ordinary game creation requests do not require imported-asset jargon
+ok 35 - ordinary game creation requests do not require imported-asset jargon
+  ---
+  duration_ms: 7.1816
+  type: 'test'
+  ...
+# Subtest: single-term topic navigation retains recall while requiring host review
+ok 36 - single-term topic navigation retains recall while requiring host review
+  ---
+  duration_ms: 9.3073
+  type: 'test'
+  ...
+# Subtest: exact IDs, filters, stable ties and host no-need survive eligibility
+ok 37 - exact IDs, filters, stable ties and host no-need survive eligibility
+  ---
+  duration_ms: 189.2685
+  type: 'test'
+  ...
+# Subtest: a live workflow survives quotes, refusals and a concise output constraint
+ok 38 - a live workflow survives quotes, refusals and a concise output constraint
+  ---
+  duration_ms: 9.7097
+  type: 'test'
+  ...
+# Subtest: arithmetic exclusions use live text rather than quoted arithmetic data
+ok 39 - arithmetic exclusions use live text rather than quoted arithmetic data
+  ---
+  duration_ms: 0.5411
+  type: 'test'
+  ...
+1..39
+# tests 39
+# suites 0
+# pass 16
+# fail 23
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 378.4986

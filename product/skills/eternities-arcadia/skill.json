@@ -11,13 +11,16 @@
     "game accessibility",
     "game release proof",
     "spatial interaction",
+    "design interactive WebGL shader and particle effects with camera controls",
     "browser canvas resize pointer coordinates animation loops",
     "hidden tab simulation delta focus pressed keys input",
     "scene teardown stale asset loading GPU resource ownership",
     "integrate imported glTF FBX meshes and models into Three.js Unity Unreal interactive scenes",
     "check mesh units scale coordinate axes pivot and material slots after import",
     "verify textures UV channels normal maps collision rigs animation and root motion in a game",
-    "qualify model dependencies and decoder files in packaged builds beyond editor preview"
+    "qualify model dependencies and decoder files in packaged builds beyond editor preview",
+    "character silhouette and readability at the gameplay camera",
+    "camera-critical game asset iteration and motion revision consistency"
   ],
   "antiTriggers": [
     "routine isolated code edit",
@@ -38,14 +41,21 @@
     "eternities-orpheus"
   ],
   "resources": [
+    "references/core-loop-playtest-v1.md",
     "references/methods.md",
     "references/game-state-to-audio-cue.md",
     "references/browser-runtime-lifecycle.md",
     "references/requirement-screen-state-traceability.md",
-    "references/realtime-asset-integration.md"
+    "references/realtime-asset-integration.md",
+    "references/camera-driven-asset-iteration-v1.md"
   ],
   "maturity": "instruction-reviewed",
   "provenance": [
+    {
+      "kind": "authoring",
+      "source": "artifacts/qualification/cohesive-product-20261015/lane-a/ledger.json",
+      "note": "Original conditional addition references/core-loop-playtest-v1.md and its entrypoint routing were independently authored for the cohesion release. Prior reviews do not apply to changed bytes; release review is recorded separately. No new source-rights clearance, runtime result or performance claim."
+    },
     {
       "kind": "pattern-reference",
       "source": "CloudAI-X/threejs-skills@b1c623076c661fc9b03dac19292e825a5d106823:skills/threejs-loaders/SKILL.md",
@@ -72,9 +82,9 @@
       "note": "Wave24-b02 exact body SHA-256 7800dec38e3434798c887f0acb79ff00705e92e54c19b7a1167c8f0831a7985c; reviewed as one proposal contributor. Original screen/state coverage method only; no source text copied. Local root MIT observation is not rights clearance."
     },
     {
-      "kind":"pattern-reference",
-      "source":"jeremylongworth-source/AgentSkills@ebf24796e884b9196bdb47373d53dcc547466730:skills/game-threejs-development/SKILL.md",
-      "note":"Full entrypoint and its threejs-game-checklist.md reference read as inert text. Entry SHA-256 7bd2cf992aee261a58407ea7acca1ddd369712820b4423754e6f6b04b6303e43; reference SHA-256 697bbd20f40b0fc63eb6a4178982d32a863dd3784c511025312c8e4c963d6c25. Lifecycle, sizing and interruption concerns informed independent engine-neutral writing. Blanket disposal was replaced with ownership-aware release; named engine dependencies and unverified GPU claims not adopted. Repository MIT notice observed, not legal clearance."
+      "kind": "pattern-reference",
+      "source": "jeremylongworth-source/AgentSkills@ebf24796e884b9196bdb47373d53dcc547466730:skills/game-threejs-development/SKILL.md",
+      "note": "Full entrypoint and its threejs-game-checklist.md reference read as inert text. Entry SHA-256 7bd2cf992aee261a58407ea7acca1ddd369712820b4423754e6f6b04b6303e43; reference SHA-256 697bbd20f40b0fc63eb6a4178982d32a863dd3784c511025312c8e4c963d6c25. Lifecycle, sizing and interruption concerns informed independent engine-neutral writing. Blanket disposal was replaced with ownership-aware release; named engine dependencies and unverified GPU claims not adopted. Repository MIT notice observed, not legal clearance."
     },
     {
       "kind": "source",
@@ -95,6 +105,31 @@
       "kind": "authoring",
       "source": "product/skills/eternities-arcadia/SKILL.md",
       "note": "Independent-authoring note: this entrypoint and reference are newly written for the universal product; no superiority or certification claim is made."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "ericzakariasson/skills@090915f84d75a38c4d42fc3e5034e4fef94d8fbb:skills/game-builder-blender-assets/SKILL.md",
+      "note": "Exact body SHA-256 4895be8b9702318085306b58cc3ed7380247f358f2eb6413218d0a03742d0aa4. Selected mechanism informed the original camera-driven-asset-iteration method; source prose, code, host orchestration and universal prescriptions were not copied. Root notices are retained in the source snapshot; no broader rights or outcome certification."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "ericzakariasson/skills@090915f84d75a38c4d42fc3e5034e4fef94d8fbb:skills/game-builder/SKILL.md",
+      "note": "Exact body SHA-256 6372dfdad555449545286aa1de0654894ad1e76525cfd22c65e4d53c8340059c. Selected mechanism informed the original camera-driven-asset-iteration method; source prose, code, host orchestration and universal prescriptions were not copied. Root notices are retained in the source snapshot; no broader rights or outcome certification."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "RobLe3/cc-blender-skill@a2634b588e80265e796aa53f8ab178d75105c2af:plugin/skills/blender-export/SKILL.md",
+      "note": "Exact body SHA-256 56b21cd6876bbcd5dd23f10f7ef82f99942495ec36f57a7a429ff9aa1701d285. Selected mechanism informed the original camera-driven-asset-iteration method; source prose, code, host orchestration and universal prescriptions were not copied. Root notices are retained in the source snapshot; no broader rights or outcome certification."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "RobLe3/cc-blender-skill@a2634b588e80265e796aa53f8ab178d75105c2af:plugin/skills/animation-quality-gate/SKILL.md",
+      "note": "Exact body SHA-256 86ffc68b672743e68a4be2f0341788aca937eac38016241a599ccb0f01c202c7. Selected mechanism informed the original camera-driven-asset-iteration method; source prose, code, host orchestration and universal prescriptions were not copied. Root notices are retained in the source snapshot; no broader rights or outcome certification."
+    },
+    {
+      "kind": "authoring",
+      "source": "product/skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md",
+      "note": "Original portable synthesis and worked example. Source-level dispositions and notices are retained in the October 15 cohort evidence. Separate release review does not certify campaign, runtime, causal, operational-cost or reader outcomes."
     }
   ]
 }

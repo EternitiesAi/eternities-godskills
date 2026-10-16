@@ -1,0 +1,39 @@
+{
+  "schema": "recovery-dirac-result-v1",
+  "fixture": {
+    "path": "C:/Users/Dom/.codex/operations/godskills-cohesive-20261015/consumer-fixtures/recovery-handoff.md",
+    "sha256": "9819e24a66782135de60040a4834c30bf2e1fd29b6e79f2ccb3fade0fdca1b32"
+  },
+  "suppliedState": {
+    "paused": true,
+    "deployment": "unknown",
+    "smoke": "running",
+    "authorizedEnvironment": "staging"
+  },
+  "observedAction": "observe-only",
+  "afterResumeAction": "lookup-existing-operation",
+  "operationKey": "stage-R2-7",
+  "existingWorker": "Worker B; read-only staging smoke; no final result supplied",
+  "localTests": {
+    "command": "node --test --test-reporter=tap next-action.test.mjs",
+    "pass": 8,
+    "fail": 0,
+    "validStateCombinations": 80,
+    "node": "v24.18.0",
+    "invalidInputChecks": true
+  },
+  "effects": {
+    "network": false,
+    "deployment": false,
+    "newWorkers": false,
+    "sourceTreeMutation": false,
+    "localArtifacts": true
+  },
+  "limits": [
+    "This is a pure reducer, not a deployment executor or live provider probe.",
+    "Exactly-once external dispatch requires caller-side state/journal and real provider semantics; repeated pure calls return the same action intent.",
+    "The passed smoke state must be bound to the successful R2 staging release by the caller.",
+    "All scenario worker and deployment facts are supplied fictional observations, not live verification.",
+    "No superiority, broad generalization or independent verification of this consumer implementation is claimed."
+  ]
+}

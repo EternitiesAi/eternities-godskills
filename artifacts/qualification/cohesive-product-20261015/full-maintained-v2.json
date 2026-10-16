@@ -1,0 +1,52 @@
+{
+  "schema": "cohesive-maintained-check-v1",
+  "label": "full-maintained-v2",
+  "start": "2026-10-16T06:03:30.240Z",
+  "finished": "2026-10-16T06:05:25.337Z",
+  "command": [
+    "node",
+    "--test",
+    "--test-concurrency=1",
+    "--test-reporter=tap",
+    "tests/**/*.test.mjs",
+    "examples/**/*.test.mjs",
+    "evaluation/**/*.test.mjs",
+    "product/**/*.test.mjs"
+  ],
+  "exitCode": 0,
+  "error": null,
+  "stableSources": true,
+  "counters": {
+    "tests": 1857,
+    "pass": 1855,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 2,
+    "todo": 0,
+    "duration_ms": 114991.3666
+  },
+  "failedLines": [],
+  "tapSha256": "772f1269f2ba742469199abb983fd8e437618960a4fe6ce71727507ac0831c31",
+  "privateReceiptSha256": "8aebdadcc969233b5cb0c7c3f846e7f3becbdc5a98d72858d241a430369f5ace",
+  "before": {
+    "product": {
+      "fileCount": 338,
+      "sha256": "26ffbe61abd114582d91f1d2008dc7272af34dc40b482fea5ef667eb89e6c28d"
+    },
+    "tests": {
+      "fileCount": 294,
+      "sha256": "3f4cb7ff04b5d495d8116906c5c372aec27434b34e0177bed2d7305b45af1683"
+    }
+  },
+  "after": {
+    "product": {
+      "fileCount": 338,
+      "sha256": "26ffbe61abd114582d91f1d2008dc7272af34dc40b482fea5ef667eb89e6c28d"
+    },
+    "tests": {
+      "fileCount": 294,
+      "sha256": "3f4cb7ff04b5d495d8116906c5c372aec27434b34e0177bed2d7305b45af1683"
+    }
+  },
+  "limits": "Executed locally on Windows. Detailed raw TAP and exact inventory retained in private task operation; no live-domain outcome or independent review follows from these tests."
+}

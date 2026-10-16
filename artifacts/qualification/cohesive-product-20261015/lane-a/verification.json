@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-15",
+  "scope": "Supporting read-set beyond baseline skill files in ledger.json. Inventory/hash-only and partial reads do not count as full semantic review.",
+  "files": [
+    {
+      "path": "C:/Users/Dom/.agents/skills/sovereign-skill-refinery/SKILL.md",
+      "sha256": "3b129a831750723e0d42100d989ada2ed140481866ef8dc4e48865a7cea910c5"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/skills/.system/skill-creator/SKILL.md",
+      "sha256": "cccd291077ec57c6f50ca6529f0f3fb93212da09473effb2fcec808e81b21288"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/skills/keel-wake/SKILL.md",
+      "sha256": "2f5298c660b45f8e91a12d6f549c4162e3b68601d84fe4c81421717279e9faf9"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/references/frontier-intelligence.md",
+      "sha256": "ad5bd83776f259bc0e1bd56d04a7c11d62f850f3c47314f6c63995997e9f347a"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/memories/MEMORY.md",
+      "sha256": "e60884cad484e31119dc09b39ab3a812ad1e4d1aad2858f76b3685754126b73c"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/skills/.system/skill-creator/scripts/quick_validate.py",
+      "sha256": "6068513d924ed3559e186dfcdead7439129828dcf402167fd925c06dffbf2806"
+    },
+    {
+      "path": "package.json",
+      "sha256": "538531951004f100fd557066ebb274306847f38ba514f4333f735b0dccd9b773"
+    },
+    {
+      "path": "product/README.md",
+      "sha256": "792aeb93acb283a0d7698f4f7223da61759aa4239b547fe60a5d103d3521a8e2"
+    },
+    {
+      "path": "tests/universal-domain-review.test.mjs",
+      "sha256": "6e418ab50d975da8076f7b451673572bc411ed01f9afb3de38642771d5e1346b"
+    },
+    {
+      "path": "tests/social-family-review.test.mjs",
+      "sha256": "647d83e7b5f198affdf549e1c91d332d8743b7a92dda2f8fbee334168170298e"
+    }
+  ],
+  "tests": [
+    {
+      "command": "node --test tests/cohesive-lane-a-integrity.test.mjs",
+      "result": {
+        "chunk_id": "4f0eaa",
+        "wall_time_seconds": 0.2022922,
+        "exit_code": 0,
+        "original_token_count": 110,
+        "output": "✔ lane audit covers the current category membership exactly once (23.1782ms)\n✔ retained skills and every old reference preserve their baseline bytes (18.9804ms)\n✔ new methods remain portable declared resources reachable from their owner (6.8082ms)\n✔ candidate handoff hashes bind the actual changed files (3.7944ms)\nℹ tests 4\nℹ suites 0\nℹ pass 4\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 104.1631\n"
+      }
+    },
+    {
+      "command": "python -X utf8 C:/Users/Dom/.codex/skills/.system/skill-creator/scripts/quick_validate.py <each changed skill directory>",
+      "ids": [
+        "eternities-arcadia",
+        "eternities-beacon",
+        "eternities-muse",
+        "eternities-orpheus",
+        "eternities-prometheus",
+        "evidence-linked-learning-design",
+        "voice-style-calibration"
+      ],
+      "result": {
+        "chunk_id": "ff1ce2",
+        "wall_time_seconds": 0.6299038,
+        "exit_code": 0,
+        "original_token_count": 69,
+        "output": "eternities-prometheus\r\nSkill is valid!\r\neternities-beacon\r\nSkill is valid!\r\neternities-muse\r\nSkill is valid!\r\neternities-arcadia\r\nSkill is valid!\r\neternities-orpheus\r\nSkill is valid!\r\nevidence-linked-learning-design\r\nSkill is valid!\r\nvoice-style-calibration\r\nSkill is valid!\r\n"
+      }
+    }
+  ],
+  "limits": [
+    "Independent review PENDING; no agents spawned.",
+    "No shared catalog, method directory or release generation; parent owns integration.",
+    "No paid calls, warehouse-body acquisition/execution, installation, publication or external project mutation.",
+    "35 review cases are proposed, not executed independently.",
+    "Self-applications are fictional author walkthroughs, not runtime, listening, human play, audience, learning or performance results.",
+    "Two optional learning references had truncated output and remain partial reads; neither was edited.",
+    "Full pack validation deferred until parent rebuilds shared metadata after review."
+  ],
+  "recoveredAuthoringIssue": "One combined audit-ledger patch failed because its final hunk referred to an earlier position. No file changed in that failed patch; split ordered patches applied successfully."
+}

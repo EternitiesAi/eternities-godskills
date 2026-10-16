@@ -11,3 +11,13 @@ docs/next-eight-20261004/* -text whitespace=-blank-at-eof,cr-at-eol
 docs/motion-video-20261013/qualification/* -text whitespace=-blank-at-eof,cr-at-eol
 # Preserve this PowerShell-produced portable receipt byte-for-byte.
 artifacts/qualification/realtime-asset-20261014/portable-acceptance-v1.json -text whitespace=cr-at-eol
+# Exact cohesive-review transcripts, failures and receipts are immutable evidence.
+artifacts/qualification/cohesive-product-20261015/** -text whitespace=-blank-at-eof,-blank-at-eol,cr-at-eol
+docs/history/README-before-cohesive-20261015.md -text whitespace=-blank-at-eof
+product/evidence/method-reviews/cohesive-v1/d-review.md -text whitespace=-blank-at-eof
+# Preserve the independently reviewed method bytes, including their final blank line.
+product/skills/diagnostic-statistical-model-inference/references/causal-design-before-estimation-v1.md -text whitespace=-blank-at-eof
+product/skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md -text whitespace=-blank-at-eof
+product/skills/eternities-beacon/references/creator-slate-feasibility-v1.md -text whitespace=-blank-at-eof
+product/skills/narrative-structure-and-revision/references/reader-knowledge-and-reveal-revision-v1.md -text whitespace=-blank-at-eof
+product/skills/service-observability-and-slo-design/references/telemetry-cardinality-budget-v1.md -text whitespace=-blank-at-eof

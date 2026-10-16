@@ -1,0 +1,271 @@
+// A bounded lexical model, not semantic applicability or permission inference.
+// Each intent requires independent request cues AND a matching metadata profile.
+// No query strings or skill IDs are used as lookup keys.
+import {affirmativeRequestClauses} from './request-scope.mjs';
+
+const normalize = text => (text.normalize('NFKC').toLowerCase().match(/[\p{L}\p{N}]+/gu) || []).join(' ');
+const media = /\b(?:audio|dsp|tts|speech|speaker|microphone|sample rate|plugin|callback|voice clon\w*|synthesi\w*)\b/;
+
+// This profile uses deliberately finite English scoping, not general discourse parsing.
+// Balanced, nonnested quotes are omitted; apostrophes inside words are left alone.
+const quotedRequestMaterial = /“[^”]*”|‘[^’]*’|(?<![\p{L}\p{N}])'[^']*'(?![\p{L}\p{N}])|"(?:\\.|[^"\\])*"|`[^`]*`/gu;
+const refusedTeachingAction = /\b(?:do not|don t|never|no need to|avoid|not to|rather than)\s+(?:teach\w*|train\w*|instruct\w*|educat\w*|prepar\w*|plan\w*|design\w*|creat\w*|build\w*|mak\w*|develop\w*|arrang\w*|devis\w*|provid\w*|giv\w*|offer\w*|organis\w*|organiz\w*|set up|put together|run|use)\b/;
+const declinedLearningFormat = /\bno\s+(?:lessons?|workshops?|courses?|training|instruction|learning (?:models?|activities|experiences)|teaching (?:models?|activities|demos?))(?: \w+){0,5}\s+(?:requested|needed|wanted)\b/;
+// A learner audience alone is insufficient: it must accompany a teaching format,
+// while four separate gates still require requested action, explanation, an
+// active representation and manipulation/feedback. These are finite English
+// concept families, not a semantic classifier or an exact-query lookup table.
+const teachingPurpose = {
+  test: text => /\b(?:teach\w*|train\w*|instruct\w*|lesson\w*|workshop\w*|tutorial\w*|courses?|class(?:es)?|classroom|educational|learning (?:models?|tasks?|activit\w*|experiences?))\b|\bhelp (?:\w+ ){0,2}(?:children|students|learners?|novices?|beginners?|trainees?|apprentices?)\b/.test(text) ||
+    (/\b(?:students?|pupils?|children|learners?|novices?|beginners?|trainees?|apprentices?|visitors?)\b/.test(text) &&
+     /\b(?:activit\w*|exercises?|investigations?|sessions?|demonstrations?)\b/.test(text)),
+};
+// Require request-verb forms, not nominal mentions such as training or planning.
+// A training-simulator appraisal can satisfy several topic cues without asking
+// for a new teaching activity; topic evidence must not supply its own action.
+const requestedTeachingAction = /\b(?:prepare|plan|design|create|build|make|develop|teach|train|instruct|help|arrange|devise|provide|give|offer|organise|organize|set up|put together|i d like)\b/;
+const historicalTeachingClause = /\b(?:last (?:term|year|month|week)|previously|formerly|once|used to)\b(?: \w+)*\b(?:intended|planned|wanted|built|designed|taught|prepared|created|developed)\b/;
+
+function learnerRequestText(query) {
+  return query
+    .replace(quotedRequestMaterial, ' ')
+    // A contrast or sentence boundary may introduce a new live request.
+    // Keep the refused phrase "rather than" intact for the filter below.
+    .split(/[.!?;]+|\b(?:but|instead|rather(?!\s+than\b))\b/iu)
+    .filter(clause => {
+      const text = normalize(clause);
+      return !refusedTeachingAction.test(text) && !declinedLearningFormat.test(text) && !historicalTeachingClause.test(text);
+    })
+    .join(' ');
+}
+
+// A finite requested-output boundary for frame-based media methods. Quoted
+// instructions and explicitly refused production clauses are source material,
+// not a request to render. This is not general English scope inference.
+function videoRequestText(query) {
+  return query.replace(quotedRequestMaterial, ' ')
+    .split(/[.!?;]+|\b(?:but|instead)\b/iu)
+    .filter(clause => {
+      const text = normalize(clause);
+      return !/\b(?:do not|don t|never|no need to|avoid)\s+(?:render\w*|encod\w*|export\w*|compos\w*|produc\w*)\b/.test(text) &&
+        !/\b(?:manual (?:video )?editor|by hand|no (?:code driven|programmatic) composition|audio only|audio encod\w*|not (?:a )?(?:video|film)|no (?:video|film) (?:is )?(?:requested|needed|wanted))\b/.test(text);
+    })
+    .join(' ');
+}
+
+// Scope this bonus to live request clauses. This is deliberately finite English
+// handling, not a general permission, quotation or negation parser.
+const reconciliationAction = /\b(?:merg\w*|combin\w*|join\w*|reconcil\w*|compar\w*|dedup\w*|consolidat\w*|collaps\w*|match\w*|produce one)\b/;
+const reconciliationReference = /\b(?:merg\w*|combin\w*|join\w*|reconcil\w*|compar\w*|dedup\w*|consolidat\w*|collaps\w*|match\w*)\s+(?:them|both|these|those)\b/;
+const tabularObject = /\b(?:csvs?|tsvs?|tables?|spreadsheets?|workbooks?|datasets?|exports?|extracts?|lists?|records?)\b/;
+const tabularFields = /\b(?:rows?|columns?|headers?|identifiers?|ids?|keys?|aliases|quantities|units|amounts|hours|totals|serial numbers?|member numbers?|staff code|sku|fields?)\b/;
+function reconciliationRequestText(query) {
+  const request = normalize(query.replace(quotedRequestMaterial, ' '));
+  if (/\bno (?:data )?(?:transformation|reconciliation|merge) (?:is )?(?:requested|needed|wanted)\b/.test(request)) return '';
+  const clauses = query.replace(quotedRequestMaterial, ' ')
+    .split(/[.!?;]+|\b(?:but|instead)\b/iu)
+    .map(normalize)
+    .filter(Boolean)
+    .map(text => {
+      const live = !/\b(?:do not|don t|never|no need to|avoid)\s+(?:(?:attempt to|try to|proceed to)\s+)?(?:merg\w*|combin\w*|join\w*|reconcil\w*|compar\w*|dedup\w*|consolidat\w*|collaps\w*|match\w*|produc\w*)\b/.test(text) &&
+        !/\b(?:last (?:year|month|week)|previously|formerly|used to)\b.*\b(?:merg\w*|combin\w*|join\w*|reconcil\w*|compar\w*|dedup\w*|consolidat\w*|collaps\w*|match\w*|produc\w*)\b/.test(text) &&
+        !/^(?:explain what|describe what|what is|what are|define|explain the meaning)\b/.test(text);
+      // Keep a placeholder so a refused or historical clause cannot become an
+      // antecedent or be silently crossed by the immediate-reference rule.
+      return live ? text : '';
+    });
+  // An action in one sentence and an unrelated table in another are not a
+  // corroborated operation. Accept a direct "combine them/both" reference only
+  // to the immediately preceding live tabular clause. Detailed facts may follow.
+  if (!clauses.some((text, index) => {
+    return (reconciliationAction.test(text) && tabularObject.test(text)) ||
+      (reconciliationReference.test(text) && index > 0 && tabularObject.test(clauses[index - 1]));
+  })) return '';
+  return clauses.join(' ');
+}
+
+// Admission and corroboration are different decisions. Explicit game/engine
+// context preserves lexical recall even for an unfamiliar feature or topic.
+// A purpose reason additionally needs a work verb or reported fault, never the
+// same asset noun counted twice. No modifier-distance limit is imposed.
+const runtimeDomain=/\b(?:games?|gameplay|playable|players?|three js|threejs|unity|unreal|webgl|gltf|fbx|spatial interaction|runtime scene)\b/;
+const runtimeContext={test:text=>runtimeDomain.test(text)||/\b(?:3d|meshes|mesh|textures?|gpu|canvas|skeletons?|root motion)\b/.test(text)};
+const runtimeWork=/\b(?:build\w*|make|making|creat\w*|design\w*|develop\w*|implement\w*|repair\w*|fix\w*|debug\w*|integrat\w*|render\w*|animat\w*|improv\w*|balanc\w*|add\w*|plan\w*|check\w*|verif\w*|audit\w*|qualif\w*|validat\w*|playtest\w*)\b/;
+const reportedRuntimeFault=/\b(?:is|are|was|were|looks?|appears?|becomes?)\b.*\b(?:wrong|incorrect|missing|broken|mirrored|inverted|misaligned|invalid)\b/;
+const runtimePurpose={test:text=>runtimeWork.test(text)||reportedRuntimeFault.test(text)};
+// Recognized legal/rights extraction and hardware-commerce clauses cannot
+// supply runtime context or purpose. A separate live technical clause survives.
+// This is a finite lexical boundary, not general discourse/negation parsing.
+const nonRuntimePurpose=/\b(?:licen[cs]\w*|attribution|redistribution|termination|liability|legal|contracts?|prices?|pricing)\b/;
+const runtimeRequestText=query=>affirmativeRequestClauses(query).map(normalize)
+  .filter(text=>!nonRuntimePurpose.test(text)).join(' ');
+
+const profiles = [
+  {
+    name: 'game or real-time 3D runtime scope',
+    requireRequestedCues: true,
+    eligibilityOnly: true,
+    allowSingleTermNavigation: true,
+    allowDomainNavigation: true,
+    prepare: runtimeRequestText,
+    cues: [
+      ['game or technical 3D context', runtimeContext],
+      ['independent work action or reported fault', runtimePurpose],
+    ],
+    metadata: [/\bgame direction\b/, /\bruntime\b/, /\bplayer experience\b/],
+  },
+  {
+    name: 'tabular reconciliation',
+    prepare: reconciliationRequestText,
+    cues: [
+      ['tabular input', {test: text =>
+        /\b(?:csvs?|tsvs?|tables?|spreadsheets?|workbooks?|datasets?)\b/.test(text) ||
+        (/\b(?:exports?|extracts?|lists?|records?)\b/.test(text) &&
+         tabularFields.test(text))
+      }],
+      ['reconciliation action', reconciliationAction],
+      ['structural discrepancy or identity', {test: text => tabularFields.test(text) || /\b(?:duplicates?|repeats?|mismatch\w*|disagree\w*|conflicts?|unmatched|missing|null|unknown|rejected|pairs?|provenance|lineage|each (?:chosen )?cell)\b/.test(text)}],
+    ],
+    exclude: /\b(?:git (?:branches|merge)|pull requests?|source code|table rendering)\b/,
+    metadata: [/\breconciliation\b/, /\bsupplied\b/, /\bcolumn\b/, /\bdeduplication\b/],
+  },
+  {
+    name: 'requested frame-based video output',
+    requireRequestedCues: true,
+    prepare: videoRequestText,
+    cues: [
+      ['video or seekable scene artifact', {test: text =>
+        /\b(?:videos?|films?|mp4|webm|gifs?|encode\w*|clips?)\b/.test(text) ||
+        (/\bscenes?\b/.test(text) &&
+         (/\b(?:render\w*|export\w*|seek\w*|scrub\w*)\b/.test(text) ||
+          (/\bevaluat\w*\b/.test(text) && /\b(?:backwards|shuffled|non sequential|playback history)\b/.test(text))))
+      }],
+      ['production, inspection or seek action', /\b(?:render\w*|export\w*|encod\w*|compos\w*|create|design|build|make|verify|check|recover|reconcile|seek\w*|scrub\w*|assemble|produce|batch)\b/],
+      ['frame, timeline or programmatic dependency', /\b(?:frames?|seek\w*|scrub\w*|timeline|programmatic|cues?|fonts?|assets?|props|chunks?|timebase|time base|clip offsets|backwards|shuffled|non sequential|playback history)\b/],
+    ],
+    metadata: [/\bseekable\b/, /\bframe based\b/, /\b(?:programmatic video|video composition|encoded artifact)\b/],
+  },
+  {
+    name: 'interactive motion continuity',
+    cues: [
+      ['interface object', /\b(?:panels?|cards?|drawers?|modals?|menus?|interface|ui)\b/],
+      ['motion action', /\b(?:animate\w*|fling\w*|drag\w*|open|close|retarget\w*|remeasure\w*)\b/],
+      ['continuity or geometry change', /\b(?:position|speed|velocity|destination|scroll\w*|resiz\w*|geometry|web font|layout)\b/],
+    ],
+    metadata: [/\binteractive motion\b/, /\bgesture retargeting\b/, /\bresponsive layout\b/],
+  },
+  {
+    name: 'learner-model explanation',
+    // A corroborated requested activity takes precedence over incidental topic
+    // words. This tier is separate from the unchanged keyword/bonus scores and
+    // does not select, activate or authorize a skill.
+    prioritizeRequestedActivity: true,
+    // Scope only this intent to unquoted affirmative request clauses. The finite
+    // cues do not resolve nested/escaped quotations or arbitrary negation.
+    prepare: learnerRequestText,
+    cues: [
+      ['teaching purpose or learner goal', teachingPurpose],
+      ['requested preparation or teaching action', requestedTeachingAction],
+      ['causal or explanatory objective', /\b(?:why|explain\w*|understand\w*|justif\w*|predict\w*|reason\w*|cause\w*|account for|describ\w* how|defend\w*|reconcil\w*|connect\w*|compar\w*|investigat\w*|work out)\b/],
+      ['model, lesson, or explorable representation', /\b(?:models?|microsimulat\w*|simulat\w*|traces?|lessons?|workshops?|activit\w*|exercises?|investigations?|representations?|diagrams?|experiments?|plots?|tables?|cards?|boards?|grids?|sections?|panels?|frames?|nets?|arrows?|shapes?|stations?|sandbox\w*|transparenc\w*|strips?|blocks?|tiles?|discs?|objects?|materials?|props?|balance beam|pieces|tokens?|valves?|ramps?|pendul\w*|sliders?|physical|hands on|explorable)\b/],
+      // A feedback-bearing small teaching model need not specify its controls yet.
+      // Purpose, requested action, explanation and representation are still required;
+      // this is ranking evidence, not permission or a proven learner interaction.
+      ['learner manipulation or feedback-bearing model', /\b(?:adjust\w*|manipulat\w*|explor\w*|interact\w*|mov\w*|rearrang\w*|vary|alter\w*|chang\w*|pause|control\w*|sliders?|microsimulat\w*|causal feedback|drag\w*|add\w*|remov\w*|reposition\w*|relocat\w*|assembl\w*|step\w*|try|redistribut\w*|rotat\w*|fold\w*|unfold\w*|overlay\w*|rerout\w*|redirect\w*|switch\w*)\b/],
+    ],
+    // Match meaning-bearing owner metadata, not an ID, query, reference, or path.
+    metadata: [
+      /\b(?:evidence linked lessons|lesson planning|learning outcomes)\b/,
+      /\b(?:teaching handoffs|teaching assessment|assessments?)\b/,
+      /\b(?:learner reports|observable goals|achievement evidence)\b/,
+    ],
+  },
+  {
+    name: 'usability observation synthesis',
+    cues: [
+      ['people doing a task', /\b(?:participants?|users?|screen reader|task completion)\b/],
+      ['observed interaction', /\b(?:observations?|observed|hesitat\w*|struggl\w*|completed|completion|missed)\b/],
+      ['findings action', /\b(?:summariz\w*|synthesi\w*|recommend\w*|follow up|interpretation|findings)\b/],
+      ['interface or task artifact', /\b(?:checkout|sign up|signup|page|interface|website|app|usability|button|delivery fee|flow|prototype|form)\b/],
+    ],
+    exclude: /\b(?:clinical|placebo|drug|treatment|lab assay|waveform|dsp)\b/,
+    negated: /\b(?:do not|don t|never) (?:summariz\w*|synthesi\w*|interpret\w*|recommend\w*)(?: \w+){0,5} (?:observations?|usability findings)\b/,
+    metadata: [/\busability\b/, /\bobservations?\b/, /\b(?:studies|interviews|research)\b/],
+  },
+  {
+    name: 'written authorial voice',
+    cues: [
+      ['authorial style', /\b(?:sound|read|write) (?:\w+ ){0,3}like (?:me|us|myself|something i would write)\b|\b(?:my|our|own|team s|brand|authorial) (?:\w+ ){0,2}(?:voice|writing style)\b|\bwriting samples\b/],
+      ['text adaptation', /\b(?:sound|read) (?:\w+ ){0,3}like\b|\b(?:rewrite|adapt|draft|announcement|update|text|writing|facts|meaning|claims)\b/],
+    ],
+    exclude: media,
+    // A narrow explicit exclusion must not become positive ranking evidence.
+    // This does not claim arbitrary negation or quotation-scope parsing.
+    negated: /\b(?:do not|don t|never) (?:rewrite|write|adapt)(?: \w+){0,4} (?:my|our|own|team s|brand) (?:\w+ ){0,2}(?:voice|writing style)\b/,
+    metadata: [/\bvoice\b/, /\b(?:samples|registers|traits|authorial)\b/],
+  },
+  {
+    name: 'interpersonal clarification',
+    cues: [
+      ['misunderstanding', /\btalking past\b|\b(?:misunderstand\w*|disagreement|conflict)\b|\bnot hearing each other\b/],
+      ['participants', /\b(?:each other|colleague|partner|friend|teammate|someone|participants?|interpersonal|conversation)\b/],
+      ['dialogue action', /\b(?:say|reply|respond|dialogue|understand|repair|clarify|respectful\w*)\b/],
+    ],
+    exclude: media,
+    metadata: [/\b(?:interpersonal|reflective listening)\b/, /\b(?:dialogue|conflict|misunderstanding)\b/],
+  },
+  {
+    name: 'task record recovery',
+    cues: [
+      ['resumption', /\b(?:resume|recover|continuing|continue|pick up|left off)\b/],
+      ['prior task record', /\b(?:notes|records|checkpoint|handoff|saved decisions|earlier task|previous task)\b/],
+      ['freshness check', /\b(?:old|outdated|stale|current|changed|still right|still valid|check|verify|verifying|reconcile)\b/],
+    ],
+    metadata: [/\b(?:memory|continuity|task record)\b/, /\b(?:stale|freshness)\b/, /\b(?:recover|resume)\b/],
+  },
+  {
+    name: 'delivery coverage and agreement',
+    cues: [
+      ['obligation or gap', /\b(?:forget|forgot|missing|omissions?|failed to deliver|promises|promised|requirements|obligations?)\b/],
+      ['artifact or delivery', /\b(?:documents?|documentation|readme|implementation|artifacts?|deliver\w*|shipped|outputs?)\b/],
+      ['cross artifact comparison', /\b(?:disagree|contradict\w*|consistency|compare|coverage|across|between)\b/],
+    ],
+    metadata: [/\b(?:obligations?|requirements)\b/, /\b(?:omissions?|missing)\b/, /\b(?:contradictions?|contradictory|consistency)\b/],
+  },
+  {
+    name: 'sustained work and effect reconciliation',
+    cues: [
+      ['work horizon', /\b(?:days|weeks|this week|multi day|multi stage|several sessions|across sessions|across interruptions|milestones?)\b/],
+      ['continued delivery', /\b(?:finish|complete|carry|keep working|continue|resume)\b/],
+      ['interruption or effect state', /\b(?:repeat|duplicate|retry\w*|in flight|pending|running|active job|operations?|interruption\w*)\b/],
+    ],
+    metadata: [/\bmilestones?\b/, /\b(?:resume|interrupted|interruption)\b/, /\b(?:objective|project)\b/],
+  },
+];
+
+export function lexicalQueryEvidence(query) {
+  const text = normalize(query);
+  const intents = profiles.filter(profile => {
+    const scopedText = profile.prepare ? normalize(profile.prepare(query)) : text;
+    return !profile.exclude?.test(scopedText) && !profile.negated?.test(scopedText) &&
+      profile.cues.every(([, pattern]) => pattern.test(scopedText));
+  });
+  return {intents, runtimeDomainNavigation:runtimeDomain.test(runtimeRequestText(query)), singleTermNavigation: /^[\p{L}\p{N}]+$/u.test(query.normalize('NFKC').trim()), writtenVoice: intents.some(profile => profile.name === 'written authorial voice')};
+}
+
+export function lexicalIntentMatch(item, evidence) {
+  const text = normalize(`${item.summary} ${item.triggers.join(' ')}`);
+  const matched = evidence.intents.filter(profile => profile.metadata.every(pattern => pattern.test(text)));
+  const required = profiles.filter(profile => profile.requireRequestedCues && profile.metadata.every(pattern => pattern.test(text)));
+  // Preserve the capped score component. The narrowly corroborated teaching
+  // request has a separate ordering tier so arbitrary keyword overlap cannot
+  // defeat it. Neither the tier nor score proves semantic applicability.
+  return {
+    score: matched.some(profile=>!profile.eligibilityOnly) ? 60 : 0,
+    prioritizeRequestedActivity: matched.some(profile => profile.prioritizeRequestedActivity),
+    reasons: matched.map(profile => `Lexical intent: ${profile.name}; cues: ${profile.cues.map(([name]) => name).join(', ')}${profile.prioritizeRequestedActivity ? '; ordering: corroborated teaching request before incidental keyword matches' : ''}`),
+    // Contextual and one-term navigation preserve recall without inventing a
+    // purpose reason or score bonus. Filters and host need remain independent.
+    ...(required.length ? {eligible:required.every(profile=>evidence.intents.includes(profile)||(profile.allowDomainNavigation&&evidence.runtimeDomainNavigation)||(profile.allowSingleTermNavigation&&evidence.singleTermNavigation))} : {}),
+  };
+}

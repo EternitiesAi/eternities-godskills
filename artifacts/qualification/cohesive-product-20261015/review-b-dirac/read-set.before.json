@@ -1,0 +1,192 @@
+{
+  "schema": "review-b-dirac-snapshot-v1",
+  "candidate": "artifacts/qualification/cohesive-product-20261015/lane-b/candidate.json",
+  "canonicalCommit": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+  "entries": [
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-b/candidate.json",
+      "bytes": 7067,
+      "sha256": "8316c37226360f06331bbc70d1dcc9760c03352a3ad4ff79d0faddd6325e86e8"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-b/audit.json",
+      "bytes": 33867,
+      "sha256": "48ca3397f911672f03c7b263ee83de2eb33bb827b0e7fe4368cae549fe80038b"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-b/read-set.json",
+      "bytes": 28439,
+      "sha256": "6e947ac27ffc7108d4fc6fe395344c280e3f83f693d97eb23969cbe9857f8e23"
+    },
+    {
+      "path": "product/skills/counterbalanced-agent-evaluation/SKILL.md",
+      "bytes": 6194,
+      "sha256": "6242385832a491c290feeb636175210c839a75dcf6bd30526b5cf2f32c99fd7f",
+      "declared": "6242385832a491c290feeb636175210c839a75dcf6bd30526b5cf2f32c99fd7f"
+    },
+    {
+      "path": "product/skills/eternities-daedalus/SKILL.md",
+      "bytes": 5713,
+      "sha256": "1a26dfffe15ecfa2289aaa502e959c07f99eb518c9823ae930536a5c9f829e17",
+      "declared": "1a26dfffe15ecfa2289aaa502e959c07f99eb518c9823ae930536a5c9f829e17"
+    },
+    {
+      "path": "product/skills/eternities-forge/SKILL.md",
+      "bytes": 4379,
+      "sha256": "41ed525d0b547973ed7c9752d47c7f2fd936196ca8b2edc3b2d3066266c9b597",
+      "declared": "41ed525d0b547973ed7c9752d47c7f2fd936196ca8b2edc3b2d3066266c9b597"
+    },
+    {
+      "path": "product/skills/eternities-hermes/SKILL.md",
+      "bytes": 4751,
+      "sha256": "a64957e27281ecd3b99a4bd3b2661d860ae0af8171ea630b3a9a01d5545c89cd",
+      "declared": "a64957e27281ecd3b99a4bd3b2661d860ae0af8171ea630b3a9a01d5545c89cd"
+    },
+    {
+      "path": "product/skills/eternities-mnemosyne/SKILL.md",
+      "bytes": 4542,
+      "sha256": "0d4b18975e93a30191c3371d7f3e4537be56aa6c021e75ee84a6d9210c8bed9a",
+      "declared": "0d4b18975e93a30191c3371d7f3e4537be56aa6c021e75ee84a6d9210c8bed9a"
+    },
+    {
+      "path": "product/skills/eternities-oracle/SKILL.md",
+      "bytes": 4893,
+      "sha256": "528b78eeb7208203a0fca382d7a52276ddf12778df7da3c993b34f39747bf420",
+      "declared": "528b78eeb7208203a0fca382d7a52276ddf12778df7da3c993b34f39747bf420"
+    },
+    {
+      "path": "product/skills/eternities-phoenix/SKILL.md",
+      "bytes": 6126,
+      "sha256": "b9d28316b61929e5dd4303aa68f82f21632ba5a44b9a6880b0aed1020694787f",
+      "declared": "b9d28316b61929e5dd4303aa68f82f21632ba5a44b9a6880b0aed1020694787f"
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/SKILL.md",
+      "bytes": 6818,
+      "sha256": "d0487cb608de140f11305ffcd63f837fbe56c018b029ccd70f0da04c97a51a0b",
+      "declared": "d0487cb608de140f11305ffcd63f837fbe56c018b029ccd70f0da04c97a51a0b"
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/SKILL.md",
+      "bytes": 5733,
+      "sha256": "6621d8bb0924cd386831eae2004144d3006206359de4fdaa1d2385fcdca4d38e",
+      "declared": "6621d8bb0924cd386831eae2004144d3006206359de4fdaa1d2385fcdca4d38e"
+    },
+    {
+      "path": "product/skills/eternities-phoenix/references/diagnostic-experiments-v2.md",
+      "bytes": 3238,
+      "sha256": "0e90cd104135546419a996f0d1c0acd1e57f21ecc5c463225f9d86e7adfec227"
+    },
+    {
+      "path": "product/skills/counterbalanced-agent-evaluation/skill.json",
+      "bytes": 1962,
+      "sha256": "e9e1963c49e735a281788279bf6cb5cc89c76b414e04b59fab79be25b33ef6bf"
+    },
+    {
+      "path": "product/skills/eternities-daedalus/skill.json",
+      "bytes": 7720,
+      "sha256": "a627727d097481928f009b478527f09d6c44f0c65a7afd3f15f7c1603fb1c1d7"
+    },
+    {
+      "path": "product/skills/eternities-forge/skill.json",
+      "bytes": 2376,
+      "sha256": "af03b86ab49cac6e9ae4fd2f13bc7bfca9b563e66a6dcaded46d118ef8713fec"
+    },
+    {
+      "path": "product/skills/eternities-hermes/skill.json",
+      "bytes": 2762,
+      "sha256": "f36f49d7de25d8639a087c3d7884a9a90421ed2f481bfd3970a22bf9a712e04e"
+    },
+    {
+      "path": "product/skills/eternities-mnemosyne/skill.json",
+      "bytes": 2037,
+      "sha256": "9741df2de726741abf78a5383f54e74d72df0f3dd954330faede0f30637e5e14"
+    },
+    {
+      "path": "product/skills/eternities-oracle/skill.json",
+      "bytes": 1805,
+      "sha256": "ca73ebc6b2b8d7c1adcc00f74aa2fb28ad3705c4f1b7727024656dffcd5c23b0"
+    },
+    {
+      "path": "product/skills/eternities-phoenix/skill.json",
+      "bytes": 4628,
+      "sha256": "13613f7882a7c7295945c73f9dac1609496d4391987697e581272b827805838c"
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/skill.json",
+      "bytes": 2624,
+      "sha256": "5fa7b436fa35069441e9d690c3cd82b4e8ecc16e6aa72c8661d5c0cd79d273d2"
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/skill.json",
+      "bytes": 2500,
+      "sha256": "d430c9842dc5a3c604ebd7afda911edfb6a37ead8b631e54de4b3c4c7054bacd"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-cohesive-20261015/consumer-fixtures/recovery-handoff.md",
+      "bytes": 2402,
+      "sha256": "9819e24a66782135de60040a4834c30bf2e1fd29b6e79f2ccb3fade0fdca1b32"
+    }
+  ],
+  "canonical": [
+    {
+      "path": "product/skills/counterbalanced-agent-evaluation/SKILL.md",
+      "bytes": 4948,
+      "sha256": "ad8e45793f5ec79ab577789d505893e2a0a7fbf97dfcde7542cb828aee985a88",
+      "status": "present"
+    },
+    {
+      "path": "product/skills/eternities-daedalus/SKILL.md",
+      "bytes": 4029,
+      "sha256": "9c3271351a5d8234098a001fa079236ec9c8ea568603cacab3fa5f05e9ee0d23",
+      "status": "present"
+    },
+    {
+      "path": "product/skills/eternities-forge/SKILL.md",
+      "bytes": 3568,
+      "sha256": "96a5bf285a89bb9189064d65880d461683830e314e00a98bce2e45a97f2c0e5b",
+      "status": "present"
+    },
+    {
+      "path": "product/skills/eternities-hermes/SKILL.md",
+      "bytes": 3779,
+      "sha256": "fd626d425723be905c9375502c6b6fe480df645f057aee00c9517fdcb5257c8c",
+      "status": "present"
+    },
+    {
+      "path": "product/skills/eternities-mnemosyne/SKILL.md",
+      "bytes": 3552,
+      "sha256": "121f1d7db8183b2bc8cdb6acce8654aac92f76f4cae74ad1f823864cba4bf392",
+      "status": "present"
+    },
+    {
+      "path": "product/skills/eternities-oracle/SKILL.md",
+      "bytes": 3907,
+      "sha256": "796145f66a4f5d9cacadd55319e541234db9b7ac3b4d704f8b7411c949fce4cd",
+      "status": "present"
+    },
+    {
+      "path": "product/skills/eternities-phoenix/SKILL.md",
+      "bytes": 5099,
+      "sha256": "d2be7f2ba4ec16d25e6a44084624bae2d01e416089c5d79cb85b0af1e543a284",
+      "status": "present"
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/SKILL.md",
+      "bytes": 5456,
+      "sha256": "83584469ab0faf64844451aba67bfe4e9325d2c1f7d6580ff951bc90d3a34f5d",
+      "status": "present"
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/SKILL.md",
+      "bytes": 4273,
+      "sha256": "36c14c3b62bdf72c2b12bf4678ec44223bd0c3064528a7f1b34d7df4fcc966e7",
+      "status": "present"
+    },
+    {
+      "path": "product/skills/eternities-phoenix/references/diagnostic-experiments-v2.md",
+      "status": "absent-at-canonical",
+      "stderr": "fatal: path 'product/skills/eternities-phoenix/references/diagnostic-experiments-v2.md' exists on disk, but not in 'c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d'"
+    }
+  ]
+}

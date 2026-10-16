@@ -1,0 +1,244 @@
+{
+  "boundAt": "2026-10-16T05:39:58.946Z",
+  "files": [
+    {
+      "path": "product/skills/eternities-prometheus/skill.json",
+      "role": "A-method-or-original-owner",
+      "priorSha256": "76034d608abd5282b879011c7d03b03c698850b6f422ada4d394f0000c50722a",
+      "sha256": "76034d608abd5282b879011c7d03b03c698850b6f422ada4d394f0000c50722a",
+      "bytes": 2492,
+      "changed": false
+    },
+    {
+      "path": "product/skills/eternities-prometheus/SKILL.md",
+      "role": "A-method-or-original-owner",
+      "priorSha256": "70d043541b328a6bfebd6cd75840aaca8ed94fc22cc10165d1be444f4662fc06",
+      "sha256": "70d043541b328a6bfebd6cd75840aaca8ed94fc22cc10165d1be444f4662fc06",
+      "bytes": 3265,
+      "changed": false
+    },
+    {
+      "path": "product/skills/eternities-prometheus/references/commercial-driver-diagnosis-v1.md",
+      "role": "A-method-or-original-owner",
+      "priorSha256": "bdd16ac74bb01c88864e6d76080fd05d833eb9be1324322f27aaaec8350165f2",
+      "sha256": "bdd16ac74bb01c88864e6d76080fd05d833eb9be1324322f27aaaec8350165f2",
+      "bytes": 3881,
+      "changed": false
+    },
+    {
+      "path": "product/skills/eternities-beacon/skill.json",
+      "role": "A-method-or-original-owner",
+      "priorSha256": "f5dc3808abf07d4d88d61383fb815a386f296b08299417f01658e2d62daae71a",
+      "sha256": "64b3dbde0cfd6f0d658d4baa125f1920b54723ed6911ad42bdb087d40d6cc303",
+      "bytes": 6331,
+      "changed": true
+    },
+    {
+      "path": "product/skills/eternities-beacon/SKILL.md",
+      "role": "A-method-or-original-owner",
+      "priorSha256": "0456fd877c1d18c3c717998f4eb2b4264a6911f62a1362df6e3356948b9af222",
+      "sha256": "0456fd877c1d18c3c717998f4eb2b4264a6911f62a1362df6e3356948b9af222",
+      "bytes": 4272,
+      "changed": false
+    },
+    {
+      "path": "product/skills/eternities-beacon/references/positioning-to-message-v1.md",
+      "role": "A-method-or-original-owner",
+      "priorSha256": "57da15f76572e5af9dde41cf4c5703d83f045cbb701b0284dfcd45d8e46c94d8",
+      "sha256": "57da15f76572e5af9dde41cf4c5703d83f045cbb701b0284dfcd45d8e46c94d8",
+      "bytes": 3439,
+      "changed": false
+    },
+    {
+      "path": "product/skills/eternities-muse/skill.json",
+      "role": "A-method-or-original-owner",
+      "priorSha256": "3c768d293aeda7c7c7b414dc428612185cfbd77ff7526fc8a05bae36bf4a3821",
+      "sha256": "3c768d293aeda7c7c7b414dc428612185cfbd77ff7526fc8a05bae36bf4a3821",
+      "bytes": 3158,
+      "changed": false
+    },
+    {
+      "path": "product/skills/eternities-muse/SKILL.md",
+      "role": "A-method-or-original-owner",
+      "priorSha256": "34fccadc01b49dcb8097641a6a6153dabd119dd55ba9f31781c7bfa4c4c1ac73",
+      "sha256": "34fccadc01b49dcb8097641a6a6153dabd119dd55ba9f31781c7bfa4c4c1ac73",
+      "bytes": 4458,
+      "changed": false
+    },
+    {
+      "path": "product/skills/eternities-muse/references/art-direction-to-layout-v1.md",
+      "role": "A-method-or-original-owner",
+      "priorSha256": "893b09898d51cf5bfcca7d0efa88d239466e04a7c6a68152d4158aab5fa2a140",
+      "sha256": "893b09898d51cf5bfcca7d0efa88d239466e04a7c6a68152d4158aab5fa2a140",
+      "bytes": 3463,
+      "changed": false
+    },
+    {
+      "path": "product/skills/eternities-arcadia/skill.json",
+      "role": "A-method-or-original-owner",
+      "priorSha256": "eeaefbc6c4c89338b38664002a266cf54c9530e610f44874386bf7284e67933e",
+      "sha256": "eeaefbc6c4c89338b38664002a266cf54c9530e610f44874386bf7284e67933e",
+      "bytes": 9215,
+      "changed": false
+    },
+    {
+      "path": "product/skills/eternities-arcadia/SKILL.md",
+      "role": "A-method-or-original-owner",
+      "priorSha256": "ac0ef2950f34981c72dad4143ad3752b289d3f95877ee68aa464195c8818b282",
+      "sha256": "ac0ef2950f34981c72dad4143ad3752b289d3f95877ee68aa464195c8818b282",
+      "bytes": 4642,
+      "changed": false
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/core-loop-playtest-v1.md",
+      "role": "A-method-or-original-owner",
+      "priorSha256": "305e082e9e3d57729fe10e4ad9865b1468333e661f7530469ef17a70fc07490a",
+      "sha256": "305e082e9e3d57729fe10e4ad9865b1468333e661f7530469ef17a70fc07490a",
+      "bytes": 3533,
+      "changed": false
+    },
+    {
+      "path": "product/skills/eternities-orpheus/skill.json",
+      "role": "A-method-or-original-owner",
+      "priorSha256": "d4d74e68312b4a1def2dd902068d56ea9b90b3e9f79f8ad2b78e29071a3e07db",
+      "sha256": "d4d74e68312b4a1def2dd902068d56ea9b90b3e9f79f8ad2b78e29071a3e07db",
+      "bytes": 2091,
+      "changed": false
+    },
+    {
+      "path": "product/skills/eternities-orpheus/SKILL.md",
+      "role": "A-method-or-original-owner",
+      "priorSha256": "30bbab3230a9ecbb81ecec877db2036b591a46b0f4497cb61d94df3585bda3be",
+      "sha256": "30bbab3230a9ecbb81ecec877db2036b591a46b0f4497cb61d94df3585bda3be",
+      "bytes": 3323,
+      "changed": false
+    },
+    {
+      "path": "product/skills/eternities-orpheus/references/supplied-audio-editorial-mix-v1.md",
+      "role": "A-method-or-original-owner",
+      "priorSha256": "d52e3ecffe5e6134cc43f2296ed4c8e48963af8f02f513b605c5a7527ac6c1d9",
+      "sha256": "d52e3ecffe5e6134cc43f2296ed4c8e48963af8f02f513b605c5a7527ac6c1d9",
+      "bytes": 3582,
+      "changed": false
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/skill.json",
+      "role": "A-method-or-original-owner",
+      "priorSha256": "950b371148ed06e650a5d0f9b887d88b904f45febfb4ebadceb0a6d0e54ab473",
+      "sha256": "950b371148ed06e650a5d0f9b887d88b904f45febfb4ebadceb0a6d0e54ab473",
+      "bytes": 5210,
+      "changed": false
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/SKILL.md",
+      "role": "A-method-or-original-owner",
+      "priorSha256": "a91d5ffe526e92ed72c541816d6c0310f5ab2d56b82f2c5f91960b778bbed606",
+      "sha256": "a91d5ffe526e92ed72c541816d6c0310f5ab2d56b82f2c5f91960b778bbed606",
+      "bytes": 4937,
+      "changed": false
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/references/practice-and-transfer-v1.md",
+      "role": "A-method-or-original-owner",
+      "priorSha256": "8625e567db5d4f68c267bd4743e555885115fabcbd253b67f768e2031826aa9f",
+      "sha256": "8625e567db5d4f68c267bd4743e555885115fabcbd253b67f768e2031826aa9f",
+      "bytes": 3408,
+      "changed": false
+    },
+    {
+      "path": "product/skills/voice-style-calibration/skill.json",
+      "role": "A-method-or-original-owner",
+      "priorSha256": "2668dfee646ce1665c5a792dc64b175d61532a83ca350981aec5fefea230fb07",
+      "sha256": "2668dfee646ce1665c5a792dc64b175d61532a83ca350981aec5fefea230fb07",
+      "bytes": 2305,
+      "changed": false
+    },
+    {
+      "path": "product/skills/voice-style-calibration/SKILL.md",
+      "role": "A-method-or-original-owner",
+      "priorSha256": "fb4a54b739b51d0e91df35d17e65fd684f7f43fd06575e58a3782d5040ad73c4",
+      "sha256": "fb4a54b739b51d0e91df35d17e65fd684f7f43fd06575e58a3782d5040ad73c4",
+      "bytes": 4726,
+      "changed": false
+    },
+    {
+      "path": "product/skills/voice-style-calibration/references/contrastive-calibration-v1.md",
+      "role": "A-method-or-original-owner",
+      "priorSha256": "dc51820a975a4f6f1c75f69c70f96f7204b864cd662faf4516a9b1a71d2b7c40",
+      "sha256": "dc51820a975a4f6f1c75f69c70f96f7204b864cd662faf4516a9b1a71d2b7c40",
+      "bytes": 3289,
+      "changed": false
+    },
+    {
+      "path": "package.json",
+      "role": "test-runner-scope-review",
+      "priorSha256": "babefbe4933100db21e8deaf329e3f4dc7bd81555ef6a6cd9ce8fa2ced1f354d",
+      "sha256": "babefbe4933100db21e8deaf329e3f4dc7bd81555ef6a6cd9ce8fa2ced1f354d",
+      "bytes": 4086,
+      "changed": false
+    },
+    {
+      "path": "tests/test-runner-scope.test.mjs",
+      "role": "test-runner-scope-review",
+      "priorSha256": "fa29ade33d4849a417c4d5180dda73891f503e7d8c1d44351057f1df81b047ed",
+      "sha256": "fa29ade33d4849a417c4d5180dda73891f503e7d8c1d44351057f1df81b047ed",
+      "bytes": 601,
+      "changed": false
+    }
+  ],
+  "aFileCount": 21,
+  "runnerFileCount": 2,
+  "changesFromV3": [
+    {
+      "path": "product/skills/eternities-beacon/skill.json",
+      "role": "A-method-or-original-owner",
+      "priorSha256": "f5dc3808abf07d4d88d61383fb815a386f296b08299417f01658e2d62daae71a",
+      "sha256": "64b3dbde0cfd6f0d658d4baa125f1920b54723ed6911ad42bdb087d40d6cc303",
+      "bytes": 6331,
+      "changed": true
+    }
+  ],
+  "runtime": {
+    "node": "v24.18.0",
+    "modules": [
+      {
+        "path": "product/lib/discovery.mjs",
+        "frozenPath": "frozen-runtime/discovery.mjs",
+        "sha256": "4996700d80c125d06586f044260026954047cbbd412f43ef63e10ea8b2adcbd6",
+        "bytes": 19171
+      },
+      {
+        "path": "product/lib/method-directory.mjs",
+        "frozenPath": "frozen-runtime/method-directory.mjs",
+        "sha256": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180",
+        "bytes": 7836
+      },
+      {
+        "path": "product/lib/product.mjs",
+        "frozenPath": "frozen-runtime/product.mjs",
+        "sha256": "afd5689a4120420478995bee762e67cc7ce640f9ce633ae6c6a4f497efcff9bf",
+        "bytes": 23970
+      },
+      {
+        "path": "product/lib/request-scope.mjs",
+        "frozenPath": "frozen-runtime/request-scope.mjs",
+        "sha256": "e9055f1bfa2a913c1f73e93f5fa652588963e63dd9094e46713786fe400877f2",
+        "bytes": 1314
+      },
+      {
+        "path": "product/lib/selection-boundary.mjs",
+        "frozenPath": "frozen-runtime/selection-boundary.mjs",
+        "sha256": "a7b0ed0d0c9805e9a2b97a74c0321ce263c15609e98996144df90fc1b7f0e60e",
+        "bytes": 1603
+      },
+      {
+        "path": "product/lib/skill-frontmatter.mjs",
+        "frozenPath": "frozen-runtime/skill-frontmatter.mjs",
+        "sha256": "66bfc5b6b56688d2996689f774b5b904ce517a3fda1ec35d4d567cbd63e3a96d",
+        "bytes": 2961
+      }
+    ],
+    "graphSha256": "785873ca911a77fee4f2bb7c59294fbaee4f5b0dd667118c1fe497959950c641"
+  },
+  "limits": "Per-file inherited A acceptance plus narrow final trigger closure only. D substance excluded; final combined routing and release remain parent-owned."
+}

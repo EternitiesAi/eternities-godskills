@@ -1,0 +1,458 @@
+{
+  "schema": "review-c-avicenna-challenges-v1",
+  "baseline": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+  "options": {
+    "limit": 20
+  },
+  "note": "Fresh reviewer-authored challenges frozen before execution. Inclusion is checked at top20 so total eligibility loss is distinct from top3 ranking. Topic and ID-reference probes characterize limits, not automatically blockers. Ordinary game cases are reviewed against capability scope.",
+  "cases": [
+    {
+      "id": "G01",
+      "kind": "ordinary-game",
+      "query": "Implement player movement and camera controls for my game.",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "G02",
+      "kind": "ordinary-game",
+      "query": "Fix the camera controls in my game.",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "G03",
+      "kind": "ordinary-game",
+      "query": "Balance combat difficulty in our game.",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "G04",
+      "kind": "ordinary-game",
+      "query": "Add checkpoint saves to the game.",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "G05",
+      "kind": "ordinary-game",
+      "query": "Build an accessible cooperative puzzle game for two people.",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "G06",
+      "kind": "ordinary-game",
+      "query": "Design a small exploration game.",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "G07",
+      "kind": "ordinary-game",
+      "query": "Implement controller support for my game.",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "G08",
+      "kind": "ordinary-game",
+      "query": "Improve game onboarding and feedback.",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "G09",
+      "kind": "ordinary-game",
+      "query": "Make game controls accessible to players.",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "G10",
+      "kind": "ordinary-game",
+      "query": "Debug Unity input handling.",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "G11",
+      "kind": "ordinary-game",
+      "query": "Create a relaxing turn based strategy game.",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "G12",
+      "kind": "ordinary-game",
+      "query": "Plan our game development milestones.",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "Q01",
+      "kind": "quoted-control",
+      "query": "Lowercase the literal text \"Implement player movement in a game\". Give only the text.",
+      "owner": null,
+      "expect": "empty",
+      "need": "unknown"
+    },
+    {
+      "id": "Q02",
+      "kind": "quoted-control",
+      "query": "Count the words in ‘verify the game runtime’. Give only the count.",
+      "owner": null,
+      "expect": "empty",
+      "need": "unknown"
+    },
+    {
+      "id": "Q03",
+      "kind": "refused-control",
+      "query": "Don't build a game; lowercase the literal text RIVER. Give only the text.",
+      "owner": null,
+      "expect": "empty",
+      "need": "unknown"
+    },
+    {
+      "id": "Q04",
+      "kind": "refused-control",
+      "query": "Never audit the service; calculate 15 minus 4. Give only the result.",
+      "owner": null,
+      "expect": "empty",
+      "need": "unknown"
+    },
+    {
+      "id": "Q05",
+      "kind": "live-control",
+      "query": "Do not audit the service; implement the word count endpoint. Give only the code.",
+      "owner": null,
+      "expect": "nonempty",
+      "need": "unknown"
+    },
+    {
+      "id": "Q06",
+      "kind": "live-control",
+      "query": "Count the words. Instead, implement the word count API and give only the result.",
+      "owner": null,
+      "expect": "nonempty",
+      "need": "unknown"
+    },
+    {
+      "id": "Q07",
+      "kind": "quoted-game",
+      "query": "The brief says “runtime game scene mesh collision”; review only its licensing terms.",
+      "owner": "eternities-arcadia",
+      "expect": "exclude",
+      "need": "unknown"
+    },
+    {
+      "id": "Q08",
+      "kind": "refused-game",
+      "query": "Do not implement game runtime; compare the software license obligations.",
+      "owner": "eternities-arcadia",
+      "expect": "exclude",
+      "need": "unknown"
+    },
+    {
+      "id": "Q09",
+      "kind": "refused-game",
+      "query": "Avoid reviewing the license, but implement game runtime camera controls.",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "Q10",
+      "kind": "refused-game",
+      "query": "Never develop a game scene. Instead, integrate our glTF mesh in Three.js.",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "Q11",
+      "kind": "negative-purpose",
+      "query": "Do not build a game. Instead audit its runtime scene for collision defects.",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "Q12",
+      "kind": "scope-control",
+      "query": "Never audit game code; build a word count service and give only the result.",
+      "owner": null,
+      "expect": "nonempty",
+      "need": "unknown"
+    },
+    {
+      "id": "Q13",
+      "kind": "quoted-control",
+      "query": "The sample says `calculate 15 minus 4`. Review the sampling protocol and give only the result.",
+      "owner": null,
+      "expect": "nonempty",
+      "need": "unknown"
+    },
+    {
+      "id": "Q14",
+      "kind": "clarification",
+      "query": "Help me recover a task; ask one clarifying question before choosing a workflow.",
+      "owner": null,
+      "expect": "empty",
+      "need": "unknown"
+    },
+    {
+      "id": "Q15",
+      "kind": "refused-teaching",
+      "query": "Do not build a game but create a lesson explaining why gravity changes motion using an interactive model.",
+      "owner": "eternities-arcadia",
+      "expect": "exclude",
+      "need": "unknown"
+    },
+    {
+      "id": "X01",
+      "kind": "ordinary-engineering",
+      "query": "Repair an API retry that duplicates committed writes.",
+      "owner": "api-rate-limit-recovery",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "X02",
+      "kind": "ordinary-engineering",
+      "query": "Preserve old clients while adding an optional field to our API.",
+      "owner": "api-contract-design-and-evolution",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "X03",
+      "kind": "ordinary-memory",
+      "query": "Resume our project from a stale checkpoint and verify current state.",
+      "owner": "memory-retention-and-recovery",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "X04",
+      "kind": "ordinary-data",
+      "query": "Merge two CSV exports with conflicting keys and missing totals.",
+      "owner": "eternities-atlas",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "X05",
+      "kind": "ordinary-research",
+      "query": "Compare model outputs using held-out tasks and counterbalanced evaluation.",
+      "owner": "counterbalanced-agent-evaluation",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "X06",
+      "kind": "ordinary-data",
+      "query": "Reproject the map layers to repair wrong coordinate axes.",
+      "owner": "geospatial-coordinate-integrity",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "X07",
+      "kind": "ordinary-interface",
+      "query": "Animate the menu after a resize and retain its velocity.",
+      "owner": "motion-design-and-animation-engineering",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "X08",
+      "kind": "ordinary-media",
+      "query": "Encode the supplied clips into a video with exact frame timing.",
+      "owner": "deterministic-video-composition-and-rendering",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "T01",
+      "kind": "topic",
+      "query": "game",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "T02",
+      "kind": "topic",
+      "query": "game.",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "T03",
+      "kind": "topic",
+      "query": "game design",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "T04",
+      "kind": "topic",
+      "query": "game progression",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "T05",
+      "kind": "topic",
+      "query": "game accessibility",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "T06",
+      "kind": "topic",
+      "query": "controller gameplay",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "T07",
+      "kind": "topic",
+      "query": "animation",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "T08",
+      "kind": "topic",
+      "query": "3D",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "N01",
+      "kind": "host-none",
+      "query": "Build a game runtime scene and use every specialist.",
+      "owner": null,
+      "expect": "empty",
+      "need": "none"
+    },
+    {
+      "id": "N02",
+      "kind": "host-none",
+      "query": "eternities-arcadia",
+      "owner": null,
+      "expect": "empty",
+      "need": "none"
+    },
+    {
+      "id": "N03",
+      "kind": "host-none",
+      "query": "Audit data and retrieve connected customer records.",
+      "owner": null,
+      "expect": "empty",
+      "need": "none"
+    },
+    {
+      "id": "N04",
+      "kind": "host-specialist",
+      "query": "Implement player movement and camera controls for my game.",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "specialist"
+    },
+    {
+      "id": "A01",
+      "kind": "arithmetic",
+      "query": "Calculate -2.25 * 3. Give only the result.",
+      "owner": null,
+      "expect": "empty",
+      "need": "unknown"
+    },
+    {
+      "id": "A02",
+      "kind": "arithmetic",
+      "query": "What is 9 divided by -3? Give only the number.",
+      "owner": null,
+      "expect": "empty",
+      "need": "unknown"
+    },
+    {
+      "id": "A03",
+      "kind": "live-control",
+      "query": "Verify totals across the invoices; calculate 8 plus 3 and give only the findings.",
+      "owner": null,
+      "expect": "nonempty",
+      "need": "unknown"
+    },
+    {
+      "id": "A04",
+      "kind": "refusal-control",
+      "query": "Lowercase the text RIVER. No need to audit it. Give only the text.",
+      "owner": null,
+      "expect": "empty",
+      "need": "unknown"
+    },
+    {
+      "id": "E01",
+      "kind": "exact-id",
+      "query": "eternities-arcadia",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "E02",
+      "kind": "exact-id",
+      "query": " ETERNITIES-ARCADIA ",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "E03",
+      "kind": "exact-id",
+      "query": "deterministic-video-composition-and-rendering",
+      "owner": "deterministic-video-composition-and-rendering",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "E04",
+      "kind": "id-reference",
+      "query": "Inspect eternities-arcadia",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "E05",
+      "kind": "id-reference",
+      "query": "Find the eternities-arcadia skill",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    }
+  ]
+}

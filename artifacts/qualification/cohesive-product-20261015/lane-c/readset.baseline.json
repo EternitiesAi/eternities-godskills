@@ -1,0 +1,121 @@
+{
+  "schema": "godskills-lane-c-readset-v1",
+  "baselineCommit": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+  "entries": [
+    {
+      "path": "product/bin/godskills.mjs",
+      "sha256": "a06774059755ec197839a1a0d8582effea9b13c2dc574ef94b14a78703d99e7f",
+      "bytes": 4030
+    },
+    {
+      "path": "product/lib/discovery.mjs",
+      "sha256": "894d347eda269dbfe447d7a09d5ff10bf57b9c5e1f3f90ce398502f7b65fc7d5",
+      "bytes": 16602
+    },
+    {
+      "path": "product/lib/product.mjs",
+      "sha256": "c779ed4ee93c38b50af970ca746f20c0225a96b761449a8c779e3a28c00e800f",
+      "bytes": 23970
+    },
+    {
+      "path": "product/lib/selection-boundary.mjs",
+      "sha256": "792db2f120251de8c0d21985c10cb81a0fd1a5baa83978851e9eb16e10ca68be",
+      "bytes": 1734
+    },
+    {
+      "path": "product/lib/navigation.mjs",
+      "sha256": "937977fe6c338fb7a17f8bdddc132440f0c06ecb69b9c5b1424f7c1a06bfb777",
+      "bytes": 3670
+    },
+    {
+      "path": "product/lib/skill-frontmatter.mjs",
+      "sha256": "66bfc5b6b56688d2996689f774b5b904ce517a3fda1ec35d4d567cbd63e3a96d",
+      "bytes": 2961
+    },
+    {
+      "path": "product/lib/method-directory.mjs",
+      "sha256": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180",
+      "bytes": 7836
+    },
+    {
+      "path": "product/lib/archive.mjs",
+      "sha256": "62cb7442554233a93aa7a149e3336830ef02cdfaf905d944e8f2241b07ce0ba3",
+      "bytes": 4358
+    },
+    {
+      "path": "product/DISCOVERY.md",
+      "sha256": "eb535254b0dd94dd17e339546575637bd90244eae1909d83af788dbec9e974b4",
+      "bytes": 10412
+    },
+    {
+      "path": "product/START-HERE.md",
+      "sha256": "bd70d5189515534805974189354fd6d3cfc926f176fe759066b4c50b82105a96",
+      "bytes": 2928
+    },
+    {
+      "path": "product/catalog.json",
+      "sha256": "f20b17c989c188d439c84fa4a8cf5989ccafe550428b2b2577708ba072a39889",
+      "bytes": 142721
+    },
+    {
+      "path": "product/release.json",
+      "sha256": "62e88827552de643097f2d52f76da8525c87f8089586df8ba3582c6b948354cc",
+      "bytes": 39057
+    },
+    {
+      "path": "product/taxonomy.json",
+      "sha256": "806ea92bb5414ea3bb5b93acbc61ca2a98c5142089d9ff790cc3d29f2bdd3e2c",
+      "bytes": 682
+    },
+    {
+      "path": "product/skills/eternities-arcadia/skill.json",
+      "sha256": "084fc6687838807b69d4b95239ea906b2f7c1d5a8e3fbc7f6390906296db352c",
+      "bytes": 5937
+    },
+    {
+      "path": "tests/discovery-quality-20261003.test.mjs",
+      "sha256": "c58636d571580b4f8dc93d9006136efb9e2ed4f2bf0029b2e39c51f09b420fb5",
+      "bytes": 11174
+    },
+    {
+      "path": "tests/discovery-need-20261003.test.mjs",
+      "sha256": "7b3bfd5c805e6a80b6191c97ecf67a162f74570b45fcd23358fb830e95b5262e",
+      "bytes": 3761
+    },
+    {
+      "path": "tests/discovery-selection-boundary-20261003.test.mjs",
+      "sha256": "bc5be6a4e3db861a616bd9402d4cc86a17546a751dd04c88b8b23508c2c2027f",
+      "bytes": 3413
+    },
+    {
+      "path": "tests/realtime-asset-discovery.test.mjs",
+      "sha256": "021527a1f4c0f489932fbe37377a3e522cbc45879579b8d941b07b0cc3dde0f3",
+      "bytes": 2696
+    },
+    {
+      "path": "artifacts/qualification/realtime-asset-20261014/discovery-cases.json",
+      "sha256": "960956cea5f1e3360c1f612ad414f5d8414dd50fc9361f56f60babb1ded01f75",
+      "bytes": 12909
+    },
+    {
+      "path": "package.json",
+      "sha256": "538531951004f100fd557066ebb274306847f38ba514f4333f735b0dccd9b773",
+      "bytes": 3874
+    },
+    {
+      "path": "C:/Users/Dom/.agents/skills/sovereign-skill-refinery/SKILL.md",
+      "sha256": "3b129a831750723e0d42100d989ada2ed140481866ef8dc4e48865a7cea910c5",
+      "bytes": 4479
+    },
+    {
+      "path": "C:/Users/Dom/.codex/skills/.system/skill-creator/SKILL.md",
+      "sha256": "cccd291077ec57c6f50ca6529f0f3fb93212da09473effb2fcec808e81b21288",
+      "bytes": 15540
+    },
+    {
+      "path": "C:/Users/Dom/.codex/memories/MEMORY.md",
+      "sha256": "e60884cad484e31119dc09b39ab3a812ad1e4d1aad2858f76b3685754126b73c",
+      "bytes": 162845
+    }
+  ]
+}

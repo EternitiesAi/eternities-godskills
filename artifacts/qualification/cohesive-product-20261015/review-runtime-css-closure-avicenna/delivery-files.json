@@ -1,0 +1,50 @@
+{
+  "schema": "runtime-css-closure-delivery-v1",
+  "decision": "READY",
+  "acceptedFiles": [
+    {
+      "path": "product/lib/discovery.mjs",
+      "sha256": "5078f81b1f8a4bb00436a1cc50bfaacb8307e5a852a9820ac0badc9e292f4fd4"
+    },
+    {
+      "path": "tests/cohesive-discovery-runtime-repair.test.mjs",
+      "sha256": "c2631a422675688a6b2a4d4391d8a3d425b3e8a1a9a5eda2b24c88b96dadd6a8"
+    }
+  ],
+  "acceptedFileDrift": [],
+  "finalInputDrift": [],
+  "entries": [
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-runtime-css-closure-avicenna/REVIEW.md",
+      "sha256": "800e625b1f78a3fc9379909fd9941c00e10010d613b382cc7c799cd20e37ed7f"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-runtime-css-closure-avicenna/exact-delta.json",
+      "sha256": "6b7161e99ed300e8f27cfccea081277c1abcb04efefd0996861c0e176576a238"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-runtime-css-closure-avicenna/focused-tests.tap",
+      "sha256": "d18615e7a51841b23522d5538eeac56626f5950bf6f2133cd2ba3599a5fd58e8"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-runtime-css-closure-avicenna/read-set.after.json",
+      "sha256": "aafacd049a3e3415ab1bf64d7974fd6c563be12bf4f4d7ddc0871be3fc1eed5f"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-runtime-css-closure-avicenna/read-set.before.json",
+      "sha256": "ad5d2de7f19c961c2e94d5fabba617715c54b01feae9827f4a0761eefa5af7b4"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-runtime-css-closure-avicenna/six-controls-results.json",
+      "sha256": "77bb1fa683b1503076555440a187b1d708040d35ece6410dcf6913d8c84af406"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-runtime-css-closure-avicenna/snapshot.mjs",
+      "sha256": "614bd9bd98b935d206c04fa6b8bf2f4be960c3b9455ab34fd3c5b294cc574ccc"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-runtime-css-closure-avicenna/verdict.json",
+      "sha256": "8ad5ad5d2948168aa792b017914cee93000fe9f93bda5b330db97ced797a6507"
+    }
+  ]
+}

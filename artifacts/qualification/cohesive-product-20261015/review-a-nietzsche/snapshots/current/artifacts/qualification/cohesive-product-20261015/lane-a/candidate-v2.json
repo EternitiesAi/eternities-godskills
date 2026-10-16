@@ -1,0 +1,112 @@
+{
+  "schema": "cohesive-product-lane-a-parent-candidate-v2",
+  "independentReview": "PENDING",
+  "runtimeEvaluation": "NOT-PERFORMED",
+  "files": [
+    {
+      "path": "product/skills/eternities-prometheus/skill.json",
+      "sha256": "5eb835254f0e1a5d35533d35c898e52045bfef1d55a861dbfef7b42b34af9b7e",
+      "bytes": 2375
+    },
+    {
+      "path": "product/skills/eternities-prometheus/SKILL.md",
+      "sha256": "70d043541b328a6bfebd6cd75840aaca8ed94fc22cc10165d1be444f4662fc06",
+      "bytes": 3265
+    },
+    {
+      "path": "product/skills/eternities-prometheus/references/commercial-driver-diagnosis-v1.md",
+      "sha256": "926a4a0e421b7520dc0ca2c72c5d6b080863787be68a6cbe0caa09d543d1a00b",
+      "bytes": 3263
+    },
+    {
+      "path": "product/skills/eternities-beacon/skill.json",
+      "sha256": "2b1af5f696b065ea137b63a5b8531fa82da33e7e431a43cc1080e4ba2bd1053b",
+      "bytes": 4011
+    },
+    {
+      "path": "product/skills/eternities-beacon/SKILL.md",
+      "sha256": "2a0bc349cfcc324b0512afba99afe17f238f43a4c5d38124b9b59e8665987ed5",
+      "bytes": 3954
+    },
+    {
+      "path": "product/skills/eternities-beacon/references/positioning-to-message-v1.md",
+      "sha256": "57da15f76572e5af9dde41cf4c5703d83f045cbb701b0284dfcd45d8e46c94d8",
+      "bytes": 3439
+    },
+    {
+      "path": "product/skills/eternities-muse/skill.json",
+      "sha256": "d3a3557a87e392f44c15780bd8292df92c260bc9c857603b7cf41853b433725a",
+      "bytes": 3062
+    },
+    {
+      "path": "product/skills/eternities-muse/SKILL.md",
+      "sha256": "34fccadc01b49dcb8097641a6a6153dabd119dd55ba9f31781c7bfa4c4c1ac73",
+      "bytes": 4458
+    },
+    {
+      "path": "product/skills/eternities-muse/references/art-direction-to-layout-v1.md",
+      "sha256": "893b09898d51cf5bfcca7d0efa88d239466e04a7c6a68152d4158aab5fa2a140",
+      "bytes": 3463
+    },
+    {
+      "path": "product/skills/eternities-arcadia/skill.json",
+      "sha256": "c9a6dd68a647d3701ca47f24b2444734ff1a98b131f65cb7d2210f9c1f000623",
+      "bytes": 6424
+    },
+    {
+      "path": "product/skills/eternities-arcadia/SKILL.md",
+      "sha256": "b217515c82a89239839e6dd16aa12891b92ad3d055f16ee68eaab854bde33693",
+      "bytes": 4328
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/core-loop-playtest-v1.md",
+      "sha256": "305e082e9e3d57729fe10e4ad9865b1468333e661f7530469ef17a70fc07490a",
+      "bytes": 3533
+    },
+    {
+      "path": "product/skills/eternities-orpheus/skill.json",
+      "sha256": "90c2cbe5bf906f08bde6880b18ada087e9ae3d9d52013755417b88cea395c565",
+      "bytes": 1918
+    },
+    {
+      "path": "product/skills/eternities-orpheus/SKILL.md",
+      "sha256": "30bbab3230a9ecbb81ecec877db2036b591a46b0f4497cb61d94df3585bda3be",
+      "bytes": 3323
+    },
+    {
+      "path": "product/skills/eternities-orpheus/references/supplied-audio-editorial-mix-v1.md",
+      "sha256": "d52e3ecffe5e6134cc43f2296ed4c8e48963af8f02f513b605c5a7527ac6c1d9",
+      "bytes": 3582
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/skill.json",
+      "sha256": "15f6ea6d698a0826bbcc4055f0321209c02e26fb5111b6b247be2f04a9502fac",
+      "bytes": 5126
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/SKILL.md",
+      "sha256": "a91d5ffe526e92ed72c541816d6c0310f5ab2d56b82f2c5f91960b778bbed606",
+      "bytes": 4937
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/references/practice-and-transfer-v1.md",
+      "sha256": "8625e567db5d4f68c267bd4743e555885115fabcbd253b67f768e2031826aa9f",
+      "bytes": 3408
+    },
+    {
+      "path": "product/skills/voice-style-calibration/skill.json",
+      "sha256": "2668dfee646ce1665c5a792dc64b175d61532a83ca350981aec5fefea230fb07",
+      "bytes": 2305
+    },
+    {
+      "path": "product/skills/voice-style-calibration/SKILL.md",
+      "sha256": "fb4a54b739b51d0e91df35d17e65fd684f7f43fd06575e58a3782d5040ad73c4",
+      "bytes": 4726
+    },
+    {
+      "path": "product/skills/voice-style-calibration/references/contrastive-calibration-v1.md",
+      "sha256": "dc51820a975a4f6f1c75f69c70f96f7204b864cd662faf4516a9b1a71d2b7c40",
+      "bytes": 3289
+    }
+  ]
+}

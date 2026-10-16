@@ -13,6 +13,13 @@ Record objective and observable finish condition, invariants, exact targets, exc
 
 Break work into milestones with prerequisites, deliverables, acceptance evidence, and current owners. Distinguish prepared, implemented, checked, integrated, and externally applied results where those differences affect the objective. Choose the next ready milestone; a plan or checkpoint is not completion of an authorized execution task.
 
+Keep a small work frontier: completed results, ready actions, and actions held by
+a named prerequisite. Choose ready work by how directly it advances the finish
+condition or resolves an uncertain dependency. Each active slice should leave a
+usable result or decisive observation. If a slice only produces more planning,
+reduce it to something executable; if its prerequisite is unavailable, take a
+ready independent slice instead of repeatedly checking the same blocked state.
+
 Confirm the host facilities actually available: a permitted place to retain state, tools for the scoped work, authoritative observations for consequential effects, and any already-authorized runner or wake mechanism. Name missing facilities. Without an authorized durable store, return a compact packet for the user to retain; without a runner or scheduler, work only during active execution and hand off at interruption. Do not promise a wakeup or background progress. No particular tool, model, or service is required by this procedure.
 
 ## Execute and checkpoint
@@ -23,10 +30,23 @@ For consequential effects, retain intent and operation identity before dispatch 
 
 Checkpoint at a meaningful milestone, before a fragile external effect, or at interruption/handoff. Preserve objective and invariants, current milestone and owners, source revisions, evidence locators, changes not yet verified, uncertain effects, exhausted limits, eliminated approaches, pause state, and one safe next action. Update stale decisions rather than accumulating narration. Use [the continuity packet](references/continuity-packet.md) when state must survive a handoff.
 
+Keep checkpointing proportional to state loss: a stable local task can continue
+through several edits without a packet per turn. Prefer updating one authorized
+task record with the changed result and next action. Preserve earlier evidence
+locators where a changed conclusion needs explanation. A checkpoint is useful
+when it prevents rediscovery or duplicate effects; repeated serialization of
+unchanged state should not consume the execution window.
+
 ## Reconcile before resuming
 
 1. Match packet identity to the actual task and recover current user steering, authority, pauses, and remaining resources. Open only the packet and evidence needed for the next decision; expand to history for a specific unresolved gap.
 2. Refresh live ownership, affected source revisions, branches or artifact identities, and prerequisite outputs. Identify changes since the checkpoint. Reopen checks and dependent milestones invalidated by those changes; a different revision does not inherit a prior pass. Preserve concurrent work and reconcile before integration.
+   Compare the inputs used by each pending action, not just the repository's
+   headline revision. A changed API schema invalidates its adapter checks; an
+   unrelated note does not by itself require rerunning them. Reuse earlier
+   evidence only when its relevant inputs and required environment are still
+   equivalent. If that dependency boundary is unknown, inspect it or rerun the
+   affected check before relying on the pass.
 3. Reconcile each uncertain paid or external effect by operation identity and authoritative state before retrying, cancelling, or compensating. Read [uncertain-effect recovery](references/uncertain-effect-recovery.md) for ambiguity or partial success. If evidence is unavailable, hold that action at unknown and continue independent authorized work. Absence of a notification is not permission to resend.
 4. Select the next ready action within retained authority and current limits. Resolve routine reversible choices directly. Stop the dependent action for a changed target or consequence, unresolved ownership or external state, exhausted resource limit, or a user pause; identify the exact missing fact or decision.
 

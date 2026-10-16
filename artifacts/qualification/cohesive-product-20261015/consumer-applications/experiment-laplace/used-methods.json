@@ -1,0 +1,15 @@
+{
+  "exercise": "experiment-laplace",
+  "usage": "Actual selective consumer application to a fictional supplied evaluation; no comparative experiment executed.",
+  "entrypoints": [
+    {
+      "id": "counterbalanced-agent-evaluation",
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/skills/counterbalanced-agent-evaluation/SKILL.md",
+      "sha256": "6242385832a491c290feeb636175210c839a75dcf6bd30526b5cf2f32c99fd7f",
+      "read_scope": "complete file",
+      "applied_to": ["assessment of contaminated comparison", "matched conditions and finite design", "failure and missingness handling", "paired outcome and cost analysis", "bounded adoption decision"]
+    }
+  ],
+  "references": [],
+  "selection_note": "The selected entrypoint was sufficient and linked no required reference. Shared manifests and unrelated candidate skills were not read."
+}

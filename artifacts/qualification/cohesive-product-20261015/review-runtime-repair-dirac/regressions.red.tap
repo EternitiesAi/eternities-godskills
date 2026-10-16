@@ -1,0 +1,392 @@
+TAP version 13
+# Subtest: runtime repair retains supported technical work: Hidden tab resumes with a huge simulation delta and pressed keys stay stuck
+not ok 1 - runtime repair retains supported technical work: Hidden tab resumes with a huge simulation delta and pressed keys stay stuck
+  ---
+  duration_ms: 12.6175
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\cohesive-discovery-runtime-repair.test.mjs:20:30'
+  failureType: 'testCodeFailure'
+  error: '["eternities-atlas","robotics-test-ladder","fp-ts-functional-refactoring"]'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-runtime-repair.test.mjs:22:10)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.start (node:internal/test_runner/test:1191:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17)
+  ...
+# Subtest: runtime repair retains supported technical work: When browser focus returns, the simulation advances too far and held input remains active
+not ok 2 - runtime repair retains supported technical work: When browser focus returns, the simulation advances too far and held input remains active
+  ---
+  duration_ms: 5.4236
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\cohesive-discovery-runtime-repair.test.mjs:20:30'
+  failureType: 'testCodeFailure'
+  error: '["eternities-atlas","browser-automation-state-and-verification","accessibility-audit-and-remediation"]'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-runtime-repair.test.mjs:22:10)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3)
+  ...
+# Subtest: runtime repair retains supported technical work: Repair pointer input after page visibility changes interrupt the animation
+not ok 3 - runtime repair retains supported technical work: Repair pointer input after page visibility changes interrupt the animation
+  ---
+  duration_ms: 3.763
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\cohesive-discovery-runtime-repair.test.mjs:20:30'
+  failureType: 'testCodeFailure'
+  error: '["git-change-integration-and-recovery","motion-design-and-animation-engineering","interpersonal-understanding-and-dialogue"]'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-runtime-repair.test.mjs:22:10)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: runtime repair retains supported technical work: Fix the shader and rotation handles in the exhibit's existing interactive crystal scene; the educator's prompts and all explanatory rules must stay exactly as they are.
+not ok 4 - runtime repair retains supported technical work: Fix the shader and rotation handles in the exhibit's existing interactive crystal scene; the educator's prompts and all explanatory rules must stay exactly as they are.
+  ---
+  duration_ms: 3.4625
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\cohesive-discovery-runtime-repair.test.mjs:20:30'
+  failureType: 'testCodeFailure'
+  error: '["narrative-structure-and-revision","scene-continuity-and-coverage","bounded-parametric-design-iteration"]'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-runtime-repair.test.mjs:22:10)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: runtime repair retains supported technical work: Debug the fragment shader in an interactive scene
+not ok 5 - runtime repair retains supported technical work: Debug the fragment shader in an interactive scene
+  ---
+  duration_ms: 2.75
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\cohesive-discovery-runtime-repair.test.mjs:20:30'
+  failureType: 'testCodeFailure'
+  error: '["narrative-structure-and-revision","scene-continuity-and-coverage","motion-design-and-animation-engineering"]'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-runtime-repair.test.mjs:22:10)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: runtime repair preserves exclusion: Summarize this browser tab newsletter
+ok 6 - runtime repair preserves exclusion: Summarize this browser tab newsletter
+  ---
+  duration_ms: 2.9439
+  type: 'test'
+  ...
+# Subtest: runtime repair preserves exclusion: Explain how the simulated policy changes affect retention
+ok 7 - runtime repair preserves exclusion: Explain how the simulated policy changes affect retention
+  ---
+  duration_ms: 2.8822
+  type: 'test'
+  ...
+# Subtest: runtime repair preserves exclusion: Price GPU hardware for a shader workstation
+ok 8 - runtime repair preserves exclusion: Price GPU hardware for a shader workstation
+  ---
+  duration_ms: 2.6148
+  type: 'test'
+  ...
+# Subtest: runtime repair preserves exclusion: Extract redistribution clauses from a shader license
+ok 9 - runtime repair preserves exclusion: Extract redistribution clauses from a shader license
+  ---
+  duration_ms: 2.2382
+  type: 'test'
+  ...
+# Subtest: runtime repair preserves exclusion: Do not repair the browser simulation; write only a postponement notice
+ok 10 - runtime repair preserves exclusion: Do not repair the browser simulation; write only a postponement notice
+  ---
+  duration_ms: 2.9419
+  type: 'test'
+  ...
+# Subtest: runtime repair preserves exclusion: The report quotes "Hidden tab resumes with a huge simulation delta and pressed keys stay stuck"; write a postponement notice
+ok 11 - runtime repair preserves exclusion: The report quotes "Hidden tab resumes with a huge simulation delta and pressed keys stay stuck"; write a postponement notice
+  ---
+  duration_ms: 2.9204
+  type: 'test'
+  ...
+# Subtest: a browser lifecycle topic does not manufacture independent work evidence
+not ok 12 - a browser lifecycle topic does not manufacture independent work evidence
+  ---
+  duration_ms: 0.5942
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\cohesive-discovery-runtime-repair.test.mjs:38:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    false !== true
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-runtime-repair.test.mjs:40:10)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: runtime recall respects host need, filters, and literal anti-triggers
+ok 13 - runtime recall respects host need, filters, and literal anti-triggers
+  ---
+  duration_ms: 6.5969
+  type: 'test'
+  ...
+# Subtest: current causal evidence owner precedes incidental interatomic and serving matches
+ok 14 - current causal evidence owner precedes incidental interatomic and serving matches
+  ---
+  duration_ms: 3.2194
+  type: 'test'
+  ...
+# Subtest: material-specific validation still discovers the interatomic owner
+ok 15 - material-specific validation still discovers the interatomic owner
+  ---
+  duration_ms: 2.5154
+  type: 'test'
+  ...
+# Subtest: browser lifecycle discovery reaches the game owner: Fix canvas resize pointer coordinates and duplicate animation loops
+ok 16 - browser lifecycle discovery reaches the game owner: Fix canvas resize pointer coordinates and duplicate animation loops
+  ---
+  duration_ms: 15.827
+  type: 'test'
+  ...
+# Subtest: browser lifecycle discovery reaches the game owner: Hidden tab resumes with a huge simulation delta and pressed keys stay stuck
+not ok 17 - browser lifecycle discovery reaches the game owner: Hidden tab resumes with a huge simulation delta and pressed keys stay stuck
+  ---
+  duration_ms: 6.3788
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\universal-wave7-discovery.test.mjs:9:3'
+  failureType: 'testCodeFailure'
+  error: '["eternities-atlas","robotics-test-ladder","fp-ts-functional-refactoring"]'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/universal-wave7-discovery.test.mjs:12:10)
+    async Test.run (node:internal/test_runner/test:1332:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: wave7 conditional reference is discoverable: eternities-chorus
+ok 18 - wave7 conditional reference is discoverable: eternities-chorus
+  ---
+  duration_ms: 9.2076
+  type: 'test'
+  ...
+# Subtest: wave7 conditional reference is discoverable: eternities-agora
+ok 19 - wave7 conditional reference is discoverable: eternities-agora
+  ---
+  duration_ms: 8.081
+  type: 'test'
+  ...
+# Subtest: a request-level serving trace stays discoverable in direct and paraphrased forms
+ok 20 - a request-level serving trace stays discoverable in direct and paraphrased forms
+  ---
+  duration_ms: 20.0503
+  type: 'test'
+  ...
+# Subtest: Atlas metadata does not displace delivery, offline-validation, schema, causal, or prospect routes
+not ok 21 - Atlas metadata does not displace delivery, offline-validation, schema, causal, or prospect routes
+  ---
+  duration_ms: 19.9585
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\wave29-atlas-serving-time-ranking-trace-v2.test.mjs:26:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Judge whether a measured home-feed retention lift supports a causal claim; inspect randomization, exposure, confounders, uncertainty, and guardrails, not one serving request.
+    + actual - expected
+    
+    + 'diagnostic-statistical-model-inference'
+    - 'interatomic-model-validation'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 'interatomic-model-validation'
+  actual: 'diagnostic-statistical-model-inference'
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/wave29-atlas-serving-time-ranking-trace-v2.test.mjs:65:12)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3)
+  ...
+# Subtest: the v2 lexical repair adds no owner-specific anti-trigger exceptions
+ok 22 - the v2 lexical repair adds no owner-specific anti-trigger exceptions
+  ---
+  duration_ms: 2.8988
+  type: 'test'
+  ...
+# Subtest: serving-time trace keeps its historical-version paraphrase discoverable
+ok 23 - serving-time trace keeps its historical-version paraphrase discoverable
+  ---
+  duration_ms: 11.6756
+  type: 'test'
+  ...
+# Subtest: notification delivery reconciliation remains with Daedalus
+ok 24 - notification delivery reconciliation remains with Daedalus
+  ---
+  duration_ms: 4.9099
+  type: 'test'
+  ...
+# Subtest: offline recommendation model generalization remains with the scientific validator
+ok 25 - offline recommendation model generalization remains with the scientific validator
+  ---
+  duration_ms: 3.0625
+  type: 'test'
+  ...
+# Subtest: an offline grouped holdout without a serving trace does not promote Atlas
+ok 26 - an offline grouped holdout without a serving trace does not promote Atlas
+  ---
+  duration_ms: 3.9166
+  type: 'test'
+  ...
+# Subtest: the prospect paraphrase does not promote Atlas over the existing route
+ok 27 - the prospect paraphrase does not promote Atlas over the existing route
+  ---
+  duration_ms: 3.4072
+  type: 'test'
+  ...
+# Subtest: the current prospect-assessment wording routes to Agora
+ok 28 - the current prospect-assessment wording routes to Agora
+  ---
+  duration_ms: 3.3004
+  type: 'test'
+  ...
+# Subtest: schema-only validation remains with structured-output-contracts
+ok 29 - schema-only validation remains with structured-output-contracts
+  ---
+  duration_ms: 3.0552
+  type: 'test'
+  ...
+# Subtest: aggregate causal appraisal does not promote Atlas over the evidence owners
+not ok 30 - aggregate causal appraisal does not promote Atlas over the evidence owners
+  ---
+  duration_ms: 3.7989
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\wave29-atlas-serving-time-ranking-trace-v3.test.mjs:83:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Judge whether a measured home-feed retention lift supports a causal claim; inspect randomization, exposure, confounders, uncertainty, and guardrails, not one serving request.
+    + actual - expected
+    
+    + 'diagnostic-statistical-model-inference'
+    - 'interatomic-model-validation'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 'interatomic-model-validation'
+  actual: 'diagnostic-statistical-model-inference'
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/wave29-atlas-serving-time-ranking-trace-v3.test.mjs:90:10)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: aggregate feed analytics remains an Atlas parent route
+ok 31 - aggregate feed analytics remains an Atlas parent route
+  ---
+  duration_ms: 3.7798
+  type: 'test'
+  ...
+# Subtest: aggregate precommitted experiment design remains an Atlas parent route
+ok 32 - aggregate precommitted experiment design remains an Atlas parent route
+  ---
+  duration_ms: 3.2227
+  type: 'test'
+  ...
+# Subtest: search reranking remains with retrieval-grounded answering
+ok 33 - search reranking remains with retrieval-grounded answering
+  ---
+  duration_ms: 2.8474
+  type: 'test'
+  ...
+# Subtest: external app-store placement remains with its discovery owner
+ok 34 - external app-store placement remains with its discovery owner
+  ---
+  duration_ms: 3.0794
+  type: 'test'
+  ...
+# Subtest: physics-constrained numerical validation remains with its specialist
+ok 35 - physics-constrained numerical validation remains with its specialist
+  ---
+  duration_ms: 3.2225
+  type: 'test'
+  ...
+# Subtest: private-log lookup remains approval-bound with no authority or activation
+ok 36 - private-log lookup remains approval-bound with no authority or activation
+  ---
+  duration_ms: 6.0363
+  type: 'test'
+  ...
+# Subtest: Athena retains the direct causal-appraisal route
+ok 37 - Athena retains the direct causal-appraisal route
+  ---
+  duration_ms: 2.1829
+  type: 'test'
+  ...
+# Subtest: the Atlas search summary exposes the method DRAFT without changing parent maturity
+ok 38 - the Atlas search summary exposes the method DRAFT without changing parent maturity
+  ---
+  duration_ms: 3.064
+  type: 'test'
+  ...
+1..38
+# tests 38
+# suites 0
+# pass 29
+# fail 9
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 151.2992

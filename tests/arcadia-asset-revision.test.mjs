@@ -1,7 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
-import {projectBeforeArcadiaAssetRevision} from './helpers/arcadia-asset-revision.mjs';
+import {projectBeforeArcadiaAssetRevision as projectAssetRevision} from './helpers/arcadia-asset-revision.mjs';
+import {projectBeforeCohesiveProduct20261015} from './helpers/nietzsche-historical-compatibility.mjs';
+const projectBeforeArcadiaAssetRevision=(skill,before)=>projectAssetRevision(projectBeforeCohesiveProduct20261015(skill),before);
 const load=async p=>JSON.parse(await readFile(new URL(p,import.meta.url),'utf8'));
 const before=(await load('./fixtures/catalog-before-next-eight-20261004.json')).skills.find(x=>x.id==='eternities-arcadia');
 const current=(await load('../product/catalog.json')).skills.find(x=>x.id===before.id);
@@ -18,7 +20,7 @@ for(const [name,change] of [
   ['unlisted resource',x=>x.resources.push({path:'skills/eternities-arcadia/extra.md',sha256:'0'.repeat(64)})],
 ])test(`historical projection refuses ${name}`,()=>{
   const changed=structuredClone(current);change(changed);
-  assert.throws(()=>projectBeforeArcadiaAssetRevision(changed,before),/Only the declared Arcadia/);
+  assert.throws(()=>projectBeforeArcadiaAssetRevision(changed,before),/Only the declared (?:Arcadia|cohesive)/);
 });
 test('projection does not conceal unrelated owner fields',()=>{
   const changed={...current,antiTriggers:[]};

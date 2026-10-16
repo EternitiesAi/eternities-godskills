@@ -11,7 +11,7 @@ Orpheus keeps audio and media work legible from source to handoff. It can classi
 
 - **Intent and provenance** records retrieval, composition, generation, metadata, rights, consent, review state, and the requested artifact.
 - **Transcription and alignment** preserves language, timing, supplied speaker labels, uncertainty, diarization limits, caption needs, and indexing handoff.
-- **Timeline rendering** assembles approved audio, narration, beats, captions, and visual references with duration, offset, format, and acceptance checks.
+- **Timeline rendering** assembles approved audio, narration, beats, captions, and visual references with duration, offset, format, and acceptance checks. For supplied speech/music whose pacing or audibility needs work, use [editorial audio and mix](references/supplied-audio-editorial-mix-v1.md), preserving meaning through cuts and comparing the actual listening result.
 - **Deferred specialist boundary** isolates synthesis, voice conversion, realtime capture, music generation, authenticity, hidden-payload, biometric, identity-signal, and other operations that need separate rights, consent, provider, or specialist evidence.
 
 ## Working method

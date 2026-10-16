@@ -34,3 +34,7 @@ Finish when the estimand, data limitations, diagnostics, sensitivity, uncertaint
 - Reporting a single p-value while ignoring influence or missingness.
 - Treating a prediction benchmark as evidence of transport to a new population.
 - Hiding an unstable conclusion behind a rounded average across models.
+
+## Conditional method
+
+When the question is a treatment effect rather than prediction or association, use [causal design before estimation](references/causal-design-before-estimation-v1.md) to compare assignment-based designs and preserve the target population through analysis. It is not an estimator implementation or a causal guarantee.

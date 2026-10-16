@@ -1,0 +1,18 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.16.0
+2 info using node@v24.18.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\dev\eternities-godskills\.worktrees\quality-qualification-20261003\artifacts\qualification\cohesive-product-20261015\review-a-v3-nietzsche\runner-sandboxes\broad\.npmrc
+5 silly config load:file:C:\Users\Dom\.npmrc
+6 silly config load:file:C:\Users\Dom\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm test
+8 verbose argv "test"
+9 verbose logfile logs-max:10 dir:C:\dev\eternities-godskills\.worktrees\quality-qualification-20261003\artifacts\qualification\cohesive-product-20261015\review-a-v3-nietzsche\npm-cache\_logs\2026-10-16T05_31_10_944Z-
+10 verbose logfile C:\dev\eternities-godskills\.worktrees\quality-qualification-20261003\artifacts\qualification\cohesive-product-20261015\review-a-v3-nietzsche\npm-cache\_logs\2026-10-16T05_31_10_944Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose cwd C:\dev\eternities-godskills\.worktrees\quality-qualification-20261003\artifacts\qualification\cohesive-product-20261015\review-a-v3-nietzsche\runner-sandboxes\broad
+13 verbose os Windows_NT 10.0.26300
+14 verbose node v24.18.0
+15 verbose npm  v11.16.0
+16 verbose exit 1
+17 verbose code 1

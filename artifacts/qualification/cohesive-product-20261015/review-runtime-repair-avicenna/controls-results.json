@@ -1,0 +1,546 @@
+{
+  "schema": "runtime-repair-avicenna-controls-results-v1",
+  "node": "v24.18.0",
+  "sources": [
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-runtime-repair-avicenna/controls.mjs",
+      "sha256": "b1c59723d7d4540bc16b054ac4aa1cda93cd6eaaed1ac04fb8be45373f628656"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-runtime-repair-avicenna/fresh-controls.json",
+      "sha256": "cf5ca0f84f0e0dc6cbcf77dbf30cec0f9350c98d749cee5efa19251a3d6b71b4"
+    },
+    {
+      "path": "product/catalog.json",
+      "sha256": "adfa5cfed9ac1c6a3ca8db26522e322aa5106ca031884a4de1d8a61dc1a41b36"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-runtime-repair-dirac/code.before.json",
+      "sha256": "b3e62f09d4d105f07fb2e55dd0a8c874ee58992412d13e661d397355a27268e7"
+    },
+    {
+      "path": "product/lib/discovery.mjs",
+      "sha256": "ce74e5a9eafac393e8d39230f2d657847beac54a62574dea9df4303f7c0d4926"
+    },
+    {
+      "path": "product/lib/request-scope.mjs",
+      "sha256": "e9055f1bfa2a913c1f73e93f5fa652588963e63dd9094e46713786fe400877f2"
+    },
+    {
+      "path": "product/lib/selection-boundary.mjs",
+      "sha256": "a7b0ed0d0c9805e9a2b97a74c0321ce263c15609e98996144df90fc1b7f0e60e"
+    },
+    {
+      "path": "product/lib/product.mjs",
+      "sha256": "afd5689a4120420478995bee762e67cc7ce640f9ce633ae6c6a4f497efcff9bf"
+    },
+    {
+      "path": "product/lib/method-directory.mjs",
+      "sha256": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180"
+    },
+    {
+      "path": "product/lib/skill-frontmatter.mjs",
+      "sha256": "66bfc5b6b56688d2996689f774b5b904ce517a3fda1ec35d4d567cbd63e3a96d"
+    }
+  ],
+  "changedDuringRun": [],
+  "noNeedFailures": [],
+  "exactIdFailures": [],
+  "results": [
+    {
+      "id": "F01",
+      "query": "Repair the frame loop after browser focus returns so its animation does not jump forward.",
+      "expect": "include",
+      "owner": "eternities-arcadia",
+      "querySha256": "014d624045c38a7317da3bcd923f9b9b776e5cb0305ef00245ceaa51348f21bc",
+      "before": {
+        "top5": [
+          {
+            "id": "motion-design-and-animation-engineering",
+            "score": 60.442,
+            "reasons": [
+              "Matched: animation, focus"
+            ]
+          },
+          {
+            "id": "accessibility-audit-and-remediation",
+            "score": 56.162,
+            "reasons": [
+              "Matched: focus, repair"
+            ]
+          },
+          {
+            "id": "browser-automation-state-and-verification",
+            "score": 44.638,
+            "reasons": [
+              "Matched: browser"
+            ]
+          },
+          {
+            "id": "interpersonal-understanding-and-dialogue",
+            "score": 32.178,
+            "reasons": [
+              "Matched: after, repair"
+            ]
+          },
+          {
+            "id": "eternities-hermes",
+            "score": 31.884,
+            "reasons": [
+              "Matched: browser"
+            ]
+          }
+        ],
+        "ownerRank": null,
+        "expectedMet": false,
+        "authority": "none",
+        "activation": "none"
+      },
+      "after": {
+        "top5": [
+          {
+            "id": "eternities-arcadia",
+            "score": 84.081,
+            "reasons": [
+              "Matched: after, animation, browser, focus",
+              "Lexical intent: game or real-time 3D runtime scope; cues: game or technical 3D context, independent work action or reported fault"
+            ]
+          },
+          {
+            "id": "motion-design-and-animation-engineering",
+            "score": 60.442,
+            "reasons": [
+              "Matched: animation, focus"
+            ]
+          },
+          {
+            "id": "accessibility-audit-and-remediation",
+            "score": 56.162,
+            "reasons": [
+              "Matched: focus, repair"
+            ]
+          },
+          {
+            "id": "browser-automation-state-and-verification",
+            "score": 44.638,
+            "reasons": [
+              "Matched: browser"
+            ]
+          },
+          {
+            "id": "interpersonal-understanding-and-dialogue",
+            "score": 32.178,
+            "reasons": [
+              "Matched: after, repair"
+            ]
+          }
+        ],
+        "ownerRank": 1,
+        "expectedMet": true,
+        "authority": "none",
+        "activation": "none"
+      },
+      "runtimeEvidence": {
+        "score": 0,
+        "prioritizeRequestedActivity": false,
+        "reasons": [
+          "Lexical intent: game or real-time 3D runtime scope; cues: game or technical 3D context, independent work action or reported fault"
+        ],
+        "eligible": true
+      }
+    },
+    {
+      "id": "F02",
+      "query": "Fix the fragment shader normals in the interactive crystal exhibit.",
+      "expect": "include",
+      "owner": "eternities-arcadia",
+      "querySha256": "df19d5e60165a28845451624f4cc26dfc45b0e7adb6115e66ad1f2bcc1228fee",
+      "before": {
+        "top5": [
+          {
+            "id": "motion-design-and-animation-engineering",
+            "score": 31.884,
+            "reasons": [
+              "Matched: interactive"
+            ]
+          },
+          {
+            "id": "narrative-structure-and-revision",
+            "score": 31.884,
+            "reasons": [
+              "Matched: interactive"
+            ]
+          }
+        ],
+        "ownerRank": null,
+        "expectedMet": false,
+        "authority": "none",
+        "activation": "none"
+      },
+      "after": {
+        "top5": [
+          {
+            "id": "eternities-arcadia",
+            "score": 49.344,
+            "reasons": [
+              "Matched: interactive, shader",
+              "Lexical intent: game or real-time 3D runtime scope; cues: game or technical 3D context, independent work action or reported fault"
+            ]
+          },
+          {
+            "id": "motion-design-and-animation-engineering",
+            "score": 31.884,
+            "reasons": [
+              "Matched: interactive"
+            ]
+          },
+          {
+            "id": "narrative-structure-and-revision",
+            "score": 31.884,
+            "reasons": [
+              "Matched: interactive"
+            ]
+          }
+        ],
+        "ownerRank": 1,
+        "expectedMet": true,
+        "authority": "none",
+        "activation": "none"
+      },
+      "runtimeEvidence": {
+        "score": 0,
+        "prioritizeRequestedActivity": false,
+        "reasons": [
+          "Lexical intent: game or real-time 3D runtime scope; cues: game or technical 3D context, independent work action or reported fault"
+        ],
+        "eligible": true
+      }
+    },
+    {
+      "id": "F03",
+      "query": "Repair keyboard focus on a sign-up page with a CSS animation.",
+      "expect": "exclude",
+      "owner": "eternities-arcadia",
+      "querySha256": "d2d9f4885b616576037f21d32292d1b4d96cb19cae351c0cf76e128c84e283f9",
+      "before": {
+        "top5": [
+          {
+            "id": "accessibility-audit-and-remediation",
+            "score": 88.046,
+            "reasons": [
+              "Matched: focus, keyboard, repair"
+            ]
+          },
+          {
+            "id": "motion-design-and-animation-engineering",
+            "score": 82.761,
+            "reasons": [
+              "Matched: animation, focus, keyboard"
+            ]
+          },
+          {
+            "id": "geospatial-coordinate-integrity",
+            "score": 27.025,
+            "reasons": [
+              "Matched: up"
+            ]
+          },
+          {
+            "id": "docx-package-redline-and-render-verification",
+            "score": 24.26,
+            "reasons": [
+              "Matched: page"
+            ]
+          },
+          {
+            "id": "eternities-beacon",
+            "score": 24.26,
+            "reasons": [
+              "Matched: page"
+            ]
+          }
+        ],
+        "ownerRank": null,
+        "expectedMet": true,
+        "authority": "none",
+        "activation": "none"
+      },
+      "after": {
+        "top5": [
+          {
+            "id": "accessibility-audit-and-remediation",
+            "score": 88.046,
+            "reasons": [
+              "Matched: focus, keyboard, repair"
+            ]
+          },
+          {
+            "id": "motion-design-and-animation-engineering",
+            "score": 82.761,
+            "reasons": [
+              "Matched: animation, focus, keyboard"
+            ]
+          },
+          {
+            "id": "eternities-arcadia",
+            "score": 46.579,
+            "reasons": [
+              "Matched: animation, focus",
+              "Lexical intent: game or real-time 3D runtime scope; cues: game or technical 3D context, independent work action or reported fault"
+            ]
+          },
+          {
+            "id": "geospatial-coordinate-integrity",
+            "score": 27.025,
+            "reasons": [
+              "Matched: up"
+            ]
+          },
+          {
+            "id": "docx-package-redline-and-render-verification",
+            "score": 24.26,
+            "reasons": [
+              "Matched: page"
+            ]
+          }
+        ],
+        "ownerRank": 3,
+        "expectedMet": false,
+        "authority": "none",
+        "activation": "none"
+      },
+      "runtimeEvidence": {
+        "score": 0,
+        "prioritizeRequestedActivity": false,
+        "reasons": [
+          "Lexical intent: game or real-time 3D runtime scope; cues: game or technical 3D context, independent work action or reported fault"
+        ],
+        "eligible": true
+      }
+    },
+    {
+      "id": "F04",
+      "query": "Compare prices for shader animation tooling for browser tabs.",
+      "expect": "exclude",
+      "owner": "eternities-arcadia",
+      "querySha256": "4bf57fd379c5e9a677750d392ae954365f7cfc806174e801a7f609e0dbbfbf2e",
+      "before": {
+        "top5": [
+          {
+            "id": "browser-automation-state-and-verification",
+            "score": 44.638,
+            "reasons": [
+              "Matched: browser"
+            ]
+          },
+          {
+            "id": "motion-design-and-animation-engineering",
+            "score": 38.123,
+            "reasons": [
+              "Matched: animation"
+            ]
+          },
+          {
+            "id": "eternities-hermes",
+            "score": 31.884,
+            "reasons": [
+              "Matched: browser"
+            ]
+          },
+          {
+            "id": "counterbalanced-agent-evaluation",
+            "score": 20.338,
+            "reasons": [
+              "Matched: compare"
+            ]
+          },
+          {
+            "id": "agricultural-observation-and-trial",
+            "score": 14.236,
+            "reasons": [
+              "Matched: compare"
+            ]
+          }
+        ],
+        "ownerRank": null,
+        "expectedMet": true,
+        "authority": "none",
+        "activation": "none"
+      },
+      "after": {
+        "top5": [
+          {
+            "id": "browser-automation-state-and-verification",
+            "score": 44.638,
+            "reasons": [
+              "Matched: browser"
+            ]
+          },
+          {
+            "id": "motion-design-and-animation-engineering",
+            "score": 38.123,
+            "reasons": [
+              "Matched: animation"
+            ]
+          },
+          {
+            "id": "eternities-hermes",
+            "score": 31.884,
+            "reasons": [
+              "Matched: browser"
+            ]
+          },
+          {
+            "id": "counterbalanced-agent-evaluation",
+            "score": 20.338,
+            "reasons": [
+              "Matched: compare"
+            ]
+          },
+          {
+            "id": "agricultural-observation-and-trial",
+            "score": 14.236,
+            "reasons": [
+              "Matched: compare"
+            ]
+          }
+        ],
+        "ownerRank": null,
+        "expectedMet": true,
+        "authority": "none",
+        "activation": "none"
+      },
+      "runtimeEvidence": {
+        "score": 0,
+        "prioritizeRequestedActivity": false,
+        "reasons": [],
+        "eligible": false
+      }
+    },
+    {
+      "id": "F05",
+      "query": "The note says \"repair the browser simulation and frame loop\"; lowercase the literal text PANEL. Give only the text.",
+      "expect": "empty",
+      "querySha256": "1280b41358856b06dc4c91afd03964313ba3b49322af28a9b90c22a004986488",
+      "before": {
+        "top5": [],
+        "ownerRank": null,
+        "expectedMet": true,
+        "authority": "none",
+        "activation": "none"
+      },
+      "after": {
+        "top5": [],
+        "ownerRank": null,
+        "expectedMet": true,
+        "authority": "none",
+        "activation": "none"
+      },
+      "runtimeEvidence": {
+        "score": 0,
+        "prioritizeRequestedActivity": false,
+        "reasons": [],
+        "eligible": false
+      }
+    },
+    {
+      "id": "F06",
+      "query": "Validate energy and force errors for a learned interatomic potential across material phases.",
+      "expect": "first",
+      "owner": "interatomic-model-validation",
+      "querySha256": "ac70fede90d633995a3f32c6882ba2a7eb99b3a79bf788f8ce48d7a013042c23",
+      "before": {
+        "top5": [
+          {
+            "id": "interatomic-model-validation",
+            "score": 239.518,
+            "reasons": [
+              "Matched: energy, errors, force, interatomic, learned, material, potential"
+            ]
+          },
+          {
+            "id": "scientific-surrogate-validation",
+            "score": 43.187,
+            "reasons": [
+              "Matched: across, validate"
+            ]
+          },
+          {
+            "id": "completeness-and-consistency-audit",
+            "score": 22.997,
+            "reasons": [
+              "Matched: across, material"
+            ]
+          },
+          {
+            "id": "semantic-implementation-diff",
+            "score": 22.319,
+            "reasons": [
+              "Matched: errors"
+            ]
+          },
+          {
+            "id": "long-horizon-work-continuity",
+            "score": 19.188,
+            "reasons": [
+              "Matched: across"
+            ]
+          }
+        ],
+        "ownerRank": 1,
+        "expectedMet": true,
+        "authority": "none",
+        "activation": "none"
+      },
+      "after": {
+        "top5": [
+          {
+            "id": "interatomic-model-validation",
+            "score": 239.518,
+            "reasons": [
+              "Matched: energy, errors, force, interatomic, learned, material, potential"
+            ]
+          },
+          {
+            "id": "scientific-surrogate-validation",
+            "score": 43.187,
+            "reasons": [
+              "Matched: across, validate"
+            ]
+          },
+          {
+            "id": "completeness-and-consistency-audit",
+            "score": 22.997,
+            "reasons": [
+              "Matched: across, material"
+            ]
+          },
+          {
+            "id": "semantic-implementation-diff",
+            "score": 22.319,
+            "reasons": [
+              "Matched: errors"
+            ]
+          },
+          {
+            "id": "long-horizon-work-continuity",
+            "score": 19.188,
+            "reasons": [
+              "Matched: across"
+            ]
+          }
+        ],
+        "ownerRank": 1,
+        "expectedMet": true,
+        "authority": "none",
+        "activation": "none"
+      },
+      "runtimeEvidence": {
+        "score": 0,
+        "prioritizeRequestedActivity": false,
+        "reasons": [],
+        "eligible": false
+      }
+    }
+  ]
+}

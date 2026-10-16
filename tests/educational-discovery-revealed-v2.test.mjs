@@ -6,6 +6,7 @@ import {lexicalQueryEvidence,lexicalIntentMatch} from '../product/lib/discovery.
 import {searchCatalog} from '../product/lib/product.mjs';
 import {projectBeforeAtlasSuppliedDataRevision} from './helpers/atlas-discovery-revision.mjs';
 import {projectBeforeArcadiaAssetRevision} from './helpers/arcadia-asset-revision.mjs';
+import {projectBeforeCohesiveProduct20261015,projectDiscoveryV4ToHistoricalV3,expectedEducationalLiteralAfterRuntimeAdmissionV4} from './helpers/nietzsche-historical-compatibility.mjs';
 const fixture=JSON.parse(await readFile(new URL('./fixtures/educational-discovery-revealed-v2.json',import.meta.url),'utf8'));
 const followup=JSON.parse(await readFile(new URL('./fixtures/educational-discovery-revealed-v4.json',import.meta.url),'utf8'));
 const catalog=JSON.parse(await readFile(new URL('../product/catalog.json',import.meta.url),'utf8'));
@@ -18,7 +19,7 @@ const historicalCatalog=JSON.parse(historicalBytes);
 test('the literal educational projection keeps its exact prior catalog input',()=>{
  assert.equal(createHash('sha256').update(historicalBytes).digest('hex'),'bf90582e8a23a3d50a6997cfba5f97d022f4619024f8459e364423f269e10eca');
  assert.equal(historicalCatalog.skills.length,77);
- for(const before of historicalCatalog.skills)assert.deepEqual(projectBeforeArcadiaAssetRevision(projectBeforeAtlasSuppliedDataRevision(catalog.skills.find(x=>x.id===before.id),before),before),before,'Existing77 catalog records changed outside the declared Atlas and Arcadia revisions');
+ for(const before of historicalCatalog.skills)assert.deepEqual(projectBeforeArcadiaAssetRevision(projectBeforeAtlasSuppliedDataRevision(projectBeforeCohesiveProduct20261015(catalog.skills.find(x=>x.id===before.id)),before),before),before,'Existing77 catalog records changed outside the named cohesive, Atlas and Arcadia revisions');
 });
 const ownerId='evidence-linked-learning-design';
 const owner=catalog.skills.find(x=>x.id===ownerId);
@@ -42,6 +43,7 @@ for(const c of [...fixture.cases,...followup.cases])test(`disclosed teaching reg
   }else if(desired==='NO_NEW_INTENT')assert.ok(!recognized,'Non-teaching request acquired new teaching intent');
   else assert.equal(desired,'UNCERTAIN','Unknown literal fixture obligation');
   const result=searchCatalog(catalog,c.query,c.options);
+  assert.equal(result.method,'offline-lexical-intent-phrases-v4','Current runtime version is checked separately from historical envelope compatibility');
   const found=result.results.find(x=>x.id===ownerId);
   const obligation=c.gold.returned.obligation;
   if(obligation==='OWNER_FIRST_WITH_ACTUAL_INTENT_REASON'){
@@ -58,6 +60,6 @@ for(const c of [...fixture.cases,...followup.cases])test(`disclosed teaching reg
     assert.equal(desired,'UNCERTAIN');
     if(recognized&&found)assert.ok(found.reasons.some(x=>x.startsWith(marker)));
   }
-  if(c.baseline)assert.deepEqual(projection(searchCatalog(historicalCatalog,c.query,c.options)),c.baseline,'Literal old negative/excluded/abstained projection changed on its frozen input');
+  if(c.baseline)assert.deepEqual(projection(projectDiscoveryV4ToHistoricalV3(searchCatalog(historicalCatalog,c.query,c.options))),expectedEducationalLiteralAfterRuntimeAdmissionV4(c.id,c.baseline),'Literal fields changed beyond the named v4-to-v3 envelope and pinned E2-N03 renderer explanation');
   assert.equal(result.authority,'none');assert.equal(result.activation,'none');
 });

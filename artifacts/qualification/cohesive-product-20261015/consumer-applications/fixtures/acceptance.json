@@ -1,0 +1,15 @@
+{
+  "status": "frozen-before-consumer-execution",
+  "scope": "Three fixed synthetic consumer tasks, not universal performance qualification",
+  "company-week": {
+    "closingCash": [28000,18000,6000,14000],
+    "reserveGap": [0,0,9000,1000],
+    "criteria": ["unsigned sale excluded from base", "cash and reserve not double counted", "campaign and annual renewal worsen base", "bridge is less commitment but not automatically affordable", "export readiness unknown preserved", "routine decision delegation remains within existing authority", "no refunds executed"]
+  },
+  "recovery-handoff": {
+    "criteria": ["production always reject-scope", "pause starts no work", "unknown requires lookup on resume", "running waits", "absent permits single staging submit only after resume", "success plus failed smoke not complete", "success plus passed smoke complete", "no I/O in reducer", "exact operation identity retained", "running smoke not duplicated", "unrelated experiment preserved", "unit tests not deployment evidence"]
+  },
+  "experiment-selection": {
+    "criteria": ["confounds identified without invented corrected rate", "cache savings unknown", "total input count not billed cost", "test success separate from effectiveness", "matched model and task conditions", "failure and timeout treatment fixed prospectively", "independent blinded scoring", "useful finite adoption decision", "proposed study not reported as executed"]
+  }
+}

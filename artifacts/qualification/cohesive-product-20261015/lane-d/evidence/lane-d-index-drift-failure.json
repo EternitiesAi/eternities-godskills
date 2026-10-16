@@ -1,0 +1,10 @@
+{
+  "command": "node artifacts/qualification/cohesive-product-20261015/lane-d/lane-d-evidence.mjs",
+  "initialExitCode": 1,
+  "error": "Warehouse index drifted; retain hold instead of silently refreshing",
+  "frozenIndexSha256": "7f8d58e9d3a8c606a74ae12026c9e1cfe732d2ca02904e825513bf7eb4ca3880",
+  "frozenIndexRecords": 2609,
+  "firstObservedChangedIndexSha256": "24191bef1f568920ebfdb4d536a6512314d2f919f01615b63b45223efbb08dbe",
+  "firstObservedChangedIndexRecords": 2610,
+  "resolution": "Preserve original discovery and cohort; add a separate current identity reconciliation including numeric repository IDs. No warehouse index edit. Publication remains parent-owned with a fresh current-index gate."
+}

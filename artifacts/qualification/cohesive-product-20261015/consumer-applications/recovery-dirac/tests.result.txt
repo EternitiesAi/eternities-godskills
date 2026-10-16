@@ -1,0 +1,59 @@
+TAP version 13
+# Subtest: the supplied paused handoff permits observation only
+ok 1 - the supplied paused handoff permits observation only
+  ---
+  duration_ms: 0.621
+  type: 'test'
+  ...
+# Subtest: resume reconciles the dispatched operation instead of obeying the stale retry note
+ok 2 - resume reconciles the dispatched operation instead of obeying the stale retry note
+  ---
+  duration_ms: 0.0902
+  type: 'test'
+  ...
+# Subtest: the old unit-test success never establishes deployed R2
+ok 3 - the old unit-test success never establishes deployed R2
+  ---
+  duration_ms: 0.5243
+  type: 'test'
+  ...
+# Subtest: all 80 valid combinations preserve scope, pause and reconciliation precedence
+ok 4 - all 80 valid combinations preserve scope, pause and reconciliation precedence
+  ---
+  duration_ms: 0.2661
+  type: 'test'
+  ...
+# Subtest: completion has both staging deployment and staging smoke evidence
+ok 5 - completion has both staging deployment and staging smoke evidence
+  ---
+  duration_ms: 0.0849
+  type: 'test'
+  ...
+# Subtest: a known failure requests a repair decision rather than launching a blind repeat
+ok 6 - a known failure requests a repair decision rather than launching a blind repeat
+  ---
+  duration_ms: 0.05
+  type: 'test'
+  ...
+# Subtest: repeat decisions are pure intent and leave supplied state untouched
+ok 7 - repeat decisions are pure intent and leave supplied state untouched
+  ---
+  duration_ms: 0.4266
+  type: 'test'
+  ...
+# Subtest: malformed state cannot silently turn into completion or submission
+ok 8 - malformed state cannot silently turn into completion or submission
+  ---
+  duration_ms: 0.2473
+  type: 'test'
+  ...
+1..8
+# tests 8
+# suites 0
+# pass 8
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 56.4752
+{"state":{"paused":true,"deployment":"unknown","smoke":"running","authorizedEnvironment":"staging"},"action":"observe-only"}

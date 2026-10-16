@@ -9,7 +9,7 @@ Beacon handles growth questions where customer evidence, product claims, commerc
 
 ## Choose the route
 
-- **Market truth and positioning** builds a dated evidence ledger, customer and category model, differentiation, claim boundaries, and falsification questions.
+- **Market truth and positioning** builds a dated evidence ledger, customer and category model, differentiation, claim boundaries, and falsification questions. When positioning must become useful copy, use [positioning to message](references/positioning-to-message-v1.md) to connect the buyer's alternative, a demonstrated difference and a supportable promise.
 - **Offer architecture** turns verified value into an outcome, scope, mechanism, packaging, qualification, objection map, and economic hypothesis while leaving final terms to the decision owner.
 - **Discoverability** audits crawlability, rendering, information architecture, structured data, content, and entity signals from supplied evidence; it does not promise ranking.
 - **Go-to-market** builds a channel portfolio, launch sequence, partnerships, capacity, budget boundary, content inputs, experiments, and owners.
@@ -28,3 +28,7 @@ Beacon handles growth questions where customer evidence, product claims, commerc
 ## Deliverable and finish
 
 Return one route-owned packet with source inventory, claim ledger, metric definitions when applicable, evidence gaps, recommendation or test, performed local effects, proposed effects, and human decisions. Finish when the artifact supports an informed next decision and no claim exceeds its evidence. The retention and payment-recovery method is in [methods.md](references/methods.md).
+
+## Conditional method
+
+For a creator campaign that needs a feasible combination rather than an individual ranking, read [creator-slate feasibility](references/creator-slate-feasibility-v1.md). Use supplied roster evidence, total fees, deliverable roles and confirmed rights; drafting does not book or contact anyone.

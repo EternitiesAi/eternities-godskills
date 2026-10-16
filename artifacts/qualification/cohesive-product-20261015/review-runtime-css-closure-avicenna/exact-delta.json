@@ -1,0 +1,20 @@
+{
+  "schema": "runtime-css-closure-exact-delta-v1",
+  "discovery": {
+    "beforeHash": "ce74e5a9eafac393e8d39230f2d657847beac54a62574dea9df4303f7c0d4926",
+    "afterHash": "5078f81b1f8a4bb00436a1cc50bfaacb8307e5a852a9820ac0badc9e292f4fd4",
+    "start": 92,
+    "before": "// Require both a browser/lifecycle context and a running simulation, animation\n// or frame loop; ordinary page input/focus is not sufficient runtime context.\nconst runtimeDomain={test:text=>\n  /\\b(?:games?|gameplay|playable|players?|three js|threejs|unity|unreal|webgl|gltf|fbx|spatial interaction|runtime scene)\\b/.test(text)||\n  (/\\b(?:browser|tabs?|page|document|visibility|focus|blur)\\b/.test(text)&&\n   /\\b(?:simulation|animation|(?:render|frame) loops?)\\b/.test(text))};",
+    "after": "// Require both a browser/lifecycle context and a simulation or explicit\n// animation/render/frame loop; ordinary CSS animation or page focus alone\n// does not establish the running-system context of this specialist.\nconst runtimeDomain={test:text=>\n  /\\b(?:games?|gameplay|playable|players?|three js|threejs|unity|unreal|webgl|gltf|fbx|spatial interaction|runtime scene)\\b/.test(text)||\n  (/\\b(?:browser|tabs?|page|document|visibility|focus|blur)\\b/.test(text)&&\n   /\\b(?:simulation|(?:animation|render|frame) loops?)\\b/.test(text))};"
+  },
+  "maintainedTest": {
+    "beforeReconstructedHash": "81ca1fc05fe426bee4f4988d81a4125ea1a856b5d621393ceca3ead1e8b1d5b3",
+    "expectedBeforeHash": "81ca1fc05fe426bee4f4988d81a4125ea1a856b5d621393ceca3ead1e8b1d5b3",
+    "afterHash": "c2631a422675688a6b2a4d4391d8a3d425b3e8a1a9a5eda2b24c88b96dadd6a8",
+    "edits": [
+      "Positive lifecycle request specifies animation loop",
+      "Adds CSS-form exclusion",
+      "Adds old ambiguous bare-animation request as explicit exclusion"
+    ]
+  }
+}

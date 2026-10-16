@@ -1,0 +1,323 @@
+{
+  "schema": "godskills-review-read-set-v1",
+  "worktree": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/",
+  "hashAlgorithm": "SHA-256",
+  "sourceHandling": "Inert data; bodies never executed. Sources remain unchanged.",
+  "publicationReceipt": {
+    "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/parent-publication-receipt.json",
+    "sha256": "2196a29c21b9a21627f66aaaa07f824cb940fca33180c5888b88533015c2db94"
+  },
+  "publicationVerification": {
+    "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/parent-verification.json",
+    "sha256": "196d62a99905db45a7ed47750d25ff46ae7980ae076e35f79ff09c9ac3d7f1d8"
+  },
+  "remap": "Historical stage/<owner>__<repo>/... resolves to from-stars/<owner>__<repo>/... through the parent receipt. Original lane-D ledgers not edited.",
+  "files": [
+    {
+      "path": "product/skills/eternities-beacon/references/creator-slate-feasibility-v1.md",
+      "sha256": "b1ab3ac4a2570311de7139e605e23cb8bfe122d89d578578288c1b1c8ed34dc1",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md",
+      "sha256": "a1b65d62b70a689b3e7b1c06871588e4763a04d3987b9d5c833d5b3c7b6da52a",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "product/skills/diagnostic-statistical-model-inference/references/causal-design-before-estimation-v1.md",
+      "sha256": "9fd7004a3aefc4daf074dde37dea7d5a2b6fb1024ff4ae3c19461d5e89b24918",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "product/skills/service-observability-and-slo-design/references/telemetry-cardinality-budget-v1.md",
+      "sha256": "c429085c14122d5a6f6b8e42328c0f944ef03f4db0a7cd669e64bcd19937b650",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "product/skills/narrative-structure-and-revision/references/reader-knowledge-and-reveal-revision-v1.md",
+      "sha256": "8b8262deffa3e0bedce4fd330e899ed84ea5361cef34b5543cd09cc27002390a",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-d/SOURCE-DECISIONS.md",
+      "sha256": "2bb2da74cc8f338ca1a219e8a6e305601568c27031ef792a767305c603091b58",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "product/skills/eternities-beacon/skill.json",
+      "sha256": "813f212d53853b0c068ea013200a386439350fd756fd32b7ff8fcecff33d11f2",
+      "scope": "Complete JSON parsed; routing/resources/provenance inspected; unrelated A content not reviewed"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/skill.json",
+      "sha256": "b03fc6bf2a895e8ec1a0ae537a2091370d753cb056953645b7190b67ca52c4a7",
+      "scope": "Complete JSON parsed; routing/resources/provenance inspected; unrelated A content not reviewed"
+    },
+    {
+      "path": "product/skills/diagnostic-statistical-model-inference/skill.json",
+      "sha256": "9526fcb3edc9ca519ff3fff6e5efa836da2c58c2a37dd57bc81cb150379306fd",
+      "scope": "Complete JSON parsed; routing/resources/provenance inspected; unrelated A content not reviewed"
+    },
+    {
+      "path": "product/skills/service-observability-and-slo-design/skill.json",
+      "sha256": "999da6a3195e07c6c27764d1a91da545ea3b36dab7031fc924df8399c409bf11",
+      "scope": "Complete JSON parsed; routing/resources/provenance inspected; unrelated A content not reviewed"
+    },
+    {
+      "path": "product/skills/narrative-structure-and-revision/skill.json",
+      "sha256": "d5dec1f77a7bbe0ca11d47ddf8c4b17af3777573d05bd6564c32ccb36ba18d84",
+      "scope": "Complete JSON parsed; routing/resources/provenance inspected; unrelated A content not reviewed"
+    },
+    {
+      "path": "product/skills/eternities-beacon/SKILL.md",
+      "sha256": "0456fd877c1d18c3c717998f4eb2b4264a6911f62a1362df6e3356948b9af222",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/SKILL.md",
+      "sha256": "ac0ef2950f34981c72dad4143ad3752b289d3f95877ee68aa464195c8818b282",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "product/skills/diagnostic-statistical-model-inference/SKILL.md",
+      "sha256": "e31ea8e66d9b7555a20a11c16a11c87f62e263c9a5d12873d661467c76358f8f",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "product/skills/service-observability-and-slo-design/SKILL.md",
+      "sha256": "4766c33f1c6cd23e11c9b7e3a5a7f9936d07243b418d7130cc6e7465aa6b6289",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "product/skills/narrative-structure-and-revision/SKILL.md",
+      "sha256": "ff8a28893c1d2ba20b0d72bef4597d4e18b4bf5db2a93594b2bd04bd8e6d483d",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-d/HANDOFF.md",
+      "sha256": "4deba8c9d20b81cbc83cddddd919b2e3b4afcf565ccfb20d06ea96a8f8160dee",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-d/evidence/read-set.json",
+      "sha256": "9234f827f28b90c3e3f66ba7e8dcdbd9e042de7019adb74c3d326741d1b319bc",
+      "scope": "Complete JSON parsed; selected records inspected, not all referenced bodies read"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-d/evidence/source-inventory.json",
+      "sha256": "f85685c8826613da839a8063e2c509b7015e2f04793671c9179a4756af28bc6d",
+      "scope": "Complete JSON parsed; selected records inspected, not all referenced bodies read"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/cloutdesk__agents/skills/proposal-drafting/SKILL.md",
+      "sha256": "4867fa18e8f2823aebc16b5147aeac84e548b833da5bb5c3e770f0242bdcb2c8",
+      "scope": "Full text read as review evidence",
+      "currentPath": "D:/03-ARSENAL/warehouse/from-stars/cloutdesk__agents/skills/proposal-drafting/SKILL.md"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/cloutdesk__agents/skills/talent-discovery/SKILL.md",
+      "sha256": "7917d2e4a1353a5a3ef39c9a774b40d8fcf8997c41bd688176f835dc8b9a8bea",
+      "scope": "Full text read as review evidence",
+      "currentPath": "D:/03-ARSENAL/warehouse/from-stars/cloutdesk__agents/skills/talent-discovery/SKILL.md"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/haowjy__creative-writing-skills/skills/reader-sim/SKILL.md",
+      "sha256": "3c68115e7eb86e2614ebe821d158958881fcfa1acc953dc4998b514f363a7518",
+      "scope": "Full text read as review evidence",
+      "currentPath": "D:/03-ARSENAL/warehouse/from-stars/haowjy__creative-writing-skills/skills/reader-sim/SKILL.md"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/haowjy__creative-writing-skills/skills/writing-principles/SKILL.md",
+      "sha256": "0e4527012ada1af3c0c47a6f719ed967d82eea7d99bb5585ac38a97509459ba8",
+      "scope": "Full text read as review evidence",
+      "currentPath": "D:/03-ARSENAL/warehouse/from-stars/haowjy__creative-writing-skills/skills/writing-principles/SKILL.md"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/haowjy__creative-writing-skills/skills/creative-writing-craft/resources/scene-construction.md",
+      "sha256": "fce22dd09fb5df23bcbc09ea0a4429ab91915c5a9fc3fa9b4df5d0af77f0a3f8",
+      "scope": "Full text read as review evidence",
+      "currentPath": "D:/03-ARSENAL/warehouse/from-stars/haowjy__creative-writing-skills/skills/creative-writing-craft/resources/scene-construction.md"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/ericzakariasson__skills/skills/game-builder-blender-assets/SKILL.md",
+      "sha256": "4895be8b9702318085306b58cc3ed7380247f358f2eb6413218d0a03742d0aa4",
+      "scope": "Full text read as review evidence",
+      "currentPath": "D:/03-ARSENAL/warehouse/from-stars/ericzakariasson__skills/skills/game-builder-blender-assets/SKILL.md"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/RobLe3__cc-blender-skill/plugin/skills/animation-quality-gate/SKILL.md",
+      "sha256": "86ffc68b672743e68a4be2f0341788aca937eac38016241a599ccb0f01c202c7",
+      "scope": "Full text read as review evidence",
+      "currentPath": "D:/03-ARSENAL/warehouse/from-stars/RobLe3__cc-blender-skill/plugin/skills/animation-quality-gate/SKILL.md"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/triggerdotdev__staff-engineering-skills/skills/staff-engineering-skills-cardinality/SKILL.md",
+      "sha256": "d93fe36cca8c7be1d729af2320f5f87e95a5438d7e6ef6497740a2dafbb99bbe",
+      "scope": "Full text read as review evidence",
+      "currentPath": "D:/03-ARSENAL/warehouse/from-stars/triggerdotdev__staff-engineering-skills/skills/staff-engineering-skills-cardinality/SKILL.md"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/from-stars/xiaomihu1992__econometrics-skill/SKILL.md",
+      "sha256": "5ecbba9c45698b43c61e77834c6a91f3cd50e4f7f9149af2c3121ec27e5aa9b3",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/from-stars/xiaomihu1992__econometrics-skill/references/method_selection.md",
+      "sha256": "1249e9fef22757f7c96fc25370744c1bf4a3c8725bdb27787900140f58e0614f",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/from-stars/xiaomihu1992__econometrics-skill/references/diagnostic_checklist.md",
+      "sha256": "400a50ae0458e25982c4d93733b057a3ff6b83e9a4fc645034592f52578badf7",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/parent-publication-receipt.json",
+      "sha256": "2196a29c21b9a21627f66aaaa07f824cb940fca33180c5888b88533015c2db94",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/parent-verification.json",
+      "sha256": "196d62a99905db45a7ed47750d25ff46ae7980ae076e35f79ff09c9ac3d7f1d8",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-d/proposals/brief-to-feasible-creator-slate/SKILL.md",
+      "sha256": "2d07ab8b9466c37d77cf309d093d803e9780fff53dc8f40f619e8eef2882f9d2",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-d/proposals/brief-to-feasible-creator-slate/CASE.md",
+      "sha256": "c16b303c41435bb417566c7e16a6709424fbfac409bec7fd148b4f1c39b8aeaf",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-d/proposals/camera-driven-asset-iteration/SKILL.md",
+      "sha256": "d459ec12b88c6bd53121cd77b309454986f001f02ad43b77e5b6f39a30249c09",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-d/proposals/camera-driven-asset-iteration/CASE.md",
+      "sha256": "5782de9dc31e4dadd8185e72b2e0f4257109715c60d88594a2e83368e56c9362",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-d/proposals/causal-design-before-estimation/SKILL.md",
+      "sha256": "b38888d8be88815cc8d90a24ad84106701cbe0b30d4611e59658ae0211a89536",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-d/proposals/causal-design-before-estimation/CASE.md",
+      "sha256": "588bc0b5bd5d68a269f74ea468061424441b3f40a35f7a240f957555b2ec671d",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-d/proposals/telemetry-cardinality-budget/SKILL.md",
+      "sha256": "9a64662f7375291dd9bda404e13df86d208c948314853783b76d120687905e4d",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-d/proposals/telemetry-cardinality-budget/CASE.md",
+      "sha256": "1b0f21d11552c83542c32948a875c0e747c4f7bea9503271717f7c48a98ff8be",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-d/proposals/reader-knowledge-and-reveal-revision/SKILL.md",
+      "sha256": "0fbf81fd04eb086c69ebcfad3df0186aa56f9d9e26181aeb91a19d565eed525c",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-d/proposals/reader-knowledge-and-reveal-revision/CASE.md",
+      "sha256": "7be836d921cc166d98f270e32903ba26c05f1638ca536dd9110e94b79bde76dc",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "product/skills/eternities-beacon/references/creator-sponsorship-lifecycle.md",
+      "sha256": "4063b7c5ce3e283fbe6975b7644ffde1bf8283ce499ca77dc293e60bb7ba0d5e",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/realtime-asset-integration.md",
+      "sha256": "a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "product/skills/service-observability-and-slo-design/references/methods.md",
+      "sha256": "f184dbde00a72f80be35c5fbb3e9184f125fc4ada4facc9f1d8e15b0c655f543",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "product/skills/narrative-structure-and-revision/references/methods.md",
+      "sha256": "c3b81b2943fe88c72d8d821fc1037209f288c5d9ba2ac1fbf833414c5602567d",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/from-stars/ericzakariasson__skills/skills/game-builder/SKILL.md",
+      "sha256": "6372dfdad555449545286aa1de0654894ad1e76525cfd22c65e4d53c8340059c",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/from-stars/RobLe3__cc-blender-skill/plugin/skills/blender-export/SKILL.md",
+      "sha256": "56b21cd6876bbcd5dd23f10f7ef82f99942495ec36f57a7a429ff9aa1701d285",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/from-stars/cloutdesk__agents/LICENSE",
+      "sha256": "187ed86ad4bbe05ef459d868965541763a601feee7295127b839cb2ed85a134c",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/from-stars/ericzakariasson__skills/LICENSE",
+      "sha256": "697296c1495f8313814220d5afb4bb429637654062bbeb7d4c981e8c42313971",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/from-stars/RobLe3__cc-blender-skill/LICENSE",
+      "sha256": "53551803e298669de282d339c7e85ae64e6fbf370d07ca08105d8e0a2d2fbf3d",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/from-stars/xiaomihu1992__econometrics-skill/LICENSE",
+      "sha256": "4540eed9c4c8df315da5642c2ec6b7ab96a02ea63722696604327e20225c4d1c",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/from-stars/triggerdotdev__staff-engineering-skills/LICENSE",
+      "sha256": "ac8d4706ee328739b4ef4899774adb2ab85fc6c88b4f3da32190df2624c41dea",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/from-stars/haowjy__creative-writing-skills/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/catalog-c/agent-skills/marketingskills/skills/sales-enablement/SKILL.md",
+      "sha256": "811a8bb462be4e04344a0ed43d485cf124f2a339e3a53f3e6749bc185081a274",
+      "scope": "Full text read as review evidence"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/catalog-c/agent-skills/marketingskills/LICENSE",
+      "sha256": "3bb73920cd10a04b0ce3f28b84bada69e9286d0c33cf654ff10c279409791aa9",
+      "scope": "Full text read as review evidence"
+    }
+  ],
+  "historicalReads": [
+    {
+      "path": "product/skills/eternities-beacon/skill.json",
+      "sha256": "fd1dbd45073c68176491e63412fdd00038f19167755f4cb28ac6612dd4981351",
+      "reason": "Initial metadata read superseded only for final review binding; parent added one A discovery trigger."
+    }
+  ],
+  "readProblemsPreserved": [
+    "Initial combined output exceeded display length; critical bodies were reread in bounded calls.",
+    "lane-d/source-inventory.json did not exist; actual inventory read at lane-d/evidence/source-inventory.json.",
+    "Econometrics old stage path disappeared during publication; resolved to from-stars and verified body hashes against historical lane-D read-set."
+  ],
+  "exclusions": [
+    "No acceptance.json or other consumer fixtures read in this review.",
+    "No lane-A method references opened for self-review.",
+    "Rejected source body correctness not re-audited; verified exclusion from adopted D provenance and guidance.",
+    "No source helpers, scripts, or bundled estimators executed."
+  ]
+}

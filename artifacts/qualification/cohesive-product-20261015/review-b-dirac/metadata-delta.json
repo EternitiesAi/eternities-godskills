@@ -1,0 +1,15 @@
+{
+  "path": "product/skills/eternities-phoenix/skill.json",
+  "canonicalSha256": "13613f7882a7c7295945c73f9dac1609496d4391987697e581272b827805838c",
+  "currentSha256": "77a5338162ab934311464a2317eba256f12f8f51feb15cf7f4a84375c5f98797",
+  "newResourceCount": 1,
+  "registered": true,
+  "addedProvenance": [
+    {
+      "kind": "authoring",
+      "source": "product/skills/eternities-phoenix/references/diagnostic-experiments-v2.md",
+      "note": "Original conditional diagnostic method for discriminating probes, controlled event ordering and neighboring repair controls. No external source prose, new rights clearance or live performance claim; release review is recorded separately."
+    }
+  ],
+  "otherFieldsAndExistingProvenanceUnchanged": true
+}

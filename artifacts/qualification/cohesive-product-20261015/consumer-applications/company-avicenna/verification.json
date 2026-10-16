@@ -1,0 +1,191 @@
+{
+  "schema": "company-avicenna-local-verification-v1",
+  "status": "PASS",
+  "evidenceClass": "consumer-output self-check, not independent acceptance",
+  "fixture": {
+    "path": "C:/Users/Dom/.codex/operations/godskills-cohesive-20261015/consumer-fixtures/company-week.md",
+    "sha256": "fd8fa828658d7fb21001878d824b11dc33a18864a35429a0ac94ddc9367c22bc",
+    "readDepth": "full"
+  },
+  "methodBodiesHashMatched": 5,
+  "baseRows": 4,
+  "baseContinuityAndReserveChecked": true,
+  "scenarios": [
+    {
+      "name": "Base",
+      "event": "None",
+      "delta": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "expected": [
+        28000,
+        18000,
+        6000,
+        14000
+      ],
+      "closes": [
+        28000,
+        18000,
+        6000,
+        14000
+      ],
+      "reserveGaps": [
+        0,
+        0,
+        9000,
+        1000
+      ]
+    },
+    {
+      "name": "Campaign only",
+      "event": "-10000 at start W1",
+      "delta": [
+        -10000,
+        0,
+        0,
+        0
+      ],
+      "expected": [
+        18000,
+        8000,
+        -4000,
+        4000
+      ],
+      "closes": [
+        18000,
+        8000,
+        -4000,
+        4000
+      ],
+      "reserveGaps": [
+        0,
+        7000,
+        19000,
+        11000
+      ]
+    },
+    {
+      "name": "Annual renewal only",
+      "event": "-9000 at start W3",
+      "delta": [
+        0,
+        0,
+        -9000,
+        0
+      ],
+      "expected": [
+        28000,
+        18000,
+        -3000,
+        5000
+      ],
+      "closes": [
+        28000,
+        18000,
+        -3000,
+        5000
+      ],
+      "reserveGaps": [
+        0,
+        0,
+        18000,
+        10000
+      ]
+    },
+    {
+      "name": "Bridge only",
+      "event": "-1000 at start W3",
+      "delta": [
+        0,
+        0,
+        -1000,
+        0
+      ],
+      "expected": [
+        28000,
+        18000,
+        5000,
+        13000
+      ],
+      "closes": [
+        28000,
+        18000,
+        5000,
+        13000
+      ],
+      "reserveGaps": [
+        0,
+        0,
+        10000,
+        2000
+      ]
+    },
+    {
+      "name": "Unsigned sale upside only",
+      "event": "+30000 at end W3",
+      "delta": [
+        0,
+        0,
+        30000,
+        0
+      ],
+      "expected": [
+        28000,
+        18000,
+        36000,
+        44000
+      ],
+      "closes": [
+        28000,
+        18000,
+        36000,
+        44000
+      ],
+      "reserveGaps": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "checks": [
+    "fixture and all five fully read method bodies unchanged",
+    "four weekly cash identities and continuity",
+    "reserve is a threshold not a payment",
+    "contracted receipts and unavoidable payments totals",
+    "isolated scenario deltas and exact decision table agreement",
+    "bridge vs annual cash difference",
+    "conditional upside plus bridge",
+    "payment-first timing sensitivities",
+    "routine-refund upper bound is not a paid amount"
+  ],
+  "notChecked": [
+    "hidden acceptance criteria",
+    "actual company behavior",
+    "actual vendor or migration eligibility",
+    "future collections or financing",
+    "effectiveness of proposed queue policy"
+  ],
+  "outputs": [
+    {
+      "path": "cash.csv",
+      "sha256": "58a21705944e517a4610e9b4326663016e51fc8bfeb16f5d654c36b52d9825c2"
+    },
+    {
+      "path": "decision.md",
+      "sha256": "3468bd28e4e8a90b799f310dbefe26557ba3d3dabdd2e2693b3dcc15c6114e4a"
+    },
+    {
+      "path": "used-methods.json",
+      "sha256": "95d089b7d3dd248dd9bfa93bfb0cec0f8b42df6c8ed940aa380b53c72e6b670f"
+    },
+    {
+      "path": "verify.mjs",
+      "sha256": "c903ae841b8600c77816fd089c59bc3a3ff3c789949801a14fc8a745df0117bd"
+    }
+  ]
+}

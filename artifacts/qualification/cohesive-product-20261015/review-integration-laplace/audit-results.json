@@ -1,0 +1,2886 @@
+{
+  "schema": "cohesive-integration-audit-v1",
+  "status": "PASS",
+  "failures": [],
+  "baseline": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+  "contextReleaseSuppliedByParent": "9f63c0a4cd105d03a7988ace2206b7cf9474a728b513ad98b528ba7186967503",
+  "directory": {
+    "sha256": "239788b3d6ccfd41296a8b139ace9070991f1e4eae13eb6d818f3f3b66e4c2c4",
+    "total": 21,
+    "original": 8,
+    "added": 13,
+    "originalSerializedPrefixPreserved": true,
+    "oldRows": [
+      {
+        "id": "hermes-running-task-message-checkpoint",
+        "samePositionAndValue": true,
+        "canonicalSerializedSha256": "ce34684854a7b759b7b238a41e089f7e19ca80f363fe5e2a7f2815203dcea5df",
+        "currentSerializedSha256": "ce34684854a7b759b7b238a41e089f7e19ca80f363fe5e2a7f2815203dcea5df"
+      },
+      {
+        "id": "hermes-authorized-local-process-observation",
+        "samePositionAndValue": true,
+        "canonicalSerializedSha256": "093da5ae7ffc8fe2fa1d63e6d349f34519270842792defbece75fca9adcc910b",
+        "currentSerializedSha256": "093da5ae7ffc8fe2fa1d63e6d349f34519270842792defbece75fca9adcc910b"
+      },
+      {
+        "id": "math-supplied-prose-specification-draft",
+        "samePositionAndValue": true,
+        "canonicalSerializedSha256": "82ed04d11d7dc3738baa2bea43b2971d65e612418deace93248427fa9826b7b2",
+        "currentSerializedSha256": "82ed04d11d7dc3738baa2bea43b2971d65e612418deace93248427fa9826b7b2"
+      },
+      {
+        "id": "daedalus-optional-model-scenario-ci",
+        "samePositionAndValue": true,
+        "canonicalSerializedSha256": "4d97db32e09c573a164b2a7dcd2bf24c1fedbe837a37365b374d34f26c60211e",
+        "currentSerializedSha256": "4d97db32e09c573a164b2a7dcd2bf24c1fedbe837a37365b374d34f26c60211e"
+      },
+      {
+        "id": "arcadia-game-state-audio-cues",
+        "samePositionAndValue": true,
+        "canonicalSerializedSha256": "b969ce139fe998d21f2eb154e2324e26e548d6fa9158129c8637c7c3b0f6b747",
+        "currentSerializedSha256": "b969ce139fe998d21f2eb154e2324e26e548d6fa9158129c8637c7c3b0f6b747"
+      },
+      {
+        "id": "atlas-serving-time-decision-trace",
+        "samePositionAndValue": true,
+        "canonicalSerializedSha256": "1ad91aafe770906b72274d4b6309270bddad76c45c5fbd6c6319a624f4a24be3",
+        "currentSerializedSha256": "1ad91aafe770906b72274d4b6309270bddad76c45c5fbd6c6319a624f4a24be3"
+      },
+      {
+        "id": "oracle-artifact-role-evidence",
+        "samePositionAndValue": true,
+        "canonicalSerializedSha256": "3b27ba41553c671e8599cc495fa17082856d134d6bd90c275672a9a073305c6e",
+        "currentSerializedSha256": "3b27ba41553c671e8599cc495fa17082856d134d6bd90c275672a9a073305c6e"
+      },
+      {
+        "id": "mnemosyne-local-evidence-lifecycle",
+        "samePositionAndValue": true,
+        "canonicalSerializedSha256": "0ff9e44f4eb3db79802d88f405c5508e6eb061abc4798d32a5e521911ec08a92",
+        "currentSerializedSha256": "0ff9e44f4eb3db79802d88f405c5508e6eb061abc4798d32a5e521911ec08a92"
+      }
+    ]
+  },
+  "rows": [
+    {
+      "id": "cohesive-commercial-driver-diagnosis-v1",
+      "owner": "eternities-prometheus",
+      "resource": "product/skills/eternities-prometheus/references/commercial-driver-diagnosis-v1.md",
+      "sha256": "bdd16ac74bb01c88864e6d76080fd05d833eb9be1324322f27aaaec8350165f2",
+      "reviewLane": "a",
+      "insideOwner": true,
+      "identityMatch": true,
+      "independentReviewHashChain": true,
+      "pointers": true,
+      "evidenceHashes": true,
+      "statusBoundary": true,
+      "declaredAndLinked": true,
+      "lazyLinkContexts": [
+        "- **Growth routing** classifies the question and selects the narrowest customer, sales, revenue, or proposal lens.\n- **Commercial analytics** calculates supplied pricing, pipeline, forecast, funnel, unit, subscription, or efficiency measures with units and denominators visible. When a changed business number needs an actionable diagnosis, use [commercial driver diagnosis](references/commercial-driver-diagnosis-v1.md) to reconcile its contributions before choosing an investigation or intervention.\n- **Customer insight** synthesizes authorized feedback, aggregate themes, account signals, and learning decisions without collapsing them into one score.\n- **Early-adopter research** qualifies public evidence and drafts hypotheses or candidate outreach material without treating a draft as contact.\n- **Learning design** creates progression, checkpoints, assessment, and adaptation criteria for a defined learner.\n- **Operational planning** maps demand, decisions, dependencies, capacity, process, roadmap, and stakeholder trade-offs.\n- **Project-delivery routing** selects a focused delivery lens, checkpoints, and handoff without simulating execution."
+      ],
+      "pass": true
+    },
+    {
+      "id": "cohesive-positioning-to-message-v1",
+      "owner": "eternities-beacon",
+      "resource": "product/skills/eternities-beacon/references/positioning-to-message-v1.md",
+      "sha256": "57da15f76572e5af9dde41cf4c5703d83f045cbb701b0284dfcd45d8e46c94d8",
+      "reviewLane": "a",
+      "insideOwner": true,
+      "identityMatch": true,
+      "independentReviewHashChain": true,
+      "pointers": true,
+      "evidenceHashes": true,
+      "statusBoundary": true,
+      "declaredAndLinked": true,
+      "lazyLinkContexts": [
+        "- **Market truth and positioning** builds a dated evidence ledger, customer and category model, differentiation, claim boundaries, and falsification questions. When positioning must become useful copy, use [positioning to message](references/positioning-to-message-v1.md) to connect the buyer's alternative, a demonstrated difference and a supportable promise.\n- **Offer architecture** turns verified value into an outcome, scope, mechanism, packaging, qualification, objection map, and economic hypothesis while leaving final terms to the decision owner.\n- **Discoverability** audits crawlability, rendering, information architecture, structured data, content, and entity signals from supplied evidence; it does not promise ranking.\n- **Go-to-market** builds a channel portfolio, launch sequence, partnerships, capacity, budget boundary, content inputs, experiments, and owners.\n- **Creator sponsorship lifecycle** organizes a dated, evidence-linked obligation register and internal recap. Require human-owner review of chronology, decisions, evidence, and exact usage scope; unresolved rights assertions are never permission. See [creator-sponsorship-lifecycle.md](references/creator-sponsorship-lifecycle.md). This route does not authorize outreach, acceptance, publication, payment, disclosure, or media use.\n- **Conversion and lifecycle** maps friction across acquisition, activation, onboarding, retention, expansion, referral, or recovery and designs reversible tests.\n- **Measurement and stewardship** defines metrics, cohorts, denominators, attribution limits, guardrails, anomaly handling, and scale-or-stop decisions."
+      ],
+      "pass": true
+    },
+    {
+      "id": "cohesive-art-direction-to-layout-v1",
+      "owner": "eternities-muse",
+      "resource": "product/skills/eternities-muse/references/art-direction-to-layout-v1.md",
+      "sha256": "893b09898d51cf5bfcca7d0efa88d239466e04a7c6a68152d4158aab5fa2a140",
+      "reviewLane": "a",
+      "insideOwner": true,
+      "identityMatch": true,
+      "independentReviewHashChain": true,
+      "pointers": true,
+      "evidenceHashes": true,
+      "statusBoundary": true,
+      "declaredAndLinked": true,
+      "lazyLinkContexts": [
+        "- **Visual forensics** extracts identity, tokens, components, layout, responsive states, accessibility, confidence, and reconstruction risks from supplied artifacts.\n- **Interface art direction** chooses one generative visual law and translates it into hierarchy, tokens, component grammar, breakpoints, states, signature moments, and implementation acceptance. For a direction that needs a working composition, use [art direction to layout](references/art-direction-to-layout-v1.md); compare directions with the same real content and derive responsive rules from the chosen composition.\n- **Motion story** gives each scene or transition a narrative job, visible cause, timing, reduced-motion equivalent, and device tier.\n- **Visual acceptance** freezes build, viewport, content, seed, camera, timing, and configuration, then checks states, temporal behavior, access, and budgets.\n- **Interface accessibility** audits or repairs semantics, keyboard order, focus, contrast, zoom, motion, async status, and fallback behavior with reproducible fixtures.\n- **Operational system visualization** maps observed freshness, capacity, retries, or partition ownership to inspectable marks without inventing telemetry or changing the system being explained."
+      ],
+      "pass": true
+    },
+    {
+      "id": "cohesive-core-loop-playtest-v1",
+      "owner": "eternities-arcadia",
+      "resource": "product/skills/eternities-arcadia/references/core-loop-playtest-v1.md",
+      "sha256": "305e082e9e3d57729fe10e4ad9865b1468333e661f7530469ef17a70fc07490a",
+      "reviewLane": "a",
+      "insideOwner": true,
+      "identityMatch": true,
+      "independentReviewHashChain": true,
+      "pointers": true,
+      "evidenceHashes": true,
+      "statusBoundary": true,
+      "declaredAndLinked": true,
+      "lazyLinkContexts": [
+        "- **Direction** settles the physical action, repeatable loop, session shape, failure, progression, pacing, narrative revelation, economy boundaries, platform, and anti-goals. For a first playable loop or a mechanically working but weak experience, use [core-loop playtest](references/core-loop-playtest-v1.md) to distinguish legibility, agency and development across repetitions.\n- **Runtime systems** turns a settled direction into simulation time, input intents, persistence, authority ownership, non-player behavior, migration, reconnect behavior, and performance budgets.\n  - For imported meshes or models entering a game or interactive scene, use [real-time 3D asset integration](references/realtime-asset-integration.md) when transforms, materials, dependencies, collision, animation, or packaged behavior need checking. Select only the relevant checks; asset generation and offline rendering are different tasks.\n- **Player experience** aligns feedback, controls, motion, sound, visual language, access settings, and device cost so the player can understand what happened and what to do next.\n  - For an approved UI need spanning multiple surfaces or states, use [UI requirement-to-screen/state traceability](references/requirement-screen-state-traceability.md) to inspect map coverage and declared flow paths. This is a method within player experience, not a new Arcadia route.\n  - For a bounded proposal mapping named gameplay states or events to player-facing audio cues, use [DRAFT: game-state to audio-cue design](references/game-state-to-audio-cue.md). It is a lazy method within player experience, not an asset-rights grant, DSP review, accessibility certification, or play-quality verdict.\n- **Proof and release** verifies build identity, reachability, deterministic gates, variable-run distributions, representative devices, accessibility states, and the remaining questions that only human play can answer."
+      ],
+      "pass": true
+    },
+    {
+      "id": "cohesive-supplied-audio-editorial-mix-v1",
+      "owner": "eternities-orpheus",
+      "resource": "product/skills/eternities-orpheus/references/supplied-audio-editorial-mix-v1.md",
+      "sha256": "d52e3ecffe5e6134cc43f2296ed4c8e48963af8f02f513b605c5a7527ac6c1d9",
+      "reviewLane": "a",
+      "insideOwner": true,
+      "identityMatch": true,
+      "independentReviewHashChain": true,
+      "pointers": true,
+      "evidenceHashes": true,
+      "statusBoundary": true,
+      "declaredAndLinked": true,
+      "lazyLinkContexts": [
+        "- **Intent and provenance** records retrieval, composition, generation, metadata, rights, consent, review state, and the requested artifact.\n- **Transcription and alignment** preserves language, timing, supplied speaker labels, uncertainty, diarization limits, caption needs, and indexing handoff.\n- **Timeline rendering** assembles approved audio, narration, beats, captions, and visual references with duration, offset, format, and acceptance checks. For supplied speech/music whose pacing or audibility needs work, use [editorial audio and mix](references/supplied-audio-editorial-mix-v1.md), preserving meaning through cuts and comparing the actual listening result.\n- **Deferred specialist boundary** isolates synthesis, voice conversion, realtime capture, music generation, authenticity, hidden-payload, biometric, identity-signal, and other operations that need separate rights, consent, provider, or specialist evidence."
+      ],
+      "pass": true
+    },
+    {
+      "id": "cohesive-practice-and-transfer-v1",
+      "owner": "evidence-linked-learning-design",
+      "resource": "product/skills/evidence-linked-learning-design/references/practice-and-transfer-v1.md",
+      "sha256": "8625e567db5d4f68c267bd4743e555885115fabcbd253b67f768e2031826aa9f",
+      "reviewLane": "a",
+      "insideOwner": true,
+      "identityMatch": true,
+      "independentReviewHashChain": true,
+      "pointers": true,
+      "evidenceHashes": true,
+      "statusBoundary": true,
+      "declaredAndLinked": true,
+      "lazyLinkContexts": [
+        "When the task needs actual practice items, use [practice and transfer](references/practice-and-transfer-v1.md) to distinguish imitation from selecting and applying the underlying principle. It supplies worked contrasts, feedback choices and transfer prompts without requiring stored learner records."
+      ],
+      "pass": true
+    },
+    {
+      "id": "cohesive-contrastive-calibration-v1",
+      "owner": "voice-style-calibration",
+      "resource": "product/skills/voice-style-calibration/references/contrastive-calibration-v1.md",
+      "sha256": "dc51820a975a4f6f1c75f69c70f96f7204b864cd662faf4516a9b1a71d2b7c40",
+      "reviewLane": "a",
+      "insideOwner": true,
+      "identityMatch": true,
+      "independentReviewHashChain": true,
+      "pointers": true,
+      "evidenceHashes": true,
+      "statusBoundary": true,
+      "declaredAndLinked": true,
+      "lazyLinkContexts": [
+        "When a recurring voice profile needs actionable editing rules, or an adaptation feels exaggerated, use [contrastive calibration](references/contrastive-calibration-v1.md). It compares meaning-preserving alternatives and checks whether a trait transfers to a fresh passage or register."
+      ],
+      "pass": true
+    },
+    {
+      "id": "cohesive-diagnostic-experiments-v2",
+      "owner": "eternities-phoenix",
+      "resource": "product/skills/eternities-phoenix/references/diagnostic-experiments-v2.md",
+      "sha256": "0e90cd104135546419a996f0d1c0acd1e57f21ecc5c463225f9d86e7adfec227",
+      "reviewLane": "b",
+      "insideOwner": true,
+      "identityMatch": true,
+      "independentReviewHashChain": true,
+      "pointers": true,
+      "evidenceHashes": true,
+      "statusBoundary": true,
+      "declaredAndLinked": true,
+      "lazyLinkContexts": [
+        "1. Bind affected component, scope, authority, impact, timestamps, acceptance condition, reproduction or its absence, baseline, and rollback owner.\n2. Read local evidence first. Preserve exact observations and locators; distinguish observed facts, derived values, hypotheses, proposals, and unresolved conflict. When another person or later session must replay the failure, use [reproducible bug packets](references/reproducible-bug-packets.md).\n3. Compare a failing case with the nearest passing case. Trace their inputs and state across the actual call path to the first divergence. Keep plausible causes separate, then choose a cheap check whose possible results distinguish them. Predict those results before running it. Change one causal factor per intervention; independent read-only observations may be collected together. Record negative results and their conditions so an eliminated explanation does not silently return. For intermittent failures or competing causes, use [diagnostic experiments v2](references/diagnostic-experiments-v2.md).\n4. Repair the responsible boundary when implementation is authorized, then rerun the reproducer and a nearby passing control. Include the caller or state transition that exposed the defect. A failure spanning producer and consumer may require coordinated changes; an arbitrary one-file limit must not preserve the defect. If the repair fails, use the new observation to revise the diagnosis and continue within scope. Repeating the same unsuccessful intervention without new evidence is not another experiment.\n5. Treat production mutation, destructive repair, credential use, external systems, and background monitoring as consequential boundaries. Check whether existing authority explicitly covers the exact target and effect, and whether required preconditions and rollback are clear. Do not request approval already supplied. A new decision is needed only when that scope is missing or changed, or an unresolved precondition, material risk, or rollback gap remains. If an external effect is uncertain, reconcile authoritative state before acting; do not retry or compensate merely to resolve that uncertainty. Continue independent authorized diagnosis, local repair, and tests while the affected external action is held."
+      ],
+      "pass": true
+    },
+    {
+      "id": "cohesive-creator-slate-feasibility-v1",
+      "owner": "eternities-beacon",
+      "resource": "product/skills/eternities-beacon/references/creator-slate-feasibility-v1.md",
+      "sha256": "b1ab3ac4a2570311de7139e605e23cb8bfe122d89d578578288c1b1c8ed34dc1",
+      "reviewLane": "d",
+      "insideOwner": true,
+      "identityMatch": true,
+      "independentReviewHashChain": true,
+      "pointers": true,
+      "evidenceHashes": true,
+      "statusBoundary": true,
+      "declaredAndLinked": true,
+      "lazyLinkContexts": [
+        "For a creator campaign that needs a feasible combination rather than an individual ranking, read [creator-slate feasibility](references/creator-slate-feasibility-v1.md). Use supplied roster evidence, total fees, deliverable roles and confirmed rights; drafting does not book or contact anyone.\n"
+      ],
+      "pass": true
+    },
+    {
+      "id": "cohesive-camera-driven-asset-iteration-v1",
+      "owner": "eternities-arcadia",
+      "resource": "product/skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md",
+      "sha256": "a1b65d62b70a689b3e7b1c06871588e4763a04d3987b9d5c833d5b3c7b6da52a",
+      "reviewLane": "d",
+      "insideOwner": true,
+      "identityMatch": true,
+      "independentReviewHashChain": true,
+      "pointers": true,
+      "evidenceHashes": true,
+      "statusBoundary": true,
+      "declaredAndLinked": true,
+      "lazyLinkContexts": [
+        "For an authored asset that reads poorly from the intended gameplay camera, use [camera-driven asset iteration](references/camera-driven-asset-iteration-v1.md). It distinguishes shape, deformation, shading and runtime cost; routine import verification stays in the asset-integration method.\n"
+      ],
+      "pass": true
+    },
+    {
+      "id": "cohesive-causal-design-before-estimation-v1",
+      "owner": "diagnostic-statistical-model-inference",
+      "resource": "product/skills/diagnostic-statistical-model-inference/references/causal-design-before-estimation-v1.md",
+      "sha256": "9fd7004a3aefc4daf074dde37dea7d5a2b6fb1024ff4ae3c19461d5e89b24918",
+      "reviewLane": "d",
+      "insideOwner": true,
+      "identityMatch": true,
+      "independentReviewHashChain": true,
+      "pointers": true,
+      "evidenceHashes": true,
+      "statusBoundary": true,
+      "declaredAndLinked": true,
+      "lazyLinkContexts": [
+        "When the question is a treatment effect rather than prediction or association, use [causal design before estimation](references/causal-design-before-estimation-v1.md) to compare assignment-based designs and preserve the target population through analysis. It is not an estimator implementation or a causal guarantee.\n"
+      ],
+      "pass": true
+    },
+    {
+      "id": "cohesive-telemetry-cardinality-budget-v1",
+      "owner": "service-observability-and-slo-design",
+      "resource": "product/skills/service-observability-and-slo-design/references/telemetry-cardinality-budget-v1.md",
+      "sha256": "c429085c14122d5a6f6b8e42328c0f944ef03f4db0a7cd669e64bcd19937b650",
+      "reviewLane": "d",
+      "insideOwner": true,
+      "identityMatch": true,
+      "independentReviewHashChain": true,
+      "pointers": true,
+      "evidenceHashes": true,
+      "statusBoundary": true,
+      "declaredAndLinked": true,
+      "lazyLinkContexts": [
+        "When label growth threatens a concrete telemetry budget, read [telemetry cardinality](references/telemetry-cardinality-budget-v1.md). Separate observed series, possible combinations and churn, and preserve the operational query and error population when changing representation.\n"
+      ],
+      "pass": true
+    },
+    {
+      "id": "cohesive-reader-knowledge-and-reveal-revision-v1",
+      "owner": "narrative-structure-and-revision",
+      "resource": "product/skills/narrative-structure-and-revision/references/reader-knowledge-and-reveal-revision-v1.md",
+      "sha256": "8b8262deffa3e0bedce4fd330e899ed84ea5361cef34b5543cd09cc27002390a",
+      "reviewLane": "d",
+      "insideOwner": true,
+      "identityMatch": true,
+      "independentReviewHashChain": true,
+      "pointers": true,
+      "evidenceHashes": true,
+      "statusBoundary": true,
+      "declaredAndLinked": true,
+      "lazyLinkContexts": [
+        "For a concrete mystery, dramatic-irony or withheld-meaning problem, use [reader knowledge and reveal revision](references/reader-knowledge-and-reveal-revision-v1.md). Revise the actual passage while preserving intended ambiguity; editorial prediction is not observed reader response.\n"
+      ],
+      "pass": true
+    }
+  ],
+  "copiedEvidence": [
+    {
+      "file": "a-review.md",
+      "source": "artifacts/qualification/cohesive-product-20261015/review-a-v3-nietzsche/REVIEW.md",
+      "expected": "d91eafa3d74cd3d9856464bd1ab8043a7be80727cc3f79ce2c2f454c33edb228",
+      "bundledSha256": "d91eafa3d74cd3d9856464bd1ab8043a7be80727cc3f79ce2c2f454c33edb228",
+      "sourceSha256": "d91eafa3d74cd3d9856464bd1ab8043a7be80727cc3f79ce2c2f454c33edb228",
+      "match": true
+    },
+    {
+      "file": "a-bindings.json",
+      "source": "artifacts/qualification/cohesive-product-20261015/review-a-v3-nietzsche/supplemental-final-bind.json",
+      "expected": "efb29a48638342195e80980a73951ad3c10edfc0b3de0fa30a90b126243eaa4f",
+      "bundledSha256": "efb29a48638342195e80980a73951ad3c10edfc0b3de0fa30a90b126243eaa4f",
+      "sourceSha256": "efb29a48638342195e80980a73951ad3c10edfc0b3de0fa30a90b126243eaa4f",
+      "match": true
+    },
+    {
+      "file": "b-review.md",
+      "source": "artifacts/qualification/cohesive-product-20261015/review-b-dirac/review.md",
+      "expected": "2f148ca861424539538a2dfe3604310f6827b292c7660e7b276d3b9eeb997509",
+      "bundledSha256": "2f148ca861424539538a2dfe3604310f6827b292c7660e7b276d3b9eeb997509",
+      "sourceSha256": "2f148ca861424539538a2dfe3604310f6827b292c7660e7b276d3b9eeb997509",
+      "match": true
+    },
+    {
+      "file": "b-decision.json",
+      "source": "artifacts/qualification/cohesive-product-20261015/review-b-dirac/decision.json",
+      "expected": "d67440fa7ddf26730b11482373f2879900acb6abae7ee64852c91c432d9eafc0",
+      "bundledSha256": "d67440fa7ddf26730b11482373f2879900acb6abae7ee64852c91c432d9eafc0",
+      "sourceSha256": "d67440fa7ddf26730b11482373f2879900acb6abae7ee64852c91c432d9eafc0",
+      "match": true
+    },
+    {
+      "file": "d-review.md",
+      "source": "artifacts/qualification/cohesive-product-20261015/review-d-laplace/REVIEW.md",
+      "expected": "004344af92fab0f4a5ff09efb97da191faae8218ce467bc591ce7a76763d0383",
+      "bundledSha256": "004344af92fab0f4a5ff09efb97da191faae8218ce467bc591ce7a76763d0383",
+      "sourceSha256": "004344af92fab0f4a5ff09efb97da191faae8218ce467bc591ce7a76763d0383",
+      "match": true
+    },
+    {
+      "file": "d-original-repair.json",
+      "source": "artifacts/qualification/cohesive-product-20261015/review-d-laplace/review.json",
+      "expected": "46f8c779cad5ba18c212edc55f46c1a721a87224dbebc64b91eeb2b6e59e03b1",
+      "bundledSha256": "46f8c779cad5ba18c212edc55f46c1a721a87224dbebc64b91eeb2b6e59e03b1",
+      "sourceSha256": "46f8c779cad5ba18c212edc55f46c1a721a87224dbebc64b91eeb2b6e59e03b1",
+      "match": true
+    },
+    {
+      "file": "d-repair-recheck.json",
+      "source": "artifacts/qualification/cohesive-product-20261015/review-d-laplace/repair-recheck-v1.json",
+      "expected": "238ccd49ce1c02af5858560b4ed9d33964c81f3338fdcd80f951539abf93b16e",
+      "bundledSha256": "238ccd49ce1c02af5858560b4ed9d33964c81f3338fdcd80f951539abf93b16e",
+      "sourceSha256": "238ccd49ce1c02af5858560b4ed9d33964c81f3338fdcd80f951539abf93b16e",
+      "match": true
+    },
+    {
+      "file": "d-owner-bindings.json",
+      "source": "artifacts/qualification/cohesive-product-20261015/review-d-laplace/owner-metadata-supplement-v2.json",
+      "expected": "602fd7926c200a50b39e8a3badba440de1cb167d104b5a78bc95f40706afe8a8",
+      "bundledSha256": "602fd7926c200a50b39e8a3badba440de1cb167d104b5a78bc95f40706afe8a8",
+      "sourceSha256": "602fd7926c200a50b39e8a3badba440de1cb167d104b5a78bc95f40706afe8a8",
+      "match": true
+    }
+  ],
+  "coverage": {
+    "receiptSha256": "bdbd64278981840b87dbfc03408dad36e602a0b5f8be48ec0d47d8e46197e603",
+    "entrypoints": 93,
+    "categories": 21,
+    "changed": 19,
+    "retained": 74,
+    "reportedAuthorLaneCounts": {
+      "a": 37,
+      "b": 56
+    },
+    "rows": [
+      {
+        "id": "accessibility-audit-and-remediation",
+        "baselineSha256": "01bf60db9e2da9a7f1d36505d9fa60f9b925217ba362a522a4093c87dd5e73e9",
+        "currentSha256": "01bf60db9e2da9a7f1d36505d9fa60f9b925217ba362a522a4093c87dd5e73e9",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "agricultural-observation-and-trial",
+        "baselineSha256": "dad70e81edda0d52ada7e726b7e19375dc2a1f3251435be295d9a92992304f2d",
+        "currentSha256": "dad70e81edda0d52ada7e726b7e19375dc2a1f3251435be295d9a92992304f2d",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "api-contract-design-and-evolution",
+        "baselineSha256": "88e79f38ac417ddf49145ea2faee45182730632593dae5df0eb0a10f663714e4",
+        "currentSha256": "88e79f38ac417ddf49145ea2faee45182730632593dae5df0eb0a10f663714e4",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "api-rate-limit-recovery",
+        "baselineSha256": "8552e9991da80115e3be4473ea3676e79613260c5df4f6f4f961d251c8b4f2f3",
+        "currentSha256": "8552e9991da80115e3be4473ea3676e79613260c5df4f6f4f961d251c8b4f2f3",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "app-store-discovery-experiments",
+        "baselineSha256": "43beef20c43bea5046f722e6b5d5fabd76a770a747bc1cf60eb2a598fd97c46c",
+        "currentSha256": "43beef20c43bea5046f722e6b5d5fabd76a770a747bc1cf60eb2a598fd97c46c",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "approval-bound-private-session-mining",
+        "baselineSha256": "b73c8bf7c81d781e56600316afa4e0ef9181dd1c7ffd2a6cc1b2cbe891ac79ce",
+        "currentSha256": "b73c8bf7c81d781e56600316afa4e0ef9181dd1c7ffd2a6cc1b2cbe891ac79ce",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "audio-dsp-integrity-review",
+        "baselineSha256": "f26dba4612e8a749a289f1df66f1481dd752d6db0aff63c1240d4b768269b7f2",
+        "currentSha256": "f26dba4612e8a749a289f1df66f1481dd752d6db0aff63c1240d4b768269b7f2",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "bounded-parametric-design-iteration",
+        "baselineSha256": "3ebf155034e8f23d095204f8fb82efff24f7988785252a0ad47a9a9d80e26a0c",
+        "currentSha256": "3ebf155034e8f23d095204f8fb82efff24f7988785252a0ad47a9a9d80e26a0c",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "bounded-service-shutdown",
+        "baselineSha256": "5257e79b7ac4b30738f54320a80f36adfbf49d0a57087a230de5c4cf2905c41e",
+        "currentSha256": "5257e79b7ac4b30738f54320a80f36adfbf49d0a57087a230de5c4cf2905c41e",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "bounded-verified-object-ingestion",
+        "baselineSha256": "cf69c9340313bd2f01c8abc4fbf39a82234062bb2a8b933e30997a31d647301c",
+        "currentSha256": "cf69c9340313bd2f01c8abc4fbf39a82234062bb2a8b933e30997a31d647301c",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "browser-automation-state-and-verification",
+        "baselineSha256": "b6b9980be8506ac0405d811dc7cce0cd9ee794addfec5ef61ad647fcf1fa2cca",
+        "currentSha256": "b6b9980be8506ac0405d811dc7cce0cd9ee794addfec5ef61ad647fcf1fa2cca",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "cashflow-forecast-scenario-integrity",
+        "baselineSha256": "d2b85835f46ac7aba103a43d5ee6eb9ccfe2970f3d17a690e8e9a01fa655a66e",
+        "currentSha256": "d2b85835f46ac7aba103a43d5ee6eb9ccfe2970f3d17a690e8e9a01fa655a66e",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "columnar-ingestion-rollup-and-query-layout-design",
+        "baselineSha256": "8cba00eced7f2e84de01c0304aab9e59fed548ae1515bbbc164f568f17951626",
+        "currentSha256": "8cba00eced7f2e84de01c0304aab9e59fed548ae1515bbbc164f568f17951626",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "completeness-and-consistency-audit",
+        "baselineSha256": "4e434687d0f77a0577c6bd2c8b869fe60d409df5c5e6d5b6ee946771a78d5f71",
+        "currentSha256": "4e434687d0f77a0577c6bd2c8b869fe60d409df5c5e6d5b6ee946771a78d5f71",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "confirmed-destructive-reconstruction",
+        "baselineSha256": "5faed22a58f2c63d9495bbe6bef0516b38fd6f30111a22709736f0ca90e03d78",
+        "currentSha256": "5faed22a58f2c63d9495bbe6bef0516b38fd6f30111a22709736f0ca90e03d78",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "counterbalanced-agent-evaluation",
+        "baselineSha256": "ad8e45793f5ec79ab577789d505893e2a0a7fbf97dfcde7542cb828aee985a88",
+        "currentSha256": "6242385832a491c290feeb636175210c839a75dcf6bd30526b5cf2f32c99fd7f",
+        "changed": true,
+        "pass": true
+      },
+      {
+        "id": "customer-support-triage-and-resolution",
+        "baselineSha256": "32f0615a91aa2ca3e5933c40e24aa80ae200b9b7394549bf37b42b1d1ba34be0",
+        "currentSha256": "32f0615a91aa2ca3e5933c40e24aa80ae200b9b7394549bf37b42b1d1ba34be0",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "dependency-supply-chain-integrity",
+        "baselineSha256": "ba4807f2bdb4ec52eb9e2e96a669fab6c82e6b376afe5aa353fa6aa122cf121f",
+        "currentSha256": "ba4807f2bdb4ec52eb9e2e96a669fab6c82e6b376afe5aa353fa6aa122cf121f",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "deterministic-video-composition-and-rendering",
+        "baselineSha256": "ba96605ba3dda38c5fb4334ff8833a3d2083dddb387071c4e250d7bd42ef6a94",
+        "currentSha256": "ba96605ba3dda38c5fb4334ff8833a3d2083dddb387071c4e250d7bd42ef6a94",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "diagnostic-statistical-model-inference",
+        "baselineSha256": "a65995b8649d28dc9e9ccd0bdfeb56799435c0eedb143b70590fb3f8b398c367",
+        "currentSha256": "e31ea8e66d9b7555a20a11c16a11c87f62e263c9a5d12873d661467c76358f8f",
+        "changed": true,
+        "pass": true
+      },
+      {
+        "id": "docx-package-redline-and-render-verification",
+        "baselineSha256": "e90da766438c21f06cc718d2dbeefb1dff920bbcfef0402cd3a5e94be32bffb8",
+        "currentSha256": "e90da766438c21f06cc718d2dbeefb1dff920bbcfef0402cd3a5e94be32bffb8",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "ecological-sampling-and-detection-uncertainty",
+        "baselineSha256": "772099d13ca1371df4ba772315dc5691ec02f12a9f5f62f83b1431ed8972adf3",
+        "currentSha256": "772099d13ca1371df4ba772315dc5691ec02f12a9f5f62f83b1431ed8972adf3",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "eternities-aegis",
+        "baselineSha256": "49c1d4bf1d6b21794a8dd634679c0268ae99daa967515ee667d3e40788f5749b",
+        "currentSha256": "49c1d4bf1d6b21794a8dd634679c0268ae99daa967515ee667d3e40788f5749b",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "eternities-agora",
+        "baselineSha256": "763bae5c52442699d9422e08ad68fdeb7466638f5bba5cbd6dfa04e1754da9ac",
+        "currentSha256": "763bae5c52442699d9422e08ad68fdeb7466638f5bba5cbd6dfa04e1754da9ac",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "eternities-arcadia",
+        "baselineSha256": "9ec66ba0975124b95877f2ad0a852162008cfd624af2fe823d9752e478940c46",
+        "currentSha256": "ac0ef2950f34981c72dad4143ad3752b289d3f95877ee68aa464195c8818b282",
+        "changed": true,
+        "pass": true
+      },
+      {
+        "id": "eternities-architect",
+        "baselineSha256": "50d0524c2bbdb64eb8f3a7a82586e7989ffa4002ede3c3deda7ac757f4a660c5",
+        "currentSha256": "50d0524c2bbdb64eb8f3a7a82586e7989ffa4002ede3c3deda7ac757f4a660c5",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "eternities-athena",
+        "baselineSha256": "3bb0ab1d455cb3738db5f1c7645c39fb794b4cfd906dbdcd5269a91269eaa968",
+        "currentSha256": "3bb0ab1d455cb3738db5f1c7645c39fb794b4cfd906dbdcd5269a91269eaa968",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "eternities-atlas",
+        "baselineSha256": "46b06bdd11e52ca6288b32bd720a77715035b5e77a2b52ba1b986a071df18700",
+        "currentSha256": "46b06bdd11e52ca6288b32bd720a77715035b5e77a2b52ba1b986a071df18700",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "eternities-beacon",
+        "baselineSha256": "381ae1f0ffee855b14c8c2bda226bb57aa9147be1e7f9a68f94b231fb869a030",
+        "currentSha256": "0456fd877c1d18c3c717998f4eb2b4264a6911f62a1362df6e3356948b9af222",
+        "changed": true,
+        "pass": true
+      },
+      {
+        "id": "eternities-chorus",
+        "baselineSha256": "f1e0d8964acb8dc267b8f3e51a3fbfde3b5b0c8a91aeebfb8517f1b068998d95",
+        "currentSha256": "f1e0d8964acb8dc267b8f3e51a3fbfde3b5b0c8a91aeebfb8517f1b068998d95",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "eternities-daedalus",
+        "baselineSha256": "9c3271351a5d8234098a001fa079236ec9c8ea568603cacab3fa5f05e9ee0d23",
+        "currentSha256": "1a26dfffe15ecfa2289aaa502e959c07f99eb518c9823ae930536a5c9f829e17",
+        "changed": true,
+        "pass": true
+      },
+      {
+        "id": "eternities-forge",
+        "baselineSha256": "96a5bf285a89bb9189064d65880d461683830e314e00a98bce2e45a97f2c0e5b",
+        "currentSha256": "41ed525d0b547973ed7c9752d47c7f2fd936196ca8b2edc3b2d3066266c9b597",
+        "changed": true,
+        "pass": true
+      },
+      {
+        "id": "eternities-hephaestus",
+        "baselineSha256": "5c31073206e35a113aeb7341fa643b2480b0e114b278c37df72260d9b8156f7b",
+        "currentSha256": "5c31073206e35a113aeb7341fa643b2480b0e114b278c37df72260d9b8156f7b",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "eternities-herald",
+        "baselineSha256": "a1b0419458774b0777aa5ad5fb51cc293509e6df7b1872cc5166b7784bc96b64",
+        "currentSha256": "a1b0419458774b0777aa5ad5fb51cc293509e6df7b1872cc5166b7784bc96b64",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "eternities-hermes",
+        "baselineSha256": "fd626d425723be905c9375502c6b6fe480df645f057aee00c9517fdcb5257c8c",
+        "currentSha256": "a64957e27281ecd3b99a4bd3b2661d860ae0af8171ea630b3a9a01d5545c89cd",
+        "changed": true,
+        "pass": true
+      },
+      {
+        "id": "eternities-logos",
+        "baselineSha256": "f5c84a715a574c350c06b8dc6ee485e43846c2cabd12f39e94cc8ae8cf07b5ba",
+        "currentSha256": "f5c84a715a574c350c06b8dc6ee485e43846c2cabd12f39e94cc8ae8cf07b5ba",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "eternities-mnemosyne",
+        "baselineSha256": "121f1d7db8183b2bc8cdb6acce8654aac92f76f4cae74ad1f823864cba4bf392",
+        "currentSha256": "0d4b18975e93a30191c3371d7f3e4537be56aa6c021e75ee84a6d9210c8bed9a",
+        "changed": true,
+        "pass": true
+      },
+      {
+        "id": "eternities-muse",
+        "baselineSha256": "838da70f041be41d0d28fa9e735241c303240b4355f1770dba5b7b7998afc05b",
+        "currentSha256": "34fccadc01b49dcb8097641a6a6153dabd119dd55ba9f31781c7bfa4c4c1ac73",
+        "changed": true,
+        "pass": true
+      },
+      {
+        "id": "eternities-omnibus",
+        "baselineSha256": "6009e4015f56b00cab8e7142a67273e7be6be2de8bb955e6d9383320b5107c4d",
+        "currentSha256": "6009e4015f56b00cab8e7142a67273e7be6be2de8bb955e6d9383320b5107c4d",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "eternities-oracle",
+        "baselineSha256": "796145f66a4f5d9cacadd55319e541234db9b7ac3b4d704f8b7411c949fce4cd",
+        "currentSha256": "528b78eeb7208203a0fca382d7a52276ddf12778df7da3c993b34f39747bf420",
+        "changed": true,
+        "pass": true
+      },
+      {
+        "id": "eternities-orpheus",
+        "baselineSha256": "083f4461cf7a28dd5a2b25bd3e2c2d05448b74b92aaa5d87b5daa50753c2c48e",
+        "currentSha256": "30bbab3230a9ecbb81ecec877db2036b591a46b0f4497cb61d94df3585bda3be",
+        "changed": true,
+        "pass": true
+      },
+      {
+        "id": "eternities-phoenix",
+        "baselineSha256": "d2be7f2ba4ec16d25e6a44084624bae2d01e416089c5d79cb85b0af1e543a284",
+        "currentSha256": "b9d28316b61929e5dd4303aa68f82f21632ba5a44b9a6880b0aed1020694787f",
+        "changed": true,
+        "pass": true
+      },
+      {
+        "id": "eternities-prometheus",
+        "baselineSha256": "3bdb3c567c215cee7552d846abdcfd87024e6a5787e394d6526799f24c008ab6",
+        "currentSha256": "70d043541b328a6bfebd6cd75840aaca8ed94fc22cc10165d1be444f4662fc06",
+        "changed": true,
+        "pass": true
+      },
+      {
+        "id": "evidence-linked-learning-design",
+        "baselineSha256": "ca165d7209df55696719f58dbad0042a41bfe6164408099cf8ab0dc90e85d160",
+        "currentSha256": "a91d5ffe526e92ed72c541816d6c0310f5ab2d56b82f2c5f91960b778bbed606",
+        "changed": true,
+        "pass": true
+      },
+      {
+        "id": "experiment-artifact-lineage",
+        "baselineSha256": "92da8b7ef85c7b308d7e4842e3ef3de02ce4b54061a9603e2338fa6d676682fe",
+        "currentSha256": "92da8b7ef85c7b308d7e4842e3ef3de02ce4b54061a9603e2338fa6d676682fe",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "financial-statement-reconciliation",
+        "baselineSha256": "cfcb104de4c4ae024e5f95c1202db98d3cd3b1bbdb51ec37549cc368e67d7346",
+        "currentSha256": "cfcb104de4c4ae024e5f95c1202db98d3cd3b1bbdb51ec37549cc368e67d7346",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "formula-preserving-workbook-engineering",
+        "baselineSha256": "69f701204ba80a60752567ceb646332714ff945f8bee9ab063ec3ef496d1d946",
+        "currentSha256": "69f701204ba80a60752567ceb646332714ff945f8bee9ab063ec3ef496d1d946",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "fp-ts-functional-refactoring",
+        "baselineSha256": "65ed967d0043c3bddc61508f6ee16870b2e56b7d6ba425922f91f1e28e919539",
+        "currentSha256": "65ed967d0043c3bddc61508f6ee16870b2e56b7d6ba425922f91f1e28e919539",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "genomic-coordinate-assembly-and-variant-gates",
+        "baselineSha256": "ddd47cf59e9bc156fbf82478ffa14693882611f0f478f697f9aaa775eb96dedb",
+        "currentSha256": "ddd47cf59e9bc156fbf82478ffa14693882611f0f478f697f9aaa775eb96dedb",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "geospatial-coordinate-integrity",
+        "baselineSha256": "ef14fd4bc877408a1acb6c24efb09557a4a02d65a6688fd22e3dfe893ce65ce0",
+        "currentSha256": "ef14fd4bc877408a1acb6c24efb09557a4a02d65a6688fd22e3dfe893ce65ce0",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "git-change-integration-and-recovery",
+        "baselineSha256": "21ce930065c0e9a3f8d8b00aa37a34325bb798b2c755bfbf2143598b6ab5c003",
+        "currentSha256": "21ce930065c0e9a3f8d8b00aa37a34325bb798b2c755bfbf2143598b6ab5c003",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "imaginative-concept-development",
+        "baselineSha256": "5a1b550f7db546470d93a73106f972d59cf1cf4be21cc6e7c8d08cb7f9fd95c7",
+        "currentSha256": "5a1b550f7db546470d93a73106f972d59cf1cf4be21cc6e7c8d08cb7f9fd95c7",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "infrastructure-plan-apply-isolation",
+        "baselineSha256": "5a77c8f4e48c23fc8d37548cbf15b5970e941173e514873acdd4e64adb7f896e",
+        "currentSha256": "5a77c8f4e48c23fc8d37548cbf15b5970e941173e514873acdd4e64adb7f896e",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "interatomic-model-validation",
+        "baselineSha256": "fa1e1443277a7ded60d3f4bca483695b53e7c1511d4b5878d296ebeabd878583",
+        "currentSha256": "fa1e1443277a7ded60d3f4bca483695b53e7c1511d4b5878d296ebeabd878583",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "interface-localization-and-bidirectionality",
+        "baselineSha256": "130843a1f8e9291ddec993bc7b110ce3bafd1d12f7e61773f44dcd635e9d54f4",
+        "currentSha256": "130843a1f8e9291ddec993bc7b110ce3bafd1d12f7e61773f44dcd635e9d54f4",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "interpersonal-understanding-and-dialogue",
+        "baselineSha256": "dfa4af05ca5b68aa6db7252d70dc0d2b57a610f4fa0f49104fe3b07eb1cacc74",
+        "currentSha256": "dfa4af05ca5b68aa6db7252d70dc0d2b57a610f4fa0f49104fe3b07eb1cacc74",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "invariant-guard",
+        "baselineSha256": "660357745a6d16fb81b5a98d12c3361a5d22a826a29858be0dbc9020b24f593f",
+        "currentSha256": "660357745a6d16fb81b5a98d12c3361a5d22a826a29858be0dbc9020b24f593f",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "jurisdiction-aware-contract-review",
+        "baselineSha256": "c600a5c1b47f652f435c4b0a1cb8d71ee043de7b801eff34aeb25a2b04c43303",
+        "currentSha256": "c600a5c1b47f652f435c4b0a1cb8d71ee043de7b801eff34aeb25a2b04c43303",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "knowledge-base-architecture-and-maintenance",
+        "baselineSha256": "c1fe39e77589ae5eb12b08543b834f195a1b1bba82d5fc3bf82322eb010820c1",
+        "currentSha256": "c1fe39e77589ae5eb12b08543b834f195a1b1bba82d5fc3bf82322eb010820c1",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "landscape-connectivity-analysis",
+        "baselineSha256": "eb672da289c1623e024d2f79008e2b37c1ecbc186939e1c1805a90b01103ec07",
+        "currentSha256": "eb672da289c1623e024d2f79008e2b37c1ecbc186939e1c1805a90b01103ec07",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "lazy-tabular-transformation-and-validation",
+        "baselineSha256": "848d222b70cf24d9ef86af68a4ec6bfeacf889c8f75f36a3facfabf66a7b1c77",
+        "currentSha256": "848d222b70cf24d9ef86af68a4ec6bfeacf889c8f75f36a3facfabf66a7b1c77",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "long-horizon-work-continuity",
+        "baselineSha256": "83584469ab0faf64844451aba67bfe4e9325d2c1f7d6580ff951bc90d3a34f5d",
+        "currentSha256": "d0487cb608de140f11305ffcd63f837fbe56c018b029ccd70f0da04c97a51a0b",
+        "changed": true,
+        "pass": true
+      },
+      {
+        "id": "measured-paid-creative-iteration",
+        "baselineSha256": "769e7fb4b916bcf989f9458e9f23912a110d39be0f8bcf0a502f9ddc86b136e3",
+        "currentSha256": "769e7fb4b916bcf989f9458e9f23912a110d39be0f8bcf0a502f9ddc86b136e3",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "memory-retention-and-recovery",
+        "baselineSha256": "36c14c3b62bdf72c2b12bf4678ec44223bd0c3064528a7f1b34d7df4fcc966e7",
+        "currentSha256": "6621d8bb0924cd386831eae2004144d3006206359de4fdaa1d2385fcdca4d38e",
+        "changed": true,
+        "pass": true
+      },
+      {
+        "id": "molecular-observable-integrity",
+        "baselineSha256": "b12a8fb9fe39291b289eac55ee81f11df7baf274e088d5cb843fbc44256f7149",
+        "currentSha256": "b12a8fb9fe39291b289eac55ee81f11df7baf274e088d5cb843fbc44256f7149",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "motion-design-and-animation-engineering",
+        "baselineSha256": "9f9f17e2bf49fa039f11239bbbc0adf9e98df12e21f1c1f8a8f3343d282719ea",
+        "currentSha256": "9f9f17e2bf49fa039f11239bbbc0adf9e98df12e21f1c1f8a8f3343d282719ea",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "narrative-structure-and-revision",
+        "baselineSha256": "78f2055cd08ca31fccdd779865267d939ba7763b1402e0133cd0ddb1a3d203ba",
+        "currentSha256": "ff8a28893c1d2ba20b0d72bef4597d4e18b4bf5db2a93594b2bd04bd8e6d483d",
+        "changed": true,
+        "pass": true
+      },
+      {
+        "id": "native-mobile-interaction-testing",
+        "baselineSha256": "0b2f0175201eae491d62bf868771bb9cd79352ebc8249c52b99f57898ab46227",
+        "currentSha256": "0b2f0175201eae491d62bf868771bb9cd79352ebc8249c52b99f57898ab46227",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "operating-cadence-and-decision-accountability",
+        "baselineSha256": "a03d89234106b30da8e99ffe6e738f58408e03727d2909431a119aca6b5c56c1",
+        "currentSha256": "a03d89234106b30da8e99ffe6e738f58408e03727d2909431a119aca6b5c56c1",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "performance-release-gating",
+        "baselineSha256": "e96f776e506d9eb98eb32df919a64c3c30520d99a5317f9b0f5eb1cb6db42de5",
+        "currentSha256": "e96f776e506d9eb98eb32df919a64c3c30520d99a5317f9b0f5eb1cb6db42de5",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "physics-constrained-numerical-validation",
+        "baselineSha256": "c5512e9c716c1ccf45e39d31373323b06703c8dd17038e26ddf17f554e036adb",
+        "currentSha256": "c5512e9c716c1ccf45e39d31373323b06703c8dd17038e26ddf17f554e036adb",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "portable-speech-chunk-alignment",
+        "baselineSha256": "93283ef9cf5b93a365d1fb7da970efb0c7afc2961385631909320856b9178166",
+        "currentSha256": "93283ef9cf5b93a365d1fb7da970efb0c7afc2961385631909320856b9178166",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "pricing-and-packaging-experimentation",
+        "baselineSha256": "d8faaa71a46cf3e95f5e6e27f8990138c2b0abf97ef921f6fb5162549ce82418",
+        "currentSha256": "d8faaa71a46cf3e95f5e6e27f8990138c2b0abf97ef921f6fb5162549ce82418",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "procedural-world-generation-and-validation",
+        "baselineSha256": "1da065a061c15a19112eadce6efc5a018be76a8663c2280ae946e14a30c55da3",
+        "currentSha256": "1da065a061c15a19112eadce6efc5a018be76a8663c2280ae946e14a30c55da3",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "product-discovery-and-prioritization",
+        "baselineSha256": "4470f2f92b284dad9a577105c8c751ebc3beb8f08bd8982e942149529ac7be24",
+        "currentSha256": "4470f2f92b284dad9a577105c8c751ebc3beb8f08bd8982e942149529ac7be24",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "release-script-safety",
+        "baselineSha256": "c5efb81bb955cd91bb0636e7de517ea61c0c347224534014d787dd85b5206d57",
+        "currentSha256": "c5efb81bb955cd91bb0636e7de517ea61c0c347224534014d787dd85b5206d57",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "retrieval-grounded-answering",
+        "baselineSha256": "9699b65853adf21b4e285c2b357295ea401822b0dbda46eb168510cb1d654236",
+        "currentSha256": "9699b65853adf21b4e285c2b357295ea401822b0dbda46eb168510cb1d654236",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "robotics-test-ladder",
+        "baselineSha256": "e316f375d1ded3f3f8d44b60739eab1f503f0fe338d41720f49d972c79261600",
+        "currentSha256": "e316f375d1ded3f3f8d44b60739eab1f503f0fe338d41720f49d972c79261600",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "scene-continuity-and-coverage",
+        "baselineSha256": "78237dfcd4e7b71f5d16742cc47364ed3bad51774ab8bd9ab7f1da215f5359e8",
+        "currentSha256": "78237dfcd4e7b71f5d16742cc47364ed3bad51774ab8bd9ab7f1da215f5359e8",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "schema-migration-and-backfill-safety",
+        "baselineSha256": "6fad6670b742088afd1d4f4b3b7d5cc4715f18f235673e71f8c97c969c4fca65",
+        "currentSha256": "6fad6670b742088afd1d4f4b3b7d5cc4715f18f235673e71f8c97c969c4fca65",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "scientific-surrogate-validation",
+        "baselineSha256": "bb13e6221b81e3dd20d182014314bbf5021940e80c5793ad5492f85bf0e62642",
+        "currentSha256": "bb13e6221b81e3dd20d182014314bbf5021940e80c5793ad5492f85bf0e62642",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "semantic-implementation-diff",
+        "baselineSha256": "9d790f26786f711482d0b2cb6b460d80d56099492a60e9686092b73f7553ab77",
+        "currentSha256": "9d790f26786f711482d0b2cb6b460d80d56099492a60e9686092b73f7553ab77",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "service-observability-and-slo-design",
+        "baselineSha256": "6de3cf2118becf3082c2364dc60eded63a0b17bc5dabf37c42535b01c5c7a95b",
+        "currentSha256": "4766c33f1c6cd23e11c9b7e3a5a7f9936d07243b418d7130cc6e7465aa6b6289",
+        "changed": true,
+        "pass": true
+      },
+      {
+        "id": "sovereign-skill-refinery",
+        "baselineSha256": "3b129a831750723e0d42100d989ada2ed140481866ef8dc4e48865a7cea910c5",
+        "currentSha256": "3b129a831750723e0d42100d989ada2ed140481866ef8dc4e48865a7cea910c5",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "structured-hiring-evaluation",
+        "baselineSha256": "06d362d9881ccdbafa57994e1b3710793b3478e3eb316d537505da834096079b",
+        "currentSha256": "06d362d9881ccdbafa57994e1b3710793b3478e3eb316d537505da834096079b",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "structured-output-contracts",
+        "baselineSha256": "0650ce7e3aaa652071cc53df6bc8d882fdf1f2359c0543a1b9e3e7d8bdafb668",
+        "currentSha256": "0650ce7e3aaa652071cc53df6bc8d882fdf1f2359c0543a1b9e3e7d8bdafb668",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "symbolic-mathematics-python",
+        "baselineSha256": "ad82634d58c4cbd2901b31e2475017f60c8cbfa820c9b929a76a4bc7b9d09a86",
+        "currentSha256": "ad82634d58c4cbd2901b31e2475017f60c8cbfa820c9b929a76a4bc7b9d09a86",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "terrain-watershed-analysis",
+        "baselineSha256": "5e62dd5f892cb4fd8ed05b4be7bec099cc783cc92c3fd5aa5ce11a0d42dd9a96",
+        "currentSha256": "5e62dd5f892cb4fd8ed05b4be7bec099cc783cc92c3fd5aa5ce11a0d42dd9a96",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "user-research-and-usability-study",
+        "baselineSha256": "5b97406753e8b00a746db1e99b7d36ebc93bb8b708454a9dba265c09234363d4",
+        "currentSha256": "5b97406753e8b00a746db1e99b7d36ebc93bb8b708454a9dba265c09234363d4",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "vendor-evaluation-and-exit-planning",
+        "baselineSha256": "477ae4c9feede6cdd31f452c9d2f20064c8c99fe393377fa66e080c99e93db80",
+        "currentSha256": "477ae4c9feede6cdd31f452c9d2f20064c8c99fe393377fa66e080c99e93db80",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "venture-falsification-and-planning",
+        "baselineSha256": "7b6b75a9f8a76f0101d58cc6fa91a57839c40163685a081af108ce8710f66a90",
+        "currentSha256": "7b6b75a9f8a76f0101d58cc6fa91a57839c40163685a081af108ce8710f66a90",
+        "changed": false,
+        "pass": true
+      },
+      {
+        "id": "voice-style-calibration",
+        "baselineSha256": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b",
+        "currentSha256": "fb4a54b739b51d0e91df35d17e65fd684f7f43fd06575e58a3782d5040ad73c4",
+        "changed": true,
+        "pass": true
+      },
+      {
+        "id": "web-performance-optimization",
+        "baselineSha256": "9ae95c2503cd3800a9ad0dacc7190e52f613eaf08d92d8d1b2431e0e24399100",
+        "currentSha256": "9ae95c2503cd3800a9ad0dacc7190e52f613eaf08d92d8d1b2431e0e24399100",
+        "changed": false,
+        "pass": true
+      }
+    ]
+  },
+  "finalA": {
+    "reportSha256": "c2841eed24c0bffc9434f712bb01cd6d11207c57d84c3a0ade5d620feb182e20",
+    "decision": {
+      "disposition": "READY",
+      "scope": "Final A-R2-B closure on fixed 27-case set; seven A bodies and original routes retain prior bounded acceptance at unchanged hashes",
+      "closedFinding": "A-R2-B",
+      "beaconSha256": "64b3dbde0cfd6f0d658d4baa125f1920b54723ed6911ad42bdb087d40d6cc303",
+      "baseline27ReproducedExactly": true,
+      "beaconRanks": [
+        2,
+        1
+      ],
+      "other25OwnerRanksUnchanged": true,
+      "previousHostNeedNoneChecksPassed": 6,
+      "binding": "final-bind.json",
+      "aFiles": 21,
+      "runnerFiles": 2,
+      "runnerScope": "Prior independent red/green acceptance retained at identical two file hashes; no harness rerun",
+      "bodyReaudit": false,
+      "newCases": 0,
+      "productWrites": false,
+      "v3Writes": false,
+      "remainingDefects": [],
+      "limits": "D substantive acceptance remains Laplace; broader Arcadia behavior remains Avicenna; final combined C routing and release gate remain parent-owned."
+    },
+    "bindings": [
+      {
+        "path": "product/skills/eternities-prometheus/skill.json",
+        "expected": "76034d608abd5282b879011c7d03b03c698850b6f422ada4d394f0000c50722a",
+        "actual": "76034d608abd5282b879011c7d03b03c698850b6f422ada4d394f0000c50722a",
+        "match": true
+      },
+      {
+        "path": "product/skills/eternities-prometheus/SKILL.md",
+        "expected": "70d043541b328a6bfebd6cd75840aaca8ed94fc22cc10165d1be444f4662fc06",
+        "actual": "70d043541b328a6bfebd6cd75840aaca8ed94fc22cc10165d1be444f4662fc06",
+        "match": true
+      },
+      {
+        "path": "product/skills/eternities-prometheus/references/commercial-driver-diagnosis-v1.md",
+        "expected": "bdd16ac74bb01c88864e6d76080fd05d833eb9be1324322f27aaaec8350165f2",
+        "actual": "bdd16ac74bb01c88864e6d76080fd05d833eb9be1324322f27aaaec8350165f2",
+        "match": true
+      },
+      {
+        "path": "product/skills/eternities-beacon/skill.json",
+        "expected": "64b3dbde0cfd6f0d658d4baa125f1920b54723ed6911ad42bdb087d40d6cc303",
+        "actual": "64b3dbde0cfd6f0d658d4baa125f1920b54723ed6911ad42bdb087d40d6cc303",
+        "match": true
+      },
+      {
+        "path": "product/skills/eternities-beacon/SKILL.md",
+        "expected": "0456fd877c1d18c3c717998f4eb2b4264a6911f62a1362df6e3356948b9af222",
+        "actual": "0456fd877c1d18c3c717998f4eb2b4264a6911f62a1362df6e3356948b9af222",
+        "match": true
+      },
+      {
+        "path": "product/skills/eternities-beacon/references/positioning-to-message-v1.md",
+        "expected": "57da15f76572e5af9dde41cf4c5703d83f045cbb701b0284dfcd45d8e46c94d8",
+        "actual": "57da15f76572e5af9dde41cf4c5703d83f045cbb701b0284dfcd45d8e46c94d8",
+        "match": true
+      },
+      {
+        "path": "product/skills/eternities-muse/skill.json",
+        "expected": "3c768d293aeda7c7c7b414dc428612185cfbd77ff7526fc8a05bae36bf4a3821",
+        "actual": "3c768d293aeda7c7c7b414dc428612185cfbd77ff7526fc8a05bae36bf4a3821",
+        "match": true
+      },
+      {
+        "path": "product/skills/eternities-muse/SKILL.md",
+        "expected": "34fccadc01b49dcb8097641a6a6153dabd119dd55ba9f31781c7bfa4c4c1ac73",
+        "actual": "34fccadc01b49dcb8097641a6a6153dabd119dd55ba9f31781c7bfa4c4c1ac73",
+        "match": true
+      },
+      {
+        "path": "product/skills/eternities-muse/references/art-direction-to-layout-v1.md",
+        "expected": "893b09898d51cf5bfcca7d0efa88d239466e04a7c6a68152d4158aab5fa2a140",
+        "actual": "893b09898d51cf5bfcca7d0efa88d239466e04a7c6a68152d4158aab5fa2a140",
+        "match": true
+      },
+      {
+        "path": "product/skills/eternities-arcadia/skill.json",
+        "expected": "eeaefbc6c4c89338b38664002a266cf54c9530e610f44874386bf7284e67933e",
+        "actual": "eeaefbc6c4c89338b38664002a266cf54c9530e610f44874386bf7284e67933e",
+        "match": true
+      },
+      {
+        "path": "product/skills/eternities-arcadia/SKILL.md",
+        "expected": "ac0ef2950f34981c72dad4143ad3752b289d3f95877ee68aa464195c8818b282",
+        "actual": "ac0ef2950f34981c72dad4143ad3752b289d3f95877ee68aa464195c8818b282",
+        "match": true
+      },
+      {
+        "path": "product/skills/eternities-arcadia/references/core-loop-playtest-v1.md",
+        "expected": "305e082e9e3d57729fe10e4ad9865b1468333e661f7530469ef17a70fc07490a",
+        "actual": "305e082e9e3d57729fe10e4ad9865b1468333e661f7530469ef17a70fc07490a",
+        "match": true
+      },
+      {
+        "path": "product/skills/eternities-orpheus/skill.json",
+        "expected": "d4d74e68312b4a1def2dd902068d56ea9b90b3e9f79f8ad2b78e29071a3e07db",
+        "actual": "d4d74e68312b4a1def2dd902068d56ea9b90b3e9f79f8ad2b78e29071a3e07db",
+        "match": true
+      },
+      {
+        "path": "product/skills/eternities-orpheus/SKILL.md",
+        "expected": "30bbab3230a9ecbb81ecec877db2036b591a46b0f4497cb61d94df3585bda3be",
+        "actual": "30bbab3230a9ecbb81ecec877db2036b591a46b0f4497cb61d94df3585bda3be",
+        "match": true
+      },
+      {
+        "path": "product/skills/eternities-orpheus/references/supplied-audio-editorial-mix-v1.md",
+        "expected": "d52e3ecffe5e6134cc43f2296ed4c8e48963af8f02f513b605c5a7527ac6c1d9",
+        "actual": "d52e3ecffe5e6134cc43f2296ed4c8e48963af8f02f513b605c5a7527ac6c1d9",
+        "match": true
+      },
+      {
+        "path": "product/skills/evidence-linked-learning-design/skill.json",
+        "expected": "950b371148ed06e650a5d0f9b887d88b904f45febfb4ebadceb0a6d0e54ab473",
+        "actual": "950b371148ed06e650a5d0f9b887d88b904f45febfb4ebadceb0a6d0e54ab473",
+        "match": true
+      },
+      {
+        "path": "product/skills/evidence-linked-learning-design/SKILL.md",
+        "expected": "a91d5ffe526e92ed72c541816d6c0310f5ab2d56b82f2c5f91960b778bbed606",
+        "actual": "a91d5ffe526e92ed72c541816d6c0310f5ab2d56b82f2c5f91960b778bbed606",
+        "match": true
+      },
+      {
+        "path": "product/skills/evidence-linked-learning-design/references/practice-and-transfer-v1.md",
+        "expected": "8625e567db5d4f68c267bd4743e555885115fabcbd253b67f768e2031826aa9f",
+        "actual": "8625e567db5d4f68c267bd4743e555885115fabcbd253b67f768e2031826aa9f",
+        "match": true
+      },
+      {
+        "path": "product/skills/voice-style-calibration/skill.json",
+        "expected": "2668dfee646ce1665c5a792dc64b175d61532a83ca350981aec5fefea230fb07",
+        "actual": "2668dfee646ce1665c5a792dc64b175d61532a83ca350981aec5fefea230fb07",
+        "match": true
+      },
+      {
+        "path": "product/skills/voice-style-calibration/SKILL.md",
+        "expected": "fb4a54b739b51d0e91df35d17e65fd684f7f43fd06575e58a3782d5040ad73c4",
+        "actual": "fb4a54b739b51d0e91df35d17e65fd684f7f43fd06575e58a3782d5040ad73c4",
+        "match": true
+      },
+      {
+        "path": "product/skills/voice-style-calibration/references/contrastive-calibration-v1.md",
+        "expected": "dc51820a975a4f6f1c75f69c70f96f7204b864cd662faf4516a9b1a71d2b7c40",
+        "actual": "dc51820a975a4f6f1c75f69c70f96f7204b864cd662faf4516a9b1a71d2b7c40",
+        "match": true
+      }
+    ],
+    "alreadyBundled": false,
+    "publicationNote": "Parent announced additive final A closure evidence and review-directory/manifest rebinding after suite. That future assembly is not certified by this snapshot."
+  },
+  "inputStability": {
+    "checked": 224,
+    "allStable": true,
+    "changed": []
+  },
+  "readSet": [
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/assemble-reviewed-methods.mjs",
+      "sha256": "26fa4c2bb658b853e37c4d671017d88553c79faa2ab9dd396adb05cdcd97fb15",
+      "mode": "text evidence; not executed"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/new-method-directory.json",
+      "sha256": "cf84d7a20864e6830ff9fd1a5b969f553b44a88264f66eae3a5a26aef92beed9",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/METHODS.v1.json",
+      "sha256": "239788b3d6ccfd41296a8b139ace9070991f1e4eae13eb6d818f3f3b66e4c2c4",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/METHODS.v1.json",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "412b4272987b119ba3edf1a9df44aeb75d6b372a90f1bdeabe92c5834bd5265d",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/evidence/method-reviews/cohesive-v1/receipt.json",
+      "sha256": "9ad85e95ce0c952a7f53c4a62e84b17a782ce4a84e0f01db569fc9eecad4a5ec",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/evidence/method-reviews/cohesive-v1/report.md",
+      "sha256": "44751141116cf4a003fceaa223bf7d49fe7bbdd9dd537a484f850e25e1764ca1",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/evidence/method-reviews/cohesive-v1/a-review.md",
+      "sha256": "d91eafa3d74cd3d9856464bd1ab8043a7be80727cc3f79ce2c2f454c33edb228",
+      "mode": "text evidence; not executed"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-a-v3-nietzsche/REVIEW.md",
+      "sha256": "d91eafa3d74cd3d9856464bd1ab8043a7be80727cc3f79ce2c2f454c33edb228",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/evidence/method-reviews/cohesive-v1/a-bindings.json",
+      "sha256": "efb29a48638342195e80980a73951ad3c10edfc0b3de0fa30a90b126243eaa4f",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-a-v3-nietzsche/supplemental-final-bind.json",
+      "sha256": "efb29a48638342195e80980a73951ad3c10edfc0b3de0fa30a90b126243eaa4f",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/evidence/method-reviews/cohesive-v1/b-review.md",
+      "sha256": "2f148ca861424539538a2dfe3604310f6827b292c7660e7b276d3b9eeb997509",
+      "mode": "text evidence; not executed"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-b-dirac/review.md",
+      "sha256": "2f148ca861424539538a2dfe3604310f6827b292c7660e7b276d3b9eeb997509",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/evidence/method-reviews/cohesive-v1/b-decision.json",
+      "sha256": "d67440fa7ddf26730b11482373f2879900acb6abae7ee64852c91c432d9eafc0",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-b-dirac/decision.json",
+      "sha256": "d67440fa7ddf26730b11482373f2879900acb6abae7ee64852c91c432d9eafc0",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/evidence/method-reviews/cohesive-v1/d-review.md",
+      "sha256": "004344af92fab0f4a5ff09efb97da191faae8218ce467bc591ce7a76763d0383",
+      "mode": "text evidence; not executed"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-d-laplace/REVIEW.md",
+      "sha256": "004344af92fab0f4a5ff09efb97da191faae8218ce467bc591ce7a76763d0383",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/evidence/method-reviews/cohesive-v1/d-original-repair.json",
+      "sha256": "46f8c779cad5ba18c212edc55f46c1a721a87224dbebc64b91eeb2b6e59e03b1",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-d-laplace/review.json",
+      "sha256": "46f8c779cad5ba18c212edc55f46c1a721a87224dbebc64b91eeb2b6e59e03b1",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/evidence/method-reviews/cohesive-v1/d-repair-recheck.json",
+      "sha256": "238ccd49ce1c02af5858560b4ed9d33964c81f3338fdcd80f951539abf93b16e",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-d-laplace/repair-recheck-v1.json",
+      "sha256": "238ccd49ce1c02af5858560b4ed9d33964c81f3338fdcd80f951539abf93b16e",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/evidence/method-reviews/cohesive-v1/d-owner-bindings.json",
+      "sha256": "602fd7926c200a50b39e8a3badba440de1cb167d104b5a78bc95f40706afe8a8",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-d-laplace/owner-metadata-supplement-v2.json",
+      "sha256": "602fd7926c200a50b39e8a3badba440de1cb167d104b5a78bc95f40706afe8a8",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/eternities-prometheus/references/commercial-driver-diagnosis-v1.md",
+      "sha256": "bdd16ac74bb01c88864e6d76080fd05d833eb9be1324322f27aaaec8350165f2",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-prometheus/skill.json",
+      "sha256": "76034d608abd5282b879011c7d03b03c698850b6f422ada4d394f0000c50722a",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-prometheus/SKILL.md",
+      "sha256": "70d043541b328a6bfebd6cd75840aaca8ed94fc22cc10165d1be444f4662fc06",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-beacon/references/positioning-to-message-v1.md",
+      "sha256": "57da15f76572e5af9dde41cf4c5703d83f045cbb701b0284dfcd45d8e46c94d8",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-beacon/skill.json",
+      "sha256": "64b3dbde0cfd6f0d658d4baa125f1920b54723ed6911ad42bdb087d40d6cc303",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-beacon/SKILL.md",
+      "sha256": "0456fd877c1d18c3c717998f4eb2b4264a6911f62a1362df6e3356948b9af222",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-muse/references/art-direction-to-layout-v1.md",
+      "sha256": "893b09898d51cf5bfcca7d0efa88d239466e04a7c6a68152d4158aab5fa2a140",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-muse/skill.json",
+      "sha256": "3c768d293aeda7c7c7b414dc428612185cfbd77ff7526fc8a05bae36bf4a3821",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-muse/SKILL.md",
+      "sha256": "34fccadc01b49dcb8097641a6a6153dabd119dd55ba9f31781c7bfa4c4c1ac73",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/core-loop-playtest-v1.md",
+      "sha256": "305e082e9e3d57729fe10e4ad9865b1468333e661f7530469ef17a70fc07490a",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/skill.json",
+      "sha256": "eeaefbc6c4c89338b38664002a266cf54c9530e610f44874386bf7284e67933e",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/SKILL.md",
+      "sha256": "ac0ef2950f34981c72dad4143ad3752b289d3f95877ee68aa464195c8818b282",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-orpheus/references/supplied-audio-editorial-mix-v1.md",
+      "sha256": "d52e3ecffe5e6134cc43f2296ed4c8e48963af8f02f513b605c5a7527ac6c1d9",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-orpheus/skill.json",
+      "sha256": "d4d74e68312b4a1def2dd902068d56ea9b90b3e9f79f8ad2b78e29071a3e07db",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-orpheus/SKILL.md",
+      "sha256": "30bbab3230a9ecbb81ecec877db2036b591a46b0f4497cb61d94df3585bda3be",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/references/practice-and-transfer-v1.md",
+      "sha256": "8625e567db5d4f68c267bd4743e555885115fabcbd253b67f768e2031826aa9f",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/skill.json",
+      "sha256": "950b371148ed06e650a5d0f9b887d88b904f45febfb4ebadceb0a6d0e54ab473",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/SKILL.md",
+      "sha256": "a91d5ffe526e92ed72c541816d6c0310f5ab2d56b82f2c5f91960b778bbed606",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/voice-style-calibration/references/contrastive-calibration-v1.md",
+      "sha256": "dc51820a975a4f6f1c75f69c70f96f7204b864cd662faf4516a9b1a71d2b7c40",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/voice-style-calibration/skill.json",
+      "sha256": "2668dfee646ce1665c5a792dc64b175d61532a83ca350981aec5fefea230fb07",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/voice-style-calibration/SKILL.md",
+      "sha256": "fb4a54b739b51d0e91df35d17e65fd684f7f43fd06575e58a3782d5040ad73c4",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-phoenix/references/diagnostic-experiments-v2.md",
+      "sha256": "0e90cd104135546419a996f0d1c0acd1e57f21ecc5c463225f9d86e7adfec227",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-phoenix/skill.json",
+      "sha256": "77a5338162ab934311464a2317eba256f12f8f51feb15cf7f4a84375c5f98797",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/eternities-phoenix/SKILL.md",
+      "sha256": "b9d28316b61929e5dd4303aa68f82f21632ba5a44b9a6880b0aed1020694787f",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-beacon/references/creator-slate-feasibility-v1.md",
+      "sha256": "b1ab3ac4a2570311de7139e605e23cb8bfe122d89d578578288c1b1c8ed34dc1",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md",
+      "sha256": "a1b65d62b70a689b3e7b1c06871588e4763a04d3987b9d5c833d5b3c7b6da52a",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/diagnostic-statistical-model-inference/references/causal-design-before-estimation-v1.md",
+      "sha256": "9fd7004a3aefc4daf074dde37dea7d5a2b6fb1024ff4ae3c19461d5e89b24918",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/diagnostic-statistical-model-inference/skill.json",
+      "sha256": "9526fcb3edc9ca519ff3fff6e5efa836da2c58c2a37dd57bc81cb150379306fd",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/diagnostic-statistical-model-inference/SKILL.md",
+      "sha256": "e31ea8e66d9b7555a20a11c16a11c87f62e263c9a5d12873d661467c76358f8f",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/service-observability-and-slo-design/references/telemetry-cardinality-budget-v1.md",
+      "sha256": "c429085c14122d5a6f6b8e42328c0f944ef03f4db0a7cd669e64bcd19937b650",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/service-observability-and-slo-design/skill.json",
+      "sha256": "999da6a3195e07c6c27764d1a91da545ea3b36dab7031fc924df8399c409bf11",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/service-observability-and-slo-design/SKILL.md",
+      "sha256": "4766c33f1c6cd23e11c9b7e3a5a7f9936d07243b418d7130cc6e7465aa6b6289",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/narrative-structure-and-revision/references/reader-knowledge-and-reveal-revision-v1.md",
+      "sha256": "8b8262deffa3e0bedce4fd330e899ed84ea5361cef34b5543cd09cc27002390a",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/narrative-structure-and-revision/skill.json",
+      "sha256": "d5dec1f77a7bbe0ca11d47ddf8c4b17af3777573d05bd6564c32ccb36ba18d84",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/narrative-structure-and-revision/SKILL.md",
+      "sha256": "ff8a28893c1d2ba20b0d72bef4597d4e18b4bf5db2a93594b2bd04bd8e6d483d",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/coverage-verification.json",
+      "sha256": "bdbd64278981840b87dbfc03408dad36e602a0b5f8be48ec0d47d8e46197e603",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/accessibility-audit-and-remediation/SKILL.md",
+      "sha256": "01bf60db9e2da9a7f1d36505d9fa60f9b925217ba362a522a4093c87dd5e73e9",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/accessibility-audit-and-remediation/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "01bf60db9e2da9a7f1d36505d9fa60f9b925217ba362a522a4093c87dd5e73e9",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/agricultural-observation-and-trial/SKILL.md",
+      "sha256": "dad70e81edda0d52ada7e726b7e19375dc2a1f3251435be295d9a92992304f2d",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/agricultural-observation-and-trial/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "dad70e81edda0d52ada7e726b7e19375dc2a1f3251435be295d9a92992304f2d",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/api-contract-design-and-evolution/SKILL.md",
+      "sha256": "88e79f38ac417ddf49145ea2faee45182730632593dae5df0eb0a10f663714e4",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/api-contract-design-and-evolution/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "88e79f38ac417ddf49145ea2faee45182730632593dae5df0eb0a10f663714e4",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/api-rate-limit-recovery/SKILL.md",
+      "sha256": "8552e9991da80115e3be4473ea3676e79613260c5df4f6f4f961d251c8b4f2f3",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/api-rate-limit-recovery/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "8552e9991da80115e3be4473ea3676e79613260c5df4f6f4f961d251c8b4f2f3",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/app-store-discovery-experiments/SKILL.md",
+      "sha256": "43beef20c43bea5046f722e6b5d5fabd76a770a747bc1cf60eb2a598fd97c46c",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/app-store-discovery-experiments/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "43beef20c43bea5046f722e6b5d5fabd76a770a747bc1cf60eb2a598fd97c46c",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/approval-bound-private-session-mining/SKILL.md",
+      "sha256": "b73c8bf7c81d781e56600316afa4e0ef9181dd1c7ffd2a6cc1b2cbe891ac79ce",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/approval-bound-private-session-mining/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "b73c8bf7c81d781e56600316afa4e0ef9181dd1c7ffd2a6cc1b2cbe891ac79ce",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/audio-dsp-integrity-review/SKILL.md",
+      "sha256": "f26dba4612e8a749a289f1df66f1481dd752d6db0aff63c1240d4b768269b7f2",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/audio-dsp-integrity-review/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "f26dba4612e8a749a289f1df66f1481dd752d6db0aff63c1240d4b768269b7f2",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/bounded-parametric-design-iteration/SKILL.md",
+      "sha256": "3ebf155034e8f23d095204f8fb82efff24f7988785252a0ad47a9a9d80e26a0c",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/bounded-parametric-design-iteration/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "3ebf155034e8f23d095204f8fb82efff24f7988785252a0ad47a9a9d80e26a0c",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/bounded-service-shutdown/SKILL.md",
+      "sha256": "5257e79b7ac4b30738f54320a80f36adfbf49d0a57087a230de5c4cf2905c41e",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/bounded-service-shutdown/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "5257e79b7ac4b30738f54320a80f36adfbf49d0a57087a230de5c4cf2905c41e",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/bounded-verified-object-ingestion/SKILL.md",
+      "sha256": "cf69c9340313bd2f01c8abc4fbf39a82234062bb2a8b933e30997a31d647301c",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/bounded-verified-object-ingestion/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "cf69c9340313bd2f01c8abc4fbf39a82234062bb2a8b933e30997a31d647301c",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/browser-automation-state-and-verification/SKILL.md",
+      "sha256": "b6b9980be8506ac0405d811dc7cce0cd9ee794addfec5ef61ad647fcf1fa2cca",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/browser-automation-state-and-verification/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "b6b9980be8506ac0405d811dc7cce0cd9ee794addfec5ef61ad647fcf1fa2cca",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/cashflow-forecast-scenario-integrity/SKILL.md",
+      "sha256": "d2b85835f46ac7aba103a43d5ee6eb9ccfe2970f3d17a690e8e9a01fa655a66e",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/cashflow-forecast-scenario-integrity/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "d2b85835f46ac7aba103a43d5ee6eb9ccfe2970f3d17a690e8e9a01fa655a66e",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/columnar-ingestion-rollup-and-query-layout-design/SKILL.md",
+      "sha256": "8cba00eced7f2e84de01c0304aab9e59fed548ae1515bbbc164f568f17951626",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/columnar-ingestion-rollup-and-query-layout-design/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "8cba00eced7f2e84de01c0304aab9e59fed548ae1515bbbc164f568f17951626",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/completeness-and-consistency-audit/SKILL.md",
+      "sha256": "4e434687d0f77a0577c6bd2c8b869fe60d409df5c5e6d5b6ee946771a78d5f71",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/completeness-and-consistency-audit/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "4e434687d0f77a0577c6bd2c8b869fe60d409df5c5e6d5b6ee946771a78d5f71",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/confirmed-destructive-reconstruction/SKILL.md",
+      "sha256": "5faed22a58f2c63d9495bbe6bef0516b38fd6f30111a22709736f0ca90e03d78",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/confirmed-destructive-reconstruction/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "5faed22a58f2c63d9495bbe6bef0516b38fd6f30111a22709736f0ca90e03d78",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/counterbalanced-agent-evaluation/SKILL.md",
+      "sha256": "6242385832a491c290feeb636175210c839a75dcf6bd30526b5cf2f32c99fd7f",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/counterbalanced-agent-evaluation/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "ad8e45793f5ec79ab577789d505893e2a0a7fbf97dfcde7542cb828aee985a88",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/customer-support-triage-and-resolution/SKILL.md",
+      "sha256": "32f0615a91aa2ca3e5933c40e24aa80ae200b9b7394549bf37b42b1d1ba34be0",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/customer-support-triage-and-resolution/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "32f0615a91aa2ca3e5933c40e24aa80ae200b9b7394549bf37b42b1d1ba34be0",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/dependency-supply-chain-integrity/SKILL.md",
+      "sha256": "ba4807f2bdb4ec52eb9e2e96a669fab6c82e6b376afe5aa353fa6aa122cf121f",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/dependency-supply-chain-integrity/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "ba4807f2bdb4ec52eb9e2e96a669fab6c82e6b376afe5aa353fa6aa122cf121f",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/deterministic-video-composition-and-rendering/SKILL.md",
+      "sha256": "ba96605ba3dda38c5fb4334ff8833a3d2083dddb387071c4e250d7bd42ef6a94",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/deterministic-video-composition-and-rendering/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "ba96605ba3dda38c5fb4334ff8833a3d2083dddb387071c4e250d7bd42ef6a94",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/diagnostic-statistical-model-inference/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "a65995b8649d28dc9e9ccd0bdfeb56799435c0eedb143b70590fb3f8b398c367",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/docx-package-redline-and-render-verification/SKILL.md",
+      "sha256": "e90da766438c21f06cc718d2dbeefb1dff920bbcfef0402cd3a5e94be32bffb8",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/docx-package-redline-and-render-verification/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "e90da766438c21f06cc718d2dbeefb1dff920bbcfef0402cd3a5e94be32bffb8",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/ecological-sampling-and-detection-uncertainty/SKILL.md",
+      "sha256": "772099d13ca1371df4ba772315dc5691ec02f12a9f5f62f83b1431ed8972adf3",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/ecological-sampling-and-detection-uncertainty/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "772099d13ca1371df4ba772315dc5691ec02f12a9f5f62f83b1431ed8972adf3",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/eternities-aegis/SKILL.md",
+      "sha256": "49c1d4bf1d6b21794a8dd634679c0268ae99daa967515ee667d3e40788f5749b",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-aegis/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "49c1d4bf1d6b21794a8dd634679c0268ae99daa967515ee667d3e40788f5749b",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/eternities-agora/SKILL.md",
+      "sha256": "763bae5c52442699d9422e08ad68fdeb7466638f5bba5cbd6dfa04e1754da9ac",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-agora/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "763bae5c52442699d9422e08ad68fdeb7466638f5bba5cbd6dfa04e1754da9ac",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "9ec66ba0975124b95877f2ad0a852162008cfd624af2fe823d9752e478940c46",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/eternities-architect/SKILL.md",
+      "sha256": "50d0524c2bbdb64eb8f3a7a82586e7989ffa4002ede3c3deda7ac757f4a660c5",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-architect/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "50d0524c2bbdb64eb8f3a7a82586e7989ffa4002ede3c3deda7ac757f4a660c5",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/eternities-athena/SKILL.md",
+      "sha256": "3bb0ab1d455cb3738db5f1c7645c39fb794b4cfd906dbdcd5269a91269eaa968",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-athena/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "3bb0ab1d455cb3738db5f1c7645c39fb794b4cfd906dbdcd5269a91269eaa968",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/eternities-atlas/SKILL.md",
+      "sha256": "46b06bdd11e52ca6288b32bd720a77715035b5e77a2b52ba1b986a071df18700",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-atlas/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "46b06bdd11e52ca6288b32bd720a77715035b5e77a2b52ba1b986a071df18700",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/eternities-beacon/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "381ae1f0ffee855b14c8c2bda226bb57aa9147be1e7f9a68f94b231fb869a030",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/eternities-chorus/SKILL.md",
+      "sha256": "f1e0d8964acb8dc267b8f3e51a3fbfde3b5b0c8a91aeebfb8517f1b068998d95",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-chorus/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "f1e0d8964acb8dc267b8f3e51a3fbfde3b5b0c8a91aeebfb8517f1b068998d95",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/eternities-daedalus/SKILL.md",
+      "sha256": "1a26dfffe15ecfa2289aaa502e959c07f99eb518c9823ae930536a5c9f829e17",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-daedalus/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "9c3271351a5d8234098a001fa079236ec9c8ea568603cacab3fa5f05e9ee0d23",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/eternities-forge/SKILL.md",
+      "sha256": "41ed525d0b547973ed7c9752d47c7f2fd936196ca8b2edc3b2d3066266c9b597",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-forge/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "96a5bf285a89bb9189064d65880d461683830e314e00a98bce2e45a97f2c0e5b",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/eternities-hephaestus/SKILL.md",
+      "sha256": "5c31073206e35a113aeb7341fa643b2480b0e114b278c37df72260d9b8156f7b",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-hephaestus/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "5c31073206e35a113aeb7341fa643b2480b0e114b278c37df72260d9b8156f7b",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/eternities-herald/SKILL.md",
+      "sha256": "a1b0419458774b0777aa5ad5fb51cc293509e6df7b1872cc5166b7784bc96b64",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-herald/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "a1b0419458774b0777aa5ad5fb51cc293509e6df7b1872cc5166b7784bc96b64",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/eternities-hermes/SKILL.md",
+      "sha256": "a64957e27281ecd3b99a4bd3b2661d860ae0af8171ea630b3a9a01d5545c89cd",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-hermes/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "fd626d425723be905c9375502c6b6fe480df645f057aee00c9517fdcb5257c8c",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/eternities-logos/SKILL.md",
+      "sha256": "f5c84a715a574c350c06b8dc6ee485e43846c2cabd12f39e94cc8ae8cf07b5ba",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-logos/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "f5c84a715a574c350c06b8dc6ee485e43846c2cabd12f39e94cc8ae8cf07b5ba",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/eternities-mnemosyne/SKILL.md",
+      "sha256": "0d4b18975e93a30191c3371d7f3e4537be56aa6c021e75ee84a6d9210c8bed9a",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-mnemosyne/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "121f1d7db8183b2bc8cdb6acce8654aac92f76f4cae74ad1f823864cba4bf392",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/eternities-muse/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "838da70f041be41d0d28fa9e735241c303240b4355f1770dba5b7b7998afc05b",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/eternities-omnibus/SKILL.md",
+      "sha256": "6009e4015f56b00cab8e7142a67273e7be6be2de8bb955e6d9383320b5107c4d",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-omnibus/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "6009e4015f56b00cab8e7142a67273e7be6be2de8bb955e6d9383320b5107c4d",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/eternities-oracle/SKILL.md",
+      "sha256": "528b78eeb7208203a0fca382d7a52276ddf12778df7da3c993b34f39747bf420",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/eternities-oracle/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "796145f66a4f5d9cacadd55319e541234db9b7ac3b4d704f8b7411c949fce4cd",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/eternities-orpheus/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "083f4461cf7a28dd5a2b25bd3e2c2d05448b74b92aaa5d87b5daa50753c2c48e",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/eternities-phoenix/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "d2be7f2ba4ec16d25e6a44084624bae2d01e416089c5d79cb85b0af1e543a284",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/eternities-prometheus/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "3bdb3c567c215cee7552d846abdcfd87024e6a5787e394d6526799f24c008ab6",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "ca165d7209df55696719f58dbad0042a41bfe6164408099cf8ab0dc90e85d160",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/experiment-artifact-lineage/SKILL.md",
+      "sha256": "92da8b7ef85c7b308d7e4842e3ef3de02ce4b54061a9603e2338fa6d676682fe",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/experiment-artifact-lineage/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "92da8b7ef85c7b308d7e4842e3ef3de02ce4b54061a9603e2338fa6d676682fe",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/financial-statement-reconciliation/SKILL.md",
+      "sha256": "cfcb104de4c4ae024e5f95c1202db98d3cd3b1bbdb51ec37549cc368e67d7346",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/financial-statement-reconciliation/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "cfcb104de4c4ae024e5f95c1202db98d3cd3b1bbdb51ec37549cc368e67d7346",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/formula-preserving-workbook-engineering/SKILL.md",
+      "sha256": "69f701204ba80a60752567ceb646332714ff945f8bee9ab063ec3ef496d1d946",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/formula-preserving-workbook-engineering/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "69f701204ba80a60752567ceb646332714ff945f8bee9ab063ec3ef496d1d946",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/fp-ts-functional-refactoring/SKILL.md",
+      "sha256": "65ed967d0043c3bddc61508f6ee16870b2e56b7d6ba425922f91f1e28e919539",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/fp-ts-functional-refactoring/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "65ed967d0043c3bddc61508f6ee16870b2e56b7d6ba425922f91f1e28e919539",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/genomic-coordinate-assembly-and-variant-gates/SKILL.md",
+      "sha256": "ddd47cf59e9bc156fbf82478ffa14693882611f0f478f697f9aaa775eb96dedb",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/genomic-coordinate-assembly-and-variant-gates/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "ddd47cf59e9bc156fbf82478ffa14693882611f0f478f697f9aaa775eb96dedb",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/geospatial-coordinate-integrity/SKILL.md",
+      "sha256": "ef14fd4bc877408a1acb6c24efb09557a4a02d65a6688fd22e3dfe893ce65ce0",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/geospatial-coordinate-integrity/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "ef14fd4bc877408a1acb6c24efb09557a4a02d65a6688fd22e3dfe893ce65ce0",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/git-change-integration-and-recovery/SKILL.md",
+      "sha256": "21ce930065c0e9a3f8d8b00aa37a34325bb798b2c755bfbf2143598b6ab5c003",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/git-change-integration-and-recovery/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "21ce930065c0e9a3f8d8b00aa37a34325bb798b2c755bfbf2143598b6ab5c003",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/imaginative-concept-development/SKILL.md",
+      "sha256": "5a1b550f7db546470d93a73106f972d59cf1cf4be21cc6e7c8d08cb7f9fd95c7",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/imaginative-concept-development/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "5a1b550f7db546470d93a73106f972d59cf1cf4be21cc6e7c8d08cb7f9fd95c7",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/infrastructure-plan-apply-isolation/SKILL.md",
+      "sha256": "5a77c8f4e48c23fc8d37548cbf15b5970e941173e514873acdd4e64adb7f896e",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/infrastructure-plan-apply-isolation/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "5a77c8f4e48c23fc8d37548cbf15b5970e941173e514873acdd4e64adb7f896e",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/interatomic-model-validation/SKILL.md",
+      "sha256": "fa1e1443277a7ded60d3f4bca483695b53e7c1511d4b5878d296ebeabd878583",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/interatomic-model-validation/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "fa1e1443277a7ded60d3f4bca483695b53e7c1511d4b5878d296ebeabd878583",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/interface-localization-and-bidirectionality/SKILL.md",
+      "sha256": "130843a1f8e9291ddec993bc7b110ce3bafd1d12f7e61773f44dcd635e9d54f4",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/interface-localization-and-bidirectionality/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "130843a1f8e9291ddec993bc7b110ce3bafd1d12f7e61773f44dcd635e9d54f4",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/interpersonal-understanding-and-dialogue/SKILL.md",
+      "sha256": "dfa4af05ca5b68aa6db7252d70dc0d2b57a610f4fa0f49104fe3b07eb1cacc74",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/interpersonal-understanding-and-dialogue/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "dfa4af05ca5b68aa6db7252d70dc0d2b57a610f4fa0f49104fe3b07eb1cacc74",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/invariant-guard/SKILL.md",
+      "sha256": "660357745a6d16fb81b5a98d12c3361a5d22a826a29858be0dbc9020b24f593f",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/invariant-guard/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "660357745a6d16fb81b5a98d12c3361a5d22a826a29858be0dbc9020b24f593f",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/jurisdiction-aware-contract-review/SKILL.md",
+      "sha256": "c600a5c1b47f652f435c4b0a1cb8d71ee043de7b801eff34aeb25a2b04c43303",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/jurisdiction-aware-contract-review/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "c600a5c1b47f652f435c4b0a1cb8d71ee043de7b801eff34aeb25a2b04c43303",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/knowledge-base-architecture-and-maintenance/SKILL.md",
+      "sha256": "c1fe39e77589ae5eb12b08543b834f195a1b1bba82d5fc3bf82322eb010820c1",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/knowledge-base-architecture-and-maintenance/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "c1fe39e77589ae5eb12b08543b834f195a1b1bba82d5fc3bf82322eb010820c1",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/landscape-connectivity-analysis/SKILL.md",
+      "sha256": "eb672da289c1623e024d2f79008e2b37c1ecbc186939e1c1805a90b01103ec07",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/landscape-connectivity-analysis/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "eb672da289c1623e024d2f79008e2b37c1ecbc186939e1c1805a90b01103ec07",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/lazy-tabular-transformation-and-validation/SKILL.md",
+      "sha256": "848d222b70cf24d9ef86af68a4ec6bfeacf889c8f75f36a3facfabf66a7b1c77",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/lazy-tabular-transformation-and-validation/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "848d222b70cf24d9ef86af68a4ec6bfeacf889c8f75f36a3facfabf66a7b1c77",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/SKILL.md",
+      "sha256": "d0487cb608de140f11305ffcd63f837fbe56c018b029ccd70f0da04c97a51a0b",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "83584469ab0faf64844451aba67bfe4e9325d2c1f7d6580ff951bc90d3a34f5d",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/measured-paid-creative-iteration/SKILL.md",
+      "sha256": "769e7fb4b916bcf989f9458e9f23912a110d39be0f8bcf0a502f9ddc86b136e3",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/measured-paid-creative-iteration/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "769e7fb4b916bcf989f9458e9f23912a110d39be0f8bcf0a502f9ddc86b136e3",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/SKILL.md",
+      "sha256": "6621d8bb0924cd386831eae2004144d3006206359de4fdaa1d2385fcdca4d38e",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "36c14c3b62bdf72c2b12bf4678ec44223bd0c3064528a7f1b34d7df4fcc966e7",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/molecular-observable-integrity/SKILL.md",
+      "sha256": "b12a8fb9fe39291b289eac55ee81f11df7baf274e088d5cb843fbc44256f7149",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/molecular-observable-integrity/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "b12a8fb9fe39291b289eac55ee81f11df7baf274e088d5cb843fbc44256f7149",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/motion-design-and-animation-engineering/SKILL.md",
+      "sha256": "9f9f17e2bf49fa039f11239bbbc0adf9e98df12e21f1c1f8a8f3343d282719ea",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/motion-design-and-animation-engineering/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "9f9f17e2bf49fa039f11239bbbc0adf9e98df12e21f1c1f8a8f3343d282719ea",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/narrative-structure-and-revision/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "78f2055cd08ca31fccdd779865267d939ba7763b1402e0133cd0ddb1a3d203ba",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/native-mobile-interaction-testing/SKILL.md",
+      "sha256": "0b2f0175201eae491d62bf868771bb9cd79352ebc8249c52b99f57898ab46227",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/native-mobile-interaction-testing/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "0b2f0175201eae491d62bf868771bb9cd79352ebc8249c52b99f57898ab46227",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/operating-cadence-and-decision-accountability/SKILL.md",
+      "sha256": "a03d89234106b30da8e99ffe6e738f58408e03727d2909431a119aca6b5c56c1",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/operating-cadence-and-decision-accountability/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "a03d89234106b30da8e99ffe6e738f58408e03727d2909431a119aca6b5c56c1",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/performance-release-gating/SKILL.md",
+      "sha256": "e96f776e506d9eb98eb32df919a64c3c30520d99a5317f9b0f5eb1cb6db42de5",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/performance-release-gating/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "e96f776e506d9eb98eb32df919a64c3c30520d99a5317f9b0f5eb1cb6db42de5",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/physics-constrained-numerical-validation/SKILL.md",
+      "sha256": "c5512e9c716c1ccf45e39d31373323b06703c8dd17038e26ddf17f554e036adb",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/physics-constrained-numerical-validation/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "c5512e9c716c1ccf45e39d31373323b06703c8dd17038e26ddf17f554e036adb",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/portable-speech-chunk-alignment/SKILL.md",
+      "sha256": "93283ef9cf5b93a365d1fb7da970efb0c7afc2961385631909320856b9178166",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/portable-speech-chunk-alignment/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "93283ef9cf5b93a365d1fb7da970efb0c7afc2961385631909320856b9178166",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/pricing-and-packaging-experimentation/SKILL.md",
+      "sha256": "d8faaa71a46cf3e95f5e6e27f8990138c2b0abf97ef921f6fb5162549ce82418",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/pricing-and-packaging-experimentation/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "d8faaa71a46cf3e95f5e6e27f8990138c2b0abf97ef921f6fb5162549ce82418",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/procedural-world-generation-and-validation/SKILL.md",
+      "sha256": "1da065a061c15a19112eadce6efc5a018be76a8663c2280ae946e14a30c55da3",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/procedural-world-generation-and-validation/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "1da065a061c15a19112eadce6efc5a018be76a8663c2280ae946e14a30c55da3",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/product-discovery-and-prioritization/SKILL.md",
+      "sha256": "4470f2f92b284dad9a577105c8c751ebc3beb8f08bd8982e942149529ac7be24",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/product-discovery-and-prioritization/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "4470f2f92b284dad9a577105c8c751ebc3beb8f08bd8982e942149529ac7be24",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/release-script-safety/SKILL.md",
+      "sha256": "c5efb81bb955cd91bb0636e7de517ea61c0c347224534014d787dd85b5206d57",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/release-script-safety/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "c5efb81bb955cd91bb0636e7de517ea61c0c347224534014d787dd85b5206d57",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/retrieval-grounded-answering/SKILL.md",
+      "sha256": "9699b65853adf21b4e285c2b357295ea401822b0dbda46eb168510cb1d654236",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/retrieval-grounded-answering/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "9699b65853adf21b4e285c2b357295ea401822b0dbda46eb168510cb1d654236",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/robotics-test-ladder/SKILL.md",
+      "sha256": "e316f375d1ded3f3f8d44b60739eab1f503f0fe338d41720f49d972c79261600",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/robotics-test-ladder/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "e316f375d1ded3f3f8d44b60739eab1f503f0fe338d41720f49d972c79261600",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/scene-continuity-and-coverage/SKILL.md",
+      "sha256": "78237dfcd4e7b71f5d16742cc47364ed3bad51774ab8bd9ab7f1da215f5359e8",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/scene-continuity-and-coverage/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "78237dfcd4e7b71f5d16742cc47364ed3bad51774ab8bd9ab7f1da215f5359e8",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/schema-migration-and-backfill-safety/SKILL.md",
+      "sha256": "6fad6670b742088afd1d4f4b3b7d5cc4715f18f235673e71f8c97c969c4fca65",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/schema-migration-and-backfill-safety/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "6fad6670b742088afd1d4f4b3b7d5cc4715f18f235673e71f8c97c969c4fca65",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/scientific-surrogate-validation/SKILL.md",
+      "sha256": "bb13e6221b81e3dd20d182014314bbf5021940e80c5793ad5492f85bf0e62642",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/scientific-surrogate-validation/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "bb13e6221b81e3dd20d182014314bbf5021940e80c5793ad5492f85bf0e62642",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/semantic-implementation-diff/SKILL.md",
+      "sha256": "9d790f26786f711482d0b2cb6b460d80d56099492a60e9686092b73f7553ab77",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/semantic-implementation-diff/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "9d790f26786f711482d0b2cb6b460d80d56099492a60e9686092b73f7553ab77",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/service-observability-and-slo-design/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "6de3cf2118becf3082c2364dc60eded63a0b17bc5dabf37c42535b01c5c7a95b",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/sovereign-skill-refinery/SKILL.md",
+      "sha256": "3b129a831750723e0d42100d989ada2ed140481866ef8dc4e48865a7cea910c5",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/sovereign-skill-refinery/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "3b129a831750723e0d42100d989ada2ed140481866ef8dc4e48865a7cea910c5",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/structured-hiring-evaluation/SKILL.md",
+      "sha256": "06d362d9881ccdbafa57994e1b3710793b3478e3eb316d537505da834096079b",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/structured-hiring-evaluation/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "06d362d9881ccdbafa57994e1b3710793b3478e3eb316d537505da834096079b",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/structured-output-contracts/SKILL.md",
+      "sha256": "0650ce7e3aaa652071cc53df6bc8d882fdf1f2359c0543a1b9e3e7d8bdafb668",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/structured-output-contracts/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "0650ce7e3aaa652071cc53df6bc8d882fdf1f2359c0543a1b9e3e7d8bdafb668",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/symbolic-mathematics-python/SKILL.md",
+      "sha256": "ad82634d58c4cbd2901b31e2475017f60c8cbfa820c9b929a76a4bc7b9d09a86",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/symbolic-mathematics-python/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "ad82634d58c4cbd2901b31e2475017f60c8cbfa820c9b929a76a4bc7b9d09a86",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/terrain-watershed-analysis/SKILL.md",
+      "sha256": "5e62dd5f892cb4fd8ed05b4be7bec099cc783cc92c3fd5aa5ce11a0d42dd9a96",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/terrain-watershed-analysis/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "5e62dd5f892cb4fd8ed05b4be7bec099cc783cc92c3fd5aa5ce11a0d42dd9a96",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/user-research-and-usability-study/SKILL.md",
+      "sha256": "5b97406753e8b00a746db1e99b7d36ebc93bb8b708454a9dba265c09234363d4",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/user-research-and-usability-study/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "5b97406753e8b00a746db1e99b7d36ebc93bb8b708454a9dba265c09234363d4",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/vendor-evaluation-and-exit-planning/SKILL.md",
+      "sha256": "477ae4c9feede6cdd31f452c9d2f20064c8c99fe393377fa66e080c99e93db80",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/vendor-evaluation-and-exit-planning/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "477ae4c9feede6cdd31f452c9d2f20064c8c99fe393377fa66e080c99e93db80",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/venture-falsification-and-planning/SKILL.md",
+      "sha256": "7b6b75a9f8a76f0101d58cc6fa91a57839c40163685a081af108ce8710f66a90",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/venture-falsification-and-planning/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "7b6b75a9f8a76f0101d58cc6fa91a57839c40163685a081af108ce8710f66a90",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/voice-style-calibration/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/web-performance-optimization/SKILL.md",
+      "sha256": "9ae95c2503cd3800a9ad0dacc7190e52f613eaf08d92d8d1b2431e0e24399100",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "product/skills/web-performance-optimization/SKILL.md",
+      "revision": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "sha256": "9ae95c2503cd3800a9ad0dacc7190e52f613eaf08d92d8d1b2431e0e24399100",
+      "mode": "canonical Git object byte comparison"
+    },
+    {
+      "path": "product/skills/accessibility-audit-and-remediation/skill.json",
+      "sha256": "34832196f4d2fe6e0269d89af9213a46bc8cd4717712c525a39e48a1777902f4",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/agricultural-observation-and-trial/skill.json",
+      "sha256": "ee6e741e16650be93fcb245c8e2f75edf135d2ea79bdef29dfe184c56cdb933f",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/api-contract-design-and-evolution/skill.json",
+      "sha256": "9fcd3a617f83a7fd3f94cb1866b714cd1c9d8570eaad453f9ae172a33588f8e4",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/api-rate-limit-recovery/skill.json",
+      "sha256": "d44cb783cf5c2144327ec2e2946c964b5ff667d164437a1b711dda2851c40387",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/app-store-discovery-experiments/skill.json",
+      "sha256": "339762bee9feb3a7c55db745b80dd68b819be86fe036abb3e67736d4bef3e757",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/approval-bound-private-session-mining/skill.json",
+      "sha256": "0521f0687700ec2e74d70ab89995a681447a7fce3b9b69e40f274c0760c495ba",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/audio-dsp-integrity-review/skill.json",
+      "sha256": "c7f05ff43b354c2a79812ee8cbca9c833bfa9db7fe92ffdc2e4eca4d724adec9",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/bounded-parametric-design-iteration/skill.json",
+      "sha256": "cdd8b652379f4c3bee95a8452f6352c86ee930baabc0f2af91e87b51854ecf77",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/bounded-service-shutdown/skill.json",
+      "sha256": "5e8d0f21e8d996087b573e53cbbd7ca3ff4e06fdadb0c7b276bc0e5da2a75f97",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/bounded-verified-object-ingestion/skill.json",
+      "sha256": "26da1859217d796aded8fb89a4a9ca43555921726a0db1534b4808c02eeb9c5a",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/browser-automation-state-and-verification/skill.json",
+      "sha256": "1b0b969005cdccf1fee8f509436b5e294748428cfb4f30283db532ecc0e6676f",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/cashflow-forecast-scenario-integrity/skill.json",
+      "sha256": "6792423b54ff667e97bbe3acb6e7825f1c522a37fe9507f29f86fed926dc8bac",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/columnar-ingestion-rollup-and-query-layout-design/skill.json",
+      "sha256": "5876f8733d4590b7ceb5975865e06e6dba222b4e73885cf13af945a6991bb513",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/completeness-and-consistency-audit/skill.json",
+      "sha256": "da1004f5dc182e69ecf6b0324c29e3c2734639269be7f583814a6da0afc911ed",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/confirmed-destructive-reconstruction/skill.json",
+      "sha256": "2481bd8ef1d83414cfbb05865de9bffd247b375e2708c37df9b7277f813f9016",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/counterbalanced-agent-evaluation/skill.json",
+      "sha256": "e9e1963c49e735a281788279bf6cb5cc89c76b414e04b59fab79be25b33ef6bf",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/customer-support-triage-and-resolution/skill.json",
+      "sha256": "8dea394c14591bd7ffc35443dc6b254a15b443667c7aee13aad328488f2fb0ae",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/dependency-supply-chain-integrity/skill.json",
+      "sha256": "4c4fba9b868f0da8a0fec249d512d2c0e981151d342f2a48a198a5f1463a00f9",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/deterministic-video-composition-and-rendering/skill.json",
+      "sha256": "4bef42d6dd7bda94a28ba939f013f7e9b9a6e62f1e3fe51ed9f03ad5e6056cbf",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/docx-package-redline-and-render-verification/skill.json",
+      "sha256": "45fb23c86d2244350222c4842b2e6fdb1a276d603d8c26d960dad93132a409cd",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/ecological-sampling-and-detection-uncertainty/skill.json",
+      "sha256": "b99dad708acef989811c6315532284ca70b1f1fa44d7c4473e7004f310d7a18c",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/eternities-aegis/skill.json",
+      "sha256": "8d703ca763191e5b9840000fc61e0c6619fdd66f9dc91624f96da0edc2e8c459",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/eternities-agora/skill.json",
+      "sha256": "a59a8eee96b38029b3df31f564fb312b39f44a0716ad0b44f4fbdbaa89a8393f",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/eternities-architect/skill.json",
+      "sha256": "8952a21e1bf43fe6e64498c17c9400bfeb8d5e8be9f8913d9dda6e4a84108a13",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/eternities-athena/skill.json",
+      "sha256": "2f1ed1ac29658e26fc3aa7fc541bf6232c8993c59cb58a58bb8b77c058fa49ac",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/eternities-atlas/skill.json",
+      "sha256": "1699cdb6b8f095ac2a76d4910fa92e002966f6ee6dbfaea2992579e5ff58e06b",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/eternities-chorus/skill.json",
+      "sha256": "a282595b4593847fdd9a7c7e4ddc426a5da17095fbadec4065c39102efa6fe91",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/eternities-daedalus/skill.json",
+      "sha256": "a627727d097481928f009b478527f09d6c44f0c65a7afd3f15f7c1603fb1c1d7",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/eternities-forge/skill.json",
+      "sha256": "af03b86ab49cac6e9ae4fd2f13bc7bfca9b563e66a6dcaded46d118ef8713fec",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/eternities-hephaestus/skill.json",
+      "sha256": "282187d90667fe52687c616933864b20926dc326afa529cfe432330afea7e030",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/eternities-herald/skill.json",
+      "sha256": "7f2e25ea6b271272e2be463f2ae8322137f72266e937cf452c5abd38e23944d7",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/eternities-hermes/skill.json",
+      "sha256": "f36f49d7de25d8639a087c3d7884a9a90421ed2f481bfd3970a22bf9a712e04e",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/eternities-logos/skill.json",
+      "sha256": "f086c026d19a06946e5b84d7642c98bd43dc7acd72bcb4b274f8ca9263902d4e",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/eternities-mnemosyne/skill.json",
+      "sha256": "9741df2de726741abf78a5383f54e74d72df0f3dd954330faede0f30637e5e14",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/eternities-omnibus/skill.json",
+      "sha256": "d3064e97c1f25d87adef40c2fca4228a9ed0f35d13606db1ad2d193d689e059d",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/eternities-oracle/skill.json",
+      "sha256": "ca73ebc6b2b8d7c1adcc00f74aa2fb28ad3705c4f1b7727024656dffcd5c23b0",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/experiment-artifact-lineage/skill.json",
+      "sha256": "0977e43f9ebfa31a432f3cb4ee8472df7cdb97d873947951440328c1106b4d47",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/financial-statement-reconciliation/skill.json",
+      "sha256": "b642f8dfe7feca2f4ee412af16fe78f4d546cfe3c00acd2f292cd7c66e14b68f",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/formula-preserving-workbook-engineering/skill.json",
+      "sha256": "14fd8f40e38f63256a84ddbe70fd9fd419261f0a506c9c5286314d27cfef4517",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/fp-ts-functional-refactoring/skill.json",
+      "sha256": "53ecbd37e67e9fef211bb354da67e0b4114eda737f900792d1361facc0a85ae9",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/genomic-coordinate-assembly-and-variant-gates/skill.json",
+      "sha256": "adc0cf6ef8d3cc823c56de2a6390979fb7a1e8341160feeedc84456c86c94ee7",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/geospatial-coordinate-integrity/skill.json",
+      "sha256": "ff7a9264006771ae6d4cb3e1d0a25a94bd7aea39dd5433ccf70c0c4b2371b318",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/git-change-integration-and-recovery/skill.json",
+      "sha256": "23b3e598c5b79e73a0333e5b46b9f2c22c92441537c156e8527b67e26031322f",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/imaginative-concept-development/skill.json",
+      "sha256": "90fed2e5797f81f5affb2a1119260a9b885dbe5f7868ade0d20f96abbf304eff",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/infrastructure-plan-apply-isolation/skill.json",
+      "sha256": "b29076c87709fad9c6cf0219b0f3650e14c4728d8fff0a5f6a2ebe3ccfffaecb",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/interatomic-model-validation/skill.json",
+      "sha256": "34ec8e35b224bba26150e8b2128f734f214a0ecfc4215ef5c8ce61172e744972",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/interface-localization-and-bidirectionality/skill.json",
+      "sha256": "3e927eae13bb5d25370f6291478a6b3aa5d4c10566462ac036a0333ad4bedf03",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/interpersonal-understanding-and-dialogue/skill.json",
+      "sha256": "a582d6717d1eccc2516d787b987ffebe16f704d98a12f64b3cfe2feb31c71101",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/invariant-guard/skill.json",
+      "sha256": "77e8ffe06ad0ef408e40f7bd2eaf21fa8a670d6886bd3b2a2a7e73ea4aaec35f",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/jurisdiction-aware-contract-review/skill.json",
+      "sha256": "3cc4bb731582cb173b4f13fd500316003bb97aa39cab6c84e2d2aefe8f764158",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/knowledge-base-architecture-and-maintenance/skill.json",
+      "sha256": "8ef576fabecbbbbc038408726a5ba105f0ae04008a5e94455c822cb99dc6b3a8",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/landscape-connectivity-analysis/skill.json",
+      "sha256": "0038f2d442ecaea04d8fcb82fdd4bb2634b2142dd5a5c1c5ad843b7bd79a9882",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/lazy-tabular-transformation-and-validation/skill.json",
+      "sha256": "7d4c7db142249ba397c8614dc2f36f0d746c923becaab1876e935b623558442d",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/skill.json",
+      "sha256": "5fa7b436fa35069441e9d690c3cd82b4e8ecc16e6aa72c8661d5c0cd79d273d2",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/measured-paid-creative-iteration/skill.json",
+      "sha256": "ef42b77e2179937767e4bab624272e2b26c5c71d52cad7f20247c95bc9e7a99b",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/skill.json",
+      "sha256": "d430c9842dc5a3c604ebd7afda911edfb6a37ead8b631e54de4b3c4c7054bacd",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/molecular-observable-integrity/skill.json",
+      "sha256": "9818b45f8980c54581dfebf5cc8a7931606980d358e15b93206a0cdaca771557",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/motion-design-and-animation-engineering/skill.json",
+      "sha256": "81e8e2b2ea872cc9460bc867e9383997574af711a9a08fda72e340a313efeea0",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/native-mobile-interaction-testing/skill.json",
+      "sha256": "f5618e9d35e18810edf177733af7e9088fe3bfc7c0e569ff79f22f526e178325",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/operating-cadence-and-decision-accountability/skill.json",
+      "sha256": "59cf6450920fce4e5fc1ef3f77d0055bc7d7dfda81a58d109646f553e3ca1792",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/performance-release-gating/skill.json",
+      "sha256": "3f8c6b2f9ce4983eb271b553f6369d117f27487e163017d3ea6adcb1b5cb48ff",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/physics-constrained-numerical-validation/skill.json",
+      "sha256": "0448c1bd34edb10c530c38fab790c68526b2e7d20a02669171dba189dff1dfd1",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/portable-speech-chunk-alignment/skill.json",
+      "sha256": "16c8807d79d165f96d92237de04f4d7583a71363f89161aa4aeee619edbe5df1",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/pricing-and-packaging-experimentation/skill.json",
+      "sha256": "ca11c48c8c80bb8ace9b0df7e8e49d553d2dc9a089ac9991407e08342eade0d7",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/procedural-world-generation-and-validation/skill.json",
+      "sha256": "d833d6b1a067112f8d98f21f2ae73af530bfab3b3978839fc1f0bfd6ffd7a815",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/product-discovery-and-prioritization/skill.json",
+      "sha256": "7e5c528eed6d6272eda6302176062f6ba12ea6ac35f5a44696e2c88d065e2cf6",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/release-script-safety/skill.json",
+      "sha256": "e0c7914cd7783812a7364b8a598bf19deac12f74b2f3c9afcea6882ad4c3a3f8",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/retrieval-grounded-answering/skill.json",
+      "sha256": "18cd6faec3f22d9d541d16577c2478b8443b0f762c18fa4fa3f97232d9e2cffd",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/robotics-test-ladder/skill.json",
+      "sha256": "f7e1bcd259ffd7d99af8980bfd51f6170033cf4242a4a0de6ed6c1d61772ab5e",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/scene-continuity-and-coverage/skill.json",
+      "sha256": "99f454dac581983bd60c1f97a4a8fc9a8d908f857b0c7a4690796d5278173426",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/schema-migration-and-backfill-safety/skill.json",
+      "sha256": "bf45aeeffa8ea55e83506b45f9ac06f19d0e078bfbf8a7fdab6549f1247565bb",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/scientific-surrogate-validation/skill.json",
+      "sha256": "3b6a994dec49b0c90e2c9cb463c8d75ca3ffb297c2f6294eb0d85cf9824b5e23",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/semantic-implementation-diff/skill.json",
+      "sha256": "f6273fe925468bf892e410556f830b91703ba91fd823a6862449608916c92a66",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/sovereign-skill-refinery/skill.json",
+      "sha256": "74312faea90f51a56aefdc6b6261afc4e350adf16cdbba2d199623dbce955e0f",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/structured-hiring-evaluation/skill.json",
+      "sha256": "4fae2efd6db75899da73a899b69a3b3faeb87f0f6962299e7b879ccdbc45229c",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/structured-output-contracts/skill.json",
+      "sha256": "875a67254ad63a647885d210e14828b365a08bf99a7829f7e68063fb241a953e",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/symbolic-mathematics-python/skill.json",
+      "sha256": "f1d10d6425f86a0750496530ca184f07386231b4eb52be4d1b2d8262b5abf2ce",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/terrain-watershed-analysis/skill.json",
+      "sha256": "078e2c0fea4f018546e0072c5c02f6f62305fa8768ff7e480fd3e5bc49d00cd5",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/user-research-and-usability-study/skill.json",
+      "sha256": "38f70d71e8f0824737279e1b2cf7f041c07f5397258cee2429860567c9fe7ee4",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/vendor-evaluation-and-exit-planning/skill.json",
+      "sha256": "3dac0d05038a6b3c15b42905c650b8ce8e3c1f6c64c45ec98bc7c8ed3de5a53c",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/venture-falsification-and-planning/skill.json",
+      "sha256": "de985b2f08d7d56888c7e529756c019ecc72e6bc83a25145bb779e948ec0f17b",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "product/skills/web-performance-optimization/skill.json",
+      "sha256": "157c41109e4fd8e0a727fb11a193d57f987f10eed40a0235a66be563c69ae433",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-a-final-nietzsche/REVIEW.md",
+      "sha256": "c2841eed24c0bffc9434f712bb01cd6d11207c57d84c3a0ade5d620feb182e20",
+      "mode": "byte hashing only; no substantive re-review"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-a-final-nietzsche/review.json",
+      "sha256": "18763bec98cb63df3a77640c0ba2b78ed010a29704a7333b114e8dc0c2b96868",
+      "mode": "JSON/evidence inspection"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-a-final-nietzsche/final-bind.json",
+      "sha256": "9e2fadf404010805a45021057b31f29b3f147012250a2004b0d655f79de36369",
+      "mode": "JSON/evidence inspection"
+    }
+  ],
+  "limits": [
+    "No assembler/build/suite/product-code execution.",
+    "Hashes and selected routing contexts only; no method-body reacceptance or A self-review.",
+    "A/B/D independent content judgments are attributed to their actual source reports, not this mechanical reviewer.",
+    "Parent release identity and 334-file count are context, not independently recomputed release acceptance.",
+    "Reported 13/13 public CLI cases are not rerun or adopted here.",
+    "Coverage proves body identity and changed counts, not every historical author reading event or corpus/reference coverage.",
+    "No performance, rights, deployment, universal retrieval or global release qualification."
+  ]
+}

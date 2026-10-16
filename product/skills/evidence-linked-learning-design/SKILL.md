@@ -21,6 +21,8 @@ Write the smallest set of outcomes the requested lesson or unit needs, as action
 
 ## Build the experience
 
+When the task needs actual practice items, use [practice and transfer](references/practice-and-transfer-v1.md) to distinguish imitation from selecting and applying the underlying principle. It supplies worked contrasts, feedback choices and transfer prompts without requiring stored learner records.
+
 1. When prerequisite understanding is unknown or could change the lesson, use a brief diagnostic and specify what changes if it reveals a gap. Reuse current supplied evidence when sufficient.
 2. Sequence explanation, a worked example or investigation, supported practice, and independent application. Choose the sequence for the content; do not force one teaching ideology onto every subject.
 3. Make the important reasoning visible in the example. Include a plausible wrong answer and a prompt that helps distinguish the misconception from a careless error.

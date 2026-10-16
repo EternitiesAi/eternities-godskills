@@ -9,7 +9,7 @@ Arcadia is the game-development route for work that spans design intent and play
 
 ## Choose the route
 
-- **Direction** settles the physical action, repeatable loop, session shape, failure, progression, pacing, narrative revelation, economy boundaries, platform, and anti-goals.
+- **Direction** settles the physical action, repeatable loop, session shape, failure, progression, pacing, narrative revelation, economy boundaries, platform, and anti-goals. For a first playable loop or a mechanically working but weak experience, use [core-loop playtest](references/core-loop-playtest-v1.md) to distinguish legibility, agency and development across repetitions.
 - **Runtime systems** turns a settled direction into simulation time, input intents, persistence, authority ownership, non-player behavior, migration, reconnect behavior, and performance budgets.
   - For imported meshes or models entering a game or interactive scene, use [real-time 3D asset integration](references/realtime-asset-integration.md) when transforms, materials, dependencies, collision, animation, or packaged behavior need checking. Select only the relevant checks; asset generation and offline rendering are different tasks.
 - **Player experience** aligns feedback, controls, motion, sound, visual language, access settings, and device cost so the player can understand what happened and what to do next.
@@ -30,3 +30,7 @@ Arcadia is the game-development route for work that spans design intent and play
 Deliver the requested design, playable change, experience decision, or release assessment with its relevant constraints, evidence, gaps, performed effects, and human-verdict status. A route handoff is sufficient only for a requested handoff; a build request needs the implemented slice and applicable checks. Use the spatial and real-time cards in [methods.md](references/methods.md) when comfort, interaction, frame, memory, visibility, or determinism is the question.
 
 For browser-hosted games or interactive 3D scenes, use [browser runtime lifecycle](references/browser-runtime-lifecycle.md) when resizing, input focus, asynchronous assets, repeated mounting or rendering cleanup matter. It is conditional guidance, not a mandatory engine or platform.
+
+## Conditional method
+
+For an authored asset that reads poorly from the intended gameplay camera, use [camera-driven asset iteration](references/camera-driven-asset-iteration-v1.md). It distinguishes shape, deformation, shading and runtime cost; routine import verification stays in the asset-integration method.

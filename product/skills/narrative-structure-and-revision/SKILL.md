@@ -57,3 +57,7 @@ branch checks when applicable, and deliberate open threads. A plan-only request
 can finish with an outline; a writing request needs the writing. Mechanical
 consistency supports the art without certifying its beauty or requiring every
 question to receive an answer.
+
+## Conditional method
+
+For a concrete mystery, dramatic-irony or withheld-meaning problem, use [reader knowledge and reveal revision](references/reader-knowledge-and-reveal-revision-v1.md). Revise the actual passage while preserving intended ambiguity; editorial prediction is not observed reader response.

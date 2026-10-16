@@ -1,0 +1,17 @@
+{
+  "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/skills/eternities-arcadia/SKILL.md",
+  "recordedReadSetSha256": "caec30216514889af27b9d4edb6d3aed4cfe05c9e3e2fa6f2c5f37306528e377",
+  "laterFullReadSha256": "b217515c82a89239839e6dd16aa12891b92ad3d055f16ee68eaab854bde33693",
+  "laterFullReadLocalDate": "2026-10-16",
+  "observation": "Parent-owned Arcadia body added a core-loop-playtest reference after the lane's recorded successful read-set check. The later body was fully read using the exact same buffer that produced the later hash.",
+  "disposition": "Preserve the original read-set and successful check receipt as historical evidence. Do not silently replace comparison bytes or claim the old check is current. Candidate authoring method remains distinct from the new core-loop route and existing import route. Parent must review against final product bytes.",
+  "effectOnStageIntegrity": "None; all six stage sources and their selected-body hashes are independent of the product comparison.",
+  "reproductionBoundary": "The strict read-set check intentionally reports drift if rerun against the later product body. This is a comparison/integration hold, not an acquired-source defect or a reason to edit parent-owned files.",
+  "alsoRefreshed": [
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/START-HERE.md",
+      "sha256": "900b5b72fad4fdda396665218530d1caba050ccc23d20d72b8486f638ef797f8",
+      "read": "full body, identical to recorded read-set hash"
+    }
+  ]
+}

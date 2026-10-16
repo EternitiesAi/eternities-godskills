@@ -7,7 +7,8 @@
     "learning outcomes teaching assessment",
     "differentiate instruction for varied prior knowledge",
     "substitute teacher facilitator handoff classroom cover notes",
-    "student report comments teacher observations achievement judgments"
+    "student report comments teacher observations achievement judgments",
+    "contrastive learner practice feedback and transfer tasks"
   ],
   "antiTriggers": [
     "Professional certification or guaranteed outcomes without appropriate evidence and qualified review"
@@ -23,9 +24,19 @@
     "eternities-athena",
     "eternities-muse"
   ],
-  "resources": ["references/handoffs-and-reporting.md", "references/educational-microsimulation.md", "references/support-transition.md"],
+  "resources": [
+    "references/handoffs-and-reporting.md",
+    "references/educational-microsimulation.md",
+    "references/support-transition.md",
+    "references/practice-and-transfer-v1.md"
+  ],
   "maturity": "instruction-reviewed",
   "provenance": [
+    {
+      "kind": "authoring",
+      "source": "artifacts/qualification/cohesive-product-20261015/lane-a/ledger.json",
+      "note": "Original conditional addition references/practice-and-transfer-v1.md and its entrypoint routing were independently authored for the cohesion release. Prior reviews do not apply to changed bytes; release review is recorded separately. No new source-rights clearance, runtime result or performance claim."
+    },
     {
       "kind": "conditional-method-review",
       "source": "GarethManning/education-agent-skills@6bbbce418f82e11044009c9f3b7373a354de5bd0:skills/student-learning/fading-manager/SKILL.md",

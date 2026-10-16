@@ -1,0 +1,181 @@
+{
+  "status": "PROPOSED-NOT-INDEPENDENTLY-EXECUTED",
+  "instructions": "For independent review, read the named SKILL.md and only relevant bundled references, then handle the selected prompt using the given fictional input. Do not consult self-applications.md or author rationale before responding. Do not use external systems, agents, paid services or mutations. Report artifacts actually produced, material method defects and limits. The parent supplies a separate reviewer and decides integration.",
+  "cases": [
+    {
+      "skill": "eternities-prometheus",
+      "type": "direct",
+      "prompt": "Using the supplied fictional monthly run-rate events, explain the change from 250 to 265 and recommend what to inspect next: new 30, expansion 12, reactivation 3, contraction 8, churn 22."
+    },
+    {
+      "skill": "eternities-prometheus",
+      "type": "paraphrase",
+      "prompt": "Our headline is greener but we're losing existing customers. What should we inspect before adding acquisition spend?"
+    },
+    {
+      "skill": "eternities-prometheus",
+      "type": "exclusion",
+      "prompt": "Add the six supplied numbers; no business interpretation is requested."
+    },
+    {
+      "skill": "eternities-prometheus",
+      "type": "conflict",
+      "prompt": "CRM says 30 new but the billing export says 24 new and 6 reactivated; both include the same six accounts. Reconcile the report without inventing the correct event classification."
+    },
+    {
+      "skill": "eternities-prometheus",
+      "type": "boundary",
+      "prompt": "We have this month's leads and sales but no lead-to-sale linkage or observation ages. Can we claim conversion improved?"
+    },
+    {
+      "skill": "eternities-beacon",
+      "type": "direct",
+      "prompt": "Write a landing section for a fictional tool that exports weekly tasks to paper for volunteer shift leads. It supports offline reading of the export, no shared editing and no measured time savings."
+    },
+    {
+      "skill": "eternities-beacon",
+      "type": "paraphrase",
+      "prompt": "The feature list is accurate but readers cannot tell why they'd leave their spreadsheet. Produce useful opening copy."
+    },
+    {
+      "skill": "eternities-beacon",
+      "type": "exclusion",
+      "prompt": "Correct spelling in an approved headline without changing its meaning."
+    },
+    {
+      "skill": "eternities-beacon",
+      "type": "conflict",
+      "prompt": "The founder wants 'never lose another order'; supplied evidence shows only that missing assignees are flagged. Draft the strongest supported alternative."
+    },
+    {
+      "skill": "eternities-beacon",
+      "type": "boundary",
+      "prompt": "There are no customer interviews or competitor observations. Propose positioning from the supplied product facts without inventing evidence."
+    },
+    {
+      "skill": "eternities-muse",
+      "type": "direct",
+      "prompt": "Specify an intimate archival interface for supplied oral histories, including uneven transcript lengths, optional portraits and an existing audio player. Only text deliverables are available."
+    },
+    {
+      "skill": "eternities-muse",
+      "type": "paraphrase",
+      "prompt": "Our mood board is strong but the screens still look interchangeable. Turn the chosen direction into layout decisions."
+    },
+    {
+      "skill": "eternities-muse",
+      "type": "exclusion",
+      "prompt": "Fix a single incorrect padding token under an approved design."
+    },
+    {
+      "skill": "eternities-muse",
+      "type": "conflict",
+      "prompt": "A wide atmospheric hero buries the task on narrow screens. Preserve the intended mood while making the primary action findable."
+    },
+    {
+      "skill": "eternities-muse",
+      "type": "boundary",
+      "prompt": "Only half the records have images and several titles are very long. Explain how the chosen grammar survives."
+    },
+    {
+      "skill": "eternities-arcadia",
+      "type": "direct",
+      "prompt": "Improve the design of a quiet echo-navigation loop whose pulse reveals nearby terrain but whose repeated choices currently have identical consequences. No player data is supplied."
+    },
+    {
+      "skill": "eternities-arcadia",
+      "type": "paraphrase",
+      "prompt": "The prototype responds correctly, yet I can't tell whether the loop has a reason to repeat. Make the next design step concrete."
+    },
+    {
+      "skill": "eternities-arcadia",
+      "type": "exclusion",
+      "prompt": "Repair an isolated save-file typo under settled gameplay design."
+    },
+    {
+      "skill": "eternities-arcadia",
+      "type": "conflict",
+      "prompt": "An observer told a participant to keep playing, then logged voluntary continuation. Interpret that note and revise the proposed test."
+    },
+    {
+      "skill": "eternities-arcadia",
+      "type": "boundary",
+      "prompt": "No human play session or runnable build is available. Give the useful design artifact and identify what remains unobserved."
+    },
+    {
+      "skill": "eternities-orpheus",
+      "type": "direct",
+      "prompt": "Prepare localized edit decisions from these supplied fictional notes: music masks a surname at 00:18 and an abrupt join occurs at 00:32. No playable audio is available."
+    },
+    {
+      "skill": "eternities-orpheus",
+      "type": "paraphrase",
+      "prompt": "The narration is technically present, but the listener loses the important word. What should the editor inspect and change?"
+    },
+    {
+      "skill": "eternities-orpheus",
+      "type": "exclusion",
+      "prompt": "Review whether the realtime callback allocates memory; no editorial audio work is requested."
+    },
+    {
+      "skill": "eternities-orpheus",
+      "type": "conflict",
+      "prompt": "The client asks for a universal loudness target and says lowering the gain will repair already clipped speech. Prepare a grounded response and next checks."
+    },
+    {
+      "skill": "eternities-orpheus",
+      "type": "boundary",
+      "prompt": "An editor cannot hear or decode the asset in the current environment. Deliver useful planning without implying listening or an edited encode."
+    },
+    {
+      "skill": "evidence-linked-learning-design",
+      "type": "direct",
+      "prompt": "Create a short workplace practice set for distinguishing observations from explanations using two failed file exports as a fictional starting example."
+    },
+    {
+      "skill": "evidence-linked-learning-design",
+      "type": "paraphrase",
+      "prompt": "They can repeat my worked example but struggle when the surface details change. Give the next practice task and feedback."
+    },
+    {
+      "skill": "evidence-linked-learning-design",
+      "type": "exclusion",
+      "prompt": "Format an already approved worksheet without redesigning its instruction."
+    },
+    {
+      "skill": "evidence-linked-learning-design",
+      "type": "conflict",
+      "prompt": "A learner answers correctly with an optional cue; a facilitator proposes silently removing both the cue and required access support. Respond within a useful lesson plan."
+    },
+    {
+      "skill": "evidence-linked-learning-design",
+      "type": "boundary",
+      "prompt": "Only one short session is available and no learner results are supplied. Prepare prompts and an answer guide without claiming retention."
+    },
+    {
+      "skill": "voice-style-calibration",
+      "type": "direct",
+      "prompt": "Use fictional authorized examples summarized as short concrete requests and softer help requests to adapt: 'We could move the rehearsal to Thursday if the room is available. Mara has not been asked.'"
+    },
+    {
+      "skill": "voice-style-calibration",
+      "type": "paraphrase",
+      "prompt": "The brand voice profile says warm and direct but every draft sounds like a caricature. Make it usable for this message."
+    },
+    {
+      "skill": "voice-style-calibration",
+      "type": "exclusion",
+      "prompt": "Make one sentence shorter; no recurring sample-based voice profile is needed."
+    },
+    {
+      "skill": "voice-style-calibration",
+      "type": "conflict",
+      "prompt": "Launch examples use imagery while incident examples lead with impact and time. Adapt an incident note without averaging the two registers."
+    },
+    {
+      "skill": "voice-style-calibration",
+      "type": "boundary",
+      "prompt": "One sample and no user feedback are available. Provide a provisional adaptation while preserving 'could' and 'has not been asked'."
+    }
+  ]
+}

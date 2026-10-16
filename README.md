@@ -1,376 +1,99 @@
 # Eternities Godskills
 
-A portable professional capability library for AI agents. Godskills organize
-broad disciplines, operational skills supply focused methods, and extensions
-add bounded mechanisms to an owner. Godagents, the Keel, and Lunari are
-optional consumers, not prerequisites.
+**Practical methods an AI agent can find when it needs them.** Build products,
+run operations, investigate evidence, create experiences and carry difficult
+work through to a usable result—without loading thousands of instructions.
 
-## Portable product
+The portable pack currently contains **93 skills across 21 categories**.
+It works as Markdown on any agent that can read files. The optional offline
+CLI adds discovery, integrity checks, export and backed-up installation.
+Godagents, Codex, a model provider, the Keel and our source warehouse are not
+required.
 
-The self-contained pack is in **[product/](product/README.md)**: 93 refined
-skill entrypoints organized into 21 primary domains, with the 26 existing owner
-extensions folded into relevant methods. It includes broad and specialist
-discovery, a compact relationship catalog, explainable offline search, an exact
-file manifest, and a backed-up installer with rollback. Markdown use requires no
-Node, API, warehouse, personal folder, Keel, or Godagents installation. The
-optional CLI uses Node built-ins only.
+## Start in a minute
 
-### Start using the pack
+Download the [current standalone pack](artifacts/releases/godskills-product-20261016-368d5a71.zip)
+and its [SHA-256](artifacts/releases/godskills-product-20261016-368d5a71.zip.sha256),
+or copy the complete [product folder](product/README.md). Give your agent
+[START-HERE.md](product/START-HERE.md) and your actual task.
 
-Download the current [93-skill standalone ZIP](artifacts/releases/godskills-product-20261014-16933f10.zip)
-with its [SHA-256 sidecar](artifacts/releases/godskills-product-20261014-16933f10.zip.sha256),
-or copy the complete [product folder](product/README.md). Give an agent the
-[short capability map](product/START-HERE.md); it can choose a relevant method and open
-only the references that task needs. Markdown use needs no installation.
+The agent chooses a useful method, reads its entrypoint, and opens deeper
+references only when needed. A simple request may need no skill. There is no
+mandatory slash command, personality, daily ritual or chain of companion agents.
 
-The optional CLI provides offline discovery and validation:
+With Node.js 24+, no dependencies or API:
 
 ```text
-node product/bin/godskills.mjs search "plan a product roadmap" --limit 3
-node product/bin/godskills.mjs browse
 node product/bin/godskills.mjs browse --category business
-node product/bin/godskills.mjs inspect vendor-evaluation-and-exit-planning
+node product/bin/godskills.mjs search "preserve clients while changing our API" --limit 3
+node product/bin/godskills.mjs inspect api-contract-design-and-evolution
 node product/bin/godskills.mjs validate
 ```
 
-See the [installation guide](product/README.md#hand-the-pack-to-another-computer)
-for portable copies and native host installation. Search suggests candidates;
-the agent checks their fit. The [latest verification record](docs/realtime-asset-refinement-20261014.md)
-states the checks, rollback evidence and remaining limits.
+Search offers candidates, not commands to execute. Review their applicability.
+See the [portable installation and rollback guide](product/README.md#install-into-an-agents-skill-directory)
+for native host discovery and the [host contract](product/HOST-CAPABILITIES.md)
+for tool-specific execution.
 
-The latest refinement adds [real-time 3D asset integration](product/skills/eternities-arcadia/references/realtime-asset-integration.md)
-under Arcadia: check a model's scale and pivot, material interpretation, relevant
-collision or rig behavior, and dependencies in the actual target build. It is
-engine-neutral, with version-specific lookup pointers for Three.js, Unity and
-Unreal. Static assets do not inherit animation checks; visual-only assets do not
-inherit physics checks. The extra detail loads only when the task needs it.
-Discovery remains advisory, and this release makes no engine-performance or
-universal agent-superiority claim.
+## What you can do with it
 
-The navigation upgrade preserves all 93 skills and adds compact domain browsing,
-paged category results and exact full-skill inspection. Optional references stay
-out of the response until needed. See the [product completion direction](docs/product-direction-20261013.md)
-for the distinction between a useful release, practical effectiveness and the
-unfinished research quarry.
+| Your job | Example methods |
+| --- | --- |
+| Turn an idea into a product | Product discovery, architecture, implementation, interface design, release |
+| Run and improve a company | Operating cadence, hiring, pricing, cash flow, supplier evaluation, customer support |
+| Build reliable software and agents | API evolution, integration, testing, retries, observability, browser and Git state |
+| Investigate and use evidence | Research, statistical inference, scientific validation, data lineage and reconciliation |
+| Create compelling experiences | Visual direction, game worlds, animation, real-time assets, audio/video and narrative |
+| Think, communicate and retain progress | Imaginative concepts, voice calibration, dialogue, memory and long-horizon continuity |
 
-The recent specialist additions cover **API contract evolution** and **vendor evaluation
-and exit planning**: preserve mixed-version clients and safe mutation semantics;
-or compare suppliers without letting low prices hide failed requirements,
-unavoidable commitments or unusable exports. Both have optional deeper methods.
+Browse the [capability map](product/START-HERE.md) or [complete directory](product/INDEX.md).
+These are working methods with explicit boundaries, not substitutes for tools,
+professional authority or live validation.
 
-<details>
-<summary>Release history and qualification records</summary>
+## Three ways the pieces work together
 
-The [supplied-data reconciliation release](docs/atlas-supplied-data-release-20261013.md)
-made column mapping, conflict-preserving merges and row lineage easier to find,
-while keeping connected-source authority separate. Its [historical ZIP](artifacts/releases/godskills-product-20261013-6c8330b3.zip)
-and [SHA-256 sidecar](artifacts/releases/godskills-product-20261013-6c8330b3.zip.sha256)
-remain unchanged.
+**Idea → working product.** For a repair-shop booking tool, identify the
+customer job and smallest useful workflow; settle who owns availability and
+how concurrent bookings behave; build the working slice; refine its interface;
+then verify and release within the actual deployment authority. Each phase
+loads only the method it needs. A functioning product is not proof of demand.
 
-The [navigation release](docs/product-navigation-release-20261013.md) introduced
-domain browsing, pagination and exact inspection. Its [historical standalone ZIP](artifacts/releases/godskills-product-20261013-898ed912.zip)
-and [SHA-256 sidecar](artifacts/releases/godskills-product-20261013-898ed912.zip.sha256)
-remain available unchanged.
+**Failure → dependable repair.** For payments that time out and get duplicated,
+reconstruct what committed, reconcile the uncertain result, preserve idempotency,
+and test the race. A generic retry loop is not enough. A repair request does not
+silently authorize customer refunds or production changes.
 
-The [API/vendor release](docs/api-vendor-release-20261013.md) first delivered the
-current 93 skill payloads. Its [historical standalone ZIP](artifacts/releases/godskills-product-20261013-27152ee2.zip)
-and [SHA-256 sidecar](artifacts/releases/godskills-product-20261013-27152ee2.zip.sha256)
-remain available unchanged.
+**Imagination → interactive world.** For a floating garden that people can
+explore, develop a visual direction and playable scene, then refine camera
+motion, asset interpretation, spatial interaction and performance. Preserve
+good spontaneous design; a checklist cannot decide whether the result is beautiful.
 
-The October 2 reviewed snapshot is available as a [standalone ZIP](artifacts/releases/godskills-product-20261002-f6d71194.zip), with its [SHA-256 sidecar](artifacts/releases/godskills-product-20261002-f6d71194.zip.sha256). It includes a [selected smaller-method directory](product/METHODS.v1.md): discover a useful method from ordinary task descriptions and exclusions, then read its complete owner and matching reference. The directory does not activate skills or replace agent judgment. See the [snapshot verification record](docs/product-release-20261002-finalization.md) for exact checks, review scopes and remaining limits.
+[More composition examples](product/RECIPES.md) show research, voice, learning
+and multi-session work. Godagents may supply an actor and execution state;
+Godskills supplies selected methods. Neither requires the other.
 
-The [October 3 quality qualification](docs/product-quality-qualification-20261003.md)
-records repaired offline discovery, portable packaging checks, and twelve
-matched Luna executions with two blinded model assessments. Practical results
-were mixed-positive, not a universal win; general negative-intent discovery
-remains limited. The [historical 74-entrypoint snapshot](artifacts/releases/godskills-product-20261003-cc43b993.zip)
-and [SHA-256 sidecar](artifacts/releases/godskills-product-20261003-cc43b993.zip.sha256)
-contain the same 74 skill bodies and references, with the reviewed routing fixes.
+## What is actually qualified
 
-The [October 3 professional-gap release](docs/godskills-professional-gap-release-20261003.md)
-adds structured hiring evaluation, customer-support resolution, and user research
-and usability studies, bringing that snapshot to 77 entrypoints. Its
-[installation record](docs/godskills-professional-gap-installation-20261003.md)
-separately records the verified local upgrade and rollback backup. The older
-74-entrypoint ZIPs above remain historical snapshots, not exports of the current
-pack. Use the latest reviewed snapshot below or export current verified content.
+The [current release record](docs/cohesive-product-release-20261016.md) names
+the exact bytes, independent review, tests, export and installation checks.
+Skill-level instruction review, package tests and bounded agent applications
+are different evidence. The library does **not** claim that every method
+outperforms an unguided model or is validated for every real-world setting.
 
-The [configuration and usability-discovery refinement](docs/product-configuration-discovery-refinement-20261003.md)
-adds a conditional durable-settings method and a reviewed lexical discovery
-profile without increasing the entrypoint count.
-[That refinement's 77-entrypoint ZIP](artifacts/releases/godskills-product-20261003-d6e1ba88.zip)
-and [SHA-256 sidecar](artifacts/releases/godskills-product-20261003-d6e1ba88.zip.sha256)
-are distinct from the historical 74-entrypoint snapshots above. The qualification
-record preserves the independent checks, negative examples and unfinished quarry.
-The [separate refinement installation record](docs/product-configuration-discovery-installation-20261003.md)
-records the verified local upgrade, exact file counts and preservation boundary.
+The product is separate from the source quarry. Thousands of overlapping
+source records are research material, not silently installed skills.
+[Corpus scope](product/CORPUS-SCOPE.md) preserves the unfinished source-review
+work, conflicts and negative findings. New intake does not turn those into
+completed refinement. The [current development plan](docs/cohesive-product-20261015-plan.md)
+states this release's concrete acceptance gates.
 
-The [research-funding proposal refinement](docs/product-research-proposal-refinement-20261003.md)
-adds a detailed optional method under Agora, with two bounded fresh-context
-applications and a [separate deployment audit](docs/product-research-proposal-deployment-20261004.md).
-Its [77-entrypoint snapshot](artifacts/releases/godskills-product-20261003-6c36ebcd.zip)
-preserves the earlier scoring contracts and remains a historical exact release.
+## Development and compatibility
 
-The [educational microsimulation refinement](docs/educational-microsimulation-refinement-20261004.md)
-adds model-transition, invariant and probability-oracle depth to the existing
-learning owner, without changing the 77 discovery entries. Its
-[microsimulation snapshot ZIP](artifacts/releases/godskills-product-20261004-4520db08.zip)
-and [SHA-256 sidecar](artifacts/releases/godskills-product-20261004-4520db08.zip.sha256)
-contain only the portable pack. A separate
-[offline fictional learner example](artifacts/microsimulation-method-20261004/application-v2/README.md)
-demonstrates the procedure's use; bounded software checks are not learner-efficacy
-or general agent-superiority evidence.
+- [Portable product guide](product/README.md): use, export, install, rollback and evidence semantics.
+- [Discovery contract](product/DISCOVERY.md): lexical limits, exclusions and no automatic activation.
+- [Product direction](docs/product-direction-20261013.md): usable release, effectiveness and source accounting are distinct.
+- [Release history and preserved legacy runtime](docs/history/README-before-cohesive-20261015.md): previous snapshots, research evidence and compatibility commands.
 
-The [conditional study and literature-synthesis refinement](docs/conditional-study-synthesis-refinement-20261004.md)
-adds access-sensitive study planning and staged, source-anchored synthesis under
-the existing user-study and Logos owners. The
-[study-synthesis snapshot ZIP](artifacts/releases/godskills-product-20261004-5755594f.zip)
-and [SHA-256 sidecar](artifacts/releases/godskills-product-20261004-5755594f.zip.sha256)
-retain 77 entrypoints and the earlier scoring contracts. These methods load
-only for matching tasks; separate instruction/package reviews are not live
-study, scientific-outcome or whole-quarry qualification.
-The [separate installation record](docs/conditional-study-synthesis-installation-20261004.md)
-records the backed-up local upgrade and preservation of unrelated skills.
-
-The [conditional comparison, experience and support-choice refinement](docs/conditional-learning-research-refinement-20261004.md)
-adds three separately reviewed optional procedures to Athena, user research and
-learning design. They strengthen design-before-data, evidence-bound handoffs and
-learner-controlled support without making routine work load more context. The
-[conditional-methods snapshot ZIP](artifacts/releases/godskills-product-20261004-a9a64ce0.zip)
-and [SHA-256 sidecar](artifacts/releases/godskills-product-20261004-a9a64ce0.zip.sha256)
-retain 77 entrypoints and the scoring that existed at that release. The failed
-educational-discovery candidates remain historical evidence, not that snapshot's fix.
-The [separate conditional-methods installation record](docs/conditional-learning-research-installation-20261004.md)
-records the exact backed-up upgrade and unchanged unrelated files.
-
-The [learner-request discovery upgrade](docs/learner-request-discovery-upgrade-20261004.md)
-repairs the independently demonstrated teaching-request misses, contextual
-training false positive and refusal bug. Its explicit request-priority tier
-keeps incidental keyword hits from outranking a corroborated teaching activity,
-without changing existing score components or granting selection authority.
-The [learner-request standalone ZIP](artifacts/releases/godskills-product-20261004-b3939c86.zip)
-and [SHA-256 sidecar](artifacts/releases/godskills-product-20261004-b3939c86.zip.sha256)
-retain all 77 entrypoints and methods. Separate code review and fixed-case
-replication passed; all challenge cases are now revealed regressions, not
-held-out semantic superiority. Earlier failures and unfinished quarry remain explicit.
-The [separate installation and deployment audit](docs/learner-request-discovery-installation-20261004.md)
-records the verified backed-up upgrade and unchanged unrelated files.
-
-The [whole current-pack refinement](docs/current-pack-refinement-20261004.md)
-assesses all 77 entrypoints: 42 targeted improvements and 35 deliberate
-retentions, with independent cross-review and preserved specialist references.
-It removes unnecessary all-route work, corrects task-branch and completion
-contradictions, and adds tested native-frontmatter validation. Six bounded
-consumer tasks satisfy 29 predefined checks; the final full suite has 1,636
-passes, no failures and two existing Windows-specific skips. These are
-instruction/package qualifications, not universal raw-model superiority or
-whole-quarry completion. The [refined 77-skill snapshot ZIP](artifacts/releases/godskills-product-20261004-f186d19e.zip)
-and [SHA-256 sidecar](artifacts/releases/godskills-product-20261004-f186d19e.zip.sha256)
-contain the complete portable pack. Detailed retrieval rules are optional
-[discovery documentation](product/DISCOVERY.md), not always-loaded policy.
-The [installation closeout](docs/current-pack-refinement-installation-20261004.md)
-records the fresh exact recovery backup and separately accepted deployment audit.
-
-The [eight-specialist extension](docs/next-eight-godskills-20261004.md) adds
-accessibility remediation, service reliability/SLOs, concurrent schema migration,
-dependency supply-chain integrity, procedural worlds, company operating cadence,
-pricing/packaging experiments and narrative craft. These focused methods deepen
-existing owners without changing the previous 77 skill payloads or making every
-task load a larger workflow. Its qualification and exact release evidence are
-recorded separately; portable use remains independent of Codex, a provider,
-Godagents, Keel or a local repository warehouse.
-The historical [85-skill standalone ZIP](artifacts/releases/godskills-product-20261004-add50d29.zip)
-and [SHA-256 sidecar](artifacts/releases/godskills-product-20261004-add50d29.zip.sha256)
-include all eight reviewed additions. Earlier exports above remain exact historical
-snapshots, not the current pack.
-The [installation closeout](docs/next-eight-godskills-installation-20261004.md)
-records the exact backed-up local upgrade and separate deployment audit.
-
-The [motion and programmatic-video upgrade](docs/motion-video-methods-20261013.md)
-adds interrupted UI choreography, property/clock ownership, meaningful reduced
-motion, seekable frame evaluation, rational cue timing and recoverable rendering.
-All previous 85 skill payloads remain exact. Independent review accepted the
-repaired discovery boundary, and two bounded agent planning applications passed
-their predefined state/timing checks; those are not live visual or encode results.
-
-The previous [87-skill standalone ZIP](artifacts/releases/godskills-product-20261013-87654db5.zip)
-and [SHA-256 sidecar](artifacts/releases/godskills-product-20261013-87654db5.zip.sha256)
-contain the complete portable pack. Earlier exports remain exact historical
-snapshots. Finite English discovery still needs host judgment, and the research
-quarry remains unfinished; 87 useful entrypoints do not mean all acquired sources
-have been fully refined.
-The [installation closeout](docs/motion-video-installation-20261013.md) records
-the verified native/runtime upgrade, exact rollback backup and independent
-deployment audit, separately from instruction and package qualification.
-
-The [browser, Git, product and knowledge upgrade](docs/workflow-product-knowledge-methods-20261013.md)
-adds four focused specialists: durable browser state and uncertain-submit
-reconciliation; exact Git integration with staged/unstaged ownership; feasible
-product portfolios with shared prerequisites and learning gates; and knowledge
-collections with stable identities, aliases, permissions and incremental views.
-All previous 87 skill payloads remain exact. Independent content/delta reviews
-accepted the methods and repaired two revealed lexical misses. Four bounded
-planning applications passed their state/capacity checks; a real isolated Git
-exercise also preserved the original mixed checkout and integrated only its
-owned feature into an advanced local branch.
-
-The previous [91-skill standalone ZIP](artifacts/releases/godskills-product-20261013-213c0d21.zip)
-and [SHA-256 sidecar](artifacts/releases/godskills-product-20261013-213c0d21.zip.sha256)
-contain the portable pack, without the warehouse, private continuity or provider
-dependencies. Detailed references load only for the selected task. These are
-bounded instruction/package and local-exercise results, not live-browser,
-customer-outcome, clean-OS or whole-quarry certification.
-The [installation closeout](docs/workflow-product-knowledge-installation-20261013.md)
-records exact deployed/rollback bytes, unchanged unrelated skills, and the
-preserved main-path timing failure alongside successful same-commit isolated
-verification. Installation is not an agent UI/cache reload claim.
-
-</details>
-
-For a new computer, copy only `product/` or export its verified standalone ZIP:
-
-```text
-node product/bin/godskills.mjs export --output <new-absolute-archive-path>
-```
-
-Extract the `godskills/` folder and start with its `README.md` and `INDEX.md`.
-The export verifies the pack first, refuses to overwrite an existing archive,
-and reports the archive SHA-256 plus the content release ID. No research quarry
-or repository dependencies are included. See the [portable guide](product/README.md)
-for host installation and rollback.
-
-- [Browse the portable directory](product/INDEX.md)
-- [Idea-to-product, incident repair, research-to-article and visual-scene examples](product/RECIPES.md)
-- [Read the source-corpus scope and unfinished refinement boundary](product/CORPUS-SCOPE.md)
-- [Understand the evidence correction](docs/universal-evidence-correction.md)
-- [Read the testing and debugging refinement, routing correction and bounded comparison](docs/universal-intake-distillation-wave-8.md)
-- [Read the browser, communication and business extensions and consumer tests](docs/universal-intake-distillation-wave-7.md)
-- [Read the cash-flow refinement and actual consumer exercises](docs/universal-intake-distillation-wave-6.md)
-- [Read the scientific, speech and education distillation](docs/universal-intake-distillation-wave-5.md)
-- [Read the structured-output, integration and refinement-loop distillation](docs/universal-intake-distillation-wave-4.md)
-- [See the research-family workplan for the newest source intake](docs/universal-refinement-family-workplan.md)
-- [See the October 2 core publication and installation record](docs/product-core-20261002-publication-installation.md)
-- [Read the historical portable-product closeout](docs/universal-product-v1-closeout.md)
-
-The `skills/` tree and pinned historical protocols below remain preserved for
-compatibility. New installations should use `product/skills/`; the old 44-folder
-count describes that historical tree, not the portable successor. Product methods
-are instruction-reviewed. Package tests and a bounded real agent exercise do not
-establish universal performance superiority or completion of the entire quarry.
-
-**current state: development library, not a universally performance-qualified
-v1 release.** the routing and integrity machinery has substantial local test
-coverage. actual agent-outcome evidence is limited and mixed. selection is not
-proof of improvement, and a skill never grants authority.
-
-## Research and development history
-
-- [801-repository catalog skill intake, deduplication, and partial Jev classification](docs/quarry-intakes/2026-09-21-catalog801.md)
-- [Additive Jev continuation: 16 metadata judgments and the preserved pacing refusal](artifacts/catalog801-continuation-20260922/README.md)
-- [Local spacing diagnosis and 40 further Jev metadata judgments](artifacts/catalog801-paced-continuation-20260922/RESULTS.md)
-- [Searchable integration of saved Jev continuations, without rewriting frozen evidence](artifacts/catalog801-continuations/README.md)
-- [Eight-source agent-workflow review and optional overhead-review draft](artifacts/universal-product-v1/wave9-agent-workflows/parent-disposition.md)
-- [Compact-guidance coding pilot: equal checked quality, lower observed usage, adoption deferred](artifacts/universal-product-v1/wave9-agent-workflows/overhead-pilot/RESULTS.md)
-- [Maintenance follow-up: higher observed input usage, default card still deferred](artifacts/universal-product-v1/wave9-agent-workflows/maintenance-pilot/RESULTS.md)
-- [Compact, evidence-verified catalog intake status](docs/catalog-status.md)
-- [Further Jev intake classification: 56 judgments, preserved unavailable stop](artifacts/catalog801-continuation-20260922-b/RESULTS.md)
-- [Knowledge-family refinement: conditional vocabulary and relationship validation](artifacts/universal-product-v1/wave10-knowledge/author-report.md)
-- [optional Jev advisory selector: pilot results and limitations](docs/jev-advisory-selection-v1.md)
-- [multi-dimensional skill discovery: corpus audit, Jev trials, and next gates](docs/skill-discovery-facets-v2-plan.md)
-- [public-web skill intake and offline experimental source search](docs/quarry-intakes/2026-09-20-web.md)
-- [category-balanced intake and tiered Jev/Luna synthesis](docs/quarry-intakes/2026-09-20-categories.md)
-- [current state, verified limits, and defects](docs/audits/2026-09-06-product-state.md)
-- [latest interface-refinement outcome and exact evidence](docs/audits/2026-09-08-incident-refinement-closeout.md)
-- [complete current capability directory](docs/capability-directory.md)
-- [finite v1 completion contract and architecture](docs/superpowers/specs/2026-09-06-godskills-v1-completion.md)
-- [first implementation milestone](docs/superpowers/plans/2026-09-06-capability-directory-v1.md)
-- [historical development record](docs/history/README-before-2026-09-06.md)
-
-## preserved compatibility library
-
-The following counts and commands describe the historical runtime, not the
-portable product above. They remain available for consumers pinned to that ABI.
-
-| layer | historical contents | what the count means |
-| --- | --- | --- |
-| broad godskills | 22 cards across 21 families | default router catalog |
-| operational skills | 22 separate skill directories | focused methods owned by broad capabilities |
-| owner extensions | 26 records | not 26 extra standalone skills |
-| source foundation | 4,741 original cards | a historical corpus, not installed skills |
-| combined wave-2/3 atlas | 15,993 source identities, 5,209 exact bodies, 4,926 accepted metadata facets | source accounting, not finished godskills |
-
-there are **44 historical skill directories**. do not add the foundation to the later
-atlas and call it a unique total: cross-foundation deduplication is not
-established by those summaries. the quarry stays cold at
-`D:\03-ARSENAL\warehouse`. normal use of shipped skills should not require it.
-
-## use the preserved runtime
-
-1. find a relevant outcome in the [directory](docs/capability-directory.md).
-2. load only the selected `SKILL.md` and its required references.
-3. follow the host's instruction hierarchy, tools, and user authority.
-4. preserve native work when no skill helps. a later review must actually
-   happen before it can be reported as completed.
-
-optional local tools require Node.js 24 or newer. these inspect requests, not
-execute the mission:
-
-```powershell
-npm run intent -- --request path/to/natural-request.json
-npm run route -- --request path/to/routing-envelope.json
-```
-
-see [request format](docs/intent-compiler.md) and
-[router contract](runtime/agent-router.md). the default intent command uses
-22 broad cards, not all 44 skills and 26 extensions.
-[fresh probes](docs/audits/2026-09-06-product-state.md#discovery-defects)
-found wrong-domain and missed-specialist matches. the command is not a
-replacement for agent understanding or a basis for inventing permissions.
-
-locks under `profiles/` are workstation configurations, not a universal
-installer. the [.godskill package](runtime/godskill-package-v1.md) is an inert
-Aegis canary, not a distribution of the entire library.
-
-## godagents plus godskills
-
-godagents owns an actor's mission and execution state. godskills supplies
-capabilities for the present outcome. the keel owns continuity under its own
-contract. these are separate products, not mandatory layers of one giant prompt.
-
-three illustrative workflows:
-
-- **idea to product:** expose the valuable idea, test it against evidence,
-  design the system, build and verify it, refine the experience, then prepare
-  a truthful release. Prometheus, Oracle, Architect, Forge, Daedalus, Muse,
-  Aegis, Beacon, and Herald help at different phases. do not load them all at
-  the start or treat the whole lifecycle as one authorized external act.
-- **repair a fragile integration:** diagnose a reproducible failure, use a
-  focused retry or shutdown method, test cancellation and duplicate effects,
-  then review the change. a local repair does not authorize live traffic,
-  credentials, or deployment.
-- **create an interactive world:** preserve the raw model's creative first
-  attempt, then use Arcadia or Muse where playability, visual judgment,
-  performance, accessibility, or refinement can improve the result. keep the
-  better artifact, even when it came from the raw baseline.
-
-these describe intended collaboration, not proof of an unattended production
-system or guaranteed superiority. earlier matched visual tests favored raw
-Terra in three of four user preferences.
-
-## evidence and development
-
-- [Jev ecosystem intake and measured decision pilot](docs/quarry-intakes/2026-09-20-jev.md)
-- [latest starred-repository cold intake and bounded refinery candidates](docs/quarry-intakes/2026-09-20.md)
-- [September 17 broad source scan and review boundary](docs/quarry-intakes/2026-09-17.md)
-- [September 13 reviewed production candidates](docs/quarry-intakes/2026-09-13.md)
-- [previous intake, including ECC and broader source packs](docs/quarry-intakes/2026-09-07.md)
-- [visual comparison and activation limits](docs/adaptive-amplification-report.md)
-- [preregistered security trial](docs/adaptive-evidence-v2-report.md)
-- [retrospective evaluator correction](docs/adaptive-evaluator-aegis-v2-shadow-report.md)
-- [structural portfolio, not live outcome evidence](docs/adaptive-evidence-portfolio-v1-report.md)
-- [portable capability construction checkpoint](docs/universal-capability-construction-report.md)
-
-preserve historical receipts and source attribution. organize through current
-indexes without rewriting frozen evidence or assuming a rewrite erases source
-obligations. completion means usable, bounded, honestly qualified capabilities,
-not an arbitrary skill count or endless certificate sequence.
+New installations should use `product/skills/`. The older `skills/` tree,
+protocols and receipts remain for pinned consumers; they are not a second
+recommended pack. Source attribution and applicable notices stay attached.

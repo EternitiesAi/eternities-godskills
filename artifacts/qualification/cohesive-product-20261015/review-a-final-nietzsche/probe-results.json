@@ -1,0 +1,2572 @@
+{
+  "executedAt": "2026-10-16T05:39:58.946Z",
+  "runtimeGraphSha256": "785873ca911a77fee4f2bb7c59294fbaee4f5b0dd667118c1fe497959950c641",
+  "caseSet": "Same 27 v3 queries; no additions or wording changes",
+  "cases": [
+    {
+      "id": "P-D",
+      "owner": "eternities-prometheus",
+      "query": "Diagnose our revenue change with an MRR bridge separating expansion, reactivation, contraction and churn.",
+      "before": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-prometheus",
+            "score": 58.12,
+            "reasons": [
+              "Matched: change, diagnose, revenue"
+            ]
+          },
+          {
+            "id": "schema-migration-and-backfill-safety",
+            "score": 27.025,
+            "reasons": [
+              "Matched: contraction"
+            ]
+          },
+          {
+            "id": "service-observability-and-slo-design",
+            "score": 27.025,
+            "reasons": [
+              "Matched: churn"
+            ]
+          },
+          {
+            "id": "cashflow-forecast-scenario-integrity",
+            "score": 24.26,
+            "reasons": [
+              "Matched: revenue"
+            ]
+          },
+          {
+            "id": "diagnostic-statistical-model-inference",
+            "score": 22.646,
+            "reasons": [
+              "Matched: change, diagnose"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-prometheus",
+            "score": 58.12,
+            "reasons": [
+              "Matched: change, diagnose, revenue"
+            ]
+          },
+          {
+            "id": "schema-migration-and-backfill-safety",
+            "score": 27.025,
+            "reasons": [
+              "Matched: contraction"
+            ]
+          },
+          {
+            "id": "service-observability-and-slo-design",
+            "score": 27.025,
+            "reasons": [
+              "Matched: churn"
+            ]
+          },
+          {
+            "id": "cashflow-forecast-scenario-integrity",
+            "score": 24.26,
+            "reasons": [
+              "Matched: revenue"
+            ]
+          },
+          {
+            "id": "diagnostic-statistical-model-inference",
+            "score": 22.646,
+            "reasons": [
+              "Matched: change, diagnose"
+            ]
+          }
+        ]
+      },
+      "ownerRankUnchanged": true
+    },
+    {
+      "id": "P-P",
+      "owner": "eternities-prometheus",
+      "query": "Explain why subscription revenue rose while existing accounts shrank.",
+      "before": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-prometheus",
+            "score": 51.285,
+            "reasons": [
+              "Matched: explain, revenue"
+            ]
+          },
+          {
+            "id": "interpersonal-understanding-and-dialogue",
+            "score": 42.751,
+            "reasons": [
+              "Matched: accounts, while"
+            ]
+          },
+          {
+            "id": "bounded-parametric-design-iteration",
+            "score": 34.657,
+            "reasons": [
+              "Matched: existing"
+            ]
+          },
+          {
+            "id": "cashflow-forecast-scenario-integrity",
+            "score": 24.26,
+            "reasons": [
+              "Matched: revenue"
+            ]
+          },
+          {
+            "id": "eternities-beacon",
+            "score": 24.26,
+            "reasons": [
+              "Matched: existing"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-prometheus",
+            "score": 51.285,
+            "reasons": [
+              "Matched: explain, revenue"
+            ]
+          },
+          {
+            "id": "interpersonal-understanding-and-dialogue",
+            "score": 42.751,
+            "reasons": [
+              "Matched: accounts, while"
+            ]
+          },
+          {
+            "id": "bounded-parametric-design-iteration",
+            "score": 34.657,
+            "reasons": [
+              "Matched: existing"
+            ]
+          },
+          {
+            "id": "cashflow-forecast-scenario-integrity",
+            "score": 24.26,
+            "reasons": [
+              "Matched: revenue"
+            ]
+          },
+          {
+            "id": "eternities-beacon",
+            "score": 24.26,
+            "reasons": [
+              "Matched: existing"
+            ]
+          }
+        ]
+      },
+      "ownerRankUnchanged": true
+    },
+    {
+      "id": "P-C",
+      "owner": "eternities-prometheus",
+      "query": "Commercial analytics: distinguish traffic mix from declining funnel conversion.",
+      "before": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-prometheus",
+            "score": 69.654,
+            "reasons": [
+              "Matched: analytics, commercial, growth"
+            ]
+          },
+          {
+            "id": "eternities-beacon",
+            "score": 62.784,
+            "reasons": [
+              "Matched: conversion, funnel, growth, marketing"
+            ]
+          },
+          {
+            "id": "structured-hiring-evaluation",
+            "score": 45.089,
+            "reasons": [
+              "Matched: conversion, funnel"
+            ]
+          },
+          {
+            "id": "eternities-atlas",
+            "score": 34.657,
+            "reasons": [
+              "Matched: analytics"
+            ]
+          },
+          {
+            "id": "app-store-discovery-experiments",
+            "score": 27.206,
+            "reasons": [
+              "Matched: conversion, growth, marketing"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-prometheus",
+            "score": 69.654,
+            "reasons": [
+              "Matched: analytics, commercial, growth"
+            ]
+          },
+          {
+            "id": "eternities-beacon",
+            "score": 62.784,
+            "reasons": [
+              "Matched: conversion, funnel, growth, marketing"
+            ]
+          },
+          {
+            "id": "structured-hiring-evaluation",
+            "score": 45.089,
+            "reasons": [
+              "Matched: conversion, funnel"
+            ]
+          },
+          {
+            "id": "eternities-atlas",
+            "score": 34.657,
+            "reasons": [
+              "Matched: analytics"
+            ]
+          },
+          {
+            "id": "app-store-discovery-experiments",
+            "score": 27.206,
+            "reasons": [
+              "Matched: conversion, growth, marketing"
+            ]
+          }
+        ]
+      },
+      "ownerRankUnchanged": true
+    },
+    {
+      "id": "B-D",
+      "owner": "eternities-beacon",
+      "query": "Write positioning and landing page copy for our product against the buyer's existing workaround.",
+      "before": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-beacon",
+            "score": 175.236,
+            "reasons": [
+              "Matched: against, buyer, copy, existing, landing, page, positioning"
+            ]
+          },
+          {
+            "id": "narrative-structure-and-revision",
+            "score": 42.586,
+            "reasons": [
+              "Matched: canon, narrative, write, writing"
+            ]
+          },
+          {
+            "id": "eternities-logos",
+            "score": 41.128,
+            "reasons": [
+              "Matched: article, canon, drafting, editorial, narrative, writing"
+            ]
+          },
+          {
+            "id": "product-discovery-and-prioritization",
+            "score": 35.5,
+            "reasons": [
+              "Matched: product"
+            ]
+          },
+          {
+            "id": "bounded-parametric-design-iteration",
+            "score": 34.657,
+            "reasons": [
+              "Matched: existing"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-beacon",
+            "score": 216.49,
+            "reasons": [
+              "Matched: against, buyer, copy, existing, landing, page, positioning, product, workaround"
+            ]
+          },
+          {
+            "id": "narrative-structure-and-revision",
+            "score": 42.586,
+            "reasons": [
+              "Matched: canon, narrative, write, writing"
+            ]
+          },
+          {
+            "id": "eternities-logos",
+            "score": 41.128,
+            "reasons": [
+              "Matched: article, canon, drafting, editorial, narrative, writing"
+            ]
+          },
+          {
+            "id": "bounded-parametric-design-iteration",
+            "score": 34.657,
+            "reasons": [
+              "Matched: existing"
+            ]
+          },
+          {
+            "id": "product-discovery-and-prioritization",
+            "score": 33.988,
+            "reasons": [
+              "Matched: product"
+            ]
+          }
+        ]
+      },
+      "ownerRankUnchanged": true
+    },
+    {
+      "id": "B-P",
+      "owner": "eternities-beacon",
+      "query": "Our offer sounds interchangeable; produce a specific promise and proof for the buyer.",
+      "before": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-beacon",
+            "score": 61.682,
+            "reasons": [
+              "Matched: buyer, offer"
+            ]
+          },
+          {
+            "id": "structured-hiring-evaluation",
+            "score": 29.755,
+            "reasons": [
+              "Matched: specific"
+            ]
+          },
+          {
+            "id": "operating-cadence-and-decision-accountability",
+            "score": 24.26,
+            "reasons": [
+              "Matched: produce"
+            ]
+          },
+          {
+            "id": "pricing-and-packaging-experimentation",
+            "score": 24.26,
+            "reasons": [
+              "Matched: offer"
+            ]
+          },
+          {
+            "id": "interpersonal-understanding-and-dialogue",
+            "score": 20.829,
+            "reasons": [
+              "Matched: specific"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-beacon",
+            "score": 106.771,
+            "reasons": [
+              "Matched: buyer, offer, promise, proof"
+            ]
+          },
+          {
+            "id": "structured-hiring-evaluation",
+            "score": 29.755,
+            "reasons": [
+              "Matched: specific"
+            ]
+          },
+          {
+            "id": "operating-cadence-and-decision-accountability",
+            "score": 24.26,
+            "reasons": [
+              "Matched: produce"
+            ]
+          },
+          {
+            "id": "pricing-and-packaging-experimentation",
+            "score": 24.26,
+            "reasons": [
+              "Matched: offer"
+            ]
+          },
+          {
+            "id": "interpersonal-understanding-and-dialogue",
+            "score": 20.829,
+            "reasons": [
+              "Matched: specific"
+            ]
+          }
+        ]
+      },
+      "ownerRankUnchanged": true
+    },
+    {
+      "id": "B-X",
+      "owner": "eternities-beacon",
+      "query": "Fix the spelling in this headline; no positioning strategy requested.",
+      "before": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-beacon",
+            "score": 27.025,
+            "reasons": [
+              "Matched: positioning"
+            ]
+          },
+          {
+            "id": "eternities-chorus",
+            "score": 27.025,
+            "reasons": [
+              "Matched: strategy"
+            ]
+          },
+          {
+            "id": "product-discovery-and-prioritization",
+            "score": 27.025,
+            "reasons": [
+              "Matched: requested"
+            ]
+          },
+          {
+            "id": "operating-cadence-and-decision-accountability",
+            "score": 24.26,
+            "reasons": [
+              "Matched: no"
+            ]
+          },
+          {
+            "id": "service-observability-and-slo-design",
+            "score": 24.26,
+            "reasons": [
+              "Matched: no"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-beacon",
+            "score": 27.025,
+            "reasons": [
+              "Matched: positioning"
+            ]
+          },
+          {
+            "id": "eternities-chorus",
+            "score": 27.025,
+            "reasons": [
+              "Matched: strategy"
+            ]
+          },
+          {
+            "id": "product-discovery-and-prioritization",
+            "score": 27.025,
+            "reasons": [
+              "Matched: requested"
+            ]
+          },
+          {
+            "id": "operating-cadence-and-decision-accountability",
+            "score": 24.26,
+            "reasons": [
+              "Matched: no"
+            ]
+          },
+          {
+            "id": "service-observability-and-slo-design",
+            "score": 24.26,
+            "reasons": [
+              "Matched: no"
+            ]
+          }
+        ]
+      },
+      "ownerRankUnchanged": true
+    },
+    {
+      "id": "M-D",
+      "owner": "eternities-muse",
+      "query": "Turn our interface art direction into a responsive composition using long titles and missing images.",
+      "before": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-muse",
+            "score": 154.72,
+            "reasons": [
+              "Matched: art, composition, design, direction, interface, into, responsive, visual"
+            ]
+          },
+          {
+            "id": "long-horizon-work-continuity",
+            "score": 42.468,
+            "reasons": [
+              "Matched: long"
+            ]
+          },
+          {
+            "id": "interface-localization-and-bidirectionality",
+            "score": 40.749,
+            "reasons": [
+              "Matched: design, direction, interface"
+            ]
+          },
+          {
+            "id": "motion-design-and-animation-engineering",
+            "score": 36.39,
+            "reasons": [
+              "Matched: design, responsive"
+            ]
+          },
+          {
+            "id": "service-observability-and-slo-design",
+            "score": 27.171,
+            "reasons": [
+              "Matched: design, missing"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-muse",
+            "score": 154.72,
+            "reasons": [
+              "Matched: art, composition, design, direction, interface, into, responsive, visual"
+            ]
+          },
+          {
+            "id": "long-horizon-work-continuity",
+            "score": 42.468,
+            "reasons": [
+              "Matched: long"
+            ]
+          },
+          {
+            "id": "interface-localization-and-bidirectionality",
+            "score": 40.749,
+            "reasons": [
+              "Matched: design, direction, interface"
+            ]
+          },
+          {
+            "id": "motion-design-and-animation-engineering",
+            "score": 36.39,
+            "reasons": [
+              "Matched: design, responsive"
+            ]
+          },
+          {
+            "id": "service-observability-and-slo-design",
+            "score": 27.171,
+            "reasons": [
+              "Matched: design, missing"
+            ]
+          }
+        ]
+      },
+      "ownerRankUnchanged": true
+    },
+    {
+      "id": "M-P",
+      "owner": "eternities-muse",
+      "query": "Make these mood references into a working layout with real archive content at phone width.",
+      "before": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-muse",
+            "score": 126.803,
+            "reasons": [
+              "Matched: content, into, layout, mood, real, references"
+            ]
+          },
+          {
+            "id": "interface-localization-and-bidirectionality",
+            "score": 38.682,
+            "reasons": [
+              "Matched: content, layout"
+            ]
+          },
+          {
+            "id": "motion-design-and-animation-engineering",
+            "score": 29.755,
+            "reasons": [
+              "Matched: layout"
+            ]
+          },
+          {
+            "id": "browser-automation-state-and-verification",
+            "score": 28.034,
+            "reasons": [
+              "Matched: references"
+            ]
+          },
+          {
+            "id": "cashflow-forecast-scenario-integrity",
+            "score": 24.26,
+            "reasons": [
+              "Matched: working"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-muse",
+            "score": 126.803,
+            "reasons": [
+              "Matched: content, into, layout, mood, real, references"
+            ]
+          },
+          {
+            "id": "interface-localization-and-bidirectionality",
+            "score": 38.682,
+            "reasons": [
+              "Matched: content, layout"
+            ]
+          },
+          {
+            "id": "motion-design-and-animation-engineering",
+            "score": 29.755,
+            "reasons": [
+              "Matched: layout"
+            ]
+          },
+          {
+            "id": "browser-automation-state-and-verification",
+            "score": 28.034,
+            "reasons": [
+              "Matched: references"
+            ]
+          },
+          {
+            "id": "cashflow-forecast-scenario-integrity",
+            "score": 24.26,
+            "reasons": [
+              "Matched: working"
+            ]
+          }
+        ]
+      },
+      "ownerRankUnchanged": true
+    },
+    {
+      "id": "M-X",
+      "owner": "eternities-muse",
+      "query": "Change a single margin from 12px to 16px in the approved component.",
+      "before": {
+        "ownerRank": null,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "pricing-and-packaging-experimentation",
+            "score": 38.607,
+            "reasons": [
+              "Matched: margin"
+            ]
+          },
+          {
+            "id": "approval-bound-private-session-mining",
+            "score": 34.657,
+            "reasons": [
+              "Matched: approved"
+            ]
+          },
+          {
+            "id": "native-mobile-interaction-testing",
+            "score": 27.025,
+            "reasons": [
+              "Matched: component"
+            ]
+          },
+          {
+            "id": "ecological-sampling-and-detection-uncertainty",
+            "score": 20.338,
+            "reasons": [
+              "Matched: change"
+            ]
+          },
+          {
+            "id": "web-performance-optimization",
+            "score": 20.338,
+            "reasons": [
+              "Matched: change"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "ownerRank": null,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "pricing-and-packaging-experimentation",
+            "score": 38.607,
+            "reasons": [
+              "Matched: margin"
+            ]
+          },
+          {
+            "id": "approval-bound-private-session-mining",
+            "score": 34.657,
+            "reasons": [
+              "Matched: approved"
+            ]
+          },
+          {
+            "id": "native-mobile-interaction-testing",
+            "score": 27.025,
+            "reasons": [
+              "Matched: component"
+            ]
+          },
+          {
+            "id": "ecological-sampling-and-detection-uncertainty",
+            "score": 20.338,
+            "reasons": [
+              "Matched: change"
+            ]
+          },
+          {
+            "id": "web-performance-optimization",
+            "score": 20.338,
+            "reasons": [
+              "Matched: change"
+            ]
+          }
+        ]
+      },
+      "ownerRankUnchanged": true
+    },
+    {
+      "id": "A-D",
+      "owner": "eternities-arcadia",
+      "query": "Playtest the core loop of a quiet constellation game; separate unclear feedback from meaningless choices.",
+      "before": {
+        "ownerRank": 2,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-forge",
+            "score": 45.64,
+            "reasons": [
+              "Matched: feedback, loop"
+            ]
+          },
+          {
+            "id": "eternities-arcadia",
+            "score": 34.657,
+            "reasons": [
+              "Matched: game",
+              "Lexical intent: game or real-time 3D runtime scope; cues: game or technical 3D context, independent work action or reported fault"
+            ]
+          },
+          {
+            "id": "app-store-discovery-experiments",
+            "score": 24.26,
+            "reasons": [
+              "Matched: separate"
+            ]
+          },
+          {
+            "id": "imaginative-concept-development",
+            "score": 24.26,
+            "reasons": [
+              "Matched: game"
+            ]
+          },
+          {
+            "id": "measured-paid-creative-iteration",
+            "score": 24.26,
+            "reasons": [
+              "Matched: separate"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "ownerRank": 2,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-forge",
+            "score": 45.64,
+            "reasons": [
+              "Matched: feedback, loop"
+            ]
+          },
+          {
+            "id": "eternities-arcadia",
+            "score": 34.657,
+            "reasons": [
+              "Matched: game",
+              "Lexical intent: game or real-time 3D runtime scope; cues: game or technical 3D context, independent work action or reported fault"
+            ]
+          },
+          {
+            "id": "app-store-discovery-experiments",
+            "score": 24.26,
+            "reasons": [
+              "Matched: separate"
+            ]
+          },
+          {
+            "id": "imaginative-concept-development",
+            "score": 24.26,
+            "reasons": [
+              "Matched: game"
+            ]
+          },
+          {
+            "id": "measured-paid-creative-iteration",
+            "score": 24.26,
+            "reasons": [
+              "Matched: separate"
+            ]
+          }
+        ]
+      },
+      "ownerRankUnchanged": true
+    },
+    {
+      "id": "A-P",
+      "owner": "eternities-arcadia",
+      "query": "Our playable prototype works but repeating it feels flat; choose what to change before adding content.",
+      "before": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-arcadia",
+            "score": 54.05,
+            "reasons": [
+              "Matched: playable, prototype",
+              "Lexical intent: game or real-time 3D runtime scope; cues: game or technical 3D context, independent work action or reported fault"
+            ]
+          },
+          {
+            "id": "docx-package-redline-and-render-verification",
+            "score": 35.065,
+            "reasons": [
+              "Matched: change, content"
+            ]
+          },
+          {
+            "id": "eternities-muse",
+            "score": 32.67,
+            "reasons": [
+              "Matched: before, content"
+            ]
+          },
+          {
+            "id": "web-performance-optimization",
+            "score": 32.179,
+            "reasons": [
+              "Matched: before, change"
+            ]
+          },
+          {
+            "id": "diagnostic-statistical-model-inference",
+            "score": 31.153,
+            "reasons": [
+              "Matched: before, change"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-arcadia",
+            "score": 54.05,
+            "reasons": [
+              "Matched: playable, prototype",
+              "Lexical intent: game or real-time 3D runtime scope; cues: game or technical 3D context, independent work action or reported fault"
+            ]
+          },
+          {
+            "id": "docx-package-redline-and-render-verification",
+            "score": 35.065,
+            "reasons": [
+              "Matched: change, content"
+            ]
+          },
+          {
+            "id": "eternities-muse",
+            "score": 32.67,
+            "reasons": [
+              "Matched: before, content"
+            ]
+          },
+          {
+            "id": "web-performance-optimization",
+            "score": 32.179,
+            "reasons": [
+              "Matched: before, change"
+            ]
+          },
+          {
+            "id": "diagnostic-statistical-model-inference",
+            "score": 31.153,
+            "reasons": [
+              "Matched: before, change"
+            ]
+          }
+        ]
+      },
+      "ownerRankUnchanged": true
+    },
+    {
+      "id": "A-X",
+      "owner": "eternities-arcadia",
+      "query": "Fix a null check in the game asset loader; the game design is settled.",
+      "before": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-arcadia",
+            "score": 89.136,
+            "reasons": [
+              "Matched: asset, check, design, game",
+              "Lexical intent: game or real-time 3D runtime scope; cues: game or technical 3D context, independent work action or reported fault"
+            ]
+          },
+          {
+            "id": "api-contract-design-and-evolution",
+            "score": 58.971,
+            "reasons": [
+              "Matched: design, interface, null"
+            ]
+          },
+          {
+            "id": "imaginative-concept-development",
+            "score": 35.351,
+            "reasons": [
+              "Matched: design, game"
+            ]
+          },
+          {
+            "id": "eternities-atlas",
+            "score": 24.26,
+            "reasons": [
+              "Matched: design, null"
+            ]
+          },
+          {
+            "id": "bounded-parametric-design-iteration",
+            "score": 20.794,
+            "reasons": [
+              "Matched: design"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-arcadia",
+            "score": 89.136,
+            "reasons": [
+              "Matched: asset, check, design, game",
+              "Lexical intent: game or real-time 3D runtime scope; cues: game or technical 3D context, independent work action or reported fault"
+            ]
+          },
+          {
+            "id": "api-contract-design-and-evolution",
+            "score": 58.971,
+            "reasons": [
+              "Matched: design, interface, null"
+            ]
+          },
+          {
+            "id": "imaginative-concept-development",
+            "score": 35.351,
+            "reasons": [
+              "Matched: design, game"
+            ]
+          },
+          {
+            "id": "eternities-atlas",
+            "score": 24.26,
+            "reasons": [
+              "Matched: design, null"
+            ]
+          },
+          {
+            "id": "bounded-parametric-design-iteration",
+            "score": 20.794,
+            "reasons": [
+              "Matched: design"
+            ]
+          }
+        ]
+      },
+      "ownerRankUnchanged": true
+    },
+    {
+      "id": "O-D",
+      "owner": "eternities-orpheus",
+      "query": "Edit and mix this supplied podcast: the music masks speech and the pauses feel rushed.",
+      "before": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-orpheus",
+            "score": 156.188,
+            "reasons": [
+              "Matched: edit, mix, music, podcast, speech, supplied"
+            ]
+          },
+          {
+            "id": "portable-speech-chunk-alignment",
+            "score": 48.52,
+            "reasons": [
+              "Matched: speech"
+            ]
+          },
+          {
+            "id": "eternities-logos",
+            "score": 26.593,
+            "reasons": [
+              "Matched: supplied"
+            ]
+          },
+          {
+            "id": "bounded-verified-object-ingestion",
+            "score": 18.615,
+            "reasons": [
+              "Matched: supplied"
+            ]
+          },
+          {
+            "id": "eternities-phoenix",
+            "score": 18.615,
+            "reasons": [
+              "Matched: supplied"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-orpheus",
+            "score": 156.188,
+            "reasons": [
+              "Matched: edit, mix, music, podcast, speech, supplied"
+            ]
+          },
+          {
+            "id": "portable-speech-chunk-alignment",
+            "score": 48.52,
+            "reasons": [
+              "Matched: speech"
+            ]
+          },
+          {
+            "id": "eternities-logos",
+            "score": 26.593,
+            "reasons": [
+              "Matched: supplied"
+            ]
+          },
+          {
+            "id": "bounded-verified-object-ingestion",
+            "score": 18.615,
+            "reasons": [
+              "Matched: supplied"
+            ]
+          },
+          {
+            "id": "eternities-phoenix",
+            "score": 18.615,
+            "reasons": [
+              "Matched: supplied"
+            ]
+          }
+        ]
+      },
+      "ownerRankUnchanged": true
+    },
+    {
+      "id": "O-P",
+      "owner": "eternities-orpheus",
+      "query": "A bell obscures a name in the narration. Improve the listening result and check the encoded delivery.",
+      "before": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-orpheus",
+            "score": 72.114,
+            "reasons": [
+              "Matched: delivery, encoded, narration"
+            ]
+          },
+          {
+            "id": "symbolic-mathematics-python",
+            "score": 27.231,
+            "reasons": [
+              "Matched: check, result"
+            ]
+          },
+          {
+            "id": "interpersonal-understanding-and-dialogue",
+            "score": 27.025,
+            "reasons": [
+              "Matched: listening"
+            ]
+          },
+          {
+            "id": "eternities-forge",
+            "score": 20.829,
+            "reasons": [
+              "Matched: delivery"
+            ]
+          },
+          {
+            "id": "eternities-herald",
+            "score": 20.829,
+            "reasons": [
+              "Matched: delivery"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-orpheus",
+            "score": 72.114,
+            "reasons": [
+              "Matched: delivery, encoded, narration"
+            ]
+          },
+          {
+            "id": "symbolic-mathematics-python",
+            "score": 27.231,
+            "reasons": [
+              "Matched: check, result"
+            ]
+          },
+          {
+            "id": "interpersonal-understanding-and-dialogue",
+            "score": 27.025,
+            "reasons": [
+              "Matched: listening"
+            ]
+          },
+          {
+            "id": "eternities-forge",
+            "score": 20.829,
+            "reasons": [
+              "Matched: delivery"
+            ]
+          },
+          {
+            "id": "eternities-herald",
+            "score": 20.829,
+            "reasons": [
+              "Matched: delivery"
+            ]
+          }
+        ]
+      },
+      "ownerRankUnchanged": true
+    },
+    {
+      "id": "O-X",
+      "owner": "eternities-orpheus",
+      "query": "Generate a new song in the style of this singer.",
+      "before": {
+        "ownerRank": null,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "interface-localization-and-bidirectionality",
+            "score": 24.26,
+            "reasons": [
+              "Matched: new"
+            ]
+          },
+          {
+            "id": "voice-style-calibration",
+            "score": 15.443,
+            "reasons": [
+              "Matched: style"
+            ]
+          },
+          {
+            "id": "eternities-atlas",
+            "score": 10.397,
+            "reasons": [
+              "Matched: new"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "ownerRank": null,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "interface-localization-and-bidirectionality",
+            "score": 24.26,
+            "reasons": [
+              "Matched: new"
+            ]
+          },
+          {
+            "id": "voice-style-calibration",
+            "score": 15.443,
+            "reasons": [
+              "Matched: style"
+            ]
+          },
+          {
+            "id": "eternities-atlas",
+            "score": 10.397,
+            "reasons": [
+              "Matched: new"
+            ]
+          }
+        ]
+      },
+      "ownerRankUnchanged": true
+    },
+    {
+      "id": "L-D",
+      "owner": "evidence-linked-learning-design",
+      "query": "Create contrastive practice and a transfer item that distinguishes understanding from copying a worked example.",
+      "before": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "evidence-linked-learning-design",
+            "score": 82.539,
+            "reasons": [
+              "Matched: contrastive, create, practice, transfer"
+            ]
+          },
+          {
+            "id": "invariant-guard",
+            "score": 27.025,
+            "reasons": [
+              "Matched: example"
+            ]
+          },
+          {
+            "id": "interpersonal-understanding-and-dialogue",
+            "score": 16.907,
+            "reasons": [
+              "Matched: create, understanding"
+            ]
+          },
+          {
+            "id": "eternities-chorus",
+            "score": 5.854,
+            "reasons": [
+              "Matched: create"
+            ]
+          },
+          {
+            "id": "eternities-logos",
+            "score": 5.854,
+            "reasons": [
+              "Matched: create"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "evidence-linked-learning-design",
+            "score": 82.539,
+            "reasons": [
+              "Matched: contrastive, create, practice, transfer"
+            ]
+          },
+          {
+            "id": "invariant-guard",
+            "score": 27.025,
+            "reasons": [
+              "Matched: example"
+            ]
+          },
+          {
+            "id": "interpersonal-understanding-and-dialogue",
+            "score": 16.907,
+            "reasons": [
+              "Matched: create, understanding"
+            ]
+          },
+          {
+            "id": "eternities-chorus",
+            "score": 5.854,
+            "reasons": [
+              "Matched: create"
+            ]
+          },
+          {
+            "id": "eternities-logos",
+            "score": 5.854,
+            "reasons": [
+              "Matched: create"
+            ]
+          }
+        ]
+      },
+      "ownerRankUnchanged": true
+    },
+    {
+      "id": "L-P",
+      "owner": "evidence-linked-learning-design",
+      "query": "Prepare a lesson where learners compare densities, receive feedback, and solve a fresh problem.",
+      "before": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "evidence-linked-learning-design",
+            "score": 45.64,
+            "reasons": [
+              "Matched: feedback, lesson"
+            ]
+          },
+          {
+            "id": "product-discovery-and-prioritization",
+            "score": 32.851,
+            "reasons": [
+              "Matched: compare, feedback"
+            ]
+          },
+          {
+            "id": "counterbalanced-agent-evaluation",
+            "score": 20.338,
+            "reasons": [
+              "Matched: compare"
+            ]
+          },
+          {
+            "id": "accessibility-audit-and-remediation",
+            "score": 18.615,
+            "reasons": [
+              "Matched: feedback"
+            ]
+          },
+          {
+            "id": "audio-dsp-integrity-review",
+            "score": 18.615,
+            "reasons": [
+              "Matched: feedback"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "evidence-linked-learning-design",
+            "score": 45.64,
+            "reasons": [
+              "Matched: feedback, lesson"
+            ]
+          },
+          {
+            "id": "product-discovery-and-prioritization",
+            "score": 32.851,
+            "reasons": [
+              "Matched: compare, feedback"
+            ]
+          },
+          {
+            "id": "counterbalanced-agent-evaluation",
+            "score": 20.338,
+            "reasons": [
+              "Matched: compare"
+            ]
+          },
+          {
+            "id": "accessibility-audit-and-remediation",
+            "score": 18.615,
+            "reasons": [
+              "Matched: feedback"
+            ]
+          },
+          {
+            "id": "audio-dsp-integrity-review",
+            "score": 18.615,
+            "reasons": [
+              "Matched: feedback"
+            ]
+          }
+        ]
+      },
+      "ownerRankUnchanged": true
+    },
+    {
+      "id": "L-X",
+      "owner": "evidence-linked-learning-design",
+      "query": "Draft a substitute teacher handoff from the existing lesson; do not redesign practice.",
+      "before": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "evidence-linked-learning-design",
+            "score": 128.929,
+            "reasons": [
+              "Matched: handoff, lesson, practice, substitute, teacher"
+            ]
+          },
+          {
+            "id": "eternities-logos",
+            "score": 41.128,
+            "reasons": [
+              "Matched: article, canon, drafting, editorial, narrative, writing"
+            ]
+          },
+          {
+            "id": "bounded-parametric-design-iteration",
+            "score": 34.657,
+            "reasons": [
+              "Matched: existing"
+            ]
+          },
+          {
+            "id": "voice-style-calibration",
+            "score": 32.5,
+            "reasons": [
+              "Matched: draft, drafting, writing"
+            ]
+          },
+          {
+            "id": "eternities-atlas",
+            "score": 29.755,
+            "reasons": [
+              "Matched: draft, handoff"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "evidence-linked-learning-design",
+            "score": 128.929,
+            "reasons": [
+              "Matched: handoff, lesson, practice, substitute, teacher"
+            ]
+          },
+          {
+            "id": "eternities-logos",
+            "score": 41.128,
+            "reasons": [
+              "Matched: article, canon, drafting, editorial, narrative, writing"
+            ]
+          },
+          {
+            "id": "bounded-parametric-design-iteration",
+            "score": 34.657,
+            "reasons": [
+              "Matched: existing"
+            ]
+          },
+          {
+            "id": "voice-style-calibration",
+            "score": 32.5,
+            "reasons": [
+              "Matched: draft, drafting, writing"
+            ]
+          },
+          {
+            "id": "eternities-atlas",
+            "score": 29.755,
+            "reasons": [
+              "Matched: draft, handoff"
+            ]
+          }
+        ]
+      },
+      "ownerRankUnchanged": true
+    },
+    {
+      "id": "V-D",
+      "owner": "voice-style-calibration",
+      "query": "Calibrate our team voice from authorized writing samples, then adapt this draft without changing uncertainty.",
+      "before": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "voice-style-calibration",
+            "score": 281.791,
+            "reasons": [
+              "Matched: adapt, authorized, calibrate, draft, drafting, samples, team, voice, writing",
+              "Lexical intent: written authorial voice; cues: authorial style, text adaptation"
+            ]
+          },
+          {
+            "id": "eternities-logos",
+            "score": 57.949,
+            "reasons": [
+              "Matched: article, canon, drafting, editorial, narrative, writing"
+            ]
+          },
+          {
+            "id": "narrative-structure-and-revision",
+            "score": 51.384,
+            "reasons": [
+              "Matched: canon, narrative, voice, without, write, writing"
+            ]
+          },
+          {
+            "id": "ecological-sampling-and-detection-uncertainty",
+            "score": 33.988,
+            "reasons": [
+              "Matched: uncertainty"
+            ]
+          },
+          {
+            "id": "eternities-chorus",
+            "score": 28.8,
+            "reasons": [
+              "Matched: draft, editorial"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "voice-style-calibration",
+            "score": 281.791,
+            "reasons": [
+              "Matched: adapt, authorized, calibrate, draft, drafting, samples, team, voice, writing",
+              "Lexical intent: written authorial voice; cues: authorial style, text adaptation"
+            ]
+          },
+          {
+            "id": "eternities-logos",
+            "score": 57.949,
+            "reasons": [
+              "Matched: article, canon, drafting, editorial, narrative, writing"
+            ]
+          },
+          {
+            "id": "narrative-structure-and-revision",
+            "score": 51.384,
+            "reasons": [
+              "Matched: canon, narrative, voice, without, write, writing"
+            ]
+          },
+          {
+            "id": "ecological-sampling-and-detection-uncertainty",
+            "score": 33.988,
+            "reasons": [
+              "Matched: uncertainty"
+            ]
+          },
+          {
+            "id": "eternities-chorus",
+            "score": 28.8,
+            "reasons": [
+              "Matched: draft, editorial"
+            ]
+          }
+        ]
+      },
+      "ownerRankUnchanged": true
+    },
+    {
+      "id": "V-P",
+      "owner": "voice-style-calibration",
+      "query": "Our writing sounds like a bundle of mannerisms; derive concrete edits from the samples and check another register.",
+      "before": {
+        "ownerRank": 2,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-logos",
+            "score": 80.268,
+            "reasons": [
+              "Matched: article, canon, drafting, editorial, narrative, register, writing"
+            ]
+          },
+          {
+            "id": "voice-style-calibration",
+            "score": 70.289,
+            "reasons": [
+              "Matched: draft, drafting, register, samples, writing"
+            ]
+          },
+          {
+            "id": "narrative-structure-and-revision",
+            "score": 22.372,
+            "reasons": [
+              "Matched: canon, narrative, write, writing"
+            ]
+          },
+          {
+            "id": "eternities-agora",
+            "score": 22.319,
+            "reasons": [
+              "Matched: register"
+            ]
+          },
+          {
+            "id": "lazy-tabular-transformation-and-validation",
+            "score": 19.624,
+            "reasons": [
+              "Matched: writing"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "ownerRank": 2,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-logos",
+            "score": 80.268,
+            "reasons": [
+              "Matched: article, canon, drafting, editorial, narrative, register, writing"
+            ]
+          },
+          {
+            "id": "voice-style-calibration",
+            "score": 70.289,
+            "reasons": [
+              "Matched: draft, drafting, register, samples, writing"
+            ]
+          },
+          {
+            "id": "narrative-structure-and-revision",
+            "score": 22.372,
+            "reasons": [
+              "Matched: canon, narrative, write, writing"
+            ]
+          },
+          {
+            "id": "eternities-agora",
+            "score": 22.319,
+            "reasons": [
+              "Matched: register"
+            ]
+          },
+          {
+            "id": "lazy-tabular-transformation-and-validation",
+            "score": 19.624,
+            "reasons": [
+              "Matched: writing"
+            ]
+          }
+        ]
+      },
+      "ownerRankUnchanged": true
+    },
+    {
+      "id": "V-X",
+      "owner": "voice-style-calibration",
+      "query": "Make this one sentence friendlier, without a sample-based profile.",
+      "before": {
+        "ownerRank": null,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "app-store-discovery-experiments",
+            "score": 28.034,
+            "reasons": [
+              "Matched: one"
+            ]
+          },
+          {
+            "id": "imaginative-concept-development",
+            "score": 27.601,
+            "reasons": [
+              "Matched: one, without"
+            ]
+          },
+          {
+            "id": "bounded-parametric-design-iteration",
+            "score": 19.624,
+            "reasons": [
+              "Matched: one"
+            ]
+          },
+          {
+            "id": "product-discovery-and-prioritization",
+            "score": 19.624,
+            "reasons": [
+              "Matched: based"
+            ]
+          },
+          {
+            "id": "formula-preserving-workbook-engineering",
+            "score": 18.615,
+            "reasons": [
+              "Matched: without"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "ownerRank": null,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "app-store-discovery-experiments",
+            "score": 28.034,
+            "reasons": [
+              "Matched: one"
+            ]
+          },
+          {
+            "id": "imaginative-concept-development",
+            "score": 27.601,
+            "reasons": [
+              "Matched: one, without"
+            ]
+          },
+          {
+            "id": "bounded-parametric-design-iteration",
+            "score": 19.624,
+            "reasons": [
+              "Matched: one"
+            ]
+          },
+          {
+            "id": "product-discovery-and-prioritization",
+            "score": 19.624,
+            "reasons": [
+              "Matched: based"
+            ]
+          },
+          {
+            "id": "formula-preserving-workbook-engineering",
+            "score": 18.615,
+            "reasons": [
+              "Matched: without"
+            ]
+          }
+        ]
+      },
+      "ownerRankUnchanged": true
+    },
+    {
+      "id": "B-N1",
+      "owner": "eternities-beacon",
+      "query": "Draft a homepage opening that helps a small workshop choose us over its current spreadsheet; tie the claim to a demonstrable capability.",
+      "before": {
+        "ownerRank": null,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-logos",
+            "score": 59.743,
+            "reasons": [
+              "Matched: article, canon, claim, drafting, editorial, narrative, writing"
+            ]
+          },
+          {
+            "id": "sovereign-skill-refinery",
+            "score": 45.089,
+            "reasons": [
+              "Matched: capability, draft"
+            ]
+          },
+          {
+            "id": "formula-preserving-workbook-engineering",
+            "score": 38.607,
+            "reasons": [
+              "Matched: spreadsheet"
+            ]
+          },
+          {
+            "id": "eternities-omnibus",
+            "score": 34.657,
+            "reasons": [
+              "Matched: capability, tie"
+            ]
+          },
+          {
+            "id": "eternities-atlas",
+            "score": 33.187,
+            "reasons": [
+              "Matched: draft, tie"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "ownerRank": 2,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-logos",
+            "score": 59.743,
+            "reasons": [
+              "Matched: article, canon, claim, drafting, editorial, narrative, writing"
+            ]
+          },
+          {
+            "id": "eternities-beacon",
+            "score": 49.344,
+            "reasons": [
+              "Matched: current, homepage"
+            ]
+          },
+          {
+            "id": "sovereign-skill-refinery",
+            "score": 45.089,
+            "reasons": [
+              "Matched: capability, draft"
+            ]
+          },
+          {
+            "id": "formula-preserving-workbook-engineering",
+            "score": 38.607,
+            "reasons": [
+              "Matched: spreadsheet"
+            ]
+          },
+          {
+            "id": "eternities-omnibus",
+            "score": 34.657,
+            "reasons": [
+              "Matched: capability, tie"
+            ]
+          }
+        ]
+      },
+      "ownerRankUnchanged": false
+    },
+    {
+      "id": "B-N2",
+      "owner": "eternities-beacon",
+      "query": "We sound like every rival. Turn the customer's present workaround into a concrete product promise, with evidence beside it.",
+      "before": {
+        "ownerRank": null,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "customer-support-triage-and-resolution",
+            "score": 69.386,
+            "reasons": [
+              "Matched: customer, evidence, workaround"
+            ]
+          },
+          {
+            "id": "eternities-prometheus",
+            "score": 62.606,
+            "reasons": [
+              "Matched: customer, evidence, into, product"
+            ]
+          },
+          {
+            "id": "user-research-and-usability-study",
+            "score": 59.492,
+            "reasons": [
+              "Matched: customer, into, product, turn"
+            ]
+          },
+          {
+            "id": "product-discovery-and-prioritization",
+            "score": 45.879,
+            "reasons": [
+              "Matched: evidence, product"
+            ]
+          },
+          {
+            "id": "venture-falsification-and-planning",
+            "score": 39.527,
+            "reasons": [
+              "Matched: evidence, into, product, turn"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-beacon",
+            "score": 109.021,
+            "reasons": [
+              "Matched: customer, evidence, into, product, promise, turn, workaround"
+            ]
+          },
+          {
+            "id": "customer-support-triage-and-resolution",
+            "score": 64.604,
+            "reasons": [
+              "Matched: customer, evidence, workaround"
+            ]
+          },
+          {
+            "id": "eternities-prometheus",
+            "score": 60.085,
+            "reasons": [
+              "Matched: customer, evidence, into, product"
+            ]
+          },
+          {
+            "id": "user-research-and-usability-study",
+            "score": 57.404,
+            "reasons": [
+              "Matched: customer, into, product, turn"
+            ]
+          },
+          {
+            "id": "product-discovery-and-prioritization",
+            "score": 44.368,
+            "reasons": [
+              "Matched: evidence, product"
+            ]
+          }
+        ]
+      },
+      "ownerRankUnchanged": false
+    },
+    {
+      "id": "M-N1",
+      "owner": "eternities-muse",
+      "query": "Make the mood board usable: show a phone layout for records with long headlines, dates and missing images.",
+      "before": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-muse",
+            "score": 47.854,
+            "reasons": [
+              "Matched: layout, mood"
+            ]
+          },
+          {
+            "id": "long-horizon-work-continuity",
+            "score": 42.468,
+            "reasons": [
+              "Matched: long"
+            ]
+          },
+          {
+            "id": "ecological-sampling-and-detection-uncertainty",
+            "score": 30.297,
+            "reasons": [
+              "Matched: missing, records"
+            ]
+          },
+          {
+            "id": "interface-localization-and-bidirectionality",
+            "score": 29.755,
+            "reasons": [
+              "Matched: layout"
+            ]
+          },
+          {
+            "id": "motion-design-and-animation-engineering",
+            "score": 29.755,
+            "reasons": [
+              "Matched: layout"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-muse",
+            "score": 47.854,
+            "reasons": [
+              "Matched: layout, mood"
+            ]
+          },
+          {
+            "id": "long-horizon-work-continuity",
+            "score": 42.468,
+            "reasons": [
+              "Matched: long"
+            ]
+          },
+          {
+            "id": "ecological-sampling-and-detection-uncertainty",
+            "score": 30.297,
+            "reasons": [
+              "Matched: missing, records"
+            ]
+          },
+          {
+            "id": "interface-localization-and-bidirectionality",
+            "score": 29.755,
+            "reasons": [
+              "Matched: layout"
+            ]
+          },
+          {
+            "id": "motion-design-and-animation-engineering",
+            "score": 29.755,
+            "reasons": [
+              "Matched: layout"
+            ]
+          }
+        ]
+      },
+      "ownerRankUnchanged": true
+    },
+    {
+      "id": "M-N2",
+      "owner": "eternities-muse",
+      "query": "Use the same real archive content to choose responsive composition rules rather than just changing palettes.",
+      "before": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-muse",
+            "score": 93.609,
+            "reasons": [
+              "Matched: composition, content, real, responsive"
+            ]
+          },
+          {
+            "id": "motion-design-and-animation-engineering",
+            "score": 34.657,
+            "reasons": [
+              "Matched: responsive"
+            ]
+          },
+          {
+            "id": "bounded-parametric-design-iteration",
+            "score": 27.025,
+            "reasons": [
+              "Matched: same"
+            ]
+          },
+          {
+            "id": "eternities-atlas",
+            "score": 22.319,
+            "reasons": [
+              "Matched: rules"
+            ]
+          },
+          {
+            "id": "docx-package-redline-and-render-verification",
+            "score": 20.829,
+            "reasons": [
+              "Matched: content"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-muse",
+            "score": 93.609,
+            "reasons": [
+              "Matched: composition, content, real, responsive"
+            ]
+          },
+          {
+            "id": "motion-design-and-animation-engineering",
+            "score": 34.657,
+            "reasons": [
+              "Matched: responsive"
+            ]
+          },
+          {
+            "id": "bounded-parametric-design-iteration",
+            "score": 27.025,
+            "reasons": [
+              "Matched: same"
+            ]
+          },
+          {
+            "id": "eternities-atlas",
+            "score": 22.319,
+            "reasons": [
+              "Matched: rules"
+            ]
+          },
+          {
+            "id": "docx-package-redline-and-render-verification",
+            "score": 20.829,
+            "reasons": [
+              "Matched: content"
+            ]
+          }
+        ]
+      },
+      "ownerRankUnchanged": true
+    },
+    {
+      "id": "O-N1",
+      "owner": "eternities-orpheus",
+      "query": "Our spoken interview is hard to follow because the background bed covers quiet words; plan the local edit and listen to the finished export.",
+      "before": {
+        "ownerRank": 2,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "user-research-and-usability-study",
+            "score": 33.382,
+            "reasons": [
+              "Matched: interview, plan"
+            ]
+          },
+          {
+            "id": "eternities-orpheus",
+            "score": 33.187,
+            "reasons": [
+              "Matched: edit, local"
+            ]
+          },
+          {
+            "id": "eternities-atlas",
+            "score": 30.585,
+            "reasons": [
+              "Matched: export, plan"
+            ]
+          },
+          {
+            "id": "eternities-oracle",
+            "score": 30.585,
+            "reasons": [
+              "Matched: local, plan"
+            ]
+          },
+          {
+            "id": "structured-hiring-evaluation",
+            "score": 25.089,
+            "reasons": [
+              "Matched: interview, plan"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "ownerRank": 2,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "user-research-and-usability-study",
+            "score": 33.382,
+            "reasons": [
+              "Matched: interview, plan"
+            ]
+          },
+          {
+            "id": "eternities-orpheus",
+            "score": 33.187,
+            "reasons": [
+              "Matched: edit, local"
+            ]
+          },
+          {
+            "id": "eternities-atlas",
+            "score": 30.585,
+            "reasons": [
+              "Matched: export, plan"
+            ]
+          },
+          {
+            "id": "eternities-oracle",
+            "score": 30.585,
+            "reasons": [
+              "Matched: local, plan"
+            ]
+          },
+          {
+            "id": "structured-hiring-evaluation",
+            "score": 25.089,
+            "reasons": [
+              "Matched: interview, plan"
+            ]
+          }
+        ]
+      },
+      "ownerRankUnchanged": true
+    },
+    {
+      "id": "O-N2",
+      "owner": "eternities-orpheus",
+      "query": "Preserve the speaker's meaning while tightening an existing episode, then check transitions and narration audibility in the exported file.",
+      "before": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-orpheus",
+            "score": 54.05,
+            "reasons": [
+              "Matched: narration, speaker"
+            ]
+          },
+          {
+            "id": "formula-preserving-workbook-engineering",
+            "score": 46.183,
+            "reasons": [
+              "Matched: meaning, preserve, while"
+            ]
+          },
+          {
+            "id": "bounded-parametric-design-iteration",
+            "score": 34.657,
+            "reasons": [
+              "Matched: existing"
+            ]
+          },
+          {
+            "id": "fp-ts-functional-refactoring",
+            "score": 25.354,
+            "reasons": [
+              "Matched: preserve, while"
+            ]
+          },
+          {
+            "id": "interpersonal-understanding-and-dialogue",
+            "score": 24.652,
+            "reasons": [
+              "Matched: meaning, while"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "ownerRank": 1,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "results": [
+          {
+            "id": "eternities-orpheus",
+            "score": 54.05,
+            "reasons": [
+              "Matched: narration, speaker"
+            ]
+          },
+          {
+            "id": "formula-preserving-workbook-engineering",
+            "score": 46.183,
+            "reasons": [
+              "Matched: meaning, preserve, while"
+            ]
+          },
+          {
+            "id": "bounded-parametric-design-iteration",
+            "score": 34.657,
+            "reasons": [
+              "Matched: existing"
+            ]
+          },
+          {
+            "id": "fp-ts-functional-refactoring",
+            "score": 25.354,
+            "reasons": [
+              "Matched: preserve, while"
+            ]
+          },
+          {
+            "id": "interpersonal-understanding-and-dialogue",
+            "score": 24.652,
+            "reasons": [
+              "Matched: meaning, while"
+            ]
+          }
+        ]
+      },
+      "ownerRankUnchanged": true
+    }
+  ],
+  "baseline27ReproducedExactly": true,
+  "beaconRepairs": [
+    {
+      "id": "B-N1",
+      "before": null,
+      "after": 2
+    },
+    {
+      "id": "B-N2",
+      "before": null,
+      "after": 1
+    }
+  ],
+  "other25OwnerRanksUnchanged": true,
+  "hostNeedNone": [
+    {
+      "id": "B-N1",
+      "state": "abstain",
+      "results": 0
+    },
+    {
+      "id": "B-N2",
+      "state": "abstain",
+      "results": 0
+    },
+    {
+      "id": "M-N1",
+      "state": "abstain",
+      "results": 0
+    },
+    {
+      "id": "M-N2",
+      "state": "abstain",
+      "results": 0
+    },
+    {
+      "id": "O-N1",
+      "state": "abstain",
+      "results": 0
+    },
+    {
+      "id": "O-N2",
+      "state": "abstain",
+      "results": 0
+    }
+  ],
+  "selectionStatesUnchanged": true
+}

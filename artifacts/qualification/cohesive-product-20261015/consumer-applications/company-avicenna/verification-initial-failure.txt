@@ -1,0 +1,31 @@
+Initial local consumer self-check caught a campaign scenario arithmetic error.
+Expected campaign W3 was manually written as -6000; recomputation from base 6000 minus 10000 gives -4000. Its reserve gap is 19000, not 21000. The table and test expectation were corrected to the recomputed values; the actual base and scenario formulas were unchanged.
+
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
++ actual - expected
+
+  [
+    18000,
+    8000,
++   -4000,
+-   -6000,
+    4000
+  ]
+
+    at file:///C:/Users/Dom/.codex/operations/godskills-cohesive-20261015/consumers/company-avicenna/verify.mjs:37:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:643:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: [ 18000, 8000, -4000, 4000 ],
+  expected: [ 18000, 8000, -6000, 4000 ],
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.18.0

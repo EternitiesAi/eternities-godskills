@@ -1,0 +1,461 @@
+{
+  "capturedAt": "2026-10-16T05:52:42.690Z",
+  "initialFiles": [
+    {
+      "path": "tests/adaptive-evaluator-compatibility.test.mjs",
+      "sha256": "7ebba77fb8528734e6e6a025df289bbc9e96ea3c7f32f49af9b6401b73fab5e0",
+      "bytes": 14261
+    },
+    {
+      "path": "tests/arcadia-asset-revision.test.mjs",
+      "sha256": "651700679811376c1c5fb8ee179231066443d8ebe5bbc63504d4a7da7ca43b90",
+      "bytes": 1658
+    },
+    {
+      "path": "tests/conditional-method-regression.test.mjs",
+      "sha256": "0f3b3bb02a6df1d76d823e281e82fe07d74a642f66a38d29d4afd49a2eb9cd59",
+      "bytes": 29440
+    },
+    {
+      "path": "tests/educational-discovery-revealed-v2.test.mjs",
+      "sha256": "242d9c517612614339d1b96788201f2df9920eac6bc608fe6f6d1f1a21b887ba",
+      "bytes": 4610
+    },
+    {
+      "path": "tests/universal-wave25-beacon.test.mjs",
+      "sha256": "0123755399ab68e9729d0c38f5a00bd3711eca5a0e6fa08885467c4fc109fd95",
+      "bytes": 2695
+    },
+    {
+      "path": "tests/helpers/arcadia-asset-revision.mjs",
+      "sha256": "3d49bc29b9d584e16edfbb279246bd6b81b7633182b297d80b515ac60b472db1",
+      "bytes": 1739
+    },
+    {
+      "path": "tests/helpers/atlas-discovery-revision.mjs",
+      "sha256": "2a4e402ec6a319fa240cea5ec03054a640dab8b7c936b703e7b0bbf5012a40df",
+      "bytes": 1237
+    },
+    {
+      "path": "product/catalog.json",
+      "sha256": "adfa5cfed9ac1c6a3ca8db26522e322aa5106ca031884a4de1d8a61dc1a41b36",
+      "bytes": 146817
+    },
+    {
+      "path": "product/METHODS.v1.json",
+      "sha256": "902f8fca34b3e1fcc11eefcb10e463360f1a39d33ea0e6bb5265c06d63c3cbcb",
+      "bytes": 32066
+    },
+    {
+      "path": "package.json",
+      "sha256": "babefbe4933100db21e8deaf329e3f4dc7bd81555ef6a6cd9ce8fa2ced1f354d",
+      "bytes": 4086
+    },
+    {
+      "path": "product/lib/product.mjs",
+      "sha256": "afd5689a4120420478995bee762e67cc7ce640f9ce633ae6c6a4f497efcff9bf",
+      "bytes": 23970
+    },
+    {
+      "path": "product/lib/discovery.mjs",
+      "sha256": "4996700d80c125d06586f044260026954047cbbd412f43ef63e10ea8b2adcbd6",
+      "bytes": 19171
+    },
+    {
+      "path": "product/lib/selection-boundary.mjs",
+      "sha256": "a7b0ed0d0c9805e9a2b97a74c0321ce263c15609e98996144df90fc1b7f0e60e",
+      "bytes": 1603
+    },
+    {
+      "path": "product/lib/request-scope.mjs",
+      "sha256": "e9055f1bfa2a913c1f73e93f5fa652588963e63dd9094e46713786fe400877f2",
+      "bytes": 1314
+    }
+  ],
+  "protectedFiles": [
+    {
+      "path": "artifacts/adaptive-activation/evidence.v1.json",
+      "sha256": "b55a5cb4f7ff039cc7f4027c165b2f151bad723d9030913076a4225342fbe8c5"
+    },
+    {
+      "path": "artifacts/adaptive-evaluators/aegis-v2/oracle.v1.json",
+      "sha256": "df3b9ef38e4e6f96a4b61ba2b607f72ea5c3b2c1bbdeb3b027901b4c96584345"
+    },
+    {
+      "path": "artifacts/adaptive-evaluators/aegis-v2/shadow-replay.v1.json",
+      "sha256": "3acc919b24a8eb87eb747e945728e9c781463afec8c00c4a79024c4f65c5638e"
+    },
+    {
+      "path": "artifacts/capability-layers/eternities-aegis/manifest.v1.json",
+      "sha256": "311da3e3748f755469d68afb0539128776a4b03a509017e0604f0d8ba8295eb8"
+    },
+    {
+      "path": "artifacts/capability-layers/eternities-forge/manifest.v1.json",
+      "sha256": "6c3581a12c39b53696b29c3e4b8bac58fede466f7a760b9bd50743cfb7b00aa4"
+    },
+    {
+      "path": "artifacts/capability-layers/eternities-muse/manifest.v1.json",
+      "sha256": "4a8a02b6a92cfe1ba7d3fc49be34f68b91c20479b1d8ebf3f9d384b3ef9742b8"
+    },
+    {
+      "path": "docs/adaptive-evaluator-aegis-v2-shadow-report.md",
+      "sha256": "ed893777027c430232d37821bde5df270b0201bdc216339d638dbb3fd2dd7d32"
+    },
+    {
+      "path": "docs/adaptive-evaluator-packages-v1-certification.md",
+      "sha256": "0dc7de4c9eb0eb78758442dd60b8f25cd116c5a85789a3b40b400c125326b783"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/artifacts/combined.json",
+      "sha256": "d23b9fc591069f6ee98b110b374c121574337519b4114155cd5a482ad5c110cf"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/artifacts/guardrail.json",
+      "sha256": "b5cedd87ba90c85a6019cc4b654da8feeda501c917440540b86f1bcc5533c91c"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/artifacts/method.json",
+      "sha256": "cf562c5c635e3a69e9a04e540d772a3477d71056a542ff9ce318518552c3a17a"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/artifacts/raw.json",
+      "sha256": "2cdb7cef6289920e0f515bfef612b2f00c100c906af6209f2ab3740a0628edac"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/artifacts/reviewer.json",
+      "sha256": "d42fc11653263533a023ca4ecbef4811af31d7432aaddc963729088fb88cdb63"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/comparison-policy.json",
+      "sha256": "1ba575f0c01e40b1b150847eae8f4aeca7e27ecab151548f5a2fd948b1da6b41"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/host-policy.snapshot.md",
+      "sha256": "dd37170be0e916515d26a8520d73c81ec566ffd1bc2fd9c1a49b44d0881ddeab"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/ledger.json",
+      "sha256": "f6ff1d6f4bec33b467e091aa5a454534d777c5c5769762435e3d0ab4da79ca9a"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/observations/combined.json",
+      "sha256": "99800d22874203424dd8c5047c951a1b4e24a9f2e12c0aa8aeb882fbe37be886"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/observations/guardrail.json",
+      "sha256": "3c0caab8c710f34a9c512f00c37c88812ac417dba8e2230d21a4503967a7aa5d"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/observations/method.json",
+      "sha256": "6fbb899513903e3792b243e6fe41c51bb369d6a9196ac65a3b5e06d04e5aeec0"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/observations/raw.json",
+      "sha256": "7173efd15a35fee1f63ad39387a3190c8a6a02069240e3736d4f0667f757c949"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/observations/reviewer.json",
+      "sha256": "b12cfc986d408e2a3491e4e542ebe023568920361ad4db493807cb957022d52b"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/profile.json",
+      "sha256": "a6f7ab2abfaf82e3894ff9932ac6b03c6c52469567f2e305701234777e46e0e2"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/task-definition.json",
+      "sha256": "71dc6ba5957d7183e4e0f6d99c650d3244cc3e6808c111706b4c74df09f49aa7"
+    },
+    {
+      "path": "node_modules/acorn/dist/acorn.mjs",
+      "sha256": "953573b8fdab71599749ea5f2b33d3e760c2116178f9423ee7458dbe39d59453"
+    },
+    {
+      "path": "node_modules/acorn/package.json",
+      "sha256": "5c1ed7259579a7899b303f514b0194adcb9fe474fc7d136a84c6a45f10eefc84"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "e0b5c43f574e04c2ae7b9c0df4a1f09b609879341a8b6294a5de470009d7565c"
+    },
+    {
+      "path": "policies/adaptive-activation.v1.json",
+      "sha256": "b87bbfaddecb42417e57202173220bf240204d27b7de5fffc9e609eb18138939"
+    },
+    {
+      "path": "receipts/adaptive-evaluator-aegis-v2.json",
+      "sha256": "da38b9af701d3dcea7e8ca3dde62a8252895b1dbfd45068d2096fab93952ae80"
+    },
+    {
+      "path": "receipts/adaptive-evaluator-packages-v1.json",
+      "sha256": "ae7ded06bbed4aa0e2dea32dad9f841c1427f9abade57b86ad19c25b261bd519"
+    },
+    {
+      "path": "receipts/adaptive-evidence-v2.json",
+      "sha256": "7f84e36cd9d02d4c93f2348500d16c6fe93b8b357d1d97c271de418cdd29b56a"
+    },
+    {
+      "path": "runtime/adaptive-evaluator-packages-v1.md",
+      "sha256": "01e13ddf8e97050c7a0fc479566de8dca5d30e80c633ee447cfed7c2d2ac8e04"
+    },
+    {
+      "path": "schemas/adaptive-evaluator-package-v1.schema.json",
+      "sha256": "fae73b7a48a8a0456726f22d858c4eba5f6b5f1ed181db891c0c082715ac1ff0"
+    },
+    {
+      "path": "schemas/adaptive-evaluator-request-v1.schema.json",
+      "sha256": "2d2b48dc7dc58c494e6c7477cbec80f3f57ef7678c8c39913f3d95c889b6aed2"
+    },
+    {
+      "path": "schemas/adaptive-evaluator-result-v1.schema.json",
+      "sha256": "b222556e8e49e5557c2fb94f8c0c55e21da3349c984a201d63386048f855967e"
+    },
+    {
+      "path": "scripts/build-adaptive-evaluator-package-receipt.mjs",
+      "sha256": "287d80c0c2a2011b8c03c21d03ceb3fac3d427abe914721655e3248fa998d546"
+    },
+    {
+      "path": "scripts/build-aegis-evaluator-v2-shadow-replay.mjs",
+      "sha256": "794f37a5658d4d41dfbf34878f60c947a6f05ab3187b0f0e0b1375b4aa3dec1b"
+    },
+    {
+      "path": "scripts/build-capability-layer-abi.mjs",
+      "sha256": "28deabb4bd2ea6f5c0bb5a9cb9183e0e49e113eada2398320b17bd515ddea5fa"
+    },
+    {
+      "path": "scripts/evaluate-aegis-matrix.mjs",
+      "sha256": "38dc6b3c5d1f8687feb0c0f05f47094b80b2e9ec76688d1a90af060be5f03d0b"
+    },
+    {
+      "path": "skills/api-rate-limit-recovery/SKILL.md",
+      "sha256": "8a165944ba00664472fea80bf2f35e1c5669a61cc5e3b577e6ffd9634fec7044"
+    },
+    {
+      "path": "skills/approval-bound-private-session-mining/SKILL.md",
+      "sha256": "8f1f7517713f7b5d09f93415c5b7a03ab9b9c8e37eca01c6a780b0007754b419"
+    },
+    {
+      "path": "skills/bounded-service-shutdown/SKILL.md",
+      "sha256": "6e4d0bc284a44fbe8a96008052007f476a9b94d1af6625c53f2574e31883eab7"
+    },
+    {
+      "path": "skills/bounded-verified-object-ingestion/SKILL.md",
+      "sha256": "49b5256753b3454bcbb3e45343729ffff04e1e335fb67c9f704fd655eb0d7a3f"
+    },
+    {
+      "path": "skills/columnar-ingestion-rollup-and-query-layout-design/SKILL.md",
+      "sha256": "bb733d96f158f8b3a735a2c5b035cbf98e02c31a86f01cfc1bb4dc2be1488f79"
+    },
+    {
+      "path": "skills/confirmed-destructive-reconstruction/SKILL.md",
+      "sha256": "664ef8b6d36e67a6f2a978254a6e13197deadbdde3b330d9dc6ef89444eb4abc"
+    },
+    {
+      "path": "skills/diagnostic-statistical-model-inference/SKILL.md",
+      "sha256": "c2329e49529ee7610932e6377a1a226880ec8f5d8cc40a724e2729de68d15004"
+    },
+    {
+      "path": "skills/docx-package-redline-and-render-verification/SKILL.md",
+      "sha256": "c8ef749b3d777592b68d8d080917ea979be03fad9ae3f9e0933aa78f1fccd2b6"
+    },
+    {
+      "path": "skills/eternities-aegis/SKILL.md",
+      "sha256": "91b2029f6866272d30e3d685dce32700e910889830133e107a9009eb2269c8b7"
+    },
+    {
+      "path": "skills/eternities-agora/SKILL.md",
+      "sha256": "f4399a65e90fae3a18e785ddc8a4c15efd052b01fd02cc9efb6c60dc8163d98f"
+    },
+    {
+      "path": "skills/eternities-arcadia/SKILL.md",
+      "sha256": "a5a726826cecd0f3d2b1789e30c00d296a0085f82c5227dc3f35b59194653559"
+    },
+    {
+      "path": "skills/eternities-architect/SKILL.md",
+      "sha256": "3edb67a8aa6ef6717cd1abb3aa0658215ab76ec9009895d29bd6068612ee7a05"
+    },
+    {
+      "path": "skills/eternities-athena/SKILL.md",
+      "sha256": "68e961e8a658df393df64e4b14e5b770edce73f2531577edf985a7ec3946d56b"
+    },
+    {
+      "path": "skills/eternities-atlas/SKILL.md",
+      "sha256": "ef2cf619137f3a3ec3025b33390336659055cf5c95b9fa5f28687e691b36c341"
+    },
+    {
+      "path": "skills/eternities-beacon/SKILL.md",
+      "sha256": "4e534765f4be8c79b6302aa986c8c8944d89048e616129a36c2348e1969f3ac4"
+    },
+    {
+      "path": "skills/eternities-chorus/SKILL.md",
+      "sha256": "0054c131d94cc0f842ad2e5107135bc4379fbd0ba716ef00a4b1a98bab5b2d51"
+    },
+    {
+      "path": "skills/eternities-daedalus/SKILL.md",
+      "sha256": "f37a505ea9a21657a7d2b3907475a467d48b835c023378252100ba3536bab601"
+    },
+    {
+      "path": "skills/eternities-forge/SKILL.md",
+      "sha256": "0e5e5e876315bec35fde1c631cc6010b894b9af30cc59fdff8258f8ac580fcc7"
+    },
+    {
+      "path": "skills/eternities-hephaestus/SKILL.md",
+      "sha256": "fcdfca34b569af7ace8b89714e348b0d8767f99279663b4bbe336b4bf8860cfd"
+    },
+    {
+      "path": "skills/eternities-herald/SKILL.md",
+      "sha256": "7bf0df8857b68347dc14224f0e15ab5b47f4ebb972ac442f8ff34735eb609a8e"
+    },
+    {
+      "path": "skills/eternities-hermes/SKILL.md",
+      "sha256": "ff15c0ff4b723f6fe3af2b0b0660a9e0a6a1c885be67e6933206d3d91fb816c1"
+    },
+    {
+      "path": "skills/eternities-logos/SKILL.md",
+      "sha256": "bd94cdf5cdaec4534bd2f17bcf5006816c4f9e6f95dbf93f0ad3c670bdd762f2"
+    },
+    {
+      "path": "skills/eternities-mnemosyne/SKILL.md",
+      "sha256": "69e1bae6e496f6bf5dac6492be32cf3b4d1504d8ce86a5c6f7da8a9a0fbe2078"
+    },
+    {
+      "path": "skills/eternities-muse/SKILL.md",
+      "sha256": "e9af729ad561afb811971e4180512d4a46096f2ce245520b7db0f49c36dd79f8"
+    },
+    {
+      "path": "skills/eternities-omnibus/SKILL.md",
+      "sha256": "9d140beddc151810f560fdf06007cecd10dcabba9693ef047aca15525171a01a"
+    },
+    {
+      "path": "skills/eternities-oracle/SKILL.md",
+      "sha256": "3c9851711492a276eaaac2672207774ea8da793d630a51b21623e2564a624d6c"
+    },
+    {
+      "path": "skills/eternities-orpheus/SKILL.md",
+      "sha256": "59df9f08bb022f21a31f8da64566ffdf7177440623cbb165f77bd57c7e46c1f3"
+    },
+    {
+      "path": "skills/eternities-phoenix/SKILL.md",
+      "sha256": "8f7d4f0ace48604a9b556747404ac7efb3cd5f64dfabbc1c8add92c0b00a98f1"
+    },
+    {
+      "path": "skills/eternities-prometheus/SKILL.md",
+      "sha256": "ed053d7799f4eef67d1095237b40aeda0643362fa5ffccdbb1a9fa86458c6a3b"
+    },
+    {
+      "path": "skills/formula-preserving-workbook-engineering/SKILL.md",
+      "sha256": "57fe9f91a1e87fd435325ef4c6c9a1bc72711f6447cab26030553572690a13ed"
+    },
+    {
+      "path": "skills/fp-ts-functional-refactoring/SKILL.md",
+      "sha256": "88feb9b199b31c0d92753c51e14335d3cc04d6e78e5dffaf49c39b01c45e07a9"
+    },
+    {
+      "path": "skills/genomic-coordinate-assembly-and-variant-gates/SKILL.md",
+      "sha256": "c31327c833b4fead7de05dddd179b1ad593de95967e62533964127db5802f560"
+    },
+    {
+      "path": "skills/interface-localization-and-bidirectionality/SKILL.md",
+      "sha256": "c783eba17d9def75e40c95a10533a3025fd71a9abf7632317b75ba8890726855"
+    },
+    {
+      "path": "skills/invariant-guard/SKILL.md",
+      "sha256": "662fbe7019395bbda3be470cba36b67b2e00a2a036fd40ab79b93a18fd06b8ff"
+    },
+    {
+      "path": "skills/lazy-tabular-transformation-and-validation/SKILL.md",
+      "sha256": "2179e227170ff51dee0190ce53f50eb3e37a23c99a961a74443af9baeb9ca15f"
+    },
+    {
+      "path": "skills/measured-paid-creative-iteration/SKILL.md",
+      "sha256": "ae6d17c5753770b5a9e82935ba1cd0b6620fb597c8e82d95246c7161aa8600ad"
+    },
+    {
+      "path": "skills/performance-release-gating/SKILL.md",
+      "sha256": "c0d534a563f4b9f065e108fbceba4d98e311093139a9abe2e4e8f4ae5493ea71"
+    },
+    {
+      "path": "skills/physics-constrained-numerical-validation/SKILL.md",
+      "sha256": "5acc6fc0cb17c3c7778728f544e28c8812d717426b7e56f69f4fb9db0ad35b56"
+    },
+    {
+      "path": "skills/release-script-safety/SKILL.md",
+      "sha256": "e9379597b00cbfe72bc0d40824aaab9ee9b333d9560e79595567769898fbb5fa"
+    },
+    {
+      "path": "skills/semantic-implementation-diff/SKILL.md",
+      "sha256": "38fb8822b3cc9b8d18ab6101b8f6063272db5fe174afe008a6154bcd3b5f2bd8"
+    },
+    {
+      "path": "skills/sovereign-skill-refinery/SKILL.md",
+      "sha256": "71b39ba6963e030018c7830539e0ebe06dd902ffb4239fcd0f768a90d1791a4c"
+    },
+    {
+      "path": "skills/symbolic-mathematics-python/SKILL.md",
+      "sha256": "dcfa1c429927870d2e6a1f769428c71aa24c4cffffcedb5c059a2aa79f82838a"
+    },
+    {
+      "path": "skills/venture-falsification-and-planning/SKILL.md",
+      "sha256": "5102353487c367bbe99b0485c8669cf1269aed99fa3c829adffbea994f5caef9"
+    },
+    {
+      "path": "skills/web-performance-optimization/SKILL.md",
+      "sha256": "6420ad975cf47878da9bca50202864b7e896d86ca6fdd68896168fc8f571f6b4"
+    },
+    {
+      "path": "src/adaptive-activation.mjs",
+      "sha256": "9844aee1147f7129f3e37067424ccebb88ff478de1b7a9a9fb7306d5f2fdbd82"
+    },
+    {
+      "path": "src/adaptive-evaluator-package.mjs",
+      "sha256": "c8095ecab2723c6a4d26ec80dceb4b93ca88fcfa74dfbc6f2dba642331684a19"
+    },
+    {
+      "path": "src/adaptive-evidence-contracts.mjs",
+      "sha256": "d2712a3d197226333d9245c8ee5988fe5dc27bd0c540493a696ada393a4495be"
+    },
+    {
+      "path": "src/aegis-evaluator-v2.mjs",
+      "sha256": "253dcc5a506c276d3852f186f40993e5a27c7357efdc7f0324c6c7ac5cf73187"
+    },
+    {
+      "path": "src/capability-layer-abi.mjs",
+      "sha256": "11ce400a2f53656285352ff49f5434571ed07bd1d7a6806d86c361211d552205"
+    },
+    {
+      "path": "src/evaluator-module-closure.mjs",
+      "sha256": "b5eb49b1bba8b5eb3db7b09b34518e34e178435ff7a110dd66f52d8772560194"
+    },
+    {
+      "path": "src/io.mjs",
+      "sha256": "48dca2b203947e12ca3d5500b70a25066a8166d86bc2284aaeed6abf622a5c37"
+    },
+    {
+      "path": "src/paths.mjs",
+      "sha256": "a5f7367954dae5f8f0efe156b14f496292c34432c765d56f6c430fc79823bd73"
+    },
+    {
+      "path": "tests/core2260-catalog.json",
+      "sha256": "57d47c0a9692dc21caa0e7909ee6c557cd5ef5cc4e09b968df079cc81f86aecf"
+    },
+    {
+      "path": "tests/fixtures/catalog-before-next-eight-20261004.json",
+      "sha256": "bf90582e8a23a3d50a6997cfba5f97d022f4619024f8459e364423f269e10eca"
+    },
+    {
+      "path": "tests/fixtures/educational-discovery-revealed-v2.json",
+      "sha256": "d45fe826ca59387cb0137955fa0fe0672ff2fbcae55a9d90606388f0cc711b24"
+    },
+    {
+      "path": "tests/fixtures/educational-discovery-revealed-v4.json",
+      "sha256": "714897e05af3700b2ac54c130904afb10e2cb01b976e48bd71fa803644e68c1d"
+    },
+    {
+      "path": "tests/fixtures/hermes-pre-refinement-20261004.md",
+      "sha256": "435d81f1cfaeea64ebb85ad9cd00d1dae22e8bde77edeaa9e009c315e7ce69ba"
+    }
+  ],
+  "fullMaintainedTap": {
+    "path": "C:/Users/Dom/.codex/operations/godskills-cohesive-20261015/full-maintained-v1.tap",
+    "sha256": "a0d6c554880e00af7de399bdd54df79beb3fa652dbbcd2d9f15a06a53a61bb72"
+  }
+}

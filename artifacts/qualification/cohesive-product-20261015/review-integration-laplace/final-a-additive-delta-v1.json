@@ -1,0 +1,500 @@
+{
+  "schema": "cohesive-final-a-additive-integration-delta-v1",
+  "reviewer": "Laplace",
+  "date": "2026-10-16",
+  "status": "PASS",
+  "failures": [],
+  "copies": [
+    {
+      "file": "a-review.md",
+      "repositorySource": "artifacts/qualification/cohesive-product-20261015/review-a-v3-nietzsche/REVIEW.md",
+      "sha256": "d91eafa3d74cd3d9856464bd1ab8043a7be80727cc3f79ce2c2f454c33edb228",
+      "sourceSha256": "d91eafa3d74cd3d9856464bd1ab8043a7be80727cc3f79ce2c2f454c33edb228",
+      "declaredSha256": "d91eafa3d74cd3d9856464bd1ab8043a7be80727cc3f79ce2c2f454c33edb228",
+      "exactCopy": true,
+      "historical": true,
+      "preservedFromPrior": true
+    },
+    {
+      "file": "a-bindings.json",
+      "repositorySource": "artifacts/qualification/cohesive-product-20261015/review-a-v3-nietzsche/supplemental-final-bind.json",
+      "sha256": "efb29a48638342195e80980a73951ad3c10edfc0b3de0fa30a90b126243eaa4f",
+      "sourceSha256": "efb29a48638342195e80980a73951ad3c10edfc0b3de0fa30a90b126243eaa4f",
+      "declaredSha256": "efb29a48638342195e80980a73951ad3c10edfc0b3de0fa30a90b126243eaa4f",
+      "exactCopy": true,
+      "historical": true,
+      "preservedFromPrior": true
+    },
+    {
+      "file": "b-review.md",
+      "repositorySource": "artifacts/qualification/cohesive-product-20261015/review-b-dirac/review.md",
+      "sha256": "2f148ca861424539538a2dfe3604310f6827b292c7660e7b276d3b9eeb997509",
+      "sourceSha256": "2f148ca861424539538a2dfe3604310f6827b292c7660e7b276d3b9eeb997509",
+      "declaredSha256": "2f148ca861424539538a2dfe3604310f6827b292c7660e7b276d3b9eeb997509",
+      "exactCopy": true,
+      "historical": true,
+      "preservedFromPrior": true
+    },
+    {
+      "file": "b-decision.json",
+      "repositorySource": "artifacts/qualification/cohesive-product-20261015/review-b-dirac/decision.json",
+      "sha256": "d67440fa7ddf26730b11482373f2879900acb6abae7ee64852c91c432d9eafc0",
+      "sourceSha256": "d67440fa7ddf26730b11482373f2879900acb6abae7ee64852c91c432d9eafc0",
+      "declaredSha256": "d67440fa7ddf26730b11482373f2879900acb6abae7ee64852c91c432d9eafc0",
+      "exactCopy": true,
+      "historical": true,
+      "preservedFromPrior": true
+    },
+    {
+      "file": "d-review.md",
+      "repositorySource": "artifacts/qualification/cohesive-product-20261015/review-d-laplace/REVIEW.md",
+      "sha256": "004344af92fab0f4a5ff09efb97da191faae8218ce467bc591ce7a76763d0383",
+      "sourceSha256": "004344af92fab0f4a5ff09efb97da191faae8218ce467bc591ce7a76763d0383",
+      "declaredSha256": "004344af92fab0f4a5ff09efb97da191faae8218ce467bc591ce7a76763d0383",
+      "exactCopy": true,
+      "historical": true,
+      "preservedFromPrior": true
+    },
+    {
+      "file": "d-original-repair.json",
+      "repositorySource": "artifacts/qualification/cohesive-product-20261015/review-d-laplace/review.json",
+      "sha256": "46f8c779cad5ba18c212edc55f46c1a721a87224dbebc64b91eeb2b6e59e03b1",
+      "sourceSha256": "46f8c779cad5ba18c212edc55f46c1a721a87224dbebc64b91eeb2b6e59e03b1",
+      "declaredSha256": "46f8c779cad5ba18c212edc55f46c1a721a87224dbebc64b91eeb2b6e59e03b1",
+      "exactCopy": true,
+      "historical": true,
+      "preservedFromPrior": true
+    },
+    {
+      "file": "d-repair-recheck.json",
+      "repositorySource": "artifacts/qualification/cohesive-product-20261015/review-d-laplace/repair-recheck-v1.json",
+      "sha256": "238ccd49ce1c02af5858560b4ed9d33964c81f3338fdcd80f951539abf93b16e",
+      "sourceSha256": "238ccd49ce1c02af5858560b4ed9d33964c81f3338fdcd80f951539abf93b16e",
+      "declaredSha256": "238ccd49ce1c02af5858560b4ed9d33964c81f3338fdcd80f951539abf93b16e",
+      "exactCopy": true,
+      "historical": true,
+      "preservedFromPrior": true
+    },
+    {
+      "file": "d-owner-bindings.json",
+      "repositorySource": "artifacts/qualification/cohesive-product-20261015/review-d-laplace/owner-metadata-supplement-v2.json",
+      "sha256": "602fd7926c200a50b39e8a3badba440de1cb167d104b5a78bc95f40706afe8a8",
+      "sourceSha256": "602fd7926c200a50b39e8a3badba440de1cb167d104b5a78bc95f40706afe8a8",
+      "declaredSha256": "602fd7926c200a50b39e8a3badba440de1cb167d104b5a78bc95f40706afe8a8",
+      "exactCopy": true,
+      "historical": true,
+      "preservedFromPrior": true
+    },
+    {
+      "file": "a-final-review.md",
+      "repositorySource": "artifacts/qualification/cohesive-product-20261015/review-a-final-nietzsche/REVIEW.md",
+      "sha256": "c2841eed24c0bffc9434f712bb01cd6d11207c57d84c3a0ade5d620feb182e20",
+      "sourceSha256": "c2841eed24c0bffc9434f712bb01cd6d11207c57d84c3a0ade5d620feb182e20",
+      "declaredSha256": "c2841eed24c0bffc9434f712bb01cd6d11207c57d84c3a0ade5d620feb182e20",
+      "exactCopy": true,
+      "historical": false,
+      "preservedFromPrior": null
+    },
+    {
+      "file": "a-final-decision.json",
+      "repositorySource": "artifacts/qualification/cohesive-product-20261015/review-a-final-nietzsche/review.json",
+      "sha256": "18763bec98cb63df3a77640c0ba2b78ed010a29704a7333b114e8dc0c2b96868",
+      "sourceSha256": "18763bec98cb63df3a77640c0ba2b78ed010a29704a7333b114e8dc0c2b96868",
+      "declaredSha256": "18763bec98cb63df3a77640c0ba2b78ed010a29704a7333b114e8dc0c2b96868",
+      "exactCopy": true,
+      "historical": false,
+      "preservedFromPrior": null
+    },
+    {
+      "file": "a-final-bindings.json",
+      "repositorySource": "artifacts/qualification/cohesive-product-20261015/review-a-final-nietzsche/final-bind.json",
+      "sha256": "9e2fadf404010805a45021057b31f29b3f147012250a2004b0d655f79de36369",
+      "sourceSha256": "9e2fadf404010805a45021057b31f29b3f147012250a2004b0d655f79de36369",
+      "declaredSha256": "9e2fadf404010805a45021057b31f29b3f147012250a2004b0d655f79de36369",
+      "exactCopy": true,
+      "historical": false,
+      "preservedFromPrior": null
+    }
+  ],
+  "rows": [
+    {
+      "id": "cohesive-commercial-driver-diagnosis-v1",
+      "onlyWrapperHashesChanged": true,
+      "receiptSha256": "08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527",
+      "reportSha256": "34fcaa938d782298412dfe554d3da6733c997a3a24b47693c61e1cd3f5313bd3",
+      "hashesCurrent": true,
+      "actualMethodHashMatches": true
+    },
+    {
+      "id": "cohesive-positioning-to-message-v1",
+      "onlyWrapperHashesChanged": true,
+      "receiptSha256": "08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527",
+      "reportSha256": "34fcaa938d782298412dfe554d3da6733c997a3a24b47693c61e1cd3f5313bd3",
+      "hashesCurrent": true,
+      "actualMethodHashMatches": true
+    },
+    {
+      "id": "cohesive-art-direction-to-layout-v1",
+      "onlyWrapperHashesChanged": true,
+      "receiptSha256": "08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527",
+      "reportSha256": "34fcaa938d782298412dfe554d3da6733c997a3a24b47693c61e1cd3f5313bd3",
+      "hashesCurrent": true,
+      "actualMethodHashMatches": true
+    },
+    {
+      "id": "cohesive-core-loop-playtest-v1",
+      "onlyWrapperHashesChanged": true,
+      "receiptSha256": "08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527",
+      "reportSha256": "34fcaa938d782298412dfe554d3da6733c997a3a24b47693c61e1cd3f5313bd3",
+      "hashesCurrent": true,
+      "actualMethodHashMatches": true
+    },
+    {
+      "id": "cohesive-supplied-audio-editorial-mix-v1",
+      "onlyWrapperHashesChanged": true,
+      "receiptSha256": "08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527",
+      "reportSha256": "34fcaa938d782298412dfe554d3da6733c997a3a24b47693c61e1cd3f5313bd3",
+      "hashesCurrent": true,
+      "actualMethodHashMatches": true
+    },
+    {
+      "id": "cohesive-practice-and-transfer-v1",
+      "onlyWrapperHashesChanged": true,
+      "receiptSha256": "08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527",
+      "reportSha256": "34fcaa938d782298412dfe554d3da6733c997a3a24b47693c61e1cd3f5313bd3",
+      "hashesCurrent": true,
+      "actualMethodHashMatches": true
+    },
+    {
+      "id": "cohesive-contrastive-calibration-v1",
+      "onlyWrapperHashesChanged": true,
+      "receiptSha256": "08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527",
+      "reportSha256": "34fcaa938d782298412dfe554d3da6733c997a3a24b47693c61e1cd3f5313bd3",
+      "hashesCurrent": true,
+      "actualMethodHashMatches": true
+    },
+    {
+      "id": "cohesive-diagnostic-experiments-v2",
+      "onlyWrapperHashesChanged": true,
+      "receiptSha256": "08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527",
+      "reportSha256": "34fcaa938d782298412dfe554d3da6733c997a3a24b47693c61e1cd3f5313bd3",
+      "hashesCurrent": true,
+      "actualMethodHashMatches": true
+    },
+    {
+      "id": "cohesive-creator-slate-feasibility-v1",
+      "onlyWrapperHashesChanged": true,
+      "receiptSha256": "08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527",
+      "reportSha256": "34fcaa938d782298412dfe554d3da6733c997a3a24b47693c61e1cd3f5313bd3",
+      "hashesCurrent": true,
+      "actualMethodHashMatches": true
+    },
+    {
+      "id": "cohesive-camera-driven-asset-iteration-v1",
+      "onlyWrapperHashesChanged": true,
+      "receiptSha256": "08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527",
+      "reportSha256": "34fcaa938d782298412dfe554d3da6733c997a3a24b47693c61e1cd3f5313bd3",
+      "hashesCurrent": true,
+      "actualMethodHashMatches": true
+    },
+    {
+      "id": "cohesive-causal-design-before-estimation-v1",
+      "onlyWrapperHashesChanged": true,
+      "receiptSha256": "08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527",
+      "reportSha256": "34fcaa938d782298412dfe554d3da6733c997a3a24b47693c61e1cd3f5313bd3",
+      "hashesCurrent": true,
+      "actualMethodHashMatches": true
+    },
+    {
+      "id": "cohesive-telemetry-cardinality-budget-v1",
+      "onlyWrapperHashesChanged": true,
+      "receiptSha256": "08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527",
+      "reportSha256": "34fcaa938d782298412dfe554d3da6733c997a3a24b47693c61e1cd3f5313bd3",
+      "hashesCurrent": true,
+      "actualMethodHashMatches": true
+    },
+    {
+      "id": "cohesive-reader-knowledge-and-reveal-revision-v1",
+      "onlyWrapperHashesChanged": true,
+      "receiptSha256": "08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527",
+      "reportSha256": "34fcaa938d782298412dfe554d3da6733c997a3a24b47693c61e1cd3f5313bd3",
+      "hashesCurrent": true,
+      "actualMethodHashMatches": true
+    }
+  ],
+  "finalAClosure": {
+    "decision": "READY",
+    "decisionFile": "a-final-decision.json",
+    "bindingFile": "a-final-bindings.json",
+    "scope": "Final A-R2-B closure on fixed 27-case set; seven A bodies and original routes retain prior bounded acceptance at unchanged hashes"
+  },
+  "reportPrefixPreserved": true,
+  "originalEightRowsPreserved": true,
+  "receiptOnlyAdditive": true,
+  "scope": "Mechanical identity and additive evidence integration only; no A body self-review, behavioral reacceptance or historical-compatibility review.",
+  "baselineAudit": {
+    "path": "audit-results.json",
+    "sha256": "3fa561e05a86cc520ad509fea6c2aaf0e51f954d069a50dac759ba648ae4f89a",
+    "verdict": "PASS",
+    "preserved": true
+  },
+  "inspectedAssembler": {
+    "path": "artifacts/qualification/cohesive-product-20261015/append-final-a-closure.mjs",
+    "sha256": "fe6158048f2d874bb165431179a74392f47c43c4e2154a2af3e7f5467812b616",
+    "executed": false
+  },
+  "artifactTransitions": [
+    {
+      "path": "product/METHODS.v1.json",
+      "beforeSha256": "239788b3d6ccfd41296a8b139ace9070991f1e4eae13eb6d818f3f3b66e4c2c4",
+      "afterSha256": "902f8fca34b3e1fcc11eefcb10e463360f1a39d33ea0e6bb5265c06d63c3cbcb"
+    },
+    {
+      "path": "product/evidence/method-reviews/cohesive-v1/receipt.json",
+      "beforeSha256": "9ad85e95ce0c952a7f53c4a62e84b17a782ce4a84e0f01db569fc9eecad4a5ec",
+      "afterSha256": "08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527"
+    },
+    {
+      "path": "product/evidence/method-reviews/cohesive-v1/report.md",
+      "beforeSha256": "44751141116cf4a003fceaa223bf7d49fe7bbdd9dd537a484f850e25e1764ca1",
+      "afterSha256": "34fcaa938d782298412dfe554d3da6733c997a3a24b47693c61e1cd3f5313bd3"
+    }
+  ],
+  "directoryHeaderUnchanged": true,
+  "originalEightRowSerializedPrefixUnchanged": true,
+  "counts": {
+    "newExactCopies": 3,
+    "historicalEvidenceCopiesPreserved": 8,
+    "totalEvidenceCopies": 11,
+    "newMethodWrappersUpdated": 13,
+    "actualMethodHashesMatched": 13,
+    "originalDirectoryRowsUnchanged": 8,
+    "totalDirectoryRows": 21
+  },
+  "preservedPriorAuditArtifacts": [
+    {
+      "name": "audit-results.json",
+      "sha256": "3fa561e05a86cc520ad509fea6c2aaf0e51f954d069a50dac759ba648ae4f89a"
+    },
+    {
+      "name": "audit.mjs",
+      "sha256": "8ca81b944b02dc18d03ba52582fce435e37323b240a5d03ee31d3f8377fbd5a0"
+    },
+    {
+      "name": "read-set.json",
+      "sha256": "a01a7545a32d7f75febce60efda90232e3fadee9f282ab21a6f7eae7eb3db559"
+    },
+    {
+      "name": "REVIEW.md",
+      "sha256": "e40fdbc8c2875342c8fab18d26822ef60d1061dee8420e723f421bb0afade37e"
+    }
+  ],
+  "readSet": [
+    {
+      "path": "product/METHODS.v1.json",
+      "sha256": "902f8fca34b3e1fcc11eefcb10e463360f1a39d33ea0e6bb5265c06d63c3cbcb",
+      "mode": "Complete JSON parsed for identity fields; no substantive acceptance"
+    },
+    {
+      "path": "product/evidence/method-reviews/cohesive-v1/a-final-decision.json",
+      "sha256": "18763bec98cb63df3a77640c0ba2b78ed010a29704a7333b114e8dc0c2b96868",
+      "mode": "Complete JSON parsed for identity fields; no substantive acceptance"
+    },
+    {
+      "path": "product/evidence/method-reviews/cohesive-v1/a-final-bindings.json",
+      "sha256": "9e2fadf404010805a45021057b31f29b3f147012250a2004b0d655f79de36369",
+      "mode": "Complete JSON parsed for identity fields; no substantive acceptance"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-integration-laplace/audit-results.json",
+      "sha256": "3fa561e05a86cc520ad509fea6c2aaf0e51f954d069a50dac759ba648ae4f89a",
+      "mode": "Complete JSON parsed for identity fields; no substantive acceptance"
+    },
+    {
+      "path": "product/evidence/method-reviews/cohesive-v1/a-review.md",
+      "sha256": "d91eafa3d74cd3d9856464bd1ab8043a7be80727cc3f79ce2c2f454c33edb228",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-a-v3-nietzsche/REVIEW.md",
+      "sha256": "d91eafa3d74cd3d9856464bd1ab8043a7be80727cc3f79ce2c2f454c33edb228",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "product/evidence/method-reviews/cohesive-v1/a-bindings.json",
+      "sha256": "efb29a48638342195e80980a73951ad3c10edfc0b3de0fa30a90b126243eaa4f",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-a-v3-nietzsche/supplemental-final-bind.json",
+      "sha256": "efb29a48638342195e80980a73951ad3c10edfc0b3de0fa30a90b126243eaa4f",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "product/evidence/method-reviews/cohesive-v1/b-review.md",
+      "sha256": "2f148ca861424539538a2dfe3604310f6827b292c7660e7b276d3b9eeb997509",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-b-dirac/review.md",
+      "sha256": "2f148ca861424539538a2dfe3604310f6827b292c7660e7b276d3b9eeb997509",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "product/evidence/method-reviews/cohesive-v1/b-decision.json",
+      "sha256": "d67440fa7ddf26730b11482373f2879900acb6abae7ee64852c91c432d9eafc0",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-b-dirac/decision.json",
+      "sha256": "d67440fa7ddf26730b11482373f2879900acb6abae7ee64852c91c432d9eafc0",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "product/evidence/method-reviews/cohesive-v1/d-review.md",
+      "sha256": "004344af92fab0f4a5ff09efb97da191faae8218ce467bc591ce7a76763d0383",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-d-laplace/REVIEW.md",
+      "sha256": "004344af92fab0f4a5ff09efb97da191faae8218ce467bc591ce7a76763d0383",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "product/evidence/method-reviews/cohesive-v1/d-original-repair.json",
+      "sha256": "46f8c779cad5ba18c212edc55f46c1a721a87224dbebc64b91eeb2b6e59e03b1",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-d-laplace/review.json",
+      "sha256": "46f8c779cad5ba18c212edc55f46c1a721a87224dbebc64b91eeb2b6e59e03b1",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "product/evidence/method-reviews/cohesive-v1/d-repair-recheck.json",
+      "sha256": "238ccd49ce1c02af5858560b4ed9d33964c81f3338fdcd80f951539abf93b16e",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-d-laplace/repair-recheck-v1.json",
+      "sha256": "238ccd49ce1c02af5858560b4ed9d33964c81f3338fdcd80f951539abf93b16e",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "product/evidence/method-reviews/cohesive-v1/d-owner-bindings.json",
+      "sha256": "602fd7926c200a50b39e8a3badba440de1cb167d104b5a78bc95f40706afe8a8",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-d-laplace/owner-metadata-supplement-v2.json",
+      "sha256": "602fd7926c200a50b39e8a3badba440de1cb167d104b5a78bc95f40706afe8a8",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "product/evidence/method-reviews/cohesive-v1/a-final-review.md",
+      "sha256": "c2841eed24c0bffc9434f712bb01cd6d11207c57d84c3a0ade5d620feb182e20",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-a-final-nietzsche/REVIEW.md",
+      "sha256": "c2841eed24c0bffc9434f712bb01cd6d11207c57d84c3a0ade5d620feb182e20",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-a-final-nietzsche/review.json",
+      "sha256": "18763bec98cb63df3a77640c0ba2b78ed010a29704a7333b114e8dc0c2b96868",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-a-final-nietzsche/final-bind.json",
+      "sha256": "9e2fadf404010805a45021057b31f29b3f147012250a2004b0d655f79de36369",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "product/skills/eternities-prometheus/references/commercial-driver-diagnosis-v1.md",
+      "sha256": "bdd16ac74bb01c88864e6d76080fd05d833eb9be1324322f27aaaec8350165f2",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "product/skills/eternities-beacon/references/positioning-to-message-v1.md",
+      "sha256": "57da15f76572e5af9dde41cf4c5703d83f045cbb701b0284dfcd45d8e46c94d8",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "product/skills/eternities-muse/references/art-direction-to-layout-v1.md",
+      "sha256": "893b09898d51cf5bfcca7d0efa88d239466e04a7c6a68152d4158aab5fa2a140",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/core-loop-playtest-v1.md",
+      "sha256": "305e082e9e3d57729fe10e4ad9865b1468333e661f7530469ef17a70fc07490a",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "product/skills/eternities-orpheus/references/supplied-audio-editorial-mix-v1.md",
+      "sha256": "d52e3ecffe5e6134cc43f2296ed4c8e48963af8f02f513b605c5a7527ac6c1d9",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/references/practice-and-transfer-v1.md",
+      "sha256": "8625e567db5d4f68c267bd4743e555885115fabcbd253b67f768e2031826aa9f",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "product/skills/voice-style-calibration/references/contrastive-calibration-v1.md",
+      "sha256": "dc51820a975a4f6f1c75f69c70f96f7204b864cd662faf4516a9b1a71d2b7c40",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "product/skills/eternities-phoenix/references/diagnostic-experiments-v2.md",
+      "sha256": "0e90cd104135546419a996f0d1c0acd1e57f21ecc5c463225f9d86e7adfec227",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "product/skills/eternities-beacon/references/creator-slate-feasibility-v1.md",
+      "sha256": "b1ab3ac4a2570311de7139e605e23cb8bfe122d89d578578288c1b1c8ed34dc1",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md",
+      "sha256": "a1b65d62b70a689b3e7b1c06871588e4763a04d3987b9d5c833d5b3c7b6da52a",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "product/skills/diagnostic-statistical-model-inference/references/causal-design-before-estimation-v1.md",
+      "sha256": "9fd7004a3aefc4daf074dde37dea7d5a2b6fb1024ff4ae3c19461d5e89b24918",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "product/skills/service-observability-and-slo-design/references/telemetry-cardinality-budget-v1.md",
+      "sha256": "c429085c14122d5a6f6b8e42328c0f944ef03f4db0a7cd669e64bcd19937b650",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "product/skills/narrative-structure-and-revision/references/reader-knowledge-and-reveal-revision-v1.md",
+      "sha256": "8b8262deffa3e0bedce4fd330e899ed84ea5361cef34b5543cd09cc27002390a",
+      "mode": "SHA-256 byte identity only"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/append-final-a-closure.mjs",
+      "sha256": "fe6158048f2d874bb165431179a74392f47c43c4e2154a2af3e7f5467812b616",
+      "mode": "Full text/receipt inspection; never executed"
+    },
+    {
+      "path": "product/evidence/method-reviews/cohesive-v1/receipt.json",
+      "sha256": "08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527",
+      "mode": "Full text/receipt inspection; never executed"
+    },
+    {
+      "path": "product/evidence/method-reviews/cohesive-v1/report.md",
+      "sha256": "34fcaa938d782298412dfe554d3da6733c997a3a24b47693c61e1cd3f5313bd3",
+      "mode": "Full text/receipt inspection; never executed"
+    }
+  ],
+  "limits": [
+    "The final A READY decision is Nietzsche's; this audit verifies its exact copy and receipt integration, not substantive acceptance.",
+    "The appended report preserves historical text and disclaims subsequent-runtime and comparative-performance certification.",
+    "No append script execution, product/test/build/manifest writes, full suite, provider, worker, fresh method review or CLI probe.",
+    "Current runtime compatibility repairs and release/package sealing are outside this audit. Standby until separately assigned."
+  ]
+}

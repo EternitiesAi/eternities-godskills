@@ -1,0 +1,134 @@
+{
+  "schema": "runtime-repair-avicenna-verdict-v1",
+  "decision": "REPAIR",
+  "scope": "One remaining bounded runtime-noise regression. Home-feed semantic expectation corrections accepted independently.",
+  "reviewedFiles": [
+    {
+      "path": "product/lib/discovery.mjs",
+      "sha256": "ce74e5a9eafac393e8d39230f2d657847beac54a62574dea9df4303f7c0d4926"
+    },
+    {
+      "path": "tests/cohesive-discovery-runtime-repair.test.mjs",
+      "sha256": "81ca1fc05fe426bee4f4988d81a4125ea1a856b5d621393ceca3ead1e8b1d5b3"
+    },
+    {
+      "path": "tests/wave29-atlas-serving-time-ranking-trace-v2.test.mjs",
+      "sha256": "542c066ac06b5cf89ae74ab582aec7afffb86e146ff6045afb0431e94acf47c3"
+    },
+    {
+      "path": "tests/wave29-atlas-serving-time-ranking-trace-v3.test.mjs",
+      "sha256": "b6de63423663dfc97e750b819f44e9c12fc862b8e30b656042d9dbe78648ffab"
+    }
+  ],
+  "acceptedSemanticCorrections": [
+    {
+      "path": "tests/wave29-atlas-serving-time-ranking-trace-v2.test.mjs",
+      "sha256": "542c066ac06b5cf89ae74ab582aec7afffb86e146ff6045afb0431e94acf47c3"
+    },
+    {
+      "path": "tests/wave29-atlas-serving-time-ranking-trace-v3.test.mjs",
+      "sha256": "b6de63423663dfc97e750b819f44e9c12fc862b8e30b656042d9dbe78648ffab"
+    }
+  ],
+  "findings": [
+    {
+      "id": "RR1",
+      "priority": 2,
+      "path": "product/lib/discovery.mjs",
+      "start": 96,
+      "end": 97,
+      "title": "Ordinary CSS form animation satisfies the new runtime-domain conjunction",
+      "query": "Repair keyboard focus on a sign-up page with a CSS animation.",
+      "querySha256": "d2d9f4885b616576037f21d32292d1b4d96cb19cae351c0cf76e128c84e283f9",
+      "before": "Arcadia absent; accessibility first and motion second.",
+      "after": "Arcadia rank3, score46.579, with runtime-purpose reason; accessibility/motion remain first/second.",
+      "cause": "page/focus plus the unqualified animation noun satisfies runtimeDomain; repair supplies runtimeWork. This is ordinary CSS form work, not the browser-hosted game/interactive-3D scope of the actual Arcadia body.",
+      "reproduction": "node --test --test-reporter=tap artifacts/qualification/cohesive-product-20261015/review-runtime-repair-avicenna/form-animation-regression.test.mjs",
+      "repairAcceptance": "Keep the new CSS-form false positive excluded while preserving hidden-tab/pressed-keys, browser simulation/frame-loop repair and shader/E2 recall. Preserve quote/refusal, legal/pricing, no-need and current semantic guards; use mechanism-level evidence, not exact-query allowlists."
+    }
+  ],
+  "verifiedImprovements": {
+    "hiddenTab": {
+      "rank": 1,
+      "score": 147.278,
+      "bonus": 0,
+      "purposeReason": false
+    },
+    "renderer": {
+      "currentRank": 1,
+      "currentScore": 70.173,
+      "historicalRank": 5,
+      "teachingIntentAdded": false
+    },
+    "causalOwner": "diagnostic-statistical-model-inference rank1 on canonical, pre-repair and repaired code with identical current metadata; interatomic rank2 remains incidental."
+  },
+  "semanticAssessment": {
+    "decision": "READY",
+    "actualReadBodies": [
+      {
+        "path": "product/skills/diagnostic-statistical-model-inference/SKILL.md",
+        "sha256": "e31ea8e66d9b7555a20a11c16a11c87f62e263c9a5d12873d661467c76358f8f"
+      },
+      {
+        "path": "product/skills/diagnostic-statistical-model-inference/references/causal-design-before-estimation-v1.md",
+        "sha256": "9fd7004a3aefc4daf074dde37dea7d5a2b6fb1024ff4ae3c19461d5e89b24918"
+      },
+      {
+        "path": "product/skills/interatomic-model-validation/SKILL.md",
+        "sha256": "fa1e1443277a7ded60d3f4bca483695b53e7c1511d4b5878d296ebeabd878583"
+      },
+      {
+        "path": "product/skills/eternities-athena/SKILL.md",
+        "sha256": "3bb0ab1d455cb3738db5f1c7645c39fb794b4cfd906dbdcd5269a91269eaa968"
+      },
+      {
+        "path": "product/skills/eternities-arcadia/SKILL.md",
+        "sha256": "ac0ef2950f34981c72dad4143ad3752b289d3f95877ee68aa464195c8818b282"
+      }
+    ],
+    "reason": "The exact home-feed request is causal claim appraisal. Statistical SKILL and causal-design reference address estimands, assignment, confounding, identification and uncertainty; Athena is also a proper evidence-appraisal owner. Interatomic SKILL explicitly restricts itself to learned potentials/materials. Do not restore the old primary materials route.",
+    "oldExpectationPreserved": "Exact prior test bytes in Dirac code.before.json match declared before hashes; current read-set also retains the literal old/new assertion deltas.",
+    "scopeLimit": "This is scope-fit review, not proof of a causal result or universal ranking."
+  },
+  "tests": {
+    "focusedPass": 201,
+    "focusedFail": 0,
+    "actualCliIncluded": true,
+    "temporaryBuildExcluded": true,
+    "authorDiagnosisExactlyReproduced": true,
+    "freshControlsPass": 5,
+    "freshControlsFail": 1,
+    "freshControlsTotal": 6,
+    "explicitNewRegressionFail": 1,
+    "exactIdsPass": 93,
+    "noNeedFailures": []
+  },
+  "integrity": {
+    "beforeAfterSourceDrift": [],
+    "archivedBeforeHashMismatches": [],
+    "oldReviewReceiptMismatches": [],
+    "outsideAuthoredSetAtStart": [
+      {
+        "path": "product/release.json",
+        "expected": "ccc41f689037dd341f7ac1e132239b140c18932a4d25382cf5faa74710f92de6",
+        "actual": "5f2638f564460f939f179b33dc558bd0a31f8d41ef74663cecb3dbf0a47aa3a3"
+      },
+      {
+        "path": "tests/educational-discovery-revealed-v2.test.mjs",
+        "expected": "242d9c517612614339d1b96788201f2df9920eac6bc608fe6f6d1f1a21b887ba",
+        "actual": "1eff90f1f23f0b9184881b199ec1476c2ede8effe8c9500d94277c45a67da3ac"
+      }
+    ],
+    "explanation": "Fresh parent release build and separately owned educational compatibility edit predate review snapshot; neither changed during this review. Four authored files match declared final hashes.",
+    "catalogSha256": "adfa5cfed9ac1c6a3ca8db26522e322aa5106ca031884a4de1d8a61dc1a41b36"
+  },
+  "limits": [
+    "No full suite/build/install performed",
+    "C v2 READY and original C REPAIR remain historical, unchanged",
+    "Finite lexical routing and prior mixed-clause limitations remain",
+    "An incidental interatomic second candidate is not semantic applicability"
+  ],
+  "writes": "Only new review-runtime-repair-avicenna/",
+  "productEdited": false,
+  "agentsSpawned": false
+}

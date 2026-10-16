@@ -1,0 +1,392 @@
+{
+  "schema": "review-b-dirac-checks-v1",
+  "beforeAndAfterStable": true,
+  "changedSinceFirstRead": [],
+  "entrypointCandidateMismatches": [],
+  "auditAndReadSetBaselineMismatch": [],
+  "changedCount": 10,
+  "auditedEntrypoints": 56,
+  "authorReadSources": 79,
+  "links": [
+    {
+      "from": "product/skills/eternities-daedalus/SKILL.md",
+      "href": "references/methods.md",
+      "exists": true,
+      "contained": true
+    },
+    {
+      "from": "product/skills/eternities-daedalus/SKILL.md",
+      "href": "references/configuration-lifecycle.md",
+      "exists": true,
+      "contained": true
+    },
+    {
+      "from": "product/skills/eternities-daedalus/SKILL.md",
+      "href": "references/optional-model-scenarios-ci.md",
+      "exists": true,
+      "contained": true
+    },
+    {
+      "from": "product/skills/eternities-daedalus/SKILL.md",
+      "href": "references/test-design-and-evidence.md",
+      "exists": true,
+      "contained": true
+    },
+    {
+      "from": "product/skills/eternities-daedalus/SKILL.md",
+      "href": "references/methods.md",
+      "exists": true,
+      "contained": true
+    },
+    {
+      "from": "product/skills/eternities-forge/SKILL.md",
+      "href": "references/methods.md",
+      "exists": true,
+      "contained": true
+    },
+    {
+      "from": "product/skills/eternities-forge/SKILL.md",
+      "href": "references/methods.md",
+      "exists": true,
+      "contained": true
+    },
+    {
+      "from": "product/skills/eternities-hermes/SKILL.md",
+      "href": "references/methods.md",
+      "exists": true,
+      "contained": true
+    },
+    {
+      "from": "product/skills/eternities-hermes/SKILL.md",
+      "href": "references/methods.md",
+      "exists": true,
+      "contained": true
+    },
+    {
+      "from": "product/skills/eternities-hermes/SKILL.md",
+      "href": "references/cursor-paged-task-messages.md",
+      "exists": true,
+      "contained": true
+    },
+    {
+      "from": "product/skills/eternities-hermes/SKILL.md",
+      "href": "references/truthful-cli-progress.md",
+      "exists": true,
+      "contained": true
+    },
+    {
+      "from": "product/skills/eternities-mnemosyne/SKILL.md",
+      "href": "references/methods.md",
+      "exists": true,
+      "contained": true
+    },
+    {
+      "from": "product/skills/eternities-mnemosyne/SKILL.md",
+      "href": "references/methods.md",
+      "exists": true,
+      "contained": true
+    },
+    {
+      "from": "product/skills/eternities-oracle/SKILL.md",
+      "href": "references/methods.md",
+      "exists": true,
+      "contained": true
+    },
+    {
+      "from": "product/skills/eternities-oracle/SKILL.md",
+      "href": "references/methods.md",
+      "exists": true,
+      "contained": true
+    },
+    {
+      "from": "product/skills/eternities-phoenix/SKILL.md",
+      "href": "references/trace-to-evaluation-cases.md",
+      "exists": true,
+      "contained": true
+    },
+    {
+      "from": "product/skills/eternities-phoenix/SKILL.md",
+      "href": "references/trace-to-evaluation-cases.md",
+      "exists": true,
+      "contained": true
+    },
+    {
+      "from": "product/skills/eternities-phoenix/SKILL.md",
+      "href": "references/reproducible-bug-packets.md",
+      "exists": true,
+      "contained": true
+    },
+    {
+      "from": "product/skills/eternities-phoenix/SKILL.md",
+      "href": "references/diagnostic-experiments-v2.md",
+      "exists": true,
+      "contained": true
+    },
+    {
+      "from": "product/skills/eternities-phoenix/SKILL.md",
+      "href": "references/methods.md",
+      "exists": true,
+      "contained": true
+    },
+    {
+      "from": "product/skills/long-horizon-work-continuity/SKILL.md",
+      "href": "references/continuity-packet.md",
+      "exists": true,
+      "contained": true
+    },
+    {
+      "from": "product/skills/long-horizon-work-continuity/SKILL.md",
+      "href": "references/uncertain-effect-recovery.md",
+      "exists": true,
+      "contained": true
+    },
+    {
+      "from": "product/skills/long-horizon-work-continuity/SKILL.md",
+      "href": "references/interruption-cases.md",
+      "exists": true,
+      "contained": true
+    },
+    {
+      "from": "product/skills/memory-retention-and-recovery/SKILL.md",
+      "href": "references/examples.md",
+      "exists": true,
+      "contained": true
+    }
+  ],
+  "metadata": [
+    {
+      "id": "counterbalanced-agent-evaluation",
+      "unregisteredLinkedResources": [],
+      "maturity": "instruction-reviewed",
+      "antiTriggers": [
+        "ordinary single bug regression test"
+      ]
+    },
+    {
+      "id": "eternities-daedalus",
+      "unregisteredLinkedResources": [],
+      "maturity": "instruction-reviewed",
+      "antiTriggers": [
+        "external deployment without matching authority",
+        "destructive migration without rollback",
+        "unknown dependency behavior",
+        "unsafe generated code without review"
+      ]
+    },
+    {
+      "id": "eternities-forge",
+      "unregisteredLinkedResources": [],
+      "maturity": "instruction-reviewed",
+      "antiTriggers": [
+        "routine single-file edit",
+        "design-only question",
+        "unexplained failure before diagnosis",
+        "branch disposition only"
+      ]
+    },
+    {
+      "id": "eternities-hermes",
+      "unregisteredLinkedResources": [],
+      "maturity": "instruction-reviewed",
+      "antiTriggers": [
+        "credential use without authority",
+        "untrusted command execution",
+        "remote mutation without a declared effect",
+        "unattended background automation"
+      ]
+    },
+    {
+      "id": "eternities-mnemosyne",
+      "unregisteredLinkedResources": [],
+      "maturity": "instruction-reviewed",
+      "antiTriggers": [
+        "routine recall",
+        "simple status check",
+        "nearby task treated as the same identity",
+        "raw history replay"
+      ]
+    },
+    {
+      "id": "eternities-oracle",
+      "unregisteredLinkedResources": [],
+      "maturity": "instruction-reviewed",
+      "antiTriggers": [
+        "simple factual lookup",
+        "routine implementation",
+        "one exact covered route",
+        "unsupported current claim"
+      ]
+    },
+    {
+      "id": "eternities-phoenix",
+      "unregisteredLinkedResources": [
+        "references/diagnostic-experiments-v2.md"
+      ],
+      "maturity": "instruction-reviewed",
+      "antiTriggers": [
+        "no diagnosis, recovery, performance, or interaction-to-evaluation-case objective",
+        "production mutation without authority",
+        "destructive repair without rollback",
+        "background monitoring"
+      ]
+    },
+    {
+      "id": "long-horizon-work-continuity",
+      "unregisteredLinkedResources": [],
+      "maturity": "instruction-reviewed",
+      "antiTriggers": [
+        "one step task",
+        "simple status check",
+        "create scheduler or guarantee unattended execution"
+      ]
+    },
+    {
+      "id": "memory-retention-and-recovery",
+      "unregisteredLinkedResources": [],
+      "maturity": "instruction-reviewed",
+      "antiTriggers": [
+        "ordinary recall from context already supplied",
+        "simple lookup or routine status check",
+        "unlimited recall or raw transcript replay",
+        "change to host memory permissions or continuity policy"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-b/candidate.json",
+      "bytes": 7067,
+      "sha256": "8316c37226360f06331bbc70d1dcc9760c03352a3ad4ff79d0faddd6325e86e8"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-b/audit.json",
+      "bytes": 33867,
+      "sha256": "48ca3397f911672f03c7b263ee83de2eb33bb827b0e7fe4368cae549fe80038b"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-b/read-set.json",
+      "bytes": 28439,
+      "sha256": "6e947ac27ffc7108d4fc6fe395344c280e3f83f693d97eb23969cbe9857f8e23"
+    },
+    {
+      "path": "product/skills/counterbalanced-agent-evaluation/SKILL.md",
+      "bytes": 6194,
+      "sha256": "6242385832a491c290feeb636175210c839a75dcf6bd30526b5cf2f32c99fd7f"
+    },
+    {
+      "path": "product/skills/eternities-daedalus/SKILL.md",
+      "bytes": 5713,
+      "sha256": "1a26dfffe15ecfa2289aaa502e959c07f99eb518c9823ae930536a5c9f829e17"
+    },
+    {
+      "path": "product/skills/eternities-forge/SKILL.md",
+      "bytes": 4379,
+      "sha256": "41ed525d0b547973ed7c9752d47c7f2fd936196ca8b2edc3b2d3066266c9b597"
+    },
+    {
+      "path": "product/skills/eternities-hermes/SKILL.md",
+      "bytes": 4751,
+      "sha256": "a64957e27281ecd3b99a4bd3b2661d860ae0af8171ea630b3a9a01d5545c89cd"
+    },
+    {
+      "path": "product/skills/eternities-mnemosyne/SKILL.md",
+      "bytes": 4542,
+      "sha256": "0d4b18975e93a30191c3371d7f3e4537be56aa6c021e75ee84a6d9210c8bed9a"
+    },
+    {
+      "path": "product/skills/eternities-oracle/SKILL.md",
+      "bytes": 4893,
+      "sha256": "528b78eeb7208203a0fca382d7a52276ddf12778df7da3c993b34f39747bf420"
+    },
+    {
+      "path": "product/skills/eternities-phoenix/SKILL.md",
+      "bytes": 6126,
+      "sha256": "b9d28316b61929e5dd4303aa68f82f21632ba5a44b9a6880b0aed1020694787f"
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/SKILL.md",
+      "bytes": 6818,
+      "sha256": "d0487cb608de140f11305ffcd63f837fbe56c018b029ccd70f0da04c97a51a0b"
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/SKILL.md",
+      "bytes": 5733,
+      "sha256": "6621d8bb0924cd386831eae2004144d3006206359de4fdaa1d2385fcdca4d38e"
+    },
+    {
+      "path": "product/skills/eternities-phoenix/references/diagnostic-experiments-v2.md",
+      "bytes": 3238,
+      "sha256": "0e90cd104135546419a996f0d1c0acd1e57f21ecc5c463225f9d86e7adfec227"
+    },
+    {
+      "path": "product/skills/counterbalanced-agent-evaluation/skill.json",
+      "bytes": 1962,
+      "sha256": "e9e1963c49e735a281788279bf6cb5cc89c76b414e04b59fab79be25b33ef6bf"
+    },
+    {
+      "path": "product/skills/eternities-daedalus/skill.json",
+      "bytes": 7720,
+      "sha256": "a627727d097481928f009b478527f09d6c44f0c65a7afd3f15f7c1603fb1c1d7"
+    },
+    {
+      "path": "product/skills/eternities-forge/skill.json",
+      "bytes": 2376,
+      "sha256": "af03b86ab49cac6e9ae4fd2f13bc7bfca9b563e66a6dcaded46d118ef8713fec"
+    },
+    {
+      "path": "product/skills/eternities-hermes/skill.json",
+      "bytes": 2762,
+      "sha256": "f36f49d7de25d8639a087c3d7884a9a90421ed2f481bfd3970a22bf9a712e04e"
+    },
+    {
+      "path": "product/skills/eternities-mnemosyne/skill.json",
+      "bytes": 2037,
+      "sha256": "9741df2de726741abf78a5383f54e74d72df0f3dd954330faede0f30637e5e14"
+    },
+    {
+      "path": "product/skills/eternities-oracle/skill.json",
+      "bytes": 1805,
+      "sha256": "ca73ebc6b2b8d7c1adcc00f74aa2fb28ad3705c4f1b7727024656dffcd5c23b0"
+    },
+    {
+      "path": "product/skills/eternities-phoenix/skill.json",
+      "bytes": 4628,
+      "sha256": "13613f7882a7c7295945c73f9dac1609496d4391987697e581272b827805838c"
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/skill.json",
+      "bytes": 2624,
+      "sha256": "5fa7b436fa35069441e9d690c3cd82b4e8ecc16e6aa72c8661d5c0cd79d273d2"
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/skill.json",
+      "bytes": 2500,
+      "sha256": "d430c9842dc5a3c604ebd7afda911edfb6a37ead8b631e54de4b3c4c7054bacd"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-cohesive-20261015/consumer-fixtures/recovery-handoff.md",
+      "bytes": 2402,
+      "sha256": "9819e24a66782135de60040a4834c30bf2e1fd29b6e79f2ccb3fade0fdca1b32"
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/references/examples.md",
+      "bytes": 2844,
+      "sha256": "e85739b8e8e517545d5862200f78e442dc23f59284f2e74751c7c39af8e5ece2"
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/references/uncertain-effect-recovery.md",
+      "bytes": 3827,
+      "sha256": "a12fcc1b51a85bcaa392fbc534ba3be74bd6aef184019ca78774e6615d8f8f7f"
+    },
+    {
+      "path": "product/skills/eternities-phoenix/references/methods.md",
+      "bytes": 799,
+      "sha256": "aa9a1fefeb9e0ca5107f0b5fb3e3a97cf647c748b91922e3b3303c8bc90c8ebc"
+    },
+    {
+      "path": "C:/Users/Dom/.agents/skills/receiving-code-review/SKILL.md",
+      "bytes": 6203,
+      "sha256": "091df1629510af1b92fc4abd6f96732ebedb4cb2c0f3457e8f2740b0504a2438"
+    }
+  ]
+}

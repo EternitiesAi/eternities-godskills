@@ -1,0 +1,12 @@
+{
+  "command": "node artifacts/qualification/cohesive-product-20261015/review-a-v3-nietzsche/review-a-v3-supplemental-bind.mjs",
+  "status": 1,
+  "scriptSha256BeforeRepair": "b8842ec589671acf84af20c4beb8617e05f3d961a179f543edd37f9d12068e1c",
+  "failure": "AssertionError [ERR_ASSERTION]: nextTriggers.slice(0,oldTriggers.length) did not deep-equal oldTriggers at review-a-v3-supplemental-bind.mjs:24:45",
+  "cause": "Reviewer helper incorrectly assumed the new trigger was appended, but it was inserted after spatial interaction. Source had the one announced addition; no existing trigger was removed and their relative order was preserved.",
+  "observedAdded": ["design interactive WebGL shader and particle effects with camera controls"],
+  "observedRemoved": [],
+  "existingOrderPreserved": true,
+  "repair": "Check the ordered retained subsequence and exact added trigger instead of assuming insertion position. Existing first-attempt snapshots are retained and must still match on rerun.",
+  "scope": "Reviewer helper only; no product changes and no acceptance result written by the failed attempt. Full raw failure also remains in this chat's tool result."
+}

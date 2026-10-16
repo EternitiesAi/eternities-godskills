@@ -1,0 +1,301 @@
+{
+  "recordedAt": "2026-10-16T05:01:44.511Z",
+  "publication": "staged-only; warehouse global index and from-stars not written",
+  "indexReconciliation": {
+    "frozen": {
+      "path": "D:/03-ARSENAL/warehouse/REPOSITORY-INDEX.json",
+      "sha256": "7f8d58e9d3a8c606a74ae12026c9e1cfe732d2ca02904e825513bf7eb4ca3880",
+      "count": 2609,
+      "shape": "top-level array",
+      "identityFields": [
+        "id",
+        "full_name",
+        "canonicalGitHubFullName",
+        "remote",
+        "githubRepositoryId"
+      ],
+      "locationFields": [
+        "path",
+        "relativePath",
+        "duplicatePaths"
+      ]
+    },
+    "current": {
+      "path": "D:/03-ARSENAL/warehouse/REPOSITORY-INDEX.json",
+      "sha256": "24191bef1f568920ebfdb4d536a6512314d2f919f01615b63b45223efbb08dbe",
+      "count": 2610
+    },
+    "drifted": true,
+    "currentMatches": [
+      {
+        "canonical": "cloutdesk/agents",
+        "matches": []
+      },
+      {
+        "canonical": "ericzakariasson/skills",
+        "matches": []
+      },
+      {
+        "canonical": "RobLe3/cc-blender-skill",
+        "matches": []
+      },
+      {
+        "canonical": "xiaomihu1992/econometrics-skill",
+        "matches": []
+      },
+      {
+        "canonical": "triggerdotdev/staff-engineering-skills",
+        "matches": []
+      },
+      {
+        "canonical": "haowjy/creative-writing-skills",
+        "matches": []
+      }
+    ],
+    "publicationState": "parent-only current-index check required immediately before publication; original freeze not changed"
+  },
+  "operationBytes": 5238459,
+  "operationBudgetBytes": 268435456,
+  "sources": [
+    {
+      "canonical": "cloutdesk/agents",
+      "url": "https://github.com/cloutdesk/agents",
+      "stage": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/cloutdesk__agents",
+      "origin": "https://github.com/cloutdesk/agents.git",
+      "head": "a4f3451a07261da1e25dce93ae3bc509ae805b10",
+      "clean": true,
+      "shallow": true,
+      "treeSha256": "c7147e8ab7af83a8dc057d850cfdd8c31cc6eb5bb1e6ca3305ec578fe79f535b",
+      "trackedFiles": 28,
+      "trackedBlobBytes": 88716,
+      "largestBlob": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "65fa053e2463f937dc5472d2a16d417f08f9cf67",
+        "bytes": 11876,
+        "path": "README.md"
+      },
+      "submodules": [],
+      "license": {
+        "path": "LICENSE",
+        "sha256": "187ed86ad4bbe05ef459d868965541763a601feee7295127b839cb2ed85a134c",
+        "classification": "MIT"
+      },
+      "separateNoticePaths": [],
+      "materialReadEntrypoints": 2,
+      "indexedEntrypoints": 16,
+      "packs": [
+        {
+          "path": ".git/objects/pack/pack-ebf1a7b42f91562bda50951f39351528e3bd45a2.idx",
+          "bytes": 2528,
+          "sha256": "246cd4b5cb79a5f244b30cc930fd2532431b3730e6dfefdf120ad2fa84c06315"
+        },
+        {
+          "path": ".git/objects/pack/pack-ebf1a7b42f91562bda50951f39351528e3bd45a2.pack",
+          "bytes": 40895,
+          "sha256": "c791b1449e367cbfdc945e7349f7e48db9937f069d5c2c98ac1e988026ac7a1e"
+        }
+      ]
+    },
+    {
+      "canonical": "ericzakariasson/skills",
+      "url": "https://github.com/ericzakariasson/skills",
+      "stage": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/ericzakariasson__skills",
+      "origin": "https://github.com/ericzakariasson/skills.git",
+      "head": "090915f84d75a38c4d42fc3e5034e4fef94d8fbb",
+      "clean": true,
+      "shallow": true,
+      "treeSha256": "49de18654c66af3e80950197e3e2cc34c910f0eb964cc90fc93442d30505e4cf",
+      "trackedFiles": 8,
+      "trackedBlobBytes": 79252,
+      "largestBlob": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "a5d1f6a94566bf16180338a2bc9be5a869c1099c",
+        "bytes": 27780,
+        "path": "skills/game-builder/builder-protocol.md"
+      },
+      "submodules": [],
+      "license": {
+        "path": "LICENSE",
+        "sha256": "697296c1495f8313814220d5afb4bb429637654062bbeb7d4c981e8c42313971",
+        "classification": "MIT"
+      },
+      "separateNoticePaths": [],
+      "materialReadEntrypoints": 2,
+      "indexedEntrypoints": 2,
+      "packs": [
+        {
+          "path": ".git/objects/pack/pack-a5c01a864ebcb06e9dadb597c5eac8a4a272c8b1.idx",
+          "bytes": 1436,
+          "sha256": "83dd589f955096608a905546c93ea53fef1dad4399db3f756671a848aff682c7"
+        },
+        {
+          "path": ".git/objects/pack/pack-a5c01a864ebcb06e9dadb597c5eac8a4a272c8b1.pack",
+          "bytes": 34294,
+          "sha256": "0360f35e120c4535dbf857319b821b1227978a24326f4d1c292db9f41ff2ac2a"
+        }
+      ]
+    },
+    {
+      "canonical": "RobLe3/cc-blender-skill",
+      "url": "https://github.com/RobLe3/cc-blender-skill",
+      "stage": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/RobLe3__cc-blender-skill",
+      "origin": "https://github.com/RobLe3/cc-blender-skill.git",
+      "head": "a2634b588e80265e796aa53f8ab178d75105c2af",
+      "clean": true,
+      "shallow": true,
+      "treeSha256": "b98c19e4c018f84752887e5ef19f6cf8faaa05c68259e61ccf819f87b354c411",
+      "trackedFiles": 195,
+      "trackedBlobBytes": 1802093,
+      "largestBlob": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "ab3f0e5394be15971e73ddc4c6c4aabe4a730d18",
+        "bytes": 48030,
+        "path": "plugin/skills/text-to-blender/assets/v1.4.0-validation/broadcaster_avatar.png"
+      },
+      "submodules": [],
+      "license": {
+        "path": "LICENSE",
+        "sha256": "53551803e298669de282d339c7e85ae64e6fbf370d07ca08105d8e0a2d2fbf3d",
+        "classification": "MIT"
+      },
+      "separateNoticePaths": [],
+      "materialReadEntrypoints": 3,
+      "indexedEntrypoints": 32,
+      "packs": [
+        {
+          "path": ".git/objects/pack/pack-892fe640614b24ee3da03b5f64251a06add7b452.idx",
+          "bytes": 9388,
+          "sha256": "b89ecc1dcc19ffa56ae71a44b024be5f045657d35fdf4b9abc98d91714efb4d1"
+        },
+        {
+          "path": ".git/objects/pack/pack-892fe640614b24ee3da03b5f64251a06add7b452.pack",
+          "bytes": 926588,
+          "sha256": "fb035e9ac1a9dcc8f8cd31d0833ca9a086f737c1a641c01e988aa04085d385cd"
+        }
+      ]
+    },
+    {
+      "canonical": "xiaomihu1992/econometrics-skill",
+      "url": "https://github.com/xiaomihu1992/econometrics-skill",
+      "stage": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/xiaomihu1992__econometrics-skill",
+      "origin": "https://github.com/xiaomihu1992/econometrics-skill.git",
+      "head": "f2cd97678e56cf8606a30f3e54dfe35365d31126",
+      "clean": true,
+      "shallow": true,
+      "treeSha256": "7ffe4cd4377ed112660307a386ab6d5d012b011c1853a0009c8ffb443a2705de",
+      "trackedFiles": 28,
+      "trackedBlobBytes": 214756,
+      "largestBlob": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "ef071385c80a459a4e999b8c58e13e5aaf99bb87",
+        "bytes": 63263,
+        "path": "lib/econometric_algorithm.py"
+      },
+      "submodules": [],
+      "license": {
+        "path": "LICENSE",
+        "sha256": "4540eed9c4c8df315da5642c2ec6b7ab96a02ea63722696604327e20225c4d1c",
+        "classification": "MIT"
+      },
+      "separateNoticePaths": [],
+      "materialReadEntrypoints": 1,
+      "indexedEntrypoints": 1,
+      "packs": [
+        {
+          "path": ".git/objects/pack/pack-1f91410d33fe061a967515eda877873b0fa04f58.idx",
+          "bytes": 2024,
+          "sha256": "c80258fff087cb3a52e0b247bd8aef0fa924b7dd549b25a4d1b2370e5b2de7a4"
+        },
+        {
+          "path": ".git/objects/pack/pack-1f91410d33fe061a967515eda877873b0fa04f58.pack",
+          "bytes": 70383,
+          "sha256": "34ee9c7c66010db54e2544123cd3bf5629167fe23988a289dee99fbbe820eae7"
+        }
+      ]
+    },
+    {
+      "canonical": "triggerdotdev/staff-engineering-skills",
+      "url": "https://github.com/triggerdotdev/staff-engineering-skills",
+      "stage": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/triggerdotdev__staff-engineering-skills",
+      "origin": "https://github.com/triggerdotdev/staff-engineering-skills.git",
+      "head": "597da099e4b7d07f53946cc393ca24ad9274d925",
+      "clean": true,
+      "shallow": true,
+      "treeSha256": "fc63fac1db2f84524021e0c1a3073319e2fe37e01ca54dc9f4ecace6daeb29e0",
+      "trackedFiles": 26,
+      "trackedBlobBytes": 173927,
+      "largestBlob": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "66d8ead0c9d81740c33994b808204cacc6f3730e",
+        "bytes": 12250,
+        "path": "skills/staff-engineering-skills-race-conditions/SKILL.md"
+      },
+      "submodules": [],
+      "license": {
+        "path": "LICENSE",
+        "sha256": "ac8d4706ee328739b4ef4899774adb2ab85fc6c88b4f3da32190df2624c41dea",
+        "classification": "Apache-2.0"
+      },
+      "separateNoticePaths": [],
+      "materialReadEntrypoints": 1,
+      "indexedEntrypoints": 16,
+      "packs": [
+        {
+          "path": ".git/objects/pack/pack-777bda61a7995da52eeb3663bd293bca6c9de24e.idx",
+          "bytes": 2388,
+          "sha256": "326c568a7efcf5c01538b348c988ac138213e8d50d328bf12210b96906909b24"
+        },
+        {
+          "path": ".git/objects/pack/pack-777bda61a7995da52eeb3663bd293bca6c9de24e.pack",
+          "bytes": 73573,
+          "sha256": "a5f797843ce5d098d9fe82ba0b730a53ef927fd316ba50dfaef26be41945fa1a"
+        }
+      ]
+    },
+    {
+      "canonical": "haowjy/creative-writing-skills",
+      "url": "https://github.com/haowjy/creative-writing-skills",
+      "stage": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/haowjy__creative-writing-skills",
+      "origin": "https://github.com/haowjy/creative-writing-skills.git",
+      "head": "340b6838c961c9e87e63dfb12a5d8d56b080ad1f",
+      "clean": true,
+      "shallow": true,
+      "treeSha256": "aeea68241c65ac7d08b28be7b636f6ad69eb9f1048297068f6998c8e28726767",
+      "trackedFiles": 193,
+      "trackedBlobBytes": 959844,
+      "largestBlob": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "27ff7a31b7a0fd5194e8847d325917d5750480af",
+        "bytes": 351349,
+        "path": "docs/images/claudeai-add-marketplace.png"
+      },
+      "submodules": [],
+      "license": {
+        "path": "LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "classification": "Apache-2.0"
+      },
+      "separateNoticePaths": [],
+      "materialReadEntrypoints": 4,
+      "indexedEntrypoints": 35,
+      "packs": [
+        {
+          "path": ".git/objects/pack/pack-9594593f0165920fdfe664279352361b1010de81.idx",
+          "bytes": 7428,
+          "sha256": "9296ba88df38e8afb6967f758ce7610c67f7a04119f0f018d982a568c78995d7"
+        },
+        {
+          "path": ".git/objects/pack/pack-9594593f0165920fdfe664279352361b1010de81.pack",
+          "bytes": 485677,
+          "sha256": "1cf47c2e4df7e49f94b4075f28d59986dd8584022d10f09f8b0a5df20091add3"
+        }
+      ]
+    }
+  ]
+}

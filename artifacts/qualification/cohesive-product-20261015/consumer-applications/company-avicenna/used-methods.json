@@ -1,0 +1,83 @@
+{
+  "schema": "godskills-independent-company-consumer-methods-v1",
+  "consumer": "company-avicenna",
+  "scope": "Fictional supplied-data company job; no live actions or skill-author validation.",
+  "readDepthConvention": "Full means the complete selected body was returned and read, without truncation. Related metadata/resources are not treated as read bodies.",
+  "discovery": {
+    "mode": "Normal product CLI search and inspect; validation succeeded; no bypass, projection or pack build.",
+    "method": "offline-lexical-intent-phrases-v4",
+    "queries": [
+      {
+        "query": "four week cash forecast contracted receipts uncertain sales reserve gap scenario",
+        "limit": 3,
+        "selectedId": "cashflow-forecast-scenario-integrity",
+        "selectedRank": 1
+      },
+      {
+        "query": "software vendor renewal bridge exit migration access restrictions",
+        "limit": 3,
+        "selectedId": "vendor-evaluation-and-exit-planning",
+        "selectedRank": 1
+      },
+      {
+        "query": "operating cadence approval bottleneck decision authority routine support refunds exceptions",
+        "limit": 3,
+        "selectedId": "operating-cadence-and-decision-accountability",
+        "selectedRank": 1
+      }
+    ],
+    "note": "Three entrypoints selected by applicability. No related skill bodies loaded. CLI integrity validation itself reads other pack bytes on disk; that is not semantic reading or method use."
+  },
+  "methods": [
+    {
+      "id": "cashflow-forecast-scenario-integrity",
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/skills/cashflow-forecast-scenario-integrity/SKILL.md",
+      "sha256": "d2b85835f46ac7aba103a43d5ee6eb9ccfe2970f3d17a690e8e9a01fa655a66e",
+      "readDepth": "full-entrypoint",
+      "why": "Forecast the dated cash ladder, reserve shortfalls and separately changed spending/unsigned-sale scenarios.",
+      "appliedTo": "cash.csv; decision.md cash and timing, isolated scenario deltas, intraperiod warning",
+      "references": []
+    },
+    {
+      "id": "vendor-evaluation-and-exit-planning",
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/skills/vendor-evaluation-and-exit-planning/SKILL.md",
+      "sha256": "477ae4c9feede6cdd31f452c9d2f20064c8c99fe393377fa66e080c99e93db80",
+      "readDepth": "full-entrypoint",
+      "why": "Choose a renewal/bridge response while replacement access preservation remains unresolved.",
+      "appliedTo": "decision.md renewal gate, common cash horizon, commitment tail, conditional bridge and proposed acceptance check",
+      "references": [
+        {
+          "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/skills/vendor-evaluation-and-exit-planning/references/methods.md",
+          "sha256": "7621f6add6d333dbd250d91ca48f6e9504ac1ba9a8f16e2bebbecfeecaf9c976",
+          "why": "Required cost-comparison mechanics: distinguish payment from allocated service cost, future commitments and demonstrated export/permission preservation.",
+          "readDepth": "full-reference"
+        }
+      ]
+    },
+    {
+      "id": "operating-cadence-and-decision-accountability",
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/skills/operating-cadence-and-decision-accountability/SKILL.md",
+      "sha256": "a03d89234106b30da8e99ffe6e738f58408e03727d2909431a119aca6b5c56c1",
+      "readDepth": "full-entrypoint",
+      "why": "Remove redundant founder approval from routine work without broadening exception authority.",
+      "appliedTo": "decision.md scoped support routing, absent-decider hold, queue ages, proposed review window and no claimed pilot outcome",
+      "references": [
+        {
+          "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/skills/operating-cadence-and-decision-accountability/references/methods.md",
+          "sha256": "32ddd3dfe2b8085e6ded14aa562e47761fb2d47f085154bcc9409ad49fff5f7d",
+          "why": "Required queue/exception mechanics: preserve intake age, explicit fallback, distinguish choice from execution, avoid ungrounded capacity claims.",
+          "readDepth": "full-reference"
+        }
+      ]
+    }
+  ],
+  "authority": {
+    "liveCompanyActions": false,
+    "productModified": false,
+    "providersUsed": false,
+    "agentsSpawned": false,
+    "acceptanceFixtureRead": false,
+    "otherFixtureRead": false
+  },
+  "evidenceLimit": "Independent consumer application only. Local calculations and assertions are self-checks of these outputs, not independent acceptance or evidence of company outcomes."
+}

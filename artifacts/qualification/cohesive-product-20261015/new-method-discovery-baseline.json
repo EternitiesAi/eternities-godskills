@@ -1,0 +1,145 @@
+[
+  {
+    "id": "commercial",
+    "query": "Explain why our revenue fell last quarter and identify the next useful business action.",
+    "owner": "eternities-prometheus",
+    "ids": [
+      "cashflow-forecast-scenario-integrity",
+      "product-discovery-and-prioritization",
+      "browser-automation-state-and-verification"
+    ],
+    "pass": false
+  },
+  {
+    "id": "positioning",
+    "query": "Turn our buyer alternatives and demonstrated product differences into credible positioning copy.",
+    "owner": "eternities-beacon",
+    "ids": [
+      "eternities-atlas",
+      "eternities-beacon",
+      "user-research-and-usability-study"
+    ],
+    "pass": true
+  },
+  {
+    "id": "composition",
+    "query": "Translate this art direction into a responsive page layout using the real content.",
+    "owner": "eternities-muse",
+    "ids": [
+      "motion-design-and-animation-engineering",
+      "eternities-muse",
+      "interface-localization-and-bidirectionality"
+    ],
+    "pass": true
+  },
+  {
+    "id": "game-loop",
+    "query": "Playtest the first repeatable game loop: players understand the controls but say their choices do not matter.",
+    "owner": "eternities-arcadia",
+    "ids": [
+      "eternities-arcadia",
+      "eternities-forge",
+      "geospatial-coordinate-integrity"
+    ],
+    "pass": true
+  },
+  {
+    "id": "audio-edit",
+    "query": "Repair the pacing and mix of this supplied spoken-audio edit and check the encoded delivery.",
+    "owner": "eternities-orpheus",
+    "ids": [
+      "audio-dsp-integrity-review",
+      "eternities-orpheus",
+      "confirmed-destructive-reconstruction"
+    ],
+    "pass": true
+  },
+  {
+    "id": "practice",
+    "query": "Create contrastive practice with useful feedback and a new-context transfer task for these learners.",
+    "owner": "evidence-linked-learning-design",
+    "ids": [
+      "eternities-mnemosyne",
+      "interface-localization-and-bidirectionality",
+      "voice-style-calibration"
+    ],
+    "pass": false
+  },
+  {
+    "id": "voice",
+    "query": "Turn these vague voice traits into concrete meaning-preserving edits and test a different register.",
+    "owner": "voice-style-calibration",
+    "ids": [
+      "voice-style-calibration",
+      "eternities-logos",
+      "formula-preserving-workbook-engineering"
+    ],
+    "pass": true
+  },
+  {
+    "id": "diagnostic",
+    "query": "An intermittent settings bug survives the last repair; choose a probe that distinguishes storage, cache and client causes.",
+    "owner": "eternities-phoenix",
+    "ids": [
+      "eternities-phoenix",
+      "eternities-agora",
+      "bounded-verified-object-ingestion"
+    ],
+    "pass": true
+  },
+  {
+    "id": "creator-slate",
+    "query": "Choose a feasible creator campaign slate that covers the required deliverables and all quoted usage fees.",
+    "owner": "eternities-beacon",
+    "ids": [
+      "measured-paid-creative-iteration",
+      "eternities-beacon",
+      "structured-output-contracts"
+    ],
+    "pass": true
+  },
+  {
+    "id": "asset-camera",
+    "query": "Our character is readable in a turntable but disappears at the gameplay camera; improve its silhouette without changing the art style.",
+    "owner": "eternities-arcadia",
+    "ids": [
+      "scene-continuity-and-coverage",
+      "api-rate-limit-recovery",
+      "narrative-structure-and-revision"
+    ],
+    "pass": false
+  },
+  {
+    "id": "causal",
+    "query": "Choose a defensible treatment-effect design from this policy's assignment process before estimating the effect.",
+    "owner": "diagnostic-statistical-model-inference",
+    "ids": [
+      "release-script-safety",
+      "eternities-athena",
+      "operating-cadence-and-decision-accountability"
+    ],
+    "pass": false
+  },
+  {
+    "id": "cardinality",
+    "query": "Our metric label combinations are exploding; reduce series cardinality while preserving the operators' alert queries.",
+    "owner": "service-observability-and-slo-design",
+    "ids": [
+      "knowledge-base-architecture-and-maintenance",
+      "fp-ts-functional-refactoring",
+      "lazy-tabular-transformation-and-validation"
+    ],
+    "pass": false
+  },
+  {
+    "id": "reveal",
+    "query": "Revise this fiction reveal so readers can infer it from earlier clues without explaining away the intended mystery.",
+    "owner": "narrative-structure-and-revision",
+    "ids": [
+      "narrative-structure-and-revision",
+      "voice-style-calibration",
+      "schema-migration-and-backfill-safety"
+    ],
+    "pass": true
+  }
+]

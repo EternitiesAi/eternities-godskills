@@ -1,0 +1,106 @@
+{
+  "id": "eternities-beacon",
+  "category": "marketing",
+  "summary": "Turn market, offer, discoverability, conversion, lifecycle, and growth evidence into truthful measurable decisions.",
+  "triggers": [
+    "market positioning",
+    "positioning and landing page copy against buyer alternatives and existing workarounds",
+    "homepage value proposition and product promise with proof against the customer's current workaround",
+    "offer design",
+    "discoverability audit",
+    "go to market",
+    "conversion funnel",
+    "retention recovery",
+    "growth measurement",
+    "creator sponsorship obligation tracking with dated evidence",
+    "creator campaign slate feasibility with quoted usage fees and deliverable coverage"
+  ],
+  "antiTriggers": [
+    "routine copy editing",
+    "personal-data enrichment",
+    "outreach or media spend without target, budget, and authority",
+    "unsupported current market claim",
+    "infer rights, disclosure, or media-use permission from generic wildcards, incomplete evidence, or an unreviewed broad-scope summary"
+  ],
+  "taskTypes": [
+    "research",
+    "plan",
+    "create",
+    "communicate"
+  ],
+  "related": [
+    "eternities-agora",
+    "eternities-chorus",
+    "eternities-prometheus",
+    "eternities-atlas"
+  ],
+  "resources": [
+    "references/positioning-to-message-v1.md",
+    "references/methods.md",
+    "references/creator-sponsorship-lifecycle.md",
+    "references/creator-slate-feasibility-v1.md"
+  ],
+  "maturity": "instruction-reviewed",
+  "provenance": [
+    {
+      "kind": "authoring",
+      "source": "artifacts/qualification/cohesive-product-20261015/lane-a/ledger.json",
+      "note": "Original conditional addition references/positioning-to-message-v1.md and its entrypoint routing were independently authored for the cohesion release. Prior reviews do not apply to changed bytes; release review is recorded separately. No new source-rights clearance, runtime result or performance claim."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "jeremylongworth-source/AgentSkills@ebf24796e884b9196bdb47373d53dcc547466730:skills/brand-pitch/SKILL.md",
+      "note": "Wave24-b01 exact body SHA-256 ceebdade5e1e5181567597e6e35583d9e852ba92ed3df099f02d738e4a6aeca6 informed original sponsorship-obligation writing. No source text was copied. Local MIT hint is not legal clearance; no rights, marks, media use, or disclosure authorization is inferred."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "jeremylongworth-source/AgentSkills@ebf24796e884b9196bdb47373d53dcc547466730:skills/campaign-proposal/SKILL.md",
+      "note": "Wave24-b01 exact body SHA-256 89400e0c495ae45afd16cfc5b237892405720a61ec8ac11a22ce75b820941227 informed original sponsorship-obligation writing. No source text was copied. Local MIT hint is not legal clearance; no rights, marks, media use, or disclosure authorization is inferred."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "jeremylongworth-source/AgentSkills@ebf24796e884b9196bdb47373d53dcc547466730:skills/campaign-recap/SKILL.md",
+      "note": "Wave24-b01 exact body SHA-256 d31a782cafcdc5f9fd74b9e6bdbbbf30b7e7bf971c673e1e8a992107fb585ad7 informed original sponsorship-obligation writing. No source text was copied. Local MIT hint is not legal clearance; no rights, marks, media use, or disclosure authorization is inferred."
+    },
+    {
+      "kind": "source",
+      "source": "skills/eternities-beacon/SKILL.md",
+      "note": "Historic entrypoint inspected for market, offer, discoverability, demand, lifecycle, and measurement routes; prose was not copied."
+    },
+    {
+      "kind": "reference",
+      "source": "skills/eternities-beacon/references/operating-contract.md",
+      "note": "Historic market evidence, experiment, consent, and external-effect contracts informed the rewrite."
+    },
+    {
+      "kind": "extension-map",
+      "source": "data/godskill-extensions.v1.json",
+      "note": "Current retention and payment-recovery ownership, evidence, and output fields informed the extension method."
+    },
+    {
+      "kind": "authoring",
+      "source": "product/skills/eternities-beacon/SKILL.md",
+      "note": "Independent-authoring note: this entrypoint and reference are newly written for the universal product; no superiority or certification claim is made."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "cloutdesk/agents@a4f3451a07261da1e25dce93ae3bc509ae805b10:skills/proposal-drafting/SKILL.md",
+      "note": "Exact body SHA-256 4867fa18e8f2823aebc16b5147aeac84e548b833da5bb5c3e770f0242bdcb2c8. Selected mechanism informed the original brief-to-feasible-creator-slate method; source prose, code, host orchestration and universal prescriptions were not copied. Root notices are retained in the source snapshot; no broader rights or outcome certification."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "cloutdesk/agents@a4f3451a07261da1e25dce93ae3bc509ae805b10:skills/talent-discovery/SKILL.md",
+      "note": "Exact body SHA-256 7917d2e4a1353a5a3ef39c9a774b40d8fcf8997c41bd688176f835dc8b9a8bea. Selected mechanism informed the original brief-to-feasible-creator-slate method; source prose, code, host orchestration and universal prescriptions were not copied. Root notices are retained in the source snapshot; no broader rights or outcome certification."
+    },
+    {
+      "kind": "authoring",
+      "source": "product/skills/eternities-beacon/references/creator-slate-feasibility-v1.md",
+      "note": "Original portable synthesis and worked example. Source-level dispositions and notices are retained in the October 15 cohort evidence. Separate release review does not certify campaign, runtime, causal, operational-cost or reader outcomes."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "coreyhaines31/marketingskills@dda3841f0b294e01e93b1541486beefbfab0915e:skills/sales-enablement/SKILL.md",
+      "note": "Exact body SHA-256 811a8bb462be4e04344a0ed43d485cf124f2a339e3a53f3e6749bc185081a274 informed only the defensible representative-claim pattern in creator-slate-feasibility-v1.md. Original synthesis; no deck/demo formats, host paths, integrations or source prose/code copied. Root MIT notice observed and retained, not broader rights clearance or a performance claim."
+    }
+  ]
+}

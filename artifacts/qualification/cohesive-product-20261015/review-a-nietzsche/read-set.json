@@ -1,0 +1,294 @@
+{
+  "snapshotAt": "2026-10-16T05:10:17.284Z",
+  "baseline": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+  "scope": "Seven A methods and seven owner SKILL.md/skill.json pairs. D-method substance excluded; any D links inspected mechanically only. Author self-applications and answers not opened.",
+  "files": [
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-a/HANDOFF.md",
+      "sha256": "fca3222e2e6f6baf537bdc278d5def6ad1018d33bb656e677bbed900538bb850",
+      "bytes": 6818,
+      "candidateV2Sha256": null,
+      "candidateV2Matches": null
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-a/ledger.json",
+      "sha256": "61749440e4625aa3f9e26dae42976b93b5e79034f35c3398abc585f7fd8f3417",
+      "bytes": 66258,
+      "candidateV2Sha256": null,
+      "candidateV2Matches": null
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-a/parent-candidate-v2.md",
+      "sha256": "b3a2554fd6657eb250411f908df92a244127e3eef575a83eeee1de2dd77eb6fc",
+      "bytes": 888,
+      "candidateV2Sha256": null,
+      "candidateV2Matches": null
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-a/candidate-v2.json",
+      "sha256": "81cb75c9b97cd70632fe6d434b7ee69572afb5ab4cb5af4c2c9e95c74fdbf258",
+      "bytes": 4160,
+      "candidateV2Sha256": null,
+      "candidateV2Matches": null
+    },
+    {
+      "path": "product/skills/eternities-prometheus/skill.json",
+      "sha256": "5eb835254f0e1a5d35533d35c898e52045bfef1d55a861dbfef7b42b34af9b7e",
+      "bytes": 2375,
+      "candidateV2Sha256": "5eb835254f0e1a5d35533d35c898e52045bfef1d55a861dbfef7b42b34af9b7e",
+      "candidateV2Matches": true
+    },
+    {
+      "path": "product/skills/eternities-prometheus/SKILL.md",
+      "sha256": "70d043541b328a6bfebd6cd75840aaca8ed94fc22cc10165d1be444f4662fc06",
+      "bytes": 3265,
+      "candidateV2Sha256": "70d043541b328a6bfebd6cd75840aaca8ed94fc22cc10165d1be444f4662fc06",
+      "candidateV2Matches": true
+    },
+    {
+      "path": "product/skills/eternities-prometheus/references/commercial-driver-diagnosis-v1.md",
+      "sha256": "926a4a0e421b7520dc0ca2c72c5d6b080863787be68a6cbe0caa09d543d1a00b",
+      "bytes": 3263,
+      "candidateV2Sha256": "926a4a0e421b7520dc0ca2c72c5d6b080863787be68a6cbe0caa09d543d1a00b",
+      "candidateV2Matches": true
+    },
+    {
+      "path": "product/skills/eternities-beacon/skill.json",
+      "sha256": "2b1af5f696b065ea137b63a5b8531fa82da33e7e431a43cc1080e4ba2bd1053b",
+      "bytes": 4011,
+      "candidateV2Sha256": "2b1af5f696b065ea137b63a5b8531fa82da33e7e431a43cc1080e4ba2bd1053b",
+      "candidateV2Matches": true
+    },
+    {
+      "path": "product/skills/eternities-beacon/SKILL.md",
+      "sha256": "2a0bc349cfcc324b0512afba99afe17f238f43a4c5d38124b9b59e8665987ed5",
+      "bytes": 3954,
+      "candidateV2Sha256": "2a0bc349cfcc324b0512afba99afe17f238f43a4c5d38124b9b59e8665987ed5",
+      "candidateV2Matches": true
+    },
+    {
+      "path": "product/skills/eternities-beacon/references/positioning-to-message-v1.md",
+      "sha256": "57da15f76572e5af9dde41cf4c5703d83f045cbb701b0284dfcd45d8e46c94d8",
+      "bytes": 3439,
+      "candidateV2Sha256": "57da15f76572e5af9dde41cf4c5703d83f045cbb701b0284dfcd45d8e46c94d8",
+      "candidateV2Matches": true
+    },
+    {
+      "path": "product/skills/eternities-muse/skill.json",
+      "sha256": "d3a3557a87e392f44c15780bd8292df92c260bc9c857603b7cf41853b433725a",
+      "bytes": 3062,
+      "candidateV2Sha256": "d3a3557a87e392f44c15780bd8292df92c260bc9c857603b7cf41853b433725a",
+      "candidateV2Matches": true
+    },
+    {
+      "path": "product/skills/eternities-muse/SKILL.md",
+      "sha256": "34fccadc01b49dcb8097641a6a6153dabd119dd55ba9f31781c7bfa4c4c1ac73",
+      "bytes": 4458,
+      "candidateV2Sha256": "34fccadc01b49dcb8097641a6a6153dabd119dd55ba9f31781c7bfa4c4c1ac73",
+      "candidateV2Matches": true
+    },
+    {
+      "path": "product/skills/eternities-muse/references/art-direction-to-layout-v1.md",
+      "sha256": "893b09898d51cf5bfcca7d0efa88d239466e04a7c6a68152d4158aab5fa2a140",
+      "bytes": 3463,
+      "candidateV2Sha256": "893b09898d51cf5bfcca7d0efa88d239466e04a7c6a68152d4158aab5fa2a140",
+      "candidateV2Matches": true
+    },
+    {
+      "path": "product/skills/eternities-arcadia/skill.json",
+      "sha256": "c9a6dd68a647d3701ca47f24b2444734ff1a98b131f65cb7d2210f9c1f000623",
+      "bytes": 6424,
+      "candidateV2Sha256": "c9a6dd68a647d3701ca47f24b2444734ff1a98b131f65cb7d2210f9c1f000623",
+      "candidateV2Matches": true
+    },
+    {
+      "path": "product/skills/eternities-arcadia/SKILL.md",
+      "sha256": "b217515c82a89239839e6dd16aa12891b92ad3d055f16ee68eaab854bde33693",
+      "bytes": 4328,
+      "candidateV2Sha256": "b217515c82a89239839e6dd16aa12891b92ad3d055f16ee68eaab854bde33693",
+      "candidateV2Matches": true
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/core-loop-playtest-v1.md",
+      "sha256": "305e082e9e3d57729fe10e4ad9865b1468333e661f7530469ef17a70fc07490a",
+      "bytes": 3533,
+      "candidateV2Sha256": "305e082e9e3d57729fe10e4ad9865b1468333e661f7530469ef17a70fc07490a",
+      "candidateV2Matches": true
+    },
+    {
+      "path": "product/skills/eternities-orpheus/skill.json",
+      "sha256": "90c2cbe5bf906f08bde6880b18ada087e9ae3d9d52013755417b88cea395c565",
+      "bytes": 1918,
+      "candidateV2Sha256": "90c2cbe5bf906f08bde6880b18ada087e9ae3d9d52013755417b88cea395c565",
+      "candidateV2Matches": true
+    },
+    {
+      "path": "product/skills/eternities-orpheus/SKILL.md",
+      "sha256": "30bbab3230a9ecbb81ecec877db2036b591a46b0f4497cb61d94df3585bda3be",
+      "bytes": 3323,
+      "candidateV2Sha256": "30bbab3230a9ecbb81ecec877db2036b591a46b0f4497cb61d94df3585bda3be",
+      "candidateV2Matches": true
+    },
+    {
+      "path": "product/skills/eternities-orpheus/references/supplied-audio-editorial-mix-v1.md",
+      "sha256": "d52e3ecffe5e6134cc43f2296ed4c8e48963af8f02f513b605c5a7527ac6c1d9",
+      "bytes": 3582,
+      "candidateV2Sha256": "d52e3ecffe5e6134cc43f2296ed4c8e48963af8f02f513b605c5a7527ac6c1d9",
+      "candidateV2Matches": true
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/skill.json",
+      "sha256": "15f6ea6d698a0826bbcc4055f0321209c02e26fb5111b6b247be2f04a9502fac",
+      "bytes": 5126,
+      "candidateV2Sha256": "15f6ea6d698a0826bbcc4055f0321209c02e26fb5111b6b247be2f04a9502fac",
+      "candidateV2Matches": true
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/SKILL.md",
+      "sha256": "a91d5ffe526e92ed72c541816d6c0310f5ab2d56b82f2c5f91960b778bbed606",
+      "bytes": 4937,
+      "candidateV2Sha256": "a91d5ffe526e92ed72c541816d6c0310f5ab2d56b82f2c5f91960b778bbed606",
+      "candidateV2Matches": true
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/references/practice-and-transfer-v1.md",
+      "sha256": "8625e567db5d4f68c267bd4743e555885115fabcbd253b67f768e2031826aa9f",
+      "bytes": 3408,
+      "candidateV2Sha256": "8625e567db5d4f68c267bd4743e555885115fabcbd253b67f768e2031826aa9f",
+      "candidateV2Matches": true
+    },
+    {
+      "path": "product/skills/voice-style-calibration/skill.json",
+      "sha256": "2668dfee646ce1665c5a792dc64b175d61532a83ca350981aec5fefea230fb07",
+      "bytes": 2305,
+      "candidateV2Sha256": "2668dfee646ce1665c5a792dc64b175d61532a83ca350981aec5fefea230fb07",
+      "candidateV2Matches": true
+    },
+    {
+      "path": "product/skills/voice-style-calibration/SKILL.md",
+      "sha256": "fb4a54b739b51d0e91df35d17e65fd684f7f43fd06575e58a3782d5040ad73c4",
+      "bytes": 4726,
+      "candidateV2Sha256": "fb4a54b739b51d0e91df35d17e65fd684f7f43fd06575e58a3782d5040ad73c4",
+      "candidateV2Matches": true
+    },
+    {
+      "path": "product/skills/voice-style-calibration/references/contrastive-calibration-v1.md",
+      "sha256": "dc51820a975a4f6f1c75f69c70f96f7204b864cd662faf4516a9b1a71d2b7c40",
+      "bytes": 3289,
+      "candidateV2Sha256": "dc51820a975a4f6f1c75f69c70f96f7204b864cd662faf4516a9b1a71d2b7c40",
+      "candidateV2Matches": true
+    },
+    {
+      "path": "product/skills/eternities-arcadia/skill.json",
+      "role": "canonical-baseline",
+      "sha256": "084fc6687838807b69d4b95239ea906b2f7c1d5a8e3fbc7f6390906296db352c",
+      "ledgerSha256": "084fc6687838807b69d4b95239ea906b2f7c1d5a8e3fbc7f6390906296db352c",
+      "ledgerMatches": true,
+      "bytes": 5937
+    },
+    {
+      "path": "product/skills/eternities-arcadia/SKILL.md",
+      "role": "canonical-baseline",
+      "sha256": "9ec66ba0975124b95877f2ad0a852162008cfd624af2fe823d9752e478940c46",
+      "ledgerSha256": "9ec66ba0975124b95877f2ad0a852162008cfd624af2fe823d9752e478940c46",
+      "ledgerMatches": true,
+      "bytes": 4123
+    },
+    {
+      "path": "product/skills/eternities-beacon/skill.json",
+      "role": "canonical-baseline",
+      "sha256": "b92dd17b389a5cfb5b2213e6f4fdd26f44994aa50947601da9fdd7217734bdfd",
+      "ledgerSha256": "b92dd17b389a5cfb5b2213e6f4fdd26f44994aa50947601da9fdd7217734bdfd",
+      "ledgerMatches": true,
+      "bytes": 3516
+    },
+    {
+      "path": "product/skills/eternities-beacon/SKILL.md",
+      "role": "canonical-baseline",
+      "sha256": "381ae1f0ffee855b14c8c2bda226bb57aa9147be1e7f9a68f94b231fb869a030",
+      "ledgerSha256": "381ae1f0ffee855b14c8c2bda226bb57aa9147be1e7f9a68f94b231fb869a030",
+      "ledgerMatches": true,
+      "bytes": 3753
+    },
+    {
+      "path": "product/skills/eternities-muse/skill.json",
+      "role": "canonical-baseline",
+      "sha256": "640b33587d3f648552be317b1f436e1ce26ccb7a78c40bed507c33d7dd795a2a",
+      "ledgerSha256": "640b33587d3f648552be317b1f436e1ce26ccb7a78c40bed507c33d7dd795a2a",
+      "ledgerMatches": true,
+      "bytes": 2565
+    },
+    {
+      "path": "product/skills/eternities-muse/SKILL.md",
+      "role": "canonical-baseline",
+      "sha256": "838da70f041be41d0d28fa9e735241c303240b4355f1770dba5b7b7998afc05b",
+      "ledgerSha256": "838da70f041be41d0d28fa9e735241c303240b4355f1770dba5b7b7998afc05b",
+      "ledgerMatches": true,
+      "bytes": 4232
+    },
+    {
+      "path": "product/skills/eternities-orpheus/skill.json",
+      "role": "canonical-baseline",
+      "sha256": "6ac5ac8cf81386e5a739f369056d7332fb33e722a8fa02a0efd60e030abc3235",
+      "ledgerSha256": "6ac5ac8cf81386e5a739f369056d7332fb33e722a8fa02a0efd60e030abc3235",
+      "ledgerMatches": true,
+      "bytes": 1411
+    },
+    {
+      "path": "product/skills/eternities-orpheus/SKILL.md",
+      "role": "canonical-baseline",
+      "sha256": "083f4461cf7a28dd5a2b25bd3e2c2d05448b74b92aaa5d87b5daa50753c2c48e",
+      "ledgerSha256": "083f4461cf7a28dd5a2b25bd3e2c2d05448b74b92aaa5d87b5daa50753c2c48e",
+      "ledgerMatches": true,
+      "bytes": 3105
+    },
+    {
+      "path": "product/skills/eternities-prometheus/skill.json",
+      "role": "canonical-baseline",
+      "sha256": "7d118ed0417e927c5da6ea91640e2fa907d3f3ceccaaa62e050fc04e668bf3d8",
+      "ledgerSha256": "7d118ed0417e927c5da6ea91640e2fa907d3f3ceccaaa62e050fc04e668bf3d8",
+      "ledgerMatches": true,
+      "bytes": 1870
+    },
+    {
+      "path": "product/skills/eternities-prometheus/SKILL.md",
+      "role": "canonical-baseline",
+      "sha256": "3bdb3c567c215cee7552d846abdcfd87024e6a5787e394d6526799f24c008ab6",
+      "ledgerSha256": "3bdb3c567c215cee7552d846abdcfd87024e6a5787e394d6526799f24c008ab6",
+      "ledgerMatches": true,
+      "bytes": 3042
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/skill.json",
+      "role": "canonical-baseline",
+      "sha256": "d822c1a6d8c83f1c2fc1538b75982087dc1325540b11e099d7b8e7427766f75c",
+      "ledgerSha256": "d822c1a6d8c83f1c2fc1538b75982087dc1325540b11e099d7b8e7427766f75c",
+      "ledgerMatches": true,
+      "bytes": 4637
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/SKILL.md",
+      "role": "canonical-baseline",
+      "sha256": "ca165d7209df55696719f58dbad0042a41bfe6164408099cf8ab0dc90e85d160",
+      "ledgerSha256": "ca165d7209df55696719f58dbad0042a41bfe6164408099cf8ab0dc90e85d160",
+      "ledgerMatches": true,
+      "bytes": 4636
+    },
+    {
+      "path": "product/skills/voice-style-calibration/skill.json",
+      "role": "canonical-baseline",
+      "sha256": "853cce581a0f216c3650f1f857bfae0fa1f78ef93dfc398fbfd350b74eacf6d3",
+      "ledgerSha256": "853cce581a0f216c3650f1f857bfae0fa1f78ef93dfc398fbfd350b74eacf6d3",
+      "ledgerMatches": true,
+      "bytes": 1814
+    },
+    {
+      "path": "product/skills/voice-style-calibration/SKILL.md",
+      "role": "canonical-baseline",
+      "sha256": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b",
+      "ledgerSha256": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b",
+      "ledgerMatches": true,
+      "bytes": 4440
+    }
+  ]
+}

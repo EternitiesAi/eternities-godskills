@@ -1,0 +1,72 @@
+{
+  "review": "independent A repair re-review v3 - Nietzsche",
+  "disposition": "PRECISE_REPAIR_REQUIRED",
+  "authoritativeBinding": "supplemental-final-bind.json",
+  "aFileCount": 21,
+  "additionalRunnerFileCount": 2,
+  "runtimeGraphSha256": "785873ca911a77fee4f2bb7c59294fbaee4f5b0dd667118c1fe497959950c641",
+  "decisions": {
+    "A-R1": "READY - repaired reporting scope and opening cohort are explicit; preserved and new arithmetic cases pass",
+    "A-R2-original-four-misses": "READY for the preserved four probes",
+    "A-R2-Muse": "READY for preserved probes and two new paraphrases",
+    "A-R2-Orpheus": "READY for preserved probes and two new paraphrases",
+    "A-R2-Beacon": "REPAIR A-R2-B - two clear intended-job paraphrases remain outside the top five",
+    "seven-A-method-bodies": "Instruction-level READY; commercial passage freshly re-reviewed, other six retain previous decisions at identical hashes",
+    "seven-original-A-owner-routes": "Retain previous bounded acceptance at identical prose hashes; no blanket acceptance of later D-reference substance",
+    "test-runner-scope": "READY - independently observed synthetic npm red/green plus real-root focused regression",
+    "D-method-substance": "EXCLUDED - Laplace owns independent content acceptance",
+    "Arcadia-latest-trigger": "Mechanical delta and fixed A probes checked; broader behavior remains Avicenna's review",
+    "final-C-and-release": "NOT_REVIEWED - parent combined checks after freeze remain required"
+  },
+  "findings": [
+    {
+      "id": "A-R2-B",
+      "priority": 2,
+      "file": "product/skills/eternities-beacon/skill.json",
+      "location": "triggers array near line 7",
+      "title": "Expose homepage promise-and-proof positioning jobs",
+      "cases": ["B-N1", "B-N2"],
+      "observedOwnerRanks": [null, null],
+      "suggestedNarrowTrigger": "homepage value proposition and product promise with proof against the customer's current workaround",
+      "hypotheticalOwnerRanks": [2, 1],
+      "other25OwnerRanksUnchanged": true,
+      "sourceEditApplied": false,
+      "acceptance": "Recover these intended jobs without requiring this exact wording, a universal paraphrase guarantee or a search-engine rewrite; reconcile on final frozen runtime."
+    }
+  ],
+  "evidence": {
+    "initialReadSet": "read-set.json",
+    "controlledProbeResults": "probe-results.json",
+    "queriesPerMetadataCondition": 27,
+    "preservedQueries": 21,
+    "newParaphrases": 6,
+    "hostNeedNoneAbstentions": 6,
+    "arithmeticAssertionsPassed": 10,
+    "aResourceLinkChecksPassed": 7,
+    "latestBeaconProvenanceComparison": "beacon-repair-probe.json",
+    "latestArcadiaComparison": "supplemental-final-bind.json",
+    "runnerResults": "runner-scope-results.json",
+    "runnerCommands": {"expectedRed": 2, "isolatedGreen": 2, "focusedRealRootGreen": 1},
+    "runnerMaintainedRootInventory": {"tests": 278, "examples": 6, "evaluation": 1, "product": 3},
+    "fullSuiteRun": false,
+    "sharedBuildRun": false,
+    "authorSelfApplicationsUsed": false
+  },
+  "finalKeyHashes": {
+    "product/skills/eternities-beacon/skill.json": "f5dc3808abf07d4d88d61383fb815a386f296b08299417f01658e2d62daae71a",
+    "product/skills/eternities-arcadia/skill.json": "eeaefbc6c4c89338b38664002a266cf54c9530e610f44874386bf7284e67933e",
+    "product/skills/eternities-prometheus/references/commercial-driver-diagnosis-v1.md": "bdd16ac74bb01c88864e6d76080fd05d833eb9be1324322f27aaaec8350165f2",
+    "package.json": "babefbe4933100db21e8deaf329e3f4dc7bd81555ef6a6cd9ce8fa2ced1f354d",
+    "tests/test-runner-scope.test.mjs": "fa29ade33d4849a417c4d5180dda73891f503e7d8c1d44351057f1df81b047ed"
+  },
+  "scopeAccounting": {
+    "retainedWrites": "artifacts/qualification/cohesive-product-20261015/review-a-v3-nietzsche/ only",
+    "temporaryOutOfScopeWrite": "New review-placeholder.txt at worktree root immediately removed; confirmed absent; no existing file overwritten",
+    "helperFailure": "supplemental-bind-attempt-1-failure.json preserved; append-position assumption corrected; no product defect or product edit",
+    "productWrites": false,
+    "priorReviewWrites": false,
+    "stageOrLaneDReceiptWrites": false,
+    "agentsSpawned": false,
+    "installsOrNewSources": false
+  }
+}

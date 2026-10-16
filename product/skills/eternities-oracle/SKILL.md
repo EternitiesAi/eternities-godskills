@@ -17,16 +17,25 @@ Oracle is the multi-source research route. It chooses the smallest evidence path
 ## Working method
 
 1. State the decision or falsifiable question, scope, exclusions, freshness cutoff, allowed effects, success evidence, and stop condition.
-2. Record each material finding with id, atomic claim, disposition, observation versus inference, source identity and authority, exact locator, date, supporting and contradicting evidence, confidence reason, and refresh condition.
+2. Keep each material claim next to its supporting source and distinguish observation from inference. For a short answer, inline locators, relevant dates and uncertainty are sufficient. Use a finding table when several sources, contradictions or changing facts must be reconciled; include claim, disposition, authority, supporting and contradicting evidence, confidence reason and refresh condition where they affect the decision.
 3. Use the highest available authority for each claim. Similar wording does not establish independent evidence, and a lower source cannot silently overrule a direct implementation or current primary record.
 4. Seek disconfirming evidence proportional to the stakes. Comparative claims need a named baseline and matched conditions; current claims need current evidence; absence claims need coverage.
 5. Return verified, unverified, rejected, and deferred findings, with conflicts and uninspected surfaces named explicitly.
+
+Before expanding a search, identify the unresolved claim and how either answer
+would change the conclusion or next action. If neither would, finish the scoped
+answer rather than accumulating sources. If a critical claim remains unresolved,
+try a different permitted evidence path: source terminology, an exact identifier,
+the primary artifact behind a summary, or the relevant version history. Repeated
+copies of one account do not close the gap. Keep an unavailable or inconclusive
+result when those bounded alternatives cannot answer it. A prior-art absence
+claim still needs its declared coverage; a search stop is not evidence of absence.
 
 For a question about who authored, reviewed, approved, or challenged a specific artifact, use the **DRAFT artifact-role evidence method (content v2)** in [methods.md](references/methods.md). Bind every role claim to the exact selected artifact/version. A formal approver claim requires a completed act attributed to that person whose object is that artifact/version; approving access to inspect it, a request to create or change it, or its distribution is a different act and does not establish artifact approval. This is a planning and evidence-review method, not an enterprise connector or permission to inspect private sources, and it grants no source access or copy, retention, or reuse rights.
 
 ## Deliverable and finish
 
-Return the verdict, source ledger, evidence map, uncertainty, conflicts, rejected claims, refresh targets, and exact next decision. Research may produce local notes or implementation-ready evidence; it does not silently perform the operational change those notes describe. The local, authoritative, and hybrid templates are in [methods.md](references/methods.md).
+Return the answer or decision with supporting sources, consequential uncertainty and conflicts, and any missing evidence that could change it. Use a source ledger or evidence map when the investigation needs that traceability, without requiring separate documents for each. Research may produce local notes or implementation-ready evidence; it does not silently perform the operational change those notes describe. The local, authoritative, and hybrid templates are in [methods.md](references/methods.md).
 
 A source ledger should also say what was not searched, why the stop condition was met, and which single refresh would most efficiently change the answer. This keeps a bounded investigation useful without overstating corpus coverage.
 

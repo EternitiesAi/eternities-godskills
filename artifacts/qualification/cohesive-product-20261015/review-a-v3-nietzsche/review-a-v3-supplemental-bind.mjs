@@ -1,0 +1,41 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import assert from 'node:assert/strict';
+import {fileURLToPath,pathToFileURL} from 'node:url';
+const dir=path.dirname(fileURLToPath(import.meta.url));
+const root='C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003';
+const digest=b=>crypto.createHash('sha256').update(b).digest('hex');
+const json=p=>JSON.parse(fs.readFileSync(path.join(dir,p)));
+const initial=json('read-set.json'),previous=json('final-bind.json');
+assert.ok(!fs.existsSync(path.join(dir,'supplemental-final-bind.json')),'Preserve the first supplemental binding');
+const catalog=json('prior-evidence/discovery-input-final.json');
+const rows=initial.files.map(row=>{
+  const b=fs.readFileSync(`${root}/${row.path}`),p=path.join(dir,'supplemental-final',row.path);
+  fs.mkdirSync(path.dirname(p),{recursive:true});
+  if(fs.existsSync(p))assert.equal(digest(fs.readFileSync(p)),digest(b),'Preserve the first attempted snapshot: a further source delta needs a new version');
+  else fs.writeFileSync(p,b);
+  if(row.path.endsWith('/skill.json')){const meta=JSON.parse(b),i=catalog.skills.findIndex(s=>s.id===meta.id);assert.ok(i>=0);catalog.skills[i]={...catalog.skills[i],...meta};}
+  const last=previous.files.find(s=>s.path===row.path);
+  return {path:row.path,role:row.role??'A-method-or-original-owner',baselineSha256:row.baselineSha256??null,candidateSha256:row.candidateSha256,previousBindSha256:last.finalSha256,finalSha256:digest(b),finalBytes:b.length,changedSincePreviousBind:digest(b)!==last.finalSha256,changedSinceProbeCandidate:digest(b)!==row.candidateSha256};
+});
+const deltas=rows.filter(r=>r.changedSincePreviousBind);
+assert.deepEqual(deltas.map(r=>r.path),['product/skills/eternities-arcadia/skill.json']);
+const arcadiaPrevious=json('final/product/skills/eternities-arcadia/skill.json'),arcadiaNext=json('supplemental-final/product/skills/eternities-arcadia/skill.json');
+const {triggers:oldTriggers,...oldOther}=arcadiaPrevious,{triggers:nextTriggers,...nextOther}=arcadiaNext;
+assert.deepEqual(oldOther,nextOther);
+assert.deepEqual(nextTriggers.filter(s=>oldTriggers.includes(s)),oldTriggers,'Existing triggers and their relative order must be preserved');
+const addedTriggers=nextTriggers.filter(s=>!oldTriggers.includes(s));
+assert.deepEqual(addedTriggers,['design interactive WebGL shader and particle effects with camera controls']);
+for(const m of initial.runtime.modules)assert.equal(digest(fs.readFileSync(path.join(dir,m.frozenPath))),m.sha256);
+const {searchCatalog}=await import(pathToFileURL(path.join(dir,'frozen-runtime/product.mjs')));
+const probes=json('probe-results.json');
+const comparison=probes.cases.map(row=>{
+  const r=searchCatalog(catalog,row.query,{limit:5});
+  const result={ownerRank:r.results.findIndex(s=>s.id===row.owner)+1||null,selection:r.selection,results:r.results.map(s=>({id:s.id,score:s.score,reasons:s.reasons}))};
+  return {id:row.id,owner:row.owner,query:row.query,identicalToCandidate:JSON.stringify(result)===JSON.stringify(row.candidate),result};
+});
+const liveRuntime=initial.runtime.modules.map(r=>({path:r.path,frozenSha256:r.sha256,thenCurrentSha256:digest(fs.readFileSync(`${root}/${r.path}`))}));
+const output={boundAt:new Date().toISOString(),files:rows,changesSincePreviousBind:deltas,arcadiaAddedTrigger:addedTriggers,runtimeGraphSha256:initial.runtime.graphSha256,liveRuntimeDrift:liveRuntime.filter(r=>r.frozenSha256!==r.thenCurrentSha256),fixedProbeComparison:comparison,limits:'Arcadia capability-trigger delta checked mechanically and against this fixed A metadata set only; Avicenna owns its broader behavior review. All five D method bodies remain excluded substantively; Laplace owns D acceptance. Final combined parent routing check after C freeze remains required.'};
+fs.writeFileSync(path.join(dir,'supplemental-final-bind.json'),JSON.stringify(output,null,2)+'\n');
+console.log(JSON.stringify({aFiles:rows.filter(r=>r.role==='A-method-or-original-owner').length,changesSincePreviousBind:deltas,unchangedProbeResults:comparison.filter(r=>r.identicalToCandidate).length,totalProbes:comparison.length,liveRuntimeDrift:output.liveRuntimeDrift},null,2));

@@ -8,6 +8,7 @@ import { dirname, join, resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { projectBeforeAtlasSuppliedDataRevision } from './helpers/atlas-discovery-revision.mjs';
 import { projectBeforeArcadiaAssetRevision, assetIntegrationResource } from './helpers/arcadia-asset-revision.mjs';
+import { projectBeforeCohesiveProduct20261015, assertSelectedDirectoryEvolution, maintainedTestCommand } from './helpers/nietzsche-historical-compatibility.mjs';
 
 const testDirectory = dirname(fileURLToPath(import.meta.url));
 const productRoot = resolve(
@@ -203,7 +204,7 @@ const fourNewResources = [
   },
 ];
 
-test("the immutable core2260 fixture is exact and core projections admit only the declared Atlas and Arcadia revisions", async () => {
+test("the immutable core2260 fixture is exact through the named cohesive, Atlas and Arcadia projections", async () => {
   assert.equal(sha256(baselineBytes), frozenCoreCatalogSha256);
   const liveCatalog = JSON.parse(await readFile(join(productRoot, "catalog.json"), "utf8"));
   assert.equal(baselineCatalog.skills.length, 68);
@@ -222,13 +223,16 @@ test("the immutable core2260 fixture is exact and core projections admit only th
   );
   const historicalAtlas = baselineCatalog.skills.find(skill => skill.id === 'eternities-atlas');
   const historicalArcadia = baselineCatalog.skills.find(skill => skill.id === 'eternities-arcadia');
-  assert.deepEqual(scoringProjection(liveCore.map(skill => projectBeforeArcadiaAssetRevision(projectBeforeAtlasSuppliedDataRevision(skill, historicalAtlas), historicalArcadia))), scoringProjection(baselineCatalog.skills));
+  assert.deepEqual(scoringProjection(liveCore.map(skill => projectBeforeArcadiaAssetRevision(projectBeforeAtlasSuppliedDataRevision(projectBeforeCohesiveProduct20261015(skill), historicalAtlas), historicalArcadia))), scoringProjection(baselineCatalog.skills));
 });
 
-test("historical paths remain exact, named optional owner references are admitted, and only Omnibus is revised", async () => {
+test("historical paths remain exact through the named cohesion projection and prior optional-reference admissions", async () => {
   const liveCatalog = JSON.parse(await readFile(join(productRoot, "catalog.json"), "utf8"));
   const baselineById = new Map(baselineCatalog.skills.map((skill) => [skill.id, skill]));
-  const liveById = new Map(liveCatalog.skills.map((skill) => [skill.id, skill]));
+  // The named projection first verifies the exact later fields/resources.
+  // Actual new method bodies and independent review bindings are checked by
+  // inspectMethodDirectory below; they do not rewrite this historical gold.
+  const liveById = new Map(liveCatalog.skills.map((skill) => [skill.id, projectBeforeCohesiveProduct20261015(skill)]));
   const added = [];
   const removed = [];
   const changed = [];
@@ -328,22 +332,13 @@ test("conditional method links remain with their owners and B04 is not a Hermes 
   assert.doesNotMatch(daedalusText, /references\/cursor-paged-task-messages\.md|references\/truthful-cli-progress\.md|source-grounded-math-specification/);
 });
 
-test("the selected-method directory binds exactly the four new owner methods and their exclusions", async () => {
+test("selected-method directory preserves original rows and independently binds the admitted new methods", async () => {
   const liveCatalog = JSON.parse(await readFile(join(productRoot, "catalog.json"), "utf8"));
   const { inspectMethodDirectory, renderMethodDirectory } = await import(
     pathToFileURL(join(productRoot, "lib", "method-directory.mjs")).href
   );
   const directory = await inspectMethodDirectory(productRoot, liveCatalog);
-  assert.deepEqual(directory.methods.map((method) => method.id), [
-    "hermes-running-task-message-checkpoint",
-    "hermes-authorized-local-process-observation",
-    "math-supplied-prose-specification-draft",
-    "daedalus-optional-model-scenario-ci",
-    "arcadia-game-state-audio-cues",
-    "atlas-serving-time-decision-trace",
-    "oracle-artifact-role-evidence",
-    "mnemosyne-local-evidence-lifecycle",
-  ]);
+  assertSelectedDirectoryEvolution(directory);
 
   const expectedNewMethods = [
     {
@@ -409,8 +404,8 @@ test("Daedalus owns optional model scenarios without weakening deterministic req
 
   assert.ok(repositoryRoot, "could not locate the live repository root for required-script checks");
   const packageJson = JSON.parse(await readFile(join(repositoryRoot, "package.json"), "utf8"));
-  assert.equal(packageJson.scripts.test, "node --test");
-  assert.equal(packageJson.scripts.check, "node --test");
+  assert.equal(packageJson.scripts.test, maintainedTestCommand);
+  assert.equal(packageJson.scripts.check, maintainedTestCommand);
   assert.doesNotMatch(packageJson.scripts.test + " " + packageJson.scripts.check, /optional-model-scenarios-ci/);
 });
 

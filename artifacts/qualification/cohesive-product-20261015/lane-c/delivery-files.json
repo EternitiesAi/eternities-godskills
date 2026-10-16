@@ -1,0 +1,137 @@
+{
+  "schema": "godskills-lane-c-delivery-files-v1",
+  "baselineCommit": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+  "note": "Exact delivered file bytes at checkpoint; this inventory excludes itself. Other lanes may subsequently integrate or change shared files.",
+  "entries": [
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c/ASSESSMENT.md",
+      "bytes": 8752,
+      "sha256": "869cc639bf3b1258dc9c4dec76b566fad5eec94dda0a640c63820e4c4d6a2bea"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c/catalog.frozen.json",
+      "bytes": 142721,
+      "sha256": "f20b17c989c188d439c84fa4a8cf5989ccafe550428b2b2577708ba072a39889"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c/cli.shared-pending.json",
+      "bytes": 521,
+      "sha256": "4b0a848885fcab085e8b7b77921e699b393d2933b501a60acd6ca573167e68dd"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c/fixtures/pack/skills/portable-method/SKILL.md",
+      "bytes": 286,
+      "sha256": "c2956ca5a876e0ce779039841c5c7190e3a7044afc125eda62967b4994789292"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c/fixtures/pack/skills/portable-method/references/detail.md",
+      "bytes": 74,
+      "sha256": "5d45b00b1434aaf58efa04273cc02ff2a7a9126a985826c61cdce4ade4d0a932"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c/matrix.frozen.json",
+      "bytes": 11286,
+      "sha256": "a889698891d7e8a395339e661dd5b98236fab82518d2b252667b18ba4315df9f"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c/measure.mjs",
+      "bytes": 3374,
+      "sha256": "c40fa171d545f1c8b9cb6dc6f4f4726afeda8159f4d7e14488840e22bd3f653a"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c/readset.baseline.json",
+      "bytes": 4017,
+      "sha256": "ffdd7cc8b35d1d053200f97eb4d4ec0fa6cfd1b89dcc86cacb05060c50945d58"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c/readset.candidate-run.json",
+      "bytes": 44489,
+      "sha256": "bc964da3851d039376817366b52a2a8cf76763d7ac5cd4f04d0b2a67fdf1d87c"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c/results.baseline-replayed.json",
+      "bytes": 12046,
+      "sha256": "ccf0054645445746f276e620b2c9f2878b5455fdfee525d76a50cfccb82f426c"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c/results.baseline.json",
+      "bytes": 9911,
+      "sha256": "2b8cf9fc97ca4eb932ba4da642ad7ea3b2dbda43179362c8e181dd738628925c"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c/results.candidate.json",
+      "bytes": 11538,
+      "sha256": "b01235c08450849dd4e2a6c5a5cb59d3fb34544a76c8e0f5df56c9b38ff01790"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c/skill-dispositions.json",
+      "bytes": 61637,
+      "sha256": "0fdf05995461f3a27be65dc61c5ecea1ab0dc45ad510b6c56ceeeaa85b88653b"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c/tests.baseline.tap",
+      "bytes": 13111,
+      "sha256": "09e8a059866ae139aa3b94113293c905029e4d57c4740cf12c337945544ac46a"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c/tests.bound.tap",
+      "bytes": 34038,
+      "sha256": "5ecbba3381d130e778431c2149279180b9fe6f6fa19430fee23c092b2979f8e9"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c/tests.candidate.tap",
+      "bytes": 34054,
+      "sha256": "eee6e6d81e235e38be7c86cc1f377f884278c9cb918236015d0aba196bd438ff"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c/tests.preintegration.tap",
+      "bytes": 35409,
+      "sha256": "994cc97ba5ee4910b88abdc6501f5aa2fe8e2e9467845b28dfd121a4cde8873f"
+    },
+    {
+      "path": "product/DISCOVERY.md",
+      "bytes": 12597,
+      "sha256": "3ce1104a5ff4938570d3cb450c8ed83c26b5b7a88d0c9842e1dc3dc91a363a79"
+    },
+    {
+      "path": "product/START-HERE.md",
+      "bytes": 3763,
+      "sha256": "900b5b72fad4fdda396665218530d1caba050ccc23d20d72b8486f638ef797f8"
+    },
+    {
+      "path": "product/lib/discovery.mjs",
+      "bytes": 18479,
+      "sha256": "9eb1cad0cea17e03f1cf760d7c764c5149bb206e5a92d4b6cc09bbfd91718007"
+    },
+    {
+      "path": "product/lib/product.mjs",
+      "bytes": 23970,
+      "sha256": "afd5689a4120420478995bee762e67cc7ce640f9ce633ae6c6a4f497efcff9bf"
+    },
+    {
+      "path": "product/lib/request-scope.mjs",
+      "bytes": 1314,
+      "sha256": "e9055f1bfa2a913c1f73e93f5fa652588963e63dd9094e46713786fe400877f2"
+    },
+    {
+      "path": "product/lib/selection-boundary.mjs",
+      "bytes": 1603,
+      "sha256": "a7b0ed0d0c9805e9a2b97a74c0321ce263c15609e98996144df90fc1b7f0e60e"
+    },
+    {
+      "path": "tests/cohesive-discovery-boundaries.test.mjs",
+      "bytes": 5316,
+      "sha256": "f5e930110119b93f5ca3a2075203db992034746ced11342a052e04ef1e32d457"
+    },
+    {
+      "path": "tests/cohesive-discovery-navigation.test.mjs",
+      "bytes": 3476,
+      "sha256": "e38d5c71a1b50e926a161e3784bf2f5547e1fbebadd17db5b8ad72e60e667721"
+    },
+    {
+      "path": "tests/cohesive-discovery-routing.test.mjs",
+      "bytes": 1556,
+      "sha256": "e058375753585d179eafbd2247ee85f76e65b1c805d80444889362e1482aa671"
+    }
+  ]
+}

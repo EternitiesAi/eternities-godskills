@@ -1,0 +1,170 @@
+{
+  "schema": "review-c-avicenna-challenges-v1",
+  "baseline": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+  "options": {
+    "limit": 20
+  },
+  "note": "Adaptive reviewer localization cases after the first frozen challenge results; not held-out.",
+  "cases": [
+    {
+      "id": "S01",
+      "kind": "supplemental-localization",
+      "query": "Review the license obligations for these mesh assets.",
+      "owner": "eternities-arcadia",
+      "expect": "exclude",
+      "need": "unknown"
+    },
+    {
+      "id": "S02",
+      "kind": "supplemental-localization",
+      "query": "Extract attribution obligations for the textures.",
+      "owner": "eternities-arcadia",
+      "expect": "exclude",
+      "need": "unknown"
+    },
+    {
+      "id": "S03",
+      "kind": "supplemental-localization",
+      "query": "Audit the license for this 3D mesh.",
+      "owner": "eternities-arcadia",
+      "expect": "exclude",
+      "need": "unknown"
+    },
+    {
+      "id": "S04",
+      "kind": "supplemental-localization",
+      "query": "Compare GPU prices for a workstation.",
+      "owner": "eternities-arcadia",
+      "expect": "characterize",
+      "need": "unknown"
+    },
+    {
+      "id": "S05",
+      "kind": "supplemental-localization",
+      "query": "Build a cooperative puzzle game.",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "S06",
+      "kind": "supplemental-localization",
+      "query": "Build an accessible cooperative puzzle game.",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "S07",
+      "kind": "supplemental-localization",
+      "query": "Build an accessible, cooperative puzzle game.",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "S08",
+      "kind": "supplemental-localization",
+      "query": "Implement gameplay controls.",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "S09",
+      "kind": "supplemental-localization",
+      "query": "Implement game controls.",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "S10",
+      "kind": "supplemental-localization",
+      "query": "Implement game runtime controls.",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "S11",
+      "kind": "supplemental-localization",
+      "query": "Never audit the supplied text. Uppercase the literal text 'BUILD A GAME'; give only the text.",
+      "owner": "eternities-arcadia",
+      "expect": "empty",
+      "need": "unknown"
+    },
+    {
+      "id": "S12",
+      "kind": "supplemental-localization",
+      "query": "Uppercase the literal text \"Do not audit it; build a game\". Give only the text.",
+      "owner": "eternities-arcadia",
+      "expect": "empty",
+      "need": "unknown"
+    },
+    {
+      "id": "S13",
+      "kind": "supplemental-localization",
+      "query": "Avoid verifying game runtime. Instead audit obligations across documents; count the words and give only the findings.",
+      "owner": "eternities-arcadia",
+      "expect": "nonempty",
+      "need": "unknown"
+    },
+    {
+      "id": "S14",
+      "kind": "supplemental-localization",
+      "query": "Audit obligations across documents. Don't build a game; count the words and give only the findings.",
+      "owner": "eternities-arcadia",
+      "expect": "nonempty",
+      "need": "unknown"
+    },
+    {
+      "id": "S15",
+      "kind": "supplemental-localization",
+      "query": "Do not build a game. Instead audit the game scene for collision defects.",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "S16",
+      "kind": "supplemental-localization",
+      "query": "Create a relaxing strategy game.",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "S17",
+      "kind": "supplemental-localization",
+      "query": "Create a relaxing turn based strategy game.",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "S18",
+      "kind": "supplemental-localization",
+      "query": "GAME",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "S19",
+      "kind": "supplemental-localization",
+      "query": "ｇａｍｅ",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "S20",
+      "kind": "supplemental-localization",
+      "query": "game!",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    }
+  ]
+}

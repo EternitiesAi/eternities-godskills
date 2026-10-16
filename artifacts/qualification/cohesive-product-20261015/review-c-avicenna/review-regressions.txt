@@ -1,0 +1,91 @@
+✖ R1 ordinary game-controls implementation retains its existing game owner (9.617ms)
+✖ R1 adding an accessibility modifier does not eliminate game creation (6.3328ms)
+✖ R1 parent Three.js shader creation retains baseline owner recall (3.0834ms)
+✖ R2 a mesh licensing request does not itself establish runtime purpose (2.8959ms)
+✔ control: supported runtime asset work remains discoverable (2.3648ms)
+✔ control: explicit IDs and host no-need remain compatible (175.581ms)
+✔ control: recognized refusal does not defeat a limited live microtask (0.5151ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 3
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 263.7012
+
+✖ failing tests:
+
+test at artifacts\qualification\cohesive-product-20261015\review-c-avicenna\review-regressions.test.mjs:8:1
+✖ R1 ordinary game-controls implementation retains its existing game owner (9.617ms)
+  AssertionError [ERR_ASSERTION]: Baseline owner rank 1; candidate must not remove the owner merely for omitting runtime jargon.
+      at TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/cohesive-product-20261015/review-c-avicenna/review-regressions.test.mjs:9:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.start (node:internal/test_runner/test:1191:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at artifacts\qualification\cohesive-product-20261015\review-c-avicenna\review-regressions.test.mjs:11:1
+✖ R1 adding an accessibility modifier does not eliminate game creation (6.3328ms)
+  AssertionError [ERR_ASSERTION]: Baseline owner rank 1; extra useful modifier is not a change of task.
+      at TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/cohesive-product-20261015/review-c-avicenna/review-regressions.test.mjs:13:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at artifacts\qualification\cohesive-product-20261015\review-c-avicenna\review-regressions.test.mjs:15:1
+✖ R1 parent Three.js shader creation retains baseline owner recall (3.0834ms)
+  AssertionError [ERR_ASSERTION]: Baseline owner rank 4, within default top5.
+      at TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/cohesive-product-20261015/review-c-avicenna/review-regressions.test.mjs:16:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at artifacts\qualification\cohesive-product-20261015\review-c-avicenna\review-regressions.test.mjs:18:1
+✖ R2 a mesh licensing request does not itself establish runtime purpose (2.8959ms)
+  AssertionError [ERR_ASSERTION]: Mesh is context, not independent evidence of a runtime operation.
+  
+  true !== false
+  
+      at TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/cohesive-product-20261015/review-c-avicenna/review-regressions.test.mjs:19:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+

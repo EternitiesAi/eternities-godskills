@@ -1,0 +1,65 @@
+{
+  "id": "evidence-linked-learning-design",
+  "category": "education",
+  "summary": "Design evidence-linked lessons, assessments, teaching handoffs and learner reports from observable goals and supplied achievement evidence.",
+  "triggers": [
+    "lesson planning curriculum course training",
+    "learning outcomes teaching assessment",
+    "differentiate instruction for varied prior knowledge",
+    "substitute teacher facilitator handoff classroom cover notes",
+    "student report comments teacher observations achievement judgments"
+  ],
+  "antiTriggers": [
+    "Professional certification or guaranteed outcomes without appropriate evidence and qualified review"
+  ],
+  "taskTypes": [
+    "plan",
+    "create",
+    "verify",
+    "communicate"
+  ],
+  "related": [
+    "eternities-logos",
+    "eternities-athena",
+    "eternities-muse"
+  ],
+  "resources": ["references/handoffs-and-reporting.md", "references/educational-microsimulation.md", "references/support-transition.md", "references/practice-and-transfer-v1.md"],
+  "maturity": "instruction-reviewed",
+  "provenance": [
+    {
+      "kind": "authoring",
+      "source": "artifacts/qualification/cohesive-product-20261015/lane-a/ledger.json",
+      "note": "Original conditional addition references/practice-and-transfer-v1.md and its entrypoint routing were independently authored for the cohesion release. Prior reviews do not apply to changed bytes; release review is recorded separately. No new source-rights clearance, runtime result or performance claim."
+    },
+    {
+      "kind": "conditional-method-review",
+      "source": "GarethManning/education-agent-skills@6bbbce418f82e11044009c9f3b7373a354de5bd0:skills/student-learning/fading-manager/SKILL.md",
+      "note": "Original references/support-transition.md is a learner-controlled optional aid procedure, separately instruction-reviewed at v3 receipt ba5d635830f8f5673a3ed78961a79f349686195c212a08ec887569446422effe. Exact inert pattern body SHA-256 83681b24f6746e727480efdf657299f47fad1da9d858932bac2e3217a482b1d2 informed bounded choice/restore; automatic fade thresholds, profiles and covert support withdrawal are not adopted. Source rights/access/provenance and historical context holds remain distinct and nonterminal; no actual learner, persistence, efficacy or compliance result follows."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "GarethManning/education-agent-skills@6bbbce418f82e11044009c9f3b7373a354de5bd0:skills/self-regulated-learning/self-regulation-scaffold-generator/SKILL.md",
+      "note": "Exact conceptual body SHA-256 8192adbc918764dc9f53ee30f67cf95a6056d3eaee6ef798ba9674e0233b6f5d informed only learner-led task reflection in independent writing. This identity retains its own unresolved rights/access/provenance/context holds; no source prose, profile mechanism or terminal quality outcome is transferred."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "ynulihao/AgentSkillOS@c3cfae10ea34a13973c461273ad9c5cc4aa907fe:data/skill_seeds/microsim-generator/SKILL.md",
+      "note": "Exact8299-byte source body SHA-25602f5da41751f7368757462e025de78ab0fb33b7a441cfc0b5d2bb43c3178789b inspected as inert comparison evidence. Independently authored portable learner-model procedure extends the existing learning-design owner; no source code, subordinate guide, template, renderer/library requirement or local deployment layout is adopted. Source rights and historical pre-read seal proof remain unreviewed; source disposition is nonterminal. Document review is not domain validation, learning efficacy, runtime qualification or R10 application."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "easedup/educator-skills@8a6f3a22df5bdeb0d18d2edc5f46d6e2b61c62e1:skills/planning/lesson-planner/SKILL.md",
+      "note": "Pattern-level review of goals, assessment and differentiation; independent writing. Source license unresolved, no prose or implementation incorporated; branded service and mandatory-question flow not adopted. Inspected body SHA-256 256b1a2eaeb23e0d267f08fb9004b627604742ee542eb7c6f997f1184ad0807c."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "easedup/educator-skills@8a6f3a22df5bdeb0d18d2edc5f46d6e2b61c62e1:skills/communication/report-comment/SKILL.md",
+      "note": "Full entrypoint read, SHA-256 098f104bea22c066311e012435e2912546e2720d0e9f9a1fbb37d1c3ea648166. Evidence-linked drafting informed independent writing; fixed grade bands, service dependency and mandatory question scripts excluded. License unresolved; no source prose or implementation copied."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "easedup/educator-skills@8a6f3a22df5bdeb0d18d2edc5f46d6e2b61c62e1:skills/planning/casual-relief-plan/SKILL.md",
+      "note": "Full entrypoint read, SHA-256 1b62d07e2039b64529de65325fa5bb72c31a9fcc969d8d1cbf6211708a30aa3e. Self-contained facilitator handoff informed independent writing. Country-specific emergency number, sample medication actions and assumed absence of alerts excluded. License unresolved; no source prose or implementation copied."
+    }
+  ]
+}

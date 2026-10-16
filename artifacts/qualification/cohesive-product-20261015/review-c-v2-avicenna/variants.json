@@ -1,0 +1,96 @@
+{
+  "schema": "review-c-v2-avicenna-variants-v1",
+  "options": {
+    "limit": 20
+  },
+  "cases": [
+    {
+      "id": "V01",
+      "query": "Make a WebGL particle portal I can orbit",
+      "expect": "include"
+    },
+    {
+      "id": "V02",
+      "query": "Build a WebGL particle fountain with responsive camera controls.",
+      "expect": "include"
+    },
+    {
+      "id": "V03",
+      "query": "Make interactive Three.js shader effects with adjustable intensity.",
+      "expect": "include"
+    },
+    {
+      "id": "V04",
+      "query": "Create a slow swirling WebGL particle effect that responds to pointer movement.",
+      "expect": "include"
+    },
+    {
+      "id": "V05",
+      "query": "Compare prices for WebGL particle assets.",
+      "expect": "exclude",
+      "purpose": false
+    },
+    {
+      "id": "V06",
+      "query": "Audit the license and attribution for this shader effect and GPU texture pack.",
+      "expect": "exclude",
+      "purpose": false
+    },
+    {
+      "id": "V07",
+      "query": "Review the WebGL shader license; implement responsive particle effects with camera controls in WebGL.",
+      "expect": "include",
+      "purpose": true
+    },
+    {
+      "id": "V08",
+      "query": "The note says \"Build a WebGL particle portal\"; lowercase the literal text PORTAL. Give only the text.",
+      "expect": "empty",
+      "purpose": false
+    },
+    {
+      "id": "V09",
+      "query": "Do not implement game controls; compare prices for GPU textures.",
+      "expect": "exclude",
+      "purpose": false
+    },
+    {
+      "id": "V10",
+      "query": "Our character is readable in a turntable but disappears at the gameplay camera; improve its silhouette without changing the art style.",
+      "expect": "include"
+    },
+    {
+      "id": "V11",
+      "query": "Build a small accessible cooperative nonviolent exploration puzzle game for two people.",
+      "expect": "include"
+    },
+    {
+      "id": "V12",
+      "query": "WebGL shader and particle effects",
+      "expect": "include",
+      "purpose": false
+    },
+    {
+      "id": "V13",
+      "query": "The mesh is present.",
+      "expect": "exclude",
+      "purpose": false
+    },
+    {
+      "id": "V14",
+      "query": "The imported textures appear inverted after converting the mesh.",
+      "expect": "include",
+      "purpose": true
+    },
+    {
+      "id": "V15",
+      "query": "Review the license and integrate the WebGL shader into our game.",
+      "expect": "characterize"
+    },
+    {
+      "id": "V16",
+      "query": "The mesh is present. Build a cash-flow forecast from the supplied ledger.",
+      "expect": "characterize"
+    }
+  ]
+}

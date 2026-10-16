@@ -48,7 +48,10 @@ test("Atlas metadata does not displace delivery, offline-validation, schema, cau
     },
     {
       prompt: "Judge whether a measured home-feed retention lift supports a causal claim; inspect randomization, exposure, confounders, uncertainty, and guardrails, not one serving request.",
-      expected: "interatomic-model-validation",
+      // Current causal-design metadata makes the statistical owner appropriate.
+      // The historical interatomic hit matched claim/one/whether, not materials;
+      // exact prior test bytes and same-metadata replay are in review-runtime-repair-dirac.
+      expected: "diagnostic-statistical-model-inference",
       alsoAheadOfAtlas: "eternities-athena",
     },
     {

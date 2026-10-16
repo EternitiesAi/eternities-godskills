@@ -1,0 +1,593 @@
+{
+  "schema": "cohesive-relocated-cli-smoke-v1",
+  "status": "PASS",
+  "observedUtc": "2026-10-16T06:12:06.842Z",
+  "releaseId": "368d5a716bd3b8069ba5ba858f8db8f7fba8b19c36aa373fc62c19d8a2b55efb",
+  "skillCount": 93,
+  "categories": 21,
+  "verifiedFiles": 337,
+  "node": "v24.18.0",
+  "platform": "win32",
+  "environmentKeys": [
+    "SystemRoot",
+    "WINDIR",
+    "PATH"
+  ],
+  "pathEmpty": true,
+  "repositoryUnavailableThroughEnvironment": true,
+  "sourceChanged": false,
+  "limits": "Actual exported archive extracted outside checkout on same Windows host. No fresh OS, all-agent compatibility or domain outcome claim.",
+  "runs": [
+    {
+      "args": [
+        "validate"
+      ],
+      "result": {
+        "status": "verified-content",
+        "releaseId": "368d5a716bd3b8069ba5ba858f8db8f7fba8b19c36aa373fc62c19d8a2b55efb",
+        "skillCount": 93
+      }
+    },
+    {
+      "args": [
+        "browse"
+      ],
+      "result": {
+        "schema": "eternities-godskills-browse-v1",
+        "authority": "none",
+        "activation": "none",
+        "selection": {
+          "state": "review-required",
+          "basis": "explicit-metadata-navigation"
+        },
+        "skillCount": 93,
+        "categories": [
+          {
+            "category": "agent-workflows",
+            "skillCount": 4
+          },
+          {
+            "category": "agriculture",
+            "skillCount": 1
+          },
+          {
+            "category": "audio",
+            "skillCount": 4
+          },
+          {
+            "category": "automation",
+            "skillCount": 3
+          },
+          {
+            "category": "business",
+            "skillCount": 9
+          },
+          {
+            "category": "data",
+            "skillCount": 8
+          },
+          {
+            "category": "design",
+            "skillCount": 8
+          },
+          {
+            "category": "education",
+            "skillCount": 1
+          },
+          {
+            "category": "engineering",
+            "skillCount": 16
+          },
+          {
+            "category": "finance",
+            "skillCount": 2
+          },
+          {
+            "category": "games",
+            "skillCount": 2
+          },
+          {
+            "category": "legal",
+            "skillCount": 1
+          },
+          {
+            "category": "marketing",
+            "skillCount": 3
+          },
+          {
+            "category": "memory",
+            "skillCount": 5
+          },
+          {
+            "category": "models",
+            "skillCount": 2
+          },
+          {
+            "category": "release",
+            "skillCount": 4
+          },
+          {
+            "category": "research",
+            "skillCount": 1
+          },
+          {
+            "category": "science",
+            "skillCount": 11
+          },
+          {
+            "category": "security",
+            "skillCount": 2
+          },
+          {
+            "category": "social",
+            "skillCount": 2
+          },
+          {
+            "category": "writing",
+            "skillCount": 4
+          }
+        ]
+      }
+    },
+    {
+      "args": [
+        "browse",
+        "--category",
+        "business",
+        "--limit",
+        "3"
+      ],
+      "result": {
+        "schema": "eternities-godskills-browse-v1",
+        "authority": "none",
+        "activation": "none",
+        "selection": {
+          "state": "review-required",
+          "basis": "explicit-metadata-navigation"
+        },
+        "category": "business",
+        "skillCount": 9,
+        "offset": 0,
+        "limit": 3,
+        "nextOffset": 3,
+        "skills": [
+          {
+            "id": "customer-support-triage-and-resolution",
+            "category": "business",
+            "summary": "Handle support issues through evidence-based triage, safe troubleshooting, truthful customer updates, focused escalation and explicit resolution states.",
+            "entrypoint": "skills/customer-support-triage-and-resolution/SKILL.md",
+            "entrypointSha256": "32f0615a91aa2ca3e5933c40e24aa80ae200b9b7394549bf37b42b1d1ba34be0",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "recover",
+              "verify",
+              "communicate",
+              "plan"
+            ],
+            "antiTriggers": [
+              "simple acknowledgment",
+              "unapproved account refund",
+              "clinical or legal advice",
+              "exploit reproduction",
+              "company-wide account health strategy"
+            ],
+            "related": [
+              "eternities-aegis",
+              "eternities-daedalus",
+              "eternities-phoenix",
+              "eternities-prometheus"
+            ],
+            "specializes": "eternities-agora"
+          },
+          {
+            "id": "eternities-agora",
+            "category": "business",
+            "summary": "Traceable prospect, account, service, proposal, and client-report artifacts from reconciled evidence.",
+            "entrypoint": "skills/eternities-agora/SKILL.md",
+            "entrypointSha256": "763bae5c52442699d9422e08ad68fdeb7466638f5bba5cbd6dfa04e1754da9ac",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "plan",
+              "create",
+              "communicate"
+            ],
+            "antiTriggers": [
+              "routine lookup",
+              "regulated identity screening",
+              "legal or financial advice",
+              "external account mutation without target and authority"
+            ],
+            "related": [
+              "eternities-athena",
+              "eternities-beacon",
+              "eternities-logos",
+              "eternities-prometheus"
+            ]
+          },
+          {
+            "id": "eternities-prometheus",
+            "category": "business",
+            "summary": "Route product-operations questions into evidence-led growth, analytics, customer insight, learning, planning, and delivery artifacts.",
+            "entrypoint": "skills/eternities-prometheus/SKILL.md",
+            "entrypointSha256": "70d043541b328a6bfebd6cd75840aaca8ed94fc22cc10165d1be444f4662fc06",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "plan",
+              "create",
+              "communicate"
+            ],
+            "antiTriggers": [
+              "outreach, pricing, or procurement execution without target and authority",
+              "private-data acquisition",
+              "regulated or legal judgment"
+            ],
+            "related": [
+              "eternities-agora",
+              "eternities-atlas",
+              "eternities-beacon",
+              "eternities-forge"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "args": [
+        "inspect",
+        "eternities-phoenix"
+      ],
+      "result": {
+        "schema": "eternities-godskills-inspection-v1",
+        "authority": "none",
+        "activation": "none",
+        "selection": {
+          "state": "review-required",
+          "basis": "explicit-metadata-navigation"
+        },
+        "skill": {
+          "id": "eternities-phoenix",
+          "category": "engineering",
+          "summary": "Diagnose failures, derive candidate evaluation cases from authorized interactions, and design reversible recovery with bounded evidence.",
+          "entrypoint": "skills/eternities-phoenix/SKILL.md",
+          "entrypointSha256": "b9d28316b61929e5dd4303aa68f82f21632ba5a44b9a6880b0aed1020694787f",
+          "maturity": "instruction-reviewed",
+          "taskTypes": [
+            "research",
+            "recover",
+            "verify",
+            "plan"
+          ],
+          "antiTriggers": [
+            "no diagnosis, recovery, performance, or interaction-to-evaluation-case objective",
+            "production mutation without authority",
+            "destructive repair without rollback",
+            "background monitoring"
+          ],
+          "related": [
+            "counterbalanced-agent-evaluation",
+            "eternities-aegis",
+            "eternities-atlas",
+            "eternities-daedalus",
+            "eternities-forge"
+          ]
+        },
+        "content": "---\nname: eternities-phoenix\ndescription: Turn failures, incidents, interaction evidence, and performance questions into bounded diagnoses, candidate evaluation cases, recovery plans, or specialist handoffs.\n---\n\n# Eternities Phoenix\n\nPhoenix handles bounded diagnosis, recovery, and interaction-based evaluation-case discovery. For diagnosis it protects against urgency-driven guesses by keeping reproduction, baseline, impact, hypotheses, reversible checks, rollback, and acceptance visible. It can implement an authorized local repair when the proof and recovery boundary are clear.\n\n## Choose the route\n\n- **Diagnosis and reproduction** compares supplied or locally reproducible behavior with an expected invariant.\n- **Incident triage** classifies impact, scope, timeline, evidence, and owner while preparing a local coordination packet.\n- **Recovery planning** chooses the smallest reversible intervention with preconditions, rollback, validation, and stop conditions.\n- **Observability** inspects supplied telemetry or designs bounded instrumentation tied to a question.\n- **Case discovery from interactions** turns an already supplied or explicitly authorized interaction sample into [candidate evaluation cases](references/trace-to-evaluation-cases.md). Use it when the question is *which behaviors to test*, not for one known bug with a reproducer. Do not fetch private traces or write annotations simply because this route exists.\n- **Performance analysis** compares a stable workload and baseline with repeated measurements, units, percentiles, and resource evidence.\n- **Specialist handoff** preserves the evidence packet when the cause belongs to a security, data, platform, provider, legal, or regulated boundary.\n\nFor case discovery, follow [the case-discovery method](references/trace-to-evaluation-cases.md) instead of the diagnosis workflow below. Select an operation, turn, or conversation as the observation unit before counting, and keep development cases separate from held-out evaluation. Deliver evidence-linked candidate cases and their limits; do not require a reproducer, hypothesis ledger, repair, or rollback owner when no incident exists.\n\n## Diagnosis and recovery working method\n\n1. Bind affected component, scope, authority, impact, timestamps, acceptance condition, reproduction or its absence, baseline, and rollback owner.\n2. Read local evidence first. Preserve exact observations and locators; distinguish observed facts, derived values, hypotheses, proposals, and unresolved conflict. When another person or later session must replay the failure, use [reproducible bug packets](references/reproducible-bug-packets.md).\n3. Compare a failing case with the nearest passing case. Trace their inputs and state across the actual call path to the first divergence. Keep plausible causes separate, then choose a cheap check whose possible results distinguish them. Predict those results before running it. Change one causal factor per intervention; independent read-only observations may be collected together. Record negative results and their conditions so an eliminated explanation does not silently return. For intermittent failures or competing causes, use [diagnostic experiments v2](references/diagnostic-experiments-v2.md).\n4. Repair the responsible boundary when implementation is authorized, then rerun the reproducer and a nearby passing control. Include the caller or state transition that exposed the defect. A failure spanning producer and consumer may require coordinated changes; an arbitrary one-file limit must not preserve the defect. If the repair fails, use the new observation to revise the diagnosis and continue within scope. Repeating the same unsuccessful intervention without new evidence is not another experiment.\n5. Treat production mutation, destructive repair, credential use, external systems, and background monitoring as consequential boundaries. Check whether existing authority explicitly covers the exact target and effect, and whether required preconditions and rollback are clear. Do not request approval already supplied. A new decision is needed only when that scope is missing or changed, or an unresolved precondition, material risk, or rollback gap remains. If an external effect is uncertain, reconcile authoritative state before acting; do not retry or compensate merely to resolve that uncertainty. Continue independent authorized diagnosis, local repair, and tests while the affected external action is held.\n\n## Deliverable and finish\n\nFor diagnosis, return the supported cause or remaining hypotheses and the decisive observations. For an authorized repair, include the change, reproduction/regression results and any unresolved recovery boundary. A short bug can keep these in the response; use a durable hypothesis ledger when several attempts, an incident or a handoff need it. The historical durable elimination pattern is in [methods.md](references/methods.md); its single current hypothesis describes one intervention at a time, not a requirement to discard competing explanations. Finish at the requested diagnosis or verified repair boundary, or name the evidence/authority gap that prevents it.\n\nIf reproduction is unavailable, return the smallest fixture or observation needed to obtain it and stop the affected conclusion at unknown. Do not substitute urgency, a familiar symptom, or a successful restart for causal evidence.\n\nA diagnosis is a checkpoint when the user also requested an authorized local repair. Once the cause and rollback are sufficiently evidenced, apply the bounded fix and rerun the reproducer without requesting permission already supplied. Pause only for missing authority or material safety, rollback, or evidence risk.\n\nAn authorized local repair is not proof of production recovery. Record the actual\ntarget and observed effect; a passing mock, local test, or planned rollback cannot\nestablish what happened in an external system.\n\nExample: reproduce a stale-cache failure, patch the invalidation boundary, rerun cold/warm and recovery cases, and preserve the eliminated hypotheses with the repair receipt.\n",
+        "resources": [
+          {
+            "path": "skills/eternities-phoenix/references/methods.md",
+            "sha256": "aa9a1fefeb9e0ca5107f0b5fb3e3a97cf647c748b91922e3b3303c8bc90c8ebc"
+          },
+          {
+            "path": "skills/eternities-phoenix/references/reproducible-bug-packets.md",
+            "sha256": "74059bb30b6af5289b661e93deac1ca7cd9d89bbc4ad0362d8c01b39d7333120"
+          },
+          {
+            "path": "skills/eternities-phoenix/references/trace-to-evaluation-cases.md",
+            "sha256": "57fe450be2791fe0e697663b49df5c6ed1c22ea6f8a94d9efa84cead1d2e1560"
+          },
+          {
+            "path": "skills/eternities-phoenix/references/diagnostic-experiments-v2.md",
+            "sha256": "0e90cd104135546419a996f0d1c0acd1e57f21ecc5c463225f9d86e7adfec227"
+          }
+        ],
+        "guidance": "Read the complete entrypoint, check task fit, and open only needed references. Related IDs are suggestions; nothing is selected or activated."
+      }
+    },
+    {
+      "args": [
+        "search",
+        "Explain why our revenue fell last quarter and identify the next useful business action.",
+        "--limit",
+        "3"
+      ],
+      "result": {
+        "schema": "eternities-godskills-discovery-v1",
+        "authority": "none",
+        "activation": "none",
+        "method": "offline-lexical-intent-phrases-v4",
+        "query": "Explain why our revenue fell last quarter and identify the next useful business action.",
+        "results": [
+          {
+            "id": "eternities-prometheus",
+            "category": "business",
+            "entrypoint": "skills/eternities-prometheus/SKILL.md",
+            "entrypointSha256": "70d043541b328a6bfebd6cd75840aaca8ed94fc22cc10165d1be444f4662fc06",
+            "summary": "Route product-operations questions into evidence-led growth, analytics, customer insight, learning, planning, and delivery artifacts.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "plan",
+              "create",
+              "communicate"
+            ],
+            "antiTriggers": [
+              "outreach, pricing, or procurement execution without target and authority",
+              "private-data acquisition",
+              "regulated or legal judgment"
+            ],
+            "score": 89.566,
+            "reasons": [
+              "Matched: action, business, explain, revenue"
+            ],
+            "related": [
+              "eternities-agora",
+              "eternities-atlas",
+              "eternities-beacon",
+              "eternities-forge"
+            ]
+          },
+          {
+            "id": "product-discovery-and-prioritization",
+            "category": "business",
+            "entrypoint": "skills/product-discovery-and-prioritization/SKILL.md",
+            "entrypointSha256": "4470f2f92b284dad9a577105c8c751ebc3beb8f08bd8982e942149529ac7be24",
+            "summary": "Choose evidence-relevant product opportunities and feasible portfolios with prerequisite closure, remaining effort, scarce capacity, uncertainty, cheap tests, and honest roadmap commitments.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "plan",
+              "create",
+              "verify"
+            ],
+            "antiTriggers": [
+              "routine roadmap status update with no priority or feasibility decision",
+              "write acceptance criteria for an already selected feature",
+              "answer an individual support request",
+              "redesign a delivery process or meeting cadence without choosing product opportunities"
+            ],
+            "score": 26.592,
+            "reasons": [
+              "Matched: business, next"
+            ],
+            "related": [
+              "operating-cadence-and-decision-accountability",
+              "user-research-and-usability-study",
+              "venture-falsification-and-planning"
+            ],
+            "specializes": "eternities-prometheus"
+          },
+          {
+            "id": "cashflow-forecast-scenario-integrity",
+            "category": "finance",
+            "entrypoint": "skills/cashflow-forecast-scenario-integrity/SKILL.md",
+            "entrypointSha256": "d2b85835f46ac7aba103a43d5ee6eb9ccfe2970f3d17a690e8e9a01fa655a66e",
+            "summary": "Build time-bucketed cash forecasts with traceable settlement timing, explicit liquidity constraints and scenario changes tied to declared drivers.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify",
+              "research"
+            ],
+            "antiTriggers": [
+              "choose investments to guarantee my cash flow returns",
+              "execute a bank payment"
+            ],
+            "score": 24.26,
+            "reasons": [
+              "Matched: revenue"
+            ],
+            "related": [
+              "eternities-agora",
+              "financial-statement-reconciliation",
+              "formula-preserving-workbook-engineering"
+            ],
+            "specializes": "financial-statement-reconciliation"
+          }
+        ],
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        }
+      }
+    },
+    {
+      "args": [
+        "search",
+        "Make a WebGL particle portal I can orbit",
+        "--limit",
+        "3"
+      ],
+      "result": {
+        "schema": "eternities-godskills-discovery-v1",
+        "authority": "none",
+        "activation": "none",
+        "method": "offline-lexical-intent-phrases-v4",
+        "query": "Make a WebGL particle portal I can orbit",
+        "results": [
+          {
+            "id": "eternities-arcadia",
+            "category": "games",
+            "entrypoint": "skills/eternities-arcadia/SKILL.md",
+            "entrypointSha256": "ac0ef2950f34981c72dad4143ad3752b289d3f95877ee68aa464195c8818b282",
+            "summary": "Connect game direction, imported 3D assets, runtime systems, player experience, accessibility, performance, and human release evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify",
+              "create"
+            ],
+            "antiTriggers": [
+              "routine isolated code edit",
+              "asset generation without a design decision",
+              "store or commercial action without release authority",
+              "unsupported fun or release claim"
+            ],
+            "score": 54.05,
+            "reasons": [
+              "Matched: particle, webgl",
+              "Lexical intent: game or real-time 3D runtime scope; cues: game or technical 3D context, independent work action or reported fault"
+            ],
+            "related": [
+              "eternities-architect",
+              "eternities-daedalus",
+              "eternities-muse",
+              "eternities-orpheus"
+            ]
+          }
+        ],
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        }
+      }
+    },
+    {
+      "args": [
+        "search",
+        "Hidden tab resumes with a huge simulation delta and pressed keys stay stuck",
+        "--limit",
+        "3"
+      ],
+      "result": {
+        "schema": "eternities-godskills-discovery-v1",
+        "authority": "none",
+        "activation": "none",
+        "method": "offline-lexical-intent-phrases-v4",
+        "query": "Hidden tab resumes with a huge simulation delta and pressed keys stay stuck",
+        "results": [
+          {
+            "id": "eternities-arcadia",
+            "category": "games",
+            "entrypoint": "skills/eternities-arcadia/SKILL.md",
+            "entrypointSha256": "ac0ef2950f34981c72dad4143ad3752b289d3f95877ee68aa464195c8818b282",
+            "summary": "Connect game direction, imported 3D assets, runtime systems, player experience, accessibility, performance, and human release evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "plan",
+              "build",
+              "verify",
+              "create"
+            ],
+            "antiTriggers": [
+              "routine isolated code edit",
+              "asset generation without a design decision",
+              "store or commercial action without release authority",
+              "unsupported fun or release claim"
+            ],
+            "score": 147.278,
+            "reasons": [
+              "Matched: delta, hidden, keys, pressed, simulation, tab"
+            ],
+            "related": [
+              "eternities-architect",
+              "eternities-daedalus",
+              "eternities-muse",
+              "eternities-orpheus"
+            ]
+          },
+          {
+            "id": "eternities-atlas",
+            "category": "data",
+            "entrypoint": "skills/eternities-atlas/SKILL.md",
+            "entrypointSha256": "46b06bdd11e52ca6288b32bd720a77715035b5e77a2b52ba1b986a071df18700",
+            "summary": "Supplied tabular export reconciliation with column mapping, record deduplication, null semantics and row lineage. Build reproducible analytics, conditional connected-source evidence, finite trade-off frontiers, simulation-artifact handoffs, query planning, entity design and migration, synchronization, telemetry, experiment artifacts, and candidate eligibility, time-bound scorer revisions, and observed outcomes; the new extension remains DRAFT.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "research",
+              "plan",
+              "build",
+              "verify"
+            ],
+            "antiTriggers": [
+              "production mutation without migration and rollback evidence",
+              "credential handling",
+              "unverified live-system reconciliation"
+            ],
+            "score": 28.034,
+            "reasons": [
+              "Matched: simulation"
+            ],
+            "related": [
+              "eternities-aegis",
+              "eternities-architect",
+              "eternities-daedalus",
+              "eternities-prometheus",
+              "experiment-artifact-lineage",
+              "geospatial-coordinate-integrity"
+            ]
+          },
+          {
+            "id": "robotics-test-ladder",
+            "category": "engineering",
+            "entrypoint": "skills/robotics-test-ladder/SKILL.md",
+            "entrypointSha256": "e316f375d1ded3f3f8d44b60739eab1f503f0fe338d41720f49d972c79261600",
+            "summary": "Build a staged robotics verification ladder from deterministic unit and property checks through replay, simulation, HIL, and field evidence.",
+            "maturity": "instruction-reviewed",
+            "taskTypes": [
+              "build",
+              "verify",
+              "plan"
+            ],
+            "antiTriggers": [
+              "Treat unit, simulation, or authored fixture results as field or hardware certification.",
+              "Use fixed sleeps instead of event-driven bounded waits.",
+              "Run physical or field tests without an explicit safety and run scope."
+            ],
+            "score": 28.034,
+            "reasons": [
+              "Matched: simulation"
+            ],
+            "related": [
+              "bounded-parametric-design-iteration",
+              "eternities-aegis",
+              "eternities-athena",
+              "eternities-daedalus",
+              "invariant-guard",
+              "physics-constrained-numerical-validation"
+            ],
+            "specializes": "eternities-daedalus"
+          }
+        ],
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        }
+      }
+    },
+    {
+      "args": [
+        "search",
+        "design a company operating cadence",
+        "--need",
+        "none"
+      ],
+      "result": {
+        "schema": "eternities-godskills-discovery-v1",
+        "authority": "none",
+        "activation": "none",
+        "method": "offline-lexical-intent-phrases-v4",
+        "query": "design a company operating cadence",
+        "results": [],
+        "abstentionReason": "host-supplied-no-need",
+        "selection": {
+          "state": "abstain",
+          "basis": "host-supplied-no-need"
+        }
+      }
+    }
+  ]
+}

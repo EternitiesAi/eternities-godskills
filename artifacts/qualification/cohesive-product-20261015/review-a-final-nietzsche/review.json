@@ -1,0 +1,23 @@
+{
+  "disposition": "READY",
+  "scope": "Final A-R2-B closure on fixed 27-case set; seven A bodies and original routes retain prior bounded acceptance at unchanged hashes",
+  "closedFinding": "A-R2-B",
+  "beaconSha256": "64b3dbde0cfd6f0d658d4baa125f1920b54723ed6911ad42bdb087d40d6cc303",
+  "baseline27ReproducedExactly": true,
+  "beaconRanks": [
+    2,
+    1
+  ],
+  "other25OwnerRanksUnchanged": true,
+  "previousHostNeedNoneChecksPassed": 6,
+  "binding": "final-bind.json",
+  "aFiles": 21,
+  "runnerFiles": 2,
+  "runnerScope": "Prior independent red/green acceptance retained at identical two file hashes; no harness rerun",
+  "bodyReaudit": false,
+  "newCases": 0,
+  "productWrites": false,
+  "v3Writes": false,
+  "remainingDefects": [],
+  "limits": "D substantive acceptance remains Laplace; broader Arcadia behavior remains Avicenna; final combined C routing and release gate remain parent-owned."
+}

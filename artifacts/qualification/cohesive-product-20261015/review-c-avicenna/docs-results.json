@@ -1,0 +1,1018 @@
+{
+  "schema": "review-c-avicenna-docs-v1",
+  "base": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+  "baselineReadmeSha256": "24711aa37185c137af600e66e2e253a02cd581148fb937e5d2e3363f72307bfc",
+  "archiveBodyPreserved": false,
+  "onlyTrailingWhitespaceDifference": true,
+  "difference": {
+    "firstDifference": 25592,
+    "baselineLength": 25592,
+    "archiveLength": 25593,
+    "baselineContext": "n means usable, bounded, honestly qualified capabilities,\nnot an arbitrary skill count or endless certificate sequence.\n",
+    "archiveContext": "n means usable, bounded, honestly qualified capabilities,\nnot an arbitrary skill count or endless certificate sequence.\n\n"
+  },
+  "normalization": "CRLF to LF and resolving Markdown link destinations; added historical header excluded",
+  "sources": [
+    {
+      "path": "README.md",
+      "sha256": "92a52a5cceafe412f98f5c6d5ebdec881d2c37269d1d6ada85561dede858b05f"
+    },
+    {
+      "path": "product/README.md",
+      "sha256": "792aeb93acb283a0d7698f4f7223da61759aa4239b547fe60a5d103d3521a8e2"
+    },
+    {
+      "path": "docs/history/README-before-cohesive-20261015.md",
+      "sha256": "63ee92cd35cdd9d6ccc9f9bdabd782d743b8df9dfc2f83fdb5bdc96138c71a9b"
+    },
+    {
+      "path": "docs/audits/2026-09-06-product-state.md",
+      "sha256": "c64b0aa021923c6a1ffb936011eea43a6aea81d95b00a33bc1591aeb34d0191e"
+    },
+    {
+      "path": "product/START-HERE.md",
+      "sha256": "900b5b72fad4fdda396665218530d1caba050ccc23d20d72b8486f638ef797f8"
+    },
+    {
+      "path": "product/INDEX.md",
+      "sha256": "f0c9e65674673d21c1d46288dd5c1d02aaa3237423b63951cff5990c2861936e"
+    },
+    {
+      "path": "product/DISCOVERY.md",
+      "sha256": "3ce1104a5ff4938570d3cb450c8ed83c26b5b7a88d0c9842e1dc3dc91a363a79"
+    }
+  ],
+  "results": [
+    {
+      "path": "README.md",
+      "count": 16,
+      "issues": [],
+      "observations": [
+        {
+          "link": "artifacts/releases/godskills-product-20261014-16933f10.zip",
+          "target": "artifacts/releases/godskills-product-20261014-16933f10.zip",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "artifacts/releases/godskills-product-20261014-16933f10.zip.sha256",
+          "target": "artifacts/releases/godskills-product-20261014-16933f10.zip.sha256",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "product/README.md",
+          "target": "product/README.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "product/START-HERE.md",
+          "target": "product/START-HERE.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "product/README.md#install-into-an-agents-skill-directory",
+          "target": "product/README.md",
+          "present": true,
+          "anchor": true
+        },
+        {
+          "link": "product/HOST-CAPABILITIES.md",
+          "target": "product/HOST-CAPABILITIES.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "product/START-HERE.md",
+          "target": "product/START-HERE.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "product/INDEX.md",
+          "target": "product/INDEX.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "product/RECIPES.md",
+          "target": "product/RECIPES.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "docs/realtime-asset-refinement-20261014.md",
+          "target": "docs/realtime-asset-refinement-20261014.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "product/CORPUS-SCOPE.md",
+          "target": "product/CORPUS-SCOPE.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "docs/cohesive-product-20261015-plan.md",
+          "target": "docs/cohesive-product-20261015-plan.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "product/README.md",
+          "target": "product/README.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "product/DISCOVERY.md",
+          "target": "product/DISCOVERY.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "docs/product-direction-20261013.md",
+          "target": "docs/product-direction-20261013.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "docs/history/README-before-cohesive-20261015.md",
+          "target": "docs/history/README-before-cohesive-20261015.md",
+          "present": true,
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "path": "docs/history/README-before-cohesive-20261015.md",
+      "count": 116,
+      "issues": [],
+      "observations": [
+        {
+          "link": "../../README.md",
+          "target": "README.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../product/README.md",
+          "target": "product/README.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261014-16933f10.zip",
+          "target": "artifacts/releases/godskills-product-20261014-16933f10.zip",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261014-16933f10.zip.sha256",
+          "target": "artifacts/releases/godskills-product-20261014-16933f10.zip.sha256",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../product/README.md",
+          "target": "product/README.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../product/START-HERE.md",
+          "target": "product/START-HERE.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../product/README.md#hand-the-pack-to-another-computer",
+          "target": "product/README.md",
+          "present": true,
+          "anchor": true
+        },
+        {
+          "link": "../../docs/realtime-asset-refinement-20261014.md",
+          "target": "docs/realtime-asset-refinement-20261014.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../product/skills/eternities-arcadia/references/realtime-asset-integration.md",
+          "target": "product/skills/eternities-arcadia/references/realtime-asset-integration.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/product-direction-20261013.md",
+          "target": "docs/product-direction-20261013.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/atlas-supplied-data-release-20261013.md",
+          "target": "docs/atlas-supplied-data-release-20261013.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261013-6c8330b3.zip",
+          "target": "artifacts/releases/godskills-product-20261013-6c8330b3.zip",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261013-6c8330b3.zip.sha256",
+          "target": "artifacts/releases/godskills-product-20261013-6c8330b3.zip.sha256",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/product-navigation-release-20261013.md",
+          "target": "docs/product-navigation-release-20261013.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261013-898ed912.zip",
+          "target": "artifacts/releases/godskills-product-20261013-898ed912.zip",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261013-898ed912.zip.sha256",
+          "target": "artifacts/releases/godskills-product-20261013-898ed912.zip.sha256",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/api-vendor-release-20261013.md",
+          "target": "docs/api-vendor-release-20261013.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261013-27152ee2.zip",
+          "target": "artifacts/releases/godskills-product-20261013-27152ee2.zip",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261013-27152ee2.zip.sha256",
+          "target": "artifacts/releases/godskills-product-20261013-27152ee2.zip.sha256",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261002-f6d71194.zip",
+          "target": "artifacts/releases/godskills-product-20261002-f6d71194.zip",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261002-f6d71194.zip.sha256",
+          "target": "artifacts/releases/godskills-product-20261002-f6d71194.zip.sha256",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../product/METHODS.v1.md",
+          "target": "product/METHODS.v1.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/product-release-20261002-finalization.md",
+          "target": "docs/product-release-20261002-finalization.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/product-quality-qualification-20261003.md",
+          "target": "docs/product-quality-qualification-20261003.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261003-cc43b993.zip",
+          "target": "artifacts/releases/godskills-product-20261003-cc43b993.zip",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261003-cc43b993.zip.sha256",
+          "target": "artifacts/releases/godskills-product-20261003-cc43b993.zip.sha256",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/godskills-professional-gap-release-20261003.md",
+          "target": "docs/godskills-professional-gap-release-20261003.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/godskills-professional-gap-installation-20261003.md",
+          "target": "docs/godskills-professional-gap-installation-20261003.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/product-configuration-discovery-refinement-20261003.md",
+          "target": "docs/product-configuration-discovery-refinement-20261003.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261003-d6e1ba88.zip",
+          "target": "artifacts/releases/godskills-product-20261003-d6e1ba88.zip",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261003-d6e1ba88.zip.sha256",
+          "target": "artifacts/releases/godskills-product-20261003-d6e1ba88.zip.sha256",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/product-configuration-discovery-installation-20261003.md",
+          "target": "docs/product-configuration-discovery-installation-20261003.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/product-research-proposal-refinement-20261003.md",
+          "target": "docs/product-research-proposal-refinement-20261003.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/product-research-proposal-deployment-20261004.md",
+          "target": "docs/product-research-proposal-deployment-20261004.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261003-6c36ebcd.zip",
+          "target": "artifacts/releases/godskills-product-20261003-6c36ebcd.zip",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/educational-microsimulation-refinement-20261004.md",
+          "target": "docs/educational-microsimulation-refinement-20261004.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261004-4520db08.zip",
+          "target": "artifacts/releases/godskills-product-20261004-4520db08.zip",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261004-4520db08.zip.sha256",
+          "target": "artifacts/releases/godskills-product-20261004-4520db08.zip.sha256",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/microsimulation-method-20261004/application-v2/README.md",
+          "target": "artifacts/microsimulation-method-20261004/application-v2/README.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/conditional-study-synthesis-refinement-20261004.md",
+          "target": "docs/conditional-study-synthesis-refinement-20261004.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261004-5755594f.zip",
+          "target": "artifacts/releases/godskills-product-20261004-5755594f.zip",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261004-5755594f.zip.sha256",
+          "target": "artifacts/releases/godskills-product-20261004-5755594f.zip.sha256",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/conditional-study-synthesis-installation-20261004.md",
+          "target": "docs/conditional-study-synthesis-installation-20261004.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/conditional-learning-research-refinement-20261004.md",
+          "target": "docs/conditional-learning-research-refinement-20261004.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261004-a9a64ce0.zip",
+          "target": "artifacts/releases/godskills-product-20261004-a9a64ce0.zip",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261004-a9a64ce0.zip.sha256",
+          "target": "artifacts/releases/godskills-product-20261004-a9a64ce0.zip.sha256",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/conditional-learning-research-installation-20261004.md",
+          "target": "docs/conditional-learning-research-installation-20261004.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/learner-request-discovery-upgrade-20261004.md",
+          "target": "docs/learner-request-discovery-upgrade-20261004.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261004-b3939c86.zip",
+          "target": "artifacts/releases/godskills-product-20261004-b3939c86.zip",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261004-b3939c86.zip.sha256",
+          "target": "artifacts/releases/godskills-product-20261004-b3939c86.zip.sha256",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/learner-request-discovery-installation-20261004.md",
+          "target": "docs/learner-request-discovery-installation-20261004.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/current-pack-refinement-20261004.md",
+          "target": "docs/current-pack-refinement-20261004.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261004-f186d19e.zip",
+          "target": "artifacts/releases/godskills-product-20261004-f186d19e.zip",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261004-f186d19e.zip.sha256",
+          "target": "artifacts/releases/godskills-product-20261004-f186d19e.zip.sha256",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../product/DISCOVERY.md",
+          "target": "product/DISCOVERY.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/current-pack-refinement-installation-20261004.md",
+          "target": "docs/current-pack-refinement-installation-20261004.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/next-eight-godskills-20261004.md",
+          "target": "docs/next-eight-godskills-20261004.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261004-add50d29.zip",
+          "target": "artifacts/releases/godskills-product-20261004-add50d29.zip",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261004-add50d29.zip.sha256",
+          "target": "artifacts/releases/godskills-product-20261004-add50d29.zip.sha256",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/next-eight-godskills-installation-20261004.md",
+          "target": "docs/next-eight-godskills-installation-20261004.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/motion-video-methods-20261013.md",
+          "target": "docs/motion-video-methods-20261013.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261013-87654db5.zip",
+          "target": "artifacts/releases/godskills-product-20261013-87654db5.zip",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261013-87654db5.zip.sha256",
+          "target": "artifacts/releases/godskills-product-20261013-87654db5.zip.sha256",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/motion-video-installation-20261013.md",
+          "target": "docs/motion-video-installation-20261013.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/workflow-product-knowledge-methods-20261013.md",
+          "target": "docs/workflow-product-knowledge-methods-20261013.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261013-213c0d21.zip",
+          "target": "artifacts/releases/godskills-product-20261013-213c0d21.zip",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/releases/godskills-product-20261013-213c0d21.zip.sha256",
+          "target": "artifacts/releases/godskills-product-20261013-213c0d21.zip.sha256",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/workflow-product-knowledge-installation-20261013.md",
+          "target": "docs/workflow-product-knowledge-installation-20261013.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../product/README.md",
+          "target": "product/README.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../product/INDEX.md",
+          "target": "product/INDEX.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../product/RECIPES.md",
+          "target": "product/RECIPES.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../product/CORPUS-SCOPE.md",
+          "target": "product/CORPUS-SCOPE.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/universal-evidence-correction.md",
+          "target": "docs/universal-evidence-correction.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/universal-intake-distillation-wave-8.md",
+          "target": "docs/universal-intake-distillation-wave-8.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/universal-intake-distillation-wave-7.md",
+          "target": "docs/universal-intake-distillation-wave-7.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/universal-intake-distillation-wave-6.md",
+          "target": "docs/universal-intake-distillation-wave-6.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/universal-intake-distillation-wave-5.md",
+          "target": "docs/universal-intake-distillation-wave-5.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/universal-intake-distillation-wave-4.md",
+          "target": "docs/universal-intake-distillation-wave-4.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/universal-refinement-family-workplan.md",
+          "target": "docs/universal-refinement-family-workplan.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/product-core-20261002-publication-installation.md",
+          "target": "docs/product-core-20261002-publication-installation.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/universal-product-v1-closeout.md",
+          "target": "docs/universal-product-v1-closeout.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/quarry-intakes/2026-09-21-catalog801.md",
+          "target": "docs/quarry-intakes/2026-09-21-catalog801.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/catalog801-continuation-20260922/README.md",
+          "target": "artifacts/catalog801-continuation-20260922/README.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/catalog801-paced-continuation-20260922/RESULTS.md",
+          "target": "artifacts/catalog801-paced-continuation-20260922/RESULTS.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/catalog801-continuations/README.md",
+          "target": "artifacts/catalog801-continuations/README.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/universal-product-v1/wave9-agent-workflows/parent-disposition.md",
+          "target": "artifacts/universal-product-v1/wave9-agent-workflows/parent-disposition.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/universal-product-v1/wave9-agent-workflows/overhead-pilot/RESULTS.md",
+          "target": "artifacts/universal-product-v1/wave9-agent-workflows/overhead-pilot/RESULTS.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/universal-product-v1/wave9-agent-workflows/maintenance-pilot/RESULTS.md",
+          "target": "artifacts/universal-product-v1/wave9-agent-workflows/maintenance-pilot/RESULTS.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/catalog-status.md",
+          "target": "docs/catalog-status.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/catalog801-continuation-20260922-b/RESULTS.md",
+          "target": "artifacts/catalog801-continuation-20260922-b/RESULTS.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../artifacts/universal-product-v1/wave10-knowledge/author-report.md",
+          "target": "artifacts/universal-product-v1/wave10-knowledge/author-report.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/jev-advisory-selection-v1.md",
+          "target": "docs/jev-advisory-selection-v1.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/skill-discovery-facets-v2-plan.md",
+          "target": "docs/skill-discovery-facets-v2-plan.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/quarry-intakes/2026-09-20-web.md",
+          "target": "docs/quarry-intakes/2026-09-20-web.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/quarry-intakes/2026-09-20-categories.md",
+          "target": "docs/quarry-intakes/2026-09-20-categories.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/audits/2026-09-06-product-state.md",
+          "target": "docs/audits/2026-09-06-product-state.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/audits/2026-09-08-incident-refinement-closeout.md",
+          "target": "docs/audits/2026-09-08-incident-refinement-closeout.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/capability-directory.md",
+          "target": "docs/capability-directory.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/superpowers/specs/2026-09-06-godskills-v1-completion.md",
+          "target": "docs/superpowers/specs/2026-09-06-godskills-v1-completion.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/superpowers/plans/2026-09-06-capability-directory-v1.md",
+          "target": "docs/superpowers/plans/2026-09-06-capability-directory-v1.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/history/README-before-2026-09-06.md",
+          "target": "docs/history/README-before-2026-09-06.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/capability-directory.md",
+          "target": "docs/capability-directory.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/intent-compiler.md",
+          "target": "docs/intent-compiler.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../runtime/agent-router.md",
+          "target": "runtime/agent-router.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/audits/2026-09-06-product-state.md#discovery-defects",
+          "target": "docs/audits/2026-09-06-product-state.md",
+          "present": true,
+          "anchor": true
+        },
+        {
+          "link": "../../runtime/godskill-package-v1.md",
+          "target": "runtime/godskill-package-v1.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/quarry-intakes/2026-09-20-jev.md",
+          "target": "docs/quarry-intakes/2026-09-20-jev.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/quarry-intakes/2026-09-20.md",
+          "target": "docs/quarry-intakes/2026-09-20.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/quarry-intakes/2026-09-17.md",
+          "target": "docs/quarry-intakes/2026-09-17.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/quarry-intakes/2026-09-13.md",
+          "target": "docs/quarry-intakes/2026-09-13.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/quarry-intakes/2026-09-07.md",
+          "target": "docs/quarry-intakes/2026-09-07.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/adaptive-amplification-report.md",
+          "target": "docs/adaptive-amplification-report.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/adaptive-evidence-v2-report.md",
+          "target": "docs/adaptive-evidence-v2-report.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/adaptive-evaluator-aegis-v2-shadow-report.md",
+          "target": "docs/adaptive-evaluator-aegis-v2-shadow-report.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/adaptive-evidence-portfolio-v1-report.md",
+          "target": "docs/adaptive-evidence-portfolio-v1-report.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "../../docs/universal-capability-construction-report.md",
+          "target": "docs/universal-capability-construction-report.md",
+          "present": true,
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "path": "product/START-HERE.md",
+      "count": 24,
+      "issues": [],
+      "observations": [
+        {
+          "link": "INDEX.md",
+          "target": "product/INDEX.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "INDEX.md#engineering",
+          "target": "product/INDEX.md",
+          "present": true,
+          "anchor": true
+        },
+        {
+          "link": "INDEX.md#automation",
+          "target": "product/INDEX.md",
+          "present": true,
+          "anchor": true
+        },
+        {
+          "link": "INDEX.md#release",
+          "target": "product/INDEX.md",
+          "present": true,
+          "anchor": true
+        },
+        {
+          "link": "INDEX.md#security",
+          "target": "product/INDEX.md",
+          "present": true,
+          "anchor": true
+        },
+        {
+          "link": "INDEX.md#business",
+          "target": "product/INDEX.md",
+          "present": true,
+          "anchor": true
+        },
+        {
+          "link": "INDEX.md#finance",
+          "target": "product/INDEX.md",
+          "present": true,
+          "anchor": true
+        },
+        {
+          "link": "INDEX.md#marketing",
+          "target": "product/INDEX.md",
+          "present": true,
+          "anchor": true
+        },
+        {
+          "link": "INDEX.md#legal",
+          "target": "product/INDEX.md",
+          "present": true,
+          "anchor": true
+        },
+        {
+          "link": "INDEX.md#design",
+          "target": "product/INDEX.md",
+          "present": true,
+          "anchor": true
+        },
+        {
+          "link": "INDEX.md#games",
+          "target": "product/INDEX.md",
+          "present": true,
+          "anchor": true
+        },
+        {
+          "link": "INDEX.md#audio",
+          "target": "product/INDEX.md",
+          "present": true,
+          "anchor": true
+        },
+        {
+          "link": "INDEX.md#writing",
+          "target": "product/INDEX.md",
+          "present": true,
+          "anchor": true
+        },
+        {
+          "link": "INDEX.md#social",
+          "target": "product/INDEX.md",
+          "present": true,
+          "anchor": true
+        },
+        {
+          "link": "INDEX.md#research",
+          "target": "product/INDEX.md",
+          "present": true,
+          "anchor": true
+        },
+        {
+          "link": "INDEX.md#science",
+          "target": "product/INDEX.md",
+          "present": true,
+          "anchor": true
+        },
+        {
+          "link": "INDEX.md#data",
+          "target": "product/INDEX.md",
+          "present": true,
+          "anchor": true
+        },
+        {
+          "link": "INDEX.md#models",
+          "target": "product/INDEX.md",
+          "present": true,
+          "anchor": true
+        },
+        {
+          "link": "INDEX.md#education",
+          "target": "product/INDEX.md",
+          "present": true,
+          "anchor": true
+        },
+        {
+          "link": "INDEX.md#agriculture",
+          "target": "product/INDEX.md",
+          "present": true,
+          "anchor": true
+        },
+        {
+          "link": "INDEX.md#memory",
+          "target": "product/INDEX.md",
+          "present": true,
+          "anchor": true
+        },
+        {
+          "link": "INDEX.md#agent-workflows",
+          "target": "product/INDEX.md",
+          "present": true,
+          "anchor": true
+        },
+        {
+          "link": "RECIPES.md",
+          "target": "product/RECIPES.md",
+          "present": true,
+          "anchor": null
+        },
+        {
+          "link": "README.md",
+          "target": "product/README.md",
+          "present": true,
+          "anchor": null
+        }
+      ]
+    },
+    {
+      "path": "product/DISCOVERY.md",
+      "count": 1,
+      "issues": [],
+      "observations": [
+        {
+          "link": "METHODS.v1.md",
+          "target": "product/METHODS.v1.md",
+          "present": true,
+          "anchor": null
+        }
+      ]
+    }
+  ],
+  "scope": "Local file existence and explicit heading anchors only; no network links or release ZIP contents checked."
+}

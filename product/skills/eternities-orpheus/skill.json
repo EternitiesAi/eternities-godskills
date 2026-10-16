@@ -8,7 +8,9 @@
     "speaker alignment",
     "caption timing",
     "media timeline",
-    "audio review packet"
+    "audio review packet",
+    "edit and mix supplied podcast narration dialogue with music masking and pause pacing",
+    "speech intelligibility editorial timing and encoded audio delivery checks"
   ],
   "antiTriggers": [
     "biometric inference",
@@ -30,10 +32,16 @@
     "portable-speech-chunk-alignment"
   ],
   "resources": [
+    "references/supplied-audio-editorial-mix-v1.md",
     "references/methods.md"
   ],
   "maturity": "instruction-reviewed",
   "provenance": [
+    {
+      "kind": "authoring",
+      "source": "artifacts/qualification/cohesive-product-20261015/lane-a/ledger.json",
+      "note": "Original conditional addition references/supplied-audio-editorial-mix-v1.md and its entrypoint routing were independently authored for the cohesion release. Prior reviews do not apply to changed bytes; release review is recorded separately. No new source-rights clearance, runtime result or performance claim."
+    },
     {
       "kind": "source",
       "source": "skills/eternities-orpheus/SKILL.md",

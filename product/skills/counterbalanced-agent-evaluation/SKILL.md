@@ -18,6 +18,14 @@ resource limits, and the decision the result could support. Choose a bounded
 sample of representative, difficult and negative cases. Specify which failures
 cannot be compensated for by a better average score.
 
+Choose the experiment size from the decision. A local smoke comparison can
+expose a broken candidate before spending on a wider run; label its cases as
+development checks. For a comparative conclusion, use untouched tasks and a
+matched baseline. Reuse existing outputs only when their task, context and
+execution conditions are known; otherwise they are examples, not a controlled
+arm. One compact table can hold the comparison; a new evaluation platform is
+not a prerequisite.
+
 Keep development examples separate from held-out evaluation tasks. Do not let a
 builder write expected answers for its own output and call that independent
 validation. Criteria may be public; concealed answer keys must not leak into a
@@ -54,6 +62,17 @@ Report task-level results, regressions, missing outcomes and practical effect
 size. State the denominator and uncertainty. Repeated outputs from the same task
 are not automatically independent tasks. Do not turn one attractive demo into
 evidence that a system is superior across professions.
+
+Pair baseline and candidate by task, then compare within each pair. When a task
+has repeated runs, summarize those runs using the predeclared rule before
+combining tasks, or use an analysis that accounts for clustering by task. Do not
+let an easy task with many retries outweigh a difficult task with one attempt.
+For binary completion, report both succeeded, candidate-only success,
+baseline-only success and neither succeeded; show invalid or missing outcomes
+separately. Apply the predeclared failure rule to valid timeouts and exhausted
+runs rather than dropping them. For graded results, show per-task paired deltas
+and uncertainty appropriate to the number of independent tasks. A tiny sample
+can expose a regression without supporting a population-wide gain.
 
 Track wall time, tool calls, retries, input/output usage when observable, actual
 charges when available, and human correction effort. Unknown cost is unknown,

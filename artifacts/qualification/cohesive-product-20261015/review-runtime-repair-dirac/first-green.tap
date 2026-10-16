@@ -1,0 +1,238 @@
+TAP version 13
+# Subtest: runtime repair retains supported technical work: Hidden tab resumes with a huge simulation delta and pressed keys stay stuck
+ok 1 - runtime repair retains supported technical work: Hidden tab resumes with a huge simulation delta and pressed keys stay stuck
+  ---
+  duration_ms: 11.6007
+  type: 'test'
+  ...
+# Subtest: runtime repair retains supported technical work: When browser focus returns, the simulation advances too far and held input remains active
+ok 2 - runtime repair retains supported technical work: When browser focus returns, the simulation advances too far and held input remains active
+  ---
+  duration_ms: 3.1573
+  type: 'test'
+  ...
+# Subtest: runtime repair retains supported technical work: Repair pointer input after page visibility changes interrupt the animation
+ok 3 - runtime repair retains supported technical work: Repair pointer input after page visibility changes interrupt the animation
+  ---
+  duration_ms: 4.0175
+  type: 'test'
+  ...
+# Subtest: runtime repair retains supported technical work: Fix the shader and rotation handles in the exhibit's existing interactive crystal scene; the educator's prompts and all explanatory rules must stay exactly as they are.
+ok 4 - runtime repair retains supported technical work: Fix the shader and rotation handles in the exhibit's existing interactive crystal scene; the educator's prompts and all explanatory rules must stay exactly as they are.
+  ---
+  duration_ms: 3.4468
+  type: 'test'
+  ...
+# Subtest: runtime repair retains supported technical work: Debug the fragment shader in an interactive scene
+ok 5 - runtime repair retains supported technical work: Debug the fragment shader in an interactive scene
+  ---
+  duration_ms: 2.3644
+  type: 'test'
+  ...
+# Subtest: runtime repair preserves exclusion: Summarize this browser tab newsletter
+ok 6 - runtime repair preserves exclusion: Summarize this browser tab newsletter
+  ---
+  duration_ms: 2.6748
+  type: 'test'
+  ...
+# Subtest: runtime repair preserves exclusion: Explain how the simulated policy changes affect retention
+ok 7 - runtime repair preserves exclusion: Explain how the simulated policy changes affect retention
+  ---
+  duration_ms: 2.5498
+  type: 'test'
+  ...
+# Subtest: runtime repair preserves exclusion: Price GPU hardware for a shader workstation
+ok 8 - runtime repair preserves exclusion: Price GPU hardware for a shader workstation
+  ---
+  duration_ms: 2.4439
+  type: 'test'
+  ...
+# Subtest: runtime repair preserves exclusion: Extract redistribution clauses from a shader license
+ok 9 - runtime repair preserves exclusion: Extract redistribution clauses from a shader license
+  ---
+  duration_ms: 2.2944
+  type: 'test'
+  ...
+# Subtest: runtime repair preserves exclusion: Do not repair the browser simulation; write only a postponement notice
+ok 10 - runtime repair preserves exclusion: Do not repair the browser simulation; write only a postponement notice
+  ---
+  duration_ms: 2.7141
+  type: 'test'
+  ...
+# Subtest: runtime repair preserves exclusion: The report quotes "Hidden tab resumes with a huge simulation delta and pressed keys stay stuck"; write a postponement notice
+ok 11 - runtime repair preserves exclusion: The report quotes "Hidden tab resumes with a huge simulation delta and pressed keys stay stuck"; write a postponement notice
+  ---
+  duration_ms: 3.1628
+  type: 'test'
+  ...
+# Subtest: a browser lifecycle topic does not manufacture independent work evidence
+ok 12 - a browser lifecycle topic does not manufacture independent work evidence
+  ---
+  duration_ms: 0.608
+  type: 'test'
+  ...
+# Subtest: runtime recall respects host need, filters, and literal anti-triggers
+ok 13 - runtime recall respects host need, filters, and literal anti-triggers
+  ---
+  duration_ms: 6.3277
+  type: 'test'
+  ...
+# Subtest: current causal evidence owner precedes incidental interatomic and serving matches
+ok 14 - current causal evidence owner precedes incidental interatomic and serving matches
+  ---
+  duration_ms: 2.8563
+  type: 'test'
+  ...
+# Subtest: material-specific validation still discovers the interatomic owner
+ok 15 - material-specific validation still discovers the interatomic owner
+  ---
+  duration_ms: 2.7275
+  type: 'test'
+  ...
+# Subtest: browser lifecycle discovery reaches the game owner: Fix canvas resize pointer coordinates and duplicate animation loops
+ok 16 - browser lifecycle discovery reaches the game owner: Fix canvas resize pointer coordinates and duplicate animation loops
+  ---
+  duration_ms: 11.8485
+  type: 'test'
+  ...
+# Subtest: browser lifecycle discovery reaches the game owner: Hidden tab resumes with a huge simulation delta and pressed keys stay stuck
+ok 17 - browser lifecycle discovery reaches the game owner: Hidden tab resumes with a huge simulation delta and pressed keys stay stuck
+  ---
+  duration_ms: 6.0519
+  type: 'test'
+  ...
+# Subtest: wave7 conditional reference is discoverable: eternities-chorus
+ok 18 - wave7 conditional reference is discoverable: eternities-chorus
+  ---
+  duration_ms: 7.5256
+  type: 'test'
+  ...
+# Subtest: wave7 conditional reference is discoverable: eternities-agora
+ok 19 - wave7 conditional reference is discoverable: eternities-agora
+  ---
+  duration_ms: 7.5429
+  type: 'test'
+  ...
+# Subtest: a request-level serving trace stays discoverable in direct and paraphrased forms
+ok 20 - a request-level serving trace stays discoverable in direct and paraphrased forms
+  ---
+  duration_ms: 17.9796
+  type: 'test'
+  ...
+# Subtest: Atlas metadata does not displace delivery, offline-validation, schema, causal, or prospect routes
+ok 21 - Atlas metadata does not displace delivery, offline-validation, schema, causal, or prospect routes
+  ---
+  duration_ms: 18.7642
+  type: 'test'
+  ...
+# Subtest: the v2 lexical repair adds no owner-specific anti-trigger exceptions
+ok 22 - the v2 lexical repair adds no owner-specific anti-trigger exceptions
+  ---
+  duration_ms: 1.8561
+  type: 'test'
+  ...
+# Subtest: serving-time trace keeps its historical-version paraphrase discoverable
+ok 23 - serving-time trace keeps its historical-version paraphrase discoverable
+  ---
+  duration_ms: 11.0494
+  type: 'test'
+  ...
+# Subtest: notification delivery reconciliation remains with Daedalus
+ok 24 - notification delivery reconciliation remains with Daedalus
+  ---
+  duration_ms: 4.0577
+  type: 'test'
+  ...
+# Subtest: offline recommendation model generalization remains with the scientific validator
+ok 25 - offline recommendation model generalization remains with the scientific validator
+  ---
+  duration_ms: 4.0932
+  type: 'test'
+  ...
+# Subtest: an offline grouped holdout without a serving trace does not promote Atlas
+ok 26 - an offline grouped holdout without a serving trace does not promote Atlas
+  ---
+  duration_ms: 4.5447
+  type: 'test'
+  ...
+# Subtest: the prospect paraphrase does not promote Atlas over the existing route
+ok 27 - the prospect paraphrase does not promote Atlas over the existing route
+  ---
+  duration_ms: 3.5293
+  type: 'test'
+  ...
+# Subtest: the current prospect-assessment wording routes to Agora
+ok 28 - the current prospect-assessment wording routes to Agora
+  ---
+  duration_ms: 3.2003
+  type: 'test'
+  ...
+# Subtest: schema-only validation remains with structured-output-contracts
+ok 29 - schema-only validation remains with structured-output-contracts
+  ---
+  duration_ms: 2.671
+  type: 'test'
+  ...
+# Subtest: aggregate causal appraisal does not promote Atlas over the evidence owners
+ok 30 - aggregate causal appraisal does not promote Atlas over the evidence owners
+  ---
+  duration_ms: 3.2774
+  type: 'test'
+  ...
+# Subtest: aggregate feed analytics remains an Atlas parent route
+ok 31 - aggregate feed analytics remains an Atlas parent route
+  ---
+  duration_ms: 2.9755
+  type: 'test'
+  ...
+# Subtest: aggregate precommitted experiment design remains an Atlas parent route
+ok 32 - aggregate precommitted experiment design remains an Atlas parent route
+  ---
+  duration_ms: 2.8545
+  type: 'test'
+  ...
+# Subtest: search reranking remains with retrieval-grounded answering
+ok 33 - search reranking remains with retrieval-grounded answering
+  ---
+  duration_ms: 2.6924
+  type: 'test'
+  ...
+# Subtest: external app-store placement remains with its discovery owner
+ok 34 - external app-store placement remains with its discovery owner
+  ---
+  duration_ms: 2.7255
+  type: 'test'
+  ...
+# Subtest: physics-constrained numerical validation remains with its specialist
+ok 35 - physics-constrained numerical validation remains with its specialist
+  ---
+  duration_ms: 2.4792
+  type: 'test'
+  ...
+# Subtest: private-log lookup remains approval-bound with no authority or activation
+ok 36 - private-log lookup remains approval-bound with no authority or activation
+  ---
+  duration_ms: 4.8096
+  type: 'test'
+  ...
+# Subtest: Athena retains the direct causal-appraisal route
+ok 37 - Athena retains the direct causal-appraisal route
+  ---
+  duration_ms: 2.15
+  type: 'test'
+  ...
+# Subtest: the Atlas search summary exposes the method DRAFT without changing parent maturity
+ok 38 - the Atlas search summary exposes the method DRAFT without changing parent maturity
+  ---
+  duration_ms: 2.7713
+  type: 'test'
+  ...
+1..38
+# tests 38
+# suites 0
+# pass 38
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 138.6758

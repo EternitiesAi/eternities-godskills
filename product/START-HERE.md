@@ -32,6 +32,13 @@ node bin/godskills.mjs search "compare suppliers before a contract renewal" --li
 node bin/godskills.mjs inspect vendor-evaluation-and-exit-planning
 ```
 
+Use `browse` for a broad area and `search` for the actual operation and artifact,
+such as comparing suppliers before renewal. A one-word search is topic navigation;
+its candidates can overlap. Search ranks lexical evidence, not confidence or
+permission. If a result misses the task, try a more specific capability question,
+browse its category, or inspect a known exact ID. An empty shortlist does not
+prove that no useful method exists.
+
 `browse` lists domains and counts; a category returns five skill summaries and
 exclusions at a time. If `nextOffset` is a number, repeat the category command
 with `--offset` set to that number. `--limit 1..20` changes the page size.
@@ -39,6 +46,12 @@ with `--offset` set to that number. `--limit 1..20` changes the page size.
 optional references, not their bodies. Validation reads pack files for integrity;
 only the selected content is returned to the agent.
 Without Node, the Markdown links above are sufficient.
+
+When the host already knows that ordinary competence is enough, it can pass
+`--need none` to either `search` or `route`; both return an empty shortlist.
+For example, `node bin/godskills.mjs search "Say thanks to the data team" --need none`
+does not manufacture an analytics workflow. The default `unknown` returns
+candidates for review, and `--need specialist` still requires checking task fit.
 
 ## Apply selectively
 

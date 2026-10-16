@@ -1,0 +1,106 @@
+{
+  "schema": "review-c-avicenna-verdict-v1",
+  "decision": "REPAIR",
+  "scope": "Lane C runtime changes against c4e0fd2, independent of lane-B authorship and parent release rebuild.",
+  "findings": [
+    {
+      "id": "R1",
+      "priority": 2,
+      "title": "Hard runtime eligibility removes ordinary game and interactive-3D creation requests",
+      "path": "product/lib/discovery.mjs",
+      "line": 92,
+      "relatedLocation": "product/lib/product.mjs:176",
+      "evidence": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05",
+        "G07",
+        "G08",
+        "G10",
+        "G11",
+        "S06",
+        "S09",
+        "S17",
+        "PC01",
+        "CAM01"
+      ],
+      "cause": "Closed runtime-purpose vocabulary omits ordinary controls/input/feedback work, and creation arm permits only 0..3 words before game/playable. A false eligibility result removes the owner rather than merely adjusting rank.",
+      "reproduction": "node --test artifacts/qualification/cohesive-product-20261015/review-c-avicenna/review-regressions.test.mjs",
+      "observed": "Implement game controls: baseline rank1 -> absent. Build an accessible cooperative puzzle game: rank1 -> absent. Parent Three.js flame: rank4 -> absent. Same losses with live metadata; need specialist does not restore admission. Later matched parent metadata camera-authoring query: baseline code rank1 -> candidate absent; frozen original metadata lacks Arcadia under both versions. Muse remains candidate rank4. See camera-results.json for the separate bound metadata snapshot.",
+      "repairAcceptance": "Retain genuine game/runtime and interactive-creation candidates without requiring magic nouns or losing them when useful modifiers are added. Preserve refused/quoted clause exclusions, matching-metadata dispatch, exact IDs, host no-need and existing unrelated-owner controls. Use mechanism-level admission tests, not an exact-query allowlist."
+    },
+    {
+      "id": "R2",
+      "priority": 2,
+      "title": "Asset nouns satisfy both context and purpose, admitting a false runtime-intent reason",
+      "path": "product/lib/discovery.mjs",
+      "line": 91,
+      "relatedLocation": "product/lib/discovery.mjs:92-94; product/DISCOVERY.md:85-94",
+      "evidence": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "cause": "mesh, meshes, textures and gpu appear in both runtimeContext and runtimePurpose, so one object noun satisfies the two stated evidence gates.",
+      "observed": "Audit the license for this 3D mesh: Arcadia rank1 baseline and candidate; candidate now adds game or real-time 3D runtime scope reason. Texture attribution remains rank2. This is an unclosed promised boundary and new misleading corroboration, not a baseline rank regression.",
+      "repairAcceptance": "Require evidence of the requested runtime operation/player outcome distinct from the object being discussed; license-only and attribution-only requests must not acquire that runtime-intent reason/admission. Preserve actual mesh integration and mixed requests with a separate live runtime clause."
+    }
+  ],
+  "nonblockingObservations": [
+    "All 93 bare exact-ID queries remain rank1; natural-language requests containing an ID can lose it under the gate, but inspect's exact-ID API is unaffected.",
+    "Topic-only game punctuation and multiword shorthand lose recall; those finite-format limits are separately documented and are not counted as additional blockers.",
+    "Cross-sentence runtime pronoun challenge Q11 loses the owner; explicit same-clause game context restores it, consistent with documented discourse limits.",
+    "Parent WebGL portal yields no candidates in both baseline and candidate: preexisting lexical coverage gap, not caused by this change. Muse is absent from top20 for both parent prompts.",
+    "No fresh regressions observed in the eight non-game task probes or the tested recognized quote/refusal/live-work and host-no-need boundaries."
+  ],
+  "verification": {
+    "existingFocusedTests": {
+      "pass": 128,
+      "fail": 0,
+      "excluded": "actual shared CLI and rebuilt temporary pack tests"
+    },
+    "reviewRegressionTests": {
+      "pass": 3,
+      "fail": 4
+    },
+    "freshFrozenChallenges": 56,
+    "adaptiveChallenges": 20,
+    "cameraFollowup": {"cases": 2, "testPass": 1, "testFail": 1, "receipt": "camera-results.json", "private13CaseMatrixIndependentlyReplayed": false},
+    "parentPrompts": 2,
+    "parentSceneControls": 2,
+    "authorMatrixReplay": {
+      "baseline": "26/35",
+      "candidate": "35/35",
+      "nineTradeoffRanks": "all reproduced"
+    },
+    "exactIdChecks": 93,
+    "hostNoNeedAcrossFreshInputs": 56
+  },
+  "docs": {
+    "decision": "READY",
+    "scope": "Local README rewrite and historical relocation/link integrity only",
+    "rootReadmeLinks": 16,
+    "archiveLinks": 116,
+    "startHereLinks": 24,
+    "discoveryLinks": 1,
+    "broken": 0,
+    "archiveChange": "Canonical body identical after relative link normalization except one trailing blank line.",
+    "notEstablished": "External URL availability, ZIP content or runtime/release acceptance."
+  },
+  "authority": {
+    "writes": "Only review-c-avicenna/",
+    "productPatched": false,
+    "laneBEdited": false,
+    "agentsSpawned": false,
+    "sharedBuild": false,
+    "externalEffects": false
+  },
+  "remainingGates": [
+    "Lane-C repairs and focused review rerun",
+    "Parent metadata/release rebuild after all authors settle",
+    "Public CLI and merged-pack integration acceptance"
+  ]
+}

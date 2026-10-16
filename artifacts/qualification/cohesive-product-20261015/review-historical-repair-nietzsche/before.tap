@@ -1,0 +1,2873 @@
+TAP version 13
+# Subtest: all pre-phase activation, evidence, skill, and capability bytes remain frozen
+ok 1 - all pre-phase activation, evidence, skill, and capability bytes remain frozen
+  ---
+  duration_ms: 31.0014
+  type: 'test'
+  ...
+# Subtest: runtime record closes execution, shadow, and future evidence boundaries
+ok 2 - runtime record closes execution, shadow, and future evidence boundaries
+  ---
+  duration_ms: 1.3981
+  type: 'test'
+  ...
+# Subtest: aggregate receipt binds every declared input and output to actual bytes
+not ok 3 - aggregate receipt binds every declared input and output to actual bytes
+  ---
+  duration_ms: 4.7545
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\adaptive-evaluator-compatibility.test.mjs:161:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    package.json
+    + actual - expected
+    
+    + '538531951004f100fd557066ebb274306847f38ba514f4333f735b0dccd9b773'
+    - 'babefbe4933100db21e8deaf329e3f4dc7bd81555ef6a6cd9ce8fa2ced1f354d'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 'babefbe4933100db21e8deaf329e3f4dc7bd81555ef6a6cd9ce8fa2ced1f354d'
+  actual: '538531951004f100fd557066ebb274306847f38ba514f4333f735b0dccd9b773'
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/adaptive-evaluator-compatibility.test.mjs:182:12)
+    async Test.run (node:internal/test_runner/test:1332:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: certification binds the cleared reviewer head and exact proof boundary
+ok 4 - certification binds the cleared reviewer head and exact proof boundary
+  ---
+  duration_ms: 1.11
+  type: 'test'
+  ...
+# Subtest: named Arcadia revision projects exactly to immutable historical input without mutation
+not ok 5 - named Arcadia revision projects exactly to immutable historical input without mutation
+  ---
+  duration_ms: 1.6831
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\arcadia-asset-revision.test.mjs:8:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Only the declared Arcadia asset integration revision is admitted
+    + actual - expected
+    ... Skipped lines
+    
+      {
+    +   entrypointSha256: 'ac0ef2950f34981c72dad4143ad3752b289d3f95877ee68aa464195c8818b282',
+    -   entrypointSha256: '9ec66ba0975124b95877f2ad0a852162008cfd624af2fe823d9752e478940c46',
+        resources: [
+          {
+    +       path: 'skills/eternities-arcadia/references/core-loop-playtest-v1.md',
+    +       sha256: '305e082e9e3d57729fe10e4ad9865b1468333e661f7530469ef17a70fc07490a'
+    +     },
+    +     {
+            path: 'skills/eternities-arcadia/references/methods.md',
+            sha256: '57853439f2dbc6173e2b627b3d1cdd982c746f8376e86746b2745138b696dfc3'
+          },
+          {
+            path: 'skills/eternities-arcadia/references/game-state-to-audio-cue.md',
+    ...
+          },
+    +     {
+    +       path: 'skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md',
+    +       sha256: 'a1b65d62b70a689b3e7b1c06871588e4763a04d3987b9d5c833d5b3c7b6da52a'
+    +     }
+        ],
+        summary: 'Connect game direction, imported 3D assets, runtime systems, player experience, accessibility, performance, and human release evidence.',
+        triggers: [
+          'game direction',
+          'playable prototype',
+    ...
+          'spatial interaction',
+    +     'design interactive WebGL shader and particle effects with camera controls',
+          'browser canvas resize pointer coordinates animation loops',
+          'hidden tab simulation delta focus pressed keys input',
+          'scene teardown stale asset loading GPU resource ownership',
+          'integrate imported glTF FBX meshes and models into Three.js Unity Unreal interactive scenes',
+          'check mesh units scale coordinate axes pivot and material slots after import',
+          'verify textures UV channels normal maps collision rigs animation and root motion in a game',
+          'qualify model dependencies and decoder files in packaged builds beyond editor preview',
+    +     'character silhouette and readability at the gameplay camera',
+    +     'camera-critical game asset iteration and motion revision consistency'
+        ]
+      }
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    summary: 'Connect game direction, imported 3D assets, runtime systems, player experience, accessibility, performance, and human release evidence.'
+    triggers:
+      0: 'game direction'
+      1: 'playable prototype'
+      2: 'runtime game system'
+      3: 'player experience'
+      4: 'map approved player-facing requirements to game screens, states, and reachable flows'
+      5: 'game accessibility'
+      6: 'game release proof'
+      7: 'spatial interaction'
+      8: 'browser canvas resize pointer coordinates animation loops'
+      9: 'hidden tab simulation delta focus pressed keys input'
+      10: 'scene teardown stale asset loading GPU resource ownership'
+      11: 'integrate imported glTF FBX meshes and models into Three.js Unity Unreal interactive scenes'
+      12: 'check mesh units scale coordinate axes pivot and material slots after import'
+      13: 'verify textures UV channels normal maps collision rigs animation and root motion in a game'
+      14: 'qualify model dependencies and decoder files in packaged builds beyond editor preview'
+    entrypointSha256: '9ec66ba0975124b95877f2ad0a852162008cfd624af2fe823d9752e478940c46'
+    resources:
+      0:
+        path: 'skills/eternities-arcadia/references/methods.md'
+        sha256: '57853439f2dbc6173e2b627b3d1cdd982c746f8376e86746b2745138b696dfc3'
+      1:
+        path: 'skills/eternities-arcadia/references/game-state-to-audio-cue.md'
+        sha256: 'f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f'
+      2:
+        path: 'skills/eternities-arcadia/references/browser-runtime-lifecycle.md'
+        sha256: '92f138939846c57ad5de1d36fd1c60d11341e29a91fcaecb03c942397ad93853'
+      3:
+        path: 'skills/eternities-arcadia/references/requirement-screen-state-traceability.md'
+        sha256: 'e26439a9761aebd5fabd6ac65865744063c6ce0ae26aaaadcc7d7fdb93d1f34a'
+      4:
+        path: 'skills/eternities-arcadia/references/realtime-asset-integration.md'
+        sha256: 'a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41'
+  actual:
+    summary: 'Connect game direction, imported 3D assets, runtime systems, player experience, accessibility, performance, and human release evidence.'
+    triggers:
+      0: 'game direction'
+      1: 'playable prototype'
+      2: 'runtime game system'
+      3: 'player experience'
+      4: 'map approved player-facing requirements to game screens, states, and reachable flows'
+      5: 'game accessibility'
+      6: 'game release proof'
+      7: 'spatial interaction'
+      8: 'design interactive WebGL shader and particle effects with camera controls'
+      9: 'browser canvas resize pointer coordinates animation loops'
+      10: 'hidden tab simulation delta focus pressed keys input'
+      11: 'scene teardown stale asset loading GPU resource ownership'
+      12: 'integrate imported glTF FBX meshes and models into Three.js Unity Unreal interactive scenes'
+      13: 'check mesh units scale coordinate axes pivot and material slots after import'
+      14: 'verify textures UV channels normal maps collision rigs animation and root motion in a game'
+      15: 'qualify model dependencies and decoder files in packaged builds beyond editor preview'
+      16: 'character silhouette and readability at the gameplay camera'
+      17: 'camera-critical game asset iteration and motion revision consistency'
+    entrypointSha256: 'ac0ef2950f34981c72dad4143ad3752b289d3f95877ee68aa464195c8818b282'
+    resources:
+      0:
+        path: 'skills/eternities-arcadia/references/core-loop-playtest-v1.md'
+        sha256: '305e082e9e3d57729fe10e4ad9865b1468333e661f7530469ef17a70fc07490a'
+      1:
+        path: 'skills/eternities-arcadia/references/methods.md'
+        sha256: '57853439f2dbc6173e2b627b3d1cdd982c746f8376e86746b2745138b696dfc3'
+      2:
+        path: 'skills/eternities-arcadia/references/game-state-to-audio-cue.md'
+        sha256: 'f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f'
+      3:
+        path: 'skills/eternities-arcadia/references/browser-runtime-lifecycle.md'
+        sha256: '92f138939846c57ad5de1d36fd1c60d11341e29a91fcaecb03c942397ad93853'
+      4:
+        path: 'skills/eternities-arcadia/references/requirement-screen-state-traceability.md'
+        sha256: 'e26439a9761aebd5fabd6ac65865744063c6ce0ae26aaaadcc7d7fdb93d1f34a'
+      5:
+        path: 'skills/eternities-arcadia/references/realtime-asset-integration.md'
+        sha256: 'a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41'
+      6:
+        path: 'skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md'
+        sha256: 'a1b65d62b70a689b3e7b1c06871588e4763a04d3987b9d5c833d5b3c7b6da52a'
+  operator: 'deepStrictEqual'
+  stack: |-
+    projectBeforeArcadiaAssetRevision (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/helpers/arcadia-asset-revision.mjs:24:10)
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/arcadia-asset-revision.test.mjs:10:20)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.start (node:internal/test_runner/test:1191:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17)
+  ...
+# Subtest: historical projection refuses extra trigger
+ok 6 - historical projection refuses extra trigger
+  ---
+  duration_ms: 0.5165
+  type: 'test'
+  ...
+# Subtest: historical projection refuses summary drift
+ok 7 - historical projection refuses summary drift
+  ---
+  duration_ms: 0.3015
+  type: 'test'
+  ...
+# Subtest: historical projection refuses body drift
+ok 8 - historical projection refuses body drift
+  ---
+  duration_ms: 0.3773
+  type: 'test'
+  ...
+# Subtest: historical projection refuses resource drift
+ok 9 - historical projection refuses resource drift
+  ---
+  duration_ms: 0.3604
+  type: 'test'
+  ...
+# Subtest: historical projection refuses unlisted resource
+ok 10 - historical projection refuses unlisted resource
+  ---
+  duration_ms: 0.302
+  type: 'test'
+  ...
+# Subtest: projection does not conceal unrelated owner fields
+not ok 11 - projection does not conceal unrelated owner fields
+  ---
+  duration_ms: 0.3155
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\arcadia-asset-revision.test.mjs:23:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Only the declared Arcadia asset integration revision is admitted
+    + actual - expected
+    ... Skipped lines
+    
+      {
+    +   entrypointSha256: 'ac0ef2950f34981c72dad4143ad3752b289d3f95877ee68aa464195c8818b282',
+    -   entrypointSha256: '9ec66ba0975124b95877f2ad0a852162008cfd624af2fe823d9752e478940c46',
+        resources: [
+          {
+    +       path: 'skills/eternities-arcadia/references/core-loop-playtest-v1.md',
+    +       sha256: '305e082e9e3d57729fe10e4ad9865b1468333e661f7530469ef17a70fc07490a'
+    +     },
+    +     {
+            path: 'skills/eternities-arcadia/references/methods.md',
+            sha256: '57853439f2dbc6173e2b627b3d1cdd982c746f8376e86746b2745138b696dfc3'
+          },
+          {
+            path: 'skills/eternities-arcadia/references/game-state-to-audio-cue.md',
+    ...
+          },
+    +     {
+    +       path: 'skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md',
+    +       sha256: 'a1b65d62b70a689b3e7b1c06871588e4763a04d3987b9d5c833d5b3c7b6da52a'
+    +     }
+        ],
+        summary: 'Connect game direction, imported 3D assets, runtime systems, player experience, accessibility, performance, and human release evidence.',
+        triggers: [
+          'game direction',
+          'playable prototype',
+    ...
+          'spatial interaction',
+    +     'design interactive WebGL shader and particle effects with camera controls',
+          'browser canvas resize pointer coordinates animation loops',
+          'hidden tab simulation delta focus pressed keys input',
+          'scene teardown stale asset loading GPU resource ownership',
+          'integrate imported glTF FBX meshes and models into Three.js Unity Unreal interactive scenes',
+          'check mesh units scale coordinate axes pivot and material slots after import',
+          'verify textures UV channels normal maps collision rigs animation and root motion in a game',
+          'qualify model dependencies and decoder files in packaged builds beyond editor preview',
+    +     'character silhouette and readability at the gameplay camera',
+    +     'camera-critical game asset iteration and motion revision consistency'
+        ]
+      }
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    summary: 'Connect game direction, imported 3D assets, runtime systems, player experience, accessibility, performance, and human release evidence.'
+    triggers:
+      0: 'game direction'
+      1: 'playable prototype'
+      2: 'runtime game system'
+      3: 'player experience'
+      4: 'map approved player-facing requirements to game screens, states, and reachable flows'
+      5: 'game accessibility'
+      6: 'game release proof'
+      7: 'spatial interaction'
+      8: 'browser canvas resize pointer coordinates animation loops'
+      9: 'hidden tab simulation delta focus pressed keys input'
+      10: 'scene teardown stale asset loading GPU resource ownership'
+      11: 'integrate imported glTF FBX meshes and models into Three.js Unity Unreal interactive scenes'
+      12: 'check mesh units scale coordinate axes pivot and material slots after import'
+      13: 'verify textures UV channels normal maps collision rigs animation and root motion in a game'
+      14: 'qualify model dependencies and decoder files in packaged builds beyond editor preview'
+    entrypointSha256: '9ec66ba0975124b95877f2ad0a852162008cfd624af2fe823d9752e478940c46'
+    resources:
+      0:
+        path: 'skills/eternities-arcadia/references/methods.md'
+        sha256: '57853439f2dbc6173e2b627b3d1cdd982c746f8376e86746b2745138b696dfc3'
+      1:
+        path: 'skills/eternities-arcadia/references/game-state-to-audio-cue.md'
+        sha256: 'f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f'
+      2:
+        path: 'skills/eternities-arcadia/references/browser-runtime-lifecycle.md'
+        sha256: '92f138939846c57ad5de1d36fd1c60d11341e29a91fcaecb03c942397ad93853'
+      3:
+        path: 'skills/eternities-arcadia/references/requirement-screen-state-traceability.md'
+        sha256: 'e26439a9761aebd5fabd6ac65865744063c6ce0ae26aaaadcc7d7fdb93d1f34a'
+      4:
+        path: 'skills/eternities-arcadia/references/realtime-asset-integration.md'
+        sha256: 'a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41'
+  actual:
+    summary: 'Connect game direction, imported 3D assets, runtime systems, player experience, accessibility, performance, and human release evidence.'
+    triggers:
+      0: 'game direction'
+      1: 'playable prototype'
+      2: 'runtime game system'
+      3: 'player experience'
+      4: 'map approved player-facing requirements to game screens, states, and reachable flows'
+      5: 'game accessibility'
+      6: 'game release proof'
+      7: 'spatial interaction'
+      8: 'design interactive WebGL shader and particle effects with camera controls'
+      9: 'browser canvas resize pointer coordinates animation loops'
+      10: 'hidden tab simulation delta focus pressed keys input'
+      11: 'scene teardown stale asset loading GPU resource ownership'
+      12: 'integrate imported glTF FBX meshes and models into Three.js Unity Unreal interactive scenes'
+      13: 'check mesh units scale coordinate axes pivot and material slots after import'
+      14: 'verify textures UV channels normal maps collision rigs animation and root motion in a game'
+      15: 'qualify model dependencies and decoder files in packaged builds beyond editor preview'
+      16: 'character silhouette and readability at the gameplay camera'
+      17: 'camera-critical game asset iteration and motion revision consistency'
+    entrypointSha256: 'ac0ef2950f34981c72dad4143ad3752b289d3f95877ee68aa464195c8818b282'
+    resources:
+      0:
+        path: 'skills/eternities-arcadia/references/core-loop-playtest-v1.md'
+        sha256: '305e082e9e3d57729fe10e4ad9865b1468333e661f7530469ef17a70fc07490a'
+      1:
+        path: 'skills/eternities-arcadia/references/methods.md'
+        sha256: '57853439f2dbc6173e2b627b3d1cdd982c746f8376e86746b2745138b696dfc3'
+      2:
+        path: 'skills/eternities-arcadia/references/game-state-to-audio-cue.md'
+        sha256: 'f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f'
+      3:
+        path: 'skills/eternities-arcadia/references/browser-runtime-lifecycle.md'
+        sha256: '92f138939846c57ad5de1d36fd1c60d11341e29a91fcaecb03c942397ad93853'
+      4:
+        path: 'skills/eternities-arcadia/references/requirement-screen-state-traceability.md'
+        sha256: 'e26439a9761aebd5fabd6ac65865744063c6ce0ae26aaaadcc7d7fdb93d1f34a'
+      5:
+        path: 'skills/eternities-arcadia/references/realtime-asset-integration.md'
+        sha256: 'a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41'
+      6:
+        path: 'skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md'
+        sha256: 'a1b65d62b70a689b3e7b1c06871588e4763a04d3987b9d5c833d5b3c7b6da52a'
+  operator: 'deepStrictEqual'
+  stack: |-
+    projectBeforeArcadiaAssetRevision (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/helpers/arcadia-asset-revision.mjs:24:10)
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/arcadia-asset-revision.test.mjs:25:23)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: the immutable core2260 fixture is exact and core projections admit only the declared Atlas and Arcadia revisions
+not ok 12 - the immutable core2260 fixture is exact and core projections admit only the declared Atlas and Arcadia revisions
+  ---
+  duration_ms: 4.9028
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\conditional-method-regression.test.mjs:206:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Only the declared Arcadia asset integration revision is admitted
+    + actual - expected
+    ... Skipped lines
+    
+      {
+    +   entrypointSha256: 'ac0ef2950f34981c72dad4143ad3752b289d3f95877ee68aa464195c8818b282',
+    -   entrypointSha256: '9ec66ba0975124b95877f2ad0a852162008cfd624af2fe823d9752e478940c46',
+        resources: [
+          {
+    +       path: 'skills/eternities-arcadia/references/core-loop-playtest-v1.md',
+    +       sha256: '305e082e9e3d57729fe10e4ad9865b1468333e661f7530469ef17a70fc07490a'
+    +     },
+    +     {
+            path: 'skills/eternities-arcadia/references/methods.md',
+            sha256: '57853439f2dbc6173e2b627b3d1cdd982c746f8376e86746b2745138b696dfc3'
+          },
+          {
+            path: 'skills/eternities-arcadia/references/game-state-to-audio-cue.md',
+    ...
+          },
+    +     {
+    +       path: 'skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md',
+    +       sha256: 'a1b65d62b70a689b3e7b1c06871588e4763a04d3987b9d5c833d5b3c7b6da52a'
+    +     }
+        ],
+        summary: 'Connect game direction, imported 3D assets, runtime systems, player experience, accessibility, performance, and human release evidence.',
+        triggers: [
+          'game direction',
+          'playable prototype',
+    ...
+          'spatial interaction',
+    +     'design interactive WebGL shader and particle effects with camera controls',
+          'browser canvas resize pointer coordinates animation loops',
+          'hidden tab simulation delta focus pressed keys input',
+          'scene teardown stale asset loading GPU resource ownership',
+          'integrate imported glTF FBX meshes and models into Three.js Unity Unreal interactive scenes',
+          'check mesh units scale coordinate axes pivot and material slots after import',
+          'verify textures UV channels normal maps collision rigs animation and root motion in a game',
+          'qualify model dependencies and decoder files in packaged builds beyond editor preview',
+    +     'character silhouette and readability at the gameplay camera',
+    +     'camera-critical game asset iteration and motion revision consistency'
+        ]
+      }
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    summary: 'Connect game direction, imported 3D assets, runtime systems, player experience, accessibility, performance, and human release evidence.'
+    triggers:
+      0: 'game direction'
+      1: 'playable prototype'
+      2: 'runtime game system'
+      3: 'player experience'
+      4: 'map approved player-facing requirements to game screens, states, and reachable flows'
+      5: 'game accessibility'
+      6: 'game release proof'
+      7: 'spatial interaction'
+      8: 'browser canvas resize pointer coordinates animation loops'
+      9: 'hidden tab simulation delta focus pressed keys input'
+      10: 'scene teardown stale asset loading GPU resource ownership'
+      11: 'integrate imported glTF FBX meshes and models into Three.js Unity Unreal interactive scenes'
+      12: 'check mesh units scale coordinate axes pivot and material slots after import'
+      13: 'verify textures UV channels normal maps collision rigs animation and root motion in a game'
+      14: 'qualify model dependencies and decoder files in packaged builds beyond editor preview'
+    entrypointSha256: '9ec66ba0975124b95877f2ad0a852162008cfd624af2fe823d9752e478940c46'
+    resources:
+      0:
+        path: 'skills/eternities-arcadia/references/methods.md'
+        sha256: '57853439f2dbc6173e2b627b3d1cdd982c746f8376e86746b2745138b696dfc3'
+      1:
+        path: 'skills/eternities-arcadia/references/game-state-to-audio-cue.md'
+        sha256: 'f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f'
+      2:
+        path: 'skills/eternities-arcadia/references/browser-runtime-lifecycle.md'
+        sha256: '92f138939846c57ad5de1d36fd1c60d11341e29a91fcaecb03c942397ad93853'
+      3:
+        path: 'skills/eternities-arcadia/references/requirement-screen-state-traceability.md'
+        sha256: 'e26439a9761aebd5fabd6ac65865744063c6ce0ae26aaaadcc7d7fdb93d1f34a'
+      4:
+        path: 'skills/eternities-arcadia/references/realtime-asset-integration.md'
+        sha256: 'a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41'
+  actual:
+    summary: 'Connect game direction, imported 3D assets, runtime systems, player experience, accessibility, performance, and human release evidence.'
+    triggers:
+      0: 'game direction'
+      1: 'playable prototype'
+      2: 'runtime game system'
+      3: 'player experience'
+      4: 'map approved player-facing requirements to game screens, states, and reachable flows'
+      5: 'game accessibility'
+      6: 'game release proof'
+      7: 'spatial interaction'
+      8: 'design interactive WebGL shader and particle effects with camera controls'
+      9: 'browser canvas resize pointer coordinates animation loops'
+      10: 'hidden tab simulation delta focus pressed keys input'
+      11: 'scene teardown stale asset loading GPU resource ownership'
+      12: 'integrate imported glTF FBX meshes and models into Three.js Unity Unreal interactive scenes'
+      13: 'check mesh units scale coordinate axes pivot and material slots after import'
+      14: 'verify textures UV channels normal maps collision rigs animation and root motion in a game'
+      15: 'qualify model dependencies and decoder files in packaged builds beyond editor preview'
+      16: 'character silhouette and readability at the gameplay camera'
+      17: 'camera-critical game asset iteration and motion revision consistency'
+    entrypointSha256: 'ac0ef2950f34981c72dad4143ad3752b289d3f95877ee68aa464195c8818b282'
+    resources:
+      0:
+        path: 'skills/eternities-arcadia/references/core-loop-playtest-v1.md'
+        sha256: '305e082e9e3d57729fe10e4ad9865b1468333e661f7530469ef17a70fc07490a'
+      1:
+        path: 'skills/eternities-arcadia/references/methods.md'
+        sha256: '57853439f2dbc6173e2b627b3d1cdd982c746f8376e86746b2745138b696dfc3'
+      2:
+        path: 'skills/eternities-arcadia/references/game-state-to-audio-cue.md'
+        sha256: 'f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f'
+      3:
+        path: 'skills/eternities-arcadia/references/browser-runtime-lifecycle.md'
+        sha256: '92f138939846c57ad5de1d36fd1c60d11341e29a91fcaecb03c942397ad93853'
+      4:
+        path: 'skills/eternities-arcadia/references/requirement-screen-state-traceability.md'
+        sha256: 'e26439a9761aebd5fabd6ac65865744063c6ce0ae26aaaadcc7d7fdb93d1f34a'
+      5:
+        path: 'skills/eternities-arcadia/references/realtime-asset-integration.md'
+        sha256: 'a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41'
+      6:
+        path: 'skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md'
+        sha256: 'a1b65d62b70a689b3e7b1c06871588e4763a04d3987b9d5c833d5b3c7b6da52a'
+  operator: 'deepStrictEqual'
+  stack: |-
+    projectBeforeArcadiaAssetRevision (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/helpers/arcadia-asset-revision.mjs:24:10)
+    file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/conditional-method-regression.test.mjs:225:60
+    Array.map (<anonymous>)
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/conditional-method-regression.test.mjs:225:47)
+    async Test.run (node:internal/test_runner/test:1332:7)
+    async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3)
+  ...
+# Subtest: historical paths remain exact, named optional owner references are admitted, and only Omnibus is revised
+not ok 13 - historical paths remain exact, named optional owner references are admitted, and only Omnibus is revised
+  ---
+  duration_ms: 2.5647
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\conditional-method-regression.test.mjs:228:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    ... Skipped lines
+    
+      [
+        [
+    +     'diagnostic-statistical-model-inference',
+    +     'skills/diagnostic-statistical-model-inference/references/causal-design-before-estimation-v1.md',
+    +     '9fd7004a3aefc4daf074dde37dea7d5a2b6fb1024ff4ae3c19461d5e89b24918'
+    +   ],
+    +   [
+          'eternities-agora',
+          'skills/eternities-agora/references/research-funding-proposal.md',
+          '6bd7d41a9af3b40dc041ffeab73b8f692aba16910f4c72253e090ba451eee322'
+        ],
+        [
+          'eternities-arcadia',
+    +     'skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md',
+    +     'a1b65d62b70a689b3e7b1c06871588e4763a04d3987b9d5c833d5b3c7b6da52a'
+    +   ],
+    +   [
+    +     'eternities-arcadia',
+    +     'skills/eternities-arcadia/references/core-loop-playtest-v1.md',
+    +     '305e082e9e3d57729fe10e4ad9865b1468333e661f7530469ef17a70fc07490a'
+    +   ],
+    +   [
+    +     'eternities-arcadia',
+          'skills/eternities-arcadia/references/realtime-asset-integration.md',
+          'a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41'
+        ],
+        [
+          'eternities-athena',
+    ...
+        [
+    +     'eternities-beacon',
+    +     'skills/eternities-beacon/references/creator-slate-feasibility-v1.md',
+    +     'b1ab3ac4a2570311de7139e605e23cb8bfe122d89d578578288c1b1c8ed34dc1'
+    +   ],
+    +   [
+    +     'eternities-beacon',
+    +     'skills/eternities-beacon/references/positioning-to-message-v1.md',
+    +     '57da15f76572e5af9dde41cf4c5703d83f045cbb701b0284dfcd45d8e46c94d8'
+    +   ],
+    +   [
+          'eternities-daedalus',
+          'skills/eternities-daedalus/references/configuration-lifecycle.md',
+          '8809c3f901722ee7a19cd1ca62def13573290813969c2268b4ac243489907c40'
+        ],
+        [
+    ...
+        [
+    +     'eternities-muse',
+    +     'skills/eternities-muse/references/art-direction-to-layout-v1.md',
+    +     '893b09898d51cf5bfcca7d0efa88d239466e04a7c6a68152d4158aab5fa2a140'
+    +   ],
+    +   [
+    +     'eternities-orpheus',
+    +     'skills/eternities-orpheus/references/supplied-audio-editorial-mix-v1.md',
+    +     'd52e3ecffe5e6134cc43f2296ed4c8e48963af8f02f513b605c5a7527ac6c1d9'
+    +   ],
+    +   [
+    +     'eternities-phoenix',
+    +     'skills/eternities-phoenix/references/diagnostic-experiments-v2.md',
+    +     '0e90cd104135546419a996f0d1c0acd1e57f21ecc5c463225f9d86e7adfec227'
+    +   ],
+    +   [
+    +     'eternities-prometheus',
+    +     'skills/eternities-prometheus/references/commercial-driver-diagnosis-v1.md',
+    +     'bdd16ac74bb01c88864e6d76080fd05d833eb9be1324322f27aaaec8350165f2'
+    +   ],
+    +   [
+          'evidence-linked-learning-design',
+          'skills/evidence-linked-learning-design/references/educational-microsimulation.md',
+          '4f42471a7b33b9af45203a54eb82a3c95c6c19106446e0b9097006daff2f3b2e'
+        ],
+        [
+          'evidence-linked-learning-design',
+    +     'skills/evidence-linked-learning-design/references/practice-and-transfer-v1.md',
+    +     '8625e567db5d4f68c267bd4743e555885115fabcbd253b67f768e2031826aa9f'
+    +   ],
+    +   [
+    +     'evidence-linked-learning-design',
+          'skills/evidence-linked-learning-design/references/support-transition.md',
+          '470484b186df4978ec4c5e817990d25c0a2ad200dbf6ef1bea6441f43372d954'
+        ],
+        [
+          'symbolic-mathematics-python',
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0:
+      0: 'eternities-agora'
+      1: 'skills/eternities-agora/references/research-funding-proposal.md'
+      2: '6bd7d41a9af3b40dc041ffeab73b8f692aba16910f4c72253e090ba451eee322'
+    1:
+      0: 'eternities-arcadia'
+      1: 'skills/eternities-arcadia/references/realtime-asset-integration.md'
+      2: 'a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41'
+    2:
+      0: 'eternities-athena'
+      1: 'skills/eternities-athena/references/prospective-comparison-design.md'
+      2: 'f2ec1b06478248f9984c07d3a7399db4a5e36133826079afd28408e3e64749f7'
+    3:
+      0: 'eternities-daedalus'
+      1: 'skills/eternities-daedalus/references/configuration-lifecycle.md'
+      2: '8809c3f901722ee7a19cd1ca62def13573290813969c2268b4ac243489907c40'
+    4:
+      0: 'eternities-daedalus'
+      1: 'skills/eternities-daedalus/references/optional-model-scenarios-ci.md'
+      2: '982db0a3b6811f7b7fde0fa6b31e06e3df0ed86bbf9dc9826209dc52877b61d8'
+    5:
+      0: 'eternities-hermes'
+      1: 'skills/eternities-hermes/references/cursor-paged-task-messages.md'
+      2: 'b3135e20f4ff67b3ac5593536eb4b14b59ff3d96608dc26090a6181862e6e2da'
+    6:
+      0: 'eternities-hermes'
+      1: 'skills/eternities-hermes/references/truthful-cli-progress.md'
+      2: 'd9bd1ebfd44178a4d33f0d1150b460aa4d6fa564177ea0ded1577ce4123c936c'
+    7:
+      0: 'eternities-logos'
+      1: 'skills/eternities-logos/references/staged-literature-synthesis.md'
+      2: 'ce55918cf0966beab0c4103a8cc2de69c517c7581c22320bfa2009d86b145c78'
+    8:
+      0: 'evidence-linked-learning-design'
+      1: 'skills/evidence-linked-learning-design/references/educational-microsimulation.md'
+      2: '4f42471a7b33b9af45203a54eb82a3c95c6c19106446e0b9097006daff2f3b2e'
+    9:
+      0: 'evidence-linked-learning-design'
+      1: 'skills/evidence-linked-learning-design/references/support-transition.md'
+      2: '470484b186df4978ec4c5e817990d25c0a2ad200dbf6ef1bea6441f43372d954'
+    10:
+      0: 'symbolic-mathematics-python'
+      1: 'skills/symbolic-mathematics-python/references/source-grounded-math-specification.md'
+      2: 'edbbb063b3550619cfe216db64a96611c14839fcf61e2f24f13ca9d2ecebdb20'
+  actual:
+    0:
+      0: 'diagnostic-statistical-model-inference'
+      1: 'skills/diagnostic-statistical-model-inference/references/causal-design-before-estimation-v1.md'
+      2: '9fd7004a3aefc4daf074dde37dea7d5a2b6fb1024ff4ae3c19461d5e89b24918'
+    1:
+      0: 'eternities-agora'
+      1: 'skills/eternities-agora/references/research-funding-proposal.md'
+      2: '6bd7d41a9af3b40dc041ffeab73b8f692aba16910f4c72253e090ba451eee322'
+    2:
+      0: 'eternities-arcadia'
+      1: 'skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md'
+      2: 'a1b65d62b70a689b3e7b1c06871588e4763a04d3987b9d5c833d5b3c7b6da52a'
+    3:
+      0: 'eternities-arcadia'
+      1: 'skills/eternities-arcadia/references/core-loop-playtest-v1.md'
+      2: '305e082e9e3d57729fe10e4ad9865b1468333e661f7530469ef17a70fc07490a'
+    4:
+      0: 'eternities-arcadia'
+      1: 'skills/eternities-arcadia/references/realtime-asset-integration.md'
+      2: 'a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41'
+    5:
+      0: 'eternities-athena'
+      1: 'skills/eternities-athena/references/prospective-comparison-design.md'
+      2: 'f2ec1b06478248f9984c07d3a7399db4a5e36133826079afd28408e3e64749f7'
+    6:
+      0: 'eternities-beacon'
+      1: 'skills/eternities-beacon/references/creator-slate-feasibility-v1.md'
+      2: 'b1ab3ac4a2570311de7139e605e23cb8bfe122d89d578578288c1b1c8ed34dc1'
+    7:
+      0: 'eternities-beacon'
+      1: 'skills/eternities-beacon/references/positioning-to-message-v1.md'
+      2: '57da15f76572e5af9dde41cf4c5703d83f045cbb701b0284dfcd45d8e46c94d8'
+    8:
+      0: 'eternities-daedalus'
+      1: 'skills/eternities-daedalus/references/configuration-lifecycle.md'
+      2: '8809c3f901722ee7a19cd1ca62def13573290813969c2268b4ac243489907c40'
+    9:
+      0: 'eternities-daedalus'
+      1: 'skills/eternities-daedalus/references/optional-model-scenarios-ci.md'
+      2: '982db0a3b6811f7b7fde0fa6b31e06e3df0ed86bbf9dc9826209dc52877b61d8'
+    10:
+      0: 'eternities-hermes'
+      1: 'skills/eternities-hermes/references/cursor-paged-task-messages.md'
+      2: 'b3135e20f4ff67b3ac5593536eb4b14b59ff3d96608dc26090a6181862e6e2da'
+    11:
+      0: 'eternities-hermes'
+      1: 'skills/eternities-hermes/references/truthful-cli-progress.md'
+      2: 'd9bd1ebfd44178a4d33f0d1150b460aa4d6fa564177ea0ded1577ce4123c936c'
+    12:
+      0: 'eternities-logos'
+      1: 'skills/eternities-logos/references/staged-literature-synthesis.md'
+      2: 'ce55918cf0966beab0c4103a8cc2de69c517c7581c22320bfa2009d86b145c78'
+    13:
+      0: 'eternities-muse'
+      1: 'skills/eternities-muse/references/art-direction-to-layout-v1.md'
+      2: '893b09898d51cf5bfcca7d0efa88d239466e04a7c6a68152d4158aab5fa2a140'
+    14:
+      0: 'eternities-orpheus'
+      1: 'skills/eternities-orpheus/references/supplied-audio-editorial-mix-v1.md'
+      2: 'd52e3ecffe5e6134cc43f2296ed4c8e48963af8f02f513b605c5a7527ac6c1d9'
+    15:
+      0: 'eternities-phoenix'
+      1: 'skills/eternities-phoenix/references/diagnostic-experiments-v2.md'
+      2: '0e90cd104135546419a996f0d1c0acd1e57f21ecc5c463225f9d86e7adfec227'
+    16:
+      0: 'eternities-prometheus'
+      1: 'skills/eternities-prometheus/references/commercial-driver-diagnosis-v1.md'
+      2: 'bdd16ac74bb01c88864e6d76080fd05d833eb9be1324322f27aaaec8350165f2'
+    17:
+      0: 'evidence-linked-learning-design'
+      1: 'skills/evidence-linked-learning-design/references/educational-microsimulation.md'
+      2: '4f42471a7b33b9af45203a54eb82a3c95c6c19106446e0b9097006daff2f3b2e'
+    18:
+      0: 'evidence-linked-learning-design'
+      1: 'skills/evidence-linked-learning-design/references/practice-and-transfer-v1.md'
+      2: '8625e567db5d4f68c267bd4743e555885115fabcbd253b67f768e2031826aa9f'
+    19:
+      0: 'evidence-linked-learning-design'
+      1: 'skills/evidence-linked-learning-design/references/support-transition.md'
+      2: '470484b186df4978ec4c5e817990d25c0a2ad200dbf6ef1bea6441f43372d954'
+    20:
+      0: 'symbolic-mathematics-python'
+      1: 'skills/symbolic-mathematics-python/references/source-grounded-math-specification.md'
+      2: 'edbbb063b3550619cfe216db64a96611c14839fcf61e2f24f13ca9d2ecebdb20'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/conditional-method-regression.test.mjs:257:10)
+    async Test.run (node:internal/test_runner/test:1332:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: Hermes and Math retain frontmatter; historical Hermes bytes and current close-out boundaries remain explicit
+ok 14 - Hermes and Math retain frontmatter; historical Hermes bytes and current close-out boundaries remain explicit
+  ---
+  duration_ms: 1.1098
+  type: 'test'
+  ...
+# Subtest: conditional method links remain with their owners and B04 is not a Hermes resource
+ok 15 - conditional method links remain with their owners and B04 is not a Hermes resource
+  ---
+  duration_ms: 0.5374
+  type: 'test'
+  ...
+# Subtest: the selected-method directory binds exactly the four new owner methods and their exclusions
+not ok 16 - the selected-method directory binds exactly the four new owner methods and their exclusions
+  ---
+  duration_ms: 22.0925
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\conditional-method-regression.test.mjs:331:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    ... Skipped lines
+    
+      [
+        'hermes-running-task-message-checkpoint',
+        'hermes-authorized-local-process-observation',
+        'math-supplied-prose-specification-draft',
+        'daedalus-optional-model-scenario-ci',
+    ...
+        'mnemosyne-local-evidence-lifecycle',
+    +   'cohesive-commercial-driver-diagnosis-v1',
+    +   'cohesive-positioning-to-message-v1',
+    +   'cohesive-art-direction-to-layout-v1',
+    +   'cohesive-core-loop-playtest-v1',
+    +   'cohesive-supplied-audio-editorial-mix-v1',
+    +   'cohesive-practice-and-transfer-v1',
+    +   'cohesive-contrastive-calibration-v1',
+    +   'cohesive-diagnostic-experiments-v2',
+    +   'cohesive-creator-slate-feasibility-v1',
+    +   'cohesive-camera-driven-asset-iteration-v1',
+    +   'cohesive-causal-design-before-estimation-v1',
+    +   'cohesive-telemetry-cardinality-budget-v1',
+    +   'cohesive-reader-knowledge-and-reveal-revision-v1'
+      ]
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: 'hermes-running-task-message-checkpoint'
+    1: 'hermes-authorized-local-process-observation'
+    2: 'math-supplied-prose-specification-draft'
+    3: 'daedalus-optional-model-scenario-ci'
+    4: 'arcadia-game-state-audio-cues'
+    5: 'atlas-serving-time-decision-trace'
+    6: 'oracle-artifact-role-evidence'
+    7: 'mnemosyne-local-evidence-lifecycle'
+  actual:
+    0: 'hermes-running-task-message-checkpoint'
+    1: 'hermes-authorized-local-process-observation'
+    2: 'math-supplied-prose-specification-draft'
+    3: 'daedalus-optional-model-scenario-ci'
+    4: 'arcadia-game-state-audio-cues'
+    5: 'atlas-serving-time-decision-trace'
+    6: 'oracle-artifact-role-evidence'
+    7: 'mnemosyne-local-evidence-lifecycle'
+    8: 'cohesive-commercial-driver-diagnosis-v1'
+    9: 'cohesive-positioning-to-message-v1'
+    10: 'cohesive-art-direction-to-layout-v1'
+    11: 'cohesive-core-loop-playtest-v1'
+    12: 'cohesive-supplied-audio-editorial-mix-v1'
+    13: 'cohesive-practice-and-transfer-v1'
+    14: 'cohesive-contrastive-calibration-v1'
+    15: 'cohesive-diagnostic-experiments-v2'
+    16: 'cohesive-creator-slate-feasibility-v1'
+    17: 'cohesive-camera-driven-asset-iteration-v1'
+    18: 'cohesive-causal-design-before-estimation-v1'
+    19: 'cohesive-telemetry-cardinality-budget-v1'
+    20: 'cohesive-reader-knowledge-and-reveal-revision-v1'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/conditional-method-regression.test.mjs:337:10)
+    async Test.run (node:internal/test_runner/test:1332:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: Daedalus owns optional model scenarios without weakening deterministic required checks
+not ok 17 - Daedalus owns optional model scenarios without weakening deterministic required checks
+  ---
+  duration_ms: 1.071
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\conditional-method-regression.test.mjs:400:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    + actual - expected
+    
+    + 'node --test "tests/**/*.test.mjs" "examples/**/*.test.mjs" "evaluation/**/*.test.mjs" "product/**/*.test.mjs"'
+    - 'node --test'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 'node --test'
+  actual: 'node --test "tests/**/*.test.mjs" "examples/**/*.test.mjs" "evaluation/**/*.test.mjs" "product/**/*.test.mjs"'
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/conditional-method-regression.test.mjs:412:10)
+    async Test.run (node:internal/test_runner/test:1332:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: frozen Hermes body case C01 retains its declared conformance boundary
+ok 18 - frozen Hermes body case C01 retains its declared conformance boundary
+  ---
+  duration_ms: 0.5607
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case C02 retains its declared conformance boundary
+ok 19 - frozen Hermes body case C02 retains its declared conformance boundary
+  ---
+  duration_ms: 0.1181
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case C03 retains its declared conformance boundary
+ok 20 - frozen Hermes body case C03 retains its declared conformance boundary
+  ---
+  duration_ms: 0.2473
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case C04 retains its declared conformance boundary
+ok 21 - frozen Hermes body case C04 retains its declared conformance boundary
+  ---
+  duration_ms: 0.2104
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case C05 retains its declared conformance boundary
+ok 22 - frozen Hermes body case C05 retains its declared conformance boundary
+  ---
+  duration_ms: 0.4234
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case C06 retains its declared conformance boundary
+ok 23 - frozen Hermes body case C06 retains its declared conformance boundary
+  ---
+  duration_ms: 0.1783
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case C07 retains its declared conformance boundary
+ok 24 - frozen Hermes body case C07 retains its declared conformance boundary
+  ---
+  duration_ms: 0.037
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case C08 retains its declared conformance boundary
+ok 25 - frozen Hermes body case C08 retains its declared conformance boundary
+  ---
+  duration_ms: 0.3098
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case R01 retains its declared conformance boundary
+ok 26 - frozen Hermes body case R01 retains its declared conformance boundary
+  ---
+  duration_ms: 0.1775
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case R02 retains its declared conformance boundary
+ok 27 - frozen Hermes body case R02 retains its declared conformance boundary
+  ---
+  duration_ms: 0.2782
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case L01 retains its declared conformance boundary
+ok 28 - frozen Hermes body case L01 retains its declared conformance boundary
+  ---
+  duration_ms: 0.1685
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case L02 retains its declared conformance boundary
+ok 29 - frozen Hermes body case L02 retains its declared conformance boundary
+  ---
+  duration_ms: 0.1052
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case L03 retains its declared conformance boundary
+ok 30 - frozen Hermes body case L03 retains its declared conformance boundary
+  ---
+  duration_ms: 0.1919
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case L04 retains its declared conformance boundary
+ok 31 - frozen Hermes body case L04 retains its declared conformance boundary
+  ---
+  duration_ms: 0.1179
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case L05 retains its declared conformance boundary
+ok 32 - frozen Hermes body case L05 retains its declared conformance boundary
+  ---
+  duration_ms: 0.168
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case L06 retains its declared conformance boundary
+ok 33 - frozen Hermes body case L06 retains its declared conformance boundary
+  ---
+  duration_ms: 0.3087
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case L07 retains its declared conformance boundary
+ok 34 - frozen Hermes body case L07 retains its declared conformance boundary
+  ---
+  duration_ms: 0.1103
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case E01 retains its declared conformance boundary
+ok 35 - frozen Hermes body case E01 retains its declared conformance boundary
+  ---
+  duration_ms: 0.1754
+  type: 'test'
+  ...
+# Subtest: Daedalus optional CI placement contract: default path
+ok 36 - Daedalus optional CI placement contract: default path
+  ---
+  duration_ms: 0.1465
+  type: 'test'
+  ...
+# Subtest: Daedalus optional CI placement contract: separate merge lane
+ok 37 - Daedalus optional CI placement contract: separate merge lane
+  ---
+  duration_ms: 0.1371
+  type: 'test'
+  ...
+# Subtest: Daedalus optional CI placement contract: behavior-based classification
+ok 38 - Daedalus optional CI placement contract: behavior-based classification
+  ---
+  duration_ms: 0.0858
+  type: 'test'
+  ...
+# Subtest: Daedalus optional CI placement contract: bounded and attributable run
+ok 39 - Daedalus optional CI placement contract: bounded and attributable run
+  ---
+  duration_ms: 0.1076
+  type: 'test'
+  ...
+# Subtest: Daedalus optional CI placement contract: separate result states
+ok 40 - Daedalus optional CI placement contract: separate result states
+  ---
+  duration_ms: 0.231
+  type: 'test'
+  ...
+# Subtest: Daedalus optional CI placement contract: uncertain request recovery
+ok 41 - Daedalus optional CI placement contract: uncertain request recovery
+  ---
+  duration_ms: 0.1102
+  type: 'test'
+  ...
+# Subtest: Daedalus optional CI placement contract: no duplicate policy and exact selection audit
+ok 42 - Daedalus optional CI placement contract: no duplicate policy and exact selection audit
+  ---
+  duration_ms: 0.0309
+  type: 'test'
+  ...
+# Subtest: Daedalus optional CI placement contract: evidence limits
+ok 43 - Daedalus optional CI placement contract: evidence limits
+  ---
+  duration_ms: 0.1621
+  type: 'test'
+  ...
+# Subtest: frozen candidate validates locally without executing its scenarios
+not ok 44 - frozen candidate validates locally without executing its scenarios
+  ---
+  duration_ms: 205.2431
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\conditional-method-regression.test.mjs:541:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    {"error":"Release file set changed or undeclared files present"}
+    
+    
+    1 !== 0
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 0
+  actual: 1
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/conditional-method-regression.test.mjs:548:10)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: the literal educational projection keeps its exact prior catalog input
+not ok 45 - the literal educational projection keeps its exact prior catalog input
+  ---
+  duration_ms: 2.354
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\educational-discovery-revealed-v2.test.mjs:18:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Existing77 catalog records changed outside the declared Atlas and Arcadia revisions
+    + actual - expected
+    
+      {
+        antiTriggers: [
+          'ordinary single bug regression test'
+        ],
+        category: 'science',
+        entrypoint: 'skills/counterbalanced-agent-evaluation/SKILL.md',
+    +   entrypointSha256: '6242385832a491c290feeb636175210c839a75dcf6bd30526b5cf2f32c99fd7f',
+    -   entrypointSha256: 'ad8e45793f5ec79ab577789d505893e2a0a7fbf97dfcde7542cb828aee985a88',
+        id: 'counterbalanced-agent-evaluation',
+        maturity: 'instruction-reviewed',
+        related: [
+          'eternities-athena',
+          'eternities-atlas',
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    id: 'counterbalanced-agent-evaluation'
+    category: 'science'
+    summary: 'Compare raw and skill-enabled agents using isolated conditions, blinded counterbalanced review, held-out tasks and quality-cost evidence.'
+    triggers:
+      0: 'compare raw agents skill enabled agent evaluation'
+      1: 'blinded counterbalanced baseline experiment'
+      2: 'prompt model harness benchmark quality cost regression'
+    antiTriggers:
+      0: 'ordinary single bug regression test'
+    taskTypes:
+      0: 'plan'
+      1: 'verify'
+      2: 'research'
+    related:
+      0: 'eternities-athena'
+      1: 'eternities-atlas'
+      2: 'eternities-omnibus'
+      3: 'sovereign-skill-refinery'
+    specializes: 'eternities-athena'
+    maturity: 'instruction-reviewed'
+    entrypoint: 'skills/counterbalanced-agent-evaluation/SKILL.md'
+    entrypointSha256: 'ad8e45793f5ec79ab577789d505893e2a0a7fbf97dfcde7542cb828aee985a88'
+    resources:
+  actual:
+    id: 'counterbalanced-agent-evaluation'
+    category: 'science'
+    summary: 'Compare raw and skill-enabled agents using isolated conditions, blinded counterbalanced review, held-out tasks and quality-cost evidence.'
+    triggers:
+      0: 'compare raw agents skill enabled agent evaluation'
+      1: 'blinded counterbalanced baseline experiment'
+      2: 'prompt model harness benchmark quality cost regression'
+    antiTriggers:
+      0: 'ordinary single bug regression test'
+    taskTypes:
+      0: 'plan'
+      1: 'verify'
+      2: 'research'
+    related:
+      0: 'eternities-athena'
+      1: 'eternities-atlas'
+      2: 'eternities-omnibus'
+      3: 'sovereign-skill-refinery'
+    specializes: 'eternities-athena'
+    maturity: 'instruction-reviewed'
+    entrypoint: 'skills/counterbalanced-agent-evaluation/SKILL.md'
+    entrypointSha256: '6242385832a491c290feeb636175210c839a75dcf6bd30526b5cf2f32c99fd7f'
+    resources:
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/educational-discovery-revealed-v2.test.mjs:21:54)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.start (node:internal/test_runner/test:1191:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17)
+  ...
+# Subtest: disclosed teaching regression E2-P01: statistics-outlier-representation
+ok 46 - disclosed teaching regression E2-P01: statistics-outlier-representation
+  ---
+  duration_ms: 12.5323
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P02: chemistry-equilibrium-tabletop
+ok 47 - disclosed teaching regression E2-P02: chemistry-equilibrium-tabletop
+  ---
+  duration_ms: 3.977
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P03: astronomy-changing-viewpoint
+ok 48 - disclosed teaching regression E2-P03: astronomy-changing-viewpoint
+  ---
+  duration_ms: 3.3943
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P04: economics-fictional-market
+ok 49 - disclosed teaching regression E2-P04: economics-fictional-market
+  ---
+  duration_ms: 3.5089
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P05: music-rhythm-sequencing
+ok 50 - disclosed teaching regression E2-P05: music-rhythm-sequencing
+  ---
+  duration_ms: 2.6161
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P06: geology-cross-section-exploration
+ok 51 - disclosed teaching regression E2-P06: geology-cross-section-exploration
+  ---
+  duration_ms: 2.7099
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P07: algebra-basis-vector-geometry
+ok 52 - disclosed teaching regression E2-P07: algebra-basis-vector-geometry
+  ---
+  duration_ms: 2.4355
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P08: programming-call-stack-trace
+ok 53 - disclosed teaching regression E2-P08: programming-call-stack-trace
+  ---
+  duration_ms: 2.5467
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P09: civics-voting-rule-sandbox
+ok 54 - disclosed teaching regression E2-P09: civics-voting-rule-sandbox
+  ---
+  duration_ms: 2.4884
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P10: bookkeeping-transaction-effects
+ok 55 - disclosed teaching regression E2-P10: bookkeeping-transaction-effects
+  ---
+  duration_ms: 2.8503
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P11: ecology-food-web-dependencies
+ok 56 - disclosed teaching regression E2-P11: ecology-food-web-dependencies
+  ---
+  duration_ms: 3.0843
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P12: geometry-foldable-net
+ok 57 - disclosed teaching regression E2-P12: geometry-foldable-net
+  ---
+  duration_ms: 2.6236
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-N01: educational-study-appraisal
+not ok 58 - disclosed teaching regression E2-N01: educational-study-appraisal
+  ---
+  duration_ms: 4.8086
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\educational-discovery-revealed-v2.test.mjs:35:53'
+  failureType: 'testCodeFailure'
+  error: |-
+    Literal old negative/excluded/abstained projection changed on its frozen input
+    + actual - expected
+    
+      {
+        envelope: {
+          activation: 'none',
+          authority: 'none',
+    +     method: 'offline-lexical-intent-phrases-v4',
+    -     method: 'offline-lexical-intent-phrases-v3',
+          query: "Review the study's evidence that a movable molecule display improved exam results; concentrate on allocation, attrition and alternative explanations rather than designing a class activity.",
+          schema: 'eternities-godskills-discovery-v1',
+          selection: {
+            basis: 'host-requested-specialist-candidates',
+            state: 'review-required'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v3'
+      query: "Review the study's evidence that a movable molecule display improved exam results; concentrate on allocation, attrition and alternative explanations rather than designing a class activity."
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+      0:
+        id: 'structured-output-contracts'
+        score: 46.791
+        reasons:
+          0: 'Matched: class, results'
+      1:
+        id: 'bounded-service-shutdown'
+        score: 41.708
+        reasons:
+          0: 'Matched: activity, evidence, review'
+      2:
+        id: 'user-research-and-usability-study'
+        score: 36.118
+        reasons:
+          0: 'Matched: study'
+      3:
+        id: 'eternities-athena'
+        score: 29.684
+        reasons:
+          0: 'Matched: evidence, study'
+      4:
+        id: 'eternities-atlas'
+        score: 28.605
+        reasons:
+          0: 'Matched: display, evidence'
+  actual:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v4'
+      query: "Review the study's evidence that a movable molecule display improved exam results; concentrate on allocation, attrition and alternative explanations rather than designing a class activity."
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+      0:
+        id: 'structured-output-contracts'
+        score: 46.791
+        reasons:
+          0: 'Matched: class, results'
+      1:
+        id: 'bounded-service-shutdown'
+        score: 41.708
+        reasons:
+          0: 'Matched: activity, evidence, review'
+      2:
+        id: 'user-research-and-usability-study'
+        score: 36.118
+        reasons:
+          0: 'Matched: study'
+      3:
+        id: 'eternities-athena'
+        score: 29.684
+        reasons:
+          0: 'Matched: evidence, study'
+      4:
+        id: 'eternities-atlas'
+        score: 28.605
+        reasons:
+          0: 'Matched: display, evidence'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/educational-discovery-revealed-v2.test.mjs:61:24)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: disclosed teaching regression E2-N02: production-simulator-operation
+not ok 59 - disclosed teaching regression E2-N02: production-simulator-operation
+  ---
+  duration_ms: 5.203
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\educational-discovery-revealed-v2.test.mjs:35:53'
+  failureType: 'testCodeFailure'
+  error: |-
+    Literal old negative/excluded/abstained projection changed on its frozen input
+    + actual - expected
+    
+      {
+        envelope: {
+          activation: 'none',
+          authority: 'none',
+    +     method: 'offline-lexical-intent-phrases-v4',
+    -     method: 'offline-lexical-intent-phrases-v3',
+          query: "Use the factory simulator's adjustable staffing inputs to find a feasible shift plan with the lowest overtime cost, and report the chosen settings.",
+          schema: 'eternities-godskills-discovery-v1',
+          selection: {
+            basis: 'host-requested-specialist-candidates',
+            state: 'review-required'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v3'
+      query: "Use the factory simulator's adjustable staffing inputs to find a feasible shift plan with the lowest overtime cost, and report the chosen settings."
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+      0:
+        id: 'eternities-atlas'
+        score: 41.243
+        reasons:
+          0: 'Matched: inputs, plan, report'
+      1:
+        id: 'counterbalanced-agent-evaluation'
+        score: 28.838
+        reasons:
+          0: 'Matched: cost, plan'
+      2:
+        id: 'app-store-discovery-experiments'
+        score: 28.11
+        reasons:
+          0: 'Matched: inputs, plan, report'
+      3:
+        id: 'eternities-agora'
+        score: 25.714
+        reasons:
+          0: 'Matched: plan, report'
+      4:
+        id: 'eternities-omnibus'
+        score: 23.849
+        reasons:
+          0: 'Matched: find, plan'
+  actual:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v4'
+      query: "Use the factory simulator's adjustable staffing inputs to find a feasible shift plan with the lowest overtime cost, and report the chosen settings."
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+      0:
+        id: 'eternities-atlas'
+        score: 41.243
+        reasons:
+          0: 'Matched: inputs, plan, report'
+      1:
+        id: 'counterbalanced-agent-evaluation'
+        score: 28.838
+        reasons:
+          0: 'Matched: cost, plan'
+      2:
+        id: 'app-store-discovery-experiments'
+        score: 28.11
+        reasons:
+          0: 'Matched: inputs, plan, report'
+      3:
+        id: 'eternities-agora'
+        score: 25.714
+        reasons:
+          0: 'Matched: plan, report'
+      4:
+        id: 'eternities-omnibus'
+        score: 23.849
+        reasons:
+          0: 'Matched: find, plan'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/educational-discovery-revealed-v2.test.mjs:61:24)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: disclosed teaching regression E2-N03: renderer-only-repair
+not ok 60 - disclosed teaching regression E2-N03: renderer-only-repair
+  ---
+  duration_ms: 4.7797
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\educational-discovery-revealed-v2.test.mjs:35:53'
+  failureType: 'testCodeFailure'
+  error: |-
+    Literal old negative/excluded/abstained projection changed on its frozen input
+    + actual - expected
+    ... Skipped lines
+    
+      {
+        envelope: {
+          activation: 'none',
+          authority: 'none',
+    +     method: 'offline-lexical-intent-phrases-v4',
+    -     method: 'offline-lexical-intent-phrases-v3',
+          query: "Fix the shader and rotation handles in the exhibit's existing interactive crystal scene; the educator's prompts and all explanatory rules must stay exactly as they are.",
+          schema: 'eternities-godskills-discovery-v1',
+          selection: {
+            basis: 'host-requested-specialist-candidates',
+            state: 'review-required'
+    ...
+          {
+    +       id: 'eternities-atlas',
+    -       id: 'eternities-arcadia',
+            reasons: [
+    +         'Matched: rules'
+    -         'Matched: scene'
+            ],
+            score: 22.984
+          }
+        ]
+      }
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v3'
+      query: "Fix the shader and rotation handles in the exhibit's existing interactive crystal scene; the educator's prompts and all explanatory rules must stay exactly as they are."
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+      0:
+        id: 'scene-continuity-and-coverage'
+        score: 45.968
+        reasons:
+          0: 'Matched: scene'
+      1:
+        id: 'bounded-parametric-design-iteration'
+        score: 36.763
+        reasons:
+          0: 'Matched: existing'
+      2:
+        id: 'fp-ts-functional-refactoring'
+        score: 31.84
+        reasons:
+          0: 'Matched: are, must'
+      3:
+        id: 'venture-falsification-and-planning'
+        score: 31.84
+        reasons:
+          0: 'Matched: are, must'
+      4:
+        id: 'eternities-arcadia'
+        score: 22.984
+        reasons:
+          0: 'Matched: scene'
+  actual:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v4'
+      query: "Fix the shader and rotation handles in the exhibit's existing interactive crystal scene; the educator's prompts and all explanatory rules must stay exactly as they are."
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+      0:
+        id: 'scene-continuity-and-coverage'
+        score: 45.968
+        reasons:
+          0: 'Matched: scene'
+      1:
+        id: 'bounded-parametric-design-iteration'
+        score: 36.763
+        reasons:
+          0: 'Matched: existing'
+      2:
+        id: 'fp-ts-functional-refactoring'
+        score: 31.84
+        reasons:
+          0: 'Matched: are, must'
+      3:
+        id: 'venture-falsification-and-planning'
+        score: 31.84
+        reasons:
+          0: 'Matched: are, must'
+      4:
+        id: 'eternities-atlas'
+        score: 22.984
+        reasons:
+          0: 'Matched: rules'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/educational-discovery-revealed-v2.test.mjs:61:24)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: disclosed teaching regression E2-N04: education-administration-summary
+not ok 61 - disclosed teaching regression E2-N04: education-administration-summary
+  ---
+  duration_ms: 4.8106
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\educational-discovery-revealed-v2.test.mjs:35:53'
+  failureType: 'testCodeFailure'
+  error: |-
+    Literal old negative/excluded/abstained projection changed on its frozen input
+    + actual - expected
+    
+      {
+        envelope: {
+          activation: 'none',
+          authority: 'none',
+    +     method: 'offline-lexical-intent-phrases-v4',
+    -     method: 'offline-lexical-intent-phrases-v3',
+          query: 'Summarize the workshop attendance sheet and reimbursement totals for the department chair; no changes to the workshop materials are requested.',
+          schema: 'eternities-godskills-discovery-v1',
+          selection: {
+            basis: 'host-requested-specialist-candidates',
+            state: 'review-required'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v3'
+      query: 'Summarize the workshop attendance sheet and reimbursement totals for the department chair; no changes to the workshop materials are requested.'
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+      0:
+        id: 'financial-statement-reconciliation'
+        score: 25.734
+        reasons:
+          0: 'Matched: sheet'
+      1:
+        id: 'diagnostic-statistical-model-inference'
+        score: 21.057
+        reasons:
+          0: 'Matched: are'
+      2:
+        id: 'fp-ts-functional-refactoring'
+        score: 21.057
+        reasons:
+          0: 'Matched: are'
+      3:
+        id: 'venture-falsification-and-planning'
+        score: 21.057
+        reasons:
+          0: 'Matched: are'
+      4:
+        id: 'interface-localization-and-bidirectionality'
+        score: 18.39
+        reasons:
+          0: 'Matched: changes'
+  actual:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v4'
+      query: 'Summarize the workshop attendance sheet and reimbursement totals for the department chair; no changes to the workshop materials are requested.'
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+      0:
+        id: 'financial-statement-reconciliation'
+        score: 25.734
+        reasons:
+          0: 'Matched: sheet'
+      1:
+        id: 'diagnostic-statistical-model-inference'
+        score: 21.057
+        reasons:
+          0: 'Matched: are'
+      2:
+        id: 'fp-ts-functional-refactoring'
+        score: 21.057
+        reasons:
+          0: 'Matched: are'
+      3:
+        id: 'venture-falsification-and-planning'
+        score: 21.057
+        reasons:
+          0: 'Matched: are'
+      4:
+        id: 'interface-localization-and-bidirectionality'
+        score: 18.39
+        reasons:
+          0: 'Matched: changes'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/educational-discovery-revealed-v2.test.mjs:61:24)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: disclosed teaching regression E2-N05: ordinary-static-teaching
+not ok 62 - disclosed teaching regression E2-N05: ordinary-static-teaching
+  ---
+  duration_ms: 4.089
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\educational-discovery-revealed-v2.test.mjs:35:53'
+  failureType: 'testCodeFailure'
+  error: |-
+    Literal old negative/excluded/abstained projection changed on its frozen input
+    + actual - expected
+    
+      {
+        envelope: {
+          activation: 'none',
+          authority: 'none',
+    +     method: 'offline-lexical-intent-phrases-v4',
+    -     method: 'offline-lexical-intent-phrases-v3',
+          query: 'Write a reading lesson on persuasive paragraphs with a short explanation, a static annotated example and three discussion questions.',
+          schema: 'eternities-godskills-discovery-v1',
+          selection: {
+            basis: 'host-requested-specialist-candidates',
+            state: 'review-required'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v3'
+      query: 'Write a reading lesson on persuasive paragraphs with a short explanation, a static annotated example and three discussion questions.'
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+      0:
+        id: 'eternities-logos'
+        score: 41.607
+        reasons:
+          0: 'Matched: article, canon, drafting, editorial, narrative, writing'
+      1:
+        id: 'eternities-daedalus'
+        score: 25.734
+        reasons:
+          0: 'Matched: write'
+      2:
+        id: 'evidence-linked-learning-design'
+        score: 25.734
+        reasons:
+          0: 'Matched: lesson'
+      3:
+        id: 'invariant-guard'
+        score: 25.734
+        reasons:
+          0: 'Matched: example'
+      4:
+        id: 'user-research-and-usability-study'
+        score: 21.057
+        reasons:
+          0: 'Matched: questions'
+  actual:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v4'
+      query: 'Write a reading lesson on persuasive paragraphs with a short explanation, a static annotated example and three discussion questions.'
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+      0:
+        id: 'eternities-logos'
+        score: 41.607
+        reasons:
+          0: 'Matched: article, canon, drafting, editorial, narrative, writing'
+      1:
+        id: 'eternities-daedalus'
+        score: 25.734
+        reasons:
+          0: 'Matched: write'
+      2:
+        id: 'evidence-linked-learning-design'
+        score: 25.734
+        reasons:
+          0: 'Matched: lesson'
+      3:
+        id: 'invariant-guard'
+        score: 25.734
+        reasons:
+          0: 'Matched: example'
+      4:
+        id: 'user-research-and-usability-study'
+        score: 21.057
+        reasons:
+          0: 'Matched: questions'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/educational-discovery-revealed-v2.test.mjs:61:24)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: disclosed teaching regression E2-N06: direct-refusal-current-alternative
+not ok 63 - disclosed teaching regression E2-N06: direct-refusal-current-alternative
+  ---
+  duration_ms: 4.7792
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\educational-discovery-revealed-v2.test.mjs:35:53'
+  failureType: 'testCodeFailure'
+  error: |-
+    Literal old negative/excluded/abstained projection changed on its frozen input
+    + actual - expected
+    
+      {
+        envelope: {
+          activation: 'none',
+          authority: 'none',
+    +     method: 'offline-lexical-intent-phrases-v4',
+    -     method: 'offline-lexical-intent-phrases-v3',
+          query: 'Do not prepare a learning exercise where apprentices alter a motor model to discover why its speed changes. I only need the notice withdrawing that proposed session.',
+          schema: 'eternities-godskills-discovery-v1',
+          selection: {
+            basis: 'host-requested-specialist-candidates',
+            state: 'review-required'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v3'
+      query: 'Do not prepare a learning exercise where apprentices alter a motor model to discover why its speed changes. I only need the notice withdrawing that proposed session.'
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+      0:
+        id: 'experiment-artifact-lineage'
+        score: 59.956
+        reasons:
+          0: 'Matched: learning, model, only'
+      1:
+        id: 'eternities-chorus'
+        score: 45.315
+        reasons:
+          0: 'Matched: notice, only'
+      2:
+        id: 'approval-bound-private-session-mining'
+        score: 40.439
+        reasons:
+          0: 'Matched: session'
+      3:
+        id: 'scientific-surrogate-validation'
+        score: 37.923
+        reasons:
+          0: 'Matched: learning, model, performance'
+      4:
+        id: 'evidence-linked-learning-design'
+        score: 30.77
+        reasons:
+          0: 'Matched: learning'
+  actual:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v4'
+      query: 'Do not prepare a learning exercise where apprentices alter a motor model to discover why its speed changes. I only need the notice withdrawing that proposed session.'
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+      0:
+        id: 'experiment-artifact-lineage'
+        score: 59.956
+        reasons:
+          0: 'Matched: learning, model, only'
+      1:
+        id: 'eternities-chorus'
+        score: 45.315
+        reasons:
+          0: 'Matched: notice, only'
+      2:
+        id: 'approval-bound-private-session-mining'
+        score: 40.439
+        reasons:
+          0: 'Matched: session'
+      3:
+        id: 'scientific-surrogate-validation'
+        score: 37.923
+        reasons:
+          0: 'Matched: learning, model, performance'
+      4:
+        id: 'evidence-linked-learning-design'
+        score: 30.77
+        reasons:
+          0: 'Matched: learning'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/educational-discovery-revealed-v2.test.mjs:61:24)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: disclosed teaching regression E2-N07: archived-quoted-assignment
+not ok 64 - disclosed teaching regression E2-N07: archived-quoted-assignment
+  ---
+  duration_ms: 4.7097
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\educational-discovery-revealed-v2.test.mjs:35:53'
+  failureType: 'testCodeFailure'
+  error: |-
+    Literal old negative/excluded/abstained projection changed on its frozen input
+    + actual - expected
+    
+      {
+        envelope: {
+          activation: 'none',
+          authority: 'none',
+    +     method: 'offline-lexical-intent-phrases-v4',
+    -     method: 'offline-lexical-intent-phrases-v3',
+          query: "Extract the deadline from this archived memo, not the activity it describes: 'By Friday, give the class a model of a rail junction they can switch around to explain why some routes become blocked.'",
+          schema: 'eternities-godskills-discovery-v1',
+          selection: {
+            basis: 'host-requested-specialist-candidates',
+            state: 'review-required'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v3'
+      query: "Extract the deadline from this archived memo, not the activity it describes: 'By Friday, give the class a model of a rail junction they can switch around to explain why some routes become blocked.'"
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+      0:
+        id: 'structured-output-contracts'
+        score: 46.529
+        reasons:
+          0: 'Matched: class, model'
+      1:
+        id: 'bounded-service-shutdown'
+        score: 25.734
+        reasons:
+          0: 'Matched: activity'
+      2:
+        id: 'eternities-agora'
+        score: 25.734
+        reasons:
+          0: 'Matched: memo'
+      3:
+        id: 'geospatial-coordinate-integrity'
+        score: 25.734
+        reasons:
+          0: 'Matched: not'
+      4:
+        id: 'diagnostic-statistical-model-inference'
+        score: 22.874
+        reasons:
+          0: 'Matched: model'
+  actual:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v4'
+      query: "Extract the deadline from this archived memo, not the activity it describes: 'By Friday, give the class a model of a rail junction they can switch around to explain why some routes become blocked.'"
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+      0:
+        id: 'structured-output-contracts'
+        score: 46.529
+        reasons:
+          0: 'Matched: class, model'
+      1:
+        id: 'bounded-service-shutdown'
+        score: 25.734
+        reasons:
+          0: 'Matched: activity'
+      2:
+        id: 'eternities-agora'
+        score: 25.734
+        reasons:
+          0: 'Matched: memo'
+      3:
+        id: 'geospatial-coordinate-integrity'
+        score: 25.734
+        reasons:
+          0: 'Matched: not'
+      4:
+        id: 'diagnostic-statistical-model-inference'
+        score: 22.874
+        reasons:
+          0: 'Matched: model'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/educational-discovery-revealed-v2.test.mjs:61:24)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: disclosed teaching regression E2-N08: past-teaching-intent-replaced
+not ok 65 - disclosed teaching regression E2-N08: past-teaching-intent-replaced
+  ---
+  duration_ms: 4.3023
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\educational-discovery-revealed-v2.test.mjs:35:53'
+  failureType: 'testCodeFailure'
+  error: |-
+    Literal old negative/excluded/abstained projection changed on its frozen input
+    + actual - expected
+    
+      {
+        envelope: {
+          activation: 'none',
+          authority: 'none',
+    +     method: 'offline-lexical-intent-phrases-v4',
+    -     method: 'offline-lexical-intent-phrases-v3',
+          query: 'Last term we intended to build an adjustable sunlight display so pupils could understand seasonal shadows. That project is closed; today draft the note returning its unused equipment.',
+          schema: 'eternities-godskills-discovery-v1',
+          selection: {
+            basis: 'host-requested-specialist-candidates',
+            state: 'review-required'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v3'
+      query: 'Last term we intended to build an adjustable sunlight display so pupils could understand seasonal shadows. That project is closed; today draft the note returning its unused equipment.'
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+      0:
+        id: 'voice-style-calibration'
+        score: 53.905
+        reasons:
+          0: 'Matched: draft, drafting, project, writing'
+      1:
+        id: 'eternities-logos'
+        score: 41.607
+        reasons:
+          0: 'Matched: article, canon, drafting, editorial, narrative, writing'
+      2:
+        id: 'eternities-atlas'
+        score: 38.419
+        reasons:
+          0: 'Matched: build, display, draft'
+      3:
+        id: 'api-rate-limit-recovery'
+        score: 30.027
+        reasons:
+          0: 'Matched: build, its'
+      4:
+        id: 'eternities-chorus'
+        score: 27.79
+        reasons:
+          0: 'Matched: draft, editorial'
+  actual:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v4'
+      query: 'Last term we intended to build an adjustable sunlight display so pupils could understand seasonal shadows. That project is closed; today draft the note returning its unused equipment.'
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+      0:
+        id: 'voice-style-calibration'
+        score: 53.905
+        reasons:
+          0: 'Matched: draft, drafting, project, writing'
+      1:
+        id: 'eternities-logos'
+        score: 41.607
+        reasons:
+          0: 'Matched: article, canon, drafting, editorial, narrative, writing'
+      2:
+        id: 'eternities-atlas'
+        score: 38.419
+        reasons:
+          0: 'Matched: build, display, draft'
+      3:
+        id: 'api-rate-limit-recovery'
+        score: 30.027
+        reasons:
+          0: 'Matched: build, its'
+      4:
+        id: 'eternities-chorus'
+        score: 27.79
+        reasons:
+          0: 'Matched: draft, editorial'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/educational-discovery-revealed-v2.test.mjs:61:24)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: disclosed teaching regression E2-N09: trainee-audience-validation-only
+not ok 66 - disclosed teaching regression E2-N09: trainee-audience-validation-only
+  ---
+  duration_ms: 3.9606
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\educational-discovery-revealed-v2.test.mjs:35:53'
+  failureType: 'testCodeFailure'
+  error: |-
+    Literal old negative/excluded/abstained projection changed on its frozen input
+    + actual - expected
+    
+      {
+        envelope: {
+          activation: 'none',
+          authority: 'none',
+    +     method: 'offline-lexical-intent-phrases-v4',
+    -     method: 'offline-lexical-intent-phrases-v3',
+          query: "We're choosing a route-planning engine for a logistics course. The immediate job is to audit its error rates against the supplied benchmark, not to devise an exercise for the trainees.",
+          schema: 'eternities-godskills-discovery-v1',
+          selection: {
+            basis: 'host-requested-specialist-candidates',
+            state: 'review-required'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v3'
+      query: "We're choosing a route-planning engine for a logistics course. The immediate job is to audit its error rates against the supplied benchmark, not to devise an exercise for the trainees."
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+      0:
+        id: 'evidence-linked-learning-design'
+        score: 51.01
+        reasons:
+          0: 'Matched: course, planning, supplied'
+      1:
+        id: 'completeness-and-consistency-audit'
+        score: 44.409
+        reasons:
+          0: 'Matched: against, audit'
+      2:
+        id: 'eternities-prometheus'
+        score: 35.878
+        reasons:
+          0: 'Matched: planning, route'
+      3:
+        id: 'eternities-logos'
+        score: 26.271
+        reasons:
+          0: 'Matched: supplied'
+      4:
+        id: 'api-rate-limit-recovery'
+        score: 25.734
+        reasons:
+          0: 'Matched: its'
+  actual:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v4'
+      query: "We're choosing a route-planning engine for a logistics course. The immediate job is to audit its error rates against the supplied benchmark, not to devise an exercise for the trainees."
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+      0:
+        id: 'evidence-linked-learning-design'
+        score: 51.01
+        reasons:
+          0: 'Matched: course, planning, supplied'
+      1:
+        id: 'completeness-and-consistency-audit'
+        score: 44.409
+        reasons:
+          0: 'Matched: against, audit'
+      2:
+        id: 'eternities-prometheus'
+        score: 35.878
+        reasons:
+          0: 'Matched: planning, route'
+      3:
+        id: 'eternities-logos'
+        score: 26.271
+        reasons:
+          0: 'Matched: supplied'
+      4:
+        id: 'api-rate-limit-recovery'
+        score: 25.734
+        reasons:
+          0: 'Matched: its'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/educational-discovery-revealed-v2.test.mjs:61:24)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: disclosed teaching regression E2-C01: explicit-no-need
+not ok 67 - disclosed teaching regression E2-C01: explicit-no-need
+  ---
+  duration_ms: 0.238
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\educational-discovery-revealed-v2.test.mjs:35:53'
+  failureType: 'testCodeFailure'
+  error: |-
+    Literal old negative/excluded/abstained projection changed on its frozen input
+    + actual - expected
+    
+      {
+        envelope: {
+          abstentionReason: 'host-supplied-no-need',
+          activation: 'none',
+          authority: 'none',
+    +     method: 'offline-lexical-intent-phrases-v4',
+    -     method: 'offline-lexical-intent-phrases-v3',
+          query: 'Give apprentices a pulley-board investigation where they reroute the cord, compare the load response and explain the tradeoff between distance and force.',
+          schema: 'eternities-godskills-discovery-v1',
+          selection: {
+            basis: 'host-supplied-no-need',
+            state: 'abstain'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v3'
+      query: 'Give apprentices a pulley-board investigation where they reroute the cord, compare the load response and explain the tradeoff between distance and force.'
+      abstentionReason: 'host-supplied-no-need'
+      selection:
+        state: 'abstain'
+        basis: 'host-supplied-no-need'
+    results:
+  actual:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v4'
+      query: 'Give apprentices a pulley-board investigation where they reroute the cord, compare the load response and explain the tradeoff between distance and force.'
+      selection:
+        state: 'abstain'
+        basis: 'host-supplied-no-need'
+      abstentionReason: 'host-supplied-no-need'
+    results:
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/educational-discovery-revealed-v2.test.mjs:61:24)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: disclosed teaching regression E2-C02: category-exclusion
+not ok 68 - disclosed teaching regression E2-C02: category-exclusion
+  ---
+  duration_ms: 2.0779
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\educational-discovery-revealed-v2.test.mjs:35:53'
+  failureType: 'testCodeFailure'
+  error: |-
+    Literal old negative/excluded/abstained projection changed on its frozen input
+    + actual - expected
+    
+      {
+        envelope: {
+          activation: 'none',
+          authority: 'none',
+    +     method: 'offline-lexical-intent-phrases-v4',
+    -     method: 'offline-lexical-intent-phrases-v3',
+          query: 'Plan a novice electricity activity where learners rearrange branches in a circuit diagram, observe which lamps remain connected, and explain the difference between series and parallel paths.',
+          schema: 'eternities-godskills-discovery-v1',
+          selection: {
+            basis: 'host-requested-specialist-candidates',
+            state: 'review-required'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v3'
+      query: 'Plan a novice electricity activity where learners rearrange branches in a circuit diagram, observe which lamps remain connected, and explain the difference between series and parallel paths.'
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+  actual:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v4'
+      query: 'Plan a novice electricity activity where learners rearrange branches in a circuit diagram, observe which lamps remain connected, and explain the difference between series and parallel paths.'
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/educational-discovery-revealed-v2.test.mjs:61:24)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: disclosed teaching regression E2-C03: task-type-exclusion
+not ok 69 - disclosed teaching regression E2-C03: task-type-exclusion
+  ---
+  duration_ms: 2.2554
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\educational-discovery-revealed-v2.test.mjs:35:53'
+  failureType: 'testCodeFailure'
+  error: |-
+    Literal old negative/excluded/abstained projection changed on its frozen input
+    + actual - expected
+    
+      {
+        envelope: {
+          activation: 'none',
+          authority: 'none',
+    +     method: 'offline-lexical-intent-phrases-v4',
+    -     method: 'offline-lexical-intent-phrases-v3',
+          query: 'Create a printmaking exercise where students overlay colored transparencies in several orders and account for the colors produced in the overlapping regions.',
+          schema: 'eternities-godskills-discovery-v1',
+          selection: {
+            basis: 'host-requested-specialist-candidates',
+            state: 'review-required'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v3'
+      query: 'Create a printmaking exercise where students overlay colored transparencies in several orders and account for the colors produced in the overlapping regions.'
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+      0:
+        id: 'memory-retention-and-recovery'
+        score: 1.62
+        reasons:
+          0: 'Matched: create'
+      1:
+        id: 'portable-speech-chunk-alignment'
+        score: 1.62
+        reasons:
+          0: 'Matched: create'
+  actual:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v4'
+      query: 'Create a printmaking exercise where students overlay colored transparencies in several orders and account for the colors produced in the overlapping regions.'
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+      0:
+        id: 'memory-retention-and-recovery'
+        score: 1.62
+        reasons:
+          0: 'Matched: create'
+      1:
+        id: 'portable-speech-chunk-alignment'
+        score: 1.62
+        reasons:
+          0: 'Matched: create'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/educational-discovery-revealed-v2.test.mjs:61:24)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: disclosed teaching regression E2-C04: eligible-category-filter
+ok 70 - disclosed teaching regression E2-C04: eligible-category-filter
+  ---
+  duration_ms: 0.9612
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-C05: literal-protected-anti-trigger
+not ok 71 - disclosed teaching regression E2-C05: literal-protected-anti-trigger
+  ---
+  duration_ms: 5.2836
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\educational-discovery-revealed-v2.test.mjs:35:53'
+  failureType: 'testCodeFailure'
+  error: |-
+    Literal old negative/excluded/abstained projection changed on its frozen input
+    + actual - expected
+    
+      {
+        envelope: {
+          activation: 'none',
+          authority: 'none',
+    +     method: 'offline-lexical-intent-phrases-v4',
+    -     method: 'offline-lexical-intent-phrases-v3',
+          query: "The compliance note reads 'Professional certification or guaranteed outcomes without appropriate evidence and qualified review'. Separately, design a learner-controlled rail-switching exercise to explain why a chosen track layout creates a dead end.",
+          schema: 'eternities-godskills-discovery-v1',
+          selection: {
+            basis: 'host-requested-specialist-candidates',
+            state: 'review-required'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v3'
+      query: "The compliance note reads 'Professional certification or guaranteed outcomes without appropriate evidence and qualified review'. Separately, design a learner-controlled rail-switching exercise to explain why a chosen track layout creates a dead end."
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+      0:
+        id: 'interface-localization-and-bidirectionality'
+        score: 61.365
+        reasons:
+          0: 'Matched: design, interface, layout, review'
+      1:
+        id: 'eternities-daedalus'
+        score: 39.389
+        reasons:
+          0: 'Matched: design, end, evidence'
+      2:
+        id: 'columnar-ingestion-rollup-and-query-layout-design'
+        score: 37.571
+        reasons:
+          0: 'Matched: design, evidence, layout'
+      3:
+        id: 'formula-preserving-workbook-engineering'
+        score: 36.387
+        reasons:
+          0: 'Matched: review, visual, without'
+      4:
+        id: 'eternities-logos'
+        score: 33.184
+        reasons:
+          0: 'Matched: evidence, review, visual'
+  actual:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v4'
+      query: "The compliance note reads 'Professional certification or guaranteed outcomes without appropriate evidence and qualified review'. Separately, design a learner-controlled rail-switching exercise to explain why a chosen track layout creates a dead end."
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+      0:
+        id: 'interface-localization-and-bidirectionality'
+        score: 61.365
+        reasons:
+          0: 'Matched: design, interface, layout, review'
+      1:
+        id: 'eternities-daedalus'
+        score: 39.389
+        reasons:
+          0: 'Matched: design, end, evidence'
+      2:
+        id: 'columnar-ingestion-rollup-and-query-layout-design'
+        score: 37.571
+        reasons:
+          0: 'Matched: design, evidence, layout'
+      3:
+        id: 'formula-preserving-workbook-engineering'
+        score: 36.387
+        reasons:
+          0: 'Matched: review, visual, without'
+      4:
+        id: 'eternities-logos'
+        score: 33.184
+        reasons:
+          0: 'Matched: evidence, review, visual'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/educational-discovery-revealed-v2.test.mjs:61:24)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: disclosed teaching regression E2-M01: education-and-scientific-validation
+ok 72 - disclosed teaching regression E2-M01: education-and-scientific-validation
+  ---
+  duration_ms: 2.2679
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-M02: education-and-accessibility-engineering
+ok 73 - disclosed teaching regression E2-M02: education-and-accessibility-engineering
+  ---
+  duration_ms: 2.5958
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-M03: public-exhibit-purpose-unresolved
+ok 74 - disclosed teaching regression E2-M03: public-exhibit-purpose-unresolved
+  ---
+  duration_ms: 2.0291
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-M04: conditional-secondary-learning-subtask
+ok 75 - disclosed teaching regression E2-M04: conditional-secondary-learning-subtask
+  ---
+  duration_ms: 2.8814
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression F4-P01: grammar-reorderable-sentence
+ok 76 - disclosed teaching regression F4-P01: grammar-reorderable-sentence
+  ---
+  duration_ms: 2.3497
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression F4-P02: journalism-editable-framing
+ok 77 - disclosed teaching regression F4-P02: journalism-editable-framing
+  ---
+  duration_ms: 2.6682
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression F4-P03: logic-switchable-truth-board
+ok 78 - disclosed teaching regression F4-P03: logic-switchable-truth-board
+  ---
+  duration_ms: 2.2046
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression F4-P04: photography-aperture-exploration
+ok 79 - disclosed teaching regression F4-P04: photography-aperture-exploration
+  ---
+  duration_ms: 2.1245
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression F4-N01: training-model-reliability-only
+not ok 80 - disclosed teaching regression F4-N01: training-model-reliability-only
+  ---
+  duration_ms: 4.3269
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\educational-discovery-revealed-v2.test.mjs:35:53'
+  failureType: 'testCodeFailure'
+  error: |-
+    Literal old negative/excluded/abstained projection changed on its frozen input
+    + actual - expected
+    
+      {
+        envelope: {
+          activation: 'none',
+          authority: 'none',
+    +     method: 'offline-lexical-intent-phrases-v4',
+    -     method: 'offline-lexical-intent-phrases-v3',
+          query: 'Audit the reliability of the causal-feedback module in our engineering training simulator. The training content is frozen; the requested deliverable is an error-rate comparison against the supplied benchmark, not a new learner activity.',
+          schema: 'eternities-godskills-discovery-v1',
+          selection: {
+            basis: 'host-requested-specialist-candidates',
+            state: 'review-required'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v3'
+      query: 'Audit the reliability of the causal-feedback module in our engineering training simulator. The training content is frozen; the requested deliverable is an error-rate comparison against the supplied benchmark, not a new learner activity.'
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+      0:
+        id: 'completeness-and-consistency-audit'
+        score: 70.143
+        reasons:
+          0: 'Matched: against, audit, deliverable'
+      1:
+        id: 'audio-dsp-integrity-review'
+        score: 45.968
+        reasons:
+          0: 'Matched: feedback, rate'
+      2:
+        id: 'eternities-forge'
+        score: 42.935
+        reasons:
+          0: 'Matched: engineering, feedback'
+      3:
+        id: 'evidence-linked-learning-design'
+        score: 41.894
+        reasons:
+          0: 'Matched: learner, supplied, training'
+      4:
+        id: 'api-rate-limit-recovery'
+        score: 37.931
+        reasons:
+          0: 'Matched: engineering, rate'
+  actual:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v4'
+      query: 'Audit the reliability of the causal-feedback module in our engineering training simulator. The training content is frozen; the requested deliverable is an error-rate comparison against the supplied benchmark, not a new learner activity.'
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+      0:
+        id: 'completeness-and-consistency-audit'
+        score: 70.143
+        reasons:
+          0: 'Matched: against, audit, deliverable'
+      1:
+        id: 'audio-dsp-integrity-review'
+        score: 45.968
+        reasons:
+          0: 'Matched: feedback, rate'
+      2:
+        id: 'eternities-forge'
+        score: 42.935
+        reasons:
+          0: 'Matched: engineering, feedback'
+      3:
+        id: 'evidence-linked-learning-design'
+        score: 41.894
+        reasons:
+          0: 'Matched: learner, supplied, training'
+      4:
+        id: 'api-rate-limit-recovery'
+        score: 37.931
+        reasons:
+          0: 'Matched: engineering, rate'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/educational-discovery-revealed-v2.test.mjs:61:24)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: disclosed teaching regression F4-N02: refused-workshop-current-notice
+not ok 81 - disclosed teaching regression F4-N02: refused-workshop-current-notice
+  ---
+  duration_ms: 4.1422
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\educational-discovery-revealed-v2.test.mjs:35:53'
+  failureType: 'testCodeFailure'
+  error: |-
+    Literal old negative/excluded/abstained projection changed on its frozen input
+    + actual - expected
+    
+      {
+        envelope: {
+          activation: 'none',
+          authority: 'none',
+    +     method: 'offline-lexical-intent-phrases-v4',
+    -     method: 'offline-lexical-intent-phrases-v3',
+          query: "Don't develop the workshop where apprentices rearrange a gear model to explain how its output changes. Write the postponement notice instead, and leave the workshop materials alone.",
+          schema: 'eternities-godskills-discovery-v1',
+          selection: {
+            basis: 'host-requested-specialist-candidates',
+            state: 'review-required'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v3'
+      query: "Don't develop the workshop where apprentices rearrange a gear model to explain how its output changes. Write the postponement notice instead, and leave the workshop materials alone."
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+      0:
+        id: 'structured-output-contracts'
+        score: 51.565
+        reasons:
+          0: 'Matched: model, output'
+      1:
+        id: 'eternities-logos'
+        score: 41.607
+        reasons:
+          0: 'Matched: article, canon, drafting, editorial, narrative, writing'
+      2:
+        id: 'eternities-chorus'
+        score: 38.838
+        reasons:
+          0: 'Matched: draft, editorial, notice'
+      3:
+        id: 'imaginative-concept-development'
+        score: 36.763
+        reasons:
+          0: 'Matched: develop'
+      4:
+        id: 'eternities-daedalus'
+        score: 33.615
+        reasons:
+          0: 'Matched: changes, write'
+  actual:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v4'
+      query: "Don't develop the workshop where apprentices rearrange a gear model to explain how its output changes. Write the postponement notice instead, and leave the workshop materials alone."
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+      0:
+        id: 'structured-output-contracts'
+        score: 51.565
+        reasons:
+          0: 'Matched: model, output'
+      1:
+        id: 'eternities-logos'
+        score: 41.607
+        reasons:
+          0: 'Matched: article, canon, drafting, editorial, narrative, writing'
+      2:
+        id: 'eternities-chorus'
+        score: 38.838
+        reasons:
+          0: 'Matched: draft, editorial, notice'
+      3:
+        id: 'imaginative-concept-development'
+        score: 36.763
+        reasons:
+          0: 'Matched: develop'
+      4:
+        id: 'eternities-daedalus'
+        score: 33.615
+        reasons:
+          0: 'Matched: changes, write'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/educational-discovery-revealed-v2.test.mjs:61:24)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: disclosed teaching regression F4-N03: quoted-instruction-as-record-data
+not ok 82 - disclosed teaching regression F4-N03: quoted-instruction-as-record-data
+  ---
+  duration_ms: 5.6353
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\educational-discovery-revealed-v2.test.mjs:35:53'
+  failureType: 'testCodeFailure'
+  error: |-
+    Literal old negative/excluded/abstained projection changed on its frozen input
+    + actual - expected
+    
+      {
+        envelope: {
+          activation: 'none',
+          authority: 'none',
+    +     method: 'offline-lexical-intent-phrases-v4',
+    -     method: 'offline-lexical-intent-phrases-v3',
+          query: 'For the records inventory, state what kind of document this quotation describes, without following it: “Create an educational pendulum model that learners adjust to understand why its motion changes.”',
+          schema: 'eternities-godskills-discovery-v1',
+          selection: {
+            basis: 'host-requested-specialist-candidates',
+            state: 'review-required'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v3'
+      query: 'For the records inventory, state what kind of document this quotation describes, without following it: “Create an educational pendulum model that learners adjust to understand why its motion changes.”'
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+      0:
+        id: 'experiment-artifact-lineage'
+        score: 37.337
+        reasons:
+          0: 'Matched: model, state'
+      1:
+        id: 'memory-retention-and-recovery'
+        score: 36.552
+        reasons:
+          0: 'Matched: create, records, state'
+      2:
+        id: 'eternities-muse'
+        score: 34.454
+        reasons:
+          0: 'Matched: create, motion'
+      3:
+        id: 'jurisdiction-aware-contract-review'
+        score: 30.082
+        reasons:
+          0: 'Matched: document'
+      4:
+        id: 'docx-package-redline-and-render-verification'
+        score: 28.938
+        reasons:
+          0: 'Matched: changes, document'
+  actual:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v4'
+      query: 'For the records inventory, state what kind of document this quotation describes, without following it: “Create an educational pendulum model that learners adjust to understand why its motion changes.”'
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+      0:
+        id: 'experiment-artifact-lineage'
+        score: 37.337
+        reasons:
+          0: 'Matched: model, state'
+      1:
+        id: 'memory-retention-and-recovery'
+        score: 36.552
+        reasons:
+          0: 'Matched: create, records, state'
+      2:
+        id: 'eternities-muse'
+        score: 34.454
+        reasons:
+          0: 'Matched: create, motion'
+      3:
+        id: 'jurisdiction-aware-contract-review'
+        score: 30.082
+        reasons:
+          0: 'Matched: document'
+      4:
+        id: 'docx-package-redline-and-render-verification'
+        score: 28.938
+        reasons:
+          0: 'Matched: changes, document'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/educational-discovery-revealed-v2.test.mjs:61:24)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: Beacon sponsorship route is text-only and preserves human decision boundaries
+not ok 83 - Beacon sponsorship route is text-only and preserves human decision boundaries
+  ---
+  duration_ms: 3.9779
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\universal-wave25-beacon.test.mjs:9:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    + actual - expected
+    
+    + 'creator campaign slate feasibility with quoted usage fees and deliverable coverage'
+    - 'creator sponsorship obligation tracking with dated evidence'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 'creator sponsorship obligation tracking with dated evidence'
+  actual: 'creator campaign slate feasibility with quoted usage fees and deliverable coverage'
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/universal-wave25-beacon.test.mjs:15:10)
+    async Test.run (node:internal/test_runner/test:1332:7)
+    async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3)
+  ...
+# Subtest: creator sponsorship discovers Beacon but does not activate an external action
+ok 84 - creator sponsorship discovers Beacon but does not activate an external action
+  ---
+  duration_ms: 11.3695
+  type: 'test'
+  ...
+1..84
+# tests 84
+# suites 0
+# pass 58
+# fail 26
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 314.9265

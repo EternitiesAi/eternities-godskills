@@ -1,0 +1,147 @@
+{
+  "schema": "cohesive-method-review-collation-v1",
+  "status": "independently-document-reviewed",
+  "authority": "none",
+  "activation": "none",
+  "scope": "Parent collation of separate non-author instruction reviews, not a new independent review, source-rights clearance or performance qualification.",
+  "reviewers": {
+    "a": "Nietzsche, not A author",
+    "b": "Dirac, not B author",
+    "d": "Laplace, not D author"
+  },
+  "methodBindings": [
+    {
+      "path": "product/skills/eternities-prometheus/references/commercial-driver-diagnosis-v1.md",
+      "sha256": "bdd16ac74bb01c88864e6d76080fd05d833eb9be1324322f27aaaec8350165f2",
+      "independentLane": "a"
+    },
+    {
+      "path": "product/skills/eternities-beacon/references/positioning-to-message-v1.md",
+      "sha256": "57da15f76572e5af9dde41cf4c5703d83f045cbb701b0284dfcd45d8e46c94d8",
+      "independentLane": "a"
+    },
+    {
+      "path": "product/skills/eternities-muse/references/art-direction-to-layout-v1.md",
+      "sha256": "893b09898d51cf5bfcca7d0efa88d239466e04a7c6a68152d4158aab5fa2a140",
+      "independentLane": "a"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/core-loop-playtest-v1.md",
+      "sha256": "305e082e9e3d57729fe10e4ad9865b1468333e661f7530469ef17a70fc07490a",
+      "independentLane": "a"
+    },
+    {
+      "path": "product/skills/eternities-orpheus/references/supplied-audio-editorial-mix-v1.md",
+      "sha256": "d52e3ecffe5e6134cc43f2296ed4c8e48963af8f02f513b605c5a7527ac6c1d9",
+      "independentLane": "a"
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/references/practice-and-transfer-v1.md",
+      "sha256": "8625e567db5d4f68c267bd4743e555885115fabcbd253b67f768e2031826aa9f",
+      "independentLane": "a"
+    },
+    {
+      "path": "product/skills/voice-style-calibration/references/contrastive-calibration-v1.md",
+      "sha256": "dc51820a975a4f6f1c75f69c70f96f7204b864cd662faf4516a9b1a71d2b7c40",
+      "independentLane": "a"
+    },
+    {
+      "path": "product/skills/eternities-phoenix/references/diagnostic-experiments-v2.md",
+      "sha256": "0e90cd104135546419a996f0d1c0acd1e57f21ecc5c463225f9d86e7adfec227",
+      "independentLane": "b"
+    },
+    {
+      "path": "product/skills/eternities-beacon/references/creator-slate-feasibility-v1.md",
+      "sha256": "b1ab3ac4a2570311de7139e605e23cb8bfe122d89d578578288c1b1c8ed34dc1",
+      "independentLane": "d"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md",
+      "sha256": "a1b65d62b70a689b3e7b1c06871588e4763a04d3987b9d5c833d5b3c7b6da52a",
+      "independentLane": "d"
+    },
+    {
+      "path": "product/skills/diagnostic-statistical-model-inference/references/causal-design-before-estimation-v1.md",
+      "sha256": "9fd7004a3aefc4daf074dde37dea7d5a2b6fb1024ff4ae3c19461d5e89b24918",
+      "independentLane": "d"
+    },
+    {
+      "path": "product/skills/service-observability-and-slo-design/references/telemetry-cardinality-budget-v1.md",
+      "sha256": "c429085c14122d5a6f6b8e42328c0f944ef03f4db0a7cd669e64bcd19937b650",
+      "independentLane": "d"
+    },
+    {
+      "path": "product/skills/narrative-structure-and-revision/references/reader-knowledge-and-reveal-revision-v1.md",
+      "sha256": "8b8262deffa3e0bedce4fd330e899ed84ea5361cef34b5543cd09cc27002390a",
+      "independentLane": "d"
+    }
+  ],
+  "evidence": [
+    {
+      "file": "a-review.md",
+      "sha256": "d91eafa3d74cd3d9856464bd1ab8043a7be80727cc3f79ce2c2f454c33edb228",
+      "repositorySource": "review-a-v3-nietzsche/REVIEW.md"
+    },
+    {
+      "file": "a-bindings.json",
+      "sha256": "efb29a48638342195e80980a73951ad3c10edfc0b3de0fa30a90b126243eaa4f",
+      "repositorySource": "review-a-v3-nietzsche/supplemental-final-bind.json"
+    },
+    {
+      "file": "b-review.md",
+      "sha256": "2f148ca861424539538a2dfe3604310f6827b292c7660e7b276d3b9eeb997509",
+      "repositorySource": "review-b-dirac/review.md"
+    },
+    {
+      "file": "b-decision.json",
+      "sha256": "d67440fa7ddf26730b11482373f2879900acb6abae7ee64852c91c432d9eafc0",
+      "repositorySource": "review-b-dirac/decision.json"
+    },
+    {
+      "file": "d-review.md",
+      "sha256": "004344af92fab0f4a5ff09efb97da191faae8218ce467bc591ce7a76763d0383",
+      "repositorySource": "review-d-laplace/REVIEW.md"
+    },
+    {
+      "file": "d-original-repair.json",
+      "sha256": "46f8c779cad5ba18c212edc55f46c1a721a87224dbebc64b91eeb2b6e59e03b1",
+      "repositorySource": "review-d-laplace/review.json"
+    },
+    {
+      "file": "d-repair-recheck.json",
+      "sha256": "238ccd49ce1c02af5858560b4ed9d33964c81f3338fdcd80f951539abf93b16e",
+      "repositorySource": "review-d-laplace/repair-recheck-v1.json"
+    },
+    {
+      "file": "d-owner-bindings.json",
+      "sha256": "602fd7926c200a50b39e8a3badba440de1cb167d104b5a78bc95f40706afe8a8",
+      "repositorySource": "review-d-laplace/owner-metadata-supplement-v2.json"
+    },
+    {
+      "file": "a-final-review.md",
+      "sha256": "c2841eed24c0bffc9434f712bb01cd6d11207c57d84c3a0ade5d620feb182e20",
+      "repositorySource": "review-a-final-nietzsche/REVIEW.md"
+    },
+    {
+      "file": "a-final-decision.json",
+      "sha256": "18763bec98cb63df3a77640c0ba2b78ed010a29704a7333b114e8dc0c2b96868",
+      "repositorySource": "review-a-final-nietzsche/review.json"
+    },
+    {
+      "file": "a-final-bindings.json",
+      "sha256": "9e2fadf404010805a45021057b31f29b3f147012250a2004b0d655f79de36369",
+      "repositorySource": "review-a-final-nietzsche/final-bind.json"
+    }
+  ],
+  "limits": [
+    "Three fictional consumer applications are reported separately.",
+    "Prior negative findings remain in repository evidence.",
+    "Digests establish byte identity, not reviewer identity or truth."
+  ],
+  "finalAClosure": {
+    "decision": "READY",
+    "decisionFile": "a-final-decision.json",
+    "bindingFile": "a-final-bindings.json",
+    "scope": "Final A-R2-B closure on fixed 27-case set; seven A bodies and original routes retain prior bounded acceptance at unchanged hashes"
+  }
+}

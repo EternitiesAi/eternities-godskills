@@ -30,6 +30,30 @@ Exclude secrets, incidental personal details, raw conversation replay, and mater
 4. If a correction or superseding decision is supported, record what changed, why, when, and which conclusions or artifacts depend on it. Mark the old state superseded or invalid for the affected scope; do not silently erase history needed to explain prior work.
 5. Before retrying an action whose completion is uncertain, inspect its current status through the authorized host. If that status cannot be checked, report it as unknown and do not claim success or repeat a consequential action on assumption alone. Continue only work independent of that uncertainty.
 
+## Recover a missing or incomplete checkpoint
+
+Start with the current request and supplied continuation, then the exact saved
+record or index entry, then the named artifact and its relevant history. Expand
+only for a missing fact that changes the next action. Distinguish no matching
+record, unavailable access, truncated content, a broken pointer and a stale
+record; they require different remedies. A failed index lookup is not proof
+that the underlying artifact was deleted. Check the known authorized location
+before broadening a search, and never bypass a denied source through a copy.
+
+Reconstruct recoverable state from current artifacts and receipts. Separate
+what exists now from why it was chosen: code can show a completed change while
+its old rationale remains unknown. Refresh volatile facts such as owners,
+running operations and source versions before relying on them; an unaffected
+design rationale need not trigger a full archive replay. Continue an authorized
+reversible action when the missing historical detail cannot change it. Hold
+only the action that depends on unresolved authority, conflict or effect state.
+
+If the user asked for native conversation history, verify that the host restored
+that history and made it available to the intended consumer. A reconstructed
+summary can support continuation, but must be described as a summary. Do not
+claim recovered messages, hidden context or a successful import from a checkpoint
+alone.
+
 ## Checkpoint, storage, and finish
 
 Checkpoint actual state at a real interruption or handoff: what was verified, what was not done, what remains uncertain or in flight, current artifact/source versions, the next safe action, and the condition that would invalidate the checkpoint. When retention is requested and permitted, save the compact packet through the actual authorized host store. Record the checkpoint's own locator or identity and the observed save outcome. Establish retention from a reliable save receipt or retrieval when available; merely preparing text does not persist it.

@@ -21,6 +21,8 @@ Record each feature with the sample context that supports it and a confidence la
 
 ## Adapt without semantic drift
 
+When a recurring voice profile needs actionable editing rules, or an adaptation feels exaggerated, use [contrastive calibration](references/contrastive-calibration-v1.md). It compares meaning-preserving alternatives and checks whether a trait transfers to a fresh passage or register.
+
 1. Make a compact meaning skeleton before revising: claims, names, quantities, dates, uncertainty, attribution, promises, and requested action. Keep unresolved facts visible.
 2. Select only the profile features relevant to this reader and channel. Adapt form, pace, and diction; do not add claims, emotional stance, certainty, or intimacy merely because they sound characteristic.
 3. Draft, then check the result twice: compare every factual or modal change with the meaning skeleton, and check whether each voice choice fits this register without exaggerating a signature trait.

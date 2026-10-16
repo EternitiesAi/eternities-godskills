@@ -5,7 +5,9 @@
   "triggers": [
     "A statistical model needs diagnostics before coefficients or predictions are interpreted.",
     "A conclusion may change under plausible specifications or influential observations.",
-    "An evidence report needs an explicit estimand, uncertainty ledger, and claim boundary."
+    "An evidence report needs an explicit estimand, uncertainty ledger, and claim boundary.",
+    "causal treatment-effect design from assignment mechanism",
+    "policy intervention estimand and comparison-group identification"
   ],
   "antiTriggers": [
     "Claim causality without an identification design.",
@@ -24,7 +26,9 @@
     "physics-constrained-numerical-validation",
     "venture-falsification-and-planning"
   ],
-  "resources": [],
+  "resources": [
+    "references/causal-design-before-estimation-v1.md"
+  ],
   "maturity": "instruction-reviewed",
   "provenance": [
     {
@@ -41,6 +45,26 @@
       "kind": "historical-provenance",
       "source": "skills/diagnostic-statistical-model-inference/references/provenance.json",
       "note": "Ownership and evidence boundaries were consulted; no model or domain conclusion is asserted."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "xiaomihu1992/econometrics-skill@f2cd97678e56cf8606a30f3e54dfe35365d31126:SKILL.md",
+      "note": "Exact body SHA-256 5ecbba9c45698b43c61e77834c6a91f3cd50e4f7f9149af2c3121ec27e5aa9b3. Selected mechanism informed the original causal-design-before-estimation method; source prose, code, host orchestration and universal prescriptions were not copied. Root notices are retained in the source snapshot; no broader rights or outcome certification."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "xiaomihu1992/econometrics-skill@f2cd97678e56cf8606a30f3e54dfe35365d31126:references/method_selection.md",
+      "note": "Exact body SHA-256 1249e9fef22757f7c96fc25370744c1bf4a3c8725bdb27787900140f58e0614f. Selected mechanism informed the original causal-design-before-estimation method; source prose, code, host orchestration and universal prescriptions were not copied. Root notices are retained in the source snapshot; no broader rights or outcome certification."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "xiaomihu1992/econometrics-skill@f2cd97678e56cf8606a30f3e54dfe35365d31126:references/diagnostic_checklist.md",
+      "note": "Exact body SHA-256 400a50ae0458e25982c4d93733b057a3ff6b83e9a4fc645034592f52578badf7. Selected mechanism informed the original causal-design-before-estimation method; source prose, code, host orchestration and universal prescriptions were not copied. Root notices are retained in the source snapshot; no broader rights or outcome certification."
+    },
+    {
+      "kind": "authoring",
+      "source": "product/skills/diagnostic-statistical-model-inference/references/causal-design-before-estimation-v1.md",
+      "note": "Original portable synthesis and worked example. Source-level dispositions and notices are retained in the October 15 cohort evidence. Separate release review does not certify campaign, runtime, causal, operational-cost or reader outcomes."
     }
   ],
   "specializes": "eternities-athena"

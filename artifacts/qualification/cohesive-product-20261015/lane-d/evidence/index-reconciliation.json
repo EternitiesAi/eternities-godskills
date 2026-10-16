@@ -1,0 +1,53 @@
+{
+  "frozen": {
+    "path": "D:/03-ARSENAL/warehouse/REPOSITORY-INDEX.json",
+    "sha256": "7f8d58e9d3a8c606a74ae12026c9e1cfe732d2ca02904e825513bf7eb4ca3880",
+    "count": 2609,
+    "shape": "top-level array",
+    "identityFields": [
+      "id",
+      "full_name",
+      "canonicalGitHubFullName",
+      "remote",
+      "githubRepositoryId"
+    ],
+    "locationFields": [
+      "path",
+      "relativePath",
+      "duplicatePaths"
+    ]
+  },
+  "current": {
+    "path": "D:/03-ARSENAL/warehouse/REPOSITORY-INDEX.json",
+    "sha256": "24191bef1f568920ebfdb4d536a6512314d2f919f01615b63b45223efbb08dbe",
+    "count": 2610
+  },
+  "drifted": true,
+  "currentMatches": [
+    {
+      "canonical": "cloutdesk/agents",
+      "matches": []
+    },
+    {
+      "canonical": "ericzakariasson/skills",
+      "matches": []
+    },
+    {
+      "canonical": "RobLe3/cc-blender-skill",
+      "matches": []
+    },
+    {
+      "canonical": "xiaomihu1992/econometrics-skill",
+      "matches": []
+    },
+    {
+      "canonical": "triggerdotdev/staff-engineering-skills",
+      "matches": []
+    },
+    {
+      "canonical": "haowjy/creative-writing-skills",
+      "matches": []
+    }
+  ],
+  "publicationState": "parent-only current-index check required immediately before publication; original freeze not changed"
+}

@@ -1,0 +1,550 @@
+TAP version 13
+# Subtest: all pre-phase activation, evidence, skill, and capability bytes remain frozen
+ok 1 - all pre-phase activation, evidence, skill, and capability bytes remain frozen
+  ---
+  duration_ms: 37.1481
+  type: 'test'
+  ...
+# Subtest: runtime record closes execution, shadow, and future evidence boundaries
+ok 2 - runtime record closes execution, shadow, and future evidence boundaries
+  ---
+  duration_ms: 1.4103
+  type: 'test'
+  ...
+# Subtest: aggregate receipt binds its historical package input and every other declared input/output byte
+ok 3 - aggregate receipt binds its historical package input and every other declared input/output byte
+  ---
+  duration_ms: 14.709
+  type: 'test'
+  ...
+# Subtest: Nietzsche current package admits only the named maintained-test-scope revision
+ok 4 - Nietzsche current package admits only the named maintained-test-scope revision
+  ---
+  duration_ms: 0.602
+  type: 'test'
+  ...
+# Subtest: certification binds the cleared reviewer head and exact proof boundary
+ok 5 - certification binds the cleared reviewer head and exact proof boundary
+  ---
+  duration_ms: 0.5777
+  type: 'test'
+  ...
+# Subtest: named Arcadia revision projects exactly to immutable historical input without mutation
+ok 6 - named Arcadia revision projects exactly to immutable historical input without mutation
+  ---
+  duration_ms: 1.245
+  type: 'test'
+  ...
+# Subtest: historical projection refuses extra trigger
+ok 7 - historical projection refuses extra trigger
+  ---
+  duration_ms: 1.2165
+  type: 'test'
+  ...
+# Subtest: historical projection refuses summary drift
+ok 8 - historical projection refuses summary drift
+  ---
+  duration_ms: 0.5662
+  type: 'test'
+  ...
+# Subtest: historical projection refuses body drift
+ok 9 - historical projection refuses body drift
+  ---
+  duration_ms: 0.2667
+  type: 'test'
+  ...
+# Subtest: historical projection refuses resource drift
+ok 10 - historical projection refuses resource drift
+  ---
+  duration_ms: 0.3008
+  type: 'test'
+  ...
+# Subtest: historical projection refuses unlisted resource
+ok 11 - historical projection refuses unlisted resource
+  ---
+  duration_ms: 0.272
+  type: 'test'
+  ...
+# Subtest: projection does not conceal unrelated owner fields
+ok 12 - projection does not conceal unrelated owner fields
+  ---
+  duration_ms: 0.2851
+  type: 'test'
+  ...
+# Subtest: the immutable core2260 fixture is exact through the named cohesive, Atlas and Arcadia projections
+ok 13 - the immutable core2260 fixture is exact through the named cohesive, Atlas and Arcadia projections
+  ---
+  duration_ms: 6.6895
+  type: 'test'
+  ...
+# Subtest: historical paths remain exact through the named cohesion projection and prior optional-reference admissions
+ok 14 - historical paths remain exact through the named cohesion projection and prior optional-reference admissions
+  ---
+  duration_ms: 9.6581
+  type: 'test'
+  ...
+# Subtest: Hermes and Math retain frontmatter; historical Hermes bytes and current close-out boundaries remain explicit
+ok 15 - Hermes and Math retain frontmatter; historical Hermes bytes and current close-out boundaries remain explicit
+  ---
+  duration_ms: 1.4951
+  type: 'test'
+  ...
+# Subtest: conditional method links remain with their owners and B04 is not a Hermes resource
+ok 16 - conditional method links remain with their owners and B04 is not a Hermes resource
+  ---
+  duration_ms: 0.5944
+  type: 'test'
+  ...
+# Subtest: selected-method directory preserves original rows and independently binds the admitted new methods
+ok 17 - selected-method directory preserves original rows and independently binds the admitted new methods
+  ---
+  duration_ms: 26.6924
+  type: 'test'
+  ...
+# Subtest: Daedalus owns optional model scenarios without weakening deterministic required checks
+ok 18 - Daedalus owns optional model scenarios without weakening deterministic required checks
+  ---
+  duration_ms: 1.2668
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case C01 retains its declared conformance boundary
+ok 19 - frozen Hermes body case C01 retains its declared conformance boundary
+  ---
+  duration_ms: 0.5534
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case C02 retains its declared conformance boundary
+ok 20 - frozen Hermes body case C02 retains its declared conformance boundary
+  ---
+  duration_ms: 0.1191
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case C03 retains its declared conformance boundary
+ok 21 - frozen Hermes body case C03 retains its declared conformance boundary
+  ---
+  duration_ms: 0.2496
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case C04 retains its declared conformance boundary
+ok 22 - frozen Hermes body case C04 retains its declared conformance boundary
+  ---
+  duration_ms: 0.2136
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case C05 retains its declared conformance boundary
+ok 23 - frozen Hermes body case C05 retains its declared conformance boundary
+  ---
+  duration_ms: 0.3326
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case C06 retains its declared conformance boundary
+ok 24 - frozen Hermes body case C06 retains its declared conformance boundary
+  ---
+  duration_ms: 0.1642
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case C07 retains its declared conformance boundary
+ok 25 - frozen Hermes body case C07 retains its declared conformance boundary
+  ---
+  duration_ms: 0.0329
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case C08 retains its declared conformance boundary
+ok 26 - frozen Hermes body case C08 retains its declared conformance boundary
+  ---
+  duration_ms: 0.3038
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case R01 retains its declared conformance boundary
+ok 27 - frozen Hermes body case R01 retains its declared conformance boundary
+  ---
+  duration_ms: 0.2048
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case R02 retains its declared conformance boundary
+ok 28 - frozen Hermes body case R02 retains its declared conformance boundary
+  ---
+  duration_ms: 0.2796
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case L01 retains its declared conformance boundary
+ok 29 - frozen Hermes body case L01 retains its declared conformance boundary
+  ---
+  duration_ms: 0.1687
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case L02 retains its declared conformance boundary
+ok 30 - frozen Hermes body case L02 retains its declared conformance boundary
+  ---
+  duration_ms: 0.1066
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case L03 retains its declared conformance boundary
+ok 31 - frozen Hermes body case L03 retains its declared conformance boundary
+  ---
+  duration_ms: 0.2805
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case L04 retains its declared conformance boundary
+ok 32 - frozen Hermes body case L04 retains its declared conformance boundary
+  ---
+  duration_ms: 0.1449
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case L05 retains its declared conformance boundary
+ok 33 - frozen Hermes body case L05 retains its declared conformance boundary
+  ---
+  duration_ms: 0.1727
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case L06 retains its declared conformance boundary
+ok 34 - frozen Hermes body case L06 retains its declared conformance boundary
+  ---
+  duration_ms: 0.4299
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case L07 retains its declared conformance boundary
+ok 35 - frozen Hermes body case L07 retains its declared conformance boundary
+  ---
+  duration_ms: 0.1373
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case E01 retains its declared conformance boundary
+ok 36 - frozen Hermes body case E01 retains its declared conformance boundary
+  ---
+  duration_ms: 0.1855
+  type: 'test'
+  ...
+# Subtest: Daedalus optional CI placement contract: default path
+ok 37 - Daedalus optional CI placement contract: default path
+  ---
+  duration_ms: 0.1601
+  type: 'test'
+  ...
+# Subtest: Daedalus optional CI placement contract: separate merge lane
+ok 38 - Daedalus optional CI placement contract: separate merge lane
+  ---
+  duration_ms: 0.143
+  type: 'test'
+  ...
+# Subtest: Daedalus optional CI placement contract: behavior-based classification
+ok 39 - Daedalus optional CI placement contract: behavior-based classification
+  ---
+  duration_ms: 0.0774
+  type: 'test'
+  ...
+# Subtest: Daedalus optional CI placement contract: bounded and attributable run
+ok 40 - Daedalus optional CI placement contract: bounded and attributable run
+  ---
+  duration_ms: 0.1092
+  type: 'test'
+  ...
+# Subtest: Daedalus optional CI placement contract: separate result states
+ok 41 - Daedalus optional CI placement contract: separate result states
+  ---
+  duration_ms: 0.2367
+  type: 'test'
+  ...
+# Subtest: Daedalus optional CI placement contract: uncertain request recovery
+ok 42 - Daedalus optional CI placement contract: uncertain request recovery
+  ---
+  duration_ms: 0.1123
+  type: 'test'
+  ...
+# Subtest: Daedalus optional CI placement contract: no duplicate policy and exact selection audit
+ok 43 - Daedalus optional CI placement contract: no duplicate policy and exact selection audit
+  ---
+  duration_ms: 0.0328
+  type: 'test'
+  ...
+# Subtest: Daedalus optional CI placement contract: evidence limits
+ok 44 - Daedalus optional CI placement contract: evidence limits
+  ---
+  duration_ms: 0.1715
+  type: 'test'
+  ...
+# Subtest: frozen candidate validates locally without executing its scenarios
+ok 45 - frozen candidate validates locally without executing its scenarios
+  ---
+  duration_ms: 1220.2307
+  type: 'test'
+  ...
+# Subtest: the literal educational projection keeps its exact prior catalog input
+ok 46 - the literal educational projection keeps its exact prior catalog input
+  ---
+  duration_ms: 2.5395
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P01: statistics-outlier-representation
+ok 47 - disclosed teaching regression E2-P01: statistics-outlier-representation
+  ---
+  duration_ms: 15.1744
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P02: chemistry-equilibrium-tabletop
+ok 48 - disclosed teaching regression E2-P02: chemistry-equilibrium-tabletop
+  ---
+  duration_ms: 4.5013
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P03: astronomy-changing-viewpoint
+ok 49 - disclosed teaching regression E2-P03: astronomy-changing-viewpoint
+  ---
+  duration_ms: 4.47
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P04: economics-fictional-market
+ok 50 - disclosed teaching regression E2-P04: economics-fictional-market
+  ---
+  duration_ms: 3.8713
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P05: music-rhythm-sequencing
+ok 51 - disclosed teaching regression E2-P05: music-rhythm-sequencing
+  ---
+  duration_ms: 3.02
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P06: geology-cross-section-exploration
+ok 52 - disclosed teaching regression E2-P06: geology-cross-section-exploration
+  ---
+  duration_ms: 2.8048
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P07: algebra-basis-vector-geometry
+ok 53 - disclosed teaching regression E2-P07: algebra-basis-vector-geometry
+  ---
+  duration_ms: 2.8072
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P08: programming-call-stack-trace
+ok 54 - disclosed teaching regression E2-P08: programming-call-stack-trace
+  ---
+  duration_ms: 3.3489
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P09: civics-voting-rule-sandbox
+ok 55 - disclosed teaching regression E2-P09: civics-voting-rule-sandbox
+  ---
+  duration_ms: 2.6108
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P10: bookkeeping-transaction-effects
+ok 56 - disclosed teaching regression E2-P10: bookkeeping-transaction-effects
+  ---
+  duration_ms: 2.9553
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P11: ecology-food-web-dependencies
+ok 57 - disclosed teaching regression E2-P11: ecology-food-web-dependencies
+  ---
+  duration_ms: 3.494
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P12: geometry-foldable-net
+ok 58 - disclosed teaching regression E2-P12: geometry-foldable-net
+  ---
+  duration_ms: 2.7455
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-N01: educational-study-appraisal
+ok 59 - disclosed teaching regression E2-N01: educational-study-appraisal
+  ---
+  duration_ms: 5.0041
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-N02: production-simulator-operation
+ok 60 - disclosed teaching regression E2-N02: production-simulator-operation
+  ---
+  duration_ms: 5.9702
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-N03: renderer-only-repair
+ok 61 - disclosed teaching regression E2-N03: renderer-only-repair
+  ---
+  duration_ms: 5.7012
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-N04: education-administration-summary
+ok 62 - disclosed teaching regression E2-N04: education-administration-summary
+  ---
+  duration_ms: 5.287
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-N05: ordinary-static-teaching
+ok 63 - disclosed teaching regression E2-N05: ordinary-static-teaching
+  ---
+  duration_ms: 4.8217
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-N06: direct-refusal-current-alternative
+ok 64 - disclosed teaching regression E2-N06: direct-refusal-current-alternative
+  ---
+  duration_ms: 4.3394
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-N07: archived-quoted-assignment
+ok 65 - disclosed teaching regression E2-N07: archived-quoted-assignment
+  ---
+  duration_ms: 4.0401
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-N08: past-teaching-intent-replaced
+ok 66 - disclosed teaching regression E2-N08: past-teaching-intent-replaced
+  ---
+  duration_ms: 4.3006
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-N09: trainee-audience-validation-only
+ok 67 - disclosed teaching regression E2-N09: trainee-audience-validation-only
+  ---
+  duration_ms: 4.0217
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-C01: explicit-no-need
+ok 68 - disclosed teaching regression E2-C01: explicit-no-need
+  ---
+  duration_ms: 0.1845
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-C02: category-exclusion
+ok 69 - disclosed teaching regression E2-C02: category-exclusion
+  ---
+  duration_ms: 1.7064
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-C03: task-type-exclusion
+ok 70 - disclosed teaching regression E2-C03: task-type-exclusion
+  ---
+  duration_ms: 2.3039
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-C04: eligible-category-filter
+ok 71 - disclosed teaching regression E2-C04: eligible-category-filter
+  ---
+  duration_ms: 1.1682
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-C05: literal-protected-anti-trigger
+ok 72 - disclosed teaching regression E2-C05: literal-protected-anti-trigger
+  ---
+  duration_ms: 4.7346
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-M01: education-and-scientific-validation
+ok 73 - disclosed teaching regression E2-M01: education-and-scientific-validation
+  ---
+  duration_ms: 3.0579
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-M02: education-and-accessibility-engineering
+ok 74 - disclosed teaching regression E2-M02: education-and-accessibility-engineering
+  ---
+  duration_ms: 2.2795
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-M03: public-exhibit-purpose-unresolved
+ok 75 - disclosed teaching regression E2-M03: public-exhibit-purpose-unresolved
+  ---
+  duration_ms: 2.8063
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-M04: conditional-secondary-learning-subtask
+ok 76 - disclosed teaching regression E2-M04: conditional-secondary-learning-subtask
+  ---
+  duration_ms: 2.4349
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression F4-P01: grammar-reorderable-sentence
+ok 77 - disclosed teaching regression F4-P01: grammar-reorderable-sentence
+  ---
+  duration_ms: 2.7656
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression F4-P02: journalism-editable-framing
+ok 78 - disclosed teaching regression F4-P02: journalism-editable-framing
+  ---
+  duration_ms: 2.385
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression F4-P03: logic-switchable-truth-board
+ok 79 - disclosed teaching regression F4-P03: logic-switchable-truth-board
+  ---
+  duration_ms: 2.3311
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression F4-P04: photography-aperture-exploration
+ok 80 - disclosed teaching regression F4-P04: photography-aperture-exploration
+  ---
+  duration_ms: 2.7566
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression F4-N01: training-model-reliability-only
+ok 81 - disclosed teaching regression F4-N01: training-model-reliability-only
+  ---
+  duration_ms: 4.8136
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression F4-N02: refused-workshop-current-notice
+ok 82 - disclosed teaching regression F4-N02: refused-workshop-current-notice
+  ---
+  duration_ms: 4.0975
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression F4-N03: quoted-instruction-as-record-data
+ok 83 - disclosed teaching regression F4-N03: quoted-instruction-as-record-data
+  ---
+  duration_ms: 5.6046
+  type: 'test'
+  ...
+# Subtest: Nietzsche named cohort projection retains all unlisted fields and rejects declared-field tampering
+ok 84 - Nietzsche named cohort projection retains all unlisted fields and rejects declared-field tampering
+  ---
+  duration_ms: 5.4251
+  type: 'test'
+  ...
+# Subtest: Nietzsche selected directory rejects original-row drift, changed added bindings, missing reviews and unknown rows
+ok 85 - Nietzsche selected directory rejects original-row drift, changed added bindings, missing reviews and unknown rows
+  ---
+  duration_ms: 3.4198
+  type: 'test'
+  ...
+# Subtest: Nietzsche v4-to-v3 projection changes only the named version label
+ok 86 - Nietzsche v4-to-v3 projection changes only the named version label
+  ---
+  duration_ms: 0.4807
+  type: 'test'
+  ...
+# Subtest: Nietzsche package transition rejects dependency, unrelated script and required-scope drift
+ok 87 - Nietzsche package transition rejects dependency, unrelated script and required-scope drift
+  ---
+  duration_ms: 1.4131
+  type: 'test'
+  ...
+# Subtest: Nietzsche E2-N03 admits only the exact current renderer explanation against untouched old gold
+ok 88 - Nietzsche E2-N03 admits only the exact current renderer explanation against untouched old gold
+  ---
+  duration_ms: 2.0181
+  type: 'test'
+  ...
+# Subtest: Beacon sponsorship route is text-only and preserves human decision boundaries
+ok 89 - Beacon sponsorship route is text-only and preserves human decision boundaries
+  ---
+  duration_ms: 5.1171
+  type: 'test'
+  ...
+# Subtest: creator sponsorship discovers Beacon but does not activate an external action
+ok 90 - creator sponsorship discovers Beacon but does not activate an external action
+  ---
+  duration_ms: 11.9213
+  type: 'test'
+  ...
+1..90
+# tests 90
+# suites 0
+# pass 90
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1349.9675

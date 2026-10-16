@@ -1,0 +1,719 @@
+{
+  "schema": "nietzsche-cohesive-product-20261015-to-c4e0fd2-v1",
+  "historicalCommit": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+  "changes": [
+    {
+      "id": "counterbalanced-agent-evaluation",
+      "fields": {
+        "entrypointSha256": {
+          "before": "ad8e45793f5ec79ab577789d505893e2a0a7fbf97dfcde7542cb828aee985a88",
+          "after": "6242385832a491c290feeb636175210c839a75dcf6bd30526b5cf2f32c99fd7f"
+        }
+      }
+    },
+    {
+      "id": "diagnostic-statistical-model-inference",
+      "fields": {
+        "triggers": {
+          "before": [
+            "A statistical model needs diagnostics before coefficients or predictions are interpreted.",
+            "A conclusion may change under plausible specifications or influential observations.",
+            "An evidence report needs an explicit estimand, uncertainty ledger, and claim boundary."
+          ],
+          "after": [
+            "A statistical model needs diagnostics before coefficients or predictions are interpreted.",
+            "A conclusion may change under plausible specifications or influential observations.",
+            "An evidence report needs an explicit estimand, uncertainty ledger, and claim boundary.",
+            "causal treatment-effect design from assignment mechanism",
+            "policy intervention estimand and comparison-group identification"
+          ]
+        },
+        "entrypointSha256": {
+          "before": "a65995b8649d28dc9e9ccd0bdfeb56799435c0eedb143b70590fb3f8b398c367",
+          "after": "e31ea8e66d9b7555a20a11c16a11c87f62e263c9a5d12873d661467c76358f8f"
+        },
+        "resources": {
+          "before": [],
+          "after": [
+            {
+              "path": "skills/diagnostic-statistical-model-inference/references/causal-design-before-estimation-v1.md",
+              "sha256": "9fd7004a3aefc4daf074dde37dea7d5a2b6fb1024ff4ae3c19461d5e89b24918"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "eternities-arcadia",
+      "fields": {
+        "triggers": {
+          "before": [
+            "game direction",
+            "playable prototype",
+            "runtime game system",
+            "player experience",
+            "map approved player-facing requirements to game screens, states, and reachable flows",
+            "game accessibility",
+            "game release proof",
+            "spatial interaction",
+            "browser canvas resize pointer coordinates animation loops",
+            "hidden tab simulation delta focus pressed keys input",
+            "scene teardown stale asset loading GPU resource ownership",
+            "integrate imported glTF FBX meshes and models into Three.js Unity Unreal interactive scenes",
+            "check mesh units scale coordinate axes pivot and material slots after import",
+            "verify textures UV channels normal maps collision rigs animation and root motion in a game",
+            "qualify model dependencies and decoder files in packaged builds beyond editor preview"
+          ],
+          "after": [
+            "game direction",
+            "playable prototype",
+            "runtime game system",
+            "player experience",
+            "map approved player-facing requirements to game screens, states, and reachable flows",
+            "game accessibility",
+            "game release proof",
+            "spatial interaction",
+            "design interactive WebGL shader and particle effects with camera controls",
+            "browser canvas resize pointer coordinates animation loops",
+            "hidden tab simulation delta focus pressed keys input",
+            "scene teardown stale asset loading GPU resource ownership",
+            "integrate imported glTF FBX meshes and models into Three.js Unity Unreal interactive scenes",
+            "check mesh units scale coordinate axes pivot and material slots after import",
+            "verify textures UV channels normal maps collision rigs animation and root motion in a game",
+            "qualify model dependencies and decoder files in packaged builds beyond editor preview",
+            "character silhouette and readability at the gameplay camera",
+            "camera-critical game asset iteration and motion revision consistency"
+          ]
+        },
+        "entrypointSha256": {
+          "before": "9ec66ba0975124b95877f2ad0a852162008cfd624af2fe823d9752e478940c46",
+          "after": "ac0ef2950f34981c72dad4143ad3752b289d3f95877ee68aa464195c8818b282"
+        },
+        "resources": {
+          "before": [
+            {
+              "path": "skills/eternities-arcadia/references/methods.md",
+              "sha256": "57853439f2dbc6173e2b627b3d1cdd982c746f8376e86746b2745138b696dfc3"
+            },
+            {
+              "path": "skills/eternities-arcadia/references/game-state-to-audio-cue.md",
+              "sha256": "f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f"
+            },
+            {
+              "path": "skills/eternities-arcadia/references/browser-runtime-lifecycle.md",
+              "sha256": "92f138939846c57ad5de1d36fd1c60d11341e29a91fcaecb03c942397ad93853"
+            },
+            {
+              "path": "skills/eternities-arcadia/references/requirement-screen-state-traceability.md",
+              "sha256": "e26439a9761aebd5fabd6ac65865744063c6ce0ae26aaaadcc7d7fdb93d1f34a"
+            },
+            {
+              "path": "skills/eternities-arcadia/references/realtime-asset-integration.md",
+              "sha256": "a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41"
+            }
+          ],
+          "after": [
+            {
+              "path": "skills/eternities-arcadia/references/core-loop-playtest-v1.md",
+              "sha256": "305e082e9e3d57729fe10e4ad9865b1468333e661f7530469ef17a70fc07490a"
+            },
+            {
+              "path": "skills/eternities-arcadia/references/methods.md",
+              "sha256": "57853439f2dbc6173e2b627b3d1cdd982c746f8376e86746b2745138b696dfc3"
+            },
+            {
+              "path": "skills/eternities-arcadia/references/game-state-to-audio-cue.md",
+              "sha256": "f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f"
+            },
+            {
+              "path": "skills/eternities-arcadia/references/browser-runtime-lifecycle.md",
+              "sha256": "92f138939846c57ad5de1d36fd1c60d11341e29a91fcaecb03c942397ad93853"
+            },
+            {
+              "path": "skills/eternities-arcadia/references/requirement-screen-state-traceability.md",
+              "sha256": "e26439a9761aebd5fabd6ac65865744063c6ce0ae26aaaadcc7d7fdb93d1f34a"
+            },
+            {
+              "path": "skills/eternities-arcadia/references/realtime-asset-integration.md",
+              "sha256": "a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41"
+            },
+            {
+              "path": "skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md",
+              "sha256": "a1b65d62b70a689b3e7b1c06871588e4763a04d3987b9d5c833d5b3c7b6da52a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "eternities-beacon",
+      "fields": {
+        "triggers": {
+          "before": [
+            "market positioning",
+            "offer design",
+            "discoverability audit",
+            "go to market",
+            "conversion funnel",
+            "retention recovery",
+            "growth measurement",
+            "creator sponsorship obligation tracking with dated evidence"
+          ],
+          "after": [
+            "market positioning",
+            "positioning and landing page copy against buyer alternatives and existing workarounds",
+            "homepage value proposition and product promise with proof against the customer's current workaround",
+            "offer design",
+            "discoverability audit",
+            "go to market",
+            "conversion funnel",
+            "retention recovery",
+            "growth measurement",
+            "creator sponsorship obligation tracking with dated evidence",
+            "creator campaign slate feasibility with quoted usage fees and deliverable coverage"
+          ]
+        },
+        "entrypointSha256": {
+          "before": "381ae1f0ffee855b14c8c2bda226bb57aa9147be1e7f9a68f94b231fb869a030",
+          "after": "0456fd877c1d18c3c717998f4eb2b4264a6911f62a1362df6e3356948b9af222"
+        },
+        "resources": {
+          "before": [
+            {
+              "path": "skills/eternities-beacon/references/methods.md",
+              "sha256": "efe539cfe35bf9703869d43cdaddedd2b29edb14c72525a5c9645fcf2a0eb2ed"
+            },
+            {
+              "path": "skills/eternities-beacon/references/creator-sponsorship-lifecycle.md",
+              "sha256": "4063b7c5ce3e283fbe6975b7644ffde1bf8283ce499ca77dc293e60bb7ba0d5e"
+            }
+          ],
+          "after": [
+            {
+              "path": "skills/eternities-beacon/references/positioning-to-message-v1.md",
+              "sha256": "57da15f76572e5af9dde41cf4c5703d83f045cbb701b0284dfcd45d8e46c94d8"
+            },
+            {
+              "path": "skills/eternities-beacon/references/methods.md",
+              "sha256": "efe539cfe35bf9703869d43cdaddedd2b29edb14c72525a5c9645fcf2a0eb2ed"
+            },
+            {
+              "path": "skills/eternities-beacon/references/creator-sponsorship-lifecycle.md",
+              "sha256": "4063b7c5ce3e283fbe6975b7644ffde1bf8283ce499ca77dc293e60bb7ba0d5e"
+            },
+            {
+              "path": "skills/eternities-beacon/references/creator-slate-feasibility-v1.md",
+              "sha256": "b1ab3ac4a2570311de7139e605e23cb8bfe122d89d578578288c1b1c8ed34dc1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "eternities-daedalus",
+      "fields": {
+        "entrypointSha256": {
+          "before": "9c3271351a5d8234098a001fa079236ec9c8ea568603cacab3fa5f05e9ee0d23",
+          "after": "1a26dfffe15ecfa2289aaa502e959c07f99eb518c9823ae930536a5c9f829e17"
+        }
+      }
+    },
+    {
+      "id": "eternities-forge",
+      "fields": {
+        "entrypointSha256": {
+          "before": "96a5bf285a89bb9189064d65880d461683830e314e00a98bce2e45a97f2c0e5b",
+          "after": "41ed525d0b547973ed7c9752d47c7f2fd936196ca8b2edc3b2d3066266c9b597"
+        }
+      }
+    },
+    {
+      "id": "eternities-hermes",
+      "fields": {
+        "entrypointSha256": {
+          "before": "fd626d425723be905c9375502c6b6fe480df645f057aee00c9517fdcb5257c8c",
+          "after": "a64957e27281ecd3b99a4bd3b2661d860ae0af8171ea630b3a9a01d5545c89cd"
+        }
+      }
+    },
+    {
+      "id": "eternities-mnemosyne",
+      "fields": {
+        "entrypointSha256": {
+          "before": "121f1d7db8183b2bc8cdb6acce8654aac92f76f4cae74ad1f823864cba4bf392",
+          "after": "0d4b18975e93a30191c3371d7f3e4537be56aa6c021e75ee84a6d9210c8bed9a"
+        }
+      }
+    },
+    {
+      "id": "eternities-muse",
+      "fields": {
+        "triggers": {
+          "before": [
+            "visual forensics",
+            "interface art direction",
+            "motion story",
+            "visual acceptance",
+            "accessibility audit",
+            "rendered geometry",
+            "materialized view freshness visualization",
+            "connection pool saturation waiter queue visualization",
+            "retry attempts backoff timeline visualization",
+            "consistent hash ring ownership key migration visualization",
+            "nodes own keys before after rebalancing visualization"
+          ],
+          "after": [
+            "visual forensics",
+            "interface art direction",
+            "translate mood references into layout typography real content and responsive composition",
+            "motion story",
+            "visual acceptance",
+            "accessibility audit",
+            "rendered geometry",
+            "materialized view freshness visualization",
+            "connection pool saturation waiter queue visualization",
+            "retry attempts backoff timeline visualization",
+            "consistent hash ring ownership key migration visualization",
+            "nodes own keys before after rebalancing visualization"
+          ]
+        },
+        "entrypointSha256": {
+          "before": "838da70f041be41d0d28fa9e735241c303240b4355f1770dba5b7b7998afc05b",
+          "after": "34fccadc01b49dcb8097641a6a6153dabd119dd55ba9f31781c7bfa4c4c1ac73"
+        },
+        "resources": {
+          "before": [
+            {
+              "path": "skills/eternities-muse/references/methods.md",
+              "sha256": "44cdaae8e34b83f69c8253f1cb61b4ed3c1af5548e58ef59d4f7e28df7e46b89"
+            }
+          ],
+          "after": [
+            {
+              "path": "skills/eternities-muse/references/art-direction-to-layout-v1.md",
+              "sha256": "893b09898d51cf5bfcca7d0efa88d239466e04a7c6a68152d4158aab5fa2a140"
+            },
+            {
+              "path": "skills/eternities-muse/references/methods.md",
+              "sha256": "44cdaae8e34b83f69c8253f1cb61b4ed3c1af5548e58ef59d4f7e28df7e46b89"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "eternities-oracle",
+      "fields": {
+        "entrypointSha256": {
+          "before": "796145f66a4f5d9cacadd55319e541234db9b7ac3b4d704f8b7411c949fce4cd",
+          "after": "528b78eeb7208203a0fca382d7a52276ddf12778df7da3c993b34f39747bf420"
+        }
+      }
+    },
+    {
+      "id": "eternities-orpheus",
+      "fields": {
+        "triggers": {
+          "before": [
+            "audio provenance",
+            "transcription",
+            "speaker alignment",
+            "caption timing",
+            "media timeline",
+            "audio review packet"
+          ],
+          "after": [
+            "audio provenance",
+            "transcription",
+            "speaker alignment",
+            "caption timing",
+            "media timeline",
+            "audio review packet",
+            "edit and mix supplied podcast narration dialogue with music masking and pause pacing",
+            "speech intelligibility editorial timing and encoded audio delivery checks"
+          ]
+        },
+        "entrypointSha256": {
+          "before": "083f4461cf7a28dd5a2b25bd3e2c2d05448b74b92aaa5d87b5daa50753c2c48e",
+          "after": "30bbab3230a9ecbb81ecec877db2036b591a46b0f4497cb61d94df3585bda3be"
+        },
+        "resources": {
+          "before": [
+            {
+              "path": "skills/eternities-orpheus/references/methods.md",
+              "sha256": "ee216cf993a7629868d4fc918d27d94815e9b9f765acf4f1ab06644068a480e7"
+            }
+          ],
+          "after": [
+            {
+              "path": "skills/eternities-orpheus/references/supplied-audio-editorial-mix-v1.md",
+              "sha256": "d52e3ecffe5e6134cc43f2296ed4c8e48963af8f02f513b605c5a7527ac6c1d9"
+            },
+            {
+              "path": "skills/eternities-orpheus/references/methods.md",
+              "sha256": "ee216cf993a7629868d4fc918d27d94815e9b9f765acf4f1ab06644068a480e7"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "eternities-phoenix",
+      "fields": {
+        "entrypointSha256": {
+          "before": "d2be7f2ba4ec16d25e6a44084624bae2d01e416089c5d79cb85b0af1e543a284",
+          "after": "b9d28316b61929e5dd4303aa68f82f21632ba5a44b9a6880b0aed1020694787f"
+        },
+        "resources": {
+          "before": [
+            {
+              "path": "skills/eternities-phoenix/references/methods.md",
+              "sha256": "aa9a1fefeb9e0ca5107f0b5fb3e3a97cf647c748b91922e3b3303c8bc90c8ebc"
+            },
+            {
+              "path": "skills/eternities-phoenix/references/reproducible-bug-packets.md",
+              "sha256": "74059bb30b6af5289b661e93deac1ca7cd9d89bbc4ad0362d8c01b39d7333120"
+            },
+            {
+              "path": "skills/eternities-phoenix/references/trace-to-evaluation-cases.md",
+              "sha256": "57fe450be2791fe0e697663b49df5c6ed1c22ea6f8a94d9efa84cead1d2e1560"
+            }
+          ],
+          "after": [
+            {
+              "path": "skills/eternities-phoenix/references/methods.md",
+              "sha256": "aa9a1fefeb9e0ca5107f0b5fb3e3a97cf647c748b91922e3b3303c8bc90c8ebc"
+            },
+            {
+              "path": "skills/eternities-phoenix/references/reproducible-bug-packets.md",
+              "sha256": "74059bb30b6af5289b661e93deac1ca7cd9d89bbc4ad0362d8c01b39d7333120"
+            },
+            {
+              "path": "skills/eternities-phoenix/references/trace-to-evaluation-cases.md",
+              "sha256": "57fe450be2791fe0e697663b49df5c6ed1c22ea6f8a94d9efa84cead1d2e1560"
+            },
+            {
+              "path": "skills/eternities-phoenix/references/diagnostic-experiments-v2.md",
+              "sha256": "0e90cd104135546419a996f0d1c0acd1e57f21ecc5c463225f9d86e7adfec227"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "eternities-prometheus",
+      "fields": {
+        "triggers": {
+          "before": [
+            "growth routing",
+            "commercial analytics",
+            "customer insight",
+            "early adopter research",
+            "learning design",
+            "operational planning",
+            "product prioritization"
+          ],
+          "after": [
+            "growth routing",
+            "commercial analytics",
+            "customer insight",
+            "early adopter research",
+            "learning design",
+            "operational planning",
+            "product prioritization",
+            "diagnose revenue change and commercial drivers",
+            "explain business metric movement before choosing action"
+          ]
+        },
+        "entrypointSha256": {
+          "before": "3bdb3c567c215cee7552d846abdcfd87024e6a5787e394d6526799f24c008ab6",
+          "after": "70d043541b328a6bfebd6cd75840aaca8ed94fc22cc10165d1be444f4662fc06"
+        },
+        "resources": {
+          "before": [
+            {
+              "path": "skills/eternities-prometheus/references/methods.md",
+              "sha256": "6150efa2ad78e5ebc93b9dbde21893984428a9d5ac109c85f1966d2b3a815954"
+            }
+          ],
+          "after": [
+            {
+              "path": "skills/eternities-prometheus/references/commercial-driver-diagnosis-v1.md",
+              "sha256": "bdd16ac74bb01c88864e6d76080fd05d833eb9be1324322f27aaaec8350165f2"
+            },
+            {
+              "path": "skills/eternities-prometheus/references/methods.md",
+              "sha256": "6150efa2ad78e5ebc93b9dbde21893984428a9d5ac109c85f1966d2b3a815954"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "evidence-linked-learning-design",
+      "fields": {
+        "triggers": {
+          "before": [
+            "lesson planning curriculum course training",
+            "learning outcomes teaching assessment",
+            "differentiate instruction for varied prior knowledge",
+            "substitute teacher facilitator handoff classroom cover notes",
+            "student report comments teacher observations achievement judgments"
+          ],
+          "after": [
+            "lesson planning curriculum course training",
+            "learning outcomes teaching assessment",
+            "differentiate instruction for varied prior knowledge",
+            "substitute teacher facilitator handoff classroom cover notes",
+            "student report comments teacher observations achievement judgments",
+            "contrastive learner practice feedback and transfer tasks"
+          ]
+        },
+        "entrypointSha256": {
+          "before": "ca165d7209df55696719f58dbad0042a41bfe6164408099cf8ab0dc90e85d160",
+          "after": "a91d5ffe526e92ed72c541816d6c0310f5ab2d56b82f2c5f91960b778bbed606"
+        },
+        "resources": {
+          "before": [
+            {
+              "path": "skills/evidence-linked-learning-design/references/handoffs-and-reporting.md",
+              "sha256": "8722eaf7532007db27228e1b699fc0835cf46229a605801fb5cdc154924e870c"
+            },
+            {
+              "path": "skills/evidence-linked-learning-design/references/educational-microsimulation.md",
+              "sha256": "4f42471a7b33b9af45203a54eb82a3c95c6c19106446e0b9097006daff2f3b2e"
+            },
+            {
+              "path": "skills/evidence-linked-learning-design/references/support-transition.md",
+              "sha256": "470484b186df4978ec4c5e817990d25c0a2ad200dbf6ef1bea6441f43372d954"
+            }
+          ],
+          "after": [
+            {
+              "path": "skills/evidence-linked-learning-design/references/handoffs-and-reporting.md",
+              "sha256": "8722eaf7532007db27228e1b699fc0835cf46229a605801fb5cdc154924e870c"
+            },
+            {
+              "path": "skills/evidence-linked-learning-design/references/educational-microsimulation.md",
+              "sha256": "4f42471a7b33b9af45203a54eb82a3c95c6c19106446e0b9097006daff2f3b2e"
+            },
+            {
+              "path": "skills/evidence-linked-learning-design/references/support-transition.md",
+              "sha256": "470484b186df4978ec4c5e817990d25c0a2ad200dbf6ef1bea6441f43372d954"
+            },
+            {
+              "path": "skills/evidence-linked-learning-design/references/practice-and-transfer-v1.md",
+              "sha256": "8625e567db5d4f68c267bd4743e555885115fabcbd253b67f768e2031826aa9f"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "long-horizon-work-continuity",
+      "fields": {
+        "entrypointSha256": {
+          "before": "83584469ab0faf64844451aba67bfe4e9325d2c1f7d6580ff951bc90d3a34f5d",
+          "after": "d0487cb608de140f11305ffcd63f837fbe56c018b029ccd70f0da04c97a51a0b"
+        }
+      }
+    },
+    {
+      "id": "memory-retention-and-recovery",
+      "fields": {
+        "entrypointSha256": {
+          "before": "36c14c3b62bdf72c2b12bf4678ec44223bd0c3064528a7f1b34d7df4fcc966e7",
+          "after": "6621d8bb0924cd386831eae2004144d3006206359de4fdaa1d2385fcdca4d38e"
+        }
+      }
+    },
+    {
+      "id": "narrative-structure-and-revision",
+      "fields": {
+        "triggers": {
+          "before": [
+            "write or revise a fictional scene",
+            "story structure and earned character choices",
+            "dialogue subtext and character knowledge",
+            "interactive narrative branch consequences",
+            "continuity revision preserving artistic intent"
+          ],
+          "after": [
+            "write or revise a fictional scene",
+            "story structure and earned character choices",
+            "dialogue subtext and character knowledge",
+            "interactive narrative branch consequences",
+            "continuity revision preserving artistic intent",
+            "fiction reveal revision through reader and character knowledge",
+            "repair clue timing without explaining away the mystery"
+          ]
+        },
+        "entrypointSha256": {
+          "before": "78f2055cd08ca31fccdd779865267d939ba7763b1402e0133cd0ddb1a3d203ba",
+          "after": "ff8a28893c1d2ba20b0d72bef4597d4e18b4bf5db2a93594b2bd04bd8e6d483d"
+        },
+        "resources": {
+          "before": [
+            {
+              "path": "skills/narrative-structure-and-revision/references/methods.md",
+              "sha256": "c3b81b2943fe88c72d8d821fc1037209f288c5d9ba2ac1fbf833414c5602567d"
+            }
+          ],
+          "after": [
+            {
+              "path": "skills/narrative-structure-and-revision/references/methods.md",
+              "sha256": "c3b81b2943fe88c72d8d821fc1037209f288c5d9ba2ac1fbf833414c5602567d"
+            },
+            {
+              "path": "skills/narrative-structure-and-revision/references/reader-knowledge-and-reveal-revision-v1.md",
+              "sha256": "8b8262deffa3e0bedce4fd330e899ed84ea5361cef34b5543cd09cc27002390a"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "service-observability-and-slo-design",
+      "fields": {
+        "triggers": {
+          "before": [
+            "service reliability indicator or SLO design",
+            "error budget and burn alert implementation",
+            "weighted service success aggregation",
+            "missing telemetry versus no traffic",
+            "latency distribution aggregation audit"
+          ],
+          "after": [
+            "service reliability indicator or SLO design",
+            "error budget and burn alert implementation",
+            "weighted service success aggregation",
+            "missing telemetry versus no traffic",
+            "latency distribution aggregation audit",
+            "metric label cardinality and series churn budget",
+            "reduce telemetry label combinations while preserving alert queries"
+          ]
+        },
+        "entrypointSha256": {
+          "before": "6de3cf2118becf3082c2364dc60eded63a0b17bc5dabf37c42535b01c5c7a95b",
+          "after": "4766c33f1c6cd23e11c9b7e3a5a7f9936d07243b418d7130cc6e7465aa6b6289"
+        },
+        "resources": {
+          "before": [
+            {
+              "path": "skills/service-observability-and-slo-design/references/methods.md",
+              "sha256": "f184dbde00a72f80be35c5fbb3e9184f125fc4ada4facc9f1d8e15b0c655f543"
+            }
+          ],
+          "after": [
+            {
+              "path": "skills/service-observability-and-slo-design/references/methods.md",
+              "sha256": "f184dbde00a72f80be35c5fbb3e9184f125fc4ada4facc9f1d8e15b0c655f543"
+            },
+            {
+              "path": "skills/service-observability-and-slo-design/references/telemetry-cardinality-budget-v1.md",
+              "sha256": "c429085c14122d5a6f6b8e42328c0f944ef03f4db0a7cd669e64bcd19937b650"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "voice-style-calibration",
+      "fields": {
+        "entrypointSha256": {
+          "before": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b",
+          "after": "fb4a54b739b51d0e91df35d17e65fd684f7f43fd06575e58a3782d5040ad73c4"
+        },
+        "resources": {
+          "before": [],
+          "after": [
+            {
+              "path": "skills/voice-style-calibration/references/contrastive-calibration-v1.md",
+              "sha256": "dc51820a975a4f6f1c75f69c70f96f7204b864cd662faf4516a9b1a71d2b7c40"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "newMethods": [
+    {
+      "id": "cohesive-commercial-driver-diagnosis-v1",
+      "owner": "eternities-prometheus",
+      "resource": "skills/eternities-prometheus/references/commercial-driver-diagnosis-v1.md",
+      "resourceSha256": "bdd16ac74bb01c88864e6d76080fd05d833eb9be1324322f27aaaec8350165f2"
+    },
+    {
+      "id": "cohesive-positioning-to-message-v1",
+      "owner": "eternities-beacon",
+      "resource": "skills/eternities-beacon/references/positioning-to-message-v1.md",
+      "resourceSha256": "57da15f76572e5af9dde41cf4c5703d83f045cbb701b0284dfcd45d8e46c94d8"
+    },
+    {
+      "id": "cohesive-art-direction-to-layout-v1",
+      "owner": "eternities-muse",
+      "resource": "skills/eternities-muse/references/art-direction-to-layout-v1.md",
+      "resourceSha256": "893b09898d51cf5bfcca7d0efa88d239466e04a7c6a68152d4158aab5fa2a140"
+    },
+    {
+      "id": "cohesive-core-loop-playtest-v1",
+      "owner": "eternities-arcadia",
+      "resource": "skills/eternities-arcadia/references/core-loop-playtest-v1.md",
+      "resourceSha256": "305e082e9e3d57729fe10e4ad9865b1468333e661f7530469ef17a70fc07490a"
+    },
+    {
+      "id": "cohesive-supplied-audio-editorial-mix-v1",
+      "owner": "eternities-orpheus",
+      "resource": "skills/eternities-orpheus/references/supplied-audio-editorial-mix-v1.md",
+      "resourceSha256": "d52e3ecffe5e6134cc43f2296ed4c8e48963af8f02f513b605c5a7527ac6c1d9"
+    },
+    {
+      "id": "cohesive-practice-and-transfer-v1",
+      "owner": "evidence-linked-learning-design",
+      "resource": "skills/evidence-linked-learning-design/references/practice-and-transfer-v1.md",
+      "resourceSha256": "8625e567db5d4f68c267bd4743e555885115fabcbd253b67f768e2031826aa9f"
+    },
+    {
+      "id": "cohesive-contrastive-calibration-v1",
+      "owner": "voice-style-calibration",
+      "resource": "skills/voice-style-calibration/references/contrastive-calibration-v1.md",
+      "resourceSha256": "dc51820a975a4f6f1c75f69c70f96f7204b864cd662faf4516a9b1a71d2b7c40"
+    },
+    {
+      "id": "cohesive-diagnostic-experiments-v2",
+      "owner": "eternities-phoenix",
+      "resource": "skills/eternities-phoenix/references/diagnostic-experiments-v2.md",
+      "resourceSha256": "0e90cd104135546419a996f0d1c0acd1e57f21ecc5c463225f9d86e7adfec227"
+    },
+    {
+      "id": "cohesive-creator-slate-feasibility-v1",
+      "owner": "eternities-beacon",
+      "resource": "skills/eternities-beacon/references/creator-slate-feasibility-v1.md",
+      "resourceSha256": "b1ab3ac4a2570311de7139e605e23cb8bfe122d89d578578288c1b1c8ed34dc1"
+    },
+    {
+      "id": "cohesive-camera-driven-asset-iteration-v1",
+      "owner": "eternities-arcadia",
+      "resource": "skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md",
+      "resourceSha256": "a1b65d62b70a689b3e7b1c06871588e4763a04d3987b9d5c833d5b3c7b6da52a"
+    },
+    {
+      "id": "cohesive-causal-design-before-estimation-v1",
+      "owner": "diagnostic-statistical-model-inference",
+      "resource": "skills/diagnostic-statistical-model-inference/references/causal-design-before-estimation-v1.md",
+      "resourceSha256": "9fd7004a3aefc4daf074dde37dea7d5a2b6fb1024ff4ae3c19461d5e89b24918"
+    },
+    {
+      "id": "cohesive-telemetry-cardinality-budget-v1",
+      "owner": "service-observability-and-slo-design",
+      "resource": "skills/service-observability-and-slo-design/references/telemetry-cardinality-budget-v1.md",
+      "resourceSha256": "c429085c14122d5a6f6b8e42328c0f944ef03f4db0a7cd669e64bcd19937b650"
+    },
+    {
+      "id": "cohesive-reader-knowledge-and-reveal-revision-v1",
+      "owner": "narrative-structure-and-revision",
+      "resource": "skills/narrative-structure-and-revision/references/reader-knowledge-and-reveal-revision-v1.md",
+      "resourceSha256": "8b8262deffa3e0bedce4fd330e899ed84ea5361cef34b5543cd09cc27002390a"
+    }
+  ]
+}

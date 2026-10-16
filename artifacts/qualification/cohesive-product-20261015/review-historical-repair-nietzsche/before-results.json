@@ -1,0 +1,51 @@
+{
+  "executedAt": "2026-10-16T05:52:43.051Z",
+  "command": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "--test",
+    "--test-reporter=tap",
+    "tests/adaptive-evaluator-compatibility.test.mjs",
+    "tests/arcadia-asset-revision.test.mjs",
+    "tests/conditional-method-regression.test.mjs",
+    "tests/educational-discovery-revealed-v2.test.mjs",
+    "tests/universal-wave25-beacon.test.mjs"
+  ],
+  "status": 1,
+  "error": null,
+  "counts": [
+    "# tests 84",
+    "# pass 58",
+    "# fail 26",
+    "# duration_ms 314.9265"
+  ],
+  "failures": [
+    "aggregate receipt binds every declared input and output to actual bytes",
+    "named Arcadia revision projects exactly to immutable historical input without mutation",
+    "projection does not conceal unrelated owner fields",
+    "the immutable core2260 fixture is exact and core projections admit only the declared Atlas and Arcadia revisions",
+    "historical paths remain exact, named optional owner references are admitted, and only Omnibus is revised",
+    "the selected-method directory binds exactly the four new owner methods and their exclusions",
+    "Daedalus owns optional model scenarios without weakening deterministic required checks",
+    "frozen candidate validates locally without executing its scenarios",
+    "the literal educational projection keeps its exact prior catalog input",
+    "disclosed teaching regression E2-N01: educational-study-appraisal",
+    "disclosed teaching regression E2-N02: production-simulator-operation",
+    "disclosed teaching regression E2-N03: renderer-only-repair",
+    "disclosed teaching regression E2-N04: education-administration-summary",
+    "disclosed teaching regression E2-N05: ordinary-static-teaching",
+    "disclosed teaching regression E2-N06: direct-refusal-current-alternative",
+    "disclosed teaching regression E2-N07: archived-quoted-assignment",
+    "disclosed teaching regression E2-N08: past-teaching-intent-replaced",
+    "disclosed teaching regression E2-N09: trainee-audience-validation-only",
+    "disclosed teaching regression E2-C01: explicit-no-need",
+    "disclosed teaching regression E2-C02: category-exclusion",
+    "disclosed teaching regression E2-C03: task-type-exclusion",
+    "disclosed teaching regression E2-C05: literal-protected-anti-trigger",
+    "disclosed teaching regression F4-N01: training-model-reliability-only",
+    "disclosed teaching regression F4-N02: refused-workshop-current-notice",
+    "disclosed teaching regression F4-N03: quoted-instruction-as-record-data",
+    "Beacon sponsorship route is text-only and preserves human decision boundaries"
+  ],
+  "protectedFileCount": 95,
+  "protectedDrift": []
+}

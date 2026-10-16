@@ -1,0 +1,274 @@
+{
+  "schema": "godskills-lane-c-frozen-matrix-v1",
+  "baselineCommit": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+  "status": "authored-development-regressions-not-held-out",
+  "freeze": "Cases and acceptance criteria fixed before the repair; baseline outcomes retained separately. Owners based on published metadata and existing regression contracts, not a review of all skill bodies.",
+  "options": {
+    "limit": 3,
+    "need": "unknown"
+  },
+  "cases": [
+    {
+      "id": "N01",
+      "kind": "microtask",
+      "query": "What is 17 plus 26? Give only the number.",
+      "empty": true,
+      "basis": "Explicit arithmetic answer needs no workflow."
+    },
+    {
+      "id": "N02",
+      "kind": "microtask",
+      "query": "Give only the result: lowercase the literal text \"PBR MATERIAL COLLISION ANIMATION PACKAGED BUILD\".",
+      "empty": true,
+      "basis": "Asset terminology is literal data."
+    },
+    {
+      "id": "N03",
+      "kind": "microtask",
+      "query": "Do not audit the game assets or qualify a packaged build. Count the words in \"material coordinate collision animation\"; give only the number.",
+      "empty": true,
+      "basis": "Historical negative N06: refused work must not override the live counting request."
+    },
+    {
+      "id": "N04",
+      "kind": "microtask",
+      "query": "Avoid designing a robotics workflow. Uppercase the string “audit safety and verify collision”. Give only the text.",
+      "empty": true,
+      "basis": "Finite refusal plus a curly-quoted literal, no live design request."
+    },
+    {
+      "id": "N05",
+      "kind": "microtask",
+      "query": "Do not compare the proposals; just answer the grammar question: is “build” a verb?",
+      "empty": true,
+      "basis": "A declined comparison is not the requested grammar answer."
+    },
+    {
+      "id": "N06",
+      "kind": "host-no-need",
+      "query": "Alphabetize these labels: invoice, audio, memory, architecture.",
+      "need": "none",
+      "empty": true,
+      "basis": "Host supplies the need judgment for a simple task outside the finite lexical exclusions."
+    },
+    {
+      "id": "N07",
+      "kind": "host-no-need",
+      "query": "Say thanks to the game accessibility team.",
+      "need": "none",
+      "empty": true,
+      "basis": "A courtesy message is not game qualification."
+    },
+    {
+      "id": "P01",
+      "kind": "specific",
+      "query": "Integrate an imported glTF prop into our browser game. If the player leaves while it loads, the old scene must not attach it; release owned textures on remount without disposing shared assets.",
+      "owner": "eternities-arcadia",
+      "basis": "Game scene lifetime and imported asset ownership."
+    },
+    {
+      "id": "P02",
+      "kind": "specific",
+      "query": "Our Unity character imports but the rig and root motion disagree with the movement controller.",
+      "owner": "eternities-arcadia",
+      "basis": "Skeletal import and gameplay motion ownership."
+    },
+    {
+      "id": "P03",
+      "kind": "specific",
+      "query": "Check mesh units, up axis and collision proxies before packaging an Unreal scene.",
+      "owner": "eternities-arcadia",
+      "basis": "Technical 3D integration; a specific engine is evidence, not a required dependency."
+    },
+    {
+      "id": "P04",
+      "kind": "specific",
+      "query": "Integrate a glTF exhibit into a Three.js scene, validate material slots and release GPU resources when visitors leave.",
+      "owner": "eternities-arcadia",
+      "basis": "Interactive 3D integration can be outside a game."
+    },
+    {
+      "id": "P05",
+      "kind": "specific",
+      "query": "Sample rate discontinuity in an audio DSP callback causes feedback instability.",
+      "owner": "audio-dsp-integrity-review",
+      "basis": "DSP callback and signal integrity."
+    },
+    {
+      "id": "P06",
+      "kind": "specific",
+      "query": "Merge the supplied CSV exports by customer identifier, reconcile column names and keep rejected rows with their reasons.",
+      "owner": "eternities-atlas",
+      "basis": "Supplied tabular reconciliation; connected-source access is unnecessary."
+    },
+    {
+      "id": "P07",
+      "kind": "specific",
+      "query": "Rewrite this draft in my own voice using these writing samples and preserve the facts.",
+      "owner": "voice-style-calibration",
+      "basis": "Sample-based authorial voice, not speech synthesis."
+    },
+    {
+      "id": "P08",
+      "kind": "specific",
+      "query": "Choose a vendor before our contract renewal by comparing switching costs, exit options and observed service quality.",
+      "owner": "vendor-evaluation-and-exit-planning",
+      "basis": "Comparable vendor decision and exit planning."
+    },
+    {
+      "id": "P09",
+      "kind": "specific",
+      "query": "Reconcile reported cash flow and balance sheet statements, trace the ratios, and identify unexplained differences.",
+      "owner": "financial-statement-reconciliation",
+      "basis": "Statement reconciliation, not investment guidance."
+    },
+    {
+      "id": "P10",
+      "kind": "specific",
+      "query": "Design crop and soil observation trials comparing two irrigation treatments with local weather and field notes.",
+      "owner": "agricultural-observation-and-trial",
+      "basis": "Locally grounded agricultural observation and small trials."
+    },
+    {
+      "id": "P11",
+      "kind": "specific",
+      "query": "Compare the requirements with what we shipped and identify missing deliverables and contradictions across the documentation.",
+      "owner": "completeness-and-consistency-audit",
+      "basis": "Cross-artifact obligations and consistency."
+    },
+    {
+      "id": "P12",
+      "kind": "specific",
+      "query": "Resume from the previous checkpoint after verifying that saved decisions and old notes are still current.",
+      "owner": "memory-retention-and-recovery",
+      "basis": "Task record recovery with freshness checks."
+    },
+    {
+      "id": "P13",
+      "kind": "specific",
+      "query": "Prepare a lesson where students change a model to explain why a bridge bends and compare their predictions with feedback.",
+      "owner": "evidence-linked-learning-design",
+      "basis": "Requested learner model, explanation and feedback."
+    },
+    {
+      "id": "P14",
+      "kind": "specific",
+      "query": "Audit API schema evolution for absent versus null fields and mixed consumer versions.",
+      "owner": "api-contract-design-and-evolution",
+      "basis": "API consumer/provider compatibility."
+    },
+    {
+      "id": "P15",
+      "kind": "specific",
+      "query": "Freeze the assets and fonts and render a seekable frame-based encoded video; verify the exported duration and sound cues.",
+      "owner": "deterministic-video-composition-and-rendering",
+      "basis": "Explicit encoded video artifact."
+    },
+    {
+      "id": "P16",
+      "kind": "specific",
+      "query": "Design deterministic procedural world chunks with shared edges and validate reachable progression.",
+      "owner": "procedural-world-generation-and-validation",
+      "basis": "Procedural world generation owns its narrower method."
+    },
+    {
+      "id": "X01",
+      "kind": "adjacent-exclusion",
+      "query": "Repair a GIS layer whose longitude and latitude columns were swapped. Establish the source CRS and transform it into documented projected units, then check independent control points.",
+      "owner": "geospatial-coordinate-integrity",
+      "exclude": [
+        "eternities-arcadia"
+      ],
+      "basis": "GIS coordinate operations, no game or 3D runtime request."
+    },
+    {
+      "id": "X02",
+      "kind": "adjacent-exclusion",
+      "query": "Fix an interactive drawer animation that jumps when a user reverses the drag midway. Preserve current position and velocity when the target changes, handle resize, and provide the reduced-motion transition.",
+      "owner": "motion-design-and-animation-engineering",
+      "exclude": [
+        "eternities-arcadia"
+      ],
+      "basis": "UI gesture continuity, no game runtime."
+    },
+    {
+      "id": "X03",
+      "kind": "adjacent-exclusion",
+      "query": "Render a 20-second encoded video from a seekable frame-based composition. Freeze the asset and font inputs, align the sound cues to exact frames, and check the exported duration.",
+      "owner": "deterministic-video-composition-and-rendering",
+      "exclude": [
+        "eternities-arcadia"
+      ],
+      "basis": "Frames and assets alone do not request playable runtime work."
+    },
+    {
+      "id": "X04",
+      "kind": "adjacent-exclusion",
+      "query": "Review the supplied 3D asset license agreement. Extract redistribution and attribution obligations, termination triggers and liability clauses with document locators; leave jurisdiction-dependent conclusions open.",
+      "owner": "jurisdiction-aware-contract-review",
+      "exclude": [
+        "eternities-arcadia"
+      ],
+      "basis": "Legal obligation extraction, no technical asset integration."
+    },
+    {
+      "id": "X05",
+      "kind": "adjacent-exclusion",
+      "query": "Do not design a game or integrate meshes; repair the GIS layer by checking its source CRS and independent control points.",
+      "owner": "geospatial-coordinate-integrity",
+      "exclude": [
+        "eternities-arcadia"
+      ],
+      "basis": "Refused game work is not runtime evidence."
+    },
+    {
+      "id": "X06",
+      "kind": "adjacent-exclusion",
+      "query": "The quoted brief says “integrate meshes and collision in a game scene”. Review only the supplied license agreement for attribution obligations and termination clauses.",
+      "owner": "jurisdiction-aware-contract-review",
+      "exclude": [
+        "eternities-arcadia"
+      ],
+      "basis": "Quoted game work is source material; the live task is contract review."
+    },
+    {
+      "id": "A01",
+      "kind": "ambiguous",
+      "query": "Help me with recovery.",
+      "basis": "Recovery is underspecified. A lexical shortlist remains undecided."
+    },
+    {
+      "id": "A02",
+      "kind": "ambiguous",
+      "query": "I need a model for this project.",
+      "basis": "Model could mean several domains; no single owner asserted."
+    },
+    {
+      "id": "A03",
+      "kind": "ambiguous",
+      "query": "Scene assets and animation.",
+      "basis": "Topic-only query does not establish a task or permission."
+    },
+    {
+      "id": "A04",
+      "kind": "ambiguous",
+      "query": "Help with recovery. Ask one clarifying question before selecting a specialist.",
+      "empty": true,
+      "basis": "Explicit clarification request precedes selection."
+    },
+    {
+      "id": "B01",
+      "kind": "mixed-positive",
+      "query": "Do not audit the supplied assets. Build a word count service with multilingual tokenization and validation.",
+      "nonempty": true,
+      "basis": "A separate affirmative implementation must stay discoverable."
+    },
+    {
+      "id": "B02",
+      "kind": "mixed-positive",
+      "query": "Count the words in “game scene”, but audit obligations across the documents and give only the findings.",
+      "owner": "completeness-and-consistency-audit",
+      "basis": "A counting substep does not erase a live workflow."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "schema": "review-c-v2-avicenna-delivery-v1",
+  "decision": "READY",
+  "acceptedFileDrift": [],
+  "finalInputDrift": [],
+  "entries": [
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-v2-avicenna/REVIEW.md",
+      "sha256": "d2670b7e199042ea494ae639658173f773feb814e86dc30bfe5b3a1f6491d362"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-v2-avicenna/focused-tests.tap",
+      "sha256": "87c7ab9a390d3027fabf365b4f6978453cffb56b8db05d8d0784cf589d35e7c9"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-v2-avicenna/integrity.mjs",
+      "sha256": "0000fa30609b3a7aa82436bd2fd72b9d8ed61f196a063cf788073f663934c888"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-v2-avicenna/matched-historical-metadata.json",
+      "sha256": "4281c8efba6fc31ba15916298bcf6bc6107d71fa13b7e7cf033ae44debffc381"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-v2-avicenna/read-set.after.json",
+      "sha256": "982ae21e3f9c040dc08b558495bf6de4d1f522e68def1e10db32c63d766ce64b"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-v2-avicenna/read-set.before.json",
+      "sha256": "b04e9b118a16271f74b800b77d7c0a01dd483d864ec8db42a4ca10d08dc269b3"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-v2-avicenna/variants-results.json",
+      "sha256": "64cf80d41c0349d5a67def96cfa4b17d93f31cf4221122a693d6308916066fef"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-v2-avicenna/variants.json",
+      "sha256": "55bcb7be4a5558c8461f3949ae10cea554f6c5a0e10750bcab72c328fbbc119c"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-v2-avicenna/variants.mjs",
+      "sha256": "28f95045c626a8b2983018f118fbca760996d75f8f66385b066d106c5a800b27"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-v2-avicenna/verdict.json",
+      "sha256": "c028d68d89753b85bcb29451fda9fd4d60ec29833ed295a8a2512c464dbfdadc"
+    }
+  ]
+}

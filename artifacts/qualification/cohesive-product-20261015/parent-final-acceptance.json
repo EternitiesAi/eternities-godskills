@@ -1,0 +1,35 @@
+{
+  "schema": "cohesive-parent-final-acceptance-v1",
+  "status": "ACCEPTED_FOR_INTEGRATION",
+  "observedUtc": "2026-10-16T06:16:32.224Z",
+  "releaseId": "368d5a716bd3b8069ba5ba858f8db8f7fba8b19c36aa373fc62c19d8a2b55efb",
+  "reviewedFileChecks": 27,
+  "currentSuiteFilesMatched": 632,
+  "suite": {
+    "tests": 1859,
+    "pass": 1857,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 2,
+    "todo": 0,
+    "duration_ms": 138610.0939
+  },
+  "relocatedCliChecks": 8,
+  "archive": "artifacts/releases/godskills-product-20261016-368d5a71.zip",
+  "archiveSha256": "d5e71e9f3be0ea4d654963c9a47a8858247226e695585a2b672dd76eae864ad8",
+  "reviewReceipts": [
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-runtime-css-closure-avicenna/verdict.json",
+      "sha256": "8ad5ad5d2948168aa792b017914cee93000fe9f93bda5b330db97ced797a6507"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-laplace/review.json",
+      "sha256": "98fb17f686b886c0822741cfe854675680be62df1c4a33dc2cfab3476b5d0d1b"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-laplace/final-bind.json",
+      "sha256": "1a84c12f4ce6d3a577332ef50f93606405cef076bd0dac898c34ea57cce37067"
+    }
+  ],
+  "limits": "Parent verification of separately reviewed changed bytes and local checks; integration and installation are separate. No whole-quarry, live-domain or raw-agent superiority claim."
+}

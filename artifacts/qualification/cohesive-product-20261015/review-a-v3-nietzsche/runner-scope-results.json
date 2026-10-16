@@ -1,0 +1,139 @@
+{
+  "executedAt": "2026-10-16T05:31:12.107Z",
+  "node": "v24.18.0",
+  "nodeExeSha256": "9a4eb5f1c29c6a2e93852ead46b999e284a6a5ca8bab4d4e241d587d025a52de",
+  "npmCli": "C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js",
+  "npmCliSha256": "3ce7cba6f5128dd5f54c98b6a5036b0f850496878cc2e21044b675fe3c594e3e",
+  "sourcePackageSha256": "babefbe4933100db21e8deaf329e3f4dc7bd81555ef6a6cd9ce8fa2ced1f354d",
+  "sourceScopeTestSha256": "fa29ade33d4849a417c4d5180dda73891f503e7d8c1d44351057f1df81b047ed",
+  "runs": [
+    {
+      "label": "broad:npm test",
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\artifacts\\qualification\\cohesive-product-20261015\\review-a-v3-nietzsche\\runner-sandboxes\\broad",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js",
+        "test"
+      ],
+      "status": 1,
+      "signal": null,
+      "error": null,
+      "stdout": "\n> @eternities/skills@0.2.0 test\n> node --test\n\n✖ REVIEW_V3_HISTORICAL_ARTIFACT_EXECUTED (0.394ms)\n✔ REVIEW_V3_EVALUATION_ROOT_INCLUDED (0.6262ms)\n✔ REVIEW_V3_EXAMPLES_ROOT_INCLUDED (0.3691ms)\n✔ REVIEW_V3_PRODUCT_ROOT_INCLUDED (0.3821ms)\n✔ REVIEW_V3_TESTS_ROOT_INCLUDED (0.3845ms)\n✖ default checks include maintained tests without executing historical review artifacts (1.0436ms)\nℹ tests 6\nℹ suites 0\nℹ pass 4\nℹ fail 2\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 81.7072\n\n✖ failing tests:\n\ntest at artifacts\\historical\\review-a-v3-intentional-red.test.mjs:2:1\n✖ REVIEW_V3_HISTORICAL_ARTIFACT_EXECUTED (0.394ms)\n  Error: REVIEW_V3_HISTORY_MUST_NOT_RUN\n      at TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/cohesive-product-20261015/review-a-v3-nietzsche/runner-sandboxes/broad/artifacts/historical/review-a-v3-intentional-red.test.mjs:2:58)\n      at Test.runInAsyncScope (node:async_hooks:227:14)\n      at Test.run (node:internal/test_runner/test:1325:25)\n      at Test.start (node:internal/test_runner/test:1191:17)\n      at startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17)\n\ntest at tests\\review-a-v3-test-runner-scope.test.mjs:5:1\n✖ default checks include maintained tests without executing historical review artifacts (1.0436ms)\n  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n  + actual - expected\n  \n  + 'node --test'\n  - 'node --test \"tests/**/*.test.mjs\" \"examples/**/*.test.mjs\" \"evaluation/**/*.test.mjs\" \"product/**/*.test.mjs\"'\n  \n      at TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/cohesive-product-20261015/review-a-v3-nietzsche/runner-sandboxes/broad/tests/review-a-v3-test-runner-scope.test.mjs:8:10)\n      at Test.runInAsyncScope (node:async_hooks:227:14)\n      at Test.run (node:internal/test_runner/test:1325:25)\n      at Test.start (node:internal/test_runner/test:1191:17)\n      at startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17) {\n    generatedMessage: true,\n    code: 'ERR_ASSERTION',\n    actual: 'node --test',\n    expected: 'node --test \"tests/**/*.test.mjs\" \"examples/**/*.test.mjs\" \"evaluation/**/*.test.mjs\" \"product/**/*.test.mjs\"',\n    operator: 'strictEqual',\n    diff: 'simple'\n  }\n",
+      "stderr": ""
+    },
+    {
+      "label": "broad:npm run check",
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\artifacts\\qualification\\cohesive-product-20261015\\review-a-v3-nietzsche\\runner-sandboxes\\broad",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js",
+        "run",
+        "check"
+      ],
+      "status": 1,
+      "signal": null,
+      "error": null,
+      "stdout": "\n> @eternities/skills@0.2.0 check\n> node --test\n\n✖ REVIEW_V3_HISTORICAL_ARTIFACT_EXECUTED (0.3718ms)\n✔ REVIEW_V3_EVALUATION_ROOT_INCLUDED (0.5447ms)\n✔ REVIEW_V3_EXAMPLES_ROOT_INCLUDED (0.3958ms)\n✔ REVIEW_V3_PRODUCT_ROOT_INCLUDED (0.3638ms)\n✔ REVIEW_V3_TESTS_ROOT_INCLUDED (0.3471ms)\n✖ default checks include maintained tests without executing historical review artifacts (1.0111ms)\nℹ tests 6\nℹ suites 0\nℹ pass 4\nℹ fail 2\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 81.388\n\n✖ failing tests:\n\ntest at artifacts\\historical\\review-a-v3-intentional-red.test.mjs:2:1\n✖ REVIEW_V3_HISTORICAL_ARTIFACT_EXECUTED (0.3718ms)\n  Error: REVIEW_V3_HISTORY_MUST_NOT_RUN\n      at TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/cohesive-product-20261015/review-a-v3-nietzsche/runner-sandboxes/broad/artifacts/historical/review-a-v3-intentional-red.test.mjs:2:58)\n      at Test.runInAsyncScope (node:async_hooks:227:14)\n      at Test.run (node:internal/test_runner/test:1325:25)\n      at Test.start (node:internal/test_runner/test:1191:17)\n      at startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17)\n\ntest at tests\\review-a-v3-test-runner-scope.test.mjs:5:1\n✖ default checks include maintained tests without executing historical review artifacts (1.0111ms)\n  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n  + actual - expected\n  \n  + 'node --test'\n  - 'node --test \"tests/**/*.test.mjs\" \"examples/**/*.test.mjs\" \"evaluation/**/*.test.mjs\" \"product/**/*.test.mjs\"'\n  \n      at TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/cohesive-product-20261015/review-a-v3-nietzsche/runner-sandboxes/broad/tests/review-a-v3-test-runner-scope.test.mjs:8:10)\n      at Test.runInAsyncScope (node:async_hooks:227:14)\n      at Test.run (node:internal/test_runner/test:1325:25)\n      at Test.start (node:internal/test_runner/test:1191:17)\n      at startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17) {\n    generatedMessage: true,\n    code: 'ERR_ASSERTION',\n    actual: 'node --test',\n    expected: 'node --test \"tests/**/*.test.mjs\" \"examples/**/*.test.mjs\" \"evaluation/**/*.test.mjs\" \"product/**/*.test.mjs\"',\n    operator: 'strictEqual',\n    diff: 'simple'\n  }\n",
+      "stderr": ""
+    },
+    {
+      "label": "maintained:npm test",
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\artifacts\\qualification\\cohesive-product-20261015\\review-a-v3-nietzsche\\runner-sandboxes\\maintained",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js",
+        "test"
+      ],
+      "status": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "\n> @eternities/skills@0.2.0 test\n> node --test \"tests/**/*.test.mjs\" \"examples/**/*.test.mjs\" \"evaluation/**/*.test.mjs\" \"product/**/*.test.mjs\"\n\n✔ REVIEW_V3_EVALUATION_ROOT_INCLUDED (0.3555ms)\n✔ REVIEW_V3_EXAMPLES_ROOT_INCLUDED (0.4348ms)\n✔ REVIEW_V3_PRODUCT_ROOT_INCLUDED (0.5347ms)\n✔ REVIEW_V3_TESTS_ROOT_INCLUDED (0.3504ms)\n✔ default checks include maintained tests without executing historical review artifacts (0.6339ms)\nℹ tests 5\nℹ suites 0\nℹ pass 5\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 68.3122\n",
+      "stderr": ""
+    },
+    {
+      "label": "maintained:npm run check",
+      "cwd": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\artifacts\\qualification\\cohesive-product-20261015\\review-a-v3-nietzsche\\runner-sandboxes\\maintained",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js",
+        "run",
+        "check"
+      ],
+      "status": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "\n> @eternities/skills@0.2.0 check\n> node --test \"tests/**/*.test.mjs\" \"examples/**/*.test.mjs\" \"evaluation/**/*.test.mjs\" \"product/**/*.test.mjs\"\n\n✔ REVIEW_V3_EVALUATION_ROOT_INCLUDED (0.3853ms)\n✔ REVIEW_V3_EXAMPLES_ROOT_INCLUDED (0.3713ms)\n✔ REVIEW_V3_PRODUCT_ROOT_INCLUDED (0.3661ms)\n✔ REVIEW_V3_TESTS_ROOT_INCLUDED (0.3405ms)\n✔ default checks include maintained tests without executing historical review artifacts (0.6594ms)\nℹ tests 5\nℹ suites 0\nℹ pass 5\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 68.0621\n",
+      "stderr": ""
+    },
+    {
+      "label": "real-root:focused-scope-regression",
+      "cwd": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003",
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "--test",
+        "tests/test-runner-scope.test.mjs"
+      ],
+      "status": 0,
+      "signal": null,
+      "error": null,
+      "stdout": "✔ default checks include maintained tests without executing historical review artifacts (0.6851ms)\nℹ tests 1\nℹ suites 0\nℹ pass 1\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 49.0323\n",
+      "stderr": ""
+    }
+  ],
+  "checks": [
+    {
+      "label": "broad:npm test",
+      "expectedStatus": true,
+      "allRootsIncluded": true,
+      "historicalExecuted": true,
+      "pass": true
+    },
+    {
+      "label": "broad:npm run check",
+      "expectedStatus": true,
+      "allRootsIncluded": true,
+      "historicalExecuted": true,
+      "pass": true
+    },
+    {
+      "label": "maintained:npm test",
+      "expectedStatus": true,
+      "allRootsIncluded": true,
+      "historicalExecuted": false,
+      "pass": true
+    },
+    {
+      "label": "maintained:npm run check",
+      "expectedStatus": true,
+      "allRootsIncluded": true,
+      "historicalExecuted": false,
+      "pass": true
+    },
+    {
+      "label": "real-root:focused-scope-regression",
+      "expectedStatus": true,
+      "allRootsIncluded": null,
+      "historicalExecuted": false,
+      "pass": true
+    }
+  ],
+  "maintainedRootFilenameInventory": {
+    "evaluation": {
+      "included": 1,
+      "excluded": []
+    },
+    "examples": {
+      "included": 6,
+      "excluded": []
+    },
+    "tests": {
+      "included": 278,
+      "excluded": []
+    },
+    "product": {
+      "included": 3,
+      "excluded": []
+    }
+  },
+  "limits": "Only isolated canary bodies and the focused real root scope regression executed; no repository-wide suite, historical body, shared build, install, dependency or source-acquisition action."
+}

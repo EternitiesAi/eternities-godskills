@@ -1,0 +1,101 @@
+{
+  "schema": "cohesive-product-lane-b-validation-v1",
+  "date": "2026-10-15",
+  "candidateFiles": [
+    {
+      "path": "product/skills/counterbalanced-agent-evaluation/SKILL.md",
+      "sha256": "6242385832a491c290feeb636175210c839a75dcf6bd30526b5cf2f32c99fd7f",
+      "bytes": 6194
+    },
+    {
+      "path": "product/skills/eternities-daedalus/SKILL.md",
+      "sha256": "1a26dfffe15ecfa2289aaa502e959c07f99eb518c9823ae930536a5c9f829e17",
+      "bytes": 5713
+    },
+    {
+      "path": "product/skills/eternities-forge/SKILL.md",
+      "sha256": "41ed525d0b547973ed7c9752d47c7f2fd936196ca8b2edc3b2d3066266c9b597",
+      "bytes": 4379
+    },
+    {
+      "path": "product/skills/eternities-hermes/SKILL.md",
+      "sha256": "a64957e27281ecd3b99a4bd3b2661d860ae0af8171ea630b3a9a01d5545c89cd",
+      "bytes": 4751
+    },
+    {
+      "path": "product/skills/eternities-mnemosyne/SKILL.md",
+      "sha256": "0d4b18975e93a30191c3371d7f3e4537be56aa6c021e75ee84a6d9210c8bed9a",
+      "bytes": 4542
+    },
+    {
+      "path": "product/skills/eternities-oracle/SKILL.md",
+      "sha256": "528b78eeb7208203a0fca382d7a52276ddf12778df7da3c993b34f39747bf420",
+      "bytes": 4893
+    },
+    {
+      "path": "product/skills/eternities-phoenix/SKILL.md",
+      "sha256": "b9d28316b61929e5dd4303aa68f82f21632ba5a44b9a6880b0aed1020694787f",
+      "bytes": 6126
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/SKILL.md",
+      "sha256": "d0487cb608de140f11305ffcd63f837fbe56c018b029ccd70f0da04c97a51a0b",
+      "bytes": 6818
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/SKILL.md",
+      "sha256": "6621d8bb0924cd386831eae2004144d3006206359de4fdaa1d2385fcdca4d38e",
+      "bytes": 5733
+    },
+    {
+      "path": "product/skills/eternities-phoenix/references/diagnostic-experiments-v2.md",
+      "sha256": "0e90cd104135546419a996f0d1c0acd1e57f21ecc5c463225f9d86e7adfec227",
+      "bytes": 3238
+    },
+    {
+      "path": "tests/cohesive-lane-b-methods.test.mjs",
+      "sha256": "4ea520235af5b01640f017ef14958f737024b0c0197db7ff38d0478fe94cbb8a",
+      "bytes": 7779
+    }
+  ],
+  "checks": [
+    {
+      "command": "node --test tests/cohesive-lane-b-methods.test.mjs",
+      "exitCode": 0,
+      "tests": 10,
+      "passed": 10,
+      "failed": 0,
+      "skipped": 0,
+      "evidence": "5 structural/integrity checks and 5 executable synthetic method checks; no fresh-agent runs."
+    },
+    {
+      "command": "PYTHONUTF8=1 python C:/Users/Dom/.codex/skills/.system/skill-creator/scripts/quick_validate.py product/skills/<each of nine refined IDs>",
+      "exitCode": 0,
+      "skills": 9,
+      "result": "All reported Skill is valid! This validator checks basic frontmatter/naming/scaffolding only."
+    },
+    {
+      "command": "git diff --check -- <nine refined SKILL.md paths>",
+      "exitCode": 0,
+      "result": "No whitespace errors."
+    },
+    {
+      "artifact": "scenario-checks.md",
+      "cases": 27,
+      "mode": "author-applied instruction walkthroughs",
+      "independent": false
+    }
+  ],
+  "recoveredToolingIssues": [
+    "Initial attempt to serialize all 56 full bodies exceeded bounded tool output; discarded that parse and reread all entrypoints in batches, with a complete reread of the one display-truncated browser body.",
+    "An empty-context patch attempt against counterbalanced-agent-evaluation was rejected before mutation; the actual contextual patch was then applied successfully."
+  ],
+  "unperformed": [
+    "Independent review",
+    "Fresh-agent behavior comparison",
+    "Provider, network, device or production evaluation",
+    "Whole-repository suite",
+    "Generated catalog/method-directory/release regeneration"
+  ],
+  "reasonForBoundedChecks": "Instruction-only owned changes; parent owns shared metadata, integration and release. No agents, providers or acquired code used."
+}

@@ -1,0 +1,86 @@
+{
+  "schema": "review-c-avicenna-delivery-v1",
+  "decision": "REPAIR",
+  "entries": [
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-avicenna/REVIEW.md",
+      "sha256": "3d46b3d4f75820e0dc7912e7ff7fa8cf75a9dedc951827772627449ffb3b01cc"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-avicenna/author-matrix-replay.json",
+      "sha256": "395cd1776735a9fd6957f6999be1a59e2ad55142e5b3b25c0aa3a91575ed8152"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-avicenna/camera-check.mjs",
+      "sha256": "175fac48da55af97782b01338180debc9237a175448595e83cd095a3a9bb471d"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-avicenna/camera-regression.test.mjs",
+      "sha256": "fd27d309f0fb29f0112f96248f09bd7cdca1247a9a1ca535f68743e46183931f"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-avicenna/camera-regression.txt",
+      "sha256": "6e225f4786bd4641bdfc81102645ca24324cf5b913062174e429fa7067daea8d"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-avicenna/camera-results.json",
+      "sha256": "9c9e4dafb0c237ebcf4ac94f3ca70a6653a4982ca0d81d013481ecb19dc11aec"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-avicenna/challenge-results.json",
+      "sha256": "c0d7985531cb228d7ff1c134b068135e3c8a3f12c508be0847170768efd52103"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-avicenna/challenge-run.mjs",
+      "sha256": "d77d38b09dcee4ffcbcf21705547c67c511c2d6c4b4adddc451462f35b7ce171"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-avicenna/challenges.json",
+      "sha256": "1891a4494f537c69da9d3d6fdcabef765a3d2fbbd2f669b34924535f1b688dff"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-avicenna/docs-check.mjs",
+      "sha256": "eb795beec904b6c2947d84b424c2dd3cd85c0fd1da19437c276cce3f77abb6a8"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-avicenna/docs-results.json",
+      "sha256": "b710a5241576825964a23961bb86e9d62c8755894d594c1db04cea052531cf48"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-avicenna/focused-tests.txt",
+      "sha256": "d236af4a9345cad8b82d9a4632c112108f6efc86fa044080b89fd3fcc6b7a43e"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-avicenna/parent-challenge-results.json",
+      "sha256": "fd013ea941212d81526a9a6039be589ec9280e722ffd7d642cd6bfdcd51cc7dc"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-avicenna/parent-challenges.json",
+      "sha256": "2e1d8142dcfffb2024055ae69dd69cbe72566df52416851ef5a3eefdd19ef6f5"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-avicenna/read-set.json",
+      "sha256": "3102f38049b722d5008f215a406044c72e0dccca603142d29de6f05ab4bfd676"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-avicenna/review-regressions.test.mjs",
+      "sha256": "c53f161abe23acefcb01e2fd804ac055e2b86b8993e9f6c15e3d419f2b526d39"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-avicenna/review-regressions.txt",
+      "sha256": "e135cf9ddb5ed344d1b2892fbd3b0b492d5daa957992b40aa582290dd74789bd"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-avicenna/supplemental-results.json",
+      "sha256": "1223bc94585dc157d3686e7ce891a590683f5c5b422aa8363152263012b6d89e"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-avicenna/supplemental.json",
+      "sha256": "19076aff0b1eb65da626ef5f9e1a9e6dad175c10eada9c9823561125c9de1d4d"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-avicenna/verdict.json",
+      "sha256": "8916dd967f365c3c4dc573ff0b8f308f5a7a61a9ad67de6380c3f33930a0ed12"
+    }
+  ]
+}

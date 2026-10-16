@@ -1,0 +1,114 @@
+{
+  "schema": "review-c-v2-avicenna-verdict-v1",
+  "decision": "READY",
+  "scope": "Independent acceptance of the exact R1/R2 repair files below, not universal lexical correctness, skill execution benefit or release/build acceptance.",
+  "acceptedFiles": [
+    {
+      "path": "product/lib/discovery.mjs",
+      "sha256": "4996700d80c125d06586f044260026954047cbbd412f43ef63e10ea8b2adcbd6"
+    },
+    {
+      "path": "product/DISCOVERY.md",
+      "sha256": "d9f03824a4b3fedc40c50c2fd11f061ca8f90b25cb1546d13b83a12d8676281c"
+    },
+    {
+      "path": "tests/cohesive-discovery-boundaries.test.mjs",
+      "sha256": "9fc9a58a7ae1af0dd1f2b8ca9c1ed293178bc63d585ea1f5ef4b25dcd6ee6770"
+    }
+  ],
+  "baseline": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+  "verification": {
+    "focusedTests": {
+      "pass": 161,
+      "fail": 0,
+      "originalReviewerRegressions": 9,
+      "excludedByName": [
+        "actual search",
+        "rebuilt temporary"
+      ]
+    },
+    "historicalReplayExact": true,
+    "historicalSavedCaseGroups": {
+      "main": "54/56",
+      "supplemental": "19/19 scored",
+      "parent": "3/4",
+      "camera": "2/2",
+      "author": "35/35"
+    },
+    "finalMetadataSavedCaseGroups": {
+      "main": "54/56",
+      "supplemental": "19/19 scored",
+      "parent": "4/4"
+    },
+    "freshVariants": {
+      "pass": 14,
+      "fail": 0,
+      "characterization": 2
+    },
+    "exactIds": 93,
+    "hostNoNeedFailures": [],
+    "authorityFailures": [],
+    "metadataDispatchFailures": [],
+    "newIntentBonus": 0
+  },
+  "integrity": {
+    "reviewStartInputs": 172,
+    "codeAndTestDrift": [],
+    "unexpectedDrift": [],
+    "declaredSourceHashMismatches": [],
+    "originalReviewPreserved": true,
+    "originalRepairReceiptsPreserved": true,
+    "announcedParentMetadataDelta": [
+      {
+        "path": "product/skills/eternities-arcadia/skill.json",
+        "before": "b03fc6bf2a895e8ec1a0ae537a2091370d753cb056953645b7190b67ca52c4a7",
+        "after": "eeaefbc6c4c89338b38664002a266cf54c9530e610f44874386bf7284e67933e"
+      }
+    ],
+    "finalMetadataCount": 93,
+    "finalRetrievalProjectionSha256": "6af98e834bc28e25599f963833a678f7a4bb241870dbefa21c613b0222647c0f",
+    "finalVariantRunDrift": []
+  },
+  "findings": {
+    "R1": "Accepted: game controls, modifier-rich creation, shader, descriptive asset faults and current-metadata camera recall restored without query-key dispatch.",
+    "R2": "Accepted: asset nouns alone no longer supply both cue families; tested legal/pricing requests are excluded with no runtime-purpose reason, while separate live technical clauses remain eligible."
+  },
+  "metadataAttribution": {
+    "portalHistoricalMetadata": "No result under v2.",
+    "portalFinalMetadata": "Arcadia rank1 under canonical and v2, absent under v1.",
+    "conclusion": "The parent trigger supplies lexical recall; v2 admits that recall. Neither effect is attributed solely to the other."
+  },
+  "remainingLimitations": [
+    {
+      "id": "L1",
+      "case": "V15",
+      "query": "Review the license and integrate the WebGL shader into our game.",
+      "observed": "Arcadia excluded by v2; canonical/v1 rank1.",
+      "classification": "Accepted documented conservative loss for mixed purposes inside one clause. Separate live technical clause V07 succeeds."
+    },
+    {
+      "id": "L2",
+      "case": "V16",
+      "query": "The mesh is present. Build a cash-flow forecast from the supplied ledger.",
+      "observed": "Arcadia rank4 with purpose reason in v1/v2; canonical rank4 without purpose reason. Cash-flow owner remains rank1.",
+      "classification": "Known residual false-positive corroboration from unrelated surviving clauses, not new rank loss and not a doubled-noun purpose. This limits interpretation of reasons; no semantic applicability claim is accepted."
+    },
+    {
+      "id": "L3",
+      "cases": [
+        "E04",
+        "E05"
+      ],
+      "observed": "Free-text references to skill IDs still miss; bare exact-ID and dedicated inspect controls pass.",
+      "classification": "Previously recorded finite search limit, not a repaired API regression."
+    }
+  ],
+  "remainingOwnerGates": [
+    "Parent metadata/manifests and final pack rebuild",
+    "Public CLI/merged-pack/native release validation"
+  ],
+  "writes": "Only NEW review-c-v2-avicenna/",
+  "productModified": false,
+  "agentsSpawned": false,
+  "externalEffects": false
+}

@@ -1,0 +1,7 @@
+{
+  "command": "node product/bin/godskills.mjs search <explicit-refusal-plus-counting-query> --limit 3",
+  "exitCode": 1,
+  "stderr": "{\"error\":\"Release file set changed or undeclared files present\"}",
+  "disposition": "deferred-to-parent-manifest-rebuild",
+  "explanation": "Shared product gained modified and new files; release inventory intentionally unchanged by lane C. This is a real integration failure, not a successful CLI result. Existing isolated temporary-pack test passed in tests.preintegration.tap."
+}

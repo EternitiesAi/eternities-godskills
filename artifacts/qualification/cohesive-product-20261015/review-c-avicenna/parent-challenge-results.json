@@ -1,0 +1,773 @@
+{
+  "schema": "review-c-avicenna-challenge-results-v1",
+  "base": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+  "node": "v24.18.0",
+  "catalogSha256": "f20b17c989c188d439c84fa4a8cf5989ccafe550428b2b2577708ba072a39889",
+  "sources": [
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-avicenna/challenge-run.mjs",
+      "sha256": "d77d38b09dcee4ffcbcf21705547c67c511c2d6c4b4adddc451462f35b7ce171"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-avicenna/parent-challenges.json",
+      "sha256": "2e1d8142dcfffb2024055ae69dd69cbe72566df52416851ef5a3eefdd19ef6f5"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c/catalog.frozen.json",
+      "sha256": "f20b17c989c188d439c84fa4a8cf5989ccafe550428b2b2577708ba072a39889"
+    },
+    {
+      "path": "product/lib/product.mjs",
+      "sha256": "afd5689a4120420478995bee762e67cc7ce640f9ce633ae6c6a4f497efcff9bf"
+    },
+    {
+      "path": "product/lib/discovery.mjs",
+      "sha256": "9eb1cad0cea17e03f1cf760d7c764c5149bb206e5a92d4b6cc09bbfd91718007"
+    },
+    {
+      "path": "product/lib/selection-boundary.mjs",
+      "sha256": "a7b0ed0d0c9805e9a2b97a74c0321ce263c15609e98996144df90fc1b7f0e60e"
+    },
+    {
+      "path": "product/lib/request-scope.mjs",
+      "sha256": "e9055f1bfa2a913c1f73e93f5fa652588963e63dd9094e46713786fe400877f2"
+    },
+    {
+      "path": "product/lib/navigation.mjs",
+      "sha256": "937977fe6c338fb7a17f8bdddc132440f0c06ecb69b9c5b1424f7c1a06bfb777"
+    },
+    {
+      "path": "product/lib/method-directory.mjs",
+      "sha256": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180"
+    },
+    {
+      "path": "product/lib/skill-frontmatter.mjs",
+      "sha256": "66bfc5b6b56688d2996689f774b5b904ce517a3fda1ec35d4d567cbd63e3a96d"
+    },
+    {
+      "path": "product/DISCOVERY.md",
+      "sha256": "3ce1104a5ff4938570d3cb450c8ed83c26b5b7a88d0c9842e1dc3dc91a363a79"
+    },
+    {
+      "path": "product/START-HERE.md",
+      "sha256": "900b5b72fad4fdda396665218530d1caba050ccc23d20d72b8486f638ef797f8"
+    },
+    {
+      "path": "README.md",
+      "sha256": "92a52a5cceafe412f98f5c6d5ebdec881d2c37269d1d6ada85561dede858b05f"
+    },
+    {
+      "path": "docs/history/README-before-cohesive-20261015.md",
+      "sha256": "63ee92cd35cdd9d6ccc9f9bdabd782d743b8df9dfc2f83fdb5bdc96138c71a9b"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c/ASSESSMENT.md",
+      "sha256": "869cc639bf3b1258dc9c4dec76b566fad5eec94dda0a640c63820e4c4d6a2bea"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c/delivery-files.json",
+      "sha256": "b4328782cffef2b4a555322ac38365b55dda295d64f0a15d6a4ab0ffdbaa71e4"
+    },
+    {
+      "path": "tests/cohesive-discovery-boundaries.test.mjs",
+      "sha256": "f5e930110119b93f5ca3a2075203db992034746ced11342a052e04ef1e32d457"
+    },
+    {
+      "path": "tests/cohesive-discovery-routing.test.mjs",
+      "sha256": "e058375753585d179eafbd2247ee85f76e65b1c805d80444889362e1482aa671"
+    },
+    {
+      "path": "tests/cohesive-discovery-navigation.test.mjs",
+      "sha256": "e38d5c71a1b50e926a161e3784bf2f5547e1fbebadd17db5b8ad72e60e667721"
+    },
+    {
+      "path": "tests/discovery-quality-20261003.test.mjs",
+      "sha256": "c58636d571580b4f8dc93d9006136efb9e2ed4f2bf0029b2e39c51f09b420fb5"
+    },
+    {
+      "path": "tests/discovery-selection-boundary-20261003.test.mjs",
+      "sha256": "bc5be6a4e3db861a616bd9402d4cc86a17546a751dd04c88b8b23508c2c2027f"
+    },
+    {
+      "path": "tests/discovery-need-20261003.test.mjs",
+      "sha256": "7b3bfd5c805e6a80b6191c97ecf67a162f74570b45fcd23358fb830e95b5262e"
+    },
+    {
+      "path": "tests/realtime-asset-discovery.test.mjs",
+      "sha256": "021527a1f4c0f489932fbe37377a3e522cbc45879579b8d941b07b0cc3dde0f3"
+    },
+    {
+      "path": "product/catalog.json",
+      "sha256": "f20b17c989c188d439c84fa4a8cf5989ccafe550428b2b2577708ba072a39889"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/SKILL.md",
+      "sha256": "b217515c82a89239839e6dd16aa12891b92ad3d055f16ee68eaab854bde33693"
+    },
+    {
+      "path": "product/skills/accessibility-audit-and-remediation/skill.json",
+      "sha256": "34832196f4d2fe6e0269d89af9213a46bc8cd4717712c525a39e48a1777902f4"
+    },
+    {
+      "path": "product/skills/agricultural-observation-and-trial/skill.json",
+      "sha256": "ee6e741e16650be93fcb245c8e2f75edf135d2ea79bdef29dfe184c56cdb933f"
+    },
+    {
+      "path": "product/skills/api-contract-design-and-evolution/skill.json",
+      "sha256": "9fcd3a617f83a7fd3f94cb1866b714cd1c9d8570eaad453f9ae172a33588f8e4"
+    },
+    {
+      "path": "product/skills/api-rate-limit-recovery/skill.json",
+      "sha256": "d44cb783cf5c2144327ec2e2946c964b5ff667d164437a1b711dda2851c40387"
+    },
+    {
+      "path": "product/skills/app-store-discovery-experiments/skill.json",
+      "sha256": "339762bee9feb3a7c55db745b80dd68b819be86fe036abb3e67736d4bef3e757"
+    },
+    {
+      "path": "product/skills/approval-bound-private-session-mining/skill.json",
+      "sha256": "0521f0687700ec2e74d70ab89995a681447a7fce3b9b69e40f274c0760c495ba"
+    },
+    {
+      "path": "product/skills/audio-dsp-integrity-review/skill.json",
+      "sha256": "c7f05ff43b354c2a79812ee8cbca9c833bfa9db7fe92ffdc2e4eca4d724adec9"
+    },
+    {
+      "path": "product/skills/bounded-parametric-design-iteration/skill.json",
+      "sha256": "cdd8b652379f4c3bee95a8452f6352c86ee930baabc0f2af91e87b51854ecf77"
+    },
+    {
+      "path": "product/skills/bounded-service-shutdown/skill.json",
+      "sha256": "5e8d0f21e8d996087b573e53cbbd7ca3ff4e06fdadb0c7b276bc0e5da2a75f97"
+    },
+    {
+      "path": "product/skills/bounded-verified-object-ingestion/skill.json",
+      "sha256": "26da1859217d796aded8fb89a4a9ca43555921726a0db1534b4808c02eeb9c5a"
+    },
+    {
+      "path": "product/skills/browser-automation-state-and-verification/skill.json",
+      "sha256": "1b0b969005cdccf1fee8f509436b5e294748428cfb4f30283db532ecc0e6676f"
+    },
+    {
+      "path": "product/skills/cashflow-forecast-scenario-integrity/skill.json",
+      "sha256": "6792423b54ff667e97bbe3acb6e7825f1c522a37fe9507f29f86fed926dc8bac"
+    },
+    {
+      "path": "product/skills/columnar-ingestion-rollup-and-query-layout-design/skill.json",
+      "sha256": "5876f8733d4590b7ceb5975865e06e6dba222b4e73885cf13af945a6991bb513"
+    },
+    {
+      "path": "product/skills/completeness-and-consistency-audit/skill.json",
+      "sha256": "da1004f5dc182e69ecf6b0324c29e3c2734639269be7f583814a6da0afc911ed"
+    },
+    {
+      "path": "product/skills/confirmed-destructive-reconstruction/skill.json",
+      "sha256": "2481bd8ef1d83414cfbb05865de9bffd247b375e2708c37df9b7277f813f9016"
+    },
+    {
+      "path": "product/skills/counterbalanced-agent-evaluation/skill.json",
+      "sha256": "e9e1963c49e735a281788279bf6cb5cc89c76b414e04b59fab79be25b33ef6bf"
+    },
+    {
+      "path": "product/skills/customer-support-triage-and-resolution/skill.json",
+      "sha256": "8dea394c14591bd7ffc35443dc6b254a15b443667c7aee13aad328488f2fb0ae"
+    },
+    {
+      "path": "product/skills/dependency-supply-chain-integrity/skill.json",
+      "sha256": "4c4fba9b868f0da8a0fec249d512d2c0e981151d342f2a48a198a5f1463a00f9"
+    },
+    {
+      "path": "product/skills/deterministic-video-composition-and-rendering/skill.json",
+      "sha256": "4bef42d6dd7bda94a28ba939f013f7e9b9a6e62f1e3fe51ed9f03ad5e6056cbf"
+    },
+    {
+      "path": "product/skills/diagnostic-statistical-model-inference/skill.json",
+      "sha256": "e458a6c1db05c5aebcd1d34ec224d57ac8b2501ee54589e9880cfc452a822022"
+    },
+    {
+      "path": "product/skills/docx-package-redline-and-render-verification/skill.json",
+      "sha256": "45fb23c86d2244350222c4842b2e6fdb1a276d603d8c26d960dad93132a409cd"
+    },
+    {
+      "path": "product/skills/ecological-sampling-and-detection-uncertainty/skill.json",
+      "sha256": "b99dad708acef989811c6315532284ca70b1f1fa44d7c4473e7004f310d7a18c"
+    },
+    {
+      "path": "product/skills/eternities-aegis/skill.json",
+      "sha256": "8d703ca763191e5b9840000fc61e0c6619fdd66f9dc91624f96da0edc2e8c459"
+    },
+    {
+      "path": "product/skills/eternities-agora/skill.json",
+      "sha256": "a59a8eee96b38029b3df31f564fb312b39f44a0716ad0b44f4fbdbaa89a8393f"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/skill.json",
+      "sha256": "c9a6dd68a647d3701ca47f24b2444734ff1a98b131f65cb7d2210f9c1f000623"
+    },
+    {
+      "path": "product/skills/eternities-architect/skill.json",
+      "sha256": "8952a21e1bf43fe6e64498c17c9400bfeb8d5e8be9f8913d9dda6e4a84108a13"
+    },
+    {
+      "path": "product/skills/eternities-athena/skill.json",
+      "sha256": "2f1ed1ac29658e26fc3aa7fc541bf6232c8993c59cb58a58bb8b77c058fa49ac"
+    },
+    {
+      "path": "product/skills/eternities-atlas/skill.json",
+      "sha256": "1699cdb6b8f095ac2a76d4910fa92e002966f6ee6dbfaea2992579e5ff58e06b"
+    },
+    {
+      "path": "product/skills/eternities-beacon/skill.json",
+      "sha256": "2b1af5f696b065ea137b63a5b8531fa82da33e7e431a43cc1080e4ba2bd1053b"
+    },
+    {
+      "path": "product/skills/eternities-chorus/skill.json",
+      "sha256": "a282595b4593847fdd9a7c7e4ddc426a5da17095fbadec4065c39102efa6fe91"
+    },
+    {
+      "path": "product/skills/eternities-daedalus/skill.json",
+      "sha256": "a627727d097481928f009b478527f09d6c44f0c65a7afd3f15f7c1603fb1c1d7"
+    },
+    {
+      "path": "product/skills/eternities-forge/skill.json",
+      "sha256": "af03b86ab49cac6e9ae4fd2f13bc7bfca9b563e66a6dcaded46d118ef8713fec"
+    },
+    {
+      "path": "product/skills/eternities-hephaestus/skill.json",
+      "sha256": "282187d90667fe52687c616933864b20926dc326afa529cfe432330afea7e030"
+    },
+    {
+      "path": "product/skills/eternities-herald/skill.json",
+      "sha256": "7f2e25ea6b271272e2be463f2ae8322137f72266e937cf452c5abd38e23944d7"
+    },
+    {
+      "path": "product/skills/eternities-hermes/skill.json",
+      "sha256": "f36f49d7de25d8639a087c3d7884a9a90421ed2f481bfd3970a22bf9a712e04e"
+    },
+    {
+      "path": "product/skills/eternities-logos/skill.json",
+      "sha256": "f086c026d19a06946e5b84d7642c98bd43dc7acd72bcb4b274f8ca9263902d4e"
+    },
+    {
+      "path": "product/skills/eternities-mnemosyne/skill.json",
+      "sha256": "9741df2de726741abf78a5383f54e74d72df0f3dd954330faede0f30637e5e14"
+    },
+    {
+      "path": "product/skills/eternities-muse/skill.json",
+      "sha256": "d3a3557a87e392f44c15780bd8292df92c260bc9c857603b7cf41853b433725a"
+    },
+    {
+      "path": "product/skills/eternities-omnibus/skill.json",
+      "sha256": "d3064e97c1f25d87adef40c2fca4228a9ed0f35d13606db1ad2d193d689e059d"
+    },
+    {
+      "path": "product/skills/eternities-oracle/skill.json",
+      "sha256": "ca73ebc6b2b8d7c1adcc00f74aa2fb28ad3705c4f1b7727024656dffcd5c23b0"
+    },
+    {
+      "path": "product/skills/eternities-orpheus/skill.json",
+      "sha256": "90c2cbe5bf906f08bde6880b18ada087e9ae3d9d52013755417b88cea395c565"
+    },
+    {
+      "path": "product/skills/eternities-phoenix/skill.json",
+      "sha256": "77a5338162ab934311464a2317eba256f12f8f51feb15cf7f4a84375c5f98797"
+    },
+    {
+      "path": "product/skills/eternities-prometheus/skill.json",
+      "sha256": "5eb835254f0e1a5d35533d35c898e52045bfef1d55a861dbfef7b42b34af9b7e"
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/skill.json",
+      "sha256": "15f6ea6d698a0826bbcc4055f0321209c02e26fb5111b6b247be2f04a9502fac"
+    },
+    {
+      "path": "product/skills/experiment-artifact-lineage/skill.json",
+      "sha256": "0977e43f9ebfa31a432f3cb4ee8472df7cdb97d873947951440328c1106b4d47"
+    },
+    {
+      "path": "product/skills/financial-statement-reconciliation/skill.json",
+      "sha256": "b642f8dfe7feca2f4ee412af16fe78f4d546cfe3c00acd2f292cd7c66e14b68f"
+    },
+    {
+      "path": "product/skills/formula-preserving-workbook-engineering/skill.json",
+      "sha256": "14fd8f40e38f63256a84ddbe70fd9fd419261f0a506c9c5286314d27cfef4517"
+    },
+    {
+      "path": "product/skills/fp-ts-functional-refactoring/skill.json",
+      "sha256": "53ecbd37e67e9fef211bb354da67e0b4114eda737f900792d1361facc0a85ae9"
+    },
+    {
+      "path": "product/skills/genomic-coordinate-assembly-and-variant-gates/skill.json",
+      "sha256": "adc0cf6ef8d3cc823c56de2a6390979fb7a1e8341160feeedc84456c86c94ee7"
+    },
+    {
+      "path": "product/skills/geospatial-coordinate-integrity/skill.json",
+      "sha256": "ff7a9264006771ae6d4cb3e1d0a25a94bd7aea39dd5433ccf70c0c4b2371b318"
+    },
+    {
+      "path": "product/skills/git-change-integration-and-recovery/skill.json",
+      "sha256": "23b3e598c5b79e73a0333e5b46b9f2c22c92441537c156e8527b67e26031322f"
+    },
+    {
+      "path": "product/skills/imaginative-concept-development/skill.json",
+      "sha256": "90fed2e5797f81f5affb2a1119260a9b885dbe5f7868ade0d20f96abbf304eff"
+    },
+    {
+      "path": "product/skills/infrastructure-plan-apply-isolation/skill.json",
+      "sha256": "b29076c87709fad9c6cf0219b0f3650e14c4728d8fff0a5f6a2ebe3ccfffaecb"
+    },
+    {
+      "path": "product/skills/interatomic-model-validation/skill.json",
+      "sha256": "34ec8e35b224bba26150e8b2128f734f214a0ecfc4215ef5c8ce61172e744972"
+    },
+    {
+      "path": "product/skills/interface-localization-and-bidirectionality/skill.json",
+      "sha256": "3e927eae13bb5d25370f6291478a6b3aa5d4c10566462ac036a0333ad4bedf03"
+    },
+    {
+      "path": "product/skills/interpersonal-understanding-and-dialogue/skill.json",
+      "sha256": "a582d6717d1eccc2516d787b987ffebe16f704d98a12f64b3cfe2feb31c71101"
+    },
+    {
+      "path": "product/skills/invariant-guard/skill.json",
+      "sha256": "77e8ffe06ad0ef408e40f7bd2eaf21fa8a670d6886bd3b2a2a7e73ea4aaec35f"
+    },
+    {
+      "path": "product/skills/jurisdiction-aware-contract-review/skill.json",
+      "sha256": "3cc4bb731582cb173b4f13fd500316003bb97aa39cab6c84e2d2aefe8f764158"
+    },
+    {
+      "path": "product/skills/knowledge-base-architecture-and-maintenance/skill.json",
+      "sha256": "8ef576fabecbbbbc038408726a5ba105f0ae04008a5e94455c822cb99dc6b3a8"
+    },
+    {
+      "path": "product/skills/landscape-connectivity-analysis/skill.json",
+      "sha256": "0038f2d442ecaea04d8fcb82fdd4bb2634b2142dd5a5c1c5ad843b7bd79a9882"
+    },
+    {
+      "path": "product/skills/lazy-tabular-transformation-and-validation/skill.json",
+      "sha256": "7d4c7db142249ba397c8614dc2f36f0d746c923becaab1876e935b623558442d"
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/skill.json",
+      "sha256": "5fa7b436fa35069441e9d690c3cd82b4e8ecc16e6aa72c8661d5c0cd79d273d2"
+    },
+    {
+      "path": "product/skills/measured-paid-creative-iteration/skill.json",
+      "sha256": "ef42b77e2179937767e4bab624272e2b26c5c71d52cad7f20247c95bc9e7a99b"
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/skill.json",
+      "sha256": "d430c9842dc5a3c604ebd7afda911edfb6a37ead8b631e54de4b3c4c7054bacd"
+    },
+    {
+      "path": "product/skills/molecular-observable-integrity/skill.json",
+      "sha256": "9818b45f8980c54581dfebf5cc8a7931606980d358e15b93206a0cdaca771557"
+    },
+    {
+      "path": "product/skills/motion-design-and-animation-engineering/skill.json",
+      "sha256": "81e8e2b2ea872cc9460bc867e9383997574af711a9a08fda72e340a313efeea0"
+    },
+    {
+      "path": "product/skills/narrative-structure-and-revision/skill.json",
+      "sha256": "f83a4ebcde567544f6f961283c2fc9b8cb736363f256c386ff875b33d002694d"
+    },
+    {
+      "path": "product/skills/native-mobile-interaction-testing/skill.json",
+      "sha256": "f5618e9d35e18810edf177733af7e9088fe3bfc7c0e569ff79f22f526e178325"
+    },
+    {
+      "path": "product/skills/operating-cadence-and-decision-accountability/skill.json",
+      "sha256": "59cf6450920fce4e5fc1ef3f77d0055bc7d7dfda81a58d109646f553e3ca1792"
+    },
+    {
+      "path": "product/skills/performance-release-gating/skill.json",
+      "sha256": "3f8c6b2f9ce4983eb271b553f6369d117f27487e163017d3ea6adcb1b5cb48ff"
+    },
+    {
+      "path": "product/skills/physics-constrained-numerical-validation/skill.json",
+      "sha256": "0448c1bd34edb10c530c38fab790c68526b2e7d20a02669171dba189dff1dfd1"
+    },
+    {
+      "path": "product/skills/portable-speech-chunk-alignment/skill.json",
+      "sha256": "16c8807d79d165f96d92237de04f4d7583a71363f89161aa4aeee619edbe5df1"
+    },
+    {
+      "path": "product/skills/pricing-and-packaging-experimentation/skill.json",
+      "sha256": "ca11c48c8c80bb8ace9b0df7e8e49d553d2dc9a089ac9991407e08342eade0d7"
+    },
+    {
+      "path": "product/skills/procedural-world-generation-and-validation/skill.json",
+      "sha256": "d833d6b1a067112f8d98f21f2ae73af530bfab3b3978839fc1f0bfd6ffd7a815"
+    },
+    {
+      "path": "product/skills/product-discovery-and-prioritization/skill.json",
+      "sha256": "7e5c528eed6d6272eda6302176062f6ba12ea6ac35f5a44696e2c88d065e2cf6"
+    },
+    {
+      "path": "product/skills/release-script-safety/skill.json",
+      "sha256": "e0c7914cd7783812a7364b8a598bf19deac12f74b2f3c9afcea6882ad4c3a3f8"
+    },
+    {
+      "path": "product/skills/retrieval-grounded-answering/skill.json",
+      "sha256": "18cd6faec3f22d9d541d16577c2478b8443b0f762c18fa4fa3f97232d9e2cffd"
+    },
+    {
+      "path": "product/skills/robotics-test-ladder/skill.json",
+      "sha256": "f7e1bcd259ffd7d99af8980bfd51f6170033cf4242a4a0de6ed6c1d61772ab5e"
+    },
+    {
+      "path": "product/skills/scene-continuity-and-coverage/skill.json",
+      "sha256": "99f454dac581983bd60c1f97a4a8fc9a8d908f857b0c7a4690796d5278173426"
+    },
+    {
+      "path": "product/skills/schema-migration-and-backfill-safety/skill.json",
+      "sha256": "bf45aeeffa8ea55e83506b45f9ac06f19d0e078bfbf8a7fdab6549f1247565bb"
+    },
+    {
+      "path": "product/skills/scientific-surrogate-validation/skill.json",
+      "sha256": "3b6a994dec49b0c90e2c9cb463c8d75ca3ffb297c2f6294eb0d85cf9824b5e23"
+    },
+    {
+      "path": "product/skills/semantic-implementation-diff/skill.json",
+      "sha256": "f6273fe925468bf892e410556f830b91703ba91fd823a6862449608916c92a66"
+    },
+    {
+      "path": "product/skills/service-observability-and-slo-design/skill.json",
+      "sha256": "6ce505c93b5b8d803d1cabf8438942952fe3d9a65cb6e7134578c1f2b0736b10"
+    },
+    {
+      "path": "product/skills/sovereign-skill-refinery/skill.json",
+      "sha256": "74312faea90f51a56aefdc6b6261afc4e350adf16cdbba2d199623dbce955e0f"
+    },
+    {
+      "path": "product/skills/structured-hiring-evaluation/skill.json",
+      "sha256": "4fae2efd6db75899da73a899b69a3b3faeb87f0f6962299e7b879ccdbc45229c"
+    },
+    {
+      "path": "product/skills/structured-output-contracts/skill.json",
+      "sha256": "875a67254ad63a647885d210e14828b365a08bf99a7829f7e68063fb241a953e"
+    },
+    {
+      "path": "product/skills/symbolic-mathematics-python/skill.json",
+      "sha256": "f1d10d6425f86a0750496530ca184f07386231b4eb52be4d1b2d8262b5abf2ce"
+    },
+    {
+      "path": "product/skills/terrain-watershed-analysis/skill.json",
+      "sha256": "078e2c0fea4f018546e0072c5c02f6f62305fa8768ff7e480fd3e5bc49d00cd5"
+    },
+    {
+      "path": "product/skills/user-research-and-usability-study/skill.json",
+      "sha256": "38f70d71e8f0824737279e1b2cf7f041c07f5397258cee2429860567c9fe7ee4"
+    },
+    {
+      "path": "product/skills/vendor-evaluation-and-exit-planning/skill.json",
+      "sha256": "3dac0d05038a6b3c15b42905c650b8ce8e3c1f6c64c45ec98bc7c8ed3de5a53c"
+    },
+    {
+      "path": "product/skills/venture-falsification-and-planning/skill.json",
+      "sha256": "de985b2f08d7d56888c7e529756c019ecc72e6bc83a25145bb779e948ec0f17b"
+    },
+    {
+      "path": "product/skills/voice-style-calibration/skill.json",
+      "sha256": "2668dfee646ce1665c5a792dc64b175d61532a83ca350981aec5fefea230fb07"
+    },
+    {
+      "path": "product/skills/web-performance-optimization/skill.json",
+      "sha256": "157c41109e4fd8e0a727fb11a193d57f987f10eed40a0235a66be563c69ae433"
+    }
+  ],
+  "baselineSources": [
+    {
+      "path": "product/lib/product.mjs",
+      "sha256": "c779ed4ee93c38b50af970ca746f20c0225a96b761449a8c779e3a28c00e800f"
+    },
+    {
+      "path": "product/lib/method-directory.mjs",
+      "sha256": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180"
+    },
+    {
+      "path": "product/lib/discovery.mjs",
+      "sha256": "894d347eda269dbfe447d7a09d5ff10bf57b9c5e1f3f90ce398502f7b65fc7d5"
+    },
+    {
+      "path": "product/lib/selection-boundary.mjs",
+      "sha256": "792db2f120251de8c0d21985c10cb81a0fd1a5baa83978851e9eb16e10ca68be"
+    },
+    {
+      "path": "product/lib/skill-frontmatter.mjs",
+      "sha256": "66bfc5b6b56688d2996689f774b5b904ce517a3fda1ec35d4d567cbd63e3a96d"
+    }
+  ],
+  "deliveryMismatch": [],
+  "changedDuringRun": [],
+  "exactIdFailures": [],
+  "hostNoNeedFailures": [],
+  "summary": {
+    "total": 4,
+    "baselineMeets": 3,
+    "candidateMeets": 2,
+    "regressions": [
+      "PC01"
+    ],
+    "improvements": []
+  },
+  "results": [
+    {
+      "id": "PC01",
+      "kind": "parent-creation",
+      "query": "Build a real-time Three.js shader flame with sparks and responsive controls",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown",
+      "baseline": {
+        "top3": [
+          "motion-design-and-animation-engineering",
+          "eternities-atlas",
+          "scientific-surrogate-validation"
+        ],
+        "museRank": null,
+        "ownerRank": 4,
+        "count": 20,
+        "abstention": null,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "authority": "none",
+        "activation": "none",
+        "expectedMet": true
+      },
+      "candidate": {
+        "top3": [
+          "motion-design-and-animation-engineering",
+          "eternities-atlas",
+          "scientific-surrogate-validation"
+        ],
+        "museRank": null,
+        "ownerRank": null,
+        "count": 20,
+        "abstention": null,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "authority": "none",
+        "activation": "none",
+        "expectedMet": false
+      },
+      "liveMetadata": {
+        "top3": [
+          "motion-design-and-animation-engineering",
+          "eternities-atlas",
+          "scientific-surrogate-validation"
+        ],
+        "museRank": null,
+        "ownerRank": null,
+        "count": 20,
+        "abstention": null,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "authority": "none",
+        "activation": "none",
+        "expectedMet": false
+      },
+      "clauses": [
+        "build a real-time three.js shader flame with sparks and responsive controls"
+      ],
+      "intents": []
+    },
+    {
+      "id": "PC02",
+      "kind": "parent-creation",
+      "query": "Make a WebGL particle portal I can orbit",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown",
+      "baseline": {
+        "top3": [],
+        "museRank": null,
+        "ownerRank": null,
+        "count": 0,
+        "abstention": null,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "authority": "none",
+        "activation": "none",
+        "expectedMet": false
+      },
+      "candidate": {
+        "top3": [],
+        "museRank": null,
+        "ownerRank": null,
+        "count": 0,
+        "abstention": null,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "authority": "none",
+        "activation": "none",
+        "expectedMet": false
+      },
+      "liveMetadata": {
+        "top3": [],
+        "museRank": null,
+        "ownerRank": null,
+        "count": 0,
+        "abstention": null,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "authority": "none",
+        "activation": "none",
+        "expectedMet": false
+      },
+      "clauses": [
+        "make a webgl particle portal i can orbit"
+      ],
+      "intents": []
+    },
+    {
+      "id": "PC03",
+      "kind": "scene-word-control",
+      "query": "Build a real-time Three.js shader flame scene with sparks and responsive controls",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown",
+      "baseline": {
+        "top3": [
+          "eternities-arcadia",
+          "motion-design-and-animation-engineering",
+          "scene-continuity-and-coverage"
+        ],
+        "museRank": null,
+        "ownerRank": 1,
+        "count": 20,
+        "abstention": null,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "authority": "none",
+        "activation": "none",
+        "expectedMet": true
+      },
+      "candidate": {
+        "top3": [
+          "eternities-arcadia",
+          "motion-design-and-animation-engineering",
+          "scene-continuity-and-coverage"
+        ],
+        "museRank": null,
+        "ownerRank": 1,
+        "count": 20,
+        "abstention": null,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "authority": "none",
+        "activation": "none",
+        "expectedMet": true
+      },
+      "liveMetadata": {
+        "top3": [
+          "eternities-arcadia",
+          "motion-design-and-animation-engineering",
+          "scene-continuity-and-coverage"
+        ],
+        "museRank": null,
+        "ownerRank": 1,
+        "count": 20,
+        "abstention": null,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "authority": "none",
+        "activation": "none",
+        "expectedMet": true
+      },
+      "clauses": [
+        "build a real-time three.js shader flame scene with sparks and responsive controls"
+      ],
+      "intents": [
+        "game or real-time 3D runtime scope"
+      ]
+    },
+    {
+      "id": "PC04",
+      "kind": "scene-word-control",
+      "query": "Make a WebGL particle portal scene I can orbit",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown",
+      "baseline": {
+        "top3": [
+          "scene-continuity-and-coverage",
+          "narrative-structure-and-revision",
+          "eternities-arcadia"
+        ],
+        "museRank": null,
+        "ownerRank": 3,
+        "count": 3,
+        "abstention": null,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "authority": "none",
+        "activation": "none",
+        "expectedMet": true
+      },
+      "candidate": {
+        "top3": [
+          "scene-continuity-and-coverage",
+          "narrative-structure-and-revision",
+          "eternities-arcadia"
+        ],
+        "museRank": null,
+        "ownerRank": 3,
+        "count": 3,
+        "abstention": null,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "authority": "none",
+        "activation": "none",
+        "expectedMet": true
+      },
+      "liveMetadata": {
+        "top3": [
+          "scene-continuity-and-coverage",
+          "narrative-structure-and-revision",
+          "eternities-arcadia"
+        ],
+        "museRank": null,
+        "ownerRank": 3,
+        "count": 3,
+        "abstention": null,
+        "selection": {
+          "state": "review-required",
+          "basis": "lexical-candidates-only"
+        },
+        "authority": "none",
+        "activation": "none",
+        "expectedMet": true
+      },
+      "clauses": [
+        "make a webgl particle portal scene i can orbit"
+      ],
+      "intents": [
+        "game or real-time 3D runtime scope"
+      ]
+    }
+  ]
+}

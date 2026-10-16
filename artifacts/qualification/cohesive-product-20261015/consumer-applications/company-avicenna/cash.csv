@@ -1,0 +1,5 @@
+week,opening_cash,contracted_receipts,unavoidable_payments,closing_cash,reserve_gap
+1,40000,0,12000,28000,0
+2,28000,10000,20000,18000,0
+3,18000,0,12000,6000,9000
+4,6000,20000,12000,14000,1000

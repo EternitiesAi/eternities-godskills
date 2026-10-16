@@ -1,0 +1,1221 @@
+TAP version 13
+# Subtest: all pre-phase activation, evidence, skill, and capability bytes remain frozen
+ok 1 - all pre-phase activation, evidence, skill, and capability bytes remain frozen
+  ---
+  duration_ms: 34.1043
+  type: 'test'
+  ...
+# Subtest: runtime record closes execution, shadow, and future evidence boundaries
+ok 2 - runtime record closes execution, shadow, and future evidence boundaries
+  ---
+  duration_ms: 1.3425
+  type: 'test'
+  ...
+# Subtest: aggregate receipt binds its historical package input and every other declared input/output byte
+ok 3 - aggregate receipt binds its historical package input and every other declared input/output byte
+  ---
+  duration_ms: 13.3997
+  type: 'test'
+  ...
+# Subtest: Nietzsche current package admits only the named maintained-test-scope revision
+ok 4 - Nietzsche current package admits only the named maintained-test-scope revision
+  ---
+  duration_ms: 0.6038
+  type: 'test'
+  ...
+# Subtest: certification binds the cleared reviewer head and exact proof boundary
+ok 5 - certification binds the cleared reviewer head and exact proof boundary
+  ---
+  duration_ms: 0.4964
+  type: 'test'
+  ...
+# Subtest: named Arcadia revision projects exactly to immutable historical input without mutation
+ok 6 - named Arcadia revision projects exactly to immutable historical input without mutation
+  ---
+  duration_ms: 1.21
+  type: 'test'
+  ...
+# Subtest: historical projection refuses extra trigger
+ok 7 - historical projection refuses extra trigger
+  ---
+  duration_ms: 0.973
+  type: 'test'
+  ...
+# Subtest: historical projection refuses summary drift
+ok 8 - historical projection refuses summary drift
+  ---
+  duration_ms: 0.4469
+  type: 'test'
+  ...
+# Subtest: historical projection refuses body drift
+ok 9 - historical projection refuses body drift
+  ---
+  duration_ms: 0.2256
+  type: 'test'
+  ...
+# Subtest: historical projection refuses resource drift
+ok 10 - historical projection refuses resource drift
+  ---
+  duration_ms: 0.2307
+  type: 'test'
+  ...
+# Subtest: historical projection refuses unlisted resource
+ok 11 - historical projection refuses unlisted resource
+  ---
+  duration_ms: 0.2034
+  type: 'test'
+  ...
+# Subtest: projection does not conceal unrelated owner fields
+ok 12 - projection does not conceal unrelated owner fields
+  ---
+  duration_ms: 0.1658
+  type: 'test'
+  ...
+# Subtest: the immutable core2260 fixture is exact through the named cohesive, Atlas and Arcadia projections
+ok 13 - the immutable core2260 fixture is exact through the named cohesive, Atlas and Arcadia projections
+  ---
+  duration_ms: 6.1993
+  type: 'test'
+  ...
+# Subtest: historical paths remain exact through the named cohesion projection and prior optional-reference admissions
+ok 14 - historical paths remain exact through the named cohesion projection and prior optional-reference admissions
+  ---
+  duration_ms: 8.5932
+  type: 'test'
+  ...
+# Subtest: Hermes and Math retain frontmatter; historical Hermes bytes and current close-out boundaries remain explicit
+ok 15 - Hermes and Math retain frontmatter; historical Hermes bytes and current close-out boundaries remain explicit
+  ---
+  duration_ms: 1.4128
+  type: 'test'
+  ...
+# Subtest: conditional method links remain with their owners and B04 is not a Hermes resource
+ok 16 - conditional method links remain with their owners and B04 is not a Hermes resource
+  ---
+  duration_ms: 0.5425
+  type: 'test'
+  ...
+# Subtest: selected-method directory preserves original rows and independently binds the admitted new methods
+not ok 17 - selected-method directory preserves original rows and independently binds the admitted new methods
+  ---
+  duration_ms: 24.7226
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\conditional-method-regression.test.mjs:335:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Values have same structure but are not reference-equal:
+    
+    ... Skipped lines
+    '# Selected bundled methods\n' +
+      '\n' +
+      'This is a compact directory of selected methods, not every skill or source obligation. Read the selected complete SKILL.md before its conditional method. Do not load all owners, references, or review receipts.\n' +
+      '\n' +
+      'Choose by the actual task and exclusions, not by a match score. Discovery grants no authority and activates nothing. Use ordinary agent competence when no method fits.\n' +
+      '\n' +
+      '| Task | Owner entrypoint | Conditional method | Document status | Outcome status |\n' +
+      '| --- | --- | --- | --- | --- |\n' +
+      '| Keep up with new messages from an authorized still-running task using a saved position instead of reloading the whole history | [eternities-hermes](skills/eternities-hermes/SKILL.md) | [Read new task messages from a saved position](skills/eternities-hermes/references/cursor-paged-task-messages.md) | independently-document-reviewed | not-performance-qualified |\n' +
+      '| Report the state of an already-authorized local command while preserving its output channels and showing progress only from validated signals | [eternities-hermes](skills/eternities-hermes/SKILL.md) | [Observe a local command without invented progress](skills/eternities-hermes/references/truthful-cli-progress.md) | independently-document-reviewed | not-performance-qualified |\n' +
+      '| Turn supplied prose with stated mathematical relations into a source-linked specification draft, leaving unknown units, domains and conflicts for separate review | [symbolic-mathematics-python](skills/symbolic-mathematics-python/SKILL.md) | [Extract a source-linked mathematical specification](skills/symbolic-mathematics-python/references/source-grounded-math-specification.md) | independently-document-reviewed | not-performance-qualified |\n' +
+      '| Keep explicitly optional live-model scenarios separate from mandatory deterministic CI while retaining paid-provider and required-acceptance gates | [eternities-daedalus](skills/eternities-daedalus/SKILL.md) | [Separate optional model scenarios from required CI](skills/eternities-daedalus/references/optional-model-scenarios-ci.md) | independently-document-reviewed | not-performance-qualified |\n' +
+      '| Map gameplay states to sound, silence, cue interruption and muted alternatives | [eternities-arcadia](skills/eternities-arcadia/SKILL.md) | [Game-state to audio-cue design](skills/eternities-arcadia/references/game-state-to-audio-cue.md) | independently-document-reviewed | not-performance-qualified |\n' +
+      '| Explain one feed, recommendation or notification-shortlist decision at its serving time | [eternities-atlas](skills/eternities-atlas/SKILL.md) | [Serving-time ranking decision trace](skills/eternities-atlas/references/serving-time-ranking-decision-trace.md) | independently-document-reviewed | not-performance-qualified |\n' +
+      '| Determine who authored, reviewed, approved or challenged an exact artifact version | [eternities-oracle](skills/eternities-oracle/SKILL.md) | [Artifact-role evidence](skills/eternities-oracle/references/methods.md#artifact-role-evidence-draft) | not-assessed-by-this-overlay | not-performance-qualified |\n' +
+      '| Recover, compare or preserve a named repository-local evidence or decision collection | [eternities-mnemosyne](skills/eternities-mnemosyne/SKILL.md) | [Local evidence-base lifecycle](skills/eternities-mnemosyne/references/methods.md#local-evidence-base-lifecycle-draft) | not-assessed-by-this-overlay | not-performance-qualified |\n' +
+      '| Reconcile revenue or customer-metric movement before choosing an intervention | [eternities-prometheus](skills/eternities-prometheus/SKILL.md) | [Diagnose commercial metric movement](skills/eternities-prometheus/references/commercial-driver-diagnosis-v1.md) | independently-document-reviewed | not-performance-qualified |\n' +
+      "| Write a supportable promise and actual copy against the buyer's real alternative | [eternities-beacon](skills/eternities-beacon/SKILL.md) | [Turn positioning into useful copy](skills/eternities-beacon/references/positioning-to-message-v1.md) | independently-document-reviewed | not-performance-qualified |\n" +
+      '| Translate visual references into a coherent responsive composition with real content | [eternities-muse](skills/eternities-muse/SKILL.md) | [Turn art direction into a working layout](skills/eternities-muse/references/art-direction-to-layout-v1.md) | independently-document-reviewed | not-performance-qualified |\n' +
+      '| Separate legibility, agency and development problems in a playable loop | [eternities-arcadia](skills/eternities-arcadia/SKILL.md) | [Build and examine a repeatable core loop](skills/eternities-arcadia/references/core-loop-playtest-v1.md) | independently-document-reviewed | not-performance-qualified |\n' +
+      '| Improve a supplied narration or podcast through meaning-preserving edits and actual listening checks | [eternities-orpheus](skills/eternities-orpheus/SKILL.md) | [Edit and mix supplied audio](skills/eternities-orpheus/references/supplied-audio-editorial-mix-v1.md) | independently-document-reviewed | not-performance-qualified |\n' +
+      '| Create worked reasoning, diagnostic feedback and fresh practice that tests the intended distinction | [evidence-linked-learning-design](skills/evidence-linked-learning-design/SKILL.md) | [Design contrastive practice and transfer](skills/evidence-linked-learning-design/references/practice-and-transfer-v1.md) | independently-document-reviewed | not-performance-qualified |\n' +
+      '| Translate authorized voice evidence into editing operations and compare controlled adaptations | [voice-style-calibration](skills/voice-style-calibration/SKILL.md) | [Calibrate voice without changing meaning](skills/voice-style-calibration/references/contrastive-calibration-v1.md) | independently-document-reviewed | not-performance-qualified |\n' +
+      '| Separate competing fault explanations and challenge intermittent or overfit repairs | [eternities-phoenix](skills/eternities-phoenix/SKILL.md) | [Choose discriminating diagnostic experiments](skills/eternities-phoenix/references/diagnostic-experiments-v2.md) | independently-document-reviewed | not-performance-qualified |\n' +
+      '| Combine supplied creators, deliverable roles, quotes and usage rights within an aggregate campaign budget | [eternities-beacon](skills/eternities-beacon/SKILL.md) | [Assemble a feasible creator campaign slate](skills/eternities-beacon/references/creator-slate-feasibility-v1.md) | independently-document-reviewed | not-performance-qualified |\n' +
+      '| Diagnose silhouette, material, motion and revision problems from the view where an asset is used | [eternities-arcadia](skills/eternities-arcadia/SKILL.md) | [Refine assets at their actual gameplay camera](skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md) | independently-document-reviewed | not-performance-qualified |\n' +
+      '| Bind the estimand and available comparison to the assignment process before fitting a causal model | [diagnostic-statistical-model-inference](skills/diagnostic-statistical-model-inference/SKILL.md) | [Choose causal design before estimation](skills/diagnostic-statistical-model-inference/references/causal-design-before-estimation-v1.md) | independently-document-reviewed | not-performance-qualified |\n' +
+      '| Distinguish observed series, possible combinations and churn while retaining required diagnostic queries | [service-observability-and-slo-design](skills/service-observability-and-slo-design/SKILL.md) | [Budget telemetry cardinality without losing the question](skills/service-observability-and-slo-design/references/telemetry-cardinality-budget-v1.md) | independently-document-reviewed | not-performance-qualified |\n' +
+      '| Revise actual passages by separating world facts, viewpoint beliefs and information available to the reader | [narrative-structure-and-revision](skills/narrative-structure-and-revision/SKILL.md) | [Revise reader knowledge and reveals](skills/narrative-structure-and-revision/references/reader-knowledge-and-reveal-revision-v1.md) | independently-document-reviewed | not-performance-qualified |\n' +
+      '\n' +
+      '## Review and execution are separate\n' +
+      '\n' +
+      'An original method body may still say DRAFT. The exact-hash row below records later independent document review without relabeling that historical body or qualifying runtime outcomes. Parent skill maturity does not transfer to every reference. Changed method bytes make the row stale: build/validate must refuse until its identity and status are reconsidered.\n' +
+      '\n' +
+      'These are publisher evidence statements. Digests bind bytes, not publisher authenticity, reviewer identity, source rights, or truth. Bundled review records are optional historical evidence, not executable policy; workstation paths inside them describe the review environment and are not receiving-machine dependencies.\n' +
+      '\n' +
+      '### Read new task messages from a saved position\n' +
+      '\n' +
+      '- Exclusions: Not warehouse or table ingestion, durable conversation-memory summarization, decoding bytes within one response, or authority to cancel a task.\n' +
+      '- Exact method resource SHA-256: `b3135e20f4ff67b3ac5593536eb4b14b59ff3d96608dc26090a6181862e6e2da`.\n' +
+      '- Document axis: independently-document-reviewed.\n' +
+      '- Execution evidence: Independent non-author document review included a manual task-feed planning application and four adjacent-owner exclusions. No live task-service or storage implementation was qualified.\n' +
+      '- Outcome axis: not-performance-qualified.\n' +
+      '- Reviewed scope: Exact documented DRAFT method and conditional complete-owner fit under selected Markdown discovery; not global automatic routing, runtime, domain correctness or performance.\n' +
+      '- Optional independent [report](evidence/method-reviews/conditional-v1/review.md) and [receipt](evidence/method-reviews/conditional-v1/receipt.json); receipt SHA-256: `4b9860fa7d8020d819a0d522303194e8f8b593fd02794469b16799ba162d630b`.\n' +
+      '\n' +
+      '### Observe a local command without invented progress\n' +
+      '\n' +
+      '- Exclusions: Not visual-only progress UI, accessibility announcements, schema-only producer-event design, or new process launch or cancellation authority.\n' +
+      '- Exact method resource SHA-256: `d9bd1ebfd44178a4d33f0d1150b460aa4d6fa564177ea0ded1577ce4123c936c`.\n' +
+    ...}
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: |-
+    # Selected bundled methods
+    
+    This is a compact directory of selected methods, not every skill or source obligation. Read the selected complete SKILL.md before its conditional method. Do not load all owners, references, or review receipts.
+    
+    Choose by the actual task and exclusions, not by a match score. Discovery grants no authority and activates nothing. Use ordinary agent competence when no method fits.
+    
+    | Task | Owner entrypoint | Conditional method | Document status | Outcome status |
+    | --- | --- | --- | --- | --- |
+    | Keep up with new messages from an authorized still-running task using a saved position instead of reloading the whole history | [eternities-hermes](skills/eternities-hermes/SKILL.md) | [Read new task messages from a saved position](skills/eternities-hermes/references/cursor-paged-task-messages.md) | independently-document-reviewed | not-performance-qualified |
+    | Report the state of an already-authorized local command while preserving its output channels and showing progress only from validated signals | [eternities-hermes](skills/eternities-hermes/SKILL.md) | [Observe a local command without invented progress](skills/eternities-hermes/references/truthful-cli-progress.md) | independently-document-reviewed | not-performance-qualified |
+    | Turn supplied prose with stated mathematical relations into a source-linked specification draft, leaving unknown units, domains and conflicts for separate review | [symbolic-mathematics-python](skills/symbolic-mathematics-python/SKILL.md) | [Extract a source-linked mathematical specification](skills/symbolic-mathematics-python/references/source-grounded-math-specification.md) | independently-document-reviewed | not-performance-qualified |
+    | Keep explicitly optional live-model scenarios separate from mandatory deterministic CI while retaining paid-provider and required-acceptance gates | [eternities-daedalus](skills/eternities-daedalus/SKILL.md) | [Separate optional model scenarios from required CI](skills/eternities-daedalus/references/optional-model-scenarios-ci.md) | independently-document-reviewed | not-performance-qualified |
+    | Map gameplay states to sound, silence, cue interruption and muted alternatives | [eternities-arcadia](skills/eternities-arcadia/SKILL.md) | [Game-state to audio-cue design](skills/eternities-arcadia/references/game-state-to-audio-cue.md) | independently-document-reviewed | not-performance-qualified |
+    | Explain one feed, recommendation or notification-shortlist decision at its serving time | [eternities-atlas](skills/eternities-atlas/SKILL.md) | [Serving-time ranking decision trace](skills/eternities-atlas/references/serving-time-ranking-decision-trace.md) | independently-document-reviewed | not-performance-qualified |
+    | Determine who authored, reviewed, approved or challenged an exact artifact version | [eternities-oracle](skills/eternities-oracle/SKILL.md) | [Artifact-role evidence](skills/eternities-oracle/references/methods.md#artifact-role-evidence-draft) | not-assessed-by-this-overlay | not-performance-qualified |
+    | Recover, compare or preserve a named repository-local evidence or decision collection | [eternities-mnemosyne](skills/eternities-mnemosyne/SKILL.md) | [Local evidence-base lifecycle](skills/eternities-mnemosyne/references/methods.md#local-evidence-base-lifecycle-draft) | not-assessed-by-this-overlay | not-performance-qualified |
+    | Reconcile revenue or customer-metric movement before choosing an intervention | [eternities-prometheus](skills/eternities-prometheus/SKILL.md) | [Diagnose commercial metric movement](skills/eternities-prometheus/references/commercial-driver-diagnosis-v1.md) | independently-document-reviewed | not-performance-qualified |
+    | Write a supportable promise and actual copy against the buyer's real alternative | [eternities-beacon](skills/eternities-beacon/SKILL.md) | [Turn positioning into useful copy](skills/eternities-beacon/references/positioning-to-message-v1.md) | independently-document-reviewed | not-performance-qualified |
+    | Translate visual references into a coherent responsive composition with real content | [eternities-muse](skills/eternities-muse/SKILL.md) | [Turn art direction into a working layout](skills/eternities-muse/references/art-direction-to-layout-v1.md) | independently-document-reviewed | not-performance-qualified |
+    | Separate legibility, agency and development problems in a playable loop | [eternities-arcadia](skills/eternities-arcadia/SKILL.md) | [Build and examine a repeatable core loop](skills/eternities-arcadia/references/core-loop-playtest-v1.md) | independently-document-reviewed | not-performance-qualified |
+    | Improve a supplied narration or podcast through meaning-preserving edits and actual listening checks | [eternities-orpheus](skills/eternities-orpheus/SKILL.md) | [Edit and mix supplied audio](skills/eternities-orpheus/references/supplied-audio-editorial-mix-v1.md) | independently-document-reviewed | not-performance-qualified |
+    | Create worked reasoning, diagnostic feedback and fresh practice that tests the intended distinction | [evidence-linked-learning-design](skills/evidence-linked-learning-design/SKILL.md) | [Design contrastive practice and transfer](skills/evidence-linked-learning-design/references/practice-and-transfer-v1.md) | independently-document-reviewed | not-performance-qualified |
+    | Translate authorized voice evidence into editing operations and compare controlled adaptations | [voice-style-calibration](skills/voice-style-calibration/SKILL.md) | [Calibrate voice without changing meaning](skills/voice-style-calibration/references/contrastive-calibration-v1.md) | independently-document-reviewed | not-performance-qualified |
+    | Separate competing fault explanations and challenge intermittent or overfit repairs | [eternities-phoenix](skills/eternities-phoenix/SKILL.md) | [Choose discriminating diagnostic experiments](skills/eternities-phoenix/references/diagnostic-experiments-v2.md) | independently-document-reviewed | not-performance-qualified |
+    | Combine supplied creators, deliverable roles, quotes and usage rights within an aggregate campaign budget | [eternities-beacon](skills/eternities-beacon/SKILL.md) | [Assemble a feasible creator campaign slate](skills/eternities-beacon/references/creator-slate-feasibility-v1.md) | independently-document-reviewed | not-performance-qualified |
+    | Diagnose silhouette, material, motion and revision problems from the view where an asset is used | [eternities-arcadia](skills/eternities-arcadia/SKILL.md) | [Refine assets at their actual gameplay camera](skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md) | independently-document-reviewed | not-performance-qualified |
+    | Bind the estimand and available comparison to the assignment process before fitting a causal model | [diagnostic-statistical-model-inference](skills/diagnostic-statistical-model-inference/SKILL.md) | [Choose causal design before estimation](skills/diagnostic-statistical-model-inference/references/causal-design-before-estimation-v1.md) | independently-document-reviewed | not-performance-qualified |
+    | Distinguish observed series, possible combinations and churn while retaining required diagnostic queries | [service-observability-and-slo-design](skills/service-observability-and-slo-design/SKILL.md) | [Budget telemetry cardinality without losing the question](skills/service-observability-and-slo-design/references/telemetry-cardinality-budget-v1.md) | independently-document-reviewed | not-performance-qualified |
+    | Revise actual passages by separating world facts, viewpoint beliefs and information available to the reader | [narrative-structure-and-revision](skills/narrative-structure-and-revision/SKILL.md) | [Revise reader knowledge and reveals](skills/narrative-structure-and-revision/references/reader-knowledge-and-reveal-revision-v1.md) | independently-document-reviewed | not-performance-qualified |
+    
+    ## Review and execution are separate
+    
+    An original method body may still say DRAFT. The exact-hash row below records later independent document review without relabeling that historical body or qualifying runtime outcomes. Parent skill maturity does not transfer to every reference. Changed method bytes make the row stale: build/validate must refuse until its identity and status are reconsidered.
+    
+    These are publisher evidence statements. Digests bind bytes, not publisher authenticity, reviewer identity, source rights, or truth. Bundled review records are optional historical evidence, not executable policy; workstation paths inside them describe the review environment and are not receiving-machine dependencies.
+    
+    ### Read new task messages from a saved position
+    
+    - Exclusions: Not warehouse or table ingestion, durable conversation-memory summarization, decoding bytes within one response, or authority to cancel a task.
+    - Exact method resource SHA-256: `b3135e20f4ff67b3ac5593536eb4b14b59ff3d96608dc26090a6181862e6e2da`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Independent non-author document review included a manual task-feed planning application and four adjacent-owner exclusions. No live task-service or storage implementation was qualified.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact documented DRAFT method and conditional complete-owner fit under selected Markdown discovery; not global automatic routing, runtime, domain correctness or performance.
+    - Optional independent [report](evidence/method-reviews/conditional-v1/review.md) and [receipt](evidence/method-reviews/conditional-v1/receipt.json); receipt SHA-256: `4b9860fa7d8020d819a0d522303194e8f8b593fd02794469b16799ba162d630b`.
+    
+    ### Observe a local command without invented progress
+    
+    - Exclusions: Not visual-only progress UI, accessibility announcements, schema-only producer-event design, or new process launch or cancellation authority.
+    - Exact method resource SHA-256: `d9bd1ebfd44178a4d33f0d1150b460aa4d6fa564177ea0ded1577ce4123c936c`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Independent non-author document review included a manual process-observation planning application. No process wrapper, provider or live command was executed or qualified.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact documented DRAFT method and conditional complete-owner fit under selected Markdown discovery; not global automatic routing, runtime, domain correctness or performance.
+    - Optional independent [report](evidence/method-reviews/conditional-v1/review.md) and [receipt](evidence/method-reviews/conditional-v1/receipt.json); receipt SHA-256: `4b9860fa7d8020d819a0d522303194e8f8b593fd02794469b16799ba162d630b`.
+    
+    ### Extract a source-linked mathematical specification
+    
+    - Exclusions: Not prose-only outlines, qualitative interview extraction, coordinate or unit-value validation, source-truth appraisal, or solving an already-declared equation.
+    - Exact method resource SHA-256: `edbbb063b3550619cfe216db64a96611c14839fcf61e2f24f13ca9d2ecebdb20`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Independent non-author document review included a source-linked draft from a synthetic three-line fixture and three non-method exclusions. Mathematical domain review remains pending; no solver or real-source validation.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact documented DRAFT method and conditional complete-owner fit under selected Markdown discovery; not global automatic routing, runtime, domain correctness or performance.
+    - Optional independent [report](evidence/method-reviews/conditional-v1/review.md) and [receipt](evidence/method-reviews/conditional-v1/receipt.json); receipt SHA-256: `4b9860fa7d8020d819a0d522303194e8f8b593fd02794469b16799ba162d630b`.
+    
+    ### Separate optional model scenarios from required CI
+    
+    - Exclusions: A required live or paid acceptance test is not optional; this method does not authorize provider calls or qualify CI or merge configuration.
+    - Exact method resource SHA-256: `982db0a3b6811f7b7fde0fa6b31e06e3df0ed86bbf9dc9826209dc52877b61d8`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Independent document review included three planning applications and bounded copied-product checks; no live CI or provider execution.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact documented DRAFT optional-scenario selection and conditional owner handoff; not live CI, provider execution or redesign of a required acceptance gate.
+    - Optional independent [report](evidence/method-reviews/daedalus-v1/review.md) and [receipt](evidence/method-reviews/daedalus-v1/receipt.json); receipt SHA-256: `a0b2a8ac4611c327a40517cc588079d79cb4402416b14fd8c7f512cab6b373b0`.
+    
+    ### Game-state to audio-cue design
+    
+    - Exclusions: Not supplied DSP-code analysis, media rights, or automatic audio implementation.
+    - Exact method resource SHA-256: `f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Three planning packets reported by the reviewer; no game/audio runtime or human listening was performed.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact documented DRAFT game-state cue design and acceptance-planning method; not play, audibility, accessibility or runtime qualification.
+    - Optional independent [report](evidence/method-reviews/arcadia-v2/review.md) and [receipt](evidence/method-reviews/arcadia-v2/receipt.json); receipt SHA-256: `fceb06922f496de2e2861725f25a3e9d3e24a5840cbe9c68e613099d9b2fed57`.
+    
+    ### Serving-time ranking decision trace
+    
+    - Exclusions: Not prospect scoring, retrieved-passage reranking, scientific validation, or schema-only validation.
+    - Exact method resource SHA-256: `4a4ed718c0879126b1d30cf9c2f2c5f469cbe730e72d4103e9784ee5a7c5a496`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Package and bounded lexical checks observed; this review did not execute a live ranker or qualify recommendations.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact documented DRAFT one-decision trace guidance and scoped lexical routing repair; not ranking correctness, exposure, fairness or causal benefit.
+    - Optional independent [report](evidence/method-reviews/atlas-v3/review.md) and [receipt](evidence/method-reviews/atlas-v3/receipt.json); receipt SHA-256: `d6acb24533810b956f05ef8aa9f72ca9caba40a83e5ac5992b97664cdff9ffa4`.
+    
+    ### Artifact-role evidence
+    
+    - Exclusions: Permission to inspect a source is not approval of its artifact; this does not grant source access or reuse rights.
+    - Exact method resource SHA-256: `ab1f3e8a23fa5929bcf8d25c119e25a275ffc752a119eb37cc9e9da78d339950`.
+    - Document axis: not-assessed-by-this-overlay.
+    - Execution evidence: The already shipped body remains explicitly DRAFT. This directory adds navigation, not a new review or execution claim.
+    - Outcome axis: not-performance-qualified.
+    
+    ### Local evidence-base lifecycle
+    
+    - Exclusions: Ordinary file lookup and repository search are not lifecycle work; vendor research stays separate.
+    - Exact method resource SHA-256: `9b3bff3a805b833a4e3d72495382efab8b99e31a0719178a17f03ed4aca02d86`.
+    - Document axis: not-assessed-by-this-overlay.
+    - Execution evidence: The already shipped body remains explicitly DRAFT. This directory adds navigation, not a new review or execution claim.
+    - Outcome axis: not-performance-qualified.
+    
+    ### Diagnose commercial metric movement
+    
+    - Exclusions: Not settled arithmetic, causal-effect certification or permission to spend.
+    - Exact method resource SHA-256: `bdd16ac74bb01c88864e6d76080fd05d833eb9be1324322f27aaaec8350165f2`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact conditional method and owner integration reviewed separately from execution, adoption and performance.
+    - Optional independent [report](evidence/method-reviews/cohesive-v1/report.md) and [receipt](evidence/method-reviews/cohesive-v1/receipt.json); receipt SHA-256: `08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527`.
+    
+    ### Turn positioning into useful copy
+    
+    - Exclusions: Not a routine factual copy edit or proof of demand or conversion lift.
+    - Exact method resource SHA-256: `57da15f76572e5af9dde41cf4c5703d83f045cbb701b0284dfcd45d8e46c94d8`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact conditional method and owner integration reviewed separately from execution, adoption and performance.
+    - Optional independent [report](evidence/method-reviews/cohesive-v1/report.md) and [receipt](evidence/method-reviews/cohesive-v1/receipt.json); receipt SHA-256: `08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527`.
+    
+    ### Turn art direction into a working layout
+    
+    - Exclusions: Not a token list alone or evidence of human aesthetic acceptance.
+    - Exact method resource SHA-256: `893b09898d51cf5bfcca7d0efa88d239466e04a7c6a68152d4158aab5fa2a140`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact conditional method and owner integration reviewed separately from execution, adoption and performance.
+    - Optional independent [report](evidence/method-reviews/cohesive-v1/report.md) and [receipt](evidence/method-reviews/cohesive-v1/receipt.json); receipt SHA-256: `08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527`.
+    
+    ### Build and examine a repeatable core loop
+    
+    - Exclusions: Not isolated runtime repair with settled design; designer walkthrough is not player observation.
+    - Exact method resource SHA-256: `305e082e9e3d57729fe10e4ad9865b1468333e661f7530469ef17a70fc07490a`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact conditional method and owner integration reviewed separately from execution, adoption and performance.
+    - Optional independent [report](evidence/method-reviews/cohesive-v1/report.md) and [receipt](evidence/method-reviews/cohesive-v1/receipt.json); receipt SHA-256: `08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527`.
+    
+    ### Edit and mix supplied audio
+    
+    - Exclusions: Not voice cloning, music generation, restoration certification or realtime DSP-code review.
+    - Exact method resource SHA-256: `d52e3ecffe5e6134cc43f2296ed4c8e48963af8f02f513b605c5a7527ac6c1d9`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact conditional method and owner integration reviewed separately from execution, adoption and performance.
+    - Optional independent [report](evidence/method-reviews/cohesive-v1/report.md) and [receipt](evidence/method-reviews/cohesive-v1/receipt.json); receipt SHA-256: `08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527`.
+    
+    ### Design contrastive practice and transfer
+    
+    - Exclusions: A repeated revealed answer is not transfer; same-session success is not durable mastery.
+    - Exact method resource SHA-256: `8625e567db5d4f68c267bd4743e555885115fabcbd253b67f768e2031826aa9f`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact conditional method and owner integration reviewed separately from execution, adoption and performance.
+    - Optional independent [report](evidence/method-reviews/cohesive-v1/report.md) and [receipt](evidence/method-reviews/cohesive-v1/receipt.json); receipt SHA-256: `08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527`.
+    
+    ### Calibrate voice without changing meaning
+    
+    - Exclusions: Not deceptive impersonation, universal voice rules or a mandatory process for one-line rewrites.
+    - Exact method resource SHA-256: `dc51820a975a4f6f1c75f69c70f96f7204b864cd662faf4516a9b1a71d2b7c40`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact conditional method and owner integration reviewed separately from execution, adoption and performance.
+    - Optional independent [report](evidence/method-reviews/cohesive-v1/report.md) and [receipt](evidence/method-reviews/cohesive-v1/receipt.json); receipt SHA-256: `08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527`.
+    
+    ### Choose discriminating diagnostic experiments
+    
+    - Exclusions: A successful rerun is not causal proof; diagnosis alone does not authorize implementation.
+    - Exact method resource SHA-256: `0e90cd104135546419a996f0d1c0acd1e57f21ecc5c463225f9d86e7adfec227`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact conditional method and owner integration reviewed separately from execution, adoption and performance.
+    - Optional independent [report](evidence/method-reviews/cohesive-v1/report.md) and [receipt](evidence/method-reviews/cohesive-v1/receipt.json); receipt SHA-256: `08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527`.
+    
+    ### Assemble a feasible creator campaign slate
+    
+    - Exclusions: Not hiring, automatic bookings, granted rights or invented unique audience reach.
+    - Exact method resource SHA-256: `b1ab3ac4a2570311de7139e605e23cb8bfe122d89d578578288c1b1c8ed34dc1`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact conditional method and owner integration reviewed separately from execution, adoption and performance.
+    - Optional independent [report](evidence/method-reviews/cohesive-v1/report.md) and [receipt](evidence/method-reviews/cohesive-v1/receipt.json); receipt SHA-256: `08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527`.
+    
+    ### Refine assets at their actual gameplay camera
+    
+    - Exclusions: Not mandatory realism, a new art style, or routine loading of an already approved asset.
+    - Exact method resource SHA-256: `a1b65d62b70a689b3e7b1c06871588e4763a04d3987b9d5c833d5b3c7b6da52a`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact conditional method and owner integration reviewed separately from execution, adoption and performance.
+    - Optional independent [report](evidence/method-reviews/cohesive-v1/report.md) and [receipt](evidence/method-reviews/cohesive-v1/receipt.json); receipt SHA-256: `08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527`.
+    
+    ### Choose causal design before estimation
+    
+    - Exclusions: Prediction alone is not this job; diagnostics cannot prove identifying assumptions.
+    - Exact method resource SHA-256: `9fd7004a3aefc4daf074dde37dea7d5a2b6fb1024ff4ae3c19461d5e89b24918`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact conditional method and owner integration reviewed separately from execution, adoption and performance.
+    - Optional independent [report](evidence/method-reviews/cohesive-v1/report.md) and [receipt](evidence/method-reviews/cohesive-v1/receipt.json); receipt SHA-256: `08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527`.
+    
+    ### Budget telemetry cardinality without losing the question
+    
+    - Exclusions: Theoretical series counts are not measured resource costs; hashing unique IDs does not reduce cardinality.
+    - Exact method resource SHA-256: `c429085c14122d5a6f6b8e42328c0f944ef03f4db0a7cd669e64bcd19937b650`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact conditional method and owner integration reviewed separately from execution, adoption and performance.
+    - Optional independent [report](evidence/method-reviews/cohesive-v1/report.md) and [receipt](evidence/method-reviews/cohesive-v1/receipt.json); receipt SHA-256: `08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527`.
+    
+    ### Revise reader knowledge and reveals
+    
+    - Exclusions: Not compulsory mystery structure or a claim of blind human response from an informed editor.
+    - Exact method resource SHA-256: `8b8262deffa3e0bedce4fd330e899ed84ea5361cef34b5543cd09cc27002390a`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact conditional method and owner integration reviewed separately from execution, adoption and performance.
+    - Optional independent [report](evidence/method-reviews/cohesive-v1/report.md) and [receipt](evidence/method-reviews/cohesive-v1/receipt.json); receipt SHA-256: `08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527`.
+    
+  actual: |-
+    # Selected bundled methods
+    
+    This is a compact directory of selected methods, not every skill or source obligation. Read the selected complete SKILL.md before its conditional method. Do not load all owners, references, or review receipts.
+    
+    Choose by the actual task and exclusions, not by a match score. Discovery grants no authority and activates nothing. Use ordinary agent competence when no method fits.
+    
+    | Task | Owner entrypoint | Conditional method | Document status | Outcome status |
+    | --- | --- | --- | --- | --- |
+    | Keep up with new messages from an authorized still-running task using a saved position instead of reloading the whole history | [eternities-hermes](skills/eternities-hermes/SKILL.md) | [Read new task messages from a saved position](skills/eternities-hermes/references/cursor-paged-task-messages.md) | independently-document-reviewed | not-performance-qualified |
+    | Report the state of an already-authorized local command while preserving its output channels and showing progress only from validated signals | [eternities-hermes](skills/eternities-hermes/SKILL.md) | [Observe a local command without invented progress](skills/eternities-hermes/references/truthful-cli-progress.md) | independently-document-reviewed | not-performance-qualified |
+    | Turn supplied prose with stated mathematical relations into a source-linked specification draft, leaving unknown units, domains and conflicts for separate review | [symbolic-mathematics-python](skills/symbolic-mathematics-python/SKILL.md) | [Extract a source-linked mathematical specification](skills/symbolic-mathematics-python/references/source-grounded-math-specification.md) | independently-document-reviewed | not-performance-qualified |
+    | Keep explicitly optional live-model scenarios separate from mandatory deterministic CI while retaining paid-provider and required-acceptance gates | [eternities-daedalus](skills/eternities-daedalus/SKILL.md) | [Separate optional model scenarios from required CI](skills/eternities-daedalus/references/optional-model-scenarios-ci.md) | independently-document-reviewed | not-performance-qualified |
+    | Map gameplay states to sound, silence, cue interruption and muted alternatives | [eternities-arcadia](skills/eternities-arcadia/SKILL.md) | [Game-state to audio-cue design](skills/eternities-arcadia/references/game-state-to-audio-cue.md) | independently-document-reviewed | not-performance-qualified |
+    | Explain one feed, recommendation or notification-shortlist decision at its serving time | [eternities-atlas](skills/eternities-atlas/SKILL.md) | [Serving-time ranking decision trace](skills/eternities-atlas/references/serving-time-ranking-decision-trace.md) | independently-document-reviewed | not-performance-qualified |
+    | Determine who authored, reviewed, approved or challenged an exact artifact version | [eternities-oracle](skills/eternities-oracle/SKILL.md) | [Artifact-role evidence](skills/eternities-oracle/references/methods.md#artifact-role-evidence-draft) | not-assessed-by-this-overlay | not-performance-qualified |
+    | Recover, compare or preserve a named repository-local evidence or decision collection | [eternities-mnemosyne](skills/eternities-mnemosyne/SKILL.md) | [Local evidence-base lifecycle](skills/eternities-mnemosyne/references/methods.md#local-evidence-base-lifecycle-draft) | not-assessed-by-this-overlay | not-performance-qualified |
+    | Reconcile revenue or customer-metric movement before choosing an intervention | [eternities-prometheus](skills/eternities-prometheus/SKILL.md) | [Diagnose commercial metric movement](skills/eternities-prometheus/references/commercial-driver-diagnosis-v1.md) | independently-document-reviewed | not-performance-qualified |
+    | Write a supportable promise and actual copy against the buyer's real alternative | [eternities-beacon](skills/eternities-beacon/SKILL.md) | [Turn positioning into useful copy](skills/eternities-beacon/references/positioning-to-message-v1.md) | independently-document-reviewed | not-performance-qualified |
+    | Translate visual references into a coherent responsive composition with real content | [eternities-muse](skills/eternities-muse/SKILL.md) | [Turn art direction into a working layout](skills/eternities-muse/references/art-direction-to-layout-v1.md) | independently-document-reviewed | not-performance-qualified |
+    | Separate legibility, agency and development problems in a playable loop | [eternities-arcadia](skills/eternities-arcadia/SKILL.md) | [Build and examine a repeatable core loop](skills/eternities-arcadia/references/core-loop-playtest-v1.md) | independently-document-reviewed | not-performance-qualified |
+    | Improve a supplied narration or podcast through meaning-preserving edits and actual listening checks | [eternities-orpheus](skills/eternities-orpheus/SKILL.md) | [Edit and mix supplied audio](skills/eternities-orpheus/references/supplied-audio-editorial-mix-v1.md) | independently-document-reviewed | not-performance-qualified |
+    | Create worked reasoning, diagnostic feedback and fresh practice that tests the intended distinction | [evidence-linked-learning-design](skills/evidence-linked-learning-design/SKILL.md) | [Design contrastive practice and transfer](skills/evidence-linked-learning-design/references/practice-and-transfer-v1.md) | independently-document-reviewed | not-performance-qualified |
+    | Translate authorized voice evidence into editing operations and compare controlled adaptations | [voice-style-calibration](skills/voice-style-calibration/SKILL.md) | [Calibrate voice without changing meaning](skills/voice-style-calibration/references/contrastive-calibration-v1.md) | independently-document-reviewed | not-performance-qualified |
+    | Separate competing fault explanations and challenge intermittent or overfit repairs | [eternities-phoenix](skills/eternities-phoenix/SKILL.md) | [Choose discriminating diagnostic experiments](skills/eternities-phoenix/references/diagnostic-experiments-v2.md) | independently-document-reviewed | not-performance-qualified |
+    | Combine supplied creators, deliverable roles, quotes and usage rights within an aggregate campaign budget | [eternities-beacon](skills/eternities-beacon/SKILL.md) | [Assemble a feasible creator campaign slate](skills/eternities-beacon/references/creator-slate-feasibility-v1.md) | independently-document-reviewed | not-performance-qualified |
+    | Diagnose silhouette, material, motion and revision problems from the view where an asset is used | [eternities-arcadia](skills/eternities-arcadia/SKILL.md) | [Refine assets at their actual gameplay camera](skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md) | independently-document-reviewed | not-performance-qualified |
+    | Bind the estimand and available comparison to the assignment process before fitting a causal model | [diagnostic-statistical-model-inference](skills/diagnostic-statistical-model-inference/SKILL.md) | [Choose causal design before estimation](skills/diagnostic-statistical-model-inference/references/causal-design-before-estimation-v1.md) | independently-document-reviewed | not-performance-qualified |
+    | Distinguish observed series, possible combinations and churn while retaining required diagnostic queries | [service-observability-and-slo-design](skills/service-observability-and-slo-design/SKILL.md) | [Budget telemetry cardinality without losing the question](skills/service-observability-and-slo-design/references/telemetry-cardinality-budget-v1.md) | independently-document-reviewed | not-performance-qualified |
+    | Revise actual passages by separating world facts, viewpoint beliefs and information available to the reader | [narrative-structure-and-revision](skills/narrative-structure-and-revision/SKILL.md) | [Revise reader knowledge and reveals](skills/narrative-structure-and-revision/references/reader-knowledge-and-reveal-revision-v1.md) | independently-document-reviewed | not-performance-qualified |
+    
+    ## Review and execution are separate
+    
+    An original method body may still say DRAFT. The exact-hash row below records later independent document review without relabeling that historical body or qualifying runtime outcomes. Parent skill maturity does not transfer to every reference. Changed method bytes make the row stale: build/validate must refuse until its identity and status are reconsidered.
+    
+    These are publisher evidence statements. Digests bind bytes, not publisher authenticity, reviewer identity, source rights, or truth. Bundled review records are optional historical evidence, not executable policy; workstation paths inside them describe the review environment and are not receiving-machine dependencies.
+    
+    ### Read new task messages from a saved position
+    
+    - Exclusions: Not warehouse or table ingestion, durable conversation-memory summarization, decoding bytes within one response, or authority to cancel a task.
+    - Exact method resource SHA-256: `b3135e20f4ff67b3ac5593536eb4b14b59ff3d96608dc26090a6181862e6e2da`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Independent non-author document review included a manual task-feed planning application and four adjacent-owner exclusions. No live task-service or storage implementation was qualified.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact documented DRAFT method and conditional complete-owner fit under selected Markdown discovery; not global automatic routing, runtime, domain correctness or performance.
+    - Optional independent [report](evidence/method-reviews/conditional-v1/review.md) and [receipt](evidence/method-reviews/conditional-v1/receipt.json); receipt SHA-256: `4b9860fa7d8020d819a0d522303194e8f8b593fd02794469b16799ba162d630b`.
+    
+    ### Observe a local command without invented progress
+    
+    - Exclusions: Not visual-only progress UI, accessibility announcements, schema-only producer-event design, or new process launch or cancellation authority.
+    - Exact method resource SHA-256: `d9bd1ebfd44178a4d33f0d1150b460aa4d6fa564177ea0ded1577ce4123c936c`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Independent non-author document review included a manual process-observation planning application. No process wrapper, provider or live command was executed or qualified.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact documented DRAFT method and conditional complete-owner fit under selected Markdown discovery; not global automatic routing, runtime, domain correctness or performance.
+    - Optional independent [report](evidence/method-reviews/conditional-v1/review.md) and [receipt](evidence/method-reviews/conditional-v1/receipt.json); receipt SHA-256: `4b9860fa7d8020d819a0d522303194e8f8b593fd02794469b16799ba162d630b`.
+    
+    ### Extract a source-linked mathematical specification
+    
+    - Exclusions: Not prose-only outlines, qualitative interview extraction, coordinate or unit-value validation, source-truth appraisal, or solving an already-declared equation.
+    - Exact method resource SHA-256: `edbbb063b3550619cfe216db64a96611c14839fcf61e2f24f13ca9d2ecebdb20`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Independent non-author document review included a source-linked draft from a synthetic three-line fixture and three non-method exclusions. Mathematical domain review remains pending; no solver or real-source validation.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact documented DRAFT method and conditional complete-owner fit under selected Markdown discovery; not global automatic routing, runtime, domain correctness or performance.
+    - Optional independent [report](evidence/method-reviews/conditional-v1/review.md) and [receipt](evidence/method-reviews/conditional-v1/receipt.json); receipt SHA-256: `4b9860fa7d8020d819a0d522303194e8f8b593fd02794469b16799ba162d630b`.
+    
+    ### Separate optional model scenarios from required CI
+    
+    - Exclusions: A required live or paid acceptance test is not optional; this method does not authorize provider calls or qualify CI or merge configuration.
+    - Exact method resource SHA-256: `982db0a3b6811f7b7fde0fa6b31e06e3df0ed86bbf9dc9826209dc52877b61d8`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Independent document review included three planning applications and bounded copied-product checks; no live CI or provider execution.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact documented DRAFT optional-scenario selection and conditional owner handoff; not live CI, provider execution or redesign of a required acceptance gate.
+    - Optional independent [report](evidence/method-reviews/daedalus-v1/review.md) and [receipt](evidence/method-reviews/daedalus-v1/receipt.json); receipt SHA-256: `a0b2a8ac4611c327a40517cc588079d79cb4402416b14fd8c7f512cab6b373b0`.
+    
+    ### Game-state to audio-cue design
+    
+    - Exclusions: Not supplied DSP-code analysis, media rights, or automatic audio implementation.
+    - Exact method resource SHA-256: `f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Three planning packets reported by the reviewer; no game/audio runtime or human listening was performed.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact documented DRAFT game-state cue design and acceptance-planning method; not play, audibility, accessibility or runtime qualification.
+    - Optional independent [report](evidence/method-reviews/arcadia-v2/review.md) and [receipt](evidence/method-reviews/arcadia-v2/receipt.json); receipt SHA-256: `fceb06922f496de2e2861725f25a3e9d3e24a5840cbe9c68e613099d9b2fed57`.
+    
+    ### Serving-time ranking decision trace
+    
+    - Exclusions: Not prospect scoring, retrieved-passage reranking, scientific validation, or schema-only validation.
+    - Exact method resource SHA-256: `4a4ed718c0879126b1d30cf9c2f2c5f469cbe730e72d4103e9784ee5a7c5a496`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Package and bounded lexical checks observed; this review did not execute a live ranker or qualify recommendations.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact documented DRAFT one-decision trace guidance and scoped lexical routing repair; not ranking correctness, exposure, fairness or causal benefit.
+    - Optional independent [report](evidence/method-reviews/atlas-v3/review.md) and [receipt](evidence/method-reviews/atlas-v3/receipt.json); receipt SHA-256: `d6acb24533810b956f05ef8aa9f72ca9caba40a83e5ac5992b97664cdff9ffa4`.
+    
+    ### Artifact-role evidence
+    
+    - Exclusions: Permission to inspect a source is not approval of its artifact; this does not grant source access or reuse rights.
+    - Exact method resource SHA-256: `ab1f3e8a23fa5929bcf8d25c119e25a275ffc752a119eb37cc9e9da78d339950`.
+    - Document axis: not-assessed-by-this-overlay.
+    - Execution evidence: The already shipped body remains explicitly DRAFT. This directory adds navigation, not a new review or execution claim.
+    - Outcome axis: not-performance-qualified.
+    
+    ### Local evidence-base lifecycle
+    
+    - Exclusions: Ordinary file lookup and repository search are not lifecycle work; vendor research stays separate.
+    - Exact method resource SHA-256: `9b3bff3a805b833a4e3d72495382efab8b99e31a0719178a17f03ed4aca02d86`.
+    - Document axis: not-assessed-by-this-overlay.
+    - Execution evidence: The already shipped body remains explicitly DRAFT. This directory adds navigation, not a new review or execution claim.
+    - Outcome axis: not-performance-qualified.
+    
+    ### Diagnose commercial metric movement
+    
+    - Exclusions: Not settled arithmetic, causal-effect certification or permission to spend.
+    - Exact method resource SHA-256: `bdd16ac74bb01c88864e6d76080fd05d833eb9be1324322f27aaaec8350165f2`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact conditional method and owner integration reviewed separately from execution, adoption and performance.
+    - Optional independent [report](evidence/method-reviews/cohesive-v1/report.md) and [receipt](evidence/method-reviews/cohesive-v1/receipt.json); receipt SHA-256: `9ad85e95ce0c952a7f53c4a62e84b17a782ce4a84e0f01db569fc9eecad4a5ec`.
+    
+    ### Turn positioning into useful copy
+    
+    - Exclusions: Not a routine factual copy edit or proof of demand or conversion lift.
+    - Exact method resource SHA-256: `57da15f76572e5af9dde41cf4c5703d83f045cbb701b0284dfcd45d8e46c94d8`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact conditional method and owner integration reviewed separately from execution, adoption and performance.
+    - Optional independent [report](evidence/method-reviews/cohesive-v1/report.md) and [receipt](evidence/method-reviews/cohesive-v1/receipt.json); receipt SHA-256: `9ad85e95ce0c952a7f53c4a62e84b17a782ce4a84e0f01db569fc9eecad4a5ec`.
+    
+    ### Turn art direction into a working layout
+    
+    - Exclusions: Not a token list alone or evidence of human aesthetic acceptance.
+    - Exact method resource SHA-256: `893b09898d51cf5bfcca7d0efa88d239466e04a7c6a68152d4158aab5fa2a140`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact conditional method and owner integration reviewed separately from execution, adoption and performance.
+    - Optional independent [report](evidence/method-reviews/cohesive-v1/report.md) and [receipt](evidence/method-reviews/cohesive-v1/receipt.json); receipt SHA-256: `9ad85e95ce0c952a7f53c4a62e84b17a782ce4a84e0f01db569fc9eecad4a5ec`.
+    
+    ### Build and examine a repeatable core loop
+    
+    - Exclusions: Not isolated runtime repair with settled design; designer walkthrough is not player observation.
+    - Exact method resource SHA-256: `305e082e9e3d57729fe10e4ad9865b1468333e661f7530469ef17a70fc07490a`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact conditional method and owner integration reviewed separately from execution, adoption and performance.
+    - Optional independent [report](evidence/method-reviews/cohesive-v1/report.md) and [receipt](evidence/method-reviews/cohesive-v1/receipt.json); receipt SHA-256: `9ad85e95ce0c952a7f53c4a62e84b17a782ce4a84e0f01db569fc9eecad4a5ec`.
+    
+    ### Edit and mix supplied audio
+    
+    - Exclusions: Not voice cloning, music generation, restoration certification or realtime DSP-code review.
+    - Exact method resource SHA-256: `d52e3ecffe5e6134cc43f2296ed4c8e48963af8f02f513b605c5a7527ac6c1d9`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact conditional method and owner integration reviewed separately from execution, adoption and performance.
+    - Optional independent [report](evidence/method-reviews/cohesive-v1/report.md) and [receipt](evidence/method-reviews/cohesive-v1/receipt.json); receipt SHA-256: `9ad85e95ce0c952a7f53c4a62e84b17a782ce4a84e0f01db569fc9eecad4a5ec`.
+    
+    ### Design contrastive practice and transfer
+    
+    - Exclusions: A repeated revealed answer is not transfer; same-session success is not durable mastery.
+    - Exact method resource SHA-256: `8625e567db5d4f68c267bd4743e555885115fabcbd253b67f768e2031826aa9f`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact conditional method and owner integration reviewed separately from execution, adoption and performance.
+    - Optional independent [report](evidence/method-reviews/cohesive-v1/report.md) and [receipt](evidence/method-reviews/cohesive-v1/receipt.json); receipt SHA-256: `9ad85e95ce0c952a7f53c4a62e84b17a782ce4a84e0f01db569fc9eecad4a5ec`.
+    
+    ### Calibrate voice without changing meaning
+    
+    - Exclusions: Not deceptive impersonation, universal voice rules or a mandatory process for one-line rewrites.
+    - Exact method resource SHA-256: `dc51820a975a4f6f1c75f69c70f96f7204b864cd662faf4516a9b1a71d2b7c40`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact conditional method and owner integration reviewed separately from execution, adoption and performance.
+    - Optional independent [report](evidence/method-reviews/cohesive-v1/report.md) and [receipt](evidence/method-reviews/cohesive-v1/receipt.json); receipt SHA-256: `9ad85e95ce0c952a7f53c4a62e84b17a782ce4a84e0f01db569fc9eecad4a5ec`.
+    
+    ### Choose discriminating diagnostic experiments
+    
+    - Exclusions: A successful rerun is not causal proof; diagnosis alone does not authorize implementation.
+    - Exact method resource SHA-256: `0e90cd104135546419a996f0d1c0acd1e57f21ecc5c463225f9d86e7adfec227`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact conditional method and owner integration reviewed separately from execution, adoption and performance.
+    - Optional independent [report](evidence/method-reviews/cohesive-v1/report.md) and [receipt](evidence/method-reviews/cohesive-v1/receipt.json); receipt SHA-256: `9ad85e95ce0c952a7f53c4a62e84b17a782ce4a84e0f01db569fc9eecad4a5ec`.
+    
+    ### Assemble a feasible creator campaign slate
+    
+    - Exclusions: Not hiring, automatic bookings, granted rights or invented unique audience reach.
+    - Exact method resource SHA-256: `b1ab3ac4a2570311de7139e605e23cb8bfe122d89d578578288c1b1c8ed34dc1`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact conditional method and owner integration reviewed separately from execution, adoption and performance.
+    - Optional independent [report](evidence/method-reviews/cohesive-v1/report.md) and [receipt](evidence/method-reviews/cohesive-v1/receipt.json); receipt SHA-256: `9ad85e95ce0c952a7f53c4a62e84b17a782ce4a84e0f01db569fc9eecad4a5ec`.
+    
+    ### Refine assets at their actual gameplay camera
+    
+    - Exclusions: Not mandatory realism, a new art style, or routine loading of an already approved asset.
+    - Exact method resource SHA-256: `a1b65d62b70a689b3e7b1c06871588e4763a04d3987b9d5c833d5b3c7b6da52a`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact conditional method and owner integration reviewed separately from execution, adoption and performance.
+    - Optional independent [report](evidence/method-reviews/cohesive-v1/report.md) and [receipt](evidence/method-reviews/cohesive-v1/receipt.json); receipt SHA-256: `9ad85e95ce0c952a7f53c4a62e84b17a782ce4a84e0f01db569fc9eecad4a5ec`.
+    
+    ### Choose causal design before estimation
+    
+    - Exclusions: Prediction alone is not this job; diagnostics cannot prove identifying assumptions.
+    - Exact method resource SHA-256: `9fd7004a3aefc4daf074dde37dea7d5a2b6fb1024ff4ae3c19461d5e89b24918`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact conditional method and owner integration reviewed separately from execution, adoption and performance.
+    - Optional independent [report](evidence/method-reviews/cohesive-v1/report.md) and [receipt](evidence/method-reviews/cohesive-v1/receipt.json); receipt SHA-256: `9ad85e95ce0c952a7f53c4a62e84b17a782ce4a84e0f01db569fc9eecad4a5ec`.
+    
+    ### Budget telemetry cardinality without losing the question
+    
+    - Exclusions: Theoretical series counts are not measured resource costs; hashing unique IDs does not reduce cardinality.
+    - Exact method resource SHA-256: `c429085c14122d5a6f6b8e42328c0f944ef03f4db0a7cd669e64bcd19937b650`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact conditional method and owner integration reviewed separately from execution, adoption and performance.
+    - Optional independent [report](evidence/method-reviews/cohesive-v1/report.md) and [receipt](evidence/method-reviews/cohesive-v1/receipt.json); receipt SHA-256: `9ad85e95ce0c952a7f53c4a62e84b17a782ce4a84e0f01db569fc9eecad4a5ec`.
+    
+    ### Revise reader knowledge and reveals
+    
+    - Exclusions: Not compulsory mystery structure or a claim of blind human response from an informed editor.
+    - Exact method resource SHA-256: `8b8262deffa3e0bedce4fd330e899ed84ea5361cef34b5543cd09cc27002390a`.
+    - Document axis: independently-document-reviewed.
+    - Execution evidence: Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.
+    - Outcome axis: not-performance-qualified.
+    - Reviewed scope: Exact conditional method and owner integration reviewed separately from execution, adoption and performance.
+    - Optional independent [report](evidence/method-reviews/cohesive-v1/report.md) and [receipt](evidence/method-reviews/cohesive-v1/receipt.json); receipt SHA-256: `9ad85e95ce0c952a7f53c4a62e84b17a782ce4a84e0f01db569fc9eecad4a5ec`.
+    
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/conditional-method-regression.test.mjs:392:10)
+    async Test.run (node:internal/test_runner/test:1332:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: Daedalus owns optional model scenarios without weakening deterministic required checks
+ok 18 - Daedalus owns optional model scenarios without weakening deterministic required checks
+  ---
+  duration_ms: 2.3324
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case C01 retains its declared conformance boundary
+ok 19 - frozen Hermes body case C01 retains its declared conformance boundary
+  ---
+  duration_ms: 0.513
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case C02 retains its declared conformance boundary
+ok 20 - frozen Hermes body case C02 retains its declared conformance boundary
+  ---
+  duration_ms: 0.1079
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case C03 retains its declared conformance boundary
+ok 21 - frozen Hermes body case C03 retains its declared conformance boundary
+  ---
+  duration_ms: 0.2732
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case C04 retains its declared conformance boundary
+ok 22 - frozen Hermes body case C04 retains its declared conformance boundary
+  ---
+  duration_ms: 0.2321
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case C05 retains its declared conformance boundary
+ok 23 - frozen Hermes body case C05 retains its declared conformance boundary
+  ---
+  duration_ms: 0.4089
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case C06 retains its declared conformance boundary
+ok 24 - frozen Hermes body case C06 retains its declared conformance boundary
+  ---
+  duration_ms: 0.1577
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case C07 retains its declared conformance boundary
+ok 25 - frozen Hermes body case C07 retains its declared conformance boundary
+  ---
+  duration_ms: 0.0317
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case C08 retains its declared conformance boundary
+ok 26 - frozen Hermes body case C08 retains its declared conformance boundary
+  ---
+  duration_ms: 0.3056
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case R01 retains its declared conformance boundary
+ok 27 - frozen Hermes body case R01 retains its declared conformance boundary
+  ---
+  duration_ms: 0.1795
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case R02 retains its declared conformance boundary
+ok 28 - frozen Hermes body case R02 retains its declared conformance boundary
+  ---
+  duration_ms: 0.2706
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case L01 retains its declared conformance boundary
+ok 29 - frozen Hermes body case L01 retains its declared conformance boundary
+  ---
+  duration_ms: 0.1654
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case L02 retains its declared conformance boundary
+ok 30 - frozen Hermes body case L02 retains its declared conformance boundary
+  ---
+  duration_ms: 0.1165
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case L03 retains its declared conformance boundary
+ok 31 - frozen Hermes body case L03 retains its declared conformance boundary
+  ---
+  duration_ms: 0.1889
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case L04 retains its declared conformance boundary
+ok 32 - frozen Hermes body case L04 retains its declared conformance boundary
+  ---
+  duration_ms: 0.2828
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case L05 retains its declared conformance boundary
+ok 33 - frozen Hermes body case L05 retains its declared conformance boundary
+  ---
+  duration_ms: 0.2297
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case L06 retains its declared conformance boundary
+ok 34 - frozen Hermes body case L06 retains its declared conformance boundary
+  ---
+  duration_ms: 0.3351
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case L07 retains its declared conformance boundary
+ok 35 - frozen Hermes body case L07 retains its declared conformance boundary
+  ---
+  duration_ms: 0.118
+  type: 'test'
+  ...
+# Subtest: frozen Hermes body case E01 retains its declared conformance boundary
+ok 36 - frozen Hermes body case E01 retains its declared conformance boundary
+  ---
+  duration_ms: 0.1874
+  type: 'test'
+  ...
+# Subtest: Daedalus optional CI placement contract: default path
+ok 37 - Daedalus optional CI placement contract: default path
+  ---
+  duration_ms: 0.1591
+  type: 'test'
+  ...
+# Subtest: Daedalus optional CI placement contract: separate merge lane
+ok 38 - Daedalus optional CI placement contract: separate merge lane
+  ---
+  duration_ms: 0.1458
+  type: 'test'
+  ...
+# Subtest: Daedalus optional CI placement contract: behavior-based classification
+ok 39 - Daedalus optional CI placement contract: behavior-based classification
+  ---
+  duration_ms: 0.0841
+  type: 'test'
+  ...
+# Subtest: Daedalus optional CI placement contract: bounded and attributable run
+ok 40 - Daedalus optional CI placement contract: bounded and attributable run
+  ---
+  duration_ms: 0.1101
+  type: 'test'
+  ...
+# Subtest: Daedalus optional CI placement contract: separate result states
+ok 41 - Daedalus optional CI placement contract: separate result states
+  ---
+  duration_ms: 0.2473
+  type: 'test'
+  ...
+# Subtest: Daedalus optional CI placement contract: uncertain request recovery
+ok 42 - Daedalus optional CI placement contract: uncertain request recovery
+  ---
+  duration_ms: 0.1233
+  type: 'test'
+  ...
+# Subtest: Daedalus optional CI placement contract: no duplicate policy and exact selection audit
+ok 43 - Daedalus optional CI placement contract: no duplicate policy and exact selection audit
+  ---
+  duration_ms: 0.0358
+  type: 'test'
+  ...
+# Subtest: Daedalus optional CI placement contract: evidence limits
+ok 44 - Daedalus optional CI placement contract: evidence limits
+  ---
+  duration_ms: 0.1663
+  type: 'test'
+  ...
+# Subtest: frozen candidate validates locally without executing its scenarios
+not ok 45 - frozen candidate validates locally without executing its scenarios
+  ---
+  duration_ms: 216.5231
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\conditional-method-regression.test.mjs:536:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    {"error":"Release file set changed or undeclared files present"}
+    
+    
+    1 !== 0
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 0
+  actual: 1
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/conditional-method-regression.test.mjs:543:10)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: the literal educational projection keeps its exact prior catalog input
+ok 46 - the literal educational projection keeps its exact prior catalog input
+  ---
+  duration_ms: 2.2072
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P01: statistics-outlier-representation
+ok 47 - disclosed teaching regression E2-P01: statistics-outlier-representation
+  ---
+  duration_ms: 13.4509
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P02: chemistry-equilibrium-tabletop
+ok 48 - disclosed teaching regression E2-P02: chemistry-equilibrium-tabletop
+  ---
+  duration_ms: 3.9343
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P03: astronomy-changing-viewpoint
+ok 49 - disclosed teaching regression E2-P03: astronomy-changing-viewpoint
+  ---
+  duration_ms: 3.6762
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P04: economics-fictional-market
+ok 50 - disclosed teaching regression E2-P04: economics-fictional-market
+  ---
+  duration_ms: 3.53
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P05: music-rhythm-sequencing
+ok 51 - disclosed teaching regression E2-P05: music-rhythm-sequencing
+  ---
+  duration_ms: 3.0339
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P06: geology-cross-section-exploration
+ok 52 - disclosed teaching regression E2-P06: geology-cross-section-exploration
+  ---
+  duration_ms: 3.205
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P07: algebra-basis-vector-geometry
+ok 53 - disclosed teaching regression E2-P07: algebra-basis-vector-geometry
+  ---
+  duration_ms: 2.5446
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P08: programming-call-stack-trace
+ok 54 - disclosed teaching regression E2-P08: programming-call-stack-trace
+  ---
+  duration_ms: 3.0015
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P09: civics-voting-rule-sandbox
+ok 55 - disclosed teaching regression E2-P09: civics-voting-rule-sandbox
+  ---
+  duration_ms: 2.6902
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P10: bookkeeping-transaction-effects
+ok 56 - disclosed teaching regression E2-P10: bookkeeping-transaction-effects
+  ---
+  duration_ms: 2.9207
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P11: ecology-food-web-dependencies
+ok 57 - disclosed teaching regression E2-P11: ecology-food-web-dependencies
+  ---
+  duration_ms: 3.2988
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P12: geometry-foldable-net
+ok 58 - disclosed teaching regression E2-P12: geometry-foldable-net
+  ---
+  duration_ms: 2.7799
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-N01: educational-study-appraisal
+ok 59 - disclosed teaching regression E2-N01: educational-study-appraisal
+  ---
+  duration_ms: 4.3503
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-N02: production-simulator-operation
+ok 60 - disclosed teaching regression E2-N02: production-simulator-operation
+  ---
+  duration_ms: 4.9744
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-N03: renderer-only-repair
+not ok 61 - disclosed teaching regression E2-N03: renderer-only-repair
+  ---
+  duration_ms: 6.1107
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\educational-discovery-revealed-v2.test.mjs:36:53'
+  failureType: 'testCodeFailure'
+  error: |-
+    Literal old negative/excluded/abstained fields changed beyond the named v4-to-v3 envelope projection
+    + actual - expected
+    ... Skipped lines
+    
+      {
+        envelope: {
+          activation: 'none',
+          authority: 'none',
+          method: 'offline-lexical-intent-phrases-v3',
+    ...
+              'Matched: scene',
+    +         'Lexical intent: game or real-time 3D runtime scope; cues: game or technical 3D context, independent work action or reported fault'
+            ],
+            score: 22.984
+          }
+        ]
+      }
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v3'
+      query: "Fix the shader and rotation handles in the exhibit's existing interactive crystal scene; the educator's prompts and all explanatory rules must stay exactly as they are."
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+      0:
+        id: 'scene-continuity-and-coverage'
+        score: 45.968
+        reasons:
+          0: 'Matched: scene'
+      1:
+        id: 'bounded-parametric-design-iteration'
+        score: 36.763
+        reasons:
+          0: 'Matched: existing'
+      2:
+        id: 'fp-ts-functional-refactoring'
+        score: 31.84
+        reasons:
+          0: 'Matched: are, must'
+      3:
+        id: 'venture-falsification-and-planning'
+        score: 31.84
+        reasons:
+          0: 'Matched: are, must'
+      4:
+        id: 'eternities-arcadia'
+        score: 22.984
+        reasons:
+          0: 'Matched: scene'
+  actual:
+    envelope:
+      schema: 'eternities-godskills-discovery-v1'
+      authority: 'none'
+      activation: 'none'
+      method: 'offline-lexical-intent-phrases-v3'
+      query: "Fix the shader and rotation handles in the exhibit's existing interactive crystal scene; the educator's prompts and all explanatory rules must stay exactly as they are."
+      selection:
+        state: 'review-required'
+        basis: 'host-requested-specialist-candidates'
+    results:
+      0:
+        id: 'scene-continuity-and-coverage'
+        score: 45.968
+        reasons:
+          0: 'Matched: scene'
+      1:
+        id: 'bounded-parametric-design-iteration'
+        score: 36.763
+        reasons:
+          0: 'Matched: existing'
+      2:
+        id: 'fp-ts-functional-refactoring'
+        score: 31.84
+        reasons:
+          0: 'Matched: are, must'
+      3:
+        id: 'venture-falsification-and-planning'
+        score: 31.84
+        reasons:
+          0: 'Matched: are, must'
+      4:
+        id: 'eternities-arcadia'
+        score: 22.984
+        reasons:
+          0: 'Matched: scene'
+          1: 'Lexical intent: game or real-time 3D runtime scope; cues: game or technical 3D context, independent work action or reported fault'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/educational-discovery-revealed-v2.test.mjs:63:24)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: disclosed teaching regression E2-N04: education-administration-summary
+ok 62 - disclosed teaching regression E2-N04: education-administration-summary
+  ---
+  duration_ms: 4.5968
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-N05: ordinary-static-teaching
+ok 63 - disclosed teaching regression E2-N05: ordinary-static-teaching
+  ---
+  duration_ms: 3.8753
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-N06: direct-refusal-current-alternative
+ok 64 - disclosed teaching regression E2-N06: direct-refusal-current-alternative
+  ---
+  duration_ms: 4.3741
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-N07: archived-quoted-assignment
+ok 65 - disclosed teaching regression E2-N07: archived-quoted-assignment
+  ---
+  duration_ms: 3.9276
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-N08: past-teaching-intent-replaced
+ok 66 - disclosed teaching regression E2-N08: past-teaching-intent-replaced
+  ---
+  duration_ms: 4.2761
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-N09: trainee-audience-validation-only
+ok 67 - disclosed teaching regression E2-N09: trainee-audience-validation-only
+  ---
+  duration_ms: 3.7318
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-C01: explicit-no-need
+ok 68 - disclosed teaching regression E2-C01: explicit-no-need
+  ---
+  duration_ms: 0.1618
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-C02: category-exclusion
+ok 69 - disclosed teaching regression E2-C02: category-exclusion
+  ---
+  duration_ms: 2.0308
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-C03: task-type-exclusion
+ok 70 - disclosed teaching regression E2-C03: task-type-exclusion
+  ---
+  duration_ms: 2.1683
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-C04: eligible-category-filter
+ok 71 - disclosed teaching regression E2-C04: eligible-category-filter
+  ---
+  duration_ms: 0.8599
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-C05: literal-protected-anti-trigger
+ok 72 - disclosed teaching regression E2-C05: literal-protected-anti-trigger
+  ---
+  duration_ms: 4.8566
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-M01: education-and-scientific-validation
+ok 73 - disclosed teaching regression E2-M01: education-and-scientific-validation
+  ---
+  duration_ms: 2.581
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-M02: education-and-accessibility-engineering
+ok 74 - disclosed teaching regression E2-M02: education-and-accessibility-engineering
+  ---
+  duration_ms: 2.5381
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-M03: public-exhibit-purpose-unresolved
+ok 75 - disclosed teaching regression E2-M03: public-exhibit-purpose-unresolved
+  ---
+  duration_ms: 2.195
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-M04: conditional-secondary-learning-subtask
+ok 76 - disclosed teaching regression E2-M04: conditional-secondary-learning-subtask
+  ---
+  duration_ms: 2.3507
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression F4-P01: grammar-reorderable-sentence
+ok 77 - disclosed teaching regression F4-P01: grammar-reorderable-sentence
+  ---
+  duration_ms: 2.0952
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression F4-P02: journalism-editable-framing
+ok 78 - disclosed teaching regression F4-P02: journalism-editable-framing
+  ---
+  duration_ms: 2.2093
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression F4-P03: logic-switchable-truth-board
+ok 79 - disclosed teaching regression F4-P03: logic-switchable-truth-board
+  ---
+  duration_ms: 2.5463
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression F4-P04: photography-aperture-exploration
+ok 80 - disclosed teaching regression F4-P04: photography-aperture-exploration
+  ---
+  duration_ms: 2.3344
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression F4-N01: training-model-reliability-only
+ok 81 - disclosed teaching regression F4-N01: training-model-reliability-only
+  ---
+  duration_ms: 4.2829
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression F4-N02: refused-workshop-current-notice
+ok 82 - disclosed teaching regression F4-N02: refused-workshop-current-notice
+  ---
+  duration_ms: 4.0149
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression F4-N03: quoted-instruction-as-record-data
+ok 83 - disclosed teaching regression F4-N03: quoted-instruction-as-record-data
+  ---
+  duration_ms: 5.4948
+  type: 'test'
+  ...
+# Subtest: Nietzsche named cohort projection retains all unlisted fields and rejects declared-field tampering
+ok 84 - Nietzsche named cohort projection retains all unlisted fields and rejects declared-field tampering
+  ---
+  duration_ms: 5.173
+  type: 'test'
+  ...
+# Subtest: Nietzsche selected directory rejects original-row drift, changed added bindings, missing reviews and unknown rows
+ok 85 - Nietzsche selected directory rejects original-row drift, changed added bindings, missing reviews and unknown rows
+  ---
+  duration_ms: 2.8702
+  type: 'test'
+  ...
+# Subtest: Nietzsche v4-to-v3 projection changes only the named version label
+ok 86 - Nietzsche v4-to-v3 projection changes only the named version label
+  ---
+  duration_ms: 0.3155
+  type: 'test'
+  ...
+# Subtest: Nietzsche package transition rejects dependency, unrelated script and required-scope drift
+ok 87 - Nietzsche package transition rejects dependency, unrelated script and required-scope drift
+  ---
+  duration_ms: 1.2285
+  type: 'test'
+  ...
+# Subtest: Beacon sponsorship route is text-only and preserves human decision boundaries
+ok 88 - Beacon sponsorship route is text-only and preserves human decision boundaries
+  ---
+  duration_ms: 5.4795
+  type: 'test'
+  ...
+# Subtest: creator sponsorship discovers Beacon but does not activate an external action
+ok 89 - creator sponsorship discovers Beacon but does not activate an external action
+  ---
+  duration_ms: 11.6908
+  type: 'test'
+  ...
+1..89
+# tests 89
+# suites 0
+# pass 86
+# fail 3
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 340.6295

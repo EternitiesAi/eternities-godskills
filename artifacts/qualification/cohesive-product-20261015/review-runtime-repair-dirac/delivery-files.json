@@ -1,0 +1,59 @@
+{
+  "authoredChangedAfterGate": [],
+  "currentCatalogUnchanged": true,
+  "files": [
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-runtime-repair-dirac/COORDINATION.md",
+      "sha256": "1bacea3a6fa555adb9e3246abb5ff3d38129ff87da8327a28bac186906a7ec19"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-runtime-repair-dirac/FINAL.md",
+      "sha256": "11ae47fdada97f49e08705d70e7e9f3c86750c026a7314df6fa28f1ad8199486"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-runtime-repair-dirac/before.json",
+      "sha256": "64b39f07e81cc01980a101a7f8558dbccae8091ca1768669cd443ee55551063a"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-runtime-repair-dirac/code.before.json",
+      "sha256": "b3e62f09d4d105f07fb2e55dd0a8c874ee58992412d13e661d397355a27268e7"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-runtime-repair-dirac/diagnosis.after.json",
+      "sha256": "aeb37780f5f31ab8439f2825802ed6c8daeaa9dcfabf07aa961fdb217acc3b98"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-runtime-repair-dirac/diagnosis.before.json",
+      "sha256": "8081c1a5f679a56e12c67cfce27bda511faf2745958b4ae8f9ccb9841b78903f"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-runtime-repair-dirac/first-green.tap",
+      "sha256": "2ec96968c945599ffd1836ae7786d9972d8b6e5017da3f5ef32644e0222a5d37"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-runtime-repair-dirac/focused.final.tap",
+      "sha256": "79739336b5de162e2e8f65728cfbbc5251fb5a5385033bff8941dd182ea0475f"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-runtime-repair-dirac/handoff.json",
+      "sha256": "f55e5ea6cabaa3969bf4b2931f846ad5be74533d3dd05df2c23c5225986e2414"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-runtime-repair-dirac/probe.mjs",
+      "sha256": "1a728611efeef49db936bda9d89b7f93e3ccbfa852c969497289bae483f579af"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-runtime-repair-dirac/read-set.after.json",
+      "sha256": "3f60d05c040c265952377a61b887e1fee17913bad5b849d902e5fdac46c3d42b"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-runtime-repair-dirac/regressions.red.tap",
+      "sha256": "21b90e7df140e91027623c19f5fd67202a810adc3691ea81c99b9130656a87d1"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-runtime-repair-dirac/webform.red.tap",
+      "sha256": "3067e1e585656a3ed69a87a101680601673bb95151ae12bf3dc024140ea00670"
+    }
+  ],
+  "note": "Inventory excludes itself. No generated shared outputs were written."
+}

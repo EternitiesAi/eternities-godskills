@@ -34,13 +34,14 @@ query lookup. Profiles cover written voice, interpersonal clarification,
 task-record recovery, delivery completeness, sustained-work reconciliation,
 corroborated usability-observation synthesis, learner-model explanation,
 interactive motion continuity, requested frame-based video output, and tabular
-reconciliation.
+reconciliation. A separate scope gate limits game and real-time 3D runtime
+candidates for multiword task requests; it adds no ranking bonus.
 
 The usability profile requires people performing a task, observed interaction,
 a findings action, and an interface or task artifact. Isolated usability words
 are not enough. These rules are not a general semantic classifier. Search
 returns matched terms, profile reasons and related IDs; it never executes
-anything. `offline-lexical-intent-phrases-v3` describes deterministic lexical
+anything. `offline-lexical-intent-phrases-v4` describes deterministic lexical
 retrieval, not vector inference or a claim of superior semantic understanding.
 
 The host still judges applicability. A low-quality match is not an instruction
@@ -79,6 +80,45 @@ finite English retrieval rules, not a general language model: unsupported
 negation, mixed purposes or multilingual wording still require host judgment.
 Neither profile selects a skill, installs an engine or grants action authority.
 
+## Game and real-time 3D scope
+
+A metadata profile describing game direction, runtime and player experience
+separates admission from a corroborating purpose reason. Explicit game, gameplay,
+player, engine or format context preserves lexical candidates even when a feature
+uses unfamiliar wording. Creation requests have no modifier-distance limit.
+Generic asset/hardware context needs separate evidence of work or a reported
+fault, except for single-term topic navigation. Context alone does not receive
+a purpose reason.
+The rule follows capability metadata, not a skill ID or example-query lookup.
+Engine and format names are optional evidence, not software/account requirements.
+
+A runtime-purpose reason requires context and an independent work verb or
+reported fault in the surviving request. A mesh, texture or GPU noun cannot fill both roles. The
+problem statement and requested action can occupy separate clauses, as with a
+gameplay-camera problem followed by a silhouette improvement request. This is
+lexical evidence for review, not inferred permission or guaranteed task fit.
+
+This gate removes broad game-owner hits from ordinary GIS coordinate repair,
+drawer motion, encoded-video production and asset-license extraction when their
+requests do not also establish runtime work. Recognized license/rights and pricing
+clauses supply no runtime evidence; a separate live technical clause can still
+qualify. It omits balanced quoted material and finite refused-action tails. A
+sentence, semicolon or explicit `but`/`instead` contrast can introduce separate
+live work. These finite rules do not resolve arbitrary negation, nested quotes,
+historical scope, cross-sentence references or languages. A legal and technical
+purpose packed into one clause can lose a useful runtime candidate; inspect a
+known ID or browse its category when the shortlist does not fit the task.
+
+Single alphanumeric term queries, such as `game` or `animation`, retain topic
+navigation without claiming a corroborated task or awarding an intent bonus.
+They can therefore return broad overlapping candidates. Exact IDs also remain
+addressable. For an unfamiliar area, `browse --category games` provides a stable
+directory without depending on task phrasing. For a task request, name its actual
+operation and artifact; inspect the complete candidate and its exclusions.
+Multiword shorthand without recognized context or an independent action/fault
+may lose a useful runtime candidate. Empty results are not evidence that no
+applicable skill exists.
+
 ## Need and narrow exclusions
 
 Both `search` and `route` accept `--need none|specialist|unknown`. The host owns
@@ -96,6 +136,13 @@ not solve arbitrary intent, quotation scope or negation. A request to build,
 design, implement or audit a workflow is not suppressed merely because it also
 mentions a literal operation. No rule match does not establish that a skill is
 needed; the host still checks fit.
+
+Workflow precedence now uses the surviving unquoted request clauses: a recognized
+refusal such as "do not audit" cannot defeat a separate limited counting request.
+Straight, curly and backtick literals are omitted for these checks. A real audit
+or implementation outside the literal still takes precedence over an incidental
+counting/casing substep. These remain finite English rules, not general no-skill
+inference; use the host `need` fact when it is known.
 
 An exact normalized phrase from a skill's declared anti-triggers suppresses that
 match. This is limited negative matching, not general semantic negation or an

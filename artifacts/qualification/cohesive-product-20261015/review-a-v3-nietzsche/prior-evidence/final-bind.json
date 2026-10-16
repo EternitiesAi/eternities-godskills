@@ -1,0 +1,300 @@
+{
+  "boundAt": "2026-10-16T05:19:42.490Z",
+  "scope": "Seven A methods and seven owner SKILL.md/skill.json pairs. D-method substance excluded; any D links inspected mechanically only. Author self-applications and answers not opened.",
+  "files": [
+    {
+      "path": "product/skills/eternities-prometheus/skill.json",
+      "reviewedSha256": "5eb835254f0e1a5d35533d35c898e52045bfef1d55a861dbfef7b42b34af9b7e",
+      "thenCurrentSha256": "76034d608abd5282b879011c7d03b03c698850b6f422ada4d394f0000c50722a",
+      "bytes": 2492,
+      "unchanged": false
+    },
+    {
+      "path": "product/skills/eternities-prometheus/SKILL.md",
+      "reviewedSha256": "70d043541b328a6bfebd6cd75840aaca8ed94fc22cc10165d1be444f4662fc06",
+      "thenCurrentSha256": "70d043541b328a6bfebd6cd75840aaca8ed94fc22cc10165d1be444f4662fc06",
+      "bytes": 3265,
+      "unchanged": true
+    },
+    {
+      "path": "product/skills/eternities-prometheus/references/commercial-driver-diagnosis-v1.md",
+      "reviewedSha256": "926a4a0e421b7520dc0ca2c72c5d6b080863787be68a6cbe0caa09d543d1a00b",
+      "thenCurrentSha256": "926a4a0e421b7520dc0ca2c72c5d6b080863787be68a6cbe0caa09d543d1a00b",
+      "bytes": 3263,
+      "unchanged": true
+    },
+    {
+      "path": "product/skills/eternities-beacon/skill.json",
+      "reviewedSha256": "2b1af5f696b065ea137b63a5b8531fa82da33e7e431a43cc1080e4ba2bd1053b",
+      "thenCurrentSha256": "fd1dbd45073c68176491e63412fdd00038f19167755f4cb28ac6612dd4981351",
+      "bytes": 5578,
+      "unchanged": false
+    },
+    {
+      "path": "product/skills/eternities-beacon/SKILL.md",
+      "reviewedSha256": "2a0bc349cfcc324b0512afba99afe17f238f43a4c5d38124b9b59e8665987ed5",
+      "thenCurrentSha256": "0456fd877c1d18c3c717998f4eb2b4264a6911f62a1362df6e3356948b9af222",
+      "bytes": 4272,
+      "unchanged": false
+    },
+    {
+      "path": "product/skills/eternities-beacon/references/positioning-to-message-v1.md",
+      "reviewedSha256": "57da15f76572e5af9dde41cf4c5703d83f045cbb701b0284dfcd45d8e46c94d8",
+      "thenCurrentSha256": "57da15f76572e5af9dde41cf4c5703d83f045cbb701b0284dfcd45d8e46c94d8",
+      "bytes": 3439,
+      "unchanged": true
+    },
+    {
+      "path": "product/skills/eternities-muse/skill.json",
+      "reviewedSha256": "d3a3557a87e392f44c15780bd8292df92c260bc9c857603b7cf41853b433725a",
+      "thenCurrentSha256": "d3a3557a87e392f44c15780bd8292df92c260bc9c857603b7cf41853b433725a",
+      "bytes": 3062,
+      "unchanged": true
+    },
+    {
+      "path": "product/skills/eternities-muse/SKILL.md",
+      "reviewedSha256": "34fccadc01b49dcb8097641a6a6153dabd119dd55ba9f31781c7bfa4c4c1ac73",
+      "thenCurrentSha256": "34fccadc01b49dcb8097641a6a6153dabd119dd55ba9f31781c7bfa4c4c1ac73",
+      "bytes": 4458,
+      "unchanged": true
+    },
+    {
+      "path": "product/skills/eternities-muse/references/art-direction-to-layout-v1.md",
+      "reviewedSha256": "893b09898d51cf5bfcca7d0efa88d239466e04a7c6a68152d4158aab5fa2a140",
+      "thenCurrentSha256": "893b09898d51cf5bfcca7d0efa88d239466e04a7c6a68152d4158aab5fa2a140",
+      "bytes": 3463,
+      "unchanged": true
+    },
+    {
+      "path": "product/skills/eternities-arcadia/skill.json",
+      "reviewedSha256": "c9a6dd68a647d3701ca47f24b2444734ff1a98b131f65cb7d2210f9c1f000623",
+      "thenCurrentSha256": "b03fc6bf2a895e8ec1a0ae537a2091370d753cb056953645b7190b67ca52c4a7",
+      "bytes": 9134,
+      "unchanged": false
+    },
+    {
+      "path": "product/skills/eternities-arcadia/SKILL.md",
+      "reviewedSha256": "b217515c82a89239839e6dd16aa12891b92ad3d055f16ee68eaab854bde33693",
+      "thenCurrentSha256": "ac0ef2950f34981c72dad4143ad3752b289d3f95877ee68aa464195c8818b282",
+      "bytes": 4642,
+      "unchanged": false
+    },
+    {
+      "path": "product/skills/eternities-arcadia/references/core-loop-playtest-v1.md",
+      "reviewedSha256": "305e082e9e3d57729fe10e4ad9865b1468333e661f7530469ef17a70fc07490a",
+      "thenCurrentSha256": "305e082e9e3d57729fe10e4ad9865b1468333e661f7530469ef17a70fc07490a",
+      "bytes": 3533,
+      "unchanged": true
+    },
+    {
+      "path": "product/skills/eternities-orpheus/skill.json",
+      "reviewedSha256": "90c2cbe5bf906f08bde6880b18ada087e9ae3d9d52013755417b88cea395c565",
+      "thenCurrentSha256": "90c2cbe5bf906f08bde6880b18ada087e9ae3d9d52013755417b88cea395c565",
+      "bytes": 1918,
+      "unchanged": true
+    },
+    {
+      "path": "product/skills/eternities-orpheus/SKILL.md",
+      "reviewedSha256": "30bbab3230a9ecbb81ecec877db2036b591a46b0f4497cb61d94df3585bda3be",
+      "thenCurrentSha256": "30bbab3230a9ecbb81ecec877db2036b591a46b0f4497cb61d94df3585bda3be",
+      "bytes": 3323,
+      "unchanged": true
+    },
+    {
+      "path": "product/skills/eternities-orpheus/references/supplied-audio-editorial-mix-v1.md",
+      "reviewedSha256": "d52e3ecffe5e6134cc43f2296ed4c8e48963af8f02f513b605c5a7527ac6c1d9",
+      "thenCurrentSha256": "d52e3ecffe5e6134cc43f2296ed4c8e48963af8f02f513b605c5a7527ac6c1d9",
+      "bytes": 3582,
+      "unchanged": true
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/skill.json",
+      "reviewedSha256": "15f6ea6d698a0826bbcc4055f0321209c02e26fb5111b6b247be2f04a9502fac",
+      "thenCurrentSha256": "950b371148ed06e650a5d0f9b887d88b904f45febfb4ebadceb0a6d0e54ab473",
+      "bytes": 5210,
+      "unchanged": false
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/SKILL.md",
+      "reviewedSha256": "a91d5ffe526e92ed72c541816d6c0310f5ab2d56b82f2c5f91960b778bbed606",
+      "thenCurrentSha256": "a91d5ffe526e92ed72c541816d6c0310f5ab2d56b82f2c5f91960b778bbed606",
+      "bytes": 4937,
+      "unchanged": true
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/references/practice-and-transfer-v1.md",
+      "reviewedSha256": "8625e567db5d4f68c267bd4743e555885115fabcbd253b67f768e2031826aa9f",
+      "thenCurrentSha256": "8625e567db5d4f68c267bd4743e555885115fabcbd253b67f768e2031826aa9f",
+      "bytes": 3408,
+      "unchanged": true
+    },
+    {
+      "path": "product/skills/voice-style-calibration/skill.json",
+      "reviewedSha256": "2668dfee646ce1665c5a792dc64b175d61532a83ca350981aec5fefea230fb07",
+      "thenCurrentSha256": "2668dfee646ce1665c5a792dc64b175d61532a83ca350981aec5fefea230fb07",
+      "bytes": 2305,
+      "unchanged": true
+    },
+    {
+      "path": "product/skills/voice-style-calibration/SKILL.md",
+      "reviewedSha256": "fb4a54b739b51d0e91df35d17e65fd684f7f43fd06575e58a3782d5040ad73c4",
+      "thenCurrentSha256": "fb4a54b739b51d0e91df35d17e65fd684f7f43fd06575e58a3782d5040ad73c4",
+      "bytes": 4726,
+      "unchanged": true
+    },
+    {
+      "path": "product/skills/voice-style-calibration/references/contrastive-calibration-v1.md",
+      "reviewedSha256": "dc51820a975a4f6f1c75f69c70f96f7204b864cd662faf4516a9b1a71d2b7c40",
+      "thenCurrentSha256": "dc51820a975a4f6f1c75f69c70f96f7204b864cd662faf4516a9b1a71d2b7c40",
+      "bytes": 3289,
+      "unchanged": true
+    }
+  ],
+  "drift": [
+    {
+      "path": "product/skills/eternities-prometheus/skill.json",
+      "reviewedSha256": "5eb835254f0e1a5d35533d35c898e52045bfef1d55a861dbfef7b42b34af9b7e",
+      "thenCurrentSha256": "76034d608abd5282b879011c7d03b03c698850b6f422ada4d394f0000c50722a",
+      "bytes": 2492,
+      "unchanged": false
+    },
+    {
+      "path": "product/skills/eternities-beacon/skill.json",
+      "reviewedSha256": "2b1af5f696b065ea137b63a5b8531fa82da33e7e431a43cc1080e4ba2bd1053b",
+      "thenCurrentSha256": "fd1dbd45073c68176491e63412fdd00038f19167755f4cb28ac6612dd4981351",
+      "bytes": 5578,
+      "unchanged": false
+    },
+    {
+      "path": "product/skills/eternities-beacon/SKILL.md",
+      "reviewedSha256": "2a0bc349cfcc324b0512afba99afe17f238f43a4c5d38124b9b59e8665987ed5",
+      "thenCurrentSha256": "0456fd877c1d18c3c717998f4eb2b4264a6911f62a1362df6e3356948b9af222",
+      "bytes": 4272,
+      "unchanged": false
+    },
+    {
+      "path": "product/skills/eternities-arcadia/skill.json",
+      "reviewedSha256": "c9a6dd68a647d3701ca47f24b2444734ff1a98b131f65cb7d2210f9c1f000623",
+      "thenCurrentSha256": "b03fc6bf2a895e8ec1a0ae537a2091370d753cb056953645b7190b67ca52c4a7",
+      "bytes": 9134,
+      "unchanged": false
+    },
+    {
+      "path": "product/skills/eternities-arcadia/SKILL.md",
+      "reviewedSha256": "b217515c82a89239839e6dd16aa12891b92ad3d055f16ee68eaab854bde33693",
+      "thenCurrentSha256": "ac0ef2950f34981c72dad4143ad3752b289d3f95877ee68aa464195c8818b282",
+      "bytes": 4642,
+      "unchanged": false
+    },
+    {
+      "path": "product/skills/evidence-linked-learning-design/skill.json",
+      "reviewedSha256": "15f6ea6d698a0826bbcc4055f0321209c02e26fb5111b6b247be2f04a9502fac",
+      "thenCurrentSha256": "950b371148ed06e650a5d0f9b887d88b904f45febfb4ebadceb0a6d0e54ab473",
+      "bytes": 5210,
+      "unchanged": false
+    }
+  ],
+  "aWiring": [
+    {
+      "owner": "eternities-prometheus",
+      "method": "references/commercial-driver-diagnosis-v1.md",
+      "declared": true,
+      "linked": true,
+      "exists": true
+    },
+    {
+      "owner": "eternities-beacon",
+      "method": "references/positioning-to-message-v1.md",
+      "declared": true,
+      "linked": true,
+      "exists": true
+    },
+    {
+      "owner": "eternities-muse",
+      "method": "references/art-direction-to-layout-v1.md",
+      "declared": true,
+      "linked": true,
+      "exists": true
+    },
+    {
+      "owner": "eternities-arcadia",
+      "method": "references/core-loop-playtest-v1.md",
+      "declared": true,
+      "linked": true,
+      "exists": true
+    },
+    {
+      "owner": "eternities-orpheus",
+      "method": "references/supplied-audio-editorial-mix-v1.md",
+      "declared": true,
+      "linked": true,
+      "exists": true
+    },
+    {
+      "owner": "evidence-linked-learning-design",
+      "method": "references/practice-and-transfer-v1.md",
+      "declared": true,
+      "linked": true,
+      "exists": true
+    },
+    {
+      "owner": "voice-style-calibration",
+      "method": "references/contrastive-calibration-v1.md",
+      "declared": true,
+      "linked": true,
+      "exists": true
+    }
+  ],
+  "selfAuthoredWiring": [
+    {
+      "owner": "eternities-beacon",
+      "entrypointSha256": "0456fd877c1d18c3c717998f4eb2b4264a6911f62a1362df6e3356948b9af222",
+      "metadataSha256": "fd1dbd45073c68176491e63412fdd00038f19167755f4cb28ac6612dd4981351",
+      "resource": "references/creator-slate-feasibility-v1.md",
+      "declared": true,
+      "linked": true,
+      "exists": true,
+      "scope": "MECHANICAL ONLY: target existence, declaration and link. Body not opened, copied or substantively accepted; Astra owns independent content review."
+    },
+    {
+      "owner": "eternities-arcadia",
+      "entrypointSha256": "ac0ef2950f34981c72dad4143ad3752b289d3f95877ee68aa464195c8818b282",
+      "metadataSha256": "b03fc6bf2a895e8ec1a0ae537a2091370d753cb056953645b7190b67ca52c4a7",
+      "resource": "references/camera-driven-asset-iteration-v1.md",
+      "declared": true,
+      "linked": true,
+      "exists": true,
+      "scope": "MECHANICAL ONLY: target existence, declaration and link. Body not opened, copied or substantively accepted; Astra owns independent content review."
+    },
+    {
+      "owner": "diagnostic-statistical-model-inference",
+      "entrypointSha256": "e31ea8e66d9b7555a20a11c16a11c87f62e263c9a5d12873d661467c76358f8f",
+      "metadataSha256": "9526fcb3edc9ca519ff3fff6e5efa836da2c58c2a37dd57bc81cb150379306fd",
+      "resource": "references/causal-design-before-estimation-v1.md",
+      "declared": true,
+      "linked": true,
+      "exists": true,
+      "scope": "MECHANICAL ONLY: target existence, declaration and link. Body not opened, copied or substantively accepted; Astra owns independent content review."
+    },
+    {
+      "owner": "service-observability-and-slo-design",
+      "entrypointSha256": "4766c33f1c6cd23e11c9b7e3a5a7f9936d07243b418d7130cc6e7465aa6b6289",
+      "metadataSha256": "999da6a3195e07c6c27764d1a91da545ea3b36dab7031fc924df8399c409bf11",
+      "resource": "references/telemetry-cardinality-budget-v1.md",
+      "declared": true,
+      "linked": true,
+      "exists": true,
+      "scope": "MECHANICAL ONLY: target existence, declaration and link. Body not opened, copied or substantively accepted; Astra owns independent content review."
+    },
+    {
+      "owner": "narrative-structure-and-revision",
+      "entrypointSha256": "ff8a28893c1d2ba20b0d72bef4597d4e18b4bf5db2a93594b2bd04bd8e6d483d",
+      "metadataSha256": "d5dec1f77a7bbe0ca11d47ddf8c4b17af3777573d05bd6564c32ccb36ba18d84",
+      "resource": "references/reader-knowledge-and-reveal-revision-v1.md",
+      "declared": true,
+      "linked": true,
+      "exists": true,
+      "scope": "MECHANICAL ONLY: target existence, declaration and link. Body not opened, copied or substantively accepted; Astra owns independent content review."
+    }
+  ]
+}

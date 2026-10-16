@@ -31,9 +31,19 @@ The cursor-paged task-message and local CLI-progress cards are DRAFTs. Hermes's 
 
 1. Bind objective, target scope, expected result, authority, acceptance evidence, and termination or cleanup state.
 2. Classify every step as read, local write, execution, network, remote mutation, or external write. Keep credentials and untrusted commands outside examples unless their authority and handling are explicit.
-3. Define inputs and outputs, idempotency key, retry and timeout policy, partial-failure behavior, observable receipt, and rollback or close-out.
+3. Define the input-to-output path and what counts as useful completion. Add retry, timeout, deduplication, partial-failure and recovery rules at the boundaries that need them. A pure local transformation does not need an operation journal or invented idempotency key. A batch that can partially write needs per-item outcomes and a safe replay rule; an external mutation with uncertain completion needs reconciliation before any replay.
 4. For browser or protocol work, separate discovery from action and preserve the context that makes a reference valid. For integrations, define version, schema, authentication boundary, and failure modes before invocation.
 5. Verify with an isolated fixture and inspect the real artifact or receipt. A fixture proves the declared contract, not live service availability, account state, or remote success.
+
+For a file or record batch, enumerate the intended input set once and separate
+each item's result from the batch's status. Keep unchanged, produced, failed and
+unknown items distinguishable. Test a mixed-success batch and its rerun: completed
+items must not be duplicated, failed independent items must remain recoverable,
+and dependent steps must not run on missing outputs. Stage replacements when a
+partial write could destroy the usable original. Reconcile an uncertain external
+item before retrying it even if the rest of the batch can continue. Use a compact
+result list for a small script; durable journals belong where interruption would
+otherwise make effects ambiguous.
 
 ## Deliverable and finish
 

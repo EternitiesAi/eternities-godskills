@@ -1,0 +1,2411 @@
+{
+  "schema": "laplace-historical-compatibility-review-v1",
+  "startedAt": "2026-10-16T06:13:08.443Z",
+  "finishedAt": "2026-10-16T06:13:10.206Z",
+  "node": "v24.18.0",
+  "root": "C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003",
+  "canonical": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+  "scope": "test/helper compatibility only; no runtime RR1 review or method-body acceptance",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "14 original source snapshots match author before receipt",
+      "status": "PASS",
+      "detail": [
+        {
+          "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/adaptive-evaluator-compatibility.test.mjs",
+          "expected": "7ebba77fb8528734e6e6a025df289bbc9e96ea3c7f32f49af9b6401b73fab5e0",
+          "actual": "7ebba77fb8528734e6e6a025df289bbc9e96ea3c7f32f49af9b6401b73fab5e0"
+        },
+        {
+          "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/arcadia-asset-revision.test.mjs",
+          "expected": "651700679811376c1c5fb8ee179231066443d8ebe5bbc63504d4a7da7ca43b90",
+          "actual": "651700679811376c1c5fb8ee179231066443d8ebe5bbc63504d4a7da7ca43b90"
+        },
+        {
+          "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/conditional-method-regression.test.mjs",
+          "expected": "0f3b3bb02a6df1d76d823e281e82fe07d74a642f66a38d29d4afd49a2eb9cd59",
+          "actual": "0f3b3bb02a6df1d76d823e281e82fe07d74a642f66a38d29d4afd49a2eb9cd59"
+        },
+        {
+          "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/educational-discovery-revealed-v2.test.mjs",
+          "expected": "242d9c517612614339d1b96788201f2df9920eac6bc608fe6f6d1f1a21b887ba",
+          "actual": "242d9c517612614339d1b96788201f2df9920eac6bc608fe6f6d1f1a21b887ba"
+        },
+        {
+          "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/universal-wave25-beacon.test.mjs",
+          "expected": "0123755399ab68e9729d0c38f5a00bd3711eca5a0e6fa08885467c4fc109fd95",
+          "actual": "0123755399ab68e9729d0c38f5a00bd3711eca5a0e6fa08885467c4fc109fd95"
+        },
+        {
+          "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/helpers/arcadia-asset-revision.mjs",
+          "expected": "3d49bc29b9d584e16edfbb279246bd6b81b7633182b297d80b515ac60b472db1",
+          "actual": "3d49bc29b9d584e16edfbb279246bd6b81b7633182b297d80b515ac60b472db1"
+        },
+        {
+          "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/helpers/atlas-discovery-revision.mjs",
+          "expected": "2a4e402ec6a319fa240cea5ec03054a640dab8b7c936b703e7b0bbf5012a40df",
+          "actual": "2a4e402ec6a319fa240cea5ec03054a640dab8b7c936b703e7b0bbf5012a40df"
+        },
+        {
+          "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/product/catalog.json",
+          "expected": "adfa5cfed9ac1c6a3ca8db26522e322aa5106ca031884a4de1d8a61dc1a41b36",
+          "actual": "adfa5cfed9ac1c6a3ca8db26522e322aa5106ca031884a4de1d8a61dc1a41b36"
+        },
+        {
+          "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/product/METHODS.v1.json",
+          "expected": "902f8fca34b3e1fcc11eefcb10e463360f1a39d33ea0e6bb5265c06d63c3cbcb",
+          "actual": "902f8fca34b3e1fcc11eefcb10e463360f1a39d33ea0e6bb5265c06d63c3cbcb"
+        },
+        {
+          "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/package.json",
+          "expected": "babefbe4933100db21e8deaf329e3f4dc7bd81555ef6a6cd9ce8fa2ced1f354d",
+          "actual": "babefbe4933100db21e8deaf329e3f4dc7bd81555ef6a6cd9ce8fa2ced1f354d"
+        },
+        {
+          "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/product/lib/product.mjs",
+          "expected": "afd5689a4120420478995bee762e67cc7ce640f9ce633ae6c6a4f497efcff9bf",
+          "actual": "afd5689a4120420478995bee762e67cc7ce640f9ce633ae6c6a4f497efcff9bf"
+        },
+        {
+          "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/product/lib/discovery.mjs",
+          "expected": "4996700d80c125d06586f044260026954047cbbd412f43ef63e10ea8b2adcbd6",
+          "actual": "4996700d80c125d06586f044260026954047cbbd412f43ef63e10ea8b2adcbd6"
+        },
+        {
+          "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/product/lib/selection-boundary.mjs",
+          "expected": "a7b0ed0d0c9805e9a2b97a74c0321ce263c15609e98996144df90fc1b7f0e60e",
+          "actual": "a7b0ed0d0c9805e9a2b97a74c0321ce263c15609e98996144df90fc1b7f0e60e"
+        },
+        {
+          "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/product/lib/request-scope.mjs",
+          "expected": "e9055f1bfa2a913c1f73e93f5fa652588963e63dd9094e46713786fe400877f2",
+          "actual": "e9055f1bfa2a913c1f73e93f5fa652588963e63dd9094e46713786fe400877f2"
+        }
+      ]
+    },
+    {
+      "name": "95 historical/protected files unchanged",
+      "status": "PASS",
+      "detail": {
+        "count": 95
+      }
+    },
+    {
+      "name": "12 test/helper/fixture inputs still exactly author final-v1",
+      "status": "PASS",
+      "detail": {
+        "count": 12
+      }
+    },
+    {
+      "name": "cohesive fixture is exactly the canonical-to-current field delta",
+      "status": "PASS",
+      "detail": {
+        "owners": 19,
+        "fields": 39
+      }
+    },
+    {
+      "name": "historical method directory fixture is exact canonical Git blob",
+      "status": "PASS",
+      "detail": {
+        "rows": 8
+      }
+    },
+    {
+      "name": "historical package fixture is exact at canonical and certified reviewed head",
+      "status": "PASS"
+    },
+    {
+      "name": "all current catalog records invert exactly; arbitrary unlisted drift remains observable",
+      "status": "PASS",
+      "detail": {
+        "records": 93,
+        "unlistedFieldControls": 651,
+        "missingDeclaredFieldRejections": 39
+      }
+    },
+    {
+      "name": "directory admits exactly 13 pinned additions and preserves original 8 rows",
+      "status": "PASS",
+      "detail": {
+        "original": 8,
+        "added": 13
+      }
+    },
+    {
+      "name": "directory rejects duplicate/reorder/owner/path/status/review-boundary drift",
+      "status": "PASS",
+      "detail": {
+        "rejected": 8
+      }
+    },
+    {
+      "name": "actual directory inspector rejects owner-removed",
+      "status": "PASS"
+    },
+    {
+      "name": "actual directory inspector rejects resource-undeclared",
+      "status": "PASS"
+    },
+    {
+      "name": "E2-N03 expected-only single reason; old gold and every other literal stay exact",
+      "status": "PASS",
+      "detail": {
+        "literalBaselines": 16,
+        "changedExpectedCases": 1
+      }
+    },
+    {
+      "name": "version projection rejects unknown versions and preserves all non-version fields",
+      "status": "PASS"
+    },
+    {
+      "name": "package inverse accepts only maintained test/check scripts",
+      "status": "PASS",
+      "detail": {
+        "rejected": 6
+      }
+    },
+    {
+      "name": "six focused test files pass on current bound runtime",
+      "status": "PASS"
+    },
+    {
+      "name": "all bound read inputs stable across independent audit and focused run",
+      "status": "PASS"
+    }
+  ],
+  "runtimeDriftSinceAuthor": [
+    {
+      "path": "product/release.json",
+      "authorSha256": "5f2638f564460f939f179b33dc558bd0a31f8d41ef74663cecb3dbf0a47aa3a3",
+      "currentSha256": "752e4596352499e2d601833c30a6c9149fa5ebe5ef7e31f11949d57f4251785e"
+    },
+    {
+      "path": "product/lib/discovery.mjs",
+      "authorSha256": "ce74e5a9eafac393e8d39230f2d657847beac54a62574dea9df4303f7c0d4926",
+      "currentSha256": "5078f81b1f8a4bb00436a1cc50bfaacb8307e5a852a9820ac0badc9e292f4fd4"
+    }
+  ],
+  "finalInputComparison": [
+    {
+      "path": "tests/adaptive-evaluator-compatibility.test.mjs",
+      "authorSha256": "36541742fd1a651e1edde4a1142ac0e48e20e507222ef791c6dd0cbfa07fa253",
+      "currentSha256": "36541742fd1a651e1edde4a1142ac0e48e20e507222ef791c6dd0cbfa07fa253"
+    },
+    {
+      "path": "tests/arcadia-asset-revision.test.mjs",
+      "authorSha256": "d1b8ed829417ce5b5d663cb5ceeee8acc42e7350db7794a70974d6913166cc02",
+      "currentSha256": "d1b8ed829417ce5b5d663cb5ceeee8acc42e7350db7794a70974d6913166cc02"
+    },
+    {
+      "path": "tests/conditional-method-regression.test.mjs",
+      "authorSha256": "86c6ace544c74bbc8f74c8d973b8076cfc88e75eb8de6eee8eea3ef63f760cce",
+      "currentSha256": "86c6ace544c74bbc8f74c8d973b8076cfc88e75eb8de6eee8eea3ef63f760cce"
+    },
+    {
+      "path": "tests/educational-discovery-revealed-v2.test.mjs",
+      "authorSha256": "1eff90f1f23f0b9184881b199ec1476c2ede8effe8c9500d94277c45a67da3ac",
+      "currentSha256": "1eff90f1f23f0b9184881b199ec1476c2ede8effe8c9500d94277c45a67da3ac"
+    },
+    {
+      "path": "tests/universal-wave25-beacon.test.mjs",
+      "authorSha256": "4d3fb7c6ea3b3c9402c41e04363c998a0c33d7b7537d32b928cc5419fb248431",
+      "currentSha256": "4d3fb7c6ea3b3c9402c41e04363c998a0c33d7b7537d32b928cc5419fb248431"
+    },
+    {
+      "path": "tests/nietzsche-historical-projection.test.mjs",
+      "authorSha256": "59de662c34a9827111bda525b73cc46970d6f631639676fc88b688f2f8edba87",
+      "currentSha256": "59de662c34a9827111bda525b73cc46970d6f631639676fc88b688f2f8edba87"
+    },
+    {
+      "path": "tests/helpers/arcadia-asset-revision.mjs",
+      "authorSha256": "3d49bc29b9d584e16edfbb279246bd6b81b7633182b297d80b515ac60b472db1",
+      "currentSha256": "3d49bc29b9d584e16edfbb279246bd6b81b7633182b297d80b515ac60b472db1"
+    },
+    {
+      "path": "tests/helpers/atlas-discovery-revision.mjs",
+      "authorSha256": "2a4e402ec6a319fa240cea5ec03054a640dab8b7c936b703e7b0bbf5012a40df",
+      "currentSha256": "2a4e402ec6a319fa240cea5ec03054a640dab8b7c936b703e7b0bbf5012a40df"
+    },
+    {
+      "path": "tests/helpers/nietzsche-historical-compatibility.mjs",
+      "authorSha256": "5f60e56f156ccf6de466132580951b7a1d6fdc33e7a072de7afdece6866c5fc8",
+      "currentSha256": "5f60e56f156ccf6de466132580951b7a1d6fdc33e7a072de7afdece6866c5fc8"
+    },
+    {
+      "path": "tests/helpers/nietzsche-cohesive-catalog-v1.json",
+      "authorSha256": "ebbc172fafd80a092402f124c800239130dc12d55ef2fb7694f4ad5d06ca1b7a",
+      "currentSha256": "ebbc172fafd80a092402f124c800239130dc12d55ef2fb7694f4ad5d06ca1b7a"
+    },
+    {
+      "path": "tests/helpers/nietzsche-adaptive-package-input-v1.json",
+      "authorSha256": "538531951004f100fd557066ebb274306847f38ba514f4333f735b0dccd9b773",
+      "currentSha256": "538531951004f100fd557066ebb274306847f38ba514f4333f735b0dccd9b773"
+    },
+    {
+      "path": "tests/helpers/nietzsche-method-directory-before-cohesion.json",
+      "authorSha256": "412b4272987b119ba3edf1a9df44aeb75d6b372a90f1bdeabe92c5834bd5265d",
+      "currentSha256": "412b4272987b119ba3edf1a9df44aeb75d6b372a90f1bdeabe92c5834bd5265d"
+    },
+    {
+      "path": "package.json",
+      "authorSha256": "babefbe4933100db21e8deaf329e3f4dc7bd81555ef6a6cd9ce8fa2ced1f354d",
+      "currentSha256": "babefbe4933100db21e8deaf329e3f4dc7bd81555ef6a6cd9ce8fa2ced1f354d"
+    },
+    {
+      "path": "product/catalog.json",
+      "authorSha256": "adfa5cfed9ac1c6a3ca8db26522e322aa5106ca031884a4de1d8a61dc1a41b36",
+      "currentSha256": "adfa5cfed9ac1c6a3ca8db26522e322aa5106ca031884a4de1d8a61dc1a41b36"
+    },
+    {
+      "path": "product/METHODS.v1.json",
+      "authorSha256": "902f8fca34b3e1fcc11eefcb10e463360f1a39d33ea0e6bb5265c06d63c3cbcb",
+      "currentSha256": "902f8fca34b3e1fcc11eefcb10e463360f1a39d33ea0e6bb5265c06d63c3cbcb"
+    },
+    {
+      "path": "product/METHODS.v1.md",
+      "authorSha256": "212d8d993487700aa754a19aebd0c351de86ce8618b0849e727fac702d50897e",
+      "currentSha256": "212d8d993487700aa754a19aebd0c351de86ce8618b0849e727fac702d50897e"
+    },
+    {
+      "path": "product/release.json",
+      "authorSha256": "5f2638f564460f939f179b33dc558bd0a31f8d41ef74663cecb3dbf0a47aa3a3",
+      "currentSha256": "752e4596352499e2d601833c30a6c9149fa5ebe5ef7e31f11949d57f4251785e"
+    },
+    {
+      "path": "product/lib/product.mjs",
+      "authorSha256": "afd5689a4120420478995bee762e67cc7ce640f9ce633ae6c6a4f497efcff9bf",
+      "currentSha256": "afd5689a4120420478995bee762e67cc7ce640f9ce633ae6c6a4f497efcff9bf"
+    },
+    {
+      "path": "product/lib/discovery.mjs",
+      "authorSha256": "ce74e5a9eafac393e8d39230f2d657847beac54a62574dea9df4303f7c0d4926",
+      "currentSha256": "5078f81b1f8a4bb00436a1cc50bfaacb8307e5a852a9820ac0badc9e292f4fd4"
+    },
+    {
+      "path": "product/lib/selection-boundary.mjs",
+      "authorSha256": "a7b0ed0d0c9805e9a2b97a74c0321ce263c15609e98996144df90fc1b7f0e60e",
+      "currentSha256": "a7b0ed0d0c9805e9a2b97a74c0321ce263c15609e98996144df90fc1b7f0e60e"
+    },
+    {
+      "path": "product/lib/request-scope.mjs",
+      "authorSha256": "e9055f1bfa2a913c1f73e93f5fa652588963e63dd9094e46713786fe400877f2",
+      "currentSha256": "e9055f1bfa2a913c1f73e93f5fa652588963e63dd9094e46713786fe400877f2"
+    },
+    {
+      "path": "product/lib/method-directory.mjs",
+      "authorSha256": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180",
+      "currentSha256": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180"
+    },
+    {
+      "path": "product/lib/skill-frontmatter.mjs",
+      "authorSha256": "66bfc5b6b56688d2996689f774b5b904ce517a3fda1ec35d4d567cbd63e3a96d",
+      "currentSha256": "66bfc5b6b56688d2996689f774b5b904ce517a3fda1ec35d4d567cbd63e3a96d"
+    },
+    {
+      "path": "product/bin/godskills.mjs",
+      "authorSha256": "a06774059755ec197839a1a0d8582effea9b13c2dc574ef94b14a78703d99e7f",
+      "currentSha256": "a06774059755ec197839a1a0d8582effea9b13c2dc574ef94b14a78703d99e7f"
+    }
+  ],
+  "protectedFiles": [
+    {
+      "path": "artifacts/adaptive-activation/evidence.v1.json",
+      "expected": "b55a5cb4f7ff039cc7f4027c165b2f151bad723d9030913076a4225342fbe8c5",
+      "actual": "b55a5cb4f7ff039cc7f4027c165b2f151bad723d9030913076a4225342fbe8c5"
+    },
+    {
+      "path": "artifacts/adaptive-evaluators/aegis-v2/oracle.v1.json",
+      "expected": "df3b9ef38e4e6f96a4b61ba2b607f72ea5c3b2c1bbdeb3b027901b4c96584345",
+      "actual": "df3b9ef38e4e6f96a4b61ba2b607f72ea5c3b2c1bbdeb3b027901b4c96584345"
+    },
+    {
+      "path": "artifacts/adaptive-evaluators/aegis-v2/shadow-replay.v1.json",
+      "expected": "3acc919b24a8eb87eb747e945728e9c781463afec8c00c4a79024c4f65c5638e",
+      "actual": "3acc919b24a8eb87eb747e945728e9c781463afec8c00c4a79024c4f65c5638e"
+    },
+    {
+      "path": "artifacts/capability-layers/eternities-aegis/manifest.v1.json",
+      "expected": "311da3e3748f755469d68afb0539128776a4b03a509017e0604f0d8ba8295eb8",
+      "actual": "311da3e3748f755469d68afb0539128776a4b03a509017e0604f0d8ba8295eb8"
+    },
+    {
+      "path": "artifacts/capability-layers/eternities-forge/manifest.v1.json",
+      "expected": "6c3581a12c39b53696b29c3e4b8bac58fede466f7a760b9bd50743cfb7b00aa4",
+      "actual": "6c3581a12c39b53696b29c3e4b8bac58fede466f7a760b9bd50743cfb7b00aa4"
+    },
+    {
+      "path": "artifacts/capability-layers/eternities-muse/manifest.v1.json",
+      "expected": "4a8a02b6a92cfe1ba7d3fc49be34f68b91c20479b1d8ebf3f9d384b3ef9742b8",
+      "actual": "4a8a02b6a92cfe1ba7d3fc49be34f68b91c20479b1d8ebf3f9d384b3ef9742b8"
+    },
+    {
+      "path": "docs/adaptive-evaluator-aegis-v2-shadow-report.md",
+      "expected": "ed893777027c430232d37821bde5df270b0201bdc216339d638dbb3fd2dd7d32",
+      "actual": "ed893777027c430232d37821bde5df270b0201bdc216339d638dbb3fd2dd7d32"
+    },
+    {
+      "path": "docs/adaptive-evaluator-packages-v1-certification.md",
+      "expected": "0dc7de4c9eb0eb78758442dd60b8f25cd116c5a85789a3b40b400c125326b783",
+      "actual": "0dc7de4c9eb0eb78758442dd60b8f25cd116c5a85789a3b40b400c125326b783"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/artifacts/combined.json",
+      "expected": "d23b9fc591069f6ee98b110b374c121574337519b4114155cd5a482ad5c110cf",
+      "actual": "d23b9fc591069f6ee98b110b374c121574337519b4114155cd5a482ad5c110cf"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/artifacts/guardrail.json",
+      "expected": "b5cedd87ba90c85a6019cc4b654da8feeda501c917440540b86f1bcc5533c91c",
+      "actual": "b5cedd87ba90c85a6019cc4b654da8feeda501c917440540b86f1bcc5533c91c"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/artifacts/method.json",
+      "expected": "cf562c5c635e3a69e9a04e540d772a3477d71056a542ff9ce318518552c3a17a",
+      "actual": "cf562c5c635e3a69e9a04e540d772a3477d71056a542ff9ce318518552c3a17a"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/artifacts/raw.json",
+      "expected": "2cdb7cef6289920e0f515bfef612b2f00c100c906af6209f2ab3740a0628edac",
+      "actual": "2cdb7cef6289920e0f515bfef612b2f00c100c906af6209f2ab3740a0628edac"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/artifacts/reviewer.json",
+      "expected": "d42fc11653263533a023ca4ecbef4811af31d7432aaddc963729088fb88cdb63",
+      "actual": "d42fc11653263533a023ca4ecbef4811af31d7432aaddc963729088fb88cdb63"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/comparison-policy.json",
+      "expected": "1ba575f0c01e40b1b150847eae8f4aeca7e27ecab151548f5a2fd948b1da6b41",
+      "actual": "1ba575f0c01e40b1b150847eae8f4aeca7e27ecab151548f5a2fd948b1da6b41"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/host-policy.snapshot.md",
+      "expected": "dd37170be0e916515d26a8520d73c81ec566ffd1bc2fd9c1a49b44d0881ddeab",
+      "actual": "dd37170be0e916515d26a8520d73c81ec566ffd1bc2fd9c1a49b44d0881ddeab"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/ledger.json",
+      "expected": "f6ff1d6f4bec33b467e091aa5a454534d777c5c5769762435e3d0ab4da79ca9a",
+      "actual": "f6ff1d6f4bec33b467e091aa5a454534d777c5c5769762435e3d0ab4da79ca9a"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/observations/combined.json",
+      "expected": "99800d22874203424dd8c5047c951a1b4e24a9f2e12c0aa8aeb882fbe37be886",
+      "actual": "99800d22874203424dd8c5047c951a1b4e24a9f2e12c0aa8aeb882fbe37be886"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/observations/guardrail.json",
+      "expected": "3c0caab8c710f34a9c512f00c37c88812ac417dba8e2230d21a4503967a7aa5d",
+      "actual": "3c0caab8c710f34a9c512f00c37c88812ac417dba8e2230d21a4503967a7aa5d"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/observations/method.json",
+      "expected": "6fbb899513903e3792b243e6fe41c51bb369d6a9196ac65a3b5e06d04e5aeec0",
+      "actual": "6fbb899513903e3792b243e6fe41c51bb369d6a9196ac65a3b5e06d04e5aeec0"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/observations/raw.json",
+      "expected": "7173efd15a35fee1f63ad39387a3190c8a6a02069240e3736d4f0667f757c949",
+      "actual": "7173efd15a35fee1f63ad39387a3190c8a6a02069240e3736d4f0667f757c949"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/observations/reviewer.json",
+      "expected": "b12cfc986d408e2a3491e4e542ebe023568920361ad4db493807cb957022d52b",
+      "actual": "b12cfc986d408e2a3491e4e542ebe023568920361ad4db493807cb957022d52b"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/profile.json",
+      "expected": "a6f7ab2abfaf82e3894ff9932ac6b03c6c52469567f2e305701234777e46e0e2",
+      "actual": "a6f7ab2abfaf82e3894ff9932ac6b03c6c52469567f2e305701234777e46e0e2"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/task-definition.json",
+      "expected": "71dc6ba5957d7183e4e0f6d99c650d3244cc3e6808c111706b4c74df09f49aa7",
+      "actual": "71dc6ba5957d7183e4e0f6d99c650d3244cc3e6808c111706b4c74df09f49aa7"
+    },
+    {
+      "path": "node_modules/acorn/dist/acorn.mjs",
+      "expected": "953573b8fdab71599749ea5f2b33d3e760c2116178f9423ee7458dbe39d59453",
+      "actual": "953573b8fdab71599749ea5f2b33d3e760c2116178f9423ee7458dbe39d59453"
+    },
+    {
+      "path": "node_modules/acorn/package.json",
+      "expected": "5c1ed7259579a7899b303f514b0194adcb9fe474fc7d136a84c6a45f10eefc84",
+      "actual": "5c1ed7259579a7899b303f514b0194adcb9fe474fc7d136a84c6a45f10eefc84"
+    },
+    {
+      "path": "package-lock.json",
+      "expected": "e0b5c43f574e04c2ae7b9c0df4a1f09b609879341a8b6294a5de470009d7565c",
+      "actual": "e0b5c43f574e04c2ae7b9c0df4a1f09b609879341a8b6294a5de470009d7565c"
+    },
+    {
+      "path": "policies/adaptive-activation.v1.json",
+      "expected": "b87bbfaddecb42417e57202173220bf240204d27b7de5fffc9e609eb18138939",
+      "actual": "b87bbfaddecb42417e57202173220bf240204d27b7de5fffc9e609eb18138939"
+    },
+    {
+      "path": "receipts/adaptive-evaluator-aegis-v2.json",
+      "expected": "da38b9af701d3dcea7e8ca3dde62a8252895b1dbfd45068d2096fab93952ae80",
+      "actual": "da38b9af701d3dcea7e8ca3dde62a8252895b1dbfd45068d2096fab93952ae80"
+    },
+    {
+      "path": "receipts/adaptive-evaluator-packages-v1.json",
+      "expected": "ae7ded06bbed4aa0e2dea32dad9f841c1427f9abade57b86ad19c25b261bd519",
+      "actual": "ae7ded06bbed4aa0e2dea32dad9f841c1427f9abade57b86ad19c25b261bd519"
+    },
+    {
+      "path": "receipts/adaptive-evidence-v2.json",
+      "expected": "7f84e36cd9d02d4c93f2348500d16c6fe93b8b357d1d97c271de418cdd29b56a",
+      "actual": "7f84e36cd9d02d4c93f2348500d16c6fe93b8b357d1d97c271de418cdd29b56a"
+    },
+    {
+      "path": "runtime/adaptive-evaluator-packages-v1.md",
+      "expected": "01e13ddf8e97050c7a0fc479566de8dca5d30e80c633ee447cfed7c2d2ac8e04",
+      "actual": "01e13ddf8e97050c7a0fc479566de8dca5d30e80c633ee447cfed7c2d2ac8e04"
+    },
+    {
+      "path": "schemas/adaptive-evaluator-package-v1.schema.json",
+      "expected": "fae73b7a48a8a0456726f22d858c4eba5f6b5f1ed181db891c0c082715ac1ff0",
+      "actual": "fae73b7a48a8a0456726f22d858c4eba5f6b5f1ed181db891c0c082715ac1ff0"
+    },
+    {
+      "path": "schemas/adaptive-evaluator-request-v1.schema.json",
+      "expected": "2d2b48dc7dc58c494e6c7477cbec80f3f57ef7678c8c39913f3d95c889b6aed2",
+      "actual": "2d2b48dc7dc58c494e6c7477cbec80f3f57ef7678c8c39913f3d95c889b6aed2"
+    },
+    {
+      "path": "schemas/adaptive-evaluator-result-v1.schema.json",
+      "expected": "b222556e8e49e5557c2fb94f8c0c55e21da3349c984a201d63386048f855967e",
+      "actual": "b222556e8e49e5557c2fb94f8c0c55e21da3349c984a201d63386048f855967e"
+    },
+    {
+      "path": "scripts/build-adaptive-evaluator-package-receipt.mjs",
+      "expected": "287d80c0c2a2011b8c03c21d03ceb3fac3d427abe914721655e3248fa998d546",
+      "actual": "287d80c0c2a2011b8c03c21d03ceb3fac3d427abe914721655e3248fa998d546"
+    },
+    {
+      "path": "scripts/build-aegis-evaluator-v2-shadow-replay.mjs",
+      "expected": "794f37a5658d4d41dfbf34878f60c947a6f05ab3187b0f0e0b1375b4aa3dec1b",
+      "actual": "794f37a5658d4d41dfbf34878f60c947a6f05ab3187b0f0e0b1375b4aa3dec1b"
+    },
+    {
+      "path": "scripts/build-capability-layer-abi.mjs",
+      "expected": "28deabb4bd2ea6f5c0bb5a9cb9183e0e49e113eada2398320b17bd515ddea5fa",
+      "actual": "28deabb4bd2ea6f5c0bb5a9cb9183e0e49e113eada2398320b17bd515ddea5fa"
+    },
+    {
+      "path": "scripts/evaluate-aegis-matrix.mjs",
+      "expected": "38dc6b3c5d1f8687feb0c0f05f47094b80b2e9ec76688d1a90af060be5f03d0b",
+      "actual": "38dc6b3c5d1f8687feb0c0f05f47094b80b2e9ec76688d1a90af060be5f03d0b"
+    },
+    {
+      "path": "skills/api-rate-limit-recovery/SKILL.md",
+      "expected": "8a165944ba00664472fea80bf2f35e1c5669a61cc5e3b577e6ffd9634fec7044",
+      "actual": "8a165944ba00664472fea80bf2f35e1c5669a61cc5e3b577e6ffd9634fec7044"
+    },
+    {
+      "path": "skills/approval-bound-private-session-mining/SKILL.md",
+      "expected": "8f1f7517713f7b5d09f93415c5b7a03ab9b9c8e37eca01c6a780b0007754b419",
+      "actual": "8f1f7517713f7b5d09f93415c5b7a03ab9b9c8e37eca01c6a780b0007754b419"
+    },
+    {
+      "path": "skills/bounded-service-shutdown/SKILL.md",
+      "expected": "6e4d0bc284a44fbe8a96008052007f476a9b94d1af6625c53f2574e31883eab7",
+      "actual": "6e4d0bc284a44fbe8a96008052007f476a9b94d1af6625c53f2574e31883eab7"
+    },
+    {
+      "path": "skills/bounded-verified-object-ingestion/SKILL.md",
+      "expected": "49b5256753b3454bcbb3e45343729ffff04e1e335fb67c9f704fd655eb0d7a3f",
+      "actual": "49b5256753b3454bcbb3e45343729ffff04e1e335fb67c9f704fd655eb0d7a3f"
+    },
+    {
+      "path": "skills/columnar-ingestion-rollup-and-query-layout-design/SKILL.md",
+      "expected": "bb733d96f158f8b3a735a2c5b035cbf98e02c31a86f01cfc1bb4dc2be1488f79",
+      "actual": "bb733d96f158f8b3a735a2c5b035cbf98e02c31a86f01cfc1bb4dc2be1488f79"
+    },
+    {
+      "path": "skills/confirmed-destructive-reconstruction/SKILL.md",
+      "expected": "664ef8b6d36e67a6f2a978254a6e13197deadbdde3b330d9dc6ef89444eb4abc",
+      "actual": "664ef8b6d36e67a6f2a978254a6e13197deadbdde3b330d9dc6ef89444eb4abc"
+    },
+    {
+      "path": "skills/diagnostic-statistical-model-inference/SKILL.md",
+      "expected": "c2329e49529ee7610932e6377a1a226880ec8f5d8cc40a724e2729de68d15004",
+      "actual": "c2329e49529ee7610932e6377a1a226880ec8f5d8cc40a724e2729de68d15004"
+    },
+    {
+      "path": "skills/docx-package-redline-and-render-verification/SKILL.md",
+      "expected": "c8ef749b3d777592b68d8d080917ea979be03fad9ae3f9e0933aa78f1fccd2b6",
+      "actual": "c8ef749b3d777592b68d8d080917ea979be03fad9ae3f9e0933aa78f1fccd2b6"
+    },
+    {
+      "path": "skills/eternities-aegis/SKILL.md",
+      "expected": "91b2029f6866272d30e3d685dce32700e910889830133e107a9009eb2269c8b7",
+      "actual": "91b2029f6866272d30e3d685dce32700e910889830133e107a9009eb2269c8b7"
+    },
+    {
+      "path": "skills/eternities-agora/SKILL.md",
+      "expected": "f4399a65e90fae3a18e785ddc8a4c15efd052b01fd02cc9efb6c60dc8163d98f",
+      "actual": "f4399a65e90fae3a18e785ddc8a4c15efd052b01fd02cc9efb6c60dc8163d98f"
+    },
+    {
+      "path": "skills/eternities-arcadia/SKILL.md",
+      "expected": "a5a726826cecd0f3d2b1789e30c00d296a0085f82c5227dc3f35b59194653559",
+      "actual": "a5a726826cecd0f3d2b1789e30c00d296a0085f82c5227dc3f35b59194653559"
+    },
+    {
+      "path": "skills/eternities-architect/SKILL.md",
+      "expected": "3edb67a8aa6ef6717cd1abb3aa0658215ab76ec9009895d29bd6068612ee7a05",
+      "actual": "3edb67a8aa6ef6717cd1abb3aa0658215ab76ec9009895d29bd6068612ee7a05"
+    },
+    {
+      "path": "skills/eternities-athena/SKILL.md",
+      "expected": "68e961e8a658df393df64e4b14e5b770edce73f2531577edf985a7ec3946d56b",
+      "actual": "68e961e8a658df393df64e4b14e5b770edce73f2531577edf985a7ec3946d56b"
+    },
+    {
+      "path": "skills/eternities-atlas/SKILL.md",
+      "expected": "ef2cf619137f3a3ec3025b33390336659055cf5c95b9fa5f28687e691b36c341",
+      "actual": "ef2cf619137f3a3ec3025b33390336659055cf5c95b9fa5f28687e691b36c341"
+    },
+    {
+      "path": "skills/eternities-beacon/SKILL.md",
+      "expected": "4e534765f4be8c79b6302aa986c8c8944d89048e616129a36c2348e1969f3ac4",
+      "actual": "4e534765f4be8c79b6302aa986c8c8944d89048e616129a36c2348e1969f3ac4"
+    },
+    {
+      "path": "skills/eternities-chorus/SKILL.md",
+      "expected": "0054c131d94cc0f842ad2e5107135bc4379fbd0ba716ef00a4b1a98bab5b2d51",
+      "actual": "0054c131d94cc0f842ad2e5107135bc4379fbd0ba716ef00a4b1a98bab5b2d51"
+    },
+    {
+      "path": "skills/eternities-daedalus/SKILL.md",
+      "expected": "f37a505ea9a21657a7d2b3907475a467d48b835c023378252100ba3536bab601",
+      "actual": "f37a505ea9a21657a7d2b3907475a467d48b835c023378252100ba3536bab601"
+    },
+    {
+      "path": "skills/eternities-forge/SKILL.md",
+      "expected": "0e5e5e876315bec35fde1c631cc6010b894b9af30cc59fdff8258f8ac580fcc7",
+      "actual": "0e5e5e876315bec35fde1c631cc6010b894b9af30cc59fdff8258f8ac580fcc7"
+    },
+    {
+      "path": "skills/eternities-hephaestus/SKILL.md",
+      "expected": "fcdfca34b569af7ace8b89714e348b0d8767f99279663b4bbe336b4bf8860cfd",
+      "actual": "fcdfca34b569af7ace8b89714e348b0d8767f99279663b4bbe336b4bf8860cfd"
+    },
+    {
+      "path": "skills/eternities-herald/SKILL.md",
+      "expected": "7bf0df8857b68347dc14224f0e15ab5b47f4ebb972ac442f8ff34735eb609a8e",
+      "actual": "7bf0df8857b68347dc14224f0e15ab5b47f4ebb972ac442f8ff34735eb609a8e"
+    },
+    {
+      "path": "skills/eternities-hermes/SKILL.md",
+      "expected": "ff15c0ff4b723f6fe3af2b0b0660a9e0a6a1c885be67e6933206d3d91fb816c1",
+      "actual": "ff15c0ff4b723f6fe3af2b0b0660a9e0a6a1c885be67e6933206d3d91fb816c1"
+    },
+    {
+      "path": "skills/eternities-logos/SKILL.md",
+      "expected": "bd94cdf5cdaec4534bd2f17bcf5006816c4f9e6f95dbf93f0ad3c670bdd762f2",
+      "actual": "bd94cdf5cdaec4534bd2f17bcf5006816c4f9e6f95dbf93f0ad3c670bdd762f2"
+    },
+    {
+      "path": "skills/eternities-mnemosyne/SKILL.md",
+      "expected": "69e1bae6e496f6bf5dac6492be32cf3b4d1504d8ce86a5c6f7da8a9a0fbe2078",
+      "actual": "69e1bae6e496f6bf5dac6492be32cf3b4d1504d8ce86a5c6f7da8a9a0fbe2078"
+    },
+    {
+      "path": "skills/eternities-muse/SKILL.md",
+      "expected": "e9af729ad561afb811971e4180512d4a46096f2ce245520b7db0f49c36dd79f8",
+      "actual": "e9af729ad561afb811971e4180512d4a46096f2ce245520b7db0f49c36dd79f8"
+    },
+    {
+      "path": "skills/eternities-omnibus/SKILL.md",
+      "expected": "9d140beddc151810f560fdf06007cecd10dcabba9693ef047aca15525171a01a",
+      "actual": "9d140beddc151810f560fdf06007cecd10dcabba9693ef047aca15525171a01a"
+    },
+    {
+      "path": "skills/eternities-oracle/SKILL.md",
+      "expected": "3c9851711492a276eaaac2672207774ea8da793d630a51b21623e2564a624d6c",
+      "actual": "3c9851711492a276eaaac2672207774ea8da793d630a51b21623e2564a624d6c"
+    },
+    {
+      "path": "skills/eternities-orpheus/SKILL.md",
+      "expected": "59df9f08bb022f21a31f8da64566ffdf7177440623cbb165f77bd57c7e46c1f3",
+      "actual": "59df9f08bb022f21a31f8da64566ffdf7177440623cbb165f77bd57c7e46c1f3"
+    },
+    {
+      "path": "skills/eternities-phoenix/SKILL.md",
+      "expected": "8f7d4f0ace48604a9b556747404ac7efb3cd5f64dfabbc1c8add92c0b00a98f1",
+      "actual": "8f7d4f0ace48604a9b556747404ac7efb3cd5f64dfabbc1c8add92c0b00a98f1"
+    },
+    {
+      "path": "skills/eternities-prometheus/SKILL.md",
+      "expected": "ed053d7799f4eef67d1095237b40aeda0643362fa5ffccdbb1a9fa86458c6a3b",
+      "actual": "ed053d7799f4eef67d1095237b40aeda0643362fa5ffccdbb1a9fa86458c6a3b"
+    },
+    {
+      "path": "skills/formula-preserving-workbook-engineering/SKILL.md",
+      "expected": "57fe9f91a1e87fd435325ef4c6c9a1bc72711f6447cab26030553572690a13ed",
+      "actual": "57fe9f91a1e87fd435325ef4c6c9a1bc72711f6447cab26030553572690a13ed"
+    },
+    {
+      "path": "skills/fp-ts-functional-refactoring/SKILL.md",
+      "expected": "88feb9b199b31c0d92753c51e14335d3cc04d6e78e5dffaf49c39b01c45e07a9",
+      "actual": "88feb9b199b31c0d92753c51e14335d3cc04d6e78e5dffaf49c39b01c45e07a9"
+    },
+    {
+      "path": "skills/genomic-coordinate-assembly-and-variant-gates/SKILL.md",
+      "expected": "c31327c833b4fead7de05dddd179b1ad593de95967e62533964127db5802f560",
+      "actual": "c31327c833b4fead7de05dddd179b1ad593de95967e62533964127db5802f560"
+    },
+    {
+      "path": "skills/interface-localization-and-bidirectionality/SKILL.md",
+      "expected": "c783eba17d9def75e40c95a10533a3025fd71a9abf7632317b75ba8890726855",
+      "actual": "c783eba17d9def75e40c95a10533a3025fd71a9abf7632317b75ba8890726855"
+    },
+    {
+      "path": "skills/invariant-guard/SKILL.md",
+      "expected": "662fbe7019395bbda3be470cba36b67b2e00a2a036fd40ab79b93a18fd06b8ff",
+      "actual": "662fbe7019395bbda3be470cba36b67b2e00a2a036fd40ab79b93a18fd06b8ff"
+    },
+    {
+      "path": "skills/lazy-tabular-transformation-and-validation/SKILL.md",
+      "expected": "2179e227170ff51dee0190ce53f50eb3e37a23c99a961a74443af9baeb9ca15f",
+      "actual": "2179e227170ff51dee0190ce53f50eb3e37a23c99a961a74443af9baeb9ca15f"
+    },
+    {
+      "path": "skills/measured-paid-creative-iteration/SKILL.md",
+      "expected": "ae6d17c5753770b5a9e82935ba1cd0b6620fb597c8e82d95246c7161aa8600ad",
+      "actual": "ae6d17c5753770b5a9e82935ba1cd0b6620fb597c8e82d95246c7161aa8600ad"
+    },
+    {
+      "path": "skills/performance-release-gating/SKILL.md",
+      "expected": "c0d534a563f4b9f065e108fbceba4d98e311093139a9abe2e4e8f4ae5493ea71",
+      "actual": "c0d534a563f4b9f065e108fbceba4d98e311093139a9abe2e4e8f4ae5493ea71"
+    },
+    {
+      "path": "skills/physics-constrained-numerical-validation/SKILL.md",
+      "expected": "5acc6fc0cb17c3c7778728f544e28c8812d717426b7e56f69f4fb9db0ad35b56",
+      "actual": "5acc6fc0cb17c3c7778728f544e28c8812d717426b7e56f69f4fb9db0ad35b56"
+    },
+    {
+      "path": "skills/release-script-safety/SKILL.md",
+      "expected": "e9379597b00cbfe72bc0d40824aaab9ee9b333d9560e79595567769898fbb5fa",
+      "actual": "e9379597b00cbfe72bc0d40824aaab9ee9b333d9560e79595567769898fbb5fa"
+    },
+    {
+      "path": "skills/semantic-implementation-diff/SKILL.md",
+      "expected": "38fb8822b3cc9b8d18ab6101b8f6063272db5fe174afe008a6154bcd3b5f2bd8",
+      "actual": "38fb8822b3cc9b8d18ab6101b8f6063272db5fe174afe008a6154bcd3b5f2bd8"
+    },
+    {
+      "path": "skills/sovereign-skill-refinery/SKILL.md",
+      "expected": "71b39ba6963e030018c7830539e0ebe06dd902ffb4239fcd0f768a90d1791a4c",
+      "actual": "71b39ba6963e030018c7830539e0ebe06dd902ffb4239fcd0f768a90d1791a4c"
+    },
+    {
+      "path": "skills/symbolic-mathematics-python/SKILL.md",
+      "expected": "dcfa1c429927870d2e6a1f769428c71aa24c4cffffcedb5c059a2aa79f82838a",
+      "actual": "dcfa1c429927870d2e6a1f769428c71aa24c4cffffcedb5c059a2aa79f82838a"
+    },
+    {
+      "path": "skills/venture-falsification-and-planning/SKILL.md",
+      "expected": "5102353487c367bbe99b0485c8669cf1269aed99fa3c829adffbea994f5caef9",
+      "actual": "5102353487c367bbe99b0485c8669cf1269aed99fa3c829adffbea994f5caef9"
+    },
+    {
+      "path": "skills/web-performance-optimization/SKILL.md",
+      "expected": "6420ad975cf47878da9bca50202864b7e896d86ca6fdd68896168fc8f571f6b4",
+      "actual": "6420ad975cf47878da9bca50202864b7e896d86ca6fdd68896168fc8f571f6b4"
+    },
+    {
+      "path": "src/adaptive-activation.mjs",
+      "expected": "9844aee1147f7129f3e37067424ccebb88ff478de1b7a9a9fb7306d5f2fdbd82",
+      "actual": "9844aee1147f7129f3e37067424ccebb88ff478de1b7a9a9fb7306d5f2fdbd82"
+    },
+    {
+      "path": "src/adaptive-evaluator-package.mjs",
+      "expected": "c8095ecab2723c6a4d26ec80dceb4b93ca88fcfa74dfbc6f2dba642331684a19",
+      "actual": "c8095ecab2723c6a4d26ec80dceb4b93ca88fcfa74dfbc6f2dba642331684a19"
+    },
+    {
+      "path": "src/adaptive-evidence-contracts.mjs",
+      "expected": "d2712a3d197226333d9245c8ee5988fe5dc27bd0c540493a696ada393a4495be",
+      "actual": "d2712a3d197226333d9245c8ee5988fe5dc27bd0c540493a696ada393a4495be"
+    },
+    {
+      "path": "src/aegis-evaluator-v2.mjs",
+      "expected": "253dcc5a506c276d3852f186f40993e5a27c7357efdc7f0324c6c7ac5cf73187",
+      "actual": "253dcc5a506c276d3852f186f40993e5a27c7357efdc7f0324c6c7ac5cf73187"
+    },
+    {
+      "path": "src/capability-layer-abi.mjs",
+      "expected": "11ce400a2f53656285352ff49f5434571ed07bd1d7a6806d86c361211d552205",
+      "actual": "11ce400a2f53656285352ff49f5434571ed07bd1d7a6806d86c361211d552205"
+    },
+    {
+      "path": "src/evaluator-module-closure.mjs",
+      "expected": "b5eb49b1bba8b5eb3db7b09b34518e34e178435ff7a110dd66f52d8772560194",
+      "actual": "b5eb49b1bba8b5eb3db7b09b34518e34e178435ff7a110dd66f52d8772560194"
+    },
+    {
+      "path": "src/io.mjs",
+      "expected": "48dca2b203947e12ca3d5500b70a25066a8166d86bc2284aaeed6abf622a5c37",
+      "actual": "48dca2b203947e12ca3d5500b70a25066a8166d86bc2284aaeed6abf622a5c37"
+    },
+    {
+      "path": "src/paths.mjs",
+      "expected": "a5f7367954dae5f8f0efe156b14f496292c34432c765d56f6c430fc79823bd73",
+      "actual": "a5f7367954dae5f8f0efe156b14f496292c34432c765d56f6c430fc79823bd73"
+    },
+    {
+      "path": "tests/core2260-catalog.json",
+      "expected": "57d47c0a9692dc21caa0e7909ee6c557cd5ef5cc4e09b968df079cc81f86aecf",
+      "actual": "57d47c0a9692dc21caa0e7909ee6c557cd5ef5cc4e09b968df079cc81f86aecf"
+    },
+    {
+      "path": "tests/fixtures/catalog-before-next-eight-20261004.json",
+      "expected": "bf90582e8a23a3d50a6997cfba5f97d022f4619024f8459e364423f269e10eca",
+      "actual": "bf90582e8a23a3d50a6997cfba5f97d022f4619024f8459e364423f269e10eca"
+    },
+    {
+      "path": "tests/fixtures/educational-discovery-revealed-v2.json",
+      "expected": "d45fe826ca59387cb0137955fa0fe0672ff2fbcae55a9d90606388f0cc711b24",
+      "actual": "d45fe826ca59387cb0137955fa0fe0672ff2fbcae55a9d90606388f0cc711b24"
+    },
+    {
+      "path": "tests/fixtures/educational-discovery-revealed-v4.json",
+      "expected": "714897e05af3700b2ac54c130904afb10e2cb01b976e48bd71fa803644e68c1d",
+      "actual": "714897e05af3700b2ac54c130904afb10e2cb01b976e48bd71fa803644e68c1d"
+    },
+    {
+      "path": "tests/fixtures/hermes-pre-refinement-20261004.md",
+      "expected": "435d81f1cfaeea64ebb85ad9cd00d1dae22e8bde77edeaa9e009c315e7ce69ba",
+      "actual": "435d81f1cfaeea64ebb85ad9cd00d1dae22e8bde77edeaa9e009c315e7ce69ba"
+    }
+  ],
+  "readSet": [
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before.json",
+      "bytes": 17768,
+      "sha256": "88836cda111417a284480b630df89f8039dd72d17840c3a85cfbd1bf501aea95",
+      "mode": "machine-read"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/final-v1-results.json",
+      "bytes": 4875,
+      "sha256": "18ce1f99914b8c31e5082d9b0e8f71d935d2792d40ebea012e26538db385f323",
+      "mode": "machine-read"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/FINAL.md",
+      "bytes": 9035,
+      "sha256": "9b25e70aefe30732aa6366d2d07d10aeecd91f5823c426d8f279283fcd784417",
+      "mode": "inspected evidence; not executed"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/collect.mjs",
+      "bytes": 5089,
+      "sha256": "f4cd166d5c21b3b62fc0a13b0008b0e7407fd0210d86e81339ec785c4eeecfe0",
+      "mode": "inspected evidence; not executed"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before-results.json",
+      "bytes": 2669,
+      "sha256": "e9dcd432c8580b0b225f11fb10a867d7db1e0dbdac2476eb328a8519eb1798cf",
+      "mode": "inspected evidence; not executed"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/after-results.json",
+      "bytes": 907,
+      "sha256": "4922fe0104c54da02f50f196c048b6382f80f725417cc89123d44ee24acf7d24",
+      "mode": "inspected evidence; not executed"
+    },
+    {
+      "path": "tests/helpers/nietzsche-historical-compatibility.mjs",
+      "bytes": 4670,
+      "sha256": "5f60e56f156ccf6de466132580951b7a1d6fdc33e7a072de7afdece6866c5fc8",
+      "mode": "inspected code and executed"
+    },
+    {
+      "path": "tests/helpers/nietzsche-cohesive-catalog-v1.json",
+      "bytes": 30206,
+      "sha256": "ebbc172fafd80a092402f124c800239130dc12d55ef2fb7694f4ad5d06ca1b7a",
+      "mode": "inspected fixture and machine comparison"
+    },
+    {
+      "path": "tests/helpers/nietzsche-adaptive-package-input-v1.json",
+      "bytes": 3874,
+      "sha256": "538531951004f100fd557066ebb274306847f38ba514f4333f735b0dccd9b773",
+      "mode": "inspected fixture and machine comparison"
+    },
+    {
+      "path": "tests/helpers/nietzsche-method-directory-before-cohesion.json",
+      "bytes": 11810,
+      "sha256": "412b4272987b119ba3edf1a9df44aeb75d6b372a90f1bdeabe92c5834bd5265d",
+      "mode": "inspected fixture and machine comparison"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/adaptive-evaluator-compatibility.test.mjs",
+      "bytes": 14261,
+      "sha256": "7ebba77fb8528734e6e6a025df289bbc9e96ea3c7f32f49af9b6401b73fab5e0",
+      "mode": "snapshot identity"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/arcadia-asset-revision.test.mjs",
+      "bytes": 1658,
+      "sha256": "651700679811376c1c5fb8ee179231066443d8ebe5bbc63504d4a7da7ca43b90",
+      "mode": "snapshot identity"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/conditional-method-regression.test.mjs",
+      "bytes": 29440,
+      "sha256": "0f3b3bb02a6df1d76d823e281e82fe07d74a642f66a38d29d4afd49a2eb9cd59",
+      "mode": "snapshot identity"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/educational-discovery-revealed-v2.test.mjs",
+      "bytes": 4610,
+      "sha256": "242d9c517612614339d1b96788201f2df9920eac6bc608fe6f6d1f1a21b887ba",
+      "mode": "snapshot identity"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/universal-wave25-beacon.test.mjs",
+      "bytes": 2695,
+      "sha256": "0123755399ab68e9729d0c38f5a00bd3711eca5a0e6fa08885467c4fc109fd95",
+      "mode": "snapshot identity"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/helpers/arcadia-asset-revision.mjs",
+      "bytes": 1739,
+      "sha256": "3d49bc29b9d584e16edfbb279246bd6b81b7633182b297d80b515ac60b472db1",
+      "mode": "snapshot identity"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/helpers/atlas-discovery-revision.mjs",
+      "bytes": 1237,
+      "sha256": "2a4e402ec6a319fa240cea5ec03054a640dab8b7c936b703e7b0bbf5012a40df",
+      "mode": "snapshot identity"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/product/catalog.json",
+      "bytes": 146817,
+      "sha256": "adfa5cfed9ac1c6a3ca8db26522e322aa5106ca031884a4de1d8a61dc1a41b36",
+      "mode": "snapshot identity"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/product/METHODS.v1.json",
+      "bytes": 32066,
+      "sha256": "902f8fca34b3e1fcc11eefcb10e463360f1a39d33ea0e6bb5265c06d63c3cbcb",
+      "mode": "snapshot identity"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/package.json",
+      "bytes": 4086,
+      "sha256": "babefbe4933100db21e8deaf329e3f4dc7bd81555ef6a6cd9ce8fa2ced1f354d",
+      "mode": "snapshot identity"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/product/lib/product.mjs",
+      "bytes": 23970,
+      "sha256": "afd5689a4120420478995bee762e67cc7ce640f9ce633ae6c6a4f497efcff9bf",
+      "mode": "snapshot identity"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/product/lib/discovery.mjs",
+      "bytes": 19171,
+      "sha256": "4996700d80c125d06586f044260026954047cbbd412f43ef63e10ea8b2adcbd6",
+      "mode": "snapshot identity"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/product/lib/selection-boundary.mjs",
+      "bytes": 1603,
+      "sha256": "a7b0ed0d0c9805e9a2b97a74c0321ce263c15609e98996144df90fc1b7f0e60e",
+      "mode": "snapshot identity"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/product/lib/request-scope.mjs",
+      "bytes": 1314,
+      "sha256": "e9055f1bfa2a913c1f73e93f5fa652588963e63dd9094e46713786fe400877f2",
+      "mode": "snapshot identity"
+    },
+    {
+      "path": "artifacts/adaptive-activation/evidence.v1.json",
+      "bytes": 1910,
+      "sha256": "b55a5cb4f7ff039cc7f4027c165b2f151bad723d9030913076a4225342fbe8c5",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "artifacts/adaptive-evaluators/aegis-v2/oracle.v1.json",
+      "bytes": 7225,
+      "sha256": "df3b9ef38e4e6f96a4b61ba2b607f72ea5c3b2c1bbdeb3b027901b4c96584345",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "artifacts/adaptive-evaluators/aegis-v2/shadow-replay.v1.json",
+      "bytes": 37551,
+      "sha256": "3acc919b24a8eb87eb747e945728e9c781463afec8c00c4a79024c4f65c5638e",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "artifacts/capability-layers/eternities-aegis/manifest.v1.json",
+      "bytes": 3358,
+      "sha256": "311da3e3748f755469d68afb0539128776a4b03a509017e0604f0d8ba8295eb8",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "artifacts/capability-layers/eternities-forge/manifest.v1.json",
+      "bytes": 3358,
+      "sha256": "6c3581a12c39b53696b29c3e4b8bac58fede466f7a760b9bd50743cfb7b00aa4",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "artifacts/capability-layers/eternities-muse/manifest.v1.json",
+      "bytes": 3351,
+      "sha256": "4a8a02b6a92cfe1ba7d3fc49be34f68b91c20479b1d8ebf3f9d384b3ef9742b8",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "docs/adaptive-evaluator-aegis-v2-shadow-report.md",
+      "bytes": 960,
+      "sha256": "ed893777027c430232d37821bde5df270b0201bdc216339d638dbb3fd2dd7d32",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "docs/adaptive-evaluator-packages-v1-certification.md",
+      "bytes": 12072,
+      "sha256": "0dc7de4c9eb0eb78758442dd60b8f25cd116c5a85789a3b40b400c125326b783",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/artifacts/combined.json",
+      "bytes": 2864,
+      "sha256": "d23b9fc591069f6ee98b110b374c121574337519b4114155cd5a482ad5c110cf",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/artifacts/guardrail.json",
+      "bytes": 3052,
+      "sha256": "b5cedd87ba90c85a6019cc4b654da8feeda501c917440540b86f1bcc5533c91c",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/artifacts/method.json",
+      "bytes": 2912,
+      "sha256": "cf562c5c635e3a69e9a04e540d772a3477d71056a542ff9ce318518552c3a17a",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/artifacts/raw.json",
+      "bytes": 2820,
+      "sha256": "2cdb7cef6289920e0f515bfef612b2f00c100c906af6209f2ab3740a0628edac",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/artifacts/reviewer.json",
+      "bytes": 2948,
+      "sha256": "d42fc11653263533a023ca4ecbef4811af31d7432aaddc963729088fb88cdb63",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/comparison-policy.json",
+      "bytes": 3206,
+      "sha256": "1ba575f0c01e40b1b150847eae8f4aeca7e27ecab151548f5a2fd948b1da6b41",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/host-policy.snapshot.md",
+      "bytes": 9384,
+      "sha256": "dd37170be0e916515d26a8520d73c81ec566ffd1bc2fd9c1a49b44d0881ddeab",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/ledger.json",
+      "bytes": 9189,
+      "sha256": "f6ff1d6f4bec33b467e091aa5a454534d777c5c5769762435e3d0ab4da79ca9a",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/observations/combined.json",
+      "bytes": 3316,
+      "sha256": "99800d22874203424dd8c5047c951a1b4e24a9f2e12c0aa8aeb882fbe37be886",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/observations/guardrail.json",
+      "bytes": 2397,
+      "sha256": "3c0caab8c710f34a9c512f00c37c88812ac417dba8e2230d21a4503967a7aa5d",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/observations/method.json",
+      "bytes": 2360,
+      "sha256": "6fbb899513903e3792b243e6fe41c51bb369d6a9196ac65a3b5e06d04e5aeec0",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/observations/raw.json",
+      "bytes": 2232,
+      "sha256": "7173efd15a35fee1f63ad39387a3190c8a6a02069240e3736d4f0667f757c949",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/observations/reviewer.json",
+      "bytes": 3301,
+      "sha256": "b12cfc986d408e2a3491e4e542ebe023568920361ad4db493807cb957022d52b",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/profile.json",
+      "bytes": 3769,
+      "sha256": "a6f7ab2abfaf82e3894ff9932ac6b03c6c52469567f2e305701234777e46e0e2",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/task-definition.json",
+      "bytes": 1797,
+      "sha256": "71dc6ba5957d7183e4e0f6d99c650d3244cc3e6808c111706b4c74df09f49aa7",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "node_modules/acorn/dist/acorn.mjs",
+      "bytes": 233301,
+      "sha256": "953573b8fdab71599749ea5f2b33d3e760c2116178f9423ee7458dbe39d59453",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "node_modules/acorn/package.json",
+      "bytes": 1067,
+      "sha256": "5c1ed7259579a7899b303f514b0194adcb9fe474fc7d136a84c6a45f10eefc84",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 692,
+      "sha256": "e0b5c43f574e04c2ae7b9c0df4a1f09b609879341a8b6294a5de470009d7565c",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "policies/adaptive-activation.v1.json",
+      "bytes": 849,
+      "sha256": "b87bbfaddecb42417e57202173220bf240204d27b7de5fffc9e609eb18138939",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "receipts/adaptive-evaluator-aegis-v2.json",
+      "bytes": 3762,
+      "sha256": "da38b9af701d3dcea7e8ca3dde62a8252895b1dbfd45068d2096fab93952ae80",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "receipts/adaptive-evaluator-packages-v1.json",
+      "bytes": 9578,
+      "sha256": "ae7ded06bbed4aa0e2dea32dad9f841c1427f9abade57b86ad19c25b261bd519",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "receipts/adaptive-evidence-v2.json",
+      "bytes": 14138,
+      "sha256": "7f84e36cd9d02d4c93f2348500d16c6fe93b8b357d1d97c271de418cdd29b56a",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "runtime/adaptive-evaluator-packages-v1.md",
+      "bytes": 5863,
+      "sha256": "01e13ddf8e97050c7a0fc479566de8dca5d30e80c633ee447cfed7c2d2ac8e04",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "schemas/adaptive-evaluator-package-v1.schema.json",
+      "bytes": 3321,
+      "sha256": "fae73b7a48a8a0456726f22d858c4eba5f6b5f1ed181db891c0c082715ac1ff0",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "schemas/adaptive-evaluator-request-v1.schema.json",
+      "bytes": 2858,
+      "sha256": "2d2b48dc7dc58c494e6c7477cbec80f3f57ef7678c8c39913f3d95c889b6aed2",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "schemas/adaptive-evaluator-result-v1.schema.json",
+      "bytes": 6815,
+      "sha256": "b222556e8e49e5557c2fb94f8c0c55e21da3349c984a201d63386048f855967e",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "scripts/build-adaptive-evaluator-package-receipt.mjs",
+      "bytes": 9642,
+      "sha256": "287d80c0c2a2011b8c03c21d03ceb3fac3d427abe914721655e3248fa998d546",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "scripts/build-aegis-evaluator-v2-shadow-replay.mjs",
+      "bytes": 20044,
+      "sha256": "794f37a5658d4d41dfbf34878f60c947a6f05ab3187b0f0e0b1375b4aa3dec1b",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "scripts/build-capability-layer-abi.mjs",
+      "bytes": 13003,
+      "sha256": "28deabb4bd2ea6f5c0bb5a9cb9183e0e49e113eada2398320b17bd515ddea5fa",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "scripts/evaluate-aegis-matrix.mjs",
+      "bytes": 22109,
+      "sha256": "38dc6b3c5d1f8687feb0c0f05f47094b80b2e9ec76688d1a90af060be5f03d0b",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/api-rate-limit-recovery/SKILL.md",
+      "bytes": 1889,
+      "sha256": "8a165944ba00664472fea80bf2f35e1c5669a61cc5e3b577e6ffd9634fec7044",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/approval-bound-private-session-mining/SKILL.md",
+      "bytes": 1940,
+      "sha256": "8f1f7517713f7b5d09f93415c5b7a03ab9b9c8e37eca01c6a780b0007754b419",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/bounded-service-shutdown/SKILL.md",
+      "bytes": 1892,
+      "sha256": "6e4d0bc284a44fbe8a96008052007f476a9b94d1af6625c53f2574e31883eab7",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/bounded-verified-object-ingestion/SKILL.md",
+      "bytes": 1986,
+      "sha256": "49b5256753b3454bcbb3e45343729ffff04e1e335fb67c9f704fd655eb0d7a3f",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/columnar-ingestion-rollup-and-query-layout-design/SKILL.md",
+      "bytes": 2099,
+      "sha256": "bb733d96f158f8b3a735a2c5b035cbf98e02c31a86f01cfc1bb4dc2be1488f79",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/confirmed-destructive-reconstruction/SKILL.md",
+      "bytes": 2024,
+      "sha256": "664ef8b6d36e67a6f2a978254a6e13197deadbdde3b330d9dc6ef89444eb4abc",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/diagnostic-statistical-model-inference/SKILL.md",
+      "bytes": 2022,
+      "sha256": "c2329e49529ee7610932e6377a1a226880ec8f5d8cc40a724e2729de68d15004",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/docx-package-redline-and-render-verification/SKILL.md",
+      "bytes": 1961,
+      "sha256": "c8ef749b3d777592b68d8d080917ea979be03fad9ae3f9e0933aa78f1fccd2b6",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/eternities-aegis/SKILL.md",
+      "bytes": 6824,
+      "sha256": "91b2029f6866272d30e3d685dce32700e910889830133e107a9009eb2269c8b7",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/eternities-agora/SKILL.md",
+      "bytes": 4631,
+      "sha256": "f4399a65e90fae3a18e785ddc8a4c15efd052b01fd02cc9efb6c60dc8163d98f",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/eternities-arcadia/SKILL.md",
+      "bytes": 5667,
+      "sha256": "a5a726826cecd0f3d2b1789e30c00d296a0085f82c5227dc3f35b59194653559",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/eternities-architect/SKILL.md",
+      "bytes": 6186,
+      "sha256": "3edb67a8aa6ef6717cd1abb3aa0658215ab76ec9009895d29bd6068612ee7a05",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/eternities-athena/SKILL.md",
+      "bytes": 4911,
+      "sha256": "68e961e8a658df393df64e4b14e5b770edce73f2531577edf985a7ec3946d56b",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/eternities-atlas/SKILL.md",
+      "bytes": 3997,
+      "sha256": "ef2cf619137f3a3ec3025b33390336659055cf5c95b9fa5f28687e691b36c341",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/eternities-beacon/SKILL.md",
+      "bytes": 7837,
+      "sha256": "4e534765f4be8c79b6302aa986c8c8944d89048e616129a36c2348e1969f3ac4",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/eternities-chorus/SKILL.md",
+      "bytes": 6005,
+      "sha256": "0054c131d94cc0f842ad2e5107135bc4379fbd0ba716ef00a4b1a98bab5b2d51",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/eternities-daedalus/SKILL.md",
+      "bytes": 4307,
+      "sha256": "f37a505ea9a21657a7d2b3907475a467d48b835c023378252100ba3536bab601",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/eternities-forge/SKILL.md",
+      "bytes": 6797,
+      "sha256": "0e5e5e876315bec35fde1c631cc6010b894b9af30cc59fdff8258f8ac580fcc7",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/eternities-hephaestus/SKILL.md",
+      "bytes": 4847,
+      "sha256": "fcdfca34b569af7ace8b89714e348b0d8767f99279663b4bbe336b4bf8860cfd",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/eternities-herald/SKILL.md",
+      "bytes": 2730,
+      "sha256": "7bf0df8857b68347dc14224f0e15ab5b47f4ebb972ac442f8ff34735eb609a8e",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/eternities-hermes/SKILL.md",
+      "bytes": 3230,
+      "sha256": "ff15c0ff4b723f6fe3af2b0b0660a9e0a6a1c885be67e6933206d3d91fb816c1",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/eternities-logos/SKILL.md",
+      "bytes": 4611,
+      "sha256": "bd94cdf5cdaec4534bd2f17bcf5006816c4f9e6f95dbf93f0ad3c670bdd762f2",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/eternities-mnemosyne/SKILL.md",
+      "bytes": 5497,
+      "sha256": "69e1bae6e496f6bf5dac6492be32cf3b4d1504d8ce86a5c6f7da8a9a0fbe2078",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/eternities-muse/SKILL.md",
+      "bytes": 7254,
+      "sha256": "e9af729ad561afb811971e4180512d4a46096f2ce245520b7db0f49c36dd79f8",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/eternities-omnibus/SKILL.md",
+      "bytes": 2432,
+      "sha256": "9d140beddc151810f560fdf06007cecd10dcabba9693ef047aca15525171a01a",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/eternities-oracle/SKILL.md",
+      "bytes": 5469,
+      "sha256": "3c9851711492a276eaaac2672207774ea8da793d630a51b21623e2564a624d6c",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/eternities-orpheus/SKILL.md",
+      "bytes": 3647,
+      "sha256": "59df9f08bb022f21a31f8da64566ffdf7177440623cbb165f77bd57c7e46c1f3",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/eternities-phoenix/SKILL.md",
+      "bytes": 3009,
+      "sha256": "8f7d4f0ace48604a9b556747404ac7efb3cd5f64dfabbc1c8add92c0b00a98f1",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/eternities-prometheus/SKILL.md",
+      "bytes": 2693,
+      "sha256": "ed053d7799f4eef67d1095237b40aeda0643362fa5ffccdbb1a9fa86458c6a3b",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/formula-preserving-workbook-engineering/SKILL.md",
+      "bytes": 1967,
+      "sha256": "57fe9f91a1e87fd435325ef4c6c9a1bc72711f6447cab26030553572690a13ed",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/fp-ts-functional-refactoring/SKILL.md",
+      "bytes": 1978,
+      "sha256": "88feb9b199b31c0d92753c51e14335d3cc04d6e78e5dffaf49c39b01c45e07a9",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/genomic-coordinate-assembly-and-variant-gates/SKILL.md",
+      "bytes": 2079,
+      "sha256": "c31327c833b4fead7de05dddd179b1ad593de95967e62533964127db5802f560",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/interface-localization-and-bidirectionality/SKILL.md",
+      "bytes": 2090,
+      "sha256": "c783eba17d9def75e40c95a10533a3025fd71a9abf7632317b75ba8890726855",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/invariant-guard/SKILL.md",
+      "bytes": 1888,
+      "sha256": "662fbe7019395bbda3be470cba36b67b2e00a2a036fd40ab79b93a18fd06b8ff",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/lazy-tabular-transformation-and-validation/SKILL.md",
+      "bytes": 2023,
+      "sha256": "2179e227170ff51dee0190ce53f50eb3e37a23c99a961a74443af9baeb9ca15f",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/measured-paid-creative-iteration/SKILL.md",
+      "bytes": 2036,
+      "sha256": "ae6d17c5753770b5a9e82935ba1cd0b6620fb597c8e82d95246c7161aa8600ad",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/performance-release-gating/SKILL.md",
+      "bytes": 2012,
+      "sha256": "c0d534a563f4b9f065e108fbceba4d98e311093139a9abe2e4e8f4ae5493ea71",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/physics-constrained-numerical-validation/SKILL.md",
+      "bytes": 2082,
+      "sha256": "5acc6fc0cb17c3c7778728f544e28c8812d717426b7e56f69f4fb9db0ad35b56",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/release-script-safety/SKILL.md",
+      "bytes": 1964,
+      "sha256": "e9379597b00cbfe72bc0d40824aaab9ee9b333d9560e79595567769898fbb5fa",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/semantic-implementation-diff/SKILL.md",
+      "bytes": 1986,
+      "sha256": "38fb8822b3cc9b8d18ab6101b8f6063272db5fe174afe008a6154bcd3b5f2bd8",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/sovereign-skill-refinery/SKILL.md",
+      "bytes": 4844,
+      "sha256": "71b39ba6963e030018c7830539e0ebe06dd902ffb4239fcd0f768a90d1791a4c",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/symbolic-mathematics-python/SKILL.md",
+      "bytes": 1962,
+      "sha256": "dcfa1c429927870d2e6a1f769428c71aa24c4cffffcedb5c059a2aa79f82838a",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/venture-falsification-and-planning/SKILL.md",
+      "bytes": 2104,
+      "sha256": "5102353487c367bbe99b0485c8669cf1269aed99fa3c829adffbea994f5caef9",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "skills/web-performance-optimization/SKILL.md",
+      "bytes": 1906,
+      "sha256": "6420ad975cf47878da9bca50202864b7e896d86ca6fdd68896168fc8f571f6b4",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "src/adaptive-activation.mjs",
+      "bytes": 8386,
+      "sha256": "9844aee1147f7129f3e37067424ccebb88ff478de1b7a9a9fb7306d5f2fdbd82",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "src/adaptive-evaluator-package.mjs",
+      "bytes": 24940,
+      "sha256": "c8095ecab2723c6a4d26ec80dceb4b93ca88fcfa74dfbc6f2dba642331684a19",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "src/adaptive-evidence-contracts.mjs",
+      "bytes": 16903,
+      "sha256": "d2712a3d197226333d9245c8ee5988fe5dc27bd0c540493a696ada393a4495be",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "src/aegis-evaluator-v2.mjs",
+      "bytes": 26517,
+      "sha256": "253dcc5a506c276d3852f186f40993e5a27c7357efdc7f0324c6c7ac5cf73187",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "src/capability-layer-abi.mjs",
+      "bytes": 24638,
+      "sha256": "11ce400a2f53656285352ff49f5434571ed07bd1d7a6806d86c361211d552205",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "src/evaluator-module-closure.mjs",
+      "bytes": 6161,
+      "sha256": "b5eb49b1bba8b5eb3db7b09b34518e34e178435ff7a110dd66f52d8772560194",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "src/io.mjs",
+      "bytes": 904,
+      "sha256": "48dca2b203947e12ca3d5500b70a25066a8166d86bc2284aaeed6abf622a5c37",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "src/paths.mjs",
+      "bytes": 479,
+      "sha256": "a5f7367954dae5f8f0efe156b14f496292c34432c765d56f6c430fc79823bd73",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "tests/core2260-catalog.json",
+      "bytes": 99289,
+      "sha256": "57d47c0a9692dc21caa0e7909ee6c557cd5ef5cc4e09b968df079cc81f86aecf",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "tests/fixtures/catalog-before-next-eight-20261004.json",
+      "bytes": 115002,
+      "sha256": "bf90582e8a23a3d50a6997cfba5f97d022f4619024f8459e364423f269e10eca",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "tests/fixtures/educational-discovery-revealed-v2.json",
+      "bytes": 46950,
+      "sha256": "d45fe826ca59387cb0137955fa0fe0672ff2fbcae55a9d90606388f0cc711b24",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "tests/fixtures/educational-discovery-revealed-v4.json",
+      "bytes": 12032,
+      "sha256": "714897e05af3700b2ac54c130904afb10e2cb01b976e48bd71fa803644e68c1d",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "tests/fixtures/hermes-pre-refinement-20261004.md",
+      "bytes": 3488,
+      "sha256": "435d81f1cfaeea64ebb85ad9cd00d1dae22e8bde77edeaa9e009c315e7ce69ba",
+      "mode": "protected-byte identity only"
+    },
+    {
+      "path": "tests/adaptive-evaluator-compatibility.test.mjs",
+      "bytes": 14950,
+      "sha256": "36541742fd1a651e1edde4a1142ac0e48e20e507222ef791c6dd0cbfa07fa253",
+      "mode": "inspected code/fixture"
+    },
+    {
+      "path": "tests/arcadia-asset-revision.test.mjs",
+      "bytes": 1928,
+      "sha256": "d1b8ed829417ce5b5d663cb5ceeee8acc42e7350db7794a70974d6913166cc02",
+      "mode": "inspected code/fixture"
+    },
+    {
+      "path": "tests/conditional-method-regression.test.mjs",
+      "bytes": 29548,
+      "sha256": "86c6ace544c74bbc8f74c8d973b8076cfc88e75eb8de6eee8eea3ef63f760cce",
+      "mode": "inspected code/fixture"
+    },
+    {
+      "path": "tests/educational-discovery-revealed-v2.test.mjs",
+      "bytes": 5103,
+      "sha256": "1eff90f1f23f0b9184881b199ec1476c2ede8effe8c9500d94277c45a67da3ac",
+      "mode": "inspected code/fixture"
+    },
+    {
+      "path": "tests/universal-wave25-beacon.test.mjs",
+      "bytes": 2767,
+      "sha256": "4d3fb7c6ea3b3c9402c41e04363c998a0c33d7b7537d32b928cc5419fb248431",
+      "mode": "inspected code/fixture"
+    },
+    {
+      "path": "tests/nietzsche-historical-projection.test.mjs",
+      "bytes": 5190,
+      "sha256": "59de662c34a9827111bda525b73cc46970d6f631639676fc88b688f2f8edba87",
+      "mode": "inspected code/fixture"
+    },
+    {
+      "path": "tests/helpers/arcadia-asset-revision.mjs",
+      "bytes": 1739,
+      "sha256": "3d49bc29b9d584e16edfbb279246bd6b81b7633182b297d80b515ac60b472db1",
+      "mode": "inspected code/fixture"
+    },
+    {
+      "path": "tests/helpers/atlas-discovery-revision.mjs",
+      "bytes": 1237,
+      "sha256": "2a4e402ec6a319fa240cea5ec03054a640dab8b7c936b703e7b0bbf5012a40df",
+      "mode": "inspected code/fixture"
+    },
+    {
+      "path": "package.json",
+      "bytes": 4086,
+      "sha256": "babefbe4933100db21e8deaf329e3f4dc7bd81555ef6a6cd9ce8fa2ced1f354d",
+      "mode": "runtime/input identity only"
+    },
+    {
+      "path": "product/catalog.json",
+      "bytes": 146817,
+      "sha256": "adfa5cfed9ac1c6a3ca8db26522e322aa5106ca031884a4de1d8a61dc1a41b36",
+      "mode": "runtime/input identity only"
+    },
+    {
+      "path": "product/METHODS.v1.json",
+      "bytes": 32066,
+      "sha256": "902f8fca34b3e1fcc11eefcb10e463360f1a39d33ea0e6bb5265c06d63c3cbcb",
+      "mode": "runtime/input identity only"
+    },
+    {
+      "path": "product/METHODS.v1.md",
+      "bytes": 27189,
+      "sha256": "212d8d993487700aa754a19aebd0c351de86ce8618b0849e727fac702d50897e",
+      "mode": "runtime/input identity only"
+    },
+    {
+      "path": "product/release.json",
+      "bytes": 42765,
+      "sha256": "752e4596352499e2d601833c30a6c9149fa5ebe5ef7e31f11949d57f4251785e",
+      "mode": "runtime/input identity only"
+    },
+    {
+      "path": "product/lib/product.mjs",
+      "bytes": 23970,
+      "sha256": "afd5689a4120420478995bee762e67cc7ce640f9ce633ae6c6a4f497efcff9bf",
+      "mode": "runtime/input identity only"
+    },
+    {
+      "path": "product/lib/discovery.mjs",
+      "bytes": 19647,
+      "sha256": "5078f81b1f8a4bb00436a1cc50bfaacb8307e5a852a9820ac0badc9e292f4fd4",
+      "mode": "runtime/input identity only"
+    },
+    {
+      "path": "product/lib/selection-boundary.mjs",
+      "bytes": 1603,
+      "sha256": "a7b0ed0d0c9805e9a2b97a74c0321ce263c15609e98996144df90fc1b7f0e60e",
+      "mode": "runtime/input identity only"
+    },
+    {
+      "path": "product/lib/request-scope.mjs",
+      "bytes": 1314,
+      "sha256": "e9055f1bfa2a913c1f73e93f5fa652588963e63dd9094e46713786fe400877f2",
+      "mode": "runtime/input identity only"
+    },
+    {
+      "path": "product/lib/method-directory.mjs",
+      "bytes": 7836,
+      "sha256": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180",
+      "mode": "runtime/input identity only"
+    },
+    {
+      "path": "product/lib/skill-frontmatter.mjs",
+      "bytes": 2961,
+      "sha256": "66bfc5b6b56688d2996689f774b5b904ce517a3fda1ec35d4d567cbd63e3a96d",
+      "mode": "runtime/input identity only"
+    },
+    {
+      "path": "product/bin/godskills.mjs",
+      "bytes": 4030,
+      "sha256": "a06774059755ec197839a1a0d8582effea9b13c2dc574ef94b14a78703d99e7f",
+      "mode": "runtime/input identity only"
+    }
+  ],
+  "gitReads": [
+    {
+      "commit": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "path": "product/catalog.json",
+      "bytes": 142721,
+      "sha256": "f20b17c989c188d439c84fa4a8cf5989ccafe550428b2b2577708ba072a39889"
+    },
+    {
+      "commit": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "path": "product/METHODS.v1.json",
+      "bytes": 11810,
+      "sha256": "412b4272987b119ba3edf1a9df44aeb75d6b372a90f1bdeabe92c5834bd5265d"
+    },
+    {
+      "commit": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+      "path": "package.json",
+      "bytes": 3874,
+      "sha256": "538531951004f100fd557066ebb274306847f38ba514f4333f735b0dccd9b773"
+    },
+    {
+      "commit": "d62ee7e0ee012bb0adc252835904293e83fdb935",
+      "path": "package.json",
+      "bytes": 3874,
+      "sha256": "538531951004f100fd557066ebb274306847f38ba514f4333f735b0dccd9b773"
+    }
+  ],
+  "stability": [
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before.json",
+      "beforeSha256": "88836cda111417a284480b630df89f8039dd72d17840c3a85cfbd1bf501aea95",
+      "afterSha256": "88836cda111417a284480b630df89f8039dd72d17840c3a85cfbd1bf501aea95"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/final-v1-results.json",
+      "beforeSha256": "18ce1f99914b8c31e5082d9b0e8f71d935d2792d40ebea012e26538db385f323",
+      "afterSha256": "18ce1f99914b8c31e5082d9b0e8f71d935d2792d40ebea012e26538db385f323"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/FINAL.md",
+      "beforeSha256": "9b25e70aefe30732aa6366d2d07d10aeecd91f5823c426d8f279283fcd784417",
+      "afterSha256": "9b25e70aefe30732aa6366d2d07d10aeecd91f5823c426d8f279283fcd784417"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/collect.mjs",
+      "beforeSha256": "f4cd166d5c21b3b62fc0a13b0008b0e7407fd0210d86e81339ec785c4eeecfe0",
+      "afterSha256": "f4cd166d5c21b3b62fc0a13b0008b0e7407fd0210d86e81339ec785c4eeecfe0"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before-results.json",
+      "beforeSha256": "e9dcd432c8580b0b225f11fb10a867d7db1e0dbdac2476eb328a8519eb1798cf",
+      "afterSha256": "e9dcd432c8580b0b225f11fb10a867d7db1e0dbdac2476eb328a8519eb1798cf"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/after-results.json",
+      "beforeSha256": "4922fe0104c54da02f50f196c048b6382f80f725417cc89123d44ee24acf7d24",
+      "afterSha256": "4922fe0104c54da02f50f196c048b6382f80f725417cc89123d44ee24acf7d24"
+    },
+    {
+      "path": "tests/helpers/nietzsche-historical-compatibility.mjs",
+      "beforeSha256": "5f60e56f156ccf6de466132580951b7a1d6fdc33e7a072de7afdece6866c5fc8",
+      "afterSha256": "5f60e56f156ccf6de466132580951b7a1d6fdc33e7a072de7afdece6866c5fc8"
+    },
+    {
+      "path": "tests/helpers/nietzsche-cohesive-catalog-v1.json",
+      "beforeSha256": "ebbc172fafd80a092402f124c800239130dc12d55ef2fb7694f4ad5d06ca1b7a",
+      "afterSha256": "ebbc172fafd80a092402f124c800239130dc12d55ef2fb7694f4ad5d06ca1b7a"
+    },
+    {
+      "path": "tests/helpers/nietzsche-adaptive-package-input-v1.json",
+      "beforeSha256": "538531951004f100fd557066ebb274306847f38ba514f4333f735b0dccd9b773",
+      "afterSha256": "538531951004f100fd557066ebb274306847f38ba514f4333f735b0dccd9b773"
+    },
+    {
+      "path": "tests/helpers/nietzsche-method-directory-before-cohesion.json",
+      "beforeSha256": "412b4272987b119ba3edf1a9df44aeb75d6b372a90f1bdeabe92c5834bd5265d",
+      "afterSha256": "412b4272987b119ba3edf1a9df44aeb75d6b372a90f1bdeabe92c5834bd5265d"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/adaptive-evaluator-compatibility.test.mjs",
+      "beforeSha256": "7ebba77fb8528734e6e6a025df289bbc9e96ea3c7f32f49af9b6401b73fab5e0",
+      "afterSha256": "7ebba77fb8528734e6e6a025df289bbc9e96ea3c7f32f49af9b6401b73fab5e0"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/arcadia-asset-revision.test.mjs",
+      "beforeSha256": "651700679811376c1c5fb8ee179231066443d8ebe5bbc63504d4a7da7ca43b90",
+      "afterSha256": "651700679811376c1c5fb8ee179231066443d8ebe5bbc63504d4a7da7ca43b90"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/conditional-method-regression.test.mjs",
+      "beforeSha256": "0f3b3bb02a6df1d76d823e281e82fe07d74a642f66a38d29d4afd49a2eb9cd59",
+      "afterSha256": "0f3b3bb02a6df1d76d823e281e82fe07d74a642f66a38d29d4afd49a2eb9cd59"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/educational-discovery-revealed-v2.test.mjs",
+      "beforeSha256": "242d9c517612614339d1b96788201f2df9920eac6bc608fe6f6d1f1a21b887ba",
+      "afterSha256": "242d9c517612614339d1b96788201f2df9920eac6bc608fe6f6d1f1a21b887ba"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/universal-wave25-beacon.test.mjs",
+      "beforeSha256": "0123755399ab68e9729d0c38f5a00bd3711eca5a0e6fa08885467c4fc109fd95",
+      "afterSha256": "0123755399ab68e9729d0c38f5a00bd3711eca5a0e6fa08885467c4fc109fd95"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/helpers/arcadia-asset-revision.mjs",
+      "beforeSha256": "3d49bc29b9d584e16edfbb279246bd6b81b7633182b297d80b515ac60b472db1",
+      "afterSha256": "3d49bc29b9d584e16edfbb279246bd6b81b7633182b297d80b515ac60b472db1"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/helpers/atlas-discovery-revision.mjs",
+      "beforeSha256": "2a4e402ec6a319fa240cea5ec03054a640dab8b7c936b703e7b0bbf5012a40df",
+      "afterSha256": "2a4e402ec6a319fa240cea5ec03054a640dab8b7c936b703e7b0bbf5012a40df"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/product/catalog.json",
+      "beforeSha256": "adfa5cfed9ac1c6a3ca8db26522e322aa5106ca031884a4de1d8a61dc1a41b36",
+      "afterSha256": "adfa5cfed9ac1c6a3ca8db26522e322aa5106ca031884a4de1d8a61dc1a41b36"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/product/METHODS.v1.json",
+      "beforeSha256": "902f8fca34b3e1fcc11eefcb10e463360f1a39d33ea0e6bb5265c06d63c3cbcb",
+      "afterSha256": "902f8fca34b3e1fcc11eefcb10e463360f1a39d33ea0e6bb5265c06d63c3cbcb"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/package.json",
+      "beforeSha256": "babefbe4933100db21e8deaf329e3f4dc7bd81555ef6a6cd9ce8fa2ced1f354d",
+      "afterSha256": "babefbe4933100db21e8deaf329e3f4dc7bd81555ef6a6cd9ce8fa2ced1f354d"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/product/lib/product.mjs",
+      "beforeSha256": "afd5689a4120420478995bee762e67cc7ce640f9ce633ae6c6a4f497efcff9bf",
+      "afterSha256": "afd5689a4120420478995bee762e67cc7ce640f9ce633ae6c6a4f497efcff9bf"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/product/lib/discovery.mjs",
+      "beforeSha256": "4996700d80c125d06586f044260026954047cbbd412f43ef63e10ea8b2adcbd6",
+      "afterSha256": "4996700d80c125d06586f044260026954047cbbd412f43ef63e10ea8b2adcbd6"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/product/lib/selection-boundary.mjs",
+      "beforeSha256": "a7b0ed0d0c9805e9a2b97a74c0321ce263c15609e98996144df90fc1b7f0e60e",
+      "afterSha256": "a7b0ed0d0c9805e9a2b97a74c0321ce263c15609e98996144df90fc1b7f0e60e"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/product/lib/request-scope.mjs",
+      "beforeSha256": "e9055f1bfa2a913c1f73e93f5fa652588963e63dd9094e46713786fe400877f2",
+      "afterSha256": "e9055f1bfa2a913c1f73e93f5fa652588963e63dd9094e46713786fe400877f2"
+    },
+    {
+      "path": "artifacts/adaptive-activation/evidence.v1.json",
+      "beforeSha256": "b55a5cb4f7ff039cc7f4027c165b2f151bad723d9030913076a4225342fbe8c5",
+      "afterSha256": "b55a5cb4f7ff039cc7f4027c165b2f151bad723d9030913076a4225342fbe8c5"
+    },
+    {
+      "path": "artifacts/adaptive-evaluators/aegis-v2/oracle.v1.json",
+      "beforeSha256": "df3b9ef38e4e6f96a4b61ba2b607f72ea5c3b2c1bbdeb3b027901b4c96584345",
+      "afterSha256": "df3b9ef38e4e6f96a4b61ba2b607f72ea5c3b2c1bbdeb3b027901b4c96584345"
+    },
+    {
+      "path": "artifacts/adaptive-evaluators/aegis-v2/shadow-replay.v1.json",
+      "beforeSha256": "3acc919b24a8eb87eb747e945728e9c781463afec8c00c4a79024c4f65c5638e",
+      "afterSha256": "3acc919b24a8eb87eb747e945728e9c781463afec8c00c4a79024c4f65c5638e"
+    },
+    {
+      "path": "artifacts/capability-layers/eternities-aegis/manifest.v1.json",
+      "beforeSha256": "311da3e3748f755469d68afb0539128776a4b03a509017e0604f0d8ba8295eb8",
+      "afterSha256": "311da3e3748f755469d68afb0539128776a4b03a509017e0604f0d8ba8295eb8"
+    },
+    {
+      "path": "artifacts/capability-layers/eternities-forge/manifest.v1.json",
+      "beforeSha256": "6c3581a12c39b53696b29c3e4b8bac58fede466f7a760b9bd50743cfb7b00aa4",
+      "afterSha256": "6c3581a12c39b53696b29c3e4b8bac58fede466f7a760b9bd50743cfb7b00aa4"
+    },
+    {
+      "path": "artifacts/capability-layers/eternities-muse/manifest.v1.json",
+      "beforeSha256": "4a8a02b6a92cfe1ba7d3fc49be34f68b91c20479b1d8ebf3f9d384b3ef9742b8",
+      "afterSha256": "4a8a02b6a92cfe1ba7d3fc49be34f68b91c20479b1d8ebf3f9d384b3ef9742b8"
+    },
+    {
+      "path": "docs/adaptive-evaluator-aegis-v2-shadow-report.md",
+      "beforeSha256": "ed893777027c430232d37821bde5df270b0201bdc216339d638dbb3fd2dd7d32",
+      "afterSha256": "ed893777027c430232d37821bde5df270b0201bdc216339d638dbb3fd2dd7d32"
+    },
+    {
+      "path": "docs/adaptive-evaluator-packages-v1-certification.md",
+      "beforeSha256": "0dc7de4c9eb0eb78758442dd60b8f25cd116c5a85789a3b40b400c125326b783",
+      "afterSha256": "0dc7de4c9eb0eb78758442dd60b8f25cd116c5a85789a3b40b400c125326b783"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/artifacts/combined.json",
+      "beforeSha256": "d23b9fc591069f6ee98b110b374c121574337519b4114155cd5a482ad5c110cf",
+      "afterSha256": "d23b9fc591069f6ee98b110b374c121574337519b4114155cd5a482ad5c110cf"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/artifacts/guardrail.json",
+      "beforeSha256": "b5cedd87ba90c85a6019cc4b654da8feeda501c917440540b86f1bcc5533c91c",
+      "afterSha256": "b5cedd87ba90c85a6019cc4b654da8feeda501c917440540b86f1bcc5533c91c"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/artifacts/method.json",
+      "beforeSha256": "cf562c5c635e3a69e9a04e540d772a3477d71056a542ff9ce318518552c3a17a",
+      "afterSha256": "cf562c5c635e3a69e9a04e540d772a3477d71056a542ff9ce318518552c3a17a"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/artifacts/raw.json",
+      "beforeSha256": "2cdb7cef6289920e0f515bfef612b2f00c100c906af6209f2ab3740a0628edac",
+      "afterSha256": "2cdb7cef6289920e0f515bfef612b2f00c100c906af6209f2ab3740a0628edac"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/artifacts/reviewer.json",
+      "beforeSha256": "d42fc11653263533a023ca4ecbef4811af31d7432aaddc963729088fb88cdb63",
+      "afterSha256": "d42fc11653263533a023ca4ecbef4811af31d7432aaddc963729088fb88cdb63"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/comparison-policy.json",
+      "beforeSha256": "1ba575f0c01e40b1b150847eae8f4aeca7e27ecab151548f5a2fd948b1da6b41",
+      "afterSha256": "1ba575f0c01e40b1b150847eae8f4aeca7e27ecab151548f5a2fd948b1da6b41"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/host-policy.snapshot.md",
+      "beforeSha256": "dd37170be0e916515d26a8520d73c81ec566ffd1bc2fd9c1a49b44d0881ddeab",
+      "afterSha256": "dd37170be0e916515d26a8520d73c81ec566ffd1bc2fd9c1a49b44d0881ddeab"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/ledger.json",
+      "beforeSha256": "f6ff1d6f4bec33b467e091aa5a454534d777c5c5769762435e3d0ab4da79ca9a",
+      "afterSha256": "f6ff1d6f4bec33b467e091aa5a454534d777c5c5769762435e3d0ab4da79ca9a"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/observations/combined.json",
+      "beforeSha256": "99800d22874203424dd8c5047c951a1b4e24a9f2e12c0aa8aeb882fbe37be886",
+      "afterSha256": "99800d22874203424dd8c5047c951a1b4e24a9f2e12c0aa8aeb882fbe37be886"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/observations/guardrail.json",
+      "beforeSha256": "3c0caab8c710f34a9c512f00c37c88812ac417dba8e2230d21a4503967a7aa5d",
+      "afterSha256": "3c0caab8c710f34a9c512f00c37c88812ac417dba8e2230d21a4503967a7aa5d"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/observations/method.json",
+      "beforeSha256": "6fbb899513903e3792b243e6fe41c51bb369d6a9196ac65a3b5e06d04e5aeec0",
+      "afterSha256": "6fbb899513903e3792b243e6fe41c51bb369d6a9196ac65a3b5e06d04e5aeec0"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/observations/raw.json",
+      "beforeSha256": "7173efd15a35fee1f63ad39387a3190c8a6a02069240e3736d4f0667f757c949",
+      "afterSha256": "7173efd15a35fee1f63ad39387a3190c8a6a02069240e3736d4f0667f757c949"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/observations/reviewer.json",
+      "beforeSha256": "b12cfc986d408e2a3491e4e542ebe023568920361ad4db493807cb957022d52b",
+      "afterSha256": "b12cfc986d408e2a3491e4e542ebe023568920361ad4db493807cb957022d52b"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/profile.json",
+      "beforeSha256": "a6f7ab2abfaf82e3894ff9932ac6b03c6c52469567f2e305701234777e46e0e2",
+      "afterSha256": "a6f7ab2abfaf82e3894ff9932ac6b03c6c52469567f2e305701234777e46e0e2"
+    },
+    {
+      "path": "evidence/adaptive-evidence-v2/aegis-matrix/task-definition.json",
+      "beforeSha256": "71dc6ba5957d7183e4e0f6d99c650d3244cc3e6808c111706b4c74df09f49aa7",
+      "afterSha256": "71dc6ba5957d7183e4e0f6d99c650d3244cc3e6808c111706b4c74df09f49aa7"
+    },
+    {
+      "path": "node_modules/acorn/dist/acorn.mjs",
+      "beforeSha256": "953573b8fdab71599749ea5f2b33d3e760c2116178f9423ee7458dbe39d59453",
+      "afterSha256": "953573b8fdab71599749ea5f2b33d3e760c2116178f9423ee7458dbe39d59453"
+    },
+    {
+      "path": "node_modules/acorn/package.json",
+      "beforeSha256": "5c1ed7259579a7899b303f514b0194adcb9fe474fc7d136a84c6a45f10eefc84",
+      "afterSha256": "5c1ed7259579a7899b303f514b0194adcb9fe474fc7d136a84c6a45f10eefc84"
+    },
+    {
+      "path": "package-lock.json",
+      "beforeSha256": "e0b5c43f574e04c2ae7b9c0df4a1f09b609879341a8b6294a5de470009d7565c",
+      "afterSha256": "e0b5c43f574e04c2ae7b9c0df4a1f09b609879341a8b6294a5de470009d7565c"
+    },
+    {
+      "path": "policies/adaptive-activation.v1.json",
+      "beforeSha256": "b87bbfaddecb42417e57202173220bf240204d27b7de5fffc9e609eb18138939",
+      "afterSha256": "b87bbfaddecb42417e57202173220bf240204d27b7de5fffc9e609eb18138939"
+    },
+    {
+      "path": "receipts/adaptive-evaluator-aegis-v2.json",
+      "beforeSha256": "da38b9af701d3dcea7e8ca3dde62a8252895b1dbfd45068d2096fab93952ae80",
+      "afterSha256": "da38b9af701d3dcea7e8ca3dde62a8252895b1dbfd45068d2096fab93952ae80"
+    },
+    {
+      "path": "receipts/adaptive-evaluator-packages-v1.json",
+      "beforeSha256": "ae7ded06bbed4aa0e2dea32dad9f841c1427f9abade57b86ad19c25b261bd519",
+      "afterSha256": "ae7ded06bbed4aa0e2dea32dad9f841c1427f9abade57b86ad19c25b261bd519"
+    },
+    {
+      "path": "receipts/adaptive-evidence-v2.json",
+      "beforeSha256": "7f84e36cd9d02d4c93f2348500d16c6fe93b8b357d1d97c271de418cdd29b56a",
+      "afterSha256": "7f84e36cd9d02d4c93f2348500d16c6fe93b8b357d1d97c271de418cdd29b56a"
+    },
+    {
+      "path": "runtime/adaptive-evaluator-packages-v1.md",
+      "beforeSha256": "01e13ddf8e97050c7a0fc479566de8dca5d30e80c633ee447cfed7c2d2ac8e04",
+      "afterSha256": "01e13ddf8e97050c7a0fc479566de8dca5d30e80c633ee447cfed7c2d2ac8e04"
+    },
+    {
+      "path": "schemas/adaptive-evaluator-package-v1.schema.json",
+      "beforeSha256": "fae73b7a48a8a0456726f22d858c4eba5f6b5f1ed181db891c0c082715ac1ff0",
+      "afterSha256": "fae73b7a48a8a0456726f22d858c4eba5f6b5f1ed181db891c0c082715ac1ff0"
+    },
+    {
+      "path": "schemas/adaptive-evaluator-request-v1.schema.json",
+      "beforeSha256": "2d2b48dc7dc58c494e6c7477cbec80f3f57ef7678c8c39913f3d95c889b6aed2",
+      "afterSha256": "2d2b48dc7dc58c494e6c7477cbec80f3f57ef7678c8c39913f3d95c889b6aed2"
+    },
+    {
+      "path": "schemas/adaptive-evaluator-result-v1.schema.json",
+      "beforeSha256": "b222556e8e49e5557c2fb94f8c0c55e21da3349c984a201d63386048f855967e",
+      "afterSha256": "b222556e8e49e5557c2fb94f8c0c55e21da3349c984a201d63386048f855967e"
+    },
+    {
+      "path": "scripts/build-adaptive-evaluator-package-receipt.mjs",
+      "beforeSha256": "287d80c0c2a2011b8c03c21d03ceb3fac3d427abe914721655e3248fa998d546",
+      "afterSha256": "287d80c0c2a2011b8c03c21d03ceb3fac3d427abe914721655e3248fa998d546"
+    },
+    {
+      "path": "scripts/build-aegis-evaluator-v2-shadow-replay.mjs",
+      "beforeSha256": "794f37a5658d4d41dfbf34878f60c947a6f05ab3187b0f0e0b1375b4aa3dec1b",
+      "afterSha256": "794f37a5658d4d41dfbf34878f60c947a6f05ab3187b0f0e0b1375b4aa3dec1b"
+    },
+    {
+      "path": "scripts/build-capability-layer-abi.mjs",
+      "beforeSha256": "28deabb4bd2ea6f5c0bb5a9cb9183e0e49e113eada2398320b17bd515ddea5fa",
+      "afterSha256": "28deabb4bd2ea6f5c0bb5a9cb9183e0e49e113eada2398320b17bd515ddea5fa"
+    },
+    {
+      "path": "scripts/evaluate-aegis-matrix.mjs",
+      "beforeSha256": "38dc6b3c5d1f8687feb0c0f05f47094b80b2e9ec76688d1a90af060be5f03d0b",
+      "afterSha256": "38dc6b3c5d1f8687feb0c0f05f47094b80b2e9ec76688d1a90af060be5f03d0b"
+    },
+    {
+      "path": "skills/api-rate-limit-recovery/SKILL.md",
+      "beforeSha256": "8a165944ba00664472fea80bf2f35e1c5669a61cc5e3b577e6ffd9634fec7044",
+      "afterSha256": "8a165944ba00664472fea80bf2f35e1c5669a61cc5e3b577e6ffd9634fec7044"
+    },
+    {
+      "path": "skills/approval-bound-private-session-mining/SKILL.md",
+      "beforeSha256": "8f1f7517713f7b5d09f93415c5b7a03ab9b9c8e37eca01c6a780b0007754b419",
+      "afterSha256": "8f1f7517713f7b5d09f93415c5b7a03ab9b9c8e37eca01c6a780b0007754b419"
+    },
+    {
+      "path": "skills/bounded-service-shutdown/SKILL.md",
+      "beforeSha256": "6e4d0bc284a44fbe8a96008052007f476a9b94d1af6625c53f2574e31883eab7",
+      "afterSha256": "6e4d0bc284a44fbe8a96008052007f476a9b94d1af6625c53f2574e31883eab7"
+    },
+    {
+      "path": "skills/bounded-verified-object-ingestion/SKILL.md",
+      "beforeSha256": "49b5256753b3454bcbb3e45343729ffff04e1e335fb67c9f704fd655eb0d7a3f",
+      "afterSha256": "49b5256753b3454bcbb3e45343729ffff04e1e335fb67c9f704fd655eb0d7a3f"
+    },
+    {
+      "path": "skills/columnar-ingestion-rollup-and-query-layout-design/SKILL.md",
+      "beforeSha256": "bb733d96f158f8b3a735a2c5b035cbf98e02c31a86f01cfc1bb4dc2be1488f79",
+      "afterSha256": "bb733d96f158f8b3a735a2c5b035cbf98e02c31a86f01cfc1bb4dc2be1488f79"
+    },
+    {
+      "path": "skills/confirmed-destructive-reconstruction/SKILL.md",
+      "beforeSha256": "664ef8b6d36e67a6f2a978254a6e13197deadbdde3b330d9dc6ef89444eb4abc",
+      "afterSha256": "664ef8b6d36e67a6f2a978254a6e13197deadbdde3b330d9dc6ef89444eb4abc"
+    },
+    {
+      "path": "skills/diagnostic-statistical-model-inference/SKILL.md",
+      "beforeSha256": "c2329e49529ee7610932e6377a1a226880ec8f5d8cc40a724e2729de68d15004",
+      "afterSha256": "c2329e49529ee7610932e6377a1a226880ec8f5d8cc40a724e2729de68d15004"
+    },
+    {
+      "path": "skills/docx-package-redline-and-render-verification/SKILL.md",
+      "beforeSha256": "c8ef749b3d777592b68d8d080917ea979be03fad9ae3f9e0933aa78f1fccd2b6",
+      "afterSha256": "c8ef749b3d777592b68d8d080917ea979be03fad9ae3f9e0933aa78f1fccd2b6"
+    },
+    {
+      "path": "skills/eternities-aegis/SKILL.md",
+      "beforeSha256": "91b2029f6866272d30e3d685dce32700e910889830133e107a9009eb2269c8b7",
+      "afterSha256": "91b2029f6866272d30e3d685dce32700e910889830133e107a9009eb2269c8b7"
+    },
+    {
+      "path": "skills/eternities-agora/SKILL.md",
+      "beforeSha256": "f4399a65e90fae3a18e785ddc8a4c15efd052b01fd02cc9efb6c60dc8163d98f",
+      "afterSha256": "f4399a65e90fae3a18e785ddc8a4c15efd052b01fd02cc9efb6c60dc8163d98f"
+    },
+    {
+      "path": "skills/eternities-arcadia/SKILL.md",
+      "beforeSha256": "a5a726826cecd0f3d2b1789e30c00d296a0085f82c5227dc3f35b59194653559",
+      "afterSha256": "a5a726826cecd0f3d2b1789e30c00d296a0085f82c5227dc3f35b59194653559"
+    },
+    {
+      "path": "skills/eternities-architect/SKILL.md",
+      "beforeSha256": "3edb67a8aa6ef6717cd1abb3aa0658215ab76ec9009895d29bd6068612ee7a05",
+      "afterSha256": "3edb67a8aa6ef6717cd1abb3aa0658215ab76ec9009895d29bd6068612ee7a05"
+    },
+    {
+      "path": "skills/eternities-athena/SKILL.md",
+      "beforeSha256": "68e961e8a658df393df64e4b14e5b770edce73f2531577edf985a7ec3946d56b",
+      "afterSha256": "68e961e8a658df393df64e4b14e5b770edce73f2531577edf985a7ec3946d56b"
+    },
+    {
+      "path": "skills/eternities-atlas/SKILL.md",
+      "beforeSha256": "ef2cf619137f3a3ec3025b33390336659055cf5c95b9fa5f28687e691b36c341",
+      "afterSha256": "ef2cf619137f3a3ec3025b33390336659055cf5c95b9fa5f28687e691b36c341"
+    },
+    {
+      "path": "skills/eternities-beacon/SKILL.md",
+      "beforeSha256": "4e534765f4be8c79b6302aa986c8c8944d89048e616129a36c2348e1969f3ac4",
+      "afterSha256": "4e534765f4be8c79b6302aa986c8c8944d89048e616129a36c2348e1969f3ac4"
+    },
+    {
+      "path": "skills/eternities-chorus/SKILL.md",
+      "beforeSha256": "0054c131d94cc0f842ad2e5107135bc4379fbd0ba716ef00a4b1a98bab5b2d51",
+      "afterSha256": "0054c131d94cc0f842ad2e5107135bc4379fbd0ba716ef00a4b1a98bab5b2d51"
+    },
+    {
+      "path": "skills/eternities-daedalus/SKILL.md",
+      "beforeSha256": "f37a505ea9a21657a7d2b3907475a467d48b835c023378252100ba3536bab601",
+      "afterSha256": "f37a505ea9a21657a7d2b3907475a467d48b835c023378252100ba3536bab601"
+    },
+    {
+      "path": "skills/eternities-forge/SKILL.md",
+      "beforeSha256": "0e5e5e876315bec35fde1c631cc6010b894b9af30cc59fdff8258f8ac580fcc7",
+      "afterSha256": "0e5e5e876315bec35fde1c631cc6010b894b9af30cc59fdff8258f8ac580fcc7"
+    },
+    {
+      "path": "skills/eternities-hephaestus/SKILL.md",
+      "beforeSha256": "fcdfca34b569af7ace8b89714e348b0d8767f99279663b4bbe336b4bf8860cfd",
+      "afterSha256": "fcdfca34b569af7ace8b89714e348b0d8767f99279663b4bbe336b4bf8860cfd"
+    },
+    {
+      "path": "skills/eternities-herald/SKILL.md",
+      "beforeSha256": "7bf0df8857b68347dc14224f0e15ab5b47f4ebb972ac442f8ff34735eb609a8e",
+      "afterSha256": "7bf0df8857b68347dc14224f0e15ab5b47f4ebb972ac442f8ff34735eb609a8e"
+    },
+    {
+      "path": "skills/eternities-hermes/SKILL.md",
+      "beforeSha256": "ff15c0ff4b723f6fe3af2b0b0660a9e0a6a1c885be67e6933206d3d91fb816c1",
+      "afterSha256": "ff15c0ff4b723f6fe3af2b0b0660a9e0a6a1c885be67e6933206d3d91fb816c1"
+    },
+    {
+      "path": "skills/eternities-logos/SKILL.md",
+      "beforeSha256": "bd94cdf5cdaec4534bd2f17bcf5006816c4f9e6f95dbf93f0ad3c670bdd762f2",
+      "afterSha256": "bd94cdf5cdaec4534bd2f17bcf5006816c4f9e6f95dbf93f0ad3c670bdd762f2"
+    },
+    {
+      "path": "skills/eternities-mnemosyne/SKILL.md",
+      "beforeSha256": "69e1bae6e496f6bf5dac6492be32cf3b4d1504d8ce86a5c6f7da8a9a0fbe2078",
+      "afterSha256": "69e1bae6e496f6bf5dac6492be32cf3b4d1504d8ce86a5c6f7da8a9a0fbe2078"
+    },
+    {
+      "path": "skills/eternities-muse/SKILL.md",
+      "beforeSha256": "e9af729ad561afb811971e4180512d4a46096f2ce245520b7db0f49c36dd79f8",
+      "afterSha256": "e9af729ad561afb811971e4180512d4a46096f2ce245520b7db0f49c36dd79f8"
+    },
+    {
+      "path": "skills/eternities-omnibus/SKILL.md",
+      "beforeSha256": "9d140beddc151810f560fdf06007cecd10dcabba9693ef047aca15525171a01a",
+      "afterSha256": "9d140beddc151810f560fdf06007cecd10dcabba9693ef047aca15525171a01a"
+    },
+    {
+      "path": "skills/eternities-oracle/SKILL.md",
+      "beforeSha256": "3c9851711492a276eaaac2672207774ea8da793d630a51b21623e2564a624d6c",
+      "afterSha256": "3c9851711492a276eaaac2672207774ea8da793d630a51b21623e2564a624d6c"
+    },
+    {
+      "path": "skills/eternities-orpheus/SKILL.md",
+      "beforeSha256": "59df9f08bb022f21a31f8da64566ffdf7177440623cbb165f77bd57c7e46c1f3",
+      "afterSha256": "59df9f08bb022f21a31f8da64566ffdf7177440623cbb165f77bd57c7e46c1f3"
+    },
+    {
+      "path": "skills/eternities-phoenix/SKILL.md",
+      "beforeSha256": "8f7d4f0ace48604a9b556747404ac7efb3cd5f64dfabbc1c8add92c0b00a98f1",
+      "afterSha256": "8f7d4f0ace48604a9b556747404ac7efb3cd5f64dfabbc1c8add92c0b00a98f1"
+    },
+    {
+      "path": "skills/eternities-prometheus/SKILL.md",
+      "beforeSha256": "ed053d7799f4eef67d1095237b40aeda0643362fa5ffccdbb1a9fa86458c6a3b",
+      "afterSha256": "ed053d7799f4eef67d1095237b40aeda0643362fa5ffccdbb1a9fa86458c6a3b"
+    },
+    {
+      "path": "skills/formula-preserving-workbook-engineering/SKILL.md",
+      "beforeSha256": "57fe9f91a1e87fd435325ef4c6c9a1bc72711f6447cab26030553572690a13ed",
+      "afterSha256": "57fe9f91a1e87fd435325ef4c6c9a1bc72711f6447cab26030553572690a13ed"
+    },
+    {
+      "path": "skills/fp-ts-functional-refactoring/SKILL.md",
+      "beforeSha256": "88feb9b199b31c0d92753c51e14335d3cc04d6e78e5dffaf49c39b01c45e07a9",
+      "afterSha256": "88feb9b199b31c0d92753c51e14335d3cc04d6e78e5dffaf49c39b01c45e07a9"
+    },
+    {
+      "path": "skills/genomic-coordinate-assembly-and-variant-gates/SKILL.md",
+      "beforeSha256": "c31327c833b4fead7de05dddd179b1ad593de95967e62533964127db5802f560",
+      "afterSha256": "c31327c833b4fead7de05dddd179b1ad593de95967e62533964127db5802f560"
+    },
+    {
+      "path": "skills/interface-localization-and-bidirectionality/SKILL.md",
+      "beforeSha256": "c783eba17d9def75e40c95a10533a3025fd71a9abf7632317b75ba8890726855",
+      "afterSha256": "c783eba17d9def75e40c95a10533a3025fd71a9abf7632317b75ba8890726855"
+    },
+    {
+      "path": "skills/invariant-guard/SKILL.md",
+      "beforeSha256": "662fbe7019395bbda3be470cba36b67b2e00a2a036fd40ab79b93a18fd06b8ff",
+      "afterSha256": "662fbe7019395bbda3be470cba36b67b2e00a2a036fd40ab79b93a18fd06b8ff"
+    },
+    {
+      "path": "skills/lazy-tabular-transformation-and-validation/SKILL.md",
+      "beforeSha256": "2179e227170ff51dee0190ce53f50eb3e37a23c99a961a74443af9baeb9ca15f",
+      "afterSha256": "2179e227170ff51dee0190ce53f50eb3e37a23c99a961a74443af9baeb9ca15f"
+    },
+    {
+      "path": "skills/measured-paid-creative-iteration/SKILL.md",
+      "beforeSha256": "ae6d17c5753770b5a9e82935ba1cd0b6620fb597c8e82d95246c7161aa8600ad",
+      "afterSha256": "ae6d17c5753770b5a9e82935ba1cd0b6620fb597c8e82d95246c7161aa8600ad"
+    },
+    {
+      "path": "skills/performance-release-gating/SKILL.md",
+      "beforeSha256": "c0d534a563f4b9f065e108fbceba4d98e311093139a9abe2e4e8f4ae5493ea71",
+      "afterSha256": "c0d534a563f4b9f065e108fbceba4d98e311093139a9abe2e4e8f4ae5493ea71"
+    },
+    {
+      "path": "skills/physics-constrained-numerical-validation/SKILL.md",
+      "beforeSha256": "5acc6fc0cb17c3c7778728f544e28c8812d717426b7e56f69f4fb9db0ad35b56",
+      "afterSha256": "5acc6fc0cb17c3c7778728f544e28c8812d717426b7e56f69f4fb9db0ad35b56"
+    },
+    {
+      "path": "skills/release-script-safety/SKILL.md",
+      "beforeSha256": "e9379597b00cbfe72bc0d40824aaab9ee9b333d9560e79595567769898fbb5fa",
+      "afterSha256": "e9379597b00cbfe72bc0d40824aaab9ee9b333d9560e79595567769898fbb5fa"
+    },
+    {
+      "path": "skills/semantic-implementation-diff/SKILL.md",
+      "beforeSha256": "38fb8822b3cc9b8d18ab6101b8f6063272db5fe174afe008a6154bcd3b5f2bd8",
+      "afterSha256": "38fb8822b3cc9b8d18ab6101b8f6063272db5fe174afe008a6154bcd3b5f2bd8"
+    },
+    {
+      "path": "skills/sovereign-skill-refinery/SKILL.md",
+      "beforeSha256": "71b39ba6963e030018c7830539e0ebe06dd902ffb4239fcd0f768a90d1791a4c",
+      "afterSha256": "71b39ba6963e030018c7830539e0ebe06dd902ffb4239fcd0f768a90d1791a4c"
+    },
+    {
+      "path": "skills/symbolic-mathematics-python/SKILL.md",
+      "beforeSha256": "dcfa1c429927870d2e6a1f769428c71aa24c4cffffcedb5c059a2aa79f82838a",
+      "afterSha256": "dcfa1c429927870d2e6a1f769428c71aa24c4cffffcedb5c059a2aa79f82838a"
+    },
+    {
+      "path": "skills/venture-falsification-and-planning/SKILL.md",
+      "beforeSha256": "5102353487c367bbe99b0485c8669cf1269aed99fa3c829adffbea994f5caef9",
+      "afterSha256": "5102353487c367bbe99b0485c8669cf1269aed99fa3c829adffbea994f5caef9"
+    },
+    {
+      "path": "skills/web-performance-optimization/SKILL.md",
+      "beforeSha256": "6420ad975cf47878da9bca50202864b7e896d86ca6fdd68896168fc8f571f6b4",
+      "afterSha256": "6420ad975cf47878da9bca50202864b7e896d86ca6fdd68896168fc8f571f6b4"
+    },
+    {
+      "path": "src/adaptive-activation.mjs",
+      "beforeSha256": "9844aee1147f7129f3e37067424ccebb88ff478de1b7a9a9fb7306d5f2fdbd82",
+      "afterSha256": "9844aee1147f7129f3e37067424ccebb88ff478de1b7a9a9fb7306d5f2fdbd82"
+    },
+    {
+      "path": "src/adaptive-evaluator-package.mjs",
+      "beforeSha256": "c8095ecab2723c6a4d26ec80dceb4b93ca88fcfa74dfbc6f2dba642331684a19",
+      "afterSha256": "c8095ecab2723c6a4d26ec80dceb4b93ca88fcfa74dfbc6f2dba642331684a19"
+    },
+    {
+      "path": "src/adaptive-evidence-contracts.mjs",
+      "beforeSha256": "d2712a3d197226333d9245c8ee5988fe5dc27bd0c540493a696ada393a4495be",
+      "afterSha256": "d2712a3d197226333d9245c8ee5988fe5dc27bd0c540493a696ada393a4495be"
+    },
+    {
+      "path": "src/aegis-evaluator-v2.mjs",
+      "beforeSha256": "253dcc5a506c276d3852f186f40993e5a27c7357efdc7f0324c6c7ac5cf73187",
+      "afterSha256": "253dcc5a506c276d3852f186f40993e5a27c7357efdc7f0324c6c7ac5cf73187"
+    },
+    {
+      "path": "src/capability-layer-abi.mjs",
+      "beforeSha256": "11ce400a2f53656285352ff49f5434571ed07bd1d7a6806d86c361211d552205",
+      "afterSha256": "11ce400a2f53656285352ff49f5434571ed07bd1d7a6806d86c361211d552205"
+    },
+    {
+      "path": "src/evaluator-module-closure.mjs",
+      "beforeSha256": "b5eb49b1bba8b5eb3db7b09b34518e34e178435ff7a110dd66f52d8772560194",
+      "afterSha256": "b5eb49b1bba8b5eb3db7b09b34518e34e178435ff7a110dd66f52d8772560194"
+    },
+    {
+      "path": "src/io.mjs",
+      "beforeSha256": "48dca2b203947e12ca3d5500b70a25066a8166d86bc2284aaeed6abf622a5c37",
+      "afterSha256": "48dca2b203947e12ca3d5500b70a25066a8166d86bc2284aaeed6abf622a5c37"
+    },
+    {
+      "path": "src/paths.mjs",
+      "beforeSha256": "a5f7367954dae5f8f0efe156b14f496292c34432c765d56f6c430fc79823bd73",
+      "afterSha256": "a5f7367954dae5f8f0efe156b14f496292c34432c765d56f6c430fc79823bd73"
+    },
+    {
+      "path": "tests/core2260-catalog.json",
+      "beforeSha256": "57d47c0a9692dc21caa0e7909ee6c557cd5ef5cc4e09b968df079cc81f86aecf",
+      "afterSha256": "57d47c0a9692dc21caa0e7909ee6c557cd5ef5cc4e09b968df079cc81f86aecf"
+    },
+    {
+      "path": "tests/fixtures/catalog-before-next-eight-20261004.json",
+      "beforeSha256": "bf90582e8a23a3d50a6997cfba5f97d022f4619024f8459e364423f269e10eca",
+      "afterSha256": "bf90582e8a23a3d50a6997cfba5f97d022f4619024f8459e364423f269e10eca"
+    },
+    {
+      "path": "tests/fixtures/educational-discovery-revealed-v2.json",
+      "beforeSha256": "d45fe826ca59387cb0137955fa0fe0672ff2fbcae55a9d90606388f0cc711b24",
+      "afterSha256": "d45fe826ca59387cb0137955fa0fe0672ff2fbcae55a9d90606388f0cc711b24"
+    },
+    {
+      "path": "tests/fixtures/educational-discovery-revealed-v4.json",
+      "beforeSha256": "714897e05af3700b2ac54c130904afb10e2cb01b976e48bd71fa803644e68c1d",
+      "afterSha256": "714897e05af3700b2ac54c130904afb10e2cb01b976e48bd71fa803644e68c1d"
+    },
+    {
+      "path": "tests/fixtures/hermes-pre-refinement-20261004.md",
+      "beforeSha256": "435d81f1cfaeea64ebb85ad9cd00d1dae22e8bde77edeaa9e009c315e7ce69ba",
+      "afterSha256": "435d81f1cfaeea64ebb85ad9cd00d1dae22e8bde77edeaa9e009c315e7ce69ba"
+    },
+    {
+      "path": "tests/adaptive-evaluator-compatibility.test.mjs",
+      "beforeSha256": "36541742fd1a651e1edde4a1142ac0e48e20e507222ef791c6dd0cbfa07fa253",
+      "afterSha256": "36541742fd1a651e1edde4a1142ac0e48e20e507222ef791c6dd0cbfa07fa253"
+    },
+    {
+      "path": "tests/arcadia-asset-revision.test.mjs",
+      "beforeSha256": "d1b8ed829417ce5b5d663cb5ceeee8acc42e7350db7794a70974d6913166cc02",
+      "afterSha256": "d1b8ed829417ce5b5d663cb5ceeee8acc42e7350db7794a70974d6913166cc02"
+    },
+    {
+      "path": "tests/conditional-method-regression.test.mjs",
+      "beforeSha256": "86c6ace544c74bbc8f74c8d973b8076cfc88e75eb8de6eee8eea3ef63f760cce",
+      "afterSha256": "86c6ace544c74bbc8f74c8d973b8076cfc88e75eb8de6eee8eea3ef63f760cce"
+    },
+    {
+      "path": "tests/educational-discovery-revealed-v2.test.mjs",
+      "beforeSha256": "1eff90f1f23f0b9184881b199ec1476c2ede8effe8c9500d94277c45a67da3ac",
+      "afterSha256": "1eff90f1f23f0b9184881b199ec1476c2ede8effe8c9500d94277c45a67da3ac"
+    },
+    {
+      "path": "tests/universal-wave25-beacon.test.mjs",
+      "beforeSha256": "4d3fb7c6ea3b3c9402c41e04363c998a0c33d7b7537d32b928cc5419fb248431",
+      "afterSha256": "4d3fb7c6ea3b3c9402c41e04363c998a0c33d7b7537d32b928cc5419fb248431"
+    },
+    {
+      "path": "tests/nietzsche-historical-projection.test.mjs",
+      "beforeSha256": "59de662c34a9827111bda525b73cc46970d6f631639676fc88b688f2f8edba87",
+      "afterSha256": "59de662c34a9827111bda525b73cc46970d6f631639676fc88b688f2f8edba87"
+    },
+    {
+      "path": "tests/helpers/arcadia-asset-revision.mjs",
+      "beforeSha256": "3d49bc29b9d584e16edfbb279246bd6b81b7633182b297d80b515ac60b472db1",
+      "afterSha256": "3d49bc29b9d584e16edfbb279246bd6b81b7633182b297d80b515ac60b472db1"
+    },
+    {
+      "path": "tests/helpers/atlas-discovery-revision.mjs",
+      "beforeSha256": "2a4e402ec6a319fa240cea5ec03054a640dab8b7c936b703e7b0bbf5012a40df",
+      "afterSha256": "2a4e402ec6a319fa240cea5ec03054a640dab8b7c936b703e7b0bbf5012a40df"
+    },
+    {
+      "path": "package.json",
+      "beforeSha256": "babefbe4933100db21e8deaf329e3f4dc7bd81555ef6a6cd9ce8fa2ced1f354d",
+      "afterSha256": "babefbe4933100db21e8deaf329e3f4dc7bd81555ef6a6cd9ce8fa2ced1f354d"
+    },
+    {
+      "path": "product/catalog.json",
+      "beforeSha256": "adfa5cfed9ac1c6a3ca8db26522e322aa5106ca031884a4de1d8a61dc1a41b36",
+      "afterSha256": "adfa5cfed9ac1c6a3ca8db26522e322aa5106ca031884a4de1d8a61dc1a41b36"
+    },
+    {
+      "path": "product/METHODS.v1.json",
+      "beforeSha256": "902f8fca34b3e1fcc11eefcb10e463360f1a39d33ea0e6bb5265c06d63c3cbcb",
+      "afterSha256": "902f8fca34b3e1fcc11eefcb10e463360f1a39d33ea0e6bb5265c06d63c3cbcb"
+    },
+    {
+      "path": "product/METHODS.v1.md",
+      "beforeSha256": "212d8d993487700aa754a19aebd0c351de86ce8618b0849e727fac702d50897e",
+      "afterSha256": "212d8d993487700aa754a19aebd0c351de86ce8618b0849e727fac702d50897e"
+    },
+    {
+      "path": "product/release.json",
+      "beforeSha256": "752e4596352499e2d601833c30a6c9149fa5ebe5ef7e31f11949d57f4251785e",
+      "afterSha256": "752e4596352499e2d601833c30a6c9149fa5ebe5ef7e31f11949d57f4251785e"
+    },
+    {
+      "path": "product/lib/product.mjs",
+      "beforeSha256": "afd5689a4120420478995bee762e67cc7ce640f9ce633ae6c6a4f497efcff9bf",
+      "afterSha256": "afd5689a4120420478995bee762e67cc7ce640f9ce633ae6c6a4f497efcff9bf"
+    },
+    {
+      "path": "product/lib/discovery.mjs",
+      "beforeSha256": "5078f81b1f8a4bb00436a1cc50bfaacb8307e5a852a9820ac0badc9e292f4fd4",
+      "afterSha256": "5078f81b1f8a4bb00436a1cc50bfaacb8307e5a852a9820ac0badc9e292f4fd4"
+    },
+    {
+      "path": "product/lib/selection-boundary.mjs",
+      "beforeSha256": "a7b0ed0d0c9805e9a2b97a74c0321ce263c15609e98996144df90fc1b7f0e60e",
+      "afterSha256": "a7b0ed0d0c9805e9a2b97a74c0321ce263c15609e98996144df90fc1b7f0e60e"
+    },
+    {
+      "path": "product/lib/request-scope.mjs",
+      "beforeSha256": "e9055f1bfa2a913c1f73e93f5fa652588963e63dd9094e46713786fe400877f2",
+      "afterSha256": "e9055f1bfa2a913c1f73e93f5fa652588963e63dd9094e46713786fe400877f2"
+    },
+    {
+      "path": "product/lib/method-directory.mjs",
+      "beforeSha256": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180",
+      "afterSha256": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180"
+    },
+    {
+      "path": "product/lib/skill-frontmatter.mjs",
+      "beforeSha256": "66bfc5b6b56688d2996689f774b5b904ce517a3fda1ec35d4d567cbd63e3a96d",
+      "afterSha256": "66bfc5b6b56688d2996689f774b5b904ce517a3fda1ec35d4d567cbd63e3a96d"
+    },
+    {
+      "path": "product/bin/godskills.mjs",
+      "beforeSha256": "a06774059755ec197839a1a0d8582effea9b13c2dc574ef94b14a78703d99e7f",
+      "afterSha256": "a06774059755ec197839a1a0d8582effea9b13c2dc574ef94b14a78703d99e7f"
+    }
+  ],
+  "diffs": [
+    {
+      "path": "tests/adaptive-evaluator-compatibility.test.mjs",
+      "beforeSha256": "7ebba77fb8528734e6e6a025df289bbc9e96ea3c7f32f49af9b6401b73fab5e0",
+      "afterSha256": "36541742fd1a651e1edde4a1142ac0e48e20e507222ef791c6dd0cbfa07fa253",
+      "diffSha256": "038a169e8e80cdc2f2a74db2104e93809d24651c8b307664ef1d30fd2b797447",
+      "diff": "diff --git a/artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/adaptive-evaluator-compatibility.test.mjs b/tests/adaptive-evaluator-compatibility.test.mjs\nindex fc6473c..35d0520 100644\n--- a/artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/adaptive-evaluator-compatibility.test.mjs\n+++ b/tests/adaptive-evaluator-compatibility.test.mjs\n@@ -4,6 +4,7 @@ import test from \"node:test\";\n \n import { canonicalDigest } from \"../src/adaptive-evidence-contracts.mjs\";\n import { sha256 } from \"../src/io.mjs\";\n+import { assertMaintainedScopePackageRevision } from './helpers/nietzsche-historical-compatibility.mjs';\n \n const root = new URL(\"../\", import.meta.url);\n const PRE_PHASE_COMMIT = \"95cd9c32be67f2438da200250f8024f14edd8dd7\";\n@@ -158,7 +159,7 @@ test(\"runtime record closes execution, shadow, and future evidence boundaries\",\n   assert.equal(receipt.runtime.bytes, Buffer.byteLength(runtime));\n });\n \n-test(\"aggregate receipt binds every declared input and output to actual bytes\", async () => {\n+test(\"aggregate receipt binds its historical package input and every other declared input/output byte\", async () => {\n   const receipt = JSON.parse(await readFile(\n     new URL(\"receipts/adaptive-evaluator-packages-v1.json\", root),\n     \"utf8\",\n@@ -178,7 +179,12 @@ test(\"aggregate receipt binds every declared input and output to actual bytes\",\n     ...receipt.outputs,\n   ];\n   for (const row of rows) {\n-    const bytes = await readFile(new URL(row.path, root));\n+    // The receipt records the package input at reviewed head d62ee7e, not a\n+    // promise that future repository test scripts never change. This exact\n+    // historical blob retains its original receipt hash and byte count.\n+    const bytes = await readFile(row.path === 'package.json'\n+      ? new URL('./helpers/nietzsche-adaptive-package-input-v1.json', import.meta.url)\n+      : new URL(row.path, root));\n     assert.equal(row.sha256, sha256(bytes), row.path);\n     assert.equal(row.bytes, bytes.length, row.path);\n     if (row.logicalDigest !== undefined) {\n@@ -202,6 +208,10 @@ test(\"aggregate receipt binds every declared input and output to actual bytes\",\n   assert.equal(receipt.shadowReplay.replayDigest, shadow.replayDigest);\n });\n \n+test('Nietzsche current package admits only the named maintained-test-scope revision', async () => {\n+  assertMaintainedScopePackageRevision(JSON.parse(await readFile(new URL('package.json',root),'utf8')));\n+});\n+\n test(\"certification binds the cleared reviewer head and exact proof boundary\", async () => {\n   const certification = await readFile(\n     new URL(\"docs/adaptive-evaluator-packages-v1-certification.md\", root),\n"
+    },
+    {
+      "path": "tests/arcadia-asset-revision.test.mjs",
+      "beforeSha256": "651700679811376c1c5fb8ee179231066443d8ebe5bbc63504d4a7da7ca43b90",
+      "afterSha256": "d1b8ed829417ce5b5d663cb5ceeee8acc42e7350db7794a70974d6913166cc02",
+      "diffSha256": "abfce00b5e72dc8403c4fb55a50f6a8c2dbdcabf57ecc53cab9f0c5ba034a14e",
+      "diff": "diff --git a/artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/arcadia-asset-revision.test.mjs b/tests/arcadia-asset-revision.test.mjs\nindex ddb379b..06c0484 100644\n--- a/artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/arcadia-asset-revision.test.mjs\n+++ b/tests/arcadia-asset-revision.test.mjs\n@@ -1,7 +1,9 @@\n import test from 'node:test';\n import assert from 'node:assert/strict';\n import {readFile} from 'node:fs/promises';\n-import {projectBeforeArcadiaAssetRevision} from './helpers/arcadia-asset-revision.mjs';\n+import {projectBeforeArcadiaAssetRevision as projectAssetRevision} from './helpers/arcadia-asset-revision.mjs';\n+import {projectBeforeCohesiveProduct20261015} from './helpers/nietzsche-historical-compatibility.mjs';\n+const projectBeforeArcadiaAssetRevision=(skill,before)=>projectAssetRevision(projectBeforeCohesiveProduct20261015(skill),before);\n const load=async p=>JSON.parse(await readFile(new URL(p,import.meta.url),'utf8'));\n const before=(await load('./fixtures/catalog-before-next-eight-20261004.json')).skills.find(x=>x.id==='eternities-arcadia');\n const current=(await load('../product/catalog.json')).skills.find(x=>x.id===before.id);\n@@ -18,7 +20,7 @@ for(const [name,change] of [\n   ['unlisted resource',x=>x.resources.push({path:'skills/eternities-arcadia/extra.md',sha256:'0'.repeat(64)})],\n ])test(`historical projection refuses ${name}`,()=>{\n   const changed=structuredClone(current);change(changed);\n-  assert.throws(()=>projectBeforeArcadiaAssetRevision(changed,before),/Only the declared Arcadia/);\n+  assert.throws(()=>projectBeforeArcadiaAssetRevision(changed,before),/Only the declared (?:Arcadia|cohesive)/);\n });\n test('projection does not conceal unrelated owner fields',()=>{\n   const changed={...current,antiTriggers:[]};\n"
+    },
+    {
+      "path": "tests/conditional-method-regression.test.mjs",
+      "beforeSha256": "0f3b3bb02a6df1d76d823e281e82fe07d74a642f66a38d29d4afd49a2eb9cd59",
+      "afterSha256": "86c6ace544c74bbc8f74c8d973b8076cfc88e75eb8de6eee8eea3ef63f760cce",
+      "diffSha256": "f65c7167182244820dd0417f99a0a0a3f703a89420d31c3098ba6bfaade60de7",
+      "diff": "diff --git a/artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/conditional-method-regression.test.mjs b/tests/conditional-method-regression.test.mjs\nindex 78ca970..667a13d 100644\n--- a/artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/conditional-method-regression.test.mjs\n+++ b/tests/conditional-method-regression.test.mjs\n@@ -8,6 +8,7 @@ import { dirname, join, resolve } from \"node:path\";\n import { fileURLToPath, pathToFileURL } from \"node:url\";\n import { projectBeforeAtlasSuppliedDataRevision } from './helpers/atlas-discovery-revision.mjs';\n import { projectBeforeArcadiaAssetRevision, assetIntegrationResource } from './helpers/arcadia-asset-revision.mjs';\n+import { projectBeforeCohesiveProduct20261015, assertSelectedDirectoryEvolution, maintainedTestCommand } from './helpers/nietzsche-historical-compatibility.mjs';\n \n const testDirectory = dirname(fileURLToPath(import.meta.url));\n const productRoot = resolve(\n@@ -203,7 +204,7 @@ const fourNewResources = [\n   },\n ];\n \n-test(\"the immutable core2260 fixture is exact and core projections admit only the declared Atlas and Arcadia revisions\", async () => {\n+test(\"the immutable core2260 fixture is exact through the named cohesive, Atlas and Arcadia projections\", async () => {\n   assert.equal(sha256(baselineBytes), frozenCoreCatalogSha256);\n   const liveCatalog = JSON.parse(await readFile(join(productRoot, \"catalog.json\"), \"utf8\"));\n   assert.equal(baselineCatalog.skills.length, 68);\n@@ -222,13 +223,16 @@ test(\"the immutable core2260 fixture is exact and core projections admit only th\n   );\n   const historicalAtlas = baselineCatalog.skills.find(skill => skill.id === 'eternities-atlas');\n   const historicalArcadia = baselineCatalog.skills.find(skill => skill.id === 'eternities-arcadia');\n-  assert.deepEqual(scoringProjection(liveCore.map(skill => projectBeforeArcadiaAssetRevision(projectBeforeAtlasSuppliedDataRevision(skill, historicalAtlas), historicalArcadia))), scoringProjection(baselineCatalog.skills));\n+  assert.deepEqual(scoringProjection(liveCore.map(skill => projectBeforeArcadiaAssetRevision(projectBeforeAtlasSuppliedDataRevision(projectBeforeCohesiveProduct20261015(skill), historicalAtlas), historicalArcadia))), scoringProjection(baselineCatalog.skills));\n });\n \n-test(\"historical paths remain exact, named optional owner references are admitted, and only Omnibus is revised\", async () => {\n+test(\"historical paths remain exact through the named cohesion projection and prior optional-reference admissions\", async () => {\n   const liveCatalog = JSON.parse(await readFile(join(productRoot, \"catalog.json\"), \"utf8\"));\n   const baselineById = new Map(baselineCatalog.skills.map((skill) => [skill.id, skill]));\n-  const liveById = new Map(liveCatalog.skills.map((skill) => [skill.id, skill]));\n+  // The named projection first verifies the exact later fields/resources.\n+  // Actual new method bodies and independent review bindings are checked by\n+  // inspectMethodDirectory below; they do not rewrite this historical gold.\n+  const liveById = new Map(liveCatalog.skills.map((skill) => [skill.id, projectBeforeCohesiveProduct20261015(skill)]));\n   const added = [];\n   const removed = [];\n   const changed = [];\n@@ -328,22 +332,13 @@ test(\"conditional method links remain with their owners and B04 is not a Hermes\n   assert.doesNotMatch(daedalusText, /references\\/cursor-paged-task-messages\\.md|references\\/truthful-cli-progress\\.md|source-grounded-math-specification/);\n });\n \n-test(\"the selected-method directory binds exactly the four new owner methods and their exclusions\", async () => {\n+test(\"selected-method directory preserves original rows and independently binds the admitted new methods\", async () => {\n   const liveCatalog = JSON.parse(await readFile(join(productRoot, \"catalog.json\"), \"utf8\"));\n   const { inspectMethodDirectory, renderMethodDirectory } = await import(\n     pathToFileURL(join(productRoot, \"lib\", \"method-directory.mjs\")).href\n   );\n   const directory = await inspectMethodDirectory(productRoot, liveCatalog);\n-  assert.deepEqual(directory.methods.map((method) => method.id), [\n-    \"hermes-running-task-message-checkpoint\",\n-    \"hermes-authorized-local-process-observation\",\n-    \"math-supplied-prose-specification-draft\",\n-    \"daedalus-optional-model-scenario-ci\",\n-    \"arcadia-game-state-audio-cues\",\n-    \"atlas-serving-time-decision-trace\",\n-    \"oracle-artifact-role-evidence\",\n-    \"mnemosyne-local-evidence-lifecycle\",\n-  ]);\n+  assertSelectedDirectoryEvolution(directory);\n \n   const expectedNewMethods = [\n     {\n@@ -409,8 +404,8 @@ test(\"Daedalus owns optional model scenarios without weakening deterministic req\n \n   assert.ok(repositoryRoot, \"could not locate the live repository root for required-script checks\");\n   const packageJson = JSON.parse(await readFile(join(repositoryRoot, \"package.json\"), \"utf8\"));\n-  assert.equal(packageJson.scripts.test, \"node --test\");\n-  assert.equal(packageJson.scripts.check, \"node --test\");\n+  assert.equal(packageJson.scripts.test, maintainedTestCommand);\n+  assert.equal(packageJson.scripts.check, maintainedTestCommand);\n   assert.doesNotMatch(packageJson.scripts.test + \" \" + packageJson.scripts.check, /optional-model-scenarios-ci/);\n });\n \n"
+    },
+    {
+      "path": "tests/educational-discovery-revealed-v2.test.mjs",
+      "beforeSha256": "242d9c517612614339d1b96788201f2df9920eac6bc608fe6f6d1f1a21b887ba",
+      "afterSha256": "1eff90f1f23f0b9184881b199ec1476c2ede8effe8c9500d94277c45a67da3ac",
+      "diffSha256": "104ecadf13efa948facb7a24fa231b8a622b0b3eb2cd822de4f9c0e06c19dd61",
+      "diff": "diff --git a/artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/educational-discovery-revealed-v2.test.mjs b/tests/educational-discovery-revealed-v2.test.mjs\nindex f0ae792..808d3aa 100644\n--- a/artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/educational-discovery-revealed-v2.test.mjs\n+++ b/tests/educational-discovery-revealed-v2.test.mjs\n@@ -6,6 +6,7 @@ import {lexicalQueryEvidence,lexicalIntentMatch} from '../product/lib/discovery.\n import {searchCatalog} from '../product/lib/product.mjs';\n import {projectBeforeAtlasSuppliedDataRevision} from './helpers/atlas-discovery-revision.mjs';\n import {projectBeforeArcadiaAssetRevision} from './helpers/arcadia-asset-revision.mjs';\n+import {projectBeforeCohesiveProduct20261015,projectDiscoveryV4ToHistoricalV3,expectedEducationalLiteralAfterRuntimeAdmissionV4} from './helpers/nietzsche-historical-compatibility.mjs';\n const fixture=JSON.parse(await readFile(new URL('./fixtures/educational-discovery-revealed-v2.json',import.meta.url),'utf8'));\n const followup=JSON.parse(await readFile(new URL('./fixtures/educational-discovery-revealed-v4.json',import.meta.url),'utf8'));\n const catalog=JSON.parse(await readFile(new URL('../product/catalog.json',import.meta.url),'utf8'));\n@@ -18,7 +19,7 @@ const historicalCatalog=JSON.parse(historicalBytes);\n test('the literal educational projection keeps its exact prior catalog input',()=>{\n  assert.equal(createHash('sha256').update(historicalBytes).digest('hex'),'bf90582e8a23a3d50a6997cfba5f97d022f4619024f8459e364423f269e10eca');\n  assert.equal(historicalCatalog.skills.length,77);\n- for(const before of historicalCatalog.skills)assert.deepEqual(projectBeforeArcadiaAssetRevision(projectBeforeAtlasSuppliedDataRevision(catalog.skills.find(x=>x.id===before.id),before),before),before,'Existing77 catalog records changed outside the declared Atlas and Arcadia revisions');\n+ for(const before of historicalCatalog.skills)assert.deepEqual(projectBeforeArcadiaAssetRevision(projectBeforeAtlasSuppliedDataRevision(projectBeforeCohesiveProduct20261015(catalog.skills.find(x=>x.id===before.id)),before),before),before,'Existing77 catalog records changed outside the named cohesive, Atlas and Arcadia revisions');\n });\n const ownerId='evidence-linked-learning-design';\n const owner=catalog.skills.find(x=>x.id===ownerId);\n@@ -42,6 +43,7 @@ for(const c of [...fixture.cases,...followup.cases])test(`disclosed teaching reg\n   }else if(desired==='NO_NEW_INTENT')assert.ok(!recognized,'Non-teaching request acquired new teaching intent');\n   else assert.equal(desired,'UNCERTAIN','Unknown literal fixture obligation');\n   const result=searchCatalog(catalog,c.query,c.options);\n+  assert.equal(result.method,'offline-lexical-intent-phrases-v4','Current runtime version is checked separately from historical envelope compatibility');\n   const found=result.results.find(x=>x.id===ownerId);\n   const obligation=c.gold.returned.obligation;\n   if(obligation==='OWNER_FIRST_WITH_ACTUAL_INTENT_REASON'){\n@@ -58,6 +60,6 @@ for(const c of [...fixture.cases,...followup.cases])test(`disclosed teaching reg\n     assert.equal(desired,'UNCERTAIN');\n     if(recognized&&found)assert.ok(found.reasons.some(x=>x.startsWith(marker)));\n   }\n-  if(c.baseline)assert.deepEqual(projection(searchCatalog(historicalCatalog,c.query,c.options)),c.baseline,'Literal old negative/excluded/abstained projection changed on its frozen input');\n+  if(c.baseline)assert.deepEqual(projection(projectDiscoveryV4ToHistoricalV3(searchCatalog(historicalCatalog,c.query,c.options))),expectedEducationalLiteralAfterRuntimeAdmissionV4(c.id,c.baseline),'Literal fields changed beyond the named v4-to-v3 envelope and pinned E2-N03 renderer explanation');\n   assert.equal(result.authority,'none');assert.equal(result.activation,'none');\n });\n"
+    },
+    {
+      "path": "tests/universal-wave25-beacon.test.mjs",
+      "beforeSha256": "0123755399ab68e9729d0c38f5a00bd3711eca5a0e6fa08885467c4fc109fd95",
+      "afterSha256": "4d3fb7c6ea3b3c9402c41e04363c998a0c33d7b7537d32b928cc5419fb248431",
+      "diffSha256": "afa619114df8878a14fe010e48055405f514dd161d74c890bac01e122e17c686",
+      "diff": "diff --git a/artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/universal-wave25-beacon.test.mjs b/tests/universal-wave25-beacon.test.mjs\nindex 1490248..6665ebe 100644\n--- a/artifacts/qualification/cohesive-product-20261015/review-historical-repair-nietzsche/before/tests/universal-wave25-beacon.test.mjs\n+++ b/tests/universal-wave25-beacon.test.mjs\n@@ -12,9 +12,9 @@ test('Beacon sponsorship route is text-only and preserves human decision boundar\n   const method = await readFile(new URL('skills/eternities-beacon/references/creator-sponsorship-lifecycle.md', product), 'utf8');\n   assert.match(skill, /creator sponsorship lifecycle/i);\n   assert.ok(meta.resources.includes('references/creator-sponsorship-lifecycle.md'));\n-  assert.equal(meta.triggers.at(-1), 'creator sponsorship obligation tracking with dated evidence');\n-  assert.equal(meta.antiTriggers.at(-1), 'infer rights, disclosure, or media-use permission from generic wildcards, incomplete evidence, or an unreviewed broad-scope summary');\n-  assert.equal(meta.resources.at(-1), 'references/creator-sponsorship-lifecycle.md');\n+  assert.equal(meta.triggers.filter(value=>value==='creator sponsorship obligation tracking with dated evidence').length,1);\n+  assert.equal(meta.antiTriggers.filter(value=>value==='infer rights, disclosure, or media-use permission from generic wildcards, incomplete evidence, or an unreviewed broad-scope summary').length,1);\n+  assert.equal(meta.resources.filter(value=>value==='references/creator-sponsorship-lifecycle.md').length,1);\n   assert.match(method, /proposedAt.*agreedAt.*deliveredAt.*verifiedAt.*reportedAt/is);\n   assert.match(method, /declined.*decision time.*evidence/is);\n   assert.match(method, /worldwide or indefinite grant.*may be possible/is);\n"
+    }
+  ],
+  "focused": {
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "--test",
+      "--test-reporter=tap",
+      "tests/adaptive-evaluator-compatibility.test.mjs",
+      "tests/arcadia-asset-revision.test.mjs",
+      "tests/conditional-method-regression.test.mjs",
+      "tests/educational-discovery-revealed-v2.test.mjs",
+      "tests/universal-wave25-beacon.test.mjs",
+      "tests/nietzsche-historical-projection.test.mjs"
+    ],
+    "status": 0,
+    "error": null,
+    "stderr": "",
+    "counts": [
+      "# tests 90",
+      "# pass 90",
+      "# fail 0",
+      "# skipped 0",
+      "# duration_ms 1349.9675"
+    ],
+    "stdoutArtifact": "focused.tap"
+  }
+}

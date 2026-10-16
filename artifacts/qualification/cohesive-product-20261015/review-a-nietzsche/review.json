@@ -1,0 +1,107 @@
+{
+  "schema": "cohesive-product-independent-review-a-nietzsche-v1",
+  "status": "REPAIR_REQUIRED",
+  "scope": "Lane A's seven new method bodies, original owner refinements and metadata. Independent instruction/application review only; no product adoption or release claim.",
+  "baseline": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+  "candidate": "lane-a/candidate-v2.json, PENDING at intake",
+  "hashBindings": "final-bind.json",
+  "initialSnapshot": "read-set.json",
+  "authorSelfApplicationsOpened": false,
+  "authorReviewCasesOpened": false,
+  "productWrites": false,
+  "sourceStageOrReceiptWrites": false,
+  "agentsSpawned": false,
+  "findings": [
+    {
+      "id": "A-R1",
+      "priority": "P2",
+      "status": "OPEN",
+      "title": "The recurring-revenue bridge restricts entrant events to the opening customer population",
+      "file": "product/skills/eternities-prometheus/references/commercial-driver-diagnosis-v1.md",
+      "line": 16,
+      "reviewedSha256": "926a4a0e421b7520dc0ca2c72c5d6b080863787be68a6cbe0caa09d543d1a00b",
+      "problem": "The instruction says to use mutually exclusive events over the same opening customer population, then adds new and reactivated accounts. Those accounts can be outside that population. The method later distinguishes losses from the opening base, so the conflation can omit growth or contaminate cohort retention.",
+      "counterexample": "Opening 200, new 40, expansion 30, reactivation 20, contraction 10, churn 70 closes at 210. Restricting event membership to the opening population closes at 150, leaving 60 unexplained. Opening-cohort net retention is 75%, not 105%.",
+      "repair": "Use one business/reporting scope and interval with opening run rate as baseline. Explicitly count new and reactivated entrants outside the opening cohort; keep opening-cohort retention calculations restricted to that cohort. Retain mutually exclusive event classification and separate currency/scope adjustments.",
+      "verification": "Keep the independent four-account fixture and reconcile both the whole-scope 210 close and opening-cohort 150 close/75% retention without inserting a retention ratio as another event.",
+      "owner": "parent or lane A; reviewer has no product write authority"
+    },
+    {
+      "id": "A-R2",
+      "priority": "P2",
+      "status": "OPEN_FOR_THREE_OWNERS",
+      "title": "Three new methods lack useful discovery cues in their owner metadata",
+      "problem": "The real searchCatalog consumer, with the seven reviewed/final owner metadata snapshots overlaid on the unchanged 93-skill catalog, misses intended owners in four direct/paraphrase top-five probes. Resource paths and method bodies are not ranking fields, so resource registration alone does not expose the new work.",
+      "affected": [
+        {
+          "file": "product/skills/eternities-beacon/skill.json",
+          "line": 5,
+          "probe": "B-D",
+          "query": "Write positioning and landing page copy for our product against the buyer's existing workaround.",
+          "thenCurrentOwnerRank": null,
+          "hypotheticalRepairOwnerRank": 1,
+          "suggestedTrigger": "positioning landing page copy headline buyer alternative workaround promise proof"
+        },
+        {
+          "file": "product/skills/eternities-muse/skill.json",
+          "line": 5,
+          "probe": "M-P",
+          "query": "Make these mood references into a working layout with real archive content at phone width.",
+          "thenCurrentOwnerRank": null,
+          "hypotheticalRepairOwnerRank": 1,
+          "suggestedTrigger": "translate mood references into a working responsive layout composition using real content"
+        },
+        {
+          "file": "product/skills/eternities-orpheus/skill.json",
+          "line": 5,
+          "probes": ["O-D", "O-P"],
+          "queries": [
+            "Edit and mix this supplied podcast: the music masks speech and the pauses feel rushed.",
+            "A bell obscures a name in the narration. Improve the listening result and check the encoded delivery."
+          ],
+          "thenCurrentOwnerRanks": [null, null],
+          "hypotheticalRepairOwnerRanks": [1, 1],
+          "suggestedTriggers": [
+            "edit mix supplied podcast narration speech music masking audibility pacing pauses",
+            "listen to encoded audio delivery after editorial cuts"
+          ]
+        }
+      ],
+      "resolvedDuringReview": "Parent-added Prometheus and learning-design cues fix P-D, P-P and L-D in the identical query set. Those owners no longer require this repair.",
+      "repair": "Add bounded operation/artifact trigger phrases for these three method jobs, then re-run the focused probes and relevant exclusion/host-need checks. Exact suggested wording is optional. No search-algorithm rewrite, generic synonym expansion or top-one guarantee is required.",
+      "limits": "Finite reviewer-designed lexical probes, not a broad discoverability benchmark, semantic classifier or activation test. Hypothetical trigger edits were applied only in memory and never written to product files.",
+      "owner": "parent"
+    }
+  ],
+  "methods": [
+    {"owner":"eternities-prometheus","method":"references/commercial-driver-diagnosis-v1.md","body":"REPAIR_REQUIRED","originalOwnerFit":"READY","thenCurrentMetadata":"READY_FOR_SAMPLED_PROBES","finding":"A-R1"},
+    {"owner":"eternities-beacon","method":"references/positioning-to-message-v1.md","body":"READY","originalOwnerFit":"READY","thenCurrentMetadata":"REPAIR_REQUIRED","finding":"A-R2"},
+    {"owner":"eternities-muse","method":"references/art-direction-to-layout-v1.md","body":"READY","originalOwnerFit":"READY","thenCurrentMetadata":"REPAIR_REQUIRED","finding":"A-R2"},
+    {"owner":"eternities-arcadia","method":"references/core-loop-playtest-v1.md","body":"READY","originalOwnerFit":"READY","thenCurrentMetadata":"READY_FOR_SAMPLED_PROBES","finding":null},
+    {"owner":"eternities-orpheus","method":"references/supplied-audio-editorial-mix-v1.md","body":"READY","originalOwnerFit":"READY","thenCurrentMetadata":"REPAIR_REQUIRED","finding":"A-R2"},
+    {"owner":"evidence-linked-learning-design","method":"references/practice-and-transfer-v1.md","body":"READY","originalOwnerFit":"READY","thenCurrentMetadata":"READY_FOR_SAMPLED_PROBES","finding":null},
+    {"owner":"voice-style-calibration","method":"references/contrastive-calibration-v1.md","body":"READY","originalOwnerFit":"READY","thenCurrentMetadata":"READY_FOR_SAMPLED_PROBES","finding":null}
+  ],
+  "evidence": {
+    "reviewerWorkedCases": "review-a-cases.md: five case lenses for each of seven methods",
+    "executedArithmeticAssertions": 9,
+    "executedOriginalAMethodWiringChecks": 7,
+    "discoveryQueriesPerSnapshot": 21,
+    "discoverySnapshots": ["probe-results.json", "probe-results-final.json"],
+    "hypotheticalTriggerRepairs": "Recorded separately from original results, with no product writes",
+    "catalogInputSha256": "171317f308d8e2af603e3b1a7dbff095a068b8172258ccc26e6a248d26f5f812",
+    "catalogSkills": 93,
+    "newMethodBodyDriftAtBinding": 0,
+    "ownerOrMetadataFilesChangedSinceV2": 6,
+    "fullSuite": "NOT_RUN",
+    "nativePackagedCLI": "NOT_RUN",
+    "realUsersOrRuntimeArtifacts": "NOT_OBSERVED"
+  },
+  "selfAuthoredDMethods": {
+    "substantiveAcceptance": "EXCLUDED",
+    "mechanicalWiring": "Five declarations/links/target-existence checks passed; see final-bind.json",
+    "methodBodiesOpenedInThisReview": false,
+    "independentContentOwner": "separate Astra review"
+  },
+  "finalParentDelta": "All seven A method hashes remain v2-identical at binding. Six owner/metadata files changed; final-bind.json retains reviewed and then-current hashes and current snapshots. Only A-specific trigger deltas and mechanical D wiring were inspected. No acceptance is inherited by later changed bytes, self-authored D content, generated metadata, warehouse publication or release."
+}

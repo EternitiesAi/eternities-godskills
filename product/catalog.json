@@ -535,7 +535,7 @@
       "specializes": "eternities-athena",
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/counterbalanced-agent-evaluation/SKILL.md",
-      "entrypointSha256": "ad8e45793f5ec79ab577789d505893e2a0a7fbf97dfcde7542cb828aee985a88",
+      "entrypointSha256": "6242385832a491c290feeb636175210c839a75dcf6bd30526b5cf2f32c99fd7f",
       "resources": []
     },
     {
@@ -667,7 +667,9 @@
       "triggers": [
         "A statistical model needs diagnostics before coefficients or predictions are interpreted.",
         "A conclusion may change under plausible specifications or influential observations.",
-        "An evidence report needs an explicit estimand, uncertainty ledger, and claim boundary."
+        "An evidence report needs an explicit estimand, uncertainty ledger, and claim boundary.",
+        "causal treatment-effect design from assignment mechanism",
+        "policy intervention estimand and comparison-group identification"
       ],
       "antiTriggers": [
         "Claim causality without an identification design.",
@@ -689,8 +691,13 @@
       "specializes": "eternities-athena",
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/diagnostic-statistical-model-inference/SKILL.md",
-      "entrypointSha256": "a65995b8649d28dc9e9ccd0bdfeb56799435c0eedb143b70590fb3f8b398c367",
-      "resources": []
+      "entrypointSha256": "e31ea8e66d9b7555a20a11c16a11c87f62e263c9a5d12873d661467c76358f8f",
+      "resources": [
+        {
+          "path": "skills/diagnostic-statistical-model-inference/references/causal-design-before-estimation-v1.md",
+          "sha256": "9fd7004a3aefc4daf074dde37dea7d5a2b6fb1024ff4ae3c19461d5e89b24918"
+        }
+      ]
     },
     {
       "id": "docx-package-redline-and-render-verification",
@@ -866,13 +873,16 @@
         "game accessibility",
         "game release proof",
         "spatial interaction",
+        "design interactive WebGL shader and particle effects with camera controls",
         "browser canvas resize pointer coordinates animation loops",
         "hidden tab simulation delta focus pressed keys input",
         "scene teardown stale asset loading GPU resource ownership",
         "integrate imported glTF FBX meshes and models into Three.js Unity Unreal interactive scenes",
         "check mesh units scale coordinate axes pivot and material slots after import",
         "verify textures UV channels normal maps collision rigs animation and root motion in a game",
-        "qualify model dependencies and decoder files in packaged builds beyond editor preview"
+        "qualify model dependencies and decoder files in packaged builds beyond editor preview",
+        "character silhouette and readability at the gameplay camera",
+        "camera-critical game asset iteration and motion revision consistency"
       ],
       "antiTriggers": [
         "routine isolated code edit",
@@ -894,8 +904,12 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-arcadia/SKILL.md",
-      "entrypointSha256": "9ec66ba0975124b95877f2ad0a852162008cfd624af2fe823d9752e478940c46",
+      "entrypointSha256": "ac0ef2950f34981c72dad4143ad3752b289d3f95877ee68aa464195c8818b282",
       "resources": [
+        {
+          "path": "skills/eternities-arcadia/references/core-loop-playtest-v1.md",
+          "sha256": "305e082e9e3d57729fe10e4ad9865b1468333e661f7530469ef17a70fc07490a"
+        },
         {
           "path": "skills/eternities-arcadia/references/methods.md",
           "sha256": "57853439f2dbc6173e2b627b3d1cdd982c746f8376e86746b2745138b696dfc3"
@@ -915,6 +929,10 @@
         {
           "path": "skills/eternities-arcadia/references/realtime-asset-integration.md",
           "sha256": "a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41"
+        },
+        {
+          "path": "skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md",
+          "sha256": "a1b65d62b70a689b3e7b1c06871588e4763a04d3987b9d5c833d5b3c7b6da52a"
         }
       ]
     },
@@ -1119,13 +1137,16 @@
       "summary": "Turn market, offer, discoverability, conversion, lifecycle, and growth evidence into truthful measurable decisions.",
       "triggers": [
         "market positioning",
+        "positioning and landing page copy against buyer alternatives and existing workarounds",
+        "homepage value proposition and product promise with proof against the customer's current workaround",
         "offer design",
         "discoverability audit",
         "go to market",
         "conversion funnel",
         "retention recovery",
         "growth measurement",
-        "creator sponsorship obligation tracking with dated evidence"
+        "creator sponsorship obligation tracking with dated evidence",
+        "creator campaign slate feasibility with quoted usage fees and deliverable coverage"
       ],
       "antiTriggers": [
         "routine copy editing",
@@ -1148,8 +1169,12 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-beacon/SKILL.md",
-      "entrypointSha256": "381ae1f0ffee855b14c8c2bda226bb57aa9147be1e7f9a68f94b231fb869a030",
+      "entrypointSha256": "0456fd877c1d18c3c717998f4eb2b4264a6911f62a1362df6e3356948b9af222",
       "resources": [
+        {
+          "path": "skills/eternities-beacon/references/positioning-to-message-v1.md",
+          "sha256": "57da15f76572e5af9dde41cf4c5703d83f045cbb701b0284dfcd45d8e46c94d8"
+        },
         {
           "path": "skills/eternities-beacon/references/methods.md",
           "sha256": "efe539cfe35bf9703869d43cdaddedd2b29edb14c72525a5c9645fcf2a0eb2ed"
@@ -1157,6 +1182,10 @@
         {
           "path": "skills/eternities-beacon/references/creator-sponsorship-lifecycle.md",
           "sha256": "4063b7c5ce3e283fbe6975b7644ffde1bf8283ce499ca77dc293e60bb7ba0d5e"
+        },
+        {
+          "path": "skills/eternities-beacon/references/creator-slate-feasibility-v1.md",
+          "sha256": "b1ab3ac4a2570311de7139e605e23cb8bfe122d89d578578288c1b1c8ed34dc1"
         }
       ]
     },
@@ -1253,7 +1282,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-daedalus/SKILL.md",
-      "entrypointSha256": "9c3271351a5d8234098a001fa079236ec9c8ea568603cacab3fa5f05e9ee0d23",
+      "entrypointSha256": "1a26dfffe15ecfa2289aaa502e959c07f99eb518c9823ae930536a5c9f829e17",
       "resources": [
         {
           "path": "skills/eternities-daedalus/references/methods.md",
@@ -1307,7 +1336,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-forge/SKILL.md",
-      "entrypointSha256": "96a5bf285a89bb9189064d65880d461683830e314e00a98bce2e45a97f2c0e5b",
+      "entrypointSha256": "41ed525d0b547973ed7c9752d47c7f2fd936196ca8b2edc3b2d3066266c9b597",
       "resources": [
         {
           "path": "skills/eternities-forge/references/methods.md",
@@ -1431,7 +1460,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-hermes/SKILL.md",
-      "entrypointSha256": "fd626d425723be905c9375502c6b6fe480df645f057aee00c9517fdcb5257c8c",
+      "entrypointSha256": "a64957e27281ecd3b99a4bd3b2661d860ae0af8171ea630b3a9a01d5545c89cd",
       "resources": [
         {
           "path": "skills/eternities-hermes/references/methods.md",
@@ -1531,7 +1560,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-mnemosyne/SKILL.md",
-      "entrypointSha256": "121f1d7db8183b2bc8cdb6acce8654aac92f76f4cae74ad1f823864cba4bf392",
+      "entrypointSha256": "0d4b18975e93a30191c3371d7f3e4537be56aa6c021e75ee84a6d9210c8bed9a",
       "resources": [
         {
           "path": "skills/eternities-mnemosyne/references/methods.md",
@@ -1546,6 +1575,7 @@
       "triggers": [
         "visual forensics",
         "interface art direction",
+        "translate mood references into layout typography real content and responsive composition",
         "motion story",
         "visual acceptance",
         "accessibility audit",
@@ -1579,8 +1609,12 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-muse/SKILL.md",
-      "entrypointSha256": "838da70f041be41d0d28fa9e735241c303240b4355f1770dba5b7b7998afc05b",
+      "entrypointSha256": "34fccadc01b49dcb8097641a6a6153dabd119dd55ba9f31781c7bfa4c4c1ac73",
       "resources": [
+        {
+          "path": "skills/eternities-muse/references/art-direction-to-layout-v1.md",
+          "sha256": "893b09898d51cf5bfcca7d0efa88d239466e04a7c6a68152d4158aab5fa2a140"
+        },
         {
           "path": "skills/eternities-muse/references/methods.md",
           "sha256": "44cdaae8e34b83f69c8253f1cb61b4ed3c1af5548e58ef59d4f7e28df7e46b89"
@@ -1657,7 +1691,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-oracle/SKILL.md",
-      "entrypointSha256": "796145f66a4f5d9cacadd55319e541234db9b7ac3b4d704f8b7411c949fce4cd",
+      "entrypointSha256": "528b78eeb7208203a0fca382d7a52276ddf12778df7da3c993b34f39747bf420",
       "resources": [
         {
           "path": "skills/eternities-oracle/references/methods.md",
@@ -1675,7 +1709,9 @@
         "speaker alignment",
         "caption timing",
         "media timeline",
-        "audio review packet"
+        "audio review packet",
+        "edit and mix supplied podcast narration dialogue with music masking and pause pacing",
+        "speech intelligibility editorial timing and encoded audio delivery checks"
       ],
       "antiTriggers": [
         "biometric inference",
@@ -1698,8 +1734,12 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-orpheus/SKILL.md",
-      "entrypointSha256": "083f4461cf7a28dd5a2b25bd3e2c2d05448b74b92aaa5d87b5daa50753c2c48e",
+      "entrypointSha256": "30bbab3230a9ecbb81ecec877db2036b591a46b0f4497cb61d94df3585bda3be",
       "resources": [
+        {
+          "path": "skills/eternities-orpheus/references/supplied-audio-editorial-mix-v1.md",
+          "sha256": "d52e3ecffe5e6134cc43f2296ed4c8e48963af8f02f513b605c5a7527ac6c1d9"
+        },
         {
           "path": "skills/eternities-orpheus/references/methods.md",
           "sha256": "ee216cf993a7629868d4fc918d27d94815e9b9f765acf4f1ab06644068a480e7"
@@ -1744,7 +1784,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-phoenix/SKILL.md",
-      "entrypointSha256": "d2be7f2ba4ec16d25e6a44084624bae2d01e416089c5d79cb85b0af1e543a284",
+      "entrypointSha256": "b9d28316b61929e5dd4303aa68f82f21632ba5a44b9a6880b0aed1020694787f",
       "resources": [
         {
           "path": "skills/eternities-phoenix/references/methods.md",
@@ -1757,6 +1797,10 @@
         {
           "path": "skills/eternities-phoenix/references/trace-to-evaluation-cases.md",
           "sha256": "57fe450be2791fe0e697663b49df5c6ed1c22ea6f8a94d9efa84cead1d2e1560"
+        },
+        {
+          "path": "skills/eternities-phoenix/references/diagnostic-experiments-v2.md",
+          "sha256": "0e90cd104135546419a996f0d1c0acd1e57f21ecc5c463225f9d86e7adfec227"
         }
       ]
     },
@@ -1771,7 +1815,9 @@
         "early adopter research",
         "learning design",
         "operational planning",
-        "product prioritization"
+        "product prioritization",
+        "diagnose revenue change and commercial drivers",
+        "explain business metric movement before choosing action"
       ],
       "antiTriggers": [
         "outreach, pricing, or procurement execution without target and authority",
@@ -1792,8 +1838,12 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/eternities-prometheus/SKILL.md",
-      "entrypointSha256": "3bdb3c567c215cee7552d846abdcfd87024e6a5787e394d6526799f24c008ab6",
+      "entrypointSha256": "70d043541b328a6bfebd6cd75840aaca8ed94fc22cc10165d1be444f4662fc06",
       "resources": [
+        {
+          "path": "skills/eternities-prometheus/references/commercial-driver-diagnosis-v1.md",
+          "sha256": "bdd16ac74bb01c88864e6d76080fd05d833eb9be1324322f27aaaec8350165f2"
+        },
         {
           "path": "skills/eternities-prometheus/references/methods.md",
           "sha256": "6150efa2ad78e5ebc93b9dbde21893984428a9d5ac109c85f1966d2b3a815954"
@@ -1809,7 +1859,8 @@
         "learning outcomes teaching assessment",
         "differentiate instruction for varied prior knowledge",
         "substitute teacher facilitator handoff classroom cover notes",
-        "student report comments teacher observations achievement judgments"
+        "student report comments teacher observations achievement judgments",
+        "contrastive learner practice feedback and transfer tasks"
       ],
       "antiTriggers": [
         "Professional certification or guaranteed outcomes without appropriate evidence and qualified review"
@@ -1827,7 +1878,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/evidence-linked-learning-design/SKILL.md",
-      "entrypointSha256": "ca165d7209df55696719f58dbad0042a41bfe6164408099cf8ab0dc90e85d160",
+      "entrypointSha256": "a91d5ffe526e92ed72c541816d6c0310f5ab2d56b82f2c5f91960b778bbed606",
       "resources": [
         {
           "path": "skills/evidence-linked-learning-design/references/handoffs-and-reporting.md",
@@ -1840,6 +1891,10 @@
         {
           "path": "skills/evidence-linked-learning-design/references/support-transition.md",
           "sha256": "470484b186df4978ec4c5e817990d25c0a2ad200dbf6ef1bea6441f43372d954"
+        },
+        {
+          "path": "skills/evidence-linked-learning-design/references/practice-and-transfer-v1.md",
+          "sha256": "8625e567db5d4f68c267bd4743e555885115fabcbd253b67f768e2031826aa9f"
         }
       ]
     },
@@ -2445,7 +2500,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/long-horizon-work-continuity/SKILL.md",
-      "entrypointSha256": "83584469ab0faf64844451aba67bfe4e9325d2c1f7d6580ff951bc90d3a34f5d",
+      "entrypointSha256": "d0487cb608de140f11305ffcd63f837fbe56c018b029ccd70f0da04c97a51a0b",
       "resources": [
         {
           "path": "skills/long-horizon-work-continuity/references/continuity-packet.md",
@@ -2523,7 +2578,7 @@
       ],
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/memory-retention-and-recovery/SKILL.md",
-      "entrypointSha256": "36c14c3b62bdf72c2b12bf4678ec44223bd0c3064528a7f1b34d7df4fcc966e7",
+      "entrypointSha256": "6621d8bb0924cd386831eae2004144d3006206359de4fdaa1d2385fcdca4d38e",
       "resources": [
         {
           "path": "skills/memory-retention-and-recovery/references/examples.md",
@@ -2609,7 +2664,9 @@
         "story structure and earned character choices",
         "dialogue subtext and character knowledge",
         "interactive narrative branch consequences",
-        "continuity revision preserving artistic intent"
+        "continuity revision preserving artistic intent",
+        "fiction reveal revision through reader and character knowledge",
+        "repair clue timing without explaining away the mystery"
       ],
       "antiTriggers": [
         "factual status or research report",
@@ -2632,11 +2689,15 @@
       "specializes": "eternities-logos",
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/narrative-structure-and-revision/SKILL.md",
-      "entrypointSha256": "78f2055cd08ca31fccdd779865267d939ba7763b1402e0133cd0ddb1a3d203ba",
+      "entrypointSha256": "ff8a28893c1d2ba20b0d72bef4597d4e18b4bf5db2a93594b2bd04bd8e6d483d",
       "resources": [
         {
           "path": "skills/narrative-structure-and-revision/references/methods.md",
           "sha256": "c3b81b2943fe88c72d8d821fc1037209f288c5d9ba2ac1fbf833414c5602567d"
+        },
+        {
+          "path": "skills/narrative-structure-and-revision/references/reader-knowledge-and-reveal-revision-v1.md",
+          "sha256": "8b8262deffa3e0bedce4fd330e899ed84ea5361cef34b5543cd09cc27002390a"
         }
       ]
     },
@@ -3172,7 +3233,9 @@
         "error budget and burn alert implementation",
         "weighted service success aggregation",
         "missing telemetry versus no traffic",
-        "latency distribution aggregation audit"
+        "latency distribution aggregation audit",
+        "metric label cardinality and series churn budget",
+        "reduce telemetry label combinations while preserving alert queries"
       ],
       "antiTriggers": [
         "dashboard cosmetic edit",
@@ -3193,11 +3256,15 @@
       "specializes": "eternities-daedalus",
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/service-observability-and-slo-design/SKILL.md",
-      "entrypointSha256": "6de3cf2118becf3082c2364dc60eded63a0b17bc5dabf37c42535b01c5c7a95b",
+      "entrypointSha256": "4766c33f1c6cd23e11c9b7e3a5a7f9936d07243b418d7130cc6e7465aa6b6289",
       "resources": [
         {
           "path": "skills/service-observability-and-slo-design/references/methods.md",
           "sha256": "f184dbde00a72f80be35c5fbb3e9184f125fc4ada4facc9f1d8e15b0c655f543"
+        },
+        {
+          "path": "skills/service-observability-and-slo-design/references/telemetry-cardinality-budget-v1.md",
+          "sha256": "c429085c14122d5a6f6b8e42328c0f944ef03f4db0a7cd669e64bcd19937b650"
         }
       ]
     },
@@ -3550,8 +3617,13 @@
       "specializes": "eternities-logos",
       "maturity": "instruction-reviewed",
       "entrypoint": "skills/voice-style-calibration/SKILL.md",
-      "entrypointSha256": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b",
-      "resources": []
+      "entrypointSha256": "fb4a54b739b51d0e91df35d17e65fd684f7f43fd06575e58a3782d5040ad73c4",
+      "resources": [
+        {
+          "path": "skills/voice-style-calibration/references/contrastive-calibration-v1.md",
+          "sha256": "dc51820a975a4f6f1c75f69c70f96f7204b864cd662faf4516a9b1a71d2b7c40"
+        }
+      ]
     },
     {
       "id": "web-performance-optimization",

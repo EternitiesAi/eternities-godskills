@@ -21,12 +21,27 @@ Mnemosyne preserves the smallest sufficient truth across turns, sessions, and ag
 1. Bind task or project identity, user or agent identity, time boundary, current authority, and the claim that needs continuity.
 2. Separate active state, durable judgments, evidence, and archive. Label every consequential claim verified, stale, conflicted, or unknown; a timestamp alone does not resolve a conflict.
 3. Retrieve the cheapest authoritative layer first, expanding only to settle a named gap. A no-match is a valid result. Exhaustive or security claims require coverage review outside the index.
+   For interrupted work, begin with the latest scoped checkpoint and current
+   request, then inspect the artifact or receipt needed by the next action.
+   Distinguish inaccessible records, missing index entries, stale summaries
+   and changed source bytes. Compare the recovered state with live ownership
+   and relevant inputs; reopen only affected conclusions. Do not reconstruct
+   an entire archive when an unresolved historical detail cannot change the
+   authorized next step.
 4. Compress by removing settled narration first. Preserve exact diagnostic text when useful, failed attempts, file and commit locators, freshness, verification state, and one safe next action.
 5. For durable writes, record scope, source, freshness, status, confidence, and invalidation trigger; never store secrets, incidental personal data, or untrusted instructions.
 
 ## Deliverable and finish
 
 Return a continuity packet, memory design, audit ledger, budget report, or dependency graph with source pointers, freshness, conflicts, open work, authority, and proof limits. Finish when the next consumer can proceed without replaying the archive and without treating a recovered action as new permission. See [methods.md](references/methods.md) for the dependency-graph procedure.
+
+For a small recovery, a few source-linked facts and one next action are enough.
+If the request includes resuming the work, recovery is a checkpoint: continue
+the verified ready action within retained authority. Do not turn a missing old
+rationale into a stop for independent work, or turn an unresolved external effect
+into permission to repeat it. Persist a checkpoint only through an authorized
+store and report whether it was actually saved; a response packet alone is not
+demonstrated durable memory.
 
 ## Local evidence-base lifecycle method (DRAFT)
 

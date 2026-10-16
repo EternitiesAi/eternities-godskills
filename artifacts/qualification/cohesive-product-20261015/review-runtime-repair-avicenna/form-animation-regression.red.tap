@@ -1,0 +1,30 @@
+TAP version 13
+# Subtest: ordinary form focus remains outside the game owner when CSS animation is mentioned
+not ok 1 - ordinary form focus remains outside the game owner when CSS animation is mentioned
+  ---
+  duration_ms: 9.6264
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\artifacts\\qualification\\cohesive-product-20261015\\review-runtime-repair-avicenna\\form-animation-regression.test.mjs:6:1'
+  failureType: 'testCodeFailure'
+  error: 'Before repair Arcadia was excluded; candidate introduces it at rank3 with a runtime-purpose reason.'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/cohesive-product-20261015/review-runtime-repair-avicenna/form-animation-regression.test.mjs:11:9)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.start (node:internal/test_runner/test:1191:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17)
+  ...
+1..1
+# tests 1
+# suites 0
+# pass 0
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 71.9152

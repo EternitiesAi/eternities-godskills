@@ -23,9 +23,14 @@
     "eternities-chorus"
   ],
   "specializes": "eternities-logos",
-  "resources": [],
+  "resources": ["references/contrastive-calibration-v1.md"],
   "maturity": "instruction-reviewed",
   "provenance": [
+    {
+      "kind": "authoring",
+      "source": "artifacts/qualification/cohesive-product-20261015/lane-a/ledger.json",
+      "note": "Original conditional addition references/contrastive-calibration-v1.md and its entrypoint routing were independently authored for the cohesion release. Prior reviews do not apply to changed bytes; release review is recorded separately. No new source-rights clearance, runtime result or performance claim."
+    },
     {
       "kind": "authoring",
       "source": "artifacts/cognitive-workflows-20261003/author-luna-a/source-ledger.md",

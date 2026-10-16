@@ -1,0 +1,36 @@
+---
+name: eternities-arcadia
+description: Shape, build, and assess games and interactive 3D scenes, connecting design intent, imported assets, runtime systems, player experience, performance, and human acceptance.
+---
+
+# Eternities Arcadia
+
+Arcadia is the game-development route for work that spans design intent and playable reality. Start from the player promise and select the smallest route that can answer the current question. A design document, automated test, telemetry result, and human play verdict are different kinds of evidence.
+
+## Choose the route
+
+- **Direction** settles the physical action, repeatable loop, session shape, failure, progression, pacing, narrative revelation, economy boundaries, platform, and anti-goals. For a first playable loop or a mechanically working but weak experience, use [core-loop playtest](references/core-loop-playtest-v1.md) to distinguish legibility, agency and development across repetitions.
+- **Runtime systems** turns a settled direction into simulation time, input intents, persistence, authority ownership, non-player behavior, migration, reconnect behavior, and performance budgets.
+  - For imported meshes or models entering a game or interactive scene, use [real-time 3D asset integration](references/realtime-asset-integration.md) when transforms, materials, dependencies, collision, animation, or packaged behavior need checking. Select only the relevant checks; asset generation and offline rendering are different tasks.
+- **Player experience** aligns feedback, controls, motion, sound, visual language, access settings, and device cost so the player can understand what happened and what to do next.
+  - For an approved UI need spanning multiple surfaces or states, use [UI requirement-to-screen/state traceability](references/requirement-screen-state-traceability.md) to inspect map coverage and declared flow paths. This is a method within player experience, not a new Arcadia route.
+  - For a bounded proposal mapping named gameplay states or events to player-facing audio cues, use [DRAFT: game-state to audio-cue design](references/game-state-to-audio-cue.md). It is a lazy method within player experience, not an asset-rights grant, DSP review, accessibility certification, or play-quality verdict.
+- **Proof and release** verifies build identity, reachability, deterministic gates, variable-run distributions, representative devices, accessibility states, and the remaining questions that only human play can answer.
+
+## Working method
+
+1. Recover the existing player promise and the platform, device, session, multiplayer, or access constraints that affect this task. For a new direction, settle the core action and anti-goals; for a narrow change, reuse settled decisions rather than rewriting the direction packet.
+2. When a build is requested, implement the smallest playable slice that exercises the intended change. Keep simulation, presentation, input, persistence, transport, and commercial rules behind visible contracts where those systems exist.
+3. For runtime work, define time steps, state ownership, versioned saves, migration and recovery, disconnect behavior, and measurable budgets before expanding content.
+4. For experience work, map each effect to a player question and provide equivalent cues through text, shape, sound, color, motion, or control alternatives.
+5. For release evidence, freeze build identity and test conditions. Use repeated runs for variable behavior and preserve raw observations; do not turn a green machine gate into a fun verdict.
+
+## Deliverable and finish
+
+Deliver the requested design, playable change, experience decision, or release assessment with its relevant constraints, evidence, gaps, performed effects, and human-verdict status. A route handoff is sufficient only for a requested handoff; a build request needs the implemented slice and applicable checks. Use the spatial and real-time cards in [methods.md](references/methods.md) when comfort, interaction, frame, memory, visibility, or determinism is the question.
+
+For browser-hosted games or interactive 3D scenes, use [browser runtime lifecycle](references/browser-runtime-lifecycle.md) when resizing, input focus, asynchronous assets, repeated mounting or rendering cleanup matter. It is conditional guidance, not a mandatory engine or platform.
+
+## Conditional method
+
+For an authored asset that reads poorly from the intended gameplay camera, use [camera-driven asset iteration](references/camera-driven-asset-iteration-v1.md). It distinguishes shape, deformation, shading and runtime cost; routine import verification stays in the asset-integration method.

@@ -1,0 +1,580 @@
+TAP version 13
+# Subtest: ordinary form focus remains outside the game owner when CSS animation is mentioned
+ok 1 - ordinary form focus remains outside the game owner when CSS animation is mentioned
+  ---
+  duration_ms: 16.5881
+  type: 'test'
+  ...
+# Subtest: runtime repair retains supported technical work: Hidden tab resumes with a huge simulation delta and pressed keys stay stuck
+ok 2 - runtime repair retains supported technical work: Hidden tab resumes with a huge simulation delta and pressed keys stay stuck
+  ---
+  duration_ms: 18.2783
+  type: 'test'
+  ...
+# Subtest: runtime repair retains supported technical work: When browser focus returns, the simulation advances too far and held input remains active
+ok 3 - runtime repair retains supported technical work: When browser focus returns, the simulation advances too far and held input remains active
+  ---
+  duration_ms: 5.6758
+  type: 'test'
+  ...
+# Subtest: runtime repair retains supported technical work: Repair pointer input after page visibility changes interrupt the animation loop
+ok 4 - runtime repair retains supported technical work: Repair pointer input after page visibility changes interrupt the animation loop
+  ---
+  duration_ms: 6.7824
+  type: 'test'
+  ...
+# Subtest: runtime repair retains supported technical work: Fix the shader and rotation handles in the exhibit's existing interactive crystal scene; the educator's prompts and all explanatory rules must stay exactly as they are.
+ok 5 - runtime repair retains supported technical work: Fix the shader and rotation handles in the exhibit's existing interactive crystal scene; the educator's prompts and all explanatory rules must stay exactly as they are.
+  ---
+  duration_ms: 5.7959
+  type: 'test'
+  ...
+# Subtest: runtime repair retains supported technical work: Debug the fragment shader in an interactive scene
+ok 6 - runtime repair retains supported technical work: Debug the fragment shader in an interactive scene
+  ---
+  duration_ms: 3.5403
+  type: 'test'
+  ...
+# Subtest: runtime repair preserves exclusion: Summarize this browser tab newsletter
+ok 7 - runtime repair preserves exclusion: Summarize this browser tab newsletter
+  ---
+  duration_ms: 3.6905
+  type: 'test'
+  ...
+# Subtest: runtime repair preserves exclusion: Repair keyboard focus on the sign-up page input fields
+ok 8 - runtime repair preserves exclusion: Repair keyboard focus on the sign-up page input fields
+  ---
+  duration_ms: 4.0712
+  type: 'test'
+  ...
+# Subtest: runtime repair preserves exclusion: Repair keyboard focus on a sign-up page with a CSS animation.
+ok 9 - runtime repair preserves exclusion: Repair keyboard focus on a sign-up page with a CSS animation.
+  ---
+  duration_ms: 3.8771
+  type: 'test'
+  ...
+# Subtest: runtime repair preserves exclusion: Repair pointer input after page visibility changes interrupt the animation
+ok 10 - runtime repair preserves exclusion: Repair pointer input after page visibility changes interrupt the animation
+  ---
+  duration_ms: 3.6527
+  type: 'test'
+  ...
+# Subtest: runtime repair preserves exclusion: Explain how the simulated policy changes affect retention
+ok 11 - runtime repair preserves exclusion: Explain how the simulated policy changes affect retention
+  ---
+  duration_ms: 3.4529
+  type: 'test'
+  ...
+# Subtest: runtime repair preserves exclusion: Price GPU hardware for a shader workstation
+ok 12 - runtime repair preserves exclusion: Price GPU hardware for a shader workstation
+  ---
+  duration_ms: 4.7026
+  type: 'test'
+  ...
+# Subtest: runtime repair preserves exclusion: Extract redistribution clauses from a shader license
+ok 13 - runtime repair preserves exclusion: Extract redistribution clauses from a shader license
+  ---
+  duration_ms: 4.2039
+  type: 'test'
+  ...
+# Subtest: runtime repair preserves exclusion: Do not repair the browser simulation; write only a postponement notice
+ok 14 - runtime repair preserves exclusion: Do not repair the browser simulation; write only a postponement notice
+  ---
+  duration_ms: 4.2687
+  type: 'test'
+  ...
+# Subtest: runtime repair preserves exclusion: The report quotes "Hidden tab resumes with a huge simulation delta and pressed keys stay stuck"; write a postponement notice
+ok 15 - runtime repair preserves exclusion: The report quotes "Hidden tab resumes with a huge simulation delta and pressed keys stay stuck"; write a postponement notice
+  ---
+  duration_ms: 3.6251
+  type: 'test'
+  ...
+# Subtest: a browser lifecycle topic does not manufacture independent work evidence
+ok 16 - a browser lifecycle topic does not manufacture independent work evidence
+  ---
+  duration_ms: 0.7408
+  type: 'test'
+  ...
+# Subtest: runtime recall respects host need, filters, and literal anti-triggers
+ok 17 - runtime recall respects host need, filters, and literal anti-triggers
+  ---
+  duration_ms: 8.6975
+  type: 'test'
+  ...
+# Subtest: current causal evidence owner precedes incidental interatomic and serving matches
+ok 18 - current causal evidence owner precedes incidental interatomic and serving matches
+  ---
+  duration_ms: 3.9452
+  type: 'test'
+  ...
+# Subtest: material-specific validation still discovers the interatomic owner
+ok 19 - material-specific validation still discovers the interatomic owner
+  ---
+  duration_ms: 4.8301
+  type: 'test'
+  ...
+# Subtest: original known educational-model request
+ok 20 - original known educational-model request
+  ---
+  duration_ms: 18.9821
+  type: 'test'
+  ...
+# Subtest: feedback-bearing novice model
+ok 21 - feedback-bearing novice model
+  ---
+  duration_ms: 6.864
+  type: 'test'
+  ...
+# Subtest: small-model teaching without an explicit slider
+ok 22 - small-model teaching without an explicit slider
+  ---
+  duration_ms: 5.419
+  type: 'test'
+  ...
+# Subtest: production model is not teaching
+ok 23 - production model is not teaching
+  ---
+  duration_ms: 0.4843
+  type: 'test'
+  ...
+# Subtest: appraisal of educational claims is not construction
+ok 24 - appraisal of educational claims is not construction
+  ---
+  duration_ms: 0.2315
+  type: 'test'
+  ...
+# Subtest: quoted filename material is not a request
+ok 25 - quoted filename material is not a request
+  ---
+  duration_ms: 0.2038
+  type: 'test'
+  ...
+# Subtest: ordinary lesson is not this profile
+ok 26 - ordinary lesson is not this profile
+  ---
+  duration_ms: 0.1685
+  type: 'test'
+  ...
+# Subtest: original request cannot override explicit no-need authority
+ok 27 - original request cannot override explicit no-need authority
+  ---
+  duration_ms: 0.6589
+  type: 'test'
+  ...
+# Subtest: disclosed v1 regression: beginner heat sliders
+ok 28 - disclosed v1 regression: beginner heat sliders
+  ---
+  duration_ms: 18.3236
+  type: 'test'
+  ...
+# Subtest: disclosed v1 regression: novice balance-beam workshop
+ok 29 - disclosed v1 regression: novice balance-beam workshop
+  ---
+  duration_ms: 5.7448
+  type: 'test'
+  ...
+# Subtest: disclosed v1 regression: explorable queue lesson
+ok 30 - disclosed v1 regression: explorable queue lesson
+  ---
+  duration_ms: 6.1064
+  type: 'test'
+  ...
+# Subtest: disclosed v1 regression: movable fraction pieces
+ok 31 - disclosed v1 regression: movable fraction pieces
+  ---
+  duration_ms: 4.1918
+  type: 'test'
+  ...
+# Subtest: disclosed v1 regression: apprentice feedback model
+ok 32 - disclosed v1 regression: apprentice feedback model
+  ---
+  duration_ms: 3.7958
+  type: 'test'
+  ...
+# Subtest: disclosed v1 regression: binary-search trace
+ok 33 - disclosed v1 regression: binary-search trace
+  ---
+  duration_ms: 4.4604
+  type: 'test'
+  ...
+# Subtest: disclosed v1 regression: paper-token conservation activity
+ok 34 - disclosed v1 regression: paper-token conservation activity
+  ---
+  duration_ms: 6.3815
+  type: 'test'
+  ...
+# Subtest: disclosed v1 regression: prepared keyboard-controlled learning model
+ok 35 - disclosed v1 regression: prepared keyboard-controlled learning model
+  ---
+  duration_ms: 4.2432
+  type: 'test'
+  ...
+# Subtest: disclosed v1 regression: unrelated purchase refusal with positive teaching request
+ok 36 - disclosed v1 regression: unrelated purchase refusal with positive teaching request
+  ---
+  duration_ms: 3.9173
+  type: 'test'
+  ...
+# Subtest: disclosed v1 regression: scheduler training model
+ok 37 - disclosed v1 regression: scheduler training model
+  ---
+  duration_ms: 3.2619
+  type: 'test'
+  ...
+# Subtest: disclosed v1 regression: explorable ramp explanation
+ok 38 - disclosed v1 regression: explorable ramp explanation
+  ---
+  duration_ms: 3.7009
+  type: 'test'
+  ...
+# Subtest: disclosed v1 regression: pendulum lesson with renderer subtask
+ok 39 - disclosed v1 regression: pendulum lesson with renderer subtask
+  ---
+  duration_ms: 5.0045
+  type: 'test'
+  ...
+# Subtest: disclosed v1 regression: single-quoted historical refusal with current affirmative request
+ok 40 - disclosed v1 regression: single-quoted historical refusal with current affirmative request
+  ---
+  duration_ms: 4.0697
+  type: 'test'
+  ...
+# Subtest: disclosed anti-trigger case recognizes the teaching request but still withholds the owner
+ok 41 - disclosed anti-trigger case recognizes the teaching request but still withholds the owner
+  ---
+  duration_ms: 4.9918
+  type: 'test'
+  ...
+# Subtest: a quoted historical teaching request is data, not the current request
+ok 42 - a quoted historical teaching request is data, not the current request
+  ---
+  duration_ms: 0.4891
+  type: 'test'
+  ...
+# Subtest: direct refusal of the teaching-model task does not trigger the new intent
+ok 43 - direct refusal of the teaching-model task does not trigger the new intent
+  ---
+  duration_ms: 0.2771
+  type: 'test'
+  ...
+# Subtest: a current affirmative clause after a direct refusal remains eligible
+ok 44 - a current affirmative clause after a direct refusal remains eligible
+  ---
+  duration_ms: 5.5281
+  type: 'test'
+  ...
+# Subtest: a downstream student audience and descriptive model report do not imply a teaching-design request
+ok 45 - a downstream student audience and descriptive model report do not imply a teaching-design request
+  ---
+  duration_ms: 0.393
+  type: 'test'
+  ...
+# Subtest: an explanatory classroom goal without an explorable or manipulable artifact stays outside this profile
+ok 46 - an explanatory classroom goal without an explorable or manipulable artifact stays outside this profile
+  ---
+  duration_ms: 0.1934
+  type: 'test'
+  ...
+# Subtest: metadata-backed matching follows the matching owner if its identifier changes
+ok 47 - metadata-backed matching follows the matching owner if its identifier changes
+  ---
+  duration_ms: 0.4275
+  type: 'test'
+  ...
+# Subtest: a reference-only or unrelated-metadata decoy cannot receive learner-model intent
+ok 48 - a reference-only or unrelated-metadata decoy cannot receive learner-model intent
+  ---
+  duration_ms: 0.2054
+  type: 'test'
+  ...
+# Subtest: host need=none still abstains for an otherwise eligible learner-model request
+ok 49 - host need=none still abstains for an otherwise eligible learner-model request
+  ---
+  duration_ms: 0.7689
+  type: 'test'
+  ...
+# Subtest: corroborated requested teaching activity precedes incidental higher keyword score
+ok 50 - corroborated requested teaching activity precedes incidental higher keyword score
+  ---
+  duration_ms: 17.3189
+  type: 'test'
+  ...
+# Subtest: request priority follows actual matching metadata, not a skill identifier
+ok 51 - request priority follows actual matching metadata, not a skill identifier
+  ---
+  duration_ms: 5.5958
+  type: 'test'
+  ...
+# Subtest: same identifier without corroborating owner metadata receives no priority
+ok 52 - same identifier without corroborating owner metadata receives no priority
+  ---
+  duration_ms: 4.7477
+  type: 'test'
+  ...
+# Subtest: equal-priority equal-score candidates still use deterministic identifier tie breaking
+ok 53 - equal-priority equal-score candidates still use deterministic identifier tie breaking
+  ---
+  duration_ms: 1.773
+  type: 'test'
+  ...
+# Subtest: priority cannot bypass host no-need, category, task or anti-trigger exclusions
+ok 54 - priority cannot bypass host no-need, category, task or anti-trigger exclusions
+  ---
+  duration_ms: 9.2001
+  type: 'test'
+  ...
+# Subtest: rather-than refusal remains intact through clause preparation
+ok 55 - rather-than refusal remains intact through clause preparation
+  ---
+  duration_ms: 0.4861
+  type: 'test'
+  ...
+# Subtest: ordinary refusal remains negative while a genuinely affirmative request remains eligible
+ok 56 - ordinary refusal remains negative while a genuinely affirmative request remains eligible
+  ---
+  duration_ms: 0.3935
+  type: 'test'
+  ...
+# Subtest: rather-than refusal followed by a separate affirmative request retains only the live teaching request
+ok 57 - rather-than refusal followed by a separate affirmative request retains only the live teaching request
+  ---
+  duration_ms: 5.1822
+  type: 'test'
+  ...
+# Subtest: the literal educational projection keeps its exact prior catalog input
+ok 58 - the literal educational projection keeps its exact prior catalog input
+  ---
+  duration_ms: 3.9237
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P01: statistics-outlier-representation
+ok 59 - disclosed teaching regression E2-P01: statistics-outlier-representation
+  ---
+  duration_ms: 19.566
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P02: chemistry-equilibrium-tabletop
+ok 60 - disclosed teaching regression E2-P02: chemistry-equilibrium-tabletop
+  ---
+  duration_ms: 5.8785
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P03: astronomy-changing-viewpoint
+ok 61 - disclosed teaching regression E2-P03: astronomy-changing-viewpoint
+  ---
+  duration_ms: 6.4573
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P04: economics-fictional-market
+ok 62 - disclosed teaching regression E2-P04: economics-fictional-market
+  ---
+  duration_ms: 5.806
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P05: music-rhythm-sequencing
+ok 63 - disclosed teaching regression E2-P05: music-rhythm-sequencing
+  ---
+  duration_ms: 5.7054
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P06: geology-cross-section-exploration
+ok 64 - disclosed teaching regression E2-P06: geology-cross-section-exploration
+  ---
+  duration_ms: 4.5048
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P07: algebra-basis-vector-geometry
+ok 65 - disclosed teaching regression E2-P07: algebra-basis-vector-geometry
+  ---
+  duration_ms: 3.9051
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P08: programming-call-stack-trace
+ok 66 - disclosed teaching regression E2-P08: programming-call-stack-trace
+  ---
+  duration_ms: 4.0477
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P09: civics-voting-rule-sandbox
+ok 67 - disclosed teaching regression E2-P09: civics-voting-rule-sandbox
+  ---
+  duration_ms: 4.3626
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P10: bookkeeping-transaction-effects
+ok 68 - disclosed teaching regression E2-P10: bookkeeping-transaction-effects
+  ---
+  duration_ms: 4.8342
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P11: ecology-food-web-dependencies
+ok 69 - disclosed teaching regression E2-P11: ecology-food-web-dependencies
+  ---
+  duration_ms: 6.0295
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-P12: geometry-foldable-net
+ok 70 - disclosed teaching regression E2-P12: geometry-foldable-net
+  ---
+  duration_ms: 4.4765
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-N01: educational-study-appraisal
+ok 71 - disclosed teaching regression E2-N01: educational-study-appraisal
+  ---
+  duration_ms: 7.4432
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-N02: production-simulator-operation
+ok 72 - disclosed teaching regression E2-N02: production-simulator-operation
+  ---
+  duration_ms: 7.4863
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-N03: renderer-only-repair
+ok 73 - disclosed teaching regression E2-N03: renderer-only-repair
+  ---
+  duration_ms: 7.8728
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-N04: education-administration-summary
+ok 74 - disclosed teaching regression E2-N04: education-administration-summary
+  ---
+  duration_ms: 7.1232
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-N05: ordinary-static-teaching
+ok 75 - disclosed teaching regression E2-N05: ordinary-static-teaching
+  ---
+  duration_ms: 4.984
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-N06: direct-refusal-current-alternative
+ok 76 - disclosed teaching regression E2-N06: direct-refusal-current-alternative
+  ---
+  duration_ms: 5.2102
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-N07: archived-quoted-assignment
+ok 77 - disclosed teaching regression E2-N07: archived-quoted-assignment
+  ---
+  duration_ms: 5.7755
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-N08: past-teaching-intent-replaced
+ok 78 - disclosed teaching regression E2-N08: past-teaching-intent-replaced
+  ---
+  duration_ms: 6.2742
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-N09: trainee-audience-validation-only
+ok 79 - disclosed teaching regression E2-N09: trainee-audience-validation-only
+  ---
+  duration_ms: 4.2194
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-C01: explicit-no-need
+ok 80 - disclosed teaching regression E2-C01: explicit-no-need
+  ---
+  duration_ms: 0.2223
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-C02: category-exclusion
+ok 81 - disclosed teaching regression E2-C02: category-exclusion
+  ---
+  duration_ms: 2.3818
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-C03: task-type-exclusion
+ok 82 - disclosed teaching regression E2-C03: task-type-exclusion
+  ---
+  duration_ms: 2.6202
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-C04: eligible-category-filter
+ok 83 - disclosed teaching regression E2-C04: eligible-category-filter
+  ---
+  duration_ms: 1.0231
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-C05: literal-protected-anti-trigger
+ok 84 - disclosed teaching regression E2-C05: literal-protected-anti-trigger
+  ---
+  duration_ms: 5.842
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-M01: education-and-scientific-validation
+ok 85 - disclosed teaching regression E2-M01: education-and-scientific-validation
+  ---
+  duration_ms: 3.0756
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-M02: education-and-accessibility-engineering
+ok 86 - disclosed teaching regression E2-M02: education-and-accessibility-engineering
+  ---
+  duration_ms: 3.4745
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-M03: public-exhibit-purpose-unresolved
+ok 87 - disclosed teaching regression E2-M03: public-exhibit-purpose-unresolved
+  ---
+  duration_ms: 2.4525
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression E2-M04: conditional-secondary-learning-subtask
+ok 88 - disclosed teaching regression E2-M04: conditional-secondary-learning-subtask
+  ---
+  duration_ms: 2.8024
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression F4-P01: grammar-reorderable-sentence
+ok 89 - disclosed teaching regression F4-P01: grammar-reorderable-sentence
+  ---
+  duration_ms: 2.8036
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression F4-P02: journalism-editable-framing
+ok 90 - disclosed teaching regression F4-P02: journalism-editable-framing
+  ---
+  duration_ms: 2.7893
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression F4-P03: logic-switchable-truth-board
+ok 91 - disclosed teaching regression F4-P03: logic-switchable-truth-board
+  ---
+  duration_ms: 3.0905
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression F4-P04: photography-aperture-exploration
+ok 92 - disclosed teaching regression F4-P04: photography-aperture-exploration
+  ---
+  duration_ms: 2.5616
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression F4-N01: training-model-reliability-only
+ok 93 - disclosed teaching regression F4-N01: training-model-reliability-only
+  ---
+  duration_ms: 4.9856
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression F4-N02: refused-workshop-current-notice
+ok 94 - disclosed teaching regression F4-N02: refused-workshop-current-notice
+  ---
+  duration_ms: 5.0535
+  type: 'test'
+  ...
+# Subtest: disclosed teaching regression F4-N03: quoted-instruction-as-record-data
+ok 95 - disclosed teaching regression F4-N03: quoted-instruction-as-record-data
+  ---
+  duration_ms: 7.0471
+  type: 'test'
+  ...
+1..95
+# tests 95
+# suites 0
+# pass 95
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 361.2524

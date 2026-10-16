@@ -1,0 +1,56 @@
+{
+  "id": "eternities-orpheus",
+  "category": "audio",
+  "summary": "Create provenance, transcription, alignment, timeline, and reviewable local media artifacts from supplied audio.",
+  "triggers": [
+    "audio provenance",
+    "transcription",
+    "speaker alignment",
+    "caption timing",
+    "media timeline",
+    "audio review packet",
+    "edit and mix supplied podcast narration dialogue with music masking and pause pacing",
+    "speech intelligibility editorial timing and encoded audio delivery checks"
+  ],
+  "antiTriggers": [
+    "biometric inference",
+    "voice impersonation or cloning",
+    "live capture without consent",
+    "authenticity or publication claim without source and review evidence"
+  ],
+  "taskTypes": [
+    "research",
+    "create",
+    "verify",
+    "communicate"
+  ],
+  "related": [
+    "eternities-muse",
+    "eternities-chorus",
+    "eternities-arcadia",
+    "eternities-logos",
+    "portable-speech-chunk-alignment"
+  ],
+  "resources": [
+    "references/supplied-audio-editorial-mix-v1.md",
+    "references/methods.md"
+  ],
+  "maturity": "instruction-reviewed",
+  "provenance": [
+    {
+      "kind": "authoring",
+      "source": "artifacts/qualification/cohesive-product-20261015/lane-a/ledger.json",
+      "note": "Original conditional addition references/supplied-audio-editorial-mix-v1.md and its entrypoint routing were independently authored for the cohesion release. Prior reviews do not apply to changed bytes; release review is recorded separately. No new source-rights clearance, runtime result or performance claim."
+    },
+    {
+      "kind": "source",
+      "source": "skills/eternities-orpheus/SKILL.md",
+      "note": "Historic entrypoint inspected for media intent, transcription, alignment, timeline, and specialist-boundary methods; prose was not copied."
+    },
+    {
+      "kind": "authoring",
+      "source": "product/skills/eternities-orpheus/SKILL.md",
+      "note": "Independent-authoring note: this entrypoint and reference are newly written for the universal product; no superiority or certification claim is made."
+    }
+  ]
+}

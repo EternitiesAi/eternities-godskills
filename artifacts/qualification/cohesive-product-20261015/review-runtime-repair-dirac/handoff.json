@@ -1,0 +1,59 @@
+{
+  "status": "READY_FOR_AVICENNA_INDEPENDENT_REVIEW",
+  "stable": true,
+  "head": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+  "changedFiles": [
+    "product/lib/discovery.mjs",
+    "tests/cohesive-discovery-runtime-repair.test.mjs",
+    "tests/wave29-atlas-serving-time-ranking-trace-v2.test.mjs",
+    "tests/wave29-atlas-serving-time-ranking-trace-v3.test.mjs"
+  ],
+  "checks": {
+    "focused": {
+      "tests": 200,
+      "pass": 200,
+      "fail": 0,
+      "command": "node --test --test-reporter=tap --test-skip-pattern \"actual search|rebuilt temporary\" tests/cohesive-discovery-runtime-repair.test.mjs tests/universal-wave7-discovery.test.mjs tests/wave29-atlas-serving-time-ranking-trace-v2.test.mjs tests/wave29-atlas-serving-time-ranking-trace-v3.test.mjs tests/cohesive-discovery-routing.test.mjs tests/cohesive-discovery-boundaries.test.mjs tests/cohesive-discovery-navigation.test.mjs tests/discovery-quality-20261003.test.mjs tests/discovery-selection-boundary-20261003.test.mjs tests/discovery-need-20261003.test.mjs tests/realtime-asset-discovery.test.mjs artifacts/qualification/cohesive-product-20261015/review-c-avicenna/review-regressions.test.mjs artifacts/qualification/cohesive-product-20261015/review-c-avicenna/camera-regression.test.mjs"
+    },
+    "syntax": "PASS",
+    "diffWhitespace": "PASS"
+  },
+  "currentCatalogSha256": "adfa5cfed9ac1c6a3ca8db26522e322aa5106ca031884a4de1d8a61dc1a41b36",
+  "authoredHashes": [
+    {
+      "path": "product/lib/discovery.mjs",
+      "beforeSha256": "4996700d80c125d06586f044260026954047cbbd412f43ef63e10ea8b2adcbd6",
+      "afterSha256": "ce74e5a9eafac393e8d39230f2d657847beac54a62574dea9df4303f7c0d4926",
+      "unchanged": false,
+      "archivedBeforeBytesVerified": true
+    },
+    {
+      "path": "tests/wave29-atlas-serving-time-ranking-trace-v2.test.mjs",
+      "beforeSha256": "5e9243dd13d3deb67fb60d11daa34ee0db5544a4a453f485ec0c6bbe2968c415",
+      "afterSha256": "542c066ac06b5cf89ae74ab582aec7afffb86e146ff6045afb0431e94acf47c3",
+      "unchanged": false,
+      "archivedBeforeBytesVerified": true
+    },
+    {
+      "path": "tests/wave29-atlas-serving-time-ranking-trace-v3.test.mjs",
+      "beforeSha256": "1a63abab0f5cfee21f22cbb6e7169ce082781e7838f41492ae0d7d6e0c514193",
+      "afterSha256": "b6de63423663dfc97e750b819f44e9c12fc862b8e30b656042d9dbe78648ffab",
+      "unchanged": false,
+      "archivedBeforeBytesVerified": true
+    },
+    {
+      "path": "tests/cohesive-discovery-runtime-repair.test.mjs",
+      "beforeSha256": null,
+      "afterSha256": "81ca1fc05fe426bee4f4988d81a4125ea1a856b5d621393ceca3ead1e8b1d5b3",
+      "newFile": true
+    }
+  ],
+  "independentAcceptance": false,
+  "parentBuildPerformed": false,
+  "knownLimits": [
+    "Finite lexical browser-lifecycle admission requires simulation/animation/frame-loop context.",
+    "Interatomic remains an incidental second result in the causal case, but must not become primary.",
+    "Educational historical projection handling remains with Nietzsche.",
+    "Generated release is expected stale pending parent build."
+  ]
+}

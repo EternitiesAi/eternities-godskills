@@ -1,0 +1,35 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {createHash} from 'node:crypto';
+import {execFileSync} from 'node:child_process';
+import assert from 'node:assert/strict';
+const here=path.dirname(fileURLToPath(import.meta.url)),root=path.resolve(here,'../../..');
+const sha=b=>createHash('sha256').update(b).digest('hex');
+const json=p=>JSON.parse(fs.readFileSync(path.join(here,p),'utf8'));
+const base='c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d';
+const git=(...args)=>execFileSync('git',['-C',root,...args],{maxBuffer:8*1024*1024});
+const a=json('lane-a/ledger.json'),b=json('lane-b/audit.json');
+const ids=fs.readdirSync(path.join(root,'product/skills')).sort();
+const audited=[...a.skills.map(x=>x.id),...b.decisions.map(x=>x.id)].sort();
+assert.equal(new Set(audited).size,93);assert.deepEqual(audited,ids);
+for(const x of a.skills)assert(x.readSet.some(y=>y.path===`product/skills/${x.id}/SKILL.md`&&y.inspection==='full-entrypoint-read'));
+for(const x of b.decisions)assert(x.inspection.startsWith('complete entrypoint'));
+const entries=ids.map(id=>{
+  const p=`product/skills/${id}/SKILL.md`,prior=sha(git('show',base+':'+p)),current=sha(fs.readFileSync(path.join(root,p)));
+  return {id,baselineSha256:prior,currentSha256:current,changed:prior!==current,authorLane:a.skills.some(x=>x.id===id)?'a':'b'};
+});
+assert.equal(entries.filter(x=>x.changed).length,19);
+const oldReferences=git('ls-tree','-r','--name-only',base,'product/skills').toString('utf8').trim().split(/\r?\n/).filter(x=>x.includes('/references/'));
+for(const p of oldReferences)assert.equal(sha(fs.readFileSync(path.join(root,p))),sha(git('show',base+':'+p)),'Historical reference changed: '+p);
+const protectedPaths=['src/adaptive-activation.mjs','policies/adaptive-activation.v1.json','artifacts/adaptive-activation/evidence.v1.json'];
+const protectedFiles=protectedPaths.map(p=>{
+  const actual=sha(fs.readFileSync(path.join(root,p)));assert.equal(actual,sha(git('show',base+':'+p)));return {path:p,sha256:actual};
+});
+const changed=git('diff','--name-only',base,'--','data','receipts','policies','evidence').toString('utf8').trim();
+assert.equal(changed,'','Historical corpus/receipt or policy tree changed');
+const report={status:'PASS',baseline:base,entrypoints:93,categories:21,completeEntrypointReadsReported:{a:37,b:56},changedEntrypoints:19,retainedEntrypoints:74,historicalReferenceFilesUnchanged:oldReferences.length,protectedFiles,entries,boundary:'Author body-level audits cover 93 entrypoints, not every reference or the research corpus. Independent changed-byte acceptance is separate. R10 remains 49,514 open obligations and163conflicts.'};
+const output=process.argv[2]??'coverage-verification.json';
+assert(/^[a-z][a-z0-9-]+\.json$/.test(output),'Use a new local receipt name');
+fs.writeFileSync(path.join(here,output),JSON.stringify(report,null,2)+'\n',{flag:'wx'});
+console.log(JSON.stringify({...report,entries:undefined,protectedFiles:undefined},null,2));

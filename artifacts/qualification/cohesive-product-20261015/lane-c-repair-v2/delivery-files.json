@@ -1,0 +1,111 @@
+{
+  "schema": "lane-c-repair-v2-delivery-v1",
+  "note": "Excludes itself; authoritative source/test hashes are in handoff.json and read-set.after.json.",
+  "entries": [
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c-repair-v2/ASSESSMENT.md",
+      "bytes": 7820,
+      "sha256": "2c8377da05c0e1c709de6ef9c2fea30e556c209bb23e8726e47fb3bfa81c19dc"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c-repair-v2/FINAL.md",
+      "bytes": 1361,
+      "sha256": "c85c4d7e300abedbab026e7a0f62a783da9061b094e7922bca1a914005f5a1da"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c-repair-v2/catalog.current-metadata.final.json",
+      "bytes": 293500,
+      "sha256": "707d3a358fbed75b71b794ff1c28eb43681a720615a1c22b40421851a0117c05"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c-repair-v2/catalog.current-metadata.frozen.json",
+      "bytes": 292549,
+      "sha256": "9c920df644c29fb6d58814f22722bf51a3e3640c7aff77fca9259fb2d33060ee"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c-repair-v2/code.before.json",
+      "bytes": 65964,
+      "sha256": "6c79550d6c2ee2d4f580d132f8cf629d5119614143b3b6b25ea4c655656b6728"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c-repair-v2/descriptive-faults.red.tap",
+      "bytes": 3857,
+      "sha256": "ff53692fa6c75d8831f1418dbc79f59d6ec3e07311952a82bda586777dd763be"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c-repair-v2/focused-final-metadata.tap",
+      "bytes": 42619,
+      "sha256": "57ff811bbfe14d9270e2450e6fa23e02c33e980002be0dbc4303f59688de9ba6"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c-repair-v2/focused-final.tap",
+      "bytes": 42621,
+      "sha256": "ed6105d45bb8085bcf4a98a4dfdddbe9009b2b6f0eff1ff9f95a8d0cb3fdd2ec"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c-repair-v2/focused-first-attempt.tap",
+      "bytes": 42341,
+      "sha256": "51b6c0f271f383802ead0020e53a8306825c328aaf465681125ec2a391e4988a"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c-repair-v2/focused-results.tap",
+      "bytes": 42341,
+      "sha256": "51b6c0f271f383802ead0020e53a8306825c328aaf465681125ec2a391e4988a"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c-repair-v2/handoff.json",
+      "bytes": 2938,
+      "sha256": "2b6aa88939bcdb4fc82430b6f17c7e19f363ff8a2ae74c01fe908508ccb86180"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c-repair-v2/matched-final-metadata.json",
+      "bytes": 175128,
+      "sha256": "4281c8efba6fc31ba15916298bcf6bc6107d71fa13b7e7cf033ae44debffc381"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c-repair-v2/matched-final.json",
+      "bytes": 175267,
+      "sha256": "caa403e90248f96ecb822b736139bb0eb12f3636b5874351ffaf28c9641116e7"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c-repair-v2/matched-first-attempt.json",
+      "bytes": 175075,
+      "sha256": "b03969a385e339707a72381fa886a70128361cd148d7baa0096246c7b0dd7b6e"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c-repair-v2/matched-results.json",
+      "bytes": 175075,
+      "sha256": "b03969a385e339707a72381fa886a70128361cd148d7baa0096246c7b0dd7b6e"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c-repair-v2/measure.mjs",
+      "bytes": 5540,
+      "sha256": "b695049d7c2f76ff9bb3b42d1f15cbbefb06e86815aa8d93a67e8aa68d298926"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c-repair-v2/metadata-drift-observed.json",
+      "bytes": 44048,
+      "sha256": "0137781486ba63fe37fa5ef9a44dbde245bd6df5b41682481cc0d1dba29a6237"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c-repair-v2/read-set.after.json",
+      "bytes": 39674,
+      "sha256": "0a05af2d6e441c50dce85f2ccb46cd0bdafa47760b96ecdbd577e44065d11b4a"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c-repair-v2/read-set.before.json",
+      "bytes": 32313,
+      "sha256": "33d9adef37e591a97e5918018d8a9b0309bab09650f26e37749ab2d5cba6b295"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c-repair-v2/read-set.final-inputs.json",
+      "bytes": 18058,
+      "sha256": "a58a04d977882f1b8a98c238f1d380229b24fdeb33372326988f38cee83b7534"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c-repair-v2/regressions.red.tap",
+      "bytes": 30550,
+      "sha256": "f2c392488ad09afb3c6755c4076b898421cd4d242ebdce931d70c16a73f3e932"
+    }
+  ]
+}

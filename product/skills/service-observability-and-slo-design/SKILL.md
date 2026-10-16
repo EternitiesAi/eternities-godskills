@@ -64,3 +64,7 @@ performed changes and test results. Finish when the requested design is usable
 or the implemented measurements reproduce expected outcomes within the stated
 environment. Mark proposed targets and untested notification paths; fixture
 success does not establish live reliability or authorize release decisions.
+
+## Conditional method
+
+When label growth threatens a concrete telemetry budget, read [telemetry cardinality](references/telemetry-cardinality-budget-v1.md). Separate observed series, possible combinations and churn, and preserve the operational query and error population when changing representation.

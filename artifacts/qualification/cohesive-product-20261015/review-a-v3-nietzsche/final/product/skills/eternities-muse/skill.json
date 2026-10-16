@@ -1,0 +1,77 @@
+{
+  "id": "eternities-muse",
+  "category": "design",
+  "summary": "Direct visual forensics, interface direction, operational data views, motion, accessibility, and rendered acceptance through coherent evidence.",
+  "triggers": [
+    "visual forensics",
+    "interface art direction",
+    "translate mood references into layout typography real content and responsive composition",
+    "motion story",
+    "visual acceptance",
+    "accessibility audit",
+    "rendered geometry",
+    "materialized view freshness visualization",
+    "connection pool saturation waiter queue visualization",
+    "retry attempts backoff timeline visualization",
+    "consistent hash ring ownership key migration visualization",
+    "nodes own keys before after rebalancing visualization"
+  ],
+  "antiTriggers": [
+    "routine spacing edit",
+    "direct final-image generation",
+    "ordinary graphics debugging",
+    "visual claim from one hero frame"
+  ],
+  "taskTypes": [
+    "research",
+    "plan",
+    "create",
+    "verify"
+  ],
+  "related": [
+    "eternities-arcadia",
+    "eternities-atlas",
+    "eternities-chorus",
+    "eternities-daedalus",
+    "eternities-hermes",
+    "eternities-orpheus",
+    "scene-continuity-and-coverage"
+  ],
+  "resources": [
+    "references/art-direction-to-layout-v1.md",
+    "references/methods.md"
+  ],
+  "maturity": "instruction-reviewed",
+  "provenance": [
+    {
+      "kind": "authoring",
+      "source": "artifacts/qualification/cohesive-product-20261015/lane-a/ledger.json",
+      "note": "Original conditional addition references/art-direction-to-layout-v1.md and its entrypoint routing were independently authored for the cohesion release. Prior reviews do not apply to changed bytes; release review is recorded separately. No new source-rights clearance, runtime result or performance claim."
+    },
+    {
+      "kind": "source",
+      "source": "skills/eternities-muse/SKILL.md",
+      "note": "Historic entrypoint inspected for forensics, direction, motion, acceptance, and accessibility routes; prose was not copied."
+    },
+    {
+      "kind": "reference",
+      "source": "skills/eternities-muse/references/operating-contract.md",
+      "note": "Historic visual evidence, direction, motion, delegation, and acceptance contracts informed the rewrite."
+    },
+    {
+      "kind": "extension-map",
+      "source": "data/godskill-extensions.v1.json",
+      "note": "Current async-interface and rendered-spatial ownership, evidence, and output fields informed the methods."
+    },
+    {
+      "kind": "authoring",
+      "source": "product/skills/eternities-muse/SKILL.md",
+      "note": "Independent-authoring note: this entrypoint and reference are newly written for the universal product; no superiority or certification claim is made."
+    },
+    {
+      "kind": "source-review",
+      "source": "artifacts/universal-product-v1/wave14-visual/source-dispositions.md",
+      "note": "Four pinned operational-visualization patterns informed an original Muse method; one provider-specific image-generation workflow was rejected. The source packet and independent review are development evidence, not runtime dependencies."
+    }
+  ]
+}

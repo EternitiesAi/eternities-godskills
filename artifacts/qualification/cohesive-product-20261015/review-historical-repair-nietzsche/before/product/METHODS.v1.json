@@ -1,0 +1,555 @@
+{
+  "schema": "eternities-godskills-method-directory-v1",
+  "authority": "none",
+  "activation": "none",
+  "coverage": "selected-bundled-methods",
+  "methods": [
+    {
+      "id": "hermes-running-task-message-checkpoint",
+      "title": "Read new task messages from a saved position",
+      "owner": "eternities-hermes",
+      "resource": "skills/eternities-hermes/references/cursor-paged-task-messages.md",
+      "resourceSha256": "b3135e20f4ff67b3ac5593536eb4b14b59ff3d96608dc26090a6181862e6e2da",
+      "tasks": [
+        "Keep up with new messages from an authorized still-running task using a saved position instead of reloading the whole history"
+      ],
+      "exclusions": [
+        "Not warehouse or table ingestion, durable conversation-memory summarization, decoding bytes within one response, or authority to cancel a task"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Independent non-author document review included a manual task-feed planning application and four adjacent-owner exclusions. No live task-service or storage implementation was qualified.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact documented DRAFT method and conditional complete-owner fit under selected Markdown discovery; not global automatic routing, runtime, domain correctness or performance.",
+        "receipt": "evidence/method-reviews/conditional-v1/receipt.json",
+        "receiptSha256": "4b9860fa7d8020d819a0d522303194e8f8b593fd02794469b16799ba162d630b",
+        "report": "evidence/method-reviews/conditional-v1/review.md",
+        "reportSha256": "f6662e866e788e8a99c398d4632dd2e8e582fb606908bf57353e49ad5e9c57fd",
+        "resourceBinding": {
+          "pathPointer": "/methodBindings/0/path",
+          "sha256Pointer": "/methodBindings/0/sha256"
+        }
+      }
+    },
+    {
+      "id": "hermes-authorized-local-process-observation",
+      "title": "Observe a local command without invented progress",
+      "owner": "eternities-hermes",
+      "resource": "skills/eternities-hermes/references/truthful-cli-progress.md",
+      "resourceSha256": "d9bd1ebfd44178a4d33f0d1150b460aa4d6fa564177ea0ded1577ce4123c936c",
+      "tasks": [
+        "Report the state of an already-authorized local command while preserving its output channels and showing progress only from validated signals"
+      ],
+      "exclusions": [
+        "Not visual-only progress UI, accessibility announcements, schema-only producer-event design, or new process launch or cancellation authority"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Independent non-author document review included a manual process-observation planning application. No process wrapper, provider or live command was executed or qualified.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact documented DRAFT method and conditional complete-owner fit under selected Markdown discovery; not global automatic routing, runtime, domain correctness or performance.",
+        "receipt": "evidence/method-reviews/conditional-v1/receipt.json",
+        "receiptSha256": "4b9860fa7d8020d819a0d522303194e8f8b593fd02794469b16799ba162d630b",
+        "report": "evidence/method-reviews/conditional-v1/review.md",
+        "reportSha256": "f6662e866e788e8a99c398d4632dd2e8e582fb606908bf57353e49ad5e9c57fd",
+        "resourceBinding": {
+          "pathPointer": "/methodBindings/1/path",
+          "sha256Pointer": "/methodBindings/1/sha256"
+        }
+      }
+    },
+    {
+      "id": "math-supplied-prose-specification-draft",
+      "title": "Extract a source-linked mathematical specification",
+      "owner": "symbolic-mathematics-python",
+      "resource": "skills/symbolic-mathematics-python/references/source-grounded-math-specification.md",
+      "resourceSha256": "edbbb063b3550619cfe216db64a96611c14839fcf61e2f24f13ca9d2ecebdb20",
+      "tasks": [
+        "Turn supplied prose with stated mathematical relations into a source-linked specification draft, leaving unknown units, domains and conflicts for separate review"
+      ],
+      "exclusions": [
+        "Not prose-only outlines, qualitative interview extraction, coordinate or unit-value validation, source-truth appraisal, or solving an already-declared equation"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Independent non-author document review included a source-linked draft from a synthetic three-line fixture and three non-method exclusions. Mathematical domain review remains pending; no solver or real-source validation.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact documented DRAFT method and conditional complete-owner fit under selected Markdown discovery; not global automatic routing, runtime, domain correctness or performance.",
+        "receipt": "evidence/method-reviews/conditional-v1/receipt.json",
+        "receiptSha256": "4b9860fa7d8020d819a0d522303194e8f8b593fd02794469b16799ba162d630b",
+        "report": "evidence/method-reviews/conditional-v1/review.md",
+        "reportSha256": "f6662e866e788e8a99c398d4632dd2e8e582fb606908bf57353e49ad5e9c57fd",
+        "resourceBinding": {
+          "pathPointer": "/methodBindings/2/path",
+          "sha256Pointer": "/methodBindings/2/sha256"
+        }
+      }
+    },
+    {
+      "id": "daedalus-optional-model-scenario-ci",
+      "title": "Separate optional model scenarios from required CI",
+      "owner": "eternities-daedalus",
+      "resource": "skills/eternities-daedalus/references/optional-model-scenarios-ci.md",
+      "resourceSha256": "982db0a3b6811f7b7fde0fa6b31e06e3df0ed86bbf9dc9826209dc52877b61d8",
+      "tasks": [
+        "Keep explicitly optional live-model scenarios separate from mandatory deterministic CI while retaining paid-provider and required-acceptance gates"
+      ],
+      "exclusions": [
+        "A required live or paid acceptance test is not optional; this method does not authorize provider calls or qualify CI or merge configuration"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Independent document review included three planning applications and bounded copied-product checks; no live CI or provider execution.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact documented DRAFT optional-scenario selection and conditional owner handoff; not live CI, provider execution or redesign of a required acceptance gate.",
+        "receipt": "evidence/method-reviews/daedalus-v1/receipt.json",
+        "receiptSha256": "a0b2a8ac4611c327a40517cc588079d79cb4402416b14fd8c7f512cab6b373b0",
+        "report": "evidence/method-reviews/daedalus-v1/review.md",
+        "reportSha256": "4e945d60805c10be19a8d0a8e8f974e7d75a3968a9dd7dc60e13a820e6ae10ed",
+        "resourceBinding": {
+          "pathPointer": "/methodBindings/0/path",
+          "sha256Pointer": "/methodBindings/0/sha256"
+        }
+      }
+    },
+    {
+      "id": "arcadia-game-state-audio-cues",
+      "title": "Game-state to audio-cue design",
+      "owner": "eternities-arcadia",
+      "resource": "skills/eternities-arcadia/references/game-state-to-audio-cue.md",
+      "resourceSha256": "f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f",
+      "tasks": [
+        "Map gameplay states to sound, silence, cue interruption and muted alternatives"
+      ],
+      "exclusions": [
+        "Not supplied DSP-code analysis, media rights, or automatic audio implementation"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Three planning packets reported by the reviewer; no game/audio runtime or human listening was performed.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact documented DRAFT game-state cue design and acceptance-planning method; not play, audibility, accessibility or runtime qualification.",
+        "receipt": "evidence/method-reviews/arcadia-v2/receipt.json",
+        "receiptSha256": "fceb06922f496de2e2861725f25a3e9d3e24a5840cbe9c68e613099d9b2fed57",
+        "report": "evidence/method-reviews/arcadia-v2/review.md",
+        "reportSha256": "150a4011cdec776e5a25268d413bf18381a6a13bb770bc3cb630fe4c55c5f5ff",
+        "resourceBinding": {
+          "pathPointer": "/candidateIdentity/methodPath",
+          "sha256Pointer": "/candidateIdentity/methodSha256"
+        }
+      }
+    },
+    {
+      "id": "atlas-serving-time-decision-trace",
+      "title": "Serving-time ranking decision trace",
+      "owner": "eternities-atlas",
+      "resource": "skills/eternities-atlas/references/serving-time-ranking-decision-trace.md",
+      "resourceSha256": "4a4ed718c0879126b1d30cf9c2f2c5f469cbe730e72d4103e9784ee5a7c5a496",
+      "tasks": [
+        "Explain one feed, recommendation or notification-shortlist decision at its serving time"
+      ],
+      "exclusions": [
+        "Not prospect scoring, retrieved-passage reranking, scientific validation, or schema-only validation"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Package and bounded lexical checks observed; this review did not execute a live ranker or qualify recommendations.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact documented DRAFT one-decision trace guidance and scoped lexical routing repair; not ranking correctness, exposure, fairness or causal benefit.",
+        "receipt": "evidence/method-reviews/atlas-v3/receipt.json",
+        "receiptSha256": "d6acb24533810b956f05ef8aa9f72ca9caba40a83e5ac5992b97664cdff9ffa4",
+        "report": "evidence/method-reviews/atlas-v3/review.md",
+        "reportSha256": "92c5232b86ff42e4ffe20da76da5e9f42cc102234fee015b2decf1c5e484210c",
+        "resourceBinding": {
+          "pathPointer": "/method/path",
+          "sha256Pointer": "/method/sha256"
+        }
+      }
+    },
+    {
+      "id": "oracle-artifact-role-evidence",
+      "title": "Artifact-role evidence",
+      "owner": "eternities-oracle",
+      "resource": "skills/eternities-oracle/references/methods.md",
+      "anchor": "artifact-role-evidence-draft",
+      "resourceSha256": "ab1f3e8a23fa5929bcf8d25c119e25a275ffc752a119eb37cc9e9da78d339950",
+      "tasks": [
+        "Determine who authored, reviewed, approved or challenged an exact artifact version"
+      ],
+      "exclusions": [
+        "Permission to inspect a source is not approval of its artifact; this does not grant source access or reuse rights"
+      ],
+      "documentStatus": "not-assessed-by-this-overlay",
+      "executionEvidence": "The already shipped body remains explicitly DRAFT. This directory adds navigation, not a new review or execution claim.",
+      "outcomeStatus": "not-performance-qualified"
+    },
+    {
+      "id": "mnemosyne-local-evidence-lifecycle",
+      "title": "Local evidence-base lifecycle",
+      "owner": "eternities-mnemosyne",
+      "resource": "skills/eternities-mnemosyne/references/methods.md",
+      "anchor": "local-evidence-base-lifecycle-draft",
+      "resourceSha256": "9b3bff3a805b833a4e3d72495382efab8b99e31a0719178a17f03ed4aca02d86",
+      "tasks": [
+        "Recover, compare or preserve a named repository-local evidence or decision collection"
+      ],
+      "exclusions": [
+        "Ordinary file lookup and repository search are not lifecycle work; vendor research stays separate"
+      ],
+      "documentStatus": "not-assessed-by-this-overlay",
+      "executionEvidence": "The already shipped body remains explicitly DRAFT. This directory adds navigation, not a new review or execution claim.",
+      "outcomeStatus": "not-performance-qualified"
+    },
+    {
+      "id": "cohesive-commercial-driver-diagnosis-v1",
+      "title": "Diagnose commercial metric movement",
+      "owner": "eternities-prometheus",
+      "resource": "skills/eternities-prometheus/references/commercial-driver-diagnosis-v1.md",
+      "resourceSha256": "bdd16ac74bb01c88864e6d76080fd05d833eb9be1324322f27aaaec8350165f2",
+      "tasks": [
+        "Reconcile revenue or customer-metric movement before choosing an intervention"
+      ],
+      "exclusions": [
+        "Not settled arithmetic, causal-effect certification or permission to spend"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact conditional method and owner integration reviewed separately from execution, adoption and performance.",
+        "receipt": "evidence/method-reviews/cohesive-v1/receipt.json",
+        "receiptSha256": "08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527",
+        "report": "evidence/method-reviews/cohesive-v1/report.md",
+        "reportSha256": "34fcaa938d782298412dfe554d3da6733c997a3a24b47693c61e1cd3f5313bd3",
+        "resourceBinding": {
+          "pathPointer": "/methodBindings/0/path",
+          "sha256Pointer": "/methodBindings/0/sha256"
+        }
+      }
+    },
+    {
+      "id": "cohesive-positioning-to-message-v1",
+      "title": "Turn positioning into useful copy",
+      "owner": "eternities-beacon",
+      "resource": "skills/eternities-beacon/references/positioning-to-message-v1.md",
+      "resourceSha256": "57da15f76572e5af9dde41cf4c5703d83f045cbb701b0284dfcd45d8e46c94d8",
+      "tasks": [
+        "Write a supportable promise and actual copy against the buyer's real alternative"
+      ],
+      "exclusions": [
+        "Not a routine factual copy edit or proof of demand or conversion lift"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact conditional method and owner integration reviewed separately from execution, adoption and performance.",
+        "receipt": "evidence/method-reviews/cohesive-v1/receipt.json",
+        "receiptSha256": "08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527",
+        "report": "evidence/method-reviews/cohesive-v1/report.md",
+        "reportSha256": "34fcaa938d782298412dfe554d3da6733c997a3a24b47693c61e1cd3f5313bd3",
+        "resourceBinding": {
+          "pathPointer": "/methodBindings/1/path",
+          "sha256Pointer": "/methodBindings/1/sha256"
+        }
+      }
+    },
+    {
+      "id": "cohesive-art-direction-to-layout-v1",
+      "title": "Turn art direction into a working layout",
+      "owner": "eternities-muse",
+      "resource": "skills/eternities-muse/references/art-direction-to-layout-v1.md",
+      "resourceSha256": "893b09898d51cf5bfcca7d0efa88d239466e04a7c6a68152d4158aab5fa2a140",
+      "tasks": [
+        "Translate visual references into a coherent responsive composition with real content"
+      ],
+      "exclusions": [
+        "Not a token list alone or evidence of human aesthetic acceptance"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact conditional method and owner integration reviewed separately from execution, adoption and performance.",
+        "receipt": "evidence/method-reviews/cohesive-v1/receipt.json",
+        "receiptSha256": "08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527",
+        "report": "evidence/method-reviews/cohesive-v1/report.md",
+        "reportSha256": "34fcaa938d782298412dfe554d3da6733c997a3a24b47693c61e1cd3f5313bd3",
+        "resourceBinding": {
+          "pathPointer": "/methodBindings/2/path",
+          "sha256Pointer": "/methodBindings/2/sha256"
+        }
+      }
+    },
+    {
+      "id": "cohesive-core-loop-playtest-v1",
+      "title": "Build and examine a repeatable core loop",
+      "owner": "eternities-arcadia",
+      "resource": "skills/eternities-arcadia/references/core-loop-playtest-v1.md",
+      "resourceSha256": "305e082e9e3d57729fe10e4ad9865b1468333e661f7530469ef17a70fc07490a",
+      "tasks": [
+        "Separate legibility, agency and development problems in a playable loop"
+      ],
+      "exclusions": [
+        "Not isolated runtime repair with settled design; designer walkthrough is not player observation"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact conditional method and owner integration reviewed separately from execution, adoption and performance.",
+        "receipt": "evidence/method-reviews/cohesive-v1/receipt.json",
+        "receiptSha256": "08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527",
+        "report": "evidence/method-reviews/cohesive-v1/report.md",
+        "reportSha256": "34fcaa938d782298412dfe554d3da6733c997a3a24b47693c61e1cd3f5313bd3",
+        "resourceBinding": {
+          "pathPointer": "/methodBindings/3/path",
+          "sha256Pointer": "/methodBindings/3/sha256"
+        }
+      }
+    },
+    {
+      "id": "cohesive-supplied-audio-editorial-mix-v1",
+      "title": "Edit and mix supplied audio",
+      "owner": "eternities-orpheus",
+      "resource": "skills/eternities-orpheus/references/supplied-audio-editorial-mix-v1.md",
+      "resourceSha256": "d52e3ecffe5e6134cc43f2296ed4c8e48963af8f02f513b605c5a7527ac6c1d9",
+      "tasks": [
+        "Improve a supplied narration or podcast through meaning-preserving edits and actual listening checks"
+      ],
+      "exclusions": [
+        "Not voice cloning, music generation, restoration certification or realtime DSP-code review"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact conditional method and owner integration reviewed separately from execution, adoption and performance.",
+        "receipt": "evidence/method-reviews/cohesive-v1/receipt.json",
+        "receiptSha256": "08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527",
+        "report": "evidence/method-reviews/cohesive-v1/report.md",
+        "reportSha256": "34fcaa938d782298412dfe554d3da6733c997a3a24b47693c61e1cd3f5313bd3",
+        "resourceBinding": {
+          "pathPointer": "/methodBindings/4/path",
+          "sha256Pointer": "/methodBindings/4/sha256"
+        }
+      }
+    },
+    {
+      "id": "cohesive-practice-and-transfer-v1",
+      "title": "Design contrastive practice and transfer",
+      "owner": "evidence-linked-learning-design",
+      "resource": "skills/evidence-linked-learning-design/references/practice-and-transfer-v1.md",
+      "resourceSha256": "8625e567db5d4f68c267bd4743e555885115fabcbd253b67f768e2031826aa9f",
+      "tasks": [
+        "Create worked reasoning, diagnostic feedback and fresh practice that tests the intended distinction"
+      ],
+      "exclusions": [
+        "A repeated revealed answer is not transfer; same-session success is not durable mastery"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact conditional method and owner integration reviewed separately from execution, adoption and performance.",
+        "receipt": "evidence/method-reviews/cohesive-v1/receipt.json",
+        "receiptSha256": "08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527",
+        "report": "evidence/method-reviews/cohesive-v1/report.md",
+        "reportSha256": "34fcaa938d782298412dfe554d3da6733c997a3a24b47693c61e1cd3f5313bd3",
+        "resourceBinding": {
+          "pathPointer": "/methodBindings/5/path",
+          "sha256Pointer": "/methodBindings/5/sha256"
+        }
+      }
+    },
+    {
+      "id": "cohesive-contrastive-calibration-v1",
+      "title": "Calibrate voice without changing meaning",
+      "owner": "voice-style-calibration",
+      "resource": "skills/voice-style-calibration/references/contrastive-calibration-v1.md",
+      "resourceSha256": "dc51820a975a4f6f1c75f69c70f96f7204b864cd662faf4516a9b1a71d2b7c40",
+      "tasks": [
+        "Translate authorized voice evidence into editing operations and compare controlled adaptations"
+      ],
+      "exclusions": [
+        "Not deceptive impersonation, universal voice rules or a mandatory process for one-line rewrites"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact conditional method and owner integration reviewed separately from execution, adoption and performance.",
+        "receipt": "evidence/method-reviews/cohesive-v1/receipt.json",
+        "receiptSha256": "08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527",
+        "report": "evidence/method-reviews/cohesive-v1/report.md",
+        "reportSha256": "34fcaa938d782298412dfe554d3da6733c997a3a24b47693c61e1cd3f5313bd3",
+        "resourceBinding": {
+          "pathPointer": "/methodBindings/6/path",
+          "sha256Pointer": "/methodBindings/6/sha256"
+        }
+      }
+    },
+    {
+      "id": "cohesive-diagnostic-experiments-v2",
+      "title": "Choose discriminating diagnostic experiments",
+      "owner": "eternities-phoenix",
+      "resource": "skills/eternities-phoenix/references/diagnostic-experiments-v2.md",
+      "resourceSha256": "0e90cd104135546419a996f0d1c0acd1e57f21ecc5c463225f9d86e7adfec227",
+      "tasks": [
+        "Separate competing fault explanations and challenge intermittent or overfit repairs"
+      ],
+      "exclusions": [
+        "A successful rerun is not causal proof; diagnosis alone does not authorize implementation"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact conditional method and owner integration reviewed separately from execution, adoption and performance.",
+        "receipt": "evidence/method-reviews/cohesive-v1/receipt.json",
+        "receiptSha256": "08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527",
+        "report": "evidence/method-reviews/cohesive-v1/report.md",
+        "reportSha256": "34fcaa938d782298412dfe554d3da6733c997a3a24b47693c61e1cd3f5313bd3",
+        "resourceBinding": {
+          "pathPointer": "/methodBindings/7/path",
+          "sha256Pointer": "/methodBindings/7/sha256"
+        }
+      }
+    },
+    {
+      "id": "cohesive-creator-slate-feasibility-v1",
+      "title": "Assemble a feasible creator campaign slate",
+      "owner": "eternities-beacon",
+      "resource": "skills/eternities-beacon/references/creator-slate-feasibility-v1.md",
+      "resourceSha256": "b1ab3ac4a2570311de7139e605e23cb8bfe122d89d578578288c1b1c8ed34dc1",
+      "tasks": [
+        "Combine supplied creators, deliverable roles, quotes and usage rights within an aggregate campaign budget"
+      ],
+      "exclusions": [
+        "Not hiring, automatic bookings, granted rights or invented unique audience reach"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact conditional method and owner integration reviewed separately from execution, adoption and performance.",
+        "receipt": "evidence/method-reviews/cohesive-v1/receipt.json",
+        "receiptSha256": "08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527",
+        "report": "evidence/method-reviews/cohesive-v1/report.md",
+        "reportSha256": "34fcaa938d782298412dfe554d3da6733c997a3a24b47693c61e1cd3f5313bd3",
+        "resourceBinding": {
+          "pathPointer": "/methodBindings/8/path",
+          "sha256Pointer": "/methodBindings/8/sha256"
+        }
+      }
+    },
+    {
+      "id": "cohesive-camera-driven-asset-iteration-v1",
+      "title": "Refine assets at their actual gameplay camera",
+      "owner": "eternities-arcadia",
+      "resource": "skills/eternities-arcadia/references/camera-driven-asset-iteration-v1.md",
+      "resourceSha256": "a1b65d62b70a689b3e7b1c06871588e4763a04d3987b9d5c833d5b3c7b6da52a",
+      "tasks": [
+        "Diagnose silhouette, material, motion and revision problems from the view where an asset is used"
+      ],
+      "exclusions": [
+        "Not mandatory realism, a new art style, or routine loading of an already approved asset"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact conditional method and owner integration reviewed separately from execution, adoption and performance.",
+        "receipt": "evidence/method-reviews/cohesive-v1/receipt.json",
+        "receiptSha256": "08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527",
+        "report": "evidence/method-reviews/cohesive-v1/report.md",
+        "reportSha256": "34fcaa938d782298412dfe554d3da6733c997a3a24b47693c61e1cd3f5313bd3",
+        "resourceBinding": {
+          "pathPointer": "/methodBindings/9/path",
+          "sha256Pointer": "/methodBindings/9/sha256"
+        }
+      }
+    },
+    {
+      "id": "cohesive-causal-design-before-estimation-v1",
+      "title": "Choose causal design before estimation",
+      "owner": "diagnostic-statistical-model-inference",
+      "resource": "skills/diagnostic-statistical-model-inference/references/causal-design-before-estimation-v1.md",
+      "resourceSha256": "9fd7004a3aefc4daf074dde37dea7d5a2b6fb1024ff4ae3c19461d5e89b24918",
+      "tasks": [
+        "Bind the estimand and available comparison to the assignment process before fitting a causal model"
+      ],
+      "exclusions": [
+        "Prediction alone is not this job; diagnostics cannot prove identifying assumptions"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact conditional method and owner integration reviewed separately from execution, adoption and performance.",
+        "receipt": "evidence/method-reviews/cohesive-v1/receipt.json",
+        "receiptSha256": "08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527",
+        "report": "evidence/method-reviews/cohesive-v1/report.md",
+        "reportSha256": "34fcaa938d782298412dfe554d3da6733c997a3a24b47693c61e1cd3f5313bd3",
+        "resourceBinding": {
+          "pathPointer": "/methodBindings/10/path",
+          "sha256Pointer": "/methodBindings/10/sha256"
+        }
+      }
+    },
+    {
+      "id": "cohesive-telemetry-cardinality-budget-v1",
+      "title": "Budget telemetry cardinality without losing the question",
+      "owner": "service-observability-and-slo-design",
+      "resource": "skills/service-observability-and-slo-design/references/telemetry-cardinality-budget-v1.md",
+      "resourceSha256": "c429085c14122d5a6f6b8e42328c0f944ef03f4db0a7cd669e64bcd19937b650",
+      "tasks": [
+        "Distinguish observed series, possible combinations and churn while retaining required diagnostic queries"
+      ],
+      "exclusions": [
+        "Theoretical series counts are not measured resource costs; hashing unique IDs does not reduce cardinality"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact conditional method and owner integration reviewed separately from execution, adoption and performance.",
+        "receipt": "evidence/method-reviews/cohesive-v1/receipt.json",
+        "receiptSha256": "08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527",
+        "report": "evidence/method-reviews/cohesive-v1/report.md",
+        "reportSha256": "34fcaa938d782298412dfe554d3da6733c997a3a24b47693c61e1cd3f5313bd3",
+        "resourceBinding": {
+          "pathPointer": "/methodBindings/11/path",
+          "sha256Pointer": "/methodBindings/11/sha256"
+        }
+      }
+    },
+    {
+      "id": "cohesive-reader-knowledge-and-reveal-revision-v1",
+      "title": "Revise reader knowledge and reveals",
+      "owner": "narrative-structure-and-revision",
+      "resource": "skills/narrative-structure-and-revision/references/reader-knowledge-and-reveal-revision-v1.md",
+      "resourceSha256": "8b8262deffa3e0bedce4fd330e899ed84ea5361cef34b5543cd09cc27002390a",
+      "tasks": [
+        "Revise actual passages by separating world facts, viewpoint beliefs and information available to the reader"
+      ],
+      "exclusions": [
+        "Not compulsory mystery structure or a claim of blind human response from an informed editor"
+      ],
+      "documentStatus": "independently-document-reviewed",
+      "executionEvidence": "Separate non-author document review and bounded worked applications; see the linked review for exact checks and limitations. No general performance or live-domain result is asserted.",
+      "outcomeStatus": "not-performance-qualified",
+      "review": {
+        "scope": "Exact conditional method and owner integration reviewed separately from execution, adoption and performance.",
+        "receipt": "evidence/method-reviews/cohesive-v1/receipt.json",
+        "receiptSha256": "08283963ab50a30e5264ca6b2cf6aee1af500372b1b7c03c8e1f2328e5b75527",
+        "report": "evidence/method-reviews/cohesive-v1/report.md",
+        "reportSha256": "34fcaa938d782298412dfe554d3da6733c997a3a24b47693c61e1cd3f5313bd3",
+        "resourceBinding": {
+          "pathPointer": "/methodBindings/12/path",
+          "sha256Pointer": "/methodBindings/12/sha256"
+        }
+      }
+    }
+  ]
+}

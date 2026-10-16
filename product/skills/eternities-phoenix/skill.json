@@ -37,10 +37,16 @@
   "resources": [
     "references/methods.md",
     "references/reproducible-bug-packets.md",
-    "references/trace-to-evaluation-cases.md"
+    "references/trace-to-evaluation-cases.md",
+    "references/diagnostic-experiments-v2.md"
   ],
   "maturity": "instruction-reviewed",
   "provenance": [
+    {
+      "kind": "authoring",
+      "source": "product/skills/eternities-phoenix/references/diagnostic-experiments-v2.md",
+      "note": "Original conditional diagnostic method for discriminating probes, controlled event ordering and neighboring repair controls. No external source prose, new rights clearance or live performance claim; release review is recorded separately."
+    },
     {
       "kind": "source",
       "source": "skills/eternities-phoenix/SKILL.md",

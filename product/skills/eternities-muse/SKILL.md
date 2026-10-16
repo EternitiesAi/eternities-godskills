@@ -10,7 +10,7 @@ Muse turns visual ambition into a coherent system with a visual law, semantic to
 ## Choose the route
 
 - **Visual forensics** extracts identity, tokens, components, layout, responsive states, accessibility, confidence, and reconstruction risks from supplied artifacts.
-- **Interface art direction** chooses one generative visual law and translates it into hierarchy, tokens, component grammar, breakpoints, states, signature moments, and implementation acceptance.
+- **Interface art direction** chooses one generative visual law and translates it into hierarchy, tokens, component grammar, breakpoints, states, signature moments, and implementation acceptance. For a direction that needs a working composition, use [art direction to layout](references/art-direction-to-layout-v1.md); compare directions with the same real content and derive responsive rules from the chosen composition.
 - **Motion story** gives each scene or transition a narrative job, visible cause, timing, reduced-motion equivalent, and device tier.
 - **Visual acceptance** freezes build, viewport, content, seed, camera, timing, and configuration, then checks states, temporal behavior, access, and budgets.
 - **Interface accessibility** audits or repairs semantics, keyboard order, focus, contrast, zoom, motion, async status, and fallback behavior with reproducible fixtures.

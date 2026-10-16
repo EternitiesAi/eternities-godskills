@@ -1,0 +1,204 @@
+{
+  "releaseId": "368d5a716bd3b8069ba5ba858f8db8f7fba8b19c36aa373fc62c19d8a2b55efb",
+  "cases": 13,
+  "baselineTop3": 8,
+  "candidateTop3": 13,
+  "rows": [
+    {
+      "id": "commercial",
+      "query": "Explain why our revenue fell last quarter and identify the next useful business action.",
+      "owner": "eternities-prometheus",
+      "ids": [
+        "eternities-prometheus",
+        "product-discovery-and-prioritization",
+        "cashflow-forecast-scenario-integrity"
+      ],
+      "pass": true,
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      }
+    },
+    {
+      "id": "positioning",
+      "query": "Turn our buyer alternatives and demonstrated product differences into credible positioning copy.",
+      "owner": "eternities-beacon",
+      "ids": [
+        "eternities-beacon",
+        "eternities-atlas",
+        "user-research-and-usability-study"
+      ],
+      "pass": true,
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      }
+    },
+    {
+      "id": "composition",
+      "query": "Translate this art direction into a responsive page layout using the real content.",
+      "owner": "eternities-muse",
+      "ids": [
+        "eternities-muse",
+        "motion-design-and-animation-engineering",
+        "interface-localization-and-bidirectionality"
+      ],
+      "pass": true,
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      }
+    },
+    {
+      "id": "game-loop",
+      "query": "Playtest the first repeatable game loop: players understand the controls but say their choices do not matter.",
+      "owner": "eternities-arcadia",
+      "ids": [
+        "eternities-arcadia",
+        "eternities-forge",
+        "geospatial-coordinate-integrity"
+      ],
+      "pass": true,
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      }
+    },
+    {
+      "id": "audio-edit",
+      "query": "Repair the pacing and mix of this supplied spoken-audio edit and check the encoded delivery.",
+      "owner": "eternities-orpheus",
+      "ids": [
+        "eternities-orpheus",
+        "audio-dsp-integrity-review",
+        "confirmed-destructive-reconstruction"
+      ],
+      "pass": true,
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      }
+    },
+    {
+      "id": "practice",
+      "query": "Create contrastive practice with useful feedback and a new-context transfer task for these learners.",
+      "owner": "evidence-linked-learning-design",
+      "ids": [
+        "evidence-linked-learning-design",
+        "eternities-mnemosyne",
+        "interface-localization-and-bidirectionality"
+      ],
+      "pass": true,
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      }
+    },
+    {
+      "id": "voice",
+      "query": "Turn these vague voice traits into concrete meaning-preserving edits and test a different register.",
+      "owner": "voice-style-calibration",
+      "ids": [
+        "voice-style-calibration",
+        "eternities-logos",
+        "formula-preserving-workbook-engineering"
+      ],
+      "pass": true,
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      }
+    },
+    {
+      "id": "diagnostic",
+      "query": "An intermittent settings bug survives the last repair; choose a probe that distinguishes storage, cache and client causes.",
+      "owner": "eternities-phoenix",
+      "ids": [
+        "eternities-phoenix",
+        "eternities-agora",
+        "bounded-verified-object-ingestion"
+      ],
+      "pass": true,
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      }
+    },
+    {
+      "id": "creator-slate",
+      "query": "Choose a feasible creator campaign slate that covers the required deliverables and all quoted usage fees.",
+      "owner": "eternities-beacon",
+      "ids": [
+        "eternities-beacon",
+        "measured-paid-creative-iteration",
+        "structured-output-contracts"
+      ],
+      "pass": true,
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      }
+    },
+    {
+      "id": "asset-camera",
+      "query": "Our character is readable in a turntable but disappears at the gameplay camera; improve its silhouette without changing the art style.",
+      "owner": "eternities-arcadia",
+      "ids": [
+        "eternities-arcadia",
+        "narrative-structure-and-revision",
+        "scene-continuity-and-coverage"
+      ],
+      "pass": true,
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      }
+    },
+    {
+      "id": "causal",
+      "query": "Choose a defensible treatment-effect design from this policy's assignment process before estimating the effect.",
+      "owner": "diagnostic-statistical-model-inference",
+      "ids": [
+        "diagnostic-statistical-model-inference",
+        "release-script-safety",
+        "eternities-athena"
+      ],
+      "pass": true,
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      }
+    },
+    {
+      "id": "cardinality",
+      "query": "Our metric label combinations are exploding; reduce series cardinality while preserving the operators' alert queries.",
+      "owner": "service-observability-and-slo-design",
+      "ids": [
+        "service-observability-and-slo-design",
+        "knowledge-base-architecture-and-maintenance",
+        "fp-ts-functional-refactoring"
+      ],
+      "pass": true,
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      }
+    },
+    {
+      "id": "reveal",
+      "query": "Revise this fiction reveal so readers can infer it from earlier clues without explaining away the intended mystery.",
+      "owner": "narrative-structure-and-revision",
+      "ids": [
+        "narrative-structure-and-revision",
+        "voice-style-calibration",
+        "schema-migration-and-backfill-safety"
+      ],
+      "pass": true,
+      "selection": {
+        "state": "review-required",
+        "basis": "lexical-candidates-only"
+      }
+    }
+  ],
+  "boundary": "Thirteen hand-selected task-wording cases frozen before metadata repairs; not general retrieval accuracy or semantic selection."
+}

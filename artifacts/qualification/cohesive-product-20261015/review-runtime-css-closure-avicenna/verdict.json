@@ -1,0 +1,55 @@
+{
+  "schema": "runtime-css-closure-avicenna-verdict-v1",
+  "decision": "READY",
+  "scope": "Bounded independent closure of RR1 CSS-form false positive; not universal routing or release qualification.",
+  "acceptedFiles": [
+    {
+      "path": "product/lib/discovery.mjs",
+      "sha256": "5078f81b1f8a4bb00436a1cc50bfaacb8307e5a852a9820ac0badc9e292f4fd4"
+    },
+    {
+      "path": "tests/cohesive-discovery-runtime-repair.test.mjs",
+      "sha256": "c2631a422675688a6b2a4d4391d8a3d425b3e8a1a9a5eda2b24c88b96dadd6a8"
+    }
+  ],
+  "closedFinding": "RR1",
+  "verification": {
+    "focusedMaintainedAndUnchangedRedTests": {
+      "pass": 95,
+      "fail": 0
+    },
+    "existingSixControls": {
+      "pass": 6,
+      "fail": 0,
+      "newInputsAdded": 0
+    },
+    "exactIdChecks": 93,
+    "noNeedFailures": [],
+    "inputDrift": [],
+    "watchedInputs": 186,
+    "previousReviewBytesPreserved": true,
+    "exactPriorSourceReconstructionHash": "ce74e5a9eafac393e8d39230f2d657847beac54a62574dea9df4303f7c0d4926",
+    "exactPriorTestReconstructionHash": "81ca1fc05fe426bee4f4988d81a4125ea1a856b5d621393ceca3ead1e8b1d5b3"
+  },
+  "mechanism": "Browser/lifecycle plus simulation or explicit animation/render/frame loop. Bare animation no longer supplies domain admission; shader context and all other runtime predicates remain unchanged.",
+  "observed": {
+    "CSSForm": "Arcadia absent; no runtime-purpose reason. Accessibility and motion remain first/second.",
+    "frameLoop": "Saved F01 Arcadia rank1.",
+    "shader": "Saved F02 Arcadia rank1; maintained E2 renderer positive passes.",
+    "hiddenTab": "Original hidden-tab/pressed-keys maintained positive passes.",
+    "material": "Saved F06 interatomic rank1; current causal-owner maintained guard passes."
+  },
+  "tradeoff": "The old browser-visibility request mentioning only animation is deliberately excluded; adding explicit animation loop restores the maintained positive. This finite recall/selectivity choice is disclosed, not general semantic understanding.",
+  "historicalStatus": "Original runtime REPAIR, its red test/output, C v2 READY and original C REPAIR are unchanged.",
+  "outsideClosure": "Parent release.json already changed before this closure snapshot; recorded separately, stable throughout, not accepted as release validation here.",
+  "usage": "Ordinary usage was available on the single check. No model switching, fallback, credit purchase or retry.",
+  "effects": {
+    "writes": "Only review-runtime-css-closure-avicenna/",
+    "productEdits": false,
+    "build": false,
+    "fullSuite": false,
+    "install": false,
+    "providers": false,
+    "newAgents": false
+  }
+}

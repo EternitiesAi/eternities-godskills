@@ -1,0 +1,404 @@
+{
+  "recordedAt": "2026-10-16T05:01:44.510Z",
+  "boundary": "Exact local source/comparison/guidance bytes. Stage full reads additionally checked against pinned Git blob IDs; metadata and merely indexed entrypoints do not imply material reading. Product comparisons are snapshots, not parent integration authority.",
+  "historicalObservations": [
+    {
+      "path": "D:/03-ARSENAL/warehouse/REPOSITORY-INDEX.json",
+      "sha256": "7f8d58e9d3a8c606a74ae12026c9e1cfe732d2ca02904e825513bf7eb4ca3880",
+      "count": 2609,
+      "role": "original frozen identity-index read; digest retained in immutable discovery receipt"
+    }
+  ],
+  "files": [
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/cloutdesk__agents/LICENSE",
+      "sha256": "187ed86ad4bbe05ef459d868965541763a601feee7295127b839cb2ed85a134c",
+      "bytes": 1072,
+      "role": "license-full-read",
+      "source": "cloutdesk/agents"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/cloutdesk__agents/skills/proposal-drafting/SKILL.md",
+      "sha256": "4867fa18e8f2823aebc16b5147aeac84e548b833da5bb5c3e770f0242bdcb2c8",
+      "bytes": 2239,
+      "role": "skill-body-full-read",
+      "source": "cloutdesk/agents",
+      "gitBlobOid": "466571b07dbab10991020e384502d7437855a1ba",
+      "head": "a4f3451a07261da1e25dce93ae3bc509ae805b10"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/cloutdesk__agents/skills/talent-discovery/SKILL.md",
+      "sha256": "7917d2e4a1353a5a3ef39c9a774b40d8fcf8997c41bd688176f835dc8b9a8bea",
+      "bytes": 2332,
+      "role": "skill-body-full-read",
+      "source": "cloutdesk/agents",
+      "gitBlobOid": "3c177b369c2d1167bd8f5085e213d13399b3efb7",
+      "head": "a4f3451a07261da1e25dce93ae3bc509ae805b10"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/ericzakariasson__skills/LICENSE",
+      "sha256": "697296c1495f8313814220d5afb4bb429637654062bbeb7d4c981e8c42313971",
+      "bytes": 1073,
+      "role": "license-full-read",
+      "source": "ericzakariasson/skills"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/ericzakariasson__skills/skills/game-builder-blender-assets/SKILL.md",
+      "sha256": "4895be8b9702318085306b58cc3ed7380247f358f2eb6413218d0a03742d0aa4",
+      "bytes": 9484,
+      "role": "skill-body-full-read",
+      "source": "ericzakariasson/skills",
+      "gitBlobOid": "6afdc96f1088696bbb4e196dcbd9807ee60d6e9b",
+      "head": "090915f84d75a38c4d42fc3e5034e4fef94d8fbb"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/ericzakariasson__skills/skills/game-builder/SKILL.md",
+      "sha256": "6372dfdad555449545286aa1de0654894ad1e76525cfd22c65e4d53c8340059c",
+      "bytes": 13802,
+      "role": "skill-body-full-read",
+      "source": "ericzakariasson/skills",
+      "gitBlobOid": "e5ceee990c35f3cdfc59aabd2df147a33c0dacb0",
+      "head": "090915f84d75a38c4d42fc3e5034e4fef94d8fbb"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/RobLe3__cc-blender-skill/LICENSE",
+      "sha256": "53551803e298669de282d339c7e85ae64e6fbf370d07ca08105d8e0a2d2fbf3d",
+      "bytes": 1063,
+      "role": "license-full-read",
+      "source": "RobLe3/cc-blender-skill"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/RobLe3__cc-blender-skill/plugin/skills/blender-modeling/SKILL.md",
+      "sha256": "5ff43df5f31ef9189b23a9ddb074e58ecef49ef3723d150113e6eb0d66f95000",
+      "bytes": 14860,
+      "role": "skill-body-full-read",
+      "source": "RobLe3/cc-blender-skill",
+      "gitBlobOid": "e8df36fc279c92c2ba4714f0978eff7ad26501a0",
+      "head": "a2634b588e80265e796aa53f8ab178d75105c2af"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/RobLe3__cc-blender-skill/plugin/skills/blender-export/SKILL.md",
+      "sha256": "56b21cd6876bbcd5dd23f10f7ef82f99942495ec36f57a7a429ff9aa1701d285",
+      "bytes": 14784,
+      "role": "skill-body-full-read",
+      "source": "RobLe3/cc-blender-skill",
+      "gitBlobOid": "6a6706d423407b1a6fac90d4c1e3255e0a53a928",
+      "head": "a2634b588e80265e796aa53f8ab178d75105c2af"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/RobLe3__cc-blender-skill/plugin/skills/animation-quality-gate/SKILL.md",
+      "sha256": "86ffc68b672743e68a4be2f0341788aca937eac38016241a599ccb0f01c202c7",
+      "bytes": 2954,
+      "role": "skill-body-full-read",
+      "source": "RobLe3/cc-blender-skill",
+      "gitBlobOid": "1932467d196bc695b6c5ee8a5ad4015811f32826",
+      "head": "a2634b588e80265e796aa53f8ab178d75105c2af"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/xiaomihu1992__econometrics-skill/LICENSE",
+      "sha256": "4540eed9c4c8df315da5642c2ec6b7ab96a02ea63722696604327e20225c4d1c",
+      "bytes": 1075,
+      "role": "license-full-read",
+      "source": "xiaomihu1992/econometrics-skill"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/xiaomihu1992__econometrics-skill/SKILL.md",
+      "sha256": "5ecbba9c45698b43c61e77834c6a91f3cd50e4f7f9149af2c3121ec27e5aa9b3",
+      "bytes": 16637,
+      "role": "skill-body-full-read",
+      "source": "xiaomihu1992/econometrics-skill",
+      "gitBlobOid": "b13ab4972136c667abe3f40f1e89b02ce5fc608f",
+      "head": "f2cd97678e56cf8606a30f3e54dfe35365d31126"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/triggerdotdev__staff-engineering-skills/LICENSE",
+      "sha256": "ac8d4706ee328739b4ef4899774adb2ab85fc6c88b4f3da32190df2624c41dea",
+      "bytes": 10935,
+      "role": "license-full-read",
+      "source": "triggerdotdev/staff-engineering-skills"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/triggerdotdev__staff-engineering-skills/skills/staff-engineering-skills-cardinality/SKILL.md",
+      "sha256": "d93fe36cca8c7be1d729af2320f5f87e95a5438d7e6ef6497740a2dafbb99bbe",
+      "bytes": 7862,
+      "role": "skill-body-full-read",
+      "source": "triggerdotdev/staff-engineering-skills",
+      "gitBlobOid": "e1da9784b5485090a2ad0218fddc0a84266f1491",
+      "head": "597da099e4b7d07f53946cc393ca24ad9274d925"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/haowjy__creative-writing-skills/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "role": "license-full-read",
+      "source": "haowjy/creative-writing-skills"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/haowjy__creative-writing-skills/cw/skills/information-hierarchy/SKILL.md",
+      "sha256": "0b60f2eea86d0991c862572d90ef69220d92bd7435638fcf63a430bbbf24672d",
+      "bytes": 3579,
+      "role": "skill-body-full-read",
+      "source": "haowjy/creative-writing-skills",
+      "gitBlobOid": "049d298127abddebbaf15ecb687c0980ca71d829",
+      "head": "340b6838c961c9e87e63dfb12a5d8d56b080ad1f"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/haowjy__creative-writing-skills/skills/reader-sim/SKILL.md",
+      "sha256": "3c68115e7eb86e2614ebe821d158958881fcfa1acc953dc4998b514f363a7518",
+      "bytes": 2795,
+      "role": "skill-body-full-read",
+      "source": "haowjy/creative-writing-skills",
+      "gitBlobOid": "ebfc96a18f7d8c0509c421d06f0725975bb8fd1a",
+      "head": "340b6838c961c9e87e63dfb12a5d8d56b080ad1f"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/haowjy__creative-writing-skills/skills/writing-principles/SKILL.md",
+      "sha256": "0e4527012ada1af3c0c47a6f719ed967d82eea7d99bb5585ac38a97509459ba8",
+      "bytes": 5265,
+      "role": "skill-body-full-read",
+      "source": "haowjy/creative-writing-skills",
+      "gitBlobOid": "ee3645368997c2a1e42ca1615ae2679e4bbd90e7",
+      "head": "340b6838c961c9e87e63dfb12a5d8d56b080ad1f"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/haowjy__creative-writing-skills/skills/creative-writing-craft/SKILL.md",
+      "sha256": "78eb4bb789e3c98a4a837eaff4b0034d4102d2e8bd9c313ba081de8f00543f59",
+      "bytes": 1046,
+      "role": "skill-body-full-read",
+      "source": "haowjy/creative-writing-skills",
+      "gitBlobOid": "f8ebb651cb58eaf6d6e217831b1a0d20e03168e9",
+      "head": "340b6838c961c9e87e63dfb12a5d8d56b080ad1f"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/xiaomihu1992__econometrics-skill/references/method_selection.md",
+      "sha256": "1249e9fef22757f7c96fc25370744c1bf4a3c8725bdb27787900140f58e0614f",
+      "bytes": 9853,
+      "role": "reference-full-read",
+      "source": "xiaomihu1992/econometrics-skill",
+      "head": "f2cd97678e56cf8606a30f3e54dfe35365d31126",
+      "gitBlobOid": "242f6e63eb05ce6125fe6075a46c462d631f6fa1"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/xiaomihu1992__econometrics-skill/references/diagnostic_checklist.md",
+      "sha256": "400a50ae0458e25982c4d93733b057a3ff6b83e9a4fc645034592f52578badf7",
+      "bytes": 3641,
+      "role": "reference-full-read",
+      "source": "xiaomihu1992/econometrics-skill",
+      "head": "f2cd97678e56cf8606a30f3e54dfe35365d31126",
+      "gitBlobOid": "681aee9a0ac684b9ece8ec8a214568802ea89465"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/stage/haowjy__creative-writing-skills/skills/creative-writing-craft/resources/scene-construction.md",
+      "sha256": "fce22dd09fb5df23bcbc09ea0a4429ab91915c5a9fc3fa9b4df5d0af77f0a3f8",
+      "bytes": 2731,
+      "role": "reference-full-read",
+      "source": "haowjy/creative-writing-skills",
+      "head": "340b6838c961c9e87e63dfb12a5d8d56b080ad1f",
+      "gitBlobOid": "32a2ea1d207d7c1d7c230706168189ebfdc0ef21"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/START-HERE.md",
+      "sha256": "900b5b72fad4fdda396665218530d1caba050ccc23d20d72b8486f638ef797f8",
+      "bytes": 3763,
+      "role": "product-comparison-full-read"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/INDEX.md",
+      "sha256": "f0c9e65674673d21c1d46288dd5c1d02aaa3237423b63951cff5990c2861936e",
+      "bytes": 24509,
+      "role": "product-directory-partial-read"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/skills/eternities-agora/SKILL.md",
+      "sha256": "763bae5c52442699d9422e08ad68fdeb7466638f5bba5cbd6dfa04e1754da9ac",
+      "bytes": 4292,
+      "role": "product-comparison-full-read"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/skills/eternities-arcadia/SKILL.md",
+      "sha256": "caec30216514889af27b9d4edb6d3aed4cfe05c9e3e2fa6f2c5f37306528e377",
+      "bytes": 4388,
+      "role": "product-comparison-full-read"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/skills/eternities-arcadia/references/realtime-asset-integration.md",
+      "sha256": "a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41",
+      "bytes": 7028,
+      "role": "product-comparison-full-read"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/skills/diagnostic-statistical-model-inference/SKILL.md",
+      "sha256": "a65995b8649d28dc9e9ccd0bdfeb56799435c0eedb143b70590fb3f8b398c367",
+      "bytes": 3337,
+      "role": "product-comparison-full-read"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/skills/structured-output-contracts/SKILL.md",
+      "sha256": "0650ce7e3aaa652071cc53df6bc8d882fdf1f2359c0543a1b9e3e7d8bdafb668",
+      "bytes": 4677,
+      "role": "product-comparison-full-read"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/skills/service-observability-and-slo-design/SKILL.md",
+      "sha256": "6de3cf2118becf3082c2364dc60eded63a0b17bc5dabf37c42535b01c5c7a95b",
+      "bytes": 4140,
+      "role": "product-comparison-full-read"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/skills/narrative-structure-and-revision/SKILL.md",
+      "sha256": "78f2055cd08ca31fccdd779865267d939ba7763b1402e0133cd0ddb1a3d203ba",
+      "bytes": 3777,
+      "role": "product-comparison-full-read"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/skills/narrative-structure-and-revision/references/methods.md",
+      "sha256": "c3b81b2943fe88c72d8d821fc1037209f288c5d9ba2ac1fbf833414c5602567d",
+      "bytes": 5063,
+      "role": "product-comparison-full-read"
+    },
+    {
+      "path": "C:/Users/Dom/.agents/skills/sovereign-skill-refinery/SKILL.md",
+      "sha256": "3b129a831750723e0d42100d989ada2ed140481866ef8dc4e48865a7cea910c5",
+      "bytes": 4479,
+      "role": "curated-method-full-read"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/skills/.system/skill-creator/SKILL.md",
+      "sha256": "cccd291077ec57c6f50ca6529f0f3fb93212da09473effb2fcec808e81b21288",
+      "bytes": 15540,
+      "role": "curated-method-full-read"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/skills/.system/skill-creator/scripts/quick_validate.py",
+      "sha256": "6068513d924ed3559e186dfcdead7439129828dcf402167fd925c06dffbf2806",
+      "bytes": 4376,
+      "role": "validator-full-read-and-executed"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/catalog-c/agent-skills/marketingskills/skills/sales-enablement/SKILL.md",
+      "sha256": "811a8bb462be4e04344a0ed43d485cf124f2a339e3a53f3e6749bc185081a274",
+      "bytes": 20918,
+      "role": "reused-skill-body-full-read"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/catalog-c/agent-skills/marketingskills/LICENSE",
+      "sha256": "3bb73920cd10a04b0ce3f28b84bada69e9286d0c33cf654ff10c279409791aa9",
+      "bytes": 1090,
+      "role": "license-full-read"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/hunt/agent-skills-universal-wave-2-2026-08-28/K-Dense-AI__scientific-agent-skills/skills/statistical-analysis/SKILL.md",
+      "sha256": "fbdf7b662470dbbbcb13fc163db05a91200fd8d5b70a5b4bd29ca0460654f50a",
+      "bytes": 21378,
+      "role": "reused-skill-body-full-read"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/hunt/agent-skills-universal-wave-2-2026-08-28/K-Dense-AI__scientific-agent-skills/LICENSE.md",
+      "sha256": "5c793d8fe1c553d49c305f3c178ac360b6d32607bdf1bca06b10d3ba9881d78f",
+      "bytes": 1088,
+      "role": "license-full-read"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/REPOSITORY-INDEX.json",
+      "sha256": "24191bef1f568920ebfdb4d536a6512314d2f919f01615b63b45223efbb08dbe",
+      "bytes": 3170023,
+      "role": "identity-index-parsed-no-source-body-coverage"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/00-INDEX.md",
+      "sha256": "637a4a92db1b891ac7406f5e8a6fbdf9f8a06c9d8be78a80d976e91770b21673",
+      "bytes": 8178,
+      "role": "warehouse-overview-partial-read"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/metadata/AgentHouse-org__skills.json",
+      "sha256": "fd9f032abad1e18ad950a3b1247b2c5107a5ee8a02de2ce2810d2b9e6187253e",
+      "bytes": 6475,
+      "role": "public-api-metadata-only"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/metadata/ai-analyst-lab__ai-analyst.json",
+      "sha256": "68f803b6ab2abb32a37c05f94278449245a14fcaef82ff2e20a3b7c8bcea3e46",
+      "bytes": 6632,
+      "role": "public-api-metadata-only"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/metadata/cloutdesk__agents.json",
+      "sha256": "c1334a6328bdc9a04b993f1e7f6c2f025d5c04f060234328f02e58dd1d772266",
+      "bytes": 6337,
+      "role": "public-api-metadata-only"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/metadata/coreyhaines31__marketingskills.json",
+      "sha256": "2552f89a3eebb7be82e828d3e8be0f0656055b803cf28ef73b2c58099ce16264",
+      "bytes": 6148,
+      "role": "public-api-metadata-only"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/metadata/ericzakariasson__skills.json",
+      "sha256": "cbcd27d848d2e2f91fcab2744ae909ecb22813082a0908bbe8266184a0290f13",
+      "bytes": 5449,
+      "role": "public-api-metadata-only"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/metadata/haowjy__creative-writing-skills.json",
+      "sha256": "40308227abc846ef60181fe3746b83a54dd0c46272b098b55149023b4253d3ad",
+      "bytes": 5718,
+      "role": "public-api-metadata-only"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/metadata/jtydhr88__screenwriting-skills.json",
+      "sha256": "9acf05f6b49c2d86e40a05b8c8dd4a295646306df784bd7c1fa16e2ece10524b",
+      "bytes": 5718,
+      "role": "public-api-metadata-only"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/metadata/K-Dense-AI__scientific-agent-skills.json",
+      "sha256": "a8c61c56ff1b2f9d799d6429e7df66047aa239464d82b48fb4e3dbef07cb1359",
+      "bytes": 7548,
+      "role": "public-api-metadata-only"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/metadata/ProkStudio__skills.json",
+      "sha256": "b4ca198b1f3e43d5c1f499833247ce3cf8bbc252f5fe8842b455d1c2308f4d1c",
+      "bytes": 5080,
+      "role": "public-api-metadata-only"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/metadata/roble3__cc-blender-skill.json",
+      "sha256": "a070b8e85e5ebf79e59ea22dcd1088398c5e450587efb2a2beef8ff38e571eac",
+      "bytes": 5766,
+      "role": "public-api-metadata-only"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/metadata/triggerdotdev__staff-engineering-skills.json",
+      "sha256": "4594cf49185073683a2b3d2210062e246ee39ab2c39e566346901fc94e56cb4b",
+      "bytes": 7286,
+      "role": "public-api-metadata-only"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/metadata/xiaomihu1992__econometrics-skill.json",
+      "sha256": "5a570db511410ba42532f4fb2146714099890756f23c8f9e8ada23b7f6e04dd5",
+      "bytes": 6137,
+      "role": "public-api-metadata-only"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/cohort.freeze.json",
+      "sha256": "0b74519222a1395a3723def1afc60c41e7474abcf3bb165f8ef846c2ad5e0ea6",
+      "bytes": 3437,
+      "role": "operation-scope-and-identity-evidence"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/discovery.json",
+      "sha256": "7cde85f35bf590ce5764e1aaeeed5f933b2d95931125acc27363e87a24590a6f",
+      "bytes": 6078,
+      "role": "operation-scope-and-identity-evidence"
+    },
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/OPERATION.md",
+      "sha256": "803d3fad06d48b87c5ba9a8819c39543421fe887fe47a7915ff17d6a9be45fe3",
+      "bytes": 2081,
+      "role": "operation-scope-and-identity-evidence"
+    }
+  ]
+}

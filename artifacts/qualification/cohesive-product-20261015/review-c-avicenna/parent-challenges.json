@@ -1,0 +1,42 @@
+{
+  "schema": "review-c-avicenna-challenges-v1",
+  "baseline": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+  "options": {
+    "limit": 20
+  },
+  "note": "Parent-supplied two actual creation challenges plus reviewer scene-word controls; separate from frozen author and reviewer development sets.",
+  "cases": [
+    {
+      "id": "PC01",
+      "kind": "parent-creation",
+      "query": "Build a real-time Three.js shader flame with sparks and responsive controls",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "PC02",
+      "kind": "parent-creation",
+      "query": "Make a WebGL particle portal I can orbit",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "PC03",
+      "kind": "scene-word-control",
+      "query": "Build a real-time Three.js shader flame scene with sparks and responsive controls",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    },
+    {
+      "id": "PC04",
+      "kind": "scene-word-control",
+      "query": "Make a WebGL particle portal scene I can orbit",
+      "owner": "eternities-arcadia",
+      "expect": "include",
+      "need": "unknown"
+    }
+  ]
+}

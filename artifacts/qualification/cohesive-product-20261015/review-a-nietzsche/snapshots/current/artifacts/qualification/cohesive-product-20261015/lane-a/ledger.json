@@ -1,0 +1,1511 @@
+{
+  "schema": "cohesive-product-lane-a-v1",
+  "date": "2026-10-15",
+  "baselineCommit": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+  "branch": "feat/cohesive-product-20261015",
+  "ownership": "Lane A categories only; parent owns shared metadata generation, integration and release.",
+  "reservedNewSkillIds": [],
+  "newSkillDecision": "No new skill IDs: seven missing methods fit established entrypoints.",
+  "independentReview": "PENDING for every changed entrypoint, metadata addition and new method. Historical reviews apply only to their original bytes.",
+  "rights": "Existing provenance retained. Independently authored additions based on inspected first-party product methods; no acquired-source prose/code or warehouse bodies incorporated; no historical rights holds cleared.",
+  "frontierCheck": "2026-10-15 | not performed: delegated scope excludes external projects; no research-derived claims adopted.",
+  "skills": [
+    {
+      "id": "accessibility-audit-and-remediation",
+      "category": "design",
+      "files": [
+        {
+          "path": "product/skills/accessibility-audit-and-remediation/skill.json",
+          "sha256": "34832196f4d2fe6e0269d89af9213a46bc8cd4717712c525a39e48a1777902f4",
+          "bytes": 2380
+        },
+        {
+          "path": "product/skills/accessibility-audit-and-remediation/SKILL.md",
+          "sha256": "01bf60db9e2da9a7f1d36505d9fa60f9b925217ba362a522a4093c87dd5e73e9",
+          "bytes": 4027
+        },
+        {
+          "path": "product/skills/accessibility-audit-and-remediation/references/methods.md",
+          "sha256": "71d0f6cc2dfb5f0ff2d2f7f811c799ae6a3379d0b2673e2d2446d5f0685abafa",
+          "bytes": 4557
+        }
+      ],
+      "decision": "retain",
+      "reason": "Journey-level reproduction, dynamic focus ownership and distinct assistive-technology evidence already change repair choices.",
+      "newResource": null,
+      "readSet": [
+        {
+          "path": "product/skills/accessibility-audit-and-remediation/skill.json",
+          "sha256": "34832196f4d2fe6e0269d89af9213a46bc8cd4717712c525a39e48a1777902f4",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/accessibility-audit-and-remediation/SKILL.md",
+          "sha256": "01bf60db9e2da9a7f1d36505d9fa60f9b925217ba362a522a4093c87dd5e73e9",
+          "inspection": "full-entrypoint-read"
+        },
+        {
+          "path": "product/skills/accessibility-audit-and-remediation/references/methods.md",
+          "sha256": "71d0f6cc2dfb5f0ff2d2f7f811c799ae6a3379d0b2673e2d2446d5f0685abafa",
+          "inspection": "full-reference-read"
+        }
+      ]
+    },
+    {
+      "id": "agricultural-observation-and-trial",
+      "category": "agriculture",
+      "files": [
+        {
+          "path": "product/skills/agricultural-observation-and-trial/skill.json",
+          "sha256": "ee6e741e16650be93fcb245c8e2f75edf135d2ea79bdef29dfe184c56cdb933f",
+          "bytes": 1337
+        },
+        {
+          "path": "product/skills/agricultural-observation-and-trial/SKILL.md",
+          "sha256": "dad70e81edda0d52ada7e726b7e19375dc2a1f3251435be295d9a92992304f2d",
+          "bytes": 3397
+        }
+      ],
+      "decision": "retain",
+      "reason": "Matched local observations, laboratory method comparability and bounded controls avoid unsupported universal treatments.",
+      "newResource": null,
+      "readSet": [
+        {
+          "path": "product/skills/agricultural-observation-and-trial/skill.json",
+          "sha256": "ee6e741e16650be93fcb245c8e2f75edf135d2ea79bdef29dfe184c56cdb933f",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/agricultural-observation-and-trial/SKILL.md",
+          "sha256": "dad70e81edda0d52ada7e726b7e19375dc2a1f3251435be295d9a92992304f2d",
+          "inspection": "full-entrypoint-read"
+        }
+      ]
+    },
+    {
+      "id": "app-store-discovery-experiments",
+      "category": "marketing",
+      "files": [
+        {
+          "path": "product/skills/app-store-discovery-experiments/skill.json",
+          "sha256": "339762bee9feb3a7c55db745b80dd68b819be86fe036abb3e67736d4bef3e757",
+          "bytes": 2011
+        },
+        {
+          "path": "product/skills/app-store-discovery-experiments/SKILL.md",
+          "sha256": "43beef20c43bea5046f722e6b5d5fabd76a770a747bc1cf60eb2a598fd97c46c",
+          "bytes": 4658
+        }
+      ],
+      "decision": "retain",
+      "reason": "Storefront/version binding, causal-feature contrasts and exposure denominators support bounded listing decisions.",
+      "newResource": null,
+      "readSet": [
+        {
+          "path": "product/skills/app-store-discovery-experiments/skill.json",
+          "sha256": "339762bee9feb3a7c55db745b80dd68b819be86fe036abb3e67736d4bef3e757",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/app-store-discovery-experiments/SKILL.md",
+          "sha256": "43beef20c43bea5046f722e6b5d5fabd76a770a747bc1cf60eb2a598fd97c46c",
+          "inspection": "full-entrypoint-read"
+        }
+      ]
+    },
+    {
+      "id": "audio-dsp-integrity-review",
+      "category": "audio",
+      "files": [
+        {
+          "path": "product/skills/audio-dsp-integrity-review/skill.json",
+          "sha256": "c7f05ff43b354c2a79812ee8cbca9c833bfa9db7fe92ffdc2e4eca4d724adec9",
+          "bytes": 1851
+        },
+        {
+          "path": "product/skills/audio-dsp-integrity-review/SKILL.md",
+          "sha256": "f26dba4612e8a749a289f1df66f1481dd752d6db0aff63c1240d4b768269b7f2",
+          "bytes": 4085
+        }
+      ],
+      "decision": "retain",
+      "reason": "Separates deadline, numeric and graph evidence; transitive paths and host unknowns prevent false integrity verdicts.",
+      "newResource": null,
+      "readSet": [
+        {
+          "path": "product/skills/audio-dsp-integrity-review/skill.json",
+          "sha256": "c7f05ff43b354c2a79812ee8cbca9c833bfa9db7fe92ffdc2e4eca4d724adec9",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/audio-dsp-integrity-review/SKILL.md",
+          "sha256": "f26dba4612e8a749a289f1df66f1481dd752d6db0aff63c1240d4b768269b7f2",
+          "inspection": "full-entrypoint-read"
+        }
+      ]
+    },
+    {
+      "id": "bounded-parametric-design-iteration",
+      "category": "design",
+      "files": [
+        {
+          "path": "product/skills/bounded-parametric-design-iteration/skill.json",
+          "sha256": "cdd8b652379f4c3bee95a8452f6352c86ee930baabc0f2af91e87b51854ecf77",
+          "bytes": 1999
+        },
+        {
+          "path": "product/skills/bounded-parametric-design-iteration/SKILL.md",
+          "sha256": "3ebf155034e8f23d095204f8fb82efff24f7988785252a0ad47a9a9d80e26a0c",
+          "bytes": 3651
+        }
+      ],
+      "decision": "retain",
+      "reason": "Preserves comparable solved baselines, hard constraints and finite accept/rollback choices.",
+      "newResource": null,
+      "readSet": [
+        {
+          "path": "product/skills/bounded-parametric-design-iteration/skill.json",
+          "sha256": "cdd8b652379f4c3bee95a8452f6352c86ee930baabc0f2af91e87b51854ecf77",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/bounded-parametric-design-iteration/SKILL.md",
+          "sha256": "3ebf155034e8f23d095204f8fb82efff24f7988785252a0ad47a9a9d80e26a0c",
+          "inspection": "full-entrypoint-read"
+        }
+      ]
+    },
+    {
+      "id": "cashflow-forecast-scenario-integrity",
+      "category": "finance",
+      "files": [
+        {
+          "path": "product/skills/cashflow-forecast-scenario-integrity/skill.json",
+          "sha256": "6792423b54ff667e97bbe3acb6e7825f1c522a37fe9507f29f86fed926dc8bac",
+          "bytes": 2880
+        },
+        {
+          "path": "product/skills/cashflow-forecast-scenario-integrity/SKILL.md",
+          "sha256": "d2b85835f46ac7aba103a43d5ee6eb9ccfe2970f3d17a690e8e9a01fa655a66e",
+          "bytes": 4474
+        }
+      ],
+      "decision": "retain",
+      "reason": "Settlement events, fixed-base scenarios and intra-period liquidity already solve the timing problem without conflating profit and cash.",
+      "newResource": null,
+      "readSet": [
+        {
+          "path": "product/skills/cashflow-forecast-scenario-integrity/skill.json",
+          "sha256": "6792423b54ff667e97bbe3acb6e7825f1c522a37fe9507f29f86fed926dc8bac",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/cashflow-forecast-scenario-integrity/SKILL.md",
+          "sha256": "d2b85835f46ac7aba103a43d5ee6eb9ccfe2970f3d17a690e8e9a01fa655a66e",
+          "inspection": "full-entrypoint-read"
+        }
+      ]
+    },
+    {
+      "id": "customer-support-triage-and-resolution",
+      "category": "business",
+      "files": [
+        {
+          "path": "product/skills/customer-support-triage-and-resolution/skill.json",
+          "sha256": "8dea394c14591bd7ffc35443dc6b254a15b443667c7aee13aad328488f2fb0ae",
+          "bytes": 2122
+        },
+        {
+          "path": "product/skills/customer-support-triage-and-resolution/SKILL.md",
+          "sha256": "32f0615a91aa2ca3e5933c40e24aa80ae200b9b7394549bf37b42b1d1ba34be0",
+          "bytes": 2547
+        },
+        {
+          "path": "product/skills/customer-support-triage-and-resolution/references/methods.md",
+          "sha256": "769d48d3ca673694ee2024d7c745818b7e263232d9b281cb606c7b70312239e2",
+          "bytes": 3979
+        }
+      ],
+      "decision": "retain",
+      "reason": "Discriminating troubleshooting, impact-based routing and explicit customer-confirmation state form a usable resolution method.",
+      "newResource": null,
+      "readSet": [
+        {
+          "path": "product/skills/customer-support-triage-and-resolution/skill.json",
+          "sha256": "8dea394c14591bd7ffc35443dc6b254a15b443667c7aee13aad328488f2fb0ae",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/customer-support-triage-and-resolution/SKILL.md",
+          "sha256": "32f0615a91aa2ca3e5933c40e24aa80ae200b9b7394549bf37b42b1d1ba34be0",
+          "inspection": "full-entrypoint-read"
+        },
+        {
+          "path": "product/skills/customer-support-triage-and-resolution/references/methods.md",
+          "sha256": "769d48d3ca673694ee2024d7c745818b7e263232d9b281cb606c7b70312239e2",
+          "inspection": "full-reference-read"
+        }
+      ]
+    },
+    {
+      "id": "deterministic-video-composition-and-rendering",
+      "category": "audio",
+      "files": [
+        {
+          "path": "product/skills/deterministic-video-composition-and-rendering/skill.json",
+          "sha256": "4bef42d6dd7bda94a28ba939f013f7e9b9a6e62f1e3fe51ed9f03ad5e6056cbf",
+          "bytes": 2637
+        },
+        {
+          "path": "product/skills/deterministic-video-composition-and-rendering/SKILL.md",
+          "sha256": "ba96605ba3dda38c5fb4334ff8833a3d2083dddb387071c4e250d7bd42ef6a94",
+          "bytes": 4078
+        },
+        {
+          "path": "product/skills/deterministic-video-composition-and-rendering/references/methods.md",
+          "sha256": "aca6a4f916089d708eb4ef3ed8d63eee3f2b24847f766221b559ea861b360fb7",
+          "bytes": 5630
+        }
+      ],
+      "decision": "retain",
+      "reason": "Explicit clocks, seekability, job reconciliation and encoded-deliverable inspection cover implementation rather than just planning.",
+      "newResource": null,
+      "readSet": [
+        {
+          "path": "product/skills/deterministic-video-composition-and-rendering/skill.json",
+          "sha256": "4bef42d6dd7bda94a28ba939f013f7e9b9a6e62f1e3fe51ed9f03ad5e6056cbf",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/deterministic-video-composition-and-rendering/SKILL.md",
+          "sha256": "ba96605ba3dda38c5fb4334ff8833a3d2083dddb387071c4e250d7bd42ef6a94",
+          "inspection": "full-entrypoint-read"
+        },
+        {
+          "path": "product/skills/deterministic-video-composition-and-rendering/references/methods.md",
+          "sha256": "aca6a4f916089d708eb4ef3ed8d63eee3f2b24847f766221b559ea861b360fb7",
+          "inspection": "full-reference-read"
+        }
+      ]
+    },
+    {
+      "id": "docx-package-redline-and-render-verification",
+      "category": "writing",
+      "files": [
+        {
+          "path": "product/skills/docx-package-redline-and-render-verification/skill.json",
+          "sha256": "45fb23c86d2244350222c4842b2e6fdb1a276d603d8c26d960dad93132a409cd",
+          "bytes": 1865
+        },
+        {
+          "path": "product/skills/docx-package-redline-and-render-verification/SKILL.md",
+          "sha256": "e90da766438c21f06cc718d2dbeefb1dff920bbcfef0402cd3a5e94be32bffb8",
+          "bytes": 3283
+        }
+      ],
+      "decision": "retain",
+      "reason": "Package relationships, tracked changes and whole-document rendering address distinct failure modes.",
+      "newResource": null,
+      "readSet": [
+        {
+          "path": "product/skills/docx-package-redline-and-render-verification/skill.json",
+          "sha256": "45fb23c86d2244350222c4842b2e6fdb1a276d603d8c26d960dad93132a409cd",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/docx-package-redline-and-render-verification/SKILL.md",
+          "sha256": "e90da766438c21f06cc718d2dbeefb1dff920bbcfef0402cd3a5e94be32bffb8",
+          "inspection": "full-entrypoint-read"
+        }
+      ]
+    },
+    {
+      "id": "eternities-agora",
+      "category": "business",
+      "files": [
+        {
+          "path": "product/skills/eternities-agora/skill.json",
+          "sha256": "a59a8eee96b38029b3df31f564fb312b39f44a0716ad0b44f4fbdbaa89a8393f",
+          "bytes": 3977
+        },
+        {
+          "path": "product/skills/eternities-agora/SKILL.md",
+          "sha256": "763bae5c52442699d9422e08ad68fdeb7466638f5bba5cbd6dfa04e1754da9ac",
+          "bytes": 4292
+        },
+        {
+          "path": "product/skills/eternities-agora/references/business-decision-evidence.md",
+          "sha256": "9effd0372e4be72da4d9fdcd454e5b4c3ea313764f118f429b175e103f4ec188",
+          "bytes": 6287
+        },
+        {
+          "path": "product/skills/eternities-agora/references/methods.md",
+          "sha256": "a2df40b3388c5c4565c1d11276af478cf4e2b432a1551dcda5a94977f3daf1af",
+          "bytes": 1637
+        },
+        {
+          "path": "product/skills/eternities-agora/references/research-funding-proposal.md",
+          "sha256": "6bd7d41a9af3b40dc041ffeab73b8f692aba16910f4c72253e090ba451eee322",
+          "bytes": 7826
+        }
+      ],
+      "decision": "retain",
+      "reason": "Reversible identity reconciliation, stage-evidence distinctions and claim consistency provide account/proposal methods.",
+      "newResource": null,
+      "readSet": [
+        {
+          "path": "product/skills/eternities-agora/skill.json",
+          "sha256": "a59a8eee96b38029b3df31f564fb312b39f44a0716ad0b44f4fbdbaa89a8393f",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/eternities-agora/SKILL.md",
+          "sha256": "763bae5c52442699d9422e08ad68fdeb7466638f5bba5cbd6dfa04e1754da9ac",
+          "inspection": "full-entrypoint-read"
+        },
+        {
+          "path": "product/skills/eternities-agora/references/business-decision-evidence.md",
+          "sha256": "9effd0372e4be72da4d9fdcd454e5b4c3ea313764f118f429b175e103f4ec188",
+          "inspection": "full-reference-read"
+        },
+        {
+          "path": "product/skills/eternities-agora/references/methods.md",
+          "sha256": "a2df40b3388c5c4565c1d11276af478cf4e2b432a1551dcda5a94977f3daf1af",
+          "inspection": "full-reference-read"
+        },
+        {
+          "path": "product/skills/eternities-agora/references/research-funding-proposal.md",
+          "sha256": "6bd7d41a9af3b40dc041ffeab73b8f692aba16910f4c72253e090ba451eee322",
+          "inspection": "full-reference-read"
+        }
+      ]
+    },
+    {
+      "id": "eternities-arcadia",
+      "category": "games",
+      "files": [
+        {
+          "path": "product/skills/eternities-arcadia/skill.json",
+          "sha256": "084fc6687838807b69d4b95239ea906b2f7c1d5a8e3fbc7f6390906296db352c",
+          "bytes": 5937
+        },
+        {
+          "path": "product/skills/eternities-arcadia/SKILL.md",
+          "sha256": "9ec66ba0975124b95877f2ad0a852162008cfd624af2fe823d9752e478940c46",
+          "bytes": 4123
+        },
+        {
+          "path": "product/skills/eternities-arcadia/references/browser-runtime-lifecycle.md",
+          "sha256": "92f138939846c57ad5de1d36fd1c60d11341e29a91fcaecb03c942397ad93853",
+          "bytes": 4043
+        },
+        {
+          "path": "product/skills/eternities-arcadia/references/game-state-to-audio-cue.md",
+          "sha256": "f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f",
+          "bytes": 9247
+        },
+        {
+          "path": "product/skills/eternities-arcadia/references/methods.md",
+          "sha256": "57853439f2dbc6173e2b627b3d1cdd982c746f8376e86746b2745138b696dfc3",
+          "bytes": 1963
+        },
+        {
+          "path": "product/skills/eternities-arcadia/references/realtime-asset-integration.md",
+          "sha256": "a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41",
+          "bytes": 7028
+        },
+        {
+          "path": "product/skills/eternities-arcadia/references/requirement-screen-state-traceability.md",
+          "sha256": "e26439a9761aebd5fabd6ac65865744063c6ce0ae26aaaadcc7d7fdb93d1f34a",
+          "bytes": 6033
+        }
+      ],
+      "decision": "refine",
+      "reason": "Direction lists loop and experience dimensions but lacks a concrete method to distinguish unreadable action, weak choice and repetition fatigue in a first playable loop.",
+      "newResource": "references/core-loop-playtest-v1.md",
+      "readSet": [
+        {
+          "path": "product/skills/eternities-arcadia/skill.json",
+          "sha256": "084fc6687838807b69d4b95239ea906b2f7c1d5a8e3fbc7f6390906296db352c",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/eternities-arcadia/SKILL.md",
+          "sha256": "9ec66ba0975124b95877f2ad0a852162008cfd624af2fe823d9752e478940c46",
+          "inspection": "full-entrypoint-read"
+        },
+        {
+          "path": "product/skills/eternities-arcadia/references/browser-runtime-lifecycle.md",
+          "sha256": "92f138939846c57ad5de1d36fd1c60d11341e29a91fcaecb03c942397ad93853",
+          "inspection": "inventory-hash-only-not-read"
+        },
+        {
+          "path": "product/skills/eternities-arcadia/references/game-state-to-audio-cue.md",
+          "sha256": "f7eac8b067c0e4d46e2464e22d4d26db28572d24223a7af1114197cb9517935f",
+          "inspection": "inventory-hash-only-not-read"
+        },
+        {
+          "path": "product/skills/eternities-arcadia/references/methods.md",
+          "sha256": "57853439f2dbc6173e2b627b3d1cdd982c746f8376e86746b2745138b696dfc3",
+          "inspection": "full-reference-read"
+        },
+        {
+          "path": "product/skills/eternities-arcadia/references/realtime-asset-integration.md",
+          "sha256": "a56180e48130f2de6a513d67e67e256c60676a974d648070389430e134324b41",
+          "inspection": "inventory-hash-only-not-read"
+        },
+        {
+          "path": "product/skills/eternities-arcadia/references/requirement-screen-state-traceability.md",
+          "sha256": "e26439a9761aebd5fabd6ac65865744063c6ce0ae26aaaadcc7d7fdb93d1f34a",
+          "inspection": "inventory-hash-only-not-read"
+        }
+      ]
+    },
+    {
+      "id": "eternities-beacon",
+      "category": "marketing",
+      "files": [
+        {
+          "path": "product/skills/eternities-beacon/skill.json",
+          "sha256": "b92dd17b389a5cfb5b2213e6f4fdd26f44994aa50947601da9fdd7217734bdfd",
+          "bytes": 3516
+        },
+        {
+          "path": "product/skills/eternities-beacon/SKILL.md",
+          "sha256": "381ae1f0ffee855b14c8c2bda226bb57aa9147be1e7f9a68f94b231fb869a030",
+          "bytes": 3753
+        },
+        {
+          "path": "product/skills/eternities-beacon/references/creator-sponsorship-lifecycle.md",
+          "sha256": "4063b7c5ce3e283fbe6975b7644ffde1bf8283ce499ca77dc293e60bb7ba0d5e",
+          "bytes": 9064
+        },
+        {
+          "path": "product/skills/eternities-beacon/references/methods.md",
+          "sha256": "efe539cfe35bf9703869d43cdaddedd2b29edb14c72525a5c9645fcf2a0eb2ed",
+          "bytes": 1279
+        }
+      ],
+      "decision": "refine",
+      "reason": "Positioning route names differentiation and claims but has no worked method to derive a useful promise from alternatives, buyer circumstances and available proof.",
+      "newResource": "references/positioning-to-message-v1.md",
+      "readSet": [
+        {
+          "path": "product/skills/eternities-beacon/skill.json",
+          "sha256": "b92dd17b389a5cfb5b2213e6f4fdd26f44994aa50947601da9fdd7217734bdfd",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/eternities-beacon/SKILL.md",
+          "sha256": "381ae1f0ffee855b14c8c2bda226bb57aa9147be1e7f9a68f94b231fb869a030",
+          "inspection": "full-entrypoint-read"
+        },
+        {
+          "path": "product/skills/eternities-beacon/references/creator-sponsorship-lifecycle.md",
+          "sha256": "4063b7c5ce3e283fbe6975b7644ffde1bf8283ce499ca77dc293e60bb7ba0d5e",
+          "inspection": "inventory-hash-only-not-read"
+        },
+        {
+          "path": "product/skills/eternities-beacon/references/methods.md",
+          "sha256": "efe539cfe35bf9703869d43cdaddedd2b29edb14c72525a5c9645fcf2a0eb2ed",
+          "inspection": "full-reference-read"
+        }
+      ]
+    },
+    {
+      "id": "eternities-chorus",
+      "category": "social",
+      "files": [
+        {
+          "path": "product/skills/eternities-chorus/skill.json",
+          "sha256": "a282595b4593847fdd9a7c7e4ddc426a5da17095fbadec4065c39102efa6fe91",
+          "bytes": 2959
+        },
+        {
+          "path": "product/skills/eternities-chorus/SKILL.md",
+          "sha256": "f1e0d8964acb8dc267b8f3e51a3fbfde3b5b0c8a91aeebfb8517f1b068998d95",
+          "bytes": 3595
+        },
+        {
+          "path": "product/skills/eternities-chorus/references/methods.md",
+          "sha256": "18c1463e075a373f09e1dd6b6279ba33a44d6108a0ffb51786721e4d1b9174e7",
+          "bytes": 1186
+        },
+        {
+          "path": "product/skills/eternities-chorus/references/stakeholder-updates.md",
+          "sha256": "02abdb2d7e61dc08579003d4f6b2f48bb6f4b0aacd16e4eaaa81abc5d3e6554f",
+          "bytes": 3438
+        }
+      ],
+      "decision": "retain",
+      "reason": "Stakeholder reference already preserves meaning, action tense and recipient/reviewer separation; no duplicate voice method needed.",
+      "newResource": null,
+      "readSet": [
+        {
+          "path": "product/skills/eternities-chorus/skill.json",
+          "sha256": "a282595b4593847fdd9a7c7e4ddc426a5da17095fbadec4065c39102efa6fe91",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/eternities-chorus/SKILL.md",
+          "sha256": "f1e0d8964acb8dc267b8f3e51a3fbfde3b5b0c8a91aeebfb8517f1b068998d95",
+          "inspection": "full-entrypoint-read"
+        },
+        {
+          "path": "product/skills/eternities-chorus/references/methods.md",
+          "sha256": "18c1463e075a373f09e1dd6b6279ba33a44d6108a0ffb51786721e4d1b9174e7",
+          "inspection": "full-reference-read"
+        },
+        {
+          "path": "product/skills/eternities-chorus/references/stakeholder-updates.md",
+          "sha256": "02abdb2d7e61dc08579003d4f6b2f48bb6f4b0aacd16e4eaaa81abc5d3e6554f",
+          "inspection": "full-reference-read"
+        }
+      ]
+    },
+    {
+      "id": "eternities-logos",
+      "category": "writing",
+      "files": [
+        {
+          "path": "product/skills/eternities-logos/skill.json",
+          "sha256": "f086c026d19a06946e5b84d7642c98bd43dc7acd72bcb4b274f8ca9263902d4e",
+          "bytes": 3815
+        },
+        {
+          "path": "product/skills/eternities-logos/SKILL.md",
+          "sha256": "f5c84a715a574c350c06b8dc6ee485e43846c2cabd12f39e94cc8ae8cf07b5ba",
+          "bytes": 4532
+        },
+        {
+          "path": "product/skills/eternities-logos/references/methods.md",
+          "sha256": "a79d6f724763afab227f6d9d347b2dad51031eefa1303284466df2eda8492ce3",
+          "bytes": 8493
+        },
+        {
+          "path": "product/skills/eternities-logos/references/staged-literature-synthesis.md",
+          "sha256": "ce55918cf0966beab0c4103a8cc2de69c517c7581c22320bfa2009d86b145c78",
+          "bytes": 18254
+        }
+      ],
+      "decision": "retain",
+      "reason": "Sourced documentation, slide and conversion procedures complement the dedicated narrative and voice skills.",
+      "newResource": null,
+      "readSet": [
+        {
+          "path": "product/skills/eternities-logos/skill.json",
+          "sha256": "f086c026d19a06946e5b84d7642c98bd43dc7acd72bcb4b274f8ca9263902d4e",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/eternities-logos/SKILL.md",
+          "sha256": "f5c84a715a574c350c06b8dc6ee485e43846c2cabd12f39e94cc8ae8cf07b5ba",
+          "inspection": "full-entrypoint-read"
+        },
+        {
+          "path": "product/skills/eternities-logos/references/methods.md",
+          "sha256": "a79d6f724763afab227f6d9d347b2dad51031eefa1303284466df2eda8492ce3",
+          "inspection": "full-reference-read"
+        },
+        {
+          "path": "product/skills/eternities-logos/references/staged-literature-synthesis.md",
+          "sha256": "ce55918cf0966beab0c4103a8cc2de69c517c7581c22320bfa2009d86b145c78",
+          "inspection": "inventory-hash-only-not-read"
+        }
+      ]
+    },
+    {
+      "id": "eternities-muse",
+      "category": "design",
+      "files": [
+        {
+          "path": "product/skills/eternities-muse/skill.json",
+          "sha256": "640b33587d3f648552be317b1f436e1ce26ccb7a78c40bed507c33d7dd795a2a",
+          "bytes": 2565
+        },
+        {
+          "path": "product/skills/eternities-muse/SKILL.md",
+          "sha256": "838da70f041be41d0d28fa9e735241c303240b4355f1770dba5b7b7998afc05b",
+          "bytes": 4232
+        },
+        {
+          "path": "product/skills/eternities-muse/references/methods.md",
+          "sha256": "44cdaae8e34b83f69c8253f1cb61b4ed3c1af5548e58ef59d4f7e28df7e46b89",
+          "bytes": 4991
+        }
+      ],
+      "decision": "refine",
+      "reason": "Art direction requires a visual law but offers no practical way to turn competing directions into comparable content layouts and reusable rules.",
+      "newResource": "references/art-direction-to-layout-v1.md",
+      "readSet": [
+        {
+          "path": "product/skills/eternities-muse/skill.json",
+          "sha256": "640b33587d3f648552be317b1f436e1ce26ccb7a78c40bed507c33d7dd795a2a",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/eternities-muse/SKILL.md",
+          "sha256": "838da70f041be41d0d28fa9e735241c303240b4355f1770dba5b7b7998afc05b",
+          "inspection": "full-entrypoint-read"
+        },
+        {
+          "path": "product/skills/eternities-muse/references/methods.md",
+          "sha256": "44cdaae8e34b83f69c8253f1cb61b4ed3c1af5548e58ef59d4f7e28df7e46b89",
+          "inspection": "full-reference-read"
+        }
+      ]
+    },
+    {
+      "id": "eternities-orpheus",
+      "category": "audio",
+      "files": [
+        {
+          "path": "product/skills/eternities-orpheus/skill.json",
+          "sha256": "6ac5ac8cf81386e5a739f369056d7332fb33e722a8fa02a0efd60e030abc3235",
+          "bytes": 1411
+        },
+        {
+          "path": "product/skills/eternities-orpheus/SKILL.md",
+          "sha256": "083f4461cf7a28dd5a2b25bd3e2c2d05448b74b92aaa5d87b5daa50753c2c48e",
+          "bytes": 3105
+        },
+        {
+          "path": "product/skills/eternities-orpheus/references/methods.md",
+          "sha256": "ee216cf993a7629868d4fc918d27d94815e9b9f765acf4f1ab06644068a480e7",
+          "bytes": 837
+        }
+      ],
+      "decision": "refine",
+      "reason": "Timeline guidance inventories assets and offsets but underspecifies editorial listening, speech/music masking and meaningful before/after comparison for supplied audio.",
+      "newResource": "references/supplied-audio-editorial-mix-v1.md",
+      "readSet": [
+        {
+          "path": "product/skills/eternities-orpheus/skill.json",
+          "sha256": "6ac5ac8cf81386e5a739f369056d7332fb33e722a8fa02a0efd60e030abc3235",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/eternities-orpheus/SKILL.md",
+          "sha256": "083f4461cf7a28dd5a2b25bd3e2c2d05448b74b92aaa5d87b5daa50753c2c48e",
+          "inspection": "full-entrypoint-read"
+        },
+        {
+          "path": "product/skills/eternities-orpheus/references/methods.md",
+          "sha256": "ee216cf993a7629868d4fc918d27d94815e9b9f765acf4f1ab06644068a480e7",
+          "inspection": "full-reference-read"
+        }
+      ]
+    },
+    {
+      "id": "eternities-prometheus",
+      "category": "business",
+      "files": [
+        {
+          "path": "product/skills/eternities-prometheus/skill.json",
+          "sha256": "7d118ed0417e927c5da6ea91640e2fa907d3f3ceccaaa62e050fc04e668bf3d8",
+          "bytes": 1870
+        },
+        {
+          "path": "product/skills/eternities-prometheus/SKILL.md",
+          "sha256": "3bdb3c567c215cee7552d846abdcfd87024e6a5787e394d6526799f24c008ab6",
+          "bytes": 3042
+        },
+        {
+          "path": "product/skills/eternities-prometheus/references/methods.md",
+          "sha256": "6150efa2ad78e5ebc93b9dbde21893984428a9d5ac109c85f1966d2b3a815954",
+          "bytes": 1018
+        }
+      ],
+      "decision": "refine",
+      "reason": "Commercial analytics promises unit/subscription/funnel analysis while its only method card is discovery prioritization; add metric-change diagnosis tied to a company action.",
+      "newResource": "references/commercial-driver-diagnosis-v1.md",
+      "readSet": [
+        {
+          "path": "product/skills/eternities-prometheus/skill.json",
+          "sha256": "7d118ed0417e927c5da6ea91640e2fa907d3f3ceccaaa62e050fc04e668bf3d8",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/eternities-prometheus/SKILL.md",
+          "sha256": "3bdb3c567c215cee7552d846abdcfd87024e6a5787e394d6526799f24c008ab6",
+          "inspection": "full-entrypoint-read"
+        },
+        {
+          "path": "product/skills/eternities-prometheus/references/methods.md",
+          "sha256": "6150efa2ad78e5ebc93b9dbde21893984428a9d5ac109c85f1966d2b3a815954",
+          "inspection": "full-reference-read"
+        }
+      ]
+    },
+    {
+      "id": "evidence-linked-learning-design",
+      "category": "education",
+      "files": [
+        {
+          "path": "product/skills/evidence-linked-learning-design/skill.json",
+          "sha256": "d822c1a6d8c83f1c2fc1538b75982087dc1325540b11e099d7b8e7427766f75c",
+          "bytes": 4637
+        },
+        {
+          "path": "product/skills/evidence-linked-learning-design/SKILL.md",
+          "sha256": "ca165d7209df55696719f58dbad0042a41bfe6164408099cf8ab0dc90e85d160",
+          "bytes": 4636
+        },
+        {
+          "path": "product/skills/evidence-linked-learning-design/references/educational-microsimulation.md",
+          "sha256": "4f42471a7b33b9af45203a54eb82a3c95c6c19106446e0b9097006daff2f3b2e",
+          "bytes": 19568
+        },
+        {
+          "path": "product/skills/evidence-linked-learning-design/references/handoffs-and-reporting.md",
+          "sha256": "8722eaf7532007db27228e1b699fc0835cf46229a605801fb5cdc154924e870c",
+          "bytes": 3394
+        },
+        {
+          "path": "product/skills/evidence-linked-learning-design/references/support-transition.md",
+          "sha256": "470484b186df4978ec4c5e817990d25c0a2ad200dbf6ef1bea6441f43372d954",
+          "bytes": 25006
+        }
+      ],
+      "decision": "refine",
+      "reason": "Ordinary lesson route has examples and assessment but lacks a compact practice sequence that distinguishes cue imitation from discrimination and transfer.",
+      "newResource": "references/practice-and-transfer-v1.md",
+      "readSet": [
+        {
+          "path": "product/skills/evidence-linked-learning-design/skill.json",
+          "sha256": "d822c1a6d8c83f1c2fc1538b75982087dc1325540b11e099d7b8e7427766f75c",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/evidence-linked-learning-design/SKILL.md",
+          "sha256": "ca165d7209df55696719f58dbad0042a41bfe6164408099cf8ab0dc90e85d160",
+          "inspection": "full-entrypoint-read"
+        },
+        {
+          "path": "product/skills/evidence-linked-learning-design/references/educational-microsimulation.md",
+          "sha256": "4f42471a7b33b9af45203a54eb82a3c95c6c19106446e0b9097006daff2f3b2e",
+          "inspection": "partial-output-truncated-not-full-review"
+        },
+        {
+          "path": "product/skills/evidence-linked-learning-design/references/handoffs-and-reporting.md",
+          "sha256": "8722eaf7532007db27228e1b699fc0835cf46229a605801fb5cdc154924e870c",
+          "inspection": "full-reference-read"
+        },
+        {
+          "path": "product/skills/evidence-linked-learning-design/references/support-transition.md",
+          "sha256": "470484b186df4978ec4c5e817990d25c0a2ad200dbf6ef1bea6441f43372d954",
+          "inspection": "partial-output-truncated-not-full-review"
+        }
+      ]
+    },
+    {
+      "id": "financial-statement-reconciliation",
+      "category": "finance",
+      "files": [
+        {
+          "path": "product/skills/financial-statement-reconciliation/skill.json",
+          "sha256": "b642f8dfe7feca2f4ee412af16fe78f4d546cfe3c00acd2f292cd7c66e14b68f",
+          "bytes": 1317
+        },
+        {
+          "path": "product/skills/financial-statement-reconciliation/SKILL.md",
+          "sha256": "cfcb104de4c4ae024e5f95c1202db98d3cd3b1bbdb51ec37549cc368e67d7346",
+          "bytes": 3766
+        }
+      ],
+      "decision": "retain",
+      "reason": "Comparable periods, reconciliation exceptions and explicit ratio definitions already anchor analytical conclusions.",
+      "newResource": null,
+      "readSet": [
+        {
+          "path": "product/skills/financial-statement-reconciliation/skill.json",
+          "sha256": "b642f8dfe7feca2f4ee412af16fe78f4d546cfe3c00acd2f292cd7c66e14b68f",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/financial-statement-reconciliation/SKILL.md",
+          "sha256": "cfcb104de4c4ae024e5f95c1202db98d3cd3b1bbdb51ec37549cc368e67d7346",
+          "inspection": "full-entrypoint-read"
+        }
+      ]
+    },
+    {
+      "id": "imaginative-concept-development",
+      "category": "design",
+      "files": [
+        {
+          "path": "product/skills/imaginative-concept-development/skill.json",
+          "sha256": "90fed2e5797f81f5affb2a1119260a9b885dbe5f7868ade0d20f96abbf304eff",
+          "bytes": 1773
+        },
+        {
+          "path": "product/skills/imaginative-concept-development/SKILL.md",
+          "sha256": "5a1b550f7db546470d93a73106f972d59cf1cf4be21cc6e7c8d08cb7f9fd95c7",
+          "bytes": 4288
+        }
+      ],
+      "decision": "retain",
+      "reason": "Mechanism-level alternatives, transferable analogy and a developed representative moment provide substantive creative generation; no synonym skill needed.",
+      "newResource": null,
+      "readSet": [
+        {
+          "path": "product/skills/imaginative-concept-development/skill.json",
+          "sha256": "90fed2e5797f81f5affb2a1119260a9b885dbe5f7868ade0d20f96abbf304eff",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/imaginative-concept-development/SKILL.md",
+          "sha256": "5a1b550f7db546470d93a73106f972d59cf1cf4be21cc6e7c8d08cb7f9fd95c7",
+          "inspection": "full-entrypoint-read"
+        }
+      ]
+    },
+    {
+      "id": "interface-localization-and-bidirectionality",
+      "category": "design",
+      "files": [
+        {
+          "path": "product/skills/interface-localization-and-bidirectionality/skill.json",
+          "sha256": "3e927eae13bb5d25370f6291478a6b3aa5d4c10566462ac036a0333ad4bedf03",
+          "bytes": 1908
+        },
+        {
+          "path": "product/skills/interface-localization-and-bidirectionality/SKILL.md",
+          "sha256": "130843a1f8e9291ddec993bc7b110ce3bafd1d12f7e61773f44dcd635e9d54f4",
+          "bytes": 3864
+        }
+      ],
+      "decision": "retain",
+      "reason": "Logical properties, mixed-direction isolation and semantic icon decisions provide actual implementation choices.",
+      "newResource": null,
+      "readSet": [
+        {
+          "path": "product/skills/interface-localization-and-bidirectionality/skill.json",
+          "sha256": "3e927eae13bb5d25370f6291478a6b3aa5d4c10566462ac036a0333ad4bedf03",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/interface-localization-and-bidirectionality/SKILL.md",
+          "sha256": "130843a1f8e9291ddec993bc7b110ce3bafd1d12f7e61773f44dcd635e9d54f4",
+          "inspection": "full-entrypoint-read"
+        }
+      ]
+    },
+    {
+      "id": "interpersonal-understanding-and-dialogue",
+      "category": "social",
+      "files": [
+        {
+          "path": "product/skills/interpersonal-understanding-and-dialogue/skill.json",
+          "sha256": "a582d6717d1eccc2516d787b987ffebe16f704d98a12f64b3cfe2feb31c71101",
+          "bytes": 3237
+        },
+        {
+          "path": "product/skills/interpersonal-understanding-and-dialogue/SKILL.md",
+          "sha256": "dfa4af05ca5b68aa6db7252d70dc0d2b57a610f4fa0f49104fe3b07eb1cacc74",
+          "bytes": 2978
+        },
+        {
+          "path": "product/skills/interpersonal-understanding-and-dialogue/references/examples.md",
+          "sha256": "c1593449b397d952b3d0c60d7bca728201be79e5715af0a0ba1b35adae590bec",
+          "bytes": 1777
+        }
+      ],
+      "decision": "retain",
+      "reason": "Tentative interpretations, negotiable preferences and specific repair examples support useful dialogue without invented motives.",
+      "newResource": null,
+      "readSet": [
+        {
+          "path": "product/skills/interpersonal-understanding-and-dialogue/skill.json",
+          "sha256": "a582d6717d1eccc2516d787b987ffebe16f704d98a12f64b3cfe2feb31c71101",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/interpersonal-understanding-and-dialogue/SKILL.md",
+          "sha256": "dfa4af05ca5b68aa6db7252d70dc0d2b57a610f4fa0f49104fe3b07eb1cacc74",
+          "inspection": "full-entrypoint-read"
+        },
+        {
+          "path": "product/skills/interpersonal-understanding-and-dialogue/references/examples.md",
+          "sha256": "c1593449b397d952b3d0c60d7bca728201be79e5715af0a0ba1b35adae590bec",
+          "inspection": "full-reference-read"
+        }
+      ]
+    },
+    {
+      "id": "jurisdiction-aware-contract-review",
+      "category": "legal",
+      "files": [
+        {
+          "path": "product/skills/jurisdiction-aware-contract-review/skill.json",
+          "sha256": "3cc4bb731582cb173b4f13fd500316003bb97aa39cab6c84e2d2aefe8f764158",
+          "bytes": 1366
+        },
+        {
+          "path": "product/skills/jurisdiction-aware-contract-review/SKILL.md",
+          "sha256": "c600a5c1b47f652f435c4b0a1cb8d71ee043de7b801eff34aeb25a2b04c43303",
+          "bytes": 3350
+        }
+      ],
+      "decision": "retain",
+      "reason": "Cross-clause obligations and separation of document fact, business tradeoff and legal question prevent inappropriate conclusions.",
+      "newResource": null,
+      "readSet": [
+        {
+          "path": "product/skills/jurisdiction-aware-contract-review/skill.json",
+          "sha256": "3cc4bb731582cb173b4f13fd500316003bb97aa39cab6c84e2d2aefe8f764158",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/jurisdiction-aware-contract-review/SKILL.md",
+          "sha256": "c600a5c1b47f652f435c4b0a1cb8d71ee043de7b801eff34aeb25a2b04c43303",
+          "inspection": "full-entrypoint-read"
+        }
+      ]
+    },
+    {
+      "id": "measured-paid-creative-iteration",
+      "category": "marketing",
+      "files": [
+        {
+          "path": "product/skills/measured-paid-creative-iteration/skill.json",
+          "sha256": "ef42b77e2179937767e4bab624272e2b26c5c71d52cad7f20247c95bc9e7a99b",
+          "bytes": 1926
+        },
+        {
+          "path": "product/skills/measured-paid-creative-iteration/SKILL.md",
+          "sha256": "769e7fb4b916bcf989f9458e9f23912a110d39be0f8bcf0a502f9ddc86b136e3",
+          "bytes": 3427
+        }
+      ],
+      "decision": "retain",
+      "reason": "Causal-feature contrast, attribution windows and fixed/sequential stop distinctions support interpretable creative experiments.",
+      "newResource": null,
+      "readSet": [
+        {
+          "path": "product/skills/measured-paid-creative-iteration/skill.json",
+          "sha256": "ef42b77e2179937767e4bab624272e2b26c5c71d52cad7f20247c95bc9e7a99b",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/measured-paid-creative-iteration/SKILL.md",
+          "sha256": "769e7fb4b916bcf989f9458e9f23912a110d39be0f8bcf0a502f9ddc86b136e3",
+          "inspection": "full-entrypoint-read"
+        }
+      ]
+    },
+    {
+      "id": "motion-design-and-animation-engineering",
+      "category": "design",
+      "files": [
+        {
+          "path": "product/skills/motion-design-and-animation-engineering/skill.json",
+          "sha256": "81e8e2b2ea872cc9460bc867e9383997574af711a9a08fda72e340a313efeea0",
+          "bytes": 2452
+        },
+        {
+          "path": "product/skills/motion-design-and-animation-engineering/SKILL.md",
+          "sha256": "9f9f17e2bf49fa039f11239bbbc0adf9e98df12e21f1c1f8a8f3343d282719ea",
+          "bytes": 3914
+        },
+        {
+          "path": "product/skills/motion-design-and-animation-engineering/references/methods.md",
+          "sha256": "8ce10c1e39145b619ef2e692a7dc501711173f2601fba34131a7f58d3399387b",
+          "bytes": 5122
+        }
+      ],
+      "decision": "retain",
+      "reason": "Property ownership, current-state retargeting and stale-completion checks make interactive motion implementable.",
+      "newResource": null,
+      "readSet": [
+        {
+          "path": "product/skills/motion-design-and-animation-engineering/skill.json",
+          "sha256": "81e8e2b2ea872cc9460bc867e9383997574af711a9a08fda72e340a313efeea0",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/motion-design-and-animation-engineering/SKILL.md",
+          "sha256": "9f9f17e2bf49fa039f11239bbbc0adf9e98df12e21f1c1f8a8f3343d282719ea",
+          "inspection": "full-entrypoint-read"
+        },
+        {
+          "path": "product/skills/motion-design-and-animation-engineering/references/methods.md",
+          "sha256": "8ce10c1e39145b619ef2e692a7dc501711173f2601fba34131a7f58d3399387b",
+          "inspection": "full-reference-read"
+        }
+      ]
+    },
+    {
+      "id": "narrative-structure-and-revision",
+      "category": "writing",
+      "files": [
+        {
+          "path": "product/skills/narrative-structure-and-revision/skill.json",
+          "sha256": "f83a4ebcde567544f6f961283c2fc9b8cb736363f256c386ff875b33d002694d",
+          "bytes": 1914
+        },
+        {
+          "path": "product/skills/narrative-structure-and-revision/SKILL.md",
+          "sha256": "78f2055cd08ca31fccdd779865267d939ba7763b1402e0133cd0ddb1a3d203ba",
+          "bytes": 3777
+        },
+        {
+          "path": "product/skills/narrative-structure-and-revision/references/methods.md",
+          "sha256": "c3b81b2943fe88c72d8d821fc1037209f288c5d9ba2ac1fbf833414c5602567d",
+          "bytes": 5063
+        }
+      ],
+      "decision": "retain",
+      "reason": "Scene pressure, image, knowledge state and consequence-preserving branch joins already support expressive writing and real revision.",
+      "newResource": null,
+      "readSet": [
+        {
+          "path": "product/skills/narrative-structure-and-revision/skill.json",
+          "sha256": "f83a4ebcde567544f6f961283c2fc9b8cb736363f256c386ff875b33d002694d",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/narrative-structure-and-revision/SKILL.md",
+          "sha256": "78f2055cd08ca31fccdd779865267d939ba7763b1402e0133cd0ddb1a3d203ba",
+          "inspection": "full-entrypoint-read"
+        },
+        {
+          "path": "product/skills/narrative-structure-and-revision/references/methods.md",
+          "sha256": "c3b81b2943fe88c72d8d821fc1037209f288c5d9ba2ac1fbf833414c5602567d",
+          "inspection": "full-reference-read"
+        }
+      ]
+    },
+    {
+      "id": "operating-cadence-and-decision-accountability",
+      "category": "business",
+      "files": [
+        {
+          "path": "product/skills/operating-cadence-and-decision-accountability/skill.json",
+          "sha256": "59cf6450920fce4e5fc1ef3f77d0055bc7d7dfda81a58d109646f553e3ca1792",
+          "bytes": 2507
+        },
+        {
+          "path": "product/skills/operating-cadence-and-decision-accountability/SKILL.md",
+          "sha256": "a03d89234106b30da8e99ffe6e738f58408e03727d2909431a119aca6b5c56c1",
+          "bytes": 3714
+        },
+        {
+          "path": "product/skills/operating-cadence-and-decision-accountability/references/methods.md",
+          "sha256": "32ddd3dfe2b8085e6ded14aa562e47761fb2d47f085154bcc9409ad49fff5f7d",
+          "bytes": 4662
+        }
+      ],
+      "decision": "retain",
+      "reason": "Effective capacity, original item age, blocked work and unavailable decider paths offer practical operating choices.",
+      "newResource": null,
+      "readSet": [
+        {
+          "path": "product/skills/operating-cadence-and-decision-accountability/skill.json",
+          "sha256": "59cf6450920fce4e5fc1ef3f77d0055bc7d7dfda81a58d109646f553e3ca1792",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/operating-cadence-and-decision-accountability/SKILL.md",
+          "sha256": "a03d89234106b30da8e99ffe6e738f58408e03727d2909431a119aca6b5c56c1",
+          "inspection": "full-entrypoint-read"
+        },
+        {
+          "path": "product/skills/operating-cadence-and-decision-accountability/references/methods.md",
+          "sha256": "32ddd3dfe2b8085e6ded14aa562e47761fb2d47f085154bcc9409ad49fff5f7d",
+          "inspection": "full-reference-read"
+        }
+      ]
+    },
+    {
+      "id": "portable-speech-chunk-alignment",
+      "category": "audio",
+      "files": [
+        {
+          "path": "product/skills/portable-speech-chunk-alignment/skill.json",
+          "sha256": "16c8807d79d165f96d92237de04f4d7583a71363f89161aa4aeee619edbe5df1",
+          "bytes": 2720
+        },
+        {
+          "path": "product/skills/portable-speech-chunk-alignment/SKILL.md",
+          "sha256": "93283ef9cf5b93a365d1fb7da970efb0c7afc2961385631909320856b9178166",
+          "bytes": 4035
+        }
+      ],
+      "decision": "retain",
+      "reason": "Source/render span separation, Unicode-safe budgets and uncertain-attempt lineage solve a distinct narration preparation problem.",
+      "newResource": null,
+      "readSet": [
+        {
+          "path": "product/skills/portable-speech-chunk-alignment/skill.json",
+          "sha256": "16c8807d79d165f96d92237de04f4d7583a71363f89161aa4aeee619edbe5df1",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/portable-speech-chunk-alignment/SKILL.md",
+          "sha256": "93283ef9cf5b93a365d1fb7da970efb0c7afc2961385631909320856b9178166",
+          "inspection": "full-entrypoint-read"
+        }
+      ]
+    },
+    {
+      "id": "pricing-and-packaging-experimentation",
+      "category": "business",
+      "files": [
+        {
+          "path": "product/skills/pricing-and-packaging-experimentation/skill.json",
+          "sha256": "ca11c48c8c80bb8ace9b0df7e8e49d553d2dc9a089ac9991407e08342eade0d7",
+          "bytes": 2713
+        },
+        {
+          "path": "product/skills/pricing-and-packaging-experimentation/SKILL.md",
+          "sha256": "d8faaa71a46cf3e95f5e6e27f8990138c2b0abf97ef921f6fb5162549ce82418",
+          "bytes": 3918
+        },
+        {
+          "path": "product/skills/pricing-and-packaging-experimentation/references/methods.md",
+          "sha256": "7d32ccdbf5daef4c2c04b871d7fee1ea47e9e9c4247953085bb5d6aaf98cc144",
+          "bytes": 5169
+        }
+      ],
+      "decision": "retain",
+      "reason": "Value units, representative bills, contribution economics and mature follow-up already provide a strong pricing method.",
+      "newResource": null,
+      "readSet": [
+        {
+          "path": "product/skills/pricing-and-packaging-experimentation/skill.json",
+          "sha256": "ca11c48c8c80bb8ace9b0df7e8e49d553d2dc9a089ac9991407e08342eade0d7",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/pricing-and-packaging-experimentation/SKILL.md",
+          "sha256": "d8faaa71a46cf3e95f5e6e27f8990138c2b0abf97ef921f6fb5162549ce82418",
+          "inspection": "full-entrypoint-read"
+        },
+        {
+          "path": "product/skills/pricing-and-packaging-experimentation/references/methods.md",
+          "sha256": "7d32ccdbf5daef4c2c04b871d7fee1ea47e9e9c4247953085bb5d6aaf98cc144",
+          "inspection": "full-reference-read"
+        }
+      ]
+    },
+    {
+      "id": "procedural-world-generation-and-validation",
+      "category": "games",
+      "files": [
+        {
+          "path": "product/skills/procedural-world-generation-and-validation/skill.json",
+          "sha256": "d833d6b1a067112f8d98f21f2ae73af530bfab3b3978839fc1f0bfd6ffd7a815",
+          "bytes": 2300
+        },
+        {
+          "path": "product/skills/procedural-world-generation-and-validation/SKILL.md",
+          "sha256": "1da065a061c15a19112eadce6efc5a018be76a8663c2280ae946e14a30c55da3",
+          "bytes": 3903
+        },
+        {
+          "path": "product/skills/procedural-world-generation-and-validation/references/methods.md",
+          "sha256": "0c177b8ff767044ed412992becb1c78e908efb28b33d2ca7d45a759858381725",
+          "bytes": 5492
+        }
+      ],
+      "decision": "retain",
+      "reason": "Canonical seams, purpose-specific random streams and state-aware solvability preserve useful world behavior.",
+      "newResource": null,
+      "readSet": [
+        {
+          "path": "product/skills/procedural-world-generation-and-validation/skill.json",
+          "sha256": "d833d6b1a067112f8d98f21f2ae73af530bfab3b3978839fc1f0bfd6ffd7a815",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/procedural-world-generation-and-validation/SKILL.md",
+          "sha256": "1da065a061c15a19112eadce6efc5a018be76a8663c2280ae946e14a30c55da3",
+          "inspection": "full-entrypoint-read"
+        },
+        {
+          "path": "product/skills/procedural-world-generation-and-validation/references/methods.md",
+          "sha256": "0c177b8ff767044ed412992becb1c78e908efb28b33d2ca7d45a759858381725",
+          "inspection": "full-reference-read"
+        }
+      ]
+    },
+    {
+      "id": "product-discovery-and-prioritization",
+      "category": "business",
+      "files": [
+        {
+          "path": "product/skills/product-discovery-and-prioritization/skill.json",
+          "sha256": "7e5c528eed6d6272eda6302176062f6ba12ea6ac35f5a44696e2c88d065e2cf6",
+          "bytes": 4098
+        },
+        {
+          "path": "product/skills/product-discovery-and-prioritization/SKILL.md",
+          "sha256": "4470f2f92b284dad9a577105c8c751ebc3beb8f08bd8982e942149529ac7be24",
+          "bytes": 5611
+        },
+        {
+          "path": "product/skills/product-discovery-and-prioritization/references/methods.md",
+          "sha256": "e3a6811c38573c7403b74fc7f10216b8ffeadbdbf1c71e6c0bada0e9614f9619",
+          "bytes": 8556
+        }
+      ],
+      "decision": "retain",
+      "reason": "Prerequisite closure, skill-constrained portfolios and explicit displacement address real prioritization errors.",
+      "newResource": null,
+      "readSet": [
+        {
+          "path": "product/skills/product-discovery-and-prioritization/skill.json",
+          "sha256": "7e5c528eed6d6272eda6302176062f6ba12ea6ac35f5a44696e2c88d065e2cf6",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/product-discovery-and-prioritization/SKILL.md",
+          "sha256": "4470f2f92b284dad9a577105c8c751ebc3beb8f08bd8982e942149529ac7be24",
+          "inspection": "full-entrypoint-read"
+        },
+        {
+          "path": "product/skills/product-discovery-and-prioritization/references/methods.md",
+          "sha256": "e3a6811c38573c7403b74fc7f10216b8ffeadbdbf1c71e6c0bada0e9614f9619",
+          "inspection": "full-reference-read"
+        }
+      ]
+    },
+    {
+      "id": "scene-continuity-and-coverage",
+      "category": "design",
+      "files": [
+        {
+          "path": "product/skills/scene-continuity-and-coverage/skill.json",
+          "sha256": "99f454dac581983bd60c1f97a4a8fc9a8d908f857b0c7a4690796d5278173426",
+          "bytes": 1630
+        },
+        {
+          "path": "product/skills/scene-continuity-and-coverage/SKILL.md",
+          "sha256": "78237dfcd4e7b71f5d16742cc47364ed3bad51774ab8bd9ab7f1da215f5359e8",
+          "bytes": 4521
+        }
+      ],
+      "decision": "retain",
+      "reason": "Shared world clock and camera-dependent continuity distinguish editorial repair from unnecessary regeneration.",
+      "newResource": null,
+      "readSet": [
+        {
+          "path": "product/skills/scene-continuity-and-coverage/skill.json",
+          "sha256": "99f454dac581983bd60c1f97a4a8fc9a8d908f857b0c7a4690796d5278173426",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/scene-continuity-and-coverage/SKILL.md",
+          "sha256": "78237dfcd4e7b71f5d16742cc47364ed3bad51774ab8bd9ab7f1da215f5359e8",
+          "inspection": "full-entrypoint-read"
+        }
+      ]
+    },
+    {
+      "id": "structured-hiring-evaluation",
+      "category": "business",
+      "files": [
+        {
+          "path": "product/skills/structured-hiring-evaluation/skill.json",
+          "sha256": "4fae2efd6db75899da73a899b69a3b3faeb87f0f6962299e7b879ccdbc45229c",
+          "bytes": 1708
+        },
+        {
+          "path": "product/skills/structured-hiring-evaluation/SKILL.md",
+          "sha256": "06d362d9881ccdbafa57994e1b3710793b3478e3eb316d537505da834096079b",
+          "bytes": 2583
+        },
+        {
+          "path": "product/skills/structured-hiring-evaluation/references/methods.md",
+          "sha256": "ba4089a688da40f37f05b50dab20c110a5469e146eac98e833d30390d36bd685",
+          "bytes": 3894
+        }
+      ],
+      "decision": "retain",
+      "reason": "Job anchors, independent evidence recording and application-cohort denominators support responsible hiring preparation.",
+      "newResource": null,
+      "readSet": [
+        {
+          "path": "product/skills/structured-hiring-evaluation/skill.json",
+          "sha256": "4fae2efd6db75899da73a899b69a3b3faeb87f0f6962299e7b879ccdbc45229c",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/structured-hiring-evaluation/SKILL.md",
+          "sha256": "06d362d9881ccdbafa57994e1b3710793b3478e3eb316d537505da834096079b",
+          "inspection": "full-entrypoint-read"
+        },
+        {
+          "path": "product/skills/structured-hiring-evaluation/references/methods.md",
+          "sha256": "ba4089a688da40f37f05b50dab20c110a5469e146eac98e833d30390d36bd685",
+          "inspection": "full-reference-read"
+        }
+      ]
+    },
+    {
+      "id": "user-research-and-usability-study",
+      "category": "design",
+      "files": [
+        {
+          "path": "product/skills/user-research-and-usability-study/skill.json",
+          "sha256": "38f70d71e8f0824737279e1b2cf7f041c07f5397258cee2429860567c9fe7ee4",
+          "bytes": 3743
+        },
+        {
+          "path": "product/skills/user-research-and-usability-study/SKILL.md",
+          "sha256": "5b97406753e8b00a746db1e99b7d36ebc93bb8b708454a9dba265c09234363d4",
+          "bytes": 3028
+        },
+        {
+          "path": "product/skills/user-research-and-usability-study/references/accessible-user-study.md",
+          "sha256": "a2d5726407966adc2846b21ac9174ee0d21014769a6739a1cd876413fa58de0a",
+          "bytes": 15024
+        },
+        {
+          "path": "product/skills/user-research-and-usability-study/references/experience-mapping.md",
+          "sha256": "bb7906daefa5d06a255c50b217ddafcd8a5db8b58d99d17ae16a345bc2132812",
+          "bytes": 10594
+        },
+        {
+          "path": "product/skills/user-research-and-usability-study/references/methods.md",
+          "sha256": "e7d644a31a71e085fda0f6ff3c23879be0c3e1e22f4b62ff778af039d892985d",
+          "bytes": 4346
+        }
+      ],
+      "decision": "retain",
+      "reason": "Neutral tasks, assistance labels, contradictory observations and evidence-backed transitions already turn research into decisions.",
+      "newResource": null,
+      "readSet": [
+        {
+          "path": "product/skills/user-research-and-usability-study/skill.json",
+          "sha256": "38f70d71e8f0824737279e1b2cf7f041c07f5397258cee2429860567c9fe7ee4",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/user-research-and-usability-study/SKILL.md",
+          "sha256": "5b97406753e8b00a746db1e99b7d36ebc93bb8b708454a9dba265c09234363d4",
+          "inspection": "full-entrypoint-read"
+        },
+        {
+          "path": "product/skills/user-research-and-usability-study/references/accessible-user-study.md",
+          "sha256": "a2d5726407966adc2846b21ac9174ee0d21014769a6739a1cd876413fa58de0a",
+          "inspection": "inventory-hash-only-not-read"
+        },
+        {
+          "path": "product/skills/user-research-and-usability-study/references/experience-mapping.md",
+          "sha256": "bb7906daefa5d06a255c50b217ddafcd8a5db8b58d99d17ae16a345bc2132812",
+          "inspection": "full-reference-read"
+        },
+        {
+          "path": "product/skills/user-research-and-usability-study/references/methods.md",
+          "sha256": "e7d644a31a71e085fda0f6ff3c23879be0c3e1e22f4b62ff778af039d892985d",
+          "inspection": "full-reference-read"
+        }
+      ]
+    },
+    {
+      "id": "vendor-evaluation-and-exit-planning",
+      "category": "business",
+      "files": [
+        {
+          "path": "product/skills/vendor-evaluation-and-exit-planning/skill.json",
+          "sha256": "3dac0d05038a6b3c15b42905c650b8ce8e3c1f6c64c45ec98bc7c8ed3de5a53c",
+          "bytes": 4673
+        },
+        {
+          "path": "product/skills/vendor-evaluation-and-exit-planning/SKILL.md",
+          "sha256": "477ae4c9feede6cdd31f452c9d2f20064c8c99fe393377fa66e080c99e93db80",
+          "bytes": 5897
+        },
+        {
+          "path": "product/skills/vendor-evaluation-and-exit-planning/references/methods.md",
+          "sha256": "7621f6add6d333dbd250d91ca48f6e9504ac1ba9a8f16e2bebbecfeecaf9c976",
+          "bytes": 12906
+        }
+      ],
+      "decision": "retain",
+      "reason": "Eligibility gates, common-horizon costs, commitment tails and usable export checks supply a detailed buy/renew/exit method.",
+      "newResource": null,
+      "readSet": [
+        {
+          "path": "product/skills/vendor-evaluation-and-exit-planning/skill.json",
+          "sha256": "3dac0d05038a6b3c15b42905c650b8ce8e3c1f6c64c45ec98bc7c8ed3de5a53c",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/vendor-evaluation-and-exit-planning/SKILL.md",
+          "sha256": "477ae4c9feede6cdd31f452c9d2f20064c8c99fe393377fa66e080c99e93db80",
+          "inspection": "full-entrypoint-read"
+        },
+        {
+          "path": "product/skills/vendor-evaluation-and-exit-planning/references/methods.md",
+          "sha256": "7621f6add6d333dbd250d91ca48f6e9504ac1ba9a8f16e2bebbecfeecaf9c976",
+          "inspection": "full-reference-read"
+        }
+      ]
+    },
+    {
+      "id": "venture-falsification-and-planning",
+      "category": "business",
+      "files": [
+        {
+          "path": "product/skills/venture-falsification-and-planning/skill.json",
+          "sha256": "de985b2f08d7d56888c7e529756c019ecc72e6bc83a25145bb779e948ec0f17b",
+          "bytes": 1916
+        },
+        {
+          "path": "product/skills/venture-falsification-and-planning/SKILL.md",
+          "sha256": "7b6b75a9f8a76f0101d58cc6fa91a57839c40163685a081af108ce8710f66a90",
+          "bytes": 3341
+        }
+      ],
+      "decision": "retain",
+      "reason": "Existential assumptions, stage-specific tests and precommitted inconclusive/kill outcomes prevent activity from masquerading as demand.",
+      "newResource": null,
+      "readSet": [
+        {
+          "path": "product/skills/venture-falsification-and-planning/skill.json",
+          "sha256": "de985b2f08d7d56888c7e529756c019ecc72e6bc83a25145bb779e948ec0f17b",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/venture-falsification-and-planning/SKILL.md",
+          "sha256": "7b6b75a9f8a76f0101d58cc6fa91a57839c40163685a081af108ce8710f66a90",
+          "inspection": "full-entrypoint-read"
+        }
+      ]
+    },
+    {
+      "id": "voice-style-calibration",
+      "category": "writing",
+      "files": [
+        {
+          "path": "product/skills/voice-style-calibration/skill.json",
+          "sha256": "853cce581a0f216c3650f1f857bfae0fa1f78ef93dfc398fbfd350b74eacf6d3",
+          "bytes": 1814
+        },
+        {
+          "path": "product/skills/voice-style-calibration/SKILL.md",
+          "sha256": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b",
+          "bytes": 4440
+        }
+      ],
+      "decision": "refine",
+      "reason": "Trait/register evidence is sound but needs an operational calibration pass that distinguishes concrete editing rules from vague adjectives and checks transfer to a new message.",
+      "newResource": "references/contrastive-calibration-v1.md",
+      "readSet": [
+        {
+          "path": "product/skills/voice-style-calibration/skill.json",
+          "sha256": "853cce581a0f216c3650f1f857bfae0fa1f78ef93dfc398fbfd350b74eacf6d3",
+          "inspection": "machine-parsed-for-scope-and-identity; selected-provenance-viewed; not-a-source-rights-review"
+        },
+        {
+          "path": "product/skills/voice-style-calibration/SKILL.md",
+          "sha256": "01efcb9a8780efada72d7c6b263f2be51137d5311bedb3aea506f9d131ed308b",
+          "inspection": "full-entrypoint-read"
+        }
+      ]
+    }
+  ]
+}

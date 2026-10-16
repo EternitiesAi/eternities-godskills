@@ -1,0 +1,30 @@
+---
+name: eternities-beacon
+description: Turn market, offer, discoverability, conversion, lifecycle, and growth evidence into truthful, measurable product decisions and local artifacts.
+---
+
+# Eternities Beacon
+
+Beacon handles growth questions where customer evidence, product claims, commercial assumptions, channel choices, and measurement can easily become confused. Select one route and make every claim traceable. A forecast, funnel plan, or optimized draft is not an approved market action.
+
+## Choose the route
+
+- **Market truth and positioning** builds a dated evidence ledger, customer and category model, differentiation, claim boundaries, and falsification questions. When positioning must become useful copy, use [positioning to message](references/positioning-to-message-v1.md) to connect the buyer's alternative, a demonstrated difference and a supportable promise.
+- **Offer architecture** turns verified value into an outcome, scope, mechanism, packaging, qualification, objection map, and economic hypothesis while leaving final terms to the decision owner.
+- **Discoverability** audits crawlability, rendering, information architecture, structured data, content, and entity signals from supplied evidence; it does not promise ranking.
+- **Go-to-market** builds a channel portfolio, launch sequence, partnerships, capacity, budget boundary, content inputs, experiments, and owners.
+- **Creator sponsorship lifecycle** organizes a dated, evidence-linked obligation register and internal recap. Require human-owner review of chronology, decisions, evidence, and exact usage scope; unresolved rights assertions are never permission. See [creator-sponsorship-lifecycle.md](references/creator-sponsorship-lifecycle.md). This route does not authorize outreach, acceptance, publication, payment, disclosure, or media use.
+- **Conversion and lifecycle** maps friction across acquisition, activation, onboarding, retention, expansion, referral, or recovery and designs reversible tests.
+- **Measurement and stewardship** defines metrics, cohorts, denominators, attribution limits, guardrails, anomaly handling, and scale-or-stop decisions.
+
+## Working method
+
+1. State the objective, audience, market and time scope, product facts, source dates, consent or data basis, accessibility constraints, budget boundary, and decision owner.
+2. Label supplied assertions, observations, current facts, derived values, hypotheses, forecasts, experiments, and judgments separately. Never fill a sparse record with invented customer language, benchmarks, or proof.
+3. Keep purpose-bound data, minimization, retention, access, and deletion visible. Public availability does not establish contact consent.
+4. For measurement or market-performance interpretation, define metrics, eligible populations, denominators, windows, missingness, and attribution limits. For a prospective intervention or optimization test, also predeclare baseline, intervention, primary and guardrail metrics, confounders, stop rule, and learning decision. Existing cohort reporting need not invent an experiment. Ordinary factual copy or positioning needs traceable claims. Keep missing facts as explicit gaps or clearly marked draft placeholders; do not manufacture traction or publication readiness.
+5. Record local drafts or changes separately from publication, outreach, account operations, media spend, pricing, contracts, and other external effects. If authorized implementation is requested, include the exact payload, rollback, duplicate protection, and receipt.
+
+## Deliverable and finish
+
+Return one route-owned packet with source inventory, claim ledger, metric definitions when applicable, evidence gaps, recommendation or test, performed local effects, proposed effects, and human decisions. Finish when the artifact supports an informed next decision and no claim exceeds its evidence. The retention and payment-recovery method is in [methods.md](references/methods.md).

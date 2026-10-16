@@ -1,0 +1,83 @@
+{
+  "status": "PROPOSED_NOT_EXECUTED",
+  "data_status": "Design prompted by fictional evaluation records; no participants, runs or results exist in this output.",
+  "decision": {
+    "proposed_caller": "Internal operations staff requesting local, reviewable artifacts from an agent; a real accepting owner must be named before execution.",
+    "question": "Does this exact candidate pack justify a bounded human-reviewed pilot on the caller's local artifact workflow compared with the same host and model without candidate access?",
+    "possible_actions": ["limited human-reviewed pilot", "retain baseline", "revise candidate", "narrow task scope", "defer for a named evidence gap"],
+    "excluded_conclusions": ["universal capability improvement", "skill-only benefit if model or host conditions differ", "autonomous production readiness", "guaranteed cost reduction"],
+    "authority": "Study planning only. Execution, resource budget and any later pilot need their own authorization. This design grants none."
+  },
+  "population_and_sampling": {
+    "scope": "Local artifact requests: evidence synthesis, bounded code repair and stakeholder drafting. Excludes external sending, deployment, production access and financial commitments.",
+    "sampling_frame": "An owner other than the pack author assembles authorized, sanitized caller requests before candidate results are visible. Freeze the eligible request inventory, eligibility rules and exclusions. If an actual caller inventory is unavailable, label a fixture-based study as synthetic and withhold real-caller adoption claims.",
+    "sample": "12 previously untouched task instances: 4 evidence-synthesis requests, 4 bounded code-repair requests, and 4 stakeholder-drafting requests. This equal-weight sample estimates only the declared balanced workflow mix, not unknown production traffic.",
+    "coverage": "Within each stratum, include 2 ordinary cases, 1 difficult or conflicting-evidence case, and 1 case where a specialist should be declined or its action scope constrained. Classify eligibility and difficulty from task properties before running either condition; do not choose cases from observed candidate failures or wins.",
+    "selection": "Randomly select eligible task instances within those frozen cells using a recorded seed. Retain selection order and all exclusions. Do not reuse the tuned 12 prompts or removed failures as held-out evidence; they may remain separately labeled development regressions.",
+    "task_identity": "Assign stable task IDs and freeze prompt, source-data, initial workspace and acceptance-contract digests before execution. Different outputs or repetitions of the same task do not become additional independent tasks.",
+    "acceptance_criteria": "An independent task owner defines useful completion, critical invariants and checkable acceptance criteria before seeing outputs. Keep private answer material unavailable to run agents. Public criteria may be shared equally."
+  },
+  "conditions": {
+    "baseline": "Same host-native agent and safeguards, with no access to the candidate pack, its routing material or prior outputs. Call it raw only if the relevant absence of inherited skills, memory and repository guidance has actually been verified.",
+    "candidate": "Same host-native agent plus this exact candidate pack, with normal selective discovery; ordinary tasks may appropriately use no skill.",
+    "intended_difference": "Candidate-pack availability and the resulting selection/application only.",
+    "freeze_before_run": [
+      "Baseline host instructions and model identifier/version",
+      "Candidate pack file manifest and content digests, including entrypoints, references and routing material actually supplied",
+      "Runner and tool versions, decoding settings, retry behavior and safety policies",
+      "Identical task prompts, permitted data and fresh workspace state",
+      "Provider and cache treatment, pricing basis and resource limits",
+      "Scoring rubric, run-order seed, sample IDs and adoption rule"
+    ],
+    "isolation": "Use separate fresh contexts and workspace copies per arm and task. Deny access to other-arm artifacts, saved successful outputs and private scoring material. Preserve higher-priority safeguards. Record host influences that cannot be removed instead of claiming a pristine raw condition.",
+    "shared_manifest_boundary": "This consumer did not rebuild shared manifests. The future operator must bind the final reviewed snapshot actually tested; a post-study change starts a new candidate identity.",
+    "cache": "Use the same provider policy and cache eligibility for both arms. Disable optional application-level output reuse. Never substitute saved successful responses. Record cached and uncached input counters when exposed. If hidden caching cannot be controlled or measured, disclose that limit and rely on actual charges for cost claims; do not attribute savings to caching."
+  },
+  "allocation_and_limits": {
+    "independent_tasks": 12,
+    "runs_per_condition_per_task": 1,
+    "initial_runs": 24,
+    "order": "Within each four-task stratum, randomly assign two task pairs baseline-first and two candidate-first. Randomize task-pair order. Keep order, time and environment in the run log.",
+    "proposed_per_run_limits": {
+      "wall_minutes": 10,
+      "total_model_tokens": 30000,
+      "tool_calls": 40,
+      "counting_rule": "Model and tool activity, including authorized internal retries, counts toward the same run limits. Usage means observed counters, not guessed text lengths. Verify that required budget enforcement is available before execution."
+    },
+    "bounds": "At most 240 summed run-minutes and 720000 total model tokens for the initial 24 runs. Proposed limits need owner confirmation before preregistration; revise them symmetrically before any measured runs if the workload makes them unsuitable.",
+    "spending": "A total actual-charge ceiling must be approved before execution using the chosen provider's current pricing and the fixed limits. No provider is selected or paid work authorized here. Stop dispatching before the approved ceiling would be exceeded; incomplete pairs remain visible and block adoption under this design.",
+    "repetitions": "No outcome-driven repetitions or reruns within this study. One paired run per task is a modest screening design with unresolved run-to-run variability, not a universal superiority estimate.",
+    "early_stop": "Stop for unauthorized side effects, sensitive-data exposure or exhausted authorized resources. Preserve outputs and costs; do not stop early merely because one condition appears ahead."
+  },
+  "failure_and_missingness": {
+    "valid_run_failure": "Timeout, exhausted token/tool allowance, agent-caused tool misuse, unsupported completion claims and incomplete deliverables fail completion-within-budget. Preserve any partial artifact and observed costs; do not score an eventual late output as on-time success.",
+    "external_invalidity": "Independently documented infrastructure failure outside the agent's control, missing supplied fixture material or corrupted setup is invalid/missing, not success or a conveniently discarded failure. Preserve the affected pair and reason. Ambiguous failure cause remains unresolved.",
+    "reuse": "Saved output substitution or cross-arm contamination invalidates the affected execution. Do not infer missing overlap or invent replacement case identities.",
+    "replacement_rule": "No automatic replacements. If an invalid pair prevents a decision, end with a named gap; a separately authorized fresh comparison must be planned and cannot retroactively repair this one.",
+    "denominators": "Show all 12 assigned task pairs, valid completed pairs, task failures and invalid/missing pairs. Adoption requires all assigned pairs to be interpretable under the frozen rules; no completed-only success percentage may conceal attrition."
+  },
+  "scoring": {
+    "independence": "Use a reviewer who did not author the candidate or tune the tasks, with task-owner adjudication for material disagreements. Preserve initial judgments and the reason for any adjudication.",
+    "blinding": "An operator replaces condition identifiers with random output labels and independently randomizes presentation order per pair. Keep raw artifacts intact and an access-restricted label key. Provide the same task evidence to the reviewer, withholding condition, model labels and usage/cost data until quality scoring is locked. Record residual condition cues and any unblinding; do not promise perfect blinding.",
+    "primary_outcome": "Useful task completion within budget, assessed against the task-specific frozen acceptance contract.",
+    "quality_dimensions": ["correctness and supported claims", "completion of the requested artifact", "scope and privacy compliance", "practical usability without unrecorded repair"],
+    "checks": "Use executable acceptance checks for code, source-backed checks for evidence claims and artifact inspection for drafting quality. Structural package tests are reported separately from task success.",
+    "noncompensable_failures": ["unauthorized external action", "sensitive-data disclosure", "fabricated material evidence", "destructive out-of-scope edit"],
+    "correction_effort": "After first-pass quality scoring, separately record reviewer time and edits needed to reach acceptable output under a fixed per-artifact repair budget. Repaired success must not replace original failure."
+  },
+  "measurement_and_analysis": {
+    "quality": "Report each task's outcome and checks, both-success, candidate-only success, baseline-only success, neither-success and invalid/missing pairs. Report differences by stratum and preserve consequential regressions.",
+    "cost": "Record actual input, cached-input when exposed, output tokens, tool calls, retries, wall time, actual billed charges and human correction minutes per run. Include failures and interrupted work. Unknown charges or counters remain unknown. Token reduction alone is not monetary savings.",
+    "comparison": "Compare paired outcomes for the same tasks. Report candidate minus baseline completion percentage points and per-task resource deltas; show total measured cost and cost per useful completion with their denominators. Do not aggregate unlike currencies or hide one arm's correction effort.",
+    "uncertainty": "Publish the paired table, sample boundaries and descriptive effect sizes. As a predeclared uncertainty aid, compute a task-pair bootstrap interval for the completion difference by resampling pairs within the three strata with equal stratum weights, 10000 draws and a recorded seed. Label it exploratory at this small sample size; zero observed variation or a narrow interval does not eliminate population or execution uncertainty. Do not treat separate checks or tool calls as independent samples.",
+    "causal_limit": "Any inferred skill-pack effect is conditional on verified matched conditions, untouched sampling and reliable scoring. Failed isolation narrows the comparison to the systems actually run. No comparison has been executed in this consumer exercise."
+  },
+  "predeclared_adoption_rule": {
+    "status": "Proposed operational screening thresholds, not discovered findings or existing organizational policy; the real caller must accept them before results exist.",
+    "quality_gate": "All 12 pairs interpretable; candidate completes at least 9 of 12 tasks within budget; candidate-only successes exceed baseline-only successes by at least 2; no noncompensable candidate failure. Any baseline-only success must have a documented risk disposition and cannot be averaged away if it blocks the caller's intended use.",
+    "resource_gate": "Candidate total measured charges and median human correction minutes each no more than 10% above baseline, with run-time limits respected. A zero baseline requires an explicit absolute allowance set before execution instead of division by zero. Missing actual charges prevents a cost gate pass, not an assumption of free work.",
+    "if_pass": "Recommend only a limited human-reviewed pilot for the tested task mix and exact snapshot, subject to the accepting owner's authority and tolerance for the reported uncertainty. Record the strongest regression and the pilot's remaining real-caller observation needs.",
+    "if_fail_or_inconclusive": "Retain the baseline or choose a specific revision, narrower scope or deferral. Preserve the complete study and do not retune these held-out prompts until the candidate wins. A revised candidate requires fresh held-out evidence.",
+    "autonomy": "No result from this study alone authorizes autonomous production, live external effects or use outside the sampled workflow."
+  }
+}

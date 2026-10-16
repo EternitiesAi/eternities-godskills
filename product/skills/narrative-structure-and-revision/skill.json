@@ -2,15 +2,69 @@
   "id": "narrative-structure-and-revision",
   "category": "writing",
   "summary": "Write and revise fiction through particular desires, scene turns, voice and imagery, preserving canon, reader promise, and consequential interactive states.",
-  "triggers": ["write or revise a fictional scene", "story structure and earned character choices", "dialogue subtext and character knowledge", "interactive narrative branch consequences", "continuity revision preserving artistic intent"],
-  "antiTriggers": ["factual status or research report", "brand voice profile from writing samples", "isolated grammar correction", "mandatory plot formula", "silently rewrite established canon"],
-  "taskTypes": ["create", "plan", "build", "verify"],
+  "triggers": [
+    "write or revise a fictional scene",
+    "story structure and earned character choices",
+    "dialogue subtext and character knowledge",
+    "interactive narrative branch consequences",
+    "continuity revision preserving artistic intent",
+    "fiction reveal revision through reader and character knowledge",
+    "repair clue timing without explaining away the mystery"
+  ],
+  "antiTriggers": [
+    "factual status or research report",
+    "brand voice profile from writing samples",
+    "isolated grammar correction",
+    "mandatory plot formula",
+    "silently rewrite established canon"
+  ],
+  "taskTypes": [
+    "create",
+    "plan",
+    "build",
+    "verify"
+  ],
   "specializes": "eternities-logos",
-  "related": ["voice-style-calibration", "imaginative-concept-development", "eternities-arcadia"],
-  "resources": ["references/methods.md"],
+  "related": [
+    "voice-style-calibration",
+    "imaginative-concept-development",
+    "eternities-arcadia"
+  ],
+  "resources": [
+    "references/methods.md",
+    "references/reader-knowledge-and-reveal-revision-v1.md"
+  ],
   "maturity": "instruction-reviewed",
   "provenance": [
-    {"kind":"pattern-reference","source":"msitarzewski/agency-agents@ad9264e309bd5e5422c04784372d7841b1e5d604:game-development/narrative-designer.md","note":"Full frozen body SHA-256 7a5489c7b0502aa167030018137e3f349d2c32505c0ad7b9ec1de066a9a93f0d. Character intent and subtext, consequence state, layered revelation, and canon continuity informed original craft guidance. Forced convergence, universal naturalistic dialogue, fixed consequence timing and comprehension percentages, mandatory prewriting maps, lore tiers, and engine formats were rejected. Root MIT signal observed, not source-specific legal clearance."},
-    {"kind":"authoring","source":"product/skills/narrative-structure-and-revision/","note":"Fresh fiction and revision procedure, invented craft illustration, and branch/knowledge checks. No source prose, templates, code, character examples, or persona copied. Artistic quality is not certified by structural checks."}
+    {
+      "kind": "pattern-reference",
+      "source": "msitarzewski/agency-agents@ad9264e309bd5e5422c04784372d7841b1e5d604:game-development/narrative-designer.md",
+      "note": "Full frozen body SHA-256 7a5489c7b0502aa167030018137e3f349d2c32505c0ad7b9ec1de066a9a93f0d. Character intent and subtext, consequence state, layered revelation, and canon continuity informed original craft guidance. Forced convergence, universal naturalistic dialogue, fixed consequence timing and comprehension percentages, mandatory prewriting maps, lore tiers, and engine formats were rejected. Root MIT signal observed, not source-specific legal clearance."
+    },
+    {
+      "kind": "authoring",
+      "source": "product/skills/narrative-structure-and-revision/",
+      "note": "Fresh fiction and revision procedure, invented craft illustration, and branch/knowledge checks. No source prose, templates, code, character examples, or persona copied. Artistic quality is not certified by structural checks."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "haowjy/creative-writing-skills@340b6838c961c9e87e63dfb12a5d8d56b080ad1f:skills/reader-sim/SKILL.md",
+      "note": "Exact body SHA-256 3c68115e7eb86e2614ebe821d158958881fcfa1acc953dc4998b514f363a7518. Selected mechanism informed the original reader-knowledge-and-reveal-revision method; source prose, code, host orchestration and universal prescriptions were not copied. Root notices are retained in the source snapshot; no broader rights or outcome certification."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "haowjy/creative-writing-skills@340b6838c961c9e87e63dfb12a5d8d56b080ad1f:skills/writing-principles/SKILL.md",
+      "note": "Exact body SHA-256 0e4527012ada1af3c0c47a6f719ed967d82eea7d99bb5585ac38a97509459ba8. Selected mechanism informed the original reader-knowledge-and-reveal-revision method; source prose, code, host orchestration and universal prescriptions were not copied. Root notices are retained in the source snapshot; no broader rights or outcome certification."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "haowjy/creative-writing-skills@340b6838c961c9e87e63dfb12a5d8d56b080ad1f:skills/creative-writing-craft/resources/scene-construction.md",
+      "note": "Exact body SHA-256 fce22dd09fb5df23bcbc09ea0a4429ab91915c5a9fc3fa9b4df5d0af77f0a3f8. Selected mechanism informed the original reader-knowledge-and-reveal-revision method; source prose, code, host orchestration and universal prescriptions were not copied. Root notices are retained in the source snapshot; no broader rights or outcome certification."
+    },
+    {
+      "kind": "authoring",
+      "source": "product/skills/narrative-structure-and-revision/references/reader-knowledge-and-reveal-revision-v1.md",
+      "note": "Original portable synthesis and worked example. Source-level dispositions and notices are retained in the October 15 cohort evidence. Separate release review does not certify campaign, runtime, causal, operational-cost or reader outcomes."
+    }
   ]
 }

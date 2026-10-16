@@ -1,0 +1,582 @@
+{
+  "schema": "cohesive-product-lane-b-audit-v1",
+  "canonicalCommit": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+  "branch": "feat/cohesive-product-20261015",
+  "categories": [
+    "agent-workflows",
+    "automation",
+    "data",
+    "engineering",
+    "memory",
+    "models",
+    "release",
+    "research",
+    "science",
+    "security"
+  ],
+  "scope": "56 current entrypoints classified by canonical product catalog; no upstream corpus audit",
+  "reservedNewIds": [],
+  "newIdDecision": "No demonstrated missing reusable method after audit; improve existing routes.",
+  "decisions": [
+    {
+      "id": "api-contract-design-and-evolution",
+      "category": "engineering",
+      "path": "product/skills/api-contract-design-and-evolution/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain directional compatibility, request/response semantics, replay and concurrent-write distinctions; small changes already use affected rows only.",
+      "baselineSha256": "88e79f38ac417ddf49145ea2faee45182730632593dae5df0eb0a10f663714e4",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "api-rate-limit-recovery",
+      "category": "engineering",
+      "path": "product/skills/api-rate-limit-recovery/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain provider delay minimum, monotonic deadline, cancellation and fixed-key replay; traces are necessary for the retry contract.",
+      "baselineSha256": "8552e9991da80115e3be4473ea3676e79613260c5df4f6f4f961d251c8b4f2f3",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "approval-bound-private-session-mining",
+      "category": "memory",
+      "path": "product/skills/approval-bound-private-session-mining/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain explicit private-source purpose, redaction, contradictions and revocation. This intentional sensitive-data gate is not routine memory recovery.",
+      "baselineSha256": "b73c8bf7c81d781e56600316afa4e0ef9181dd1c7ffd2a6cc1b2cbe891ac79ce",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "bounded-service-shutdown",
+      "category": "engineering",
+      "path": "product/skills/bounded-service-shutdown/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain admission-before-drain, settlement accounting, duplicate-signal stability and forced-exit distinction.",
+      "baselineSha256": "5257e79b7ac4b30738f54320a80f36adfbf49d0a57087a230de5c4cf2905c41e",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "bounded-verified-object-ingestion",
+      "category": "data",
+      "path": "product/skills/bounded-verified-object-ingestion/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain frozen membership, conflicting identity quarantine, atomic staging and replay reconciliation; byte identity is separated from semantic safety.",
+      "baselineSha256": "cf69c9340313bd2f01c8abc4fbf39a82234062bb2a8b933e30997a31d647301c",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "browser-automation-state-and-verification",
+      "category": "automation",
+      "path": "product/skills/browser-automation-state-and-verification/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain fresh references, session ownership and unknown submission reconciliation; single reads already avoid a journal.",
+      "baselineSha256": "b6b9980be8506ac0405d811dc7cce0cd9ee794addfec5ef61ad647fcf1fa2cca",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "columnar-ingestion-rollup-and-query-layout-design",
+      "category": "data",
+      "path": "product/skills/columnar-ingestion-rollup-and-query-layout-design/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain measured workload/layout comparison, late-data correction and baseline comparability; no deployment inferred.",
+      "baselineSha256": "8cba00eced7f2e84de01c0304aab9e59fed548ae1515bbbc164f568f17951626",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "completeness-and-consistency-audit",
+      "category": "agent-workflows",
+      "path": "product/skills/completeness-and-consistency-audit/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain bounded obligation tracing, met/missing/contradicted/unknown and repair continuation; small edits already excluded.",
+      "baselineSha256": "4e434687d0f77a0577c6bd2c8b869fe60d409df5c5e6d5b6ee946771a78d5f71",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "confirmed-destructive-reconstruction",
+      "category": "engineering",
+      "path": "product/skills/confirmed-destructive-reconstruction/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain exact target, independent recoverable backup and prewrite confirmation binding; destructive gate remains necessary.",
+      "baselineSha256": "5faed22a58f2c63d9495bbe6bef0516b38fd6f30111a22709736f0ca90e03d78",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "counterbalanced-agent-evaluation",
+      "category": "science",
+      "path": "product/skills/counterbalanced-agent-evaluation/SKILL.md",
+      "decision": "refine",
+      "reason": "Refine minimal experiment selection and paired task aggregation; prevent repeated easy tasks from dominating and preserve missing/timeout outcomes.",
+      "baselineSha256": "ad8e45793f5ec79ab577789d505893e2a0a7fbf97dfcde7542cb828aee985a88",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "unreviewed author candidate"
+    },
+    {
+      "id": "dependency-supply-chain-integrity",
+      "category": "security",
+      "path": "product/skills/dependency-supply-chain-integrity/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain declaration/resolution/build/runtime reconciliation, signer-bound provenance and advisory coverage; no scanner installs required.",
+      "baselineSha256": "ba4807f2bdb4ec52eb9e2e96a669fab6c82e6b376afe5aa353fa6aa122cf121f",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "diagnostic-statistical-model-inference",
+      "category": "science",
+      "path": "product/skills/diagnostic-statistical-model-inference/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain estimand class, model-appropriate diagnostics, influence and specification sensitivity; do not weaken causal limits.",
+      "baselineSha256": "a65995b8649d28dc9e9ccd0bdfeb56799435c0eedb143b70590fb3f8b398c367",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "ecological-sampling-and-detection-uncertainty",
+      "category": "science",
+      "path": "product/skills/ecological-sampling-and-detection-uncertainty/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain not-surveyed versus non-detection, effort/event choices and uncertainty at reporting support.",
+      "baselineSha256": "772099d13ca1371df4ba772315dc5691ec02f12a9f5f62f83b1431ed8972adf3",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "eternities-aegis",
+      "category": "security",
+      "path": "product/skills/eternities-aegis/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain explicit ordinary-feature exclusion and source-to-sink reasoning; targeted repair checks already proportional.",
+      "baselineSha256": "49c1d4bf1d6b21794a8dd634679c0268ae99daa967515ee667d3e40788f5749b",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "eternities-architect",
+      "category": "engineering",
+      "path": "product/skills/eternities-architect/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain decision-scoped modeling, conservative alternatives and authorized implementation continuation.",
+      "baselineSha256": "50d0524c2bbdb64eb8f3a7a82586e7989ffa4002ede3c3deda7ac757f4a660c5",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "eternities-athena",
+      "category": "science",
+      "path": "product/skills/eternities-athena/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain design-matched inference, conditional causal analysis and prospective comparison routing.",
+      "baselineSha256": "3bb0ab1d455cb3738db5f1c7645c39fb794b4cfd906dbdcd5269a91269eaa968",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "eternities-atlas",
+      "category": "data",
+      "path": "product/skills/eternities-atlas/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain broad data routes and narrow-result reporting; finite-frontier owner review is route-specific and not generalized to ordinary analysis.",
+      "baselineSha256": "46b06bdd11e52ca6288b32bd720a77715035b5e77a2b52ba1b986a071df18700",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "eternities-daedalus",
+      "category": "engineering",
+      "path": "product/skills/eternities-daedalus/SKILL.md",
+      "decision": "refine",
+      "reason": "Refine actual-caller implementation, coherent failure repair, author versus independent review and proportionate reporting; remove mandatory ledger for routine delivery.",
+      "baselineSha256": "9c3271351a5d8234098a001fa079236ec9c8ea568603cacab3fa5f05e9ee0d23",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "unreviewed author candidate"
+    },
+    {
+      "id": "eternities-forge",
+      "category": "engineering",
+      "path": "product/skills/eternities-forge/SKILL.md",
+      "decision": "refine",
+      "reason": "Refine serial delivery and early integrated slices, reusable plan tracking and actual authorized integration rather than prepared payload closure.",
+      "baselineSha256": "96a5bf285a89bb9189064d65880d461683830e314e00a98bce2e45a97f2c0e5b",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "unreviewed author candidate"
+    },
+    {
+      "id": "eternities-hephaestus",
+      "category": "models",
+      "path": "product/skills/eternities-hephaestus/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain matched workload qualification, hard unknown predicates and specification-only shortlist limits; no hardware/provider default.",
+      "baselineSha256": "5c31073206e35a113aeb7341fa643b2480b0e114b278c37df72260d9b8156f7b",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "eternities-herald",
+      "category": "release",
+      "path": "product/skills/eternities-herald/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain exact artifact/release identity, package graph checks and external-effect ownership; no release requested by this lane.",
+      "baselineSha256": "a1b0419458774b0777aa5ad5fb51cc293509e6df7b1872cc5166b7784bc96b64",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "eternities-hermes",
+      "category": "automation",
+      "path": "product/skills/eternities-hermes/SKILL.md",
+      "decision": "refine",
+      "reason": "Refine pure-transform versus effectful-batch requirements and mixed-result replay; avoid universal idempotency-key paperwork.",
+      "baselineSha256": "fd626d425723be905c9375502c6b6fe480df645f057aee00c9517fdcb5257c8c",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "unreviewed author candidate"
+    },
+    {
+      "id": "eternities-mnemosyne",
+      "category": "memory",
+      "path": "product/skills/eternities-mnemosyne/SKILL.md",
+      "decision": "refine",
+      "reason": "Refine bounded recovery expansion, selective invalidation and continuation into ready work; preserve native-history and authorized-save distinctions.",
+      "baselineSha256": "121f1d7db8183b2bc8cdb6acce8654aac92f76f4cae74ad1f823864cba4bf392",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "unreviewed author candidate"
+    },
+    {
+      "id": "eternities-omnibus",
+      "category": "agent-workflows",
+      "path": "product/skills/eternities-omnibus/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain need-before-search, catalog-as-data, applicability review and full entrypoint read; runtime discovery changes belong to parent.",
+      "baselineSha256": "6009e4015f56b00cab8e7142a67273e7be6be2de8bb955e6d9383320b5107c4d",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "eternities-oracle",
+      "category": "research",
+      "path": "product/skills/eternities-oracle/SKILL.md",
+      "decision": "refine",
+      "reason": "Refine inline evidence for short answers and decision-changing search expansion; preserve absence-claim coverage and critical uncertainty.",
+      "baselineSha256": "796145f66a4f5d9cacadd55319e541234db9b7ac3b4d704f8b7411c949fce4cd",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "unreviewed author candidate"
+    },
+    {
+      "id": "eternities-phoenix",
+      "category": "engineering",
+      "path": "product/skills/eternities-phoenix/SKILL.md",
+      "decision": "refine",
+      "reason": "Refine contrasting probes, first-divergence diagnosis, intermittent checks and coherent repair iteration; add versioned diagnostic reference without modifying historical references.",
+      "baselineSha256": "d2be7f2ba4ec16d25e6a44084624bae2d01e416089c5d79cb85b0af1e543a284",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "unreviewed author candidate"
+    },
+    {
+      "id": "experiment-artifact-lineage",
+      "category": "models",
+      "path": "product/skills/experiment-artifact-lineage/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain cache/resume/warm-start/evaluate distinctions, input-based invalidation, safe loads and interruption comparison.",
+      "baselineSha256": "92da8b7ef85c7b308d7e4842e3ef3de02ce4b54061a9603e2338fa6d676682fe",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "formula-preserving-workbook-engineering",
+      "category": "data",
+      "path": "product/skills/formula-preserving-workbook-engineering/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain formula identity, package relationships, calculation evidence and affected-sheet rendering; specialized preservation warrants its checks.",
+      "baselineSha256": "69f701204ba80a60752567ceb646332714ff945f8bee9ab063ec3ef496d1d946",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "fp-ts-functional-refactoring",
+      "category": "engineering",
+      "path": "product/skills/fp-ts-functional-refactoring/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain caller behavior, lazy effect order and cancellation; library introduction remains a separate decision.",
+      "baselineSha256": "65ed967d0043c3bddc61508f6ee16870b2e56b7d6ba425922f91f1e28e919539",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "genomic-coordinate-assembly-and-variant-gates",
+      "category": "science",
+      "path": "product/skills/genomic-coordinate-assembly-and-variant-gates/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain assembly, orientation, normalization and conditional liftover; technical normalization does not imply clinical interpretation.",
+      "baselineSha256": "ddd47cf59e9bc156fbf82478ffa14693882611f0f478f697f9aaa775eb96dedb",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "geospatial-coordinate-integrity",
+      "category": "data",
+      "path": "product/skills/geospatial-coordinate-integrity/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain assign/transform/measure distinction, vertical support, units and independent controls; one-layer repairs already allow small sidecar.",
+      "baselineSha256": "ef14fd4bc877408a1acb6c24efb09557a4a02d65a6688fd22e3dfe893ce65ce0",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "git-change-integration-and-recovery",
+      "category": "engineering",
+      "path": "product/skills/git-change-integration-and-recovery/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain HEAD/index/worktree distinctions, hunk ownership, reviewed-tree binding and guarded destination updates.",
+      "baselineSha256": "21ce930065c0e9a3f8d8b00aa37a34325bb798b2c755bfbf2143598b6ab5c003",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "infrastructure-plan-apply-isolation",
+      "category": "release",
+      "path": "product/skills/infrastructure-plan-apply-isolation/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain mocked/planned/applied distinctions, complete dependency graph and actual state identity; apply permission cannot follow from plan.",
+      "baselineSha256": "5a77c8f4e48c23fc8d37548cbf15b5970e941173e514873acdd4e64adb7f896e",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "interatomic-model-validation",
+      "category": "science",
+      "path": "product/skills/interatomic-model-validation/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain reference consistency, materials-relevant holdouts and property-specific checks; static fit not physical or deployment validation.",
+      "baselineSha256": "fa1e1443277a7ded60d3f4bca483695b53e7c1511d4b5878d296ebeabd878583",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "invariant-guard",
+      "category": "engineering",
+      "path": "product/skills/invariant-guard/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain independent oracle, adversarial domains and shrinking counterexamples; no finite proof inflation.",
+      "baselineSha256": "660357745a6d16fb81b5a98d12c3361a5d22a826a29858be0dbc9020b24f593f",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "knowledge-base-architecture-and-maintenance",
+      "category": "memory",
+      "path": "product/skills/knowledge-base-architecture-and-maintenance/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain small-collection route, identity/authority/time separation and incremental view invalidation; already avoids mandatory infrastructure.",
+      "baselineSha256": "c1fe39e77589ae5eb12b08543b834f195a1b1bba82d5fc3bf82322eb010820c1",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "landscape-connectivity-analysis",
+      "category": "science",
+      "path": "product/skills/landscape-connectivity-analysis/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain movement/resistance sensitivity and modeled-proxy versus observed-flow distinction.",
+      "baselineSha256": "eb672da289c1623e024d2f79008e2b37c1ecbc186939e1c1805a90b01103ec07",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "lazy-tabular-transformation-and-validation",
+      "category": "data",
+      "path": "product/skills/lazy-tabular-transformation-and-validation/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain inspected plans, bounded collection and independent invariants; avoid eager execution disguised as laziness.",
+      "baselineSha256": "848d222b70cf24d9ef86af68a4ec6bfeacf889c8f75f36a3facfabf66a7b1c77",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "long-horizon-work-continuity",
+      "category": "agent-workflows",
+      "path": "product/skills/long-horizon-work-continuity/SKILL.md",
+      "decision": "refine",
+      "reason": "Refine ready-work frontier, useful execution slices, event-based checkpoints and dependency-specific revalidation; preserve effect reconciliation, ownership and real runner limits.",
+      "baselineSha256": "83584469ab0faf64844451aba67bfe4e9325d2c1f7d6580ff951bc90d3a34f5d",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "unreviewed author candidate"
+    },
+    {
+      "id": "memory-retention-and-recovery",
+      "category": "memory",
+      "path": "product/skills/memory-retention-and-recovery/SKILL.md",
+      "decision": "refine",
+      "reason": "Refine recovery when checkpoint/index is incomplete, exact-location fallback, rationale-versus-current-state distinction and native-history boundary.",
+      "baselineSha256": "36c14c3b62bdf72c2b12bf4678ec44223bd0c3064528a7f1b34d7df4fcc966e7",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "unreviewed author candidate"
+    },
+    {
+      "id": "molecular-observable-integrity",
+      "category": "science",
+      "path": "product/skills/molecular-observable-integrity/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain observable-specific coordinates, atom identity, equilibration and correlated-sample uncertainty.",
+      "baselineSha256": "b12a8fb9fe39291b289eac55ee81f11df7baf274e088d5cb843fbc44256f7149",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "native-mobile-interaction-testing",
+      "category": "engineering",
+      "path": "product/skills/native-mobile-interaction-testing/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain installed-version API selection, accessible observable assertions and mocked-device limits; no network/source-version verification performed in this audit.",
+      "baselineSha256": "0b2f0175201eae491d62bf868771bb9cd79352ebc8249c52b99f57898ab46227",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "performance-release-gating",
+      "category": "release",
+      "path": "product/skills/performance-release-gating/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain comparable distributions, absolute-budget versus speedup distinction and fail/inconclusive outcomes.",
+      "baselineSha256": "e96f776e506d9eb98eb32df919a64c3c30520d99a5317f9b0f5eb1cb6db42de5",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "physics-constrained-numerical-validation",
+      "category": "science",
+      "path": "product/skills/physics-constrained-numerical-validation/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain units, relevant-control convergence, invariants and independent references; conditional controls avoid irrelevant studies.",
+      "baselineSha256": "c5512e9c716c1ccf45e39d31373323b06703c8dd17038e26ddf17f554e036adb",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "release-script-safety",
+      "category": "release",
+      "path": "product/skills/release-script-safety/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain adapter separation, dry-run isolation, partial-effect reconciliation and guarded actual publication.",
+      "baselineSha256": "c5efb81bb955cd91bb0636e7de517ea61c0c347224534014d787dd85b5206d57",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "retrieval-grounded-answering",
+      "category": "memory",
+      "path": "product/skills/retrieval-grounded-answering/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain lexical baseline, access-before-context, staged failure localization and revoked-source invalidation.",
+      "baselineSha256": "9699b65853adf21b4e285c2b357295ea401822b0dbda46eb168510cb1d654236",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "robotics-test-ladder",
+      "category": "engineering",
+      "path": "product/skills/robotics-test-ladder/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain lowest useful and highest claim-required tier selection; unit work need not run hardware tiers.",
+      "baselineSha256": "e316f375d1ded3f3f8d44b60739eab1f503f0fe338d41720f49d972c79261600",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "schema-migration-and-backfill-safety",
+      "category": "data",
+      "path": "product/skills/schema-migration-and-backfill-safety/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain mixed-version sequence, concurrent-write protection and progress coupled to commit; contraction gates remain necessary.",
+      "baselineSha256": "6fad6670b742088afd1d4f4b3b7d5cc4715f18f235673e71f8c97c969c4fca65",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "scientific-surrogate-validation",
+      "category": "science",
+      "path": "product/skills/scientific-surrogate-validation/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain decision-time features, grouped holdouts, calibration separation and unlabeled-pool accounting.",
+      "baselineSha256": "bb13e6221b81e3dd20d182014314bbf5021940e80c5793ad5492f85bf0e62642",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "semantic-implementation-diff",
+      "category": "engineering",
+      "path": "product/skills/semantic-implementation-diff/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain observable effects/error/order comparison, minimized divergence and unobserved regions.",
+      "baselineSha256": "9d790f26786f711482d0b2cb6b460d80d56099492a60e9686092b73f7553ab77",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "service-observability-and-slo-design",
+      "category": "engineering",
+      "path": "product/skills/service-observability-and-slo-design/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain eligible-event semantics, weighted aggregates and missing telemetry distinction; local fixtures not live reliability.",
+      "baselineSha256": "6de3cf2118becf3082c2364dc60eded63a0b17bc5dabf37c42535b01c5c7a95b",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "sovereign-skill-refinery",
+      "category": "agent-workflows",
+      "path": "product/skills/sovereign-skill-refinery/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain current-body-first inspection, bounded source set and explicit authoring continuation; one combined assessment already sufficient.",
+      "baselineSha256": "3b129a831750723e0d42100d989ada2ed140481866ef8dc4e48865a7cea910c5",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "structured-output-contracts",
+      "category": "automation",
+      "path": "product/skills/structured-output-contracts/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain transport/content separation, semantic validation, bounded repair and consumer enforcement of degraded states.",
+      "baselineSha256": "0650ce7e3aaa652071cc53df6bc8d882fdf1f2359c0543a1b9e3e7d8bdafb668",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "symbolic-mathematics-python",
+      "category": "science",
+      "path": "product/skills/symbolic-mathematics-python/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain domain/branch/singularity checks and independent cross-check; source extraction remains a conditional route.",
+      "baselineSha256": "ad82634d58c4cbd2901b31e2475017f60c8cbfa820c9b929a76a4bc7b9d09a86",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "terrain-watershed-analysis",
+      "category": "data",
+      "path": "product/skills/terrain-watershed-analysis/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain derivative/drainage/visibility branches, datum/unit checks and conditioning sensitivity.",
+      "baselineSha256": "5e62dd5f892cb4fd8ed05b4be7bec099cc783cc92c3fd5aa5ce11a0d42dd9a96",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    },
+    {
+      "id": "web-performance-optimization",
+      "category": "engineering",
+      "path": "product/skills/web-performance-optimization/SKILL.md",
+      "decision": "retain",
+      "reason": "Retain traced bottleneck, matched workload, distributions and functional/visual regressions; lab and field claims remain separate.",
+      "baselineSha256": "9ae95c2503cd3800a9ad0dacc7190e52f613eaf08d92d8d1b2431e0e24399100",
+      "inspection": "complete entrypoint; supporting references only where listed in read-set",
+      "candidateReview": "retain baseline; no new behavioral qualification"
+    }
+  ]
+}

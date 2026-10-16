@@ -1,0 +1,234 @@
+✔ cohesive discovery N01: Explicit arithmetic answer needs no workflow. (2.647ms)
+✔ cohesive discovery N02: Asset terminology is literal data. (0.1025ms)
+✖ cohesive discovery N03: Historical negative N06: refused work must not override the live counting request. (8.9018ms)
+✖ cohesive discovery N04: Finite refusal plus a curly-quoted literal, no live design request. (5.1119ms)
+✖ cohesive discovery N05: A declined comparison is not the requested grammar answer. (3.7308ms)
+✔ cohesive discovery N06: Host supplies the need judgment for a simple task outside the finite lexical exclusions. (0.1208ms)
+✔ cohesive discovery N07: A courtesy message is not game qualification. (0.0581ms)
+✔ cohesive discovery P01: Game scene lifetime and imported asset ownership. (6.5494ms)
+✔ cohesive discovery P02: Skeletal import and gameplay motion ownership. (4.9968ms)
+✔ cohesive discovery P03: Technical 3D integration; a specific engine is evidence, not a required dependency. (5.448ms)
+✔ cohesive discovery P04: Interactive 3D integration can be outside a game. (6.0572ms)
+✔ cohesive discovery P05: DSP callback and signal integrity. (5.3436ms)
+✔ cohesive discovery P06: Supplied tabular reconciliation; connected-source access is unnecessary. (6.6084ms)
+✔ cohesive discovery P07: Sample-based authorial voice, not speech synthesis. (5.5603ms)
+✔ cohesive discovery P08: Comparable vendor decision and exit planning. (6.1566ms)
+✔ cohesive discovery P09: Statement reconciliation, not investment guidance. (4.3349ms)
+✔ cohesive discovery P10: Locally grounded agricultural observation and small trials. (4.8899ms)
+✔ cohesive discovery P11: Cross-artifact obligations and consistency. (4.8601ms)
+✔ cohesive discovery P12: Task record recovery with freshness checks. (5.0507ms)
+✔ cohesive discovery P13: Requested learner model, explanation and feedback. (5.4331ms)
+✔ cohesive discovery P14: API consumer/provider compatibility. (4.1543ms)
+✔ cohesive discovery P15: Explicit encoded video artifact. (5.3712ms)
+✔ cohesive discovery P16: Procedural world generation owns its narrower method. (5.3161ms)
+✖ cohesive discovery X01: GIS coordinate operations, no game or 3D runtime request. (2.471ms)
+✖ cohesive discovery X02: UI gesture continuity, no game runtime. (2.5532ms)
+✖ cohesive discovery X03: Frames and assets alone do not request playable runtime work. (2.5151ms)
+✖ cohesive discovery X04: Legal obligation extraction, no technical asset integration. (2.1222ms)
+✖ cohesive discovery X05: Refused game work is not runtime evidence. (2.4158ms)
+✖ cohesive discovery X06: Quoted game work is source material; the live task is contract review. (2.3033ms)
+✔ cohesive discovery A01: Recovery is underspecified. A lexical shortlist remains undecided. (4.3681ms)
+✔ cohesive discovery A02: Model could mean several domains; no single owner asserted. (3.8551ms)
+✔ cohesive discovery A03: Topic-only query does not establish a task or permission. (4.3196ms)
+✔ cohesive discovery A04: Explicit clarification request precedes selection. (0.1007ms)
+✔ cohesive discovery B01: A separate affirmative implementation must stay discoverable. (5.1021ms)
+✔ cohesive discovery B02: A counting substep does not erase a live workflow. (4.7752ms)
+ℹ tests 35
+ℹ suites 0
+ℹ pass 26
+ℹ fail 9
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 228.461
+
+✖ failing tests:
+
+test at tests\cohesive-discovery-routing.test.mjs:12:31
+✖ cohesive discovery N03: Historical negative N06: refused work must not override the live counting request. (8.9018ms)
+  AssertionError [ERR_ASSERTION]: ["eternities-arcadia","geospatial-coordinate-integrity","motion-design-and-animation-engineering"]
+  + actual - expected
+  
+  + [
+  +   'eternities-arcadia',
+  +   'geospatial-coordinate-integrity',
+  +   'motion-design-and-animation-engineering'
+  + ]
+  - []
+  
+      at TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-routing.test.mjs:17:23)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: [ 'eternities-arcadia', 'geospatial-coordinate-integrity', 'motion-design-and-animation-engineering' ],
+    expected: [],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests\cohesive-discovery-routing.test.mjs:12:31
+✖ cohesive discovery N04: Finite refusal plus a curly-quoted literal, no live design request. (5.1119ms)
+  AssertionError [ERR_ASSERTION]: ["robotics-test-ladder","docx-package-redline-and-render-verification","eternities-aegis"]
+  + actual - expected
+  
+  + [
+  +   'robotics-test-ladder',
+  +   'docx-package-redline-and-render-verification',
+  +   'eternities-aegis'
+  + ]
+  - []
+  
+      at TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-routing.test.mjs:17:23)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: [ 'robotics-test-ladder', 'docx-package-redline-and-render-verification', 'eternities-aegis' ],
+    expected: [],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests\cohesive-discovery-routing.test.mjs:12:31
+✖ cohesive discovery N05: A declined comparison is not the requested grammar answer. (3.7308ms)
+  AssertionError [ERR_ASSERTION]: ["approval-bound-private-session-mining","geospatial-coordinate-integrity","product-discovery-and-prioritization"]
+  + actual - expected
+  
+  + [
+  +   'approval-bound-private-session-mining',
+  +   'geospatial-coordinate-integrity',
+  +   'product-discovery-and-prioritization'
+  + ]
+  - []
+  
+      at TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-routing.test.mjs:17:23)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: [ 'approval-bound-private-session-mining', 'geospatial-coordinate-integrity', 'product-discovery-and-prioritization' ],
+    expected: [],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests\cohesive-discovery-routing.test.mjs:12:31
+✖ cohesive discovery X01: GIS coordinate operations, no game or 3D runtime request. (2.471ms)
+  AssertionError [ERR_ASSERTION]: ["geospatial-coordinate-integrity","symbolic-mathematics-python","eternities-arcadia"]
+      at TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-routing.test.mjs:20:42)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\cohesive-discovery-routing.test.mjs:12:31
+✖ cohesive discovery X02: UI gesture continuity, no game runtime. (2.5532ms)
+  AssertionError [ERR_ASSERTION]: ["motion-design-and-animation-engineering","eternities-arcadia","accessibility-audit-and-remediation"]
+      at TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-routing.test.mjs:20:42)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\cohesive-discovery-routing.test.mjs:12:31
+✖ cohesive discovery X03: Frames and assets alone do not request playable runtime work. (2.5151ms)
+  AssertionError [ERR_ASSERTION]: ["deterministic-video-composition-and-rendering","eternities-arcadia","molecular-observable-integrity"]
+      at TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-routing.test.mjs:20:42)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\cohesive-discovery-routing.test.mjs:12:31
+✖ cohesive discovery X04: Legal obligation extraction, no technical asset integration. (2.1222ms)
+  AssertionError [ERR_ASSERTION]: ["jurisdiction-aware-contract-review","eternities-logos","eternities-arcadia"]
+      at TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-routing.test.mjs:20:42)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\cohesive-discovery-routing.test.mjs:12:31
+✖ cohesive discovery X05: Refused game work is not runtime evidence. (2.4158ms)
+  AssertionError [ERR_ASSERTION]: ["eternities-arcadia","geospatial-coordinate-integrity","knowledge-base-architecture-and-maintenance"]
+      at TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-routing.test.mjs:20:42)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\cohesive-discovery-routing.test.mjs:12:31
+✖ cohesive discovery X06: Quoted game work is source material; the live task is contract review. (2.3033ms)
+  AssertionError [ERR_ASSERTION]: ["jurisdiction-aware-contract-review","eternities-arcadia","imaginative-concept-development"]
+      at TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/cohesive-discovery-routing.test.mjs:20:42)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+      at Test.postRun (node:internal/test_runner/test:1465:19)
+      at Test.run (node:internal/test_runner/test:1390:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

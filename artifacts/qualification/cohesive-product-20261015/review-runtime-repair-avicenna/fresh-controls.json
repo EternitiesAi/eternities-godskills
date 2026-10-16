@@ -1,0 +1,43 @@
+{
+  "schema": "runtime-repair-avicenna-controls-v1",
+  "options": {
+    "limit": 20
+  },
+  "cases": [
+    {
+      "id": "F01",
+      "query": "Repair the frame loop after browser focus returns so its animation does not jump forward.",
+      "expect": "include",
+      "owner": "eternities-arcadia"
+    },
+    {
+      "id": "F02",
+      "query": "Fix the fragment shader normals in the interactive crystal exhibit.",
+      "expect": "include",
+      "owner": "eternities-arcadia"
+    },
+    {
+      "id": "F03",
+      "query": "Repair keyboard focus on a sign-up page with a CSS animation.",
+      "expect": "exclude",
+      "owner": "eternities-arcadia"
+    },
+    {
+      "id": "F04",
+      "query": "Compare prices for shader animation tooling for browser tabs.",
+      "expect": "exclude",
+      "owner": "eternities-arcadia"
+    },
+    {
+      "id": "F05",
+      "query": "The note says \"repair the browser simulation and frame loop\"; lowercase the literal text PANEL. Give only the text.",
+      "expect": "empty"
+    },
+    {
+      "id": "F06",
+      "query": "Validate energy and force errors for a learned interatomic potential across material phases.",
+      "expect": "first",
+      "owner": "interatomic-model-validation"
+    }
+  ]
+}

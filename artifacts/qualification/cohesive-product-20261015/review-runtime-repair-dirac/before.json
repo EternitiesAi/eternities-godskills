@@ -1,0 +1,93 @@
+{
+  "head": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+  "branch": "feat/cohesive-product-20261015",
+  "node": "v24.18.0",
+  "readSet": [
+    {
+      "path": "product/lib/discovery.mjs",
+      "sha256": "4996700d80c125d06586f044260026954047cbbd412f43ef63e10ea8b2adcbd6"
+    },
+    {
+      "path": "product/lib/request-scope.mjs",
+      "sha256": "e9055f1bfa2a913c1f73e93f5fa652588963e63dd9094e46713786fe400877f2"
+    },
+    {
+      "path": "product/lib/selection-boundary.mjs",
+      "sha256": "a7b0ed0d0c9805e9a2b97a74c0321ce263c15609e98996144df90fc1b7f0e60e"
+    },
+    {
+      "path": "product/lib/product.mjs",
+      "sha256": "afd5689a4120420478995bee762e67cc7ce640f9ce633ae6c6a4f497efcff9bf"
+    },
+    {
+      "path": "product/lib/method-directory.mjs",
+      "sha256": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180"
+    },
+    {
+      "path": "product/lib/skill-frontmatter.mjs",
+      "sha256": "66bfc5b6b56688d2996689f774b5b904ce517a3fda1ec35d4d567cbd63e3a96d"
+    },
+    {
+      "path": "product/catalog.json",
+      "sha256": "adfa5cfed9ac1c6a3ca8db26522e322aa5106ca031884a4de1d8a61dc1a41b36"
+    },
+    {
+      "path": "product/release.json",
+      "sha256": "ccc41f689037dd341f7ac1e132239b140c18932a4d25382cf5faa74710f92de6"
+    },
+    {
+      "path": "tests/universal-wave7-discovery.test.mjs",
+      "sha256": "b5531c32ba74dc1805d7b25118fd1535d33f7ac64e47bde1c193034a6c3624fc"
+    },
+    {
+      "path": "tests/wave29-atlas-serving-time-ranking-trace-v2.test.mjs",
+      "sha256": "5e9243dd13d3deb67fb60d11daa34ee0db5544a4a453f485ec0c6bbe2968c415"
+    },
+    {
+      "path": "tests/wave29-atlas-serving-time-ranking-trace-v3.test.mjs",
+      "sha256": "1a63abab0f5cfee21f22cbb6e7169ce082781e7838f41492ae0d7d6e0c514193"
+    },
+    {
+      "path": "tests/educational-discovery-revealed-v2.test.mjs",
+      "sha256": "242d9c517612614339d1b96788201f2df9920eac6bc608fe6f6d1f1a21b887ba"
+    },
+    {
+      "path": "tests/helpers/atlas-discovery-revision.mjs",
+      "sha256": "2a4e402ec6a319fa240cea5ec03054a640dab8b7c936b703e7b0bbf5012a40df"
+    },
+    {
+      "path": "tests/helpers/arcadia-asset-revision.mjs",
+      "sha256": "3d49bc29b9d584e16edfbb279246bd6b81b7633182b297d80b515ac60b472db1"
+    },
+    {
+      "path": "tests/fixtures/educational-discovery-revealed-v2.json",
+      "sha256": "d45fe826ca59387cb0137955fa0fe0672ff2fbcae55a9d90606388f0cc711b24"
+    },
+    {
+      "path": "tests/fixtures/educational-discovery-revealed-v4.json",
+      "sha256": "714897e05af3700b2ac54c130904afb10e2cb01b976e48bd71fa803644e68c1d"
+    },
+    {
+      "path": "tests/fixtures/catalog-before-next-eight-20261004.json",
+      "sha256": "bf90582e8a23a3d50a6997cfba5f97d022f4619024f8459e364423f269e10eca"
+    },
+    {
+      "path": "product/skills/diagnostic-statistical-model-inference/skill.json",
+      "sha256": "9526fcb3edc9ca519ff3fff6e5efa836da2c58c2a37dd57bc81cb150379306fd"
+    },
+    {
+      "path": "product/skills/interatomic-model-validation/skill.json",
+      "sha256": "34ec8e35b224bba26150e8b2128f734f214a0ecfc4215ef5c8ce61172e744972"
+    },
+    {
+      "path": "product/skills/eternities-arcadia/skill.json",
+      "sha256": "eeaefbc6c4c89338b38664002a266cf54c9530e610f44874386bf7284e67933e"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-cohesive-20261015/full-maintained-v1.tap",
+      "sha256": "a0d6c554880e00af7de399bdd54df79beb3fa652dbbcd2d9f15a06a53a61bb72"
+    }
+  ],
+  "newDirectoryExists": false
+}
+

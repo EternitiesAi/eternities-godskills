@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-16T05:36:34.625Z",
+  "authoritativeBinding": "supplemental-final-bind.json",
+  "bindingSha256": "efb29a48638342195e80980a73951ad3c10edfc0b3de0fa30a90b126243eaa4f",
+  "boundAt": "2026-10-16T05:33:38.981Z",
+  "all21AAnd2RunnerSourceHashesStillMatch": true,
+  "priorEvidence5Unchanged": true,
+  "latest27OwnerRanksAndResultOrdersUnchanged": true,
+  "rootPlaceholderAbsent": true,
+  "disposition": "PRECISE_REPAIR_REQUIRED",
+  "reportSha256": "d91eafa3d74cd3d9856464bd1ab8043a7be80727cc3f79ce2c2f454c33edb228",
+  "readSetSupplement": [
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-a-nietzsche/REVIEW.md",
+      "sha256": "c9d9df6f54a61f7ffe18e444036496411974c16fa65b695d04634feaa49e7b13",
+      "role": "Immutable prior findings materially read in addition to read-set.json entries"
+    }
+  ],
+  "limits": "No new cases, harness expansion or product edits after parent close request. Binding supports only the per-file bounded decisions in REVIEW.md and review.json, not blanket metadata, D-content, C-behavior or release acceptance."
+}

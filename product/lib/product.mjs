@@ -153,9 +153,9 @@ export function searchCatalog(catalog,query,{limit=5,category,taskType,need='unk
   check(Number.isInteger(limit)&&limit>=1&&limit<=20,'Limit must be an integer from 1 to 20');
   check(catalog.schema==='eternities-godskills-catalog-v1'&&Array.isArray(catalog.skills),'Invalid catalog');
   check(['none','specialist','unknown'].includes(need),'Need must be none, specialist, or unknown');
-  if(need==='none')return {schema:'eternities-godskills-discovery-v1',authority:'none',activation:'none',method:'offline-lexical-intent-phrases-v3',query,results:[],abstentionReason:'host-supplied-no-need',selection:{state:'abstain',basis:'host-supplied-no-need'}};
+  if(need==='none')return {schema:'eternities-godskills-discovery-v1',authority:'none',activation:'none',method:'offline-lexical-intent-phrases-v4',query,results:[],abstentionReason:'host-supplied-no-need',selection:{state:'abstain',basis:'host-supplied-no-need'}};
   const abstentionReason=lexicalSelectionBoundary(query);
-  if(abstentionReason)return {schema:'eternities-godskills-discovery-v1',authority:'none',activation:'none',method:'offline-lexical-intent-phrases-v3',query,results:[],abstentionReason,selection:{state:'abstain',basis:'bounded-lexical-exclusion'}};
+  if(abstentionReason)return {schema:'eternities-godskills-discovery-v1',authority:'none',activation:'none',method:'offline-lexical-intent-phrases-v4',query,results:[],abstentionReason,selection:{state:'abstain',basis:'bounded-lexical-exclusion'}};
   const evidence=lexicalQueryEvidence(query);
   // In a corroborated writing request, "sound like me" describes prose. Keep
   // literal audio/DSP queries on the established weighted-term path.
@@ -183,7 +183,7 @@ export function searchCatalog(catalog,query,{limit=5,category,taskType,need='unk
   // Existing profiles and no-new-intent queries retain score/ID ordering. Host
   // need, task/category and anti-trigger exclusions have already been applied.
   candidates.sort((a,b)=>requestPriority.get(b)-requestPriority.get(a)||b.score-a.score||cmp(a.id,b.id));
-  return {schema:'eternities-godskills-discovery-v1',authority:'none',activation:'none',method:'offline-lexical-intent-phrases-v3',query,results:candidates.slice(0,limit),selection:{state:'review-required',basis:need==='specialist'?'host-requested-specialist-candidates':'lexical-candidates-only'}};
+  return {schema:'eternities-godskills-discovery-v1',authority:'none',activation:'none',method:'offline-lexical-intent-phrases-v4',query,results:candidates.slice(0,limit),selection:{state:'review-required',basis:need==='specialist'?'host-requested-specialist-candidates':'lexical-candidates-only'}};
 }
 
 // Host-supplied task facts, not keyword inference. A shortlist never grants this subroute.

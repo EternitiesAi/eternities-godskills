@@ -1,0 +1,3061 @@
+{
+  "node": "v24.18.0",
+  "canonical": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+  "sources": [
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-runtime-repair-dirac/code.before.json",
+      "sha256": "b3e62f09d4d105f07fb2e55dd0a8c874ee58992412d13e661d397355a27268e7"
+    },
+    {
+      "path": "product/lib/discovery.mjs",
+      "sha256": "ce74e5a9eafac393e8d39230f2d657847beac54a62574dea9df4303f7c0d4926"
+    },
+    {
+      "path": "product/lib/request-scope.mjs",
+      "sha256": "e9055f1bfa2a913c1f73e93f5fa652588963e63dd9094e46713786fe400877f2"
+    },
+    {
+      "path": "product/lib/selection-boundary.mjs",
+      "sha256": "a7b0ed0d0c9805e9a2b97a74c0321ce263c15609e98996144df90fc1b7f0e60e"
+    },
+    {
+      "path": "product/lib/product.mjs",
+      "sha256": "afd5689a4120420478995bee762e67cc7ce640f9ce633ae6c6a4f497efcff9bf"
+    },
+    {
+      "path": "product/lib/method-directory.mjs",
+      "sha256": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180"
+    },
+    {
+      "path": "product/lib/skill-frontmatter.mjs",
+      "sha256": "66bfc5b6b56688d2996689f774b5b904ce517a3fda1ec35d4d567cbd63e3a96d"
+    },
+    {
+      "path": "product/catalog.json",
+      "sha256": "adfa5cfed9ac1c6a3ca8db26522e322aa5106ca031884a4de1d8a61dc1a41b36"
+    },
+    {
+      "path": "tests/fixtures/catalog-before-next-eight-20261004.json",
+      "sha256": "bf90582e8a23a3d50a6997cfba5f97d022f4619024f8459e364423f269e10eca"
+    },
+    {
+      "path": "tests/fixtures/educational-discovery-revealed-v2.json",
+      "sha256": "d45fe826ca59387cb0137955fa0fe0672ff2fbcae55a9d90606388f0cc711b24"
+    },
+    {
+      "path": "tests/fixtures/educational-discovery-revealed-v4.json",
+      "sha256": "714897e05af3700b2ac54c130904afb10e2cb01b976e48bd71fa803644e68c1d"
+    }
+  ],
+  "canonicalHashes": {
+    "product/lib/product.mjs": "c779ed4ee93c38b50af970ca746f20c0225a96b761449a8c779e3a28c00e800f",
+    "product/lib/method-directory.mjs": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180",
+    "product/lib/discovery.mjs": "894d347eda269dbfe447d7a09d5ff10bf57b9c5e1f3f90ce398502f7b65fc7d5",
+    "product/lib/selection-boundary.mjs": "792db2f120251de8c0d21985c10cb81a0fd1a5baa83978851e9eb16e10ca68be",
+    "product/lib/skill-frontmatter.mjs": "66bfc5b6b56688d2996689f774b5b904ce517a3fda1ec35d4d567cbd63e3a96d"
+  },
+  "canonicalCatalogSha256": "f20b17c989c188d439c84fa4a8cf5989ccafe550428b2b2577708ba072a39889",
+  "changedDuringRun": [],
+  "cases": [
+    {
+      "query": "Hidden tab resumes with a huge simulation delta and pressed keys stay stuck",
+      "canonicalOldMetadata": [
+        {
+          "id": "eternities-arcadia",
+          "score": 147.278,
+          "reasons": [
+            "Matched: delta, hidden, keys, pressed, simulation, tab"
+          ]
+        },
+        {
+          "id": "eternities-atlas",
+          "score": 28.034,
+          "reasons": [
+            "Matched: simulation"
+          ]
+        },
+        {
+          "id": "robotics-test-ladder",
+          "score": 28.034,
+          "reasons": [
+            "Matched: simulation"
+          ]
+        },
+        {
+          "id": "fp-ts-functional-refactoring",
+          "score": 24.26,
+          "reasons": [
+            "Matched: hidden"
+          ]
+        },
+        {
+          "id": "eternities-muse",
+          "score": 22.319,
+          "reasons": [
+            "Matched: keys"
+          ]
+        },
+        {
+          "id": "lazy-tabular-transformation-and-validation",
+          "score": 22.319,
+          "reasons": [
+            "Matched: keys"
+          ]
+        },
+        {
+          "id": "eternities-daedalus",
+          "score": 19.624,
+          "reasons": [
+            "Matched: simulation"
+          ]
+        },
+        {
+          "id": "physics-constrained-numerical-validation",
+          "score": 19.624,
+          "reasons": [
+            "Matched: simulation"
+          ]
+        }
+      ],
+      "canonicalCurrentMetadata": [
+        {
+          "id": "eternities-arcadia",
+          "score": 147.278,
+          "reasons": [
+            "Matched: delta, hidden, keys, pressed, simulation, tab"
+          ]
+        },
+        {
+          "id": "eternities-atlas",
+          "score": 28.034,
+          "reasons": [
+            "Matched: simulation"
+          ]
+        },
+        {
+          "id": "robotics-test-ladder",
+          "score": 28.034,
+          "reasons": [
+            "Matched: simulation"
+          ]
+        },
+        {
+          "id": "fp-ts-functional-refactoring",
+          "score": 24.26,
+          "reasons": [
+            "Matched: hidden"
+          ]
+        },
+        {
+          "id": "eternities-muse",
+          "score": 22.319,
+          "reasons": [
+            "Matched: keys"
+          ]
+        },
+        {
+          "id": "lazy-tabular-transformation-and-validation",
+          "score": 22.319,
+          "reasons": [
+            "Matched: keys"
+          ]
+        },
+        {
+          "id": "eternities-daedalus",
+          "score": 19.624,
+          "reasons": [
+            "Matched: simulation"
+          ]
+        },
+        {
+          "id": "physics-constrained-numerical-validation",
+          "score": 19.624,
+          "reasons": [
+            "Matched: simulation"
+          ]
+        }
+      ],
+      "beforeCurrentMetadata": [
+        {
+          "id": "eternities-atlas",
+          "score": 28.034,
+          "reasons": [
+            "Matched: simulation"
+          ]
+        },
+        {
+          "id": "robotics-test-ladder",
+          "score": 28.034,
+          "reasons": [
+            "Matched: simulation"
+          ]
+        },
+        {
+          "id": "fp-ts-functional-refactoring",
+          "score": 24.26,
+          "reasons": [
+            "Matched: hidden"
+          ]
+        },
+        {
+          "id": "eternities-muse",
+          "score": 22.319,
+          "reasons": [
+            "Matched: keys"
+          ]
+        },
+        {
+          "id": "lazy-tabular-transformation-and-validation",
+          "score": 22.319,
+          "reasons": [
+            "Matched: keys"
+          ]
+        },
+        {
+          "id": "eternities-daedalus",
+          "score": 19.624,
+          "reasons": [
+            "Matched: simulation"
+          ]
+        },
+        {
+          "id": "physics-constrained-numerical-validation",
+          "score": 19.624,
+          "reasons": [
+            "Matched: simulation"
+          ]
+        }
+      ],
+      "afterCurrentMetadata": [
+        {
+          "id": "eternities-arcadia",
+          "score": 147.278,
+          "reasons": [
+            "Matched: delta, hidden, keys, pressed, simulation, tab"
+          ]
+        },
+        {
+          "id": "eternities-atlas",
+          "score": 28.034,
+          "reasons": [
+            "Matched: simulation"
+          ]
+        },
+        {
+          "id": "robotics-test-ladder",
+          "score": 28.034,
+          "reasons": [
+            "Matched: simulation"
+          ]
+        },
+        {
+          "id": "fp-ts-functional-refactoring",
+          "score": 24.26,
+          "reasons": [
+            "Matched: hidden"
+          ]
+        },
+        {
+          "id": "eternities-muse",
+          "score": 22.319,
+          "reasons": [
+            "Matched: keys"
+          ]
+        },
+        {
+          "id": "lazy-tabular-transformation-and-validation",
+          "score": 22.319,
+          "reasons": [
+            "Matched: keys"
+          ]
+        },
+        {
+          "id": "eternities-daedalus",
+          "score": 19.624,
+          "reasons": [
+            "Matched: simulation"
+          ]
+        },
+        {
+          "id": "physics-constrained-numerical-validation",
+          "score": 19.624,
+          "reasons": [
+            "Matched: simulation"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Fix canvas resize pointer coordinates and duplicate animation loops",
+      "canonicalOldMetadata": [
+        {
+          "id": "eternities-arcadia",
+          "score": 153.189,
+          "reasons": [
+            "Matched: animation, canvas, coordinates, loops, pointer, resize"
+          ]
+        },
+        {
+          "id": "motion-design-and-animation-engineering",
+          "score": 38.123,
+          "reasons": [
+            "Matched: animation"
+          ]
+        },
+        {
+          "id": "geospatial-coordinate-integrity",
+          "score": 29.755,
+          "reasons": [
+            "Matched: coordinates"
+          ]
+        },
+        {
+          "id": "api-contract-design-and-evolution",
+          "score": 20.829,
+          "reasons": [
+            "Matched: duplicate"
+          ]
+        },
+        {
+          "id": "bounded-service-shutdown",
+          "score": 20.829,
+          "reasons": [
+            "Matched: duplicate"
+          ]
+        },
+        {
+          "id": "browser-automation-state-and-verification",
+          "score": 20.829,
+          "reasons": [
+            "Matched: duplicate"
+          ]
+        },
+        {
+          "id": "customer-support-triage-and-resolution",
+          "score": 20.829,
+          "reasons": [
+            "Matched: duplicate"
+          ]
+        },
+        {
+          "id": "genomic-coordinate-assembly-and-variant-gates",
+          "score": 20.829,
+          "reasons": [
+            "Matched: coordinates"
+          ]
+        },
+        {
+          "id": "molecular-observable-integrity",
+          "score": 20.829,
+          "reasons": [
+            "Matched: coordinates"
+          ]
+        }
+      ],
+      "canonicalCurrentMetadata": [
+        {
+          "id": "eternities-arcadia",
+          "score": 153.189,
+          "reasons": [
+            "Matched: animation, canvas, coordinates, loops, pointer, resize"
+          ]
+        },
+        {
+          "id": "motion-design-and-animation-engineering",
+          "score": 38.123,
+          "reasons": [
+            "Matched: animation"
+          ]
+        },
+        {
+          "id": "geospatial-coordinate-integrity",
+          "score": 29.755,
+          "reasons": [
+            "Matched: coordinates"
+          ]
+        },
+        {
+          "id": "api-contract-design-and-evolution",
+          "score": 20.829,
+          "reasons": [
+            "Matched: duplicate"
+          ]
+        },
+        {
+          "id": "bounded-service-shutdown",
+          "score": 20.829,
+          "reasons": [
+            "Matched: duplicate"
+          ]
+        },
+        {
+          "id": "browser-automation-state-and-verification",
+          "score": 20.829,
+          "reasons": [
+            "Matched: duplicate"
+          ]
+        },
+        {
+          "id": "customer-support-triage-and-resolution",
+          "score": 20.829,
+          "reasons": [
+            "Matched: duplicate"
+          ]
+        },
+        {
+          "id": "genomic-coordinate-assembly-and-variant-gates",
+          "score": 20.829,
+          "reasons": [
+            "Matched: coordinates"
+          ]
+        },
+        {
+          "id": "molecular-observable-integrity",
+          "score": 20.829,
+          "reasons": [
+            "Matched: coordinates"
+          ]
+        }
+      ],
+      "beforeCurrentMetadata": [
+        {
+          "id": "eternities-arcadia",
+          "score": 153.189,
+          "reasons": [
+            "Matched: animation, canvas, coordinates, loops, pointer, resize",
+            "Lexical intent: game or real-time 3D runtime scope; cues: game or technical 3D context, independent work action or reported fault"
+          ]
+        },
+        {
+          "id": "motion-design-and-animation-engineering",
+          "score": 38.123,
+          "reasons": [
+            "Matched: animation"
+          ]
+        },
+        {
+          "id": "geospatial-coordinate-integrity",
+          "score": 29.755,
+          "reasons": [
+            "Matched: coordinates"
+          ]
+        },
+        {
+          "id": "api-contract-design-and-evolution",
+          "score": 20.829,
+          "reasons": [
+            "Matched: duplicate"
+          ]
+        },
+        {
+          "id": "bounded-service-shutdown",
+          "score": 20.829,
+          "reasons": [
+            "Matched: duplicate"
+          ]
+        },
+        {
+          "id": "browser-automation-state-and-verification",
+          "score": 20.829,
+          "reasons": [
+            "Matched: duplicate"
+          ]
+        },
+        {
+          "id": "customer-support-triage-and-resolution",
+          "score": 20.829,
+          "reasons": [
+            "Matched: duplicate"
+          ]
+        },
+        {
+          "id": "genomic-coordinate-assembly-and-variant-gates",
+          "score": 20.829,
+          "reasons": [
+            "Matched: coordinates"
+          ]
+        },
+        {
+          "id": "molecular-observable-integrity",
+          "score": 20.829,
+          "reasons": [
+            "Matched: coordinates"
+          ]
+        }
+      ],
+      "afterCurrentMetadata": [
+        {
+          "id": "eternities-arcadia",
+          "score": 153.189,
+          "reasons": [
+            "Matched: animation, canvas, coordinates, loops, pointer, resize",
+            "Lexical intent: game or real-time 3D runtime scope; cues: game or technical 3D context, independent work action or reported fault"
+          ]
+        },
+        {
+          "id": "motion-design-and-animation-engineering",
+          "score": 38.123,
+          "reasons": [
+            "Matched: animation"
+          ]
+        },
+        {
+          "id": "geospatial-coordinate-integrity",
+          "score": 29.755,
+          "reasons": [
+            "Matched: coordinates"
+          ]
+        },
+        {
+          "id": "api-contract-design-and-evolution",
+          "score": 20.829,
+          "reasons": [
+            "Matched: duplicate"
+          ]
+        },
+        {
+          "id": "bounded-service-shutdown",
+          "score": 20.829,
+          "reasons": [
+            "Matched: duplicate"
+          ]
+        },
+        {
+          "id": "browser-automation-state-and-verification",
+          "score": 20.829,
+          "reasons": [
+            "Matched: duplicate"
+          ]
+        },
+        {
+          "id": "customer-support-triage-and-resolution",
+          "score": 20.829,
+          "reasons": [
+            "Matched: duplicate"
+          ]
+        },
+        {
+          "id": "genomic-coordinate-assembly-and-variant-gates",
+          "score": 20.829,
+          "reasons": [
+            "Matched: coordinates"
+          ]
+        },
+        {
+          "id": "molecular-observable-integrity",
+          "score": 20.829,
+          "reasons": [
+            "Matched: coordinates"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "When browser focus returns, the simulation advances too far and held input remains active",
+      "canonicalOldMetadata": [
+        {
+          "id": "eternities-arcadia",
+          "score": 88.522,
+          "reasons": [
+            "Matched: browser, focus, input, simulation"
+          ]
+        },
+        {
+          "id": "eternities-atlas",
+          "score": 63.876,
+          "reasons": [
+            "Matched: input, remains, simulation"
+          ]
+        },
+        {
+          "id": "browser-automation-state-and-verification",
+          "score": 44.638,
+          "reasons": [
+            "Matched: browser"
+          ]
+        },
+        {
+          "id": "accessibility-audit-and-remediation",
+          "score": 31.884,
+          "reasons": [
+            "Matched: focus"
+          ]
+        },
+        {
+          "id": "eternities-hermes",
+          "score": 31.884,
+          "reasons": [
+            "Matched: browser"
+          ]
+        },
+        {
+          "id": "robotics-test-ladder",
+          "score": 28.034,
+          "reasons": [
+            "Matched: simulation"
+          ]
+        },
+        {
+          "id": "scientific-surrogate-validation",
+          "score": 24.26,
+          "reasons": [
+            "Matched: active"
+          ]
+        },
+        {
+          "id": "motion-design-and-animation-engineering",
+          "score": 22.319,
+          "reasons": [
+            "Matched: focus"
+          ]
+        },
+        {
+          "id": "eternities-daedalus",
+          "score": 19.624,
+          "reasons": [
+            "Matched: simulation"
+          ]
+        },
+        {
+          "id": "physics-constrained-numerical-validation",
+          "score": 19.624,
+          "reasons": [
+            "Matched: simulation"
+          ]
+        }
+      ],
+      "canonicalCurrentMetadata": [
+        {
+          "id": "eternities-arcadia",
+          "score": 88.522,
+          "reasons": [
+            "Matched: browser, focus, input, simulation"
+          ]
+        },
+        {
+          "id": "eternities-atlas",
+          "score": 63.876,
+          "reasons": [
+            "Matched: input, remains, simulation"
+          ]
+        },
+        {
+          "id": "browser-automation-state-and-verification",
+          "score": 44.638,
+          "reasons": [
+            "Matched: browser"
+          ]
+        },
+        {
+          "id": "accessibility-audit-and-remediation",
+          "score": 31.884,
+          "reasons": [
+            "Matched: focus"
+          ]
+        },
+        {
+          "id": "eternities-hermes",
+          "score": 31.884,
+          "reasons": [
+            "Matched: browser"
+          ]
+        },
+        {
+          "id": "robotics-test-ladder",
+          "score": 28.034,
+          "reasons": [
+            "Matched: simulation"
+          ]
+        },
+        {
+          "id": "scientific-surrogate-validation",
+          "score": 24.26,
+          "reasons": [
+            "Matched: active"
+          ]
+        },
+        {
+          "id": "motion-design-and-animation-engineering",
+          "score": 22.319,
+          "reasons": [
+            "Matched: focus"
+          ]
+        },
+        {
+          "id": "eternities-daedalus",
+          "score": 19.624,
+          "reasons": [
+            "Matched: simulation"
+          ]
+        },
+        {
+          "id": "physics-constrained-numerical-validation",
+          "score": 19.624,
+          "reasons": [
+            "Matched: simulation"
+          ]
+        }
+      ],
+      "beforeCurrentMetadata": [
+        {
+          "id": "eternities-atlas",
+          "score": 63.876,
+          "reasons": [
+            "Matched: input, remains, simulation"
+          ]
+        },
+        {
+          "id": "browser-automation-state-and-verification",
+          "score": 44.638,
+          "reasons": [
+            "Matched: browser"
+          ]
+        },
+        {
+          "id": "accessibility-audit-and-remediation",
+          "score": 31.884,
+          "reasons": [
+            "Matched: focus"
+          ]
+        },
+        {
+          "id": "eternities-hermes",
+          "score": 31.884,
+          "reasons": [
+            "Matched: browser"
+          ]
+        },
+        {
+          "id": "robotics-test-ladder",
+          "score": 28.034,
+          "reasons": [
+            "Matched: simulation"
+          ]
+        },
+        {
+          "id": "scientific-surrogate-validation",
+          "score": 24.26,
+          "reasons": [
+            "Matched: active"
+          ]
+        },
+        {
+          "id": "motion-design-and-animation-engineering",
+          "score": 22.319,
+          "reasons": [
+            "Matched: focus"
+          ]
+        },
+        {
+          "id": "eternities-daedalus",
+          "score": 19.624,
+          "reasons": [
+            "Matched: simulation"
+          ]
+        },
+        {
+          "id": "physics-constrained-numerical-validation",
+          "score": 19.624,
+          "reasons": [
+            "Matched: simulation"
+          ]
+        },
+        {
+          "id": "counterbalanced-agent-evaluation",
+          "score": 11.582,
+          "reasons": [
+            "Matched: held"
+          ]
+        }
+      ],
+      "afterCurrentMetadata": [
+        {
+          "id": "eternities-arcadia",
+          "score": 88.522,
+          "reasons": [
+            "Matched: browser, focus, input, simulation"
+          ]
+        },
+        {
+          "id": "eternities-atlas",
+          "score": 63.876,
+          "reasons": [
+            "Matched: input, remains, simulation"
+          ]
+        },
+        {
+          "id": "browser-automation-state-and-verification",
+          "score": 44.638,
+          "reasons": [
+            "Matched: browser"
+          ]
+        },
+        {
+          "id": "accessibility-audit-and-remediation",
+          "score": 31.884,
+          "reasons": [
+            "Matched: focus"
+          ]
+        },
+        {
+          "id": "eternities-hermes",
+          "score": 31.884,
+          "reasons": [
+            "Matched: browser"
+          ]
+        },
+        {
+          "id": "robotics-test-ladder",
+          "score": 28.034,
+          "reasons": [
+            "Matched: simulation"
+          ]
+        },
+        {
+          "id": "scientific-surrogate-validation",
+          "score": 24.26,
+          "reasons": [
+            "Matched: active"
+          ]
+        },
+        {
+          "id": "motion-design-and-animation-engineering",
+          "score": 22.319,
+          "reasons": [
+            "Matched: focus"
+          ]
+        },
+        {
+          "id": "eternities-daedalus",
+          "score": 19.624,
+          "reasons": [
+            "Matched: simulation"
+          ]
+        },
+        {
+          "id": "physics-constrained-numerical-validation",
+          "score": 19.624,
+          "reasons": [
+            "Matched: simulation"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Repair pointer input after page visibility changes interrupt the animation",
+      "canonicalOldMetadata": [
+        {
+          "id": "eternities-arcadia",
+          "score": 90.729,
+          "reasons": [
+            "Matched: after, animation, input, pointer"
+          ]
+        },
+        {
+          "id": "git-change-integration-and-recovery",
+          "score": 39.461,
+          "reasons": [
+            "Matched: after, changes"
+          ]
+        },
+        {
+          "id": "motion-design-and-animation-engineering",
+          "score": 38.123,
+          "reasons": [
+            "Matched: animation"
+          ]
+        },
+        {
+          "id": "docx-package-redline-and-render-verification",
+          "score": 34.308,
+          "reasons": [
+            "Matched: changes, page"
+          ]
+        },
+        {
+          "id": "interpersonal-understanding-and-dialogue",
+          "score": 32.933,
+          "reasons": [
+            "Matched: after, repair"
+          ]
+        },
+        {
+          "id": "product-discovery-and-prioritization",
+          "score": 32.178,
+          "reasons": [
+            "Matched: after, changes"
+          ]
+        },
+        {
+          "id": "terrain-watershed-analysis",
+          "score": 27.025,
+          "reasons": [
+            "Matched: visibility"
+          ]
+        },
+        {
+          "id": "accessibility-audit-and-remediation",
+          "score": 25.357,
+          "reasons": [
+            "Matched: repair"
+          ]
+        },
+        {
+          "id": "eternities-atlas",
+          "score": 24.26,
+          "reasons": [
+            "Matched: input"
+          ]
+        },
+        {
+          "id": "eternities-daedalus",
+          "score": 22.467,
+          "reasons": [
+            "Matched: after, changes"
+          ]
+        }
+      ],
+      "canonicalCurrentMetadata": [
+        {
+          "id": "eternities-arcadia",
+          "score": 90.729,
+          "reasons": [
+            "Matched: after, animation, input, pointer"
+          ]
+        },
+        {
+          "id": "git-change-integration-and-recovery",
+          "score": 39.461,
+          "reasons": [
+            "Matched: after, changes"
+          ]
+        },
+        {
+          "id": "motion-design-and-animation-engineering",
+          "score": 38.123,
+          "reasons": [
+            "Matched: animation"
+          ]
+        },
+        {
+          "id": "interpersonal-understanding-and-dialogue",
+          "score": 32.178,
+          "reasons": [
+            "Matched: after, repair"
+          ]
+        },
+        {
+          "id": "product-discovery-and-prioritization",
+          "score": 32.178,
+          "reasons": [
+            "Matched: after, changes"
+          ]
+        },
+        {
+          "id": "docx-package-redline-and-render-verification",
+          "score": 31.543,
+          "reasons": [
+            "Matched: changes, page"
+          ]
+        },
+        {
+          "id": "terrain-watershed-analysis",
+          "score": 27.025,
+          "reasons": [
+            "Matched: visibility"
+          ]
+        },
+        {
+          "id": "accessibility-audit-and-remediation",
+          "score": 24.277,
+          "reasons": [
+            "Matched: repair"
+          ]
+        },
+        {
+          "id": "eternities-atlas",
+          "score": 24.26,
+          "reasons": [
+            "Matched: input"
+          ]
+        },
+        {
+          "id": "eternities-beacon",
+          "score": 24.26,
+          "reasons": [
+            "Matched: page"
+          ]
+        }
+      ],
+      "beforeCurrentMetadata": [
+        {
+          "id": "git-change-integration-and-recovery",
+          "score": 39.461,
+          "reasons": [
+            "Matched: after, changes"
+          ]
+        },
+        {
+          "id": "motion-design-and-animation-engineering",
+          "score": 38.123,
+          "reasons": [
+            "Matched: animation"
+          ]
+        },
+        {
+          "id": "interpersonal-understanding-and-dialogue",
+          "score": 32.178,
+          "reasons": [
+            "Matched: after, repair"
+          ]
+        },
+        {
+          "id": "product-discovery-and-prioritization",
+          "score": 32.178,
+          "reasons": [
+            "Matched: after, changes"
+          ]
+        },
+        {
+          "id": "docx-package-redline-and-render-verification",
+          "score": 31.543,
+          "reasons": [
+            "Matched: changes, page"
+          ]
+        },
+        {
+          "id": "terrain-watershed-analysis",
+          "score": 27.025,
+          "reasons": [
+            "Matched: visibility"
+          ]
+        },
+        {
+          "id": "accessibility-audit-and-remediation",
+          "score": 24.277,
+          "reasons": [
+            "Matched: repair"
+          ]
+        },
+        {
+          "id": "eternities-atlas",
+          "score": 24.26,
+          "reasons": [
+            "Matched: input"
+          ]
+        },
+        {
+          "id": "eternities-beacon",
+          "score": 24.26,
+          "reasons": [
+            "Matched: page"
+          ]
+        },
+        {
+          "id": "eternities-daedalus",
+          "score": 22.467,
+          "reasons": [
+            "Matched: after, changes"
+          ]
+        }
+      ],
+      "afterCurrentMetadata": [
+        {
+          "id": "eternities-arcadia",
+          "score": 90.729,
+          "reasons": [
+            "Matched: after, animation, input, pointer",
+            "Lexical intent: game or real-time 3D runtime scope; cues: game or technical 3D context, independent work action or reported fault"
+          ]
+        },
+        {
+          "id": "git-change-integration-and-recovery",
+          "score": 39.461,
+          "reasons": [
+            "Matched: after, changes"
+          ]
+        },
+        {
+          "id": "motion-design-and-animation-engineering",
+          "score": 38.123,
+          "reasons": [
+            "Matched: animation"
+          ]
+        },
+        {
+          "id": "interpersonal-understanding-and-dialogue",
+          "score": 32.178,
+          "reasons": [
+            "Matched: after, repair"
+          ]
+        },
+        {
+          "id": "product-discovery-and-prioritization",
+          "score": 32.178,
+          "reasons": [
+            "Matched: after, changes"
+          ]
+        },
+        {
+          "id": "docx-package-redline-and-render-verification",
+          "score": 31.543,
+          "reasons": [
+            "Matched: changes, page"
+          ]
+        },
+        {
+          "id": "terrain-watershed-analysis",
+          "score": 27.025,
+          "reasons": [
+            "Matched: visibility"
+          ]
+        },
+        {
+          "id": "accessibility-audit-and-remediation",
+          "score": 24.277,
+          "reasons": [
+            "Matched: repair"
+          ]
+        },
+        {
+          "id": "eternities-atlas",
+          "score": 24.26,
+          "reasons": [
+            "Matched: input"
+          ]
+        },
+        {
+          "id": "eternities-beacon",
+          "score": 24.26,
+          "reasons": [
+            "Matched: page"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Fix the shader and rotation handles in the exhibit's existing interactive crystal scene; the educator's prompts and all explanatory rules must stay exactly as they are.",
+      "canonicalOldMetadata": [
+        {
+          "id": "narrative-structure-and-revision",
+          "score": 61.639,
+          "reasons": [
+            "Matched: interactive, scene"
+          ]
+        },
+        {
+          "id": "eternities-arcadia",
+          "score": 43.148,
+          "reasons": [
+            "Matched: interactive, scene"
+          ]
+        },
+        {
+          "id": "scene-continuity-and-coverage",
+          "score": 41.657,
+          "reasons": [
+            "Matched: scene"
+          ]
+        },
+        {
+          "id": "bounded-parametric-design-iteration",
+          "score": 38.607,
+          "reasons": [
+            "Matched: existing"
+          ]
+        },
+        {
+          "id": "fp-ts-functional-refactoring",
+          "score": 34.161,
+          "reasons": [
+            "Matched: are, must"
+          ]
+        },
+        {
+          "id": "venture-falsification-and-planning",
+          "score": 34.161,
+          "reasons": [
+            "Matched: are, must"
+          ]
+        },
+        {
+          "id": "motion-design-and-animation-engineering",
+          "score": 31.884,
+          "reasons": [
+            "Matched: interactive"
+          ]
+        },
+        {
+          "id": "diagnostic-statistical-model-inference",
+          "score": 22.319,
+          "reasons": [
+            "Matched: are"
+          ]
+        },
+        {
+          "id": "eternities-atlas",
+          "score": 22.319,
+          "reasons": [
+            "Matched: rules"
+          ]
+        },
+        {
+          "id": "genomic-coordinate-assembly-and-variant-gates",
+          "score": 21.407,
+          "reasons": [
+            "Matched: must, rules"
+          ]
+        }
+      ],
+      "canonicalCurrentMetadata": [
+        {
+          "id": "eternities-arcadia",
+          "score": 70.173,
+          "reasons": [
+            "Matched: interactive, scene, shader"
+          ]
+        },
+        {
+          "id": "narrative-structure-and-revision",
+          "score": 61.639,
+          "reasons": [
+            "Matched: interactive, scene"
+          ]
+        },
+        {
+          "id": "scene-continuity-and-coverage",
+          "score": 41.657,
+          "reasons": [
+            "Matched: scene"
+          ]
+        },
+        {
+          "id": "bounded-parametric-design-iteration",
+          "score": 34.657,
+          "reasons": [
+            "Matched: existing"
+          ]
+        },
+        {
+          "id": "fp-ts-functional-refactoring",
+          "score": 34.161,
+          "reasons": [
+            "Matched: are, must"
+          ]
+        },
+        {
+          "id": "venture-falsification-and-planning",
+          "score": 34.161,
+          "reasons": [
+            "Matched: are, must"
+          ]
+        },
+        {
+          "id": "motion-design-and-animation-engineering",
+          "score": 31.884,
+          "reasons": [
+            "Matched: interactive"
+          ]
+        },
+        {
+          "id": "eternities-beacon",
+          "score": 24.26,
+          "reasons": [
+            "Matched: existing"
+          ]
+        },
+        {
+          "id": "diagnostic-statistical-model-inference",
+          "score": 22.319,
+          "reasons": [
+            "Matched: are"
+          ]
+        },
+        {
+          "id": "eternities-atlas",
+          "score": 22.319,
+          "reasons": [
+            "Matched: rules"
+          ]
+        }
+      ],
+      "beforeCurrentMetadata": [
+        {
+          "id": "narrative-structure-and-revision",
+          "score": 61.639,
+          "reasons": [
+            "Matched: interactive, scene"
+          ]
+        },
+        {
+          "id": "scene-continuity-and-coverage",
+          "score": 41.657,
+          "reasons": [
+            "Matched: scene"
+          ]
+        },
+        {
+          "id": "bounded-parametric-design-iteration",
+          "score": 34.657,
+          "reasons": [
+            "Matched: existing"
+          ]
+        },
+        {
+          "id": "fp-ts-functional-refactoring",
+          "score": 34.161,
+          "reasons": [
+            "Matched: are, must"
+          ]
+        },
+        {
+          "id": "venture-falsification-and-planning",
+          "score": 34.161,
+          "reasons": [
+            "Matched: are, must"
+          ]
+        },
+        {
+          "id": "motion-design-and-animation-engineering",
+          "score": 31.884,
+          "reasons": [
+            "Matched: interactive"
+          ]
+        },
+        {
+          "id": "eternities-beacon",
+          "score": 24.26,
+          "reasons": [
+            "Matched: existing"
+          ]
+        },
+        {
+          "id": "diagnostic-statistical-model-inference",
+          "score": 22.319,
+          "reasons": [
+            "Matched: are"
+          ]
+        },
+        {
+          "id": "eternities-atlas",
+          "score": 22.319,
+          "reasons": [
+            "Matched: rules"
+          ]
+        },
+        {
+          "id": "genomic-coordinate-assembly-and-variant-gates",
+          "score": 21.407,
+          "reasons": [
+            "Matched: must, rules"
+          ]
+        }
+      ],
+      "afterCurrentMetadata": [
+        {
+          "id": "eternities-arcadia",
+          "score": 70.173,
+          "reasons": [
+            "Matched: interactive, scene, shader",
+            "Lexical intent: game or real-time 3D runtime scope; cues: game or technical 3D context, independent work action or reported fault"
+          ]
+        },
+        {
+          "id": "narrative-structure-and-revision",
+          "score": 61.639,
+          "reasons": [
+            "Matched: interactive, scene"
+          ]
+        },
+        {
+          "id": "scene-continuity-and-coverage",
+          "score": 41.657,
+          "reasons": [
+            "Matched: scene"
+          ]
+        },
+        {
+          "id": "bounded-parametric-design-iteration",
+          "score": 34.657,
+          "reasons": [
+            "Matched: existing"
+          ]
+        },
+        {
+          "id": "fp-ts-functional-refactoring",
+          "score": 34.161,
+          "reasons": [
+            "Matched: are, must"
+          ]
+        },
+        {
+          "id": "venture-falsification-and-planning",
+          "score": 34.161,
+          "reasons": [
+            "Matched: are, must"
+          ]
+        },
+        {
+          "id": "motion-design-and-animation-engineering",
+          "score": 31.884,
+          "reasons": [
+            "Matched: interactive"
+          ]
+        },
+        {
+          "id": "eternities-beacon",
+          "score": 24.26,
+          "reasons": [
+            "Matched: existing"
+          ]
+        },
+        {
+          "id": "diagnostic-statistical-model-inference",
+          "score": 22.319,
+          "reasons": [
+            "Matched: are"
+          ]
+        },
+        {
+          "id": "eternities-atlas",
+          "score": 22.319,
+          "reasons": [
+            "Matched: rules"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Debug the fragment shader in an interactive scene",
+      "canonicalOldMetadata": [
+        {
+          "id": "narrative-structure-and-revision",
+          "score": 61.639,
+          "reasons": [
+            "Matched: interactive, scene"
+          ]
+        },
+        {
+          "id": "eternities-arcadia",
+          "score": 43.148,
+          "reasons": [
+            "Matched: interactive, scene"
+          ]
+        },
+        {
+          "id": "scene-continuity-and-coverage",
+          "score": 41.657,
+          "reasons": [
+            "Matched: scene"
+          ]
+        },
+        {
+          "id": "motion-design-and-animation-engineering",
+          "score": 31.884,
+          "reasons": [
+            "Matched: interactive"
+          ]
+        },
+        {
+          "id": "eternities-phoenix",
+          "score": 16.321,
+          "reasons": [
+            "Matched: diagnose, diagnosis, failure, failures"
+          ]
+        },
+        {
+          "id": "confirmed-destructive-reconstruction",
+          "score": 6.756,
+          "reasons": [
+            "Matched: broken"
+          ]
+        },
+        {
+          "id": "agricultural-observation-and-trial",
+          "score": 5.207,
+          "reasons": [
+            "Matched: diagnose"
+          ]
+        },
+        {
+          "id": "eternities-daedalus",
+          "score": 4.437,
+          "reasons": [
+            "Matched: failure"
+          ]
+        },
+        {
+          "id": "fp-ts-functional-refactoring",
+          "score": 4.437,
+          "reasons": [
+            "Matched: failure"
+          ]
+        },
+        {
+          "id": "robotics-test-ladder",
+          "score": 4.437,
+          "reasons": [
+            "Matched: failure"
+          ]
+        }
+      ],
+      "canonicalCurrentMetadata": [
+        {
+          "id": "eternities-arcadia",
+          "score": 70.173,
+          "reasons": [
+            "Matched: interactive, scene, shader"
+          ]
+        },
+        {
+          "id": "narrative-structure-and-revision",
+          "score": 61.639,
+          "reasons": [
+            "Matched: interactive, scene"
+          ]
+        },
+        {
+          "id": "scene-continuity-and-coverage",
+          "score": 41.657,
+          "reasons": [
+            "Matched: scene"
+          ]
+        },
+        {
+          "id": "motion-design-and-animation-engineering",
+          "score": 31.884,
+          "reasons": [
+            "Matched: interactive"
+          ]
+        },
+        {
+          "id": "eternities-phoenix",
+          "score": 16.192,
+          "reasons": [
+            "Matched: diagnose, diagnosis, failure, failures"
+          ]
+        },
+        {
+          "id": "confirmed-destructive-reconstruction",
+          "score": 6.756,
+          "reasons": [
+            "Matched: broken"
+          ]
+        },
+        {
+          "id": "agricultural-observation-and-trial",
+          "score": 4.906,
+          "reasons": [
+            "Matched: diagnose"
+          ]
+        },
+        {
+          "id": "eternities-prometheus",
+          "score": 4.906,
+          "reasons": [
+            "Matched: diagnose"
+          ]
+        },
+        {
+          "id": "eternities-daedalus",
+          "score": 4.437,
+          "reasons": [
+            "Matched: failure"
+          ]
+        },
+        {
+          "id": "fp-ts-functional-refactoring",
+          "score": 4.437,
+          "reasons": [
+            "Matched: failure"
+          ]
+        }
+      ],
+      "beforeCurrentMetadata": [
+        {
+          "id": "narrative-structure-and-revision",
+          "score": 61.639,
+          "reasons": [
+            "Matched: interactive, scene"
+          ]
+        },
+        {
+          "id": "scene-continuity-and-coverage",
+          "score": 41.657,
+          "reasons": [
+            "Matched: scene"
+          ]
+        },
+        {
+          "id": "motion-design-and-animation-engineering",
+          "score": 31.884,
+          "reasons": [
+            "Matched: interactive"
+          ]
+        },
+        {
+          "id": "eternities-phoenix",
+          "score": 16.192,
+          "reasons": [
+            "Matched: diagnose, diagnosis, failure, failures"
+          ]
+        },
+        {
+          "id": "confirmed-destructive-reconstruction",
+          "score": 6.756,
+          "reasons": [
+            "Matched: broken"
+          ]
+        },
+        {
+          "id": "agricultural-observation-and-trial",
+          "score": 4.906,
+          "reasons": [
+            "Matched: diagnose"
+          ]
+        },
+        {
+          "id": "eternities-prometheus",
+          "score": 4.906,
+          "reasons": [
+            "Matched: diagnose"
+          ]
+        },
+        {
+          "id": "eternities-daedalus",
+          "score": 4.437,
+          "reasons": [
+            "Matched: failure"
+          ]
+        },
+        {
+          "id": "fp-ts-functional-refactoring",
+          "score": 4.437,
+          "reasons": [
+            "Matched: failure"
+          ]
+        },
+        {
+          "id": "robotics-test-ladder",
+          "score": 4.437,
+          "reasons": [
+            "Matched: failure"
+          ]
+        }
+      ],
+      "afterCurrentMetadata": [
+        {
+          "id": "eternities-arcadia",
+          "score": 70.173,
+          "reasons": [
+            "Matched: interactive, scene, shader",
+            "Lexical intent: game or real-time 3D runtime scope; cues: game or technical 3D context, independent work action or reported fault"
+          ]
+        },
+        {
+          "id": "narrative-structure-and-revision",
+          "score": 61.639,
+          "reasons": [
+            "Matched: interactive, scene"
+          ]
+        },
+        {
+          "id": "scene-continuity-and-coverage",
+          "score": 41.657,
+          "reasons": [
+            "Matched: scene"
+          ]
+        },
+        {
+          "id": "motion-design-and-animation-engineering",
+          "score": 31.884,
+          "reasons": [
+            "Matched: interactive"
+          ]
+        },
+        {
+          "id": "eternities-phoenix",
+          "score": 16.192,
+          "reasons": [
+            "Matched: diagnose, diagnosis, failure, failures"
+          ]
+        },
+        {
+          "id": "confirmed-destructive-reconstruction",
+          "score": 6.756,
+          "reasons": [
+            "Matched: broken"
+          ]
+        },
+        {
+          "id": "agricultural-observation-and-trial",
+          "score": 4.906,
+          "reasons": [
+            "Matched: diagnose"
+          ]
+        },
+        {
+          "id": "eternities-prometheus",
+          "score": 4.906,
+          "reasons": [
+            "Matched: diagnose"
+          ]
+        },
+        {
+          "id": "eternities-daedalus",
+          "score": 4.437,
+          "reasons": [
+            "Matched: failure"
+          ]
+        },
+        {
+          "id": "fp-ts-functional-refactoring",
+          "score": 4.437,
+          "reasons": [
+            "Matched: failure"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Repair keyboard focus on the sign-up page input fields",
+      "canonicalOldMetadata": [
+        {
+          "id": "accessibility-audit-and-remediation",
+          "score": 89.125,
+          "reasons": [
+            "Matched: focus, keyboard, repair"
+          ]
+        },
+        {
+          "id": "eternities-arcadia",
+          "score": 46.579,
+          "reasons": [
+            "Matched: focus, input"
+          ]
+        },
+        {
+          "id": "motion-design-and-animation-engineering",
+          "score": 44.638,
+          "reasons": [
+            "Matched: focus, keyboard"
+          ]
+        },
+        {
+          "id": "docx-package-redline-and-render-verification",
+          "score": 27.025,
+          "reasons": [
+            "Matched: page"
+          ]
+        },
+        {
+          "id": "geospatial-coordinate-integrity",
+          "score": 27.025,
+          "reasons": [
+            "Matched: up"
+          ]
+        },
+        {
+          "id": "eternities-atlas",
+          "score": 24.26,
+          "reasons": [
+            "Matched: input"
+          ]
+        },
+        {
+          "id": "interface-localization-and-bidirectionality",
+          "score": 22.319,
+          "reasons": [
+            "Matched: keyboard"
+          ]
+        },
+        {
+          "id": "confirmed-destructive-reconstruction",
+          "score": 17.75,
+          "reasons": [
+            "Matched: repair"
+          ]
+        },
+        {
+          "id": "formula-preserving-workbook-engineering",
+          "score": 17.75,
+          "reasons": [
+            "Matched: repair"
+          ]
+        },
+        {
+          "id": "interpersonal-understanding-and-dialogue",
+          "score": 17.75,
+          "reasons": [
+            "Matched: repair"
+          ]
+        }
+      ],
+      "canonicalCurrentMetadata": [
+        {
+          "id": "accessibility-audit-and-remediation",
+          "score": 88.046,
+          "reasons": [
+            "Matched: focus, keyboard, repair"
+          ]
+        },
+        {
+          "id": "eternities-arcadia",
+          "score": 46.579,
+          "reasons": [
+            "Matched: focus, input"
+          ]
+        },
+        {
+          "id": "motion-design-and-animation-engineering",
+          "score": 44.638,
+          "reasons": [
+            "Matched: focus, keyboard"
+          ]
+        },
+        {
+          "id": "geospatial-coordinate-integrity",
+          "score": 27.025,
+          "reasons": [
+            "Matched: up"
+          ]
+        },
+        {
+          "id": "docx-package-redline-and-render-verification",
+          "score": 24.26,
+          "reasons": [
+            "Matched: page"
+          ]
+        },
+        {
+          "id": "eternities-atlas",
+          "score": 24.26,
+          "reasons": [
+            "Matched: input"
+          ]
+        },
+        {
+          "id": "eternities-beacon",
+          "score": 24.26,
+          "reasons": [
+            "Matched: page"
+          ]
+        },
+        {
+          "id": "interface-localization-and-bidirectionality",
+          "score": 22.319,
+          "reasons": [
+            "Matched: keyboard"
+          ]
+        },
+        {
+          "id": "confirmed-destructive-reconstruction",
+          "score": 16.994,
+          "reasons": [
+            "Matched: repair"
+          ]
+        },
+        {
+          "id": "formula-preserving-workbook-engineering",
+          "score": 16.994,
+          "reasons": [
+            "Matched: repair"
+          ]
+        }
+      ],
+      "beforeCurrentMetadata": [
+        {
+          "id": "accessibility-audit-and-remediation",
+          "score": 88.046,
+          "reasons": [
+            "Matched: focus, keyboard, repair"
+          ]
+        },
+        {
+          "id": "motion-design-and-animation-engineering",
+          "score": 44.638,
+          "reasons": [
+            "Matched: focus, keyboard"
+          ]
+        },
+        {
+          "id": "geospatial-coordinate-integrity",
+          "score": 27.025,
+          "reasons": [
+            "Matched: up"
+          ]
+        },
+        {
+          "id": "docx-package-redline-and-render-verification",
+          "score": 24.26,
+          "reasons": [
+            "Matched: page"
+          ]
+        },
+        {
+          "id": "eternities-atlas",
+          "score": 24.26,
+          "reasons": [
+            "Matched: input"
+          ]
+        },
+        {
+          "id": "eternities-beacon",
+          "score": 24.26,
+          "reasons": [
+            "Matched: page"
+          ]
+        },
+        {
+          "id": "interface-localization-and-bidirectionality",
+          "score": 22.319,
+          "reasons": [
+            "Matched: keyboard"
+          ]
+        },
+        {
+          "id": "confirmed-destructive-reconstruction",
+          "score": 16.994,
+          "reasons": [
+            "Matched: repair"
+          ]
+        },
+        {
+          "id": "formula-preserving-workbook-engineering",
+          "score": 16.994,
+          "reasons": [
+            "Matched: repair"
+          ]
+        },
+        {
+          "id": "interpersonal-understanding-and-dialogue",
+          "score": 16.994,
+          "reasons": [
+            "Matched: repair"
+          ]
+        }
+      ],
+      "afterCurrentMetadata": [
+        {
+          "id": "accessibility-audit-and-remediation",
+          "score": 88.046,
+          "reasons": [
+            "Matched: focus, keyboard, repair"
+          ]
+        },
+        {
+          "id": "motion-design-and-animation-engineering",
+          "score": 44.638,
+          "reasons": [
+            "Matched: focus, keyboard"
+          ]
+        },
+        {
+          "id": "geospatial-coordinate-integrity",
+          "score": 27.025,
+          "reasons": [
+            "Matched: up"
+          ]
+        },
+        {
+          "id": "docx-package-redline-and-render-verification",
+          "score": 24.26,
+          "reasons": [
+            "Matched: page"
+          ]
+        },
+        {
+          "id": "eternities-atlas",
+          "score": 24.26,
+          "reasons": [
+            "Matched: input"
+          ]
+        },
+        {
+          "id": "eternities-beacon",
+          "score": 24.26,
+          "reasons": [
+            "Matched: page"
+          ]
+        },
+        {
+          "id": "interface-localization-and-bidirectionality",
+          "score": 22.319,
+          "reasons": [
+            "Matched: keyboard"
+          ]
+        },
+        {
+          "id": "confirmed-destructive-reconstruction",
+          "score": 16.994,
+          "reasons": [
+            "Matched: repair"
+          ]
+        },
+        {
+          "id": "formula-preserving-workbook-engineering",
+          "score": 16.994,
+          "reasons": [
+            "Matched: repair"
+          ]
+        },
+        {
+          "id": "interpersonal-understanding-and-dialogue",
+          "score": 16.994,
+          "reasons": [
+            "Matched: repair"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Judge whether a measured home-feed retention lift supports a causal claim; inspect randomization, exposure, confounders, uncertainty, and guardrails, not one serving request.",
+      "canonicalOldMetadata": [
+        {
+          "id": "interatomic-model-validation",
+          "score": 59.263,
+          "reasons": [
+            "Matched: claim, one, whether"
+          ]
+        },
+        {
+          "id": "eternities-athena",
+          "score": 57.782,
+          "reasons": [
+            "Matched: causal, claim, uncertainty"
+          ]
+        },
+        {
+          "id": "diagnostic-statistical-model-inference",
+          "score": 52.458,
+          "reasons": [
+            "Matched: causal, claim, uncertainty"
+          ]
+        },
+        {
+          "id": "app-store-discovery-experiments",
+          "score": 38.431,
+          "reasons": [
+            "Matched: guardrails, one"
+          ]
+        },
+        {
+          "id": "memory-retention-and-recovery",
+          "score": 37.014,
+          "reasons": [
+            "Matched: retention, whether"
+          ]
+        },
+        {
+          "id": "ecological-sampling-and-detection-uncertainty",
+          "score": 33.988,
+          "reasons": [
+            "Matched: uncertainty"
+          ]
+        },
+        {
+          "id": "approval-bound-private-session-mining",
+          "score": 29.602,
+          "reasons": [
+            "Matched: retention, uncertainty"
+          ]
+        },
+        {
+          "id": "geospatial-coordinate-integrity",
+          "score": 27.025,
+          "reasons": [
+            "Matched: not"
+          ]
+        },
+        {
+          "id": "molecular-observable-integrity",
+          "score": 24.277,
+          "reasons": [
+            "Matched: uncertainty"
+          ]
+        },
+        {
+          "id": "physics-constrained-numerical-validation",
+          "score": 24.277,
+          "reasons": [
+            "Matched: uncertainty"
+          ]
+        }
+      ],
+      "canonicalCurrentMetadata": [
+        {
+          "id": "diagnostic-statistical-model-inference",
+          "score": 74.776,
+          "reasons": [
+            "Matched: causal, claim, uncertainty"
+          ]
+        },
+        {
+          "id": "interatomic-model-validation",
+          "score": 59.263,
+          "reasons": [
+            "Matched: claim, one, whether"
+          ]
+        },
+        {
+          "id": "eternities-athena",
+          "score": 57.782,
+          "reasons": [
+            "Matched: causal, claim, uncertainty"
+          ]
+        },
+        {
+          "id": "app-store-discovery-experiments",
+          "score": 38.431,
+          "reasons": [
+            "Matched: guardrails, one"
+          ]
+        },
+        {
+          "id": "memory-retention-and-recovery",
+          "score": 37.014,
+          "reasons": [
+            "Matched: retention, whether"
+          ]
+        },
+        {
+          "id": "ecological-sampling-and-detection-uncertainty",
+          "score": 33.988,
+          "reasons": [
+            "Matched: uncertainty"
+          ]
+        },
+        {
+          "id": "approval-bound-private-session-mining",
+          "score": 29.602,
+          "reasons": [
+            "Matched: retention, uncertainty"
+          ]
+        },
+        {
+          "id": "geospatial-coordinate-integrity",
+          "score": 27.025,
+          "reasons": [
+            "Matched: not"
+          ]
+        },
+        {
+          "id": "molecular-observable-integrity",
+          "score": 24.277,
+          "reasons": [
+            "Matched: uncertainty"
+          ]
+        },
+        {
+          "id": "physics-constrained-numerical-validation",
+          "score": 24.277,
+          "reasons": [
+            "Matched: uncertainty"
+          ]
+        }
+      ],
+      "beforeCurrentMetadata": [
+        {
+          "id": "diagnostic-statistical-model-inference",
+          "score": 74.776,
+          "reasons": [
+            "Matched: causal, claim, uncertainty"
+          ]
+        },
+        {
+          "id": "interatomic-model-validation",
+          "score": 59.263,
+          "reasons": [
+            "Matched: claim, one, whether"
+          ]
+        },
+        {
+          "id": "eternities-athena",
+          "score": 57.782,
+          "reasons": [
+            "Matched: causal, claim, uncertainty"
+          ]
+        },
+        {
+          "id": "app-store-discovery-experiments",
+          "score": 38.431,
+          "reasons": [
+            "Matched: guardrails, one"
+          ]
+        },
+        {
+          "id": "memory-retention-and-recovery",
+          "score": 37.014,
+          "reasons": [
+            "Matched: retention, whether"
+          ]
+        },
+        {
+          "id": "ecological-sampling-and-detection-uncertainty",
+          "score": 33.988,
+          "reasons": [
+            "Matched: uncertainty"
+          ]
+        },
+        {
+          "id": "approval-bound-private-session-mining",
+          "score": 29.602,
+          "reasons": [
+            "Matched: retention, uncertainty"
+          ]
+        },
+        {
+          "id": "geospatial-coordinate-integrity",
+          "score": 27.025,
+          "reasons": [
+            "Matched: not"
+          ]
+        },
+        {
+          "id": "molecular-observable-integrity",
+          "score": 24.277,
+          "reasons": [
+            "Matched: uncertainty"
+          ]
+        },
+        {
+          "id": "physics-constrained-numerical-validation",
+          "score": 24.277,
+          "reasons": [
+            "Matched: uncertainty"
+          ]
+        }
+      ],
+      "afterCurrentMetadata": [
+        {
+          "id": "diagnostic-statistical-model-inference",
+          "score": 74.776,
+          "reasons": [
+            "Matched: causal, claim, uncertainty"
+          ]
+        },
+        {
+          "id": "interatomic-model-validation",
+          "score": 59.263,
+          "reasons": [
+            "Matched: claim, one, whether"
+          ]
+        },
+        {
+          "id": "eternities-athena",
+          "score": 57.782,
+          "reasons": [
+            "Matched: causal, claim, uncertainty"
+          ]
+        },
+        {
+          "id": "app-store-discovery-experiments",
+          "score": 38.431,
+          "reasons": [
+            "Matched: guardrails, one"
+          ]
+        },
+        {
+          "id": "memory-retention-and-recovery",
+          "score": 37.014,
+          "reasons": [
+            "Matched: retention, whether"
+          ]
+        },
+        {
+          "id": "ecological-sampling-and-detection-uncertainty",
+          "score": 33.988,
+          "reasons": [
+            "Matched: uncertainty"
+          ]
+        },
+        {
+          "id": "approval-bound-private-session-mining",
+          "score": 29.602,
+          "reasons": [
+            "Matched: retention, uncertainty"
+          ]
+        },
+        {
+          "id": "geospatial-coordinate-integrity",
+          "score": 27.025,
+          "reasons": [
+            "Matched: not"
+          ]
+        },
+        {
+          "id": "molecular-observable-integrity",
+          "score": 24.277,
+          "reasons": [
+            "Matched: uncertainty"
+          ]
+        },
+        {
+          "id": "physics-constrained-numerical-validation",
+          "score": 24.277,
+          "reasons": [
+            "Matched: uncertainty"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Appraise whether a study supports a causal inference; inspect the design, confounding, statistical analysis, and uncertainty.",
+      "canonicalOldMetadata": [
+        {
+          "id": "eternities-athena",
+          "score": 170.266,
+          "reasons": [
+            "Matched: appraise, causal, confounding, design, inference, statistical, study, uncertainty"
+          ]
+        },
+        {
+          "id": "diagnostic-statistical-model-inference",
+          "score": 84.719,
+          "reasons": [
+            "Matched: causal, inference, statistical, uncertainty"
+          ]
+        },
+        {
+          "id": "user-research-and-usability-study",
+          "score": 39.56,
+          "reasons": [
+            "Matched: design, study"
+          ]
+        },
+        {
+          "id": "physics-constrained-numerical-validation",
+          "score": 34.335,
+          "reasons": [
+            "Matched: design, uncertainty"
+          ]
+        },
+        {
+          "id": "eternities-atlas",
+          "score": 33.991,
+          "reasons": [
+            "Matched: analysis, design"
+          ]
+        },
+        {
+          "id": "ecological-sampling-and-detection-uncertainty",
+          "score": 33.988,
+          "reasons": [
+            "Matched: uncertainty"
+          ]
+        },
+        {
+          "id": "api-contract-design-and-evolution",
+          "score": 25.02,
+          "reasons": [
+            "Matched: design, interface"
+          ]
+        },
+        {
+          "id": "molecular-observable-integrity",
+          "score": 24.277,
+          "reasons": [
+            "Matched: uncertainty"
+          ]
+        },
+        {
+          "id": "interatomic-model-validation",
+          "score": 24.26,
+          "reasons": [
+            "Matched: whether"
+          ]
+        },
+        {
+          "id": "memory-retention-and-recovery",
+          "score": 24.26,
+          "reasons": [
+            "Matched: whether"
+          ]
+        }
+      ],
+      "canonicalCurrentMetadata": [
+        {
+          "id": "eternities-athena",
+          "score": 169.761,
+          "reasons": [
+            "Matched: appraise, causal, confounding, design, inference, statistical, study, uncertainty"
+          ]
+        },
+        {
+          "id": "diagnostic-statistical-model-inference",
+          "score": 116.742,
+          "reasons": [
+            "Matched: causal, design, inference, statistical, uncertainty"
+          ]
+        },
+        {
+          "id": "user-research-and-usability-study",
+          "score": 39.509,
+          "reasons": [
+            "Matched: design, study"
+          ]
+        },
+        {
+          "id": "ecological-sampling-and-detection-uncertainty",
+          "score": 33.988,
+          "reasons": [
+            "Matched: uncertainty"
+          ]
+        },
+        {
+          "id": "physics-constrained-numerical-validation",
+          "score": 33.982,
+          "reasons": [
+            "Matched: design, uncertainty"
+          ]
+        },
+        {
+          "id": "eternities-atlas",
+          "score": 33.486,
+          "reasons": [
+            "Matched: analysis, design"
+          ]
+        },
+        {
+          "id": "api-contract-design-and-evolution",
+          "score": 24.314,
+          "reasons": [
+            "Matched: design, interface"
+          ]
+        },
+        {
+          "id": "molecular-observable-integrity",
+          "score": 24.277,
+          "reasons": [
+            "Matched: uncertainty"
+          ]
+        },
+        {
+          "id": "interatomic-model-validation",
+          "score": 24.26,
+          "reasons": [
+            "Matched: whether"
+          ]
+        },
+        {
+          "id": "memory-retention-and-recovery",
+          "score": 24.26,
+          "reasons": [
+            "Matched: whether"
+          ]
+        }
+      ],
+      "beforeCurrentMetadata": [
+        {
+          "id": "eternities-athena",
+          "score": 169.761,
+          "reasons": [
+            "Matched: appraise, causal, confounding, design, inference, statistical, study, uncertainty"
+          ]
+        },
+        {
+          "id": "diagnostic-statistical-model-inference",
+          "score": 116.742,
+          "reasons": [
+            "Matched: causal, design, inference, statistical, uncertainty"
+          ]
+        },
+        {
+          "id": "user-research-and-usability-study",
+          "score": 39.509,
+          "reasons": [
+            "Matched: design, study"
+          ]
+        },
+        {
+          "id": "ecological-sampling-and-detection-uncertainty",
+          "score": 33.988,
+          "reasons": [
+            "Matched: uncertainty"
+          ]
+        },
+        {
+          "id": "physics-constrained-numerical-validation",
+          "score": 33.982,
+          "reasons": [
+            "Matched: design, uncertainty"
+          ]
+        },
+        {
+          "id": "eternities-atlas",
+          "score": 33.486,
+          "reasons": [
+            "Matched: analysis, design"
+          ]
+        },
+        {
+          "id": "api-contract-design-and-evolution",
+          "score": 24.314,
+          "reasons": [
+            "Matched: design, interface"
+          ]
+        },
+        {
+          "id": "molecular-observable-integrity",
+          "score": 24.277,
+          "reasons": [
+            "Matched: uncertainty"
+          ]
+        },
+        {
+          "id": "interatomic-model-validation",
+          "score": 24.26,
+          "reasons": [
+            "Matched: whether"
+          ]
+        },
+        {
+          "id": "memory-retention-and-recovery",
+          "score": 24.26,
+          "reasons": [
+            "Matched: whether"
+          ]
+        }
+      ],
+      "afterCurrentMetadata": [
+        {
+          "id": "eternities-athena",
+          "score": 169.761,
+          "reasons": [
+            "Matched: appraise, causal, confounding, design, inference, statistical, study, uncertainty"
+          ]
+        },
+        {
+          "id": "diagnostic-statistical-model-inference",
+          "score": 116.742,
+          "reasons": [
+            "Matched: causal, design, inference, statistical, uncertainty"
+          ]
+        },
+        {
+          "id": "user-research-and-usability-study",
+          "score": 39.509,
+          "reasons": [
+            "Matched: design, study"
+          ]
+        },
+        {
+          "id": "ecological-sampling-and-detection-uncertainty",
+          "score": 33.988,
+          "reasons": [
+            "Matched: uncertainty"
+          ]
+        },
+        {
+          "id": "physics-constrained-numerical-validation",
+          "score": 33.982,
+          "reasons": [
+            "Matched: design, uncertainty"
+          ]
+        },
+        {
+          "id": "eternities-atlas",
+          "score": 33.486,
+          "reasons": [
+            "Matched: analysis, design"
+          ]
+        },
+        {
+          "id": "api-contract-design-and-evolution",
+          "score": 24.314,
+          "reasons": [
+            "Matched: design, interface"
+          ]
+        },
+        {
+          "id": "molecular-observable-integrity",
+          "score": 24.277,
+          "reasons": [
+            "Matched: uncertainty"
+          ]
+        },
+        {
+          "id": "interatomic-model-validation",
+          "score": 24.26,
+          "reasons": [
+            "Matched: whether"
+          ]
+        },
+        {
+          "id": "memory-retention-and-recovery",
+          "score": 24.26,
+          "reasons": [
+            "Matched: whether"
+          ]
+        }
+      ]
+    }
+  ],
+  "triggerAblation": {
+    "query": "Judge whether a measured home-feed retention lift supports a causal claim; inspect randomization, exposure, confounders, uncertainty, and guardrails, not one serving request.",
+    "current": [
+      {
+        "id": "diagnostic-statistical-model-inference",
+        "score": 74.776,
+        "reasons": [
+          "Matched: causal, claim, uncertainty"
+        ]
+      },
+      {
+        "id": "interatomic-model-validation",
+        "score": 59.263,
+        "reasons": [
+          "Matched: claim, one, whether"
+        ]
+      },
+      {
+        "id": "eternities-athena",
+        "score": 57.782,
+        "reasons": [
+          "Matched: causal, claim, uncertainty"
+        ]
+      },
+      {
+        "id": "app-store-discovery-experiments",
+        "score": 38.431,
+        "reasons": [
+          "Matched: guardrails, one"
+        ]
+      },
+      {
+        "id": "memory-retention-and-recovery",
+        "score": 37.014,
+        "reasons": [
+          "Matched: retention, whether"
+        ]
+      },
+      {
+        "id": "ecological-sampling-and-detection-uncertainty",
+        "score": 33.988,
+        "reasons": [
+          "Matched: uncertainty"
+        ]
+      },
+      {
+        "id": "approval-bound-private-session-mining",
+        "score": 29.602,
+        "reasons": [
+          "Matched: retention, uncertainty"
+        ]
+      },
+      {
+        "id": "geospatial-coordinate-integrity",
+        "score": 27.025,
+        "reasons": [
+          "Matched: not"
+        ]
+      },
+      {
+        "id": "molecular-observable-integrity",
+        "score": 24.277,
+        "reasons": [
+          "Matched: uncertainty"
+        ]
+      },
+      {
+        "id": "physics-constrained-numerical-validation",
+        "score": 24.277,
+        "reasons": [
+          "Matched: uncertainty"
+        ]
+      }
+    ],
+    "onlyDiagnosticTriggersReverted": [
+      {
+        "id": "interatomic-model-validation",
+        "score": 59.263,
+        "reasons": [
+          "Matched: claim, one, whether"
+        ]
+      },
+      {
+        "id": "eternities-athena",
+        "score": 57.782,
+        "reasons": [
+          "Matched: causal, claim, uncertainty"
+        ]
+      },
+      {
+        "id": "diagnostic-statistical-model-inference",
+        "score": 52.458,
+        "reasons": [
+          "Matched: causal, claim, uncertainty"
+        ]
+      },
+      {
+        "id": "app-store-discovery-experiments",
+        "score": 38.431,
+        "reasons": [
+          "Matched: guardrails, one"
+        ]
+      },
+      {
+        "id": "memory-retention-and-recovery",
+        "score": 37.014,
+        "reasons": [
+          "Matched: retention, whether"
+        ]
+      },
+      {
+        "id": "ecological-sampling-and-detection-uncertainty",
+        "score": 33.988,
+        "reasons": [
+          "Matched: uncertainty"
+        ]
+      },
+      {
+        "id": "approval-bound-private-session-mining",
+        "score": 29.602,
+        "reasons": [
+          "Matched: retention, uncertainty"
+        ]
+      },
+      {
+        "id": "geospatial-coordinate-integrity",
+        "score": 27.025,
+        "reasons": [
+          "Matched: not"
+        ]
+      },
+      {
+        "id": "molecular-observable-integrity",
+        "score": 24.277,
+        "reasons": [
+          "Matched: uncertainty"
+        ]
+      },
+      {
+        "id": "physics-constrained-numerical-validation",
+        "score": 24.277,
+        "reasons": [
+          "Matched: uncertainty"
+        ]
+      }
+    ]
+  },
+  "educational": [
+    {
+      "id": "E2-N01",
+      "query": "Review the study's evidence that a movable molecule display improved exam results; concentrate on allocation, attrition and alternative explanations rather than designing a class activity.",
+      "canonicalDifferences": [],
+      "beforeDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        }
+      ],
+      "afterDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        }
+      ]
+    },
+    {
+      "id": "E2-N02",
+      "query": "Use the factory simulator's adjustable staffing inputs to find a feasible shift plan with the lowest overtime cost, and report the chosen settings.",
+      "canonicalDifferences": [],
+      "beforeDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        }
+      ],
+      "afterDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        }
+      ]
+    },
+    {
+      "id": "E2-N03",
+      "query": "Fix the shader and rotation handles in the exhibit's existing interactive crystal scene; the educator's prompts and all explanatory rules must stay exactly as they are.",
+      "canonicalDifferences": [],
+      "beforeDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        },
+        {
+          "path": "results.4.id",
+          "expected": "eternities-arcadia",
+          "actual": "eternities-atlas"
+        },
+        {
+          "path": "results.4.reasons.0",
+          "expected": "Matched: scene",
+          "actual": "Matched: rules"
+        }
+      ],
+      "afterDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        },
+        {
+          "path": "results.4.reasons.1",
+          "actual": "Lexical intent: game or real-time 3D runtime scope; cues: game or technical 3D context, independent work action or reported fault"
+        }
+      ]
+    },
+    {
+      "id": "E2-N04",
+      "query": "Summarize the workshop attendance sheet and reimbursement totals for the department chair; no changes to the workshop materials are requested.",
+      "canonicalDifferences": [],
+      "beforeDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        }
+      ],
+      "afterDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        }
+      ]
+    },
+    {
+      "id": "E2-N05",
+      "query": "Write a reading lesson on persuasive paragraphs with a short explanation, a static annotated example and three discussion questions.",
+      "canonicalDifferences": [],
+      "beforeDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        }
+      ],
+      "afterDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        }
+      ]
+    },
+    {
+      "id": "E2-N06",
+      "query": "Do not prepare a learning exercise where apprentices alter a motor model to discover why its speed changes. I only need the notice withdrawing that proposed session.",
+      "canonicalDifferences": [],
+      "beforeDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        }
+      ],
+      "afterDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        }
+      ]
+    },
+    {
+      "id": "E2-N07",
+      "query": "Extract the deadline from this archived memo, not the activity it describes: 'By Friday, give the class a model of a rail junction they can switch around to explain why some routes become blocked.'",
+      "canonicalDifferences": [],
+      "beforeDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        }
+      ],
+      "afterDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        }
+      ]
+    },
+    {
+      "id": "E2-N08",
+      "query": "Last term we intended to build an adjustable sunlight display so pupils could understand seasonal shadows. That project is closed; today draft the note returning its unused equipment.",
+      "canonicalDifferences": [],
+      "beforeDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        }
+      ],
+      "afterDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        }
+      ]
+    },
+    {
+      "id": "E2-N09",
+      "query": "We're choosing a route-planning engine for a logistics course. The immediate job is to audit its error rates against the supplied benchmark, not to devise an exercise for the trainees.",
+      "canonicalDifferences": [],
+      "beforeDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        }
+      ],
+      "afterDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        }
+      ]
+    },
+    {
+      "id": "E2-C01",
+      "query": "Give apprentices a pulley-board investigation where they reroute the cord, compare the load response and explain the tradeoff between distance and force.",
+      "canonicalDifferences": [],
+      "beforeDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        }
+      ],
+      "afterDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        }
+      ]
+    },
+    {
+      "id": "E2-C02",
+      "query": "Plan a novice electricity activity where learners rearrange branches in a circuit diagram, observe which lamps remain connected, and explain the difference between series and parallel paths.",
+      "canonicalDifferences": [],
+      "beforeDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        }
+      ],
+      "afterDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        }
+      ]
+    },
+    {
+      "id": "E2-C03",
+      "query": "Create a printmaking exercise where students overlay colored transparencies in several orders and account for the colors produced in the overlapping regions.",
+      "canonicalDifferences": [],
+      "beforeDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        }
+      ],
+      "afterDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        }
+      ]
+    },
+    {
+      "id": "E2-C05",
+      "query": "The compliance note reads 'Professional certification or guaranteed outcomes without appropriate evidence and qualified review'. Separately, design a learner-controlled rail-switching exercise to explain why a chosen track layout creates a dead end.",
+      "canonicalDifferences": [],
+      "beforeDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        }
+      ],
+      "afterDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        }
+      ]
+    },
+    {
+      "id": "F4-N01",
+      "query": "Audit the reliability of the causal-feedback module in our engineering training simulator. The training content is frozen; the requested deliverable is an error-rate comparison against the supplied benchmark, not a new learner activity.",
+      "canonicalDifferences": [],
+      "beforeDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        }
+      ],
+      "afterDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        }
+      ]
+    },
+    {
+      "id": "F4-N02",
+      "query": "Don't develop the workshop where apprentices rearrange a gear model to explain how its output changes. Write the postponement notice instead, and leave the workshop materials alone.",
+      "canonicalDifferences": [],
+      "beforeDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        }
+      ],
+      "afterDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        }
+      ]
+    },
+    {
+      "id": "F4-N03",
+      "query": "For the records inventory, state what kind of document this quotation describes, without following it: “Create an educational pendulum model that learners adjust to understand why its motion changes.”",
+      "canonicalDifferences": [],
+      "beforeDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        }
+      ],
+      "afterDifferences": [
+        {
+          "path": "envelope.method",
+          "expected": "offline-lexical-intent-phrases-v3",
+          "actual": "offline-lexical-intent-phrases-v4"
+        }
+      ]
+    }
+  ]
+}

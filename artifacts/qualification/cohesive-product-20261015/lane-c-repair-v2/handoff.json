@@ -1,0 +1,95 @@
+{
+  "schema": "lane-c-repair-v2-handoff-v1",
+  "status": "READY_FOR_AVICENNA_INDEPENDENT_REVIEW",
+  "independentAcceptance": "pending",
+  "changedFiles": [
+    {
+      "path": "product/lib/discovery.mjs",
+      "beforeSha256": "9eb1cad0cea17e03f1cf760d7c764c5149bb206e5a92d4b6cc09bbfd91718007",
+      "afterSha256": "4996700d80c125d06586f044260026954047cbbd412f43ef63e10ea8b2adcbd6"
+    },
+    {
+      "path": "product/DISCOVERY.md",
+      "beforeSha256": "3ce1104a5ff4938570d3cb450c8ed83c26b5b7a88d0c9842e1dc3dc91a363a79",
+      "afterSha256": "d9f03824a4b3fedc40c50c2fd11f061ca8f90b25cb1546d13b83a12d8676281c"
+    },
+    {
+      "path": "tests/cohesive-discovery-boundaries.test.mjs",
+      "beforeSha256": "f5e930110119b93f5ca3a2075203db992034746ced11342a052e04ef1e32d457",
+      "afterSha256": "9fc9a58a7ae1af0dd1f2b8ca9c1ed293178bc63d585ea1f5ef4b25dcd6ee6770"
+    }
+  ],
+  "tests": {
+    "focusedPassed": 161,
+    "focusedFailed": 0,
+    "reviewerRegressionTestsPassed": 9,
+    "frozenAuthorCasesPassed": 35,
+    "raw": "focused-final-metadata.tap"
+  },
+  "matchedComparison": {
+    "catalogPath": "artifacts/qualification/cohesive-product-20261015/lane-c-repair-v2/catalog.current-metadata.final.json",
+    "catalogSha256": "707d3a358fbed75b71b794ff1c28eb43681a720615a1c22b40421851a0117c05",
+    "sameMetadataForAllCodeVersions": true,
+    "groups": [
+      {
+        "name": "challenges",
+        "before": 39,
+        "after": 54,
+        "scored": 56,
+        "remaining": [
+          "E04",
+          "E05"
+        ],
+        "newRegressions": []
+      },
+      {
+        "name": "supplemental",
+        "before": 10,
+        "after": 19,
+        "scored": 19,
+        "remaining": [],
+        "newRegressions": []
+      },
+      {
+        "name": "parent-challenges",
+        "before": 2,
+        "after": 3,
+        "scored": 4,
+        "remaining": [
+          "PC02"
+        ],
+        "newRegressions": []
+      },
+      {
+        "name": "camera",
+        "before": 1,
+        "after": 2,
+        "scored": 2,
+        "remaining": [],
+        "newRegressions": []
+      },
+      {
+        "name": "author-35-same-current-metadata",
+        "before": 35,
+        "after": 35,
+        "scored": 35,
+        "remaining": [],
+        "newRegressions": []
+      }
+    ],
+    "raw": "matched-final-metadata.json"
+  },
+  "integrity": {
+    "protectedReceiptsPreserved": 39,
+    "protectedChanges": [],
+    "finalMetadataInputs": 93,
+    "finalMetadataChanges": [],
+    "sourceReceipt": "read-set.after.json"
+  },
+  "limits": [
+    "E04/E05 free-text ID-reference search misses remain; bare exact IDs and dedicated inspect work.",
+    "PC02 zero-lexical-match portal remains preexisting; shader rank 4 and gameplay camera rank 1 restored.",
+    "Finite lexical scoping, not semantic determinism or task authority.",
+    "No full suite, build, install, commit, provider, new agent, owner-metadata or shared-manifest writes."
+  ]
+}

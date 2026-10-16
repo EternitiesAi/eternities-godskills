@@ -1,0 +1,76 @@
+{
+  "schema": "review-b-dirac-output-files-v1",
+  "scope": "Only these two authorized output roots; excludes this inventory itself",
+  "entries": [
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/cohesive-product-20261015/review-b-dirac/decision.json",
+      "bytes": 8604,
+      "sha256": "d67440fa7ddf26730b11482373f2879900acb6abae7ee64852c91c432d9eafc0"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/cohesive-product-20261015/review-b-dirac/metadata-delta.json",
+      "bytes": 751,
+      "sha256": "b1d18bdedd008b292ec6fc3c6e1b6fc91264d0535d0eaba0a5f561043c0a3073"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/cohesive-product-20261015/review-b-dirac/read-set.after.json",
+      "bytes": 5624,
+      "sha256": "5b8d3272395aabcb2022e8e4e777b6034bd315beba53ee568f1736289cebf456"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/cohesive-product-20261015/review-b-dirac/read-set.before.json",
+      "bytes": 7529,
+      "sha256": "d6ac0049bd227686e21cfb67eb308ffb348dc180264196e48c7465bc752837a6"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/cohesive-product-20261015/review-b-dirac/review.md",
+      "bytes": 8149,
+      "sha256": "2f148ca861424539538a2dfe3604310f6827b292c7660e7b276d3b9eeb997509"
+    },
+    {
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/artifacts/qualification/cohesive-product-20261015/review-b-dirac/snapshot-checks.json",
+      "bytes": 12431,
+      "sha256": "32c6faffc19f8925e341898b82725dd6b995efda87d11a849bc6613225b84d7f"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-cohesive-20261015/consumers/recovery-dirac/handoff.md",
+      "bytes": 4411,
+      "sha256": "911773e14b8f14e1e41ad0a91bfaa7f14a48e0506601a836f7173656b17235ec"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-cohesive-20261015/consumers/recovery-dirac/next-action.mjs",
+      "bytes": 1194,
+      "sha256": "107114c60fb99f77691df5e48faefc05b31fa34cabc338db6962e0d0b5aab8f2"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-cohesive-20261015/consumers/recovery-dirac/next-action.test.mjs",
+      "bytes": 3656,
+      "sha256": "a08fa4b5d6bb552b7eab8d0bfdd1823cdbb12caecf486e8e0bb46220e16e0359"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-cohesive-20261015/consumers/recovery-dirac/read-set.json",
+      "bytes": 2031,
+      "sha256": "c7148297210c1abc4ba3f7c78ffb7669650540fa6af924d859b9e136c12c9202"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-cohesive-20261015/consumers/recovery-dirac/result.json",
+      "bytes": 1534,
+      "sha256": "5f86026f361f0c227e11b9e9f9a06ee15295c0f4d342337a384ed0b2cd40cf24"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-cohesive-20261015/consumers/recovery-dirac/tests.before-implementation.tap",
+      "bytes": 1760,
+      "sha256": "a7956e9ac60e5526e61edf18fea12b0360f3fca3c5d91ad7a5d2d83a70ed71f3"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-cohesive-20261015/consumers/recovery-dirac/tests.result.txt",
+      "bytes": 1876,
+      "sha256": "64c2aef79d94854ff52f4ee842957297382c9ffc61980abdda9baed017f0d8a5"
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-cohesive-20261015/consumers/recovery-dirac/used-methods.json",
+      "bytes": 1951,
+      "sha256": "aac9a7f33fe18cbe75ee0be6d61b3117366bf52a1be0a29af48c3c673c017609"
+    }
+  ]
+}

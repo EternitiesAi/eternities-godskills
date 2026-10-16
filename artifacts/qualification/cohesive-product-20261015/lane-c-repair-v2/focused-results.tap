@@ -1,0 +1,968 @@
+TAP version 13
+# Subtest: R1 gameplay-camera silhouette authoring retains the metadata-supported owner
+ok 1 - R1 gameplay-camera silhouette authoring retains the metadata-supported owner
+  ---
+  duration_ms: 13.5241
+  type: 'test'
+  ...
+# Subtest: control: adding scene makes the same supported camera work eligible
+ok 2 - control: adding scene makes the same supported camera work eligible
+  ---
+  duration_ms: 4.9489
+  type: 'test'
+  ...
+# Subtest: R1 ordinary game-controls implementation retains its existing game owner
+ok 3 - R1 ordinary game-controls implementation retains its existing game owner
+  ---
+  duration_ms: 11.5926
+  type: 'test'
+  ...
+# Subtest: R1 adding an accessibility modifier does not eliminate game creation
+ok 4 - R1 adding an accessibility modifier does not eliminate game creation
+  ---
+  duration_ms: 7.6307
+  type: 'test'
+  ...
+# Subtest: R1 parent Three.js shader creation retains baseline owner recall
+ok 5 - R1 parent Three.js shader creation retains baseline owner recall
+  ---
+  duration_ms: 4.9363
+  type: 'test'
+  ...
+# Subtest: R2 a mesh licensing request does not itself establish runtime purpose
+ok 6 - R2 a mesh licensing request does not itself establish runtime purpose
+  ---
+  duration_ms: 4.5204
+  type: 'test'
+  ...
+# Subtest: control: supported runtime asset work remains discoverable
+ok 7 - control: supported runtime asset work remains discoverable
+  ---
+  duration_ms: 2.7874
+  type: 'test'
+  ...
+# Subtest: control: explicit IDs and host no-need remain compatible
+ok 8 - control: explicit IDs and host no-need remain compatible
+  ---
+  duration_ms: 195.5887
+  type: 'test'
+  ...
+# Subtest: control: recognized refusal does not defeat a limited live microtask
+ok 9 - control: recognized refusal does not defeat a limited live microtask
+  ---
+  duration_ms: 0.4707
+  type: 'test'
+  ...
+# Subtest: R1 supported game work survives without purpose jargon or modifier limits: Implement game controls.
+ok 10 - R1 supported game work survives without purpose jargon or modifier limits: Implement game controls.
+  ---
+  duration_ms: 13.2519
+  type: 'test'
+  ...
+# Subtest: R1 supported game work survives without purpose jargon or modifier limits: Implement player movement and camera controls for my game.
+ok 11 - R1 supported game work survives without purpose jargon or modifier limits: Implement player movement and camera controls for my game.
+  ---
+  duration_ms: 5.4454
+  type: 'test'
+  ...
+# Subtest: R1 supported game work survives without purpose jargon or modifier limits: Balance combat difficulty in our game.
+ok 12 - R1 supported game work survives without purpose jargon or modifier limits: Balance combat difficulty in our game.
+  ---
+  duration_ms: 3.6926
+  type: 'test'
+  ...
+# Subtest: R1 supported game work survives without purpose jargon or modifier limits: Add checkpoint saves to the game.
+ok 13 - R1 supported game work survives without purpose jargon or modifier limits: Add checkpoint saves to the game.
+  ---
+  duration_ms: 3.8131
+  type: 'test'
+  ...
+# Subtest: R1 supported game work survives without purpose jargon or modifier limits: Debug Unity input handling.
+ok 14 - R1 supported game work survives without purpose jargon or modifier limits: Debug Unity input handling.
+  ---
+  duration_ms: 3.1889
+  type: 'test'
+  ...
+# Subtest: R1 supported game work survives without purpose jargon or modifier limits: Implement controller support for my game.
+ok 15 - R1 supported game work survives without purpose jargon or modifier limits: Implement controller support for my game.
+  ---
+  duration_ms: 2.7431
+  type: 'test'
+  ...
+# Subtest: R1 supported game work survives without purpose jargon or modifier limits: Improve game onboarding and feedback.
+ok 16 - R1 supported game work survives without purpose jargon or modifier limits: Improve game onboarding and feedback.
+  ---
+  duration_ms: 2.7277
+  type: 'test'
+  ...
+# Subtest: R1 supported game work survives without purpose jargon or modifier limits: Make game controls accessible to players.
+ok 17 - R1 supported game work survives without purpose jargon or modifier limits: Make game controls accessible to players.
+  ---
+  duration_ms: 3.7118
+  type: 'test'
+  ...
+# Subtest: R1 supported game work survives without purpose jargon or modifier limits: Build an accessible cooperative puzzle game.
+ok 18 - R1 supported game work survives without purpose jargon or modifier limits: Build an accessible cooperative puzzle game.
+  ---
+  duration_ms: 3.7998
+  type: 'test'
+  ...
+# Subtest: R1 supported game work survives without purpose jargon or modifier limits: Create a relaxing turn based strategy game.
+ok 19 - R1 supported game work survives without purpose jargon or modifier limits: Create a relaxing turn based strategy game.
+  ---
+  duration_ms: 2.4223
+  type: 'test'
+  ...
+# Subtest: R1 supported game work survives without purpose jargon or modifier limits: Build a small accessible cooperative nonviolent exploration puzzle game for two people.
+ok 20 - R1 supported game work survives without purpose jargon or modifier limits: Build a small accessible cooperative nonviolent exploration puzzle game for two people.
+  ---
+  duration_ms: 2.9482
+  type: 'test'
+  ...
+# Subtest: R1 supported shader creation retains default-five recall
+ok 21 - R1 supported shader creation retains default-five recall
+  ---
+  duration_ms: 3.1069
+  type: 'test'
+  ...
+# Subtest: R1 current metadata supports the gameplay-camera task without an added scene word
+ok 22 - R1 current metadata supports the gameplay-camera task without an added scene word
+  ---
+  duration_ms: 3.0436
+  type: 'test'
+  ...
+# Subtest: R2 non-runtime work cannot gain admission from its asset noun: Audit the license for this 3D mesh.
+ok 23 - R2 non-runtime work cannot gain admission from its asset noun: Audit the license for this 3D mesh.
+  ---
+  duration_ms: 3.4702
+  type: 'test'
+  ...
+# Subtest: R2 non-runtime work cannot gain admission from its asset noun: Review the license obligations for these mesh assets.
+ok 24 - R2 non-runtime work cannot gain admission from its asset noun: Review the license obligations for these mesh assets.
+  ---
+  duration_ms: 2.6436
+  type: 'test'
+  ...
+# Subtest: R2 non-runtime work cannot gain admission from its asset noun: Extract attribution obligations for the textures.
+ok 25 - R2 non-runtime work cannot gain admission from its asset noun: Extract attribution obligations for the textures.
+  ---
+  duration_ms: 2.9817
+  type: 'test'
+  ...
+# Subtest: R2 non-runtime work cannot gain admission from its asset noun: Compare GPU prices for a workstation.
+ok 26 - R2 non-runtime work cannot gain admission from its asset noun: Compare GPU prices for a workstation.
+  ---
+  duration_ms: 3.1597
+  type: 'test'
+  ...
+# Subtest: R2 object-only navigation never claims corroborated runtime purpose
+ok 27 - R2 object-only navigation never claims corroborated runtime purpose
+  ---
+  duration_ms: 9.1719
+  type: 'test'
+  ...
+# Subtest: R2 separate live runtime work survives a license or pricing clause
+ok 28 - R2 separate live runtime work survives a license or pricing clause
+  ---
+  duration_ms: 5.4196
+  type: 'test'
+  ...
+# Subtest: R1/R2 repaired admission follows renamed capability metadata
+ok 29 - R1/R2 repaired admission follows renamed capability metadata
+  ---
+  duration_ms: 1.0327
+  type: 'test'
+  ...
+# Subtest: runtime eligibility follows capability metadata under a different ID
+ok 30 - runtime eligibility follows capability metadata under a different ID
+  ---
+  duration_ms: 0.7207
+  type: 'test'
+  ...
+# Subtest: runtime eligibility never keys on the published owner ID or generic asset overlap
+ok 31 - runtime eligibility never keys on the published owner ID or generic asset overlap
+  ---
+  duration_ms: 0.1656
+  type: 'test'
+  ...
+# Subtest: eligibility changes admission without inventing an extra ranking bonus
+ok 32 - eligibility changes admission without inventing an extra ranking bonus
+  ---
+  duration_ms: 0.1854
+  type: 'test'
+  ...
+# Subtest: quoted and refused runtime work cannot corroborate other live clauses
+ok 33 - quoted and refused runtime work cannot corroborate other live clauses
+  ---
+  duration_ms: 12.7174
+  type: 'test'
+  ...
+# Subtest: a contrast can introduce live runtime work after a refusal
+ok 34 - a contrast can introduce live runtime work after a refusal
+  ---
+  duration_ms: 2.41
+  type: 'test'
+  ...
+# Subtest: ordinary game creation requests do not require imported-asset jargon
+ok 35 - ordinary game creation requests do not require imported-asset jargon
+  ---
+  duration_ms: 6.5977
+  type: 'test'
+  ...
+# Subtest: single-term topic navigation retains recall while requiring host review
+ok 36 - single-term topic navigation retains recall while requiring host review
+  ---
+  duration_ms: 8.5304
+  type: 'test'
+  ...
+# Subtest: exact IDs, filters, stable ties and host no-need survive eligibility
+ok 37 - exact IDs, filters, stable ties and host no-need survive eligibility
+  ---
+  duration_ms: 192.717
+  type: 'test'
+  ...
+# Subtest: a live workflow survives quotes, refusals and a concise output constraint
+ok 38 - a live workflow survives quotes, refusals and a concise output constraint
+  ---
+  duration_ms: 11.7852
+  type: 'test'
+  ...
+# Subtest: arithmetic exclusions use live text rather than quoted arithmetic data
+ok 39 - arithmetic exclusions use live text rather than quoted arithmetic data
+  ---
+  duration_ms: 0.6782
+  type: 'test'
+  ...
+# Subtest: portable category navigation reaches every frozen entry without omissions or duplicates
+ok 40 - portable category navigation reaches every frozen entry without omissions or duplicates
+  ---
+  duration_ms: 2.3012
+  type: 'test'
+  ...
+# Subtest: unknown and invalid navigation cannot silently broaden a category request
+ok 41 - unknown and invalid navigation cannot silently broaden a category request
+  ---
+  duration_ms: 0.2603
+  type: 'test'
+  ...
+# Subtest: inspection returns the complete selected bytes and optional pointers without expanding them
+ok 42 - inspection returns the complete selected bytes and optional pointers without expanding them
+  ---
+  duration_ms: 3.1903
+  type: 'test'
+  ...
+# Subtest: inspection rejects wrong identities and paths rather than reading a different source
+ok 43 - inspection rejects wrong identities and paths rather than reading a different source
+  ---
+  duration_ms: 2.4562
+  type: 'test'
+  ...
+# Subtest: cohesive discovery N01: Explicit arithmetic answer needs no workflow.
+ok 44 - cohesive discovery N01: Explicit arithmetic answer needs no workflow.
+  ---
+  duration_ms: 4.5201
+  type: 'test'
+  ...
+# Subtest: cohesive discovery N02: Asset terminology is literal data.
+ok 45 - cohesive discovery N02: Asset terminology is literal data.
+  ---
+  duration_ms: 0.2146
+  type: 'test'
+  ...
+# Subtest: cohesive discovery N03: Historical negative N06: refused work must not override the live counting request.
+ok 46 - cohesive discovery N03: Historical negative N06: refused work must not override the live counting request.
+  ---
+  duration_ms: 0.1679
+  type: 'test'
+  ...
+# Subtest: cohesive discovery N04: Finite refusal plus a curly-quoted literal, no live design request.
+ok 47 - cohesive discovery N04: Finite refusal plus a curly-quoted literal, no live design request.
+  ---
+  duration_ms: 0.5486
+  type: 'test'
+  ...
+# Subtest: cohesive discovery N05: A declined comparison is not the requested grammar answer.
+ok 48 - cohesive discovery N05: A declined comparison is not the requested grammar answer.
+  ---
+  duration_ms: 0.1129
+  type: 'test'
+  ...
+# Subtest: cohesive discovery N06: Host supplies the need judgment for a simple task outside the finite lexical exclusions.
+ok 49 - cohesive discovery N06: Host supplies the need judgment for a simple task outside the finite lexical exclusions.
+  ---
+  duration_ms: 0.066
+  type: 'test'
+  ...
+# Subtest: cohesive discovery N07: A courtesy message is not game qualification.
+ok 50 - cohesive discovery N07: A courtesy message is not game qualification.
+  ---
+  duration_ms: 0.0612
+  type: 'test'
+  ...
+# Subtest: cohesive discovery P01: Game scene lifetime and imported asset ownership.
+ok 51 - cohesive discovery P01: Game scene lifetime and imported asset ownership.
+  ---
+  duration_ms: 18.0826
+  type: 'test'
+  ...
+# Subtest: cohesive discovery P02: Skeletal import and gameplay motion ownership.
+ok 52 - cohesive discovery P02: Skeletal import and gameplay motion ownership.
+  ---
+  duration_ms: 7.1167
+  type: 'test'
+  ...
+# Subtest: cohesive discovery P03: Technical 3D integration; a specific engine is evidence, not a required dependency.
+ok 53 - cohesive discovery P03: Technical 3D integration; a specific engine is evidence, not a required dependency.
+  ---
+  duration_ms: 7.5495
+  type: 'test'
+  ...
+# Subtest: cohesive discovery P04: Interactive 3D integration can be outside a game.
+ok 54 - cohesive discovery P04: Interactive 3D integration can be outside a game.
+  ---
+  duration_ms: 6.4225
+  type: 'test'
+  ...
+# Subtest: cohesive discovery P05: DSP callback and signal integrity.
+ok 55 - cohesive discovery P05: DSP callback and signal integrity.
+  ---
+  duration_ms: 6.4806
+  type: 'test'
+  ...
+# Subtest: cohesive discovery P06: Supplied tabular reconciliation; connected-source access is unnecessary.
+ok 56 - cohesive discovery P06: Supplied tabular reconciliation; connected-source access is unnecessary.
+  ---
+  duration_ms: 6.2024
+  type: 'test'
+  ...
+# Subtest: cohesive discovery P07: Sample-based authorial voice, not speech synthesis.
+ok 57 - cohesive discovery P07: Sample-based authorial voice, not speech synthesis.
+  ---
+  duration_ms: 6.4659
+  type: 'test'
+  ...
+# Subtest: cohesive discovery P08: Comparable vendor decision and exit planning.
+ok 58 - cohesive discovery P08: Comparable vendor decision and exit planning.
+  ---
+  duration_ms: 5.9961
+  type: 'test'
+  ...
+# Subtest: cohesive discovery P09: Statement reconciliation, not investment guidance.
+ok 59 - cohesive discovery P09: Statement reconciliation, not investment guidance.
+  ---
+  duration_ms: 5.3014
+  type: 'test'
+  ...
+# Subtest: cohesive discovery P10: Locally grounded agricultural observation and small trials.
+ok 60 - cohesive discovery P10: Locally grounded agricultural observation and small trials.
+  ---
+  duration_ms: 6.5316
+  type: 'test'
+  ...
+# Subtest: cohesive discovery P11: Cross-artifact obligations and consistency.
+ok 61 - cohesive discovery P11: Cross-artifact obligations and consistency.
+  ---
+  duration_ms: 6.2873
+  type: 'test'
+  ...
+# Subtest: cohesive discovery P12: Task record recovery with freshness checks.
+ok 62 - cohesive discovery P12: Task record recovery with freshness checks.
+  ---
+  duration_ms: 4.5952
+  type: 'test'
+  ...
+# Subtest: cohesive discovery P13: Requested learner model, explanation and feedback.
+ok 63 - cohesive discovery P13: Requested learner model, explanation and feedback.
+  ---
+  duration_ms: 6.0266
+  type: 'test'
+  ...
+# Subtest: cohesive discovery P14: API consumer/provider compatibility.
+ok 64 - cohesive discovery P14: API consumer/provider compatibility.
+  ---
+  duration_ms: 4.6426
+  type: 'test'
+  ...
+# Subtest: cohesive discovery P15: Explicit encoded video artifact.
+ok 65 - cohesive discovery P15: Explicit encoded video artifact.
+  ---
+  duration_ms: 5.2237
+  type: 'test'
+  ...
+# Subtest: cohesive discovery P16: Procedural world generation owns its narrower method.
+ok 66 - cohesive discovery P16: Procedural world generation owns its narrower method.
+  ---
+  duration_ms: 4.3682
+  type: 'test'
+  ...
+# Subtest: cohesive discovery X01: GIS coordinate operations, no game or 3D runtime request.
+ok 67 - cohesive discovery X01: GIS coordinate operations, no game or 3D runtime request.
+  ---
+  duration_ms: 5.0108
+  type: 'test'
+  ...
+# Subtest: cohesive discovery X02: UI gesture continuity, no game runtime.
+ok 68 - cohesive discovery X02: UI gesture continuity, no game runtime.
+  ---
+  duration_ms: 5.7228
+  type: 'test'
+  ...
+# Subtest: cohesive discovery X03: Frames and assets alone do not request playable runtime work.
+ok 69 - cohesive discovery X03: Frames and assets alone do not request playable runtime work.
+  ---
+  duration_ms: 5.0079
+  type: 'test'
+  ...
+# Subtest: cohesive discovery X04: Legal obligation extraction, no technical asset integration.
+ok 70 - cohesive discovery X04: Legal obligation extraction, no technical asset integration.
+  ---
+  duration_ms: 5.0702
+  type: 'test'
+  ...
+# Subtest: cohesive discovery X05: Refused game work is not runtime evidence.
+ok 71 - cohesive discovery X05: Refused game work is not runtime evidence.
+  ---
+  duration_ms: 5.4288
+  type: 'test'
+  ...
+# Subtest: cohesive discovery X06: Quoted game work is source material; the live task is contract review.
+ok 72 - cohesive discovery X06: Quoted game work is source material; the live task is contract review.
+  ---
+  duration_ms: 5.9147
+  type: 'test'
+  ...
+# Subtest: cohesive discovery A01: Recovery is underspecified. A lexical shortlist remains undecided.
+ok 73 - cohesive discovery A01: Recovery is underspecified. A lexical shortlist remains undecided.
+  ---
+  duration_ms: 4.9097
+  type: 'test'
+  ...
+# Subtest: cohesive discovery A02: Model could mean several domains; no single owner asserted.
+ok 74 - cohesive discovery A02: Model could mean several domains; no single owner asserted.
+  ---
+  duration_ms: 5.234
+  type: 'test'
+  ...
+# Subtest: cohesive discovery A03: Topic-only query does not establish a task or permission.
+ok 75 - cohesive discovery A03: Topic-only query does not establish a task or permission.
+  ---
+  duration_ms: 4.122
+  type: 'test'
+  ...
+# Subtest: cohesive discovery A04: Explicit clarification request precedes selection.
+ok 76 - cohesive discovery A04: Explicit clarification request precedes selection.
+  ---
+  duration_ms: 0.1246
+  type: 'test'
+  ...
+# Subtest: cohesive discovery B01: A separate affirmative implementation must stay discoverable.
+ok 77 - cohesive discovery B01: A separate affirmative implementation must stay discoverable.
+  ---
+  duration_ms: 7.0872
+  type: 'test'
+  ...
+# Subtest: cohesive discovery B02: A counting substep does not erase a live workflow.
+ok 78 - cohesive discovery B02: A counting substep does not erase a live workflow.
+  ---
+  duration_ms: 5.3258
+  type: 'test'
+  ...
+# Subtest: host no-need facts suppress retrieval for arbitrary domain-rich requests
+ok 79 - host no-need facts suppress retrieval for arbitrary domain-rich requests
+  ---
+  duration_ms: 1.4235
+  type: 'test'
+  ...
+# Subtest: retrieval without host need facts is explicitly undecided, never an activation
+ok 80 - retrieval without host need facts is explicitly undecided, never an activation
+  ---
+  duration_ms: 11.1647
+  type: 'test'
+  ...
+# Subtest: malformed host need facts fail instead of being ignored
+ok 81 - malformed host need facts fail instead of being ignored
+  ---
+  duration_ms: 0.4283
+  type: 'test'
+  ...
+# Subtest: a host specialist decision still returns candidates to check against exclusions
+ok 82 - a host specialist decision still returns candidates to check against exclusions
+  ---
+  duration_ms: 4.4582
+  type: 'test'
+  ...
+# Subtest: route respects no-need without erasing the independent connected-source facts
+ok 83 - route respects no-need without erasing the independent connected-source facts
+  ---
+  duration_ms: 0.2493
+  type: 'test'
+  ...
+# Subtest: explicit refusal of written-voice adaptation does not outrank requested implementation comparison
+ok 84 - explicit refusal of written-voice adaptation does not outrank requested implementation comparison
+  ---
+  duration_ms: 11.7374
+  type: 'test'
+  ...
+# Subtest: a prohibition on factual invention does not suppress a separate positive written-voice request
+ok 85 - a prohibition on factual invention does not suppress a separate positive written-voice request
+  ---
+  duration_ms: 4.8011
+  type: 'test'
+  ...
+# Subtest: lexical task evidence ranks voice-style-calibration first: make this sound like me without changing what actually happened
+ok 86 - lexical task evidence ranks voice-style-calibration first: make this sound like me without changing what actually happened
+  ---
+  duration_ms: 3.285
+  type: 'test'
+  ...
+# Subtest: lexical task evidence ranks interpersonal-understanding-and-dialogue first: we keep talking past each other help me figure out what to say
+ok 87 - lexical task evidence ranks interpersonal-understanding-and-dialogue first: we keep talking past each other help me figure out what to say
+  ---
+  duration_ms: 3.3165
+  type: 'test'
+  ...
+# Subtest: lexical task evidence ranks memory-retention-and-recovery first: pick up where we left off but check whether the old notes are still right
+ok 88 - lexical task evidence ranks memory-retention-and-recovery first: pick up where we left off but check whether the old notes are still right
+  ---
+  duration_ms: 3.729
+  type: 'test'
+  ...
+# Subtest: lexical task evidence ranks completeness-and-consistency-audit first: what did we forget to deliver and which documents disagree
+ok 89 - lexical task evidence ranks completeness-and-consistency-audit first: what did we forget to deliver and which documents disagree
+  ---
+  duration_ms: 3.4164
+  type: 'test'
+  ...
+# Subtest: lexical task evidence ranks long-horizon-work-continuity first: finish this over the next few days and do not repeat a job that is already running
+ok 90 - lexical task evidence ranks long-horizon-work-continuity first: finish this over the next few days and do not repeat a job that is already running
+  ---
+  duration_ms: 3.6112
+  type: 'test'
+  ...
+# Subtest: lexical task evidence ranks voice-style-calibration first: Rewrite this draft in my own voice and preserve the facts.
+ok 91 - lexical task evidence ranks voice-style-calibration first: Rewrite this draft in my own voice and preserve the facts.
+  ---
+  duration_ms: 2.9352
+  type: 'test'
+  ...
+# Subtest: lexical task evidence ranks voice-style-calibration first: Use my writing samples to make this update read like something I would write.
+ok 92 - lexical task evidence ranks voice-style-calibration first: Use my writing samples to make this update read like something I would write.
+  ---
+  duration_ms: 3.8188
+  type: 'test'
+  ...
+# Subtest: lexical task evidence ranks voice-style-calibration first: Adapt our announcement to the team's writing style without adding claims.
+ok 93 - lexical task evidence ranks voice-style-calibration first: Adapt our announcement to the team's writing style without adding claims.
+  ---
+  duration_ms: 2.4059
+  type: 'test'
+  ...
+# Subtest: lexical task evidence ranks interpersonal-understanding-and-dialogue first: Help us understand why we misunderstand each other before I reply.
+ok 94 - lexical task evidence ranks interpersonal-understanding-and-dialogue first: Help us understand why we misunderstand each other before I reply.
+  ---
+  duration_ms: 2.5876
+  type: 'test'
+  ...
+# Subtest: lexical task evidence ranks interpersonal-understanding-and-dialogue first: Prepare a reply after a disagreement with my colleague, leaving room for their perspective.
+ok 95 - lexical task evidence ranks interpersonal-understanding-and-dialogue first: Prepare a reply after a disagreement with my colleague, leaving room for their perspective.
+  ---
+  duration_ms: 2.5403
+  type: 'test'
+  ...
+# Subtest: lexical task evidence ranks interpersonal-understanding-and-dialogue first: We are not hearing each other; help me respond respectfully.
+ok 96 - lexical task evidence ranks interpersonal-understanding-and-dialogue first: We are not hearing each other; help me respond respectfully.
+  ---
+  duration_ms: 2.2898
+  type: 'test'
+  ...
+# Subtest: lexical task evidence ranks memory-retention-and-recovery first: Resume from the previous checkpoint after verifying that the saved decisions are still current.
+ok 97 - lexical task evidence ranks memory-retention-and-recovery first: Resume from the previous checkpoint after verifying that the saved decisions are still current.
+  ---
+  duration_ms: 2.269
+  type: 'test'
+  ...
+# Subtest: lexical task evidence ranks memory-retention-and-recovery first: Before continuing our earlier task, reconcile outdated notes with current evidence.
+ok 98 - lexical task evidence ranks memory-retention-and-recovery first: Before continuing our earlier task, reconcile outdated notes with current evidence.
+  ---
+  duration_ms: 2.8904
+  type: 'test'
+  ...
+# Subtest: lexical task evidence ranks memory-retention-and-recovery first: Recover the task from a handoff and verify which records have become stale.
+ok 99 - lexical task evidence ranks memory-retention-and-recovery first: Recover the task from a handoff and verify which records have become stale.
+  ---
+  duration_ms: 3.2416
+  type: 'test'
+  ...
+# Subtest: lexical task evidence ranks completeness-and-consistency-audit first: Find promises we failed to deliver and contradictions between the documents.
+ok 100 - lexical task evidence ranks completeness-and-consistency-audit first: Find promises we failed to deliver and contradictions between the documents.
+  ---
+  duration_ms: 2.4809
+  type: 'test'
+  ...
+# Subtest: lexical task evidence ranks completeness-and-consistency-audit first: Compare the requirements with what we shipped and identify missing items.
+ok 101 - lexical task evidence ranks completeness-and-consistency-audit first: Compare the requirements with what we shipped and identify missing items.
+  ---
+  duration_ms: 2.042
+  type: 'test'
+  ...
+# Subtest: lexical task evidence ranks completeness-and-consistency-audit first: Check whether the README and implementation contradict each other about the promised outputs.
+ok 102 - lexical task evidence ranks completeness-and-consistency-audit first: Check whether the README and implementation contradict each other about the promised outputs.
+  ---
+  duration_ms: 2.217
+  type: 'test'
+  ...
+# Subtest: lexical task evidence ranks long-horizon-work-continuity first: Carry this project through several sessions and check any in-flight operation before retrying.
+ok 103 - lexical task evidence ranks long-horizon-work-continuity first: Carry this project through several sessions and check any in-flight operation before retrying.
+  ---
+  duration_ms: 2.4479
+  type: 'test'
+  ...
+# Subtest: lexical task evidence ranks long-horizon-work-continuity first: Complete the remaining milestones this week without launching a duplicate of the active job.
+ok 104 - lexical task evidence ranks long-horizon-work-continuity first: Complete the remaining milestones this week without launching a duplicate of the active job.
+  ---
+  duration_ms: 2.7398
+  type: 'test'
+  ...
+# Subtest: lexical task evidence ranks long-horizon-work-continuity first: Keep working across interruptions until delivery, reconciling pending operations first.
+ok 105 - lexical task evidence ranks long-horizon-work-continuity first: Keep working across interruptions until delivery, reconciling pending operations first.
+  ---
+  duration_ms: 2.7215
+  type: 'test'
+  ...
+# Subtest: written authorial voice does not manufacture an audio specialist match
+ok 106 - written authorial voice does not manufacture an audio specialist match
+  ---
+  duration_ms: 2.1958
+  type: 'test'
+  ...
+# Subtest: concrete DSP evidence retains its specialist: sample rate discontinuity in audio DSP
+ok 107 - concrete DSP evidence retains its specialist: sample rate discontinuity in audio DSP
+  ---
+  duration_ms: 2.314
+  type: 'test'
+  ...
+# Subtest: concrete DSP evidence retains its specialist: What should I say about this audio plugin callback feedback instability?
+ok 108 - concrete DSP evidence retains its specialist: What should I say about this audio plugin callback feedback instability?
+  ---
+  duration_ms: 2.9254
+  type: 'test'
+  ...
+# Subtest: concrete DSP evidence retains its specialist: Check old notes about sample rate discontinuity in audio DSP
+ok 109 - concrete DSP evidence retains its specialist: Check old notes about sample rate discontinuity in audio DSP
+  ---
+  duration_ms: 2.295
+  type: 'test'
+  ...
+# Subtest: concrete DSP evidence retains its specialist: We keep talking about sample rate changes in an audio plugin callback
+ok 110 - concrete DSP evidence retains its specialist: We keep talking about sample rate changes in an audio plugin callback
+  ---
+  duration_ms: 2.4879
+  type: 'test'
+  ...
+# Subtest: concrete DSP evidence retains its specialist: Finish the audio DSP feedback stability review over the next few days
+ok 111 - concrete DSP evidence retains its specialist: Finish the audio DSP feedback stability review over the next few days
+  ---
+  duration_ms: 2.8199
+  type: 'test'
+  ...
+# Subtest: explicit exclusion still removes voice-style-calibration
+ok 112 - explicit exclusion still removes voice-style-calibration
+  ---
+  duration_ms: 2.5374
+  type: 'test'
+  ...
+# Subtest: explicit exclusion still removes interpersonal-understanding-and-dialogue
+ok 113 - explicit exclusion still removes interpersonal-understanding-and-dialogue
+  ---
+  duration_ms: 2.1461
+  type: 'test'
+  ...
+# Subtest: explicit exclusion still removes memory-retention-and-recovery
+ok 114 - explicit exclusion still removes memory-retention-and-recovery
+  ---
+  duration_ms: 2.5669
+  type: 'test'
+  ...
+# Subtest: explicit exclusion still removes completeness-and-consistency-audit
+ok 115 - explicit exclusion still removes completeness-and-consistency-audit
+  ---
+  duration_ms: 2.0345
+  type: 'test'
+  ...
+# Subtest: explicit exclusion still removes long-horizon-work-continuity
+ok 116 - explicit exclusion still removes long-horizon-work-continuity
+  ---
+  duration_ms: 2.8213
+  type: 'test'
+  ...
+# Subtest: adjacent canonical owner remains discoverable: eternities-mnemosyne
+ok 117 - adjacent canonical owner remains discoverable: eternities-mnemosyne
+  ---
+  duration_ms: 2.5344
+  type: 'test'
+  ...
+# Subtest: adjacent canonical owner remains discoverable: eternities-logos
+ok 118 - adjacent canonical owner remains discoverable: eternities-logos
+  ---
+  duration_ms: 2.421
+  type: 'test'
+  ...
+# Subtest: adjacent canonical owner remains discoverable: eternities-agora
+ok 119 - adjacent canonical owner remains discoverable: eternities-agora
+  ---
+  duration_ms: 3.1211
+  type: 'test'
+  ...
+# Subtest: adjacent canonical owner remains discoverable: eternities-orpheus
+ok 120 - adjacent canonical owner remains discoverable: eternities-orpheus
+  ---
+  duration_ms: 2.2736
+  type: 'test'
+  ...
+# Subtest: unknown, stop-only and isolated conversational cues do not invent matches
+ok 121 - unknown, stop-only and isolated conversational cues do not invent matches
+  ---
+  duration_ms: 12.4879
+  type: 'test'
+  ...
+# Subtest: case, Unicode width and punctuation preserve the lexical intent
+ok 122 - case, Unicode width and punctuation preserve the lexical intent
+  ---
+  duration_ms: 3.9646
+  type: 'test'
+  ...
+# Subtest: phrase evidence follows a matching skill description even under another ID
+ok 123 - phrase evidence follows a matching skill description even under another ID
+  ---
+  duration_ms: 0.3618
+  type: 'test'
+  ...
+# Subtest: intent candidates obey filters and leave catalog evidence unchanged
+ok 124 - intent candidates obey filters and leave catalog evidence unchanged
+  ---
+  duration_ms: 6.4942
+  type: 'test'
+  ...
+# Subtest: exact IDs remain first and equal-score ties use stable ID order
+ok 125 - exact IDs remain first and equal-score ties use stable ID order
+  ---
+  duration_ms: 194.5751
+  type: 'test'
+  ...
+# Subtest: discovery preserves query and limit validation
+ok 126 - discovery preserves query and limit validation
+  ---
+  duration_ms: 0.4455
+  type: 'test'
+  ...
+# Subtest: explicit limited task does not acquire a workflow: What is 17 plus 26? Give only the number.
+ok 127 - explicit limited task does not acquire a workflow: What is 17 plus 26? Give only the number.
+  ---
+  duration_ms: 2.9347
+  type: 'test'
+  ...
+# Subtest: explicit limited task does not acquire a workflow: Calculate 8 multiplied by 4. Only the result.
+ok 128 - explicit limited task does not acquire a workflow: Calculate 8 multiplied by 4. Only the result.
+  ---
+  duration_ms: 0.3799
+  type: 'test'
+  ...
+# Subtest: explicit limited task does not acquire a workflow: Lowercase the literal text RIVER ROOM. No rewrite, interpretation, or additional process.
+ok 129 - explicit limited task does not acquire a workflow: Lowercase the literal text RIVER ROOM. No rewrite, interpretation, or additional process.
+  ---
+  duration_ms: 0.0753
+  type: 'test'
+  ...
+# Subtest: explicit limited task does not acquire a workflow: Uppercase the string quiet garden. Give only the text.
+ok 130 - explicit limited task does not acquire a workflow: Uppercase the string quiet garden. Give only the text.
+  ---
+  duration_ms: 0.0614
+  type: 'test'
+  ...
+# Subtest: explicit limited task does not acquire a workflow: In the phrase 'the river remembers', is remembers a verb? Just answer the grammar question.
+ok 131 - explicit limited task does not acquire a workflow: In the phrase 'the river remembers', is remembers a verb? Just answer the grammar question.
+  ---
+  duration_ms: 0.0712
+  type: 'test'
+  ...
+# Subtest: explicit limited task does not acquire a workflow: Help with recovery. Ask one clarifying question before selecting a specialist.
+ok 132 - explicit limited task does not acquire a workflow: Help with recovery. Ask one clarifying question before selecting a specialist.
+  ---
+  duration_ms: 0.0652
+  type: 'test'
+  ...
+# Subtest: explicit limited task does not acquire a workflow: My accountant called the office a 'memory palace'. Explain the metaphor in one sentence; there is no software memory or archive task.
+ok 133 - explicit limited task does not acquire a workflow: My accountant called the office a 'memory palace'. Explain the metaphor in one sentence; there is no software memory or archive task.
+  ---
+  duration_ms: 0.0648
+  type: 'test'
+  ...
+# Subtest: explicit limited task does not acquire a workflow: Count the words in the exact sentence 'The voice crossed the river'. Give only the count; no voice analysis, audio work, or workshop design.
+ok 134 - explicit limited task does not acquire a workflow: Count the words in the exact sentence 'The voice crossed the river'. Give only the count; no voice analysis, audio work, or workshop design.
+  ---
+  duration_ms: 0.049
+  type: 'test'
+  ...
+# Subtest: a real workflow is not hidden by a literal micro-task word: Build a word count service with multilingual tokenization and source-bound validation.
+ok 135 - a real workflow is not hidden by a literal micro-task word: Build a word count service with multilingual tokenization and source-bound validation.
+  ---
+  duration_ms: 10.6317
+  type: 'test'
+  ...
+# Subtest: a real workflow is not hidden by a literal micro-task word: Design a lowercase transformation pipeline that preserves identifiers and checks its output contract.
+ok 136 - a real workflow is not hidden by a literal micro-task word: Design a lowercase transformation pipeline that preserves identifiers and checks its output contract.
+  ---
+  duration_ms: 5.6992
+  type: 'test'
+  ...
+# Subtest: a real workflow is not hidden by a literal micro-task word: Implement a parser that determines whether tokens are verbs and verify its grammar rules.
+ok 137 - a real workflow is not hidden by a literal micro-task word: Implement a parser that determines whether tokens are verbs and verify its grammar rules.
+  ---
+  duration_ms: 4.4782
+  type: 'test'
+  ...
+# Subtest: a real workflow is not hidden by a literal micro-task word: Audit an API integration that returns only the number but corrupts invoice totals.
+ok 138 - a real workflow is not hidden by a literal micro-task word: Audit an API integration that returns only the number but corrupts invoice totals.
+  ---
+  duration_ms: 3.6919
+  type: 'test'
+  ...
+# Subtest: a real workflow is not hidden by a literal micro-task word: Write a public update in my own voice using these samples.
+ok 139 - a real workflow is not hidden by a literal micro-task word: Write a public update in my own voice using these samples.
+  ---
+  duration_ms: 2.7483
+  type: 'test'
+  ...
+# Subtest: all exact catalog IDs remain addressable
+ok 140 - all exact catalog IDs remain addressable
+  ---
+  duration_ms: 197.2341
+  type: 'test'
+  ...
+# Subtest: quoted casing input is data, not an active workflow: "compare requirements"
+ok 141 - quoted casing input is data, not an active workflow: "compare requirements"
+  ---
+  duration_ms: 0.2088
+  type: 'test'
+  ...
+# Subtest: quoted casing input is data, not an active workflow: 'AUDIT OBLIGATIONS'
+ok 142 - quoted casing input is data, not an active workflow: 'AUDIT OBLIGATIONS'
+  ---
+  duration_ms: 0.0753
+  type: 'test'
+  ...
+# Subtest: quoted casing input is data, not an active workflow: `design a service`
+ok 143 - quoted casing input is data, not an active workflow: `design a service`
+  ---
+  duration_ms: 0.034
+  type: 'test'
+  ...
+# Subtest: an affirmative workflow outside a literal remains discoverable
+ok 144 - an affirmative workflow outside a literal remains discoverable
+  ---
+  duration_ms: 2.9655
+  type: 'test'
+  ...
+# Subtest: a concise audit is not mistaken for its incidental counting substep: Audit obligations across documents and count the words; give only the findings.
+ok 145 - a concise audit is not mistaken for its incidental counting substep: Audit obligations across documents and count the words; give only the findings.
+  ---
+  duration_ms: 2.8244
+  type: 'test'
+  ...
+# Subtest: a concise audit is not mistaken for its incidental counting substep: Audit the obligations across documents and count the words; give only the findings.
+ok 146 - a concise audit is not mistaken for its incidental counting substep: Audit the obligations across documents and count the words; give only the findings.
+  ---
+  duration_ms: 2.5682
+  type: 'test'
+  ...
+# Subtest: a concise audit is not mistaken for its incidental counting substep: Compare requirements across documents; the quoted checklist says "count the words". Give only the audit findings.
+ok 147 - a concise audit is not mistaken for its incidental counting substep: Compare requirements across documents; the quoted checklist says "count the words". Give only the audit findings.
+  ---
+  duration_ms: 2.8659
+  type: 'test'
+  ...
+# Subtest: asset integration lookup exposes its owner: Integrate an imported glTF model into our Three.js scene and verify its materials and scale.
+ok 148 - asset integration lookup exposes its owner: Integrate an imported glTF model into our Three.js scene and verify its materials and scale.
+  ---
+  duration_ms: 12.7226
+  type: 'test'
+  ...
+# Subtest: asset integration lookup exposes its owner: Our Unity character imports but the rig and root motion disagree with the movement controller.
+ok 149 - asset integration lookup exposes its owner: Our Unity character imports but the rig and root motion disagree with the movement controller.
+  ---
+  duration_ms: 4.4496
+  type: 'test'
+  ...
+# Subtest: asset integration lookup exposes its owner: Check an Unreal mesh import: the doorway looks open but its collision blocks the player.
+ok 150 - asset integration lookup exposes its owner: Check an Unreal mesh import: the doorway looks open but its collision blocks the player.
+  ---
+  duration_ms: 3.8592
+  type: 'test'
+  ...
+# Subtest: asset integration lookup exposes its owner: The model works in the editor but textures and decoder files are missing from the packaged build.
+ok 151 - asset integration lookup exposes its owner: The model works in the editor but textures and decoder files are missing from the packaged build.
+  ---
+  duration_ms: 3.3745
+  type: 'test'
+  ...
+# Subtest: asset integration lookup exposes its owner: Audit UV channel assignments, normal map encoding and material slots on a real-time 3D asset.
+ok 152 - asset integration lookup exposes its owner: Audit UV channel assignments, normal map encoding and material slots on a real-time 3D asset.
+  ---
+  duration_ms: 3.138
+  type: 'test'
+  ...
+# Subtest: asset integration lookup exposes its owner: The imported mesh is mirrored and the pivot is wrong after converting coordinate axes.
+not ok 153 - asset integration lookup exposes its owner: The imported mesh is mirrored and the pivot is wrong after converting coordinate axes.
+  ---
+  duration_ms: 3.757
+  type: 'test'
+  location: 'C:\\dev\\eternities-godskills\\.worktrees\\quality-qualification-20261003\\tests\\realtime-asset-discovery.test.mjs:22:4'
+  failureType: 'testCodeFailure'
+  error: '["geospatial-coordinate-integrity","genomic-coordinate-assembly-and-variant-gates","api-contract-design-and-evolution"]'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/tests/realtime-asset-discovery.test.mjs:24:10)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1325:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:911:18)
+    Test.postRun (node:internal/test_runner/test:1465:19)
+    Test.run (node:internal/test_runner/test:1390:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:911:7)
+  ...
+# Subtest: asset terminology never overrides a caller decision that no specialist is needed
+ok 154 - asset terminology never overrides a caller decision that no specialist is needed
+  ---
+  duration_ms: 0.6104
+  type: 'test'
+  ...
+# Subtest: adjacent lookup keeps relevant owner: geospatial-coordinate-integrity
+ok 155 - adjacent lookup keeps relevant owner: geospatial-coordinate-integrity
+  ---
+  duration_ms: 3.4264
+  type: 'test'
+  ...
+# Subtest: adjacent lookup keeps relevant owner: procedural-world-generation-and-validation
+ok 156 - adjacent lookup keeps relevant owner: procedural-world-generation-and-validation
+  ---
+  duration_ms: 3.3103
+  type: 'test'
+  ...
+# Subtest: adjacent lookup keeps relevant owner: deterministic-video-composition-and-rendering
+ok 157 - adjacent lookup keeps relevant owner: deterministic-video-composition-and-rendering
+  ---
+  duration_ms: 3.4699
+  type: 'test'
+  ...
+1..157
+# tests 157
+# suites 0
+# pass 156
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 452.3671

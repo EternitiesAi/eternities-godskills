@@ -1,0 +1,995 @@
+{
+  "baseline": {
+    "schema": "godskills-lane-c-matrix-results-v1",
+    "stage": "baseline-replayed",
+    "node": "v24.18.0",
+    "matrixSha256": "a889698891d7e8a395339e661dd5b98236fab82518d2b252667b18ba4315df9f",
+    "catalogSha256": "f20b17c989c188d439c84fa4a8cf5989ccafe550428b2b2577708ba072a39889",
+    "sourceHashes": {
+      "product/lib/discovery.mjs": "894d347eda269dbfe447d7a09d5ff10bf57b9c5e1f3f90ce398502f7b65fc7d5",
+      "product/lib/selection-boundary.mjs": "792db2f120251de8c0d21985c10cb81a0fd1a5baa83978851e9eb16e10ca68be",
+      "product/lib/product.mjs": "c779ed4ee93c38b50af970ca746f20c0225a96b761449a8c779e3a28c00e800f"
+    },
+    "passed": 26,
+    "total": 35,
+    "cases": [
+      {
+        "id": "N01",
+        "kind": "microtask",
+        "ids": [],
+        "ownerRank": null,
+        "abstentionReason": "explicit-limited-micro-task",
+        "failures": []
+      },
+      {
+        "id": "N02",
+        "kind": "microtask",
+        "ids": [],
+        "ownerRank": null,
+        "abstentionReason": "explicit-limited-micro-task",
+        "failures": []
+      },
+      {
+        "id": "N03",
+        "kind": "microtask",
+        "ids": [
+          "eternities-arcadia",
+          "geospatial-coordinate-integrity",
+          "motion-design-and-animation-engineering"
+        ],
+        "ownerRank": null,
+        "abstentionReason": null,
+        "failures": [
+          "expected-empty"
+        ]
+      },
+      {
+        "id": "N04",
+        "kind": "microtask",
+        "ids": [
+          "robotics-test-ladder",
+          "docx-package-redline-and-render-verification",
+          "eternities-aegis"
+        ],
+        "ownerRank": null,
+        "abstentionReason": null,
+        "failures": [
+          "expected-empty"
+        ]
+      },
+      {
+        "id": "N05",
+        "kind": "microtask",
+        "ids": [
+          "approval-bound-private-session-mining",
+          "geospatial-coordinate-integrity",
+          "product-discovery-and-prioritization"
+        ],
+        "ownerRank": null,
+        "abstentionReason": null,
+        "failures": [
+          "expected-empty"
+        ]
+      },
+      {
+        "id": "N06",
+        "kind": "host-no-need",
+        "ids": [],
+        "ownerRank": null,
+        "abstentionReason": "host-supplied-no-need",
+        "failures": []
+      },
+      {
+        "id": "N07",
+        "kind": "host-no-need",
+        "ids": [],
+        "ownerRank": null,
+        "abstentionReason": "host-supplied-no-need",
+        "failures": []
+      },
+      {
+        "id": "P01",
+        "kind": "specific",
+        "ids": [
+          "eternities-arcadia",
+          "scene-continuity-and-coverage",
+          "release-script-safety"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "P02",
+        "kind": "specific",
+        "ids": [
+          "eternities-arcadia",
+          "motion-design-and-animation-engineering",
+          "accessibility-audit-and-remediation"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "P03",
+        "kind": "specific",
+        "ids": [
+          "eternities-arcadia",
+          "geospatial-coordinate-integrity",
+          "scene-continuity-and-coverage"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "P04",
+        "kind": "specific",
+        "ids": [
+          "eternities-arcadia",
+          "release-script-safety",
+          "infrastructure-plan-apply-isolation"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "P05",
+        "kind": "specific",
+        "ids": [
+          "audio-dsp-integrity-review",
+          "api-rate-limit-recovery",
+          "eternities-orpheus"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "P06",
+        "kind": "specific",
+        "ids": [
+          "eternities-atlas",
+          "bounded-verified-object-ingestion",
+          "customer-support-triage-and-resolution"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "P07",
+        "kind": "specific",
+        "ids": [
+          "voice-style-calibration",
+          "eternities-logos",
+          "narrative-structure-and-revision"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "P08",
+        "kind": "specific",
+        "ids": [
+          "vendor-evaluation-and-exit-planning",
+          "jurisdiction-aware-contract-review",
+          "bounded-service-shutdown"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "P09",
+        "kind": "specific",
+        "ids": [
+          "financial-statement-reconciliation",
+          "cashflow-forecast-scenario-integrity",
+          "completeness-and-consistency-audit"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "P10",
+        "kind": "specific",
+        "ids": [
+          "agricultural-observation-and-trial",
+          "api-contract-design-and-evolution",
+          "evidence-linked-learning-design"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "P11",
+        "kind": "specific",
+        "ids": [
+          "completeness-and-consistency-audit",
+          "vendor-evaluation-and-exit-planning",
+          "voice-style-calibration"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "P12",
+        "kind": "specific",
+        "ids": [
+          "memory-retention-and-recovery",
+          "experiment-artifact-lineage",
+          "eternities-chorus"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "P13",
+        "kind": "specific",
+        "ids": [
+          "evidence-linked-learning-design",
+          "diagnostic-statistical-model-inference",
+          "counterbalanced-agent-evaluation"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "P14",
+        "kind": "specific",
+        "ids": [
+          "api-contract-design-and-evolution",
+          "schema-migration-and-backfill-safety",
+          "structured-output-contracts"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "P15",
+        "kind": "specific",
+        "ids": [
+          "deterministic-video-composition-and-rendering",
+          "scene-continuity-and-coverage",
+          "product-discovery-and-prioritization"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "P16",
+        "kind": "specific",
+        "ids": [
+          "procedural-world-generation-and-validation",
+          "robotics-test-ladder",
+          "scene-continuity-and-coverage"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "X01",
+        "kind": "adjacent-exclusion",
+        "ids": [
+          "geospatial-coordinate-integrity",
+          "symbolic-mathematics-python",
+          "eternities-arcadia"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": [
+          "excluded:eternities-arcadia"
+        ]
+      },
+      {
+        "id": "X02",
+        "kind": "adjacent-exclusion",
+        "ids": [
+          "motion-design-and-animation-engineering",
+          "eternities-arcadia",
+          "accessibility-audit-and-remediation"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": [
+          "excluded:eternities-arcadia"
+        ]
+      },
+      {
+        "id": "X03",
+        "kind": "adjacent-exclusion",
+        "ids": [
+          "deterministic-video-composition-and-rendering",
+          "eternities-arcadia",
+          "molecular-observable-integrity"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": [
+          "excluded:eternities-arcadia"
+        ]
+      },
+      {
+        "id": "X04",
+        "kind": "adjacent-exclusion",
+        "ids": [
+          "jurisdiction-aware-contract-review",
+          "eternities-logos",
+          "eternities-arcadia"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": [
+          "excluded:eternities-arcadia"
+        ]
+      },
+      {
+        "id": "X05",
+        "kind": "adjacent-exclusion",
+        "ids": [
+          "eternities-arcadia",
+          "geospatial-coordinate-integrity",
+          "knowledge-base-architecture-and-maintenance"
+        ],
+        "ownerRank": 2,
+        "abstentionReason": null,
+        "failures": [
+          "excluded:eternities-arcadia"
+        ]
+      },
+      {
+        "id": "X06",
+        "kind": "adjacent-exclusion",
+        "ids": [
+          "jurisdiction-aware-contract-review",
+          "eternities-arcadia",
+          "imaginative-concept-development"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": [
+          "excluded:eternities-arcadia"
+        ]
+      },
+      {
+        "id": "A01",
+        "kind": "ambiguous",
+        "ids": [
+          "api-rate-limit-recovery",
+          "git-change-integration-and-recovery",
+          "eternities-phoenix"
+        ],
+        "ownerRank": null,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "A02",
+        "kind": "ambiguous",
+        "ids": [
+          "long-horizon-work-continuity",
+          "voice-style-calibration",
+          "diagnostic-statistical-model-inference"
+        ],
+        "ownerRank": null,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "A03",
+        "kind": "ambiguous",
+        "ids": [
+          "eternities-arcadia",
+          "scene-continuity-and-coverage",
+          "motion-design-and-animation-engineering"
+        ],
+        "ownerRank": null,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "A04",
+        "kind": "ambiguous",
+        "ids": [],
+        "ownerRank": null,
+        "abstentionReason": "clarification-requested-before-selection",
+        "failures": []
+      },
+      {
+        "id": "B01",
+        "kind": "mixed-positive",
+        "ids": [
+          "service-observability-and-slo-design",
+          "eternities-agora",
+          "eternities-daedalus"
+        ],
+        "ownerRank": null,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "B02",
+        "kind": "mixed-positive",
+        "ids": [
+          "completeness-and-consistency-audit",
+          "scene-continuity-and-coverage",
+          "eternities-arcadia"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      }
+    ],
+    "tradeoffs": [
+      {
+        "query": "game",
+        "runtimeOwnerRank": 1,
+        "top3": [
+          "eternities-arcadia",
+          "imaginative-concept-development"
+        ]
+      },
+      {
+        "query": "animation",
+        "runtimeOwnerRank": 2,
+        "top3": [
+          "motion-design-and-animation-engineering",
+          "eternities-arcadia"
+        ]
+      },
+      {
+        "query": "model",
+        "runtimeOwnerRank": 7,
+        "top3": [
+          "diagnostic-statistical-model-inference",
+          "eternities-hephaestus",
+          "experiment-artifact-lineage"
+        ]
+      },
+      {
+        "query": "assets",
+        "runtimeOwnerRank": 1,
+        "top3": [
+          "eternities-arcadia"
+        ]
+      },
+      {
+        "query": "game direction",
+        "runtimeOwnerRank": 1,
+        "top3": [
+          "eternities-arcadia",
+          "eternities-muse",
+          "imaginative-concept-development"
+        ]
+      },
+      {
+        "query": "game accessibility",
+        "runtimeOwnerRank": 1,
+        "top3": [
+          "eternities-arcadia",
+          "accessibility-audit-and-remediation",
+          "eternities-muse"
+        ]
+      },
+      {
+        "query": "Build a small game.",
+        "runtimeOwnerRank": 1,
+        "top3": [
+          "eternities-arcadia",
+          "imaginative-concept-development",
+          "agricultural-observation-and-trial"
+        ]
+      },
+      {
+        "query": "Make a playable prototype.",
+        "runtimeOwnerRank": 1,
+        "top3": [
+          "eternities-arcadia"
+        ]
+      },
+      {
+        "query": "Design our game progression.",
+        "runtimeOwnerRank": 2,
+        "top3": [
+          "imaginative-concept-development",
+          "eternities-arcadia",
+          "api-contract-design-and-evolution"
+        ]
+      }
+    ]
+  },
+  "candidate": {
+    "schema": "godskills-lane-c-matrix-results-v1",
+    "stage": "candidate",
+    "node": "v24.18.0",
+    "matrixSha256": "a889698891d7e8a395339e661dd5b98236fab82518d2b252667b18ba4315df9f",
+    "catalogSha256": "f20b17c989c188d439c84fa4a8cf5989ccafe550428b2b2577708ba072a39889",
+    "sourceHashes": {
+      "product/lib/product.mjs": "afd5689a4120420478995bee762e67cc7ce640f9ce633ae6c6a4f497efcff9bf",
+      "product/lib/discovery.mjs": "9eb1cad0cea17e03f1cf760d7c764c5149bb206e5a92d4b6cc09bbfd91718007",
+      "product/lib/selection-boundary.mjs": "a7b0ed0d0c9805e9a2b97a74c0321ce263c15609e98996144df90fc1b7f0e60e",
+      "product/lib/request-scope.mjs": "e9055f1bfa2a913c1f73e93f5fa652588963e63dd9094e46713786fe400877f2"
+    },
+    "passed": 35,
+    "total": 35,
+    "cases": [
+      {
+        "id": "N01",
+        "kind": "microtask",
+        "ids": [],
+        "ownerRank": null,
+        "abstentionReason": "explicit-limited-micro-task",
+        "failures": []
+      },
+      {
+        "id": "N02",
+        "kind": "microtask",
+        "ids": [],
+        "ownerRank": null,
+        "abstentionReason": "explicit-limited-micro-task",
+        "failures": []
+      },
+      {
+        "id": "N03",
+        "kind": "microtask",
+        "ids": [],
+        "ownerRank": null,
+        "abstentionReason": "explicit-limited-micro-task",
+        "failures": []
+      },
+      {
+        "id": "N04",
+        "kind": "microtask",
+        "ids": [],
+        "ownerRank": null,
+        "abstentionReason": "explicit-limited-micro-task",
+        "failures": []
+      },
+      {
+        "id": "N05",
+        "kind": "microtask",
+        "ids": [],
+        "ownerRank": null,
+        "abstentionReason": "explicit-limited-micro-task",
+        "failures": []
+      },
+      {
+        "id": "N06",
+        "kind": "host-no-need",
+        "ids": [],
+        "ownerRank": null,
+        "abstentionReason": "host-supplied-no-need",
+        "failures": []
+      },
+      {
+        "id": "N07",
+        "kind": "host-no-need",
+        "ids": [],
+        "ownerRank": null,
+        "abstentionReason": "host-supplied-no-need",
+        "failures": []
+      },
+      {
+        "id": "P01",
+        "kind": "specific",
+        "ids": [
+          "eternities-arcadia",
+          "scene-continuity-and-coverage",
+          "release-script-safety"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "P02",
+        "kind": "specific",
+        "ids": [
+          "eternities-arcadia",
+          "motion-design-and-animation-engineering",
+          "accessibility-audit-and-remediation"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "P03",
+        "kind": "specific",
+        "ids": [
+          "eternities-arcadia",
+          "geospatial-coordinate-integrity",
+          "scene-continuity-and-coverage"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "P04",
+        "kind": "specific",
+        "ids": [
+          "eternities-arcadia",
+          "release-script-safety",
+          "infrastructure-plan-apply-isolation"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "P05",
+        "kind": "specific",
+        "ids": [
+          "audio-dsp-integrity-review",
+          "api-rate-limit-recovery",
+          "eternities-orpheus"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "P06",
+        "kind": "specific",
+        "ids": [
+          "eternities-atlas",
+          "bounded-verified-object-ingestion",
+          "customer-support-triage-and-resolution"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "P07",
+        "kind": "specific",
+        "ids": [
+          "voice-style-calibration",
+          "eternities-logos",
+          "narrative-structure-and-revision"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "P08",
+        "kind": "specific",
+        "ids": [
+          "vendor-evaluation-and-exit-planning",
+          "jurisdiction-aware-contract-review",
+          "bounded-service-shutdown"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "P09",
+        "kind": "specific",
+        "ids": [
+          "financial-statement-reconciliation",
+          "cashflow-forecast-scenario-integrity",
+          "completeness-and-consistency-audit"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "P10",
+        "kind": "specific",
+        "ids": [
+          "agricultural-observation-and-trial",
+          "api-contract-design-and-evolution",
+          "evidence-linked-learning-design"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "P11",
+        "kind": "specific",
+        "ids": [
+          "completeness-and-consistency-audit",
+          "vendor-evaluation-and-exit-planning",
+          "voice-style-calibration"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "P12",
+        "kind": "specific",
+        "ids": [
+          "memory-retention-and-recovery",
+          "experiment-artifact-lineage",
+          "eternities-chorus"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "P13",
+        "kind": "specific",
+        "ids": [
+          "evidence-linked-learning-design",
+          "diagnostic-statistical-model-inference",
+          "counterbalanced-agent-evaluation"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "P14",
+        "kind": "specific",
+        "ids": [
+          "api-contract-design-and-evolution",
+          "schema-migration-and-backfill-safety",
+          "structured-output-contracts"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "P15",
+        "kind": "specific",
+        "ids": [
+          "deterministic-video-composition-and-rendering",
+          "scene-continuity-and-coverage",
+          "product-discovery-and-prioritization"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "P16",
+        "kind": "specific",
+        "ids": [
+          "procedural-world-generation-and-validation",
+          "robotics-test-ladder",
+          "scene-continuity-and-coverage"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "X01",
+        "kind": "adjacent-exclusion",
+        "ids": [
+          "geospatial-coordinate-integrity",
+          "symbolic-mathematics-python",
+          "confirmed-destructive-reconstruction"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "X02",
+        "kind": "adjacent-exclusion",
+        "ids": [
+          "motion-design-and-animation-engineering",
+          "accessibility-audit-and-remediation",
+          "user-research-and-usability-study"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "X03",
+        "kind": "adjacent-exclusion",
+        "ids": [
+          "deterministic-video-composition-and-rendering",
+          "molecular-observable-integrity",
+          "audio-dsp-integrity-review"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "X04",
+        "kind": "adjacent-exclusion",
+        "ids": [
+          "jurisdiction-aware-contract-review",
+          "eternities-logos",
+          "bounded-service-shutdown"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "X05",
+        "kind": "adjacent-exclusion",
+        "ids": [
+          "geospatial-coordinate-integrity",
+          "knowledge-base-architecture-and-maintenance",
+          "symbolic-mathematics-python"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "X06",
+        "kind": "adjacent-exclusion",
+        "ids": [
+          "jurisdiction-aware-contract-review",
+          "imaginative-concept-development",
+          "eternities-logos"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "A01",
+        "kind": "ambiguous",
+        "ids": [
+          "api-rate-limit-recovery",
+          "git-change-integration-and-recovery",
+          "eternities-phoenix"
+        ],
+        "ownerRank": null,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "A02",
+        "kind": "ambiguous",
+        "ids": [
+          "long-horizon-work-continuity",
+          "voice-style-calibration",
+          "diagnostic-statistical-model-inference"
+        ],
+        "ownerRank": null,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "A03",
+        "kind": "ambiguous",
+        "ids": [
+          "scene-continuity-and-coverage",
+          "motion-design-and-animation-engineering",
+          "narrative-structure-and-revision"
+        ],
+        "ownerRank": null,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "A04",
+        "kind": "ambiguous",
+        "ids": [],
+        "ownerRank": null,
+        "abstentionReason": "clarification-requested-before-selection",
+        "failures": []
+      },
+      {
+        "id": "B01",
+        "kind": "mixed-positive",
+        "ids": [
+          "service-observability-and-slo-design",
+          "eternities-agora",
+          "eternities-daedalus"
+        ],
+        "ownerRank": null,
+        "abstentionReason": null,
+        "failures": []
+      },
+      {
+        "id": "B02",
+        "kind": "mixed-positive",
+        "ids": [
+          "completeness-and-consistency-audit",
+          "scene-continuity-and-coverage",
+          "jurisdiction-aware-contract-review"
+        ],
+        "ownerRank": 1,
+        "abstentionReason": null,
+        "failures": []
+      }
+    ],
+    "tradeoffs": [
+      {
+        "query": "game",
+        "runtimeOwnerRank": 1,
+        "top3": [
+          "eternities-arcadia",
+          "imaginative-concept-development"
+        ]
+      },
+      {
+        "query": "animation",
+        "runtimeOwnerRank": 2,
+        "top3": [
+          "motion-design-and-animation-engineering",
+          "eternities-arcadia"
+        ]
+      },
+      {
+        "query": "model",
+        "runtimeOwnerRank": 7,
+        "top3": [
+          "diagnostic-statistical-model-inference",
+          "eternities-hephaestus",
+          "experiment-artifact-lineage"
+        ]
+      },
+      {
+        "query": "assets",
+        "runtimeOwnerRank": 1,
+        "top3": [
+          "eternities-arcadia"
+        ]
+      },
+      {
+        "query": "game direction",
+        "runtimeOwnerRank": 1,
+        "top3": [
+          "eternities-arcadia",
+          "eternities-muse",
+          "imaginative-concept-development"
+        ]
+      },
+      {
+        "query": "game accessibility",
+        "runtimeOwnerRank": 1,
+        "top3": [
+          "eternities-arcadia",
+          "accessibility-audit-and-remediation",
+          "eternities-muse"
+        ]
+      },
+      {
+        "query": "Build a small game.",
+        "runtimeOwnerRank": 1,
+        "top3": [
+          "eternities-arcadia",
+          "imaginative-concept-development",
+          "agricultural-observation-and-trial"
+        ]
+      },
+      {
+        "query": "Make a playable prototype.",
+        "runtimeOwnerRank": 1,
+        "top3": [
+          "eternities-arcadia"
+        ]
+      },
+      {
+        "query": "Design our game progression.",
+        "runtimeOwnerRank": 2,
+        "top3": [
+          "imaginative-concept-development",
+          "eternities-arcadia",
+          "api-contract-design-and-evolution"
+        ]
+      }
+    ]
+  }
+}

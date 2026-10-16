@@ -1,0 +1,21 @@
+{
+  "exercise": "experiment-laplace",
+  "read_set": [
+    {
+      "role": "user-selected fictional fixture",
+      "path": "C:/Users/Dom/.codex/operations/godskills-cohesive-20261015/consumer-fixtures/experiment-selection.md",
+      "sha256": "ce9b205c400ef08c520ab366eaac9065b234392c4a2dd6f002d59676070aa300",
+      "read_scope": "complete file"
+    },
+    {
+      "role": "candidate method entrypoint",
+      "path": "C:/dev/eternities-godskills/.worktrees/quality-qualification-20261003/product/skills/counterbalanced-agent-evaluation/SKILL.md",
+      "sha256": "6242385832a491c290feeb636175210c839a75dcf6bd30526b5cf2f32c99fd7f",
+      "read_scope": "complete file"
+    }
+  ],
+  "excluded_reads": ["acceptance.json", "other consumer fixtures", "shared pack manifests", "other candidate methods", "memory files for this consumer assignment"],
+  "independence": "Consumer did not author the lane-B method. Prior lane-A authoring context is present. This is not a blind comparative performance test or an independent scientific validation of the method.",
+  "effects": "Only the four consumer deliverables in the assigned experiment-laplace directory were created. No product or test edits, provider calls, additional experiments, workers or tasks.",
+  "verification_scope": "Read-back of these authored outputs for JSON validity, required-field coverage and exact source-hash stability is packaging verification only. It does not execute the proposed study."
+}

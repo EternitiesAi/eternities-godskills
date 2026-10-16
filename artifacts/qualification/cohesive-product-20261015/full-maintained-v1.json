@@ -1,0 +1,81 @@
+{
+  "schema": "cohesive-maintained-check-v1",
+  "label": "full-maintained-v1",
+  "start": "2026-10-16T05:41:07.800Z",
+  "finished": "2026-10-16T05:43:12.801Z",
+  "command": [
+    "node",
+    "--test",
+    "--test-concurrency=1",
+    "--test-reporter=tap",
+    "tests/**/*.test.mjs",
+    "examples/**/*.test.mjs",
+    "evaluation/**/*.test.mjs",
+    "product/**/*.test.mjs"
+  ],
+  "exitCode": 1,
+  "error": null,
+  "stableSources": true,
+  "counters": {
+    "tests": 1835,
+    "pass": 1805,
+    "fail": 28,
+    "cancelled": 0,
+    "skipped": 2,
+    "todo": 0,
+    "duration_ms": 124903.6074
+  },
+  "failedLines": [
+    "not ok 129 - aggregate receipt binds every declared input and output to actual bytes",
+    "not ok 260 - named Arcadia revision projects exactly to immutable historical input without mutation",
+    "not ok 266 - projection does not conceal unrelated owner fields",
+    "not ok 546 - the immutable core2260 fixture is exact and core projections admit only the declared Atlas and Arcadia revisions",
+    "not ok 547 - historical paths remain exact, named optional owner references are admitted, and only Omnibus is revised",
+    "not ok 550 - the selected-method directory binds exactly the four new owner methods and their exclusions",
+    "not ok 551 - Daedalus owns optional model scenarios without weakening deterministic required checks",
+    "not ok 723 - the literal educational projection keeps its exact prior catalog input",
+    "not ok 736 - disclosed teaching regression E2-N01: educational-study-appraisal",
+    "not ok 737 - disclosed teaching regression E2-N02: production-simulator-operation",
+    "not ok 738 - disclosed teaching regression E2-N03: renderer-only-repair",
+    "not ok 739 - disclosed teaching regression E2-N04: education-administration-summary",
+    "not ok 740 - disclosed teaching regression E2-N05: ordinary-static-teaching",
+    "not ok 741 - disclosed teaching regression E2-N06: direct-refusal-current-alternative",
+    "not ok 742 - disclosed teaching regression E2-N07: archived-quoted-assignment",
+    "not ok 743 - disclosed teaching regression E2-N08: past-teaching-intent-replaced",
+    "not ok 744 - disclosed teaching regression E2-N09: trainee-audience-validation-only",
+    "not ok 745 - disclosed teaching regression E2-C01: explicit-no-need",
+    "not ok 746 - disclosed teaching regression E2-C02: category-exclusion",
+    "not ok 747 - disclosed teaching regression E2-C03: task-type-exclusion",
+    "not ok 749 - disclosed teaching regression E2-C05: literal-protected-anti-trigger",
+    "not ok 758 - disclosed teaching regression F4-N01: training-model-reliability-only",
+    "not ok 759 - disclosed teaching regression F4-N02: refused-workshop-current-notice",
+    "not ok 760 - disclosed teaching regression F4-N03: quoted-instruction-as-record-data",
+    "not ok 1639 - Beacon sponsorship route is text-only and preserves human decision boundaries",
+    "not ok 1669 - browser lifecycle discovery reaches the game owner: Hidden tab resumes with a huge simulation delta and pressed keys stay stuck",
+    "not ok 1772 - Atlas metadata does not displace delivery, offline-validation, schema, causal, or prospect routes",
+    "not ok 1781 - aggregate causal appraisal does not promote Atlas over the evidence owners"
+  ],
+  "tapSha256": "a0d6c554880e00af7de399bdd54df79beb3fa652dbbcd2d9f15a06a53a61bb72",
+  "privateReceiptSha256": "b89d17d29b700a24e83fdf67e07c02faa5e54a6a90d25d35c635ff04a66f606b",
+  "before": {
+    "product": {
+      "fileCount": 335,
+      "sha256": "87d6ff8f48659be5009544a4f010839b25c7a2b93e5805051ad1f98f5f1c0e6d"
+    },
+    "tests": {
+      "fileCount": 288,
+      "sha256": "b2158572e873f53c9dd3e0b18c8727032690f7374090137dcf80f68937226178"
+    }
+  },
+  "after": {
+    "product": {
+      "fileCount": 335,
+      "sha256": "87d6ff8f48659be5009544a4f010839b25c7a2b93e5805051ad1f98f5f1c0e6d"
+    },
+    "tests": {
+      "fileCount": 288,
+      "sha256": "b2158572e873f53c9dd3e0b18c8727032690f7374090137dcf80f68937226178"
+    }
+  },
+  "limits": "Executed locally on Windows. Detailed raw TAP and exact inventory retained in private task operation; no live-domain outcome or independent review follows from these tests."
+}

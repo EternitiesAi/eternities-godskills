@@ -1,0 +1,32 @@
+{
+  "schema": "recovery-dirac-used-methods-v1",
+  "mode": "actual instruction application to supplied fictional task; direct Markdown before shared-manifest rebuild",
+  "methods": [
+    {
+      "path": "product/skills/memory-retention-and-recovery/SKILL.md",
+      "sha256": "6621d8bb0924cd386831eae2004144d3006206359de4fdaa1d2385fcdca4d38e",
+      "read": "complete",
+      "appliedDecision": "The journal changes the retry decision; keep conflict, exact identity, evidence limits and one scoped next action rather than copying the old checkpoint."
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/references/examples.md",
+      "sha256": "e85739b8e8e517545d5862200f78e442dc23f59284f2e74751c7c39af8e5ece2",
+      "read": "complete",
+      "appliedDecision": "A stale instruction does not inherit authority; a timeout leaves persistence/effect state unknown."
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/SKILL.md",
+      "sha256": "d0487cb608de140f11305ffcd63f837fbe56c018b029ccd70f0da04c97a51a0b",
+      "read": "complete",
+      "appliedDecision": "Preserve the pause and existing worker; distinguish prepared/local checks from the deployment finish condition."
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/references/uncertain-effect-recovery.md",
+      "sha256": "a12fcc1b51a85bcaa392fbc534ba3be74bd6aef184019ca78774e6615d8f8f7f",
+      "read": "complete",
+      "appliedDecision": "Reconcile the original operation key; absence needs reliable semantics, a key alone is not deduplication, and pause does not authorize cancellation."
+    }
+  ],
+  "scope": "Other B files were read as reviewer evidence, not loaded as additional consumer methods. No external host, acceptance key, other consumer fixture or parent assessment criteria was opened.",
+  "evidenceLimit": "Self-authored local task output and local tests, not a comparative skill-effectiveness evaluation."
+}

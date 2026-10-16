@@ -10,7 +10,7 @@ Prometheus turns supplied evidence into one bounded product-operations decision 
 ## Choose the route
 
 - **Growth routing** classifies the question and selects the narrowest customer, sales, revenue, or proposal lens.
-- **Commercial analytics** calculates supplied pricing, pipeline, forecast, funnel, unit, subscription, or efficiency measures with units and denominators visible.
+- **Commercial analytics** calculates supplied pricing, pipeline, forecast, funnel, unit, subscription, or efficiency measures with units and denominators visible. When a changed business number needs an actionable diagnosis, use [commercial driver diagnosis](references/commercial-driver-diagnosis-v1.md) to reconcile its contributions before choosing an investigation or intervention.
 - **Customer insight** synthesizes authorized feedback, aggregate themes, account signals, and learning decisions without collapsing them into one score.
 - **Early-adopter research** qualifies public evidence and drafts hypotheses or candidate outreach material without treating a draft as contact.
 - **Learning design** creates progression, checkpoints, assessment, and adaptation criteria for a defined learner.

@@ -1,6 +1,8 @@
 // A bounded lexical model, not semantic applicability or permission inference.
 // Each intent requires independent request cues AND a matching metadata profile.
 // No query strings or skill IDs are used as lookup keys.
+import {affirmativeRequestClauses} from './request-scope.mjs';
+
 const normalize = text => (text.normalize('NFKC').toLowerCase().match(/[\p{L}\p{N}]+/gu) || []).join(' ');
 const media = /\b(?:audio|dsp|tts|speech|speaker|microphone|sample rate|plugin|callback|voice clon\w*|synthesi\w*)\b/;
 
@@ -82,7 +84,43 @@ function reconciliationRequestText(query) {
   return clauses.join(' ');
 }
 
+// Admission and corroboration are different decisions. Explicit game/engine
+// context preserves lexical recall even for an unfamiliar feature or topic.
+// A purpose reason additionally needs a work verb or reported fault, never the
+// same asset noun counted twice. No modifier-distance limit is imposed.
+// Browser lifecycle work can be reported without naming a game or engine.
+// Require both a browser/lifecycle context and a simulation or explicit
+// animation/render/frame loop; ordinary CSS animation or page focus alone
+// does not establish the running-system context of this specialist.
+const runtimeDomain={test:text=>
+  /\b(?:games?|gameplay|playable|players?|three js|threejs|unity|unreal|webgl|gltf|fbx|spatial interaction|runtime scene)\b/.test(text)||
+  (/\b(?:browser|tabs?|page|document|visibility|focus|blur)\b/.test(text)&&
+   /\b(?:simulation|(?:animation|render|frame) loops?)\b/.test(text))};
+const runtimeContext={test:text=>runtimeDomain.test(text)||/\b(?:3d|meshes|mesh|textures?|shaders?|gpu|canvas|skeletons?|root motion)\b/.test(text)};
+const runtimeWork=/\b(?:build\w*|make|making|creat\w*|design\w*|develop\w*|implement\w*|repair\w*|fix\w*|debug\w*|integrat\w*|render\w*|animat\w*|improv\w*|balanc\w*|add\w*|plan\w*|check\w*|verif\w*|audit\w*|qualif\w*|validat\w*|playtest\w*)\b/;
+const reportedRuntimeFault=/\b(?:is|are|was|were|looks?|appears?|becomes?)\b.*\b(?:wrong|incorrect|missing|broken|mirrored|inverted|misaligned|invalid)\b/;
+const runtimePurpose={test:text=>runtimeWork.test(text)||reportedRuntimeFault.test(text)};
+// Recognized legal/rights extraction and hardware-commerce clauses cannot
+// supply runtime context or purpose. A separate live technical clause survives.
+// This is a finite lexical boundary, not general discourse/negation parsing.
+const nonRuntimePurpose=/\b(?:licen[cs]\w*|attribution|redistribution|termination|liability|legal|contracts?|prices?|pricing)\b/;
+const runtimeRequestText=query=>affirmativeRequestClauses(query).map(normalize)
+  .filter(text=>!nonRuntimePurpose.test(text)).join(' ');
+
 const profiles = [
+  {
+    name: 'game or real-time 3D runtime scope',
+    requireRequestedCues: true,
+    eligibilityOnly: true,
+    allowSingleTermNavigation: true,
+    allowDomainNavigation: true,
+    prepare: runtimeRequestText,
+    cues: [
+      ['game or technical 3D context', runtimeContext],
+      ['independent work action or reported fault', runtimePurpose],
+    ],
+    metadata: [/\bgame direction\b/, /\bruntime\b/, /\bplayer experience\b/],
+  },
   {
     name: 'tabular reconciliation',
     prepare: reconciliationRequestText,
@@ -219,7 +257,7 @@ export function lexicalQueryEvidence(query) {
     return !profile.exclude?.test(scopedText) && !profile.negated?.test(scopedText) &&
       profile.cues.every(([, pattern]) => pattern.test(scopedText));
   });
-  return {intents, writtenVoice: intents.some(profile => profile.name === 'written authorial voice')};
+  return {intents, runtimeDomainNavigation:runtimeDomain.test(runtimeRequestText(query)), singleTermNavigation: /^[\p{L}\p{N}]+$/u.test(query.normalize('NFKC').trim()), writtenVoice: intents.some(profile => profile.name === 'written authorial voice')};
 }
 
 export function lexicalIntentMatch(item, evidence) {
@@ -230,9 +268,11 @@ export function lexicalIntentMatch(item, evidence) {
   // request has a separate ordering tier so arbitrary keyword overlap cannot
   // defeat it. Neither the tier nor score proves semantic applicability.
   return {
-    score: matched.length ? 60 : 0,
+    score: matched.some(profile=>!profile.eligibilityOnly) ? 60 : 0,
     prioritizeRequestedActivity: matched.some(profile => profile.prioritizeRequestedActivity),
     reasons: matched.map(profile => `Lexical intent: ${profile.name}; cues: ${profile.cues.map(([name]) => name).join(', ')}${profile.prioritizeRequestedActivity ? '; ordering: corroborated teaching request before incidental keyword matches' : ''}`),
-    ...(required.length ? {eligible:required.every(profile=>evidence.intents.includes(profile))} : {}),
+    // Contextual and one-term navigation preserve recall without inventing a
+    // purpose reason or score bonus. Filters and host need remain independent.
+    ...(required.length ? {eligible:required.every(profile=>evidence.intents.includes(profile)||(profile.allowDomainNavigation&&evidence.runtimeDomainNavigation)||(profile.allowSingleTermNavigation&&evidence.singleTermNavigation))} : {}),
   };
 }

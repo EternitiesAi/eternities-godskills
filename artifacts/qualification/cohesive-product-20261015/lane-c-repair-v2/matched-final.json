@@ -1,0 +1,5391 @@
+{
+  "schema": "lane-c-repair-v2-matched-results-v1",
+  "node": "v24.18.0",
+  "catalogSha256": "9c920df644c29fb6d58814f22722bf51a3e3640c7aff77fca9259fb2d33060ee",
+  "note": "All three code versions use the SAME frozen current metadata. Top five IDs are retained; count and owner rank use each case limit. Characterization is unscored. Original author-35 on its original metadata is separately covered by the unchanged historical matrix test.",
+  "sources": [
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c-repair-v2/measure.mjs",
+      "sha256": "4ac36eb33a3b653a723b1f65295d8c33a1661d789632c0e856d2789b8a1f76d6"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c-repair-v2/catalog.current-metadata.frozen.json",
+      "sha256": "9c920df644c29fb6d58814f22722bf51a3e3640c7aff77fca9259fb2d33060ee"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c-repair-v2/code.before.json",
+      "sha256": "6c79550d6c2ee2d4f580d132f8cf629d5119614143b3b6b25ea4c655656b6728"
+    },
+    {
+      "path": "product/lib/archive.mjs",
+      "sha256": "62cb7442554233a93aa7a149e3336830ef02cdfaf905d944e8f2241b07ce0ba3"
+    },
+    {
+      "path": "product/lib/discovery.mjs",
+      "sha256": "4996700d80c125d06586f044260026954047cbbd412f43ef63e10ea8b2adcbd6"
+    },
+    {
+      "path": "product/lib/method-directory.mjs",
+      "sha256": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180"
+    },
+    {
+      "path": "product/lib/navigation.mjs",
+      "sha256": "937977fe6c338fb7a17f8bdddc132440f0c06ecb69b9c5b1424f7c1a06bfb777"
+    },
+    {
+      "path": "product/lib/product.mjs",
+      "sha256": "afd5689a4120420478995bee762e67cc7ce640f9ce633ae6c6a4f497efcff9bf"
+    },
+    {
+      "path": "product/lib/request-scope.mjs",
+      "sha256": "e9055f1bfa2a913c1f73e93f5fa652588963e63dd9094e46713786fe400877f2"
+    },
+    {
+      "path": "product/lib/selection-boundary.mjs",
+      "sha256": "a7b0ed0d0c9805e9a2b97a74c0321ce263c15609e98996144df90fc1b7f0e60e"
+    },
+    {
+      "path": "product/lib/skill-frontmatter.mjs",
+      "sha256": "66bfc5b6b56688d2996689f774b5b904ce517a3fda1ec35d4d567cbd63e3a96d"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-avicenna/challenges.json",
+      "sha256": "1891a4494f537c69da9d3d6fdcabef765a3d2fbbd2f669b34924535f1b688dff"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-avicenna/supplemental.json",
+      "sha256": "19076aff0b1eb65da626ef5f9e1a9e6dad175c10eada9c9823561125c9de1d4d"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/review-c-avicenna/parent-challenges.json",
+      "sha256": "2e1d8142dcfffb2024055ae69dd69cbe72566df52416851ef5a3eefdd19ef6f5"
+    },
+    {
+      "path": "artifacts/qualification/cohesive-product-20261015/lane-c/matrix.frozen.json",
+      "sha256": "a889698891d7e8a395339e661dd5b98236fab82518d2b252667b18ba4315df9f"
+    }
+  ],
+  "canonicalHashes": {
+    "product/lib/product.mjs": "c779ed4ee93c38b50af970ca746f20c0225a96b761449a8c779e3a28c00e800f",
+    "product/lib/method-directory.mjs": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180",
+    "product/lib/discovery.mjs": "894d347eda269dbfe447d7a09d5ff10bf57b9c5e1f3f90ce398502f7b65fc7d5",
+    "product/lib/selection-boundary.mjs": "792db2f120251de8c0d21985c10cb81a0fd1a5baa83978851e9eb16e10ca68be",
+    "product/lib/skill-frontmatter.mjs": "66bfc5b6b56688d2996689f774b5b904ce517a3fda1ec35d4d567cbd63e3a96d"
+  },
+  "changedDuringRun": [],
+  "controls": {
+    "exactIds": [],
+    "hostNoNeed": []
+  },
+  "groups": [
+    {
+      "name": "challenges",
+      "total": 56,
+      "scored": 56,
+      "beforePass": 39,
+      "afterPass": 54,
+      "beforeFailures": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05",
+        "G07",
+        "G08",
+        "G10",
+        "G11",
+        "Q11",
+        "T02",
+        "T03",
+        "T04",
+        "T06",
+        "N04",
+        "E04",
+        "E05"
+      ],
+      "afterFailures": [
+        "E04",
+        "E05"
+      ],
+      "newRegressions": [],
+      "rows": [
+        {
+          "id": "G01",
+          "kind": "ordinary-game",
+          "query": "Implement player movement and camera controls for my game.",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "scene-continuity-and-coverage",
+              "eternities-daedalus",
+              "imaginative-concept-development",
+              "ecological-sampling-and-detection-uncertainty"
+            ],
+            "count": 12,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "scene-continuity-and-coverage",
+              "eternities-daedalus",
+              "imaginative-concept-development",
+              "ecological-sampling-and-detection-uncertainty",
+              "eternities-prometheus"
+            ],
+            "count": 11,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "scene-continuity-and-coverage",
+              "eternities-daedalus",
+              "imaginative-concept-development",
+              "ecological-sampling-and-detection-uncertainty"
+            ],
+            "count": 12,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "G02",
+          "kind": "ordinary-game",
+          "query": "Fix the camera controls in my game.",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "scene-continuity-and-coverage",
+              "imaginative-concept-development",
+              "ecological-sampling-and-detection-uncertainty",
+              "interface-localization-and-bidirectionality"
+            ],
+            "count": 5,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "scene-continuity-and-coverage",
+              "imaginative-concept-development",
+              "ecological-sampling-and-detection-uncertainty",
+              "interface-localization-and-bidirectionality"
+            ],
+            "count": 4,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "scene-continuity-and-coverage",
+              "imaginative-concept-development",
+              "ecological-sampling-and-detection-uncertainty",
+              "interface-localization-and-bidirectionality"
+            ],
+            "count": 5,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "G03",
+          "kind": "ordinary-game",
+          "query": "Balance combat difficulty in our game.",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "financial-statement-reconciliation",
+              "imaginative-concept-development"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "financial-statement-reconciliation",
+              "imaginative-concept-development"
+            ],
+            "count": 2,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "financial-statement-reconciliation",
+              "imaginative-concept-development"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "G04",
+          "kind": "ordinary-game",
+          "query": "Add checkpoint saves to the game.",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "experiment-artifact-lineage",
+              "imaginative-concept-development",
+              "eternities-mnemosyne",
+              "memory-retention-and-recovery"
+            ],
+            "count": 5,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "experiment-artifact-lineage",
+              "imaginative-concept-development",
+              "eternities-mnemosyne",
+              "memory-retention-and-recovery"
+            ],
+            "count": 4,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "experiment-artifact-lineage",
+              "imaginative-concept-development",
+              "eternities-mnemosyne",
+              "memory-retention-and-recovery"
+            ],
+            "count": 5,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "G05",
+          "kind": "ordinary-game",
+          "query": "Build an accessible cooperative puzzle game for two people.",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "accessibility-audit-and-remediation",
+              "semantic-implementation-diff",
+              "imaginative-concept-development",
+              "native-mobile-interaction-testing"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "accessibility-audit-and-remediation",
+              "semantic-implementation-diff",
+              "imaginative-concept-development",
+              "native-mobile-interaction-testing",
+              "dependency-supply-chain-integrity"
+            ],
+            "count": 20,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "accessibility-audit-and-remediation",
+              "semantic-implementation-diff",
+              "imaginative-concept-development",
+              "native-mobile-interaction-testing"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "G06",
+          "kind": "ordinary-game",
+          "query": "Design a small exploration game.",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "imaginative-concept-development",
+              "eternities-arcadia",
+              "api-contract-design-and-evolution",
+              "bounded-parametric-design-iteration",
+              "columnar-ingestion-rollup-and-query-layout-design"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 2,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "imaginative-concept-development",
+              "eternities-arcadia",
+              "api-contract-design-and-evolution",
+              "bounded-parametric-design-iteration",
+              "columnar-ingestion-rollup-and-query-layout-design"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 2,
+            "abstention": null,
+            "runtimePurposeReason": true
+          },
+          "after": {
+            "top5": [
+              "imaginative-concept-development",
+              "eternities-arcadia",
+              "api-contract-design-and-evolution",
+              "bounded-parametric-design-iteration",
+              "columnar-ingestion-rollup-and-query-layout-design"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 2,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "G07",
+          "kind": "ordinary-game",
+          "query": "Implement controller support for my game.",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "customer-support-triage-and-resolution",
+              "eternities-arcadia",
+              "ecological-sampling-and-detection-uncertainty",
+              "eternities-daedalus",
+              "imaginative-concept-development"
+            ],
+            "count": 12,
+            "expectedMet": true,
+            "ownerRank": 2,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "customer-support-triage-and-resolution",
+              "ecological-sampling-and-detection-uncertainty",
+              "eternities-daedalus",
+              "imaginative-concept-development",
+              "eternities-phoenix"
+            ],
+            "count": 11,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "customer-support-triage-and-resolution",
+              "eternities-arcadia",
+              "ecological-sampling-and-detection-uncertainty",
+              "eternities-daedalus",
+              "imaginative-concept-development"
+            ],
+            "count": 12,
+            "expectedMet": true,
+            "ownerRank": 2,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "G08",
+          "kind": "ordinary-game",
+          "query": "Improve game onboarding and feedback.",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "imaginative-concept-development",
+              "accessibility-audit-and-remediation",
+              "audio-dsp-integrity-review",
+              "eternities-forge"
+            ],
+            "count": 9,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "imaginative-concept-development",
+              "accessibility-audit-and-remediation",
+              "audio-dsp-integrity-review",
+              "eternities-forge",
+              "evidence-linked-learning-design"
+            ],
+            "count": 8,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "imaginative-concept-development",
+              "accessibility-audit-and-remediation",
+              "audio-dsp-integrity-review",
+              "eternities-forge"
+            ],
+            "count": 9,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "G09",
+          "kind": "ordinary-game",
+          "query": "Make game controls accessible to players.",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "accessibility-audit-and-remediation",
+              "imaginative-concept-development",
+              "native-mobile-interaction-testing",
+              "interface-localization-and-bidirectionality"
+            ],
+            "count": 7,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-arcadia",
+              "accessibility-audit-and-remediation",
+              "imaginative-concept-development",
+              "native-mobile-interaction-testing",
+              "interface-localization-and-bidirectionality"
+            ],
+            "count": 7,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "accessibility-audit-and-remediation",
+              "imaginative-concept-development",
+              "native-mobile-interaction-testing",
+              "interface-localization-and-bidirectionality"
+            ],
+            "count": 7,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "G10",
+          "kind": "ordinary-game",
+          "query": "Debug Unity input handling.",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "eternities-atlas",
+              "eternities-phoenix",
+              "eternities-oracle",
+              "confirmed-destructive-reconstruction"
+            ],
+            "count": 15,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-atlas",
+              "eternities-phoenix",
+              "eternities-oracle",
+              "confirmed-destructive-reconstruction",
+              "agricultural-observation-and-trial"
+            ],
+            "count": 14,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "eternities-atlas",
+              "eternities-phoenix",
+              "eternities-oracle",
+              "confirmed-destructive-reconstruction"
+            ],
+            "count": 15,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "G11",
+          "kind": "ordinary-game",
+          "query": "Create a relaxing turn based strategy game.",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "eternities-chorus",
+              "imaginative-concept-development",
+              "product-discovery-and-prioritization",
+              "eternities-beacon"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-chorus",
+              "imaginative-concept-development",
+              "product-discovery-and-prioritization",
+              "eternities-beacon",
+              "structured-hiring-evaluation"
+            ],
+            "count": 20,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "eternities-chorus",
+              "imaginative-concept-development",
+              "product-discovery-and-prioritization",
+              "eternities-beacon"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "G12",
+          "kind": "ordinary-game",
+          "query": "Plan our game development milestones.",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "imaginative-concept-development",
+              "eternities-arcadia",
+              "long-horizon-work-continuity",
+              "infrastructure-plan-apply-isolation",
+              "user-research-and-usability-study"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 2,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "imaginative-concept-development",
+              "eternities-arcadia",
+              "long-horizon-work-continuity",
+              "infrastructure-plan-apply-isolation",
+              "user-research-and-usability-study"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 2,
+            "abstention": null,
+            "runtimePurposeReason": true
+          },
+          "after": {
+            "top5": [
+              "imaginative-concept-development",
+              "eternities-arcadia",
+              "long-horizon-work-continuity",
+              "infrastructure-plan-apply-isolation",
+              "user-research-and-usability-study"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 2,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "Q01",
+          "kind": "quoted-control",
+          "query": "Lowercase the literal text \"Implement player movement in a game\". Give only the text.",
+          "owner": null,
+          "expect": "empty",
+          "need": "unknown",
+          "canonical": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "Q02",
+          "kind": "quoted-control",
+          "query": "Count the words in ‘verify the game runtime’. Give only the count.",
+          "owner": null,
+          "expect": "empty",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "eternities-hephaestus",
+              "confirmed-destructive-reconstruction",
+              "imaginative-concept-development",
+              "dependency-supply-chain-integrity"
+            ],
+            "count": 20,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "Q03",
+          "kind": "refused-control",
+          "query": "Don't build a game; lowercase the literal text RIVER. Give only the text.",
+          "owner": null,
+          "expect": "empty",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "docx-package-redline-and-render-verification",
+              "eternities-arcadia",
+              "interface-localization-and-bidirectionality",
+              "portable-speech-chunk-alignment",
+              "imaginative-concept-development"
+            ],
+            "count": 20,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "Q04",
+          "kind": "refused-control",
+          "query": "Never audit the service; calculate 15 minus 4. Give only the result.",
+          "owner": null,
+          "expect": "empty",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "service-observability-and-slo-design",
+              "bounded-service-shutdown",
+              "accessibility-audit-and-remediation",
+              "eternities-agora",
+              "completeness-and-consistency-audit"
+            ],
+            "count": 20,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "Q05",
+          "kind": "live-control",
+          "query": "Do not audit the service; implement the word count endpoint. Give only the code.",
+          "owner": null,
+          "expect": "nonempty",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-daedalus",
+              "service-observability-and-slo-design",
+              "bounded-service-shutdown",
+              "accessibility-audit-and-remediation",
+              "eternities-agora"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-daedalus",
+              "service-observability-and-slo-design",
+              "bounded-service-shutdown",
+              "accessibility-audit-and-remediation",
+              "eternities-agora"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-daedalus",
+              "service-observability-and-slo-design",
+              "bounded-service-shutdown",
+              "accessibility-audit-and-remediation",
+              "eternities-agora"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "Q06",
+          "kind": "live-control",
+          "query": "Count the words. Instead, implement the word count API and give only the result.",
+          "owner": null,
+          "expect": "nonempty",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "api-contract-design-and-evolution",
+              "eternities-daedalus",
+              "confirmed-destructive-reconstruction",
+              "docx-package-redline-and-render-verification",
+              "eternities-chorus"
+            ],
+            "count": 16,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "api-contract-design-and-evolution",
+              "eternities-daedalus",
+              "confirmed-destructive-reconstruction",
+              "docx-package-redline-and-render-verification",
+              "eternities-chorus"
+            ],
+            "count": 16,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "api-contract-design-and-evolution",
+              "eternities-daedalus",
+              "confirmed-destructive-reconstruction",
+              "docx-package-redline-and-render-verification",
+              "eternities-chorus"
+            ],
+            "count": 16,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "Q07",
+          "kind": "quoted-game",
+          "query": "The brief says “runtime game scene mesh collision”; review only its licensing terms.",
+          "owner": "eternities-arcadia",
+          "expect": "exclude",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "imaginative-concept-development",
+              "scene-continuity-and-coverage",
+              "api-rate-limit-recovery",
+              "eternities-hephaestus"
+            ],
+            "count": 20,
+            "expectedMet": false,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "imaginative-concept-development",
+              "scene-continuity-and-coverage",
+              "api-rate-limit-recovery",
+              "eternities-hephaestus",
+              "narrative-structure-and-revision"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "imaginative-concept-development",
+              "scene-continuity-and-coverage",
+              "api-rate-limit-recovery",
+              "eternities-hephaestus",
+              "narrative-structure-and-revision"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "Q08",
+          "kind": "refused-game",
+          "query": "Do not implement game runtime; compare the software license obligations.",
+          "owner": "eternities-arcadia",
+          "expect": "exclude",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "eternities-hephaestus",
+              "imaginative-concept-development",
+              "jurisdiction-aware-contract-review",
+              "eternities-daedalus"
+            ],
+            "count": 20,
+            "expectedMet": false,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-hephaestus",
+              "imaginative-concept-development",
+              "jurisdiction-aware-contract-review",
+              "eternities-daedalus",
+              "geospatial-coordinate-integrity"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-hephaestus",
+              "imaginative-concept-development",
+              "jurisdiction-aware-contract-review",
+              "eternities-daedalus",
+              "geospatial-coordinate-integrity"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "Q09",
+          "kind": "refused-game",
+          "query": "Avoid reviewing the license, but implement game runtime camera controls.",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "eternities-hephaestus",
+              "scene-continuity-and-coverage",
+              "eternities-daedalus",
+              "imaginative-concept-development"
+            ],
+            "count": 12,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-arcadia",
+              "eternities-hephaestus",
+              "scene-continuity-and-coverage",
+              "eternities-daedalus",
+              "imaginative-concept-development"
+            ],
+            "count": 12,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "eternities-hephaestus",
+              "scene-continuity-and-coverage",
+              "eternities-daedalus",
+              "imaginative-concept-development"
+            ],
+            "count": 12,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "Q10",
+          "kind": "refused-game",
+          "query": "Never develop a game scene. Instead, integrate our glTF mesh in Three.js.",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "imaginative-concept-development",
+              "scene-continuity-and-coverage",
+              "narrative-structure-and-revision",
+              "eternities-daedalus"
+            ],
+            "count": 6,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-arcadia",
+              "imaginative-concept-development",
+              "scene-continuity-and-coverage",
+              "narrative-structure-and-revision",
+              "eternities-daedalus"
+            ],
+            "count": 6,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "imaginative-concept-development",
+              "scene-continuity-and-coverage",
+              "narrative-structure-and-revision",
+              "eternities-daedalus"
+            ],
+            "count": 6,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "Q11",
+          "kind": "negative-purpose",
+          "query": "Do not build a game. Instead audit its runtime scene for collision defects.",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "dependency-supply-chain-integrity",
+              "scene-continuity-and-coverage",
+              "accessibility-audit-and-remediation",
+              "api-rate-limit-recovery"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "dependency-supply-chain-integrity",
+              "scene-continuity-and-coverage",
+              "accessibility-audit-and-remediation",
+              "api-rate-limit-recovery",
+              "narrative-structure-and-revision"
+            ],
+            "count": 20,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "dependency-supply-chain-integrity",
+              "scene-continuity-and-coverage",
+              "accessibility-audit-and-remediation",
+              "api-rate-limit-recovery"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "Q12",
+          "kind": "scope-control",
+          "query": "Never audit game code; build a word count service and give only the result.",
+          "owner": null,
+          "expect": "nonempty",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "service-observability-and-slo-design",
+              "eternities-daedalus",
+              "eternities-arcadia",
+              "bounded-service-shutdown",
+              "accessibility-audit-and-remediation"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "service-observability-and-slo-design",
+              "eternities-daedalus",
+              "bounded-service-shutdown",
+              "accessibility-audit-and-remediation",
+              "eternities-agora"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "service-observability-and-slo-design",
+              "eternities-daedalus",
+              "bounded-service-shutdown",
+              "accessibility-audit-and-remediation",
+              "eternities-agora"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "Q13",
+          "kind": "quoted-control",
+          "query": "The sample says `calculate 15 minus 4`. Review the sampling protocol and give only the result.",
+          "owner": null,
+          "expect": "nonempty",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-hermes",
+              "audio-dsp-integrity-review",
+              "docx-package-redline-and-render-verification",
+              "agricultural-observation-and-trial",
+              "ecological-sampling-and-detection-uncertainty"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-hermes",
+              "audio-dsp-integrity-review",
+              "docx-package-redline-and-render-verification",
+              "agricultural-observation-and-trial",
+              "ecological-sampling-and-detection-uncertainty"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-hermes",
+              "audio-dsp-integrity-review",
+              "docx-package-redline-and-render-verification",
+              "agricultural-observation-and-trial",
+              "ecological-sampling-and-detection-uncertainty"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "Q14",
+          "kind": "clarification",
+          "query": "Help me recover a task; ask one clarifying question before choosing a workflow.",
+          "owner": null,
+          "expect": "empty",
+          "need": "unknown",
+          "canonical": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "clarification-requested-before-selection",
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "clarification-requested-before-selection",
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "clarification-requested-before-selection",
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "Q15",
+          "kind": "refused-teaching",
+          "query": "Do not build a game but create a lesson explaining why gravity changes motion using an interactive model.",
+          "owner": "eternities-arcadia",
+          "expect": "exclude",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "evidence-linked-learning-design",
+              "eternities-arcadia",
+              "motion-design-and-animation-engineering",
+              "narrative-structure-and-revision",
+              "eternities-muse"
+            ],
+            "count": 20,
+            "expectedMet": false,
+            "ownerRank": 2,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "evidence-linked-learning-design",
+              "motion-design-and-animation-engineering",
+              "narrative-structure-and-revision",
+              "eternities-muse",
+              "accessibility-audit-and-remediation"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "evidence-linked-learning-design",
+              "motion-design-and-animation-engineering",
+              "narrative-structure-and-revision",
+              "eternities-muse",
+              "accessibility-audit-and-remediation"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "X01",
+          "kind": "ordinary-engineering",
+          "query": "Repair an API retry that duplicates committed writes.",
+          "owner": "api-rate-limit-recovery",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "api-contract-design-and-evolution",
+              "api-rate-limit-recovery",
+              "accessibility-audit-and-remediation",
+              "bounded-verified-object-ingestion",
+              "eternities-daedalus"
+            ],
+            "count": 17,
+            "expectedMet": true,
+            "ownerRank": 2,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "api-contract-design-and-evolution",
+              "api-rate-limit-recovery",
+              "accessibility-audit-and-remediation",
+              "bounded-verified-object-ingestion",
+              "eternities-daedalus"
+            ],
+            "count": 17,
+            "expectedMet": true,
+            "ownerRank": 2,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "api-contract-design-and-evolution",
+              "api-rate-limit-recovery",
+              "accessibility-audit-and-remediation",
+              "bounded-verified-object-ingestion",
+              "eternities-daedalus"
+            ],
+            "count": 17,
+            "expectedMet": true,
+            "ownerRank": 2,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "X02",
+          "kind": "ordinary-engineering",
+          "query": "Preserve old clients while adding an optional field to our API.",
+          "owner": "api-contract-design-and-evolution",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "api-contract-design-and-evolution",
+              "api-rate-limit-recovery",
+              "robotics-test-ladder",
+              "formula-preserving-workbook-engineering",
+              "fp-ts-functional-refactoring"
+            ],
+            "count": 19,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "api-contract-design-and-evolution",
+              "api-rate-limit-recovery",
+              "robotics-test-ladder",
+              "formula-preserving-workbook-engineering",
+              "fp-ts-functional-refactoring"
+            ],
+            "count": 19,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "api-contract-design-and-evolution",
+              "api-rate-limit-recovery",
+              "robotics-test-ladder",
+              "formula-preserving-workbook-engineering",
+              "fp-ts-functional-refactoring"
+            ],
+            "count": 19,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "X03",
+          "kind": "ordinary-memory",
+          "query": "Resume our project from a stale checkpoint and verify current state.",
+          "owner": "memory-retention-and-recovery",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "memory-retention-and-recovery",
+              "experiment-artifact-lineage",
+              "long-horizon-work-continuity",
+              "release-script-safety",
+              "infrastructure-plan-apply-isolation"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "memory-retention-and-recovery",
+              "experiment-artifact-lineage",
+              "long-horizon-work-continuity",
+              "release-script-safety",
+              "infrastructure-plan-apply-isolation"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "memory-retention-and-recovery",
+              "experiment-artifact-lineage",
+              "long-horizon-work-continuity",
+              "release-script-safety",
+              "infrastructure-plan-apply-isolation"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "X04",
+          "kind": "ordinary-data",
+          "query": "Merge two CSV exports with conflicting keys and missing totals.",
+          "owner": "eternities-atlas",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-atlas",
+              "git-change-integration-and-recovery",
+              "semantic-implementation-diff",
+              "completeness-and-consistency-audit",
+              "ecological-sampling-and-detection-uncertainty"
+            ],
+            "count": 14,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-atlas",
+              "git-change-integration-and-recovery",
+              "semantic-implementation-diff",
+              "completeness-and-consistency-audit",
+              "ecological-sampling-and-detection-uncertainty"
+            ],
+            "count": 13,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-atlas",
+              "git-change-integration-and-recovery",
+              "semantic-implementation-diff",
+              "completeness-and-consistency-audit",
+              "ecological-sampling-and-detection-uncertainty"
+            ],
+            "count": 13,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "X05",
+          "kind": "ordinary-research",
+          "query": "Compare model outputs using held-out tasks and counterbalanced evaluation.",
+          "owner": "counterbalanced-agent-evaluation",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "counterbalanced-agent-evaluation",
+              "vendor-evaluation-and-exit-planning",
+              "scientific-surrogate-validation",
+              "eternities-phoenix",
+              "evidence-linked-learning-design"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "counterbalanced-agent-evaluation",
+              "vendor-evaluation-and-exit-planning",
+              "scientific-surrogate-validation",
+              "eternities-phoenix",
+              "evidence-linked-learning-design"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "counterbalanced-agent-evaluation",
+              "vendor-evaluation-and-exit-planning",
+              "scientific-surrogate-validation",
+              "eternities-phoenix",
+              "evidence-linked-learning-design"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "X06",
+          "kind": "ordinary-data",
+          "query": "Reproject the map layers to repair wrong coordinate axes.",
+          "owner": "geospatial-coordinate-integrity",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "geospatial-coordinate-integrity",
+              "eternities-arcadia",
+              "interpersonal-understanding-and-dialogue",
+              "accessibility-audit-and-remediation",
+              "eternities-daedalus"
+            ],
+            "count": 17,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "geospatial-coordinate-integrity",
+              "interpersonal-understanding-and-dialogue",
+              "accessibility-audit-and-remediation",
+              "eternities-daedalus",
+              "genomic-coordinate-assembly-and-variant-gates"
+            ],
+            "count": 16,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "geospatial-coordinate-integrity",
+              "interpersonal-understanding-and-dialogue",
+              "accessibility-audit-and-remediation",
+              "eternities-daedalus",
+              "genomic-coordinate-assembly-and-variant-gates"
+            ],
+            "count": 16,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "X07",
+          "kind": "ordinary-interface",
+          "query": "Animate the menu after a resize and retain its velocity.",
+          "owner": "motion-design-and-animation-engineering",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "motion-design-and-animation-engineering",
+              "eternities-arcadia",
+              "api-rate-limit-recovery",
+              "memory-retention-and-recovery",
+              "infrastructure-plan-apply-isolation"
+            ],
+            "count": 14,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "motion-design-and-animation-engineering",
+              "api-rate-limit-recovery",
+              "memory-retention-and-recovery",
+              "infrastructure-plan-apply-isolation",
+              "api-contract-design-and-evolution"
+            ],
+            "count": 13,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "motion-design-and-animation-engineering",
+              "api-rate-limit-recovery",
+              "memory-retention-and-recovery",
+              "infrastructure-plan-apply-isolation",
+              "api-contract-design-and-evolution"
+            ],
+            "count": 13,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "X08",
+          "kind": "ordinary-media",
+          "query": "Encode the supplied clips into a video with exact frame timing.",
+          "owner": "deterministic-video-composition-and-rendering",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "deterministic-video-composition-and-rendering",
+              "bounded-verified-object-ingestion",
+              "eternities-phoenix",
+              "cashflow-forecast-scenario-integrity",
+              "eternities-logos"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "deterministic-video-composition-and-rendering",
+              "bounded-verified-object-ingestion",
+              "eternities-phoenix",
+              "cashflow-forecast-scenario-integrity",
+              "eternities-logos"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "deterministic-video-composition-and-rendering",
+              "bounded-verified-object-ingestion",
+              "eternities-phoenix",
+              "cashflow-forecast-scenario-integrity",
+              "eternities-logos"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "T01",
+          "kind": "topic",
+          "query": "game",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "imaginative-concept-development"
+            ],
+            "count": 2,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-arcadia",
+              "imaginative-concept-development"
+            ],
+            "count": 2,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "imaginative-concept-development"
+            ],
+            "count": 2,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "T02",
+          "kind": "topic",
+          "query": "game.",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "imaginative-concept-development"
+            ],
+            "count": 2,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "imaginative-concept-development"
+            ],
+            "count": 1,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "imaginative-concept-development"
+            ],
+            "count": 2,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "T03",
+          "kind": "topic",
+          "query": "game design",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "imaginative-concept-development",
+              "eternities-arcadia",
+              "api-contract-design-and-evolution",
+              "bounded-parametric-design-iteration",
+              "columnar-ingestion-rollup-and-query-layout-design"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 2,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "imaginative-concept-development",
+              "api-contract-design-and-evolution",
+              "bounded-parametric-design-iteration",
+              "columnar-ingestion-rollup-and-query-layout-design",
+              "service-observability-and-slo-design"
+            ],
+            "count": 20,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "imaginative-concept-development",
+              "eternities-arcadia",
+              "api-contract-design-and-evolution",
+              "bounded-parametric-design-iteration",
+              "columnar-ingestion-rollup-and-query-layout-design"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 2,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "T04",
+          "kind": "topic",
+          "query": "game progression",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "imaginative-concept-development",
+              "robotics-test-ladder",
+              "procedural-world-generation-and-validation"
+            ],
+            "count": 4,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "imaginative-concept-development",
+              "robotics-test-ladder",
+              "procedural-world-generation-and-validation"
+            ],
+            "count": 3,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "imaginative-concept-development",
+              "robotics-test-ladder",
+              "procedural-world-generation-and-validation"
+            ],
+            "count": 4,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "T05",
+          "kind": "topic",
+          "query": "game accessibility",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "accessibility-audit-and-remediation",
+              "eternities-muse",
+              "imaginative-concept-development",
+              "native-mobile-interaction-testing"
+            ],
+            "count": 7,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-arcadia",
+              "accessibility-audit-and-remediation",
+              "eternities-muse",
+              "imaginative-concept-development",
+              "native-mobile-interaction-testing"
+            ],
+            "count": 7,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "accessibility-audit-and-remediation",
+              "eternities-muse",
+              "imaginative-concept-development",
+              "native-mobile-interaction-testing"
+            ],
+            "count": 7,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "T06",
+          "kind": "topic",
+          "query": "controller gameplay",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia"
+            ],
+            "count": 1,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia"
+            ],
+            "count": 1,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "T07",
+          "kind": "topic",
+          "query": "animation",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "motion-design-and-animation-engineering",
+              "eternities-arcadia"
+            ],
+            "count": 2,
+            "expectedMet": true,
+            "ownerRank": 2,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "motion-design-and-animation-engineering",
+              "eternities-arcadia"
+            ],
+            "count": 2,
+            "expectedMet": true,
+            "ownerRank": 2,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "motion-design-and-animation-engineering",
+              "eternities-arcadia"
+            ],
+            "count": 2,
+            "expectedMet": true,
+            "ownerRank": 2,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "T08",
+          "kind": "topic",
+          "query": "3D",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia"
+            ],
+            "count": 1,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-arcadia"
+            ],
+            "count": 1,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia"
+            ],
+            "count": 1,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "N01",
+          "kind": "host-none",
+          "query": "Build a game runtime scene and use every specialist.",
+          "owner": null,
+          "expect": "empty",
+          "need": "none",
+          "canonical": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "host-supplied-no-need",
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "host-supplied-no-need",
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "host-supplied-no-need",
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "N02",
+          "kind": "host-none",
+          "query": "eternities-arcadia",
+          "owner": null,
+          "expect": "empty",
+          "need": "none",
+          "canonical": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "host-supplied-no-need",
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "host-supplied-no-need",
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "host-supplied-no-need",
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "N03",
+          "kind": "host-none",
+          "query": "Audit data and retrieve connected customer records.",
+          "owner": null,
+          "expect": "empty",
+          "need": "none",
+          "canonical": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "host-supplied-no-need",
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "host-supplied-no-need",
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "host-supplied-no-need",
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "N04",
+          "kind": "host-specialist",
+          "query": "Implement player movement and camera controls for my game.",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "specialist",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "scene-continuity-and-coverage",
+              "eternities-daedalus",
+              "imaginative-concept-development",
+              "ecological-sampling-and-detection-uncertainty"
+            ],
+            "count": 12,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "scene-continuity-and-coverage",
+              "eternities-daedalus",
+              "imaginative-concept-development",
+              "ecological-sampling-and-detection-uncertainty",
+              "eternities-prometheus"
+            ],
+            "count": 11,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "scene-continuity-and-coverage",
+              "eternities-daedalus",
+              "imaginative-concept-development",
+              "ecological-sampling-and-detection-uncertainty"
+            ],
+            "count": 12,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "A01",
+          "kind": "arithmetic",
+          "query": "Calculate -2.25 * 3. Give only the result.",
+          "owner": null,
+          "expect": "empty",
+          "need": "unknown",
+          "canonical": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "A02",
+          "kind": "arithmetic",
+          "query": "What is 9 divided by -3? Give only the number.",
+          "owner": null,
+          "expect": "empty",
+          "need": "unknown",
+          "canonical": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "A03",
+          "kind": "live-control",
+          "query": "Verify totals across the invoices; calculate 8 plus 3 and give only the findings.",
+          "owner": null,
+          "expect": "nonempty",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "confirmed-destructive-reconstruction",
+              "docx-package-redline-and-render-verification",
+              "experiment-artifact-lineage",
+              "schema-migration-and-backfill-safety",
+              "native-mobile-interaction-testing"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "confirmed-destructive-reconstruction",
+              "docx-package-redline-and-render-verification",
+              "experiment-artifact-lineage",
+              "schema-migration-and-backfill-safety",
+              "native-mobile-interaction-testing"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "confirmed-destructive-reconstruction",
+              "docx-package-redline-and-render-verification",
+              "experiment-artifact-lineage",
+              "schema-migration-and-backfill-safety",
+              "native-mobile-interaction-testing"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "A04",
+          "kind": "refusal-control",
+          "query": "Lowercase the text RIVER. No need to audit it. Give only the text.",
+          "owner": null,
+          "expect": "empty",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "docx-package-redline-and-render-verification",
+              "service-observability-and-slo-design",
+              "interface-localization-and-bidirectionality",
+              "portable-speech-chunk-alignment",
+              "accessibility-audit-and-remediation"
+            ],
+            "count": 18,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "E01",
+          "kind": "exact-id",
+          "query": "eternities-arcadia",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "eternities-aegis",
+              "eternities-agora",
+              "eternities-architect",
+              "eternities-athena"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-arcadia",
+              "eternities-aegis",
+              "eternities-agora",
+              "eternities-architect",
+              "eternities-athena"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "eternities-aegis",
+              "eternities-agora",
+              "eternities-architect",
+              "eternities-athena"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "E02",
+          "kind": "exact-id",
+          "query": " ETERNITIES-ARCADIA ",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "eternities-aegis",
+              "eternities-agora",
+              "eternities-architect",
+              "eternities-athena"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-arcadia",
+              "eternities-aegis",
+              "eternities-agora",
+              "eternities-architect",
+              "eternities-athena"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "eternities-aegis",
+              "eternities-agora",
+              "eternities-architect",
+              "eternities-athena"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "E03",
+          "kind": "exact-id",
+          "query": "deterministic-video-composition-and-rendering",
+          "owner": "deterministic-video-composition-and-rendering",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "deterministic-video-composition-and-rendering",
+              "robotics-test-ladder",
+              "scene-continuity-and-coverage",
+              "docx-package-redline-and-render-verification",
+              "native-mobile-interaction-testing"
+            ],
+            "count": 8,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "deterministic-video-composition-and-rendering",
+              "robotics-test-ladder",
+              "scene-continuity-and-coverage",
+              "docx-package-redline-and-render-verification",
+              "native-mobile-interaction-testing"
+            ],
+            "count": 8,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "deterministic-video-composition-and-rendering",
+              "robotics-test-ladder",
+              "scene-continuity-and-coverage",
+              "docx-package-redline-and-render-verification",
+              "native-mobile-interaction-testing"
+            ],
+            "count": 8,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "E04",
+          "kind": "id-reference",
+          "query": "Inspect eternities-arcadia",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "eternities-aegis",
+              "eternities-agora",
+              "eternities-architect",
+              "eternities-athena"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-aegis",
+              "eternities-agora",
+              "eternities-architect",
+              "eternities-athena",
+              "eternities-atlas"
+            ],
+            "count": 20,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-aegis",
+              "eternities-agora",
+              "eternities-architect",
+              "eternities-athena",
+              "eternities-atlas"
+            ],
+            "count": 20,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "E05",
+          "kind": "id-reference",
+          "query": "Find the eternities-arcadia skill",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-omnibus",
+              "sovereign-skill-refinery",
+              "counterbalanced-agent-evaluation",
+              "imaginative-concept-development",
+              "eternities-arcadia"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 5,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-omnibus",
+              "sovereign-skill-refinery",
+              "counterbalanced-agent-evaluation",
+              "imaginative-concept-development",
+              "eternities-aegis"
+            ],
+            "count": 20,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-omnibus",
+              "sovereign-skill-refinery",
+              "counterbalanced-agent-evaluation",
+              "imaginative-concept-development",
+              "eternities-aegis"
+            ],
+            "count": 20,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "supplemental",
+      "total": 20,
+      "scored": 19,
+      "beforePass": 10,
+      "afterPass": 19,
+      "beforeFailures": [
+        "S01",
+        "S02",
+        "S03",
+        "S06",
+        "S07",
+        "S08",
+        "S09",
+        "S17",
+        "S20"
+      ],
+      "afterFailures": [],
+      "newRegressions": [],
+      "rows": [
+        {
+          "id": "S01",
+          "kind": "supplemental-localization",
+          "query": "Review the license obligations for these mesh assets.",
+          "owner": "eternities-arcadia",
+          "expect": "exclude",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "jurisdiction-aware-contract-review",
+              "eternities-arcadia",
+              "audio-dsp-integrity-review",
+              "completeness-and-consistency-audit",
+              "eternities-forge"
+            ],
+            "count": 16,
+            "expectedMet": false,
+            "ownerRank": 2,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "jurisdiction-aware-contract-review",
+              "eternities-arcadia",
+              "audio-dsp-integrity-review",
+              "completeness-and-consistency-audit",
+              "eternities-forge"
+            ],
+            "count": 16,
+            "expectedMet": false,
+            "ownerRank": 2,
+            "abstention": null,
+            "runtimePurposeReason": true
+          },
+          "after": {
+            "top5": [
+              "jurisdiction-aware-contract-review",
+              "audio-dsp-integrity-review",
+              "completeness-and-consistency-audit",
+              "eternities-forge",
+              "eternities-logos"
+            ],
+            "count": 15,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "S02",
+          "kind": "supplemental-localization",
+          "query": "Extract attribution obligations for the textures.",
+          "owner": "eternities-arcadia",
+          "expect": "exclude",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "jurisdiction-aware-contract-review",
+              "eternities-arcadia",
+              "bounded-parametric-design-iteration",
+              "approval-bound-private-session-mining",
+              "completeness-and-consistency-audit"
+            ],
+            "count": 7,
+            "expectedMet": false,
+            "ownerRank": 2,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "jurisdiction-aware-contract-review",
+              "eternities-arcadia",
+              "bounded-parametric-design-iteration",
+              "approval-bound-private-session-mining",
+              "completeness-and-consistency-audit"
+            ],
+            "count": 7,
+            "expectedMet": false,
+            "ownerRank": 2,
+            "abstention": null,
+            "runtimePurposeReason": true
+          },
+          "after": {
+            "top5": [
+              "jurisdiction-aware-contract-review",
+              "bounded-parametric-design-iteration",
+              "approval-bound-private-session-mining",
+              "completeness-and-consistency-audit",
+              "app-store-discovery-experiments"
+            ],
+            "count": 6,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "S03",
+          "kind": "supplemental-localization",
+          "query": "Audit the license for this 3D mesh.",
+          "owner": "eternities-arcadia",
+          "expect": "exclude",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "accessibility-audit-and-remediation",
+              "completeness-and-consistency-audit",
+              "app-store-discovery-experiments",
+              "eternities-mnemosyne"
+            ],
+            "count": 13,
+            "expectedMet": false,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-arcadia",
+              "accessibility-audit-and-remediation",
+              "completeness-and-consistency-audit",
+              "app-store-discovery-experiments",
+              "eternities-mnemosyne"
+            ],
+            "count": 13,
+            "expectedMet": false,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          },
+          "after": {
+            "top5": [
+              "accessibility-audit-and-remediation",
+              "completeness-and-consistency-audit",
+              "app-store-discovery-experiments",
+              "eternities-mnemosyne",
+              "dependency-supply-chain-integrity"
+            ],
+            "count": 12,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "S04",
+          "kind": "supplemental-localization",
+          "query": "Compare GPU prices for a workstation.",
+          "owner": "eternities-arcadia",
+          "expect": "characterize",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "counterbalanced-agent-evaluation",
+              "agricultural-observation-and-trial",
+              "eternities-omnibus",
+              "imaginative-concept-development"
+            ],
+            "count": 14,
+            "expectedMet": null,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-arcadia",
+              "counterbalanced-agent-evaluation",
+              "agricultural-observation-and-trial",
+              "eternities-omnibus",
+              "imaginative-concept-development"
+            ],
+            "count": 14,
+            "expectedMet": null,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          },
+          "after": {
+            "top5": [
+              "counterbalanced-agent-evaluation",
+              "agricultural-observation-and-trial",
+              "eternities-omnibus",
+              "imaginative-concept-development",
+              "product-discovery-and-prioritization"
+            ],
+            "count": 13,
+            "expectedMet": null,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "S05",
+          "kind": "supplemental-localization",
+          "query": "Build a cooperative puzzle game.",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "imaginative-concept-development",
+              "dependency-supply-chain-integrity",
+              "product-discovery-and-prioritization",
+              "api-rate-limit-recovery"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-arcadia",
+              "imaginative-concept-development",
+              "dependency-supply-chain-integrity",
+              "product-discovery-and-prioritization",
+              "api-rate-limit-recovery"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "imaginative-concept-development",
+              "dependency-supply-chain-integrity",
+              "product-discovery-and-prioritization",
+              "api-rate-limit-recovery"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "S06",
+          "kind": "supplemental-localization",
+          "query": "Build an accessible cooperative puzzle game.",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "accessibility-audit-and-remediation",
+              "imaginative-concept-development",
+              "native-mobile-interaction-testing",
+              "dependency-supply-chain-integrity"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "accessibility-audit-and-remediation",
+              "imaginative-concept-development",
+              "native-mobile-interaction-testing",
+              "dependency-supply-chain-integrity",
+              "product-discovery-and-prioritization"
+            ],
+            "count": 20,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "accessibility-audit-and-remediation",
+              "imaginative-concept-development",
+              "native-mobile-interaction-testing",
+              "dependency-supply-chain-integrity"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "S07",
+          "kind": "supplemental-localization",
+          "query": "Build an accessible, cooperative puzzle game.",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "accessibility-audit-and-remediation",
+              "imaginative-concept-development",
+              "native-mobile-interaction-testing",
+              "dependency-supply-chain-integrity"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "accessibility-audit-and-remediation",
+              "imaginative-concept-development",
+              "native-mobile-interaction-testing",
+              "dependency-supply-chain-integrity",
+              "product-discovery-and-prioritization"
+            ],
+            "count": 20,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "accessibility-audit-and-remediation",
+              "imaginative-concept-development",
+              "native-mobile-interaction-testing",
+              "dependency-supply-chain-integrity"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "S08",
+          "kind": "supplemental-localization",
+          "query": "Implement gameplay controls.",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-daedalus",
+              "eternities-arcadia",
+              "interface-localization-and-bidirectionality",
+              "bounded-service-shutdown",
+              "eternities-hermes"
+            ],
+            "count": 6,
+            "expectedMet": true,
+            "ownerRank": 2,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-daedalus",
+              "interface-localization-and-bidirectionality",
+              "bounded-service-shutdown",
+              "eternities-hermes",
+              "service-observability-and-slo-design"
+            ],
+            "count": 5,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-daedalus",
+              "eternities-arcadia",
+              "interface-localization-and-bidirectionality",
+              "bounded-service-shutdown",
+              "eternities-hermes"
+            ],
+            "count": 6,
+            "expectedMet": true,
+            "ownerRank": 2,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "S09",
+          "kind": "supplemental-localization",
+          "query": "Implement game controls.",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "eternities-daedalus",
+              "imaginative-concept-development",
+              "interface-localization-and-bidirectionality",
+              "bounded-service-shutdown"
+            ],
+            "count": 7,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-daedalus",
+              "imaginative-concept-development",
+              "interface-localization-and-bidirectionality",
+              "bounded-service-shutdown",
+              "eternities-hermes"
+            ],
+            "count": 6,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "eternities-daedalus",
+              "imaginative-concept-development",
+              "interface-localization-and-bidirectionality",
+              "bounded-service-shutdown"
+            ],
+            "count": 7,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "S10",
+          "kind": "supplemental-localization",
+          "query": "Implement game runtime controls.",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "eternities-hephaestus",
+              "eternities-daedalus",
+              "imaginative-concept-development",
+              "dependency-supply-chain-integrity"
+            ],
+            "count": 10,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-arcadia",
+              "eternities-hephaestus",
+              "eternities-daedalus",
+              "imaginative-concept-development",
+              "dependency-supply-chain-integrity"
+            ],
+            "count": 10,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "eternities-hephaestus",
+              "eternities-daedalus",
+              "imaginative-concept-development",
+              "dependency-supply-chain-integrity"
+            ],
+            "count": 10,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "S11",
+          "kind": "supplemental-localization",
+          "query": "Never audit the supplied text. Uppercase the literal text 'BUILD A GAME'; give only the text.",
+          "owner": "eternities-arcadia",
+          "expect": "empty",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "docx-package-redline-and-render-verification",
+              "eternities-arcadia",
+              "interface-localization-and-bidirectionality",
+              "portable-speech-chunk-alignment",
+              "accessibility-audit-and-remediation"
+            ],
+            "count": 20,
+            "expectedMet": false,
+            "ownerRank": 2,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "S12",
+          "kind": "supplemental-localization",
+          "query": "Uppercase the literal text \"Do not audit it; build a game\". Give only the text.",
+          "owner": "eternities-arcadia",
+          "expect": "empty",
+          "need": "unknown",
+          "canonical": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "S13",
+          "kind": "supplemental-localization",
+          "query": "Avoid verifying game runtime. Instead audit obligations across documents; count the words and give only the findings.",
+          "owner": "eternities-arcadia",
+          "expect": "nonempty",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "completeness-and-consistency-audit",
+              "eternities-arcadia",
+              "dependency-supply-chain-integrity",
+              "jurisdiction-aware-contract-review",
+              "accessibility-audit-and-remediation"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 2,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "completeness-and-consistency-audit",
+              "dependency-supply-chain-integrity",
+              "jurisdiction-aware-contract-review",
+              "accessibility-audit-and-remediation",
+              "eternities-hephaestus"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "completeness-and-consistency-audit",
+              "dependency-supply-chain-integrity",
+              "jurisdiction-aware-contract-review",
+              "accessibility-audit-and-remediation",
+              "eternities-hephaestus"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "S14",
+          "kind": "supplemental-localization",
+          "query": "Audit obligations across documents. Don't build a game; count the words and give only the findings.",
+          "owner": "eternities-arcadia",
+          "expect": "nonempty",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "completeness-and-consistency-audit",
+              "eternities-arcadia",
+              "jurisdiction-aware-contract-review",
+              "accessibility-audit-and-remediation",
+              "imaginative-concept-development"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 2,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "completeness-and-consistency-audit",
+              "jurisdiction-aware-contract-review",
+              "accessibility-audit-and-remediation",
+              "imaginative-concept-development",
+              "dependency-supply-chain-integrity"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "completeness-and-consistency-audit",
+              "jurisdiction-aware-contract-review",
+              "accessibility-audit-and-remediation",
+              "imaginative-concept-development",
+              "dependency-supply-chain-integrity"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "S15",
+          "kind": "supplemental-localization",
+          "query": "Do not build a game. Instead audit the game scene for collision defects.",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "scene-continuity-and-coverage",
+              "accessibility-audit-and-remediation",
+              "narrative-structure-and-revision",
+              "geospatial-coordinate-integrity"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-arcadia",
+              "scene-continuity-and-coverage",
+              "accessibility-audit-and-remediation",
+              "narrative-structure-and-revision",
+              "geospatial-coordinate-integrity"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "scene-continuity-and-coverage",
+              "accessibility-audit-and-remediation",
+              "narrative-structure-and-revision",
+              "geospatial-coordinate-integrity"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "S16",
+          "kind": "supplemental-localization",
+          "query": "Create a relaxing strategy game.",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "eternities-chorus",
+              "imaginative-concept-development",
+              "eternities-logos",
+              "eternities-orpheus"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-arcadia",
+              "eternities-chorus",
+              "imaginative-concept-development",
+              "eternities-logos",
+              "eternities-orpheus"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "eternities-chorus",
+              "imaginative-concept-development",
+              "eternities-logos",
+              "eternities-orpheus"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "S17",
+          "kind": "supplemental-localization",
+          "query": "Create a relaxing turn based strategy game.",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "eternities-chorus",
+              "imaginative-concept-development",
+              "product-discovery-and-prioritization",
+              "eternities-beacon"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-chorus",
+              "imaginative-concept-development",
+              "product-discovery-and-prioritization",
+              "eternities-beacon",
+              "structured-hiring-evaluation"
+            ],
+            "count": 20,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "eternities-chorus",
+              "imaginative-concept-development",
+              "product-discovery-and-prioritization",
+              "eternities-beacon"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "S18",
+          "kind": "supplemental-localization",
+          "query": "GAME",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "imaginative-concept-development"
+            ],
+            "count": 2,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-arcadia",
+              "imaginative-concept-development"
+            ],
+            "count": 2,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "imaginative-concept-development"
+            ],
+            "count": 2,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "S19",
+          "kind": "supplemental-localization",
+          "query": "ｇａｍｅ",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "imaginative-concept-development"
+            ],
+            "count": 2,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-arcadia",
+              "imaginative-concept-development"
+            ],
+            "count": 2,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "imaginative-concept-development"
+            ],
+            "count": 2,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "S20",
+          "kind": "supplemental-localization",
+          "query": "game!",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "imaginative-concept-development"
+            ],
+            "count": 2,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "imaginative-concept-development"
+            ],
+            "count": 1,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "imaginative-concept-development"
+            ],
+            "count": 2,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "parent-challenges",
+      "total": 4,
+      "scored": 4,
+      "beforePass": 2,
+      "afterPass": 3,
+      "beforeFailures": [
+        "PC01",
+        "PC02"
+      ],
+      "afterFailures": [
+        "PC02"
+      ],
+      "newRegressions": [],
+      "rows": [
+        {
+          "id": "PC01",
+          "kind": "parent-creation",
+          "query": "Build a real-time Three.js shader flame with sparks and responsive controls",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "motion-design-and-animation-engineering",
+              "eternities-atlas",
+              "scientific-surrogate-validation",
+              "eternities-arcadia",
+              "cashflow-forecast-scenario-integrity"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 4,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "motion-design-and-animation-engineering",
+              "eternities-atlas",
+              "scientific-surrogate-validation",
+              "cashflow-forecast-scenario-integrity",
+              "interface-localization-and-bidirectionality"
+            ],
+            "count": 20,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "motion-design-and-animation-engineering",
+              "eternities-atlas",
+              "scientific-surrogate-validation",
+              "eternities-arcadia",
+              "cashflow-forecast-scenario-integrity"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 4,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "PC02",
+          "kind": "parent-creation",
+          "query": "Make a WebGL particle portal I can orbit",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "PC03",
+          "kind": "scene-word-control",
+          "query": "Build a real-time Three.js shader flame scene with sparks and responsive controls",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "motion-design-and-animation-engineering",
+              "scene-continuity-and-coverage",
+              "eternities-atlas",
+              "scientific-surrogate-validation"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-arcadia",
+              "motion-design-and-animation-engineering",
+              "scene-continuity-and-coverage",
+              "eternities-atlas",
+              "scientific-surrogate-validation"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "motion-design-and-animation-engineering",
+              "scene-continuity-and-coverage",
+              "eternities-atlas",
+              "scientific-surrogate-validation"
+            ],
+            "count": 20,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "PC04",
+          "kind": "scene-word-control",
+          "query": "Make a WebGL particle portal scene I can orbit",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "need": "unknown",
+          "canonical": {
+            "top5": [
+              "scene-continuity-and-coverage",
+              "narrative-structure-and-revision",
+              "eternities-arcadia"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 3,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "scene-continuity-and-coverage",
+              "narrative-structure-and-revision",
+              "eternities-arcadia"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 3,
+            "abstention": null,
+            "runtimePurposeReason": true
+          },
+          "after": {
+            "top5": [
+              "scene-continuity-and-coverage",
+              "narrative-structure-and-revision",
+              "eternities-arcadia"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 3,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "camera",
+      "total": 2,
+      "scored": 2,
+      "beforePass": 1,
+      "afterPass": 2,
+      "beforeFailures": [
+        "CAM01"
+      ],
+      "afterFailures": [],
+      "newRegressions": [],
+      "rows": [
+        {
+          "id": "CAM01",
+          "query": "Our character is readable in a turntable but disappears at the gameplay camera; improve its silhouette without changing the art style.",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "narrative-structure-and-revision",
+              "scene-continuity-and-coverage",
+              "api-rate-limit-recovery",
+              "eternities-muse"
+            ],
+            "count": 15,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "narrative-structure-and-revision",
+              "scene-continuity-and-coverage",
+              "api-rate-limit-recovery",
+              "eternities-muse",
+              "eternities-oracle"
+            ],
+            "count": 14,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "narrative-structure-and-revision",
+              "scene-continuity-and-coverage",
+              "api-rate-limit-recovery",
+              "eternities-muse"
+            ],
+            "count": 15,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "CAM02",
+          "query": "Our character is readable in a turntable but disappears at the gameplay scene camera; improve its silhouette without changing the art style.",
+          "owner": "eternities-arcadia",
+          "expect": "include",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "scene-continuity-and-coverage",
+              "narrative-structure-and-revision",
+              "api-rate-limit-recovery",
+              "eternities-muse"
+            ],
+            "count": 15,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-arcadia",
+              "scene-continuity-and-coverage",
+              "narrative-structure-and-revision",
+              "api-rate-limit-recovery",
+              "eternities-muse"
+            ],
+            "count": 15,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "scene-continuity-and-coverage",
+              "narrative-structure-and-revision",
+              "api-rate-limit-recovery",
+              "eternities-muse"
+            ],
+            "count": 15,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "author-35-same-current-metadata",
+      "total": 35,
+      "scored": 35,
+      "beforePass": 35,
+      "afterPass": 35,
+      "beforeFailures": [],
+      "afterFailures": [],
+      "newRegressions": [],
+      "rows": [
+        {
+          "id": "N01",
+          "kind": "microtask",
+          "query": "What is 17 plus 26? Give only the number.",
+          "empty": true,
+          "basis": "Explicit arithmetic answer needs no workflow.",
+          "canonical": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "N02",
+          "kind": "microtask",
+          "query": "Give only the result: lowercase the literal text \"PBR MATERIAL COLLISION ANIMATION PACKAGED BUILD\".",
+          "empty": true,
+          "basis": "Asset terminology is literal data.",
+          "canonical": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "N03",
+          "kind": "microtask",
+          "query": "Do not audit the game assets or qualify a packaged build. Count the words in \"material coordinate collision animation\"; give only the number.",
+          "empty": true,
+          "basis": "Historical negative N06: refused work must not override the live counting request.",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "geospatial-coordinate-integrity",
+              "motion-design-and-animation-engineering"
+            ],
+            "count": 3,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "N04",
+          "kind": "microtask",
+          "query": "Avoid designing a robotics workflow. Uppercase the string “audit safety and verify collision”. Give only the text.",
+          "empty": true,
+          "basis": "Finite refusal plus a curly-quoted literal, no live design request.",
+          "canonical": {
+            "top5": [
+              "robotics-test-ladder",
+              "docx-package-redline-and-render-verification",
+              "eternities-aegis"
+            ],
+            "count": 3,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "N05",
+          "kind": "microtask",
+          "query": "Do not compare the proposals; just answer the grammar question: is “build” a verb?",
+          "empty": true,
+          "basis": "A declined comparison is not the requested grammar answer.",
+          "canonical": {
+            "top5": [
+              "approval-bound-private-session-mining",
+              "geospatial-coordinate-integrity",
+              "product-discovery-and-prioritization"
+            ],
+            "count": 3,
+            "expectedMet": false,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "explicit-limited-micro-task",
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "N06",
+          "kind": "host-no-need",
+          "query": "Alphabetize these labels: invoice, audio, memory, architecture.",
+          "need": "none",
+          "empty": true,
+          "basis": "Host supplies the need judgment for a simple task outside the finite lexical exclusions.",
+          "canonical": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "host-supplied-no-need",
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "host-supplied-no-need",
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "host-supplied-no-need",
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "N07",
+          "kind": "host-no-need",
+          "query": "Say thanks to the game accessibility team.",
+          "need": "none",
+          "empty": true,
+          "basis": "A courtesy message is not game qualification.",
+          "canonical": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "host-supplied-no-need",
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "host-supplied-no-need",
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "host-supplied-no-need",
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "P01",
+          "kind": "specific",
+          "query": "Integrate an imported glTF prop into our browser game. If the player leaves while it loads, the old scene must not attach it; release owned textures on remount without disposing shared assets.",
+          "owner": "eternities-arcadia",
+          "basis": "Game scene lifetime and imported asset ownership.",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "scene-continuity-and-coverage",
+              "release-script-safety"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-arcadia",
+              "scene-continuity-and-coverage",
+              "release-script-safety"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "scene-continuity-and-coverage",
+              "release-script-safety"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "P02",
+          "kind": "specific",
+          "query": "Our Unity character imports but the rig and root motion disagree with the movement controller.",
+          "owner": "eternities-arcadia",
+          "basis": "Skeletal import and gameplay motion ownership.",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "motion-design-and-animation-engineering",
+              "accessibility-audit-and-remediation"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-arcadia",
+              "motion-design-and-animation-engineering",
+              "accessibility-audit-and-remediation"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "motion-design-and-animation-engineering",
+              "accessibility-audit-and-remediation"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "P03",
+          "kind": "specific",
+          "query": "Check mesh units, up axis and collision proxies before packaging an Unreal scene.",
+          "owner": "eternities-arcadia",
+          "basis": "Technical 3D integration; a specific engine is evidence, not a required dependency.",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "geospatial-coordinate-integrity",
+              "scene-continuity-and-coverage"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-arcadia",
+              "geospatial-coordinate-integrity",
+              "scene-continuity-and-coverage"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "geospatial-coordinate-integrity",
+              "scene-continuity-and-coverage"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "P04",
+          "kind": "specific",
+          "query": "Integrate a glTF exhibit into a Three.js scene, validate material slots and release GPU resources when visitors leave.",
+          "owner": "eternities-arcadia",
+          "basis": "Interactive 3D integration can be outside a game.",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "release-script-safety",
+              "infrastructure-plan-apply-isolation"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-arcadia",
+              "release-script-safety",
+              "infrastructure-plan-apply-isolation"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          },
+          "after": {
+            "top5": [
+              "eternities-arcadia",
+              "release-script-safety",
+              "infrastructure-plan-apply-isolation"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": true
+          }
+        },
+        {
+          "id": "P05",
+          "kind": "specific",
+          "query": "Sample rate discontinuity in an audio DSP callback causes feedback instability.",
+          "owner": "audio-dsp-integrity-review",
+          "basis": "DSP callback and signal integrity.",
+          "canonical": {
+            "top5": [
+              "audio-dsp-integrity-review",
+              "api-rate-limit-recovery",
+              "eternities-orpheus"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "audio-dsp-integrity-review",
+              "api-rate-limit-recovery",
+              "eternities-orpheus"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "audio-dsp-integrity-review",
+              "api-rate-limit-recovery",
+              "eternities-orpheus"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "P06",
+          "kind": "specific",
+          "query": "Merge the supplied CSV exports by customer identifier, reconcile column names and keep rejected rows with their reasons.",
+          "owner": "eternities-atlas",
+          "basis": "Supplied tabular reconciliation; connected-source access is unnecessary.",
+          "canonical": {
+            "top5": [
+              "eternities-atlas",
+              "bounded-verified-object-ingestion",
+              "customer-support-triage-and-resolution"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "eternities-atlas",
+              "bounded-verified-object-ingestion",
+              "customer-support-triage-and-resolution"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "eternities-atlas",
+              "bounded-verified-object-ingestion",
+              "customer-support-triage-and-resolution"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "P07",
+          "kind": "specific",
+          "query": "Rewrite this draft in my own voice using these writing samples and preserve the facts.",
+          "owner": "voice-style-calibration",
+          "basis": "Sample-based authorial voice, not speech synthesis.",
+          "canonical": {
+            "top5": [
+              "voice-style-calibration",
+              "eternities-logos",
+              "narrative-structure-and-revision"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "voice-style-calibration",
+              "eternities-logos",
+              "narrative-structure-and-revision"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "voice-style-calibration",
+              "eternities-logos",
+              "narrative-structure-and-revision"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "P08",
+          "kind": "specific",
+          "query": "Choose a vendor before our contract renewal by comparing switching costs, exit options and observed service quality.",
+          "owner": "vendor-evaluation-and-exit-planning",
+          "basis": "Comparable vendor decision and exit planning.",
+          "canonical": {
+            "top5": [
+              "vendor-evaluation-and-exit-planning",
+              "jurisdiction-aware-contract-review",
+              "bounded-service-shutdown"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "vendor-evaluation-and-exit-planning",
+              "jurisdiction-aware-contract-review",
+              "bounded-service-shutdown"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "vendor-evaluation-and-exit-planning",
+              "jurisdiction-aware-contract-review",
+              "bounded-service-shutdown"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "P09",
+          "kind": "specific",
+          "query": "Reconcile reported cash flow and balance sheet statements, trace the ratios, and identify unexplained differences.",
+          "owner": "financial-statement-reconciliation",
+          "basis": "Statement reconciliation, not investment guidance.",
+          "canonical": {
+            "top5": [
+              "financial-statement-reconciliation",
+              "cashflow-forecast-scenario-integrity",
+              "completeness-and-consistency-audit"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "financial-statement-reconciliation",
+              "cashflow-forecast-scenario-integrity",
+              "completeness-and-consistency-audit"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "financial-statement-reconciliation",
+              "cashflow-forecast-scenario-integrity",
+              "completeness-and-consistency-audit"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "P10",
+          "kind": "specific",
+          "query": "Design crop and soil observation trials comparing two irrigation treatments with local weather and field notes.",
+          "owner": "agricultural-observation-and-trial",
+          "basis": "Locally grounded agricultural observation and small trials.",
+          "canonical": {
+            "top5": [
+              "agricultural-observation-and-trial",
+              "api-contract-design-and-evolution",
+              "evidence-linked-learning-design"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "agricultural-observation-and-trial",
+              "api-contract-design-and-evolution",
+              "evidence-linked-learning-design"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "agricultural-observation-and-trial",
+              "api-contract-design-and-evolution",
+              "evidence-linked-learning-design"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "P11",
+          "kind": "specific",
+          "query": "Compare the requirements with what we shipped and identify missing deliverables and contradictions across the documentation.",
+          "owner": "completeness-and-consistency-audit",
+          "basis": "Cross-artifact obligations and consistency.",
+          "canonical": {
+            "top5": [
+              "completeness-and-consistency-audit",
+              "vendor-evaluation-and-exit-planning",
+              "voice-style-calibration"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "completeness-and-consistency-audit",
+              "vendor-evaluation-and-exit-planning",
+              "voice-style-calibration"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "completeness-and-consistency-audit",
+              "vendor-evaluation-and-exit-planning",
+              "voice-style-calibration"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "P12",
+          "kind": "specific",
+          "query": "Resume from the previous checkpoint after verifying that saved decisions and old notes are still current.",
+          "owner": "memory-retention-and-recovery",
+          "basis": "Task record recovery with freshness checks.",
+          "canonical": {
+            "top5": [
+              "memory-retention-and-recovery",
+              "experiment-artifact-lineage",
+              "eternities-chorus"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "memory-retention-and-recovery",
+              "experiment-artifact-lineage",
+              "eternities-chorus"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "memory-retention-and-recovery",
+              "experiment-artifact-lineage",
+              "eternities-chorus"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "P13",
+          "kind": "specific",
+          "query": "Prepare a lesson where students change a model to explain why a bridge bends and compare their predictions with feedback.",
+          "owner": "evidence-linked-learning-design",
+          "basis": "Requested learner model, explanation and feedback.",
+          "canonical": {
+            "top5": [
+              "evidence-linked-learning-design",
+              "diagnostic-statistical-model-inference",
+              "eternities-prometheus"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "evidence-linked-learning-design",
+              "diagnostic-statistical-model-inference",
+              "eternities-prometheus"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "evidence-linked-learning-design",
+              "diagnostic-statistical-model-inference",
+              "eternities-prometheus"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "P14",
+          "kind": "specific",
+          "query": "Audit API schema evolution for absent versus null fields and mixed consumer versions.",
+          "owner": "api-contract-design-and-evolution",
+          "basis": "API consumer/provider compatibility.",
+          "canonical": {
+            "top5": [
+              "api-contract-design-and-evolution",
+              "schema-migration-and-backfill-safety",
+              "structured-output-contracts"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "api-contract-design-and-evolution",
+              "schema-migration-and-backfill-safety",
+              "structured-output-contracts"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "api-contract-design-and-evolution",
+              "schema-migration-and-backfill-safety",
+              "structured-output-contracts"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "P15",
+          "kind": "specific",
+          "query": "Freeze the assets and fonts and render a seekable frame-based encoded video; verify the exported duration and sound cues.",
+          "owner": "deterministic-video-composition-and-rendering",
+          "basis": "Explicit encoded video artifact.",
+          "canonical": {
+            "top5": [
+              "deterministic-video-composition-and-rendering",
+              "scene-continuity-and-coverage",
+              "product-discovery-and-prioritization"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "deterministic-video-composition-and-rendering",
+              "scene-continuity-and-coverage",
+              "product-discovery-and-prioritization"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "deterministic-video-composition-and-rendering",
+              "scene-continuity-and-coverage",
+              "product-discovery-and-prioritization"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "P16",
+          "kind": "specific",
+          "query": "Design deterministic procedural world chunks with shared edges and validate reachable progression.",
+          "owner": "procedural-world-generation-and-validation",
+          "basis": "Procedural world generation owns its narrower method.",
+          "canonical": {
+            "top5": [
+              "procedural-world-generation-and-validation",
+              "robotics-test-ladder",
+              "scene-continuity-and-coverage"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "procedural-world-generation-and-validation",
+              "robotics-test-ladder",
+              "scene-continuity-and-coverage"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "procedural-world-generation-and-validation",
+              "robotics-test-ladder",
+              "scene-continuity-and-coverage"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "X01",
+          "kind": "adjacent-exclusion",
+          "query": "Repair a GIS layer whose longitude and latitude columns were swapped. Establish the source CRS and transform it into documented projected units, then check independent control points.",
+          "owner": "geospatial-coordinate-integrity",
+          "exclude": [
+            "eternities-arcadia"
+          ],
+          "basis": "GIS coordinate operations, no game or 3D runtime request.",
+          "canonical": {
+            "top5": [
+              "geospatial-coordinate-integrity",
+              "symbolic-mathematics-python",
+              "eternities-arcadia"
+            ],
+            "count": 3,
+            "expectedMet": false,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "geospatial-coordinate-integrity",
+              "symbolic-mathematics-python",
+              "confirmed-destructive-reconstruction"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "geospatial-coordinate-integrity",
+              "symbolic-mathematics-python",
+              "confirmed-destructive-reconstruction"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "X02",
+          "kind": "adjacent-exclusion",
+          "query": "Fix an interactive drawer animation that jumps when a user reverses the drag midway. Preserve current position and velocity when the target changes, handle resize, and provide the reduced-motion transition.",
+          "owner": "motion-design-and-animation-engineering",
+          "exclude": [
+            "eternities-arcadia"
+          ],
+          "basis": "UI gesture continuity, no game runtime.",
+          "canonical": {
+            "top5": [
+              "motion-design-and-animation-engineering",
+              "eternities-arcadia",
+              "accessibility-audit-and-remediation"
+            ],
+            "count": 3,
+            "expectedMet": false,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "motion-design-and-animation-engineering",
+              "accessibility-audit-and-remediation",
+              "user-research-and-usability-study"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "motion-design-and-animation-engineering",
+              "accessibility-audit-and-remediation",
+              "user-research-and-usability-study"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "X03",
+          "kind": "adjacent-exclusion",
+          "query": "Render a 20-second encoded video from a seekable frame-based composition. Freeze the asset and font inputs, align the sound cues to exact frames, and check the exported duration.",
+          "owner": "deterministic-video-composition-and-rendering",
+          "exclude": [
+            "eternities-arcadia"
+          ],
+          "basis": "Frames and assets alone do not request playable runtime work.",
+          "canonical": {
+            "top5": [
+              "deterministic-video-composition-and-rendering",
+              "eternities-arcadia",
+              "molecular-observable-integrity"
+            ],
+            "count": 3,
+            "expectedMet": false,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "deterministic-video-composition-and-rendering",
+              "molecular-observable-integrity",
+              "audio-dsp-integrity-review"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "deterministic-video-composition-and-rendering",
+              "molecular-observable-integrity",
+              "audio-dsp-integrity-review"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "X04",
+          "kind": "adjacent-exclusion",
+          "query": "Review the supplied 3D asset license agreement. Extract redistribution and attribution obligations, termination triggers and liability clauses with document locators; leave jurisdiction-dependent conclusions open.",
+          "owner": "jurisdiction-aware-contract-review",
+          "exclude": [
+            "eternities-arcadia"
+          ],
+          "basis": "Legal obligation extraction, no technical asset integration.",
+          "canonical": {
+            "top5": [
+              "jurisdiction-aware-contract-review",
+              "eternities-logos",
+              "eternities-arcadia"
+            ],
+            "count": 3,
+            "expectedMet": false,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "jurisdiction-aware-contract-review",
+              "eternities-logos",
+              "bounded-service-shutdown"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "jurisdiction-aware-contract-review",
+              "eternities-logos",
+              "bounded-service-shutdown"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "X05",
+          "kind": "adjacent-exclusion",
+          "query": "Do not design a game or integrate meshes; repair the GIS layer by checking its source CRS and independent control points.",
+          "owner": "geospatial-coordinate-integrity",
+          "exclude": [
+            "eternities-arcadia"
+          ],
+          "basis": "Refused game work is not runtime evidence.",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "geospatial-coordinate-integrity",
+              "symbolic-mathematics-python"
+            ],
+            "count": 3,
+            "expectedMet": false,
+            "ownerRank": 2,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "geospatial-coordinate-integrity",
+              "symbolic-mathematics-python",
+              "knowledge-base-architecture-and-maintenance"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "geospatial-coordinate-integrity",
+              "symbolic-mathematics-python",
+              "knowledge-base-architecture-and-maintenance"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "X06",
+          "kind": "adjacent-exclusion",
+          "query": "The quoted brief says “integrate meshes and collision in a game scene”. Review only the supplied license agreement for attribution obligations and termination clauses.",
+          "owner": "jurisdiction-aware-contract-review",
+          "exclude": [
+            "eternities-arcadia"
+          ],
+          "basis": "Quoted game work is source material; the live task is contract review.",
+          "canonical": {
+            "top5": [
+              "jurisdiction-aware-contract-review",
+              "eternities-arcadia",
+              "imaginative-concept-development"
+            ],
+            "count": 3,
+            "expectedMet": false,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "jurisdiction-aware-contract-review",
+              "imaginative-concept-development",
+              "eternities-logos"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "jurisdiction-aware-contract-review",
+              "imaginative-concept-development",
+              "eternities-logos"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "A01",
+          "kind": "ambiguous",
+          "query": "Help me with recovery.",
+          "basis": "Recovery is underspecified. A lexical shortlist remains undecided.",
+          "canonical": {
+            "top5": [
+              "api-rate-limit-recovery",
+              "git-change-integration-and-recovery",
+              "eternities-phoenix"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "api-rate-limit-recovery",
+              "git-change-integration-and-recovery",
+              "eternities-phoenix"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "api-rate-limit-recovery",
+              "git-change-integration-and-recovery",
+              "eternities-phoenix"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "A02",
+          "kind": "ambiguous",
+          "query": "I need a model for this project.",
+          "basis": "Model could mean several domains; no single owner asserted.",
+          "canonical": {
+            "top5": [
+              "long-horizon-work-continuity",
+              "voice-style-calibration",
+              "diagnostic-statistical-model-inference"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "long-horizon-work-continuity",
+              "voice-style-calibration",
+              "diagnostic-statistical-model-inference"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "long-horizon-work-continuity",
+              "voice-style-calibration",
+              "diagnostic-statistical-model-inference"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "A03",
+          "kind": "ambiguous",
+          "query": "Scene assets and animation.",
+          "basis": "Topic-only query does not establish a task or permission.",
+          "canonical": {
+            "top5": [
+              "eternities-arcadia",
+              "scene-continuity-and-coverage",
+              "motion-design-and-animation-engineering"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "scene-continuity-and-coverage",
+              "motion-design-and-animation-engineering",
+              "narrative-structure-and-revision"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "scene-continuity-and-coverage",
+              "motion-design-and-animation-engineering",
+              "narrative-structure-and-revision"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "A04",
+          "kind": "ambiguous",
+          "query": "Help with recovery. Ask one clarifying question before selecting a specialist.",
+          "empty": true,
+          "basis": "Explicit clarification request precedes selection.",
+          "canonical": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "clarification-requested-before-selection",
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "clarification-requested-before-selection",
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [],
+            "count": 0,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": "clarification-requested-before-selection",
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "B01",
+          "kind": "mixed-positive",
+          "query": "Do not audit the supplied assets. Build a word count service with multilingual tokenization and validation.",
+          "nonempty": true,
+          "basis": "A separate affirmative implementation must stay discoverable.",
+          "canonical": {
+            "top5": [
+              "service-observability-and-slo-design",
+              "eternities-agora",
+              "eternities-daedalus"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "service-observability-and-slo-design",
+              "eternities-agora",
+              "eternities-daedalus"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "service-observability-and-slo-design",
+              "eternities-agora",
+              "eternities-daedalus"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": null,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        },
+        {
+          "id": "B02",
+          "kind": "mixed-positive",
+          "query": "Count the words in “game scene”, but audit obligations across the documents and give only the findings.",
+          "owner": "completeness-and-consistency-audit",
+          "basis": "A counting substep does not erase a live workflow.",
+          "canonical": {
+            "top5": [
+              "completeness-and-consistency-audit",
+              "scene-continuity-and-coverage",
+              "eternities-arcadia"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "before": {
+            "top5": [
+              "completeness-and-consistency-audit",
+              "scene-continuity-and-coverage",
+              "jurisdiction-aware-contract-review"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          },
+          "after": {
+            "top5": [
+              "completeness-and-consistency-audit",
+              "scene-continuity-and-coverage",
+              "jurisdiction-aware-contract-review"
+            ],
+            "count": 3,
+            "expectedMet": true,
+            "ownerRank": 1,
+            "abstention": null,
+            "runtimePurposeReason": false
+          }
+        }
+      ]
+    }
+  ]
+}

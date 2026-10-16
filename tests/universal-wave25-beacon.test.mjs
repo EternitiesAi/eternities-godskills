@@ -12,9 +12,9 @@ test('Beacon sponsorship route is text-only and preserves human decision boundar
   const method = await readFile(new URL('skills/eternities-beacon/references/creator-sponsorship-lifecycle.md', product), 'utf8');
   assert.match(skill, /creator sponsorship lifecycle/i);
   assert.ok(meta.resources.includes('references/creator-sponsorship-lifecycle.md'));
-  assert.equal(meta.triggers.at(-1), 'creator sponsorship obligation tracking with dated evidence');
-  assert.equal(meta.antiTriggers.at(-1), 'infer rights, disclosure, or media-use permission from generic wildcards, incomplete evidence, or an unreviewed broad-scope summary');
-  assert.equal(meta.resources.at(-1), 'references/creator-sponsorship-lifecycle.md');
+  assert.equal(meta.triggers.filter(value=>value==='creator sponsorship obligation tracking with dated evidence').length,1);
+  assert.equal(meta.antiTriggers.filter(value=>value==='infer rights, disclosure, or media-use permission from generic wildcards, incomplete evidence, or an unreviewed broad-scope summary').length,1);
+  assert.equal(meta.resources.filter(value=>value==='references/creator-sponsorship-lifecycle.md').length,1);
   assert.match(method, /proposedAt.*agreedAt.*deliveredAt.*verifiedAt.*reportedAt/is);
   assert.match(method, /declined.*decision time.*evidence/is);
   assert.match(method, /worldwide or indefinite grant.*may be possible/is);

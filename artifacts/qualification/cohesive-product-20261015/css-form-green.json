@@ -1,0 +1,54 @@
+{
+  "schema": "cohesive-maintained-check-v1",
+  "label": "css-form-green",
+  "start": "2026-10-16T06:10:24.986Z",
+  "finished": "2026-10-16T06:10:25.749Z",
+  "command": [
+    "node",
+    "--test",
+    "--test-concurrency=1",
+    "--test-reporter=tap",
+    "tests/cohesive-discovery-runtime-repair.test.mjs",
+    "tests/universal-wave7-discovery.test.mjs",
+    "tests/educational-discovery-revealed-v2.test.mjs",
+    "tests/wave29-atlas-serving-time-ranking-trace-v2.test.mjs",
+    "tests/wave29-atlas-serving-time-ranking-trace-v3.test.mjs",
+    "artifacts/qualification/cohesive-product-20261015/review-runtime-repair-avicenna/form-animation-regression.test.mjs"
+  ],
+  "exitCode": 0,
+  "error": null,
+  "stableSources": true,
+  "counters": {
+    "tests": 80,
+    "pass": 80,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "duration_ms": 668.4211
+  },
+  "failedLines": [],
+  "tapSha256": "648f046310084f2326363beff9e86b903ad2c3b42a1b1d1e80906f866face534",
+  "privateReceiptSha256": "7164a2f645c949bc81336c936de8fce09773b19f95697f2aeb3e7930a88f45c0",
+  "before": {
+    "product": {
+      "fileCount": 338,
+      "sha256": "c18d1f5e3d37792e1903674b2c985d553b026b4da7a706167c258488c8689fec"
+    },
+    "tests": {
+      "fileCount": 294,
+      "sha256": "06d6e485bee6a652667fb51a25bca1fcec7de2f796e05b474e708b4d3dd5bea4"
+    }
+  },
+  "after": {
+    "product": {
+      "fileCount": 338,
+      "sha256": "c18d1f5e3d37792e1903674b2c985d553b026b4da7a706167c258488c8689fec"
+    },
+    "tests": {
+      "fileCount": 294,
+      "sha256": "06d6e485bee6a652667fb51a25bca1fcec7de2f796e05b474e708b4d3dd5bea4"
+    }
+  },
+  "limits": "Executed locally on Windows. Detailed raw TAP and exact inventory retained in private task operation; no live-domain outcome or independent review follows from these tests."
+}

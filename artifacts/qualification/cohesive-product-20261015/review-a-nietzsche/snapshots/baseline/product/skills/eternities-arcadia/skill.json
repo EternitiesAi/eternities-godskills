@@ -1,0 +1,100 @@
+{
+  "id": "eternities-arcadia",
+  "category": "games",
+  "summary": "Connect game direction, imported 3D assets, runtime systems, player experience, accessibility, performance, and human release evidence.",
+  "triggers": [
+    "game direction",
+    "playable prototype",
+    "runtime game system",
+    "player experience",
+    "map approved player-facing requirements to game screens, states, and reachable flows",
+    "game accessibility",
+    "game release proof",
+    "spatial interaction",
+    "browser canvas resize pointer coordinates animation loops",
+    "hidden tab simulation delta focus pressed keys input",
+    "scene teardown stale asset loading GPU resource ownership",
+    "integrate imported glTF FBX meshes and models into Three.js Unity Unreal interactive scenes",
+    "check mesh units scale coordinate axes pivot and material slots after import",
+    "verify textures UV channels normal maps collision rigs animation and root motion in a game",
+    "qualify model dependencies and decoder files in packaged builds beyond editor preview"
+  ],
+  "antiTriggers": [
+    "routine isolated code edit",
+    "asset generation without a design decision",
+    "store or commercial action without release authority",
+    "unsupported fun or release claim"
+  ],
+  "taskTypes": [
+    "plan",
+    "build",
+    "verify",
+    "create"
+  ],
+  "related": [
+    "eternities-architect",
+    "eternities-daedalus",
+    "eternities-muse",
+    "eternities-orpheus"
+  ],
+  "resources": [
+    "references/methods.md",
+    "references/game-state-to-audio-cue.md",
+    "references/browser-runtime-lifecycle.md",
+    "references/requirement-screen-state-traceability.md",
+    "references/realtime-asset-integration.md"
+  ],
+  "maturity": "instruction-reviewed",
+  "provenance": [
+    {
+      "kind": "pattern-reference",
+      "source": "CloudAI-X/threejs-skills@b1c623076c661fc9b03dac19292e825a5d106823:skills/threejs-loaders/SKILL.md",
+      "note": "Exact entrypoint SHA-256 03e0d7319692bb7eaa13cfada5d27d39840c7520c5ddc3fc8cc07b645dcba2e9 read as inert research. Dependency and loader-readiness concerns informed original acceptance guidance, not copied code or prose. Root license not established. Blanket rescaling, hardcoded decoder endpoints and uniform texture handling were not adopted."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "quodsoler/unreal-engine-skills@f3742d7b688690810df369802b90430324e380b9:skills/ue-materials-rendering/SKILL.md",
+      "note": "Exact entrypoint SHA-256 ff708688124bffa3d92f4cd849255bc956f3da23ae96566f44c67b6491bbf0f6 read as inert research. Material ownership and target-renderer compatibility informed original portable guidance; no C++ or prose copied. Root MIT notice observed. Source version/header-verification claims were not independently certified or imported as product claims."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "guiguiyan930-source/game-ui-design-workflow@1ec604638dd1a27198576206eb3e47632725a078:skills/game-ui-extension/SKILL.md",
+      "note": "Wave24-b02 exact body SHA-256 e2d963ba90a0f65818a227ad2d281c5495d856553247ddcdd02b836dc207ae86; reviewed as one proposal contributor. Its method relationship informed original traceability writing; no source prose or code was copied. Local root MIT observation is not rights clearance."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "guiguiyan930-source/game-ui-design-workflow@1ec604638dd1a27198576206eb3e47632725a078:skills/game-ui-product-design/SKILL.md",
+      "note": "Wave24-b02 exact body SHA-256 b88025acc08e4218439f5208a01a1b73ee26b1e8d974bef1f013339fa4ac2f19; reviewed as one proposal contributor. No upstream examples or visual-system text was copied; this route does not claim to implement that whole workflow. Local root MIT observation is not rights clearance."
+    },
+    {
+      "kind": "pattern-reference",
+      "source": "guiguiyan930-source/game-ui-design-workflow@1ec604638dd1a27198576206eb3e47632725a078:skills/game-ui-specification/SKILL.md",
+      "note": "Wave24-b02 exact body SHA-256 7800dec38e3434798c887f0acb79ff00705e92e54c19b7a1167c8f0831a7985c; reviewed as one proposal contributor. Original screen/state coverage method only; no source text copied. Local root MIT observation is not rights clearance."
+    },
+    {
+      "kind":"pattern-reference",
+      "source":"jeremylongworth-source/AgentSkills@ebf24796e884b9196bdb47373d53dcc547466730:skills/game-threejs-development/SKILL.md",
+      "note":"Full entrypoint and its threejs-game-checklist.md reference read as inert text. Entry SHA-256 7bd2cf992aee261a58407ea7acca1ddd369712820b4423754e6f6b04b6303e43; reference SHA-256 697bbd20f40b0fc63eb6a4178982d32a863dd3784c511025312c8e4c963d6c25. Lifecycle, sizing and interruption concerns informed independent engine-neutral writing. Blanket disposal was replaced with ownership-aware release; named engine dependencies and unverified GPU claims not adopted. Repository MIT notice observed, not legal clearance."
+    },
+    {
+      "kind": "source",
+      "source": "skills/eternities-arcadia/SKILL.md",
+      "note": "Historic entrypoint inspected for direction, runtime, experience, and proof routes; prose was not copied."
+    },
+    {
+      "kind": "reference",
+      "source": "skills/eternities-arcadia/references/operating-contract.md",
+      "note": "Historic game-state, runtime, playtest, and release evidence contracts informed the rewrite."
+    },
+    {
+      "kind": "extension-map",
+      "source": "data/godskill-extensions.v1.json",
+      "note": "Current spatial-interaction and real-time-system ownership fields informed the extension methods."
+    },
+    {
+      "kind": "authoring",
+      "source": "product/skills/eternities-arcadia/SKILL.md",
+      "note": "Independent-authoring note: this entrypoint and reference are newly written for the universal product; no superiority or certification claim is made."
+    }
+  ]
+}

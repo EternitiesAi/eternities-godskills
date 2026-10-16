@@ -1,0 +1,38 @@
+{
+  "schema": "recovery-dirac-source-read-set-v1",
+  "scope": "Sole supplied fixture and actually applied consumer methods, exact source bytes. Reviewer-only inputs are recorded separately in review-b-dirac.",
+  "sources": [
+    {
+      "path": "product/skills/memory-retention-and-recovery/SKILL.md",
+      "beforeSha256": "6621d8bb0924cd386831eae2004144d3006206359de4fdaa1d2385fcdca4d38e",
+      "afterSha256": "6621d8bb0924cd386831eae2004144d3006206359de4fdaa1d2385fcdca4d38e",
+      "stable": true
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/references/examples.md",
+      "beforeSha256": "e85739b8e8e517545d5862200f78e442dc23f59284f2e74751c7c39af8e5ece2",
+      "afterSha256": "e85739b8e8e517545d5862200f78e442dc23f59284f2e74751c7c39af8e5ece2",
+      "stable": true
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/SKILL.md",
+      "beforeSha256": "d0487cb608de140f11305ffcd63f837fbe56c018b029ccd70f0da04c97a51a0b",
+      "afterSha256": "d0487cb608de140f11305ffcd63f837fbe56c018b029ccd70f0da04c97a51a0b",
+      "stable": true
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/references/uncertain-effect-recovery.md",
+      "beforeSha256": "a12fcc1b51a85bcaa392fbc534ba3be74bd6aef184019ca78774e6615d8f8f7f",
+      "afterSha256": "a12fcc1b51a85bcaa392fbc534ba3be74bd6aef184019ca78774e6615d8f8f7f",
+      "stable": true
+    },
+    {
+      "path": "C:/Users/Dom/.codex/operations/godskills-cohesive-20261015/consumer-fixtures/recovery-handoff.md",
+      "beforeSha256": "9819e24a66782135de60040a4834c30bf2e1fd29b6e79f2ccb3fade0fdca1b32",
+      "afterSha256": "9819e24a66782135de60040a4834c30bf2e1fd29b6e79f2ccb3fade0fdca1b32",
+      "stable": true
+    }
+  ],
+  "forbiddenInputs": "acceptance.json, other consumer fixtures and parent assessment criteria were not opened",
+  "note": "Two supporting-reference identities were captured after their full first read, then checked again at close. Entrypoints and fixture were captured before body inspection."
+}

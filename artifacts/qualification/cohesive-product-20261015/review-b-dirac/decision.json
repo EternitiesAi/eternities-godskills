@@ -1,0 +1,136 @@
+{
+  "schema": "review-b-dirac-decision-v1",
+  "decision": "ACCEPT_BODY_AND_METADATA_SNAPSHOT_PENDING_PARENT_RELEASE_CHECKS",
+  "reviewer": "dirac",
+  "independence": "Reviewer authored lane C discovery, not these lane B bodies. No lane C code is in this review. Review was not blind: candidate/audit records were read as requested.",
+  "canonicalCommit": "c4e0fd244bf8b9fe5df3a33f22d076bd53b7812d",
+  "changedFiles": [
+    "product/skills/counterbalanced-agent-evaluation/SKILL.md",
+    "product/skills/eternities-daedalus/SKILL.md",
+    "product/skills/eternities-forge/SKILL.md",
+    "product/skills/eternities-hermes/SKILL.md",
+    "product/skills/eternities-mnemosyne/SKILL.md",
+    "product/skills/eternities-oracle/SKILL.md",
+    "product/skills/eternities-phoenix/SKILL.md",
+    "product/skills/long-horizon-work-continuity/SKILL.md",
+    "product/skills/memory-retention-and-recovery/SKILL.md",
+    "product/skills/eternities-phoenix/references/diagnostic-experiments-v2.md"
+  ],
+  "reviewedFiles": [
+    {
+      "path": "product/skills/counterbalanced-agent-evaluation/SKILL.md",
+      "sha256": "6242385832a491c290feeb636175210c839a75dcf6bd30526b5cf2f32c99fd7f",
+      "disposition": "accept-instruction-snapshot",
+      "reason": "A matched task pair is the aggregation unit; repeated easy runs cannot dominate difficult single attempts. Missing/invalid outcomes remain separate, and small development checks do not support a comparative claim."
+    },
+    {
+      "path": "product/skills/eternities-daedalus/SKILL.md",
+      "sha256": "1a26dfffe15ecfa2289aaa502e959c07f99eb518c9823ae930536a5c9f829e17",
+      "disposition": "accept-instruction-snapshot",
+      "reason": "Delivery follows the actual caller through wiring and observable behavior. Generated-code inspection and proportionate independent review are separated; a failed first check prompts scoped diagnosis rather than weakened assertions."
+    },
+    {
+      "path": "product/skills/eternities-forge/SKILL.md",
+      "sha256": "41ed525d0b547973ed7c9752d47c7f2fd936196ca8b2edc3b2d3066266c9b597",
+      "disposition": "accept-instruction-snapshot",
+      "reason": "A serial thin slice is sufficient when workers are unnecessary. A payload handoff cannot close an authorized integration stage, while another owner's stage remains a legitimate handoff boundary."
+    },
+    {
+      "path": "product/skills/eternities-hermes/SKILL.md",
+      "sha256": "a64957e27281ecd3b99a4bd3b2661d860ae0af8171ea630b3a9a01d5545c89cd",
+      "disposition": "accept-instruction-snapshot",
+      "reason": "Pure transformations avoid invented operation journals; partial-write batches retain per-item outcomes and safe replay. Unknown external outcomes still require reconciliation."
+    },
+    {
+      "path": "product/skills/eternities-mnemosyne/SKILL.md",
+      "sha256": "0d4b18975e93a30191c3371d7f3e4537be56aa6c021e75ee84a6d9210c8bed9a",
+      "disposition": "accept-instruction-snapshot",
+      "reason": "Recovery expands only for a decision-changing gap, and no-match, inaccessible records and stale bytes remain distinct. A compact packet is not represented as restored native history or persisted memory."
+    },
+    {
+      "path": "product/skills/eternities-oracle/SKILL.md",
+      "sha256": "528b78eeb7208203a0fca382d7a52276ddf12778df7da3c993b34f39747bf420",
+      "disposition": "accept-instruction-snapshot",
+      "reason": "Short answers can keep locators inline. Search expansion must address an unresolved claim; stopping search does not establish prior-art absence or turn copies into independent evidence."
+    },
+    {
+      "path": "product/skills/eternities-phoenix/SKILL.md",
+      "sha256": "b9d28316b61929e5dd4303aa68f82f21632ba5a44b9a6880b0aed1020694787f",
+      "disposition": "accept-instruction-snapshot",
+      "reason": "Nearest passing control and the first divergent boundary choose a discriminating probe. Repair can cross producer/consumer files within authority; failed interventions update diagnosis rather than repeat blindly."
+    },
+    {
+      "path": "product/skills/long-horizon-work-continuity/SKILL.md",
+      "sha256": "d0487cb608de140f11305ffcd63f837fbe56c018b029ccd70f0da04c97a51a0b",
+      "disposition": "accept-instruction-snapshot",
+      "reason": "The ready/held frontier promotes executable progress, checkpoints occur at meaningful boundaries, and input dependencies govern revalidation. Pauses, resource limits, live ownership and unknown-effect rules remain intact."
+    },
+    {
+      "path": "product/skills/memory-retention-and-recovery/SKILL.md",
+      "sha256": "6621d8bb0924cd386831eae2004144d3006206359de4fdaa1d2385fcdca4d38e",
+      "disposition": "accept-instruction-snapshot",
+      "reason": "Missing rationale is separated from observable current state, index failure from actual deletion, and summaries from native history. Unrelated ready work can proceed without reauthorizing uncertain effects."
+    },
+    {
+      "path": "product/skills/eternities-phoenix/references/diagnostic-experiments-v2.md",
+      "sha256": "0e90cd104135546419a996f0d1c0acd1e57f21ecc5c463225f9d86e7adfec227",
+      "disposition": "accept-instruction-snapshot",
+      "reason": "Predicted observations distinguish live hypotheses; controlled completion order challenges race fixes, and a successful rerun cannot erase intermittent evidence. Mitigation and causal identification remain distinct."
+    },
+    {
+      "path": "product/skills/eternities-phoenix/skill.json",
+      "sha256": "77a5338162ab934311464a2317eba256f12f8f51feb15cf7f4a84375c5f98797",
+      "disposition": "accept-integration-metadata-delta",
+      "reason": "Exactly one existing conditional resource added and one first-party authoring row added; other fields and existing provenance unchanged. No new rights clearance or live performance claim."
+    }
+  ],
+  "findings": [],
+  "bodyHashMismatches": [],
+  "staleSnapshot": false,
+  "knownIntegrationSteps": [
+    {
+      "action": "Refresh shared catalog/release after settled author bytes; run parent-controlled release/native installation and public CLI checks.",
+      "classification": "parent release checks, not a body defect; not performed by this reviewer"
+    }
+  ],
+  "checks": {
+    "declaredBodiesMatched": 9,
+    "changedFilesCompared": 10,
+    "canonicalBodiesCompared": 9,
+    "newReferenceAbsentAtCanonical": true,
+    "localMarkdownLinks": 24,
+    "brokenLinks": 0,
+    "auditBaselineMismatches": 0
+  },
+  "consumer": {
+    "path": "C:/Users/Dom/.codex/operations/godskills-cohesive-20261015/consumers/recovery-dirac/",
+    "resultFile": "result.json",
+    "implementationFile": "next-action.mjs",
+    "handoffFile": "handoff.md",
+    "localPass": 8,
+    "localFail": 0,
+    "validStates": 80,
+    "disposition": "actual local instruction-use output for supplied fictional task; not causal or comparative evaluation"
+  },
+  "authorCheckClassification": "Per parent coordination, lane B's 10 checks are historical author-applied toy checks, retained in lane-b/author-checks.mjs. They were not executed or treated as shipped runtime regressions or skill-effectiveness proof by this review.",
+  "limitations": [
+    "This acceptance binds only the exact reviewed instruction bytes and stated metadata fit, not unseen tasks or all 56 audited skills.",
+    "Existing instruction-reviewed metadata and historical review links do not transfer automatically to changed bytes.",
+    "Source provenance labels retained; no fresh upstream rights review or clearance.",
+    "Consumer code/tests are reviewer-authored and self-verified. No provider, real deployment, live worker, superiority or general performance outcome was measured."
+  ],
+  "additionalReviewedFiles": [
+    "product/skills/eternities-phoenix/skill.json"
+  ],
+  "completedIntegrationStep": {
+    "path": "product/skills/eternities-phoenix/skill.json",
+    "registeredResource": "references/diagnostic-experiments-v2.md",
+    "sha256": "77a5338162ab934311464a2317eba256f12f8f51feb15cf7f4a84375c5f98797",
+    "provenanceAddition": {
+      "kind": "authoring",
+      "source": "product/skills/eternities-phoenix/references/diagnostic-experiments-v2.md",
+      "note": "Original conditional diagnostic method for discriminating probes, controlled event ordering and neighboring repair controls. No external source prose, new rights clearance or live performance claim; release review is recorded separately."
+    },
+    "maturityInterpretation": "Unchanged historical maturity is not automatic acceptance of later bytes; this review accepts only the exact recorded instruction and metadata snapshot."
+  }
+}

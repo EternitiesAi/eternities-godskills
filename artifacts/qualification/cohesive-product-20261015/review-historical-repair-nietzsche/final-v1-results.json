@@ -1,0 +1,150 @@
+{
+  "startedAt": "2026-10-16T06:03:02.287Z",
+  "executedAt": "2026-10-16T06:03:03.390Z",
+  "nodeVersion": "v24.18.0",
+  "command": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "--test",
+    "--test-reporter=tap",
+    "tests/adaptive-evaluator-compatibility.test.mjs",
+    "tests/arcadia-asset-revision.test.mjs",
+    "tests/conditional-method-regression.test.mjs",
+    "tests/educational-discovery-revealed-v2.test.mjs",
+    "tests/universal-wave25-beacon.test.mjs",
+    "tests/nietzsche-historical-projection.test.mjs"
+  ],
+  "status": 0,
+  "error": null,
+  "counts": [
+    "# tests 90",
+    "# pass 90",
+    "# fail 0",
+    "# duration_ms 1052.3116"
+  ],
+  "failures": [],
+  "inputs": [
+    {
+      "path": "tests/adaptive-evaluator-compatibility.test.mjs",
+      "bytes": 14950,
+      "sha256": "36541742fd1a651e1edde4a1142ac0e48e20e507222ef791c6dd0cbfa07fa253"
+    },
+    {
+      "path": "tests/arcadia-asset-revision.test.mjs",
+      "bytes": 1928,
+      "sha256": "d1b8ed829417ce5b5d663cb5ceeee8acc42e7350db7794a70974d6913166cc02"
+    },
+    {
+      "path": "tests/conditional-method-regression.test.mjs",
+      "bytes": 29548,
+      "sha256": "86c6ace544c74bbc8f74c8d973b8076cfc88e75eb8de6eee8eea3ef63f760cce"
+    },
+    {
+      "path": "tests/educational-discovery-revealed-v2.test.mjs",
+      "bytes": 5103,
+      "sha256": "1eff90f1f23f0b9184881b199ec1476c2ede8effe8c9500d94277c45a67da3ac"
+    },
+    {
+      "path": "tests/universal-wave25-beacon.test.mjs",
+      "bytes": 2767,
+      "sha256": "4d3fb7c6ea3b3c9402c41e04363c998a0c33d7b7537d32b928cc5419fb248431"
+    },
+    {
+      "path": "tests/nietzsche-historical-projection.test.mjs",
+      "bytes": 5190,
+      "sha256": "59de662c34a9827111bda525b73cc46970d6f631639676fc88b688f2f8edba87"
+    },
+    {
+      "path": "tests/helpers/arcadia-asset-revision.mjs",
+      "bytes": 1739,
+      "sha256": "3d49bc29b9d584e16edfbb279246bd6b81b7633182b297d80b515ac60b472db1"
+    },
+    {
+      "path": "tests/helpers/atlas-discovery-revision.mjs",
+      "bytes": 1237,
+      "sha256": "2a4e402ec6a319fa240cea5ec03054a640dab8b7c936b703e7b0bbf5012a40df"
+    },
+    {
+      "path": "tests/helpers/nietzsche-historical-compatibility.mjs",
+      "bytes": 4670,
+      "sha256": "5f60e56f156ccf6de466132580951b7a1d6fdc33e7a072de7afdece6866c5fc8"
+    },
+    {
+      "path": "tests/helpers/nietzsche-cohesive-catalog-v1.json",
+      "bytes": 30206,
+      "sha256": "ebbc172fafd80a092402f124c800239130dc12d55ef2fb7694f4ad5d06ca1b7a"
+    },
+    {
+      "path": "tests/helpers/nietzsche-adaptive-package-input-v1.json",
+      "bytes": 3874,
+      "sha256": "538531951004f100fd557066ebb274306847f38ba514f4333f735b0dccd9b773"
+    },
+    {
+      "path": "tests/helpers/nietzsche-method-directory-before-cohesion.json",
+      "bytes": 11810,
+      "sha256": "412b4272987b119ba3edf1a9df44aeb75d6b372a90f1bdeabe92c5834bd5265d"
+    },
+    {
+      "path": "package.json",
+      "bytes": 4086,
+      "sha256": "babefbe4933100db21e8deaf329e3f4dc7bd81555ef6a6cd9ce8fa2ced1f354d"
+    },
+    {
+      "path": "product/catalog.json",
+      "bytes": 146817,
+      "sha256": "adfa5cfed9ac1c6a3ca8db26522e322aa5106ca031884a4de1d8a61dc1a41b36"
+    },
+    {
+      "path": "product/METHODS.v1.json",
+      "bytes": 32066,
+      "sha256": "902f8fca34b3e1fcc11eefcb10e463360f1a39d33ea0e6bb5265c06d63c3cbcb"
+    },
+    {
+      "path": "product/METHODS.v1.md",
+      "bytes": 27189,
+      "sha256": "212d8d993487700aa754a19aebd0c351de86ce8618b0849e727fac702d50897e"
+    },
+    {
+      "path": "product/release.json",
+      "bytes": 42765,
+      "sha256": "5f2638f564460f939f179b33dc558bd0a31f8d41ef74663cecb3dbf0a47aa3a3"
+    },
+    {
+      "path": "product/lib/product.mjs",
+      "bytes": 23970,
+      "sha256": "afd5689a4120420478995bee762e67cc7ce640f9ce633ae6c6a4f497efcff9bf"
+    },
+    {
+      "path": "product/lib/discovery.mjs",
+      "bytes": 19589,
+      "sha256": "ce74e5a9eafac393e8d39230f2d657847beac54a62574dea9df4303f7c0d4926"
+    },
+    {
+      "path": "product/lib/selection-boundary.mjs",
+      "bytes": 1603,
+      "sha256": "a7b0ed0d0c9805e9a2b97a74c0321ce263c15609e98996144df90fc1b7f0e60e"
+    },
+    {
+      "path": "product/lib/request-scope.mjs",
+      "bytes": 1314,
+      "sha256": "e9055f1bfa2a913c1f73e93f5fa652588963e63dd9094e46713786fe400877f2"
+    },
+    {
+      "path": "product/lib/method-directory.mjs",
+      "bytes": 7836,
+      "sha256": "22e1f0a6c16fcd04a3ff9029cabc3c7390381d3ac6bd89a45a395655f6a44180"
+    },
+    {
+      "path": "product/lib/skill-frontmatter.mjs",
+      "bytes": 2961,
+      "sha256": "66bfc5b6b56688d2996689f774b5b904ce517a3fda1ec35d4d567cbd63e3a96d"
+    },
+    {
+      "path": "product/bin/godskills.mjs",
+      "bytes": 4030,
+      "sha256": "a06774059755ec197839a1a0d8582effea9b13c2dc574ef94b14a78703d99e7f"
+    }
+  ],
+  "inputDrift": [],
+  "protectedFileCount": 95,
+  "protectedDrift": []
+}

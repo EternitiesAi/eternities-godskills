@@ -1,0 +1,20 @@
+{
+  "schema": "godskills-review-supplemental-read-set-v1",
+  "originalReadSet": {
+    "path": "read-set.json",
+    "sha256": "b2403437efa50b3e885d10348c9a47c4287ba46525dec5cf514c4713a425b097",
+    "unchanged": true
+  },
+  "files": [
+    {
+      "path": "D:/03-ARSENAL/warehouse/_operations/godskills-expansion-20261015/parent-publication-plan.json",
+      "sha256": "f993d7c2f11dad136fca86172692713b89a03405f1f5f9d48f78421ca3bc9ff3",
+      "scope": "Full final JSON reread, inert parent evidence.",
+      "history": "This plan was consulted during the stage move before the completed publication receipt was available. Its first-read hash was not captured. This hash binds the final full reread only; it is not a fabricated first-read receipt.",
+      "use": "Historical old/new source path mapping. Final publication and adopted source bytes are separately bound by the completed receipts and body hashes."
+    }
+  ],
+  "distinctEvidencePathsAcrossReadSets": 57,
+  "supplementalMetadataRead": "repair-recheck-v1.json contains the later Beacon skill.json hash and exact metadata-only repair checks.",
+  "limits": "No warehouse-wide verification is inferred from reading the plan, receipt or parent verification."
+}
