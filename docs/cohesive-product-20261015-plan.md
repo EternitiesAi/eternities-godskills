@@ -80,3 +80,31 @@ The local date rolled to October 16 during this same active batch. A fresh
 read-only remote check returned the same README and October 13 sweep hashes,
 with no October 14–16 sweep present. No duplicate body read or new research
 directive followed.
+
+## Completed release checkpoint — October 16
+
+The finite acceptance gates above are complete. The exact release record is
+[cohesive-product-release-20261016.md](cohesive-product-release-20261016.md).
+
+1. Author lanes accounted for all 93 complete entrypoint bodies; 19 changed and
+   74 were retained. Conditional reference reads are separately scoped.
+2. Six lightweight source snapshots were verified and published inertly to the
+   canonical warehouse; existing entries and revisions were preserved.
+3. Thirteen original conditional methods were added under existing owners. No
+   arbitrary new skill IDs or mandatory per-turn process was introduced.
+4. Demonstrated discovery defects were repaired with preserved negative cases;
+   all 13 exposed new-method discovery queries now find their intended owner
+   in the top three. This is not a general accuracy claim.
+5. Changed methods and implementation received separate independent reviews.
+   Three non-author applications were exercised and parent-checked. They remain
+   fictional-task applications, not comparative or live-domain outcome trials.
+6. The canonical merged suite passed 1,857 tests, zero failures and two disclosed
+   environment skips. The exported pack passed eight relocated CLI checks.
+   Implementation commit `253c55c00a80532d5a0fa5ec3ac5c946a3d98b9d` was pushed;
+   release `368d5a716bd3b8069ba5ba858f8db8f7fba8b19c36aa373fc62c19d8a2b55efb`
+   was installed with exact native/runtime manifests, verified rollback bytes
+   and all unrelated installed records preserved.
+
+All four batch workers are closed. No new automation was started. The unfinished
+historical quarry and broader real-world performance evaluation remain separate
+work; their gates were not weakened or declared complete by this checkpoint.

@@ -2,8 +2,9 @@
 
 This release deepens the existing portable product rather than making every
 source record a new installed skill. It starts at `c4e0fd2` and retains the 93
-skill IDs and 21 categories. Final integration and installation are pending
-while this record is being assembled; checked gates and exact identities are below.
+skill IDs and 21 categories. The implementation is merged and pushed at
+`253c55c00a80532d5a0fa5ec3ac5c946a3d98b9d`, and the exact content release is
+installed with verified rollback bytes. Checked gates and exact identities follow.
 
 ## Useful changes
 
@@ -64,6 +65,13 @@ An independent follow-up found ordinary CSS form animation attracting the game
 owner. The repair requires simulation or an explicit animation/render/frame loop
 for that browser-lifecycle path. The failed review and failing regression remain.
 
+The first canonical-checkout suite also recorded two failed Git source reads
+from the external warehouse. Both declared pinned bodies subsequently matched
+their original SHA-256 in direct checks (36 ms and 34 ms), without modifying
+source, implementation or tests. The failure receipt is preserved; the transient
+storage/process cause is not established conclusively. The unchanged full rerun
+is recorded separately, not substituted for the original failed evidence.
+
 Three actual non-author consumer applications used frozen fictional tasks:
 a four-week company decision, an interrupted-deployment reducer and handoff,
 and an appraisal of a contaminated evaluation claim. Their artifacts and
@@ -94,8 +102,15 @@ or live company, deployment, human-play or teaching outcomes.
   reference files and protected activation bytes remain byte-identical.
 - Final independent runtime and historical-compatibility reviews are READY.
   Parent acceptance verified 27 review bindings and all 632 current product/test
-  files against the passing suite. Upstream integration and backed-up
-  installation remain pending in this draft.
+  files against the passing suite. The canonical merged suite also passed
+  1,857 tests, with zero failures and the same two skips. Two unchanged baseline
+  tests retain their observed CRLF checkout bytes; their Git blobs match the
+  reviewed LF bytes exactly. No test logic was changed for the rerun.
+- All 93 managed native skills and the 337-file runtime manifest match the
+  published content release. The exact previous native/runtime inventories were
+  verified in a fresh rollback backup, and all 81 unrelated installed records
+  were preserved. See the
+  [installation verification](../artifacts/qualification/cohesive-product-20261015/installation-verification.json).
 
 The exact receipts are under
 `artifacts/qualification/cohesive-product-20261015/`, including

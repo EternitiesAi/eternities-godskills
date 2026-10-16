@@ -1,0 +1,30 @@
+{
+  "schema": "cohesive-merged-verification-v1",
+  "commit": "253c55c00a80532d5a0fa5ec3ac5c946a3d98b9d",
+  "startedUtc": "2026-10-16T06:23:53.502Z",
+  "finishedUtc": "2026-10-16T06:26:42.423Z",
+  "releaseId": "368d5a716bd3b8069ba5ba858f8db8f7fba8b19c36aa373fc62c19d8a2b55efb",
+  "matchedBefore": 632,
+  "matchedAfter": 632,
+  "checkoutExceptions": {
+    "tests/io.test.mjs": "aec6fdddc4049450f6eebfed92ea14efa7183fa63b0e190031988b931717d067",
+    "tests/release-certification.test.mjs": "5c10af8ebce8c2586b4333f8326476e2d0b0d1cf0a37a7c2b2f60da8700515e3"
+  },
+  "exitCode": 1,
+  "error": null,
+  "counters": {
+    "tests": 1859,
+    "pass": 1855,
+    "fail": 2,
+    "cancelled": 0,
+    "skipped": 2,
+    "todo": 0,
+    "duration_ms": 168411.1656
+  },
+  "outputSha256": "cdf0da32c66ee19a0a898c4e8e143e8e6334d0855caa073479e9faa07d2d9f14",
+  "failedLines": [
+    "not ok 278 - Athena contract exposes scientific validity and exact inert provenance",
+    "not ok 330 - attested continuity certification rebuilds from exact current artifacts"
+  ],
+  "limits": "Same Windows host; two unchanged baseline tests retain their preexisting exact CRLF checkout bytes while their Git blobs match the reviewed LF bytes. Two environment skips disclosed separately. No whole-quarry or live-domain performance claim."
+}

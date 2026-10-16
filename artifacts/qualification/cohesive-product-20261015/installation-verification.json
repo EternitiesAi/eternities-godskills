@@ -1,0 +1,40 @@
+{
+  "schema": "cohesive-product-delivery-v1",
+  "status": "PUSHED_INSTALLED_VERIFIED",
+  "observedUtc": "2026-10-16T06:30:56.545Z",
+  "releaseCommit": "253c55c00a80532d5a0fa5ec3ac5c946a3d98b9d",
+  "remoteMainAtVerification": "253c55c00a80532d5a0fa5ec3ac5c946a3d98b9d",
+  "previousReleaseId": "16933f1098cf51b562543edbaa54df966ca22ce6c5c404d9238704889d421c8b",
+  "releaseId": "368d5a716bd3b8069ba5ba858f8db8f7fba8b19c36aa373fc62c19d8a2b55efb",
+  "managedSkills": 93,
+  "categories": 21,
+  "refinedEntrypoints": 19,
+  "newConditionalReferences": 13,
+  "unrelatedInstalledRecordsPreserved": 81,
+  "backupVerified": true,
+  "backupVerification": "Exact previous-runtime and managed previous-skills inventories matched the pre-install snapshot; unrelated installed inventory was unchanged.",
+  "nativeManifestMatched": true,
+  "installedManifestFiles": 337,
+  "privateEvidenceSha256": {
+    "before": "c901f4822d42677c9e13e94c8da3072f443a6929d346f9554dc8e2aa96f366ad",
+    "preinstall": "099b866cce98632e6562e228aa73db097111a71557108ce48457b7dfeba44fef",
+    "after": "ee308fd5982c95bd3f2596f44c47a3e8c06e23072d03b0ee00fa0d8dbf4ada6a",
+    "installReceipt": "1549fdda4c121b7d4796013b53cb20c3048808730bfbb89fbd55ab258a135cd7"
+  },
+  "suite": {
+    "tests": 1859,
+    "pass": 1857,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 2,
+    "todo": 0,
+    "duration_ms": 139782.7313
+  },
+  "protectedFiles": {
+    "src/adaptive-activation.mjs": "9844aee1147f7129f3e37067424ccebb88ff478de1b7a9a9fb7306d5f2fdbd82",
+    "policies/adaptive-activation.v1.json": "b87bbfaddecb42417e57202173220bf240204d27b7de5fffc9e609eb18138939",
+    "artifacts/adaptive-activation/evidence.v1.json": "b55a5cb4f7ff039cc7f4027c165b2f151bad723d9030913076a4225342fbe8c5"
+  },
+  "wholeQuarryComplete": false,
+  "limits": "Completed finite cohesive-product upgrade. Historical R10 source obligations remain separate. Same-host Windows validation; neither every-agent compatibility nor general task-performance superiority is established."
+}
