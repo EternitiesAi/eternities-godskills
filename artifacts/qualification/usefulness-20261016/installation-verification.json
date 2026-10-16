@@ -1,0 +1,32 @@
+{
+  "schema": "godskills-usefulness-installation-verification-v1",
+  "status": "VERIFIED",
+  "observedUtc": "2026-10-16T08:11:09.524Z",
+  "sourceCommit": "f2d375c34d22b40fe16bbbb1b1f19b9d1f92d249",
+  "releaseId": "6fa86b80b1a2bb015ea3d747f990da14c763b359912c3a7954499be66817d574",
+  "previousReleaseId": "368d5a716bd3b8069ba5ba858f8db8f7fba8b19c36aa373fc62c19d8a2b55efb",
+  "managedSkills": 93,
+  "runtimeManifestFiles": 355,
+  "unrelatedRecordsPreserved": 81,
+  "changedNativeRecords": 10,
+  "addedNativeRecords": 8,
+  "backupExact": true,
+  "beforeInventorySha256": "6d6196142a5773a9582aa5f92a270e2bcba91c74cd352462be7636140b11e68b",
+  "preinstallInventorySha256": "617153fcb23a7775cd94050f93bdb72f322ebc99432a431d17ec81b2c5f7d429",
+  "afterInventorySha256": "b97503b6a20d7ccf19cbf433494b9dcc579301372c24c03f336b83de30be1b09",
+  "installerReceiptSha256": "f4ac490af7544e74096bb5ffe164a9fa80adaa426f5c9d446e48ea130e7e38e0",
+  "canonicalVerification": {
+    "manifest": "verified-content",
+    "passingWorktreeInputFiles": 704,
+    "canonicalByteMatches": 702,
+    "lineEndingOnlyDifferences": [
+      "tests/io.test.mjs",
+      "tests/release-certification.test.mjs"
+    ],
+    "historicalGitBlobsUnchanged": true,
+    "canonicalTargetedTests": 4,
+    "canonicalTargetedTestsPassed": 4,
+    "fullCanonicalRerun": false
+  },
+  "limits": "Exact local files installed and backup verified. App UI/cache refresh is not observed. Full maintained suite ran on the reviewed isolated worktree, not repeated on identical canonical product content."
+}

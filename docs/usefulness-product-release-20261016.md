@@ -1,8 +1,10 @@
 # Usefulness release: eight deeper methods
 
 The source, independent document reviews, full maintained suite and standalone
-export are verified. Exact content and qualification coordinates follow;
-installation is recorded separately after its transaction settles.
+export are verified. Implementation commit
+`f2d375c34d22b40fe16bbbb1b1f19b9d1f92d249` was fast-forwarded into canonical main
+and pushed. The exact content release is installed with a verified fresh rollback
+backup. Exact content and qualification coordinates follow.
 
 ## What changed
 
@@ -83,7 +85,21 @@ Exact reports and compact receipts are under
 `parent-integration.json`, `relocated-windows.json`, `relocated-linux.json`,
 the versioned method/discovery reviews and `review-prospect-route-v1/`.
 
-Publication and backed-up installation coordinates are pending the final transaction.
+The installed native skills and standalone runtime match release `6fa86b80...`.
+All 93 managed skill directories were verified; all 81 unrelated installed records
+were preserved. Exact before/after inventories and the previous native/runtime
+bytes were checked against a fresh rollback backup. See
+[installation verification](../artifacts/qualification/usefulness-20261016/installation-verification.json).
+The private rollback location is
+`C:/Users/Dom/.codex/operations/godskills-usefulness-20261016/rollback-backup`.
+File installation does not establish that an already-open agent has refreshed its
+cached catalog; fresh chats can load the updated files normally.
+
+Canonical validation matches the same 355-file content manifest. Of the 704
+passing-suite product/test inputs, 702 matched canonical bytes exactly; the other
+two are unchanged historical tests with checkout-only CRLF/LF differences. Their
+normalized content and Git blobs match, and all four tests in those two files
+passed in canonical main. The full suite was not redundantly rerun there.
 
 ## Preserved scope
 

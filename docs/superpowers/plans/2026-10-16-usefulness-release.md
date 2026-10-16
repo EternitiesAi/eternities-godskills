@@ -118,5 +118,7 @@ Zero live comparison calls were made; this is not a completed efficacy compariso
 The accepted product work continues under the spec's explicit isolation fallback.
 Eight methods and the discovery correction pass the 1,951-test maintained suite
 (1,949 pass, two disclosed skips), plus Windows and WSL-Linux relocated export checks.
-Task 5's publication and backed-up installation are the remaining transaction gates;
-their exact result belongs in `docs/usefulness-product-release-20261016.md`.
+Task 5's publication and backed-up installation are complete for this finite release;
+the exact result is in `docs/usefulness-product-release-20261016.md`. All workers
+are closed. No recurring automation was started, and whole-quarry completion is
+not claimed. The held matched-agent comparison remains a separate unresolved gate.
